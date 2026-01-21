@@ -1,4 +1,9 @@
-"""DiGA (German Digital Health Applications) directory scraper."""
+"""DiGA (German Digital Health Applications) directory scraper.
+
+This module uses a hybrid approach:
+- Playwright for reliable list scraping (all DTx entries with basic info)
+- browser-use for detail page scraping (AI-powered button clicking, dynamic content)
+"""
 import asyncio
 import json
 import re
@@ -12,10 +17,70 @@ from utils.translator import Translator
 
 
 class DiGAScraper(BaseScraper):
-    """Scraper for the German DiGA directory (diga.bfarm.de)."""
+    """Scraper for the German DiGA directory (diga.bfarm.de).
+    
+    Uses Playwright for the main list (reliable, complete data) and
+    browser-use for detail pages (AI assistance for dynamic content).
+    """
     
     # Fields that should be translated from German to English
     FIELDS_TO_TRANSLATE = ["description", "reason_for_delisting"]
+    
+    # JavaScript code for extracting DiGA entries from the directory page
+    EXTRACTION_JS = """
+    () => {
+        const entries = [];
+        const infoLinks = document.querySelectorAll('a[href*="/de/verzeichnis/"]');
+        
+        for (const link of infoLinks) {
+            const href = link.getAttribute('href');
+            if (!href || !href.match(/\\/de\\/verzeichnis\\/\\d+$/)) continue;
+            
+            // Find the card container with h1
+            let card = link.parentElement;
+            while (card && !card.querySelector('h1')) {
+                card = card.parentElement;
+            }
+            if (!card) continue;
+            
+            // Extract name from h1
+            const heading = card.querySelector('h1');
+            const name = heading ? heading.textContent.trim() : 'Unknown';
+            
+            // Find status and company
+            const infoDiv = heading?.parentElement;
+            let status = '';
+            let company = '';
+            
+            if (infoDiv) {
+                const text = infoDiv.textContent;
+                if (text.includes('Dauerhaft aufgenommen')) status = 'Dauerhaft aufgenommen';
+                else if (text.includes('Vorläufig aufgenommen')) status = 'Vorläufig aufgenommen';
+                else if (text.includes('Gestrichen')) status = 'Gestrichen';
+                
+                const parts = text.split('|');
+                if (parts.length > 1) {
+                    company = parts[parts.length - 1].trim();
+                }
+            }
+            
+            entries.push({
+                dtx_name: name,
+                company_provider: company || 'Unknown',
+                listing_status_de: status || 'Gestrichen',
+                source_url: 'https://diga.bfarm.de' + href
+            });
+        }
+        
+        // Deduplicate by URL
+        const seen = new Set();
+        return entries.filter(e => {
+            if (seen.has(e.source_url)) return false;
+            seen.add(e.source_url);
+            return true;
+        });
+    }
+    """
     
     def __init__(self, config_path: str = "config/germany.json"):
         """Initialize the DiGA scraper.
@@ -191,75 +256,99 @@ class DiGAScraper(BaseScraper):
         return dtx
     
     async def scrape_dtx_list(self) -> List[Dict]:
-        """Scrape the list of all DTx from the directory.
+        """Scrape the list of all DTx from the directory using Playwright.
+        
+        Uses direct DOM manipulation for reliable, complete data extraction.
+        This method:
+        1. Opens the DiGA directory page
+        2. Applies "All" filter to include delisted entries
+        3. Scrolls to load all entries (lazy loading)
+        4. Extracts data directly from the DOM using JavaScript
         
         Returns:
             List of dictionaries with basic DTx info (name, URL, status).
         """
-        browser = await self._create_browser()
+        print("Scraping DTx list using Playwright (direct DOM extraction)...")
         
-        task = f"""
-Go to {self.base_url} and extract information about ALL Digital Health Applications (DiGA) listed.
-
-For each DiGA entry on the page, extract:
-1. The name of the DiGA (from the heading/title)
-2. The company/provider name  
-3. The listing status (Dauerhaft aufgenommen, Vorläufig aufgenommen, or gestrichen/delisted)
-4. The URL to the detail page (the "Weitere Informationen zur DiGA" button/link)
-
-CRITICAL INSTRUCTIONS:
-- The page shows "X von Y DiGA werden angezeigt" - there are approximately 76 DiGA total
-- You MUST scroll to the very bottom of the page to load ALL entries
-- Keep scrolling until all entries are visible (the count should show all entries)
-- Extract EVERY SINGLE DiGA - do not stop early or skip any
-- If extraction is truncated, continue extracting from where you left off until you have ALL entries
-- The final list must include ALL DiGA from the directory
-
-For each entry, format as:
-- **[Name]**
-  - Provider: [Company name]
-  - Listing Status: [Status]
-  - Detail Page URL: [Full URL starting with https://]
-
-After extracting all entries, write them to a JSON file named diga_entries.json with this structure:
-[
-  {{
-    "dtx_name": "name of the DiGA",
-    "company_provider": "company name",
-    "listing_status_de": "Dauerhaft aufgenommen",
-    "source_url": "https://diga.bfarm.de/de/verzeichnis/XXXXX"
-  }}
-]
-
-IMPORTANT: The JSON file must contain ALL entries (approximately 76), not just a few. Do NOT use placeholders like "..." - include every single entry.
-"""
+        page = await self._create_page()
         
-        agent = await self._create_agent(task, browser)
-        history = await agent.run()
-        
-        # Debug: Print history structure
-        print(f"DEBUG: History type: {type(history)}")
-        print(f"DEBUG: History attributes: {dir(history)}")
-        if hasattr(history, 'final_result'):
-            print(f"DEBUG: final_result(): {history.final_result()}")
-        if hasattr(history, 'action_results'):
-            print(f"DEBUG: action_results: {history.action_results()}")
-        
-        # Extract the result from the agent's response
-        result = self._extract_json_from_response(history)
-        
-        # Add timestamp and translate status
-        for dtx in result:
-            dtx["last_scraped"] = datetime.utcnow().isoformat() + "Z"
-            dtx["listing_status"] = self.status_translations.get(
-                dtx.get("listing_status_de", ""),
-                dtx.get("listing_status_de", "Unknown")
-            )
-        
-        return result
+        try:
+            # Navigate to the directory with filter to include ALL entries (including delisted)
+            # The type=[] parameter shows all status types
+            url_with_all_filter = f"{self.base_url}?type=%5B%5D"
+            print(f"  Navigating to {url_with_all_filter}")
+            await page.goto(url_with_all_filter, wait_until="domcontentloaded", timeout=60000)
+            
+            # Wait for the page content to load
+            await page.wait_for_load_state("networkidle", timeout=30000)
+            await asyncio.sleep(3)  # Allow dynamic content to render
+            
+            # Check initial count
+            count_text = await page.evaluate("""
+                () => {
+                    const match = document.body.innerText.match(/(\\d+) von (\\d+) DiGA/);
+                    return match ? { displayed: parseInt(match[1]), total: parseInt(match[2]) } : null;
+                }
+            """)
+            if count_text:
+                print(f"  Initial state: {count_text['displayed']} of {count_text['total']} DiGA visible")
+            
+            # Scroll to load all entries (lazy loading)
+            print("  Scrolling to load all entries...")
+            previous_count = 0
+            for scroll_attempt in range(20):  # Max 20 scroll attempts
+                await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                await asyncio.sleep(0.5)
+                
+                # Check if all entries are loaded
+                current_count = await page.evaluate("""
+                    () => document.querySelectorAll('a[href*="/de/verzeichnis/"]').length
+                """)
+                
+                if current_count == previous_count:
+                    # No new entries loaded, probably done
+                    break
+                previous_count = current_count
+            
+            # Final count check
+            final_count = await page.evaluate("""
+                () => {
+                    const match = document.body.innerText.match(/(\\d+) von (\\d+) DiGA/);
+                    return match ? { displayed: parseInt(match[1]), total: parseInt(match[2]) } : null;
+                }
+            """)
+            if final_count:
+                print(f"  Final state: {final_count['displayed']} of {final_count['total']} DiGA visible")
+            
+            # Extract all entries using JavaScript
+            print("  Extracting data from DOM...")
+            entries = await page.evaluate(self.EXTRACTION_JS)
+            
+            print(f"  Extracted {len(entries)} DTx entries")
+            
+            # Add timestamp and translate status
+            for dtx in entries:
+                dtx["last_scraped"] = datetime.utcnow().isoformat() + "Z"
+                dtx["listing_status"] = self.status_translations.get(
+                    dtx.get("listing_status_de", ""),
+                    dtx.get("listing_status_de", "Unknown")
+                )
+            
+            return entries
+            
+        except Exception as e:
+            print(f"Error scraping DTx list: {e}")
+            raise
+        finally:
+            await page.close()
     
     async def scrape_dtx_details(self, dtx_basic: Dict) -> Dict:
-        """Scrape detailed information for a single DTx.
+        """Scrape detailed information for a single DTx using browser-use.
+        
+        This method uses browser-use (AI-powered) because detail pages require:
+        - Clicking "Mehr anzeigen" buttons to expand hidden sections
+        - Handling dynamic content that appears after interactions
+        - Navigating complex, varying page structures
         
         Args:
             dtx_basic: Dictionary with basic DTx info including source_url.
@@ -270,6 +359,8 @@ IMPORTANT: The JSON file must contain ALL entries (approximately 76), not just a
         source_url = dtx_basic.get("source_url")
         if not source_url:
             return dtx_basic
+        
+        print(f"    Using browser-use AI to extract details from {source_url}")
         
         browser = await self._create_browser()
         
