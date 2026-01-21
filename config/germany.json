@@ -1,0 +1,31 @@
+{
+  "country": "Germany",
+  "language": "de",
+  "output_language": "en",
+  "dtx_directory_url": "https://diga.bfarm.de/de/verzeichnis",
+  "status_filters": {
+    "all": "",
+    "permanent": "type=%5B%22active%22%5D",
+    "provisional": "type=%5B%22draft%22%5D",
+    "delisted": "type=%5B%22retired%22%5D"
+  },
+  "category_translations": {
+    "Atemwege": "Respiratory",
+    "Geschlechtsorgane, Nieren und Harnwege": "Genitourinary",
+    "Herz und Kreislauf": "Cardiovascular",
+    "Hormone und Stoffwechsel": "Hormones and Metabolism",
+    "Krebs": "Cancer",
+    "Muskeln, Knochen und Gelenke": "Musculoskeletal",
+    "Nervensystem": "Nervous System",
+    "Ohren": "Ears",
+    "Psyche": "Mental Health",
+    "Sonstige": "Other",
+    "Verdauung": "Digestive",
+    "Verletzungen": "Injuries"
+  },
+  "status_translations": {
+    "Dauerhaft aufgenommen": "Permanently listed",
+    "Vorläufig aufgenommen": "Provisionally listed",
+    "Gestrichen": "Delisted"
+  }
+}
