@@ -20,8 +20,9 @@ def cli():
 @click.option('--config', type=click.Path(exists=True), default='config/germany.json',
               help='Path to country configuration file')
 @click.option('--list-only', is_flag=True, help='Only scrape the list, not details')
+@click.option('--skip-details', is_flag=True, help='Scrape list but skip individual detail pages')
 @click.option('--no-translate', is_flag=True, help='Skip translation to English')
-def scrape_dtx(mode: str, config: str, list_only: bool, no_translate: bool):
+def scrape_dtx(mode: str, config: str, list_only: bool, skip_details: bool, no_translate: bool):
     """Scrape DTx data from the DiGA directory."""
     click.echo(f"Starting DTx scrape (mode: {mode}, config: {config})")
     
@@ -42,7 +43,7 @@ def scrape_dtx(mode: str, config: str, list_only: bool, no_translate: bool):
                 }
             else:
                 translate = not no_translate
-                click.echo(f"Scraping DTx data (mode: {scrape_mode}, translate: {translate})...")
+                click.echo(f"Scraping DTx data (mode: {scrape_mode}, translate: {translate}, skip_details: {skip_details})...")
                 
                 # Load existing data for incremental mode
                 existing_data = None
@@ -57,7 +58,8 @@ def scrape_dtx(mode: str, config: str, list_only: bool, no_translate: bool):
                 data = await scraper.scrape(
                     mode=scrape_mode, 
                     translate=translate,
-                    existing_data=existing_data
+                    existing_data=existing_data,
+                    skip_details=skip_details
                 )
             
             # Save data

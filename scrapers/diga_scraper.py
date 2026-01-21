@@ -35,6 +35,7 @@ class DiGAScraper(BaseScraper):
         mode: str = "full", 
         translate: bool = True,
         existing_data: Dict = None,
+        skip_details: bool = False,
         **kwargs
     ) -> Dict:
         """Main scraping method.
@@ -43,6 +44,7 @@ class DiGAScraper(BaseScraper):
             mode: "full" for complete refresh, "incremental" for updates only.
             translate: Whether to translate German text to English.
             existing_data: Existing DTx data for incremental comparison.
+            skip_details: If True, only scrape the list without detail pages.
             **kwargs: Additional arguments.
             
         Returns:
@@ -57,6 +59,17 @@ class DiGAScraper(BaseScraper):
         # Step 1: Get list of all DTx with basic info
         dtx_list = await self.scrape_dtx_list()
         print(f"Found {len(dtx_list)} DTx entries")
+        
+        # If skip_details, return just the list
+        if skip_details:
+            print("Skipping detail scraping (--skip-details flag)")
+            return {
+                "metadata": {
+                    "country": self.config.get("country", "Germany"),
+                    "source": "DiGA-Verzeichnis (BfArM)"
+                },
+                "dtx_list": dtx_list
+            }
         
         # For incremental mode, filter to only new/changed DTx
         if mode == "incremental" and existing_data:
@@ -188,28 +201,37 @@ class DiGAScraper(BaseScraper):
         task = f"""
 Go to {self.base_url} and extract information about ALL Digital Health Applications (DiGA) listed.
 
-For each DiGA entry, extract:
-1. The name of the DiGA (from the heading)
-2. The company/provider name
-3. The listing status (Dauerhaft aufgenommen, Vorläufig aufgenommen, or if there's a notice about being "gestrichen"/delisted)
-4. The URL to the detail page (the "Weitere Informationen zur DiGA" link)
+For each DiGA entry on the page, extract:
+1. The name of the DiGA (from the heading/title)
+2. The company/provider name  
+3. The listing status (Dauerhaft aufgenommen, Vorläufig aufgenommen, or gestrichen/delisted)
+4. The URL to the detail page (the "Weitere Informationen zur DiGA" button/link)
 
-IMPORTANT: 
-- The page shows "X von Y DiGA werden angezeigt" - you need to scroll down and get ALL DiGA entries, not just the first ones visible.
-- Scroll to the bottom to ensure all entries are loaded.
-- Include both active and delisted DiGA.
+CRITICAL INSTRUCTIONS:
+- The page shows "X von Y DiGA werden angezeigt" - there are approximately 76 DiGA total
+- You MUST scroll to the very bottom of the page to load ALL entries
+- Keep scrolling until all entries are visible (the count should show all entries)
+- Extract EVERY SINGLE DiGA - do not stop early or skip any
+- If extraction is truncated, continue extracting from where you left off until you have ALL entries
+- The final list must include ALL DiGA from the directory
 
-Return the data as a JSON array with this structure:
+For each entry, format as:
+- **[Name]**
+  - Provider: [Company name]
+  - Listing Status: [Status]
+  - Detail Page URL: [Full URL starting with https://]
+
+After extracting all entries, write them to a JSON file named diga_entries.json with this structure:
 [
   {{
     "dtx_name": "name of the DiGA",
     "company_provider": "company name",
     "listing_status_de": "Dauerhaft aufgenommen",
-    "source_url": "full URL to detail page"
+    "source_url": "https://diga.bfarm.de/de/verzeichnis/XXXXX"
   }}
 ]
 
-Return ONLY the JSON array, no additional text.
+IMPORTANT: The JSON file must contain ALL entries (approximately 76), not just a few. Do NOT use placeholders like "..." - include every single entry.
 """
         
         agent = await self._create_agent(task, browser)
@@ -333,13 +355,33 @@ Return ONLY the JSON object, no additional text.
             Parsed JSON data.
         """
         text = ""
+        attachment_path = None
         
-        # Method 1: Use final_result() - this is the primary way to get results
-        if hasattr(history, 'final_result') and callable(history.final_result):
+        # Method 1: Check action_results for attachment file path and extracted_content
+        if hasattr(history, 'action_results') and callable(history.action_results):
+            try:
+                results = history.action_results()
+                for result in reversed(results):
+                    if result and hasattr(result, 'is_done') and result.is_done:
+                        # Check for attachment file
+                        if hasattr(result, 'attachments') and result.attachments:
+                            for att in result.attachments:
+                                if att and att.endswith('.json'):
+                                    attachment_path = att
+                                    break
+                        # Get extracted content
+                        if hasattr(result, 'extracted_content') and result.extracted_content:
+                            text = str(result.extracted_content)
+                            print(f"DEBUG: Got text from is_done action_result, length: {len(text)}")
+                        break
+            except Exception as e:
+                print(f"DEBUG: Error getting action_results: {e}")
+        
+        # Method 2: Use final_result() if we don't have text yet
+        if not text and hasattr(history, 'final_result') and callable(history.final_result):
             try:
                 result = history.final_result()
                 if result:
-                    # The result might be a DoneResult object with text attribute
                     if hasattr(result, 'text'):
                         text = str(result.text)
                     else:
@@ -348,68 +390,202 @@ Return ONLY the JSON object, no additional text.
             except Exception as e:
                 print(f"DEBUG: Error getting final_result: {e}")
         
-        # Method 2: Use extracted_content() - contains all extracted data
-        if not text and hasattr(history, 'extracted_content') and callable(history.extracted_content):
-            try:
-                content = history.extracted_content()
-                if content:
-                    text = str(content)
-                    print(f"DEBUG: Got text from extracted_content(), length: {len(text)}")
-            except Exception as e:
-                print(f"DEBUG: Error getting extracted_content: {e}")
-        
-        # Method 3: Check action_results() for the data
-        if not text and hasattr(history, 'action_results') and callable(history.action_results):
-            try:
-                results = history.action_results()
-                for result in reversed(results):
-                    if result and hasattr(result, 'extracted_content') and result.extracted_content:
-                        text = str(result.extracted_content)
-                        print(f"DEBUG: Got text from action_results, length: {len(text)}")
-                        break
-            except Exception as e:
-                print(f"DEBUG: Error getting action_results: {e}")
-        
-        # Method 4: Convert history to string as last resort
-        if not text:
-            text = str(history)
-            print(f"DEBUG: Using str(history), length: {len(text)}")
+        # Method 3: Try to read the attachment file directly (most reliable!)
+        if attachment_path:
+            import os
+            if os.path.exists(attachment_path):
+                try:
+                    with open(attachment_path, 'r', encoding='utf-8') as f:
+                        file_content = f.read()
+                    data = json.loads(file_content)
+                    if expect_array and isinstance(data, list):
+                        print(f"DEBUG: Parsed JSON from attachment file: {len(data)} items")
+                        return data
+                    elif not expect_array and isinstance(data, dict):
+                        print(f"DEBUG: Parsed JSON object from attachment file")
+                        return data
+                except Exception as e:
+                    print(f"DEBUG: Could not read attachment file {attachment_path}: {e}")
         
         # Debug output
-        if len(text) > 0:
+        if text:
             print(f"DEBUG: First 1000 chars of text:\n{text[:1000]}")
         
-        # Try to find JSON in the text
-        if expect_array:
-            # Look for JSON array - use non-greedy match to find first complete array
-            patterns = [
-                r'\[\s*\{\s*"dtx_name"[\s\S]*?\}\s*\]',  # Specific pattern for DTx data
-                r'\[\s*\{[^[]*?\}\s*\]',  # Simple array with objects
-                r'\[[\s\S]*?\]',  # Any array (non-greedy)
-            ]
-            for pattern in patterns:
-                match = re.search(pattern, text)
-                if match:
-                    try:
-                        result = json.loads(match.group())
-                        if isinstance(result, list) and len(result) > 0:
-                            print(f"DEBUG: Successfully parsed JSON array with {len(result)} items using pattern: {pattern[:30]}...")
-                            return result
-                    except json.JSONDecodeError:
-                        continue
-        else:
-            match = re.search(r'\{[\s\S]*?\}', text)
-            if match:
-                try:
-                    return json.loads(match.group())
-                except json.JSONDecodeError:
-                    pass
+        # Method 4: Look for JSON in the Attachments section first (complete data)
+        # The browser-use agent often puts truncated JSON first, then full JSON after "Attachments:"
+        if text:
+            # Find JSON after attachment filename markers like "diga_entries.json:\n\n["
+            attachment_markers = ['.json:\n\n[', '.json:\n[', 'Attachments:\n\n[', 'Attachments:\n[']
+            for marker in attachment_markers:
+                marker_pos = text.find(marker)
+                if marker_pos != -1:
+                    # Find the start of JSON after the marker  
+                    json_start = text.find('[', marker_pos) if expect_array else text.find('{', marker_pos)
+                    if json_start != -1:
+                        extracted = self._parse_json_with_bracket_matching(text[json_start:], expect_array)
+                        if extracted is not None:
+                            print(f"DEBUG: Extracted JSON from attachments section: {len(extracted) if isinstance(extracted, list) else 'object'}")
+                            return extracted
+        
+        # Method 5: Try direct JSON parse
+        if text:
+            try:
+                data = json.loads(text)
+                if expect_array and isinstance(data, list):
+                    print(f"DEBUG: Direct JSON parse succeeded: {len(data)} items")
+                    return data
+                elif not expect_array and isinstance(data, dict):
+                    return data
+            except json.JSONDecodeError:
+                pass
+        
+        # Method 6: Use bracket matching on the full text (may get truncated version)
+        if text:
+            extracted = self._parse_json_with_bracket_matching(text, expect_array)
+            if extracted is not None:
+                print(f"DEBUG: Bracket matching succeeded: {len(extracted) if isinstance(extracted, list) else 'object'}")
+                return extracted
+        
+        # Method 7: Parse markdown-formatted extraction results from action_results
+        # This is a fallback when the agent uses placeholders instead of real JSON
+        if expect_array and hasattr(history, 'action_results') and callable(history.action_results):
+            try:
+                results = history.action_results()
+                all_entries = []
+                for result in results:
+                    if result and hasattr(result, 'extracted_content') and result.extracted_content:
+                        content = str(result.extracted_content)
+                        # Look for markdown entries like "**Name**\n   - Provider: ..."
+                        entries = self._parse_markdown_entries(content)
+                        all_entries.extend(entries)
+                
+                if all_entries:
+                    # Deduplicate by source_url
+                    seen_urls = set()
+                    unique_entries = []
+                    for entry in all_entries:
+                        url = entry.get('source_url', '')
+                        if url and url not in seen_urls:
+                            seen_urls.add(url)
+                            unique_entries.append(entry)
+                    
+                    print(f"DEBUG: Parsed {len(unique_entries)} entries from markdown extraction results")
+                    return unique_entries
+            except Exception as e:
+                print(f"DEBUG: Error parsing markdown: {e}")
         
         print("DEBUG: No valid JSON found in response")
-        # If no valid JSON found, return empty structure
-        if expect_array:
-            return []
-        return {}
+        return [] if expect_array else {}
+    
+    def _parse_markdown_entries(self, text: str) -> List[Dict]:
+        """Parse DiGA entries from markdown-formatted extraction results.
+        
+        Args:
+            text: Markdown text containing entries like:
+                1. **Name**
+                   - Provider: Company
+                   - Listing Status: Status
+                   - Detail Page URL: [url](full_url)
+        
+        Returns:
+            List of parsed entries as dictionaries.
+        """
+        entries = []
+        
+        # Pattern to match numbered entries with name in bold
+        # Handles both formats:
+        # 1. **Name**\n   - Provider: ...
+        # **Name**\n   - **Provider**: ...
+        entry_pattern = re.compile(
+            r'\d+\.\s*\*\*([^*]+)\*\*\s*\n'  # Name in bold after number
+            r'(?:.*?(?:Provider|Company)[:\s]*([^\n]+)\n)?'  # Provider line
+            r'(?:.*?(?:Listing Status|Status)[:\s]*([^\n]+)\n)?'  # Status line
+            r'(?:.*?(?:Detail Page URL|URL)[^\(]*\(([^\)]+)\))?',  # URL in markdown link
+            re.IGNORECASE | re.DOTALL
+        )
+        
+        for match in entry_pattern.finditer(text):
+            name = match.group(1).strip() if match.group(1) else None
+            provider = match.group(2).strip() if match.group(2) else None
+            status = match.group(3).strip() if match.group(3) else None
+            url = match.group(4).strip() if match.group(4) else None
+            
+            if name and url:
+                # Clean up provider (remove markdown formatting and artifacts)
+                if provider:
+                    provider = re.sub(r'\*+', '', provider).strip()
+                    # Remove leading slashes and "Provider:" prefix
+                    provider = re.sub(r'^[/\s]*(?:Provider)?[:\s]*', '', provider).strip()
+                
+                # Clean up status (remove markdown and leading artifacts)
+                if status:
+                    status = re.sub(r'\*+', '', status).strip()
+                    # Remove leading colon and spaces
+                    status = re.sub(r'^[:\s]+', '', status).strip()
+                
+                # Make sure URL is absolute
+                if url and not url.startswith('http'):
+                    url = f"https://diga.bfarm.de{url}"
+                
+                entries.append({
+                    'dtx_name': name,
+                    'company_provider': provider or 'Unknown',
+                    'listing_status_de': status or 'Unknown',
+                    'source_url': url
+                })
+        
+        return entries
+    
+    def _parse_json_with_bracket_matching(self, text: str, expect_array: bool = True) -> any:
+        """Parse JSON from text using bracket matching.
+        
+        Args:
+            text: Text containing JSON.
+            expect_array: If True, expect a JSON array; otherwise expect object.
+            
+        Returns:
+            Parsed JSON data or None if parsing fails.
+        """
+        start_char = '[' if expect_array else '{'
+        end_char = ']' if expect_array else '}'
+        
+        start = text.find(start_char)
+        if start == -1:
+            return None
+        
+        depth = 0
+        in_string = False
+        escape_next = False
+        
+        for i, char in enumerate(text[start:], start):
+            if escape_next:
+                escape_next = False
+                continue
+            if char == '\\':
+                escape_next = True
+                continue
+            if char == '"' and not escape_next:
+                in_string = not in_string
+                continue
+            if in_string:
+                continue
+            
+            if char == start_char:
+                depth += 1
+            elif char == end_char:
+                depth -= 1
+                if depth == 0:
+                    json_str = text[start:i+1]
+                    try:
+                        data = json.loads(json_str)
+                        if expect_array and isinstance(data, list):
+                            return data
+                        elif not expect_array and isinstance(data, dict):
+                            return data
+                    except json.JSONDecodeError:
+                        return None
+        
+        return None
     
     async def scrape_list_only(self) -> List[Dict]:
         """Scrape only the list of DTx without details.
