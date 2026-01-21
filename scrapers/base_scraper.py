@@ -79,7 +79,14 @@ class BaseScraper(ABC):
     async def close(self):
         """Close the browser and clean up resources."""
         if self.browser:
-            await self.browser.close()
+            # browser-use handles cleanup automatically, but try common methods
+            try:
+                if hasattr(self.browser, 'close'):
+                    await self.browser.close()
+                elif hasattr(self.browser, 'stop'):
+                    await self.browser.stop()
+            except Exception:
+                pass  # Browser cleanup is best-effort
             self.browser = None
     
     @abstractmethod

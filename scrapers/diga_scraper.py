@@ -215,6 +215,14 @@ Return ONLY the JSON array, no additional text.
         agent = await self._create_agent(task, browser)
         history = await agent.run()
         
+        # Debug: Print history structure
+        print(f"DEBUG: History type: {type(history)}")
+        print(f"DEBUG: History attributes: {dir(history)}")
+        if hasattr(history, 'final_result'):
+            print(f"DEBUG: final_result(): {history.final_result()}")
+        if hasattr(history, 'action_results'):
+            print(f"DEBUG: action_results: {history.action_results()}")
+        
         # Extract the result from the agent's response
         result = self._extract_json_from_response(history)
         
@@ -324,28 +332,80 @@ Return ONLY the JSON object, no additional text.
         Returns:
             Parsed JSON data.
         """
-        # Get the final result from history
-        if hasattr(history, 'final_result'):
-            text = str(history.final_result())
-        elif hasattr(history, 'result'):
-            text = str(history.result)
-        else:
-            # Try to get from the last message
+        text = ""
+        
+        # Method 1: Use final_result() - this is the primary way to get results
+        if hasattr(history, 'final_result') and callable(history.final_result):
+            try:
+                result = history.final_result()
+                if result:
+                    # The result might be a DoneResult object with text attribute
+                    if hasattr(result, 'text'):
+                        text = str(result.text)
+                    else:
+                        text = str(result)
+                    print(f"DEBUG: Got text from final_result(), length: {len(text)}")
+            except Exception as e:
+                print(f"DEBUG: Error getting final_result: {e}")
+        
+        # Method 2: Use extracted_content() - contains all extracted data
+        if not text and hasattr(history, 'extracted_content') and callable(history.extracted_content):
+            try:
+                content = history.extracted_content()
+                if content:
+                    text = str(content)
+                    print(f"DEBUG: Got text from extracted_content(), length: {len(text)}")
+            except Exception as e:
+                print(f"DEBUG: Error getting extracted_content: {e}")
+        
+        # Method 3: Check action_results() for the data
+        if not text and hasattr(history, 'action_results') and callable(history.action_results):
+            try:
+                results = history.action_results()
+                for result in reversed(results):
+                    if result and hasattr(result, 'extracted_content') and result.extracted_content:
+                        text = str(result.extracted_content)
+                        print(f"DEBUG: Got text from action_results, length: {len(text)}")
+                        break
+            except Exception as e:
+                print(f"DEBUG: Error getting action_results: {e}")
+        
+        # Method 4: Convert history to string as last resort
+        if not text:
             text = str(history)
+            print(f"DEBUG: Using str(history), length: {len(text)}")
+        
+        # Debug output
+        if len(text) > 0:
+            print(f"DEBUG: First 1000 chars of text:\n{text[:1000]}")
         
         # Try to find JSON in the text
-        # Look for array
         if expect_array:
-            match = re.search(r'\[[\s\S]*\]', text)
+            # Look for JSON array - use non-greedy match to find first complete array
+            patterns = [
+                r'\[\s*\{\s*"dtx_name"[\s\S]*?\}\s*\]',  # Specific pattern for DTx data
+                r'\[\s*\{[^[]*?\}\s*\]',  # Simple array with objects
+                r'\[[\s\S]*?\]',  # Any array (non-greedy)
+            ]
+            for pattern in patterns:
+                match = re.search(pattern, text)
+                if match:
+                    try:
+                        result = json.loads(match.group())
+                        if isinstance(result, list) and len(result) > 0:
+                            print(f"DEBUG: Successfully parsed JSON array with {len(result)} items using pattern: {pattern[:30]}...")
+                            return result
+                    except json.JSONDecodeError:
+                        continue
         else:
-            match = re.search(r'\{[\s\S]*\}', text)
+            match = re.search(r'\{[\s\S]*?\}', text)
+            if match:
+                try:
+                    return json.loads(match.group())
+                except json.JSONDecodeError:
+                    pass
         
-        if match:
-            try:
-                return json.loads(match.group())
-            except json.JSONDecodeError:
-                pass
-        
+        print("DEBUG: No valid JSON found in response")
         # If no valid JSON found, return empty structure
         if expect_array:
             return []

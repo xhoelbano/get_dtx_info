@@ -3,11 +3,9 @@ import os
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
-# Import Azure OpenAI
-try:
-    from browser_use import ChatAzureOpenAI
-except ImportError:
-    from langchain_openai import AzureChatOpenAI as ChatAzureOpenAI
+# Use langchain_openai for translation (more flexible API)
+from langchain_openai import AzureChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
 
 
 class Translator:
@@ -28,7 +26,7 @@ class Translator:
     def _setup_llm(self):
         """Setup the Azure OpenAI LLM."""
         deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o-mini")
-        return ChatAzureOpenAI(
+        return AzureChatOpenAI(
             model=deployment,
             api_key=os.getenv("AZURE_OPENAI_API_KEY"),
             azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
@@ -52,16 +50,17 @@ class Translator:
         if preserve_terms:
             preserve_note = f"\nPreserve these terms exactly as-is: {', '.join(preserve_terms)}"
         
-        prompt = f"""Translate the following text from German to English.
+        system_prompt = f"""You are a professional translator. Translate text from German to English.
 Keep the translation accurate and natural.
 Preserve any technical terms, codes (like ICD-10, NCT numbers), and proper nouns.{preserve_note}
-
-Text to translate:
-{text}
-
-Translation:"""
+Only return the translation, nothing else."""
         
-        response = await self.llm.ainvoke(prompt)
+        messages = [
+            SystemMessage(content=system_prompt),
+            HumanMessage(content=text)
+        ]
+        
+        response = await self.llm.ainvoke(messages)
         return response.content.strip()
     
     async def translate_batch(self, texts: List[str], preserve_terms: List[str] = None) -> List[str]:

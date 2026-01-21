@@ -29,6 +29,9 @@ def scrape_dtx(mode: str, config: str, list_only: bool, no_translate: bool):
         scraper = DiGAScraper(config_path=config)
         data_manager = DataManager()
         
+        # Use local variable to allow modification
+        scrape_mode = mode
+        
         try:
             if list_only:
                 click.echo("Scraping DTx list only...")
@@ -39,26 +42,26 @@ def scrape_dtx(mode: str, config: str, list_only: bool, no_translate: bool):
                 }
             else:
                 translate = not no_translate
-                click.echo(f"Scraping DTx data (mode: {mode}, translate: {translate})...")
+                click.echo(f"Scraping DTx data (mode: {scrape_mode}, translate: {translate})...")
                 
                 # Load existing data for incremental mode
                 existing_data = None
-                if mode == "incremental":
+                if scrape_mode == "incremental":
                     existing_data = data_manager.load_dtx_data()
                     if existing_data.get("dtx_list"):
                         click.echo(f"Loaded {len(existing_data['dtx_list'])} existing DTx entries")
                     else:
                         click.echo("No existing data found, switching to full mode")
-                        mode = "full"
+                        scrape_mode = "full"
                 
                 data = await scraper.scrape(
-                    mode=mode, 
+                    mode=scrape_mode, 
                     translate=translate,
                     existing_data=existing_data
                 )
             
             # Save data
-            updated_data = data_manager.update_dtx(data, mode=mode)
+            updated_data = data_manager.update_dtx(data, mode=scrape_mode)
             
             click.echo(f"\nScraping complete!")
             click.echo(f"Total DTx: {updated_data['metadata']['total_count']}")
