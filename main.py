@@ -162,15 +162,26 @@ def scrape_reviews(config: str):
 @cli.command()
 @click.option('--all', 'scrape_all', is_flag=True, help='Find evidence for all DTx')
 @click.option('--dtx', type=str, help='Find evidence for specific DTx by name')
+@click.option('--skip-scholar', is_flag=True, help='Skip Google Scholar (use PubMed only)')
 @click.option('--config', type=click.Path(exists=True), default='config/germany.json',
               help='Path to country configuration file')
-def find_evidence(scrape_all: bool, dtx: str, config: str):
-    """Find RCT/RWE evidence for DTx from PubMed and Google Scholar."""
+def find_evidence(scrape_all: bool, dtx: str, skip_scholar: bool, config: str):
+    """Find RCT/RWE evidence for DTx from PubMed and Google Scholar.
+    
+    Uses PubMed E-utilities API (free, reliable) and optionally
+    browser-use for Google Scholar searches.
+    
+    Results are classified as RCT (Randomized Controlled Trial) or
+    RWE (Real-World Evidence) based on publication type and keywords.
+    """
     if not scrape_all and not dtx:
         click.echo("Error: Please specify --all or --dtx <name>")
         return
     
     click.echo("Starting evidence search...")
+    click.echo("  - PubMed: Using E-utilities API")
+    if not skip_scholar:
+        click.echo("  - Google Scholar: Using browser-use (may be blocked)")
     
     async def run():
         from scrapers.evidence_scraper import EvidenceScraper
@@ -189,20 +200,47 @@ def find_evidence(scrape_all: bool, dtx: str, config: str):
                 click.echo(f"No DTx found matching: {dtx}")
                 return
         
+        click.echo(f"\nSearching evidence for {len(dtx_list)} DTx...")
+        
+        total_rct = 0
+        total_rwe = 0
+        dtx_with_evidence = 0
+        
         try:
-            for dtx_item in dtx_list:
+            for i, dtx_item in enumerate(dtx_list, 1):
                 dtx_name = dtx_item.get("dtx_name", "Unknown")
-                click.echo(f"\nSearching evidence for: {dtx_name}")
+                click.echo(f"\n[{i}/{len(dtx_list)}] {dtx_name}")
                 
-                evidence_list = await scraper.search_evidence(dtx_item)
+                # Search for evidence
+                evidence_result = await scraper.search_evidence(dtx_item)
                 
-                for evidence in evidence_list:
-                    data_manager.add_evidence(dtx_name, evidence)
-                    click.echo(f"  Found: {evidence.get('title', 'Unknown')[:60]}...")
+                rct_count = len(evidence_result.get("RCT", []))
+                rwe_count = len(evidence_result.get("RWE", []))
                 
-                await asyncio.sleep(3)  # Rate limiting for search engines
+                if rct_count > 0 or rwe_count > 0:
+                    # Save evidence for this DTx
+                    data_manager.add_evidence_for_dtx(dtx_name, evidence_result)
+                    dtx_with_evidence += 1
+                    total_rct += rct_count
+                    total_rwe += rwe_count
+                    
+                    # Show some results
+                    for paper in evidence_result.get("RCT", [])[:2]:
+                        click.echo(f"    [RCT] {paper.get('title', 'Unknown')[:55]}...")
+                    for paper in evidence_result.get("RWE", [])[:2]:
+                        click.echo(f"    [RWE] {paper.get('title', 'Unknown')[:55]}...")
+                else:
+                    click.echo("    No evidence found")
+                
+                await asyncio.sleep(1)  # Rate limiting
             
-            click.echo(f"\nEvidence saved to: {data_manager.evidence_file}")
+            click.echo(f"\n{'='*50}")
+            click.echo("Evidence search complete!")
+            click.echo(f"  DTx searched: {len(dtx_list)}")
+            click.echo(f"  DTx with evidence: {dtx_with_evidence}")
+            click.echo(f"  Total RCT papers: {total_rct}")
+            click.echo(f"  Total RWE papers: {total_rwe}")
+            click.echo(f"  Data saved to: {data_manager.evidence_file}")
             
         finally:
             await scraper.close()
@@ -226,12 +264,33 @@ def show_status():
     click.echo(f"  - Provisionally listed: {metadata.get('provisional_count', 0)}")
     click.echo(f"  - Delisted: {metadata.get('delisted_count', 0)}")
     
+    # Count DTx with app store reviews
+    dtx_list = dtx_data.get("dtx_list", [])
+    with_playstore = sum(1 for d in dtx_list if d.get("reviews_playstore"))
+    with_appstore = sum(1 for d in dtx_list if d.get("reviews_appstore"))
+    click.echo(f"\nApp Store Reviews:")
+    click.echo(f"  - Play Store ratings: {with_playstore}")
+    click.echo(f"  - App Store ratings: {with_appstore}")
+    
+    # Evidence data
     evidence_data = data_manager.load_evidence_data()
-    evidence_count = sum(
-        len(v) for v in evidence_data.get("evidence_by_dtx", {}).values()
-    )
-    click.echo(f"\nTotal evidence papers: {evidence_count}")
-    click.echo(f"DTx with evidence: {len(evidence_data.get('evidence_by_dtx', {}))}")
+    evidence_meta = evidence_data.get("metadata", {})
+    evidence_by_dtx = evidence_data.get("evidence_by_dtx", {})
+    
+    total_rct = evidence_meta.get("total_rct", 0)
+    total_rwe = evidence_meta.get("total_rwe", 0)
+    
+    # If metadata counts aren't set, calculate them
+    if total_rct == 0 and total_rwe == 0:
+        for dtx_evidence in evidence_by_dtx.values():
+            total_rct += len(dtx_evidence.get("RCT", []))
+            total_rwe += len(dtx_evidence.get("RWE", []))
+    
+    click.echo(f"\nEvidence Papers:")
+    click.echo(f"  - DTx with evidence: {len(evidence_by_dtx)}")
+    click.echo(f"  - Total RCT papers: {total_rct}")
+    click.echo(f"  - Total RWE papers: {total_rwe}")
+    click.echo(f"  - Last updated: {evidence_meta.get('last_updated', 'Never')}")
 
 
 @cli.command()

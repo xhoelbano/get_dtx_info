@@ -120,13 +120,29 @@ class DataManager:
         """Load existing evidence data from file.
         
         Returns:
-            Dictionary containing evidence data.
+            Dictionary containing evidence data with RCT/RWE separation.
         """
-        if not self.evidence_file.exists():
-            return {"evidence_by_dtx": {}}
+        default_data = {
+            "metadata": {
+                "last_updated": None,
+                "total_rct": 0,
+                "total_rwe": 0
+            },
+            "evidence_by_dtx": {}
+        }
         
-        with open(self.evidence_file, "r", encoding="utf-8") as f:
-            return json.load(f)
+        if not self.evidence_file.exists():
+            return default_data
+        
+        try:
+            with open(self.evidence_file, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+                if not content:
+                    return default_data
+                return json.loads(content)
+        except json.JSONDecodeError:
+            # File is corrupted, return default
+            return default_data
     
     def save_evidence_data(self, data: dict):
         """Save evidence data to file.
@@ -134,13 +150,59 @@ class DataManager:
         Args:
             data: Dictionary containing evidence data.
         """
-        data["last_updated"] = datetime.utcnow().isoformat() + "Z"
+        data["metadata"] = data.get("metadata", {})
+        data["metadata"]["last_updated"] = datetime.utcnow().isoformat() + "Z"
+        
+        # Count totals
+        total_rct = 0
+        total_rwe = 0
+        for dtx_data in data.get("evidence_by_dtx", {}).values():
+            total_rct += len(dtx_data.get("RCT", []))
+            total_rwe += len(dtx_data.get("RWE", []))
+        
+        data["metadata"]["total_rct"] = total_rct
+        data["metadata"]["total_rwe"] = total_rwe
         
         with open(self.evidence_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
     
+    def add_evidence_for_dtx(self, dtx_name: str, evidence_result: dict):
+        """Add evidence results for a DTx (with RCT/RWE separation).
+        
+        Args:
+            dtx_name: Name of the DTx.
+            evidence_result: Dictionary with 'RCT' and 'RWE' lists.
+        """
+        data = self.load_evidence_data()
+        
+        if dtx_name not in data["evidence_by_dtx"]:
+            data["evidence_by_dtx"][dtx_name] = {
+                "search_date": evidence_result.get("search_date"),
+                "queries_used": evidence_result.get("queries_used", []),
+                "RCT": [],
+                "RWE": []
+            }
+        
+        # Add RCT papers (avoid duplicates)
+        existing_rct_titles = {e.get("title", "").lower() for e in data["evidence_by_dtx"][dtx_name].get("RCT", [])}
+        for paper in evidence_result.get("RCT", []):
+            title = paper.get("title", "").lower()
+            if title and title not in existing_rct_titles:
+                data["evidence_by_dtx"][dtx_name]["RCT"].append(paper)
+                existing_rct_titles.add(title)
+        
+        # Add RWE papers (avoid duplicates)
+        existing_rwe_titles = {e.get("title", "").lower() for e in data["evidence_by_dtx"][dtx_name].get("RWE", [])}
+        for paper in evidence_result.get("RWE", []):
+            title = paper.get("title", "").lower()
+            if title and title not in existing_rwe_titles:
+                data["evidence_by_dtx"][dtx_name]["RWE"].append(paper)
+                existing_rwe_titles.add(title)
+        
+        self.save_evidence_data(data)
+    
     def add_evidence(self, dtx_name: str, evidence: dict):
-        """Add evidence entry for a DTx.
+        """Add a single evidence entry for a DTx (legacy support).
         
         Args:
             dtx_name: Name of the DTx.
@@ -149,18 +211,20 @@ class DataManager:
         data = self.load_evidence_data()
         
         if dtx_name not in data["evidence_by_dtx"]:
-            data["evidence_by_dtx"][dtx_name] = []
+            data["evidence_by_dtx"][dtx_name] = {"RCT": [], "RWE": []}
         
-        # Check for duplicates by DOI or title
-        existing = data["evidence_by_dtx"][dtx_name]
-        doi = evidence.get("doi")
+        # Determine type
+        evidence_type = evidence.get("evidence_type", "RCT")
+        target_list = "RCT" if evidence_type == "RCT" else "RWE"
+        
+        # Check for duplicates by title
+        existing = data["evidence_by_dtx"][dtx_name].get(target_list, [])
         title = evidence.get("title", "").lower()
         
-        is_duplicate = any(
-            e.get("doi") == doi or e.get("title", "").lower() == title
-            for e in existing
-        )
+        is_duplicate = any(e.get("title", "").lower() == title for e in existing)
         
-        if not is_duplicate:
-            data["evidence_by_dtx"][dtx_name].append(evidence)
+        if not is_duplicate and title:
+            if target_list not in data["evidence_by_dtx"][dtx_name]:
+                data["evidence_by_dtx"][dtx_name][target_list] = []
+            data["evidence_by_dtx"][dtx_name][target_list].append(evidence)
             self.save_evidence_data(data)
