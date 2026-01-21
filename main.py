@@ -82,7 +82,7 @@ def scrape_dtx(mode: str, config: str, list_only: bool, skip_details: bool, no_t
 @click.option('--config', type=click.Path(exists=True), default='config/germany.json',
               help='Path to country configuration file')
 def scrape_reviews(config: str):
-    """Scrape app store reviews for all DTx."""
+    """Scrape app store reviews and ratings for all DTx with store URLs."""
     click.echo("Starting app store review scraping...")
     
     async def run():
@@ -94,28 +94,64 @@ def scrape_reviews(config: str):
         
         # Load existing DTx data
         dtx_data = data_manager.load_dtx_data()
+        dtx_list = dtx_data.get("dtx_list", [])
+        
+        # Count DTx with store URLs
+        with_play = sum(1 for d in dtx_list if d.get("play_store_url"))
+        with_app = sum(1 for d in dtx_list if d.get("app_store_url"))
+        click.echo(f"Found {with_play} DTx with Play Store URLs, {with_app} with App Store URLs")
+        
+        play_success = 0
+        app_success = 0
         
         try:
-            for dtx in dtx_data.get("dtx_list", []):
+            total = len(dtx_list)
+            for i, dtx in enumerate(dtx_list, 1):
                 dtx_name = dtx.get("dtx_name", "Unknown")
-                click.echo(f"Scraping reviews for: {dtx_name}")
-                
                 play_store_url = dtx.get("play_store_url")
                 app_store_url = dtx.get("app_store_url")
                 
+                # Skip if no store URLs
+                if not play_store_url and not app_store_url:
+                    continue
+                
+                click.echo(f"[{i}/{total}] {dtx_name[:50]}...")
+                
                 if play_store_url:
                     reviews = await scraper.scrape_play_store(play_store_url)
-                    dtx["reviews_playstore"] = reviews
+                    if reviews and reviews.get("rating"):
+                        dtx["reviews_playstore"] = {
+                            "rating": reviews.get("rating"),
+                            "review_count": reviews.get("review_count"),
+                            "url": play_store_url
+                        }
+                        click.echo(f"    Play Store: {reviews.get('rating')} ★ ({reviews.get('review_count')} reviews)")
+                        play_success += 1
+                    else:
+                        dtx["reviews_playstore"] = None
                 
                 if app_store_url:
                     reviews = await scraper.scrape_app_store(app_store_url)
-                    dtx["reviews_appstore"] = reviews
+                    if reviews and reviews.get("rating"):
+                        dtx["reviews_appstore"] = {
+                            "rating": reviews.get("rating"),
+                            "review_count": reviews.get("review_count"),
+                            "url": app_store_url
+                        }
+                        click.echo(f"    App Store: {reviews.get('rating')} ★ ({reviews.get('review_count')} reviews)")
+                        app_success += 1
+                    else:
+                        dtx["reviews_appstore"] = None
                 
-                await asyncio.sleep(2)  # Rate limiting
+                await asyncio.sleep(1)  # Rate limiting
             
             # Save updated data
             data_manager.save_dtx_data(dtx_data)
-            click.echo(f"Reviews saved to: {data_manager.dtx_file}")
+            
+            click.echo(f"\nScraping complete!")
+            click.echo(f"Play Store ratings extracted: {play_success}/{with_play}")
+            click.echo(f"App Store ratings extracted: {app_success}/{with_app}")
+            click.echo(f"Data saved to: {data_manager.dtx_file}")
             
         finally:
             await scraper.close()
