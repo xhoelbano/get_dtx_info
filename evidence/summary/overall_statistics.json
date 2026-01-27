@@ -1,38 +1,50 @@
 {
-  "generated_at": "2026-01-27T16:08:07.865320Z",
+  "generated_at": "2026-01-27T18:35:20.790588Z",
   "countries": {
     "Germany": {
-      "dtx_count": 1,
-      "rct_count": 59,
-      "rwe_count": 14,
+      "dtx_count": 6,
+      "rct_count": 94,
+      "rwe_count": 48,
       "by_source": {
         "drks": {
-          "rct": 4,
-          "rwe": 3
+          "rct": 14,
+          "rwe": 4
         },
         "clinicaltrials": {
-          "rct": 12,
+          "rct": 18,
           "rwe": 1
         },
         "pubmed": {
-          "rct": 43,
-          "rwe": 10
+          "rct": 53,
+          "rwe": 39
+        },
+        "isrctn": {
+          "rct": 9,
+          "rwe": 4
         }
       }
     },
     "USA": {
       "dtx_count": 1,
-      "rct_count": 5,
-      "rwe_count": 14,
+      "rct_count": 6,
+      "rwe_count": 11,
       "by_source": {
+        "clinicaltrials": {
+          "rct": 1,
+          "rwe": 0
+        },
         "pubmed": {
-          "rct": 5,
-          "rwe": 14
+          "rct": 3,
+          "rwe": 8
+        },
+        "isrctn": {
+          "rct": 2,
+          "rwe": 3
         }
       }
     }
   },
-  "total_dtx": 2,
-  "total_rct": 64,
-  "total_rwe": 28
+  "total_dtx": 7,
+  "total_rct": 100,
+  "total_rwe": 59
 }

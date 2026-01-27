@@ -1,0 +1,111 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04290078",
+      "nct_id": "NCT04290078",
+      "title": "The Kaia Back Pain Intervention for Self-management of Low Back Pain",
+      "official_title": "The Kaia Back Pain Intervention for Self-management of Low Back Pain - a Randomized Controlled Study",
+      "status": "UNKNOWN",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 184,
+      "start_date": "2020-12-01",
+      "completion_date": "2021-08-01",
+      "conditions": [
+        "Low Back Pain"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Kaia Back Pain Study App",
+          "type": "DEVICE",
+          "description": "Kaia Back Pain is an integrated solution for self-management of low-back pain that digitizes multidisciplinary rehabilitation into a smartphone application."
+        },
+        {
+          "name": "Usual Care",
+          "type": "OTHER",
+          "description": "Participants in the control arm will be provided with online links to educational materials about home exercises and pain management and asked to continue their usual care. On-line resources will include links to Web MD, the National Library of Medicine (Medline), and OnHealth"
+        }
+      ],
+      "lead_sponsor": "Kaia Health Software",
+      "collaborators": [
+        "Brigham and Women's Hospital"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The study aims to evaluate outcomes of the use of Kaia Study app (software program application for self-management of low-back pain) on back pain among adults with non-specific subacute and chronic low back pain based on change in pain intensity, physical functioning, quality of life (PROMIS-10) based on self-reported information from baseline to study end as compared to a control group.",
+      "detailed_description": "This is a two-arm, parallel assignment, open-label, randomized control trial comparing back pain outcomes in an intervention group (MPT using the Kaia app) to those of a control group (usual care without restrictions on treatment). It is designed to enroll up to 184 participants. The treatment period will last for 90 days. This includes the randomization assignment and follow-up evaluations at 30 days, 60 days, and 90 days post-randomization. After pre-screening and informed consent activities are completed, the study will be conducted using electronic patient reported outcomes (ePROs); participants can complete all study tasks at home by means of internet-enabled devices. Participants assigned to the intervention group will implement Kaia's exercise regimen using their personal mobile devices. The control group will receive usual care without restrictions and will be provided with internet-based information about treatment of non-specific back pain, including handouts depicting typical home-based exercises as recommended by American Academy of Orthopedic Surgeons.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04290078",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    },
+    {
+      "study_id": "NCT04411108",
+      "nct_id": "NCT04411108",
+      "title": "Motion Coaching Technology for Physical Therapy in Low Back Pain.",
+      "official_title": "Validation of Motion Coaching Technology for Physical Therapy in Treating Patients With Chronic, Nonspecific Low Back Pain. A Pilot Project.",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 40,
+      "start_date": "2020-10-20",
+      "completion_date": "2021-09-27",
+      "conditions": [
+        "Low Back Pain"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Kaia Back Pain App",
+          "type": "OTHER",
+          "description": "The Kaia Back Pain App provides instructions on exercise execution to participants for one week"
+        },
+        {
+          "name": "Physiotherapist Exercise Instructions and written handouts",
+          "type": "OTHER",
+          "description": "Participants will be instructed by physiotherapists in exercise execution and receive handouts and exercise for one week"
+        }
+      ],
+      "lead_sponsor": "Kaia Health Software",
+      "collaborators": [
+        "Washington University School of Medicine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "In this study, we will compare exercise execution between two groups of patients: (1) individuals who undergo instruction session by a PT and then perform exercises with a written handout at home and (2) individuals who use the mHealth motion coach at home. Participants will perform the same 4 exercises. Both groups will be instructed to exercise at home, supported either by the handouts or the Motion Coach technology and then return after 1 week for assessment.\n\nFor the assessment, standardized videos will be used to capture pose during exercise execution. Group 1 will perform the exercises with the written handout; group 2 will perform the exercises with the motion coach. Rating will be performed by a panel of PT professionals on the overall assessment of each exercises and on the three segments mentioned below that are exercise specific. The first group with PT instruction and written handout portion will be compared to the second group with the motion coach.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04411108",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "Kaia back pain",
+    "Kaia Rückenschmerzen"
+  ],
+  "_saved_at": "2026-01-27T17:48:34.957308Z",
+  "_source": "clinicaltrials"
+}

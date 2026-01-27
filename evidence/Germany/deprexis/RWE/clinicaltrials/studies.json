@@ -40,15 +40,18 @@
       "classification": {
         "classification": "RWE",
         "confidence": 85,
-        "reason": "The study is interventional but lacks mention of randomization or a controlled comparison. The focus on implementation in a real-world primary care setting and the absence of key RCT indicators (e.g., randomized, placebo-controlled) suggest it is more aligned with RWE."
+        "reason": "The study is interventional but lacks mention of randomization or a controlled comparison. It focuses on implementation and outcomes in a real-world primary care setting, aligning more with RWE characteristics."
       }
     }
   ],
   "count": 1,
   "queries_used": [
-    "deprexis",
-    "deprexis depression"
+    "deprexis depression",
+    "deprexis GAIA",
+    "deprexis clinical trial",
+    "deprexis study",
+    "deprexis CBT"
   ],
-  "_saved_at": "2026-01-27T17:21:22.417548Z",
+  "_saved_at": "2026-01-27T18:48:59.172775Z",
   "_source": "clinicaltrials"
 }

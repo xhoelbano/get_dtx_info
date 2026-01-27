@@ -30,7 +30,7 @@
       "classification": {
         "classification": "RWE",
         "confidence": 80,
-        "reason": "The study involves data collection under routine conditions, which aligns with real-world evidence characteristics. There is no explicit mention of randomization or controlled comparison, and the study type and allocation are not specified. While there is a preliminary suggestion of RCT, the lack of clear evidence for randomization makes it more likely to be RWE."
+        "reason": "The study involves data collection under routine conditions, which aligns with real-world evidence characteristics. There is no explicit mention of randomization or controlled comparison, and the study type and allocation are not specified. Preliminary analysis suggesting RCT is not supported by clear evidence in the provided details."
       }
     },
     {
@@ -66,14 +66,51 @@
       "classification": {
         "classification": "RWE",
         "confidence": 60,
-        "reason": "The study title and details do not explicitly mention randomization or controlled trial design. The term 'pilot study' suggests an exploratory phase, which could be observational. Without clear evidence of randomization or interventional design, it is more conservative to classify this as RWE."
+        "reason": "The study title and details do not explicitly mention randomization or controlled trial design. The term 'pilot study' suggests an exploratory phase, which is often observational. Without clear evidence of randomization or interventional design, it is more conservative to classify this as RWE."
+      }
+    },
+    {
+      "study_id": "DRKS00038802",
+      "drks_id": "DRKS00038802",
+      "title": "Autism Spectrum Disorder in Adulthood: Pilot Study on the Applicability and Effectiveness of an Online Therapy and Accompanying Assessment of Comorbid Disorders and Psychosocial Parameters",
+      "status": "Recruiting",
+      "study_type": "",
+      "primary_purpose": "",
+      "allocation": "",
+      "phase": "",
+      "enrollment": "",
+      "conditions": [
+        "F84.5"
+      ],
+      "health_condition": "ICD-10-GM (translation):\nF84.5 - Asperger syndrome\nHealthy volunteers:\nNo",
+      "brief_summary": "This study investigates an online therapy program for adults with Autism Spectrum Disorder (ASD). The aim is to test the effectiveness and applicability of the program, which is based on cognitive behavioral therapy. There is a high demand for such a program, as many patients struggle to seek therapy and face long waiting times.\n\nThe program covers topics such as stress management, social interactions, and quality of life, with the goal of improving the patients' well-being. Additionally, the study examines the impact of special interests and \"stimming\" (self-soothing behaviors) on the patients' lives and how these relate to aspects like self-efficacy and exhaustion.\n\nFurthermore, the comorbidity of ASD and ADHD is explored to assess how it is related to symptoms such as depression, anxiety disorders, and sleep disturbances. The study uses questionnaires to capture and analyze these correlations.\n\nThe goal of the study is to determine whether this online therapy program provides an eff",
+      "intervention": "Arm 1:\nIn this monocentric, randomized, open-label study, the effectiveness and applicability of an online therapy for therapeutic support of patients with ASD will be investigated. The online therapy includes 10 chapters on:\n- Information about autism\n- Behavior in contact with others\n- Sense of identity and self-esteem\n- Coping with stress\n- A healthy daily structure\n- Information about the help system\n- The world of work\n- Partnership and sexuality\nEach chapter consists of written and/or vide",
+      "primary_outcome": "",
+      "secondary_outcomes": "",
+      "sponsor": "Address:",
+      "countries": [
+        "Germany"
+      ],
+      "start_date": "",
+      "end_date": "",
+      "registration_type": "",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00038802/details",
+      "classification": {
+        "classification": "RWE",
+        "confidence": 70,
+        "reason": "The study does not explicitly mention randomization, control groups, or a prospective interventional design. It appears to focus on observational aspects such as the applicability and impact of the therapy, as well as comorbidities and psychosocial parameters. Without clear evidence of randomization or controlled comparison, it is more likely an observational study, fitting the RWE classification."
       }
     }
   ],
-  "count": 2,
+  "count": 3,
   "queries_used": [
-    "deprexis"
+    "deprexis depression",
+    "deprexis GAIA",
+    "deprexis clinical trial",
+    "deprexis study",
+    "deprexis CBT"
   ],
-  "_saved_at": "2026-01-27T17:21:59.622339Z",
+  "_saved_at": "2026-01-27T18:50:57.034479Z",
   "_source": "drks"
 }

@@ -26,7 +26,11 @@ class PubMedScraper(BaseEvidenceScraper):
     EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
     ELINK_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi"
     
-    # PubMed Central PDF URL template
+    # Europe PMC PDF URL (more accessible than NCBI PMC)
+    # NCBI PMC now uses JavaScript bot protection, Europe PMC is more accessible
+    EUROPEPMC_PDF_URL = "https://europepmc.org/backend/ptpmcrender.fcgi?accid={pmc_id}&blobtype=pdf"
+    
+    # Fallback to NCBI PMC (may fail due to bot protection)
     PMC_PDF_URL = "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmc_id}/pdf/"
     
     async def search(self, query: str, max_results: int = 50) -> List[Dict]:
@@ -271,6 +275,8 @@ class PubMedScraper(BaseEvidenceScraper):
     ) -> Optional[str]:
         """Download PDF for an article if available in PMC.
         
+        Tries Europe PMC first (more accessible), then falls back to NCBI PMC.
+        
         Args:
             article: Article dictionary with pmc_id.
             country: "Germany" or "USA"
@@ -285,11 +291,25 @@ class PubMedScraper(BaseEvidenceScraper):
             return None
         
         pmid = article.get("pmid", "unknown")
-        pdf_url = self.PMC_PDF_URL.format(pmc_id=pmc_id)
         filename = f"{pmid}_{pmc_id}.pdf"
         
+        # Try Europe PMC first (more accessible, no bot protection)
+        europepmc_url = self.EUROPEPMC_PDF_URL.format(pmc_id=pmc_id)
         result = await self.download_pdf(
-            url=pdf_url,
+            url=europepmc_url,
+            country=country,
+            dtx_name=dtx_name,
+            evidence_type=evidence_type,
+            filename=filename
+        )
+        
+        if result:
+            return str(result)
+        
+        # Fallback to NCBI PMC (may fail due to bot protection)
+        pmc_url = self.PMC_PDF_URL.format(pmc_id=pmc_id)
+        result = await self.download_pdf(
+            url=pmc_url,
             country=country,
             dtx_name=dtx_name,
             evidence_type=evidence_type,

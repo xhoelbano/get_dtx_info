@@ -640,28 +640,211 @@ get_dtx_info/
 
 ---
 
-## 10. Limitations & Future Work
+## 10. Known Issues & Limitations
 
-### 10.1 Current Limitations
-1. **Rate Limiting**: ClinicalTrials.gov blocks some requests
-2. **Playwright Speed**: Browser-based scrapers are slower than APIs
-3. **Classification Accuracy**: LLM classification ~85-90% confident
-4. **Language Bias**: Primarily English publications
+### 10.1 Cross-Source Duplicate Studies ⚠️
+**Problem**: The same study may appear in multiple sources with different IDs:
+- A PubMed article (PMID) may reference a ClinicalTrials.gov trial (NCT)
+- An ISRCTN trial may be cross-registered in DRKS
+- The same RCT appears as both a trial registration AND a publication
 
-### 10.2 Completed Enhancements ✓
-1. ✓ **Multi-source evidence**: PubMed, ClinicalTrials.gov, DRKS, ISRCTN
-2. ✓ **USA DTx support**: LLM-based company research
-3. ✓ **PDF downloads**: Automatic from PubMed Central
-4. ✓ **LLM classification**: RCT vs RWE with confidence scores
+**Impact**: Evidence counts may be inflated. A single RCT could be counted 2-4 times.
 
-### 10.3 Planned Enhancements
-1. **Phase 3**: Full-text PDF parsing with LLM extraction
-2. **EU Countries**: France ANSM, UK NICE digital health directories
-3. **Automated Updates**: Scheduled daily/weekly re-scraping
-4. **Results Extraction**: Parse study results from publications
+**Current Workaround**: Deduplication only within each source (by study_id).
+
+**TODO**: Implement cross-source deduplication using:
+- DOI matching
+- Title similarity (fuzzy matching)
+- Cross-reference IDs (NCT mentioned in PubMed abstract)
+- Author + year matching
+
+### 10.2 Multi-DTx Company Problem ⚠️
+**Problem**: When one company has multiple DTx products:
+- Query generation uses company name (e.g., "GAIA AG")
+- This returns evidence for ALL GAIA products, not just the target DTx
+- Example: Searching for "elevida" also finds "deprexis" papers (both from GAIA)
+
+**Impact**: Evidence may be incorrectly attributed to the wrong DTx from the same company.
+
+**Examples of affected companies**:
+- GAIA AG: deprexis, elevida, velibra, vorvida
+- Kaia Health: Kaia Rückenschmerzen, Kaia COPD, Kaia Arthrose
+- Oviva: Oviva Direkt für Adipositas, Oviva Direkt Bluthochdruck, Oviva Direkt Diabetes
+
+**TODO**: Improve query generation to:
+- Prioritize product-specific queries over company queries
+- Add LLM relevance filtering: "Is this study specifically about {DTx_name}?"
+- Use DTx description/indication to filter results
+
+### 10.3 Query Too Broad / False Positives ⚠️ (CRITICAL)
+**Problem**: LLM-generated queries are sometimes too generic and return unrelated studies.
+- Example: "Beats Medical Parkinson's App" → queries like "Parkinson app" return 45+ results
+- NONE of the results are about the specific DTx, just general Parkinson's app research
+- Current relevance filtering not catching these false positives
+
+**Impact**: 
+- Large number of irrelevant studies polluting the dataset
+- High false positive rate for less-known DTx products
+- Manual cleanup required
+
+**Observed cases**:
+- "Beats Medical Parkinson's App" → generic Parkinson's app studies
+- Likely affects many smaller/newer DTx products
+
+**TODO** (HIGH PRIORITY):
+1. **Stricter query generation**: Force LLM to generate product-specific queries only
+2. **Mandatory relevance verification**: Run LLM check on EVERY result, not just fallback
+3. **Product name requirement**: At least one query must include exact product name
+4. **Confidence threshold**: Reject results where product name not mentioned in title/abstract
+5. **Max results cap**: Limit to 10-15 per query to avoid flooding with irrelevant studies
+
+### 10.4 PDF Download Limitations
+**Problem**: Only PubMed Central (PMC) PDFs can be downloaded.
+- NCBI PMC now uses JavaScript bot protection (403 errors)
+- Fixed by using Europe PMC as alternative source
+- Not all articles have open-access PDFs
+
+**Current Status**: ✓ Fixed - Europe PMC used as primary PDF source
+
+**Limitations**:
+- Only ~30-40% of PubMed articles have PMC IDs
+- Paywalled journals not accessible
+- ClinicalTrials.gov, DRKS, ISRCTN don't provide PDFs
+
+### 10.5 Classification Accuracy
+**Problem**: LLM-based RCT/RWE classification is ~85-90% accurate.
+
+**Known issues**:
+- "Pragmatic trials" sometimes misclassified
+- Secondary analyses of RCTs classified as RWE
+- Protocol papers classified as RCT (no results yet)
+
+### 10.6 Other Technical Limitations
+- **Rate Limiting**: ClinicalTrials.gov occasionally blocks requests
+- **Playwright Speed**: Browser scrapers are 5-10x slower than APIs
+- **Language Bias**: System prioritizes English publications
+- **Incomplete Data**: Some source fields may be empty
 
 ---
 
-*Document Version: 2.0*  
+## 11. Data Quality Validation (TODO)
+
+### 11.1 Completeness Checks
+- [ ] **DTx Coverage**: Verify evidence found for all DTx products
+- [ ] **Source Coverage**: Check all 4 sources return results for known DTx
+- [ ] **Field Population**: Audit % of records with key fields filled
+
+### 11.2 Correctness Validation
+- [ ] **Evidence-DTx Matching**: Manually verify 10-20 random evidence items match correct DTx
+- [ ] **Classification Accuracy**: Compare LLM classification with manual review for 50 studies
+- [ ] **Cross-Source Consistency**: Check same study classified consistently across sources
+
+### 11.3 Manual Validation Dataset
+Create a "gold standard" validation set:
+```
+validation/
+├── deprexis_manual.json      # Manually extracted evidence
+├── Somryst_manual.json
+├── validation_results.json   # Comparison with automated extraction
+```
+
+### 11.4 Quality Metrics to Track
+| Metric | Target | How to Measure |
+|--------|--------|----------------|
+| DTx with evidence | >80% | Count DTx folders vs total DTx |
+| RCT precision | >90% | Manual review of classified RCTs |
+| RWE precision | >85% | Manual review of classified RWE |
+| Duplicate rate | <20% | Cross-source title matching |
+| PDF success rate | >30% | PDFs downloaded / articles with PMC ID |
+
+---
+
+## 12. Phase 2 Completion Status
+
+### 12.1 Completed ✓
+- [x] Multi-source evidence search (PubMed, ClinicalTrials.gov, DRKS, ISRCTN)
+- [x] LLM-based query generation
+- [x] LLM-based RCT/RWE classification
+- [x] PDF download from Europe PMC
+- [x] Folder structure by Country/DTx/Type/Source
+- [x] Browser context memory leak fix
+- [x] Timeout handling for Playwright scrapers
+- [x] Error handling for 403 PDF errors
+
+### 12.2 Known Issues
+**Must Fix (Phase 3):**
+- [ ] ⚠️ Query too broad → high false positive rate (e.g., Beats Medical case)
+- [ ] ⚠️ Multi-DTx company evidence attribution
+
+**Acceptable for now:**
+- [ ] Cross-source duplicates not removed
+- [ ] ~15% classification uncertainty
+
+### 12.3 TODO for Phase 3
+
+#### HIGH PRIORITY 🔴
+1. **Fix false positive problem (Query too broad)**
+   - Stricter query generation: product name MUST appear
+   - Mandatory LLM relevance check on ALL results (not just fallback)
+   - Reject results where product name not in title/abstract
+   - Cap results per query (10-15 max)
+   - Re-run evidence search after fixing
+
+2. **Evidence-DTx relevance filtering**
+   - LLM verification: "Is this study specifically about {DTx_name}?"
+   - Filter out company-level evidence
+   - Filter out generic condition research
+
+#### MEDIUM PRIORITY 🟡
+3. **Cross-source deduplication**
+   - Match by DOI
+   - Fuzzy title matching
+   - NCT/PMID cross-references
+
+4. **Data quality dashboard**
+   - Completeness metrics
+   - Classification confidence distribution
+   - False positive rate tracking
+   - Duplicate detection results
+
+5. **Manual validation**
+   - Compare with manually extracted data
+   - Calculate precision/recall metrics
+
+#### LOW PRIORITY 🟢
+6. **Full-text PDF extraction**
+   - Parse PDFs with LLM
+   - Extract study results, sample size, outcomes
+
+---
+
+## 13. Future Enhancements
+
+### 13.1 Additional Data Sources
+- **Cochrane Library**: Systematic reviews
+- **Europe PMC**: Additional publication metadata
+- **WHO ICTRP**: International trial registry
+- **FDA databases**: US regulatory approvals
+
+### 13.2 EU Country Expansion
+- France: ANSM digital health directory
+- UK: NICE evidence standards framework
+- Netherlands: DiGA equivalent programs
+
+### 13.3 Automation
+- Scheduled daily/weekly re-scraping
+- Change detection for DTx updates
+- Email alerts for new evidence
+
+### 13.4 Analysis Features
+- Evidence gap analysis
+- Publication trend charts
+- RCT vs RWE ratio comparisons
+- Citation network analysis
+
+---
+
+*Document Version: 2.1*  
 *Last Updated: January 27, 2026*  
+*Phase 2 Status: COMPLETE (with known limitations)*  
 *Author: Xhoel Bano*

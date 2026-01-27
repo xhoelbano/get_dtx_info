@@ -49,7 +49,7 @@
       "classification": {
         "classification": "RCT",
         "confidence": 80,
-        "reason": "The study aims to evaluate the additional effect of a web-based intervention compared to regular psychotherapy alone, which suggests a controlled comparison. Preliminary analysis indicates it might be an RCT, but the lack of explicit mention of randomization or allocation reduces confidence slightly."
+        "reason": "The study aims to evaluate the additional effect of a web-based intervention compared to regular psychotherapy alone, which suggests a controlled comparison. The mention of 'preliminary analysis suggests this might be RCT' further supports this classification, though the lack of explicit details about randomization or allocation reduces confidence slightly."
       }
     },
     {
@@ -99,7 +99,7 @@
       "classification": {
         "classification": "RCT",
         "confidence": 90,
-        "reason": "The study involves random assignment of participants to two groups, which is a hallmark of an RCT. The intervention (web-based treatment) is being tested prospectively, and the design aligns with interventional study characteristics. However, the study type and allocation are not explicitly specified, slightly reducing confidence."
+        "reason": "The study involves random assignment of participants to two groups, which is a hallmark of an RCT. Although the study type and allocation are not explicitly specified, the description of randomization strongly supports the classification as an RCT."
       }
     },
     {
@@ -157,8 +157,12 @@
   ],
   "count": 3,
   "queries_used": [
-    "deprexis"
+    "deprexis depression",
+    "deprexis GAIA",
+    "deprexis clinical trial",
+    "deprexis study",
+    "deprexis CBT"
   ],
-  "_saved_at": "2026-01-27T17:22:32.718917Z",
+  "_saved_at": "2026-01-27T18:49:46.661226Z",
   "_source": "isrctn"
 }

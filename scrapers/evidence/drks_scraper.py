@@ -36,6 +36,7 @@ class DRKSScraper(BaseEvidenceScraper):
         super().__init__(evidence_dir)
         self._playwright = None
         self._browser: Optional[Browser] = None
+        self._context = None  # Reuse single context to prevent memory leaks
     
     async def _get_browser(self) -> Browser:
         """Get or create Playwright browser instance."""
@@ -46,18 +47,31 @@ class DRKSScraper(BaseEvidenceScraper):
             )
         return self._browser
     
+    async def _get_context(self):
+        """Get or create a reusable browser context."""
+        if self._context is None:
+            browser = await self._get_browser()
+            self._context = await browser.new_context(
+                viewport={"width": 1920, "height": 1080},
+                user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+            )
+        return self._context
+    
     async def _create_page(self) -> Page:
-        """Create a new browser page."""
-        browser = await self._get_browser()
-        context = await browser.new_context(
-            viewport={"width": 1920, "height": 1080},
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-        )
+        """Create a new browser page in the shared context."""
+        context = await self._get_context()
         return await context.new_page()
     
     async def close(self):
         """Clean up resources."""
         await super().close()
+        
+        if self._context:
+            try:
+                await self._context.close()
+            except:
+                pass
+            self._context = None
         
         if self._browser:
             try:
@@ -85,6 +99,22 @@ class DRKSScraper(BaseEvidenceScraper):
         Returns:
             List of trial dictionaries with metadata.
         """
+        page = None
+        try:
+            # Add overall timeout for the search operation
+            return await asyncio.wait_for(
+                self._search_impl(query, max_results),
+                timeout=90  # 90 second timeout per search
+            )
+        except asyncio.TimeoutError:
+            print(f"    DRKS search timeout for '{query[:30]}...'")
+            return []
+        except Exception as e:
+            print(f"    DRKS search error: {e}")
+            return []
+    
+    async def _search_impl(self, query: str, max_results: int) -> List[Dict]:
+        """Internal search implementation with page management."""
         page = await self._create_page()
         
         try:
@@ -110,11 +140,11 @@ class DRKSScraper(BaseEvidenceScraper):
             
             return results
             
-        except Exception as e:
-            print(f"    DRKS search error: {e}")
-            return []
         finally:
-            await page.close()
+            try:
+                await page.close()
+            except:
+                pass
     
     async def _extract_search_results(self, page: Page, max_results: int) -> List[Dict]:
         """Extract trial information from search results page.
@@ -205,6 +235,21 @@ class DRKSScraper(BaseEvidenceScraper):
         Returns:
             Dictionary with trial details or None.
         """
+        try:
+            # Add timeout for getting study details
+            return await asyncio.wait_for(
+                self._get_study_details_impl(study_id),
+                timeout=60  # 60 second timeout per study
+            )
+        except asyncio.TimeoutError:
+            print(f"    DRKS study details timeout for {study_id}")
+            return None
+        except Exception as e:
+            print(f"    Error fetching DRKS study {study_id}: {e}")
+            return None
+    
+    async def _get_study_details_impl(self, study_id: str) -> Optional[Dict]:
+        """Internal implementation for getting study details."""
         page = await self._create_page()
         
         try:
@@ -218,11 +263,11 @@ class DRKSScraper(BaseEvidenceScraper):
             
             return details
             
-        except Exception as e:
-            print(f"    Error fetching DRKS study {study_id}: {e}")
-            return None
         finally:
-            await page.close()
+            try:
+                await page.close()
+            except:
+                pass
     
     async def _extract_study_details(self, page: Page, drks_id: str) -> Dict:
         """Extract detailed study information from study page.

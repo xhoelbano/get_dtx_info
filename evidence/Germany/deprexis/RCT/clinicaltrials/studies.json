@@ -462,13 +462,203 @@
         "confidence": 85,
         "reason": "Explicit randomization mentioned"
       }
+    },
+    {
+      "study_id": "NCT01731717",
+      "nct_id": "NCT01731717",
+      "title": "Cluster Randomized Trial of Stepped Care Intervention vs. Treatment as Usual for Patients With Depression",
+      "official_title": "Effektivität Und Effizienz Von Behandlungspfaden für Patienten Mit Depressiven Erkrankungen: Stepped Care Als Ansatz für Ein Leitliniengerechtes Und Integriertes Versorgungsmanagement",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 737,
+      "start_date": "2012-09",
+      "completion_date": "2015-05",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "depression",
+        "stepped care",
+        "evidence-based medicine",
+        "health services research",
+        "psychotherapy",
+        "complex intervention",
+        "guideline"
+      ],
+      "interventions": [
+        {
+          "name": "Active monitoring",
+          "type": "BEHAVIORAL",
+          "description": "General physician performs monitoring every 2 weeks using the PHQ-9 depression scale."
+        },
+        {
+          "name": "Bibliotherapy",
+          "type": "BEHAVIORAL",
+          "description": "Patient works with self-help book \"Selbsthilfe bei Depressionen\" (Görlitz, 2010) under general physician's supervision."
+        },
+        {
+          "name": "Online self-help",
+          "type": "BEHAVIORAL",
+          "description": "Patient works with online self-help program \"Deprexis\" under general physician's supervision."
+        },
+        {
+          "name": "Outpatient psychotherapy",
+          "type": "BEHAVIORAL",
+          "description": "Patient receives outpatient psychodynamic or cognitive-behavioural psychotherapy from a psychotherapist participating in the network."
+        },
+        {
+          "name": "Psychiatric treatment",
+          "type": "PROCEDURE",
+          "description": "Patient receives treatment from psychiatrist or general physician participating in the network, this includes psychopharmacotherapy. Treatment takes place within routine care, thus psychiatrists or general physicians individually determine the type of medication and are committed to follow the recommendations of the German S3-Guideline/National Disease Management Guideline for Unipolar Depression."
+        },
+        {
+          "name": "Combined psychotherapy and psychopharmacological treatment",
+          "type": "BEHAVIORAL",
+          "description": "Patient receives psychotherapy combined with psychopharmacological treatment, if necessary in inpatient setting."
+        },
+        {
+          "name": "Control group: treatment as usual",
+          "type": "OTHER",
+          "description": "treatment as usual"
+        }
+      ],
+      "lead_sponsor": "Universitätsklinikum Hamburg-Eppendorf",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "The main aim of the project is the implementation and evaluation of a stepped care model (SCM) for patients with depression with 6 treatment options of varying intensity and setting, including innovative technologies (e-mental health, telephone-based psychotherapy). Within this complex intervention, patients are treated by a multiprofessional network of health care providers in Hamburg, Germany. The study compares the SCM condition (intervention group) to a control group receiving treatment as usual (cluster randomization on the level of participating general practitioners). It is expected that the SCM condition will show better results regarding reduction of mental symptoms, improvement of quality of life, more efficient access to care and better cost-benefit ratio.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01731717",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    },
+    {
+      "study_id": "NCT02898233",
+      "nct_id": "NCT02898233",
+      "title": "Augmenting Internet-Based Cognitive Behavioral Therapy for Major Depressive Disorder With Low-Level Light Therapy",
+      "official_title": "Augmenting Internet-Based Cognitive Behavioral Therapy for Major Depressive Disorder With Low-Level Light Therapy",
+      "status": "TERMINATED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 20,
+      "start_date": "2016-02",
+      "completion_date": "2020-11-30",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "depression",
+        "internet-based",
+        "treatment",
+        "low-level light therapy",
+        "LLLT",
+        "deprexis"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "OTHER",
+          "description": "Deprexis is an experimental internet-based treatment program for depression created by Gaia (Hamburg, Germany)."
+        },
+        {
+          "name": "Active low-level light therapy",
+          "type": "DEVICE",
+          "description": "Administration of LLLT consists of applying light of a specific wavelength (1064 nanometers) that intersects with the absorption spectrum of cytochrome oxidase, using a laser diode, the high density laser (HD laser; Cell Gen Therapeutics, LLC). Active LLLT includes 4 days, once per week for 4 weeks, during which LLLT is applied to two alternating positions on the participant's right forehead for 8 minutes total."
+        },
+        {
+          "name": "Sham low-level light therapy",
+          "type": "DEVICE",
+          "description": "Administration of LLLT consists of applying light of a specific wavelength (1064 nanometers) that intersects with the absorption spectrum of cytochrome oxidase, using a laser diode, the high density laser (HD laser; Cell Gen Therapeutics, LLC). Sham LLLT includes 4 days, once per week for 4 weeks, during which sham LLLT (5 seconds active, 55 seconds sham) is applied to two alternating positions on the participant's right forehead for 8 minutes total."
+        }
+      ],
+      "lead_sponsor": "University of Texas at Austin",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The purpose of this study is to better understand how low-level light therapy (LLLT) can be used to augment the antidepressant effects of Deprexis, an internet-based treatment program for depression, for participants with current major depressive disorder. The researchers will administer active and placebo LLLT to the right forehead of participants who show an improvement of at least 10% in depressive symptoms from baseline after two weeks of Deprexis treatment.\n\nHypothesis: Participants who receive active LLLT will show a greater reduction of depressive symptoms than participants who receive placebo LLLT.",
+      "detailed_description": "1. Online screening Following a digital informed consent, all participants will complete a brief online screening questionnaire to determine the severity level of their depression, using the Center for Epidemiological Studies - Depression Scale (CES-D). Initial consent and screening procedures will be conducted online via Research Electronic Data Capture (REDCap), a secure, on-line assessment tool designed to collect self-report questionnaire data for research studies. Participants with a CES-D score of 16 or higher will be eligible to continue with the study. At this initial screening, eligible participants will also provide contact information (name, email address, and phone number) for a follow-up phone screening.\n2. Phone screening Following the online screening, eligible participants will complete a phone screening, the Mini International Neuropsychiatric Interview (MINI), conducted by researchers in the Mood Disorders Laboratory. The phone screening will be audio recorded for quality control purposes. Participants will be eligible to continue on in the study if they meet criteria for current Major Depression without any comorbid disorders, excluding anxiety disorders. Next, participants will complete the Colombia-Suicide Severity Rating Scale (C-SSRS) to assess for suicidality. Any participant who endorses suicidal intent, with or without plan, (i.e., items 4 or 5) within the last six months, will be deemed ineligible. Researchers will provide resources to any participant endorsing suicidal ideation, and will contact authorities if necessary. At the end of the phone screening, eligible participants will be scheduled to come into the Mood Disorders Laboratory for their initial study meeting within a week.\n3. Initial meeting\n\n   Participants deemed eligible by the online and phone screenings will come into the Mood Disorders Laboratory within a week of their phone screening. The initial meeting will last approximately one hour. The initial meeting will have seve",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02898233",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    },
+    {
+      "study_id": "NCT06217198",
+      "nct_id": "NCT06217198",
+      "title": "A Computerized Depression Intervention in Veterans",
+      "official_title": "A Randomized Controlled Trial of Deprexis; Evaluation of A Computerized Intervention to Decrease Depression and Restore Functioning in Veterans",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 152,
+      "start_date": "2024-05-01",
+      "completion_date": "2029-04-30",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "Internet-Based Intervention",
+        "Cognitive-Behavioral Therapy"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "BEHAVIORAL",
+          "description": "Deprexis is an internet-delivered treatment for depressive symptoms and related functional impairment. The intervention draws from various theoretical frameworks and consists of 12 modules: 10 core content modules and an introductory and summary module. Deprexis is designed to be interactive, includes answering questions and learning techniques and concepts through instruction and examples."
+        }
+      ],
+      "lead_sponsor": "VA Office of Research and Development",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "Depressive symptoms are common among Veterans and associated with significant impairment. Timely intervention has the potential to improve mental health outcomes and restore functioning. Interventions delivered through the internet can be completed remotely at any time, and thus minimize burden on Veterans, however the research examining their utility in Veterans is limited. This proposed project will examine Deprexis, a self-guided internet-delivered intervention, which targets depressive symptoms and associated functional impairments. Interviews will be conducted to gain insight into Veterans' perceptions, needs, and preferences vis-a-vis Deprexis, with results informing a randomized controlled trial. Here an 8-week course of Deprexis will be compared to a treatment-as-usual (TAU) control condition to establish if Deprexis is acceptable and effective for Veterans with mild to moderate depressive symptoms. Veterans engaged in Deprexis are hypothesized to show improvements on measures of functioning and decreases in depressive symptoms compared to the TAU control group. The proposed work has great clinical utility, as it could provide a readily accessible, high-quality intervention for the many Veterans suffering from depressive symptoms, with the potential to improve functioning and long-term outcomes.",
+      "detailed_description": "Depressive symptoms are common in Veterans and are highly predictive of disability and impairment in quality of life. Providing timely intervention for depressive illness can prevent chronic Major Depressive Disorder (MDD) and entrenched functional impairments. Preventing the progression into severe and recurrent disease and disability is essential; MDD is the second strongest predictor of Veteran suicide among all recorded mental health diagnoses and functional impairments associated with mental health diagnoses increase the risk for suicide. Depressive symptoms strongly predict functional impairment in Veterans independent of other debilitating mental health conditions, including PTSD. These findings suggest that depressive symptoms should be an urgent target of intervention, even in the context of complex or comorbid presentations, to improve functioning and mitigate suicide risk.\n\nThe VA healthcare system is uniquely positioned to identify and treat mild-moderate depressive symptoms because depression symptom screenings are routinely performed in primary care and specialty clinics; however, Veterans still experience various barriers to care. These barriers include shame around depression and stigma associated with seeking mental health treatment, lack of availability of mental health services, as well as difficulties attending mental health treatments due to lack of time. However, the VA is well-suited to intervene at both institutional and individual barriers to care to provide accessible, timely, and acceptable treatments for depressive symptoms using scalable, low-cost computer-delivered interventions.\n\nAlthough internet-delivered interventions have the potential to optimize treatment access and utilization for Veterans with mild-moderate depressive symptoms, the research examining the effectiveness of internet-delivered psychological intervention for Veterans is still in its nascence. Deprexis, a self-guided internet-delivered intervention, improved well-bei",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06217198",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
     }
   ],
-  "count": 9,
+  "count": 12,
   "queries_used": [
-    "deprexis",
-    "deprexis depression"
+    "deprexis depression",
+    "deprexis GAIA",
+    "deprexis clinical trial",
+    "deprexis study",
+    "deprexis CBT"
   ],
-  "_saved_at": "2026-01-27T17:21:22.416961Z",
+  "_saved_at": "2026-01-27T18:48:59.171169Z",
   "_source": "clinicaltrials"
 }

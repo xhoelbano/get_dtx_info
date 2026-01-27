@@ -194,16 +194,27 @@ class BaseEvidenceScraper(ABC):
             
             # Check if it's actually a PDF
             content_type = response.headers.get("content-type", "")
-            if "pdf" in content_type.lower() or url.endswith(".pdf"):
+            if "pdf" in content_type.lower():
                 with open(filepath, "wb") as f:
                     f.write(response.content)
                 return filepath
             else:
-                print(f"    Warning: {url} is not a PDF (content-type: {content_type})")
+                # PMC now uses JS-based bot protection, returns HTML instead of PDF
+                # This is expected for many articles - silently skip
                 return None
                 
+        except httpx.HTTPStatusError as e:
+            # 403 Forbidden is common for PMC PDFs (bot protection)
+            # Silently skip these - the metadata is still useful
+            if e.response.status_code in (403, 401, 429):
+                return None
+            print(f"    Error downloading PDF: HTTP {e.response.status_code}")
+            return None
         except Exception as e:
-            print(f"    Error downloading PDF from {url}: {e}")
+            # Only print unexpected errors
+            error_str = str(e)
+            if "403" not in error_str and "Forbidden" not in error_str:
+                print(f"    Error downloading PDF: {e}")
             return None
     
     @abstractmethod
