@@ -4,7 +4,7 @@ import asyncio
 import click
 from pathlib import Path
 
-from scrapers import DiGAScraper
+from scrapers import DiGAScraper, USAScraper
 from utils import DataManager, Translator
 
 
@@ -249,15 +249,120 @@ def find_evidence(scrape_all: bool, dtx: str, skip_scholar: bool, config: str):
 
 
 @cli.command()
+@click.option('--csv', 'csv_path', type=click.Path(exists=True), 
+              help='Path to CSV file with company data')
+@click.option('--company', type=str, help='Filter to specific company name')
+@click.option('--config', type=click.Path(exists=True), default='config/usa.json',
+              help='Path to USA configuration file')
+@click.option('--merge', 'merge_existing', is_flag=True, 
+              help='Merge with existing USA DTx data instead of replacing')
+def scrape_usa(csv_path: str, company: str, config: str, merge_existing: bool):
+    """Scrape USA DTx data using LLM-based research.
+    
+    This command reads company data from a CSV file and uses Azure OpenAI
+    to research and extract Digital Therapeutics information for each company.
+    
+    Examples:
+        python main.py scrape-usa --csv data-format/us_company.csv
+        python main.py scrape-usa --company "Pear Therapeutics"
+        python main.py scrape-usa --csv companies.csv --merge
+    """
+    click.echo("Starting USA DTx research with LLM...")
+    
+    async def run():
+        scraper = USAScraper(config_path=config)
+        
+        try:
+            # If no CSV provided, use default from config
+            input_csv = csv_path or scraper.csv_input_path
+            
+            if not Path(input_csv).exists():
+                click.echo(f"Error: CSV file not found: {input_csv}")
+                click.echo("Please provide a CSV file with --csv option or update config/usa.json")
+                return
+            
+            click.echo(f"Input CSV: {input_csv}")
+            if company:
+                click.echo(f"Filtering to company: {company}")
+            
+            # Run the research
+            data = await scraper.scrape(csv_path=input_csv, company_filter=company)
+            
+            # Handle merge mode
+            if merge_existing:
+                existing_data = scraper.load_existing_data()
+                if existing_data.get("dtx_list"):
+                    click.echo(f"Merging with {len(existing_data['dtx_list'])} existing entries...")
+                    data = scraper.merge_results(existing_data, data)
+            
+            # Save results
+            scraper.save_results(data)
+            
+            click.echo(f"\nUSA DTx research complete!")
+            click.echo(f"Total DTx products: {data['metadata']['total_count']}")
+            click.echo(f"Data saved to: {scraper.output_file}")
+            
+        finally:
+            await scraper.close()
+    
+    asyncio.run(run())
+
+
+@cli.command()
+@click.argument('company_name')
+@click.option('--website', type=str, help='Company website URL (optional)')
+@click.option('--config', type=click.Path(exists=True), default='config/usa.json',
+              help='Path to USA configuration file')
+def research_company(company_name: str, website: str, config: str):
+    """Research a single US company for DTx products using LLM.
+    
+    This is useful for quickly researching a specific company without
+    needing a CSV file.
+    
+    Example:
+        python main.py research-company "Pear Therapeutics" --website https://peartherapeutics.com
+    """
+    click.echo(f"Researching company: {company_name}")
+    
+    async def run():
+        scraper = USAScraper(config_path=config)
+        
+        try:
+            data = await scraper.scrape_single_company(company_name, website)
+            
+            if data.get("dtx_list"):
+                click.echo(f"\nFound {len(data['dtx_list'])} DTx product(s):")
+                for dtx in data["dtx_list"]:
+                    click.echo(f"\n  Product: {dtx.get('dtx_name', 'Unknown')}")
+                    click.echo(f"  Status: {dtx.get('listing_status', 'Unknown')}")
+                    click.echo(f"  FDA Clearance: {dtx.get('fda_clearance', 'Unknown')}")
+                    if dtx.get('clinical_area_icd10'):
+                        click.echo(f"  ICD-10 Codes: {', '.join(dtx['clinical_area_icd10'])}")
+                    if dtx.get('app_store_url'):
+                        click.echo(f"  App Store: {dtx['app_store_url']}")
+                    if dtx.get('play_store_url'):
+                        click.echo(f"  Play Store: {dtx['play_store_url']}")
+            else:
+                click.echo("\nNo DTx products found for this company.")
+            
+        finally:
+            await scraper.close()
+    
+    asyncio.run(run())
+
+
+@cli.command()
 def show_status():
-    """Show current data status."""
+    """Show current data status for Germany and USA DTx."""
+    import json
     data_manager = DataManager()
     
+    # === Germany DTx Status ===
     dtx_data = data_manager.load_dtx_data()
     metadata = dtx_data.get("metadata", {})
     
-    click.echo("\n=== DTx Data Status ===")
-    click.echo(f"Country: {metadata.get('country', 'Unknown')}")
+    click.echo("\n=== Germany DTx Data Status ===")
+    click.echo(f"Country: {metadata.get('country', 'Germany')}")
     click.echo(f"Last updated: {metadata.get('last_updated', 'Never')}")
     click.echo(f"Total DTx: {metadata.get('total_count', 0)}")
     click.echo(f"  - Permanently listed: {metadata.get('active_count', 0)}")
@@ -272,7 +377,38 @@ def show_status():
     click.echo(f"  - Play Store ratings: {with_playstore}")
     click.echo(f"  - App Store ratings: {with_appstore}")
     
-    # Evidence data
+    # === USA DTx Status ===
+    usa_data_path = Path("data/dtx_data_usa.json")
+    if usa_data_path.exists():
+        with open(usa_data_path, "r", encoding="utf-8") as f:
+            usa_data = json.load(f)
+        
+        usa_metadata = usa_data.get("metadata", {})
+        usa_dtx_list = usa_data.get("dtx_list", [])
+        
+        click.echo("\n=== USA DTx Data Status ===")
+        click.echo(f"Country: {usa_metadata.get('country', 'USA')}")
+        click.echo(f"Last updated: {usa_metadata.get('last_updated', 'Never')}")
+        click.echo(f"Total DTx products: {usa_metadata.get('total_count', 0)}")
+        if usa_metadata.get('companies_researched'):
+            click.echo(f"  - Companies researched: {usa_metadata.get('companies_researched', 0)}")
+            click.echo(f"  - Companies with DTx: {usa_metadata.get('companies_with_dtx', 0)}")
+        
+        # Count by FDA clearance type
+        fda_counts = {}
+        for dtx in usa_dtx_list:
+            clearance = dtx.get("fda_clearance", "Unknown")
+            fda_counts[clearance] = fda_counts.get(clearance, 0) + 1
+        
+        if fda_counts:
+            click.echo("\nFDA Clearance Types:")
+            for clearance, count in sorted(fda_counts.items()):
+                click.echo(f"  - {clearance}: {count}")
+    else:
+        click.echo("\n=== USA DTx Data Status ===")
+        click.echo("No USA DTx data found. Run 'scrape-usa' to collect data.")
+    
+    # === Evidence Data ===
     evidence_data = data_manager.load_evidence_data()
     evidence_meta = evidence_data.get("metadata", {})
     evidence_by_dtx = evidence_data.get("evidence_by_dtx", {})
@@ -286,7 +422,7 @@ def show_status():
             total_rct += len(dtx_evidence.get("RCT", []))
             total_rwe += len(dtx_evidence.get("RWE", []))
     
-    click.echo(f"\nEvidence Papers:")
+    click.echo(f"\n=== Evidence Papers ===")
     click.echo(f"  - DTx with evidence: {len(evidence_by_dtx)}")
     click.echo(f"  - Total RCT papers: {total_rct}")
     click.echo(f"  - Total RWE papers: {total_rwe}")

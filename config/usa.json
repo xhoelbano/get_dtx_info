@@ -1,0 +1,60 @@
+{
+  "country": "USA",
+  "language": "en",
+  "output_language": "en",
+  "csv_input_path": "data-format/us_company.csv",
+  "output_file": "data/dtx_data_usa.json",
+  "status_options": ["Active", "Inactive", "Unknown"],
+  "fda_clearance_types": [
+    "510(k)",
+    "De Novo",
+    "PMA",
+    "Breakthrough Device",
+    "None",
+    "Unknown"
+  ],
+  "category_mappings": {
+    "Mental Health": "Mental Health",
+    "Behavioral Health": "Mental Health",
+    "Depression": "Mental Health",
+    "Anxiety": "Mental Health",
+    "ADHD": "Mental Health",
+    "Substance Use": "Mental Health",
+    "Diabetes": "Hormones and Metabolism",
+    "Obesity": "Hormones and Metabolism",
+    "Chronic Pain": "Musculoskeletal",
+    "Back Pain": "Musculoskeletal",
+    "Musculoskeletal": "Musculoskeletal",
+    "Respiratory": "Respiratory",
+    "COPD": "Respiratory",
+    "Asthma": "Respiratory",
+    "Cardiovascular": "Cardiovascular",
+    "Hypertension": "Cardiovascular",
+    "Gastrointestinal": "Digestive",
+    "IBS": "Digestive",
+    "Sleep": "Nervous System",
+    "Insomnia": "Nervous System",
+    "Neurological": "Nervous System",
+    "Oncology": "Cancer",
+    "Cancer": "Cancer"
+  },
+  "llm_settings": {
+    "model": "gpt-4o",
+    "temperature": 0.1,
+    "max_tokens": 4000
+  },
+  "data_sources": {
+    "fda_510k_database": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm",
+    "fda_de_novo_database": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm",
+    "fda_device_database": "https://www.accessdata.fda.gov/scripts/cdrh/devicesatfda/",
+    "clinicaltrials_gov": "https://clinicaltrials.gov"
+  },
+  "csv_column_mappings": {
+    "company_name": ["CompanyName", "Company Name", "company_name"],
+    "company_id": ["CompanyID", "Company ID", "company_id"],
+    "website": ["Website", "website", "CompanyWebsite"],
+    "year_founded": ["YearFounded", "Year Founded", "year_founded"],
+    "description": ["Description", "description"],
+    "hq_country": ["HQCountry", "HQ Country", "Country"]
+  }
+}

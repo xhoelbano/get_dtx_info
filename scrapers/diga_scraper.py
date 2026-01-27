@@ -418,17 +418,9 @@ class DiGAScraper(BaseScraper):
             }
         }
         
-        // ICD-10 codes - find all ICD codes in "Anzuwenden bei" section or nearby
-        const icdSection = bodyText.match(/Anzuwenden bei[^]*?(?=Kontraindikationen|Nicht anwenden|Plattformen|Altersgruppe|$)/i);
-        const icdText = icdSection ? icdSection[0] : bodyText;
-        const icdPattern = /([A-Z]\\d{2}(?:\\.\\d{1,2})?)/g;
-        const icdMatches = icdText.match(icdPattern) || [];
-        // Filter to likely ICD-10 codes (medical diagnosis codes)
-        data.clinical_area_icd10 = [...new Set(icdMatches.filter(code => {
-            const prefix = code.charAt(0);
-            // Common ICD-10 prefixes for mental health, metabolic, etc.
-            return ['F', 'E', 'G', 'I', 'J', 'K', 'M', 'N', 'R', 'Z', 'T', 'S', 'L', 'H'].includes(prefix);
-        }))];
+        // ICD-10 codes will be extracted separately from the Fachkreise table
+        // Initialize as empty - will be populated by extractIndikationFromTable()
+        data.clinical_area_icd10 = [];
         
         // App Store URL
         const appStoreLink = document.querySelector('a[href*="apps.apple.com"]');
@@ -531,12 +523,68 @@ class DiGAScraper(BaseScraper):
     }
     """
     
+    # JavaScript for extracting ICD-10 codes from the "Informationen für Fachkreise" table
+    # This extracts codes ONLY from the "Indikation" column, not Kontraindikation
+    INDIKATION_TABLE_EXTRACTION_JS = """
+    () => {
+        const icdCodes = new Set();
+        
+        // Find all tables on the page (after Fachkreise section is expanded)
+        const tables = document.querySelectorAll('table');
+        
+        for (const table of tables) {
+            // Get header row to find the Indikation column index
+            const headerRow = table.querySelector('thead tr') || table.querySelector('tr');
+            if (!headerRow) continue;
+            
+            const headers = Array.from(headerRow.querySelectorAll('th, td'));
+            let indikationIndex = -1;
+            
+            // Find the column index for "Indikation" (not "Kontraindikation")
+            for (let i = 0; i < headers.length; i++) {
+                const headerText = headers[i].textContent.trim().toLowerCase();
+                // Match "Indikation" but NOT "Kontraindikation"
+                if (headerText === 'indikation' || 
+                    (headerText.includes('indikation') && !headerText.includes('kontra'))) {
+                    indikationIndex = i;
+                    break;
+                }
+            }
+            
+            if (indikationIndex === -1) continue;
+            
+            // Extract ICD-10 codes from the Indikation column in all data rows
+            const dataRows = table.querySelectorAll('tbody tr, tr:not(:first-child)');
+            for (const row of dataRows) {
+                const cells = row.querySelectorAll('td');
+                if (cells.length > indikationIndex) {
+                    const cellText = cells[indikationIndex].textContent;
+                    // Match ICD-10 codes: letter followed by 2 digits, optionally followed by .digits
+                    const icdPattern = /[A-Z]\\d{2}(?:\\.\\d{1,2})?/g;
+                    const matches = cellText.match(icdPattern) || [];
+                    for (const code of matches) {
+                        // Filter to valid medical ICD-10 prefixes
+                        const prefix = code.charAt(0);
+                        if (['F', 'E', 'G', 'I', 'J', 'K', 'M', 'N', 'R', 'Z', 'T', 'S', 'L', 'H', 'A', 'B', 'C', 'D'].includes(prefix)) {
+                            icdCodes.add(code);
+                        }
+                    }
+                }
+            }
+        }
+        
+        return Array.from(icdCodes).sort();
+    }
+    """
+    
     async def scrape_dtx_details(self, dtx_basic: Dict) -> Dict:
         """Scrape detailed information for a single DTx using Playwright.
         
         This method uses Playwright directly for reliable, reproducible scraping:
         - Clicks "Mehr anzeigen" buttons to expand hidden sections
-        - Extracts information using JavaScript DOM queries
+        - Clicks "Informationen für Fachkreise" to access the Module table
+        - Extracts ICD-10 codes from the "Indikation" column in the table
+        - Extracts other information using JavaScript DOM queries
         
         Args:
             dtx_basic: Dictionary with basic DTx info including source_url.
@@ -586,10 +634,58 @@ class DiGAScraper(BaseScraper):
             # Extract details using JavaScript
             details = await page.evaluate(self.DETAIL_EXTRACTION_JS)
             
+            # Click "Informationen für Fachkreise" to access the Module table with ICD-10 codes
+            icd10_codes = []
+            try:
+                # Try multiple selectors for the Fachkreise button/link
+                fachkreise_selectors = [
+                    'button:has-text("Informationen für Fachkreise")',
+                    'a:has-text("Informationen für Fachkreise")',
+                    '[class*="accordion"]:has-text("Fachkreise")',
+                    'summary:has-text("Fachkreise")',
+                    'div:has-text("Informationen für Fachkreise"):not(:has(div))',
+                ]
+                
+                clicked = False
+                for selector in fachkreise_selectors:
+                    try:
+                        fachkreise_btn = page.locator(selector).first
+                        if await fachkreise_btn.count() > 0:
+                            await fachkreise_btn.click()
+                            clicked = True
+                            print("      Clicked 'Informationen für Fachkreise'")
+                            await asyncio.sleep(1.5)  # Wait for section to expand
+                            break
+                    except Exception:
+                        continue
+                
+                if not clicked:
+                    # Try clicking by text content directly
+                    try:
+                        await page.get_by_text("Informationen für Fachkreise", exact=False).first.click()
+                        clicked = True
+                        print("      Clicked 'Informationen für Fachkreise' via text")
+                        await asyncio.sleep(1.5)
+                    except Exception:
+                        pass
+                
+                # Extract ICD-10 codes from the Indikation table column
+                if clicked:
+                    icd10_codes = await page.evaluate(self.INDIKATION_TABLE_EXTRACTION_JS)
+                    if icd10_codes:
+                        print(f"      Extracted {len(icd10_codes)} ICD-10 codes from Indikation table")
+                
+            except Exception as e:
+                print(f"      Could not access Fachkreise section: {e}")
+            
             # Merge with basic info
             result = dtx_basic.copy()
             if details:
                 result.update({k: v for k, v in details.items() if v is not None})
+            
+            # Set ICD-10 codes from table extraction (overrides the empty default)
+            if icd10_codes:
+                result["clinical_area_icd10"] = icd10_codes
             
             # Translate status
             result["listing_status"] = self.status_translations.get(
