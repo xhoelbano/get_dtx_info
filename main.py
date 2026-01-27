@@ -160,95 +160,6 @@ def scrape_reviews(config: str):
 
 
 @cli.command()
-@click.option('--all', 'scrape_all', is_flag=True, help='Find evidence for all DTx')
-@click.option('--dtx', type=str, help='Find evidence for specific DTx by name')
-@click.option('--skip-scholar', is_flag=True, help='Skip Google Scholar (use PubMed only)')
-@click.option('--config', type=click.Path(exists=True), default='config/germany.json',
-              help='Path to country configuration file')
-def find_evidence(scrape_all: bool, dtx: str, skip_scholar: bool, config: str):
-    """Find RCT/RWE evidence for DTx from PubMed and Google Scholar.
-    
-    Uses PubMed E-utilities API (free, reliable) and optionally
-    browser-use for Google Scholar searches.
-    
-    Results are classified as RCT (Randomized Controlled Trial) or
-    RWE (Real-World Evidence) based on publication type and keywords.
-    """
-    if not scrape_all and not dtx:
-        click.echo("Error: Please specify --all or --dtx <name>")
-        return
-    
-    click.echo("Starting evidence search...")
-    click.echo("  - PubMed: Using E-utilities API")
-    if not skip_scholar:
-        click.echo("  - Google Scholar: Using browser-use (may be blocked)")
-    
-    async def run():
-        from scrapers.evidence_scraper import EvidenceScraper
-        
-        data_manager = DataManager()
-        scraper = EvidenceScraper(config_path=config)
-        
-        # Load existing DTx data
-        dtx_data = data_manager.load_dtx_data()
-        dtx_list = dtx_data.get("dtx_list", [])
-        
-        if dtx:
-            # Filter to specific DTx
-            dtx_list = [d for d in dtx_list if dtx.lower() in d.get("dtx_name", "").lower()]
-            if not dtx_list:
-                click.echo(f"No DTx found matching: {dtx}")
-                return
-        
-        click.echo(f"\nSearching evidence for {len(dtx_list)} DTx...")
-        
-        total_rct = 0
-        total_rwe = 0
-        dtx_with_evidence = 0
-        
-        try:
-            for i, dtx_item in enumerate(dtx_list, 1):
-                dtx_name = dtx_item.get("dtx_name", "Unknown")
-                click.echo(f"\n[{i}/{len(dtx_list)}] {dtx_name}")
-                
-                # Search for evidence
-                evidence_result = await scraper.search_evidence(dtx_item)
-                
-                rct_count = len(evidence_result.get("RCT", []))
-                rwe_count = len(evidence_result.get("RWE", []))
-                
-                if rct_count > 0 or rwe_count > 0:
-                    # Save evidence for this DTx
-                    data_manager.add_evidence_for_dtx(dtx_name, evidence_result)
-                    dtx_with_evidence += 1
-                    total_rct += rct_count
-                    total_rwe += rwe_count
-                    
-                    # Show some results
-                    for paper in evidence_result.get("RCT", [])[:2]:
-                        click.echo(f"    [RCT] {paper.get('title', 'Unknown')[:55]}...")
-                    for paper in evidence_result.get("RWE", [])[:2]:
-                        click.echo(f"    [RWE] {paper.get('title', 'Unknown')[:55]}...")
-                else:
-                    click.echo("    No evidence found")
-                
-                await asyncio.sleep(1)  # Rate limiting
-            
-            click.echo(f"\n{'='*50}")
-            click.echo("Evidence search complete!")
-            click.echo(f"  DTx searched: {len(dtx_list)}")
-            click.echo(f"  DTx with evidence: {dtx_with_evidence}")
-            click.echo(f"  Total RCT papers: {total_rct}")
-            click.echo(f"  Total RWE papers: {total_rwe}")
-            click.echo(f"  Data saved to: {data_manager.evidence_file}")
-            
-        finally:
-            await scraper.close()
-    
-    asyncio.run(run())
-
-
-@cli.command()
 @click.option('--csv', 'csv_path', type=click.Path(exists=True), 
               help='Path to CSV file with company data')
 @click.option('--company', type=str, help='Filter to specific company name')
@@ -409,24 +320,148 @@ def show_status():
         click.echo("No USA DTx data found. Run 'scrape-usa' to collect data.")
     
     # === Evidence Data ===
-    evidence_data = data_manager.load_evidence_data()
-    evidence_meta = evidence_data.get("metadata", {})
-    evidence_by_dtx = evidence_data.get("evidence_by_dtx", {})
+    evidence_dir = Path("evidence")
+    if evidence_dir.exists():
+        # Count evidence from new folder structure
+        germany_evidence = evidence_dir / "Germany"
+        usa_evidence = evidence_dir / "USA"
+        
+        germany_dtx_count = len(list(germany_evidence.iterdir())) if germany_evidence.exists() else 0
+        usa_dtx_count = len(list(usa_evidence.iterdir())) if usa_evidence.exists() else 0
+        
+        click.echo(f"\n=== Clinical Evidence ===")
+        click.echo(f"  - Germany DTx with evidence: {germany_dtx_count}")
+        click.echo(f"  - USA DTx with evidence: {usa_dtx_count}")
+        click.echo(f"  Evidence stored in: {evidence_dir}/")
+    else:
+        click.echo(f"\n=== Clinical Evidence ===")
+        click.echo("  No evidence collected yet. Run 'find-evidence' to search.")
+
+
+@cli.command()
+@click.option('--all', 'search_all', is_flag=True, help='Search evidence for all DTx')
+@click.option('--country', type=click.Choice(['germany', 'usa', 'both']), default='both',
+              help='Which country DTx to search (default: both)')
+@click.option('--dtx', type=str, help='Search evidence for specific DTx by name')
+@click.option('--source', type=click.Choice(['pubmed', 'clinicaltrials', 'drks', 'isrctn', 'all']), 
+              default='all', help='Which source to search (default: all)')
+@click.option('--no-pdfs', is_flag=True, help='Skip downloading PDFs from PubMed')
+@click.option('--max-results', type=int, default=30, help='Max results per query per source')
+def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs: bool, max_results: int):
+    """Find RCT/RWE evidence for DTx from multiple sources.
     
-    total_rct = evidence_meta.get("total_rct", 0)
-    total_rwe = evidence_meta.get("total_rwe", 0)
+    Searches PubMed, ClinicalTrials.gov, DRKS, and ISRCTN for clinical
+    evidence about Digital Therapeutics.
     
-    # If metadata counts aren't set, calculate them
-    if total_rct == 0 and total_rwe == 0:
-        for dtx_evidence in evidence_by_dtx.values():
-            total_rct += len(dtx_evidence.get("RCT", []))
-            total_rwe += len(dtx_evidence.get("RWE", []))
+    Results are classified as RCT (Randomized Controlled Trial) or
+    RWE (Real-World Evidence) and organized by country and source.
     
-    click.echo(f"\n=== Evidence Papers ===")
-    click.echo(f"  - DTx with evidence: {len(evidence_by_dtx)}")
-    click.echo(f"  - Total RCT papers: {total_rct}")
-    click.echo(f"  - Total RWE papers: {total_rwe}")
-    click.echo(f"  - Last updated: {evidence_meta.get('last_updated', 'Never')}")
+    Examples:
+        python main.py find-evidence --all
+        python main.py find-evidence --country germany
+        python main.py find-evidence --dtx "deprexis"
+        python main.py find-evidence --all --source pubmed
+    """
+    if not search_all and not dtx:
+        click.echo("Error: Please specify --all or --dtx <name>")
+        return
+    
+    click.echo("Starting evidence search...")
+    click.echo(f"  Sources: {source if source != 'all' else 'PubMed, ClinicalTrials.gov, DRKS, ISRCTN'}")
+    click.echo(f"  Country: {country}")
+    click.echo(f"  Download PDFs: {not no_pdfs}")
+    
+    async def run():
+        from scrapers.evidence import EvidenceOrchestrator
+        from utils import SearchQueryGenerator, EvidenceClassifier
+        
+        data_manager = DataManager()
+        orchestrator = EvidenceOrchestrator()
+        query_generator = SearchQueryGenerator()
+        classifier = EvidenceClassifier()
+        
+        orchestrator.set_utilities(query_generator, classifier)
+        
+        # Determine sources to search
+        sources = None if source == 'all' else [source]
+        
+        try:
+            # Determine which countries to search
+            countries_to_search = []
+            if country in ['germany', 'both']:
+                countries_to_search.append(('Germany', data_manager.load_dtx_data().get('dtx_list', [])))
+            if country in ['usa', 'both']:
+                usa_data = data_manager.load_usa_dtx_data()
+                countries_to_search.append(('USA', usa_data.get('dtx_list', [])))
+            
+            for country_name, dtx_list in countries_to_search:
+                if not dtx_list:
+                    click.echo(f"\nNo {country_name} DTx data found. Run scraping commands first.")
+                    continue
+                
+                # Filter to specific DTx if specified
+                if dtx:
+                    dtx_list = [d for d in dtx_list if dtx.lower() in d.get("dtx_name", "").lower()]
+                    if not dtx_list:
+                        click.echo(f"\nNo DTx matching '{dtx}' found in {country_name}")
+                        continue
+                
+                click.echo(f"\n{'='*60}")
+                click.echo(f"Searching evidence for {len(dtx_list)} {country_name} DTx...")
+                click.echo(f"{'='*60}")
+                
+                stats = await orchestrator.search_all_dtx(
+                    dtx_list=dtx_list,
+                    country=country_name,
+                    sources=sources,
+                    download_pdfs=not no_pdfs,
+                    max_results_per_query=max_results
+                )
+                
+                click.echo(f"\n{country_name} Results:")
+                click.echo(f"  DTx searched: {stats['dtx_searched']}")
+                click.echo(f"  DTx with evidence: {stats['dtx_with_evidence']}")
+                click.echo(f"  Total RCT: {stats['total_rct']}")
+                click.echo(f"  Total RWE: {stats['total_rwe']}")
+            
+            click.echo(f"\n{'='*60}")
+            click.echo("Evidence search complete!")
+            click.echo("Results saved to: evidence/")
+            
+        finally:
+            await orchestrator.close()
+    
+    asyncio.run(run())
+
+
+@cli.command()
+def evidence_summary():
+    """Generate summary report of collected clinical evidence."""
+    from scrapers.evidence import EvidenceOrchestrator
+    
+    orchestrator = EvidenceOrchestrator()
+    
+    # Get statistics
+    stats = orchestrator.get_overall_statistics()
+    
+    if stats['total_dtx'] == 0:
+        click.echo("\nNo evidence collected yet.")
+        click.echo("Run 'find-evidence --all' to search for clinical evidence.")
+        return
+    
+    # Print report
+    report = orchestrator.generate_report()
+    click.echo(report)
+    
+    # Save detailed stats to file
+    import json
+    summary_path = Path("evidence/summary/overall_statistics.json")
+    summary_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(stats, f, indent=2, ensure_ascii=False)
+    
+    click.echo(f"\nDetailed statistics saved to: {summary_path}")
 
 
 @cli.command()

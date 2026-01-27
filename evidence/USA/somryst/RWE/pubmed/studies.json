@@ -1,0 +1,353 @@
+{
+  "studies": [
+    {
+      "study_id": "38586124",
+      "pmid": "38586124",
+      "title": "Emerging and upcoming therapies in insomnia.",
+      "authors": "Kim Woo-Ju et al.",
+      "authors_list": [
+        "Kim Woo-Ju",
+        "Kim Ho-Sook"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Mar",
+      "journal": "Translational and clinical pharmacology",
+      "journal_abbrev": "Transl Clin Pharmacol",
+      "doi": "10.12793/tcp.2024.32.e5",
+      "abstract": "Insomnia, commonly treated with benzodiazepine (BZD) receptor agonists, presents challenges due to associated serious side effects such as abuse and dependence. To address these concerns, many researches have been conducted to develop and advance both pharmacological and non-pharmacological interventions. Dual orexin receptor antagonists (DORAs), which include suvorexant, daridorexant and lemborexant, have recently been approved by United States Food and Drug Administration (US FDA) as a novel pharmacotherapeutic alternative. Unlike BZD receptor agonists that act as positive allosteric modulators of the gamma-aminobutyric acid type A subunit alpha 1 receptor, DORAs function by binding to both orexin receptor types 1 and 2, and inhibiting the action of the wake-promoting orexin neuropeptide. These drugs induce normal sleep without sleep stage change, do not impair attention and memory performance, and facilitate easier awakening. However, more real-world safety information is needed. Selective orexin-2 receptor antagonists (2-SORAs) is under clinical developments. This review provides an overview of the mechanism of action in relation to insomnia, pharmacokinetics, efficacy and safety information of DORAs and SORA. According to insomnia management guidelines, the first-line treatment for chronic insomnia is cognitive behavioral therapy for insomnia (CBT-I). Although it has proven effective in improving sleep-related quality of life, it has several restrictions limitations due to a face-to-face format. Recently, prescription digital therapy such as Somryst® was approved by US FDA. Somryst®, a smartphone app-based CBT-I, demonstrated meaningful responses in patients. However, digital limitations may impact scalability. Overall, these developments offer promising alternatives for insomnia treatment, emphasizing safety, efficacy, and accessibility.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Cognitive Behavioral Therapy, Digital Health",
+        "Dual Orexin Receptor Antagonists",
+        "Insomnia"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38586124/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 80,
+        "reason": "The study appears to be a review or discussion of emerging therapies rather than a specific clinical trial. There is no mention of randomization, controlled comparison, or interventional design. The publication type as a 'Journal Article' without further specification also suggests it is not an RCT. Leaning towards RWE as it may involve observational or real-world data insights."
+      }
+    },
+    {
+      "study_id": "35938209",
+      "pmid": "35938209",
+      "title": "Network meta-analysis comparing the effectiveness of a prescription digital therapeutic for chronic insomnia to medications and face-to-face cognitive behavioral therapy in adults.",
+      "authors": "Forma Felicia et al.",
+      "authors_list": [
+        "Forma Felicia",
+        "Pratiwadi Ramya",
+        "El-Moustaid Fadoua",
+        "Smith Nathaniel",
+        "Thorndike Frances"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Oct",
+      "journal": "Current medical research and opinion",
+      "journal_abbrev": "Curr Med Res Opin",
+      "doi": "10.1080/03007995.2022.2108616",
+      "abstract": "OBJECTIVE: The purpose of this study was to compare the effectiveness of the only Food and Drug Administration-authorized prescription digital therapeutic (PDT) Somryst versus face-to-face cognitive behavioral therapy for insomnia (CBT-I), or FDA-approved prescription medications for insomnia. METHODS: A systematic literature review was undertaken to identify relevant studies. A Bayesian network meta-analysis (NMA) was conducted to examine (1) mean change in insomnia severity index (ISI); (2) proportional change in ISI remitters; (3) mean change in wake after sleep onset (WASO); and (4) mean change in sleep onset latency (SOL). RESULTS: Twenty studies provided data on the PDT, CBT-I, CBT-I in combination with self-help (SH), or two prescription medications (eszopiclone and zolpidem). The PDT was associated with significant mean change in ISI (-5.77, 95% Credible Interval [CrI] - 8.53, -3.07) and ISI remitters (OR 12.33; 95% CrI 2.28, 155.91) compared to placebo, and had the highest probability of being the most effective treatment overall for ISI mean change (56%), and ISI remitters (64%). All evaluated interventions significantly outperformed placebo for WASO but no significant differences were observed for SOL (five interventions). Sensitivity analyses excluding medications and meta-regression (assessing type, duration, delivery method for CBT-I) did not affect NMA results. CONCLUSIONS: This network meta-analysis demonstrated that a PDT delivering CBT-I had the highest probability of being most effective compared to face-to-face CBT-I, prescription sleep medications, or placebo, as measured by reductions in mean ISI score from baseline and ISI-determined remittance.",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Research Support, Non-U.S. Gov't",
+        "Network Meta-Analysis"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Bayes Theorem",
+        "Cognitive Behavioral Therapy",
+        "Eszopiclone",
+        "Humans",
+        "Prescriptions",
+        "Sleep Initiation and Maintenance Disorders",
+        "Treatment Outcome",
+        "Zolpidem"
+      ],
+      "keywords": [
+        "CBT-I",
+        "Chronic insomnia disorder",
+        "PDT",
+        "Somryst",
+        "cognitive behavioral therapy for insomnia",
+        "digital therapeutic",
+        "insomnia severity index",
+        "network meta-analysis",
+        "prescription digital therapeutic"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35938209/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 95,
+        "reason": "The study is a network meta-analysis based on a systematic literature review of existing studies, which is observational and retrospective in nature. There is no mention of randomization or prospective interventional design, and it relies on previously published data."
+      }
+    },
+    {
+      "study_id": "40271230",
+      "pmid": "40271230",
+      "title": "When Software Becomes Medicine: Ignoring It May Soon Be Malpractice.",
+      "authors": "Lakhan Shaheen E",
+      "authors_list": [
+        "Lakhan Shaheen E"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Apr",
+      "journal": "Cureus",
+      "journal_abbrev": "Cureus",
+      "doi": "10.7759/cureus.82793",
+      "abstract": "The convergence of mobile software, artificial intelligence, and biomedical science is ushering in a new era of precision medicine, defined not only by personalization but by real-time adaptability. This shift is exemplified by the evolution of Prescription Digital Therapeutics (PDTs): smartphone-based applications that treat a disease or condition and are regulated in the US by the FDA. Early PDTs (PDT 1.0) such as reSET for substance use disorder, reSET-O for opioid use disorder, and Somryst for chronic insomnia digitized cognitive behavioral therapy (CBT) into a smartphone app and laid the foundation for regulated digital interventions. Now in the era of PDT 2.0, we see greater personalization, multimodal approaches beyond CBT, robust clinical validation, and targeting drug-like endpoints with Rejoyn for major depressive disorder, CT-132 for episodic migraine prevention, Luminopia for amblyopia, and CT-155 in development for negative symptoms of schizophrenia. Despite promising results, widespread adoption remains limited by reimbursement, clinician and patient awareness, and integration into clinical workflows. On the horizon is smart medicine: a convergence of traditional pharmacotherapy with PDTs that work together to enhance overall effectiveness, safety and tolerability, and engagement, adherence, and personalization. These medicines optimize outcomes in ways conventional therapies cannot and, in true closed-loop principles, assess for disease and symptoms and modulate both the digital and drug interventions. Drawing from my work experience on multiple PDTs, this paper highlights how PDTs are transforming care. The FDA's Prescription Drug Use-Related Software (PDURS) guidance affirms the regulatory foundation for integrating PDTs and drugs. Meaningful therapeutic advancements now depend not only on the molecular design but also on the mechanisms, digital or otherwise, that support its success. I postulate that within the next five years, omitting digital interventions when indicated will not just be outdated, it may be malpractice.",
+      "publication_types": [
+        "Editorial"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "artificial intelligence",
+        "closed-loop care",
+        "digital health",
+        "digital therapeutics",
+        "personalized medicine",
+        "prescription digital therapeutics",
+        "remote patient monitoring",
+        "software as a medical device"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40271230/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study appears to be a discussion or editorial about the evolution of Prescription Digital Therapeutics (PDTs) rather than a clinical trial. There is no mention of randomization, controlled comparison, or interventional study design. The publication type being an editorial further supports that this is not an RCT."
+      }
+    },
+    {
+      "study_id": "39329484",
+      "pmid": "39329484",
+      "title": "Download to heal: navigating the pixelated path of digital therapeutics in psychiatric care.",
+      "authors": "Ahuja Jai et al.",
+      "authors_list": [
+        "Ahuja Jai",
+        "Jaka Sanobar",
+        "Saeed Sikandar",
+        "Gunturu Sasidhar"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025",
+      "journal": "Revista brasileira de psiquiatria (Sao Paulo, Brazil : 1999)",
+      "journal_abbrev": "Braz J Psychiatry",
+      "doi": "10.47626/1516-4446-2024-3802",
+      "abstract": "Digital therapeutics have evolved rapidly with technological advances in healthcare. Despite their increasing use, gaps remain in understanding their regulatory frameworks, integration, and efficacy for conditions like substance use disorder, insomnia, attention deficit hyperactivity disorder, and posttraumatic stress disorder. This study evaluates U.S. Food and Drug Administration (FDA)-approved digital therapeutics and explores their potential to revolutionize psychiatric treatments amid ongoing technological and regulatory changes. We conducted a comprehensive review of major databases, focusing on articles published until January 2024 about FDA-approved digital therapeutics. We excluded non-English articles, those lacking empirical data, and those focusing on non-FDA-approved therapeutics. Our analysis covered regulatory compliance, clinical outcomes, and integration with traditional treatments. A review of nine FDA-cleared digital therapeutics revealed benefits, such as improved treatment accessibility and potential reductions in healthcare costs. For example, through Somryst, a cognitive-behavioral therapy-based treatment for insomnia, over 40% of users overcame chronic insomnia, and 60% experienced improvements without adverse effects. However, challenges remain, including low provider adoption, inadequate insurance coverage, and high user dropout rates. While digital therapeutics enhance accessibility, they face regulatory challenges, reimbursement issues, and require robust clinical evidence. Success depends on collaboration among stakeholders to demonstrate value, ensure safety, and integrate them into existing healthcare systems.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Mental Disorders",
+        "United States",
+        "Telemedicine",
+        "United States Food and Drug Administration",
+        "Sleep Initiation and Maintenance Disorders",
+        "Cognitive Behavioral Therapy"
+      ],
+      "keywords": [
+        "Digital therapeutics",
+        "digital health",
+        "digital psychiatry",
+        "prescription digital therapeutics",
+        "telehealth"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39329484/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study is a review of FDA-approved digital therapeutics, focusing on existing literature and data. It does not involve randomization, prospective design, or interventional methodology, which are hallmarks of RCTs. Instead, it is an observational and retrospective analysis of published studies, fitting the criteria for RWE."
+      }
+    },
+    {
+      "study_id": "40357319",
+      "pmid": "40357319",
+      "title": "A Dose of Smart Medicine to Make America Healthy Again: A $1 Trillion Win for Health, Innovation, and the Nation.",
+      "authors": "Lakhan Shaheen E",
+      "authors_list": [
+        "Lakhan Shaheen E"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-May",
+      "journal": "Cureus",
+      "journal_abbrev": "Cureus",
+      "doi": "10.7759/cureus.83973",
+      "abstract": "Smart medicines are FDA-regulated, evidence-based, smartphone-delivered treatments used alone or alongside drugs. Unlike general health apps, these prescription digital therapeutics are authorized to make treatment claims and are already in use for conditions such as migraine (CT-132), insomnia (Somryst), and major depressive disorder (Rejoyn). They are poised to transform American healthcare. By delivering precision interventions directly into patients' daily lives, they reduce the chronic disease burden, improve outcomes, and lower costs at scale. Drawing from my experience treating diverse populations across America, training future clinicians, shaping drug formularies, and developing digital therapeutics, I argue that smart medicine is the most promising lever for national health reform. If widely adopted in 2025, these technologies could save over $1 trillion annually while advancing healthcare access, restoring individual productivity, and reasserting U.S. leadership in medical innovation. Aligned with the goals of the Make America Healthier Again (MAHA) initiative, smart medicines support every major U.S. Department of Health and Human Services (HHS) priority, improving access, equity, and affordability of healthcare services for chronic diseases, behavioral health, and maternal care, and are thus uniquely positioned to close systemic healthcare gaps. This editorial proposes a federal initiative, Operation Smart Medicine, to accelerate the development, reimbursement, and nationwide deployment of smart medicines. Modeled on successful U.S. programs like Operation Warp Speed for COVID-19 and the HITECH Act for electronic health records, this initiative would enable smart medicines to support HHS/MAHA priorities and deliver scalable, value-based care. The technology exists, the evidence is emerging, and the time to align innovation with implementation is now.",
+      "publication_types": [
+        "Editorial"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "chronic disease",
+        "digital therapeutics",
+        "fda-regulated",
+        "healthcare cost savings",
+        "healthcare reform",
+        "maha initiative",
+        "prescription digital therapeutics",
+        "smart medicine",
+        "smartphone-delivered treatment",
+        "value-based care"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40357319/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study appears to be an editorial discussing the potential of smart medicines rather than a clinical study with a defined methodology. No mention of randomization, controlled comparison, or interventional design suggests it is not an RCT. The focus on real-world application and outcomes aligns more with RWE."
+      }
+    },
+    {
+      "study_id": "33682430",
+      "pmid": "33682430",
+      "title": "Protocol for Digital Real-world Evidence trial for Adults with insomnia treated via Mobile (DREAM): an open-label trial of a prescription digital therapeutic for treating patients with chronic insomnia.",
+      "authors": "Thorndike Frances P et al.",
+      "authors_list": [
+        "Thorndike Frances P",
+        "Berry Richard B",
+        "Gerwien Robert",
+        "Braun Stephen",
+        "Maricich Yuri A"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-May",
+      "journal": "Journal of comparative effectiveness research",
+      "journal_abbrev": "J Comp Eff Res",
+      "doi": "10.2217/cer-2021-0004",
+      "abstract": "Background: Cognitive behavioral therapy for insomnia (CBT-I) is underused in healthcare settings and is challenging for people with insomnia to access because of uneven geographical distribution of behavioral sleep medicine providers. Prescription digital therapeutics can overcome these barriers. This study evaluates the effectiveness of a specific digital CBT-I therapeutic. Materials & methods:Digital Real-world Evidence trial for Adults with insomnia treated via Mobile (DREAM) is a 9-week, open-label, decentralized clinical trial to collect real-world evidence for a digital therapeutic (Somryst™) delivering CBT-I to patients with chronic insomnia. The primary objective is to examine the effectiveness of Somryst to reduce self-reported insomnia symptoms and severity in a real-world population (n = 350). Conclusion: This pragmatic study seeks to assess the potential benefits of treating insomnia with an asynchronous, mobile, tailored prescription digital therapeutic. Clinical trial registration: NCT04325464 (ClinicalTrials.gov).",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Pragmatic Clinical Trial",
+        "Clinical Trial Protocol"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Cognitive Behavioral Therapy",
+        "Humans",
+        "Prescriptions",
+        "Self Report",
+        "Sleep",
+        "Sleep Initiation and Maintenance Disorders",
+        "Treatment Outcome",
+        "Clinical Trials as Topic"
+      ],
+      "keywords": [
+        "CBT-I",
+        "PDT",
+        "chronic insomnia",
+        "cognitive behavioral therapy for insomnia",
+        "digital therapeutics",
+        "insomnia",
+        "prescription digital therapeutic"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33682430/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study is described as a 'Digital Real-world Evidence trial' and aims to collect real-world evidence for a digital therapeutic. It is an open-label, decentralized trial, which aligns with RWE characteristics. There is no mention of randomization or controlled comparison, and the pragmatic nature of the trial further supports the RWE classification."
+      }
+    },
+    {
+      "study_id": "35983014",
+      "pmid": "35983014",
+      "title": "Real-World Evaluation of Clinical Response and Long-Term Healthcare Resource Utilization Patterns Following Treatment with a Digital Therapeutic for Chronic Insomnia.",
+      "authors": "Forma Felicia et al.",
+      "authors_list": [
+        "Forma Felicia",
+        "Knight Tyler G",
+        "Thorndike Frances P",
+        "Xiong Xiaorui",
+        "Baik Rebecca"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022",
+      "journal": "ClinicoEconomics and outcomes research : CEOR",
+      "journal_abbrev": "Clinicoecon Outcomes Res",
+      "doi": "10.2147/CEOR.S368780",
+      "abstract": "BACKGROUND AND OBJECTIVES: This analysis evaluated insomnia severity and long-term impact on healthcare resource utilization (HCRU) and costs after treatment with Somryst® (previously called SHUTi), a digital therapeutic delivering cognitive behavioral therapy for insomnia (CBT-I). METHODS: Change from baseline in insomnia severity index (ISI) score was assessed using last observed ISI score. A pre/post analysis of claims data was conducted, comparing HCRU in patients with self-identified sleep problems who successfully initiated the therapeutic (index date) between June 1, 2016 and December 31, 2018. RESULTS: A total of 248 patients were analyzed (median age 56.5 years, 57.3% female, mean ISI score 19.13, 52.4% treated with sleep aid medications pre-index). After 9 weeks, mean ISI score declined by 37.2% from baseline (19.1 vs 12.0), 58.8% of patients achieved ISI responder status (ISI score improved by =>7; NNT: 1.7), and 26.6% of patients achieved insomnia remission (ISI score <8; NNT for remission: 3.8). After two-year follow-up, post-index events were reduced (compared to 2 years pre-index) for emergency department visits (-53%; IRR: 0.47; 95% CI 0.27, 0.82; P=0.008), hospiatizations (-21%; IRR: 0.79; 95% CI 0.46, 1.35; P=0.389) and hospital outpatient visits (-13%; IRR: 0.87; 95% CI 0.66, 1.14; P=0.315). Slightly increased rates were observed for ambulatory surgical center visits (2%; IRR: 1.02; 95% CI 0.73, 1.44; P=0.903) and office visits (2%; IRR: 1.02; 95% CI 0.92, 1.14; P=0.672). The number of patients treated with sleep aid medications dropped 18.5% (52.4% pre-index vs 42.7% post-index). Average number of prescriptions decreased from 3.98 pre-index to 3.73 post-index (P= 0.552). Total two-year cost reduction post-index vs pre-index was $510,678, or -$2059 per patient. CONCLUSION: In a real-world cohort of patients with chronic insomnia, treatment with a digital therapeutic delivering CBT-I was associated with reductions in insomnia severity, emergency department visits, and net costs.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CBT-I",
+        "SHUTi",
+        "Somryst",
+        "chronic insomnia",
+        "cognitive behavioral therapy for insomnia",
+        "prescription digital therapeutic"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35983014/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 95,
+        "reason": "The study involves a pre/post analysis of claims data, which is retrospective and observational in nature. It evaluates real-world outcomes and healthcare resource utilization patterns without mentioning randomization or controlled comparison. The use of terms like 'real-world evaluation' and 'claims data' strongly supports RWE classification."
+      }
+    },
+    {
+      "study_id": "39319356",
+      "pmid": "39319356",
+      "title": "Effect of a prescription digital therapeutic for chronic insomnia on post-treatment insomnia severity, depression, and anxiety symptoms: results from the real-world DREAM study.",
+      "authors": "Thorndike Frances P et al.",
+      "authors_list": [
+        "Thorndike Frances P",
+        "Morin Charles M",
+        "Ojile Joseph",
+        "Edington Samantha",
+        "Gerwien Robert"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024",
+      "journal": "Frontiers in psychiatry",
+      "journal_abbrev": "Front Psychiatry",
+      "doi": "10.3389/fpsyt.2024.1450615",
+      "abstract": "INTRODUCTION: Chronic insomnia is a substantial public health burden that often presents with co-occurring depression and anxiety. Randomized clinical trials and preliminary real-world evidence have shown that digitally delivered cognitive-behavioral therapy for insomnia (dCBT-I) is associated with improvements in insomnia, but real-world evidence is needed to determine the true impact of digital CBT-I. This pragmatic study aimed to evaluate the benefits of treating chronic insomnia with a tailored prescription digital therapeutic in a real-world population. METHODS: This prospective, single-arm clinical study involved adults aged 22-75 with chronic insomnia living in the US who had access to a mobile device. Participants accessed the FDA-cleared prescription digital therapeutic (PDT; Somryst®) over a 9-week intervention period. The PDT delivers cognitive-behavioral therapy for insomnia via six interactive treatment cores and daily sleep diaries used for tailoring treatment. Participants completed validated patient-reported instruments at baseline, before completing treatment cores, immediately post-intervention, and at 6-month and 1-year follow-ups. The Insomnia Severity Index [ISI], the 8-item Patient Health Questionnaire [PHQ-8], and the Generalized Anxiety Disorder-7 scale [GAD-7] were used to determine the effect of the PDT on insomnia, depression, and anxiety. RESULTS: After screening, 1565 adults accessed the PDT. 58% of those who began the program completed Core 4, established as exposure to all mechanisms of action in the digital therapeutic. For those who completed assessments for all 6 cores (48.4%), the ISI was lowered from 18.8 to a mean of 9.9 (P <.001). These scores continued to be lower than baseline at immediate post (11.0), 6-month (11.6), and 1-year follow-ups (12.2) (P <.001). The results of the PHQ-8 and GAD-7 also show significant decreases at all measured timepoints from baseline (P <.001). Of the patients that began the program, 908 (58.0%) were considered adherent and 733 (46.8%) completed all 6 cores. CONCLUSION: Data from the DREAM study contributes to the growing body of clinical evidence of how patients are utilizing a PDT in the real world, outside of controlled settings, offering insights for clinicians who use these therapeutics in practice. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov, identifier NCT04325464.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CBT-I",
+        "anxiety",
+        "depression",
+        "insomnia",
+        "prescription digital therapeutic",
+        "real-world data",
+        "sleep"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39319356/",
+      "pdf_available": false,
+      "classification": {
+        "classification": "RWE",
+        "confidence": 95,
+        "reason": "The study is described as a real-world pragmatic study and explicitly mentions evaluating the intervention in a real-world population. There is no mention of randomization or a control group, and it is a single-arm study. The focus on real-world evidence and the absence of RCT-specific keywords like 'randomized' or 'placebo-controlled' strongly indicate it is an RWE study."
+      }
+    }
+  ],
+  "count": 8,
+  "queries_used": [
+    "Somryst",
+    "Somryst insomnia"
+  ],
+  "_saved_at": "2026-01-27T17:23:38.428994Z",
+  "_source": "pubmed"
+}

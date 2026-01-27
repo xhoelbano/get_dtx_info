@@ -1,6 +1,7 @@
 """Utilities package."""
 from .data_manager import DataManager
 from .translator import Translator
-from .keyword_generator import KeywordGenerator
+from .search_query_generator import SearchQueryGenerator
+from .evidence_classifier import EvidenceClassifier
 
-__all__ = ["DataManager", "Translator", "KeywordGenerator"]
+__all__ = ["DataManager", "Translator", "SearchQueryGenerator", "EvidenceClassifier"]

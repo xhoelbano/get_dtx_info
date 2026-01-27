@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-01-27T16:08:07.865320Z",
+  "countries": {
+    "Germany": {
+      "dtx_count": 1,
+      "rct_count": 59,
+      "rwe_count": 14,
+      "by_source": {
+        "drks": {
+          "rct": 4,
+          "rwe": 3
+        },
+        "clinicaltrials": {
+          "rct": 12,
+          "rwe": 1
+        },
+        "pubmed": {
+          "rct": 43,
+          "rwe": 10
+        }
+      }
+    },
+    "USA": {
+      "dtx_count": 1,
+      "rct_count": 5,
+      "rwe_count": 14,
+      "by_source": {
+        "pubmed": {
+          "rct": 5,
+          "rwe": 14
+        }
+      }
+    }
+  },
+  "total_dtx": 2,
+  "total_rct": 64,
+  "total_rwe": 28
+}

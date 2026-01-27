@@ -24,3 +24,15 @@ evidence-docs/
 # OS
 .DS_Store
 Thumbs.db
+
+# ignore all files in docs folder
+docs/
+
+# ignore all files in data-format folder
+data-format/
+
+# ignore all files in data folder
+data/
+
+# ignore all files in evidence-docs folder
+evidence-docs/

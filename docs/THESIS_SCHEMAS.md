@@ -162,11 +162,16 @@ Automated data collection system for Digital Therapeutics (DTx) from regulatory 
 
 ---
 
-## 3. Phase 2: Evidence Discovery
+## 3. Phase 2: Evidence Discovery (Multi-Source)
 
 ### 3.1 Data Sources
-- **PubMed** (E-utilities API) - Primary source, free, reliable
-- **Google Scholar** (browser-use) - Optional, often blocked
+
+| Source | Type | Coverage | Implementation |
+|--------|------|----------|----------------|
+| **PubMed** | API (E-utilities) | Global research publications | `httpx` async client |
+| **ClinicalTrials.gov** | API v2 | US and international trials | `curl` subprocess |
+| **DRKS** | Web scraping | German/EU clinical trials | Playwright browser |
+| **ISRCTN** | Web scraping | UK/EU/International trials | Playwright browser |
 
 ### 3.2 Evidence Pipeline Architecture
 
@@ -175,30 +180,36 @@ Automated data collection system for Digital Therapeutics (DTx) from regulatory 
 │                   Phase 2: Evidence Discovery Pipeline                   │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│  ┌─────────────┐    ┌─────────────────┐    ┌─────────────────┐          │
-│  │  DTx Data   │───▶│  LLM Query      │───▶│  PubMed API     │          │
-│  │  (Input)    │    │  Generation     │    │  Search         │          │
-│  └─────────────┘    └─────────────────┘    └────────┬────────┘          │
-│                                                      │                   │
-│                                                      ▼                   │
-│  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │                    Post-Processing Pipeline                      │    │
-│  ├─────────────────────────────────────────────────────────────────┤    │
-│  │                                                                  │    │
-│  │  Step 1: Deduplication      Step 2: Relevance Filter            │    │
-│  │  ┌──────────────────┐       ┌──────────────────┐                │    │
-│  │  │ Remove duplicate │──────▶│ Keyword Match OR │                │    │
-│  │  │ papers by title  │       │ LLM Verification │                │    │
-│  │  └──────────────────┘       └────────┬─────────┘                │    │
-│  │                                      │                          │    │
-│  │                                      ▼                          │    │
-│  │  Step 3: Classification     Step 4: Storage                     │    │
-│  │  ┌──────────────────┐       ┌──────────────────┐                │    │
-│  │  │ RCT vs RWE       │──────▶│ evidence_        │                │    │
-│  │  │ (PubType+Keywords)│       │ metadata.json    │                │    │
-│  │  └──────────────────┘       └──────────────────┘                │    │
-│  │                                                                  │    │
-│  └─────────────────────────────────────────────────────────────────┘    │
+│                      ┌─────────────────────┐                            │
+│                      │  EvidenceOrchestrator│                            │
+│                      │  (Coordinator)       │                            │
+│                      └──────────┬──────────┘                            │
+│                                 │                                        │
+│         ┌───────────────────────┼───────────────────────┐               │
+│         │                       │                       │               │
+│  ┌──────▼──────┐    ┌──────────▼──────────┐    ┌──────▼──────┐        │
+│  │ SearchQuery │    │  EvidenceClassifier │    │   DataMgr   │        │
+│  │ Generator   │    │  (Azure GPT)        │    │             │        │
+│  │ (Azure GPT) │    │  RCT vs RWE         │    │             │        │
+│  └──────┬──────┘    └──────────┬──────────┘    └─────────────┘        │
+│         │                      │                                        │
+│         ▼                      ▼                                        │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                     Evidence Scrapers                            │   │
+│  ├──────────┬──────────────┬─────────────┬─────────────────────────┤   │
+│  │ PubMed   │ ClinicalTrials│   DRKS     │      ISRCTN             │   │
+│  │ (API)    │ .gov (curl)  │(Playwright) │   (Playwright)          │   │
+│  │          │              │             │                          │   │
+│  │ • Search │ • Search     │ • Form fill │ • Cookie consent        │   │
+│  │ • Details│ • Nested JSON│ • JS render │ • Form submission       │   │
+│  │ • PDFs   │              │ • Details   │ • Detail extraction     │   │
+│  └──────────┴──────────────┴─────────────┴─────────────────────────┘   │
+│                                 │                                        │
+│                                 ▼                                        │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                    Folder Structure Output                        │   │
+│  │  evidence/{Country}/{DTx}/{RCT|RWE}/{Source}/studies.json        │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -311,40 +322,108 @@ The system uses Azure OpenAI to generate intelligent PubMed search queries:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 3.6 Evidence Data Schema
+### 3.6 Evidence Data Schema (New Multi-Source Format)
 
+**Folder Structure:**
+```
+evidence/
+├── Germany/
+│   └── {dtx_name}/              # slugified DTx name
+│       ├── RCT/
+│       │   ├── pubmed/studies.json
+│       │   ├── clinicaltrials/studies.json
+│       │   ├── drks/studies.json
+│       │   └── isrctn/studies.json
+│       └── RWE/
+│           └── {source}/studies.json
+├── USA/
+│   └── {dtx_name}/
+│       └── ... (same structure)
+└── summary/
+    ├── germany_evidence_summary.json
+    ├── usa_evidence_summary.json
+    └── overall_statistics.json
+```
+
+**studies.json Schema:**
 ```json
 {
-  "metadata": {
-    "last_updated": "ISO8601",
-    "total_rct": "integer",
-    "total_rwe": "integer"
-  },
-  "evidence_by_dtx": {
-    "[DTx Name]": {
-      "search_date": "ISO8601",
-      "queries_used": ["string"],
-      "RCT": [
-        {
-          "title": "string",
-          "authors": "string",           // "LastName FirstName et al."
-          "publication_year": "string",
-          "journal": "string",
-          "pmid": "string",              // PubMed ID
-          "doi": "string|null",
-          "abstract": "string",          // Truncated to 1000 chars
-          "publication_types": ["string"],
-          "source": "string",            // "PubMed"
-          "url": "string",               // PubMed URL
-          "evidence_type": "string",     // "RCT"
-          "dtx_name": "string"
-        }
-      ],
-      "RWE": [
-        // Same structure as RCT
-      ]
+  "studies": [
+    {
+      "study_id": "NCT01234567 | PMID12345678 | DRKS00012345 | ISRCTN12345678",
+      "title": "Study title",
+      "scientific_title": "Full scientific title",
+      
+      // Source-specific IDs
+      "pmid": "12345678",
+      "pmc_id": "PMC1234567",
+      "nct_id": "NCT01234567",
+      "drks_id": "DRKS00012345",
+      "isrctn_id": "ISRCTN12345678",
+      "doi": "10.1000/xyz123",
+      
+      // Study Design
+      "study_type": "Interventional | Observational",
+      "study_design": "Randomized, double-blind, placebo-controlled",
+      "phase": "Phase 2/3 | N/A",
+      "allocation": "Randomized | Non-randomized",
+      
+      // Status
+      "status": "Completed | Recruiting | Active",
+      "recruitment_status": "No longer recruiting",
+      "overall_status": "Completed",
+      
+      // Participants
+      "enrollment": "500",
+      "participant_info": {
+        "type": "Patient | Healthy volunteer",
+        "age_group": "Adult",
+        "lower_age": "18 Years",
+        "sex": "All"
+      },
+      
+      // Clinical Info
+      "conditions": ["F32.1", "F33.0"],
+      "health_conditions": "Major Depressive Disorder",
+      "intervention": "Digital CBT app vs waitlist control",
+      
+      // Outcomes
+      "primary_outcome": "Change in PHQ-9 score at 8 weeks",
+      "secondary_outcomes": "Quality of life, adherence",
+      
+      // Sponsors
+      "sponsor": "Company Name",
+      "funder": "Funding Organization",
+      
+      // Geography & Dates
+      "countries": ["Germany", "United Kingdom"],
+      "start_date": "2020-01-01",
+      "completion_date": "2022-06-30",
+      
+      // Content
+      "abstract": "Background: ... Methods: ... Results: ...",
+      "brief_summary": "Plain language summary",
+      
+      // Results
+      "has_results": true,
+      "publication_links": ["https://pubmed.ncbi.nlm.nih.gov/12345678/"],
+      
+      // LLM Classification
+      "classification": {
+        "classification": "RCT | RWE",
+        "confidence": 90,
+        "reason": "Randomized controlled trial with placebo comparison"
+      },
+      
+      // Metadata
+      "source": "PubMed | ClinicalTrials.gov | DRKS | ISRCTN",
+      "url": "https://..."
     }
-  }
+  ],
+  "count": 10,
+  "queries_used": ["deprexis", "deprexis depression"],
+  "_saved_at": "2026-01-27T17:22:32.718917Z",
+  "_source": "pubmed"
 }
 ```
 
@@ -355,25 +434,41 @@ The system uses Azure OpenAI to generate intelligent PubMed search queries:
 ### 4.1 Available Commands
 
 ```bash
-# Phase 1: DTx Scraping
-python main.py scrape-diga --all              # Scrape all 76 DiGA entries
-python main.py scrape-diga --dtx "Kaia"       # Scrape specific DTx
-python main.py scrape-reviews                  # Add app store ratings
+# === Phase 1: DTx Scraping ===
+python main.py scrape-dtx --mode full          # Full scrape of German DiGA
+python main.py scrape-dtx --mode incremental   # Update only changed entries
+python main.py scrape-dtx --list-only          # Scrape list without details
+python main.py scrape-reviews                   # Add app store ratings
 
-# Phase 2: Evidence Finding  
-python main.py find-evidence --all --skip-scholar    # Find evidence for all DTx
-python main.py find-evidence --dtx "Kaia COPD"       # Find evidence for specific DTx
+# === USA DTx Research ===
+python main.py scrape-usa --csv data-format/us_company.csv  # Research US companies
+python main.py research-company "Pear Therapeutics"          # Single company
 
-# Status
-python main.py show-status                     # Show data collection status
+# === Phase 2: Evidence Finding ===
+python main.py find-evidence --all                     # All DTx, all sources
+python main.py find-evidence --all --country germany   # Germany DTx only
+python main.py find-evidence --all --country usa       # USA DTx only
+python main.py find-evidence --dtx "deprexis"          # Specific DTx
+python main.py find-evidence --all --source pubmed     # PubMed only
+python main.py find-evidence --all --source clinicaltrials
+python main.py find-evidence --all --source drks
+python main.py find-evidence --all --source isrctn
+python main.py find-evidence --all --no-pdfs           # Skip PDF downloads
+python main.py find-evidence --all --max-results 20    # Limit results
+
+# === Reports & Status ===
+python main.py show-status                     # Show all data status
+python main.py evidence-summary                # Generate evidence report
 ```
 
 ### 4.2 Output Files
 
 | File | Purpose | Location |
 |------|---------|----------|
-| `dtx_data.json` | DTx metadata | `data/dtx_data.json` |
-| `evidence_metadata.json` | Evidence papers | `data/evidence_metadata.json` |
+| `dtx_data.json` | German DTx metadata | `data/dtx_data.json` |
+| `dtx_data_usa.json` | USA DTx metadata | `data/dtx_data_usa.json` |
+| `studies.json` | Evidence per source | `evidence/{Country}/{DTx}/{Type}/{Source}/` |
+| `overall_statistics.json` | Summary stats | `evidence/summary/` |
 
 ---
 
@@ -452,29 +547,53 @@ get_dtx_info/
 ├── .env                       # API keys (not committed)
 │
 ├── config/
-│   └── germany.json           # Country-specific configuration
+│   ├── germany.json           # German DiGA configuration
+│   └── usa.json               # USA DTx configuration
 │
 ├── scrapers/
 │   ├── __init__.py
 │   ├── base_scraper.py        # Abstract base class
 │   ├── diga_scraper.py        # German DiGA scraper
-│   ├── evidence_scraper.py    # PubMed/Scholar evidence finder
-│   └── app_store_scraper.py   # Play Store/App Store scraper
+│   ├── usa_scraper.py         # USA DTx LLM researcher
+│   ├── app_store_scraper.py   # Play Store/App Store scraper
+│   │
+│   └── evidence/              # Multi-source evidence system
+│       ├── __init__.py
+│       ├── base_evidence_scraper.py    # Base class for all evidence scrapers
+│       ├── pubmed_scraper.py           # PubMed E-utilities API
+│       ├── clinicaltrials_scraper.py   # ClinicalTrials.gov API v2
+│       ├── drks_scraper.py             # DRKS Playwright scraper
+│       ├── isrctn_scraper.py           # ISRCTN Playwright scraper
+│       └── evidence_orchestrator.py    # Coordinator for all sources
 │
 ├── utils/
 │   ├── __init__.py
-│   └── data_manager.py        # JSON data persistence
+│   ├── data_manager.py               # JSON data persistence
+│   ├── translator.py                 # Azure OpenAI translation
+│   ├── search_query_generator.py     # LLM query generation
+│   └── evidence_classifier.py        # LLM RCT/RWE classification
 │
 ├── data/
-│   ├── dtx_data.json          # Scraped DTx data
-│   └── evidence_metadata.json # Evidence papers
+│   ├── dtx_data.json          # German DTx data
+│   └── dtx_data_usa.json      # USA DTx data
+│
+├── evidence/                  # Evidence output (NEW)
+│   ├── Germany/
+│   │   └── {dtx_name}/
+│   │       ├── RCT/{source}/studies.json
+│   │       └── RWE/{source}/studies.json
+│   ├── USA/
+│   │   └── {dtx_name}/...
+│   └── summary/
+│       └── overall_statistics.json
 │
 ├── data-format/
 │   ├── dtx.json               # DTx schema template
 │   └── evidence.json          # Evidence schema template
 │
 └── docs/
-    └── THESIS_SCHEMAS.md      # This documentation
+    ├── THESIS_SCHEMAS.md      # This documentation
+    └── EVIDENCE_SYSTEM.md     # Evidence system documentation
 ```
 
 ---
@@ -503,22 +622,46 @@ get_dtx_info/
 
 ---
 
-## 9. Limitations & Future Work
+## 9. Test Results (January 2026)
 
-### 9.1 Current Limitations
-1. **PubMed Focus**: Google Scholar often blocked
-2. **Language Bias**: English papers prioritized
-3. **Date Range**: No temporal filtering
-4. **Full-text**: Only title/abstract searched
+### 9.1 Evidence Search Results
 
-### 9.2 Planned Enhancements
-1. **Phase 3**: PDF download and LLM-based extraction
-2. **US FDA**: Expand to US digital therapeutics
-3. **EU Countries**: France, UK digital health directories
-4. **Automated Updates**: Scheduled re-scraping
+| DTx | Country | PubMed | ClinicalTrials | DRKS | ISRCTN | Total RCT | Total RWE |
+|-----|---------|--------|----------------|------|--------|-----------|-----------|
+| deprexis | Germany | 13 | 10 | 5 | 3 | **24** | **7** |
+| Somryst | USA | 11 | 1 | 0 | 5 | **6** | **11** |
+
+### 9.2 System Performance
+
+- **PubMed API**: ~2 seconds per query
+- **ClinicalTrials.gov API**: ~3 seconds per query (via curl)
+- **DRKS (Playwright)**: ~15 seconds per DTx
+- **ISRCTN (Playwright)**: ~10 seconds per DTx
 
 ---
 
-*Document Version: 1.0*  
-*Last Updated: January 2026*  
+## 10. Limitations & Future Work
+
+### 10.1 Current Limitations
+1. **Rate Limiting**: ClinicalTrials.gov blocks some requests
+2. **Playwright Speed**: Browser-based scrapers are slower than APIs
+3. **Classification Accuracy**: LLM classification ~85-90% confident
+4. **Language Bias**: Primarily English publications
+
+### 10.2 Completed Enhancements ✓
+1. ✓ **Multi-source evidence**: PubMed, ClinicalTrials.gov, DRKS, ISRCTN
+2. ✓ **USA DTx support**: LLM-based company research
+3. ✓ **PDF downloads**: Automatic from PubMed Central
+4. ✓ **LLM classification**: RCT vs RWE with confidence scores
+
+### 10.3 Planned Enhancements
+1. **Phase 3**: Full-text PDF parsing with LLM extraction
+2. **EU Countries**: France ANSM, UK NICE digital health directories
+3. **Automated Updates**: Scheduled daily/weekly re-scraping
+4. **Results Extraction**: Parse study results from publications
+
+---
+
+*Document Version: 2.0*  
+*Last Updated: January 27, 2026*  
 *Author: Xhoel Bano*
