@@ -36,3 +36,11 @@ data/
 
 # ignore all files in evidence-docs folder
 evidence-docs/
+evidence/
+
+
+# python cache
+__pycache__
+
+
+
