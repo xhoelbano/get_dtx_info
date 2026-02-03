@@ -73,6 +73,83 @@ class BaseEvidenceScraper(ABC):
         # Use slugify to create safe folder names
         return slugify(dtx_name, max_length=50, lowercase=True)
     
+    def _extract_core_product_name(self, dtx_name: str) -> str:
+        """Extract the core product name from full DTx name.
+        
+        Args:
+            dtx_name: Full DTx name (e.g., "Cara Care für Reizdarm")
+            
+        Returns:
+            Core product name (e.g., "Cara Care")
+        """
+        if not dtx_name:
+            return ""
+        
+        # Remove trademark symbols
+        clean = re.sub(r'[®™]', '', dtx_name).strip()
+        
+        # Take first part before separators
+        clean = clean.split(" - ")[0].split(":")[0].strip()
+        
+        # Remove common German suffixes
+        clean = re.sub(
+            r'\s+(App|Therapie|für|bei|zur|die|der|das|Meine|aktive|im|Erwachsenenalter)\s*$',
+            '', clean, flags=re.IGNORECASE
+        ).strip()
+        
+        # Remove trailing condition descriptions (e.g., "für Reizdarm")
+        clean = re.sub(
+            r'\s+für\s+\w+$',
+            '', clean, flags=re.IGNORECASE
+        ).strip()
+        
+        return clean
+    
+    def is_result_relevant(self, result: Dict, dtx_name: str) -> bool:
+        """Check if a search result is relevant to the DTx.
+        
+        Verifies that the core product name appears in the title or abstract.
+        This filters out false positives from generic searches.
+        
+        Args:
+            result: Search result dictionary with title and/or abstract.
+            dtx_name: Full DTx name.
+            
+        Returns:
+            True if the result appears relevant to the DTx.
+        """
+        core_name = self._extract_core_product_name(dtx_name)
+        if not core_name or len(core_name) < 3:
+            # If we can't extract a core name, accept all results
+            return True
+        
+        # Get text to search in
+        title = result.get("title", "") or ""
+        abstract = result.get("abstract", "") or result.get("brief_summary", "") or ""
+        
+        # Combine and lowercase for case-insensitive search
+        text_to_search = f"{title} {abstract}".lower()
+        core_name_lower = core_name.lower()
+        
+        # Check if core product name appears in the text
+        if core_name_lower in text_to_search:
+            return True
+        
+        # Also check for variations (without spaces for compound names)
+        core_name_nospace = core_name_lower.replace(" ", "")
+        if len(core_name_nospace) > 3 and core_name_nospace in text_to_search.replace(" ", ""):
+            return True
+        
+        # Check individual significant words (at least 5 chars) if multi-word
+        words = core_name_lower.split()
+        if len(words) >= 2:
+            # For multi-word names, require the distinctive first word
+            first_word = words[0]
+            if len(first_word) >= 4 and first_word in text_to_search:
+                return True
+        
+        return False
+    
     def _get_dtx_folder(self, country: str, dtx_name: str, evidence_type: str) -> Path:
         """Get or create the folder path for a DTx's evidence.
         
@@ -252,6 +329,8 @@ class BaseEvidenceScraper(ABC):
     ) -> Dict[str, int]:
         """Search with multiple queries and save results organized by RCT/RWE.
         
+        Includes relevance filtering to remove false positives.
+        
         Args:
             queries: List of search query strings.
             country: "Germany" or "USA"
@@ -260,30 +339,39 @@ class BaseEvidenceScraper(ABC):
             max_results_per_query: Max results per query
             
         Returns:
-            Dictionary with counts: {"rct": N, "rwe": M, "total": N+M}
+            Dictionary with counts: {"rct": N, "rwe": M, "total": N+M, "filtered": F}
         """
         all_results = []
         seen_ids = set()
+        filtered_count = 0
         
         # Search with each query
         for query in queries:
             try:
                 results = await self.search(query, max_results_per_query)
                 
-                # Deduplicate by study ID
+                # Deduplicate by study ID and filter for relevance
                 for result in results:
                     study_id = result.get("study_id") or result.get("pmid") or result.get("nct_id")
                     if study_id and study_id not in seen_ids:
                         seen_ids.add(study_id)
-                        all_results.append(result)
+                        
+                        # Check relevance before adding
+                        if self.is_result_relevant(result, dtx_name):
+                            all_results.append(result)
+                        else:
+                            filtered_count += 1
                 
                 await asyncio.sleep(0.5)  # Rate limiting
                 
             except Exception as e:
                 print(f"    Error searching '{query}': {e}")
         
+        if filtered_count > 0:
+            print(f"    Filtered {filtered_count} irrelevant results")
+        
         if not all_results:
-            return {"rct": 0, "rwe": 0, "total": 0}
+            return {"rct": 0, "rwe": 0, "total": 0, "filtered": filtered_count}
         
         # Classify and organize results
         rct_results = []
@@ -322,7 +410,8 @@ class BaseEvidenceScraper(ABC):
         return {
             "rct": len(rct_results),
             "rwe": len(rwe_results),
-            "total": len(all_results)
+            "total": len(all_results),
+            "filtered": filtered_count
         }
     
     def get_summary_stats(self, country: str) -> Dict:

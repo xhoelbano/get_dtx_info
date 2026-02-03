@@ -236,6 +236,8 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
     ) -> Dict[str, int]:
         """Search ClinicalTrials.gov, classify results, and save.
         
+        Includes relevance filtering to remove false positives.
+        
         Args:
             queries: List of search query strings.
             country: "Germany" or "USA"
@@ -248,28 +250,37 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
         """
         all_results = []
         seen_ncts = set()
+        filtered_count = 0
         
         # Search with each query
         for query in queries:
             try:
                 results = await self.search(query, max_results_per_query)
                 
-                # Deduplicate by NCT ID
+                # Deduplicate by NCT ID and filter for relevance
                 for result in results:
                     nct_id = result.get("nct_id")
                     if nct_id and nct_id not in seen_ncts:
                         seen_ncts.add(nct_id)
-                        all_results.append(result)
+                        
+                        # Check relevance before adding
+                        if self.is_result_relevant(result, dtx_name):
+                            all_results.append(result)
+                        else:
+                            filtered_count += 1
                 
                 await asyncio.sleep(0.5)  # Rate limiting
                 
             except Exception as e:
                 print(f"    Error searching '{query[:50]}...': {e}")
         
-        if not all_results:
-            return {"rct": 0, "rwe": 0, "total": 0}
+        if filtered_count > 0:
+            print(f"    Filtered {filtered_count} irrelevant trials")
         
-        print(f"    Found {len(all_results)} unique trials, classifying...")
+        if not all_results:
+            return {"rct": 0, "rwe": 0, "total": 0, "filtered": filtered_count}
+        
+        print(f"    Found {len(all_results)} relevant trials, classifying...")
         
         # Classify and organize results
         rct_results = []
@@ -325,5 +336,6 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
         return {
             "rct": len(rct_results),
             "rwe": len(rwe_results),
-            "total": len(all_results)
+            "total": len(all_results),
+            "filtered": filtered_count
         }

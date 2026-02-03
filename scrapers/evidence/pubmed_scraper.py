@@ -329,6 +329,8 @@ class PubMedScraper(BaseEvidenceScraper):
     ) -> Dict[str, int]:
         """Search PubMed, classify results, and download PDFs.
         
+        Includes relevance filtering to remove false positives.
+        
         Args:
             queries: List of search query strings.
             country: "Germany" or "USA"
@@ -342,28 +344,37 @@ class PubMedScraper(BaseEvidenceScraper):
         """
         all_results = []
         seen_pmids = set()
+        filtered_count = 0
         
         # Search with each query
         for query in queries:
             try:
                 results = await self.search(query, max_results_per_query)
                 
-                # Deduplicate by PMID
+                # Deduplicate by PMID and filter for relevance
                 for result in results:
                     pmid = result.get("pmid")
                     if pmid and pmid not in seen_pmids:
                         seen_pmids.add(pmid)
-                        all_results.append(result)
+                        
+                        # Check relevance before adding
+                        if self.is_result_relevant(result, dtx_name):
+                            all_results.append(result)
+                        else:
+                            filtered_count += 1
                 
                 await asyncio.sleep(0.4)  # Rate limiting (max 3 req/sec)
                 
             except Exception as e:
                 print(f"    Error searching '{query[:50]}...': {e}")
         
-        if not all_results:
-            return {"rct": 0, "rwe": 0, "total": 0, "pdfs_downloaded": 0}
+        if filtered_count > 0:
+            print(f"    Filtered {filtered_count} irrelevant articles")
         
-        print(f"    Found {len(all_results)} unique articles, classifying...")
+        if not all_results:
+            return {"rct": 0, "rwe": 0, "total": 0, "pdfs_downloaded": 0, "filtered": filtered_count}
+        
+        print(f"    Found {len(all_results)} relevant articles, classifying...")
         
         # Classify and organize results
         rct_results = []
@@ -422,5 +433,6 @@ class PubMedScraper(BaseEvidenceScraper):
             "rwe": len(rwe_results),
             "total": len(all_results),
             "pdfs_downloaded": pdfs_downloaded,
-            "pdfs_available": sum(1 for r in all_results if r.get("pdf_available"))
+            "pdfs_available": sum(1 for r in all_results if r.get("pdf_available")),
+            "filtered": filtered_count
         }

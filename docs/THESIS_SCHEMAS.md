@@ -78,50 +78,52 @@ Automated data collection system for Digital Therapeutics (DTx) from regulatory 
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### 2.3 DTx Data Schema
+### 2.3 DTx Data Schema (Unified)
+
+Both Germany (`dtx_data.json`) and USA (`dtx_data_usa.json`) use the same schema structure.
+The only difference is the price field: `price_eur` for Germany, `price_usd` for USA.
 
 ```json
 {
   "metadata": {
-    "country": "string",           // "Germany"
+    "country": "string",           // "Germany" | "USA"
     "last_updated": "ISO8601",     // "2026-01-21T19:02:04.127667Z"
-    "total_count": "integer",      // 76
-    "active_count": "integer",     // 48
-    "provisional_count": "integer", // 12
-    "delisted_count": "integer"    // 16
+    "total_count": "integer",      // Total DTx count
+    "source": "string"             // Data source description
   },
   "dtx_list": [
     {
       // === Core Identification ===
-      "dtx_name": "string",            // Full name (may include German)
-      "dtx_name_de": "string",         // Original German name
-      "source_url": "string",          // DiGA directory URL
+      "dtx_name": "string",            // Product name
+      "source_url": "string",          // Source URL (DiGA directory or company website)
       "last_scraped": "ISO8601",       // Scrape timestamp
       
       // === Company Information ===
-      "company_provider": "string",    // Company name with country
+      "company_provider": "string",    // Company name
       "company_website": "string|null", // Company URL
       "company_founding_year": "integer|null",
       
       // === Regulatory Status ===
-      "listing_status": "string",      // "Permanently listed" | "Provisionally listed" | "Delisted"
-      "listing_status_de": "string",   // "Dauerhaft aufgenommen" | "Vorläufig aufgenommen" | "Aus dem Verzeichnis gestrichen"
+      "listing_status": "string",      // "Permanently listed" | "Active" | "Delisted" etc.
       "date_of_first_listing": "string|null", // "YYYY-MM-DD"
       "reason_for_delisting": "string|null",
       
       // === Clinical Information ===
       "clinical_area_icd10": ["string"], // Array of ICD-10 codes
       "dtx_category": "string|null",
-      "description": "string",         // Detailed description (translated to EN)
+      "description": "string",         // Detailed description
       
       // === Platform Availability ===
       "app_store_url": "string|null",
       "play_store_url": "string|null",
       "web_app_url": "string|null",
       
-      // === Pricing & Languages ===
-      "price_eur": "string",           // e.g., "551.70"
-      "languages": ["string"],         // e.g., ["Deutsch"]
+      // === Pricing (country-specific) ===
+      "price_eur": "string|null",      // Germany only
+      "price_usd": "string|null",      // USA only
+      
+      // === Languages ===
+      "languages": ["string"],         // e.g., ["Deutsch"] or ["English"]
       
       // === Clinical Trials ===
       "trial_registration_ids": ["string"], // NCT numbers
@@ -141,6 +143,10 @@ Automated data collection system for Digital Therapeutics (DTx) from regulatory 
   ]
 }
 ```
+
+**Note**: Country-specific fields that were removed for consistency:
+- Germany: `dtx_name_de`, `listing_status_de` (German translations)
+- USA: `fda_clearance`, `fda_clearance_number`, `clinical_indications` (regulatory details)
 
 ### 2.4 Listing Status Classification
 
@@ -790,7 +796,7 @@ validation/
    - Re-run evidence search after fixing
 
    TRY - 2 layer classification - scrape all dtx of one Provider and then classify
-   
+
 
 2. **Evidence-DTx relevance filtering**
    - LLM verification: "Is this study specifically about {DTx_name}?"

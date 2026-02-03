@@ -40,17 +40,15 @@ IMPORTANT: A Digital Therapeutic (DTx) is software that delivers evidence-based 
 
 For each company, you MUST find:
 1. **ALL DTx Product Names**: List every digital therapeutic product/app they offer
-2. **Clinical Indications**: What conditions each DTx treats (with ICD-10 codes)
-3. **Regulatory Status**: FDA clearance (US), CE marking (EU), or other regulatory approvals
-4. **App Store Presence**: URLs for Apple App Store and Google Play Store
-5. **Product Description**: What the DTx does therapeutically
-6. **Active Status**: Whether currently available
+2. **Clinical Areas**: What conditions each DTx treats (provide ICD-10 codes)
+3. **App Store Presence**: URLs for Apple App Store and Google Play Store
+4. **Product Description**: What the DTx does therapeutically
+5. **Active Status**: Whether currently available
 
 Research guidelines:
 - Search thoroughly - companies often have MULTIPLE DTx products
 - Look at the company's website, especially "Products", "Solutions", "DTx", or "Therapeutics" sections
-- Include products even if they don't have FDA clearance (many DTx have CE marking or no regulatory clearance yet)
-- For EU companies, look for CE marking instead of FDA approval
+- Include products even if they are in pilot phase or development
 - Include pilot programs and products in development if they are therapeutic
 - ICD-10 codes examples: G20 (Parkinson's), F82 (Dyspraxia/DCD), F32 (Depression), F41 (Anxiety), G47.0 (Insomnia)
 
@@ -61,9 +59,6 @@ Respond ONLY with a valid JSON object (no markdown, no explanations). The JSON m
             "dtx_name": "Product Name",
             "description": "Brief description of the therapeutic intervention",
             "clinical_area_icd10": ["G20", "F82"],
-            "clinical_indications": "Parkinson's Disease, Dyspraxia",
-            "fda_clearance": "510(k)" | "De Novo" | "PMA" | "Breakthrough Device" | "CE Mark" | "None" | "Unknown",
-            "fda_clearance_number": "K123456" | null,
             "app_store_url": "https://apps.apple.com/..." | null,
             "play_store_url": "https://play.google.com/..." | null,
             "listing_status": "Active" | "Inactive" | "Pilot" | "Unknown",
@@ -190,33 +185,60 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
         website = company.get("website", "")
         description = company.get("description", "")
         
-        # Build the research prompt
-        research_prompt = f"""Research the following company for ALL Digital Therapeutics (DTx) products:
+#         # Build the research prompt
+#         research_prompt = f"""Research the following company for ALL Digital Therapeutics (DTx) products:
 
+# **Company Name**: {company_name}
+# **Website**: {website if website else 'Perform web search to identify official URL'}
+# **Company Description**: {description if description else 'Not provided'}
+
+# IMPORTANT RESEARCH STEPS:
+# 1. Visit the company website and look for ALL therapeutic products/apps
+# 2. Check "Products", "Solutions", "DTx", "Therapeutics", "Digital Theraupetics", "Applications" sections
+# 3. Look for mobile apps on App Store and Google Play and retrieve the URLs
+# 4. Find clinical areas and ICD-10 codes for each product
+
+# DO NOT skip products that are in pilot phase or development.
+# DO NOT skip products that are for children or specific populations.
+# List EVERY therapeutic app/product the company offers.
+
+# ### OUTPUT INSTRUCTIONS
+# Analyze the findings and strictly map them to the defined JSON schema in the system prompt.
+# If the company offers a "platform" solution, treat the platform or its specific disease modules as individual DTx entries where appropriate.
+# """
+
+# # Build the research prompt
+#         research_prompt = f"""### RESEARCH TARGET
+# **Company Name**: {company_name}
+# **Website**: {website if website else 'Perform web search to identify official URL'}
+# **Context/Description**: {description if description else 'General DTx/Healthcare company'}
+
+# ### RESEARCH MISSION
+# Conduct a rigorous audit of the entity above to identify **ALL** Digital Therapeutic (DTx) assets. 
+# You are looking for software that delivers evidence-based therapeutic interventions, not just wellness trackers or booking systems.
+
+# ### INVESTIGATION PARAMETERS
+# 1. **Scope of Discovery**: 
+#     - Check "Products", "Solutions", "DTx", "Therapeutics", "Digital Theraupetics", "Applications" sections 
+#    - Identify all commercialized products, pilot programs, and assets in clinical development.
+
+# 2. **Data Extraction Requirements**:
+#     - Conduct web search to each of the products, dtxs and digital therapeutics to identify the mechanism of action, clinical coding, and digital footprint.
+#    - **Mechanism of Action**: For every product, identify *how* it treats the condition (e.g., "Cognitive Behavioral Therapy," "Auditory Rhythmic Cueing," "Remote Patient Monitoring with Feedback Loop").
+#    - **Clinical Coding**: Map every identified condition to its specific **ICD-10 code**.
+#    - **Digital Footprint**: Verify existence on Apple App Store and Google Play Store; retrieve URLs if active.
+
+# ### OUTPUT INSTRUCTIONS
+# Analyze the findings and strictly map them to the defined JSON schema in the system prompt.
+# If the company offers a "platform" solution, treat the platform or its specific disease modules as individual DTx entries where appropriate.
+# """
+
+
+# Build the research prompt
+        research_prompt = f"""### RESEARCH TARGET
 **Company Name**: {company_name}
-**Website**: {website if website else 'Not provided'}
-**Company Description**: {description if description else 'Not provided'}
-
-IMPORTANT RESEARCH STEPS:
-1. Visit the company website and look for ALL therapeutic products/apps
-2. Check "Products", "Solutions", "DTx", "Therapeutics", "Applications" sections
-3. Look for mobile apps on App Store and Google Play
-4. Search for regulatory approvals (FDA in US, CE Mark in EU)
-5. Find clinical indications and ICD-10 codes for each product
-
-Include ALL products that provide therapeutic treatment for medical conditions:
-- Mental health apps (depression, anxiety, PTSD, stress)
-- Neurological condition apps (Parkinson's, dyspraxia, ADHD, dementia)
-- Chronic disease apps (diabetes, pain management, insomnia)
-- Rehabilitation apps (physical therapy, speech therapy)
-- Substance use disorder apps
-- Children's therapeutic apps (developmental disorders, wellbeing)
-
-DO NOT skip products just because they lack FDA approval - many DTx have CE marking or are in pilot phase.
-DO NOT skip products that are for children or specific populations.
-List EVERY therapeutic app/product the company offers.
-
-Return the research results as a JSON object with ALL found DTx products."""
+**Website**: {website if website else 'Perform web search to identify official URL for each product, dtx and digital therapeutics'}
+- Conduct web search to each of the products, dtxs and digital therapeutics to identify the mechanism of action, clinical coding, and digital footprint."""
 
         try:
             messages = [
@@ -265,7 +287,9 @@ Return the research results as a JSON object with ALL found DTx products."""
             }
     
     def _format_dtx_entry(self, company: Dict, product: Dict, company_info: Dict) -> Dict:
-        """Format a single DTx product into the standard schema.
+        """Format a single DTx product into the unified schema.
+        
+        Schema matches German DTx structure with only price_usd instead of price_eur.
         
         Args:
             company: Original company data from CSV.
@@ -273,7 +297,7 @@ Return the research results as a JSON object with ALL found DTx products."""
             company_info: Company info from LLM research.
             
         Returns:
-            Formatted DTx entry matching the schema.
+            Formatted DTx entry matching the unified schema.
         """
         # Parse founding year
         founding_year = None
@@ -286,26 +310,31 @@ Return the research results as a JSON object with ALL found DTx products."""
             founding_year = company_info.get("company_founding_year")
         
         return {
+            # Core identification
             "dtx_name": product.get("dtx_name", "Unknown"),
             "company_provider": company.get("company_name", "Unknown"),
             "company_website": company_info.get("company_website") or company.get("website"),
             "company_founding_year": founding_year,
+            # Regulatory status
             "listing_status": product.get("listing_status", "Unknown"),
-            "date_of_first_listing": None,  # Not applicable for US
+            "date_of_first_listing": None,
+            # Clinical information
             "clinical_area_icd10": product.get("clinical_area_icd10", []),
-            "clinical_indications": product.get("clinical_indications"),
-            "dtx_category": None,  # Could be mapped from clinical area
+            "dtx_category": None,
             "description": product.get("description"),
+            # Platform availability
             "app_store_url": product.get("app_store_url"),
             "play_store_url": product.get("play_store_url"),
             "web_app_url": None,
+            # Pricing (USD for USA, EUR for Germany)
             "price_usd": product.get("price_usd"),
-            "fda_clearance": product.get("fda_clearance"),
-            "fda_clearance_number": product.get("fda_clearance_number"),
+            # Languages & trials
             "languages": ["English"],
             "trial_registration_ids": [],
+            # App store metrics
             "reviews_playstore": None,
             "reviews_appstore": None,
+            # Metadata
             "source_url": company.get("website"),
             "last_scraped": datetime.utcnow().isoformat() + "Z",
             "reason_for_delisting": None
