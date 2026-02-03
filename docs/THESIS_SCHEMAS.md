@@ -778,7 +778,6 @@ validation/
 
 **Acceptable for now:**
 - [ ] Cross-source duplicates not removed
-- [ ] ~15% classification uncertainty
 
 ### 12.3 TODO for Phase 3
 
@@ -789,6 +788,9 @@ validation/
    - Reject results where product name not in title/abstract
    - Cap results per query (10-15 max)
    - Re-run evidence search after fixing
+
+   TRY - 2 layer classification - scrape all dtx of one Provider and then classify
+   
 
 2. **Evidence-DTx relevance filtering**
    - LLM verification: "Is this study specifically about {DTx_name}?"
