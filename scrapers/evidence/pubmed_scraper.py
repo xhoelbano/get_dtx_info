@@ -36,8 +36,15 @@ class PubMedScraper(BaseEvidenceScraper):
     async def search(self, query: str, max_results: int = 50) -> List[Dict]:
         """Search PubMed for articles matching the query.
         
+        PubMed E-utilities supports double quotes for exact phrase matching.
+        If the query contains quoted phrases like "Cara Care", PubMed will
+        search for that exact phrase rather than individual words.
+        
+        The httpx library handles URL encoding properly, so quotes in the
+        query string are preserved (encoded as %22).
+        
         Args:
-            query: Search query string.
+            query: Search query string (may contain quoted phrases).
             max_results: Maximum number of results to return.
             
         Returns:
@@ -47,6 +54,8 @@ class PubMedScraper(BaseEvidenceScraper):
         
         try:
             # Step 1: Search for PMIDs
+            # Note: PubMed supports double quotes for exact phrase matching
+            # httpx properly URL-encodes the query, preserving quotes
             search_params = {
                 "db": "pubmed",
                 "term": query,
@@ -98,6 +107,9 @@ class PubMedScraper(BaseEvidenceScraper):
     async def _get_pmc_ids(self, pmids: List[str]) -> Dict[str, str]:
         """Get PubMed Central IDs for a list of PMIDs.
         
+        Includes retry logic with exponential backoff for rate limiting (429)
+        and graceful error handling for network issues.
+        
         Args:
             pmids: List of PubMed IDs.
             
@@ -108,37 +120,75 @@ class PubMedScraper(BaseEvidenceScraper):
             return {}
         
         client = await self._get_http_client()
+        pmc_map = {}
         
-        try:
-            link_params = {
-                "dbfrom": "pubmed",
-                "db": "pmc",
-                "id": ",".join(pmids),
-                "retmode": "json"
-            }
+        # Batch PMIDs to reduce API calls (max 200 per request per NCBI guidelines)
+        batch_size = 100
+        for i in range(0, len(pmids), batch_size):
+            batch = pmids[i:i + batch_size]
             
-            response = await client.get(self.ELINK_URL, params=link_params)
-            response.raise_for_status()
-            data = response.json()
+            # Retry logic with exponential backoff
+            max_retries = 3
+            retry_delay = 1.0  # Start with 1 second
             
-            pmc_map = {}
-            linksets = data.get("linksets", [])
+            for attempt in range(max_retries):
+                try:
+                    link_params = {
+                        "dbfrom": "pubmed",
+                        "db": "pmc",
+                        "id": ",".join(batch),
+                        "retmode": "json"
+                    }
+                    
+                    response = await client.get(self.ELINK_URL, params=link_params)
+                    
+                    # Handle rate limiting (429) with retry
+                    if response.status_code == 429:
+                        if attempt < max_retries - 1:
+                            await asyncio.sleep(retry_delay)
+                            retry_delay *= 2  # Exponential backoff
+                            continue
+                        else:
+                            # Give up on this batch after max retries
+                            break
+                    
+                    response.raise_for_status()
+                    data = response.json()
+                    
+                    linksets = data.get("linksets", [])
+                    
+                    for linkset in linksets:
+                        pmid = str(linkset.get("ids", [None])[0])
+                        linksetdbs = linkset.get("linksetdbs", [])
+                        
+                        for linkdb in linksetdbs:
+                            if linkdb.get("dbto") == "pmc":
+                                links = linkdb.get("links", [])
+                                if links:
+                                    pmc_map[pmid] = f"PMC{links[0]}"
+                    
+                    # Success - break retry loop
+                    break
+                    
+                except asyncio.CancelledError:
+                    raise  # Don't catch cancellation
+                except Exception as e:
+                    error_str = str(e)
+                    # Silently skip non-critical errors (StreamReset, JSON parse errors)
+                    # These are often transient network issues
+                    if "StreamReset" in error_str or "Invalid control character" in error_str:
+                        break  # Don't retry these - they won't help
+                    if attempt < max_retries - 1:
+                        await asyncio.sleep(retry_delay)
+                        retry_delay *= 2
+                    # Don't print errors for non-critical PMC ID lookups
+                    # PDFs are optional, so failures here are acceptable
             
-            for linkset in linksets:
-                pmid = str(linkset.get("ids", [None])[0])
-                linksetdbs = linkset.get("linksetdbs", [])
-                
-                for linkdb in linksetdbs:
-                    if linkdb.get("dbto") == "pmc":
-                        links = linkdb.get("links", [])
-                        if links:
-                            pmc_map[pmid] = f"PMC{links[0]}"
-            
-            return pmc_map
-            
-        except Exception as e:
-            print(f"    Error getting PMC IDs: {e}")
-            return {}
+            # Small delay between batches to respect rate limits
+            if i + batch_size < len(pmids):
+                await asyncio.sleep(0.5)
+        
+        return pmc_map
     
     def _parse_pubmed_xml(self, xml_text: str) -> List[Dict]:
         """Parse PubMed XML response into article dictionaries.
@@ -359,6 +409,8 @@ class PubMedScraper(BaseEvidenceScraper):
                         
                         # Check relevance before adding
                         if self.is_result_relevant(result, dtx_name):
+                            # Track which query found this result
+                            result["matched_query"] = query
                             all_results.append(result)
                         else:
                             filtered_count += 1

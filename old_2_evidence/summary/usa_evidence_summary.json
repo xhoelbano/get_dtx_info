@@ -1,0 +1,42 @@
+{
+  "country": "USA",
+  "search_date": "2026-02-03T20:57:31.038435Z",
+  "dtx_searched": 1,
+  "dtx_with_evidence": 1,
+  "total_rct": 7,
+  "total_rwe": 0,
+  "by_dtx": {
+    "EaseVRx": {
+      "rct": 7,
+      "rwe": 0,
+      "sources": {
+        "pubmed": {
+          "rct": 3,
+          "rwe": 0,
+          "total": 3,
+          "pdfs_downloaded": 1,
+          "pdfs_available": 1,
+          "filtered": 1
+        },
+        "clinicaltrials": {
+          "rct": 4,
+          "rwe": 0,
+          "total": 4,
+          "filtered": 5
+        },
+        "isrctn": {
+          "rct": 0,
+          "rwe": 0,
+          "total": 0,
+          "filtered": 1
+        },
+        "drks": {
+          "rct": 0,
+          "rwe": 0,
+          "total": 0,
+          "filtered": 0
+        }
+      }
+    }
+  }
+}

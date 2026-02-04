@@ -137,6 +137,9 @@ Example output: ["\\"deprexis\\"", "deprexis GAIA", "deprexis clinical trial", "
     def _ensure_exact_name_first(self, queries: List[str], core_name: str) -> List[str]:
         """Ensure the first query is the exact quoted product name.
         
+        This is critical for exact phrase matching - the first query should always
+        be the bare product name in quotes so APIs search for that exact phrase.
+        
         Args:
             queries: List of queries from LLM.
             core_name: Clean core product name.
@@ -144,22 +147,35 @@ Example output: ["\\"deprexis\\"", "deprexis GAIA", "deprexis clinical trial", "
         Returns:
             Queries with exact quoted name first.
         """
-        if not core_name:
+        if not core_name or len(core_name) < 2:
             return queries
         
+        # Create the exact quoted query
         exact_query = f'"{core_name}"'
         
-        # Check if first query is already the exact name
-        if queries and queries[0].strip('"') == core_name:
-            # Already correct, just ensure quotes
+        # Check if first query is already the exact quoted name
+        first_clean = queries[0].strip('"').strip("'").strip() if queries else ""
+        if first_clean.lower() == core_name.lower():
+            # Already correct, just ensure proper double quotes
             queries[0] = exact_query
             return queries
         
-        # Remove any existing exact query from list
-        queries = [q for q in queries if q.strip('"').lower() != core_name.lower()]
+        # Remove any existing exact query from list (case-insensitive)
+        queries = [q for q in queries if q.strip('"').strip("'").strip().lower() != core_name.lower()]
+        
+        # Also ensure all other queries that contain the product name use proper quoting
+        # when the product name appears as a phrase
+        processed_queries = []
+        for q in queries:
+            # If this query is just the product name variations, ensure quotes
+            q_clean = q.strip('"').strip("'").strip()
+            if q_clean.lower() == core_name.lower():
+                processed_queries.append(exact_query)
+            else:
+                processed_queries.append(q)
         
         # Insert exact query at beginning
-        return [exact_query] + queries
+        return [exact_query] + processed_queries
     
     def _generate_fallback_queries(self, dtx_data: Dict) -> List[str]:
         """Generate fallback queries without LLM.
@@ -228,10 +244,40 @@ Example output: ["\\"deprexis\\"", "deprexis GAIA", "deprexis clinical trial", "
         # Take first part before separators
         clean = clean.split(" - ")[0].split(":")[0].strip()
         
-        # Remove common German suffixes
+        # Remove trailing condition descriptions in German (e.g., "für Reizdarm", "bei Depression")
         clean = re.sub(
-            r'\s+(App|Therapie|für|bei|zur|die|der|das|Meine|aktive)\s*$',
+            r'\s+(für|bei|zur|gegen|im)\s+\w+(\s+\w+)?$',
+            '', clean, flags=re.IGNORECASE
+        ).strip()
+        
+        # Remove common German suffixes and articles
+        clean = re.sub(
+            r'\s+(App|Therapie|die|der|das|Meine|aktive|im\s+Erwachsenenalter)\s*$',
+            '', clean, flags=re.IGNORECASE
+        ).strip()
+        
+        # Remove trailing descriptors like "powered by X" or "proved by X"
+        clean = re.sub(
+            r'\s+(powered|proved|certified)\s+by\s+.*$',
             '', clean, flags=re.IGNORECASE
         ).strip()
         
         return clean
+    
+    def ensure_quoted(self, query: str) -> str:
+        """Ensure a query term is wrapped in double quotes for exact phrase matching.
+        
+        Args:
+            query: Query string that may or may not have quotes.
+            
+        Returns:
+            Query with double quotes for exact phrase matching.
+        """
+        # Strip existing quotes (single or double)
+        clean = query.strip().strip('"').strip("'").strip()
+        
+        if not clean:
+            return query
+        
+        # Return with double quotes
+        return f'"{clean}"'

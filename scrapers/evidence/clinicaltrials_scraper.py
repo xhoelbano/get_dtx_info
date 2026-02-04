@@ -24,10 +24,37 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
     # API endpoint
     API_URL = "https://clinicaltrials.gov/api/v2/studies"
     
+    def _format_query_with_expansion(self, query: str) -> str:
+        """Format query with EXPANSION[Term] operator to enforce exact phrase matching.
+        
+        ClinicalTrials.gov API v2 defaults to EXPANSION[Relaxation] which:
+        - Includes synonyms via UMLS
+        - Relaxes adjacency requirements (words don't need to be together!)
+        
+        Using EXPANSION[Term] ensures:
+        - Words in phrases must stay together
+        - Only includes lexical variants (plurals, case-insensitive)
+        - No synonym expansion
+        
+        Args:
+            query: Original search query string.
+            
+        Returns:
+            Query formatted with EXPANSION[Term] operator.
+        """
+        # If query already has EXPANSION operator, return as-is
+        if "EXPANSION[" in query:
+            return query
+        
+        # Wrap the entire query with EXPANSION[Term] to enforce exact matching
+        # This is especially important for quoted phrases like "Cara Care"
+        return f"EXPANSION[Term]{query}"
+    
     async def search(self, query: str, max_results: int = 50) -> List[Dict]:
         """Search ClinicalTrials.gov for studies matching the query.
         
         Uses curl as a fallback since httpx is blocked by their anti-bot protection.
+        Applies EXPANSION[Term] operator to enforce exact phrase matching.
         
         Args:
             query: Search query string.
@@ -36,11 +63,14 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
         Returns:
             List of study dictionaries with metadata.
         """
+        # Format query with EXPANSION[Term] to prevent relaxed adjacency matching
+        formatted_query = self._format_query_with_expansion(query)
+        
         # Try intervention search first, then condition search
         for param_type in ["query.intr", "query.cond"]:
             try:
                 params = {
-                    param_type: query,
+                    param_type: formatted_query,
                     "pageSize": min(max_results, 100),
                     "format": "json"
                 }
@@ -265,6 +295,8 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
                         
                         # Check relevance before adding
                         if self.is_result_relevant(result, dtx_name):
+                            # Track which query found this result
+                            result["matched_query"] = query
                             all_results.append(result)
                         else:
                             filtered_count += 1

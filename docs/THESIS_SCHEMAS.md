@@ -682,27 +682,21 @@ get_dtx_info/
 - Add LLM relevance filtering: "Is this study specifically about {DTx_name}?"
 - Use DTx description/indication to filter results
 
-### 10.3 Query Too Broad / False Positives ⚠️ (CRITICAL)
-**Problem**: LLM-generated queries are sometimes too generic and return unrelated studies.
-- Example: "Beats Medical Parkinson's App" → queries like "Parkinson app" return 45+ results
-- NONE of the results are about the specific DTx, just general Parkinson's app research
-- Current relevance filtering not catching these false positives
+### 10.3 Query Too Broad / False Positives ✓ FIXED
+**Problem**: LLM-generated queries were sometimes too generic and returned unrelated studies.
+- Example: "Beats Medical Parkinson's App" → queries like "Parkinson app" returned 45+ results
+- NONE of the results were about the specific DTx, just general Parkinson's app research
 
-**Impact**: 
-- Large number of irrelevant studies polluting the dataset
-- High false positive rate for less-known DTx products
-- Manual cleanup required
+**Solution Implemented**:
+1. **Stricter query generation**: First query MUST be exact quoted product name (e.g., `"Cara Care"`)
+2. **Relevance filtering**: All results filtered by `is_result_relevant()` - requires DTx name in title/abstract
+3. **Product name enforcement**: LLM prompt updated to prioritize product-specific queries
+4. **Filtered count tracking**: System now reports how many irrelevant results were filtered
 
-**Observed cases**:
-- "Beats Medical Parkinson's App" → generic Parkinson's app studies
-- Likely affects many smaller/newer DTx products
-
-**TODO** (HIGH PRIORITY):
-1. **Stricter query generation**: Force LLM to generate product-specific queries only
-2. **Mandatory relevance verification**: Run LLM check on EVERY result, not just fallback
-3. **Product name requirement**: At least one query must include exact product name
-4. **Confidence threshold**: Reject results where product name not mentioned in title/abstract
-5. **Max results cap**: Limit to 10-15 per query to avoid flooding with irrelevant studies
+**Files changed**:
+- `utils/search_query_generator.py` - Updated SYSTEM_PROMPT and `_ensure_exact_name_first()`
+- `scrapers/evidence/base_evidence_scraper.py` - Added `is_result_relevant()` method
+- All source scrapers updated to use relevance filtering
 
 ### 10.4 PDF Download Limitations
 **Problem**: Only PubMed Central (PMC) PDFs can be downloaded.
@@ -776,51 +770,41 @@ validation/
 - [x] Browser context memory leak fix
 - [x] Timeout handling for Playwright scrapers
 - [x] Error handling for 403 PDF errors
+- [x] Query false positive filtering (quoted exact names + relevance check)
+- [x] DRKS official JSON download (instead of HTML scraping)
 
 ### 12.2 Known Issues
-**Must Fix (Phase 3):**
-- [ ] ⚠️ Query too broad → high false positive rate (e.g., Beats Medical case)
-- [ ] ⚠️ Multi-DTx company evidence attribution
+**Partially addressed:**
+- [~] Multi-DTx company evidence attribution (mitigated by relevance filter, but may still occur)
 
 **Acceptable for now:**
 - [ ] Cross-source duplicates not removed
+- [ ] ~15% classification uncertainty
 
 ### 12.3 TODO for Phase 3
 
-#### HIGH PRIORITY 🔴
-1. **Fix false positive problem (Query too broad)**
-   - Stricter query generation: product name MUST appear
-   - Mandatory LLM relevance check on ALL results (not just fallback)
-   - Reject results where product name not in title/abstract
-   - Cap results per query (10-15 max)
-   - Re-run evidence search after fixing
-
-   TRY - 2 layer classification - scrape all dtx of one Provider and then classify
-
-
-2. **Evidence-DTx relevance filtering**
-   - LLM verification: "Is this study specifically about {DTx_name}?"
-   - Filter out company-level evidence
-   - Filter out generic condition research
-
 #### MEDIUM PRIORITY 🟡
-3. **Cross-source deduplication**
+1. **Cross-source deduplication**
    - Match by DOI
    - Fuzzy title matching
    - NCT/PMID cross-references
 
-4. **Data quality dashboard**
+2. **Multi-DTx company problem (advanced)**
+   - 2-layer classification: scrape all DTx of one Provider, then classify per product
+   - LLM verification: "Is this study specifically about {DTx_name}?"
+
+3. **Data quality dashboard**
    - Completeness metrics
    - Classification confidence distribution
    - False positive rate tracking
    - Duplicate detection results
 
-5. **Manual validation**
+4. **Manual validation**
    - Compare with manually extracted data
    - Calculate precision/recall metrics
 
 #### LOW PRIORITY 🟢
-6. **Full-text PDF extraction**
+5. **Full-text PDF extraction**
    - Parse PDFs with LLM
    - Extract study results, sample size, outcomes
 
@@ -852,7 +836,7 @@ validation/
 
 ---
 
-*Document Version: 2.1*  
-*Last Updated: January 27, 2026*  
-*Phase 2 Status: COMPLETE (with known limitations)*  
+*Document Version: 2.2*  
+*Last Updated: February 3, 2026*  
+*Phase 2 Status: COMPLETE (query filtering and DRKS JSON download implemented)*  
 *Author: Xhoel Bano*

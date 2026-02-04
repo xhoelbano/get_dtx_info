@@ -401,7 +401,12 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
                 
                 # Filter to specific DTx if specified
                 if dtx:
-                    dtx_list = [d for d in dtx_list if dtx.lower() in d.get("dtx_name", "").lower()]
+                    # Normalize quotes for matching (smart quotes vs regular)
+                    def normalize_quotes(s):
+                        return s.replace("'", "'").replace("'", "'").replace('"', '"').replace('"', '"')
+                    
+                    dtx_normalized = normalize_quotes(dtx.lower())
+                    dtx_list = [d for d in dtx_list if dtx_normalized in normalize_quotes(d.get("dtx_name", "").lower())]
                     if not dtx_list:
                         click.echo(f"\nNo DTx matching '{dtx}' found in {country_name}")
                         continue

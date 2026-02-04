@@ -1,0 +1,42 @@
+{
+  "country": "Germany",
+  "search_date": "2026-02-03T21:03:08.815331Z",
+  "dtx_searched": 1,
+  "dtx_with_evidence": 1,
+  "total_rct": 3,
+  "total_rwe": 4,
+  "by_dtx": {
+    "Cara Care für Reizdarm": {
+      "rct": 3,
+      "rwe": 4,
+      "sources": {
+        "pubmed": {
+          "rct": 0,
+          "rwe": 4,
+          "total": 4,
+          "pdfs_downloaded": 0,
+          "pdfs_available": 0,
+          "filtered": 65
+        },
+        "clinicaltrials": {
+          "rct": 0,
+          "rwe": 0,
+          "total": 0,
+          "filtered": 0
+        },
+        "isrctn": {
+          "rct": 0,
+          "rwe": 0,
+          "total": 0,
+          "filtered": 6
+        },
+        "drks": {
+          "rct": 3,
+          "rwe": 0,
+          "total": 3,
+          "filtered": 0
+        }
+      }
+    }
+  }
+}

@@ -111,6 +111,9 @@ class BaseEvidenceScraper(ABC):
         Verifies that the core product name appears in the title or abstract.
         This filters out false positives from generic searches.
         
+        Uses a unified filtering mechanism for all evidence sources (PubMed, 
+        ClinicalTrials.gov, DRKS, ISRCTN).
+        
         Args:
             result: Search result dictionary with title and/or abstract.
             dtx_name: Full DTx name.
@@ -131,22 +134,29 @@ class BaseEvidenceScraper(ABC):
         text_to_search = f"{title} {abstract}".lower()
         core_name_lower = core_name.lower()
         
-        # Check if core product name appears in the text
+        # Check if core product name appears in the text (primary check)
         if core_name_lower in text_to_search:
             return True
         
         # Also check for variations (without spaces for compound names)
+        # e.g., "CaraCare" for "Cara Care"
         core_name_nospace = core_name_lower.replace(" ", "")
         if len(core_name_nospace) > 3 and core_name_nospace in text_to_search.replace(" ", ""):
             return True
         
-        # Check individual significant words (at least 5 chars) if multi-word
+        # Fallback for multi-word names: check if first word appears as complete word
+        # Only for distinctive words (6+ characters) to filter out common short words
+        # like "Cara" (4), "Beats" (5), "Feel" (4) that cause false positives
         words = core_name_lower.split()
         if len(words) >= 2:
-            # For multi-word names, require the distinctive first word
             first_word = words[0]
-            if len(first_word) >= 4 and first_word in text_to_search:
-                return True
+            # Require 6+ characters for single-word fallback matching
+            if len(first_word) >= 6:
+                # Use word boundary to ensure it's a complete word, not substring
+                # e.g., "deprexis" should match, but "pre" in "expression" should not
+                pattern = r'\b' + re.escape(first_word) + r'\b'
+                if re.search(pattern, text_to_search):
+                    return True
         
         return False
     

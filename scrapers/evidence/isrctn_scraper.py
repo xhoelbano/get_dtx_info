@@ -124,11 +124,19 @@ class ISRCTNScraper(BaseEvidenceScraper):
             return []
     
     async def _search_impl(self, query: str, max_results: int) -> List[Dict]:
-        """Internal search implementation with page management."""
+        """Internal search implementation with page management.
+        
+        ISRCTN uses standard web search conventions where double quotes
+        indicate exact phrase matching. The quote_plus function properly
+        encodes quotes as %22, which ISRCTN interprets correctly.
+        
+        Example: "Cara Care" -> %22Cara%20Care%22
+        """
         page = await self._create_page()
         
         try:
             # Navigate to search results directly with query parameter
+            # quote_plus properly encodes double quotes for exact phrase matching
             search_url = f"{self.SEARCH_URL}?q={quote_plus(query)}"
             await page.goto(search_url, wait_until="networkidle", timeout=60000)
             await asyncio.sleep(2)
@@ -600,6 +608,8 @@ class ISRCTNScraper(BaseEvidenceScraper):
     ) -> Dict[str, int]:
         """Search ISRCTN, classify results, and save.
         
+        Includes relevance filtering to remove false positives.
+        
         Args:
             queries: List of search query strings.
             country: "Germany" or "USA"
@@ -612,13 +622,14 @@ class ISRCTNScraper(BaseEvidenceScraper):
         """
         all_results = []
         seen_ids = set()
+        filtered_count = 0
         
         # Search with each query
         for query in queries:
             try:
                 results = await self.search(query, max_results_per_query)
                 
-                # Deduplicate by ISRCTN ID
+                # Deduplicate by ISRCTN ID and check relevance
                 for result in results:
                     isrctn_id = result.get("isrctn_id")
                     if isrctn_id and isrctn_id not in seen_ids:
@@ -627,10 +638,15 @@ class ISRCTNScraper(BaseEvidenceScraper):
                         # Get detailed info for each result
                         print(f"      Fetching details for {isrctn_id}...")
                         details = await self.get_study_details(isrctn_id)
-                        if details:
-                            all_results.append(details)
+                        study_data = details if details else result
+                        
+                        # Check relevance before adding
+                        if self.is_result_relevant(study_data, dtx_name):
+                            # Track which query found this result
+                            study_data["matched_query"] = query
+                            all_results.append(study_data)
                         else:
-                            all_results.append(result)
+                            filtered_count += 1
                         
                         await asyncio.sleep(1.5)  # Rate limiting - be respectful
                 
@@ -639,10 +655,13 @@ class ISRCTNScraper(BaseEvidenceScraper):
             except Exception as e:
                 print(f"    Error searching ISRCTN for '{query[:50]}...': {e}")
         
-        if not all_results:
-            return {"rct": 0, "rwe": 0, "total": 0}
+        if filtered_count > 0:
+            print(f"    Filtered {filtered_count} irrelevant trials")
         
-        print(f"    Found {len(all_results)} unique trials, classifying...")
+        if not all_results:
+            return {"rct": 0, "rwe": 0, "total": 0, "filtered": filtered_count}
+        
+        print(f"    Found {len(all_results)} relevant trials, classifying...")
         
         # Classify and organize results
         rct_results = []
@@ -698,5 +717,6 @@ class ISRCTNScraper(BaseEvidenceScraper):
         return {
             "rct": len(rct_results),
             "rwe": len(rwe_results),
-            "total": len(all_results)
+            "total": len(all_results),
+            "filtered": filtered_count
         }

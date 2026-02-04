@@ -1,11 +1,12 @@
 """DRKS (German Clinical Trials Register) evidence scraper using Playwright.
 
 This module searches DRKS for clinical trials using web scraping since there
-is no public API. It extracts study data and downloads JSON when available.
+is no public API. Downloads official JSON files from the DRKS download page.
 """
 import asyncio
 import json
 import re
+from pathlib import Path
 from typing import List, Dict, Optional
 from urllib.parse import quote_plus, urljoin
 
@@ -226,8 +227,25 @@ class DRKSScraper(BaseEvidenceScraper):
         
         return results
     
+    def _get_raw_folder(self, country: str, dtx_name: str, evidence_type: str) -> Path:
+        """Get or create the raw JSON folder for DRKS downloads.
+        
+        Args:
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            evidence_type: "RCT" or "RWE"
+            
+        Returns:
+            Path to the raw folder.
+        """
+        folder = self._get_dtx_folder(country, dtx_name, evidence_type) / "raw"
+        folder.mkdir(parents=True, exist_ok=True)
+        return folder
+    
     async def get_study_details(self, study_id: str) -> Optional[Dict]:
         """Get detailed information for a specific trial by DRKS ID.
+        
+        Downloads the official JSON from DRKS download page.
         
         Args:
             study_id: DRKS ID (e.g., "DRKS00012345").
@@ -238,171 +256,315 @@ class DRKSScraper(BaseEvidenceScraper):
         try:
             # Add timeout for getting study details
             return await asyncio.wait_for(
-                self._get_study_details_impl(study_id),
+                self._download_study_json(study_id),
                 timeout=60  # 60 second timeout per study
             )
         except asyncio.TimeoutError:
-            print(f"    DRKS study details timeout for {study_id}")
+            print(f"    DRKS download timeout for {study_id}")
             return None
         except Exception as e:
-            print(f"    Error fetching DRKS study {study_id}: {e}")
+            print(f"    Error downloading DRKS study {study_id}: {e}")
             return None
     
-    async def _get_study_details_impl(self, study_id: str) -> Optional[Dict]:
-        """Internal implementation for getting study details."""
+    async def _download_study_json(self, drks_id: str) -> Optional[Dict]:
+        """Download official JSON from DRKS download page.
+        
+        Args:
+            drks_id: DRKS ID of the study.
+            
+        Returns:
+            Dictionary with study details from official JSON, or None.
+        """
         page = await self._create_page()
         
         try:
-            # Navigate to study page - DRKS uses /trial/ID/details format
-            study_url = f"{self.BASE_URL}/search/en/trial/{study_id}/details"
-            await page.goto(study_url, wait_until="networkidle", timeout=30000)
+            # Navigate to download page
+            download_url = f"{self.BASE_URL}/search/en/trial/{drks_id}/download"
+            await page.goto(download_url, wait_until="networkidle", timeout=30000)
             await asyncio.sleep(2)
             
-            # Extract study details
-            details = await self._extract_study_details(page, study_id)
+            # Click JSON radio button - find by label text
+            json_label = page.locator('text=JSON').first
+            await json_label.click()
+            await asyncio.sleep(0.5)
             
-            return details
+            # Accept terms checkbox - find by text "I accept"
+            terms_checkbox = page.locator('input[type="checkbox"]').first
+            if not await terms_checkbox.is_checked():
+                await terms_checkbox.check()
+                await asyncio.sleep(0.5)
             
+            # Wait for download button to be enabled
+            download_button = page.locator('button:has-text("Download")').first
+            await download_button.wait_for(state="visible", timeout=5000)
+            
+            # Setup download handler and click download
+            async with page.expect_download(timeout=30000) as download_info:
+                await download_button.click()
+            
+            download = await download_info.value
+            
+            # Read the downloaded content
+            download_path = await download.path()
+            with open(download_path, "r", encoding="utf-8") as f:
+                raw_json = json.load(f)
+            
+            # Parse the official JSON into our format
+            return self._parse_drks_json(raw_json, drks_id)
+            
+        except Exception as e:
+            print(f"    Error downloading DRKS JSON for {drks_id}: {e}")
+            return None
         finally:
             try:
                 await page.close()
             except:
                 pass
     
-    async def _extract_study_details(self, page: Page, drks_id: str) -> Dict:
-        """Extract detailed study information from study page.
+    async def download_and_save_study_json(
+        self, 
+        drks_id: str, 
+        country: str, 
+        dtx_name: str, 
+        evidence_type: str
+    ) -> Optional[Dict]:
+        """Download and save official JSON from DRKS, returning parsed data.
         
         Args:
-            page: Playwright page with study details.
+            drks_id: DRKS ID of the study.
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            evidence_type: "RCT" or "RWE"
+            
+        Returns:
+            Dictionary with study details, or None.
+        """
+        page = await self._create_page()
+        
+        try:
+            # Get raw folder path
+            raw_folder = self._get_raw_folder(country, dtx_name, evidence_type)
+            save_path = raw_folder / f"{drks_id}.json"
+            
+            # Skip if already downloaded
+            if save_path.exists():
+                print(f"      {drks_id} already downloaded, loading from cache")
+                with open(save_path, "r", encoding="utf-8") as f:
+                    raw_json = json.load(f)
+                return self._parse_drks_json(raw_json, drks_id)
+            
+            # Navigate to download page
+            download_url = f"{self.BASE_URL}/search/en/trial/{drks_id}/download"
+            await page.goto(download_url, wait_until="networkidle", timeout=30000)
+            await asyncio.sleep(2)
+            
+            # Click JSON radio button - find by label text
+            json_label = page.locator('text=JSON').first
+            await json_label.click()
+            await asyncio.sleep(0.5)
+            
+            # Accept terms checkbox - find by text "I accept"
+            terms_checkbox = page.locator('input[type="checkbox"]').first
+            if not await terms_checkbox.is_checked():
+                await terms_checkbox.check()
+                await asyncio.sleep(0.5)
+            
+            # Wait for download button to be enabled
+            download_button = page.locator('button:has-text("Download")').first
+            await download_button.wait_for(state="visible", timeout=5000)
+            
+            # Setup download handler and click download
+            async with page.expect_download(timeout=30000) as download_info:
+                await download_button.click()
+            
+            download = await download_info.value
+            
+            # Save to our folder
+            await download.save_as(save_path)
+            
+            # Read and parse
+            with open(save_path, "r", encoding="utf-8") as f:
+                raw_json = json.load(f)
+            
+            return self._parse_drks_json(raw_json, drks_id)
+            
+        except Exception as e:
+            print(f"    Error downloading DRKS JSON for {drks_id}: {e}")
+            return None
+        finally:
+            try:
+                await page.close()
+            except:
+                pass
+    
+    def _parse_drks_json(self, raw_json: Dict, drks_id: str) -> Dict:
+        """Parse the official DRKS JSON into our standardized format.
+        
+        DRKS JSON structure:
+        - drksId: The DRKS ID
+        - trialStatus: Status like "UPDATED", "COMPLETED"
+        - trialDescriptions: Array of {title, summary, scientificSummary} by locale
+        - studyCharacteristic: {studyType, allocation, phase, ...}
+        - recruitment: {recruitmentStatus, targetSize, ...}
+        - studiedHealthConditions: Array of conditions with ICD codes
+        - trialContacts: Array of contacts/sponsors
+        
+        Args:
+            raw_json: Raw JSON data from DRKS download.
             drks_id: DRKS ID of the study.
             
         Returns:
-            Dictionary with study details.
+            Standardized study dictionary.
         """
-        # JavaScript to extract study details from DRKS detail page
-        extraction_js = """
-        () => {
-            const data = {};
-            const text = document.body.innerText;
-            
-            // Title - H2 contains the actual study title
-            const h2 = document.querySelector('h2');
-            data.title = h2 ? h2.textContent.trim() : '';
-            
-            // Helper to get text after a label
-            const getValueAfterLabel = (labelText) => {
-                const allText = document.body.innerText;
-                const regex = new RegExp(labelText + '\\s*\\n\\s*([^\\n]+)', 'i');
-                const match = allText.match(regex);
-                return match ? match[1].trim() : '';
-            };
-            
-            // Status
-            if (text.includes('Recruiting complete') || text.includes('study complete')) data.status = 'Completed';
-            else if (text.includes('Recruiting ongoing')) data.status = 'Recruiting';
-            else if (text.includes('Recruiting suspended')) data.status = 'Suspended';
-            else if (text.includes('Not yet recruiting')) data.status = 'Not yet recruiting';
-            else data.status = 'Unknown';
-            
-            // Study type
-            data.study_type = getValueAfterLabel('Study type');
-            
-            // Purpose
-            data.primary_purpose = getValueAfterLabel('Purpose');
-            
-            // Allocation (usually shown for interventional studies)
-            data.allocation = getValueAfterLabel('Allocation');
-            
-            // Phase
-            data.phase = getValueAfterLabel('Phase');
-            
-            // Enrollment/Target size
-            data.enrollment = getValueAfterLabel('Target sample size') || getValueAfterLabel('Sample size');
-            
-            // ICD codes
-            const icdMatches = text.match(/[A-Z]\\d{2}(?:\\.\\d{1,2})?/g) || [];
-            data.icd_codes = [...new Set(icdMatches)].filter(c => 
-                c.startsWith('F') || c.startsWith('C') || c.startsWith('E') || 
-                c.startsWith('I') || c.startsWith('J') || c.startsWith('K') ||
-                c.startsWith('M') || c.startsWith('G')
-            ).slice(0, 10);
-            
-            // Brief summary
-            const summaryMatch = text.match(/Brief summary in (?:lay|scientific) language\\s*\\n\\s*([\\s\\S]*?)(?:Brief summary|Health condition|Interventions|$)/i);
-            data.brief_summary = summaryMatch ? summaryMatch[1].trim().slice(0, 1000) : '';
-            
-            // Health condition
-            const conditionMatch = text.match(/Health condition or problem studied\\s*\\n([\\s\\S]*?)(?:Interventions|$)/i);
-            data.health_condition = conditionMatch ? conditionMatch[1].trim().slice(0, 300) : '';
-            
-            // Intervention
-            const interventionMatch = text.match(/Interventions,\\s*Observational Groups\\s*\\n([\\s\\S]*?)(?:Primary outcome|Outcomes|$)/i);
-            data.intervention = interventionMatch ? interventionMatch[1].trim().slice(0, 500) : '';
-            
-            // Primary outcome
-            data.primary_outcome = getValueAfterLabel('Primary outcome');
-            
-            // Secondary outcomes
-            data.secondary_outcomes = getValueAfterLabel('Secondary outcome');
-            
-            // Primary sponsor
-            data.sponsor = getValueAfterLabel('Primary sponsor');
-            
-            // Countries
-            data.countries = [];
-            if (text.includes('Germany')) data.countries.push('Germany');
-            if (text.includes('Austria')) data.countries.push('Austria');
-            if (text.includes('Switzerland')) data.countries.push('Switzerland');
-            
-            // Dates
-            data.start_date = getValueAfterLabel('Date of first enrollment');
-            data.end_date = getValueAfterLabel('Estimated date of last enrollment');
-            
-            // Registration type (Retrospective/Prospective)
-            data.registration_type = getValueAfterLabel('Retrospective/prospective');
-            
-            return data;
-        }
-        """
-        
         try:
-            raw_data = await page.evaluate(extraction_js)
+            study = raw_json if isinstance(raw_json, dict) else {}
+            
+            # Extract title and summary from trialDescriptions
+            # Prefer English (en) or fall back to German (de)
+            title = ""
+            brief_summary = ""
+            trial_descs = study.get("trialDescriptions", [])
+            for desc in trial_descs:
+                locale_info = desc.get("idLocale", {})
+                locale = locale_info.get("locale", "") if isinstance(locale_info, dict) else ""
+                
+                if locale == "en":
+                    title = desc.get("title", "")
+                    brief_summary = desc.get("summary", "") or desc.get("scientificSummary", "")
+                    break
+                elif locale == "de" and not title:
+                    title = desc.get("title", "")
+                    brief_summary = desc.get("summary", "") or desc.get("scientificSummary", "")
+            
+            # If still no title, try first description
+            if not title and trial_descs:
+                title = trial_descs[0].get("title", "")
+                brief_summary = trial_descs[0].get("summary", "") or trial_descs[0].get("scientificSummary", "")
+            
+            # Extract status from trialStatus or recruitment
+            status_raw = study.get("trialStatus", "")
+            recruitment = study.get("recruitment", {})
+            if recruitment:
+                recruitment_status = recruitment.get("recruitmentStatus", "")
+                if recruitment_status:
+                    status_raw = recruitment_status
+            status = self._normalize_status(status_raw)
+            
+            # Extract study characteristics
+            characteristics = study.get("studyCharacteristic", {})
+            study_type = characteristics.get("studyType", "")
+            allocation = characteristics.get("allocation", "")
+            phase = characteristics.get("phase", "")
+            
+            # Extract enrollment from recruitment
+            enrollment = ""
+            if recruitment:
+                enrollment = str(recruitment.get("targetSize", "") or "")
+            
+            # Extract health conditions and ICD codes
+            conditions = []
+            icd_codes = []
+            health_conditions = study.get("studiedHealthConditions", [])
+            for cond in health_conditions:
+                if isinstance(cond, dict):
+                    icd = cond.get("icdCode", "")
+                    if icd:
+                        icd_codes.append(icd)
+                    name = cond.get("healthCondition", "") or cond.get("name", "")
+                    if name:
+                        conditions.append(name)
+            
+            # Extract interventions from observationalGroups
+            intervention_parts = []
+            obs_groups = study.get("observationalGroups", [])
+            for group in obs_groups:
+                if isinstance(group, dict):
+                    name = group.get("name", "") or group.get("intervention", "")
+                    if name:
+                        intervention_parts.append(name)
+            intervention = "; ".join(intervention_parts) if intervention_parts else ""
+            
+            # Extract sponsor from trialContacts
+            sponsor = ""
+            contacts = study.get("trialContacts", [])
+            for contact in contacts:
+                if isinstance(contact, dict):
+                    role = contact.get("role", "").lower()
+                    if "sponsor" in role or "primary" in role:
+                        sponsor = contact.get("name", "") or contact.get("organization", "")
+                        break
+            
+            # Extract countries from recruitment
+            countries = ["Germany"]  # Default for DRKS
+            if recruitment:
+                recruit_countries = recruitment.get("countries", [])
+                if recruit_countries:
+                    countries = [c.get("name", c) if isinstance(c, dict) else str(c) for c in recruit_countries]
+            
+            # Extract dates
+            start_date = ""
+            end_date = ""
+            if recruitment:
+                start_date = recruitment.get("startDate", "") or recruitment.get("firstEnrollmentDate", "")
+                end_date = recruitment.get("endDate", "") or recruitment.get("estimatedEndDate", "")
             
             return {
                 "study_id": drks_id,
                 "drks_id": drks_id,
-                "title": raw_data.get("title", ""),
-                "status": raw_data.get("status", "Unknown"),
-                "study_type": raw_data.get("study_type", ""),
-                "primary_purpose": raw_data.get("primary_purpose", ""),
-                "allocation": raw_data.get("allocation", ""),
-                "phase": raw_data.get("phase", ""),
-                "enrollment": raw_data.get("enrollment", ""),
-                "conditions": raw_data.get("icd_codes", []),
-                "health_condition": raw_data.get("health_condition", ""),
-                "brief_summary": raw_data.get("brief_summary", ""),
-                "intervention": raw_data.get("intervention", "")[:500] if raw_data.get("intervention") else "",
-                "primary_outcome": raw_data.get("primary_outcome", "")[:500] if raw_data.get("primary_outcome") else "",
-                "secondary_outcomes": raw_data.get("secondary_outcomes", "")[:500] if raw_data.get("secondary_outcomes") else "",
-                "sponsor": raw_data.get("sponsor", ""),
-                "countries": raw_data.get("countries", ["Germany"]),
-                "start_date": raw_data.get("start_date", ""),
-                "end_date": raw_data.get("end_date", ""),
-                "registration_type": raw_data.get("registration_type", ""),
+                "title": str(title)[:500],
+                "status": status,
+                "study_type": str(study_type),
+                "allocation": str(allocation),
+                "phase": str(phase),
+                "enrollment": enrollment,
+                "conditions": icd_codes if icd_codes else conditions,
+                "health_condition": ", ".join(conditions[:5]) if conditions else "",
+                "brief_summary": str(brief_summary)[:1000],
+                "intervention": str(intervention)[:500],
+                "sponsor": str(sponsor),
+                "countries": countries,
+                "start_date": str(start_date),
+                "end_date": str(end_date),
                 "source": "DRKS",
-                "url": f"{self.BASE_URL}/search/en/trial/{drks_id}/details"
+                "url": f"{self.BASE_URL}/search/en/trial/{drks_id}/details",
+                "_raw_json_available": True
             }
             
         except Exception as e:
-            print(f"    Error extracting DRKS study details: {e}")
+            print(f"    Error parsing DRKS JSON for {drks_id}: {e}")
             return {
                 "study_id": drks_id,
                 "drks_id": drks_id,
                 "title": "",
                 "status": "Unknown",
                 "source": "DRKS",
-                "url": f"{self.BASE_URL}/search/en/trial/{drks_id}/details"
+                "url": f"{self.BASE_URL}/search/en/trial/{drks_id}/details",
+                "_raw_json_available": False
             }
+    
+    def _normalize_status(self, status_raw: str) -> str:
+        """Normalize recruitment status to standard values.
+        
+        Args:
+            status_raw: Raw status string from DRKS.
+            
+        Returns:
+            Normalized status string.
+        """
+        status_lower = str(status_raw).lower()
+        
+        if "complete" in status_lower or "closed" in status_lower:
+            return "Completed"
+        elif "ongoing" in status_lower or "recruiting" in status_lower:
+            return "Recruiting"
+        elif "suspended" in status_lower:
+            return "Suspended"
+        elif "not yet" in status_lower:
+            return "Not yet recruiting"
+        elif "terminated" in status_lower:
+            return "Terminated"
+        else:
+            return status_raw or "Unknown"
     
     def is_likely_rct(self, trial: Dict) -> bool:
         """Quick check if a trial is likely an RCT based on design info.
@@ -445,7 +607,9 @@ class DRKSScraper(BaseEvidenceScraper):
         classifier,
         max_results_per_query: int = 50
     ) -> Dict[str, int]:
-        """Search DRKS, classify results, and save.
+        """Search DRKS, download official JSON, classify results, and save.
+        
+        Includes relevance filtering and downloads official JSON files.
         
         Args:
             queries: List of search query strings.
@@ -459,6 +623,7 @@ class DRKSScraper(BaseEvidenceScraper):
         """
         all_results = []
         seen_ids = set()
+        filtered_count = 0
         
         # Search with each query
         for query in queries:
@@ -471,22 +636,31 @@ class DRKSScraper(BaseEvidenceScraper):
                     if drks_id and drks_id not in seen_ids:
                         seen_ids.add(drks_id)
                         
-                        # Get detailed info for each result
+                        # Download official JSON for each result
+                        print(f"      Downloading JSON for {drks_id}...")
                         details = await self.get_study_details(drks_id)
-                        if details:
-                            all_results.append(details)
-                        else:
-                            all_results.append(result)
+                        study_data = details if details else result
                         
-                        await asyncio.sleep(1)  # Rate limiting
+                        # Check relevance before adding
+                        if self.is_result_relevant(study_data, dtx_name):
+                            # Track which query found this result
+                            study_data["matched_query"] = query
+                            all_results.append(study_data)
+                        else:
+                            filtered_count += 1
+                        
+                        await asyncio.sleep(1.5)  # Rate limiting
                 
             except Exception as e:
                 print(f"    Error searching DRKS for '{query[:50]}...': {e}")
         
-        if not all_results:
-            return {"rct": 0, "rwe": 0, "total": 0}
+        if filtered_count > 0:
+            print(f"    Filtered {filtered_count} irrelevant trials")
         
-        print(f"    Found {len(all_results)} unique trials, classifying...")
+        if not all_results:
+            return {"rct": 0, "rwe": 0, "total": 0, "filtered": filtered_count}
+        
+        print(f"    Found {len(all_results)} relevant trials, classifying...")
         
         # Classify and organize results
         rct_results = []
@@ -500,10 +674,15 @@ class DRKSScraper(BaseEvidenceScraper):
                 classification = await classifier.classify(result, hint_rct=likely_rct)
                 result["classification"] = classification
                 
-                if classification.get("classification") == "RCT":
+                evidence_type = classification.get("classification", "RWE")
+                
+                if evidence_type == "RCT":
                     rct_results.append(result)
+                    # Save official JSON to raw folder
+                    await self._save_raw_json_if_needed(result, country, dtx_name, "RCT")
                 else:
                     rwe_results.append(result)
+                    await self._save_raw_json_if_needed(result, country, dtx_name, "RWE")
                     
             except Exception as e:
                 # Use preliminary check as fallback
@@ -542,5 +721,32 @@ class DRKSScraper(BaseEvidenceScraper):
         return {
             "rct": len(rct_results),
             "rwe": len(rwe_results),
-            "total": len(all_results)
+            "total": len(all_results),
+            "filtered": filtered_count
         }
+    
+    async def _save_raw_json_if_needed(
+        self, 
+        result: Dict, 
+        country: str, 
+        dtx_name: str, 
+        evidence_type: str
+    ):
+        """Save the raw JSON for a study if not already saved.
+        
+        Uses download_and_save_study_json for studies that haven't been saved yet.
+        """
+        drks_id = result.get("drks_id")
+        if not drks_id:
+            return
+        
+        raw_folder = self._get_raw_folder(country, dtx_name, evidence_type)
+        save_path = raw_folder / f"{drks_id}.json"
+        
+        # Only download if not already saved
+        if not save_path.exists():
+            try:
+                await self.download_and_save_study_json(drks_id, country, dtx_name, evidence_type)
+            except Exception as e:
+                # Non-critical, just log
+                pass
