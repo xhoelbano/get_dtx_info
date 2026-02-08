@@ -1,16 +1,15 @@
 """LLM-based evidence classifier for RCT vs RWE determination.
 
-This module uses Azure OpenAI to classify clinical studies as either
-Randomized Controlled Trials (RCT) or Real-World Evidence (RWE).
+This module uses the configured LLM provider to classify clinical studies
+as either Randomized Controlled Trials (RCT) or Real-World Evidence (RWE).
 """
 import json
-import os
 import re
 from typing import Dict, Optional
 
-from dotenv import load_dotenv
-from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
+
+from .llm_provider import LLMProvider
 
 
 class EvidenceClassifier:
@@ -73,20 +72,7 @@ Respond with ONLY a JSON object in this exact format:
     
     def __init__(self):
         """Initialize the classifier."""
-        load_dotenv()
-        self.llm = self._setup_llm()
-    
-    def _setup_llm(self) -> AzureChatOpenAI:
-        """Setup the Azure OpenAI LLM."""
-        deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
-        return AzureChatOpenAI(
-            model=deployment,
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-08-01-preview"),
-            temperature=0.0,  # Deterministic for classification
-            max_tokens=200
-        )
+        self.llm = LLMProvider.get_llm(temperature=0.0, max_tokens=200)
     
     async def classify(self, study: Dict, hint_rct: bool = None) -> Dict:
         """Classify a study as RCT or RWE.

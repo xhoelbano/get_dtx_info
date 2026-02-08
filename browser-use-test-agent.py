@@ -4,7 +4,7 @@ import asyncio
 import os
 
 async def example():
-    load_dotenv()
+    load_dotenv(override=True)
 
     browser = Browser(
         # use_cloud=True,  # Uncomment to use a stealth browser on Browser Use Cloud

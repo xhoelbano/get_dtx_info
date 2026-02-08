@@ -1,7 +1,7 @@
 """USA Digital Therapeutics scraper using LLM-based research.
 
-This module uses Azure OpenAI GPT to research and extract DTx information
-for US companies from CSV input files.
+This module uses the configured LLM provider to research and extract DTx
+information for US companies from CSV input files.
 """
 import asyncio
 import csv
@@ -11,18 +11,44 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
 
-from dotenv import load_dotenv
-from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
 from .base_scraper import BaseScraper
+from utils.llm_provider import LLMProvider
+
+
+def _get_llm_source_name() -> str:
+    """Get a human-readable name for the current LLM provider and model."""
+    provider = (os.getenv("LLM_PROVIDER") or "azure_openai").strip().lower()
+    
+    provider_names = {
+        "azure_openai": "Azure OpenAI",
+        "openai": "OpenAI",
+        "gemini": "Google Gemini",
+        "anthropic": "Anthropic Claude",
+    }
+    provider_display = provider_names.get(provider, provider)
+    
+    # Get the model name
+    if provider == "azure_openai":
+        model = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
+    elif provider == "openai":
+        model = os.getenv("OPENAI_MODEL", "gpt-4o")
+    elif provider == "gemini":
+        model = os.getenv("GOOGLE_MODEL", "gemini-pro")
+    elif provider == "anthropic":
+        model = os.getenv("ANTHROPIC_MODEL", "claude-3-opus")
+    else:
+        model = "unknown"
+    
+    return f"LLM Research ({provider_display} - {model})"
 
 
 class USAScraper(BaseScraper):
     """Scraper for US Digital Therapeutics using LLM-based research.
     
     This scraper takes a CSV file with company information and uses
-    Azure OpenAI GPT to research and extract DTx product information.
+    the configured LLM provider to research and extract DTx product information.
     """
     
     # System prompt for the LLM to research DTx information
@@ -82,24 +108,14 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             config_path: Path to USA configuration file.
         """
         super().__init__(config_path)
-        load_dotenv()
         
         self.csv_input_path = self.config.get("csv_input_path", "data-format/us_company.csv")
         self.output_file = self.config.get("output_file", "data/dtx_data_usa.json")
         self.llm_settings = self.config.get("llm_settings", {})
         self.csv_mappings = self.config.get("csv_column_mappings", {})
         
-        # Initialize the LLM
-        self.llm = self._setup_llm()
-    
-    def _setup_llm(self) -> AzureChatOpenAI:
-        """Setup the Azure OpenAI LLM for research."""
-        deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
-        return AzureChatOpenAI(
-            model=deployment,
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-08-01-preview"),
+        # Initialize the LLM using centralized provider
+        self.llm = LLMProvider.get_llm(
             temperature=self.llm_settings.get("temperature", 0.1),
             max_tokens=self.llm_settings.get("max_tokens", 4000),
         )
@@ -118,6 +134,62 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             if col in row and row[col]:
                 return row[col].strip()
         return None
+    
+    def _extract_json_from_reasoning_response(self, response_text: str) -> str:
+        """Extract JSON content from responses that include reasoning blocks.
+        
+        GPT-5.2-pro and similar reasoning models may return responses like:
+        {'id': '...', 'summary': [], 'type': 'reasoning'}{"dtx_products": [...]}
+        
+        This method extracts just the JSON part we need.
+        
+        Args:
+            response_text: Raw response text that may contain reasoning blocks.
+            
+        Returns:
+            Cleaned response text with only the JSON content.
+        """
+        import re
+        
+        # If it already looks like clean JSON, return as-is
+        stripped = response_text.strip()
+        if stripped.startswith('{') or stripped.startswith('['):
+            # Check if there's a reasoning block prefix
+            # Pattern: {...reasoning object...}{...actual JSON...}
+            # The reasoning block typically has 'type': 'reasoning'
+            
+            # Find all top-level JSON objects by matching balanced braces
+            json_objects = []
+            brace_count = 0
+            current_start = None
+            
+            for i, char in enumerate(stripped):
+                if char == '{':
+                    if brace_count == 0:
+                        current_start = i
+                    brace_count += 1
+                elif char == '}':
+                    brace_count -= 1
+                    if brace_count == 0 and current_start is not None:
+                        json_objects.append(stripped[current_start:i+1])
+                        current_start = None
+            
+            # If we found multiple JSON objects, skip reasoning blocks
+            if len(json_objects) > 1:
+                for obj in json_objects:
+                    # Skip reasoning blocks (they have 'type': 'reasoning')
+                    if "'type': 'reasoning'" in obj or '"type": "reasoning"' in obj:
+                        continue
+                    if "'type':'reasoning'" in obj or '"type":"reasoning"' in obj:
+                        continue
+                    # Return the first non-reasoning JSON object
+                    return obj
+            
+            # If only one object or couldn't parse, return original
+            return stripped
+        
+        # If it starts with something else (like markdown), return as-is
+        return response_text
     
     def read_csv(self, csv_path: str = None) -> List[Dict]:
         """Read company data from CSV file.
@@ -247,7 +319,21 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             ]
             
             response = await self.llm.ainvoke(messages)
-            response_text = response.content.strip()
+            
+            # Handle both string and list content formats (newer OpenAI models return list)
+            content = response.content
+            if isinstance(content, list):
+                response_text = "".join(
+                    block.get("text", str(block)) if isinstance(block, dict) else str(block)
+                    for block in content
+                ).strip()
+            else:
+                response_text = content.strip()
+            
+            # Handle GPT-5.2-pro and other reasoning models that return reasoning blocks
+            # before the actual JSON content. Format: {...reasoning...}{...json...}
+            # We need to extract just the JSON part (starts with {"dtx_products" or similar)
+            response_text = self._extract_json_from_reasoning_response(response_text)
             
             # Try to parse JSON from the response
             # Handle potential markdown code blocks
@@ -410,7 +496,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "total_count": len(dtx_list),
                 "companies_researched": len(companies),
                 "companies_with_dtx": companies_with_dtx,
-                "source": "LLM Research (Azure OpenAI)"
+                "source": _get_llm_source_name()
             },
             "dtx_list": dtx_list
         }
@@ -455,7 +541,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "country": "USA",
                 "last_updated": datetime.utcnow().isoformat() + "Z",
                 "total_count": len(dtx_list),
-                "source": "LLM Research (Azure OpenAI)"
+                "source": _get_llm_source_name()
             },
             "dtx_list": dtx_list
         }
@@ -529,7 +615,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "country": "USA",
                 "last_updated": datetime.utcnow().isoformat() + "Z",
                 "total_count": len(merged_list),
-                "source": "LLM Research (Azure OpenAI)"
+                "source": _get_llm_source_name()
             },
             "dtx_list": merged_list
         }

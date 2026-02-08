@@ -326,7 +326,8 @@ class DRKSScraper(BaseEvidenceScraper):
         drks_id: str, 
         country: str, 
         dtx_name: str, 
-        evidence_type: str
+        evidence_type: str,
+        return_raw: bool = False
     ) -> Optional[Dict]:
         """Download and save official JSON from DRKS, returning parsed data.
         
@@ -335,9 +336,10 @@ class DRKSScraper(BaseEvidenceScraper):
             country: "Germany" or "USA"
             dtx_name: Name of the DTx
             evidence_type: "RCT" or "RWE"
+            return_raw: If True, returns tuple of (parsed_data, raw_json)
             
         Returns:
-            Dictionary with study details, or None.
+            Dictionary with study details, or tuple of (parsed, raw) if return_raw=True.
         """
         page = await self._create_page()
         
@@ -351,7 +353,8 @@ class DRKSScraper(BaseEvidenceScraper):
                 print(f"      {drks_id} already downloaded, loading from cache")
                 with open(save_path, "r", encoding="utf-8") as f:
                     raw_json = json.load(f)
-                return self._parse_drks_json(raw_json, drks_id)
+                parsed = self._parse_drks_json(raw_json, drks_id)
+                return (parsed, raw_json) if return_raw else parsed
             
             # Navigate to download page
             download_url = f"{self.BASE_URL}/search/en/trial/{drks_id}/download"
@@ -386,11 +389,12 @@ class DRKSScraper(BaseEvidenceScraper):
             with open(save_path, "r", encoding="utf-8") as f:
                 raw_json = json.load(f)
             
-            return self._parse_drks_json(raw_json, drks_id)
+            parsed = self._parse_drks_json(raw_json, drks_id)
+            return (parsed, raw_json) if return_raw else parsed
             
         except Exception as e:
             print(f"    Error downloading DRKS JSON for {drks_id}: {e}")
-            return None
+            return (None, None) if return_raw else None
         finally:
             try:
                 await page.close()
@@ -566,6 +570,45 @@ class DRKSScraper(BaseEvidenceScraper):
         else:
             return status_raw or "Unknown"
     
+    def _is_drks_relevant_deep(self, raw_json: Dict, dtx_name: str) -> bool:
+        """Deep relevance check by searching entire raw JSON text.
+        
+        DRKS downloads contain rich data in nested fields that may not be
+        extracted into our standardized format. This searches the ENTIRE
+        raw JSON string for the DTx name.
+        
+        Args:
+            raw_json: Raw JSON data from DRKS download.
+            dtx_name: Full DTx name.
+            
+        Returns:
+            True if DTx name appears anywhere in the raw JSON.
+        """
+        if not raw_json:
+            return False
+        
+        core_name = self._extract_core_product_name(dtx_name)
+        if not core_name or len(core_name) < 3:
+            return True  # Accept if can't extract core name
+        
+        # Convert entire JSON to string and search
+        try:
+            full_text = json.dumps(raw_json, ensure_ascii=False).lower()
+            core_name_lower = core_name.lower()
+            
+            # Check for exact match
+            if core_name_lower in full_text:
+                return True
+            
+            # Check for no-space variant
+            core_name_nospace = core_name_lower.replace(" ", "")
+            if len(core_name_nospace) > 3 and core_name_nospace in full_text.replace(" ", ""):
+                return True
+            
+            return False
+        except Exception:
+            return False
+    
     def is_likely_rct(self, trial: Dict) -> bool:
         """Quick check if a trial is likely an RCT based on design info.
         
@@ -626,6 +669,9 @@ class DRKSScraper(BaseEvidenceScraper):
         filtered_count = 0
         
         # Search with each query
+        # Store raw JSON for deep relevance check
+        raw_json_cache = {}
+        
         for query in queries:
             try:
                 results = await self.search(query, max_results_per_query)
@@ -636,13 +682,31 @@ class DRKSScraper(BaseEvidenceScraper):
                     if drks_id and drks_id not in seen_ids:
                         seen_ids.add(drks_id)
                         
-                        # Download official JSON for each result
+                        # Download official JSON for each result (get both parsed and raw)
                         print(f"      Downloading JSON for {drks_id}...")
-                        details = await self.get_study_details(drks_id)
-                        study_data = details if details else result
+                        download_result = await self.download_and_save_study_json(
+                            drks_id, country, dtx_name, "RCT", return_raw=True
+                        )
                         
-                        # Check relevance before adding
-                        if self.is_result_relevant(study_data, dtx_name):
+                        if download_result:
+                            study_data, raw_json = download_result
+                            if study_data is None:
+                                study_data = result
+                            raw_json_cache[drks_id] = raw_json
+                        else:
+                            study_data = result
+                            raw_json = None
+                        
+                        # Check relevance: First try standard method, then deep JSON search
+                        is_relevant = self.is_result_relevant(study_data, dtx_name)
+                        
+                        # If not found in parsed fields, try deep JSON search
+                        if not is_relevant and raw_json:
+                            is_relevant = self._is_drks_relevant_deep(raw_json, dtx_name)
+                            if is_relevant:
+                                study_data["_relevance_source"] = "deep_json_search"
+                        
+                        if is_relevant:
                             # Track which query found this result
                             study_data["matched_query"] = query
                             all_results.append(study_data)

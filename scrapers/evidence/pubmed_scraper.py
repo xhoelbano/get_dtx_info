@@ -1,12 +1,13 @@
 """PubMed evidence scraper using E-utilities API.
 
 This module searches PubMed for clinical evidence and downloads PDFs from 
-PubMed Central when available.
+PubMed Central when available. Also saves raw XML responses for future analysis.
 """
 import asyncio
 import re
 import xml.etree.ElementTree as ET
-from typing import List, Dict, Optional
+from pathlib import Path
+from typing import List, Dict, Optional, Tuple
 from urllib.parse import quote_plus
 
 from .base_evidence_scraper import BaseEvidenceScraper
@@ -32,6 +33,69 @@ class PubMedScraper(BaseEvidenceScraper):
     
     # Fallback to NCBI PMC (may fail due to bot protection)
     PMC_PDF_URL = "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmc_id}/pdf/"
+    
+    def _get_raw_folder(self, country: str, dtx_name: str, evidence_type: str) -> Path:
+        """Get or create the raw XML folder for PubMed downloads.
+        
+        Args:
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            evidence_type: "RCT" or "RWE"
+            
+        Returns:
+            Path to the raw folder.
+        """
+        folder = self._get_dtx_folder(country, dtx_name, evidence_type) / "raw"
+        folder.mkdir(parents=True, exist_ok=True)
+        return folder
+    
+    async def _fetch_and_save_raw_xml(
+        self, 
+        pmid: str, 
+        country: str, 
+        dtx_name: str, 
+        evidence_type: str
+    ) -> Optional[str]:
+        """Fetch raw XML for a single article and save it.
+        
+        Args:
+            pmid: PubMed ID.
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            evidence_type: "RCT" or "RWE"
+            
+        Returns:
+            Path to the saved XML file, or None if failed.
+        """
+        raw_folder = self._get_raw_folder(country, dtx_name, evidence_type)
+        save_path = raw_folder / f"{pmid}.xml"
+        
+        # Skip if already downloaded
+        if save_path.exists():
+            return str(save_path)
+        
+        client = await self._get_http_client()
+        
+        try:
+            fetch_params = {
+                "db": "pubmed",
+                "id": pmid,
+                "retmode": "xml",
+                "rettype": "full"  # Full record for more data
+            }
+            
+            response = await client.get(self.EFETCH_URL, params=fetch_params)
+            response.raise_for_status()
+            
+            # Save raw XML
+            with open(save_path, "w", encoding="utf-8") as f:
+                f.write(response.text)
+            
+            return str(save_path)
+            
+        except Exception as e:
+            # Non-critical, just log
+            return None
     
     async def search(self, query: str, max_results: int = 50) -> List[Dict]:
         """Search PubMed for articles matching the query.
@@ -444,6 +508,15 @@ class PubMedScraper(BaseEvidenceScraper):
                     rct_results.append(result)
                 else:
                     rwe_results.append(result)
+                
+                # Save raw XML for this article
+                pmid = result.get("pmid")
+                if pmid:
+                    raw_xml_path = await self._fetch_and_save_raw_xml(
+                        pmid, country, dtx_name, evidence_type
+                    )
+                    if raw_xml_path:
+                        result["_raw_xml_path"] = raw_xml_path
                 
                 # Download PDF if available
                 if download_pdfs and result.get("pdf_available"):

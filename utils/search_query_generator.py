@@ -1,16 +1,15 @@
 """LLM-based search query generator for evidence searches.
 
-This module uses Azure OpenAI to generate intelligent search queries
-for finding clinical evidence about DTx products.
+This module uses the configured LLM provider to generate intelligent
+search queries for finding clinical evidence about DTx products.
 """
 import json
-import os
 import re
 from typing import List, Dict
 
-from dotenv import load_dotenv
-from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
+
+from .llm_provider import LLMProvider
 
 
 class SearchQueryGenerator:
@@ -54,20 +53,7 @@ Return ONLY a JSON array of query strings. No explanations."""
 
     def __init__(self):
         """Initialize the query generator."""
-        load_dotenv()
-        self.llm = self._setup_llm()
-    
-    def _setup_llm(self) -> AzureChatOpenAI:
-        """Setup the Azure OpenAI LLM."""
-        deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
-        return AzureChatOpenAI(
-            model=deployment,
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-08-01-preview"),
-            temperature=0.1,
-            max_tokens=500
-        )
+        self.llm = LLMProvider.get_llm(temperature=0.1, max_tokens=500)
     
     async def generate_queries(self, dtx_data: Dict) -> List[str]:
         """Generate search queries for a DTx using LLM.

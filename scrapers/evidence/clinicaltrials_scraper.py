@@ -2,11 +2,13 @@
 
 This module searches ClinicalTrials.gov for clinical trials and extracts
 study details including design, status, conditions, and interventions.
+Also saves raw JSON responses for future analysis.
 """
 import asyncio
 import json
 import subprocess
-from typing import List, Dict, Optional
+from pathlib import Path
+from typing import List, Dict, Optional, Tuple
 from urllib.parse import quote_plus, urlencode
 
 from .base_evidence_scraper import BaseEvidenceScraper
@@ -23,6 +25,64 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
     
     # API endpoint
     API_URL = "https://clinicaltrials.gov/api/v2/studies"
+    
+    def _get_raw_folder(self, country: str, dtx_name: str, evidence_type: str) -> Path:
+        """Get or create the raw JSON folder for ClinicalTrials.gov downloads.
+        
+        Args:
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            evidence_type: "RCT" or "RWE"
+            
+        Returns:
+            Path to the raw folder.
+        """
+        folder = self._get_dtx_folder(country, dtx_name, evidence_type) / "raw"
+        folder.mkdir(parents=True, exist_ok=True)
+        return folder
+    
+    def _save_raw_json(
+        self, 
+        study: Dict, 
+        country: str, 
+        dtx_name: str, 
+        evidence_type: str
+    ) -> Optional[str]:
+        """Save raw JSON for a single study.
+        
+        Args:
+            study: Raw study data from API.
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            evidence_type: "RCT" or "RWE"
+            
+        Returns:
+            Path to the saved JSON file, or None if failed.
+        """
+        try:
+            # Extract NCT ID from the raw data
+            protocol = study.get("protocolSection", {})
+            id_module = protocol.get("identificationModule", {})
+            nct_id = id_module.get("nctId", "")
+            
+            if not nct_id:
+                return None
+            
+            raw_folder = self._get_raw_folder(country, dtx_name, evidence_type)
+            save_path = raw_folder / f"{nct_id}.json"
+            
+            # Skip if already downloaded
+            if save_path.exists():
+                return str(save_path)
+            
+            # Save raw JSON
+            with open(save_path, "w", encoding="utf-8") as f:
+                json.dump(study, f, indent=2, ensure_ascii=False)
+            
+            return str(save_path)
+            
+        except Exception as e:
+            return None
     
     def _format_query_with_expansion(self, query: str) -> str:
         """Format query with EXPANSION[Term] operator to enforce exact phrase matching.
@@ -93,7 +153,13 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
                     data = json.loads(result.stdout)
                     studies = data.get("studies", [])
                     if studies:
-                        return [self._parse_study(study) for study in studies]
+                        parsed_studies = []
+                        for study in studies:
+                            parsed = self._parse_study(study)
+                            # Store raw data temporarily for later saving
+                            parsed["_raw_study_data"] = study
+                            parsed_studies.append(parsed)
+                        return parsed_studies
                     
             except Exception as e:
                 continue
@@ -326,12 +392,24 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
                 classification = await classifier.classify(result, hint_rct=likely_rct)
                 result["classification"] = classification
                 
-                if classification.get("classification") == "RCT":
+                evidence_type = "RCT" if classification.get("classification") == "RCT" else "RWE"
+                
+                # Save raw JSON to disk
+                raw_study_data = result.pop("_raw_study_data", None)
+                if raw_study_data:
+                    raw_path = self._save_raw_json(raw_study_data, country, dtx_name, evidence_type)
+                    if raw_path:
+                        result["_raw_json_path"] = raw_path
+                
+                if evidence_type == "RCT":
                     rct_results.append(result)
                 else:
                     rwe_results.append(result)
                     
             except Exception as e:
+                # Remove raw data before fallback handling
+                raw_study_data = result.pop("_raw_study_data", None)
+                
                 # Use preliminary check as fallback
                 if self.is_likely_rct(result):
                     result["classification"] = {
@@ -339,6 +417,11 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
                         "confidence": 50,
                         "reason": f"Fallback: design suggests RCT. Error: {e}"
                     }
+                    # Save raw JSON
+                    if raw_study_data:
+                        raw_path = self._save_raw_json(raw_study_data, country, dtx_name, "RCT")
+                        if raw_path:
+                            result["_raw_json_path"] = raw_path
                     rct_results.append(result)
                 else:
                     result["classification"] = {
@@ -346,6 +429,11 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
                         "confidence": 50,
                         "reason": f"Fallback: design suggests RWE. Error: {e}"
                     }
+                    # Save raw JSON
+                    if raw_study_data:
+                        raw_path = self._save_raw_json(raw_study_data, country, dtx_name, "RWE")
+                        if raw_path:
+                            result["_raw_json_path"] = raw_path
                     rwe_results.append(result)
         
         # Save results

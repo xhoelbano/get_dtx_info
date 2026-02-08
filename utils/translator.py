@@ -1,15 +1,13 @@
 """LLM-based translation utilities."""
-import os
 from typing import List, Dict, Optional
-from dotenv import load_dotenv
 
-# Use langchain_openai for translation (more flexible API)
-from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
+
+from .llm_provider import LLMProvider
 
 
 class Translator:
-    """Translate text using Azure OpenAI LLM."""
+    """Translate text using the configured LLM provider."""
     
     def __init__(self, source_lang: str = "de", target_lang: str = "en"):
         """Initialize the translator.
@@ -18,20 +16,9 @@ class Translator:
             source_lang: Source language code (default: German).
             target_lang: Target language code (default: English).
         """
-        load_dotenv()
         self.source_lang = source_lang
         self.target_lang = target_lang
-        self.llm = self._setup_llm()
-    
-    def _setup_llm(self):
-        """Setup the Azure OpenAI LLM."""
-        deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o-mini")
-        return AzureChatOpenAI(
-            model=deployment,
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-08-01-preview"),
-        )
+        self.llm = LLMProvider.get_llm(temperature=0.0, max_tokens=2000)
     
     async def translate(self, text: str, preserve_terms: List[str] = None) -> str:
         """Translate a single text string.

@@ -108,14 +108,19 @@ class BaseEvidenceScraper(ABC):
     def is_result_relevant(self, result: Dict, dtx_name: str) -> bool:
         """Check if a search result is relevant to the DTx.
         
-        Verifies that the core product name appears in the title or abstract.
+        Verifies that the core product name appears in any relevant text field.
         This filters out false positives from generic searches.
         
         Uses a unified filtering mechanism for all evidence sources (PubMed, 
         ClinicalTrials.gov, DRKS, ISRCTN).
         
+        Checks ALL text fields, not just title/abstract:
+        - title, abstract, brief_summary, detailed_description
+        - intervention, health_condition, conditions, keywords
+        - sponsor, lead_sponsor, collaborators
+        
         Args:
-            result: Search result dictionary with title and/or abstract.
+            result: Search result dictionary with various text fields.
             dtx_name: Full DTx name.
             
         Returns:
@@ -126,12 +131,55 @@ class BaseEvidenceScraper(ABC):
             # If we can't extract a core name, accept all results
             return True
         
-        # Get text to search in
-        title = result.get("title", "") or ""
-        abstract = result.get("abstract", "") or result.get("brief_summary", "") or ""
+        # Collect ALL text fields to search (expanded from just title/abstract)
+        text_parts = []
+        
+        # Primary fields
+        text_parts.append(result.get("title", "") or "")
+        text_parts.append(result.get("abstract", "") or "")
+        text_parts.append(result.get("brief_summary", "") or "")
+        text_parts.append(result.get("detailed_description", "") or "")
+        
+        # Intervention fields
+        text_parts.append(result.get("intervention", "") or "")
+        interventions = result.get("interventions", [])
+        if interventions:
+            for interv in interventions:
+                if isinstance(interv, dict):
+                    text_parts.append(interv.get("name", "") or "")
+                    text_parts.append(interv.get("description", "") or "")
+                elif isinstance(interv, str):
+                    text_parts.append(interv)
+        
+        # Condition fields
+        text_parts.append(result.get("health_condition", "") or "")
+        conditions = result.get("conditions", [])
+        if conditions:
+            if isinstance(conditions, list):
+                text_parts.extend(str(c) for c in conditions)
+            else:
+                text_parts.append(str(conditions))
+        
+        # Keywords and MeSH terms
+        keywords = result.get("keywords", [])
+        if keywords:
+            if isinstance(keywords, list):
+                text_parts.extend(str(k) for k in keywords)
+            else:
+                text_parts.append(str(keywords))
+        mesh_terms = result.get("mesh_terms", [])
+        if mesh_terms:
+            text_parts.extend(str(m) for m in mesh_terms)
+        
+        # Sponsor fields
+        text_parts.append(result.get("sponsor", "") or "")
+        text_parts.append(result.get("lead_sponsor", "") or "")
+        collaborators = result.get("collaborators", [])
+        if collaborators:
+            text_parts.extend(str(c) for c in collaborators)
         
         # Combine and lowercase for case-insensitive search
-        text_to_search = f"{title} {abstract}".lower()
+        text_to_search = " ".join(text_parts).lower()
         core_name_lower = core_name.lower()
         
         # Check if core product name appears in the text (primary check)

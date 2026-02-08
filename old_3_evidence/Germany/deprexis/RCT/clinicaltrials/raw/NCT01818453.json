@@ -1,0 +1,242 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01818453",
+      "orgStudyIdInfo": {
+        "id": "2013-01-0025"
+      },
+      "organization": {
+        "fullName": "University of Texas at Austin",
+        "class": "OTHER"
+      },
+      "briefTitle": "Can Genetics Predict Treatment Response to a Computerized Self-help Program for Depression?",
+      "officialTitle": "Genetic Predictors of Response to a Computerized Self-help Program for Depression"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-02-20",
+      "studyFirstSubmitQcDate": "2013-03-21",
+      "studyFirstPostDateStruct": {
+        "date": "2013-03-26",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-11-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-11-09",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Christopher G. Beevers",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Texas at Austin"
+      },
+      "leadSponsor": {
+        "name": "University of Texas at Austin",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Brown University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this project is to determine whether genetic information can be used to predict response to an internet-based treatment of depression. Several studies now indicate that completing an internet-based treatment for depression, called Deprexis, can significantly improve symptoms of depression. However, not everyone improves. The purpose of this study is to determine whether genetic profile can predict who is likely to improve."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorder",
+        "Mood Disorders"
+      ],
+      "keywords": [
+        "Mood Disorders",
+        "Depression",
+        "Genetics",
+        "Treatment response",
+        "Treatment study"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Computerized self-help program for depression",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will have access to a computerized self-help program for depression, called deprexis, for 8 weeks.",
+          "interventionNames": [
+            "Behavioral: Computerized self-help program for depression"
+          ]
+        },
+        {
+          "label": "Wait List Control",
+          "type": "NO_INTERVENTION",
+          "description": "Participants randomly assigned to a \"wait list control\" condition will wait 8 weeks after assignment before they can access the deprexis program."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Computerized self-help program for depression",
+          "description": "For 8 weeks, participants will engage in a computerized self-help program for depression, called deprexis. This program consists of 10 content modules representing different psychotherapeutic approaches broadly consistent with a cognitive-behavioral perspective. Modules are organized as simulated dialogues in which the program explains and illustrates concepts and techniques, engages the user in exercises, and continuously asks users to respond by selecting from response options. Subsequent content is then tailored to the users' responses, resulting in a simulated conversational flow. Participants can access the self-help program as often as they would like and since it is self-guided, they will determine how often they access the material. Each module can be completed in 10 to 60 minutes, depending on the user's reading speed, interest, motivation, and individual path through the program.",
+          "armGroupLabels": [
+            "Computerized self-help program for depression"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Quick Inventory of Depressive Symptomatology (Self-Report) (QIDS-SR-16)",
+          "timeFrame": "Administred every 2 weeks while the participant is engaged in the online deprexis treatment program to measure depression symptom severity."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hamilton Depression Rating Scale (HAM-D)",
+          "timeFrame": "The HAM-D will be completed during the pre- and post-treatment phone interviews to assess depression symptom severity."
+        },
+        {
+          "measure": "Inventory of Depression and Anxiety Symptoms (IDAS)",
+          "timeFrame": "The IDAS will be completed as part of the pre- and post-treatment questionnaires to assess for symptoms of depression and anxiety."
+        },
+        {
+          "measure": "Psychiatric Diagnostic Screening Questionnaire (PDSQ)",
+          "timeFrame": "The PDSQ will be completed as part of the pre- and post-treatment questionnaires to screen for the most common DSM-IV Axis I disorders.."
+        },
+        {
+          "measure": "Risky Families Questionnaire (RFQ)",
+          "timeFrame": "The RFQ will be completed as part of the pre-treatment questionnaires to assess early familial experiences and the harshness of family climate."
+        },
+        {
+          "measure": "Massachusetts General Hospital Antidepressant Treatment History Questionnaire (ATRQ)",
+          "timeFrame": "The ATRQ will be administered as part of the pre-treatment questionnaires to evaluate psychotropic efficacy."
+        },
+        {
+          "measure": "Sheehan Disability Scale (SDS)",
+          "timeFrame": "The SDS will be completed as part of the pre- and post-treatment questionnaires to evaluate symptom-related disability."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* English-speaking\n* Have reliable access to the internet (i.e., dialup or broadband access)\n* Be willing to donate saliva for DNA research\n* Have a current symptoms of depression\n* Be stable on medication and/or therapy (i.e. no changes within 2 weeks of study entry)\n\nExclusion Criteria:\n\n* Any diagnosis of a psychotic or bipolar disorder\n* Meeting for alcohol/drug dependence in the past year\n* Having current suicidal risk warranting crisis intervention",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christopher G Beevers, PhD",
+          "affiliation": "The University of Texas at Austin",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The University of Texas at Austin",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78713",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28230390",
+          "type": "DERIVED",
+          "citation": "Beevers CG, Pearson R, Hoffman JS, Foulser AA, Shumake J, Meyer B. Effectiveness of an internet intervention (Deprexis) for depression in a united states adult sample: A parallel-group pragmatic randomized controlled trial. J Consult Clin Psychol. 2017 Apr;85(4):367-380. doi: 10.1037/ccp0000171. Epub 2017 Feb 23."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-03"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003865",
+          "term": "Depressive Disorder, Major"
+        },
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

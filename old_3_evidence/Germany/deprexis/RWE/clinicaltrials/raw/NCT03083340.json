@@ -1,0 +1,192 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03083340",
+      "orgStudyIdInfo": {
+        "id": "2016-08-0089"
+      },
+      "organization": {
+        "fullName": "University of Texas at Austin",
+        "class": "OTHER"
+      },
+      "briefTitle": "Implementation of a Self-Help Depression Program Among Orthopedic Patients",
+      "officialTitle": "Implementation of a Self-Help Depression Program Among Orthopedic Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Feasibility concerns regarding recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-08-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-08-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-02-24",
+      "studyFirstSubmitQcDate": "2017-03-13",
+      "studyFirstPostDateStruct": {
+        "date": "2017-03-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-10-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Texas at Austin",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The proposed study addresses the potential utility of providing an accessible self-help intervention for patients in a medical setting with an estimated diagnosis of MDD. Specifically, the study will explore whether a) such an intervention can be effectively implemented in a primary care setting and b) patients originally seeking medical attention for an orthopedic problem will be willing to seek psychological treatment and, c) improvement in depression symptoms will lead to improvement in upper and lower extremity functioning.",
+      "detailedDescription": "The present project will be an open-label trial to assess the feasibility and acceptability of a self-help intervention among a sample of orthopedic patients. In addition to monitoring the effectiveness of the Deprexis program on depressive symptoms, the proposed project will assess whether a reduction in depressive symptoms will be associated with improvement on patient reported orthopedic impairment. The investigators will enroll 50 adults and the participants will be given the opportunity to participate in 8 weeks of the web-based online Deprexis program."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "MDD"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Deprexis consists of 10 content modules representing different psychotherapeutic approaches, plus one introductory and one summary module, each of which can be completed in 10 to 60 minutes, depending on the user's reading speed, interest, motivation, and individual path through the program (Meyer, et al., 2009).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Deprexis",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will complete 8 weeks of online treatment via a web-based program, Deprexis.",
+          "interventionNames": [
+            "Behavioral: Deprexis"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Deprexis",
+          "description": "Participants will complete an 8 week self-help computerized treatments through a web-based online Deprexis program.",
+          "armGroupLabels": [
+            "Deprexis"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proof of Concept - Acceptability measured by number of eligible participants that choose to participate",
+          "description": "The primary outcome will be the level of acceptability of the intervention as measured by the number of eligible participants who chose to participate in the intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Proof of Concept - Acceptability measured by number of modules completed on the online program",
+          "description": "The primary outcome will be the level of acceptability of the intervention as measured by number of completed modules on the online Deprexis program.",
+          "timeFrame": "8 Weeks"
+        },
+        {
+          "measure": "Proof of Concept - Acceptability measured by qualitative feedback",
+          "description": "The primary outcome will be the level of acceptability of the intervention as measured by qualitative feedback following the intervention created by the investigators on how acceptable the study was for the participant.",
+          "timeFrame": "8 Weeks"
+        },
+        {
+          "measure": "Proof of Concept - Feasibility measured by number of eligible participants that choose to participate",
+          "description": "The primary outcome will be the level of feasibility of the intervention as measured by he number of eligible participants who chose to participate in the intervention.",
+          "timeFrame": "8 Weeks"
+        },
+        {
+          "measure": "Proof of Concept - Feasibility measured by number of modules completed on the online program",
+          "description": "The primary outcome will be the level of acceptability of the intervention as measured by number of completed modules on the online Deprexis program.",
+          "timeFrame": "8 Weeks"
+        },
+        {
+          "measure": "Proof of Concept - Feasibility measured by qualitative feedback",
+          "description": "The primary outcome will be the level of acceptability of the intervention as measured by qualitative feedback following the intervention created by the investigators on how acceptable the study was for the participant.",
+          "timeFrame": "8 Weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Level of Improvement of Depression (by scores on the PHQ-9)",
+          "description": "Secondary outcome measures will be the level of depressive symptoms as evidenced by scores on the PHQ-9.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Level of Improvement of Functioning (by scores on the PROMIS Physical Function CAT)",
+          "description": "Secondary outcome measure will be the level of improvement in upper and lower extremity function as measured by scores on the PROMIS Physical Function CAT.",
+          "timeFrame": "8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* All patients older than 18 years who present to a surgeon with an upper or lower extremity injury or disability at a participating center (see attached list)\n* A level of clinical depression more than minimal symptoms as defined by a score ≥ 10 on the Patient Health Questionnaire-9 (PHQ-9)\n* Willing and able to provide informed consent and comply with the protocol\n\nExclusion Criteria:\n\n* Injury or illness best treated with prompt surgery",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Texas at Austin",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-03"
+    }
+  },
+  "hasResults": false
+}

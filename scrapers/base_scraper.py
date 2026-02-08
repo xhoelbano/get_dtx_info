@@ -25,7 +25,7 @@ class BaseScraper(ABC):
         Args:
             config_path: Path to the country configuration JSON file.
         """
-        load_dotenv()
+        load_dotenv(override=True)
         
         self.config = {}
         if config_path:

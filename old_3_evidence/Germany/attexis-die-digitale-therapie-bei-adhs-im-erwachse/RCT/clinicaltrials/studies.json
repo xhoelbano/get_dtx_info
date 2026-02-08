@@ -1,0 +1,119 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT06766214",
+      "nct_id": "NCT06766214",
+      "title": "Attexis and tDCS for the Treatment of ADHD",
+      "official_title": "Augmentation Von Online-Psychotherapie Mit tDCS Bei Der Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 30,
+      "start_date": "2024-09-01",
+      "completion_date": "2026-02-28",
+      "conditions": [
+        "ADHD"
+      ],
+      "keywords": [
+        "ADHD",
+        "tDCS",
+        "Attexis",
+        "Psychotherapy",
+        "Home-based"
+      ],
+      "interventions": [
+        {
+          "name": "transcranial direct current stimulation",
+          "type": "DEVICE",
+          "description": "Simultaneous treatment with tDCS and online-based psychotherapy"
+        },
+        {
+          "name": "sham transcranial direct current stimulation",
+          "type": "DEVICE",
+          "description": "Simultaneous treatment with sham-tDCS and online-based psychotherapy"
+        }
+      ],
+      "lead_sponsor": "University of Regensburg",
+      "collaborators": [
+        "Sooma Medical",
+        "Gaia AG"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "A randomized controlled two-arm study (RCT) will be conducted. It is planned to randomly assign eligible patients who receive a three-month access to the psychotherapeutic program (Attexis) to either an additional verum-tDCS or placebo-tDCS condition.",
+      "detailed_description": "The aim of this study is to determine whether the effectiveness of the home-based therapy program \"Attexis\" can be augmented with another home-based procedure, tDCS treatment, in order to achieve even higher improvement rates in the treatment of ADHD in the future. Before the actual start of treatment with Attexis, the presence of an ADHD diagnosis (ICD-10: F90.0) is checked by qualified medical staff at Medbo Regensburg. If the screened patient then meets the other inclusion criteria for Attexis and tDCS, he or she will be randomly assigned to either the intervention group (receives access to both Attexis and tDCS) or the placebo group (receives access to both Attexis and placebo tDCS). Based on the study by Schlechter et al. (2023), it is planned to treat patients receiving (placebo) tDCS treatment with 60 sessions (2mA, 20 minutes per day) by stimulating the left DLPFC. As patients will have a three-month access to Attexis, it is planned to administer the additional (placebo) tDCS treatment at the same time. As soon as a patient registers for the study, the safety aspects and inclusion/exclusion criteria for tDCS treatment are also checked in an initial interview after the ADHD diagnosis has been verified. The patient is then randomly assigned to one of the two study arms. A suitable appointment is then arranged for the patient to be admitted to the device. About 60 minutes are scheduled for the explanation and instruction of the tDCS device. During the appointment, an initial trial treatment is carried out so that the patient can get used to the treatment. All subsequent home-based treatments are carried out from Monday to Friday (each lasting 20 minutes) with video observation during the first week of treatment. For the sessions via teletherapy, software approved for clinical use (CLICKDOC version 5.9.1, La-Well Systems GmbH, CompuGroup Medical SE \\& Co. KGaA, Bünde, Germany) is to be used. At the end of the tDCS treatment, a final consultation will be arranged",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06766214",
+      "matched_query": "\"attexis\"",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    },
+    {
+      "study_id": "NCT06221930",
+      "nct_id": "NCT06221930",
+      "title": "Researching the Effectiveness of Attexis, a Digital Health Application for Adults With Attention Deficit Hyperactivity Disorder",
+      "official_title": "Researching the Effectiveness of Attexis, a Digital Health Application for Adults With Attention Deficit Hyperactivity Disorder - a Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 337,
+      "start_date": "2024-03-11",
+      "completion_date": "2024-12-25",
+      "conditions": [
+        "Adult Attention Deficit Hyperactivity Disorder"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "attexis",
+          "type": "BEHAVIORAL",
+          "description": "Participants will receive access to the digital health intervention attexis in addition to TAU."
+        }
+      ],
+      "lead_sponsor": "Gaia AG",
+      "collaborators": [
+        "Zentrum für Integrative Psychiatrie Kiel",
+        "University Hospital, Saarland"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "In this randomized controlled clinical trial, 326 patients with ADHD will be investigated regarding the effectiveness of a digital therapeutic for improved ADHD symptomatology, the unguided online intervention attexis. Inclusion criteria are: male, female or non-binary, age 18-65, diagnosis of ADHD, elevated levels of ADHD symptoms (score of ≥17 either on the inattention subscale or on the impulsivity/hyperactivity subscale of the ASRS v1.1), stable treatment for at least 30 days at time of inclusion, sufficient German skills, and consent to participation. Exclusion criteria are: Diagnosis of any other severe psychiatric disorder and plans to change treatment in the upcoming three months. Patients will be randomized and allocated to either an intervention group, receiving access to attexis in addition to TAU, or a control group, receiving access to TAU only. Primary endpoint will be self-rated ADHD symptomatology, assessed via the ASRS v1.1, with three months post-allocation being the primary time point for assessment of effectiveness. Six months post allocation will be used as a timepoint for follow-up assessment of endpoints. Secondary endpoints will be depressive symptoms, self-esteem, work and social functioning, and health-related quality of life.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06221930",
+      "matched_query": "\"attexis\"",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"attexis\"",
+    "attexis GAIA",
+    "attexis ADHD",
+    "attexis clinical trial",
+    "attexis study"
+  ],
+  "_saved_at": "2026-02-04T07:19:25.348076Z",
+  "_source": "clinicaltrials"
+}

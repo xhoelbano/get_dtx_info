@@ -1,0 +1,80 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00020900",
+      "drks_id": "DRKS00020900",
+      "title": "Prospective, randomised and controlled examination of the successrate of an electrocardioversion with and without pretreatment",
+      "status": "REGISTERED",
+      "study_type": "",
+      "allocation": "RANDOMIZED_CONTROLLED_TRIAL",
+      "phase": "PHASE_II",
+      "enrollment": "",
+      "conditions": [],
+      "health_condition": "",
+      "brief_summary": "One possibility to establish rhythm control in atrial fibrillation is to reset the heart with an electric cardioversion. However, atrial fibrillation resumes shortly after succesful cardioverison. In order to achieve a greater success in establishing sinus rhythm and to prevent a relapse, it is possible to treat patients with medications beforehand. Currently there is no clear guidance how a pretreament should be done. In this trial we plan to compare two different strategies for electrical cardioversion, with and without pretreatment, in order to compare efficacy and safety of the procedure. Furthermore, we plan to address the role of the beta1-adrenoreceptor polymorphism in this context.",
+      "intervention": "",
+      "sponsor": "",
+      "countries": [
+        {
+          "idCountry": {
+            "code": "DE"
+          }
+        }
+      ],
+      "start_date": "",
+      "end_date": "",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00020900/details",
+      "_raw_json_available": true,
+      "matched_query": "\"reSET\"",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "Explicit randomization mentioned"
+      }
+    },
+    {
+      "study_id": "DRKS00004263",
+      "drks_id": "DRKS00004263",
+      "title": "Nonlinear mechanics of the respiratory system in controlled ventilated patients of the anesthesiological Intensive Care Unit",
+      "status": "UPDATED",
+      "study_type": "",
+      "allocation": "SINGLE_ARM_STUDY",
+      "phase": "N_A",
+      "enrollment": "",
+      "conditions": [],
+      "health_condition": "",
+      "brief_summary": "During their treatment in the anesthesiological ICU some patients are mechanically ventilated. We want to measure the pressure in the respiratory system for calculating the nonlinear mechanical properties of the respiratory system. In this context \"PEEP\" is the minimal pressure being set during mechanical ventilation. \"Nonlinear\" in this context means that the mechanical properies of the respiratory system may change in dependence of pressure. \r\nDuring mechanical ventilation respiratory pressures are recorded for 30 min. Furthermore diagnostic parameters, e.g. heartrate and oxygenation are protocollized.\r\n10 min after measurement onset the PEEP will be increased by 5 mbar and 10 min later PEEP will be reset to the primarily set level. After subsequent 10 min the measurement will be terminated.\r\nTarget of the study is to investigate the situation of the ventilated patient from a mechanical point of view.",
+      "intervention": "",
+      "sponsor": "",
+      "countries": [
+        {
+          "idCountry": {
+            "code": "DE"
+          }
+        }
+      ],
+      "start_date": "",
+      "end_date": "",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00004263/details",
+      "_raw_json_available": true,
+      "matched_query": "\"reSET\"",
+      "classification": {
+        "classification": "RCT",
+        "confidence": 80,
+        "reason": "The study involves an interventional design where PEEP levels are deliberately manipulated in a controlled manner, suggesting a prospective and interventional approach. Although randomization is not explicitly mentioned, the structured intervention aligns more closely with RCT characteristics than RWE. The lack of explicit randomization lowers confidence slightly."
+      }
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"reSET\"",
+    "reSET Pear Therapeutics",
+    "reSET clinical trial",
+    "reSET substance use",
+    "reSET CBT"
+  ],
+  "_saved_at": "2026-02-04T09:18:54.860190Z",
+  "_source": "drks"
+}
