@@ -2,6 +2,10 @@
 
 This module searches PubMed for clinical evidence and downloads PDFs from 
 PubMed Central when available. Also saves raw XML responses for future analysis.
+
+Supports two-layer classification:
+- Layer 1: search_and_save_candidates() saves all results to candidates/
+- Layer 2: Verifier processes candidates and moves to verified/{RCT|RWE}/
 """
 import asyncio
 import re
@@ -18,6 +22,10 @@ class PubMedScraper(BaseEvidenceScraper):
     
     Uses free E-utilities API to search PubMed and fetch article details.
     Can also download PDFs from PubMed Central when available.
+    
+    Supports two-layer classification:
+    - Layer 1: Collect all search results as candidates
+    - Layer 2: LLM verifies relevance before final classification
     """
     
     SOURCE_NAME = "pubmed"
@@ -28,7 +36,6 @@ class PubMedScraper(BaseEvidenceScraper):
     ELINK_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi"
     
     # Europe PMC PDF URL (more accessible than NCBI PMC)
-    # NCBI PMC now uses JavaScript bot protection, Europe PMC is more accessible
     EUROPEPMC_PDF_URL = "https://europepmc.org/backend/ptpmcrender.fcgi?accid={pmc_id}&blobtype=pdf"
     
     # Fallback to NCBI PMC (may fail due to bot protection)
@@ -431,6 +438,140 @@ class PubMedScraper(BaseEvidenceScraper):
         )
         
         return str(result) if result else None
+    
+    async def search_and_save_candidates(
+        self,
+        queries: List[str],
+        country: str,
+        dtx_name: str,
+        max_results_per_query: int = 50
+    ) -> Dict[str, int]:
+        """Search PubMed and save ALL results as candidates (Layer 1).
+        
+        No classification or relevance filtering - just collect raw data.
+        Saves raw XML for each article.
+        
+        Args:
+            queries: List of search query strings.
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            max_results_per_query: Max results per query
+            
+        Returns:
+            Dictionary with counts: {"total": N, "queries": [...]}
+        """
+        all_results = []
+        seen_pmids = set()
+        
+        # Get raw folder for candidates
+        raw_folder = self._get_candidates_raw_folder(country, dtx_name)
+        
+        # Search with each query
+        for query in queries:
+            try:
+                results = await self.search(query, max_results_per_query)
+                
+                # Deduplicate by PMID only (no filtering)
+                for result in results:
+                    pmid = result.get("pmid")
+                    if pmid and pmid not in seen_pmids:
+                        seen_pmids.add(pmid)
+                        result["_matched_query"] = query
+                        
+                        # Save raw XML for this article
+                        raw_xml_path = await self._fetch_and_save_raw_xml_to_candidates(
+                            pmid, raw_folder
+                        )
+                        if raw_xml_path:
+                            result["_raw_xml_path"] = str(raw_xml_path)
+                        
+                        all_results.append(result)
+                        
+                        # Rate limiting per article (PubMed allows ~3 req/sec)
+                        await asyncio.sleep(0.4)
+                
+                await asyncio.sleep(0.5)  # Additional rate limiting between queries
+                
+            except Exception as e:
+                print(f"    Error searching '{query[:50]}...': {e}")
+        
+        # Save all candidates
+        if all_results:
+            self.save_candidates_metadata(country, dtx_name, {
+                "studies": all_results,
+                "count": len(all_results),
+                "queries_used": queries,
+                "dtx_name": dtx_name,
+                "country": country
+            }, "studies.json")
+        
+        return {
+            "total": len(all_results),
+            "queries": queries
+        }
+    
+    async def _fetch_and_save_raw_xml_to_candidates(
+        self, 
+        pmid: str, 
+gi        raw_folder: Path,
+        max_retries: int = 3
+    ) -> Optional[Path]:
+        """Fetch raw XML for a single article and save to candidates folder.
+        
+        Uses exponential backoff for rate limit errors.
+        
+        Args:
+            pmid: PubMed ID.
+            raw_folder: Path to candidates raw folder.
+            max_retries: Maximum number of retries for rate limit errors.
+            
+        Returns:
+            Path to the saved XML file, or None if failed.
+        """
+        save_path = raw_folder / f"{pmid}.xml"
+        
+        # Skip if already downloaded
+        if save_path.exists():
+            return save_path
+        
+        client = await self._get_http_client()
+        
+        for attempt in range(max_retries):
+            try:
+                fetch_params = {
+                    "db": "pubmed",
+                    "id": pmid,
+                    "retmode": "xml",
+                    "rettype": "full"
+                }
+                
+                response = await client.get(self.EFETCH_URL, params=fetch_params)
+                
+                # Handle rate limiting with exponential backoff
+                if response.status_code == 429:
+                    wait_time = (2 ** attempt) * 2  # 2, 4, 8 seconds
+                    print(f"        Rate limited, waiting {wait_time}s before retry...")
+                    await asyncio.sleep(wait_time)
+                    continue
+                
+                response.raise_for_status()
+                
+                # Save raw XML
+                with open(save_path, "w", encoding="utf-8") as f:
+                    f.write(response.text)
+                
+                return save_path
+                
+            except Exception as e:
+                if "429" in str(e) and attempt < max_retries - 1:
+                    wait_time = (2 ** attempt) * 2
+                    print(f"        Rate limited, waiting {wait_time}s before retry...")
+                    await asyncio.sleep(wait_time)
+                    continue
+                print(f"        Warning: Failed to save raw XML for PMID {pmid}: {e}")
+                return None
+        
+        return None
     
     async def search_and_save_with_pdfs(
         self,

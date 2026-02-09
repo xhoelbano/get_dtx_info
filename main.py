@@ -346,41 +346,68 @@ def show_status():
 @click.option('--source', type=click.Choice(['pubmed', 'clinicaltrials', 'drks', 'isrctn', 'all']), 
               default='all', help='Which source to search (default: all)')
 @click.option('--no-pdfs', is_flag=True, help='Skip downloading PDFs from PubMed')
-@click.option('--max-results', type=int, default=30, help='Max results per query per source')
-def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs: bool, max_results: int):
-    """Find RCT/RWE evidence for DTx from multiple sources.
+@click.option('--max-results', type=int, default=50, help='Max results per query per source')
+@click.option('--candidates-only', is_flag=True, help='Only collect candidates (Layer 1), skip verification')
+@click.option('--verify-only', is_flag=True, help='Only verify existing candidates (Layer 2), skip collection')
+@click.option('--legacy', is_flag=True, help='Use legacy single-pass workflow instead of two-layer')
+def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs: bool, 
+                  max_results: int, candidates_only: bool, verify_only: bool, legacy: bool):
+    """Find RCT/RWE evidence for DTx using two-layer classification.
     
-    Searches PubMed, ClinicalTrials.gov, DRKS, and ISRCTN for clinical
-    evidence about Digital Therapeutics.
+    Two-Layer Classification System:
+    - Layer 1: Collect ALL search results as candidates (no filtering)
+    - Layer 2: LLM verifies relevance, then classifies as RCT/RWE
     
-    Results are classified as RCT (Randomized Controlled Trial) or
-    RWE (Real-World Evidence) and organized by country and source.
+    This approach reduces false positives by having the LLM verify that
+    each study is actually about the specific DTx product.
     
     Examples:
         python main.py find-evidence --all
-        python main.py find-evidence --country germany
         python main.py find-evidence --dtx "deprexis"
-        python main.py find-evidence --all --source pubmed
+        python main.py find-evidence --all --candidates-only  # Just collect
+        python main.py find-evidence --all --verify-only       # Just verify
+        python main.py find-evidence --all --legacy           # Old behavior
     """
     if not search_all and not dtx:
         click.echo("Error: Please specify --all or --dtx <name>")
         return
     
-    click.echo("Starting evidence search...")
+    if candidates_only and verify_only:
+        click.echo("Error: Cannot specify both --candidates-only and --verify-only")
+        return
+    
+    mode = "legacy" if legacy else "candidates-only" if candidates_only else "verify-only" if verify_only else "full"
+    
+    click.echo("Starting evidence search (Two-Layer Classification)...")
+    click.echo(f"  Mode: {mode}")
     click.echo(f"  Sources: {source if source != 'all' else 'PubMed, ClinicalTrials.gov, DRKS, ISRCTN'}")
     click.echo(f"  Country: {country}")
-    click.echo(f"  Download PDFs: {not no_pdfs}")
+    if not legacy:
+        click.echo(f"  Layer 1: {'Yes' if not verify_only else 'Skip (using existing candidates)'}")
+        click.echo(f"  Layer 2: {'Yes' if not candidates_only else 'Skip'}")
     
     async def run():
         from scrapers.evidence import EvidenceOrchestrator
         from utils import SearchQueryGenerator, EvidenceClassifier
+        from utils.evidence_verifier import EvidenceVerifier, EvidenceClassifierV2
         
         data_manager = DataManager()
         orchestrator = EvidenceOrchestrator()
         query_generator = SearchQueryGenerator()
-        classifier = EvidenceClassifier()
         
-        orchestrator.set_utilities(query_generator, classifier)
+        if legacy:
+            # Legacy mode: use old EvidenceClassifier
+            classifier = EvidenceClassifier()
+            orchestrator.set_utilities(query_generator, classifier=classifier)
+        else:
+            # New two-layer mode
+            verifier = EvidenceVerifier()
+            classifier_v2 = EvidenceClassifierV2()
+            orchestrator.set_utilities(
+                query_generator, 
+                classifier=classifier_v2, 
+                verifier=verifier
+            )
         
         # Determine sources to search
         sources = None if source == 'all' else [source]
@@ -401,7 +428,7 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
                 
                 # Filter to specific DTx if specified
                 if dtx:
-                    # Normalize quotes for matching (smart quotes vs regular)
+                    # Normalize quotes for matching
                     def normalize_quotes(s):
                         return s.replace("'", "'").replace("'", "'").replace('"', '"').replace('"', '"')
                     
@@ -415,23 +442,48 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
                 click.echo(f"Searching evidence for {len(dtx_list)} {country_name} DTx...")
                 click.echo(f"{'='*60}")
                 
-                stats = await orchestrator.search_all_dtx(
-                    dtx_list=dtx_list,
-                    country=country_name,
-                    sources=sources,
-                    download_pdfs=not no_pdfs,
-                    max_results_per_query=max_results
-                )
-                
-                click.echo(f"\n{country_name} Results:")
-                click.echo(f"  DTx searched: {stats['dtx_searched']}")
-                click.echo(f"  DTx with evidence: {stats['dtx_with_evidence']}")
-                click.echo(f"  Total RCT: {stats['total_rct']}")
-                click.echo(f"  Total RWE: {stats['total_rwe']}")
+                if legacy:
+                    # Legacy single-pass workflow
+                    stats = await orchestrator.search_all_dtx(
+                        dtx_list=dtx_list,
+                        country=country_name,
+                        sources=sources,
+                        candidates_only=False,
+                        verify_only=False,
+                        max_results_per_query=max_results
+                    )
+                    
+                    click.echo(f"\n{country_name} Results (Legacy):")
+                    click.echo(f"  DTx searched: {stats['dtx_searched']}")
+                    click.echo(f"  Total RCT: {stats.get('total_verified_rct', 0)}")
+                    click.echo(f"  Total RWE: {stats.get('total_verified_rwe', 0)}")
+                else:
+                    # New two-layer workflow
+                    stats = await orchestrator.search_all_dtx(
+                        dtx_list=dtx_list,
+                        country=country_name,
+                        sources=sources,
+                        candidates_only=candidates_only,
+                        verify_only=verify_only,
+                        max_results_per_query=max_results
+                    )
+                    
+                    click.echo(f"\n{country_name} Results:")
+                    click.echo(f"  DTx searched: {stats['dtx_searched']}")
+                    if not verify_only:
+                        click.echo(f"  Candidates collected: {stats['total_candidates']}")
+                    if not candidates_only:
+                        click.echo(f"  Verified RCT: {stats['total_verified_rct']}")
+                        click.echo(f"  Verified RWE: {stats['total_verified_rwe']}")
+                        click.echo(f"  Rejected (false positives): {stats['total_rejected']}")
             
             click.echo(f"\n{'='*60}")
             click.echo("Evidence search complete!")
             click.echo("Results saved to: evidence/")
+            if not legacy:
+                click.echo("  - candidates/: All search results (Layer 1)")
+                click.echo("  - verified/: LLM-verified studies (Layer 2)")
+                click.echo("  - rejected/: False positives for review")
             
         finally:
             await orchestrator.close()

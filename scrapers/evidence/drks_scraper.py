@@ -642,6 +642,143 @@ class DRKSScraper(BaseEvidenceScraper):
         # Default to RCT for DRKS (primarily clinical trials)
         return True
     
+    async def search_and_save_candidates(
+        self,
+        queries: List[str],
+        country: str,
+        dtx_name: str,
+        max_results_per_query: int = 50
+    ) -> Dict[str, int]:
+        """Search DRKS and save ALL results as candidates (Layer 1).
+        
+        No classification or relevance filtering - just collect raw data.
+        Downloads official JSON for each study.
+        
+        Args:
+            queries: List of search query strings.
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            max_results_per_query: Max results per query
+            
+        Returns:
+            Dictionary with counts: {"total": N, "queries": [...]}
+        """
+        all_results = []
+        seen_ids = set()
+        
+        # Get raw folder for candidates
+        raw_folder = self._get_candidates_raw_folder(country, dtx_name)
+        
+        # Search with each query
+        for query in queries:
+            try:
+                results = await self.search(query, max_results_per_query)
+                
+                # Deduplicate by DRKS ID only (no filtering)
+                for result in results:
+                    drks_id = result.get("drks_id")
+                    if drks_id and drks_id not in seen_ids:
+                        seen_ids.add(drks_id)
+                        result["_matched_query"] = query
+                        
+                        # Download official JSON for this study
+                        print(f"      Downloading JSON for {drks_id}...")
+                        raw_path = await self._download_json_to_candidates(
+                            drks_id, raw_folder
+                        )
+                        if raw_path:
+                            result["_raw_json_path"] = str(raw_path)
+                        
+                        all_results.append(result)
+                        await asyncio.sleep(1.5)  # Rate limiting
+                
+            except Exception as e:
+                print(f"    Error searching DRKS for '{query[:50]}...': {e}")
+        
+        # Save all candidates
+        if all_results:
+            self.save_candidates_metadata(country, dtx_name, {
+                "studies": all_results,
+                "count": len(all_results),
+                "queries_used": queries,
+                "dtx_name": dtx_name,
+                "country": country
+            }, "studies.json")
+        
+        return {
+            "total": len(all_results),
+            "queries": queries
+        }
+    
+    async def _download_json_to_candidates(
+        self, 
+        drks_id: str, 
+        raw_folder: Path
+    ) -> Optional[Path]:
+        """Download official JSON for a study to candidates folder.
+        
+        Uses the same robust approach as download_and_save_study_json:
+        1. Navigate to download page
+        2. Click JSON radio button
+        3. Accept terms checkbox
+        4. Click download button
+        
+        Args:
+            drks_id: DRKS study ID.
+            raw_folder: Path to candidates raw folder.
+            
+        Returns:
+            Path to the saved JSON file, or None if failed.
+        """
+        save_path = raw_folder / f"{drks_id}.json"
+        
+        # Skip if already downloaded
+        if save_path.exists():
+            return save_path
+        
+        page = await self._create_page()
+        
+        try:
+            # Navigate to download page
+            download_url = f"{self.BASE_URL}/search/en/trial/{drks_id}/download"
+            await page.goto(download_url, wait_until="networkidle", timeout=30000)
+            await asyncio.sleep(2)
+            
+            # Click JSON radio button - find by label text
+            json_label = page.locator('text=JSON').first
+            await json_label.click()
+            await asyncio.sleep(0.5)
+            
+            # Accept terms checkbox - find by text "I accept"
+            terms_checkbox = page.locator('input[type="checkbox"]').first
+            if not await terms_checkbox.is_checked():
+                await terms_checkbox.check()
+                await asyncio.sleep(0.5)
+            
+            # Wait for download button to be enabled
+            download_button = page.locator('button:has-text("Download")').first
+            await download_button.wait_for(state="visible", timeout=5000)
+            
+            # Setup download handler and click download
+            async with page.expect_download(timeout=30000) as download_info:
+                await download_button.click()
+            
+            download = await download_info.value
+            
+            # Save to candidates raw folder
+            await download.save_as(save_path)
+            
+            return save_path
+            
+        except Exception as e:
+            print(f"        Warning: Failed to download DRKS JSON for {drks_id}: {e}")
+            return None
+        finally:
+            try:
+                await page.close()
+            except:
+                pass
+    
     async def search_and_save(
         self,
         queries: List[str],
@@ -652,7 +789,7 @@ class DRKSScraper(BaseEvidenceScraper):
     ) -> Dict[str, int]:
         """Search DRKS, download official JSON, classify results, and save.
         
-        Includes relevance filtering and downloads official JSON files.
+        DEPRECATED: Use search_and_save_candidates for Layer 1.
         
         Args:
             queries: List of search query strings.

@@ -322,6 +322,109 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
         
         return False
     
+    async def search_and_save_candidates(
+        self,
+        queries: List[str],
+        country: str,
+        dtx_name: str,
+        max_results_per_query: int = 50
+    ) -> Dict[str, int]:
+        """Search ClinicalTrials.gov and save ALL results as candidates (Layer 1).
+        
+        No classification or relevance filtering - just collect raw data.
+        Saves raw JSON for each study.
+        
+        Args:
+            queries: List of search query strings.
+            country: "Germany" or "USA"
+            dtx_name: Name of the DTx
+            max_results_per_query: Max results per query
+            
+        Returns:
+            Dictionary with counts: {"total": N, "queries": [...]}
+        """
+        all_results = []
+        seen_ncts = set()
+        
+        # Get raw folder for candidates
+        raw_folder = self._get_candidates_raw_folder(country, dtx_name)
+        
+        # Search with each query
+        for query in queries:
+            try:
+                results = await self.search(query, max_results_per_query)
+                
+                # Deduplicate by NCT ID only (no filtering)
+                for result in results:
+                    nct_id = result.get("nct_id")
+                    if nct_id and nct_id not in seen_ncts:
+                        seen_ncts.add(nct_id)
+                        result["_matched_query"] = query
+                        
+                        # Save raw JSON for this study
+                        raw_study_data = result.pop("_raw_study_data", None)
+                        if raw_study_data:
+                            raw_path = self._save_raw_json_to_candidates(
+                                raw_study_data, nct_id, raw_folder
+                            )
+                            if raw_path:
+                                result["_raw_json_path"] = str(raw_path)
+                        
+                        all_results.append(result)
+                
+                await asyncio.sleep(0.5)  # Rate limiting
+                
+            except Exception as e:
+                print(f"    Error searching '{query[:50]}...': {e}")
+        
+        # Save all candidates
+        if all_results:
+            self.save_candidates_metadata(country, dtx_name, {
+                "studies": all_results,
+                "count": len(all_results),
+                "queries_used": queries,
+                "dtx_name": dtx_name,
+                "country": country
+            }, "studies.json")
+        
+        return {
+            "total": len(all_results),
+            "queries": queries
+        }
+    
+    def _save_raw_json_to_candidates(
+        self, 
+        study: Dict, 
+        nct_id: str,
+        raw_folder: Path
+    ) -> Optional[Path]:
+        """Save raw JSON for a single study to candidates folder.
+        
+        Args:
+            study: Raw study data from API.
+            nct_id: Study NCT ID.
+            raw_folder: Path to candidates raw folder.
+            
+        Returns:
+            Path to the saved JSON file, or None if failed.
+        """
+        try:
+            save_path = raw_folder / f"{nct_id}.json"
+            
+            # Skip if already downloaded
+            if save_path.exists():
+                return save_path
+            
+            # Save raw JSON
+            with open(save_path, "w", encoding="utf-8") as f:
+                json.dump(study, f, indent=2, ensure_ascii=False)
+            
+            return save_path
+            
+        except Exception as e:
+            print(f"        Warning: Failed to save raw JSON for {nct_id}: {e}")
+            return None
+    
     async def search_and_save(
         self,
         queries: List[str],
@@ -331,6 +434,8 @@ class ClinicalTrialsScraper(BaseEvidenceScraper):
         max_results_per_query: int = 50
     ) -> Dict[str, int]:
         """Search ClinicalTrials.gov, classify results, and save.
+        
+        DEPRECATED: Use search_and_save_candidates for Layer 1.
         
         Includes relevance filtering to remove false positives.
         

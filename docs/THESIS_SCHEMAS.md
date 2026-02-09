@@ -168,7 +168,7 @@ The only difference is the price field: `price_eur` for Germany, `price_usd` for
 
 ---
 
-## 3. Phase 2: Evidence Discovery (Multi-Source)
+## 3. Phase 2: Evidence Discovery (Two-Layer Classification)
 
 ### 3.1 Data Sources
 
@@ -179,120 +179,161 @@ The only difference is the price field: `price_eur` for Germany, `price_usd` for
 | **DRKS** | Web scraping | German/EU clinical trials | Playwright browser |
 | **ISRCTN** | Web scraping | UK/EU/International trials | Playwright browser |
 
-### 3.2 Evidence Pipeline Architecture
+### 3.2 Two-Layer Classification Architecture
+
+The system uses a two-layer approach to minimize false positives:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                   Phase 2: Evidence Discovery Pipeline                   │
+│              Phase 2: Two-Layer Evidence Classification                  │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│                      ┌─────────────────────┐                            │
-│                      │  EvidenceOrchestrator│                            │
-│                      │  (Coordinator)       │                            │
-│                      └──────────┬──────────┘                            │
-│                                 │                                        │
-│         ┌───────────────────────┼───────────────────────┐               │
-│         │                       │                       │               │
-│  ┌──────▼──────┐    ┌──────────▼──────────┐    ┌──────▼──────┐        │
-│  │ SearchQuery │    │  EvidenceClassifier │    │   DataMgr   │        │
-│  │ Generator   │    │  (Azure GPT)        │    │             │        │
-│  │ (Azure GPT) │    │  RCT vs RWE         │    │             │        │
-│  └──────┬──────┘    └──────────┬──────────┘    └─────────────┘        │
-│         │                      │                                        │
-│         ▼                      ▼                                        │
-│  ┌─────────────────────────────────────────────────────────────────┐   │
-│  │                     Evidence Scrapers                            │   │
-│  ├──────────┬──────────────┬─────────────┬─────────────────────────┤   │
-│  │ PubMed   │ ClinicalTrials│   DRKS     │      ISRCTN             │   │
-│  │ (API)    │ .gov (curl)  │(Playwright) │   (Playwright)          │   │
-│  │          │              │             │                          │   │
-│  │ • Search │ • Search     │ • Form fill │ • Cookie consent        │   │
-│  │ • Details│ • Nested JSON│ • JS render │ • Form submission       │   │
-│  │ • PDFs   │              │ • Details   │ • Detail extraction     │   │
-│  └──────────┴──────────────┴─────────────┴─────────────────────────┘   │
-│                                 │                                        │
-│                                 ▼                                        │
-│  ┌─────────────────────────────────────────────────────────────────┐   │
-│  │                    Folder Structure Output                        │   │
-│  │  evidence/{Country}/{DTx}/{RCT|RWE}/{Source}/studies.json        │   │
-│  └─────────────────────────────────────────────────────────────────┘   │
+│  ┌────────────────────────────────────────────────────────────────────┐ │
+│  │ LAYER 1: Candidate Collection (No Filtering)                        │ │
+│  │                                                                      │ │
+│  │  SearchQueryGenerator (Deterministic)                                │ │
+│  │  ┌────────────────────────────────────────────────────────────────┐ │ │
+│  │  │ Query 1: "[DTx name]"           (exact phrase)                  │ │ │
+│  │  │ Query 2: "[DTx name]" AND "[Company]"  (with company filter)    │ │ │
+│  │  └────────────────────────────────────────────────────────────────┘ │ │
+│  │                    │                                                 │ │
+│  │     ┌──────────────┼──────────────┬──────────────┐                  │ │
+│  │     ▼              ▼              ▼              ▼                  │ │
+│  │  ┌────────┐  ┌─────────────┐  ┌────────┐  ┌─────────┐              │ │
+│  │  │ PubMed │  │ClinicalTrials│  │  DRKS  │  │ ISRCTN  │              │ │
+│  │  │  API   │  │  .gov API   │  │Playwright│ │Playwright│              │ │
+│  │  └───┬────┘  └──────┬──────┘  └────┬────┘  └────┬────┘              │ │
+│  │      └───────────┬──┴──────────────┴────────────┘                   │ │
+│  │                  ▼                                                   │ │
+│  │         candidates/{source}/studies.json + raw/                      │ │
+│  └────────────────────────────────────────────────────────────────────┘ │
+│                                   │                                      │
+│                                   ▼                                      │
+│  ┌────────────────────────────────────────────────────────────────────┐ │
+│  │ LAYER 2: LLM Verification & Classification                          │ │
+│  │                                                                      │ │
+│  │  EvidenceVerifier (LLM-based)                                        │ │
+│  │  ┌────────────────────────────────────────────────────────────────┐ │ │
+│  │  │ "Is this study specifically about [DTx name] from [Company]?"   │ │ │
+│  │  │ Compares: title, abstract, sponsor, intervention with DTx info  │ │ │
+│  │  └────────────────────────────────────────────────────────────────┘ │ │
+│  │                    │                                                 │ │
+│  │         ┌──────────┴──────────┐                                     │ │
+│  │         │                     │                                     │ │
+│  │     Relevant              Not Relevant                              │ │
+│  │         │                     │                                     │ │
+│  │         ▼                     ▼                                     │ │
+│  │  EvidenceClassifierV2     rejected/                                 │ │
+│  │  ┌────────────────────┐                                             │ │
+│  │  │ RCT vs RWE (LLM)   │                                             │ │
+│  │  └────────┬───────────┘                                             │ │
+│  │      ┌────┴────┐                                                    │ │
+│  │      ▼         ▼                                                    │ │
+│  │  verified/  verified/                                               │ │
+│  │  RCT/       RWE/                                                    │ │
+│  └────────────────────────────────────────────────────────────────────┘ │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 3.3 LLM-Based Query Generation
+### 3.3 Deterministic Query Generation (NEW)
 
-The system uses Azure OpenAI to generate intelligent PubMed search queries:
+Replaced LLM-based query generation with deterministic 2-query approach:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                  LLM Query Generation Process                    │
+│                  Deterministic Query Generation                  │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │  Input:                                                          │
 │  ┌────────────────────────────────────────┐                     │
-│  │ DTx Name: "Kaia Rückenschmerzen"       │                     │
-│  │ Company: "Kaia health software GmbH"   │                     │
-│  │ ICD-10: ["M54.5", "M54.4"]            │                     │
-│  │ Description: "Digital back pain..."   │                     │
+│  │ DTx Name: "deprexis"                   │                     │
+│  │ Company: "GAIA AG"                     │                     │
 │  └────────────────────────────────────────┘                     │
 │                          │                                       │
 │                          ▼                                       │
 │  ┌────────────────────────────────────────┐                     │
-│  │           Azure OpenAI GPT-4o          │                     │
-│  │  • Translates German → English         │                     │
-│  │  • Understands clinical context        │                     │
-│  │  • Generates 3-4 targeted queries      │                     │
+│  │      SearchQueryGenerator (No LLM)     │                     │
+│  │                                         │                     │
+│  │  • Clean product name (remove ®™ etc)  │                     │
+│  │  • Clean company name (remove GmbH etc)│                     │
+│  │  • Generate exactly 2 queries          │                     │
 │  └────────────────────────────────────────┘                     │
 │                          │                                       │
 │                          ▼                                       │
 │  Output:                                                         │
 │  ┌────────────────────────────────────────┐                     │
-│  │ ["Kaia Back Pain app",                 │                     │
-│  │  "Kaia health back pain",              │                     │
-│  │  "Kaia Back Pain non-specific low      │                     │
-│  │   back pain",                          │                     │
-│  │  "Kaia health software back pain"]     │                     │
+│  │ Query 1: "deprexis"                    │                     │
+│  │ Query 2: "deprexis" AND "GAIA"         │                     │
 │  └────────────────────────────────────────┘                     │
+│                                                                  │
+│  Benefits:                                                       │
+│  • Predictable: Same queries every time                         │
+│  • Targeted: No generic condition searches                      │
+│  • Fast: No LLM call needed                                     │
+│  • Auditable: Easy to understand what was searched              │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 3.4 Relevance Filtering (Two-Stage)
+### 3.4 LLM Relevance Verification (Layer 2)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                  Two-Stage Relevance Filtering                   │
+│                  LLM Relevance Verification                      │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│  Stage 1: Keyword Matching (Fast)                               │
+│  For each candidate study:                                       │
 │  ┌────────────────────────────────────────┐                     │
-│  │ Check if DTx identifier appears in     │                     │
-│  │ paper title or abstract                │                     │
-│  │                                        │                     │
-│  │ Identifier: "kaia rückenschmerzen"     │                     │
-│  │ Paper text: "...Kaia app for back..."  │                     │
-│  │ Result: NO MATCH → Go to Stage 2       │                     │
+│  │ DTx Info:                              │                     │
+│  │ • Name: "companion® shoulder"          │                     │
+│  │ • Company: "medi GmbH"                 │                     │
+│  │ • Description: "Digital shoulder..."   │                     │
+│  └────────────────────────────────────────┘                     │
+│                          +                                       │
+│  ┌────────────────────────────────────────┐                     │
+│  │ Study Info:                            │                     │
+│  │ • Title: "Kinesiologic considerations" │                     │
+│  │ • Abstract: "...companion to another   │                     │
+│  │   paper...shoulder rehabilitation..."  │                     │
+│  │ • Sponsor: "University of..."          │                     │
 │  └────────────────────────────────────────┘                     │
 │                          │                                       │
 │                          ▼                                       │
-│  Stage 2: LLM Verification (Accurate)                           │
 │  ┌────────────────────────────────────────┐                     │
-│  │ Prompt: "Is this paper specifically    │                     │
-│  │ about the digital therapeutic app      │                     │
-│  │ 'Kaia Rückenschmerzen'?"               │                     │
-│  │                                        │                     │
-│  │ Paper: "Medical App Treatment of       │                     │
-│  │ Non-Specific Low Back Pain...Kaia App" │                     │
-│  │                                        │                     │
-│  │ LLM Response: "yes"                    │                     │
-│  │ Result: KEEP                           │                     │
+│  │           EvidenceVerifier             │                     │
+│  │                                         │                     │
+│  │  Prompt: "Is this study specifically   │                     │
+│  │  about 'companion® shoulder' from      │                     │
+│  │  'medi GmbH'? The study must EXPLICITLY│                     │
+│  │  mention the DTx product by name."     │                     │
 │  └────────────────────────────────────────┘                     │
+│                          │                                       │
+│                          ▼                                       │
+│  ┌────────────────────────────────────────┐                     │
+│  │ Response:                              │                     │
+│  │ {                                      │                     │
+│  │   "is_relevant": false,                │                     │
+│  │   "confidence": 95,                    │                     │
+│  │   "reason": "Study does not mention    │                     │
+│  │     'companion® shoulder' DTx. Generic │                     │
+│  │     shoulder rehabilitation study."    │                     │
+│  │ }                                      │                     │
+│  └────────────────────────────────────────┘                     │
+│                          │                                       │
+│           ┌──────────────┴──────────────┐                       │
+│           ▼                             ▼                       │
+│      is_relevant=true              is_relevant=false            │
+│           │                             │                       │
+│      → Classify RCT/RWE            → Save to rejected/          │
+│      → Save to verified/                                        │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ### 3.5 Evidence Classification (RCT vs RWE)
+
+After verification, relevant studies are classified:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -309,8 +350,11 @@ The system uses Azure OpenAI to generate intelligent PubMed search queries:
 │  └────────────────────────────────────────┘                     │
 │                          │                                       │
 │                          ▼                                       │
-│  Priority 2: Keyword Scoring                                    │
+│  Priority 2: LLM Classification (EvidenceClassifierV2)          │
 │  ┌────────────────────────────────────────┐                     │
+│  │ Uses both keyword scoring and LLM      │                     │
+│  │ for ambiguous cases                    │                     │
+│  │                                        │                     │
 │  │ RCT Keywords:                          │                     │
 │  │ • randomized, randomised, rct          │                     │
 │  │ • controlled trial, double-blind       │                     │
@@ -320,31 +364,44 @@ The system uses Azure OpenAI to generate intelligent PubMed search queries:
 │  │ • real-world, observational            │                     │
 │  │ • retrospective, registry              │                     │
 │  │ • cohort study, cross-sectional        │                     │
-│  │ • pragmatic trial, naturalistic        │                     │
-│  │                                        │                     │
-│  │ Score: RCT=3, RWE=1 → Classify as RCT  │                     │
 │  └────────────────────────────────────────┘                     │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 3.6 Evidence Data Schema (New Multi-Source Format)
+### 3.6 Evidence Folder Structure (Two-Layer)
 
-**Folder Structure:**
+**New Folder Structure:**
 ```
 evidence/
 ├── Germany/
-│   └── {dtx_name}/              # slugified DTx name
-│       ├── RCT/
-│       │   ├── pubmed/studies.json
-│       │   ├── clinicaltrials/studies.json
-│       │   ├── drks/studies.json
-│       │   └── isrctn/studies.json
-│       └── RWE/
-│           └── {source}/studies.json
+│   └── {dtx-slug}/                    # slugified DTx name
+│       ├── candidates/                 # LAYER 1: All search results
+│       │   ├── pubmed/
+│       │   │   ├── studies.json
+│       │   │   └── raw/               # Raw XML files
+│       │   ├── clinicaltrials/
+│       │   │   ├── studies.json
+│       │   │   └── raw/               # Raw JSON files
+│       │   └── drks/
+│       │       ├── studies.json
+│       │       └── raw/
+│       │
+│       ├── verified/                   # LAYER 2: LLM-verified studies
+│       │   ├── RCT/
+│       │   │   ├── pubmed/studies.json
+│       │   │   ├── clinicaltrials/studies.json
+│       │   │   └── drks/studies.json
+│       │   └── RWE/
+│       │       └── {source}/studies.json
+│       │
+│       └── rejected/                   # False positives (for debugging)
+│           └── {source}/rejected.json
+│
 ├── USA/
-│   └── {dtx_name}/
+│   └── {dtx-slug}/
 │       └── ... (same structure)
+│
 └── summary/
     ├── germany_evidence_summary.json
     ├── usa_evidence_summary.json
@@ -450,17 +507,27 @@ python main.py scrape-reviews                   # Add app store ratings
 python main.py scrape-usa --csv data-format/us_company.csv  # Research US companies
 python main.py research-company "Pear Therapeutics"          # Single company
 
-# === Phase 2: Evidence Finding ===
+# === Phase 2: Evidence Finding (Two-Layer) ===
+# Full workflow (Layer 1 + Layer 2)
 python main.py find-evidence --all                     # All DTx, all sources
 python main.py find-evidence --all --country germany   # Germany DTx only
 python main.py find-evidence --all --country usa       # USA DTx only
 python main.py find-evidence --dtx "deprexis"          # Specific DTx
+
+# Layer-by-layer execution
+python main.py find-evidence --all --candidates-only   # Layer 1 only: collect candidates
+python main.py find-evidence --all --verify-only       # Layer 2 only: verify existing candidates
+
+# Source-specific
 python main.py find-evidence --all --source pubmed     # PubMed only
 python main.py find-evidence --all --source clinicaltrials
 python main.py find-evidence --all --source drks
 python main.py find-evidence --all --source isrctn
+
+# Options
 python main.py find-evidence --all --no-pdfs           # Skip PDF downloads
-python main.py find-evidence --all --max-results 20    # Limit results
+python main.py find-evidence --all --max-results 50    # Limit results
+python main.py find-evidence --all --legacy            # Use old single-pass workflow
 
 # === Reports & Status ===
 python main.py show-status                     # Show all data status
@@ -473,7 +540,10 @@ python main.py evidence-summary                # Generate evidence report
 |------|---------|----------|
 | `dtx_data.json` | German DTx metadata | `data/dtx_data.json` |
 | `dtx_data_usa.json` | USA DTx metadata | `data/dtx_data_usa.json` |
-| `studies.json` | Evidence per source | `evidence/{Country}/{DTx}/{Type}/{Source}/` |
+| `studies.json` | Candidates (Layer 1) | `evidence/{Country}/{DTx}/candidates/{Source}/` |
+| `studies.json` | Verified evidence (Layer 2) | `evidence/{Country}/{DTx}/verified/{RCT|RWE}/{Source}/` |
+| `rejected.json` | False positives | `evidence/{Country}/{DTx}/rejected/{Source}/` |
+| `raw/*.xml` or `*.json` | Raw API responses | `evidence/{Country}/{DTx}/{layer}/{Source}/raw/` |
 | `overall_statistics.json` | Summary stats | `evidence/summary/` |
 
 ---
@@ -509,9 +579,150 @@ python main.py evidence-summary                # Generate evidence report
 
 ---
 
-## 6. Technology Stack
+## 6. LLM Provider System
 
-### 6.1 Core Dependencies
+### 6.1 Multi-Provider Architecture
+
+The system supports multiple LLM providers through a centralized abstraction layer, allowing easy switching between providers without code changes.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    LLM Provider Architecture                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  .env Configuration                                              │
+│  ┌────────────────────────────────────────┐                     │
+│  │ LLM_PROVIDER=openai                    │  ◄── Switch here    │
+│  │ OPENAI_API_KEY=sk-...                  │                     │
+│  │ OPENAI_MODEL=gpt-5                     │                     │
+│  └────────────────────────────────────────┘                     │
+│                          │                                       │
+│                          ▼                                       │
+│  ┌────────────────────────────────────────┐                     │
+│  │         LLMProvider.get_llm()          │                     │
+│  │    (utils/llm_provider.py)             │                     │
+│  └────────────────────────────────────────┘                     │
+│                          │                                       │
+│         ┌────────────────┼────────────────┐                     │
+│         │                │                │                     │
+│         ▼                ▼                ▼                     │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │ Azure OpenAI│  │   OpenAI    │  │   Gemini    │             │
+│  │ (Default)   │  │ (gpt-4/5)   │  │ (Optional)  │             │
+│  └─────────────┘  └─────────────┘  └─────────────┘             │
+│                                                                  │
+│  ┌─────────────┐                                                │
+│  │  Anthropic  │                                                │
+│  │ (Optional)  │                                                │
+│  └─────────────┘                                                │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 6.2 Supported Providers
+
+| Provider | LLM_PROVIDER Value | Required Env Variables | Status |
+|----------|-------------------|------------------------|--------|
+| **Azure OpenAI** | `azure_openai` | `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_DEPLOYMENT` | Default |
+| **OpenAI** | `openai` | `OPENAI_API_KEY`, `OPENAI_MODEL` | Supported |
+| **Google Gemini** | `gemini` | `GOOGLE_API_KEY`, `GOOGLE_MODEL` | Optional |
+| **Anthropic Claude** | `anthropic` | `ANTHROPIC_API_KEY`, `ANTHROPIC_MODEL` | Optional |
+
+### 6.3 Configuration Example (.env)
+
+```env
+# === LLM Provider Selection ===
+# Options: azure_openai, openai, gemini, anthropic
+LLM_PROVIDER=openai
+
+# === Azure OpenAI Configuration ===
+AZURE_OPENAI_API_KEY=your_azure_key
+AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
+AZURE_OPENAI_DEPLOYMENT=gpt-4o
+AZURE_OPENAI_API_VERSION=2024-08-01-preview
+
+# === OpenAI Configuration ===
+OPENAI_API_KEY=sk-your_openai_key
+OPENAI_MODEL=gpt-5
+
+# === Optional: Google Gemini ===
+# GOOGLE_API_KEY=your_google_key
+# GOOGLE_MODEL=gemini-1.5-pro
+
+# === Optional: Anthropic Claude ===
+# ANTHROPIC_API_KEY=your_anthropic_key
+# ANTHROPIC_MODEL=claude-3-opus-20240229
+```
+
+### 6.4 Reasoning Model Support (GPT-5, o1, o3)
+
+The system automatically detects and handles **reasoning models** (GPT-5, o1, o3, etc.) which use tokens for internal "thinking" before producing output.
+
+**Problem with reasoning models:**
+- These models allocate a portion of `max_tokens` to internal reasoning
+- With `max_tokens=4000`, the model may use all tokens for reasoning, leaving nothing for output
+- Symptom: Empty responses with `finish_reason: length`
+
+**Automatic fix:**
+```python
+# In utils/llm_provider.py
+is_reasoning_model = any(
+    indicator in model.lower() 
+    for indicator in ["o1", "o3", "gpt-5", "-pro"]
+)
+
+if is_reasoning_model:
+    # Use at least 16k tokens to account for reasoning overhead
+    adjusted_max = max(max_tokens * 4, 16000)
+    return ChatOpenAI(
+        model=model,
+        max_completion_tokens=adjusted_max,  # Newer OpenAI parameter
+    )
+```
+
+**Example token usage with GPT-5:**
+```
+completion_tokens: 4137
+reasoning_tokens: 3392  (internal thinking)
+output_tokens: 745      (actual response)
+finish_reason: stop     (completed successfully)
+```
+
+### 6.5 Dynamic Source Attribution
+
+The system automatically records which LLM provider and model was used in the output metadata:
+
+```json
+{
+  "metadata": {
+    "source": "LLM Research (OpenAI - gpt-5)",
+    "last_updated": "2026-01-27T..."
+  }
+}
+```
+
+This changes dynamically based on `.env` configuration:
+- `LLM_PROVIDER=azure_openai` → `"source": "LLM Research (Azure OpenAI - gpt-4o)"`
+- `LLM_PROVIDER=openai` → `"source": "LLM Research (OpenAI - gpt-5)"`
+- `LLM_PROVIDER=gemini` → `"source": "LLM Research (Google Gemini - gemini-1.5-pro)"`
+
+### 6.6 Files Using LLM Provider
+
+All LLM-dependent modules use the centralized `LLMProvider`:
+
+| File | Purpose |
+|------|---------|
+| `utils/llm_provider.py` | Central factory (NEW) |
+| `utils/translator.py` | German → English translation |
+| `utils/search_query_generator.py` | Evidence search query generation |
+| `utils/evidence_classifier.py` | RCT vs RWE classification |
+| `scrapers/usa_scraper.py` | USA DTx research |
+
+---
+
+## 7. Technology Stack
+
+### 7.1 Core Dependencies
 
 ```
 # Core
@@ -533,18 +744,19 @@ click>=8.0.0                  # Command-line interface
 python-slugify>=8.0.0         # Text slugification
 ```
 
-### 6.2 External APIs
+### 7.2 External APIs
 
 | API | Purpose | Authentication |
 |-----|---------|----------------|
-| Azure OpenAI | Translation, Query Generation, Relevance Check | API Key |
+| Azure OpenAI | Translation, Query Generation, Classification | API Key |
+| OpenAI | Alternative LLM provider (GPT-4o, GPT-5) | API Key |
 | PubMed E-utilities | Paper search and metadata | None (rate limited) |
 | Google Play Store | App ratings | None (web scraping) |
 | Apple App Store | App ratings | None (web scraping) |
 
 ---
 
-## 7. Project Structure
+## 8. Project Structure
 
 ```
 get_dtx_info/
@@ -574,8 +786,9 @@ get_dtx_info/
 │
 ├── utils/
 │   ├── __init__.py
+│   ├── llm_provider.py              # LLM provider factory (NEW)
 │   ├── data_manager.py               # JSON data persistence
-│   ├── translator.py                 # Azure OpenAI translation
+│   ├── translator.py                 # LLM translation
 │   ├── search_query_generator.py     # LLM query generation
 │   └── evidence_classifier.py        # LLM RCT/RWE classification
 │
@@ -604,40 +817,48 @@ get_dtx_info/
 
 ---
 
-## 8. Key Design Decisions
+## 9. Key Design Decisions
 
-### 8.1 Why Playwright over browser-use for DiGA Scraping?
+### 9.1 Why Playwright over browser-use for DiGA Scraping?
 - **Reliability**: browser-use had truncation issues with long responses
 - **Control**: Direct DOM manipulation vs LLM interpretation
 - **Reproducibility**: Deterministic extraction vs LLM variability
 
-### 8.2 Why LLM for Query Generation?
+### 9.2 Why LLM for Query Generation?
 - **Translation**: German DTx names → English PubMed queries
 - **Semantic Understanding**: Converts "Rückenschmerzen" to "back pain"
 - **Generalization**: Works for any DTx without hardcoding
 
-### 8.3 Why Two-Stage Relevance Filtering?
+### 9.3 Why Two-Stage Relevance Filtering?
 - **Speed**: Keyword matching is instant for exact matches
 - **Accuracy**: LLM catches papers using different terminology
 - **Cost**: Only uses LLM when keyword matching fails
 
-### 8.4 Why Separate RCT from RWE?
+### 9.4 Why Separate RCT from RWE?
 - **Regulatory Relevance**: DiGA requires clinical evidence
 - **Evidence Hierarchy**: RCTs are gold standard
 - **Thesis Analysis**: Compare evidence quality across DTx
 
 ---
 
-## 9. Test Results (January 2026)
+### 9.5 Why Centralized LLM Provider?
+- **Flexibility**: Switch between providers by changing one env variable
+- **Cost Control**: Easily switch to cheaper models for development
+- **Scalability**: Add new providers without modifying consuming code
+- **Reasoning Model Support**: Automatic token limit adjustment for GPT-5, o1, o3
 
-### 9.1 Evidence Search Results
+---
+
+## 10. Test Results (January 2026)
+
+### 10.1 Evidence Search Results
 
 | DTx | Country | PubMed | ClinicalTrials | DRKS | ISRCTN | Total RCT | Total RWE |
 |-----|---------|--------|----------------|------|--------|-----------|-----------|
 | deprexis | Germany | 13 | 10 | 5 | 3 | **24** | **7** |
 | Somryst | USA | 11 | 1 | 0 | 5 | **6** | **11** |
 
-### 9.2 System Performance
+### 10.2 System Performance
 
 - **PubMed API**: ~2 seconds per query
 - **ClinicalTrials.gov API**: ~3 seconds per query (via curl)
@@ -646,9 +867,9 @@ get_dtx_info/
 
 ---
 
-## 10. Known Issues & Limitations
+## 11. Known Issues & Limitations
 
-### 10.1 Cross-Source Duplicate Studies ⚠️
+### 11.1 Cross-Source Duplicate Studies ⚠️
 **Problem**: The same study may appear in multiple sources with different IDs:
 - A PubMed article (PMID) may reference a ClinicalTrials.gov trial (NCT)
 - An ISRCTN trial may be cross-registered in DRKS
@@ -664,7 +885,7 @@ get_dtx_info/
 - Cross-reference IDs (NCT mentioned in PubMed abstract)
 - Author + year matching
 
-### 10.2 Multi-DTx Company Problem ⚠️
+### 11.2 Multi-DTx Company Problem ⚠️
 **Problem**: When one company has multiple DTx products:
 - Query generation uses company name (e.g., "GAIA AG")
 - This returns evidence for ALL GAIA products, not just the target DTx
@@ -682,7 +903,7 @@ get_dtx_info/
 - Add LLM relevance filtering: "Is this study specifically about {DTx_name}?"
 - Use DTx description/indication to filter results
 
-### 10.3 Query Too Broad / False Positives ✓ FIXED
+### 11.3 Query Too Broad / False Positives ✓ FIXED
 **Problem**: LLM-generated queries were sometimes too generic and returned unrelated studies.
 - Example: "Beats Medical Parkinson's App" → queries like "Parkinson app" returned 45+ results
 - NONE of the results were about the specific DTx, just general Parkinson's app research
@@ -698,7 +919,7 @@ get_dtx_info/
 - `scrapers/evidence/base_evidence_scraper.py` - Added `is_result_relevant()` method
 - All source scrapers updated to use relevance filtering
 
-### 10.4 PDF Download Limitations
+### 11.4 PDF Download Limitations
 **Problem**: Only PubMed Central (PMC) PDFs can be downloaded.
 - NCBI PMC now uses JavaScript bot protection (403 errors)
 - Fixed by using Europe PMC as alternative source
@@ -711,7 +932,7 @@ get_dtx_info/
 - Paywalled journals not accessible
 - ClinicalTrials.gov, DRKS, ISRCTN don't provide PDFs
 
-### 10.5 Classification Accuracy
+### 11.5 Classification Accuracy
 **Problem**: LLM-based RCT/RWE classification is ~85-90% accurate.
 
 **Known issues**:
@@ -719,7 +940,7 @@ get_dtx_info/
 - Secondary analyses of RCTs classified as RWE
 - Protocol papers classified as RCT (no results yet)
 
-### 10.6 Other Technical Limitations
+### 11.6 Other Technical Limitations
 - **Rate Limiting**: ClinicalTrials.gov occasionally blocks requests
 - **Playwright Speed**: Browser scrapers are 5-10x slower than APIs
 - **Language Bias**: System prioritizes English publications
@@ -727,19 +948,19 @@ get_dtx_info/
 
 ---
 
-## 11. Data Quality Validation (TODO)
+## 12. Data Quality Validation (TODO)
 
-### 11.1 Completeness Checks
+### 12.1 Completeness Checks
 - [ ] **DTx Coverage**: Verify evidence found for all DTx products
 - [ ] **Source Coverage**: Check all 4 sources return results for known DTx
 - [ ] **Field Population**: Audit % of records with key fields filled
 
-### 11.2 Correctness Validation
+### 12.2 Correctness Validation
 - [ ] **Evidence-DTx Matching**: Manually verify 10-20 random evidence items match correct DTx
 - [ ] **Classification Accuracy**: Compare LLM classification with manual review for 50 studies
 - [ ] **Cross-Source Consistency**: Check same study classified consistently across sources
 
-### 11.3 Manual Validation Dataset
+### 12.3 Manual Validation Dataset
 Create a "gold standard" validation set:
 ```
 validation/
@@ -748,7 +969,7 @@ validation/
 ├── validation_results.json   # Comparison with automated extraction
 ```
 
-### 11.4 Quality Metrics to Track
+### 12.4 Quality Metrics to Track
 | Metric | Target | How to Measure |
 |--------|--------|----------------|
 | DTx with evidence | >80% | Count DTx folders vs total DTx |
@@ -759,9 +980,9 @@ validation/
 
 ---
 
-## 12. Phase 2 Completion Status
+## 13. Phase 2 Completion Status
 
-### 12.1 Completed ✓
+### 13.1 Completed ✓
 - [x] Multi-source evidence search (PubMed, ClinicalTrials.gov, DRKS, ISRCTN)
 - [x] LLM-based query generation
 - [x] LLM-based RCT/RWE classification
@@ -772,8 +993,12 @@ validation/
 - [x] Error handling for 403 PDF errors
 - [x] Query false positive filtering (quoted exact names + relevance check)
 - [x] DRKS official JSON download (instead of HTML scraping)
+- [x] **Multi-LLM Provider Support** (Azure OpenAI, OpenAI, Gemini, Anthropic)
+- [x] **Reasoning model support** (GPT-5, o1, o3 automatic token adjustment)
+- [x] **Dynamic source attribution** (records which LLM was used in output)
+- [x] **GPT-5.2-pro reasoning block handling** (extracts JSON from reasoning responses)
 
-### 12.2 Known Issues
+### 13.2 Known Issues
 **Partially addressed:**
 - [~] Multi-DTx company evidence attribution (mitigated by relevance filter, but may still occur)
 
@@ -781,7 +1006,7 @@ validation/
 - [ ] Cross-source duplicates not removed
 - [ ] ~15% classification uncertainty
 
-### 12.3 TODO for Phase 3
+### 13.3 TODO for Phase 3
 
 #### MEDIUM PRIORITY 🟡
 1. **Cross-source deduplication**
@@ -810,25 +1035,25 @@ validation/
 
 ---
 
-## 13. Future Enhancements
+## 14. Future Enhancements
 
-### 13.1 Additional Data Sources
+### 14.1 Additional Data Sources
 - **Cochrane Library**: Systematic reviews
 - **Europe PMC**: Additional publication metadata
 - **WHO ICTRP**: International trial registry
 - **FDA databases**: US regulatory approvals
 
-### 13.2 EU Country Expansion
+### 14.2 EU Country Expansion
 - France: ANSM digital health directory
 - UK: NICE evidence standards framework
 - Netherlands: DiGA equivalent programs
 
-### 13.3 Automation
+### 14.3 Automation
 - Scheduled daily/weekly re-scraping
 - Change detection for DTx updates
 - Email alerts for new evidence
 
-### 13.4 Analysis Features
+### 14.4 Analysis Features
 - Evidence gap analysis
 - Publication trend charts
 - RCT vs RWE ratio comparisons
@@ -836,7 +1061,7 @@ validation/
 
 ---
 
-*Document Version: 2.2*  
-*Last Updated: February 3, 2026*  
-*Phase 2 Status: COMPLETE (query filtering and DRKS JSON download implemented)*  
+*Document Version: 2.3*  
+*Last Updated: January 27, 2026*  
+*Phase 2 Status: COMPLETE (multi-LLM provider support, reasoning model handling)*  
 *Author: Xhoel Bano*
