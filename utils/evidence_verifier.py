@@ -62,12 +62,12 @@ Abstract/Summary: {study_abstract}
 Sponsor/Funder: {study_sponsor}
 Intervention: {study_intervention}
 Source: {study_source}
-
+{raw_page_section}
 === QUESTION ===
 Is this study specifically about the digital therapeutic "{dtx_name}" from "{company}"?
 
 Consider:
-1. Does the study title or abstract mention "{dtx_name}" or a clear variation?
+1. Does the study title, abstract, OR the raw page content mention "{dtx_name}" or a clear variation?
 2. Is the sponsor/funder related to "{company}"?
 3. Does the intervention description match this DTx?
 4. Could this be about a different product or a generic study?
@@ -113,7 +113,18 @@ Respond with JSON only:"""
         study_intervention = self._extract_intervention(study_data)
         study_source = study_data.get("source", "Unknown")
         
-        # Build the prompt
+        raw_page_section = ""
+        if raw_content:
+            extracted_text = self._extract_text_from_html(raw_content) if (
+                "<html" in raw_content[:2000].lower() or "<body" in raw_content[:2000].lower()
+            ) else raw_content[:4000]
+            if extracted_text and extracted_text.strip():
+                raw_page_section = (
+                    "\n=== RAW PAGE CONTENT (from publication/source page) ===\n"
+                    + extracted_text[:4000]
+                    + "\n"
+                )
+
         prompt = self.VERIFICATION_PROMPT_TEMPLATE.format(
             dtx_name=dtx_name,
             company=company,
@@ -123,7 +134,8 @@ Respond with JSON only:"""
             study_abstract=study_abstract[:2000] if study_abstract else "Not available",
             study_sponsor=study_sponsor,
             study_intervention=study_intervention[:500] if study_intervention else "Not specified",
-            study_source=study_source
+            study_source=study_source,
+            raw_page_section=raw_page_section,
         )
         
         try:
@@ -182,8 +194,24 @@ Respond with JSON only:"""
                         return desc.get("briefSummary", "") or desc.get("detailedDescription", "")
                 except:
                     pass
+            
+            # Try HTML: extract visible text
+            if "<html" in raw_content[:2000].lower() or "<body" in raw_content[:2000].lower():
+                text = self._extract_text_from_html(raw_content)
+                if text:
+                    return text
         
         return ""
+    
+    @staticmethod
+    def _extract_text_from_html(html: str) -> str:
+        """Extract visible text from HTML, stripping tags/scripts/styles."""
+        s = re.sub(r'<(script|style|noscript)[^>]*>.*?</\1>', '', html, flags=re.DOTALL | re.IGNORECASE)
+        s = re.sub(r'<[^>]+>', ' ', s)
+        s = re.sub(r'&[a-zA-Z]+;', ' ', s)
+        s = re.sub(r'&#?\w+;', ' ', s)
+        s = re.sub(r'\s+', ' ', s).strip()
+        return s[:5000]
     
     def _extract_sponsor(self, study_data: Dict) -> str:
         """Extract sponsor information from study data."""
@@ -301,16 +329,22 @@ Respond with JSON only:"""
         
         matched = []
         
-        # Check for product name
+        # Check for product name (cleaned full name)
         if core_name and core_name.lower() in text_to_search:
             matched.append("product_name")
+        
+        # Also try just the first word (brand name) if multi-word and at least 4 chars
+        if "product_name" not in matched and core_name:
+            first_word = core_name.split()[0] if core_name.split() else ""
+            if len(first_word) >= 4 and first_word.lower() in text_to_search:
+                matched.append("product_name_partial")
         
         # Check for company name
         if company_name and company_name.lower() in text_to_search:
             matched.append("company_name")
         
         # Determine relevance
-        is_relevant = "product_name" in matched
+        is_relevant = "product_name" in matched or "product_name_partial" in matched
         confidence = len(matched) * 40  # 40 per match, max 80
         
         return {
@@ -334,8 +368,14 @@ Respond with JSON only:"""
             '', clean, flags=re.IGNORECASE
         ).strip()
         
+        # Remove trailing compound-word suffixes (e.g. "Diabetestherapie", "Therapie", "App")
         clean = re.sub(
-            r'\s+(App|Therapie|die|der|das)\s*$',
+            r'\s+\S*(?:therapie|app)\s*$',
+            '', clean, flags=re.IGNORECASE
+        ).strip()
+        
+        clean = re.sub(
+            r'\s+(die|der|das)\s*$',
             '', clean, flags=re.IGNORECASE
         ).strip()
         
@@ -430,11 +470,12 @@ class EvidenceClassifierV2:
         """Initialize the classifier."""
         self.llm = LLMProvider.get_llm(temperature=0.0, max_tokens=300)
     
-    async def classify(self, study_data: Dict) -> Dict:
+    async def classify(self, study_data: Dict, raw_content: Optional[str] = None) -> Dict:
         """Classify a study as RCT or RWE.
         
         Args:
             study_data: Study metadata dictionary
+            raw_content: Optional raw page text (HTML text or XML) for extra context
             
         Returns:
             Classification result:
@@ -444,15 +485,15 @@ class EvidenceClassifierV2:
                 "reason": str
             }
         """
-        # Try keyword classification first
-        keyword_result = self._keyword_classify(study_data)
+        # Try keyword classification first (include raw_content text)
+        keyword_result = self._keyword_classify(study_data, raw_content=raw_content)
         
         if keyword_result["confidence"] >= 80:
             return keyword_result
         
         # Use LLM for ambiguous cases
         try:
-            llm_result = await self._llm_classify(study_data)
+            llm_result = await self._llm_classify(study_data, raw_content=raw_content)
             
             # Combine results if both available
             if keyword_result["confidence"] > 0:
@@ -470,7 +511,7 @@ class EvidenceClassifierV2:
             # Fall back to keyword result
             return keyword_result
     
-    def _keyword_classify(self, study_data: Dict) -> Dict:
+    def _keyword_classify(self, study_data: Dict, raw_content: Optional[str] = None) -> Dict:
         """Classify using keyword matching."""
         text_parts = [
             study_data.get("title", ""),
@@ -478,6 +519,12 @@ class EvidenceClassifierV2:
             study_data.get("study_type", ""),
             study_data.get("study_design", ""),
         ]
+        
+        if raw_content:
+            if "<html" in raw_content[:2000].lower() or "<body" in raw_content[:2000].lower():
+                text_parts.append(EvidenceVerifier._extract_text_from_html(raw_content)[:3000])
+            else:
+                text_parts.append(raw_content[:3000])
         
         # Include publication types
         pub_types = study_data.get("publication_types", [])
@@ -521,15 +568,24 @@ class EvidenceClassifierV2:
                 "reason": "No clear indicators found, defaulting to RWE"
             }
     
-    async def _llm_classify(self, study_data: Dict) -> Dict:
+    async def _llm_classify(self, study_data: Dict, raw_content: Optional[str] = None) -> Dict:
         """Classify using LLM."""
+        raw_section = ""
+        if raw_content:
+            if "<html" in raw_content[:2000].lower() or "<body" in raw_content[:2000].lower():
+                raw_text = EvidenceVerifier._extract_text_from_html(raw_content)[:3000]
+            else:
+                raw_text = raw_content[:3000]
+            if raw_text.strip():
+                raw_section = f"\nRaw page content:\n{raw_text}\n"
+
         prompt = f"""Classify this clinical study as either RCT (Randomized Controlled Trial) or RWE (Real-World Evidence).
 
 Title: {study_data.get('title', 'N/A')}
 Abstract: {study_data.get('abstract', study_data.get('brief_summary', 'N/A'))[:1500]}
 Study Type: {study_data.get('study_type', 'N/A')}
 Publication Types: {study_data.get('publication_types', 'N/A')}
-
+{raw_section}
 RCT indicators: randomization, blinding, placebo control, interventional design
 RWE indicators: observational, retrospective, registry-based, cohort study
 

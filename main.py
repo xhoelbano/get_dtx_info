@@ -350,8 +350,45 @@ def show_status():
 @click.option('--candidates-only', is_flag=True, help='Only collect candidates (Layer 1), skip verification')
 @click.option('--verify-only', is_flag=True, help='Only verify existing candidates (Layer 2), skip collection')
 @click.option('--legacy', is_flag=True, help='Use legacy single-pass workflow instead of two-layer')
-def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs: bool, 
-                  max_results: int, candidates_only: bool, verify_only: bool, legacy: bool):
+@click.option(
+    '--website-fallback',
+    'website_fallback',
+    is_flag=True,
+    help='After registry pipeline, run website scraper only for DTx with 0 verified registry evidence',
+)
+@click.option(
+    '--website-force',
+    'website_force',
+    is_flag=True,
+    help='Re-run browser for website even if candidates/website/studies.json exists',
+)
+@click.option(
+    '--website-max-steps',
+    type=int,
+    default=35,
+    help='Max browser-use steps per DTx when using --website-fallback (default: 35)',
+)
+@click.option(
+    '--website-delay',
+    type=float,
+    default=7.0,
+    help='Seconds to wait between website fallback DTx runs (default: 7)',
+)
+def find_evidence(
+    search_all: bool,
+    country: str,
+    dtx: str,
+    source: str,
+    no_pdfs: bool,
+    max_results: int,
+    candidates_only: bool,
+    verify_only: bool,
+    legacy: bool,
+    website_fallback: bool,
+    website_force: bool,
+    website_max_steps: int,
+    website_delay: float,
+):
     """Find RCT/RWE evidence for DTx using two-layer classification.
     
     Two-Layer Classification System:
@@ -367,6 +404,7 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
         python main.py find-evidence --all --candidates-only  # Just collect
         python main.py find-evidence --all --verify-only       # Just verify
         python main.py find-evidence --all --legacy           # Old behavior
+        python main.py find-evidence --all --website-fallback # Optional website pass for zero-evidence DTx
     """
     if not search_all and not dtx:
         click.echo("Error: Please specify --all or --dtx <name>")
@@ -374,6 +412,14 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
     
     if candidates_only and verify_only:
         click.echo("Error: Cannot specify both --candidates-only and --verify-only")
+        return
+    
+    if website_fallback and candidates_only:
+        click.echo("Error: --website-fallback cannot be used with --candidates-only")
+        return
+    
+    if website_fallback and legacy:
+        click.echo("Error: --website-fallback requires the two-layer workflow (omit --legacy)")
         return
     
     mode = "legacy" if legacy else "candidates-only" if candidates_only else "verify-only" if verify_only else "full"
@@ -385,6 +431,10 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
     if not legacy:
         click.echo(f"  Layer 1: {'Yes' if not verify_only else 'Skip (using existing candidates)'}")
         click.echo(f"  Layer 2: {'Yes' if not candidates_only else 'Skip'}")
+    if website_fallback:
+        click.echo(f"  Website fallback: Yes (after registry; DTx with 0 verified registry evidence only)")
+        if website_force:
+            click.echo("  Website force: re-run browser even if candidates/website exists")
     
     async def run():
         from scrapers.evidence import EvidenceOrchestrator
@@ -476,6 +526,25 @@ def find_evidence(search_all: bool, country: str, dtx: str, source: str, no_pdfs
                         click.echo(f"  Verified RCT: {stats['total_verified_rct']}")
                         click.echo(f"  Verified RWE: {stats['total_verified_rwe']}")
                         click.echo(f"  Rejected (false positives): {stats['total_rejected']}")
+                
+                if website_fallback and not legacy and not candidates_only:
+                    click.echo(f"\n--- Website fallback ({country_name}) ---")
+                    wf = await orchestrator.run_website_fallback(
+                        dtx_list,
+                        country_name,
+                        max_agent_steps=website_max_steps,
+                        delay_seconds=website_delay,
+                        force_website=website_force,
+                    )
+                    click.echo(
+                        f"  Attempted: {wf['dtx_attempted']}, "
+                        f"skipped (registry evidence): {wf['dtx_skipped_has_registry_evidence']}, "
+                        f"skipped (no website): {wf['dtx_skipped_no_website']}, "
+                        f"errors: {wf['dtx_errors']}"
+                    )
+                    click.echo(
+                        f"  Log: evidence/summary/{country_name.lower()}_website_fallback.json"
+                    )
             
             click.echo(f"\n{'='*60}")
             click.echo("Evidence search complete!")

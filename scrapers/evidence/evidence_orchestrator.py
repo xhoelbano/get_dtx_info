@@ -20,6 +20,11 @@ from .pubmed_scraper import PubMedScraper
 from .clinicaltrials_scraper import ClinicalTrialsScraper
 from .isrctn_scraper import ISRCTNScraper
 from .drks_scraper import DRKSScraper
+from .website_scraper import (
+    SOURCE_NAME as WEBSITE_SOURCE_NAME,
+    WebsiteEvidenceScraper,
+    count_registry_verified_studies,
+)
 
 
 class EvidenceOrchestrator:
@@ -31,8 +36,9 @@ class EvidenceOrchestrator:
     - Layer 2: LLM verification + RCT/RWE classification
     """
     
-    # Available sources (ordered by reliability/speed)
+    # Available sources (ordered by reliability/speed). Website is optional; use run_website_fallback.
     SOURCES = ["pubmed", "clinicaltrials", "drks", "isrctn"]
+    WEBSITE_SOURCE = WEBSITE_SOURCE_NAME
     
     # Sources that use Playwright (slower, may need Playwright installed)
     PLAYWRIGHT_SOURCES = ["drks", "isrctn"]
@@ -543,6 +549,68 @@ class EvidenceOrchestrator:
         self._save_country_summary(country, total_stats)
         
         return total_stats
+    
+    async def run_website_fallback(
+        self,
+        dtx_list: List[Dict],
+        country: str,
+        *,
+        max_agent_steps: int = 35,
+        delay_seconds: float = 7.0,
+        force_website: bool = False,
+    ) -> Dict:
+        """Run browser-use website scraper only for DTx with 0 registry-verified evidence.
+
+        Requires company_website on the DTx record. Saves under candidates/website,
+        verified/*/website, rejected/website like other sources.
+        """
+        scraper = WebsiteEvidenceScraper(str(self.evidence_dir))
+        out = {
+            "country": country,
+            "run_date": datetime.utcnow().isoformat() + "Z",
+            "dtx_attempted": 0,
+            "dtx_skipped_has_registry_evidence": 0,
+            "dtx_skipped_no_website": 0,
+            "dtx_errors": 0,
+            "results": [],
+        }
+        for dtx_data in dtx_list:
+            name = dtx_data.get("dtx_name", "Unknown")
+            rct, rwe = count_registry_verified_studies(
+                self.evidence_dir, country, name
+            )
+            if rct + rwe > 0:
+                out["dtx_skipped_has_registry_evidence"] += 1
+                continue
+            if not (dtx_data.get("company_website") or "").strip():
+                out["dtx_skipped_no_website"] += 1
+                continue
+            out["dtx_attempted"] += 1
+            try:
+                res = await scraper.scrape_dtx_website(
+                    dtx_data,
+                    country,
+                    max_agent_steps=max_agent_steps,
+                    delay_seconds_after=delay_seconds,
+                    force=force_website,
+                )
+                if res.get("error"):
+                    out["dtx_errors"] += 1
+                out["results"].append({"dtx_name": name, **res})
+            except Exception as e:
+                out["dtx_errors"] += 1
+                out["results"].append(
+                    {"dtx_name": name, "error": str(e), "saved": False}
+                )
+            await asyncio.sleep(min(delay_seconds, 2.0))
+
+        summary_dir = self.evidence_dir / "summary"
+        summary_dir.mkdir(parents=True, exist_ok=True)
+        path = summary_dir / f"{country.lower()}_website_fallback.json"
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(out, f, indent=2, ensure_ascii=False)
+
+        return out
     
     # =====================================================================
     # Legacy support
