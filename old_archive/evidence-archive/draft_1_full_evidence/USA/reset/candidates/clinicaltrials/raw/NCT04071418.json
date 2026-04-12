@@ -1,0 +1,250 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04071418",
+      "orgStudyIdInfo": {
+        "id": "CNRBG-2019-RLC-RISI"
+      },
+      "organization": {
+        "fullName": "Peking University Third Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "I-125 Seeds Implantation in the Treatment of Recurrent Lung Cancer After Radiotherapy",
+      "officialTitle": "Safety and Efficacy of 3D-printing Template Assisted CT-guided Radioactive I-125 Seeds Implantation in the Treatment of Recurrent Lung Cancer After External Beam Radiotherapy: a Multicenter, Prospective Cohort Study",
+      "acronym": "RISIRLC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-04-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-08-26",
+      "studyFirstSubmitQcDate": "2019-08-26",
+      "studyFirstPostDateStruct": {
+        "date": "2019-08-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Peking University Third Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients with recurrence after radiotherapy are often encountered in clinical practice.Patients with recurrence after radiotherapy are less likely to undergo surgery or secondary radiotherapy, and the guidelines recommend only systemic therapy, although the effective rate is relatively low.For patients with local recurrence without distant metastasis, local treatment is still significant.Radioactive I-125 Seed Implantation (RISI) treatment is to I-125 Radioactive nuclide directly inside the implanted tumors, make its rays to continuous destruction of tumor cells, have inside the tumor target high dose, low dose of normal tissue around, and its radiation is low dose rate, in theory, more conducive to the protection of the normal tissue, more suitable for salvage treatment of recurrence after radiotherapy lesions.Some retrospective studies on RISI treatment of NSCLC showed that the local control rate was up to 25%-80%, and there were few reports of toxic and side effects, suggesting that it had good efficiency and safety.Therefore, for patients with recurrent NSCLC after chest radiotherapy, RISI may be considered.And template technology, 3 d printing is a new kind of technology in recent years, can be individualized and human body surface, the guide posts on the the direction of the puncture needle can be accurately controlled, the current data show that in the template with CT guided by solid tumors as well had significantly higher accuracy, as the actual target dose of basic postoperative can reach the design request of the preoperative planning, so the application of 3D printing template helps to further improve the operation efficiency and safety, also has potential promotion effect to curative effect.The purpose of this study was: (1) to observe the efficacy, toxic and side effects of RISI in the treatment of recurrent NSCLC after radiotherapy under the guidance of 3D printing template assisted CT, and to evaluate its safety and effectiveness;(2) to explore the relationship between the efficacy, toxicity and side effects of RISI dose in the treatment of recurrent NSCLC after radiotherapy;(3) analyze the relevant influencing factors affecting the effect/toxicity of RISI in the treatment of recurrent NSCLC after radiotherapy.",
+      "detailedDescription": "The purpose of this study was to observe the efficacy and adverse reactions of RISI in the treatment of recurrent NSCLC after radiotherapy, and to evaluate its safety and efficacy.To explore the relationship between the efficacy, toxicity and side effects of recurrent NSCLC treated with different RISI doses after radiotherapy.To analyze the relevant influencing factors affecting the efficacy/toxicity of RISI in the treatment of recurrent NSCLC after radiotherapy.\n\nThis study is a non-randomized, prospective, single-arm, cohort study.Patients meeting the inclusion criteria were enrolled consecutively in the order of admission and treatment, and a total of 30 patients were expected to be enrolled.The therapeutic dose range of I-125 was 140-160Gy, and the prescribed dose was intended to be divided into 15 cases of 140-150Gy and 150-160Gy, respectively. The specific situation was subject to the actual postoperative verified dose."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Brachytherapy",
+        "Non-small Cell Lung Cancer"
+      ],
+      "keywords": [
+        "recurrent lung cancer",
+        "I-125 seeds implantation",
+        "radiotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "2 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "I-125 Seeds Implantation",
+          "description": "All the enrolled patients were treated with CT-guided radioactive I-125 seeds implantation assisted by 3D printing template. Prescription dose 140-160gy.",
+          "interventionNames": [
+            "Radiation: 3D-printing Template-assisted CT-guided I-125 Seeds Implantation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "3D-printing Template-assisted CT-guided I-125 Seeds Implantation",
+          "description": "(1) positioning and preoperative plan design;(2) 3D printing template design and production;(3) reset and seeds implantation;(4) intraoperative optimization;Postoperative dose verification.Dosimetric parameters include: dose D90 and D100 reaching a certain percentage target volume; Target volume V100, V150 and V200 reaching a certain percentage of prescribed dose;And the dose of organs at risk: Dmean, D2cc, d0.5cc, d0.1cc. Regular follow-up was conducted after treatment.",
+          "armGroupLabels": [
+            "I-125 Seeds Implantation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Local tumor control rate",
+          "description": "The time from the date of seeds implantation to the date of recurrence of the implanted tumor or the date of last observation.",
+          "timeFrame": "Outcomes will be followed up every 2-3 months after enrollment. The total follow-up time is 2 years."
+        },
+        {
+          "measure": "Incidence of adverse events",
+          "description": "The adverse events are evaluated by the common terminology criteria for adverse events (CTCAE). The rate of each adverse event will be measured.",
+          "timeFrame": "Outcomes will be followed up every 2-3 months after enrollment. The total follow-up time is 2 years."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival time",
+          "description": "The time from the date of seeds implantation to the date of death from any cause or the date of last observation.",
+          "timeFrame": "Outcomes will be followed up every 2-3 months after enrollment. The total follow-up time is 2 years"
+        },
+        {
+          "measure": "Progression-free survival",
+          "description": "The time between the beginning of treatment and the date of progression of the disease or the date of death for any reasons or the date of last observation.",
+          "timeFrame": "Outcomes will be followed up every 2-3 months after enrollment. The total follow-up time is 2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* (1) Age 18-75 years old\n* (2) Pathological diagnosis of NSCLC, recurrence after radiotherapy, lesion diameter less than 5 cm\n* (3) No systemic metastasis or metastasis, metastasis has been controlled by pre-treatment\n* (4) No bleeding tendency, anticoagulant therapy and/or anti-platelet coagulant drugs should be stopped for at least one week before seed implantation\n* (5) No serious or uncontrolled underlying diseases (such as severe or uncontrolled high). Blood pressure, diabetes mellitus, cardiovascular and cerebrovascular diseases and organ dysfunction, etc.\n* (6) There is a suitable puncture path, which is expected to achieve the therapeutic dose\n* (7) KPS \\> 70 points, which is expected to be able to tolerate puncture/RISI therapy, and the expected survival time is longer than 3 months.\n\nExclusion Criteria:\n\n* (1) Poor basic pulmonary function with severe emphysema, bullae and interstitial pneumonia\n* (2) Liquefaction and necrosis in a large area near the mediastinum or focus, with high risk of puncture bleeding or poor seeds distribution\n* (3) Infection and ulcer in puncture site\n* (4) Pregnant women, lactating women, children and psychiatric patients\n* (5) Patients who are participating in other clinical studies\n* (6) Poor compliance, unable to complete the treatment\n* (7) The researchers think that it is not appropriate to participate in this clinical trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with reccurent NSCLC after external beam radiotherapy who meet the criteria can be enrolled in the study.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zhe Ji, M.D.",
+          "role": "CONTACT",
+          "phone": "008618710002823",
+          "email": "aschoff@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Junjie Wang, M.D. Ph.D.",
+          "affiliation": "Department of Radiation Oncology, Peking University Third Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peking University Third Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100191",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhe Ji, M.D.",
+              "role": "CONTACT",
+              "phone": "+8618710002823",
+              "email": "aschoff@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "De-identified individual participant data for all primary and secondary outcome measures will be made available.",
+      "infoTypes": [
+        "SAP",
+        "CSR"
+      ],
+      "timeFrame": "Data will be available within 2 years of the study completion.",
+      "accessCriteria": "Data access requests will be reviewed by an external Independent Review Panel. Requestors will be required to sign a Data Access Agreement."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

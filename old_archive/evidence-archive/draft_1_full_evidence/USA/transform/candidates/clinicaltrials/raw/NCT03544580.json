@@ -1,0 +1,200 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03544580",
+      "orgStudyIdInfo": {
+        "id": "CEBD-CU-2018-05-01"
+      },
+      "organization": {
+        "fullName": "Cairo University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Soft Tissue Esthetic With Autogenous Dentin Chips and Immediate Implantation Versus Conventional Immediate Implantation With Xenograft in Thin Buccal Bone",
+      "officialTitle": "Soft Tissue Esthetic With Autogenous Dentin Chips and Immediate Implantation Versus Conventional Immediate Implantation With Xenograft in Thin Buccal Bone: (Randomized Controlled Clinical Trial )"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-08-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-10-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-12-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-05-07",
+      "studyFirstSubmitQcDate": "2018-05-31",
+      "studyFirstPostDateStruct": {
+        "date": "2018-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-04-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-04-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Cherine Emad Mahmoud Mohamed Hamada",
+        "investigatorTitle": "principal investigator",
+        "investigatorAffiliation": "Cairo University"
+      },
+      "leadSponsor": {
+        "name": "Cairo University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "After tooth extraction, host bone resorption and atrophy of alveolar ridge may be observed. Bone resorption occurs specially in incisors and premolar area of jaw in region of thin buccal bone that may lead to change in contour. Total clinical bone loss height approximately 2-5 mm at first 6 months may be observed in vertical dimension , after 12 months alveolar ridge may lose up to 50 % of its width.",
+      "detailedDescription": "Recently augmentation with bone grafting became one of the most common techniques surgically ; progressive bone resorption may be prevented by using augmentation procedures with use of graft materials. The gold standard in regenerative procedures is autogenous bone graft because of osteoinduction , osteoconduction and osteointergration properties required in regeneration. In autogenous bone graft there is need for a second surgical site , donor site morbidity and limited availability will lead to challenge for alternative bio-materials.\n\nExtracted healthy non functional teeth from human are considered to be a dental waste all over the world. High proportion of extracted sockets are left untreated for physiological healing. Inadequate or failure of bone healing in sockets has been seen due to absence of bone graft material. Stem cells, matrix , trace metal ions and growth factors are rich in human tooth. Bone and dentin tissue structure are different but ratio of components is similar (mineral 70% , collagen 20% and body fluid 10% by weight). Dentin after demineralization is mainly composed of type 1 collagen 95% and non collagenous proteins as growth factors."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Crestal Bone Loss"
+      ],
+      "keywords": [
+        "dentin",
+        "immediate implant",
+        "buccal bone resorption",
+        "crestal bone loss"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "immediate implant with dentin chips",
+          "type": "EXPERIMENTAL",
+          "description": "using the tooth structure presented in socket either as remaining root or as unrestorable tooth structure remove all periodontal ligaments \\& scraping all enamel \\& cementum using a stone also to cut it into slices then putting it in acid to demineralize the dentine ; then using a bone mill to transform dentine into small particles or chips to be used in jumping gap between implant \\& thin buccal bone",
+          "interventionNames": [
+            "Procedure: immediate implant with dentine chips"
+          ]
+        },
+        {
+          "label": "immediate implant with xenograft",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "after surgical removal of entire badly decayed tooth we immediately put implant and in jumping gap we use xenograft",
+          "interventionNames": [
+            "Procedure: conventional immediate implant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "immediate implant with dentine chips",
+          "description": "Using dentin chips",
+          "armGroupLabels": [
+            "immediate implant with dentin chips"
+          ],
+          "otherNames": [
+            "Conventional immediate implantation"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "conventional immediate implant",
+          "description": "using xenograft",
+          "armGroupLabels": [
+            "immediate implant with xenograft"
+          ],
+          "otherNames": [
+            "immediate implantation with xenograft"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Soft tissue esthetics",
+          "description": "pink esthetic score will be taken by photos from the day of surgery till 12 months postoperatively.\n\nThe PES will evaluate the mesial papilla, distal papilla, curvature of the facial mucosa, level of the facial mucosa, and root convexity/ soft tissue color and texture at the facial aspect of the implant site as five variables. A score of 2, 1, or 0 is assigned to each of five PES parameters. Thus, in case of an implant restoration, a maximum total PES of 10 is possible",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient related :\n\n  * Patient who only need to restore this single tooth.\n  * Good oral hygiene\n  * Systemically healthy (free from any systemic diseases)\n\nSite related :\n\n* Hopeless tooth (nonrestorable, badly broken, endodontically treated) indicated for extraction and immediate implant placement\n* Esthetic area with thin buccal bone\n* Having periapical bone more than 3mm for primary stability\n\nExclusion Criteria:\n\n* Patient related :\n\n  * Smokers\n  * Pregnant woman\n\nSite related\n\n* Teeth that have to be extracted due to advanced periodontal bone loss\n* Trauma in aesthetic area\n* Periapical infection.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Cherine Emad Mahmoud Mohamed Hamada",
+          "city": "Giza",
+          "zip": "12566",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.00944,
+            "lon": 31.20861
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014183",
+          "term": "Transplantation, Heterologous"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014180",
+          "term": "Transplantation"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,130 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04725331",
+      "nct_id": "NCT04725331",
+      "title": "A Clinical Trial Assessing BT-001 Alone and in Combination With Pembrolizumab in Metastatic or Advanced Solid Tumors",
+      "official_title": "A Phase I/IIa Study of Intra-tumoral BT-001 (TG6030) Administered Alone and in Combination With Pembrolizumab in Patients With Cutaneous or, Subcutaneous Lesions or Easily Injectable Lymph Nodes of Metastatic/Advanced Solid Tumors.",
+      "status": "TERMINATED",
+      "phase": "PHASE1, PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NON_RANDOMIZED",
+        "intervention_model": "SEQUENTIAL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 31,
+      "start_date": "2021-02-25",
+      "completion_date": "2025-10-22",
+      "conditions": [
+        "Metastatic Cancer",
+        "Soft Tissue Sarcoma",
+        "Merkel Cell Carcinoma",
+        "Melanoma",
+        "Triple Negative Breast Cancer",
+        "Non Small Cell Lung Cancer"
+      ],
+      "keywords": [
+        "Superficial tumors",
+        "Metastatic cancer",
+        "Intratumoral",
+        "Safety",
+        "Oncolytic virus",
+        "Vaccinia virus",
+        "Solid tumors",
+        "Melanoma",
+        "Merkel",
+        "Sarcoma"
+      ],
+      "interventions": [
+        {
+          "name": "BT-001",
+          "type": "BIOLOGICAL",
+          "description": "Oncolytic Vaccinia virus containing genes encoding the 4-E03 human recombinant anti-hCTLA4 antibody and human GM-CSF administered at different dose \\[Phase I, Part A\\]; one dose lower and at Recommended Dose for Part B \\[Phase I, Part B\\] by intra-tumoral (IT) route."
+        },
+        {
+          "name": "Pembrolizumab [KEYTRUDA®]",
+          "type": "DRUG",
+          "description": "Programmed death receptor (PD-1) blocking antibody administered at 200mg by intravenous (IV) infusions every 3 weeks."
+        }
+      ],
+      "lead_sponsor": "Transgene",
+      "collaborators": [
+        "BioInvent International AB",
+        "Merck Sharp & Dohme LLC"
+      ],
+      "countries": [
+        "Belgium",
+        "France"
+      ],
+      "brief_summary": "This is a Phase I/IIa, multicenter, open-label, consecutive cohorts, dose-escalation study of BT-001 with repeated IT administrations alone and in combination with IV infusions of pembrolizumab.",
+      "detailed_description": "This study will include 3 parts:\n\n* Phase I, Part A: Repeated intra-tumoral (IT) administrations of BT-001 as a single agent, in patients with metastatic/advanced solid tumors; dose-escalation will be employed.\n* Phase I, Part B: Repeated IT administrations of BT-001 in combination with intravenous (IV) infusions of pembrolizumab in patients with metastatic/advanced soft tissue sarcoma (STS), Merkel cell carcinoma (MCC), melanoma, triple negative breast cancer (TNBC) or non-small cell lung cancer (NSCLC)..\n* Phase IIa: Repeated IT administrations of BT-001 in combination with IV infusions of pembrolizumab in several cohorts of patients with defined metastatic or advanced solid tumor conditions.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04725331",
+      "_matched_query": "\"BT-001\"",
+      "_raw_json_path": "evidence/USA/bt-001/candidates/clinicaltrials/raw/NCT04725331.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study is about an oncolytic virus named BT-001 used in cancer treatment, not the digital therapeutic BT-001 from Better Therapeutics designed for type 2 diabetes. The intervention and sponsor details confirm this is unrelated.",
+        "matched_elements": [
+          "BT-001 (different product)",
+          "Transgene (different sponsor)",
+          "Oncolytic Vaccinia virus (different intervention)"
+        ]
+      }
+    },
+    {
+      "study_id": "NCT05621486",
+      "nct_id": "NCT05621486",
+      "title": "A Clinical Study to Evaluate B4T2-001 CAR T Cells in the Treatment of Advanced Solid Tumors",
+      "official_title": "A FIH, Single Arm, Open Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Preliminary Antitumor Activity of Autologous CAR T Cells Targeting BT-001 in Patients With Advanced Solid Tumors",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NA",
+        "intervention_model": "SINGLE_GROUP",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 36,
+      "start_date": "2022-09-14",
+      "completion_date": "2026-12-31",
+      "conditions": [
+        "Advanced Solid Tumor"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "B4T2-001 Autologous CAR T cells",
+          "type": "BIOLOGICAL",
+          "description": "Each subject will receive infusion with B4T2-001 autologous CAR T Cells"
+        }
+      ],
+      "lead_sponsor": "Shanghai East Hospital",
+      "collaborators": [
+        "Bio4T2 LLC"
+      ],
+      "countries": [
+        "China"
+      ],
+      "brief_summary": "This is a first in human (FIH), open-label, dose escalation and expansion study to evaluate the safety, tolerability, pharmacokinetics, and antitumor activity of B4T2-001 Autologous CAR T cells in subjects with advanced solid tumors including but not limited to advanced gastric or gastroesophageal junction (GEJ) adenocarcinoma, advanced pancreatic cancer, advanced non-small cell lung cancer (NSCLC), colorectal cancers (CRC) and metastatic breast cancer that tests positive for BT-001 target antigen according to Immunohistochemistry (IHC).",
+      "detailed_description": "This is an open-label dose escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, and antitumor activity of B4T2-001 Autologous CAR T cells in subjects with BT-001 expressing advanced solid tumors. Patients who meet the eligibility criteria will receive B4T2-001 CAR T infusion after lymphodepletion. The lymphodepleting chemotherapy is administered on days -5, -4, and -3 before CAR T infusion using cyclophosphamide 300mg/m2 once daily and fludarabine 30mg/m2 once daily for 3 consecutive days. Doses may be adjusted for renal and/or hepatic insufficiency, or other comorbidities. The study is designed to include the following sequential steps: patient screening, pre-treatment, treatment and follow up for up to 2 years.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05621486",
+      "_matched_query": "\"BT-001\"",
+      "_raw_json_path": "evidence/USA/bt-001/candidates/clinicaltrials/raw/NCT05621486.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study is about B4T2-001 CAR T cells for advanced solid tumors, which is unrelated to the digital therapeutic BT-001 for type 2 diabetes. The product name, intervention, and clinical area do not match.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-10T08:24:28.390085Z",
+  "_source": "clinicaltrials"
+}

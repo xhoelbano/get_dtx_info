@@ -1,0 +1,199 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05078242",
+      "orgStudyIdInfo": {
+        "id": "2021-13471"
+      },
+      "organization": {
+        "fullName": "Albert Einstein College of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Virtual Reality - Chronic Pain At-Home Pilot Study",
+      "officialTitle": "Virtual Reality - Chronic Pain At-Home Pilot Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-10-12",
+      "studyFirstSubmitQcDate": "2021-10-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Albert Einstein College of Medicine",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a short pilot usability study of a virtual reality device for patients with chronic pain.",
+      "detailedDescription": "The investigators will conduct a study of patients with chronic pain to collect feasibility of recruitment data, adherence to therapy data, and preliminary effectiveness data. All patients will be in the active arm, this is not a randomized study.\n\nThe intervention being piloted is the EaseVRx (AppliedVR, Los Angeles, CA) VR hardware and software. EaseVRx incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. EaseVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. EaseVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Each session will include one VR experience, which is 2-16 minutes in length (average of 6 minutes). This study will last one week, or 7 total sessions (out of 56 total sessions).\n\nParticipants will complete one survey at 3 days over the telephone assessing pain, mood, adherence to the device, and overall satisfaction. Then participants will complete an additional assessment when the device is returned after day 7, again assessing pain, mood, overall adherence to the device, and overall satisfaction.\n\nThe investigators are recruiting participants from the VR Usability Study (IRB # 2021-13108) who expressed interest in participating in further research. As this is a pilot feasibility trial, the plan is to recruit between 5 and 10 patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental: EaseVRx sessions",
+          "type": "EXPERIMENTAL",
+          "description": "This is a study of patients with chronic pain to assess usability of a VR device at home. The main goals are 1) to collect data on feasibility of recruitment, 2) to collect data on daily adherence to therapy, and 3) to collect preliminary effectiveness data on pain and mood outcomes. There will be 7 sessions over one week, with each session lasting about 2-16 minutes. All patients recruited will be in the active arm; this is not a randomized pilot study.",
+          "interventionNames": [
+            "Device: EaseVRx"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "EaseVRx",
+          "description": "Participants will experience 7 sessions of the EaseVRx device for chronic pain.",
+          "armGroupLabels": [
+            "Experimental: EaseVRx sessions"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "% of participants contacted that are enrolled",
+          "description": "The investigators will determine feasibility by measuring the % of participants that are contacted who are enrolled.",
+          "timeFrame": "at study 1 day visit"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Satisfaction with VR experience",
+          "description": "The investigators will use the Global Impression of Change Scale, which is a 7 point Likert type scale, at the conclusion of the VR experience to measure patient's perceived impression of change before and after VR.",
+          "timeFrame": "at study 1 day visit"
+        },
+        {
+          "measure": "Change in Mood",
+          "description": "The investigators will use the Brief Mood Introspection Scale, a 16-item scale, to measure change in mood before and after VR",
+          "timeFrame": "at study 1 day visit"
+        },
+        {
+          "measure": "Change in Pain Intensity",
+          "description": "The investigators will use a 1-item pain intensity score (0-10) both before and after VR",
+          "timeFrame": "at study 1 day visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years\n2. Chronic pain (using self-report) with pain intensity \\>=4 and confirmed by ICD-10 codes in medical record\n3. Fluency in English\n\nExclusion Criteria:\n\n1. Inability to give informed consent\n2. Current or prior diagnosis of epilepsy, seizure disorder, dementia, migraines\n3. Medical condition predisposing to nausea or dizziness\n4. Hypersensitivity to flashing light or motion\n5. No stereoscopic vision or severe hearing impairment\n6. Injury to eyes, face, or neck that prevents use of VR headset\n7. Currently pregnant, by self-report",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hector Perez, MS, MD",
+          "affiliation": "Montefiore Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059350",
+          "term": "Chronic Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

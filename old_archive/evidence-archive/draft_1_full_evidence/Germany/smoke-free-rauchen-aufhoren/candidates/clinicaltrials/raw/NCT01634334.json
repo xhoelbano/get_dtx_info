@@ -1,0 +1,244 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01634334",
+      "orgStudyIdInfo": {
+        "id": "R01HL103684",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/R01HL103684"
+      },
+      "organization": {
+        "fullName": "San Diego State University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Improving Household Air Quality in Homes With Children",
+      "officialTitle": "Innovation for Smoke-Free Homes: Real-Time Feedback",
+      "acronym": "ProjFreshAir"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-07-02",
+      "studyFirstSubmitQcDate": "2012-07-05",
+      "studyFirstPostDateStruct": {
+        "date": "2012-07-06",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-04-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-04-14",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Melbourne Hovell",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "San Diego State University"
+      },
+      "leadSponsor": {
+        "name": "San Diego State University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if real-time feedback (lights/sounds) from small smoke particle monitors and brief coaching will encourage parents to reduce young children's secondhand tobacco smoke exposure in their home.",
+      "detailedDescription": "The purpose of this efficacy study is to test whether children's home secondhand tobacco smoke exposure (measured by cotinine \\& nicotine assays, fine particulates and reports of smoking in the home and/or home smoking bans) can be reduced by using custom particle monitors to provide real-time feedback to household residents plus brief advice/praise."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lung Diseases",
+        "Asthma"
+      ],
+      "keywords": [
+        "Secondhand smoke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 298,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Real-time Intervention",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Behavioral: Real-Time Intervention"
+          ]
+        },
+        {
+          "label": "Usual Education",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive usual education about secondhand and thirdhand smoke.",
+          "interventionNames": [
+            "Behavioral: Usual Education"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Real-Time Intervention",
+          "description": "Lights and Sound Brief Coaching",
+          "armGroupLabels": [
+            "Real-time Intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Usual Education",
+          "description": "Participants will receive usual education about secondhand smoke and thirdhand smoke.",
+          "armGroupLabels": [
+            "Usual Education"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Secondhand Smoke Reduction",
+          "description": "Parental report and child urine cotinine.",
+          "timeFrame": "Measured from baseline upto 5 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Home Smoking Ban",
+          "description": "Parental report of home smoking ban and environmental data collection.",
+          "timeFrame": "Measured from baseline upto 5 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Families with at least one parent or guardian (18 years of age or older),\n* Household resident who smokes tobacco,\n* Child under fourteen years old exposed to tobacco smoking in the home\n* Plans to live in San Diego County for at least three months.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Melbourne F Hovell, PhD, MPH",
+          "affiliation": "SDSU - Center for Behavioral Epidemiology and Community Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "SDSU - Center for Behavioral Epidemiology and Community Health",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30770436",
+          "type": "DERIVED",
+          "citation": "Hovell MF, Bellettiere J, Liles S, Nguyen B, Berardi V, Johnson C, Matt GE, Malone J, Boman-Davis MC, Quintana PJE, Obayashi S, Chatfield D, Robinson R, Blumberg EJ, Ongkeko WM, Klepeis NE, Hughes SC; Fresh Air Research Group. Randomised controlled trial of real-time feedback and brief coaching to reduce indoor smoking. Tob Control. 2020 Mar;29(2):183-190. doi: 10.1136/tobaccocontrol-2018-054717. Epub 2019 Feb 15."
+        },
+        {
+          "pmid": "29305069",
+          "type": "DERIVED",
+          "citation": "Hughes SC, Bellettiere J, Nguyen B, Liles S, Klepeis NE, Quintana PJE, Berardi V, Obayashi S, Bradley S, Hofstetter CR, Hovell MF. Randomized Trial to Reduce Air Particle Levels in Homes of Smokers and Children. Am J Prev Med. 2018 Mar;54(3):359-367. doi: 10.1016/j.amepre.2017.10.017. Epub 2018 Jan 2."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D001249",
+          "term": "Asthma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D012130",
+          "term": "Respiratory Hypersensitivity"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

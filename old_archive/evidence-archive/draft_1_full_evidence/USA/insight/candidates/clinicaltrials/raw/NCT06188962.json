@@ -1,0 +1,297 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06188962",
+      "orgStudyIdInfo": {
+        "id": "5420/004"
+      },
+      "organization": {
+        "fullName": "University College, London",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluating Knowledge Insight Tools (KIT) for Reducing Anxiety and Low Mood in UK Secondary School Students",
+      "officialTitle": "A Pragmatic Randomized Multiple Baseline Trial Evaluating Knowledge Insight Tools (KIT), a Cognitive Behavioural Therapy-informed School-based Counselling Intervention for Secondary School-aged Children and Young People With Anxiety and Mood Difficulties in the UK"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-12-01",
+      "studyFirstSubmitQcDate": "2023-12-18",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University College, London",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Place2Be",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Anna Freud",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background and Study Aims:\n\nSecondary school students are reporting unprecedented levels of anxiety and mood difficulties. To ensure that the needs of all young people are met, there is a need to evaluate more accessible forms of support, such as psychological therapies offered in schools. The aim of this trial is to test a new form of school-based psychological therapy called Knowledge Insight Tools (KIT). KIT is based on Cognitive Behavioural Therapy, which is known to be helpful for young people experiencing difficulties with anxiety and low mood. The investigators want to see whether offering KIT to secondary school students can reduce their anxiety and/or low mood, compared to a period of time when they did not receive any support.\n\nWho can participate?\n\nChildren and young people aged 11-18 can participate if they are attending a secondary school in England or Scotland, are experiencing problems with low mood and/or anxiety that are disrupting their everyday lives and are not mainly the result of external factors, and are actively seeking support. Children and young people cannot participate if they pose a significant risk to themselves and/or others, if their primary difficulties are not related to anxiety and/or low mood, if they have significant special educational needs or learning difficulties, and are younger than 16 years and for whom it would pose significant issues if their parents/carers were informed of their involvement with Place2Be services.\n\nWhat does the study involve?\n\nThe study starts with a waiting period, where each young person will not receive any support for 3-8 weeks, except for a weekly check-in with a trained professional. This is meant to provide a stable measurement of young people's mental health before KIT is introduced. The length of the waiting period for each young person is chosen at random by a computer program. This helps mix up the influence of things other than KIT that could impact young people's mental health, such as differences in the natural (and sometimes healing) passage of time. Young people will then be offered 10 sessions of KIT, where they will learn about the ways in which unhelpful thoughts and behaviours can inadvertently make them feel low or anxious. They will also be asked to practice ways of testing their unhelpful thoughts and changing their behaviours outside of sessions, and the investigators will review how this affects their mood and well-being over the course of treatment.\n\nWhat are the possible benefits and risks of participating?\n\nThe main benefit of participating is that young people will be contributing to science, which will help young people struggling with anxiety and mood problems in future be offered forms of school-based psychological therapy that have been rigorously tested. The main risk is that young people might wait longer to start KIT than had they not participated in the study. Young people will still receive KIT if they refuse to participate or withdraw their participation, which they can do at any time.\n\nWhere is the study run from?\n\nThe study is run from secondary schools in the UK and is being conducted by the Evidence-Based Practice Unit (a research group and collaboration between University College London and the Anna Freud) and researchers and school-based practitioners from Place2Be.\n\nWhen is the study starting and how long is it expected to run for?\n\nThe study started on 01/08/2022 with the recruitment of the first student. The study is expected to run until September 2024. There are plans to extend the study until September 2025 if another wave of recruitment is needed.\n\nWho is funding the study?\n\nThe study is funded by Place2Be and Anna Freud, both UK-based charities.\n\nWho is the main contact?\n\nThe main contact and principle investigator for the trial is Professor Jessica Deighton (j.deighton@ucl.ac.uk)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anxiety",
+        "Depression",
+        "Internalizing Problems",
+        "Low Mood"
+      ],
+      "keywords": [
+        "pragmatic",
+        "multiple baseline design",
+        "randomized trial",
+        "school-based counselling",
+        "CBT",
+        "secondary school",
+        "children and young people",
+        "high school",
+        "middle school"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Interventional randomized multiple baseline design: We are using a multiple baseline design, where all participants are offered the same intervention (e.g., Knowledge Insight Tools; KIT), but start the intervention after a randomly varying baseline period where no intervention is offered. Participants will be randomly assigned to a baseline wait period of either three, four, five, six, seven, or eight weeks. Randomization controls for extraneous factors such as maturation and test-retest effects, thereby improving the study's internal validity compared to single-group uncontrolled designs. We are using a non-concurrent design, in which participants start their baseline wait period on different (absolute) start dates.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "3-8 week baseline wait period followed by CBT-informed school-based counselling",
+          "type": "OTHER",
+          "description": "All participants undergo a baseline wait period but are randomized to different baseline lengths (3-8 weeks)",
+          "interventionNames": [
+            "Behavioral: CBT-informed school-based counselling"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "CBT-informed school-based counselling",
+          "description": "Knowledge Insight Tools (KIT) is a CBT-based model of one-to-one therapy for secondary school pupils who are struggling with low mood and/or anxiety. KIT incorporates the key features of CBT (e.g., agenda setting, formulation around maintenance cycles, inter-session work involving exposure and/or behavioural activation) but is delivered in a semi-structured way that meets the young person's needs and pace of learning. Whilst there is an emphasis on symptom reduction, the primary focus is on the young person's goals for living and co-producing an understanding of how symptoms can interfere with these goals. Practitioners are encouraged to incorporate different therapeutic tools and modalities that complement the young person's strengths and ways of learning, including non-verbal forms of expression like arts and crafts, music, and dance. By being flexible, person-led, goal-focused, and integrative, KIT was designed to suit the needs of secondary school students.",
+          "armGroupLabels": [
+            "3-8 week baseline wait period followed by CBT-informed school-based counselling"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Young Person's Clinical Outcomes in Routine Evaluation (YP-CORE)",
+          "description": "Child-reported psychological distress/coping, anxiety, and mood difficulties. Scores range from 0-40, with higher scores reflecting worse psychological distress.",
+          "timeFrame": "Assessed at the beginning of each weekly baseline session throughout each participant's 3-8 week baseline wait period, and at the beginning of each weekly intervention session over the 10-week intervention period."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Revised Children's Anxiety and Depression Scale (RCADS)",
+          "description": "Child-reported anxiety and depression symptoms. Scores range from 0-141, with higher scores reflecting worse anxiety and depression difficulties. Raw total and subscale scores are usually converted to T-scores, where T-scores greater than 64 reflect the borderline clinical range, and T-scores above 69 reflect the clinical range.",
+          "timeFrame": "Assessed on the first intervention session, 4th and 7th review sessions during the intervention, and the final intervention session (usually the 10th intervention session but this may vary by participant).."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Implementation Survey",
+          "description": "Practitioner-reported ratings of KIT's feasibility and acceptability. Scores range from 0-52, with higher scores reflecting a higher agreement in the feasibility, suitability, and acceptability of KIT.",
+          "timeFrame": "Completed by practitioners at post-intervention, i.e. after all 10-week interventions are completed"
+        },
+        {
+          "measure": "KIT Fidelity Checklist",
+          "description": "Practitioner-reported fidelity in delivering KIT. The measure is scored based on the incidence of CBT tasks and activities, and is scored as the proportion of CBT tasks and activities that occur throughout each intervention.",
+          "timeFrame": "Assessed at the end of each weekly intervention session over the 10-week intervention period."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. 11-18 years old\n2. Attends a secondary school in England, Scotland or Wales\n3. Experiencing problems with low mood and/or anxiety that are affecting day-to-day functioning.\n4. Experiencing problems that are at least in part within their control as opposed to the system being the problem (systems work/advocacy might be more relevant in these cases).\n5. Are seeking help and are motivated towards change.\n\nExclusion Criteria:\n\n1. Pose a significant risk to themselves and/or others (e.g., where there is significant self-harm \\[e.g., self-harm that risks accidental death, such as cutting, self-strangulation, under/overusing medications, tablets or substances, and swallowing hazardous materials\\], suicidal ideation, suicidal intent, sexual/physical violence to/from others, hospitalization due to alcohol/substance misuse/self-harm/psychiatric reasons)\n2. Are experiencing severe anxiety/mood difficulties, or whose primary difficulties are not related to anxiety/low mood, e.g., uncontrolled eating disorders, substance/alcohol dependence, psychotic disorders, body dysmorphia, antisociality, risk-taking problems, and personality disorders.\n3. Have significant special educational needs or learning difficulties.\n4. Are younger than 16 and for whom it would pose significant issues if their parents/carers were informed of their involvement with Place2Be services.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "11 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jessica Deighton, PhD",
+          "role": "CONTACT",
+          "phone": "+442077942313",
+          "email": "j.deighton@ucl.ac.uk"
+        },
+        {
+          "name": "Tanya Lereya, PhD",
+          "role": "CONTACT",
+          "phone": "00442077942313",
+          "email": "tanya.lereya@annafreud.org"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Place2Be services within UK schools",
+          "status": "RECRUITING",
+          "city": "Multiple Cities Across the UK",
+          "state": "United Kingdom",
+          "zip": "UK",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Hannah Wilkinson, PhD",
+              "role": "CONTACT",
+              "phone": "+4402079235500",
+              "email": "Hannah.Wilkinson@place2be.org.uk"
+            },
+            {
+              "name": "Hannah Wilkinson, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ]
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39350145",
+          "type": "DERIVED",
+          "citation": "Constantinou MP, Stepanous J, Lereya ST, Wilkinson H, Golden S, Deighton J. Study protocol for a pragmatic randomised multiple baseline trial evaluating Knowledge Insight Tools (KIT), a cognitive behavioural therapy-informed school-based counselling intervention for children and young people in UK secondary schools with low mood and anxiety. Trials. 2024 Sep 30;25(1):637. doi: 10.1186/s13063-024-08299-z."
+        }
+      ]
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2023-08-01",
+          "uploadDate": "2023-11-30T11:50",
+          "filename": "SAP_000.pdf",
+          "size": 282709
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D003244",
+          "term": "Consciousness Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

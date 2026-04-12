@@ -1,0 +1,59 @@
+{
+  "studies": [
+    {
+      "study_id": "40966603",
+      "pmid": "40966603",
+      "title": "Home Monitoring Delivered Through the Emergency Department for Outpatients With COVID-19: COVID19@Home Aachen Pilot Cohort Study.",
+      "authors": "Niekrenz Lukas et al.",
+      "authors_list": [
+        "Niekrenz Lukas",
+        "Hübel Christian",
+        "Plata Christopher",
+        "Biermann Henning",
+        "Leber Claas"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Sep-18",
+      "journal": "JMIR medical informatics",
+      "journal_abbrev": "JMIR Med Inform",
+      "doi": "10.2196/58364",
+      "abstract": "BACKGROUND: The overwhelming COVID-19 situation in 2020/2021 required novel approaches that did not require additional personnel within the current health care system. Therefore, we initiated a trial of nonsupervised home monitoring via the emergency department of a tertiary hospital without the support of a virtual ward as part of the \"Netzwerk Universitaetsmedizin\" cooperation in Germany. Given that daily vital sign checks for inpatients with COVID-19 could indicate clinical deterioration, this approach might also be helpful in an outpatient setting and could help to identify the need for hospitalization and additional resources. OBJECTIVE: This study aims to determine whether patient-led home monitoring for acute SARS-CoV-2 infection can be implemented through the emergency department of a tertiary care provider. METHODS: Patients who tested positive for SARS-CoV-2 infection in our emergency department between May 2021 and May 2022, did not have a medical indication for hospitalization, and were discharged to the outpatient setting were offered the opportunity to perform nonsupervised home monitoring of vital signs. Those who agreed to participate received Bluetooth-enabled devices to measure temperature, oxygen saturation, and blood pressure and downloaded a smartphone app. Participants were encouraged to measure their vital signs for at least 28 days. There was no virtual ward or real-time surveillance of the recorded data, but these could be made available to primary care physicians. Compliance with self-measurements was determined, and participants were contacted after the monitoring period for a semistructured interview. RESULTS: A total of 828 patients with COVID-19 were treated at the emergency department. Of these, 262 were directly discharged into ambulatory isolation after initial assessment, 25 were offered the opportunity of nonsupervised home monitoring, 15 successfully activated the devices, and 9 performed more than one complete measurement using the app. These 9 participants used the devices for an average of 15.8 days after discharge. Interviewed participants reported various difficulties with device setup but said they were pleased to use home monitoring and felt that the measurement option gave them additional security. CONCLUSIONS: This study highlighted the challenges associated with implementing nonsupervised home monitoring for outpatients with COVID-19 who presented to the emergency department of a tertiary hospital. Implementing such a system without the involvement of additional personnel does not appear to be the optimal approach. We suggest that the physician-patient relationship might be a factor that is essential for the success of patient-led approaches to home monitoring.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "COVID-19",
+        "Pilot Projects",
+        "Emergency Service, Hospital",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Germany",
+        "SARS-CoV-2",
+        "Aged"
+      ],
+      "keywords": [
+        "home monitoring",
+        "nonsupervised home monitoring",
+        "patient-led monitoring",
+        "physician-patient relationship",
+        "telemonitoring"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40966603/",
+      "pdf_available": false,
+      "_matched_query": "\"Kaia COPD\"",
+      "_raw_xml_path": "evidence/Germany/kaia-copd-meine-aktive-copd-therapie/candidates/pubmed/raw/40966603.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Kaia COPD: Meine aktive COPD Therapie' or any clear variation of the product name, company, or specific intervention description. It focuses on home monitoring for COVID-19 patients, which is unrelated to the COPD-focused digital therapeutic described.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:42:17.232927Z",
+  "_source": "pubmed"
+}

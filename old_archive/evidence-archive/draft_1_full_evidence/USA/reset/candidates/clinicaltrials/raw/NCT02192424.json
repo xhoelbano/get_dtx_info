@@ -1,0 +1,287 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02192424",
+      "orgStudyIdInfo": {
+        "id": "12-0263-A Main"
+      },
+      "organization": {
+        "fullName": "Mount Sinai Hospital, Canada",
+        "class": "OTHER"
+      },
+      "briefTitle": "Early Intermittent Intensive Insulin Therapy as an Effective Treatment of Type 2 Diabetes (RESET-IT Main Trial)",
+      "officialTitle": "A Randomized Controlled Trial to Evaluate Early Intermittent Intensive Insulin Therapy as an Effective Treatment of Type 2 Diabetes: REmission Studies Evaluating Type 2 DM - Intermittent Insulin Therapy (RESET-IT)",
+      "acronym": "RESET-IT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-07-14",
+      "studyFirstSubmitQcDate": "2014-07-14",
+      "studyFirstPostDateStruct": {
+        "date": "2014-07-16",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-10-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Mount Sinai Hospital, Canada",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Canadian Institutes of Health Research (CIHR)",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Type 2 diabetes mellitus is a chronic metabolic disorder characterized by progressive deterioration in the function of the pancreatic beta-cells, which are the cells that produce and secrete insulin (the hormone primarily responsible for the handling of glucose in the body). The investigators propose a randomized controlled trial to determine whether intermittent intensive insulin therapy is an effective therapeutic strategy that can preserve pancreatic beta-cell function and maintain glycemic control early in the course of type 2 diabetes.",
+      "detailedDescription": "In this study, eligible patients with type 2 diabetes will be randomized to either intermittent insulin therapy or not, on a background of metformin, after first undergoing a short course of intensive insulin therapy. The hypothesis under study is whether intermittent insulin therapy can preserve beta-cell function."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "keywords": [
+        "beta-cell function,",
+        "type 2 diabetes,",
+        "intermittent insulin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 109,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "After a 3-week course of intensive insulin therapy, participants will be treated with ongoing metformin monotherapy. Metformin will be initiated at 500mg twice a day for the first 2 weeks, before progressing to 1000mg twice a day for the duration of the trial (24 months).",
+          "interventionNames": [
+            "Drug: Metformin alone"
+          ]
+        },
+        {
+          "label": "Metformin + Intermittent Insulin Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "After a 3-week course of intensive insulin therapy, participants will be treated with ongoing metformin monotherapy, initiated at 500mg twice a day for the first 2 weeks, before progressing to 1000mg twice a day for the duration of the trial (24 months). Participants will stop their metformin for 2 weeks every 3 months, during which time they will receive intermittent intensive insulin therapy for 2 weeks. The 2-week course of insulin therapy will be repeated at 3-, 6-, 9-, 12-, 15-,18- and 21-months, with final outcome measurement performed at 24-months.",
+          "interventionNames": [
+            "Drug: Metformin + Intermittent Insulin Therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin alone",
+          "armGroupLabels": [
+            "Metformin alone"
+          ],
+          "otherNames": [
+            "metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Metformin + Intermittent Insulin Therapy",
+          "armGroupLabels": [
+            "Metformin + Intermittent Insulin Therapy"
+          ],
+          "otherNames": [
+            "metformin,",
+            "basal insulin glargine and pre-meal insulin lispro"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Baseline-adjusted beta-cell function at 2 years, measured by Insulin Secretion-Sensitivity Index-2 (ISSI-2).",
+          "description": "ISSI-2 is an established measure of beta-cell function. ISSI-2 is defined as the product of (i) insulin secretion measured by the ratio of the area-under-the-insulin-curve to the area-under-the-glucose curve and (ii) insulin sensitivity measured by the Matsuda index.",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Baseline-adjusted glycemic control at 2-years.",
+          "description": "The secondary outcome of baseline-adjusted glycemic control at 2-years will be assessed by A1c (glycated hemoglobin)",
+          "timeFrame": "2 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Achievement of target glycemic control",
+          "description": "Achievement of target glycemic control will be assessed by the proportion of participants with A1c \\<7.0%",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "achievement of glucose tolerance in the non-diabetic range",
+          "description": "The proportion of participants with glucose tolerance in the non-diabetic range will be determined on oral glucose tolerance test (OGTT) and defined based on current Canadian Diabetes Association classifications for glucose tolerance status on OGTT.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "achievement of normal glucose tolerance",
+          "description": "The proportion of participants with normal glucose tolerance will be determined on oral glucose tolerance test (OGTT) and defined based on current Canadian Diabetes Association classifications for glucose tolerance status on OGTT.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "insulin sensitivity",
+          "description": "Insulin sensitivity will be measured by Matsuda index, a clamp-validated measure of whole-body insulin sensitivity that can be obtained from the oral glucose tolerance test",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Men and women between the ages of 30 and 80 years inclusive\n2. T2DM diagnosed by a physician \\</= 5 years prior to enrolment\n3. Negative for anti-glutamic acid decarboxylase (anti-GAD) antibodies\n4. On either no anti-diabetic medication or on metformin monotherapy, with no change in dose/regimen within 4 weeks prior to enrolment\n5. A1c at screening between 5.5% and 9.0% inclusive if on metformin, or between 6.0% and 9.5% inclusive if on no oral anti-diabetic medication\n6. BMI \\>/= 23 kg/m2\n7. Negative pregnancy test at recruitment for all women with childbearing potential\n\nExclusion Criteria:\n\n1. Current anti-diabetic treatment with insulin, sulfonylurea, thiazolidinedione, alpha-glucosidase inhibitor, glucagon-like peptide-1 (GLP-1) agonist or dipeptidyl peptidase-4 inhibitor\n2. Type 1 diabetes or secondary forms of diabetes\n3. History of hypoglycemia unawareness or severe hypoglycemia requiring assistance\n4. Any major illness with a life expectancy of \\<5 years\n5. Hypersensitivity to insulin, metformin or the formulations of these products\n6. Renal dysfunction as evidenced by estimated glomerular filtration rate (eGFR) \\<50 ml/min\n7. Hepatic disease considered to be clinically significant (includes jaundice, chronic hepatitis, previous liver transplant) or transaminases \\>2.5 X upper limit of normal\n8. History of congestive heart failure\n9. Excessive alcohol consumption, defined as \\>14 alcoholic drinks per week for males and \\>9 alcoholic drinks per week for females\n10. Unwillingness to administer insulin therapy or perform capillary blood glucose monitoring at least 4 times per day while receiving IIT\n11. Pregnancy or unwillingness to use reliable contraception. Women should not be planning pregnancy for the duration of the study or the first 3 months after the study. Reliable contraception includes birth control pill, intra-uterine device, abstinence, tubal ligation, partner vasectomy, or condoms with spermicide.\n12. Non-adherence to the induction phase or any factor likely to limit adherence to the study protocol, in the opinion of the investigator",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ravi Retnakaran, MD",
+          "affiliation": "MOUNT SINAI HOSPITAL",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mount Sinai Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G1X5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37500612",
+          "type": "DERIVED",
+          "citation": "Retnakaran R, Pu J, Emery A, Harris SB, Reichert SM, Gerstein HC, McInnes N, Kramer CK, Zinman B. Determinants of sustained stabilization of beta-cell function following short-term insulin therapy in type 2 diabetes. Nat Commun. 2023 Jul 27;14(1):4514. doi: 10.1038/s41467-023-40287-w."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

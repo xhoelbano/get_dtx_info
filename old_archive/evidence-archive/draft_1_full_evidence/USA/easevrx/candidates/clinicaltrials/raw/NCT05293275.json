@@ -1,0 +1,235 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05293275",
+      "orgStudyIdInfo": {
+        "id": "IRB 021-367"
+      },
+      "organization": {
+        "fullName": "Baylor Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Virtual Reality Pain Study",
+      "officialTitle": "Virtual Reality as Nonpharmacologic Pain Management Among Hospitalized Inpatients. A Randomized Control Trial of Virtual Reality vs Standard of Care",
+      "acronym": "VR Pain"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-03-15",
+      "studyFirstSubmitQcDate": "2022-03-23",
+      "studyFirstPostDateStruct": {
+        "date": "2022-03-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mark B Powers",
+        "investigatorTitle": "Research Center Director Trauma Research Consortium",
+        "investigatorAffiliation": "Baylor Research Institute"
+      },
+      "leadSponsor": {
+        "name": "Baylor Research Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Investigating pain in hospitalized patients in two groups: virtual reality usage group vs standard of care",
+      "detailedDescription": "Patients will be randomized to either the virtual reality group or the standard of care group. The virtual reality group will use the device over two days. Both groups will answer questionnaires regarding their pain and anxiety. Medical records will be used to look at pain medication usage in both groups."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hospitalized Patients 18 Years of Age or Older With Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Virtual Reality Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "patients will use the virtual reality device over two days",
+          "interventionNames": [
+            "Device: EaseVRx Virtual Reality Headset"
+          ]
+        },
+        {
+          "label": "Standard of care",
+          "type": "NO_INTERVENTION",
+          "description": "patients will receive standard of care only"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "EaseVRx Virtual Reality Headset",
+          "description": "Virtual reality device with 360 degree visualization of various scenery and interactive modules",
+          "armGroupLabels": [
+            "Virtual Reality Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pain assessed by Numerical Pain Rating Scale",
+          "description": "level of pain will be assessed using the Numerical Pain Rating Scale. The scale is composed of 0 (no pain) to 10 (worst pain imaginable)",
+          "timeFrame": "3-4 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Anxiety assessed with numerical scale",
+          "description": "level of anxiety assessed with numerical scale composed of 0 (no anxiety) to 10 (anxiety out of control)",
+          "timeFrame": "3-4 days"
+        },
+        {
+          "measure": "The PROMIS sleep disturbance questionnaire",
+          "description": "disruption of sleep assessed using the PROMIS sleep disturbance questionnaire",
+          "timeFrame": "3-4 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* • patients at least 18 years of age,\n\n  * reported pain in last 24 hours ≥ 3 on the Numerical Rating Scales (NRS),\n  * patients undergoing surgery,\n  * expected hospital length of stay of at least 48 hours,\n  * English fluency,\n  * willing to comply with study procedures.\n  * Hx opioid use\n\nExclusion Criteria:\n\n* • gross cognitive impairment that would interfere with the ability to consent or complete study procedures\n\n  * current or prior diagnosis of epilepsy, seizure disorder, dementia, or migraines,\n  * hypersensitivity to flashing light or motion,\n  * history of motion sickness or cyber sickness,\n  * medical condition predisposing to or current nausea, vomiting or dizziness,\n  * stereoscopic vision or severe hearing impairment,\n  * injury to eyes, face or neck that impedes comfortable use of virtual reality,\n  * cancer related pain,\n  * PHQ-9 screen indicating suicidal ideation, patients will be referred to appropriate clinical intervention (see suicide protocol)\n  * currently pregnant,\n  * current or recent completion of participation in any interventional pain study (with in past 2 months)\n  * substance abuse (alcohol or illegal drugs): Alcohol- NIAAA definition of heavy drinking as more than 4 drinks on any day or more than 14 drinks per week for men, more than 3 drinks on any day or more than 7 drinks per week for women. Any illegal drugs including marijuana",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Mark Powers, PhD",
+          "role": "CONTACT",
+          "phone": "5129936443",
+          "email": "mak.powers1@bswhealth.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Mark Powers, PhD",
+          "affiliation": "Research Center Director Trauma Research Consortium",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Baylor Institute for Rehabilitation",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75246",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tracy Birdsong",
+              "role": "CONTACT",
+              "phone": "281-948-9625",
+              "email": "tracy.birdsong2@bswhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Baylor University Medical Center",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75246",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tracy Birdsong, MD",
+              "role": "CONTACT",
+              "phone": "281-948-9625",
+              "email": "tracy.birdsong2@bswhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Baylor Scott and White Hospital-Temple",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Temple",
+          "state": "Texas",
+          "zip": "76508",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kimberly Trembly, NP",
+              "role": "CONTACT",
+              "phone": "254-724-2111",
+              "email": "kristina.trembly@bswhealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.09823,
+            "lon": -97.34278
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

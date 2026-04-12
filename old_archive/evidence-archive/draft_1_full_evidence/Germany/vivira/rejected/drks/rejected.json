@@ -1,0 +1,57 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00037490",
+      "drks_id": "DRKS00037490",
+      "title": "Prospective randomized controlled trial to evaluate the clinical effectiveness of the app-based therapeutic training program (ViViRA Neck) for patients with non-specific neck pain.",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00037490/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00037490.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions 'ViViRA Neck,' which appears to be a variation or potentially a different product than the described 'Vivira' for back pain and spinal osteoarthritis. There is no explicit confirmation that 'ViViRA Neck' is the same as 'Vivira,' and the clinical area differs (neck pain vs. back pain).",
+        "matched_elements": [
+          "ViViRA Neck"
+        ]
+      }
+    },
+    {
+      "study_id": "DRKS00035191",
+      "drks_id": "DRKS00035191",
+      "title": "The influence of personalized coaching on the use of digital or personal health applications in the field of exercise therapy for rheumatic patients",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00035191/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00035191.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'Vivira' or provide a clear description matching the product. It appears to be a generic study about digital or personal health applications in exercise therapy for rheumatic patients.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00028920",
+      "drks_id": "DRKS00028920",
+      "title": "Post-marketing effectiveness of a digital therapeutic for unspecific and degenerative back, hip and knee pain during an extended probation period: An observational study of patient-reported outcome data",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028920/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00028920.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study title does not explicitly mention 'Vivira' or provide a clear variation of the product name. The intervention is not specified, and there is no direct link to the company or product in the provided information. It could be about a different product or a generic study.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-02-09T20:37:44.046073Z",
+  "_source": "drks"
+}

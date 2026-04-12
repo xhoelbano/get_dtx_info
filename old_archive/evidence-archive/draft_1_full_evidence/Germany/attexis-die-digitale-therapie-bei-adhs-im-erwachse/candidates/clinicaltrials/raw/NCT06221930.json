@@ -1,0 +1,223 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06221930",
+      "orgStudyIdInfo": {
+        "id": "attexis RCT 2024"
+      },
+      "organization": {
+        "fullName": "Gaia AG",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Researching the Effectiveness of Attexis, a Digital Health Application for Adults With Attention Deficit Hyperactivity Disorder",
+      "officialTitle": "Researching the Effectiveness of Attexis, a Digital Health Application for Adults With Attention Deficit Hyperactivity Disorder - a Randomized Controlled Trial",
+      "acronym": "READ-ADHD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-01-15",
+      "studyFirstSubmitQcDate": "2024-01-15",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Gaia AG",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Zentrum für Integrative Psychiatrie Kiel",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "University Hospital, Saarland",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In this randomized controlled clinical trial, 326 patients with ADHD will be investigated regarding the effectiveness of a digital therapeutic for improved ADHD symptomatology, the unguided online intervention attexis. Inclusion criteria are: male, female or non-binary, age 18-65, diagnosis of ADHD, elevated levels of ADHD symptoms (score of ≥17 either on the inattention subscale or on the impulsivity/hyperactivity subscale of the ASRS v1.1), stable treatment for at least 30 days at time of inclusion, sufficient German skills, and consent to participation. Exclusion criteria are: Diagnosis of any other severe psychiatric disorder and plans to change treatment in the upcoming three months. Patients will be randomized and allocated to either an intervention group, receiving access to attexis in addition to TAU, or a control group, receiving access to TAU only. Primary endpoint will be self-rated ADHD symptomatology, assessed via the ASRS v1.1, with three months post-allocation being the primary time point for assessment of effectiveness. Six months post allocation will be used as a timepoint for follow-up assessment of endpoints. Secondary endpoints will be depressive symptoms, self-esteem, work and social functioning, and health-related quality of life."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Adult Attention Deficit Hyperactivity Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 337,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "attexis + TAU",
+          "type": "EXPERIMENTAL",
+          "description": "Participants allocated to the intervention group will receive access to attexis in addition to treatment as usual (TAU).\n\nattexis is a digital health application designed for individuals with adult attention deficit hyperactivity disorder (ADHD), accessible through a web browser. The application focuses on treatment methods derived from cognitive behavioral therapy (CBT). Topics addressed by attexis are attention, self-image, impulsivity and physical exercise, problem-solving strategies, and resources.\n\nThe program operates through interactive \"dialogues\", which are accompanied by illustrations, audio recordings, motivational text messages, worksheets, and summaries. Users are also encouraged to regularly complete short questionnaires to monitor their complaints. Once registered, the program remains accessible for 180 days.",
+          "interventionNames": [
+            "Behavioral: attexis"
+          ]
+        },
+        {
+          "label": "TAU",
+          "type": "NO_INTERVENTION",
+          "description": "Participants allocated to the control group will receive access to treatment as usual (TAU)."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "attexis",
+          "description": "Participants will receive access to the digital health intervention attexis in addition to TAU.",
+          "armGroupLabels": [
+            "attexis + TAU"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ADHD Symptom Severity",
+          "description": "ASRS v1.1. Total score ranging from 0-72; higher scores mean more ADHD symptoms (worse outcome).",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Depressive Symptomatology",
+          "description": "PHQ-9. Total score ranging from 0-27; higher scores mean more depressive symptomatology (worse outcome).",
+          "timeFrame": "3 months, 6 months"
+        },
+        {
+          "measure": "Self Esteem",
+          "description": "Rosenberg Self Esteem Scale (RSES). Total score ranging from 0-30; higher scores mean higher self-esteem (better outcome).",
+          "timeFrame": "3 months, 6 months"
+        },
+        {
+          "measure": "Functioning",
+          "description": "Work and Social Adjustment Scale (WSAS). Total score ranging from 0-40; higher scores mean higher impairment (worse outcome).",
+          "timeFrame": "3 months, 6 months"
+        },
+        {
+          "measure": "Health-Related Quality of Life",
+          "description": "AQoL-8D. Total score ranging from 0-100; higher scores mean higher quality of life (better outcome).",
+          "timeFrame": "3 months, 6 months"
+        },
+        {
+          "measure": "ADHD Symptom Severity",
+          "description": "ASRS v1.1. Total score ranging from 0-72; higher scores mean more ADHD symptoms (worse outcome).",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* women, men, non-binary\n* age 18-65 years\n* diagnosis of ADHD (assessed via DIVA)\n* ADHD severity score (cut-off): score of ≥17 either on the inattention subscale or on the impulsivity/hyperactivity subscale of the ASRS v1.1\n* stable treatment (psychotherapy, medication, no treatment, …) for at least 30 days at the time of inclusion\n* consent to participation\n* sufficient knowledge of the German language\n\nExclusion Criteria:\n\n* diagnosis of another severe psychiatric disorder (severe affective disorder, autism spectrum disorder, psychotic disorder, Borderline personality disorder, antisocial personality disorder, substance use disorder, suicidality)\n* plans to change treatment (psychotherapy, medication, …) in the upcoming three months after inclusion",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Eva Fassbinder, MD",
+          "affiliation": "Zentrum für Integrative Psychiatrie Kiel",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "GAIA AG",
+          "city": "Hamburg",
+          "zip": "22085",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001289",
+          "term": "Attention Deficit Disorder with Hyperactivity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019958",
+          "term": "Attention Deficit and Disruptive Behavior Disorders"
+        },
+        {
+          "id": "D065886",
+          "term": "Neurodevelopmental Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

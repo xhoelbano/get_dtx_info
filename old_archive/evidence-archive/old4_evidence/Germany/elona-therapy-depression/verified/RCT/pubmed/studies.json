@@ -1,0 +1,116 @@
+{
+  "studies": [
+    {
+      "study_id": "41619247",
+      "pmid": "41619247",
+      "title": "Blended Cognitive Behavioral Therapy Versus Standard CBT for Unipolar Depression: A Multicenter Randomized Controlled Trial.",
+      "authors": "Kalde Jan et al.",
+      "authors_list": [
+        "Kalde Jan",
+        "Atik Ece",
+        "Stricker Johannes",
+        "Schückes Magnus",
+        "Neudeck Peter"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jan-31",
+      "journal": "Psychotherapy and psychosomatics",
+      "journal_abbrev": "Psychother Psychosom",
+      "doi": "10.1159/000550820",
+      "abstract": "This study evaluates the effectiveness of blended cognitive behavioral therapy (bCBT) with a digital health application (elona therapy) compared to standard cognitive behavioral therapy (CBT) for unipolar depression in outpatient care. This multicenter, randomized, two-arm controlled trial recruited 283 adult patients with unipolar depression in Germany. Patients were randomized to receive either standard face-to-face CBT combined with the digital health application (bCBT group) or standard face-to-face CBT alone. Symptoms of depression and anxiety, along with other patient-related characteristics, were assessed at baseline (T0: week 0) and post-intervention (T1: week 12). Patients in the bCBT group showed greater improvements in depressive symptoms (primary outcome: d = .62, p < .001), anxiety (d = .61, p < .001), quality of life (d = .42, p < .001), perceived self-efficacy (d = .41, p = .003), depression literacy (d = .66, p < .001) and overall disease severity outcomes (d = .45-.60, ps < .005) compared with patients in the CBT group. In conclusion, this study provides evidence supporting the effectiveness of bCBT in patients diagnosed with unipolar depressive disorder across a broad range of clinically relevant outcomes. The discussion addresses important limitations of this trial.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41619247/",
+      "pdf_available": false,
+      "_matched_query": "\"elona therapy Depression\"",
+      "_raw_xml_path": "evidence/Germany/elona-therapy-depression/candidates/pubmed/raw/41619247.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions 'elona therapy' as the digital health application used in the intervention for unipolar depression, which matches the product name and description provided. The context and details align with the specific DTx product 'elona therapy Depression' by Elona Health GmbH.",
+        "matched_elements": [
+          "elona therapy",
+          "unipolar depression",
+          "digital health application",
+          "Germany"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 100,
+        "reason": "The study explicitly mentions randomization, a two-arm controlled trial design, and interventional comparison between bCBT and standard CBT, which are clear indicators of an RCT."
+      }
+    },
+    {
+      "study_id": "37922395",
+      "pmid": "37922395",
+      "title": "Enhancing the effectiveness of CBT for patients with unipolar depression by integrating digital interventions into treatment: A pilot randomized controlled trial.",
+      "authors": "Kalde Jan et al.",
+      "authors_list": [
+        "Kalde Jan",
+        "Atik Ece",
+        "Stricker Johannes",
+        "Schückes Magnus",
+        "Neudeck Peter"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Nov",
+      "journal": "Psychotherapy research : journal of the Society for Psychotherapy Research",
+      "journal_abbrev": "Psychother Res",
+      "doi": "10.1080/10503307.2023.2277866",
+      "abstract": "OBJECTIVE: Blended cognitive behavioral therapy (bCBT) combines face-to-face therapy with digital elements, such as digital health apps. This pilot study aimed to explore the effectiveness and safety of a novel bCBT application for treating unipolar depression in adults combined with cognitive behavioral therapy (CBT) compared to CBT alone in routine care. METHODS: Patients (N = 82) were randomly assigned to bCBT (n = 42) or CBT (n = 40) over 12 weeks. bCBT consisted of weekly CBT sessions accompanied by the elona therapy depression module (a bCBT application for unipolar depression) for use between sessions. Standard CBT consisted of weekly CBT sessions. Outcomes (6,12 weeks) were analyzed with linear mixed models. RESULTS: Improvements in depressive symptoms (BDI-II, PHQ-9) were descriptively larger for the bCBT group. Yet, this difference did not reach statistical significance. bCBT was superior to standard CBT in secondary outcome measures of psychological health (d = .50) and generalized anxiety symptoms (d = -.45). In other secondary outcomes (BAI, PSWQ, GSE, WHOQOL-BREF), improvements were descriptively larger for bCBT compared to CBT. CONCLUSION: This pilot study provided preliminary evidence that bCBT might be advantageous in comparison to CBT alone in the treatment of depression, but larger RCTs of the bCBT application are needed.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Cognitive Behavioral Therapy",
+        "Pilot Projects",
+        "Female",
+        "Adult",
+        "Male",
+        "Middle Aged",
+        "Outcome Assessment, Health Care",
+        "Mobile Applications",
+        "Depressive Disorder"
+      ],
+      "keywords": [
+        "bCBT",
+        "blended cognitive behavioral therapy",
+        "depression",
+        "digital intervention",
+        "digital therapeutics"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37922395/",
+      "pdf_available": false,
+      "_matched_query": "\"elona therapy Depression\"",
+      "_raw_xml_path": "evidence/Germany/elona-therapy-depression/candidates/pubmed/raw/37922395.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions 'elona therapy depression module' as the bCBT application used in the intervention, which matches the name and description of the digital therapeutic product 'elona therapy Depression' by Elona Health GmbH. The intervention aligns with the product's purpose of integrating digital interventions with psychotherapy for unipolar depression.",
+        "matched_elements": [
+          "elona therapy depression module",
+          "bCBT application for unipolar depression",
+          "integration with psychotherapy"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "Keyword match: 6 RCT indicators vs 0 RWE indicators"
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T16:47:50.153595Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

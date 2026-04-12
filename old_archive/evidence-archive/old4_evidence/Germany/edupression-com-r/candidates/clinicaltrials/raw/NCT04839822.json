@@ -1,0 +1,332 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04839822",
+      "orgStudyIdInfo": {
+        "id": "2471/2020"
+      },
+      "organization": {
+        "fullName": "Medical University of Vienna",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of Edupression.Com® in Depressive Patients",
+      "officialTitle": "Efficacy of the Digital Self-help Programme Edupression.Com® Evaluated Within a Randomized Controlled Trial in Mild to Moderate Unipolar Depressive Patients",
+      "acronym": "eFICASY"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-04-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-04-07",
+      "studyFirstSubmitQcDate": "2021-04-08",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lukas Pezawas",
+        "investigatorTitle": "Assoc.Prof. Priv.Doz. Dr.",
+        "investigatorAffiliation": "Medical University of Vienna"
+      },
+      "leadSponsor": {
+        "name": "Medical University of Vienna",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is to investigate the efficacy and adherence of the digital self-help programme edupression.com®.",
+      "detailedDescription": "The edupression.com® self-help app is an evidence-based low-level psychosocial intervention, which a can be used as as monotherapy as first-line treatment in mild to moderate depressive patients or as complimentary treatment independent of previous therapy response or depression severity. The two foundations of edupression.com® are evidence-based psychoeducation with CBT elements, as well as self-monitoring in the mood chart. Evidence for the efficacy of this approach stems from a large body of literature regarding eHealth (healthcare services provided electronically via the internet) applications in depression.\n\nThis study's aim is to investigate edupression.com®'s capability to improve the illness course directly by reducing depressive symptoms (primary objective) and indirectly by fostering positive health care effects (secondary objective). The reduction of relapse risk and other preventive effects expected from other studies are beyond the time frame of this study. Beyond the evaluation of edupression.com®, this study could elucidate the general role of psychoeducation and mood tracking in online mental health to improve depression symptoms and adherence.\n\nObjectives: The primary objective is to test the clinical efficacy (at least 50% symptom reduction over a 3-month period) of edupression.com® in mild to moderate unipolar depressed patients. The secondary objective is to demonstrate positive health care effects within this 3-month trial period such as psychoeducation, quality of life, patient empowerment and other factors.\n\nStudy Design: The study design of this clinical trial is consistent with a monocentric, prospective, longitudinal, randomized controlled clinical trial. Patients, currently diagnosed with a mild to moderate major depressive episode (MDE) will be invited to use the digital self-help programme.\n\nFollowing the inclusion procedure, patients will be randomly assigned in a 1:1 ratio to two different treatment arms (A vs. B). Participants of the intervention arm will get full access to the edupression.com® website, while participants of the control arm will get access to a control version of edupression.com® limited to medically useful tips, that have not been shown to be effective in improving depressive symptoms in randomized controlled trials (RCTs)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depressive; Episode, Major",
+        "Recurrent Depressive Disorder, Current Episode Moderate",
+        "Recurrent Depressive Disorder, Current Episode Mild"
+      ],
+      "keywords": [
+        "Depression",
+        "Internet-Based Intervention",
+        "Mobile Applications"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Participants are blinded with respect to the study arm and will unlikely determine if they are part of the intervention or active control.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 250,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Arm: Psychoeducation with elements of CBT & mood chart.",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive full access to edupression.com® immediately after inclusion. This intervention includes all medical mechanisms of action of edupression.com®: Psychoeducation with elements of CBT (learning content and exercises) and a mood chart (depression symptom monitoring).",
+          "interventionNames": [
+            "Other: edupression.com®"
+          ]
+        },
+        {
+          "label": "Active control arm: (occupational) interventions and progress monitoring.",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "These patients will also receive an edupression.com® account with different content. This content will be limited to medically useful tips, that have have not been shown to be effective in improving depressive symptoms in RCTs. Patients of both arms will be instructed to use chat functions to contact study personnel and to fill out questionnaires and tests to collect outcome and additional measures.",
+          "interventionNames": [
+            "Other: Health tips",
+            "Diagnostic Test: Surveys",
+            "Other: Popular psychological interventions"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "edupression.com®",
+          "description": "Edupression.com® is an evidence-based self-help program that was developed for the treatment of mild to moderate unipolar depression. It is based on two core foundations, psychoeducation with elements of cognitive behavior therapy (CBT) and a mood chart. Both foundations are registered as a medical product. As such, detailed risk management documentation includes probability and severity of adverse events. Moreover, detailed strategies such as warnings were implemented in the software and documented accordingly.\n\nIt can be used on a PC as well as on mobile devices (browser, App) at any time.",
+          "armGroupLabels": [
+            "Intervention Arm: Psychoeducation with elements of CBT & mood chart."
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Health tips",
+          "description": "Interventions that do not directly target depression: general health tips (diet, lifestyle, smoking, etc.), occupational health interventions (back pain prevention, breaks,...), etc.",
+          "armGroupLabels": [
+            "Active control arm: (occupational) interventions and progress monitoring."
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Surveys",
+          "description": "Quizzes and surveys for course monitoring (including suicidality), but without extensive reports.",
+          "armGroupLabels": [
+            "Active control arm: (occupational) interventions and progress monitoring."
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Popular psychological interventions",
+          "description": "Popular psychological interventions, which have not been shown to be effective in studies: Affirmation phrases, motivational sayings and quotes (known also from calendars), tests (e.g., Rorschach interpretation), exercises (emotion recognition of faces), multimedia content (pleasant music, landscape images, interviews of famous people with depression), etc.",
+          "armGroupLabels": [
+            "Active control arm: (occupational) interventions and progress monitoring."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Therapy response",
+          "description": "Depression severity change from baseline to end of study (EOS) \\[Time Frame: 3 months\\], compared between treatment vs. control arm measured with the Patient Health Questionnaire. Patient Health Questionnaire scores range from 0 to 27, with a higher score being associated with a higher level of depression.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change of Depression Literacy",
+          "description": "Depression Literacy change from baseline to end of study (EOS) \\[Time Frame: 3 months\\], compared between treatment vs. control arm measured with the Depression Literacy scale (D-Lit).",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Change of Quality of Life",
+          "description": "Change of quality of life in four domains from baseline to End of Study (EOS) \\[Time Frame: 3 months\\] measured with the World Health Organization quality of life scale (WHOQOL-BREF).",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Change of Disease Model",
+          "description": "Change of disease model from baseline to End of Study (EOS) \\[Time Frame: 3 months\\] measured with the brief version of the illness perception questionnaire (B-IPQ).",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male/female\n* Age 18-65 years\n* ICD-10 diagnosis F32.0 \\& F32.1, depressive episode mild \\& moderate \\& F33.0 \\& F33.1, Recurrent depressive disorder mild \\& moderate (M.I.N.I.)\n* PHQ-9 (Patient Health Questionnaire-9) score ≥5\n* ability to be managed as outpatients\n* adherence to the study protocol incl. willingness and minimal experience to understand instructions for edupression.com®\n\nExclusion Criteria:\n\n* previous or concurrent major medical or neurological illness\n* any history of non-response to either psychotherapy/eHealth interventions (min. 3 month) or medication (min. 6 weeks, adequate antidepressive drug dosing) or any kind of therapy resistance\n* participants in the active phase of other interventional studies\n* ICD-10 diagnosis of substance dependence within the past year, except for caffeine or nicotine or current substance abuse\n* ICD-10 diagnosis of schizophrenia, schizoaffective disorder, bipolar affective disorder, persistent mood disorders, or an anxiety disorder\n* being acutely suicidal either indicated by a score ≥3 on item 9 (suicidal thoughts) on the PHQ-9 or according to the investigator´s opinion\n* failures to comply with the study protocol or to follow the instructions of the investigating team",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Markus Dold, MD, Priv.Doz.",
+          "affiliation": "Medical University of Vienna",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Lukas M Pezawas, MD, Prof.",
+          "affiliation": "Medical University of Vienna",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Gabriele Fischer, MD, Prof.",
+          "affiliation": "Medical University of Vienna",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Lucie Bartova, MD",
+          "affiliation": "Medical University of Vienna",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medical University of Vienna",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32553848",
+          "type": "BACKGROUND",
+          "citation": "Huckvale K, Nicholas J, Torous J, Larsen ME. Smartphone apps for the treatment of mental health conditions: status and considerations. Curr Opin Psychol. 2020 Dec;36:65-70. doi: 10.1016/j.copsyc.2020.04.008. Epub 2020 May 4."
+        },
+        {
+          "pmid": "31675391",
+          "type": "BACKGROUND",
+          "citation": "Park C, Zhu J, Ho Chun Man R, Rosenblat JD, Iacobucci M, Gill H, Mansur RB, McIntyre RS. Smartphone applications for the treatment of depressive symptoms: A meta-analysis and qualitative review. Ann Clin Psychiatry. 2020 Feb;32(1):48-68."
+        },
+        {
+          "pmid": "29422409",
+          "type": "BACKGROUND",
+          "citation": "Andrews G, Basu A, Cuijpers P, Craske MG, McEvoy P, English CL, Newby JM. Computer therapy for the anxiety and depression disorders is effective, acceptable and practical health care: An updated meta-analysis. J Anxiety Disord. 2018 Apr;55:70-78. doi: 10.1016/j.janxdis.2018.01.001. Epub 2018 Feb 1."
+        },
+        {
+          "pmid": "21712998",
+          "type": "BACKGROUND",
+          "citation": "Cuijpers P, Donker T, Johansson R, Mohr DC, van Straten A, Andersson G. Self-guided psychological treatment for depressive symptoms: a meta-analysis. PLoS One. 2011;6(6):e21274. doi: 10.1371/journal.pone.0021274. Epub 2011 Jun 21."
+        },
+        {
+          "pmid": "11556941",
+          "type": "BACKGROUND",
+          "citation": "Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13. doi: 10.1046/j.1525-1497.2001.016009606.x."
+        },
+        {
+          "pmid": "25547711",
+          "type": "BACKGROUND",
+          "citation": "Etkin A, Patenaude B, Song YJ, Usherwood T, Rekshan W, Schatzberg AF, Rush AJ, Williams LM. A cognitive-emotional biomarker for predicting remission with antidepressant medications: a report from the iSPOT-D trial. Neuropsychopharmacology. 2015 May;40(6):1332-42. doi: 10.1038/npp.2014.333. Epub 2014 Dec 30."
+        },
+        {
+          "pmid": "27405091",
+          "type": "BACKGROUND",
+          "citation": "Ben-Haim MS, Williams P, Howard Z, Mama Y, Eidels A, Algom D. The Emotional Stroop Task: Assessing Cognitive Performance under Exposure to Emotional Content. J Vis Exp. 2016 Jun 29;(112):53720. doi: 10.3791/53720."
+        },
+        {
+          "pmid": "26331687",
+          "type": "BACKGROUND",
+          "citation": "Schroder J, Sautier L, Kriston L, Berger T, Meyer B, Spath C, Kother U, Nestoriuc Y, Klein JP, Moritz S. Development of a questionnaire measuring Attitudes towards Psychological Online Interventions-the APOI. J Affect Disord. 2015 Nov 15;187:136-41. doi: 10.1016/j.jad.2015.08.044. Epub 2015 Aug 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005298",
+          "term": "Fertility"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055703",
+          "term": "Reproductive Physiological Phenomena"
+        },
+        {
+          "id": "D012101",
+          "term": "Reproductive and Urinary Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

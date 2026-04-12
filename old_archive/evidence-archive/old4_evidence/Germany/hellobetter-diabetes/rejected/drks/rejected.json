@@ -1,0 +1,23 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00016170",
+      "drks_id": "DRKS00016170",
+      "title": "Digital Diabetes Clinic",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00016170/details",
+      "_matched_query": "\"HelloBetter Diabetes\" AND \"übermittelten Angaben\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-diabetes/candidates/drks/raw/DRKS00016170.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study title 'Digital Diabetes Clinic' does not explicitly mention 'HelloBetter Diabetes' or provide a clear description matching the product. The abstract and intervention details are not available, and there is no evidence linking the sponsor/funder to the specific DTx product. This could be about a different product or a generic study.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T16:52:21.882125Z",
+  "_source": "drks"
+}

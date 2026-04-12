@@ -1,0 +1,308 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05510804",
+      "orgStudyIdInfo": {
+        "id": "AZ 19-187"
+      },
+      "organization": {
+        "fullName": "University of Luebeck",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of an App-based CBT Featuring Virtual Reality for Anxiety Disorders",
+      "officialTitle": "Ambulante Leitlinienkonforme Intervention im Selbstmanagement für Angststörungen (ALISA)",
+      "acronym": "ALISA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-03-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-10-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-03-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-07",
+      "studyFirstSubmitQcDate": "2022-08-19",
+      "studyFirstPostDateStruct": {
+        "date": "2022-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-08-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Bartosz of Zurowski",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Luebeck"
+      },
+      "leadSponsor": {
+        "name": "Bartosz of Zurowski",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Zentrum für Integrative Psychiatrie",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Primary aim is to evaluate the efficacy of a (minimally) therapist-guided app-based psychotherapy with virtual reality exposure therapy (ALISA) in participants with agoraphobia with or without panic disorder, social anxiety disorder or panic disorder. Participants are diagnosed applying a structured clinical interview by qualified psychologists and then they are randomly allocated to either the intervention group (ALISA) or a control group, receiving supportive psychotherapy while on a waiting list for a structured therapy programme. The investigators hypothesize that participants receiving ALISA compared to controls will present lower levels of anxiety and a higher quality of life at six-month follow-up after start of the intervention, according to Beck Anxiety Inventory (BAI, primary outcome measure) and WHO-QoL, respectively.",
+      "detailedDescription": "Primary aim is to evaluate the efficacy of a (minimally) therapist-guided app-based psychotherapy with virtual reality exposure therapy (ALISA) in participants with agoraphobia (with or without panic disorder), social anxiety disorder or panic disorder. The intervention has been developed by Sympatient GmbH in cooperation with the University of Luebeck, Dept. of Psychiatry. It consists of scheduled therapist assistance, a smartphone-based application consisting of eight CBT-based courses including instructive therapist videos, questionnaires and VR exposure scenarios presented via VR goggles as well as interoceptive exposures.\n\nParticipants are diagnosed according to a structured clinical interview (SCID) by experienced and trained clinical psychologists. Then they are randomly allocated to either the intervention group (ALISA) or a control group offered supportive psychotherapy while being on a waiting list for a structured therapy programme of an outpatient unit for patients with anxiety disorders. The investigators hypothesize that participants receiving ALISA - as compared to controls - will present lower levels of anxiety and a higher quality of life at 6-month follow-up after start of the intervention, according to Beck Anxiety Inventory (BAI, primary outcome measure) and WHO-QoL (L-1), respectively. Furthermore, the investigators hypothesize that the reduction of anxiety (ANOVA; group x time) can be shown at 1-year follow up. The investigators expect ALISA to be effective in each of the three disorder-specific therapy schedules (social phobia, panic disorder, agoraphobia w/without panic disorder). Therefore, disorder-specific symptom scales have been additionally adopted: Panic and Agoraphobia Scale (PAS) and Liebowitz Social Phobia Scale. Co-morbid depression and global functioning will be assessed using CGI and GAF as secondary outcome measures, respectively.\n\nThe allocation to the groups was conducted on the basis of random numbers generated by Microsoft Excel 2013 and with the restriction that the ratio of intervention to control group participants was 2:1. This unequal randomization was chosen for ethical reasons including a more reliable assessment of adverse events in the intervention group with a higher power. A planned sample size of n = 41 for each of the three diagnoses in the intervention group and n = 21 for each of the three diagnoses in the control group was calculated to detect a significant difference with an effect size of Cohens´s d = 0.9 with a probability of 90% and α = 2.5. Adding an estimated dropout-rate of 20%, each diagnosis group should include n = 49 participants in the intervention group and n = 25 in the control group, resulting in a total of N = 222 participants. (Multiple) imputation will be applied to deal with missing data. Results of Intention to treat analyses and following per protocol analyses will be reported.\n\nUsing records of cooperating health insurances, a health economic analysis of the intervention will be performed. Given that patients with untreated anxiety disorders show a markedly increased use of health system, a successful reduction of anxiety, once proven, should have an impact on patient's use of the health system in general (exploratory analysis)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anxiety",
+        "Social Phobia",
+        "Panic Disorder",
+        "Agoraphobia"
+      ],
+      "keywords": [
+        "Digital Health Application",
+        "Exposure",
+        "Virtual Reality",
+        "Cognitive Behavior Therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "RCT with 2:1 allocation either to Intervention or TAU (low-frequency unstructured contacts with therapist)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 222,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ALISA (therapist-assisted digital self-help intervention)",
+          "type": "EXPERIMENTAL",
+          "description": "structured app-based self-help programme with scheduled therapist assistance",
+          "interventionNames": [
+            "Combination Product: ALISA"
+          ]
+        },
+        {
+          "label": "TAU (supportive therapist contacts)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "low-frequency supportive therapist contacts",
+          "interventionNames": [
+            "Combination Product: ALISA"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "ALISA",
+          "description": "assisted self-help smartphone application featuring virtual reality within a structured CBT programme / low-frequency scheduled therapist assistance",
+          "armGroupLabels": [
+            "ALISA (therapist-assisted digital self-help intervention)",
+            "TAU (supportive therapist contacts)"
+          ],
+          "otherNames": [
+            "Invirto"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Beck Anxiety Inventory (BAI)",
+          "description": "standard self-report instrument (21 items) for anxiety applicable in all three disorders investigated",
+          "timeFrame": "6 months after inclusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Clinical Global Impression CGI",
+          "description": "broadly used measure of symptom severity, treatment response and the efficacy of treatments in treatment studies of patients with mental disorders It is a brief 3-item observer-rated scale for clinical practice and research.",
+          "timeFrame": "through intervention completion, on average month 3"
+        },
+        {
+          "measure": "Change in Global Assessment of Functioning (GAF)",
+          "description": "broadly used and WHO-recommended scale to evaluate an individual's' psychological, social, and occupational functioning (0-100)",
+          "timeFrame": "through intervention completion, on average month 3"
+        },
+        {
+          "measure": "Change in WHO QoL L-1",
+          "description": "one-item assessment of quality of life",
+          "timeFrame": "6 months after inclusion"
+        },
+        {
+          "measure": "Change in WHO QoL L-1",
+          "description": "one-item assessment of quality of life",
+          "timeFrame": "12 months after inclusion"
+        },
+        {
+          "measure": "Change in Beck Anxiety Inventory (BAI)",
+          "description": "standard self-report instrument (21 items) for anxiety applicable in all three disorders",
+          "timeFrame": "12 months after inclusion"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in Beck Depression Inventory (BDI II)",
+          "description": "standard self-report instrument (21 items) measuring depressive symptoms",
+          "timeFrame": "6 months after inclusion"
+        },
+        {
+          "measure": "Change in Beck Depression Inventory (BDI II)",
+          "description": "standard self-report instrument (21 items) measuring depressive symptoms",
+          "timeFrame": "12 months after inclusion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Primary diagnosis: Agoraphobia w/without PD (F 40.0, F40.01) OR Panic disorder (F41.0) OR Social anxiety disorder (phobia) (F40.1)\n* Smartphone availability\n\nExclusion Criteria:\n\n* history of stroke or heart attack\n* angina pectoris\n* cardiac arrhythmia\n* untreated high blood pressure\n* severe asthma or chronic obstructive pulmonary disease (COPD)\n* (supposed) pregnancy\n* severe visual impairment\n* severe nausea and/or vestibular impairment\n* epilepsy\n* neuropsychiatric condition (i.e. dementia)\n* psychiatric disorder associated with substance abuse\n* psychotic disorder\n* severe episode of major depression or manic episode\n* suicidal ideation or behavior",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Bartosz Zurowski, MD",
+          "role": "CONTACT",
+          "phone": "+4945150098831",
+          "email": "bartosz.zurowski@uksh.de"
+        },
+        {
+          "name": "Lars John, MD",
+          "role": "CONTACT",
+          "phone": "+4943150098008",
+          "email": "lars.john@uksh.de"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Bartosz Zurowski",
+          "affiliation": "Zentrum für Integrative Psychiatrie, Univ. of Luebeck",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Zentrum für Integrative Psychiatrie, Univ. of Kiel",
+          "status": "RECRUITING",
+          "city": "Kiel",
+          "state": "Schleswig-Holstein",
+          "zip": "24105",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Lars John, MD",
+              "role": "CONTACT",
+              "phone": "+4943150098008",
+              "email": "lars.john@uksh.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Zentrum für Integrative Psychiatrie, Univ. of Lübeck",
+          "status": "RECRUITING",
+          "city": "Lübeck",
+          "state": "Schleswig-Holstein",
+          "zip": "23538",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Bartosz Zurowski, MD",
+              "role": "CONTACT",
+              "phone": "+4945150098831",
+              "email": "bartosz.zurowski@uksh.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        },
+        {
+          "id": "D000072861",
+          "term": "Phobia, Social"
+        },
+        {
+          "id": "D016584",
+          "term": "Panic Disorder"
+        },
+        {
+          "id": "D000379",
+          "term": "Agoraphobia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D010698",
+          "term": "Phobic Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

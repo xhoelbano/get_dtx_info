@@ -513,7 +513,7 @@ class PubMedScraper(BaseEvidenceScraper):
     async def _fetch_and_save_raw_xml_to_candidates(
         self, 
         pmid: str, 
-gi        raw_folder: Path,
+        raw_folder: Path,
         max_retries: int = 3
     ) -> Optional[Path]:
         """Fetch raw XML for a single article and save to candidates folder.

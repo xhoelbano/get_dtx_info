@@ -1,0 +1,394 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03606941",
+      "orgStudyIdInfo": {
+        "id": "NKYY_YX_IRB_2017_036_02"
+      },
+      "organization": {
+        "fullName": "Tianjin Nankai Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Electroacupuncture on the Incidence of Postoperative Delirium in Elderly Patients Undergoing the Major Surgery",
+      "officialTitle": "Effect of Electroacupuncture on the Incidence of Postoperative Delirium in Elderly Patients Undergoing the Major Surgery：a Prospective, Multicenter, Double-blind, Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-09-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-10-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-07-02",
+      "studyFirstSubmitQcDate": "2018-07-28",
+      "studyFirstPostDateStruct": {
+        "date": "2018-07-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-11-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-11-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jianbo Yu",
+        "investigatorTitle": "Department of Anesthesiology, Director, Chief physician, Professor, Doctoral tutor",
+        "investigatorAffiliation": "Tianjin Nankai Hospital"
+      },
+      "leadSponsor": {
+        "name": "Tianjin Nankai Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "1. Title: Effect of electroacupuncture on the incidence of postoperative delirium in elderly patients undergoing the major surgery.\n2. Research center: Multicenter\n3. The Design of the study: Randomized, double-blind, controlled study\n4. The population of the study: Elderly patients（65≤age\\<90 years），it is planned to select a period/time limit for gastrointestinal tumor surgery, bile duct surgery, thoracic surgery or orthopedic surgery and so on under general anesthesia, and the estimated operation time≥ 2 hours.\n5. Sample size: Enroll 1100 patients (550 patients in each group)\n6. Interventions: Participants in the treatment group received acupuncture (0.30mm×70mm) at bilaterally Shenmen (HT7) acupoints (0.3-0.5 inch), Neiguan (PC6) acupoints (0.5-1 inch), Baihui (DU20) acupoint (0.5-0.8 inch) and Yintang (EX-HN3) acupoint (0.3-0.5 inch) 30 minutes before anesthesia induction. After \"Deqi\", electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China) is connected and maintained the end of operation. Participants in the control group received shallow needling (0.30mm×25mm) at bilateral sham HT7, PC6, DU20 and EX-HN3 (nonacupoints located 1 inch beside acupoints, about 20mm). Specifically, the depth of needle insertion into nonacupoints is 3-5mm and avoided manual stimulation and no \"Deqi\" without actual current output.\n7. The aim of the research: To investigate the effect of electroacupuncture on the incidence of postoperative delirium within 5 days in elderly patients undergoing the major surgery.\n8. Outcome： 1) Primary outcome：The incidence of delirium within 5 days after surgery；The effects on postoperative NRS pain and sleep quality scores； 2)Secondary outcome：Duration of mechanical ventilation in patients with endotracheal intubation on ICU admission; Length of stay in ICU and Length of stay in hospital after surgery; Incidence of postoperative complications (including re-hospitalization); 30-day life quality and cognitive function after surgery; All-cause 30-day mortality after surgery.\n9. The estimated duration of the study：3-4 years.",
+      "detailedDescription": "This study is a large sample, randomized, double-blinded, placebo-controlled and long-term follow-up design. In this study, bilateral Shenmen, Neiguan, Baihui and Yintang acupoints were selected for perioperative electroacupuncture treatment, accompanied with evaluating the incidence of delirium within 5 days after surgery,the effects on postoperative NRS pain and sleep quality scores as well as the detection of blood biochemical indexes such as serum S100β, brain derived neurotrophic factor (BDNF), interleukin-6 and interleukin-8. To clarify the effect of electroacupuncture on the incidence of postoperative delirium in elderly patients undergoing the major surgery is of great significance to the clinical applications and popularization of traditional acupuncture treatment perioperatively across the world."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Postoperative Delirium"
+      ],
+      "keywords": [
+        "electroacupuncture; delirium; the elderly; surgery, major"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "electroacupuncture treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in the treatment group received acupuncture (0.30mm×70mm) at bilaterally Shenmen (HT7) acupoints (0.3-0.5 inch), Neiguan (PC6) acupoints (0.5-1 inch), Baihui (DU20) acupoint (0.5-0.8 inch) and Yintang (EX-HN3) acupoint (0.3-0.5 inch) 30 minutes before anesthesia induction. After \"Deqi\", electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China) is connected and maintained the end of operation.",
+          "interventionNames": [
+            "Device: electroacupuncture treatment"
+          ]
+        },
+        {
+          "label": "sham electroacupuncture treatment",
+          "type": "SHAM_COMPARATOR",
+          "description": "Participants in the control group received shallow needling (0.30mm×25mm) at bilateral sham HT7, PC6, DU20 and EX-HN3 (nonacupoints located 1 inch beside acupoints, about 20mm). Specifically, the depth of needle insertion into nonacupoints is 3-5mm and avoided manual stimulation and no \"Deqi\" without actual current output.",
+          "interventionNames": [
+            "Device: sham electroacupuncture treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "electroacupuncture treatment",
+          "description": "Participants in the electroacupuncture group received acupuncture (0.30mm×70mm) at bilaterally Shenmen (HT7) acupoints (0.3-0.5 inch), Neiguan (PC6) acupoints (0.5-1 inch), Baihui (DU20) acupoint (0.5-0.8 inch) and Yintang (EX-HN3) acupoint (0.3-0.5 inch) 30 minutes before anesthesia induction. After \"Deqi\", electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China) is connected with the density wave (2/100 Hz), width 0.25 ms, intensity of 1 \\~ 30 mA (gradually increase to the patient's maximum tolerance) and maintained the end of operation.",
+          "armGroupLabels": [
+            "electroacupuncture treatment"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "sham electroacupuncture treatment",
+          "description": "Participants in the sham electroacupuncture group received shallow needling (0.30mm×25mm) at bilateral sham HT7, PC6, DU20 and EX-HN3 (nonacupoints located 1 inch beside acupoints, about 20mm). Specifically, the depth of needle insertion into nonacupoints is 3-5mm and avoided manual stimulation and no \"Deqi\" without actual current output, and retained the needle until the end of surgery.",
+          "armGroupLabels": [
+            "sham electroacupuncture treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The incidence of delirium within 5 days after surgery",
+          "description": "Using confusion assessment method (CAM) or CAM-ICU methods to assess delirium",
+          "timeFrame": "an average of one year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Duration of mechanical ventilation in patients with endotracheal intubation on ICU",
+          "description": "Duration of mechanical ventilation and endotracheal intubation in ICU",
+          "timeFrame": "an average of 1 year"
+        },
+        {
+          "measure": "Length of stay in hospital after surgery",
+          "description": "postoperative ICU stay time and hospitalization time",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Incidence of non-delirium complications during the first 30 days after surgery (including re-hospitalization)",
+          "description": "cardiac events, cerebrovascular events, renal injury, infections, etc",
+          "timeFrame": "up to 1 year"
+        },
+        {
+          "measure": "All-cause 30-day mortality after surgery",
+          "description": "All reasons (such as infection, hemorrhage) caused the mortality during the first 30 days after surgery",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "The effects on postoperative pain scores",
+          "description": "NRS method is used to evaluate the pain scores of patients (0 points to complete Painless, 10 points to the maximum pain that can be tolerated)",
+          "timeFrame": "up to 12 months"
+        },
+        {
+          "measure": "The effects on postoperative sleep quality scores",
+          "description": "Using the NRS method (0 for the best quality of sleep and 10 for the worst quality of sleep)",
+          "timeFrame": "up to one year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age≥65 and \\<90 years old；\n2. Planning to undergo select timed/limited surgery such as gastrointestinal tumor surgery, bile duct surgery and thoracic surgery etc under general anesthesia, and the estimated operation time is more than 2 hours;；\n3. Treatment without radiotherapy or chemotherapy prior to surgery；\n4. Agree to participate in this study and sign informed consent；\n\nExclusion Criteria:\n\n1. Refuse to participate in this study；\n2. Preoperative history of schizophrenia, epilepsy, Parkinson's disease, or myasthenia gravis；\n3. Inability to communicate in the preoperative period to complete preoperative evaluation because of severe dementia, coma, language barrier；\n4. Brain injury or neurosurgery；\n5. Critical condition (if the ASA grade is greater than or equal to grade IV before surgery); Severe renal impairment (dialysis treatment before surgery); Severe liver function impairment (Child-Pugh level C); Preoperative combined with severe heart disease, LVEF \\< 30%;\n6. Previous experience of acupoint stimulation therapy or non-insensitive to acupoint stimulation；\n7. The attending physician or researcher considers that there are other circumstances (reasons to be noted) that are not suitable for participation in this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jianbo Yu, MD,PhD",
+          "affiliation": "Tianjin Nankai Hospital",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Electroacupuncture Apparatus",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "zip": "300100",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28973626",
+          "type": "RESULT",
+          "citation": "Oh ES, Fong TG, Hshieh TT, Inouye SK. Delirium in Older Persons: Advances in Diagnosis and Treatment. JAMA. 2017 Sep 26;318(12):1161-1174. doi: 10.1001/jama.2017.12067."
+        },
+        {
+          "pmid": "19106695",
+          "type": "RESULT",
+          "citation": "Robinson TN, Raeburn CD, Tran ZV, Angles EM, Brenner LA, Moss M. Postoperative delirium in the elderly: risk factors and outcomes. Ann Surg. 2009 Jan;249(1):173-8. doi: 10.1097/SLA.0b013e31818e4776."
+        },
+        {
+          "pmid": "24931688",
+          "type": "RESULT",
+          "citation": "Naeije G, Pepersack T. Delirium in elderly people. Lancet. 2014 Jun 14;383(9934):2044-2045. doi: 10.1016/S0140-6736(14)60993-4. No abstract available."
+        },
+        {
+          "pmid": "22032658",
+          "type": "RESULT",
+          "citation": "Morandi A, Jackson JC. Delirium in the intensive care unit: a review. Neurol Clin. 2011 Nov;29(4):749-63. doi: 10.1016/j.ncl.2011.08.004."
+        },
+        {
+          "pmid": "11797025",
+          "type": "RESULT",
+          "citation": "Ely EW, Gautam S, Margolin R, Francis J, May L, Speroff T, Truman B, Dittus R, Bernard R, Inouye SK. The impact of delirium in the intensive care unit on hospital length of stay. Intensive Care Med. 2001 Dec;27(12):1892-900. doi: 10.1007/s00134-001-1132-2. Epub 2001 Nov 8."
+        },
+        {
+          "pmid": "20069607",
+          "type": "RESULT",
+          "citation": "Ansaloni L, Catena F, Chattat R, Fortuna D, Franceschi C, Mascitti P, Melotti RM. Risk factors and incidence of postoperative delirium in elderly patients after elective and emergency surgery. Br J Surg. 2010 Feb;97(2):273-80. doi: 10.1002/bjs.6843."
+        },
+        {
+          "pmid": "10335730",
+          "type": "RESULT",
+          "citation": "Inouye SK, Schlesinger MJ, Lydon TJ. Delirium: a symptom of how hospital care is failing older persons and a window to improve quality of hospital care. Am J Med. 1999 May;106(5):565-73. doi: 10.1016/s0002-9343(99)00070-4."
+        },
+        {
+          "pmid": "11161124",
+          "type": "RESULT",
+          "citation": "Franco K, Litaker D, Locala J, Bronson D. The cost of delirium in the surgical patient. Psychosomatics. 2001 Jan-Feb;42(1):68-73. doi: 10.1176/appi.psy.42.1.68."
+        },
+        {
+          "pmid": "15071384",
+          "type": "RESULT",
+          "citation": "Milbrandt EB, Deppen S, Harrison PL, Shintani AK, Speroff T, Stiles RA, Truman B, Bernard GR, Dittus RS, Ely EW. Costs associated with delirium in mechanically ventilated patients. Crit Care Med. 2004 Apr;32(4):955-62. doi: 10.1097/01.ccm.0000119429.16055.92."
+        },
+        {
+          "pmid": "18577850",
+          "type": "RESULT",
+          "citation": "Bickel H, Gradinger R, Kochs E, Forstl H. High risk of cognitive and functional decline after postoperative delirium. A three-year prospective study. Dement Geriatr Cogn Disord. 2008;26(1):26-31. doi: 10.1159/000140804. Epub 2008 Jun 24."
+        },
+        {
+          "pmid": "19017895",
+          "type": "RESULT",
+          "citation": "Balas MC, Happ MB, Yang W, Chelluri L, Richmond T. Outcomes Associated With Delirium in Older Patients in Surgical ICUs. Chest. 2009 Jan;135(1):18-25. doi: 10.1378/chest.08-1456. Epub 2008 Nov 18."
+        },
+        {
+          "pmid": "19745202",
+          "type": "RESULT",
+          "citation": "Pisani MA, Kong SY, Kasl SV, Murphy TE, Araujo KL, Van Ness PH. Days of delirium are associated with 1-year mortality in an older intensive care unit population. Am J Respir Crit Care Med. 2009 Dec 1;180(11):1092-7. doi: 10.1164/rccm.200904-0537OC. Epub 2009 Sep 10."
+        },
+        {
+          "pmid": "28576285",
+          "type": "RESULT",
+          "citation": "Avidan MS, Maybrier HR, Abdallah AB, Jacobsohn E, Vlisides PE, Pryor KO, Veselis RA, Grocott HP, Emmert DA, Rogers EM, Downey RJ, Yulico H, Noh GJ, Lee YH, Waszynski CM, Arya VK, Pagel PS, Hudetz JA, Muench MR, Fritz BA, Waberski W, Inouye SK, Mashour GA; PODCAST Research Group. Intraoperative ketamine for prevention of postoperative delirium or pain after major surgery in older adults: an international, multicentre, double-blind, randomised clinical trial. Lancet. 2017 Jul 15;390(10091):267-275. doi: 10.1016/S0140-6736(17)31467-8. Epub 2017 May 30."
+        },
+        {
+          "pmid": "27542303",
+          "type": "RESULT",
+          "citation": "Su X, Meng ZT, Wu XH, Cui F, Li HL, Wang DX, Zhu X, Zhu SN, Maze M, Ma D. Dexmedetomidine for prevention of delirium in elderly patients after non-cardiac surgery: a randomised, double-blind, placebo-controlled trial. Lancet. 2016 Oct 15;388(10054):1893-1902. doi: 10.1016/S0140-6736(16)30580-3. Epub 2016 Aug 16."
+        },
+        {
+          "pmid": "19825486",
+          "type": "RESULT",
+          "citation": "Sieber FE. Postoperative delirium in the elderly surgical patient. Anesthesiol Clin. 2009 Sep;27(3):451-64, table of contents. doi: 10.1016/j.anclin.2009.07.009."
+        },
+        {
+          "pmid": "28290991",
+          "type": "RESULT",
+          "citation": "Avramescu S, Wang DS, Choi S, Orser BA. Preventing delirium: beyond dexmedetomidine. Lancet. 2017 Mar 11;389(10073):1009. doi: 10.1016/S0140-6736(17)30661-X. No abstract available."
+        },
+        {
+          "pmid": "21359918",
+          "type": "RESULT",
+          "citation": "Lin JG, Chen YH. The mechanistic studies of acupuncture and moxibustion in Taiwan. Chin J Integr Med. 2011 Mar;17(3):177-86. doi: 10.1007/s11655-011-0664-8."
+        },
+        {
+          "pmid": "15851892",
+          "type": "RESULT",
+          "citation": "Chernyak GV, Sessler DI. Perioperative acupuncture and related techniques. Anesthesiology. 2005 May;102(5):1031-49; quiz 1077-8. doi: 10.1097/00000542-200505000-00024."
+        },
+        {
+          "pmid": "28655016",
+          "type": "RESULT",
+          "citation": "Liu Z, Liu Y, Xu H, He L, Chen Y, Fu L, Li N, Lu Y, Su T, Sun J, Wang J, Yue Z, Zhang W, Zhao J, Zhou Z, Wu J, Zhou K, Ai Y, Zhou J, Pang R, Wang Y, Qin Z, Yan S, Li H, Luo L, Liu B. Effect of Electroacupuncture on Urinary Leakage Among Women With Stress Urinary Incontinence: A Randomized Clinical Trial. JAMA. 2017 Jun 27;317(24):2493-2501. doi: 10.1001/jama.2017.7220."
+        },
+        {
+          "pmid": "24595780",
+          "type": "RESULT",
+          "citation": "Vickers AJ, Linde K. Acupuncture for chronic pain. JAMA. 2014 Mar 5;311(9):955-6. doi: 10.1001/jama.2013.285478."
+        },
+        {
+          "pmid": "27618593",
+          "type": "RESULT",
+          "citation": "Liu Z, Yan S, Wu J, He L, Li N, Dong G, Fang J, Fu W, Fu L, Sun J, Wang L, Wang S, Yang J, Zhang H, Zhang J, Zhao J, Zhou W, Zhou Z, Ai Y, Zhou K, Liu J, Xu H, Cai Y, Liu B. Acupuncture for Chronic Severe Functional Constipation: A Randomized Trial. Ann Intern Med. 2016 Dec 6;165(11):761-769. doi: 10.7326/M15-3118. Epub 2016 Sep 13."
+        },
+        {
+          "pmid": "28962170",
+          "type": "RESULT",
+          "citation": "Lin R, Li X, Liu W, Chen W, Yu K, Zhao C, Huang J, Yang S, Peng H, Tao J, Chen L. Electro-acupuncture ameliorates cognitive impairment via improvement of brain-derived neurotropic factor-mediated hippocampal synaptic plasticity in cerebral ischemia-reperfusion injured rats. Exp Ther Med. 2017 Sep;14(3):2373-2379. doi: 10.3892/etm.2017.4750. Epub 2017 Jul 10."
+        },
+        {
+          "pmid": "28658163",
+          "type": "RESULT",
+          "citation": "Zhang Q, Li YN, Guo YY, Yin CP, Gao F, Xin X, Huo SP, Wang XL, Wang QJ. Effects of preconditioning of electro-acupuncture on postoperative cognitive dysfunction in elderly: A prospective, randomized, controlled trial. Medicine (Baltimore). 2017 Jun;96(26):e7375. doi: 10.1097/MD.0000000000007375."
+        },
+        {
+          "pmid": "28231740",
+          "type": "RESULT",
+          "citation": "Matsumoto-Miyazaki J, Ushikoshi H, Miyata S, Miyazaki N, Nawa T, Okada H, Ojio S, Ogura S, Minatoguchi S. Acupuncture and Traditional Herbal Medicine Therapy Prevent Deliriumin Patients with Cardiovascular Disease in Intensive Care Units. Am J Chin Med. 2017;45(2):255-268. doi: 10.1142/S0192415X17500161. Epub 2017 Feb 23."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000071257",
+          "term": "Emergence Delirium"
+        },
+        {
+          "id": "D003693",
+          "term": "Delirium"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003221",
+          "term": "Confusion"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

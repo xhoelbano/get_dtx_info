@@ -1,0 +1,33 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00034897",
+      "drks_id": "DRKS00034897",
+      "title": "Evaluation of the impact of the Una Health for Diabetes app on HbA1c in patients with type 2 diabetes (EVALUNA)",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00034897/details",
+      "_matched_query": "\"Una Health\"",
+      "_raw_json_path": "evidence/Germany/una-health-fur-diabetes/candidates/drks/raw/DRKS00034897.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'Una Health for Diabetes,' which matches the product name provided. The clinical area (type 2 diabetes) and the context align with the described DTx. Although the abstract and intervention details are not available, the title provides sufficient specificity.",
+        "matched_elements": [
+          "Una Health for Diabetes (title)",
+          "Type 2 diabetes (clinical area)"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 60,
+        "reason": "Insufficient details provided to confirm randomization, blinding, or interventional design. The study appears to evaluate the impact of an app in a real-world setting, which aligns more with observational research."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:28:40.538552Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

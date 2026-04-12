@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00023023",
+      "drks_id": "DRKS00023023",
+      "title": "Randomized-controlled trial investigating the effectiveness of a digital life-style intervention to improve quality of life in people with multiple sclerosis.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00023023/details",
+      "_matched_query": "\"levidex\"",
+      "_raw_json_path": "evidence/Germany/levidex/candidates/drks/raw/DRKS00023023.json"
+    },
+    {
+      "study_id": "DRKS00032667",
+      "drks_id": "DRKS00032667",
+      "title": "Acceptability of a digital health application to empower persons with multiple sclerosis with moderate to severe disability: Single-arm prospective pilot study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00032667/details",
+      "_matched_query": "\"levidex\"",
+      "_raw_json_path": "evidence/Germany/levidex/candidates/drks/raw/DRKS00032667.json"
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"levidex\"",
+    "\"levidex\" AND \"übermittelten Angaben\""
+  ],
+  "dtx_name": "levidex",
+  "country": "Germany",
+  "_saved_at": "2026-02-09T19:44:07.144990Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

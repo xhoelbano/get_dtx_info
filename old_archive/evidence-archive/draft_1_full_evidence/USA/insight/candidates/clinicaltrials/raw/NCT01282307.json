@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01282307",
+      "orgStudyIdInfo": {
+        "id": "N-20070070"
+      },
+      "organization": {
+        "fullName": "University of Aarhus",
+        "class": "OTHER"
+      },
+      "briefTitle": "Improving Insight in Patients Diagnosed With Schizophrenia",
+      "officialTitle": "Meaningful Change With the Method Guided Self-Determination - a Randomised Controlled Study for Patients Diagnosed With Schizophrenia.",
+      "acronym": "GEBRCT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-11-19",
+      "studyFirstSubmitQcDate": "2011-01-21",
+      "studyFirstPostDateStruct": {
+        "date": "2011-01-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-08-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-08-14",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Rikke Jørgensen",
+        "investigatorTitle": "MSN ResearchNurse, PhD.Student",
+        "investigatorAffiliation": "University of Aarhus"
+      },
+      "leadSponsor": {
+        "name": "University of Aarhus",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Aalborg Psychiatric Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Background:\n\nRehospitalisation and discontinued treatment are common among patients with schizophrenia and is often associated with lack of insight into the illness. Improving patients' insight has been attempted through psychoeducation and standard treatment but without any considerable change. A newly developed method, Guided Self-Determination (GSD), originally developed and proved effective in difficult diabetes care has been adjusted to patients with schizophrenia. A qualitative evaluation of GSD has shown a positive influence on patients' insight into the illness.\n\nAim and hypotheses: The aim of the study is to evaluate the effects of the method GSD in the care of patients with schizophrenia compared to treatment as usual. The following hypotheses will be tested:\n\nThe method GSD will improve: Cognitive and clinical insight in patients, various domains of recovery, patients' self-esteem, psychopathology and social functioning.\n\nMaterial and method:\n\nThe study design is a randomised controlled trial. The participants are diagnosed with schizophrenia and schizoaffective disorder, receiving treatment in 3 Assertive Outreach Teams and 3 Psychosis Teams in Region North. Participants complete four self-rating questionnaires, a demographic data sheet, an interview concerning psychopathology and an assessment of social functioning at baseline, and after 3, 6, and 12 month. All assessments will be conducted by the investigator, except for the assessment of social functioning, that will be measures by community nurses. Intervention with the method GSD will also be conducted by the community nurses but under supervision from the investigator. Fifty patients are randomly assigned to immediate receipt of individual training with the method GSD (intervention group) and 50 to a 12-month waiting list for individual training with the method GSD (control group).\n\nPerspectives:\n\nIn mental health nursing practice in Denmark there is no tradition for empirical research as the basis of psychiatric nursing - unverified theories or general empirical consensus of good clinical practice are often the foundation of psychiatric nursing. If the method GSD proves effective in the care of patients with schizophrenia, this study contributes to an evidence based nursing intervention, which is ready for further research on implementation in mental health nursing practice."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Schizophrenia"
+      ],
+      "keywords": [
+        "Guided Self-Determination",
+        "Improving insight",
+        "Autonomy-supportive problem solving intervention",
+        "Evaluate the effects of the method Guided Self-Determination",
+        "Improving insight in patients diagnosed with schizophrenia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 101,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Method Guided Self-Determination",
+          "type": "EXPERIMENTAL",
+          "description": "The Method Guided Self-Determination consists of 21 worksheets designed to guide patient and mental health professionals through autonomy-supportive problem solving. The worksheets are filled in by the patient before and between conversations with their community nurse over 10 sessions, approximately 1 hour a session.",
+          "interventionNames": [
+            "Behavioral: Guided Self-Determination GSD"
+          ]
+        },
+        {
+          "label": "Treatment as usual",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Guided Self-Determination GSD",
+          "description": "The method GSD consists of 21 worksheets designed to guide patient and mental health professionals through autonomy-supportive problem solving. The worksheets are filled in by the patient before and between conversations with their community nurse over 10 sessions, approximately 1 hour a session.",
+          "armGroupLabels": [
+            "Method Guided Self-Determination"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "changes in cognitive insight over time",
+          "description": "Cognitive insight is measured by the selvrating questionnaire Beck Cognitive Insight Scale (BCIS).",
+          "timeFrame": "baseline, 3,6 and 12 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in Clinical insight over time",
+          "description": "Clinical insight is measured by the self-rating questionnaire \"Birchwood Insight Scale\"",
+          "timeFrame": "baseline, 3,6,12 month"
+        },
+        {
+          "measure": "changes in various domains of recovery over time",
+          "description": "recovery is measured by the self-rating questionnaire \"Recovery Assessment Scale\"",
+          "timeFrame": "baseline, 3,6,12 month"
+        },
+        {
+          "measure": "changes in self-esteem over time",
+          "description": "self-esteem is measured by the self-rating questionnaire \"Rosenberg self-esteem scale\"",
+          "timeFrame": "baseline, 3,6,12 month"
+        },
+        {
+          "measure": "changes in psychopathology over time",
+          "description": "Psychopathology is measured by the PANSS - \"Positive and Negative Symptom Scale\"",
+          "timeFrame": "baseline, 3,6,12 month"
+        },
+        {
+          "measure": "changes of social function over time",
+          "description": "Social function is measured by GAF - \"Global Assessment Scale\"",
+          "timeFrame": "baseline, 3,6,12 month"
+        },
+        {
+          "measure": "Therapeutic relationship",
+          "description": "Therapeutic relationship is measured by STAR - \"Scale to assess Therapeutic Relationship in Community Mental Health Care\" patient version",
+          "timeFrame": "12 month"
+        },
+        {
+          "measure": "Therapeutic relationship",
+          "description": "Therapeutic relationship is measured by HAS - \"Helping Alliance Scale\"",
+          "timeFrame": "12 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient's hospital record meeting the criteria for schizophrenia according to ICD-10 F.20.0-9 or schizoaffective disorder according to ICD-10 F.25.0-9\n* Age 18 - 70 years at the time of inclusion\n* Ability to understand, speak and write Danish - assessed by the community nurse\n* Informed written consent\n* receiving treatment in an assertive outreach team or psychosis team in region north in Denmark\n\nExclusion Criteria:\n\n* Previous participation with the method GSD\n* Patients who are mentally handicapped or diagnosed with any kind of dementia or an organic brain disease according to their hospital record\n* In need of an interpreter to understand, speak and write Danish\n* Withdrawal of informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Rikke Jørgensen, MSN",
+          "affiliation": "Unit for Psychiatric Research, Aalborg Psychiatric Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Psychiatry in Region North Jutland",
+          "city": "Aalborg",
+          "state": "North Jutland",
+          "zip": "9000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25601635",
+          "type": "DERIVED",
+          "citation": "Jorgensen R, Licht RW, Lysaker PH, Munk-Jorgensen P, Buck KD, Jensen SO, Hansson L, Zoffmann V. Effects on cognitive and clinical insight with the use of Guided Self-Determination in outpatients with schizophrenia: A randomized open trial. Eur Psychiatry. 2015 Jul;30(5):655-63. doi: 10.1016/j.eurpsy.2014.12.007. Epub 2015 Jan 16."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012559",
+          "term": "Schizophrenia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019967",
+          "term": "Schizophrenia Spectrum and Other Psychotic Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

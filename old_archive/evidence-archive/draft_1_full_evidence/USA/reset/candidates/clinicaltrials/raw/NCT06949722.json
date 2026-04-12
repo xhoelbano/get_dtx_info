@@ -1,0 +1,216 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06949722",
+      "orgStudyIdInfo": {
+        "id": "RESET-Sleep"
+      },
+      "organization": {
+        "fullName": "National University of Singapore",
+        "class": "OTHER"
+      },
+      "briefTitle": "Redirecting Poor Sleep Drivers of Early Cardiovascular Disease",
+      "officialTitle": "Redirecting Poor Sleep Drivers of Early Cardiovascular Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-08-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-22",
+      "studyFirstSubmitQcDate": "2025-04-22",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michael W.L. Chee",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "National University of Singapore"
+      },
+      "leadSponsor": {
+        "name": "National University of Singapore",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Sleep health is a critical component of cardiovascular well-being, and poor sleep has been linked with increased risk for all-cause mortality including cardiovascular disease (CVD). Moreover, many individuals within a population may have underlying, subclinical cardiovascular conditions, such as hypertension and arterial stiffness, and these may risk progressing to advanced CVD when coupled with inadequate sleep duration and quality. Given that Singapore ranks as the third most sleep-deprived city globally, understanding the relationship between sleep health and the prevalence and progression of CVD becomes increasingly important for population health. In addition, depression and psychological stress could also lead to poorer cardiovascular health by increasing blood cholesterol, blood sugar and blood pressure, and could also be directly related to or arise as a result of poor sleep. The aim of the current study is to track sleep and mental health using a combination of objective sleep tracking (Oura ring) and smartphone-based questionnaires (EMA), and examine their associations with detailed cardiovascular health data collected by the project RESET (Redirecting Immune, Lipid and Metabolic Drivers of Early Cardiovascular Disease).",
+      "detailedDescription": "Sleep health is a critical component of cardiovascular well-being, and poor sleep has been linked with increased risk for all-cause mortality including cardiovascular disease (CVD). Previous research suggested that inadequate duration and quality of sleep may increase the risk for developing cardiovascular disease. Moreover, many individuals within a population may have underlying, subclinical cardiovascular conditions, such as hypertension and arterial stiffness, and these may risk progressing to advanced CVD when coupled with poor sleep. Given that Singapore ranks as the third most sleep-deprived city globally, understanding the relationship between sleep health and the prevalence and progression of CVD becomes increasingly important for population health. In addition, depression and psychological stress could also lead to poorer cardiovascular health. by increasing blood cholesterol, blood sugar and blood pressure, and could also be directly related to or arise as a result of poor sleep. Therefore, it is essential to assess the relationship between CVD progression and sleep as a multidimensional construct with overlapping components, including duration, timing, regularity, and efficiency, using objectively collected data over multiple days.\n\nThrough the combination of objective sleep tracking through wearables with health assessments conducted in the RESET study (registered with ClinicalTrials.gov under NCT06211868), we will gain valuable insights into these dimensions of poor sleep and wellbeing factors that are associated with poor cardiovascular health.\n\nThe investigators aim to examine following questions using a combination of objective sleep tracking (Oura ring), smartphone-based questionnaires (EMA) and detailed health data collected by the RESET study.\n\n1. How are sleep patterns, in terms of duration, timing, efficiency and regularity, associated with cardiovascular health outcomes and disease risk, at baseline and follow-up ?\n2. How are sleep patterns, in terms of duration, timing, efficiency and regularity, associated with vascular aging patterns?\n3. How are patterns of subjective wellbeing related to cardiovascular health, at baseline and follow-up ?\n4. Do sleep and subjective wellbeing measures relate on a day to day basis?\n\nThe investigators hypothesize that inadequate sleep duration, timing, and regularity will be associated with increased cardiovascular risk at baseline and follow-up. Individuals with irregular sleep duration and timing are expected to demonstrate higher arterial stiffness and profiles indicative of early vascular aging. Additionally, participants reporting poor subjective well-being are anticipated to experience poorer sleep quality, which will further associate with increased cardiovascular risk."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sleep",
+        "Cardiovascular Risk Factors"
+      ],
+      "keywords": [
+        "Sleep",
+        "Cardiovascular disease",
+        "Wearables",
+        "Cardiovascular risk",
+        "Objective sleep tracking"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 1500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Participants from RESET",
+          "description": "Interested participants will be drawn from the RESET cohort which includes South-East Asians aged 40-70 years with no prior manifest atherosclerotic cardiovascular disease."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Sleep time",
+          "description": "The Oura ring is a device worn on the finger which non-invasively records movement, heart rate and temperature to infer sleep and physical activity. Sleep Onset Time, Wake Time, on Workday (weekday) and Free Day (Weekend / vacation) will be recorded for nocturnal sleep and naps.",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Sleep duration",
+          "description": "The Oura ring is a device worn on the finger which non-invasively records movement, heart rate and temperature to infer sleep and physical activity. Sleep Duration on Workday (weekday) and Free Day (Weekend / vacation) will be recorded for nocturnal sleep and naps.",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Wake after sleep onset",
+          "description": "The Oura ring is a device worn on the finger which non-invasively records movement, heart rate and temperature to infer sleep and physical activity. Wake after Sleep Onset on Workday (weekday) and Free Day (Weekend / vacation) will be recorded.",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Sleep regularity",
+          "description": "The Oura ring is a device worn on the finger which non-invasively records movement, heart rate and temperature to infer sleep and physical activity. Sleep Regularity (computed via Std Deviation and Sleep Regularity Index; evaluated over 4 weeks minimally) will be recorded.",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Well-being",
+          "description": "Participants input ratings about a rotating set of questions concerning wellbeing daily through a smartphone based app (Z4IP) that has been used in prior studies. This daily assessment can be done anytime between 8pm and 12am each day. Higher scores represent higher levels of well-being.",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Major adverse cardiovascular event",
+          "description": "Composite of cardiac death, non-fatal myocardial infarction, resuscitated cardiac arrest, non-fatal ischemic stroke, congestive heart failure, coronary revascularization",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Arterial stiffness",
+          "description": "Pulse wave velocity and arterial stiffness measurements will be recorded using applanation tonometry",
+          "timeFrame": "Across the 2 year study"
+        },
+        {
+          "measure": "Vascular age",
+          "description": "Vascular age is calculated using arterial stiffness and traditional cardiovascular risk factors to infer about vascular health.",
+          "timeFrame": "Across the 2 year study"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Predicted vascular age",
+          "description": "Vascular age will be predicted using PPG data and machine learning approaches.",
+          "timeFrame": "Across the 2 year study"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing to wear a ring\n* Have any of the following conditions:\n\n  * High blood pressure\n  * High cholesterol\n  * Fatty liver\n  * Family history of heart diseases or stroke.\n  * Obesity\n\nExclusion Criteria:\n\n* Prior history of heart attack or stroke or balloon angioplasty/stent placement\n* Restricted peripheral circulation (e.g., Raynaud's disease)\n* Pacemakers",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "South-East Asian population aged 40-70 years with no prior manifest atherosclerotic cardiovascular disease (ACSVD).",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ju Lynn Ong, PhD",
+          "role": "CONTACT",
+          "phone": "+6566015238",
+          "email": "julynn.ong@nus.edu.sg"
+        },
+        {
+          "name": "Gizem Yilmaz, PhD",
+          "role": "CONTACT",
+          "phone": "+6566015238",
+          "email": "gizem.yilmaz@nus.edu.sg"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National University of Singapore",
+          "status": "RECRUITING",
+          "city": "Singapore",
+          "zip": "119077",
+          "country": "Singapore",
+          "contacts": [
+            {
+              "name": "Ju Lynn Ong, PhD",
+              "role": "CONTACT",
+              "email": "julynn.ong@nus.edu.sg"
+            }
+          ],
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

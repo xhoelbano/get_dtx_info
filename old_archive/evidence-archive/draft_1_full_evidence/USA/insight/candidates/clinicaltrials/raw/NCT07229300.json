@@ -1,0 +1,247 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07229300",
+      "orgStudyIdInfo": {
+        "id": "2302504"
+      },
+      "organization": {
+        "fullName": "Kaiser Permanente",
+        "class": "OTHER"
+      },
+      "briefTitle": "AI ECHO INSIGHT RCT for Automated Echo Reporting",
+      "officialTitle": "Artificial Intelligence Echocardiogram Interpretation for Systematic Integration and Guided Healthcare Transformation (The AI ECHO INSIGHT Study)",
+      "acronym": "AI INSIGHT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-12",
+      "studyFirstSubmitQcDate": "2025-11-13",
+      "studyFirstPostDateStruct": {
+        "date": "2025-11-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "David Ouyang",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Kaiser Permanente"
+      },
+      "leadSponsor": {
+        "name": "Kaiser Permanente",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this blinded randomized controlled trial is to assess whether AI-assisted TTE interpretation can improve cardiologist efficiency and reduce interpretation variability while preserving accuracy compared to current methods in adult patients whose historical echocardiogram images were performed.\n\nThe main questions it aims to answer is to:\n\n1. Assess overall transthoracic echocardiogram (TTE) interpretation accuracy of an AI-assisted workflow compared to standard cardiologist-only and sonographer-assisted workflows to hypothesize if AI-assisted workflow for echocardiography interpretation is non-inferior in accuracy compared to standard workflows.\n2. Evaluate cardiologist interpretation time using an AI-assisted workflow compared to standard cardiologist-only and sonographer-assisted workflows to determine if an AI-assisted workflow will result in a decrease in interpretation time compared to the cardiologist-only workflow.\n3. To compare interpretation consistency and reliability compared to historical reports as well as consensus reports of all finalized cardiologist reports."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Echocardiography, Transthoracic",
+        "Echocardiographic Software"
+      ],
+      "keywords": [
+        "Echocardiography Interpretation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AI-Assisted Interpretation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "In AI-prelim arm, AI provides the preliminary interpretation which is finalized by a blinded cardiologist.",
+          "interventionNames": [
+            "Other: AI-Assisted Echocardiogram Interpretation"
+          ]
+        },
+        {
+          "label": "Sonographer-Assisted Interpretation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "In Sonographer-prelim arm, sonographer provides the preliminary interpretation which is finalized by a blinded cardiologist.",
+          "interventionNames": [
+            "Other: Sonographer-Assisted Echocardiogram Interpretation"
+          ]
+        },
+        {
+          "label": "Cardiologist-Only Interpretation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "In cardiologist-prelim arm, cardiology provides the preliminary interpretation which is finalized by a blinded separate cardiologist.",
+          "interventionNames": [
+            "Other: Cardiologist-Only Echocardiogram Interpretation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "AI-Assisted Echocardiogram Interpretation",
+          "description": "Echocardiogram studies are pre-interpreted by the AI software and finalized by a blinded cardiologist.",
+          "armGroupLabels": [
+            "AI-Assisted Interpretation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Sonographer-Assisted Echocardiogram Interpretation",
+          "description": "(Standard of Care 1): Echocardiogram studies are pre-interpreted by a sonographer and finalized by a blinded cardiologist.",
+          "armGroupLabels": [
+            "Sonographer-Assisted Interpretation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Cardiologist-Only Echocardiogram Interpretation",
+          "description": "(Standard of Care 2): Echocardiogram studies are interpreted solely by two cardiologists (one provides a preliminary interpretation another provides a blinded final interpretation).",
+          "armGroupLabels": [
+            "Cardiologist-Only Interpretation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Accuracy of AI-Assisted Echocardiogram Interpretation Compared to Standard Workflows.",
+          "description": "The accuracy rate is defined as the proportion of transthoracic echocardiogram (TTE) studies for which the final cardiologist interpretation is not significantly different from the preliminary interpretation. We will assess the accuracy rate in the AI-assisted arm for non-inferiority versus the pooled accuracy rate across both the sonographer-assisted and cardiologist-only arms.\n\nThe investigators will measure the proportion of TTE studies for which the final cardiologist report is substantially different from the preliminary report (e.g., the rate of substantial change). We define a TTE report to be substantially different from another TTE interpretation if any of its key elements are substantially different (LVEF, right ventriuclar function, chamber size, valvular regurgitation severity, valvular stenosis severity, and right ventricular systolic pressure).",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Measures of Accuracy (Superiority Analyses)",
+          "description": "Accuracy rates will also be analyzed for superiority rather than non-inferiority. The proportion of TTE studies for which the final cardiologist interpretation is not significantly different from the preliminary interpretation will be compared individually between the AI-assisted arm and each comparator arm (sonographer-assisted and cardiologist-only).\n\n1. AI-prelim workflow vs. pooled sonographer-prelim and cardiologist-prelim workflow with a superiority test\n2. AI-prelim workflow vs. sonographer-prelim workflow with a superiority test\n3. AI-prelim workflow vs. cardiologist-prelim workflow with a superiority test",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Accuracy Compared with Historical Cardiologist Interpretations",
+          "description": "Accuracy is defined as the proportion of TTE studies for which the final cardiologist report is substantially different from the historical report (e.g., the rate of substantial change). We define a TTE report to be substantially different from another TTE interpretation if any of its key elements are substantially different (LVEF, right ventriuclar function, chamber size, valvular regurgitation severity, valvular stenosis severity, and right ventricular systolic pressure).",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Accuracy Compared with Consensus Cardiologist Interpretations",
+          "description": "Accuracy is defined as the proportion of TTE studies for which the consensus cardiologist report is substantially different from the preliminary report (e.g., the rate of substantial change). We define a TTE report to be substantially different from another TTE interpretation if any of its key elements are substantially different (LVEF, right ventriuclar function, chamber size, valvular regurgitation severity, valvular stenosis severity, and right ventricular systolic pressure).",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Evaluation requiring two-grade change in valve disease severity as substantial change",
+          "description": "Accuracy is defined asthe proportion of TTE studies for which the final cardiologist report is substantially different from the preliminary report (e.g., the rate of substantial change). We define a TTE report to be substantially different from another TTE interpretation if any of its key elements are substantially different (LVEF, right ventricular function, chamber size, valvular regurgitation severity, valvular stenosis severity, and right ventricular systolic pressure).\n\n1. AI-prelim workflow vs. pooled sonographer-prelim and cardiologist-prelim workflow with a superiority test\n2. AI-prelim workflow vs. sonographer-prelim workflow with a superiority test\n3. AI-prelim workflow vs. cardiologist-prelim workflow with a superiority test",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cardiologist Overread Time (Efficiency)",
+          "description": "To assess whether AI-assisted interpretation saves time, the investigators will compare the mean time in seconds required for the cardiologist to complete the overreading process across the three arms (i.e., TTE interpretation workflows) in our trial. Specifically, we will perform the following comparisons:\n\n1. The mean cardiologist overread time in the AI-assisted arm versus the pooled results of the sonographer-assisted and cardiologist-only arms\n2. The mean cardiologist overread time in the AI-assisted arm versus the sonographer-assisted arm\n3. The mean cardiologist overread time in the AI-assisted arm versus the cardiologist-only arm",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Comparison of Existing Standards of Care (Sonographer-Assisted vs Cardiologist-Only)",
+          "description": "The investigators will measure the proportion of TTE studies for which the final cardiologist report is substantially different from the preliminary report (e.g., the rate of substantial change) in sonographer-prelim and cardiologist-prelim arms. We define a TTE report to be substantially different from another TTE interpretation if any of its key elements are substantially different (LVEF, right ventricular function, chamber size, valvular regurgitation severity, valvular stenosis severity, and right ventricular systolic pressure).",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Blinding",
+          "description": "In each of the arms, at the completion of each study for the final cardiologist assessment, the cardiologist will be asked to guess whether the preliminary assessment was AI or human. This will be used to calculate a blinding index comparing the AI-prelim arm vs. a composite of the two standard of care arms, as well as comparing the AI-prelim arm with the sonographer-prelim arm individually and comparing the AI-prelim arm with the cardiologist-prelim arm individually.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ≥ 18 years of age\n* Comprehensive transthoracic echocardiogram study performed a KPNC Medical Center.\n\nExclusion Criteria:\n\n* Known Congenital heart disease study\n* Known Ventricular assist device\n* Limited transthoracic echocardiogram study\n* Transesophageal echocardiogram study\n* Stress echocardiogram study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "David Ouyang",
+          "affiliation": "Kaiser Permanente",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Keane K Lee",
+          "affiliation": "Kaiser Permanente",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kaiser Permanente Northern California Division of Research",
+          "city": "Pleasanton",
+          "state": "California",
+          "zip": "94588",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.66243,
+            "lon": -121.87468
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

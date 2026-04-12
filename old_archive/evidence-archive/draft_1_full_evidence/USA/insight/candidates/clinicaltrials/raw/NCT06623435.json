@@ -1,0 +1,310 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06623435",
+      "orgStudyIdInfo": {
+        "id": "GCO 19-0358"
+      },
+      "organization": {
+        "fullName": "Icahn School of Medicine at Mount Sinai",
+        "class": "OTHER"
+      },
+      "briefTitle": "Real World and Genomic Data Based Asthma Insight Through Network Analysis",
+      "officialTitle": "REGAIN: Real World and Genomic Data Based Asthma Insight Through Network Analysis",
+      "acronym": "REGAIN"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-11-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-09-30",
+      "studyFirstSubmitQcDate": "2024-09-30",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Linda Rogers",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+      },
+      "leadSponsor": {
+        "name": "Icahn School of Medicine at Mount Sinai",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sanofi",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "GeneDx",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "National Jewish Health",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A retrospective and prospective observational study of asthma designed to determine real-world and molecular description of asthma according to treatment and type 2 biology",
+      "detailedDescription": "REGAIN is a retrospective and prospective asthma cohort study designed to determine real-world molecular description of asthma according to treatment and type 2 biology. The researchers will enroll 5 pre-specified groups of participants with asthma of specific interest for mechanistic analyses according to clinically determined type 2 inflammatory endotype and response to therapy with inhaled steroids and other inhaled controllers with or without asthma biologics. This study is conducted at asthma specialty programs at Mount Sinai National Jewish Health Respiratory Institute in New York and National Jewish Health, Denver, Colorado, USA. Participants with asthma meeting specific inclusion criteria were identified and enrolled by screening electronic medical records from pulmonary and allergy specialty programs. Targeted populations included 5 categories of asthma patients as outlined in Table 1 including the following: (1) patients with type 2 asthma with symptom control at time of enrollment (ACT \\> 20) on standard Global Initiative For Asthma (GINA) step therapy (n=200) (2) asthma managed on stable biological therapy (n=200), (3) type 2 asthma with prior treatment with at least 2 biological therapies, (n=60), (4) likely type 2 low asthma patients (n=200), (5) asthma patients scheduled to be started de novo on biological therapies (n=120), and (6) healthy participants (n=400). Healthy participants were recruited in New York and Denver by community advertising. An optional study component employing a mobile phone application, use of digital inhaler monitors, and home digital peak flow will contribute data regarding medication use and lung function in the community and collect environmental data impacting asthma using geolocation data."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Asthma"
+      ],
+      "keywords": [
+        "asthma",
+        "phenotyping",
+        "transcriptomics",
+        "network analysis",
+        "genomics",
+        "biologics"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "OTHER"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Nasal brushings for RNA transcriptomics Peripheral blood for genomics, proteomics and storage of peripheral blood mononuclear cells"
+      },
+      "enrollmentInfo": {
+        "count": 1073,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Type 2 Step Therapy Asthma",
+          "description": "Participants in this group must meet criteria for asthma diagnosis and type 2 asthma status (1) Exhaled nitric oxide (FeNO) \\> 50 ppb at any clinical care time point (2) at least one blood eosinophil count (BEC) \\> 300/uL at any clinical care time point (3) eosinophilia by induced sputum or bronchoscopy (\\> 3%) if available historically, performed as part of clinical care) and be on inhaled step therapy according to the Global Initiative for Asthma 2018 Step Therapy 1-5 treatment. They can not be on chronic oral corticosteroids or biologic therapy and must have an Asthma Control test (ACT) of 20 or greater."
+        },
+        {
+          "label": "Likely Type 2 Low Step Therapy Asthma",
+          "description": "Participants with likely type 2 low asthma (exhaled nitric oxide-FeNO \\< 25 ppb AND blood eosinophil count (BEC) \\< 200/uL AND no eosinophilia by induced sputum or bronchoscopy if available historically or as obtained during clinical care. On inhaled step therapy according to the Global Initiative for Asthma 2018 Step Therapy 1-5 treatment. They cannot be on chronic oral corticosteroids or biologic therapy and can have any value for Asthma Control test (ACT)"
+        },
+        {
+          "label": "Stable Biologics Asthma",
+          "description": "Participants included in the stable biological cohort must meet criteria for asthma diagnosis. The patients must also be on biological therapy for at least 4 months at enrollment. These participants needed to have an ACT of 20 or greater at time of enrollment, or if ACT 16-19 but they had GINA symptom control level 1-2, then they are considered partly controlled and were included in this group."
+        },
+        {
+          "label": "De Novo Biologics Asthma",
+          "description": "Either 2 type 2 or type 2 low characteristics Asthma participants with uncontrolled asthma on inhaled therapy (Global Initiative for Asthma 2018) Any asthma control test score (ACT) Starting a clinically prescribed biologic therapy for asthma Not on another biologic therapy for at least 4 months"
+        },
+        {
+          "label": "Failed Multiple Biologics Asthma",
+          "description": "Either 2 type 2 or type 2 low characteristics. Participants included in this group must report prior biological treatment and having stopped treatment with at least 2 prior asthma biologics. They could be on or off biologic therapy at enrollment and have any level of asthma control by asthma control test and GINA at the time of enrollment."
+        },
+        {
+          "label": "Healthy participants",
+          "description": "Healthy individuals with no respiratory symptoms"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Asthma disease subtypes",
+          "description": "Description of asthma disease subtypes according to type 2 and non-type 2 biology and control or lack of control along a range of asthma treatments.",
+          "timeFrame": "18 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of responders versus non-responders",
+          "description": "Control on GINA Step 1-5 therapy will be defined by an ACT \\>20. Control on biological therapies will be defined by ACT \\> 20, or if ACT 16-19, achieving \"partly controlled\" status in according to GINA, or achieving a 50% reduction in oral corticosteroid (OCS) dose if patient is OCS dependent.",
+          "timeFrame": "6 and 18 months"
+        },
+        {
+          "measure": "Symptom status",
+          "description": "The proportion of participants achieving or maintaining symptom control, exacerbation control, both of these, or those achieving clinical remission at 6 and 18 months among asthma subgroups",
+          "timeFrame": "6 and 18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria for Asthma Participants:\n\n* Age \\>18\n* Clinical diagnosis of asthma verified by a specialist physician (allergist or pulmonologist) and one or more of the following:\n\n  * Historical variability of airflow limitation via classic reversibility criteria (\\> 12%, 200 ml within past 10 years).\n  * Historical methacholine challenge with PC20 \\< 8 mg/ml (within past 10 years).\n  * FEV1 variability, between two clinic visits, of 20% within the past 5 years either with improvement according to appropriate therapy or decrease in lung function upon withdrawal or decrease of therapy.\n  * Elevated FeNO \\> 50 ppb at least once historically (within past 10 years).\n  * \\< 10 pack per year personal tobacco use and not a current smoker of cigarettes or other inhalational tobacco (e-cigarette, marijuana or other inhalational drug use).\n  * At least partial response of presenting symptoms to GINA Step 1-4 asthma treatment (ICS or ICS/LABA as determined by study physician investigators)\n\nExclusion criteria for Asthma Participants:\n\n* \\>10 pack per year tobacco, current smoker of cigarettes, e-cigarettes or other inhalational drug use.\n* Clinically significant lung disease based on imaging or clinical history other than asthma as determined by an allergist or pulmonologist\n* Currently pregnant or breastfeeding\n* Anemia with hemoglobin level ˂9 mg/dl at the time of study enrollment\n\nInclusion Criteria for Healthy Controls:\n\n* Age \\> 18\n* No current smoking (quit \\> 6 months previously) confirmed by serum cotinine level \\< 1 ng/ml\n* \\< 10 pack year tobacco history\n* No current respiratory symptoms (cough wheeze, dyspnea)\n* No current lung disease or other significant medical comorbidity (see exclusion criteria below)\n\nExclusion Criteria for Healthy Controls:\n\n* Age \\< 18\n* Diagnosis of asthma, COPD, emphysema, bronchiectasis or other significant lung disease\n* Treatment or a history of malignancy currently or within the past 5 years, except completely treated in situ carcinoma of the cervix, completely treated and resolved non-metastatic squamous or basal cell carcinoma of the skin\n* Treatment of inflammatory disease or autoimmune disease such as lupus, rheumatoid arthritis, inflammatory bowel disease, multiple sclerosis or others\n* Treatment with immune modulating medications for a health condition including any of the following (systemic glucocorticoids, sirolimus, tacrolimus, anti-TNF abatacept, azathioprine, methotrexate, cyclosporine, cyclophosphamide, immunoglobulin, mycophenolate, rituximab, plaquenil or others)\n* Treatment with anti-IL5, anti-IgE and anti-IL4 receptor alpha for non-asthma indications\n* Vaccination within 4 weeks\n* History of clinically significant renal, hepatic, cardiovascular, metabolic, neurologic, hematologic, ophthalmologic, gastrointestinal, uncontrolled diabetes, uncontrolled infectious disease, HIV infection, cerebrovascular, or other significant medical illness or disorder which in the judgment of the investigator could impact the participant as a healthy control\n* Serum cotinine \\> 1 ng/ml",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Specific groups of asthma patients as outlined and healthy volunteers",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Linda Rogers, MD",
+          "affiliation": "Icahn School of Medicine at Mount Sinai",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ke Hao, PhD",
+          "affiliation": "Icahn School of Medicine at Mount Sinai",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Eileen Wang, MD",
+          "affiliation": "National Jewish Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Jewish Health",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80206",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Mount Sinai Beth Israel",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mount Sinai West",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10019",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mount Sinai Morningside",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mount Sinai Hospital",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual participant data that underlie the results reported in this article, after deidentification (text, tables, figures, and appendices).",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Specify Other Time FrameAfter last participant completes the study and publication.",
+      "accessCriteria": "Investigators whose proposed use of the data has been approved by an independent review committee ('learned intermediary') identified for this purpose.\n\nTo achieve aims in the approved proposal. Specify Other Mechanism Please email requests for access to linda.rogers@mssm.edu or Emanuele.deRinaldis@sanofi.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001249",
+          "term": "Asthma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012130",
+          "term": "Respiratory Hypersensitivity"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

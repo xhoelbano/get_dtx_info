@@ -1,0 +1,252 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05584540",
+      "orgStudyIdInfo": {
+        "id": "21-421"
+      },
+      "organization": {
+        "fullName": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "UNTIRE: Cancer-related Fatigue With Digital Treatment",
+      "officialTitle": "The UNTIRE App Trial: The Feasibility of Using the Untire App for the Colorectal Cancer Patient to Manage Their Cancer Related Fatigue"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "loss of funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-01-30",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-10-14",
+      "studyFirstSubmitQcDate": "2022-10-14",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nina Grenon, NP",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Dana-Farber Cancer Institute"
+      },
+      "leadSponsor": {
+        "name": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This research is being done to find out if using a smartphone app as digital treatment to reduce Cancer Related Fatigue is feasible and easy to use.\n\nThis research study is evaluating a smartphone application named the \"Untire\" app. The Untire app was designed as a digital treatment plan for people experiencing Cancer Related Fatigue (CRF).",
+      "detailedDescription": "This is a single arm, pilot study evaluating the feasibility, acceptability, and effectiveness of a self-managed digital therapeutic application, the Untire App, for the treatment of cancer-related fatigue in the Colorectal (CRC) cancer patient community.\n\nThe Untire app was developed by Psychology Oncologists and combines proven treatments for Cancer Related Fatigue like cognitive behavioral therapy, mindfulness exercises, physical activities, education, and positive tips. The Untire app helps a patient recognize and learn about daily behaviors, fatigue levels, and energy levels. The Untire app has been tested on all different cancer types globally and has been proven to decrease fatigue and improve overall quality of life but this is the first-time investigators are examining the strengths and weaknesses of using the Untire app as a digital treatment plan for Cancer Related Fatigue.\n\nThe research study procedures include screening for eligibility and study interventions including smartphone app use and evaluations with questionnaires and follow up visits.\n\nParticipants will be in this research study for up to 12 months.\n\nIt is expected that about 60 people will take part in this research study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Colorectal Cancer",
+        "Fatigue"
+      ],
+      "keywords": [
+        "Colorectal Cancer",
+        "Fatigue"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "UNTIRE App",
+          "type": "EXPERIMENTAL",
+          "description": "At baseline meeting participants will answer questionnaires and be introduced and instructed on self-managed use of Untire app treatment program.\n\nParticipants will then have check in meetings assessing app usage and progress on weeks 4, 8 and 12 post baseline, then a final check-in 6 months post baseline.",
+          "interventionNames": [
+            "Behavioral: UNTIRE App"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "UNTIRE App",
+          "description": "Digital therapeutic application",
+          "armGroupLabels": [
+            "UNTIRE App"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Enrollment Rate",
+          "description": "Primary outcome is feasibility. Feasibility will be described as the number and percentage of enrolled patients that used the app more than once.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "CSQ-I Score",
+          "description": "Acceptability will be evaluated using the number and percentage of people that scored more than 16 points on the Client Satisfaction Questionnaire - Internet (CSQ- I).",
+          "timeFrame": "3 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "The Functional Assessment of Chronic Illness Therapy - Fatigue (FACIT-F) Ratings",
+          "description": "Patient's cancer related fatigue (CRF) will be described at baseline and at 4, 8, 12 weeks, and 6 months of treatment with the Untire app measured by The Functional Assessment of Chronic Illness Therapy - Fatigue (FACIT-F) and its different subscale (e.g. physical, social, family, emotional, functional well-being, etc.)\\[13\\].",
+          "timeFrame": "Baseline and at 4, 8, and 12 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \\>/= 18 years of age\n* Owns a smart phone or Ipad\n* Diagnosis of Metastatic Colorectal Cancer, adenocarcinoma\n* Actively undergoing treatment for Metastatic disease\n* Speak and read English at a 6th grade level or higher\n* A score of 1 or greater on the PRO CTACE DFCI fatigue (questions 53a or 53b)\n\nExclusion Criteria:\n\n* Patients in Surveillance\n* Patients receiving end of life care\n* Patients taking dexamethasone other than for the control of nausea\n* Patients taking methylphenidate (Ritalin) for the treatment of CRF",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nina N Grenon, DNP, AOCN",
+          "affiliation": "Dana-Farber Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to: \\[contact information for Sponsor Investigator or designee\\]. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Data can be shared no earlier than 1 year following the date of publication",
+      "accessCriteria": "Contact the Belfer Office for Dana-Farber Innovations (BODFI) at innovation@dfci.harvard.edu"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D005221",
+          "term": "Fatigue"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007414",
+          "term": "Intestinal Neoplasms"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        },
+        {
+          "id": "D003108",
+          "term": "Colonic Diseases"
+        },
+        {
+          "id": "D007410",
+          "term": "Intestinal Diseases"
+        },
+        {
+          "id": "D012002",
+          "term": "Rectal Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

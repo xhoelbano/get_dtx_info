@@ -1,0 +1,239 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05450445",
+      "orgStudyIdInfo": {
+        "id": "2023-619"
+      },
+      "organization": {
+        "fullName": "Lady Davis Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "myHealthHub for Older Adult Inpatients",
+      "officialTitle": "myHealthHub for Older Adult Inpatients to Lower Loneliness and Improve Patient Engagement, Quality of Life and Mental Health"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-07",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "In the post-COVID environment, we had great difficulty convincing a hospital to join us and collaborate with us, so the study was dropped. We did not formally start the study or recruit any participants.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-09-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-06-23",
+      "studyFirstSubmitQcDate": "2022-07-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Soham Rej MD, MSc",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Lady Davis Institute"
+      },
+      "leadSponsor": {
+        "name": "Lady Davis Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will assess \"myHealthhub\" in hospitalized older adults throughout 5 days of their hospital stay. The investigators propose a mixed method randomized controlled trial (RCT) comparing myHealthHub platform vs. a simplified HealthHub system that provides only TV access, in order to evaluate patients' loneliness, stress, quality of life, patient engagement, and other mental health outcomes in n=60 older adult inpatients. The investigators will also use qualitative methods to assess user and stakeholder experience, and engagement."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Patient Engagement",
+        "Stress",
+        "Loneliness",
+        "Quality of Life"
+      ],
+      "keywords": [
+        "Older adults",
+        "Hospital Inpatients",
+        "Technology"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention: myHealthHub",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: myHealthHub"
+          ]
+        },
+        {
+          "label": "Active control: TV-only",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Device: TV-only"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "myHealthHub",
+          "description": "myHealthHub is a multimodal patient engagement platform delivered on bedside terminals to provide hospital inpatients with social connection, meal ordering services, entertainment (TV, etc.), and access to medical care team.",
+          "armGroupLabels": [
+            "Intervention: myHealthHub"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "TV-only",
+          "description": "myHealthHub device equipped with the TV-only entertainment option.",
+          "armGroupLabels": [
+            "Active control: TV-only"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in Loneliness",
+          "description": "Loneliness measured by the UCLA 3-item Loneliness Scale (UCLA-3). This is a 3-item scale with scores ranging from 3-9, with higher scores indicating greater severity of loneliness.",
+          "timeFrame": "Baseline, day 2, day 3, day 4, day 5"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in Stress",
+          "description": "Stress measured by Perceived Stress Scale (PSS). This is a 14-item scale with scores ranging from 0-56, with higher scores indicating greater severity of stress.",
+          "timeFrame": "Baseline, day 3, day 5"
+        },
+        {
+          "measure": "Changes in Patient Engagement",
+          "description": "Patient engagement measured by Patient Activation Measure-13 (PAM-13). This is a 13-question scale.",
+          "timeFrame": "Baseline, day 3, day 5"
+        },
+        {
+          "measure": "Changes in Quality of Life in Older Adults",
+          "description": "Quality of life which will be measured by the Euro-Quality of Life (EQ-5D). This is a 5-component scale including mobility, self-care, usual activities, pain/discomfort, and anxiety/depression.",
+          "timeFrame": "Baseline, day 3, day 5"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Feasibility Outcome: Enrollment",
+          "description": "Enrollment rate (percent of participants enrolled from eligible participants)",
+          "timeFrame": "Day 5"
+        },
+        {
+          "measure": "Feasibility Outcome: Recruitment",
+          "description": "Recruitment target (ability to recruit 60 participants)",
+          "timeFrame": "Day 5"
+        },
+        {
+          "measure": "Feasibility Outcome: Retention",
+          "description": "Retention rate (percent of randomized participants who complete 5-day assessments in both arms)",
+          "timeFrame": "Day 5"
+        },
+        {
+          "measure": "Exploratory Outcome: Changes in Depression",
+          "description": "Depression measured by the Patient Health Questionnaire-9 (PHQ-9). This is a 9-question scale with scores ranging from 0-27, with higher scores indicating greater severity of depression.",
+          "timeFrame": "Baseline, day 5"
+        },
+        {
+          "measure": "Exploratory Outcome: Changes in Anxiety",
+          "description": "Anxiety measured by Generalized Anxiety Disorder-7 (GAD-7) scale. This is a 7-question scale with scores ranging from 0-21, with higher scores indicating greater severity of anxiety.",
+          "timeFrame": "Baseline, day 5"
+        },
+        {
+          "measure": "Qualitative Component: Semi-structured interviews",
+          "description": "The qualitative outcome of this RCT will analyze the experiences, barriers, and engagement of older adults with the myHealthHub device. It will also explore the experiences and limitations of hospital support staff with myHealthHub service.",
+          "timeFrame": "Day 5"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Quantitative Component:\n\nInclusion Criteria:\n\n* ≥60 years old\n* Admitted to non-surgical hospital unit\n* Speak English or French\n* Capable of giving consent\n\nExclusion Criteria:\n\n* Delirium\n* Active suicidal ideation\n* Moderate/severe dementia diagnosis\n\nQualitative Component:\n\nInclusion Criteria:\n\n* Participants from quantitative component\n* Hospital staff, nurses, clinicians facilitative use of the service\n* ≥18 years old\n* Speak English or French\n\nExclusion Criteria:\n\n• Hospital staff, nurses, clinicians who do not have experience with the service",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010358",
+          "term": "Patient Participation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010342",
+          "term": "Patient Acceptance of Health Care"
+        },
+        {
+          "id": "D000074822",
+          "term": "Treatment Adherence and Compliance"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

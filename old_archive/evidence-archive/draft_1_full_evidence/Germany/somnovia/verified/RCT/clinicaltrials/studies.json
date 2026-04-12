@@ -1,0 +1,68 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05558865",
+      "nct_id": "NCT05558865",
+      "title": "Effectiveness of a Digital Health Application for People With Insomnia Disorder (Somnovia)",
+      "official_title": "Evaluating the Effectiveness of a Digital Therapeutic (Somnovia) for People With Insomnia Disorder - a Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 290,
+      "start_date": "2022-11-08",
+      "completion_date": "2023-09-18",
+      "conditions": [
+        "Insomnia Disorder"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "somnovia",
+          "type": "BEHAVIORAL",
+          "description": "Participants receive access to the digital health application somnovia"
+        }
+      ],
+      "lead_sponsor": "Gaia AG",
+      "collaborators": [
+        "University Hospital Schleswig-Holstein",
+        "University Hospital Freiburg"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "The trial aims to evaluate the effectiveness of a novel digital health application (somnovia), which was designed to increase sleep quality in persons with insomnia disorder. Therefore, 290 people with insomnia disorder will be recruited and randomized to two groups: (1) a control group, in which they may engage with any treatment for insomnia disorder and are offered access to somnovia after a delay of 6 months (i.e., Care-as-Usual \\[CAU\\]), or (2) to a treatment group that immediately receives 6-month access to somnovia and may also use CAU. The primary outcome measure is the score of the Insomnia Severity Index (ISI), collected at three months post-baseline.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05558865",
+      "_matched_query": "\"somnovia\"",
+      "_raw_json_path": "evidence/Germany/somnovia/candidates/clinicaltrials/raw/NCT05558865.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'somnovia' by name in the title, abstract, and intervention description. The sponsor/funder is Gaia AG, which matches the company associated with somnovia. The intervention description aligns with the product's purpose and functionality.",
+        "matched_elements": [
+          "title",
+          "abstract",
+          "intervention description",
+          "sponsor/funder"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The study involves randomization of participants into two groups (control and treatment), which is a key feature of an RCT. It is also described as interventional, further supporting the classification as an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:24:33.852343Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -73,6 +73,41 @@ class LLMProvider:
         )
 
     @staticmethod
+    def get_source_name() -> str:
+        """Return a human-readable string of the active provider and exact model name.
+
+        Reads the same env variables used by each _get_*_llm() method so the
+        string always reflects what was actually used when the model was built.
+
+        Example outputs:
+            "LLM Research (Azure OpenAI - gpt-4o)"
+            "LLM Research (Google Gemini - gemini-2.5-flash)"
+            "LLM Research (Anthropic Claude - claude-3-5-sonnet-20241022)"
+        """
+        provider = (os.getenv("LLM_PROVIDER") or "azure_openai").strip().lower()
+
+        provider_display = {
+            LLMProvider.PROVIDER_AZURE: "Azure OpenAI",
+            LLMProvider.PROVIDER_OPENAI: "OpenAI",
+            LLMProvider.PROVIDER_GEMINI: "Google Gemini",
+            LLMProvider.PROVIDER_ANTHROPIC: "Anthropic Claude",
+        }.get(provider, provider)
+
+        # Mirror exactly what each _get_*_llm() reads from env.
+        if provider == LLMProvider.PROVIDER_AZURE:
+            model = os.getenv("AZURE_OPENAI_DEPLOYMENT") or "(not set)"
+        elif provider == LLMProvider.PROVIDER_OPENAI:
+            model = os.getenv("OPENAI_MODEL") or "(not set)"
+        elif provider == LLMProvider.PROVIDER_GEMINI:
+            model = os.getenv("GEMINI_MODEL") or "(not set)"
+        elif provider == LLMProvider.PROVIDER_ANTHROPIC:
+            model = os.getenv("ANTHROPIC_MODEL") or "(not set)"
+        else:
+            model = "unknown"
+
+        return f"LLM Research ({provider_display} - {model})"
+
+    @staticmethod
     def _get_azure_llm(
         temperature: float = 0.0,
         max_tokens: int = 500,
@@ -87,7 +122,11 @@ class LLMProvider:
                 "AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT must be set when LLM_PROVIDER=azure_openai"
             )
 
-        model = model_override or os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
+        model = model_override or os.getenv("AZURE_OPENAI_DEPLOYMENT")
+        if not model:
+            raise ValueError(
+                "AZURE_OPENAI_DEPLOYMENT must be set when LLM_PROVIDER=azure_openai"
+            )
         return AzureChatOpenAI(
             model=model,
             api_key=api_key,
@@ -111,7 +150,11 @@ class LLMProvider:
                 "OPENAI_API_KEY must be set when LLM_PROVIDER=openai"
             )
 
-        model = model_override or os.getenv("OPENAI_MODEL", "gpt-4o")
+        model = model_override or os.getenv("OPENAI_MODEL")
+        if not model:
+            raise ValueError(
+                "OPENAI_MODEL must be set when LLM_PROVIDER=openai"
+            )
         
         # Reasoning models (o1, o3, gpt-5, etc.) use tokens for internal reasoning
         # before producing output. We need significantly more tokens to ensure
@@ -160,7 +203,11 @@ class LLMProvider:
                 "GOOGLE_API_KEY must be set when LLM_PROVIDER=gemini"
             )
 
-        model = model_override or os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
+        model = model_override or os.getenv("GEMINI_MODEL")
+        if not model:
+            raise ValueError(
+                "GEMINI_MODEL must be set when LLM_PROVIDER=gemini"
+            )
         return ChatGoogleGenerativeAI(
             model=model,
             google_api_key=api_key,
@@ -188,7 +235,11 @@ class LLMProvider:
                 "ANTHROPIC_API_KEY must be set when LLM_PROVIDER=anthropic"
             )
 
-        model = model_override or os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20241022")
+        model = model_override or os.getenv("ANTHROPIC_MODEL")
+        if not model:
+            raise ValueError(
+                "ANTHROPIC_MODEL must be set when LLM_PROVIDER=anthropic"
+            )
         return ChatAnthropic(
             model=model,
             api_key=api_key,

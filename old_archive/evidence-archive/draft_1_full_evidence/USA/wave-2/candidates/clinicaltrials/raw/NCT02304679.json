@@ -1,0 +1,618 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02304679",
+      "orgStudyIdInfo": {
+        "id": "PHRC-N/2013/SD-01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2014-A00486-41",
+          "type": "OTHER",
+          "domain": "RCB number"
+        }
+      ],
+      "organization": {
+        "fullName": "Centre Hospitalier Universitaire de Nīmes",
+        "class": "OTHER"
+      },
+      "briefTitle": "Low Energy Shockwave Therapy for Improving Erectile Dysfunction",
+      "officialTitle": "The Effectiveness of Low Energy Shockwave Therapy for Improving Erectile Dysfunction in Men: a Double Blind Randomized Controlled Trial",
+      "acronym": "Shock-ED"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-02-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-06-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-11-20",
+      "studyFirstSubmitQcDate": "2014-11-26",
+      "studyFirstPostDateStruct": {
+        "date": "2014-12-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-08-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-08-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Centre Hospitalier Universitaire de Nīmes",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to evaluate the change from baseline in the erectile function domain of the International Index of Erectile Function (IIEF-EF) scores in patients receiving 4 weekly treatments of shockwave therapy versus those receiving a sham treatment. The change will be evaluated at 3 months after the end of a sequence of 4 weekly treatments.",
+      "detailedDescription": "The secondary objectives of this study are:\n\nA. To evaluate erectile function (EF) categorical improvement in patients receiving 4 weekly treatments of shockwave therapy versus those receiving a sham treatment, at 3 months after a first sequence of treatment.\n\nB. To compare improvements in erectile function between 4 weeks of phosphodiesterase type 5 inhibitor (PDE5i) use and 4 weekly treatments of shockwave therapy (\"within patient\" effect).\n\nC. To compare improvements in erectile function between 4 weeks of PDE5 inhibitor use and 4 weekly treatments of sham shock wave therapy (\"within patient\" effect).\n\nD. To evaluate the effect of a 2nd sequence of 4-8 weekly shock wave treatments 3 months after this second sequence.\n\nE. To evaluate treatment effects (the same comparisons as in objectives A, B, C, D) on other validated measure of EF (question 2 of the sexual encounter profile (SEP2), question 3 of the sexual encounter profile (SEP3), Global Assessment Question (GAQ), Erection Hardness Scale (EHS)), and the remaining domains of the IIEF score (orgasmic function, sexual desire, intercourse satisfaction, overall satisfaction), as well as the total IIEF score.\n\nF. To evaluate treatment tolerance and potential adverse events. G. To compare changes in EF measures over time for a follow-up period of 12 months following the second sequence of 4 weekly shock wave treatments.\n\nH. To compare the effect of a sequence of 4 weekly shock wave treatments versus 8 biweekly shock wave treatments 3 months after the treatment (\"within patient\" effect)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Erectile Dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 154,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LIESWT arm",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to this arm will have two sequences of Low-Intensity Extracorporeal Shock Wave Therapy (LIESWT).\n\nInterventions: Pre-inclusion questionnaires; 1 month of PDE5i treatment; PDE5i follow-up questionnaires; Inclusion questionnaires; 4 weekly LIESWT (Wave 1) with the RENOVA device; Follow-up questionnaires 1 month after Wave 1; Follow-up questionnaires 3 months after Wave 1; 8 bi-weekly LIESWT (Wave 2) with the RENOVA device; Follow-up questionnaires 1 month after Wave 2; Questionnaires via postal mail; Final follow-up questionnaires 12 months after Wave 2.",
+          "interventionNames": [
+            "Other: Pre-inclusion questionnaires",
+            "Drug: 1 month of PDE5i treatment",
+            "Other: PDE5i follow-up questionnaires",
+            "Other: Inclusion questionnaires",
+            "Device: 4 weekly LIESWT (Wave 1) with the RENOVA device",
+            "Other: Follow-up questionnaires 1 month after Wave 1",
+            "Other: Follow-up questionnaires 3 months after Wave 1",
+            "Device: 8 bi-weekly LIESWT (Wave 2) with the RENOVA device",
+            "Other: Follow-up questionnaires 1 month after Wave 2",
+            "Other: Questionnaires via postal mail",
+            "Other: Final follow-up questionnaires 12 months after Wave 2"
+          ]
+        },
+        {
+          "label": "Sham arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients randomized to this arm will have one sequence of sham Low-Intensity Extracorporeal Shock Wave Therapy and then three months later one sequence of Low-Intensity Extracorporeal Shock Wave Therapy.\n\nInterventions: Pre-inclusion questionnaires; 1 month of PDE5i treatment; PDE5i follow-up questionnaires; Inclusion questionnaires; 4 weekly sham LIESWT (Wave 1) with the RENOVA device; Follow-up questionnaires 1 month after Wave 1; Follow-up questionnaires 3 months after Wave 1; 8 bi-weekly LIESWT (Wave 2) with the RENOVA device; Follow-up questionnaires 1 month after Wave 2; Questionnaires via postal mail; Final follow-up questionnaires 12 months after Wave 2.",
+          "interventionNames": [
+            "Other: Pre-inclusion questionnaires",
+            "Drug: 1 month of PDE5i treatment",
+            "Other: PDE5i follow-up questionnaires",
+            "Other: Inclusion questionnaires",
+            "Device: 4 weekly sham LIESWT (Wave 1) with the RENOVA device",
+            "Other: Follow-up questionnaires 1 month after Wave 1",
+            "Other: Follow-up questionnaires 3 months after Wave 1",
+            "Device: 8 bi-weekly LIESWT (Wave 2) with the RENOVA device",
+            "Other: Follow-up questionnaires 1 month after Wave 2",
+            "Other: Questionnaires via postal mail",
+            "Other: Final follow-up questionnaires 12 months after Wave 2"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Pre-inclusion questionnaires",
+          "description": "(Month -2)\n\nDuring this visit, the investigator will:\n\n* Validate the patient's inclusion and exclusion criteria;\n* Obtain informed consent from the patient;\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope in order to respect patient confidentiality.\n* Prescribe 1 month of PDE5i treatment.\n* The next visit will be scheduled",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "1 month of PDE5i treatment",
+          "description": "5 mg Tadalafil per day for 1 month",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "PDE5i follow-up questionnaires",
+          "description": "(Month -1)\n\nDuring this visit the investigator will:\n\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope in order to respect patient confidentiality.\n* Perform a clinical exam; particular attention is given to the recording of complications / adverse events.\n* Remind the patient that over the next 4 weeks he is not to take any treatments for his condition (wash-out period).\n* The next visit will be scheduled",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Inclusion questionnaires",
+          "description": "(Day 0)\n\nDuring this visit the investigator will:\n\n* Verify inclusion and exclusion criteria, and proceed with final inclusion\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope in order to respect patient confidentiality.\n* Perform a clinical exam; particular attention is given to the recording of complications / adverse events.\n* Randomize the patient at the end of the visit\n* The patient will go home with a calendar specifying the time and place of the various visits. The patient should have four weekly LIESWT or sham sessions within the next month. The first session may take place the same day and immediately after the present visit.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "4 weekly LIESWT (Wave 1) with the RENOVA device",
+          "description": "Following final inclusion, patients will have weekly LIESWT sessions (one session per week for four weeks). Particular attention is given to the recording of complications/adverse events. At the end of each session, the patient is asked to evaluate the level of pain that occurred during the session using a visual analog scale.",
+          "armGroupLabels": [
+            "LIESWT arm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "4 weekly sham LIESWT (Wave 1) with the RENOVA device",
+          "description": "Following final inclusion, patients will have weekly sham LIESWT sessions (one session per week for four weeks). Particular attention is given to the recording of complications/adverse events. At the end of each session, the patient is asked to evaluate the level of pain that occurred during the session using a visual analog scale.",
+          "armGroupLabels": [
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Follow-up questionnaires 1 month after Wave 1",
+          "description": "(Month 2)\n\nDuring this visit the investigator will:\n\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope.\n* Perform a clinical exam; particular attention is given to the recording of complications / adverse events.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Follow-up questionnaires 3 months after Wave 1",
+          "description": "(Month 4)\n\nDuring this visit the investigator will:\n\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope.\n* Perform a clinical exam; particular attention is given to the recording of complications / adverse events.\n* The patient should have four weekly LIESWT sessions within the next month. The first session may take place the same day and immediately after the present visit.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "8 bi-weekly LIESWT (Wave 2) with the RENOVA device",
+          "description": "During the 5th month following final inclusion, all patients will have bi-weekly LIESWT sessions. These will occur twice per week for four consecutive weeks. Particular attention is given to the recording of complications/adverse events. At the end of each session, the patient is asked to evaluate the level of pain that occurred during the session using a visual analog scale.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Follow-up questionnaires 1 month after Wave 2",
+          "description": "(Month 6)\n\nDuring this visit the investigator will:\n\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope.\n* Perform a clinical exam; particular attention is given to the recording of complications / adverse events.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Questionnaires via postal mail",
+          "description": "Eight, 11, and 14 months after final inclusion, corresponding to 3, 6 and 9 months following Wave 2, the IIEF, SEP2, SEP3, GAQ and EHS questionnaires will be sent to patients via postal mail.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Final follow-up questionnaires 12 months after Wave 2",
+          "description": "(Month 17)\n\nDuring this visit the investigator will:\n\n* Have the patient fill out the IIEF, SEP-2, SEP-3, EHS and GAQ questionnaires. Responses are place and sealed in a specifically provided envelope.\n* Perform a clinical exam; particular attention is given to the recording of complications / adverse events.",
+          "armGroupLabels": [
+            "LIESWT arm",
+            "Sham arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in IIEF-EF score",
+          "timeFrame": "Month 0 versus Month 4"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "% patients with improvement",
+          "description": "The presence/absence of improvement in erectile function as compared to baseline. Improvement in erectile function is defined as a \\>2 point increase in the IIEF-EF score from baseline for mild erectile dysfunction, \\>5 points for moderate erectile dysfunction and \\>7 points for severe erectile dysfunction(Rosen et al. 2011)",
+          "timeFrame": "Month 0 versus Month 4"
+        },
+        {
+          "measure": "% patients with improvement",
+          "description": "The presence/absence of improvement in erectile function as compared to baseline. Improvement in erectile function is defined as a \\>2 point increase in the IIEF-EF score from baseline for mild erectile dysfunction, \\>5 points for moderate erectile dysfunction and \\>7 points for severe erectile dysfunction(Rosen et al. 2011)",
+          "timeFrame": "Month -2 versus Month -1"
+        },
+        {
+          "measure": "% patients with improvement",
+          "description": "The presence/absence of improvement in erectile function as compared to baseline. Improvement in erectile function is defined as a \\>2 point increase in the IIEF-EF score from baseline for mild erectile dysfunction, \\>5 points for moderate erectile dysfunction and \\>7 points for severe erectile dysfunction(Rosen et al. 2011)",
+          "timeFrame": "Month 0 versus Month 2"
+        },
+        {
+          "measure": "% patients with improvement",
+          "description": "The presence/absence of improvement in erectile function as compared to baseline. Improvement in erectile function is defined as a \\>2 point increase in the IIEF-EF score from baseline for mild erectile dysfunction, \\>5 points for moderate erectile dysfunction and \\>7 points for severe erectile dysfunction(Rosen et al. 2011)",
+          "timeFrame": "Month 0 versus Month 8"
+        },
+        {
+          "measure": "% patients with improvement",
+          "description": "The presence/absence of improvement in erectile function as compared to baseline. Improvement in erectile function is defined as a \\>2 point increase in the IIEF-EF score from baseline for mild erectile dysfunction, \\>5 points for moderate erectile dysfunction and \\>7 points for severe erectile dysfunction(Rosen et al. 2011)",
+          "timeFrame": "Month 4 versus Month 8"
+        },
+        {
+          "measure": "Change in IIEF-EF score",
+          "timeFrame": "Change between month -2 and month -1"
+        },
+        {
+          "measure": "Change in IIEF-EF score from baseline",
+          "timeFrame": "Change between month 0 and month 2"
+        },
+        {
+          "measure": "Change in IIEF-EF score from baseline",
+          "timeFrame": "Change between month 0 and month 8"
+        },
+        {
+          "measure": "Change in IIEF-EF score from baseline",
+          "timeFrame": "Change between month 4 and month 8"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 4"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month -2 versus month -1"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 2"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 8"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 6"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 11"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 14"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP2",
+          "timeFrame": "Month 0 versus month 17"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 4"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month -2 versus month -1"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 2"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 8"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 6"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 11"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 14"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the SEP3",
+          "timeFrame": "Month 0 versus month 17"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 4"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month -2 versus month -1"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 2"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 8"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 6"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 11"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 14"
+        },
+        {
+          "measure": "% patients answering \"yes\" to the GAQ",
+          "timeFrame": "Month 0 versus month 17"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 4"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month -2 versus month -1"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 2"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 8"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 6"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 11"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 14"
+        },
+        {
+          "measure": "Change in EHS",
+          "timeFrame": "Month 0 versus month 17"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 4"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month -2 versus month -1"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 2"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 8"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 6"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 11"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 14"
+        },
+        {
+          "measure": "Change in IIEF score (including subscores)",
+          "timeFrame": "Month 0 versus month 17"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Week 1"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Week 2"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Week 3"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Week 4"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Month 5, week 1"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Month 5, week 2"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Month 5, week 3"
+        },
+        {
+          "measure": "Visual analog scale for pain during treatment",
+          "description": "Immediately after treatment session.",
+          "timeFrame": "Month 5, week 4"
+        },
+        {
+          "measure": "The number of patients with other complications",
+          "description": "Any other complications that might occur throughout the study (very few are listed in the literature).",
+          "timeFrame": "Month 17"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The patient has been correctly informed about the study.\n* The patient must have given his informed and signed consent.\n* The patient must be insured or beneficiary of a health insurance plan.\n* The patient is a man between 18 and 80 years of age. (≥18 years and \\< 80 years)\n* The patient has been in a stable sexual relationship for over 3 months\n* The patient is consulting for erectile dysfunction lasting for over 6 months\n* IIEF-EF6 score between 6 and 25\n* Patients have at least a natural tumescence during sexual stimulation (EHS score ≥ 1)\n* Pre-inclusion: Patient is willing to have 4 weeks of PDE5i treatment at the beginning of the trial, and then stop all treatment for an additional month.\n* Pre-inclusion: The patient agrees to try to engage at least 3 sexual intercourses per month during this period\n* Inclusion: Patient has completed 4 weeks of PDE5i treatment, and then stopped all treatment for an additional month.\n* Patient is available for a follow up of 19 months (at time of pre-inclusion and then 17 months at time of inclusion)\n\nExclusion Criteria:\n\n* The patient is participating in another interventional study\n* Within the past three months, the patient has participated in another interventional study\n* The patient is in an exclusion period determined by a previous study\n* The patient is under judicial protection\n* The patient is an adult under guardianship\n* The patient refuses to sign the consent\n* It is impossible to correctly inform the patient\n* Complete anerection\n* History of pelvic cancer surgery (radical prostatectomy, cystectomy, abdominoperineal resection of the rectum)\n* Untreated testosterone deficiency\n* Neurological disease affecting the central nervous system\n* Untreated psychiatric disease, or psychiatric disease that may compromise study participation\n* Anatomical malformation of the penis considered by the investigator as being able to prevent vaginal penetration\n* Chronic haematological pathology associated with risk of haemorrhage\n* Oral or injectable antiandrogen treatment\n* The patient is taking blood thinners AND/OR has an International Normalized Ratio \\>3\n* Known allergy to treatments used in the study (e.g. Cialis, gel)\n\nExclusion criteria: The patient has contraindications for Cialis as mentioned in the SPC, re-given here :\n\n* Hypersensitivity to the active substance or to any of the excipients listed in section 6.1 of the SPC.\n* In clinical studies, tadalafil was shown to augment the hypotensive effects of nitrates. This is thought to result from the combined effects of nitrates and tadalafil on the nitric oxide/cGMP pathway. Therefore, administration of CIALIS to patients who are using any form of organic nitrate is contraindicated. (see section 4.5 of the SPC).\n* CIALIS, must not be used in men with cardiac disease for whom sexual activity is inadvisable. Physicians should consider the potential cardiac risk of sexual activity in patients with pre-existing cardiovascular disease.\n* The following groups of patients with cardiovascular disease were not included in clinical trials and the use of tadalafil is therefore contraindicated:\n* patients with myocardial infarction within the last 90 days,\n* patients with unstable angina or angina occurring during sexual intercourse,\n* patients with New York Heart Association Class 2 or greater heart failure in the last 6 months,\n* patients with uncontrolled arrhythmias, hypotension (\\< 90/50 mm Hg), or uncontrolled\n* uncontrolled hypertension,\n* patients with a stroke within the last 6 months.\n* CIALIS is contraindicated in patients who have loss of vision in one eye because of non-arteritic anterior ischaemic optic neuropathy (NAION), regardless of whether this episode was in connection or not with previous PDE5 inhibitor exposure (see section 4.4 of the SPC).",
+      "healthyVolunteers": false,
+      "sex": "MALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "79 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Stéphane Droupy, MD, PhD",
+          "affiliation": "Centre Hospitalier Universitaire de Nîmes",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHU de Bordeax - Hôpital Pellegrin",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "APHP - Hôpital Raymond-Poincaré",
+          "city": "Garches",
+          "zip": "92380",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.84226,
+            "lon": 2.18232
+          }
+        },
+        {
+          "facility": "Clinique Beau Soleil",
+          "city": "Montpellier",
+          "zip": "34070",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CHRU de Nîmes - Hôpital Universitaire Carémeau",
+          "city": "Nîmes",
+          "zip": "30029",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "CHU de Lyon - Centre Hospitalier Lyon Sud",
+          "city": "Pierre-Bénite",
+          "zip": "69310",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.70359,
+            "lon": 4.82424
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007172",
+          "term": "Erectile Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005832",
+          "term": "Genital Diseases, Male"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D012735",
+          "term": "Sexual Dysfunction, Physiological"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D020018",
+          "term": "Sexual Dysfunctions, Psychological"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

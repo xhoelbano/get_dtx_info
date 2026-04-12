@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07334795",
+      "orgStudyIdInfo": {
+        "id": "HSII_IHC_IMP-PS2"
+      },
+      "organization": {
+        "fullName": "Intermountain Health Care, Inc.",
+        "class": "OTHER"
+      },
+      "briefTitle": "Intermountain Stewardship in Community Outpatient Settings-Resources & Engagement-Pediatrics",
+      "officialTitle": "Intermountain Stewardship in Community Outpatient Settings-Resources & Engagement-Pediatrics",
+      "acronym": "SCORE-Peds"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-31",
+      "studyFirstSubmitQcDate": "2025-12-31",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Intermountain Health Care, Inc.",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this implementation project is to detail the process of implementing the best practice of antibiotic stewardship in the pediatric population across the Intermountain Health medical system. The main questions it aims to answer are:\n\n* How can a large healthcare system drive high adherence to antibiotic stewardship across a large and diverse number of sites?\n* How do determinants of implementation and needed strategies vary by context?\n* What is the utility of a higher-resource implementation effort (named \"Boost) focusing on outlier sites?\n\nData will be collected on number of children reached, adherence changes over time, types of implementation strategies employed, and characteristics of sites, prescribers, and patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Respiratory Infection (for Example, Pneumonia, Bronchitis)",
+        "Antibiotic",
+        "Antibiotic Duration",
+        "Antibiotic Prescribing for Acute Respiratory-tract Infections"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 259000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Children with ARTIs, Wave 1",
+          "description": "Children under 18 treated in Wave 1 of antibiotic stewardship for the following conditions: acute otitis media (AOM), Group A Streptococcal (GAS) pharyngitis, acute sinusitis, and community-acquired pneumonia (CAP)",
+          "interventionNames": [
+            "Other: Implementation strategies including training & education, EMR tools, audit & feedback reports, and facilitation"
+          ]
+        },
+        {
+          "label": "Children with ARTIs, Wave 2",
+          "description": "Children under 18 treated in Wave 2 of antibiotic stewardship for the following conditions: acute otitis media (AOM), Group A Streptococcal (GAS) pharyngitis, acute sinusitis, and community-acquired pneumonia (CAP)",
+          "interventionNames": [
+            "Other: Implementation strategies including training & education, EMR tools, audit & feedback reports, and facilitation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Implementation strategies including training & education, EMR tools, audit & feedback reports, and facilitation",
+          "description": "o facilitate improved adherence to guideline-based prescribing, we plan a variety of implementation strategies to be employed in tandem including training \\& education, EMR tools (e.g., Smart sets, express lanes, preference lists), audit and feedback reports and dashboards, and facilitation.",
+          "armGroupLabels": [
+            "Children with ARTIs, Wave 1",
+            "Children with ARTIs, Wave 2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Guideline-adherent Broad vs. Narrow Spectrum Antibiotic Prescribing",
+          "description": "Rates of narrow-spectrum antibiotic (AB) prescriptions as a proportion of all antibiotics prescribed in aggregate and within each of these diagnoses: Acute otitis media, Group A streptococcal pharyngitis, Acute sinusitis, and Pneumonia.",
+          "timeFrame": "Baseline month adherence and post implementation (12 months). Maintenance period is 6 months post implementation."
+        },
+        {
+          "measure": "Guideline-adherent Duration of Antimicrobial Therapy",
+          "description": "Rate of AB prescriptions with guideline-adherent number of days prescribed as proportion of all AB prescriptions in aggregate and for each of the target ARTI diagnoses.",
+          "timeFrame": "Baseline month adherence and post implementation (12 months). Maintenance period is 6 months post implementation."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rate of Treatment Failure",
+          "description": "Clinical encounter for the same diagnosis between 2 and 14 days following the index encounter and receipt of an alternative antibiotic for the same respiratory diagnosis during the return visit.",
+          "timeFrame": "Baseline month adherence and post implementation (12 months). Maintenance period is 6 months post implementation"
+        },
+        {
+          "measure": "Adoption (Staff): Adherence to Protocols",
+          "description": "Number and proportion of prescribers who are \"adherent\" to guideline-based prescribing protocols for Broad vs. Narrow Spectrum AB Prescribing, and Duration.",
+          "timeFrame": "Baseline month adherence and post implementation (12 months). Maintenance period is 6 months post implementation"
+        },
+        {
+          "measure": "Adoption (Organization): Adherence to Protocols",
+          "description": "Number and proportion of sites where 60% of prescribers are adherent.",
+          "timeFrame": "Baseline month adherence and post implementation (12 months). Maintenance period is 6 months post implementation."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 6 months through 17 years\n* ARTI diagnosis (acute otitis media (AOM), Group A Streptococcal (GAS) pharyngitis, acute sinusitis, and community-acquired pneumonia (CAP))\n\nExclusion Criteria:\n\n* Age \\<6months or \\>18 years\n* No ARTI diagnosis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "6 Months",
+      "maximumAge": "17 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "All children meeting eligibility criteria and treated at any facility within the Intermountain region specified (wave 1 \\& wave 2) between January 1, 2026 and December 31, 2028.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Research Project Coordinator",
+          "role": "CONTACT",
+          "phone": "801-507-8735",
+          "email": "Riley.Hodgson@imail.org"
+        },
+        {
+          "name": "Director of Health Services Research",
+          "role": "CONTACT",
+          "phone": "801-824-6047",
+          "email": "Timothy.Fowles@imail.org"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "This is an implementation study using observational data with a waiver of consent. Therefore, there is no consent to allow for the sharing of IPD."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D001991",
+          "term": "Bronchitis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004522",
+          "term": "Educational Status"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012959",
+          "term": "Socioeconomic Factors"
+        },
+        {
+          "id": "D011154",
+          "term": "Population Characteristics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,990 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05263037",
+      "orgStudyIdInfo": {
+        "id": "EaseVRx HEOR 2021"
+      },
+      "organization": {
+        "fullName": "AppliedVR Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "EaseVRx-8w+ for the Treatment of Chronic Lower Back Pain",
+      "officialTitle": "A Decentralized, Randomized, Controlled Trial to Study Health Outcomes of EaseVRx-8w+ for the Treatment of Chronic Lower Back Pain",
+      "acronym": "AVR_HEOR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-10-13",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-31",
+      "studyFirstSubmitQcDate": "2022-02-21",
+      "studyFirstPostDateStruct": {
+        "date": "2022-03-02",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-11-23",
+      "resultsFirstSubmitQcDate": "2023-12-16",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-12-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Todd Maddox",
+        "investigatorTitle": "VP of Research",
+        "investigatorAffiliation": "AppliedVR Inc."
+      },
+      "leadSponsor": {
+        "name": "AppliedVR Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this randomized controlled trial (RCT) is to assess outcomes for virtual reality therapy (including pain intensity, pain interference, anxiety, depression, physical function, sleep, behavioral skills development, health outcomes and satisfaction) along with healthcare utilization and costs in participants with Chronic Low Back Pain.",
+      "detailedDescription": "This is a decentralized, randomized controlled trial with four parallel study arms comparing change from pre-treatment to end-of-treatment to 12-months posttreatment in the EaseVRx-8w, EaseVRx-8w plus extended on-demand and Control groups. After consenting to join the study, participants will be randomized and allocated to one of four treatment programs. Study devices will be delivered to the participant's home with instructions for use via FedEx with complementary remote technical support.\n\n* participants in the EaseVRx-8w arm will participate in an 8-week interventional program and continue to be followed for 24 months after completion of treatment\n* participants in the EaseVRx-8w plus extended on-demand arm will enroll in an 8-week interventional program and be offered an extended 8-week ondemand period, and continue to be followed for 24 months after the completion of treatment.• participants in the first control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and continue to be followed for 24 months after the completion of treatment\n* participants in the second control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and be offered an extended 8-week on-demand period, after which they will continue to be followed for 24 months after the completion of treatment All trial participants will be monitored for pain intensity and pain interference, physical function, behavioral skills development, health outcomes and satisfaction.\n\nAdditionally, to assess resource use associated with CLBP, participant data will be run through a secure Datavant matching process to be linked to their healthcare claims data if it is available in the Komodo data set. The claims will provide descriptive characterizations of resource use and healthcare costs associated with CLBP. For participant-level changes in resource use, and for comparisons between study arms, only the participants with complete claims files will be assessed. Claims matched data will capture all interactions with the healthcare system that generate an insurance claim record, which includes such things as physician visits, interventions such as steroid injections, surgery or physical therapy, emergent use of services, medications, and diagnostic procedures. Claims adjudication often lags a few months, so the most robust analyses of utilization will be performed about 6 months after the time point of interest. Health economic modeling will be performed after 1 year to assess the cost and economic outcomes of the EaseVRx intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Low-back Pain",
+        "Anxiety",
+        "Depression"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Enrolled participants will be randomized 1:1:1:1 and assigned to one of four treatment arms:\n\n* 56-day skills-based VR program (EaseVRx-8w)\n* 56-day skills-based VR program followed by an extended 56-day on-demand period (EaseVRx-8w plus extended on-demand)\n* 56-day control (Sham VR)\n* 56-day control followed by an extended 56-day on-demand period (Sham VR plus 8w extended on-demand)",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Participants, study statisticians and investigators will be blinded to treatment group assignment until after the last subject contributes their primary outcome at week 16. Prior to the primary analysis, the database will be officially locked and signed off by the Sponsor and key stakeholders. Study participants will remain blinded to treatment group assignment until study completion.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1093,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "56-day skills-based VR program",
+          "type": "EXPERIMENTAL",
+          "description": "participants in the EaseVRx-8w arm will participate in an 8-week interventional program and continue to be followed for 24 months following completion of tx",
+          "interventionNames": [
+            "Device: EaseVRx"
+          ]
+        },
+        {
+          "label": "56-day skills-based VR program followed by an extended 56-day on-demand period",
+          "type": "EXPERIMENTAL",
+          "description": "participants in the EaseVRx-8w plus extended on-demand arm will enroll in an 8-week interventional program and be offered an extended 8-week ondemand period, and continue to be followed for 24 months after the completion of treatment",
+          "interventionNames": [
+            "Device: EaseVRx"
+          ]
+        },
+        {
+          "label": "56-day control (Sham VR)",
+          "type": "SHAM_COMPARATOR",
+          "description": "participants in the first control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and continue to be followed for 24 months after the completion of treatment. participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting. The experience of Sham VR is similar to watching a large-screen TV, but it is not interactive. The advantage of Sham VR is that it controls for the novelty and immersion of the hardware and isolates the effect of VR skill-based training",
+          "interventionNames": [
+            "Device: Sham VR"
+          ]
+        },
+        {
+          "label": "• 56-day control (Sham VR plus 8w extended on-demand)",
+          "type": "SHAM_COMPARATOR",
+          "description": "participants in the second control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and be offered an extended 8-week on-demand period, after which they will continue to be followed for 24 months after the completion of treatment.Participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting.",
+          "interventionNames": [
+            "Device: Sham VR"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "EaseVRx",
+          "description": "VR software with interactive content",
+          "armGroupLabels": [
+            "56-day skills-based VR program",
+            "56-day skills-based VR program followed by an extended 56-day on-demand period"
+          ],
+          "otherNames": [
+            "Skills based EaseVR"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham VR",
+          "description": "VR with neutral non-interactive content",
+          "armGroupLabels": [
+            "56-day control (Sham VR)",
+            "• 56-day control (Sham VR plus 8w extended on-demand)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Brief Pain Inventory (BPI) Pain Intensity Questionnaire",
+          "description": "The BPI pain intensity questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The range of scores are from 0-10 with higher values implying greater pain intensity. The BPI pain intensity measure contains a single item related to pain intensity",
+          "timeFrame": "Day 56 (end of treatment)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Oswestry Disability Index Score (ODI v2.1b)",
+          "description": "The ODI questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 10 items that are summed with a score ranging from 0 - 100%. The higher the score the greater the impact of chronic pain on the participant.",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment. Anticipated reporting date June 2027"
+        },
+        {
+          "measure": "PROMIS Sleep Disturbance",
+          "description": "The PROMIS Sleep disturbance questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 8 items that are summed with a raw score range from 0 - 40. The higher the score the worse sleep.",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment"
+        },
+        {
+          "measure": "PROMIS Depression",
+          "description": "The PROMIS Depression questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 8 items that are summed with a raw score range from 0 - 40. The higher the score the worse depression.",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment"
+        },
+        {
+          "measure": "PROMIS Anxiety",
+          "description": "The PROMIS Anxiety questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 7 items that are summed with a raw score range from 0 - 35. The higher the score the worse anxiety.",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female adults aged 18-85.\n* Self-reported chronic low back pain that will be confirmed with claims data when available.\n* Pain duration of at least three months.\n* Average pain intensity score of ≥ 4 and average pain interference score of ≥ 4 on the 0-10 Brief Pain Inventory (BPI) Pain Scale for the past month at screening.\n* Fluency in English.\n* Willing and able to comply with all study procedures including all required restrictions for the duration of study participation.\n* Able to give voluntary, written informed consent to participate and have signed an Informed Consent Form specific to this study.\n* Access to Internet for the duration of their study participation (24 months).\n* Access to a smartphone or computer for the duration of the study.\n* Availability of a physical mailing address that is not a PO box address for receipt of the device.\n* Completed the Baseline Survey plus at least two of the five sets of participant surveys that are administered during the 10-day pretreatment assessment period.\n* Able to provide photo ID\n\nExclusion Criteria:\n\n* Unable to understand the goals of the study due to cognitive difficulty.\n* Any medical condition that may prevent the use of virtual reality (e.g., current, or prior diagnosis of epilepsy, seizure disorder, hypersensitivity to flashing light or motion, migraines, any medical condition predisposing participant to nausea or dizziness, dementia, absence of stereoscopic vision or severe hearing impairment).\n* Injury to eyes, face, or neck that prevents comfortable use of VR.\n* Index back pain is linked to a cancer-related diagnosis.\n* Possible suicidal ideation as indicated by the 9th item of the Participant Health Questionnaire-9 (PHQ-9).\n* Previous participation in the 2020 AVR EaseVRx pivotal study.\n* Receiving worker's compensation and/or involved in any active litigation related to an injury.\n* Current or recent participation (i.e., within the last 2 months) in any other research study involving a drug, device, vaccine, or other interventional treatment product; or plans to participate in another research study over the next 24 months.\n* Participation of two or more members in one household\n* Recent or future medical procedures scheduled related to any current diagnosis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Todd Maddox, Ph.D.",
+          "affiliation": "AppliedVR Inc.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "AppliedVR",
+          "city": "Van Nuys",
+          "state": "California",
+          "zip": "91406",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.18667,
+            "lon": -118.44897
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41450975",
+          "type": "DERIVED",
+          "citation": "Maddox T, Sackman J, Judge E, Maddox R, Bonakdar R, Darnall BD. From randomized controlled trial to real world clinical evidence: effectiveness and engagement of in-home virtual reality pain treatment for chronic pain in older adults. Front Pain Res (Lausanne). 2025 Dec 10;6:1694007. doi: 10.3389/fpain.2025.1694007. eCollection 2025."
+        },
+        {
+          "pmid": "40281004",
+          "type": "DERIVED",
+          "citation": "Maddox T, Oldstone L, Linde-Zwirble W, Bonakdar R, Maddox R, Sackman J, Adair T, Ffrench K, Sparks C, Darnall BD. Differential treatment response to virtual reality in high-impact chronic pain: secondary analysis of a randomized trial. Sci Rep. 2025 Apr 25;15(1):14430. doi: 10.1038/s41598-025-98716-3."
+        },
+        {
+          "pmid": "40206316",
+          "type": "DERIVED",
+          "citation": "Maddox T, Oldstone L, Sparks CY, Sackman J, Oyao A, Garcia L, Maddox RU, Ffrench K, Garcia H, Adair T, Irvin A, Maislin D, Keenan B, Bonakdar R, Darnall BD. In-Home Virtual Reality Program for Chronic Lower Back Pain: A Randomized Sham-Controlled Effectiveness Trial in a Clinically Severe and Diverse Sample. Mayo Clin Proc Digit Health. 2023 Oct 24;1(4):563-573. doi: 10.1016/j.mcpdig.2023.09.003. eCollection 2023 Dec."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "56-day Skills-based VR Program",
+          "description": "participants in the EaseVRx-8w arm will participate in an 8-week interventional program and continue to be followed for 24 months following completion of tx\n\nEaseVRx: VR software with interactive content"
+        },
+        {
+          "id": "FG001",
+          "title": "56-day Skills-based VR Program Followed by an Extended 56-day On-demand Period",
+          "description": "participants in the EaseVRx-8w plus extended on-demand arm will enroll in an 8-week interventional program and be offered an extended 8-week ondemand period, and continue to be followed for 24 months after the completion of treatment\n\nEaseVRx: VR software with interactive content"
+        },
+        {
+          "id": "FG002",
+          "title": "56-day Control (Sham VR)",
+          "description": "participants in the first control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and continue to be followed for 24 months after the completion of treatment. participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting. The experience of Sham VR is similar to watching a large-screen TV, but it is not interactive. The advantage of Sham VR is that it controls for the novelty and immersion of the hardware and isolates the effect of VR skill-based training\n\nSham VR: VR with neutral non-interactive content"
+        },
+        {
+          "id": "FG003",
+          "title": "• 56-day Control (Sham VR Plus 8w Extended On-demand)",
+          "description": "participants in the second control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and be offered an extended 8-week on-demand period, after which they will continue to be followed for 24 months after the completion of treatment.Participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting.\n\nSham VR: VR with neutral non-interactive content"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "275"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "272"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "273"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "273"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "269"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "267"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "266"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "265"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "56-day Skills-based VR Program",
+          "description": "participants in the EaseVRx-8w arm will participate in an 8-week interventional program and continue to be followed for 24 months following completion of tx\n\nEaseVRx: VR software with interactive content"
+        },
+        {
+          "id": "BG001",
+          "title": "56-day Skills-based VR Program Followed by an Extended 56-day On-demand Period",
+          "description": "participants in the EaseVRx-8w plus extended on-demand arm will enroll in an 8-week interventional program and be offered an extended 8-week ondemand period, and continue to be followed for 24 months after the completion of treatment\n\nEaseVRx: VR software with interactive content"
+        },
+        {
+          "id": "BG002",
+          "title": "56-day Control (Sham VR)",
+          "description": "participants in the first control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and continue to be followed for 24 months after the completion of treatment. participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting. The experience of Sham VR is similar to watching a large-screen TV, but it is not interactive. The advantage of Sham VR is that it controls for the novelty and immersion of the hardware and isolates the effect of VR skill-based training\n\nSham VR: VR with neutral non-interactive content"
+        },
+        {
+          "id": "BG003",
+          "title": "• 56-day Control (Sham VR Plus 8w Extended On-demand)",
+          "description": "participants in the second control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and be offered an extended 8-week on-demand period, after which they will continue to be followed for 24 months after the completion of treatment.Participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting.\n\nSham VR: VR with neutral non-interactive content"
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "269"
+            },
+            {
+              "groupId": "BG001",
+              "value": "267"
+            },
+            {
+              "groupId": "BG002",
+              "value": "266"
+            },
+            {
+              "groupId": "BG003",
+              "value": "265"
+            },
+            {
+              "groupId": "BG004",
+              "value": "1067"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51",
+                      "spread": "13.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50",
+                      "spread": "13.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52",
+                      "spread": "12.9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "51",
+                      "spread": "12.7"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "51",
+                      "spread": "13.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "210"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "201"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "188"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "178"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "777"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "66"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "87"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "290"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "178"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "188"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "186"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "180"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "175"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "729"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "111"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Brief Pain Inventory - Pain intensity",
+          "description": "Range from 0 to 10 with larger scale values denoting larger pain intensity.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6.56",
+                      "spread": "1.48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6.71",
+                      "spread": "1.47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6.67",
+                      "spread": "1.44"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "6.77",
+                      "spread": "1.54"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "6.68",
+                      "spread": "1.48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Brief Pain Inventory (BPI) Pain Intensity Questionnaire",
+          "description": "The BPI pain intensity questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The range of scores are from 0-10 with higher values implying greater pain intensity. The BPI pain intensity measure contains a single item related to pain intensity",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Day 56 (end of treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "56-day Skills-based VR Program",
+              "description": "participants in the EaseVRx-8w arm will participate in an 8-week interventional program and continue to be followed for 24 months following completion of tx\n\nEaseVRx: VR software with interactive content"
+            },
+            {
+              "id": "OG001",
+              "title": "56-day Skills-based VR Program Followed by an Extended 56-day On-demand Period",
+              "description": "participants in the EaseVRx-8w plus extended on-demand arm will enroll in an 8-week interventional program and be offered an extended 8-week ondemand period, and continue to be followed for 24 months after the completion of treatment\n\nEaseVRx: VR software with interactive content"
+            },
+            {
+              "id": "OG002",
+              "title": "56-day Control (Sham VR)",
+              "description": "participants in the first control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and continue to be followed for 24 months after the completion of treatment. participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting. The experience of Sham VR is similar to watching a large-screen TV, but it is not interactive. The advantage of Sham VR is that it controls for the novelty and immersion of the hardware and isolates the effect of VR skill-based training\n\nSham VR: VR with neutral non-interactive content"
+            },
+            {
+              "id": "OG003",
+              "title": "• 56-day Control (Sham VR Plus 8w Extended On-demand)",
+              "description": "participants in the second control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and be offered an extended 8-week on-demand period, after which they will continue to be followed for 24 months after the completion of treatment.Participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting.\n\nSham VR: VR with neutral non-interactive content"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "269"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "267"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "266"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "265"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.51",
+                      "spread": "2.22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.83",
+                      "spread": "2.11"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "5.25",
+                      "spread": "2.15"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "5.17",
+                      "spread": "2.35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Oswestry Disability Index Score (ODI v2.1b)",
+          "description": "The ODI questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 10 items that are summed with a score ranging from 0 - 100%. The higher the score the greater the impact of chronic pain on the participant.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-06",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment. Anticipated reporting date June 2027",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PROMIS Sleep Disturbance",
+          "description": "The PROMIS Sleep disturbance questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 8 items that are summed with a raw score range from 0 - 40. The higher the score the worse sleep.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-06",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PROMIS Depression",
+          "description": "The PROMIS Depression questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 8 items that are summed with a raw score range from 0 - 40. The higher the score the worse depression.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-06",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PROMIS Anxiety",
+          "description": "The PROMIS Anxiety questionnaire is a validated instrument with good content validity, construct validity, and reliability in participants with chronic pain. The metric includes 7 items that are summed with a raw score range from 0 - 35. The higher the score the worse anxiety.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-06",
+          "timeFrame": "The outcome measure is administered at baseline, day 56 (end of treatment), and 1, 2, 3, 6, 12, 18, 24 months post treatment",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "4 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "56-day Skills-based VR Program",
+          "description": "participants in the EaseVRx-8w arm will participate in an 8-week interventional program and continue to be followed for 24 months following completion of tx\n\nEaseVRx: VR software with interactive content",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 269,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 269,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 269
+        },
+        {
+          "id": "EG001",
+          "title": "56-day Skills-based VR Program Followed by an Extended 56-day On-demand Period",
+          "description": "participants in the EaseVRx-8w plus extended on-demand arm will enroll in an 8-week interventional program and be offered an extended 8-week ondemand period, and continue to be followed for 24 months after the completion of treatment\n\nEaseVRx: VR software with interactive content",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 267,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 267,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 267
+        },
+        {
+          "id": "EG002",
+          "title": "56-day Control (Sham VR)",
+          "description": "participants in the first control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and continue to be followed for 24 months after the completion of treatment. participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting. The experience of Sham VR is similar to watching a large-screen TV, but it is not interactive. The advantage of Sham VR is that it controls for the novelty and immersion of the hardware and isolates the effect of VR skill-based training\n\nSham VR: VR with neutral non-interactive content",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 266,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 266,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 266
+        },
+        {
+          "id": "EG003",
+          "title": "• 56-day Control (Sham VR Plus 8w Extended On-demand)",
+          "description": "participants in the second control arm will receive 2D Sham VR virtual reality content during the 8-week interventional program and be offered an extended 8-week on-demand period, after which they will continue to be followed for 24 months after the completion of treatment.Participants in the Sham VR group will receive the same Pico G2 4K headset as participants in the immersive VR groups, but rather than view 360-degree, 3D, interactive content specially selected for efficacy, they will only have access to 2D nature footage with neutral music layered on top that is selected to be neither overly relaxing nor distracting.\n\nSham VR: VR with neutral non-interactive content",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 265,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 265,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 265
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Vice President of Research",
+        "organization": "AppliedVR",
+        "email": "tmaddox@appliedvr.io",
+        "phone": "13108901584"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2022-07-14",
+          "uploadDate": "2023-12-14T13:10",
+          "filename": "Prot_001.pdf",
+          "size": 466595
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2022-06-15",
+          "uploadDate": "2023-12-16T09:18",
+          "filename": "SAP_002.pdf",
+          "size": 645304
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2023-12-14",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

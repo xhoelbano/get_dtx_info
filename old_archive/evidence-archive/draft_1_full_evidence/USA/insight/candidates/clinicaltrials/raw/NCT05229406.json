@@ -1,0 +1,3352 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05229406",
+      "orgStudyIdInfo": {
+        "id": "2019-1578"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "MSN227550",
+          "type": "OTHER_GRANT",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "2019-1578",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "A171600",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "EDUC/COUNSELING PSYCH",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "01/21/2022",
+          "type": "OTHER",
+          "domain": "UW Madison"
+        },
+        {
+          "id": "1K23AT010879-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1K23AT010879-01"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Wisconsin, Madison",
+        "class": "OTHER"
+      },
+      "briefTitle": "Healthy Minds Program App Dosage",
+      "officialTitle": "Healthy Minds Program (HMP) App Dosage Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-06-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-06-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-27",
+      "studyFirstSubmitQcDate": "2022-01-27",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-08",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-06-08",
+      "resultsFirstSubmitQcDate": "2023-07-31",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-08-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Wisconsin, Madison",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Center for Complementary and Integrative Health (NCCIH)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study will evaluate the effectiveness of the Healthy Minds Program (HMP) meditation app on participants experiencing depression and/or anxiety. Participants will be assigned to use the HMP app 5- or 15-minutes per day for 4 weeks.",
+      "detailedDescription": "Depression and anxiety are highly common, but access to evidence-based treatments is limited. Meditation training delivered through mobile health (mHealth) technology may increase access to effective strategies. However, the necessary dosage of meditation practice to produce benefits is unknown. This project will investigate the feasibility, acceptability, and preliminary effectiveness of the HMP app for depression and/or anxiety and the feasibility of randomly assigning participants to practice dosages. Further, the project will provide a preliminary evaluation of the linkages between practice dosage and outcomes assessed retrospectively and in-the-moment via ecological momentary assessment (EMA)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression",
+        "Anxiety",
+        "Psychological Distress"
+      ],
+      "keywords": [
+        "depression",
+        "anxiety",
+        "behavioral symptoms"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants will be randomized to two groups in a 1:1 ratio",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 92,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "5-minute app usage",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be asked to use the HMP app for 5-minutes per day.",
+          "interventionNames": [
+            "Behavioral: HMP app"
+          ]
+        },
+        {
+          "label": "15-minute app usage",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be asked to use the HMP app for 15-minutes per day.",
+          "interventionNames": [
+            "Behavioral: HMP app"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "HMP app",
+          "description": "The HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose.",
+          "armGroupLabels": [
+            "15-minute app usage",
+            "5-minute app usage"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Randomization Rate: Number of Participants Who Were Randomized and Completed EMA Assessments and Activities in the HMP App",
+          "description": "Percentage of those randomized completing ecological momentary assessment (EMA) assessments and activities in the Healthy Minds Program (HMP) app",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Dosage Adherence: Number of Participants Adhering to Their Dosage Greater Than or Equal to 50 Percent of the Days",
+          "description": "Number of participants adhering to their assigned dosage greater than or equal to 50 percent of the days. This was assessed directly through the HMP app.",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Percentage of EMA Completed",
+          "description": "Percentage of EMA assessments that were completed",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Study Completion Rate",
+          "description": "Percentage of participants completing pre- and post-test measures",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Number of Participants Completing Practices ≥50% of Days",
+          "description": "Number of participants completing practices ≥50% of days",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Modified System Usability Scale (MSUS)",
+          "description": "The MSUS is a 10-item questionnaire where participants report their experience of the usability of a product, in this case the HMP app. It is scored on a 1- to 5-point Likert scale where 1 = strongly disagree and 5 = strongly agree. The result was rescaled to range from 0 to 100 with higher scores indicate higher usability.",
+          "timeFrame": "Post-test (week 4)"
+        },
+        {
+          "measure": "Change in Attitudes Towards Psychological Online Interventions (ATPOI)",
+          "description": "The ATPOI is a 16-item questionnaire where participants report their perception of psychological online interventions. It is scored on a 1- to 5-point Likert scale where 1 = totally disagree and 5 = totally agree. Mean scores are reported for a total possible range of scores is 1 to 5 where higher scores indicate more positive attitudes towards psychological online interventions.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "HMP App Utilization: Minutes",
+          "description": "Minutes of meditation practice completed",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "HMP App Utilization: Days",
+          "description": "Number of days the app was accessed.",
+          "timeFrame": "Baseline to post-test (week 4)"
+        },
+        {
+          "measure": "HMP App Utilization: Number of Activities",
+          "timeFrame": "Baseline to post-test (week 4)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Composite of Patient-Reported Outcomes Measurement Information System (PROMIS) Depression and PROMIS Anxiety",
+          "description": "Psychological distress will be computed as a composite of the PROMIS Depression and PROMIS Anxiety measures. We will use the computer adaptive version of both measures which have a mean of 50 and a standard deviation of 10. A composite will be computed by average across T-scores. T-scores range from 10 to 90 with higher scores indicating higher depression or anxiety.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Healthy Minds Index (HM Index): Awareness",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 4 awareness items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more awareness.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Healthy Minds Index (HM Index): Connection",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 6 connection items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more connection.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Healthy Minds Index (HM Index): Insight",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 3 insight items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more insight.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Healthy Minds Index (HM Index): Purpose",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 4 purpose items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more purpose.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Wellbeing Growth Mindset",
+          "description": "Well-being Growth Mindset is a 3-item questionnaire assessing participants' perception of the malleability of wellbeing. It is scored on a 1- to 6-point Likert scale where 1 = strongly disagree and 6 = strongly agree. Total scores range from 3 to 18 where higher scores indicate more of a growth mindset (i.e., wellbeing is malleable).",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Five Facet Mindfulness Questionnaire (FFMQ) Awareness Subscale",
+          "description": "FFMQ Awareness is a 8-item questionnaire assessing mindful awareness. It is scored on a 1- to 5-point Likert scale where 1 = never or very rarely true and 5 = very often or always true. Mean scores are reported with a range from 1 to 5 where higher scores indicate more mindful awareness.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in NIH Toolbox Loneliness",
+          "description": "NIH Toolbox Loneliness is a 5-item questionnaire assessing loneliness. It is scored on a 1- to 5-point Likert scale where 1 = never and 5 = always. Mean scores are reported for a range from 1 to 5 where higher scores indicate more loneliness.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Experiences Questionnaire (EQ) Decentering Subscale",
+          "description": "Experiences Questionnaire Decentering is an 11-item questionnaire assessing the psychological capacity of decentering. It is scored on a 1- to 5-point Likert scale where 1 = never and 5 = all the time. Mean scores are reported for a total range from 1 to 5 where higher scores indicate more decentering.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Meaning in Life Questionnaire (MLQ) Presence Subscale",
+          "description": "MLQ Presence is a 5-item questionnaire assessing the presence of meaning in life. It is scored on a 1- to 7-point Likert scale where 1 = absolutely untrue and 7 = absolutely true. Mean scores are reported for a total range from 1 to 7 where higher scores indicate greater presence of meaning in life.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Change in PROMIS Sleep Disturbance",
+          "description": "Sleep disturbance will be assessed using the computer adaptive version of the PROMIS Sleep Disturbance measure. This measure produces scores a T-score with a mean of 50 and a standard deviation of 10. Higher scores indicate greater sleep disturbance.",
+          "timeFrame": "Baseline, and post-test (week 4)"
+        },
+        {
+          "measure": "Count of Participant Responses to Adverse Event Relevant Survey Item",
+          "description": "Participants were asked a single survey item to assess their meditation experience. The query was \"I had challenging, difficult, or distressing experiences as a result of my meditation during this study.\" Participants chose from the following responses: Never, Rarely, Occasionally, Regularly, or Frequently. Count of participants in each arm answering each response is reported here.",
+          "timeFrame": "up to 4 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in EMA-assessed Psychological Distress (Composite of Depression and Anxiety Items)",
+          "description": "A single item reflecting depression and a single item reflecting anxiety are scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Mindfulness of Activities",
+          "description": "A single item mindfulness of activities is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Mindfulness of Feelings / Emotions",
+          "description": "A single item assessing awareness of feelings is scored on a 1- to 5-point Likert scale where 1 = not at all aware and 5 = extremely aware.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Loneliness",
+          "description": "A single item assessing loneliness is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Connection With Others",
+          "description": "A single item assessing connection with others is scored on a 1- to 5-point Likert scale where 1 = not often at all and 5 = extremely often",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Decentering",
+          "description": "A single item assessing decentering (i.e., experiencing thoughts more as events than direct reflection of reality) is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Insight",
+          "description": "A single item assessing insight is scored on a 1- to 5-point Likert scale where 1 = not at all aware and 5 = extremely aware",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Purpose",
+          "description": "A single item assessing purpose is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Stressor Exposure",
+          "description": "A single item assessing stressor exposure is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Personal Values / Meaning",
+          "description": "A single item assessing reflection of personal values in current activity is scored on a 1- to 5-point Likert scale where 1 = not at all reflected and 5 = extremely reflected.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Rumination",
+          "description": "A single item assessing rumination is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in EMA-assessed Informal Practice",
+          "description": "A single item assessing application of meditation techniques in daily life (informal practice) is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)"
+        },
+        {
+          "measure": "Change in Pre- and Post-practice Positive Affect",
+          "description": "Two items assessing positive affect are scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "timeFrame": "Before and after meditation practices between baseline and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Pre- and Post-practice Negative Affect",
+          "description": "Two items assessing negative affect are scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much",
+          "timeFrame": "Before and after meditation practices between baseline and post-test (week 4)"
+        },
+        {
+          "measure": "Change in Post-practice Focus",
+          "description": "A single item assessing focus during meditation is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = most of the time",
+          "timeFrame": "Before and after meditation practices between baseline and post-test (week 4)"
+        },
+        {
+          "measure": "Digital Working Alliance Inventory (DWAI)",
+          "description": "The DWAI is a 6-item questionnaire assessing participants' alliance with the HMP app. It is scored on a 1- to 7-point Likert scale where 1 = strongly disagree and 7 = strongly agree. Total scores range from 6 to 42 where higher scores indicate a stronger working alliance.",
+          "timeFrame": "Post-test (week 4)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 or older\n* Access to a smartphone or device capable of downloading HMP app\n* Self-reported willingness to complete 1-2 min survey 4 times per day on phone for 4 weeks\n* Able to speak, read, and write in English\n* PROMIS Depression or PROMIS Anxiety \\>55\n\nExclusion Criteria:\n\n* Meditation retreat experience\n* Regular meditation practice (weekly practice for over 1 year OR daily practice within the previous 6 months)\n* Previous practice under the instruction of a meditation teacher, other than in the context of an introductory course\n* PROMIS Depression \\>70\n* AUDIT C score greater than or equal to 4 for men, and greater than or equal to 3 for non-men (any other genders)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Simon Goldberg, PhD",
+          "affiliation": "University of Wisconsin, Madison",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Wisconsin",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40638276",
+          "type": "DERIVED",
+          "citation": "Dyer RL, Zimmerman KM, Zhao X, Xie Q, Dahl CJ, Quanbeck A, Goldberg SB. Developing meditation practice in individuals with elevated psychological distress via a meditation app intervention: An implementation science-informed qualitative investigation of barriers and facilitators. Psychol Serv. 2025 Jul 10:10.1037/ser0000980. doi: 10.1037/ser0000980. Online ahead of print."
+        },
+        {
+          "pmid": "39070019",
+          "type": "DERIVED",
+          "citation": "Xie Q, Dyer RL, Lam SU, Frye C, Dahl CJ, Quanbeck A, Nahum-Shani I, Davidson RJ, Goldberg SB. Understanding the Implementation of Informal Meditation Practice in a Smartphone-Based Intervention: A Qualitative Analysis. Mindfulness (N Y). 2024 Feb;15(2):479-490. doi: 10.1007/s12671-024-02304-x. Epub 2024 Jan 22."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data will be de-identified and listed in public data registries (e.g., OSF) based on the publication of preregistered study hypotheses on a manuscript by manuscript basis.",
+      "timeFrame": "Data may be shared following analysis and publication or upon request.",
+      "accessCriteria": "Researcher consent. Any reasonable request will be granted."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Participants were enrolled from February 2022 to June 2022.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "5-minute App Usage",
+          "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nHMP app: The HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+        },
+        {
+          "id": "FG001",
+          "title": "15-minute App Usage",
+          "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nHMP app: The HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "46"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "46"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "45"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "44"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "5-minute App Usage",
+          "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+        },
+        {
+          "id": "BG001",
+          "title": "15-minute App Usage",
+          "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "46"
+            },
+            {
+              "groupId": "BG001",
+              "value": "46"
+            },
+            {
+              "groupId": "BG002",
+              "value": "92"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30.72",
+                      "spread": "11.48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "31.85",
+                      "spread": "14.68"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31.28",
+                      "spread": "13.12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex/Gender, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other Gender",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "American Indian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Multiracial",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "56"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Randomization Rate: Number of Participants Who Were Randomized and Completed EMA Assessments and Activities in the HMP App",
+          "description": "Percentage of those randomized completing ecological momentary assessment (EMA) assessments and activities in the Healthy Minds Program (HMP) app",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Dosage Adherence: Number of Participants Adhering to Their Dosage Greater Than or Equal to 50 Percent of the Days",
+          "description": "Number of participants adhering to their assigned dosage greater than or equal to 50 percent of the days. This was assessed directly through the HMP app.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of EMA Completed",
+          "description": "Percentage of EMA assessments that were completed",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "percentage of EMA assessments complete",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "82.71",
+                      "spread": "32.82"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "78.61",
+                      "spread": "41.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Study Completion Rate",
+          "description": "Percentage of participants completing pre- and post-test measures",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants Completing Practices ≥50% of Days",
+          "description": "Number of participants completing practices ≥50% of days",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Modified System Usability Scale (MSUS)",
+          "description": "The MSUS is a 10-item questionnaire where participants report their experience of the usability of a product, in this case the HMP app. It is scored on a 1- to 5-point Likert scale where 1 = strongly disagree and 5 = strongly agree. The result was rescaled to range from 0 to 100 with higher scores indicate higher usability.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "44"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "84.56",
+                      "spread": "10.86"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "83.66",
+                      "spread": "14.21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Change in Attitudes Towards Psychological Online Interventions (ATPOI)",
+          "description": "The ATPOI is a 16-item questionnaire where participants report their perception of psychological online interventions. It is scored on a 1- to 5-point Likert scale where 1 = totally disagree and 5 = totally agree. Mean scores are reported for a total possible range of scores is 1 to 5 where higher scores indicate more positive attitudes towards psychological online interventions.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.30",
+                      "spread": "0.39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.20",
+                      "spread": "0.36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-Test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.45",
+                      "spread": "0.50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.47",
+                      "spread": "0.64"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.15",
+                      "spread": "0.47"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.27",
+                      "spread": "0.44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "HMP App Utilization: Minutes",
+          "description": "Minutes of meditation practice completed",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "minutes",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.85",
+                      "spread": "66.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "201.76",
+                      "spread": "144.61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "HMP App Utilization: Days",
+          "description": "Number of days the app was accessed.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.28",
+                      "spread": "7.00"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.72",
+                      "spread": "7.89"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "HMP App Utilization: Number of Activities",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "activities",
+          "timeFrame": "Baseline to post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57.65",
+                      "spread": "32.40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51.43",
+                      "spread": "44.91"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Composite of Patient-Reported Outcomes Measurement Information System (PROMIS) Depression and PROMIS Anxiety",
+          "description": "Psychological distress will be computed as a composite of the PROMIS Depression and PROMIS Anxiety measures. We will use the computer adaptive version of both measures which have a mean of 50 and a standard deviation of 10. A composite will be computed by average across T-scores. T-scores range from 10 to 90 with higher scores indicating higher depression or anxiety.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "T-score",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.93",
+                      "spread": "5.38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61.08",
+                      "spread": "5.24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 post-test (week 4)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57.28",
+                      "spread": "5.63"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56.78",
+                      "spread": "6.02"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.58",
+                      "spread": "4.32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-4.44",
+                      "spread": "7.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Healthy Minds Index (HM Index): Awareness",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 4 awareness items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more awareness.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.29",
+                      "spread": "0.53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.26",
+                      "spread": "0.67"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-Test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.42",
+                      "spread": "0.66"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.40",
+                      "spread": "0.70"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.13",
+                      "spread": "0.65"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.12",
+                      "spread": "0.77"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Healthy Minds Index (HM Index): Connection",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 6 connection items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more connection.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.56",
+                      "spread": "0.58"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.55",
+                      "spread": "0.55"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-Test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.72",
+                      "spread": "0.71"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.87",
+                      "spread": "0.44"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.16",
+                      "spread": "0.48"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.34",
+                      "spread": "0.48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Healthy Minds Index (HM Index): Insight",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 3 insight items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more insight.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.86",
+                      "spread": "0.68"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.77",
+                      "spread": "0.60"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-Test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.11",
+                      "spread": "0.76"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.33",
+                      "spread": "0.65"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.27",
+                      "spread": "0.76"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.56",
+                      "spread": "0.80"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Healthy Minds Index (HM Index): Purpose",
+          "description": "The HM Index assesses qualities trained in the HMP app (awareness, connection, insight, purpose). It is scored on a 0- to 4-point Likert scale where 0 = a low amount (e.g., never, not at all, none of the time) and 4 = a higher amount (e.g., always, to the highest degree, all of the time) of a particular quality. There are 4 purpose items. Mean item scores are reported with a range from 0 to 4 where higher scores indicate more purpose.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.43",
+                      "spread": "0.85"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.49",
+                      "spread": "0.83"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-Test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.80",
+                      "spread": "0.79"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.88",
+                      "spread": "0.90"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.38",
+                      "spread": "0.90"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.40",
+                      "spread": "0.94"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Wellbeing Growth Mindset",
+          "description": "Well-being Growth Mindset is a 3-item questionnaire assessing participants' perception of the malleability of wellbeing. It is scored on a 1- to 6-point Likert scale where 1 = strongly disagree and 6 = strongly agree. Total scores range from 3 to 18 where higher scores indicate more of a growth mindset (i.e., wellbeing is malleable).",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.77",
+                      "spread": "3.02"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.48",
+                      "spread": "2.99"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-time Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.60",
+                      "spread": "2.64"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15.11",
+                      "spread": "2.63"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.68",
+                      "spread": "2.15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.59",
+                      "spread": "2.38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Five Facet Mindfulness Questionnaire (FFMQ) Awareness Subscale",
+          "description": "FFMQ Awareness is a 8-item questionnaire assessing mindful awareness. It is scored on a 1- to 5-point Likert scale where 1 = never or very rarely true and 5 = very often or always true. Mean scores are reported with a range from 1 to 5 where higher scores indicate more mindful awareness.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.04",
+                      "spread": "0.59"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.91",
+                      "spread": "0.91"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.22",
+                      "spread": "0.71"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.30",
+                      "spread": "0.74"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.16",
+                      "spread": "0.63"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.37",
+                      "spread": "0.81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in NIH Toolbox Loneliness",
+          "description": "NIH Toolbox Loneliness is a 5-item questionnaire assessing loneliness. It is scored on a 1- to 5-point Likert scale where 1 = never and 5 = always. Mean scores are reported for a range from 1 to 5 where higher scores indicate more loneliness.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.76",
+                      "spread": "0.92"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.82",
+                      "spread": "1.01"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.20",
+                      "spread": "1.02"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.11",
+                      "spread": "0.87"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.54",
+                      "spread": "0.65"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.75",
+                      "spread": "0.99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Experiences Questionnaire (EQ) Decentering Subscale",
+          "description": "Experiences Questionnaire Decentering is an 11-item questionnaire assessing the psychological capacity of decentering. It is scored on a 1- to 5-point Likert scale where 1 = never and 5 = all the time. Mean scores are reported for a total range from 1 to 5 where higher scores indicate more decentering.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.85",
+                      "spread": "0.53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.06",
+                      "spread": "0.55"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.30",
+                      "spread": "0.68"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.56",
+                      "spread": "0.63"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.46",
+                      "spread": "0.55"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.52",
+                      "spread": "0.71"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Meaning in Life Questionnaire (MLQ) Presence Subscale",
+          "description": "MLQ Presence is a 5-item questionnaire assessing the presence of meaning in life. It is scored on a 1- to 7-point Likert scale where 1 = absolutely untrue and 7 = absolutely true. Mean scores are reported for a total range from 1 to 7 where higher scores indicate greater presence of meaning in life.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.58",
+                      "spread": "147"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.62",
+                      "spread": "1.50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.27",
+                      "spread": "1.36"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.53",
+                      "spread": "1.31"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.74",
+                      "spread": "1.08"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.93",
+                      "spread": "1.29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in PROMIS Sleep Disturbance",
+          "description": "Sleep disturbance will be assessed using the computer adaptive version of the PROMIS Sleep Disturbance measure. This measure produces scores a T-score with a mean of 50 and a standard deviation of 10. Higher scores indicate greater sleep disturbance.",
+          "populationDescription": "3 participants withdrew from the study",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "T-score",
+          "timeFrame": "Baseline, and post-test (week 4)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "46"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "T1 Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55.56",
+                      "spread": "7.04"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.77",
+                      "spread": "5.81"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "T2 Post-Test Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.23",
+                      "spread": "8.70"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48.84",
+                      "spread": "8.19"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.20",
+                      "spread": "6.72"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-5.04",
+                      "spread": "9.31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Count of Participant Responses to Adverse Event Relevant Survey Item",
+          "description": "Participants were asked a single survey item to assess their meditation experience. The query was \"I had challenging, difficult, or distressing experiences as a result of my meditation during this study.\" Participants chose from the following responses: Never, Rarely, Occasionally, Regularly, or Frequently. Count of participants in each arm answering each response is reported here.",
+          "populationDescription": "3 participants withdrew from the study prior to the post-test measure, 1 participant did not answer the question",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "up to 4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "5-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            },
+            {
+              "id": "OG001",
+              "title": "15-minute App Usage",
+              "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "44"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "44"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Never",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "Rarely",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Occasionally",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Regularly",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Frequently",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Psychological Distress (Composite of Depression and Anxiety Items)",
+          "description": "A single item reflecting depression and a single item reflecting anxiety are scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Mindfulness of Activities",
+          "description": "A single item mindfulness of activities is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Mindfulness of Feelings / Emotions",
+          "description": "A single item assessing awareness of feelings is scored on a 1- to 5-point Likert scale where 1 = not at all aware and 5 = extremely aware.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Loneliness",
+          "description": "A single item assessing loneliness is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Connection With Others",
+          "description": "A single item assessing connection with others is scored on a 1- to 5-point Likert scale where 1 = not often at all and 5 = extremely often",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Decentering",
+          "description": "A single item assessing decentering (i.e., experiencing thoughts more as events than direct reflection of reality) is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Insight",
+          "description": "A single item assessing insight is scored on a 1- to 5-point Likert scale where 1 = not at all aware and 5 = extremely aware",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Purpose",
+          "description": "A single item assessing purpose is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Stressor Exposure",
+          "description": "A single item assessing stressor exposure is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Personal Values / Meaning",
+          "description": "A single item assessing reflection of personal values in current activity is scored on a 1- to 5-point Likert scale where 1 = not at all reflected and 5 = extremely reflected.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Rumination",
+          "description": "A single item assessing rumination is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in EMA-assessed Informal Practice",
+          "description": "A single item assessing application of meditation techniques in daily life (informal practice) is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "4 times per day from baseline to post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Pre- and Post-practice Positive Affect",
+          "description": "Two items assessing positive affect are scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Before and after meditation practices between baseline and post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Pre- and Post-practice Negative Affect",
+          "description": "Two items assessing negative affect are scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = very much",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Before and after meditation practices between baseline and post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Post-practice Focus",
+          "description": "A single item assessing focus during meditation is scored on a 1- to 7-point Likert scale where 1 = not at all and 7 = most of the time",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Before and after meditation practices between baseline and post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Digital Working Alliance Inventory (DWAI)",
+          "description": "The DWAI is a 6-item questionnaire assessing participants' alliance with the HMP app. It is scored on a 1- to 7-point Likert scale where 1 = strongly disagree and 7 = strongly agree. Total scores range from 6 to 42 where higher scores indicate a stronger working alliance.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Post-test (week 4)",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "up to 4 weeks on study",
+      "description": "A single survey item was asked of participants \"I had challenging, difficult, or distressing experiences as a result of my meditation during this study\". Participants could answer Never, Rarely, Occasionally, Regularly, or Frequently. Please see Secondary Outcome Measures for count of participant responses.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "5-minute App Usage",
+          "description": "Participants will be asked to use the HMP app for 5-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 46,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 46,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 46
+        },
+        {
+          "id": "EG001",
+          "title": "15-minute App Usage",
+          "description": "Participants will be asked to use the HMP app for 15-minutes per day.\n\nThe HMP app is a meditation-based smartphone app designed to promote and protect psychological well-being through sustainable skills training. The program is grounded in constituents of psychological well-being identified in empirical literature. HMP provides core content, with instruction administered through a curriculum of guided practices. HMP has guided audio practices that address 4 constituents of well-being: awareness, connection, insight, and purpose.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 46,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 46,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 46
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "This study was not powered to detect between-group differences on pre-post outcomes. Here results are reported by arm for descriptive purposes."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Simon B. Goldberg, PhD",
+        "organization": "Center for Healthy Minds, University of Wisconsin - Madison",
+        "email": "sbgoldberg@wisc.edu",
+        "phone": "608-265-8986"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2022-10-19",
+          "uploadDate": "2023-06-08T11:03",
+          "filename": "Prot_000.pdf",
+          "size": 159812
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2023-06-06",
+          "uploadDate": "2023-06-08T11:05",
+          "filename": "SAP_001.pdf",
+          "size": 149762
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2022-02-03",
+          "uploadDate": "2023-06-06T12:23",
+          "filename": "ICF_002.pdf",
+          "size": 177309
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

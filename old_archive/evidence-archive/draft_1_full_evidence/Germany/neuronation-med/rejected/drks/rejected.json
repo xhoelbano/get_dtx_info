@@ -1,0 +1,105 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00030767",
+      "drks_id": "DRKS00030767",
+      "title": "Evaluation of personalized cognitive home training using the \nmobile application Neuronation in adults with ADHD",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030767/details",
+      "_matched_query": "\"NeuroNation MED\"",
+      "_raw_json_path": "evidence/Germany/neuronation-med/candidates/drks/raw/DRKS00030767.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions 'Neuronation,' but it does not explicitly specify 'NeuroNation MED' or provide a clear description matching the product. The intervention details are not provided, and the study could be about a generic or different version of NeuroNation.",
+        "matched_elements": [
+          "Neuronation"
+        ]
+      }
+    },
+    {
+      "study_id": "DRKS00036429",
+      "drks_id": "DRKS00036429",
+      "title": "Evaluation of an app-based independent cognitive training - effects on cognitive performance and depression in patients with depression",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036429/details",
+      "_matched_query": "\"NeuroNation MED\"",
+      "_raw_json_path": "evidence/Germany/neuronation-med/candidates/drks/raw/DRKS00036429.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'NeuroNation MED' or provide a clear description matching the product. The intervention is not specified, and the title suggests a generic app-based cognitive training, which could refer to any similar product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00025133",
+      "drks_id": "DRKS00025133",
+      "title": "Study for the evaluation of a mobile application for independent cognitive training - effects on cognitive abilities and quality of life of patients with mild cognitive disorders",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00025133/details",
+      "_matched_query": "\"NeuroNation MED\"",
+      "_raw_json_path": "evidence/Germany/neuronation-med/candidates/drks/raw/DRKS00025133.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 80,
+        "reason": "The study title does not explicitly mention 'NeuroNation MED' or provide a clear variation of the product name. The intervention is not specified, and there is no direct link to the company or product in the provided information. It could be about a different product or a generic study on cognitive training apps.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00033333",
+      "drks_id": "DRKS00033333",
+      "title": "Cognitive Training while Seated to Reduce Motor Risk Factors of Falls in Older Adults at Increased Risk of Falling: A Randomized and Controlled Pilot Study",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00033333/details",
+      "_matched_query": "\"NeuroNation MED\"",
+      "_raw_json_path": "evidence/Germany/neuronation-med/candidates/drks/raw/DRKS00033333.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'NeuroNation MED' or provide a clear description matching the product. The intervention is not specified, and the title suggests a focus on cognitive training but does not confirm it is related to this specific DTx.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00030604",
+      "drks_id": "DRKS00030604",
+      "title": "SARS-CoV-2 seroprevalence Schleswig-Holstein",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030604/details",
+      "_matched_query": "\"NeuroNation MED\" AND \"übermittelten Angaben\"",
+      "_raw_json_path": "evidence/Germany/neuronation-med/candidates/drks/raw/DRKS00030604.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study title and available information do not mention 'NeuroNation MED' or provide any specific description matching the product. The intervention is not specified, and the study appears unrelated to digital therapeutics or cognitive training.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00027431",
+      "drks_id": "DRKS00027431",
+      "title": "Prevalence of sexually transmitted diseases in urethral smear in urological patients with urethritic symptoms - a retrospective and prospective survey.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027431/details",
+      "_matched_query": "\"NeuroNation MED\" AND \"übermittelten Angaben\"",
+      "_raw_json_path": "evidence/Germany/neuronation-med/candidates/drks/raw/DRKS00027431.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention NeuroNation MED, Synaptikon GmbH, or any specific description matching the DTx product. The study focuses on sexually transmitted diseases and urethral smear analysis, which is unrelated to cognitive training or the clinical area of NeuroNation MED.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 6,
+  "_saved_at": "2026-02-09T19:54:34.938808Z",
+  "_source": "drks"
+}

@@ -1,0 +1,152 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00429052",
+      "orgStudyIdInfo": {
+        "id": "INS-C-001"
+      },
+      "organization": {
+        "fullName": "University of Florida",
+        "class": "OTHER"
+      },
+      "briefTitle": "Mechanism of Percutaneous Revascularization for Coronary Bifurcation Disease",
+      "officialTitle": "Insights Into the Mechanism of Percutaneous Revascularization of Coronary Bifurcation Disease in the Drug-eluting Stent Era. An Angiographic and Intravascular Ultrasound Study. The INSIGHT Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2007-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "PI left institution,inability to enroll and analyze data due to software/technical limitations, pt enrollment terminated early with no data generated",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2006-11"
+      },
+      "completionDateStruct": {
+        "date": "2008-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-01-30",
+      "studyFirstSubmitQcDate": "2007-01-30",
+      "studyFirstPostDateStruct": {
+        "date": "2007-01-31",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-03-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-03-07",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Florida",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main objectives of this study are define frequency of plaque shift phenomenon and impact on flow dynamics in the side branch as assessed by intravascular ultrasound, and evaluate acute and late side branch ostial vessel reaction to balloon angioplasty and drug-eluting stents.",
+      "detailedDescription": "Percutaneous coronary intervention of bifurcation lesion remains a challenge, even in the era of drug eluting stents (DES). Bifurcation interventions, when compared with non-bifurcation interventions, have a lower rate of procedural success and a higher rate of restenosis regardless of the techniques or technologies used. Although stenting of individual non-bifurcated lesion has been shown to be superior to balloon angioplasty, stenting of both branches seems to offer no advantage over stenting of the main branch (MB) alone. The recent introduction of DES has resulted in a lower event rate and reduction of MB restenosis in comparison with historical controls. However, reports suggest that restenosis at the side branch (SB) ostium continues to be elevated. Intravascular ultrasound (IVUS) studies have shown that stent dimensions are important predictors of restenosis even with DES. Recently published observational data of IVUS analysis of bifurcation lesions treated with \"crush\" technique has shown the smallest minimum stent area at the SB ostium. This may contribute to a higher restenosis rate. Plaque shift and insufficient covering of the SB ostium may also play a major role in a development of SB restenosis. The belief that plaque shift occurs during bifurcation stenting is challenged by the fact that plaque is mainly located opposite to the side branch ostium as demonstrated by IVUS and anatomical studies. Further, the occurrence of plaque shift in bifurcation lesions has never been scientifically investigated. Finally, bending and twisting of the coronary arteries at the bifurcation should be taken into account in the mechanism of SB restenosis because of continuous vessel wall injury by the rigid stent and potential stent fractures. Bifurcation represents an extreme model of vessel bending and twisting because the vessels beyond the bifurcation are in different path/orientation and different heart walls. A better understanding of the mechanisms of bifurcation intervention and restenosis is essential for the development of a successful technique and dedicated technologies for this challenging scenario. Despite multiple retrospective studies and various ingenious techniques, a true prospective mechanistic investigation remains lacking in the field of bifurcation. The main objectives of this study are define frequency of plaque shift phenomenon and impact on flow dynamics in the side branch as assessed by IVUS, and evaluate acute and late side branch ostial vessel reaction to balloon angioplasty and DES."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Disease"
+      ],
+      "keywords": [
+        "Coronary Disease",
+        "Coronary Stenosis",
+        "Percutaneous Transluminal Coronary Angioplasty",
+        "Stents",
+        "Sirolimus"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 24,
+        "type": "ACTUAL"
+      }
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female patient between 18-80 years of age\n2. Patients with a sign and/or symptoms of ischemia and new de novo lesion\n3. Lesion suitable for stenting\n4. Any bifurcation lesion with SB reference diameter(QCA) \\>2.3mm (MEDINA classification: 1,0,0; 0,1,0; 0,0,1; 1,1,0; 1,1,1; 0,1,1; 1,0,1)\n5. Only elective procedures\n6. Patient is willing to provide written informed consent\n\nExclusion Criteria:\n\n1. Patients treated within 72h of acute coronary syndromes (ST and non-ST elevation MI).\n2. Cardiogenic shock\n3. Lesion containing thrombus\n4. Total vessel occlusion involving the target vessels\n5. Contraindication for prolonged antiplatelet treatment\n6. Left main disease, venous or arterial graft disease\n7. Debulking technique used prior to the stent implantation\n8. Pregnancy\n9. Severe liver or renal disease (Cr\\>2.0)\n10. Life expectancy \\< 1 year.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "from cathet labs",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Marco A Costa, MD, PhD",
+          "affiliation": "University of Florida Shands Jacksonville, Division of Cardiology and Cardiovascular Imaging Core Laboratories",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Florida Health Science Center, Cardiovascular Imaging Core Laboratories",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D023921",
+          "term": "Coronary Stenosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

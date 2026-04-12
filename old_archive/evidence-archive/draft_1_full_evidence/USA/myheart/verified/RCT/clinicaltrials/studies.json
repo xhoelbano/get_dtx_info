@@ -1,0 +1,74 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05326529",
+      "nct_id": "NCT05326529",
+      "title": "Comparison of Traditional, Web-based or a Combined Cardiac Rehabilitation Programme",
+      "official_title": "To Examine the Effectiveness of Physical Activity, Quality of Life and Hospital Anxiety and Depression Outcomes in Cardiovascular Patients Using Either Traditional, Web-based or a Combined Cardiac Rehabilitation Programme.",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "FACTORIAL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 57,
+      "start_date": "2022-07-07",
+      "completion_date": "2023-02-28",
+      "conditions": [
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Cardiac Rehabilitation",
+        "Web-based Cardiac Rehabilitation"
+      ],
+      "interventions": [
+        {
+          "name": "Hospital Based Cardiac Rehabilitation Exercise Classes",
+          "type": "OTHER",
+          "description": "Participants will attend 8 Hospital based CR exercise sessions. QOL and Hospital anxiety and Depression scores through questionnaires and incremental Shuttle Walk tests will be carried out pre and post intervention."
+        },
+        {
+          "name": "Web-based Cardiac Rehabilitation Exercise Sessions",
+          "type": "OTHER",
+          "description": "Participants will complete 8 weeks of Web-based CR exercise sessions using the MyHeart app. QOL and Hospital anxiety and Depression scores through questionnaires and incremental Shuttle Walk tests will be carried out pre and post intervention."
+        }
+      ],
+      "lead_sponsor": "University of Chester",
+      "collaborators": [
+        "University Hospitals of Derby and Burton NHS Foundation Trust"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "brief_summary": "The study explores the different modes of Cardiac Rehabilitation delivery including the use of a web-based programme. Cardiac Rehabilitation provides a structured, comprehensive programme, proven to reduce cardiovascular mortality and improve overall Quality of Life. However, as uptake remains relatively low with only 50% attending, exploring the benefits of offering a menu of programme options may allow greater patient choice and accessibility, meeting individual needs.\n\nThis study aims to compare how effective Cardiac Rehabilitation Programmes are on improving cardiovascular patients physical and mental wellbeing using a web-based compared with traditional cardiac rehab programmes in the hospital or through a combination of both.",
+      "detailed_description": "This 8-week study, aims to compare quality of life (QOL), hospital anxiety and depression scores (HADs) and physical activity outcomes in web-based Cardiac Rehabilitation (CR), web-based CR combined with traditional CR (TCR) and TCR in patients with coronary heart disease (CHD).\n\nThe Web-based option will include the use of the MyHeart application.\n\nParticipants eligible for the study will include low-moderate cardiovascular patients (heart attack, stents or heart surgery) within 3-6 weeks post discharge. Participants will be involved in hospital or virtual exercise and educational sessions with the support of CR specialists. Primary outcomes will be measured through questionnaires and an incremental treadmill walking test.\n\nTo our knowledge, this would be the first study to compare all three groups, as combined CR (web-based alongside traditional CR) has not yet been evaluated. Additionally, the investigators currently work within the CR setting at Burton Hospital, and this study will be conducted within our current Hospital CR service. The outcomes will be applicable and relevant to future clinical practice.\n\nAs the UK's 50% uptake to CR remains poor, falling below the 85% national uptake recommendations, a CR menu-based approach, offering hospital or home-based programmes is recommended to encourage uptake, improve QOL and clinical outcomes.\n\nFurthermore, as COVID-19 has enforced a web-based CR approach, further research to explore uptake, physical and psychological outcomes to benefit cardiovascular patients is paramount for current and future CR delivery.\n\nThis study will explore a menu of options recommended for CR.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05326529",
+      "_matched_query": "\"myHeart\"",
+      "_raw_json_path": "evidence/USA/myheart/candidates/clinicaltrials/raw/NCT05326529.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions the use of the 'MyHeart app' in the intervention description, which matches the product name and description provided. The intervention aligns with the features of the myHeart app, such as web-based cardiac rehabilitation. There is no indication that this is about a different product.",
+        "matched_elements": [
+          "MyHeart app",
+          "web-based cardiac rehabilitation",
+          "intervention description"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 90,
+        "reason": "The study is interventional and compares different modes of Cardiac Rehabilitation delivery, suggesting a structured comparison likely involving randomization to assess effectiveness."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-10T07:58:08.063612Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

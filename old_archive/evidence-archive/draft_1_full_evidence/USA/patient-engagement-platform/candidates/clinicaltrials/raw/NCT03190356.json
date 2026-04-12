@@ -1,0 +1,207 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03190356",
+      "orgStudyIdInfo": {
+        "id": "SLMAPPROT-2017-001"
+      },
+      "organization": {
+        "fullName": "Soberlink Healthcare LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Soberlink - MAP Outcomes Study Protocol",
+      "officialTitle": "Soberlink - MAP Outcomes Study Protocol"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Business Decision",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-08-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-04-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-04-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-06-14",
+      "studyFirstSubmitQcDate": "2017-06-14",
+      "studyFirstPostDateStruct": {
+        "date": "2017-06-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-05-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-05-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Soberlink Healthcare LLC",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "MAP Health Management LLC",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to show the effectiveness of Soberlink's remote alcohol monitoring system integrated with MAP's patient engagement platform (EHR) to monitor a sample size of at-risk alcohol use disorder (AUD) population. Ultimately, this data is leveraged to improve clinical outcomes and manage financial risk through facilitating early interventions and other means of mitigating recidivism and costly treatment episodes from AUD population.",
+      "detailedDescription": "The study will include 30 Clients with a primary or secondary diagnosis of alcohol use disorder (AUD) and are enrolled in MAP's System where dedicated Case Managers are monitoring the Client's relapse risk levels. Soberlink's remote alcohol system will provide data to inform the Case Manager if the Client has relapsed or is at risk of relapsing through the use of testing data compiled by the Soberlink System. Integrating Soberlink results into MAP's EMR will allow Case Manager to make better clinical decisions and reduce costs by mitigating the chances recidivism through early intervention. Clients will use the Soberlink Device for a period of 90 days."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Alcohol Addiction"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 6,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Primary diagnosis alcohol use disorder (AUD)",
+          "description": "Primary diagnosis of alcohol use disorder (AUD) population enrolled in MAP's System",
+          "interventionNames": [
+            "Device: Soberlink Cellular Device"
+          ]
+        },
+        {
+          "label": "Secondary diagnosis alcohol use disorder (AUD)",
+          "description": "Secondary diagnosis of alcohol use disorder (AUD) population enrolled in MAP's System",
+          "interventionNames": [
+            "Device: Soberlink Cellular Device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Soberlink Cellular Device",
+          "description": "Soberlink Cellular Device delivers real-time blood alcohol results to people who support individuals in recovery. MAP platform helps monitor and support compliance with discharge plans while providing tools to improve outcomes for behavioral health diagnoses.",
+          "armGroupLabels": [
+            "Primary diagnosis alcohol use disorder (AUD)",
+            "Secondary diagnosis alcohol use disorder (AUD)"
+          ],
+          "otherNames": [
+            "MAP patient engagement platform (EHR)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recidivism",
+          "description": "Determination of client relapse or risk of relapsing through the use of testing data compiled by the Soberlink Cellular Device",
+          "timeFrame": "90 days duration of subject participation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female subject between ages of 21-65 years old\n* Subject is active in MAP's program with recovery support services\n* Subject has received acute professional treatment in the last 120 days\n* Primary or secondary diagnosis is Alcohol Use Disorder\n* Subject willing to use Soberlink Device to provide BAC\n* Subject is willing to discuss Soberlink test results with case manager\n* Subject is willing to sign a Soberlink Client Agreement\n* Subject is English speaking and reading\n\nExclusion Criteria:\n\n* Alcohol Use Disorder is not a primary or secondary diagnosis\n* Subject is currently taking anti-alcohol medications\n* Subject will not be in the United States through duration of study\n* Subject is unwilling to properly use the device\n* Subject is non-English speaking and reading\n* Subject is a child, adolescent, cognitively impaired, diagnosed with a mental disorder, such as schizophrenia",
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "30 adult male/female clients with a primary or secondary diagnosis of alcohol use disorder (AUD) and are enrolled in MAP's System where dedicated Case Managers are monitoring the Client's relapse risk levels.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Shannon Hanrahan, PhD",
+          "affiliation": "Shannon Hanrahan",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "MAP Health Management LLC",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78746",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "American Cancer Society - Alcohol Use and Cancer",
+          "url": "https://www.cancer.org/cancer/cancer-causes/diet-physical-activity/alcohol-use-and-cancer.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000437",
+          "term": "Alcoholism"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019973",
+          "term": "Alcohol-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

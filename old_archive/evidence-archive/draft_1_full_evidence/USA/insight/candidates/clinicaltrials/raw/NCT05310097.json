@@ -1,0 +1,437 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05310097",
+      "orgStudyIdInfo": {
+        "id": "H-42343"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1K23MH129878-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1K23MH129878-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Boston University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cognitive Processing Therapy (CPT) Memory Support (MS) Study",
+      "officialTitle": "Enhancing Memory and Learning in Cognitive Processing Therapy for Post Traumatic Stress Disorder (PTSD)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-03-25",
+      "studyFirstSubmitQcDate": "2022-03-25",
+      "studyFirstPostDateStruct": {
+        "date": "2022-04-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Boston University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute of Mental Health (NIMH)",
+          "class": "NIH"
+        },
+        {
+          "name": "VA Boston Healthcare System",
+          "class": "FED"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The efficacy of psychological interventions for posttraumatic stress disorder (PTSD) is likely limited by the difficulty participants have learning and remembering important therapy content. Accordingly, the present study will examine the utility of integrating a Memory Support (MS) intervention into Cognitive Processing Therapy (CPT), an empirically supported and widely disseminated treatment for PTSD. MS was designed to integrate techniques aimed at facilitating encoding, consolidation, and retrieval of new learning into existing treatments, and has been shown to improve outcomes when integrated into cognitive therapy for depression. A pilot randomized controlled trial (n=52) comparing CPT with Memory Support (CPT+MS) to CPT-alone will be conducted. Study participants will be adults diagnosed with PTSD.\n\nThe primary aim of the trial will be to determine if CPT+MS will lead to greater memory and learning of therapy content relative to CPT-alone, and to establish the acceptability and feasibility of integrating MS into CPT. Secondary aims include a preliminary examination of treatment efficacy, as indicated by the magnitude of changes in PTSD symptoms between conditions, and target validation, as indicated by associations between memory and learning of therapy content and treatment response. Exploratory analyses will examine several indicators of baseline memory-related cognitive functioning as predictors of memory and learning of therapy content, providing preliminary data to inform future research on personalized application of MS. Results of the trial will advance scientific knowledge about methods for optimizing memory and learning as a mechanism for improving PTSD treatment outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PTSD"
+      ],
+      "keywords": [
+        "Cognitive Processing Therapy (CPT)",
+        "Memory Support (MS)",
+        "CPT + MS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cognitive Processing Therapy + Memory Support (CPT + MS)",
+          "type": "EXPERIMENTAL",
+          "description": "CPT + MS will involve the same treatment strategies as CPT while incorporating deliberate and frequent use of memory and learning support strategies. MS strategies are designed to enhance the memory of specific treatment points, defined as any insight, skill or strategy determined to be important for the patient to remember and/or implement. MS is not designed to enhance memory functioning generally, but rather improve the encoding, consolidation and retrieval of specific components of therapeutic learning.",
+          "interventionNames": [
+            "Behavioral: CPT",
+            "Behavioral: MS"
+          ]
+        },
+        {
+          "label": "Cognitive Processing Therapy (CPT)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "CPT is a manualized, trauma-focused therapy for PTSD. Treatment consists of psychoeducation on the cognitive model of PTSD, identification of trauma-related stuck points (i.e. dysfunctional beliefs), and cognitive challenging techniques to help participants identify more realistic and adaptive ways of viewing their trauma, themselves, and the world.",
+          "interventionNames": [
+            "Behavioral: CPT"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "CPT",
+          "description": "CPT will be delivered over the course of 12 one-hour weekly sessions (maximum of 18 weeks to complete treatment). Participants will have the option of receiving CPT in-person or via videoconferencing.",
+          "armGroupLabels": [
+            "Cognitive Processing Therapy (CPT)",
+            "Cognitive Processing Therapy + Memory Support (CPT + MS)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "MS",
+          "description": "The MS protocol consists of eight strategies: categorization, evaluation, application, cue-based reminders, practice remembering, attention recruitment, praising recall, and repetitions.",
+          "armGroupLabels": [
+            "Cognitive Processing Therapy + Memory Support (CPT + MS)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mid-treatment Memory of therapy content assessed by the Therapy Recall Task",
+          "description": "The Therapy Recall Task involves participants writing down as many distinct \"treatment points\" as they can in a 10-minute period. Treatment points are defined as insights, skills, or strategies they think are important to remember or implement as part of their therapy. Responses are scored based on the number of distinct treatment points described.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Post-treatment Memory of therapy content assessed by the Therapy Recall Task",
+          "description": "The Therapy Recall Task involves participants writing down as many distinct \"treatment points\" as they can in a 10-minute period. Treatment points are defined as insights, skills, or strategies they think are important to remember or implement as part of their therapy. Responses are scored based on the number of distinct treatment points described.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Follow-up Memory of therapy content assessed by the Therapy Recall Task",
+          "description": "The Therapy Recall Task involves participants writing down as many distinct \"treatment points\" as they can in a 10-minute period. Treatment points are defined as insights, skills, or strategies they think are important to remember or implement as part of their therapy. Responses are scored based on the number of distinct treatment points described.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Feasibility assessed by mean CPT Adherence",
+          "description": "CPT adherence is defined as the portion of CPT protocol elements completed across therapy sessions, rated from 0-100%. This will be assessed via observer ratings of a random selection of 25% of tapes/session recordings from each treatment condition using the CPT Therapist Adherence and Competence Protocol - Revised. Completion of ≥ 90% mean adherence to protocol elements indicates high CPT adherence, and would be an indicator of feasibility of CPT+MS.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Feasibility assessed by mean CPT Competence",
+          "description": "CPT competence will be assessed via observer ratings of a random selection of 25% of tapes/session recordings from each treatment condition of the competence with which CPT protocol elements are delivered, rated from 1 (poor) to 7 (excellent). This will be assessed via observer ratings of a random selection of session recordings using the CPT Therapist Adherence and Competence Protocol - Revised. A mean skill rating of \"good\" or higher (≥5 on a 7-point Likert scale) on protocol elements indicates high CPT competence, and would be an indicator of feasibility of CPT+MS.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Feasibility assessed by the Memory Support Rating Scale (MSRS)",
+          "description": "The Memory Support Rating Scale (MSRS) is an an observer-rated scale used to measure the type and frequency of Memory Support strategies used. A greater number of Memory Support strategies used in the CPT+MS condition compared to CPT will indicate feasibility of CPT+MS. A random selection of 25% of tapes from each treatment condition will be assessed to derive the mean Memory Support strategies used.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Treatment acceptability after Session 1 assessed by the Credibility and Expectancy (CEQ) questionnaire",
+          "description": "The CEQ is a 6-item questionnaire that assesses how credible participants think the treatment they are receiving is and how much they expect to benefit, measured after the initial treatment session. The potential range of scores is 6 to 54 and higher scores indicating greater treatment credibility/acceptability.",
+          "timeFrame": "1 week"
+        },
+        {
+          "measure": "Mid-treatment acceptability assessed by the Working Alliance Inventory Short-Revised (WAI-R)",
+          "description": "The WAI-R is a 12-item self-report questionnaire that measures three aspects of the therapeutic alliance: agreement on tasks, agreement on goals, and affective bond with the therapist. The potential range of scores is 12 to 60 and higher scores indicate stronger therapeutic alliance/treatment acceptability.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Post-treatment acceptability assessed by the Working Alliance Inventory Short-Revised (WAI-R)",
+          "description": "The WAI-R is a 12-item self-report questionnaire that measures three aspects of the therapeutic alliance: agreement on tasks, agreement on goals, and affective bond with the therapist. The potential range of scores is 12 to 60 and higher scores indicate stronger therapeutic alliance/treatment acceptability.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Mid-treatment client satisfaction assessed by the Client Satisfaction Questionnaire (CSQ)",
+          "description": "The CSQ is an 8-item self-report questionnaire that assesses client satisfaction with the treatment they received. The potential range of scores is 8 to 32 and higher scores suggest greater client satisfaction/treatment acceptability.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Post-treatment client satisfaction assessed by the Client Satisfaction Questionnaire (CSQ)",
+          "description": "The CSQ is an 8-item self-report questionnaire that assesses client satisfaction with the treatment they received. The potential range of scores is 8 to 32 and higher scores suggest greater client satisfaction/treatment acceptability.",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mid-treatment Memory of Therapy Content assessed by the Treatment Thoughts and Application Task",
+          "description": "The Treatment Thoughts and Application Task assesses the number of treatment points participants thought about and applied in the previous 24 hours. Higher numbers of treatment points indicate greater memory and learning of therapy content.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Post-treatment Memory of Therapy Content assessed by the Treatment Thoughts and Application Task",
+          "description": "The Treatment Thoughts and Application Task assesses the number of treatment points participants thought about and applied in the previous 24 hours. Higher numbers of treatment points indicate greater memory and learning of therapy content.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Follow-up Memory of Therapy Content assessed by the Treatment Thoughts and Application Task",
+          "description": "The Treatment Thoughts and Application Task assesses the number of treatment points participants thought about and applied in the previous 24 hours. Higher numbers of treatment points indicate greater memory and learning of therapy content.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mid-treatment Change in Memory of Therapy Content assessed by the Generalization Task",
+          "description": "The Generalization Task asks participants to imagine two scenarios that commonly elicit symptom-related distress and asks how they would respond. Responses are coded based on the number of treatment points accurately described. Higher numbers of treatment points indicate greater ability to generalize/learn and remember therapy content.",
+          "timeFrame": "Baseline, 6 weeks"
+        },
+        {
+          "measure": "Post-treatment Change in Memory of Therapy Content assessed by the Generalization Task",
+          "description": "The Generalization Task asks participants to imagine two scenarios that commonly elicit symptom-related distress and asks how they would respond. Responses are coded based on the number of treatment points accurately described. Higher numbers of treatment points indicate greater ability to generalize/learn and remember therapy content.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in Memory of Therapy Content assessed by the Generalization Task",
+          "description": "The Generalization Task asks participants to imagine two scenarios that commonly elicit symptom-related distress and asks how they would respond. Responses are coded based on the number of treatment points accurately described. Higher numbers of treatment points indicate greater ability to generalize/learn and remember therapy content.",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Mid-treatment Skills of Cognitive Therapy (SoCT) - Patient",
+          "description": "The SoCT - Patient is an 8-item self-report measure assessing comprehension and application of cognitive therapy skills. Scores range from 8 to 40, with higher scores indicating greater skill use and comprehension.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Post-treatment Skills of Cognitive Therapy (SoCT) - Patient",
+          "description": "The SoCT - Patient is an 8-item self-report measure assessing comprehension and application of cognitive therapy skills. Scores range from 8 to 40, with higher scores indicating greater skill use and comprehension.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Follow-up Skills of Cognitive Therapy (SoCT) - Patient",
+          "description": "The SoCT - Patient is an 8-item self-report measure assessing comprehension and application of cognitive therapy skills. Scores range from 8 to 40, with higher scores indicating greater skill use and comprehension.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mid-treatment Skills of Cognitive Therapy (SoCT) - Therapist",
+          "description": "The SoCT - Therapist is an 8-item measure assessing therapist's perception of their patient's comprehension and application of cognitive therapy skills. Scores range from 8 to 40, with higher scores indicating greater skill use and comprehension.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Post-treatment Skills of Cognitive Therapy (SoCT) - Therapist",
+          "description": "The SoCT - Therapist is an 8-item measure assessing therapist's perception of their patient's comprehension and application of cognitive therapy skills. Scores range from 8 to 40, with higher scores indicating greater skill use and comprehension.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Post-treatment Change in PTSD symptoms assessed by the Clinician Administered PTSD Scale for DSM-5 (CAPS-5)",
+          "description": "The CAPS-5 is a structured interview that will be used to assess PTSD severity based on the severity and frequency of the 20 DSM-5 symptom criteria of PTSD. Scores range from 0 to 80, with higher scores indicating more severe PTSD.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in PTSD symptoms assessed by the Clinician Administered PTSD Scale for DSM-5 (CAPS-5)",
+          "description": "The CAPS-5 is a structured interview that will be used to assess PTSD severity based on the severity and frequency of the 20 DSM-5 symptom criteria of PTSD. Scores range from 0 to 80, with higher scores indicating more severe PTSD.",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Post-treatment Change in PTSD symptoms assessed by the PTSD Checklist for DSM-5 (PCL-5)",
+          "description": "The PCL-5 is a 20-item self-report measure PTSD symptoms. Scores range from 0 to 80, with higher scores indicating more severe PTSD.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in PTSD symptoms assessed by the PTSD Checklist for DSM-5 (PCL-5)",
+          "description": "The PCL-5 is a 20-item self-report measure PTSD symptoms. Scores range from 0 to 80, with higher scores indicating more severe PTSD.",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Post-treatment Change in Depression symptoms assessed by the Patient Health Questionnaire 9-item (PHQ-9)",
+          "description": "The PHQ is a 9-item self-report measure of depression symptoms. Scores range from 0 to 27, with higher scores indicating more severe depression.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in Depression symptoms assessed by the Patient Health Questionnaire 9-item (PHQ-9)",
+          "description": "The PHQ is a 9-item self-report measure of depression symptoms. Scores range from 0 to 27, with higher scores indicating more severe depression.",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Post-treatment Change in general functioning assessed by the WHO Disability Assessment Scale-II (WHODAS-II)",
+          "description": "The WHODAS-II is a 36-item self-report questionnaire measuring disability and general functioning. Scores range from 0 to 144, with higher scores indicating greater disability/lower functioning",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in general functioning assessed by the WHO Disability Assessment Scale-II (WHODAS-II)",
+          "description": "The WHODAS-II is a 36-item self-report questionnaire measuring disability and general functioning. Scores range from 0 to 144, with higher scores indicating greater disability/lower functioning",
+          "timeFrame": "Baseline, 6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Post-treatment Change in cognitive complaints assessed by the Cognitive Self-Report Questionnaire - Cognitive subscale (CSRQ-C)",
+          "description": "The CSRQ-C is a 10-item self-report questionnaire assessing various cognitive complaints, including memory difficulties. Scores range from 10-50, with higher scores indicating greater cognitive complaints.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in cognitive complaints assessed by the Cognitive Self-Report Questionnaire - Cognitive subscale (CSRQ-C)",
+          "description": "The CSRQ-C is a 10-item self-report questionnaire assessing various cognitive complaints, including memory difficulties. Scores range from 10-50, with higher scores indicating greater cognitive complaints.",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Post-treatment Change in PTSD-related cognitions assessed by the Posttraumatic Cognitions Inventory - 9-item (PTCI-9)",
+          "description": "The PTCI-9 is a 9-item self-report questionnaire assessing maladaptive beliefs that can occur following trauma. Scores range from 9 to 63, with greater scores indicating stronger maladaptive cognitions.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in PTSD-related cognitions assessed by the Posttraumatic Cognitions Inventory - 9-item (PTCI-9)",
+          "description": "The PTCI-9 is a 9-item self-report questionnaire assessing maladaptive beliefs that can occur following trauma. Scores range from 9 to 63, with greater scores indicating stronger maladaptive cognitions.",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Post-treatment Change in PTSD-related coping self-efficacy assessed by the Trauma Coping Self Efficacy Scale (CSE-T)",
+          "description": "The CSE-T is a 9-item self-report measure assessing perceived ability to cope with challenges following a traumatic event. Scores range from 9 to 63, with higher scores indicating greater coping self-efficacy",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in PTSD-related coping self-efficacy assessed by the Trauma Coping Self Efficacy Scale (CSE-T)",
+          "description": "The CSE-T is a 9-item self-report measure assessing perceived ability to cope with challenges following a traumatic event. Scores range from 9 to 63, with higher scores indicating greater coping self-efficacy",
+          "timeFrame": "Baseline, 6 months"
+        },
+        {
+          "measure": "Post-treatment Change in sleep difficulties assessed by the Pittsburgh Sleep Quality Index - Brief (PSQI)",
+          "description": "The PSQI-Brief is a 6-item questionnaire, with scores ranging from 0 to 15. Higher scores indicate more difficulty with sleep.",
+          "timeFrame": "Baseline, 12 weeks"
+        },
+        {
+          "measure": "Follow-up Change in sleep difficulties assessed by the Pittsburgh Sleep Quality Index - Brief (PSQI)",
+          "description": "The PSQI-Brief is a 6-item questionnaire, with scores ranging from 0 to 15. Higher scores indicate more difficulty with sleep.",
+          "timeFrame": "Baseline, 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Current diagnosis of PTSD as determined by the Clinician Administered PTSD Scale for the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5)\n* For potential participants on psychiatric medication, dose must be stable for the past four weeks.\n* Veteran status\n\nExclusion Criteria:\n\n* Current DSM-5 diagnoses of unstable bipolar disorder, past or present psychosis, or organic mental disorder\n* Active suicidal or homicidal ideation with plan or intent\n* Current moderate or severe substance use disorder, as defined by DSM-5 \\[i.e., at least 4 diagnostic symptoms of Substance use disorder (SUD) present\\]\n* Prior receipt of CPT or concurrent therapy for PTSD\n* Significant cognitive impairment as indicated by a score \\<10th percentile on the Montreal Cognitive Assessment\n* History of moderate or severe traumatic brain injury (TBI) based on the Ohio State University TBI Identification Method and Veterans Administration/ Department of Defense (VA/DOD) guidelines\n* High verbal memory ability, as indicated by a score \\>1 standard deviation (SD) above the population mean on the California Verbal Learning Test® Third Edition (CVLT-3) immediate recall task",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Joseph Carpenter, PhD MA",
+          "role": "CONTACT",
+          "phone": "617-435-5319",
+          "email": "jcarpen@bu.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Joseph Carpenter, PhD MA",
+          "affiliation": "VA Boston Healthcare System, BUSM Psychiatry Dept.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "VA Boston Healthcare System",
+          "status": "RECRUITING",
+          "city": "Jamaica Plain",
+          "state": "Massachusetts",
+          "zip": "02130",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joseph Carpenter, PhD MA",
+              "role": "CONTACT",
+              "phone": "617-435-5319",
+              "email": "jcarpen@bu.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.30982,
+            "lon": -71.12033
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013313",
+          "term": "Stress Disorders, Post-Traumatic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D040921",
+          "term": "Stress Disorders, Traumatic"
+        },
+        {
+          "id": "D000068099",
+          "term": "Trauma and Stressor Related Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000708228",
+          "term": "2-cyclohexylidenhydrazo-4-phenyl-thiazole"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

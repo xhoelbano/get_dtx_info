@@ -1,0 +1,403 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04810026",
+      "orgStudyIdInfo": {
+        "id": "2020-0068"
+      },
+      "organization": {
+        "fullName": "UnitedHealth Group",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Transform Type 2: Examining Meal-Delivery and Education for Diabetes Self-Care",
+      "officialTitle": "Transform Type 2: Examining How Meal-Delivery and Education Resources Affect Prediabetes and Type 2 Diabetes Symptoms and Self-Care"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-10-26",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-10-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-03-12",
+      "studyFirstSubmitQcDate": "2021-03-17",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-02-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-02-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Shane Hoversten",
+        "investigatorTitle": "Senior Research Fellow",
+        "investigatorAffiliation": "UnitedHealth Group"
+      },
+      "leadSponsor": {
+        "name": "UnitedHealth Group",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research is to understand the impact of medically tailored meals on health-related biometrics (e.g., glucose time-in-range, waist-hip ratio, cholesterol) and how providing medically tailored meals promotes engagement in diabetes education and drives information-seeking behavior.",
+      "detailedDescription": "The purpose of this research is to understand the impact of medically tailored meals on health-related biometrics (e.g., glucose time-in-range, waist-hip ratio) and how providing medically tailored meals promotes engagement in diabetes education and drives information-seeking behavior. Secondary purposes are to characterize the relationship between information-seeking behaviors and glycemic control; to characterize the relationship between psychometric survey results and program engagement, biometrics, and information-seeking behaviors; and to understand how meal provision and materials influence program satisfaction and adherence to healthy diabetes-related behaviors."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PreDiabetes",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "keywords": [
+        "diabetes mellitus, type 2",
+        "information seeking behavior",
+        "waist-hip ratio",
+        "blood pressure",
+        "weight",
+        "prediabetes",
+        "glycemic control",
+        "diet",
+        "life style",
+        "cholesterol",
+        "meal delivery",
+        "nutrition",
+        "continuous glucose monitoring",
+        "CGM",
+        "self report",
+        "education",
+        "coaching",
+        "yoga",
+        "meditation",
+        "human"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 41,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1: Education only",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Push notifications for online diabetes self-management education for 12 weeks, passive access to lifestyle education for 16 weeks",
+          "interventionNames": [
+            "Behavioral: Education"
+          ]
+        },
+        {
+          "label": "Group 2: Education and Meals",
+          "type": "EXPERIMENTAL",
+          "description": "Meal delivery (3 meals per day, 5 days per week) for 12 weeks, push notifications for online diabetes self-management education for 12 weeks, passive access to lifestyle education for 16 weeks",
+          "interventionNames": [
+            "Behavioral: Education",
+            "Behavioral: Meal delivery"
+          ]
+        },
+        {
+          "label": "Group 3: Education, Meals, Coaching",
+          "type": "EXPERIMENTAL",
+          "description": "Meal delivery (3 meals per day, 5 days per week) for 12 weeks, coaching program (e.g., diabetes-specific coaching and education, push notifications for lifestyle education modules, community support) for 12 weeks, and passive access to lifestyle education for final 4 weeks",
+          "interventionNames": [
+            "Behavioral: Education",
+            "Behavioral: Meal delivery",
+            "Behavioral: Lifestyle coaching"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Education",
+          "description": "Healthy-lifestyle and diabetes-related virtual education (text and videos)",
+          "armGroupLabels": [
+            "Group 1: Education only",
+            "Group 2: Education and Meals",
+            "Group 3: Education, Meals, Coaching"
+          ],
+          "otherNames": [
+            "diabetes self-management education",
+            "healthy-lifestyle education"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Meal delivery",
+          "description": "breakfast, lunch, and dinner adhering to the longevity diet macro-nutrient profiles",
+          "armGroupLabels": [
+            "Group 2: Education and Meals",
+            "Group 3: Education, Meals, Coaching"
+          ],
+          "otherNames": [
+            "Nutrition for Longevity meals",
+            "Longevity Diet"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Lifestyle coaching",
+          "description": "calls with coach and/or nutritionist, access to Facebook community support group",
+          "armGroupLabels": [
+            "Group 3: Education, Meals, Coaching"
+          ],
+          "otherNames": [
+            "Longevity Program"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in mean glucose time in range from baseline at Week 6",
+          "description": "Percentage of time estimated glucose value (EGV) from continuous glucose monitor (CGM) is between 70 mg/dL and 180 mg/dL, measured daily with weekly composite results",
+          "timeFrame": "Week 0 and Week 6"
+        },
+        {
+          "measure": "Change in mean glucose time in range from baseline at Week 12",
+          "description": "Percentage of time estimated glucose value (EGV) from CGM is between 70 mg/dL and 180 mg/dL, measured daily with weekly composite results",
+          "timeFrame": "Week 0 and Week 12"
+        },
+        {
+          "measure": "Change in mean glucose time in range from baseline at Week 16",
+          "description": "Percentage of time estimated glucose value (EGV) from CGM is between 70 mg/dL and 180 mg/dL, measured daily with weekly composite results",
+          "timeFrame": "Week 0 and Week 16"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in CGM-derived glucose features from baseline",
+          "description": "Average of EGVs, percentage time above and below range (\\< 70 mg/dL or \\>180 mg/dL), and glucose variability (standard deviation of EGVs), measured via daily with weekly composite results",
+          "timeFrame": "Week 0, Week 6, Week 12, and Week 16"
+        },
+        {
+          "measure": "Change in blood test results from baseline",
+          "description": "Difference in measurements of HbA1c, HDL cholesterol, total cholesterol, LDL cholesterol, triglycerides, and high-sensitivity C-reactive protein (hs-CRP) obtained from blood tests",
+          "timeFrame": "Week 0, Week 12"
+        },
+        {
+          "measure": "Change in self-reported waist-to-hip ratio",
+          "description": "waist circumference, hip circumference, self-reported weekly; calculated by dividing the waist circumference by the hip circumference",
+          "timeFrame": "Weekly, Weeks 0-12"
+        },
+        {
+          "measure": "Change in self-reported blood pressure",
+          "description": "blood pressure, self-reported weekly",
+          "timeFrame": "Weekly, Weeks 0-12"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Visits to site",
+          "description": "Usage stats from website that hosts educational materials, from Week 1 through Week 16",
+          "timeFrame": "Week 16"
+        },
+        {
+          "measure": "Percentage of tasks completed",
+          "description": "Usage stats from website that hosts educational materials, from Week 1 through Week 16",
+          "timeFrame": "Week 16"
+        },
+        {
+          "measure": "Number of interactions with lifestyle coach",
+          "description": "Count of total interactions from Week 1 to Week 12",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Change from baseline in modified Yale Food Addiction Scale score at Week 6, Week 13",
+          "description": "modified food addiction scale, compared to responses at baseline, where higher scoring indicate a worse outcome; to meet the food addiction threshold, participants must meet the threshold for either question 6 or 7, and the threshold for 3 or more of the remaining questions",
+          "timeFrame": "Week 0, Week 6, Week 13"
+        },
+        {
+          "measure": "Change from baseline in abbreviated Medical Outcomes Study Sleep Scale",
+          "description": "Responses to an abbreviated Medical Outcomes Study Sleep Scale, compared to responses at baseline; with the exception of question 2, higher scores indicate a worse outcome and the range of scores (excluding question 2) is 11 - 65",
+          "timeFrame": "Week 0, Week 13"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Be a patient, employee, or employee dependent at Utica Park Clinic in Oklahoma\n* Be diagnosed with type 2 diabetes, prediabetes, and/or have an A1c result of 5.7 percent or above\n* Be above an ideal weight (for example, body mass index \\[BMI\\] greater than or equal to 25)\n* 18 years of age or older\n* Have UnitedHealthcare insurance for 1 year+\n* Have an active e-mail address\n* Have a smartphone with access to the internet that is compatible with the Dexcom G6 app\n\nExclusion Criteria:\n\n* Be undergoing any form of cancer treatment\n* Be pregnant or breastfeeding\n* Have allergies to nightshade vegetable (e.g., bell peppers, potatoes, tomatoes) or legumes (e.g., green beans, peas), or tree nuts\n* Currently taking anti-psychotic medications to control schizophrenia and bipolar disorders, as well as other mental disorders including dementia, major depression, and even drug addiction\n* Be currently taking insulin\n* Be currently taking sulfonylureas",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Katlyn A Fleming, PhD",
+          "affiliation": "UnitedHealth Group",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "OptumLabs",
+          "city": "Minnetonka",
+          "state": "Minnesota",
+          "zip": "55343",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9133,
+            "lon": -93.50329
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All of the individual participant data (IPD) that has been collected during the trial and de-identified",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Immediately following publication, no end date",
+      "accessCriteria": "Investigators who provide a methodologically sound proposal for analyses within the bounds of consent, and approved by an independent review committee for analyses not within the bounds of consent. Data will be stored in UnitedHealth Group database and will not be publicly available."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D057226",
+          "term": "Information Seeking Behavior"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D003142",
+          "term": "Communication"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004522",
+          "term": "Educational Status"
+        },
+        {
+          "id": "D009752",
+          "term": "Nutritional Status"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012959",
+          "term": "Socioeconomic Factors"
+        },
+        {
+          "id": "D011154",
+          "term": "Population Characteristics"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        },
+        {
+          "id": "D006304",
+          "term": "Health Status"
+        },
+        {
+          "id": "D003710",
+          "term": "Demography"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,1619 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01709799",
+      "orgStudyIdInfo": {
+        "id": "179-2010"
+      },
+      "organization": {
+        "fullName": "University of Florida",
+        "class": "OTHER"
+      },
+      "briefTitle": "Village Interactive Training and Learning Study",
+      "officialTitle": "The Village Interactive Training and Learning Study",
+      "acronym": "VITAL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-09-18",
+      "studyFirstSubmitQcDate": "2012-10-16",
+      "studyFirstPostDateStruct": {
+        "date": "2012-10-18",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2015-06-03",
+      "resultsFirstSubmitQcDate": "2015-06-03",
+      "resultsFirstPostDateStruct": {
+        "date": "2015-06-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-06-22",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Florida",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to help scientists and health care providers learn more about preventing dementia and brain disease in older adults. There is an urgent need to develop strategies to prevent or slow down memory loss and brain function decline in the elderly.\n\nIn this study, the investigators hope to learn how physical exercise and a brain training program work together to improve thinking and memory in older adults. Specifically, these aims include:\n\n* Learning whether physical activities (like biking or treadmill walking or Wii Fit games) will help improve the benefits of a brain training program. Based on preliminary results and that in the literature, the investigators anticipate greater cognitive benefits in the Exercise + Cognitive training groups than the Cognitive Training alone group.\n* To determine whether the benefits of adding exercise will occur quickly or develop more gradually over time. The investigators suspect that a major benefit of exercise pre-dosing will occur by the 12th week of the program.\n* To examine whether Wii-Fit exercise games cause similar effects on brain training as traditional exercise programs such as biking or walking. Although several recent studies have raised questions about the true aerobic benefit of exergames such as Wii-Fit Plus, other evidence suggests that these weaker aerobic benefits may be offset by the greater novelty and interest level afforded by exergames.",
+      "detailedDescription": "Research Participants take part in a 16 week Wellness Program, which includes either traditional physical exercise with brain training(Group A), Wii exergaming with brain training(Group B) or brain training alone (Group C). Participants are randomly assigned to groups.\n\nA comprehensive battery of neuropsychological tests, surveys and assessments are given prior to start of the intervention, at completion of the 16 weeks, and again 3 months post completion.\n\nThe program involves 4 days of physical activity each week for groups A \\& B. The physical exercise/activity portion will involve warm up stretching and then either Group A-traditional exercise (like riding a stationary recumbent bicycle or walking on a treadmill), Group B- playing Nintendo Wii Exergames with a television based video game, or Group C- NO exercise at all.\n\nEvery 4th week the 16 week intervention period, all participants in all three groups will also complete 80 minutes of brain training activities each day of the week. This is in addition to the previously assigned physical activity for Groups A \\& B. The brain training regimen consists of Posit Science Insight computer based brain games.\n\nThe Insight program consists of five different modules that focus on visual processing, attention, and memory. Each of the modules are described below:\n\n1. Bird Safari: This module involves identifying and ordering simple visual stimuli that flash on a screen. The goal is to improve ability to respond quickly to visual stimuli and to segment rapidly changing visual pictures.\n2. Jewel Diver: This module involves tracking objects as they become hidden by distractors. The goal is to improve ability of visual system to rapidly identify and discriminate objects in the visual periphery.\n3. Master Gardener: This module involves visual working memory and matching pairs of pictures.\n4. Road Tour: This is a simulated driving exercise that involves divided attention to oncoming cars and road signs. The goal is to improve ability of visual system to continuously track multiple objects against a field of distractors.\n5. Sweep Seeker: In this exercise, participants identify complex moving visual stimuli. The goal is to improve rapid, sequential eye movements to salient visual targets, process relevant information and then make rapid decisions to identify, discriminate and classify targets.\n\nQuestionnaires regarding the participants mood before and after the brain training weekly are administered. In addition, brief questionnaires on attention and memory are given to measure thinking and memory progress."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aged"
+      ],
+      "keywords": [
+        "Cognitive Training",
+        "Aging",
+        "Seniors"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 64,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cognitive Training plus Exercise",
+          "type": "EXPERIMENTAL",
+          "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training.",
+          "interventionNames": [
+            "Behavioral: Exercise",
+            "Behavioral: Cognitive Training"
+          ]
+        },
+        {
+          "label": "Cognitive Training plus Exergames",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training.",
+          "interventionNames": [
+            "Behavioral: Exergames",
+            "Behavioral: Cognitive Training"
+          ]
+        },
+        {
+          "label": "Cognitive Training",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.",
+          "interventionNames": [
+            "Behavioral: Cognitive Training"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Exercise",
+          "description": "Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR.\n\nActivity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.",
+          "armGroupLabels": [
+            "Cognitive Training plus Exercise"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Exergames",
+          "description": "Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.",
+          "armGroupLabels": [
+            "Cognitive Training plus Exergames"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Cognitive Training",
+          "description": "Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28.",
+          "armGroupLabels": [
+            "Cognitive Training",
+            "Cognitive Training plus Exercise",
+            "Cognitive Training plus Exergames"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Bird Safari Subtest of PositScience Insight",
+          "description": "Participants identify the bird that is different from the others as it flashes briefly on screen. The test measures visual speed and precision. The test is adaptive, and becomes more difficult with practice in that bird pairs get more similar, backgrounds get more complex, and distance from the center increases. The raw score is in milliseconds. As participants improve, the birds flash for fewer milliseconds, giving them a lower (better) score. Thus, LOWER SCORES reflect IMPROVEMENT\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)"
+        },
+        {
+          "measure": "Jewel Diver Subtest of PositScience Insight",
+          "description": "Participants track target objects as they move around the screen. This is a measure of divided attention. As participants master the task, it is made more difficult in that: (a) objects travel more quickly, (b) objects travel over larger area, (c) objects travel for longer, (d) visual contrast decreases. The score is the number of objects participants are able to track. Thus, HIGHER SCORES reflect IMPROVEMENT\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)"
+        },
+        {
+          "measure": "Master Gardener Subtest of PositScience Insight",
+          "description": "Participants watch as three or five images briefly flash in different positions on screen. This task measures visual processing speed and visual working memory. As participants master the task, it is made more difficult via: (a) the images change, becoming more similar, (b) the images are shown over a larger area on screen, and (c) participants go from viewing 3 images to 5 images. Participant score is in milliseconds, so that as they improve, the images flash on screen for fewer milliseconds. Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)"
+        },
+        {
+          "measure": "Road Tour Subtest of PositScience Insight",
+          "description": "Participants choose which car they saw at the center of the screen, and also locate where a \"Route 66\" sign appeared in the periphery. This is a measure of useful field of view and visual processing speed. As participants master the task, it is made more difficult via: (a) distractors are added, (b) distance from the center increases, (c) cars get more similar, and (d) backgrounds get more complex. Score is in milliseconds. As participants improve, the cars and road signs flash for fewer milliseconds, giving them a lower (better) score. Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)"
+        },
+        {
+          "measure": "Sweep Seeker Subtest of PositScience Insight",
+          "description": "Participants watch two patterns that \"sweep\" in or out and identify their direction. The test measures visual processing speed. As participants master the task it is made more difficult via: (a) the colors of the sweeps change, (b) the direction of the sweeps change, and (c) the thickness of the bars change. Participants' scores are in milliseconds. As participants improve, the visual sweeps speed up, giving participants a lower (better) score. Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Timed Instrumental Activities of Daily Living Task",
+          "description": "The TIADL consists of five timed instrumental activities of daily (TIADL) tasks. The score that is generated is the total time required to perform the tasks (e.g., finding a telephone number, making change, finding and reading the ingredients on a can of food, finding food items on a shelf, reading instructions on medicine container). Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 60+\n* Generally Healthy\n* On stable does of medications\n* Absence of significant behavioral or cognitive dysfunction\n\nExclusion Criteria:\n\n* Significant cognitive or behavioral problems or symptoms\n* History of falls \\>2 in the past month\n* Unstable medical conditions such as uncontrolled diabetes, uncontrolled cardiac disease, uncontrolled hypertension, or other that would increase risk of side effects performing physical activity\n* History of substance abuse in last 6 months\n* Known structural brain abnormality, previous major debilitating strokes or seizures, traumatic brain injury\n* Had complete neuropsychological testing in the last 6 months\n* Previous participation in cognitive or exercise training study within last 3 months\n* Currently engaging in moderate to heavy exercise \\>125 mins. week at 75% Target Heart Rate",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "maximumAge": "95 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dawn Bowers, Ph.D.",
+          "affiliation": "University of Florida- PHHP, CHP",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Michael M Marsiske, Ph.D.",
+          "affiliation": "University of Florida, PHHP, CHP",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The Village Retirement Community",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32653",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Exclusion criteria included Mini Mental Status Examination scores less than 25, a diagnosis of dementia or neurologic condition, unstable medical conditions, low hearing or vision, inability to engage in physical exercise, or already active (for more that 125 minutes per week at 75% their maximum target heart rate).",
+      "recruitmentDetails": "Participants in the VITAL study were all healthy elders aged 60 years or older. The VITAL participants were drawn from the independent living portion of the retirement community where the study was located as well as from the broader Gainesville community.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Cognitive Training Plus Exercise",
+          "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR.\n\nActivity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery fourth week, participants will complete Cognitive Training. See Cognitive Training arm for details."
+        },
+        {
+          "id": "FG001",
+          "title": "Cognitive Training Plus Exergames",
+          "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery fourth week, participants will complete Cognitive Training. See Cognitive Training arm for details."
+        },
+        {
+          "id": "FG002",
+          "title": "Cognitive Training",
+          "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "25"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "21"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "15"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Cognitive Training Plus Exercise",
+          "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR.\n\nActivity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nParticipants also received cognitive training every fourth week. See \"Cognitive Training\" arm for description."
+        },
+        {
+          "id": "BG001",
+          "title": "Cognitive Training Plus Exergames",
+          "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nParticipants also received cognitive training every fourth week. See \"Cognitive Training\" arm for description."
+        },
+        {
+          "id": "BG002",
+          "title": "Cognitive Training",
+          "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "25"
+            },
+            {
+              "groupId": "BG001",
+              "value": "21"
+            },
+            {
+              "groupId": "BG002",
+              "value": "18"
+            },
+            {
+              "groupId": "BG003",
+              "value": "64"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "79.6400",
+                      "lowerLimit": "62",
+                      "upperLimit": "93"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "78.1905",
+                      "lowerLimit": "60",
+                      "upperLimit": "89"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "77.2778",
+                      "lowerLimit": "65",
+                      "upperLimit": "88"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "78.8133",
+                      "lowerLimit": "60",
+                      "upperLimit": "93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "44"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "64"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Bird Safari Subtest of PositScience Insight",
+          "description": "Participants identify the bird that is different from the others as it flashes briefly on screen. The test measures visual speed and precision. The test is adaptive, and becomes more difficult with practice in that bird pairs get more similar, backgrounds get more complex, and distance from the center increases. The raw score is in milliseconds. As participants improve, the birds flash for fewer milliseconds, giving them a lower (better) score. Thus, LOWER SCORES reflect IMPROVEMENT\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "T-score units",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cognitive Training Plus Exercise",
+              "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR. Activity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG001",
+              "title": "Cognitive Training Plus Exergames",
+              "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG002",
+              "title": "Cognitive Training",
+              "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Bird Safari Time 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.043",
+                      "spread": "1.864"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "50.292",
+                      "spread": "1.987"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "49.570",
+                      "spread": "2.061"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Bird Safari Time 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.218",
+                      "spread": "1.953"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43.474",
+                      "spread": "2.033"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "43.143",
+                      "spread": "2.107"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Bird Safari Time 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "42.671",
+                      "spread": "1.997"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43.610",
+                      "spread": "2.114"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "42.638",
+                      "spread": "2.182"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion main effect. Null hypothesis is no improvement (Occasion main effect has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "< .001",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (2,90.577)",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion by arm interaction. Null hypothesis of no group differences in improvement (Interaction has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.995",
+              "pValueComment": "The p-value is not adjusted for multiple comparisons, and the a priori threshold for statistical significance was 0.05",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "Degrees of freedom are (4,90.564)",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Jewel Diver Subtest of PositScience Insight",
+          "description": "Participants track target objects as they move around the screen. This is a measure of divided attention. As participants master the task, it is made more difficult in that: (a) objects travel more quickly, (b) objects travel over larger area, (c) objects travel for longer, (d) visual contrast decreases. The score is the number of objects participants are able to track. Thus, HIGHER SCORES reflect IMPROVEMENT\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "T-score units",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cognitive Training Plus Exercise",
+              "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR. Activity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG001",
+              "title": "Cognitive Training Plus Exergames",
+              "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG002",
+              "title": "Cognitive Training",
+              "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Jewel Diver Time 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "48.940",
+                      "spread": "2.057"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51.052",
+                      "spread": "2.202"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "50.570",
+                      "spread": "2.274"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Jewel Diver Time 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "63.872",
+                      "spread": "2.139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61.577",
+                      "spread": "2.233"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "63.205",
+                      "spread": "2.332"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Jewel Diver Time 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "62.033",
+                      "spread": "2.139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "61.121",
+                      "spread": "2.318"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "64.460",
+                      "spread": "2.467"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion main effect. Null hypothesis is no improvement (Occasion main effect has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<.001",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (2,97.137)",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion by arm interaction. Null hypothesis of no group differences in improvement (Interaction has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.254",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (4,97.108)",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Master Gardener Subtest of PositScience Insight",
+          "description": "Participants watch as three or five images briefly flash in different positions on screen. This task measures visual processing speed and visual working memory. As participants master the task, it is made more difficult via: (a) the images change, becoming more similar, (b) the images are shown over a larger area on screen, and (c) participants go from viewing 3 images to 5 images. Participant score is in milliseconds, so that as they improve, the images flash on screen for fewer milliseconds. Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "T-score units",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cognitive Training Plus Exercise",
+              "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR. Activity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG001",
+              "title": "Cognitive Training Plus Exergames",
+              "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG002",
+              "title": "Cognitive Training",
+              "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Master Gardener Time 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49.938",
+                      "spread": "1.618"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "50.082",
+                      "spread": "1.731"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "49.833",
+                      "spread": "1.788"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Master Gardener Time 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "44.600",
+                      "spread": "1.650"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44.851",
+                      "spread": "1.739"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "44.542",
+                      "spread": "1.838"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Master Gardener Time 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "44.700",
+                      "spread": "1.685"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46.896",
+                      "spread": "1.781"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "44.759",
+                      "spread": "1.954"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion main effect. Null hypothesis is no improvement (Occasion main effect has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (2,99.647)",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion by arm interaction. Null hypothesis of no group differences in improvement (Interaction has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.781",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (4,99.601)",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Road Tour Subtest of PositScience Insight",
+          "description": "Participants choose which car they saw at the center of the screen, and also locate where a \"Route 66\" sign appeared in the periphery. This is a measure of useful field of view and visual processing speed. As participants master the task, it is made more difficult via: (a) distractors are added, (b) distance from the center increases, (c) cars get more similar, and (d) backgrounds get more complex. Score is in milliseconds. As participants improve, the cars and road signs flash for fewer milliseconds, giving them a lower (better) score. Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "T-score units",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cognitive Training Plus Exercise",
+              "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR. Activity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG001",
+              "title": "Cognitive Training Plus Exergames",
+              "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG002",
+              "title": "Cognitive Training",
+              "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Road Tour Time 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.097",
+                      "spread": "1.540"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53.424",
+                      "spread": "1.661"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "47.427",
+                      "spread": "1.703"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Road Tour Time 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40.279",
+                      "spread": "1.582"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "37.197",
+                      "spread": "1.669"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "36.622",
+                      "spread": "1.797"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Road Tour Time 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40.032",
+                      "spread": "1.604"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "38.803",
+                      "spread": "1.755"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "36.691",
+                      "spread": "1.916"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion main effect. Null hypothesis is no improvement (Occasion main effect has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (2,102.315)",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion by arm interaction. Null hypothesis of no group differences in improvement (Interaction has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.026",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (4,102.216)",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Sweep Seeker Subtest of PositScience Insight",
+          "description": "Participants watch two patterns that \"sweep\" in or out and identify their direction. The test measures visual processing speed. As participants master the task it is made more difficult via: (a) the colors of the sweeps change, (b) the direction of the sweeps change, and (c) the thickness of the bars change. Participants' scores are in milliseconds. As participants improve, the visual sweeps speed up, giving participants a lower (better) score. Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "T-score units",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cognitive Training Plus Exercise",
+              "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR. Activity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG001",
+              "title": "Cognitive Training Plus Exergames",
+              "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG002",
+              "title": "Cognitive Training",
+              "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Sweep Seeker Time 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51.002",
+                      "spread": "1.641"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48.784",
+                      "spread": "1.776"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "49.505",
+                      "spread": "1.814"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Sweep Seeker Time 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.846",
+                      "spread": "1.743"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44.003",
+                      "spread": "1.929"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "42.021",
+                      "spread": "1.884"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Sweep Seeker Time 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "42.231",
+                      "spread": "1.805"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44.997",
+                      "spread": "1.928"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "43.304",
+                      "spread": "2.051"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion main effect. Null hypothesis is no improvement (Occasion main effect has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (2,93.240)",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion by arm interaction. Null hypothesis of no group differences in improvement (Interaction has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.313",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (4,93.167)",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Timed Instrumental Activities of Daily Living Task",
+          "description": "The TIADL consists of five timed instrumental activities of daily (TIADL) tasks. The score that is generated is the total time required to perform the tasks (e.g., finding a telephone number, making change, finding and reading the ingredients on a can of food, finding food items on a shelf, reading instructions on medicine container). Thus LOWER SCORES are indicative of IMPROVEMENT.\n\nThese scores have been converted to T-scores (standardized scores with an average of 50 and standard deviation of 10). The formula used was:\n\nT-score = ((((participant score minus sample mean at baseline) / (sample standard deviation at baseline) ) \\* 10) + 50)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "T-score units",
+          "timeFrame": "Baseline (Week 0), immediate posttest (Week 16), delayed posttest (Week 28)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cognitive Training Plus Exercise",
+              "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR. Activity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG001",
+              "title": "Cognitive Training Plus Exergames",
+              "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery 4th week, participants will add 80mins./day of Insight gaming for cognitive training (see Cognitive Training arm for details)"
+            },
+            {
+              "id": "OG002",
+              "title": "Cognitive Training",
+              "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Timed IADL Time 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52.065",
+                      "spread": "2.710"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49.084",
+                      "spread": "2.956"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "48.094",
+                      "spread": "3.286"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Timed IADL Time 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51.040",
+                      "spread": "2.861"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "47.540",
+                      "spread": "3.018"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "46.948",
+                      "spread": "3.465"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Timed IADL Time 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57.284",
+                      "spread": "3.033"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46.941",
+                      "spread": "3.146"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "47.095",
+                      "spread": "3.465"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion main effect. Null hypothesis is no improvement (Occasion main effect has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.630",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (2,115.573)",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Occasion by arm interaction. Null hypothesis of no group differences in improvement (Interaction has p-value \\> .05)",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.498",
+              "pValueComment": "P-value is not adjusted for multiple comparisons, and p \\< .05 is the a priori threshold for statistical significance",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "degrees of freedom are (4,115.593)",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "5 years",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Cognitive Training Plus Exercise",
+          "description": "Physical exercise will be achieved using traditional methods of aerobic exercise. Participants may choose between walking on a treadmill or riding on a stationary bike (Choices include recumbent or traditional sit-up bike.)\n\nExercise: Participants will do physical activity that raises heart rate to a target heart rate (THR)zone which is pre-calculated using the Karvonen Formula:\n\n(THR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nParticipants begin exercise regimen starting at 50% THR for intensity and gradually increase by 5% up to a maximum of 75% THR.\n\nActivity duration begins at 10 mins./day and increases 5 mins. every week following to a maximum of 40 mins. Polar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery fourth week, participants will complete Cognitive Training. See Cognitive Training arm for details.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 25
+        },
+        {
+          "id": "EG001",
+          "title": "Cognitive Training Plus Exergames",
+          "description": "Physical exercise in this group will be achieved using the Nintendo Wii Sports Resort and Wii Sports video games. A standardized gaming plan will be used for all participants, with play starting at 15 mins. and increasing 5 mins each week after, up to a maximum of 40 play minutes.\n\nExergames: Participants experience Wii Video Games in a standardized format, beginning with 15 mins of seated play per day on week one, and then increasing 5 mins./week on each week following up to a maximum of 40mins. of play.\n\nParticipants are made aware of the Target Heart Rate Zone for the week, but are not required to reach that zone during play. The THR is calculated by the Karvonen Formula:\n\nTHR={(max. heart rate- rest heart rate) x %intensity} + resting heart rate\n\nPolar Heart Rate monitors are used to measure THR and save resulting data.\n\nEvery fourth week, participants will complete Cognitive Training. See Cognitive Training arm for details.",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 21,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 21
+        },
+        {
+          "id": "EG002",
+          "title": "Cognitive Training",
+          "description": "Participants will complete 80 mins/day during the 4th, 8th, 12th and 16th weeks of the intervention.\n\nCognitive Training: Posit Science INSIGHT program games are used for all cognitive training. Participants are exposed to (2) forty minute game sessions per day, for the cognitive training weeks #4,8,12,16.\n\nINSIGHT Assessments are done at baseline, the start of each training week and at week 28.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 18,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 18
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "363801007 Observable feature of falls",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "SNOMED CT",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant fell during Wii gaming activity. Xrays revealed no fractures or other injury. Participant resumed research study and completed.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 21
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 18
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Dawn Bowers",
+        "organization": "University of Florida",
+        "email": "dawnbowers@phhp.ufl.edu",
+        "phone": "(352) 392-3450"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        },
+        {
+          "id": "D000088544",
+          "term": "Exergaming"
+        },
+        {
+          "id": "D000091942",
+          "term": "Cognitive Training"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        },
+        {
+          "id": "D000066530",
+          "term": "Neurological Rehabilitation"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D006296",
+          "term": "Health Services"
+        },
+        {
+          "id": "D005159",
+          "term": "Health Care Facilities Workforce and Services"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

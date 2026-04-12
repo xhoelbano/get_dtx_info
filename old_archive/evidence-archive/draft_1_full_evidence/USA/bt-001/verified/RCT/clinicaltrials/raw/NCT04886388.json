@@ -1,0 +1,271 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04886388",
+      "orgStudyIdInfo": {
+        "id": "DM2-06"
+      },
+      "organization": {
+        "fullName": "Better Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Pivotal Trial of a Digital Therapeutic for the Treatment of Type 2 Diabetes",
+      "officialTitle": "Open-Label, Randomized, Controlled, Parallel-Group Trial of a Digital Therapeutic for the Treatment of Type 2 Diabetes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-09-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-05-07",
+      "studyFirstSubmitQcDate": "2021-05-10",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Better Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "BT-001 is a software program intended to help patients with type 2 diabetes, under the guidance of their physician, improve glycemic control (i.e., levels of blood sugar). The BT-001 software delivers a type of behavioral therapy to patients via a mobile application that targets behaviors related to achieving glycemic control. The effectiveness of BT-001 will be measured by its ability to help patients reduce Hemoglobin A1c, or HbA1c (a marker in the blood that measures blood sugar) compared to standard medical care in patients with type 2 diabetes.",
+      "detailedDescription": "The study will utilize an open-label, randomized, parallel-group design to confirm and characterize the safety and efficacy of BT-001 used in addition to standard of care (SOC) when compared to SOC alone in patients with type 2 diabetes. The screening period will consist of a run-in during which time HbA1c will be assessed for confirmation of eligibility.\n\nOnce confirmed to be eligible, patients will then be randomized 1:1 to the following groups:\n\nInvestigational: One half of the participants will be treated with BT-001 plus SOC for 180 days;\n\nControl: One half of the participants will be treated with SOC alone for 180 days."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Open-Label, Randomized, Controlled",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 668,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BT-001 + Standard of Care",
+          "type": "EXPERIMENTAL",
+          "description": "BT-001 is a software program used with physician guidance, being investigated to improve glycemic control. Patients randomized to this arm of the study will interact with the BT-001 software program in addition to receiving Standard of Care for type 2 diabetes",
+          "interventionNames": [
+            "Device: BT-001",
+            "Other: Physician-guided Standard of Care for type 2 diabetes"
+          ]
+        },
+        {
+          "label": "Standard of Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients randomized to the Standard of Care arm will receive Standard of Care treatment for type 2 diabetes under the guidance of a physician",
+          "interventionNames": [
+            "Other: Physician-guided Standard of Care for type 2 diabetes"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "BT-001",
+          "description": "BT-001 is a software program intended to help patients with type 2 diabetes, under the guidance of their physician, improve glycemic control.",
+          "armGroupLabels": [
+            "BT-001 + Standard of Care"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Physician-guided Standard of Care for type 2 diabetes",
+          "description": "Current ADA Standard of Care Guidelines for type 2 diabetes",
+          "armGroupLabels": [
+            "BT-001 + Standard of Care",
+            "Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The difference in the mean change from baseline in HbA1c at Day 90 between Intervention and Standard of Care groups",
+          "description": "Hemoglobin A1c (HbA1c) test measures the amount of blood sugar (glucose) attached to hemoglobin.",
+          "timeFrame": "Baseline and Day 90"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The difference in the mean change from baseline in HbA1c at Day 180 between Intervention and Standard of Care groups",
+          "description": "Hemoglobin A1c (HbA1c) test measures the amount of blood sugar (glucose) attached to hemoglobin.",
+          "timeFrame": "Baseline and Day 180"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Between 18 and 75 years old, inclusive at the time of signing the informed consent;\n2. Diagnosis of type 2 diabetes, according to the criteria of the American Diabetes Association (ADA), and confirmed at the initial eligibility screening;\n3. Body Mass Index ≥25 kg/m2;\n4. Possesses a smartphone (iPhone or Android only) capable of running the smartphone applications (Apps) used in the study;\n5. Has had no change in the last 4 months prior to randomization (3 months prior to initial screening plus 30-day run-in screening period) in antihyperglycemic medications;\n6. Has a current HbA1c level \\>7%, as determined by both screening assessments;\n7. Willing to use an FDA approved glucometer for self-monitoring blood glucose throughout the study;\n8. Is capable of giving signed informed consent, which includes compliance with the requirements and restrictions listed in the informed consent form (ICF).\n\nExclusion Criteria\n\n1. Are unable to understand, consent to, or comply with the study protocol for any reason;\n2. Currently taking prandial (mealtime) insulin;\n3. Have self-reported measures, collected during screening interview, that reveal:\n\n   1. An active eating disorder\n   2. The taking of or planning to take (within the next 6 months):\n\n   i. Oral steroids (planned, or within the past 3 months) ii. Chemotherapy (planned, or within the past 6 months) iii. Weight loss medications or iv. Atypical antipsychotic medications\n\n   c. A change in antidepressant or anti-anxiety medication within the past 3 months;\n\n   d. A history of bariatric surgery or planned bariatric surgery during the study;\n\n   e. The current use of marijuana, cocaine, opioid painkillers, or other addictive substances;\n\n   f. The current use of tobacco products or use of tobacco products within the past 6 months;\n\n   g. The consumption of alcohol above defined thresholds:\n\n   i. For women: more than 3 drinks in a single day, or more than 7 drinks per week and ii. For men: more than 4 drinks in a single day, or more than 14 drinks per week\n\n   h. An unstable or life-threatening medical illness;\n\n   i. Non-resolved, presumed or confirmed COVID-19 diagnosis prior to randomization or during primary study period;\n\n   j. For women only: pregnant (or lactating) or having the intention of becoming pregnant during the time frame of the study.\n4. Has a current HbA1c level ≥11%, at the screening assessment;\n5. Concurrent enrollment in any other clinical trial;\n6. Is considered unreliable by the investigator, or having any condition which, in the opinion of the investigator, would not allow safe participation in the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mark Berman, MD",
+          "affiliation": "Better Therapeutics",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Study Site",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10001",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Study Site",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77001",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

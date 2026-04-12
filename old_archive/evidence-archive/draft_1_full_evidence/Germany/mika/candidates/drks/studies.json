@@ -1,0 +1,54 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00023791",
+      "drks_id": "DRKS00023791",
+      "title": "Randomized controlled pilot study of the clinical efficacy of the Mika App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00023791/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00023791.json"
+    },
+    {
+      "study_id": "DRKS00036566",
+      "drks_id": "DRKS00036566",
+      "title": "Evaluation of the effectiveness of a digital support tool (Mika-App) for cancer patients under clinical routine conditions at the Comprehensive Cancer Center Central Germany (CCCG): Effects on self-management skills, psychological distress, and quality of life",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036566/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00036566.json"
+    },
+    {
+      "study_id": "DRKS00026038",
+      "drks_id": "DRKS00026038",
+      "title": "Prospective Randomized Group Controlled Study of Clinical Efficacy and Safety of the CE marked Mika App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00026038/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00026038.json"
+    },
+    {
+      "study_id": "DRKS00028107",
+      "drks_id": "DRKS00028107",
+      "title": "MIKA - Music interventions in childrens anaesthesia",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028107/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00028107.json"
+    }
+  ],
+  "count": 4,
+  "queries_used": [
+    "\"Mika\"",
+    "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+  ],
+  "dtx_name": "Mika",
+  "country": "Germany",
+  "_saved_at": "2026-02-09T20:48:49.115030Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

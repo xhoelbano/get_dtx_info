@@ -1,0 +1,722 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01422239",
+      "orgStudyIdInfo": {
+        "id": "1007007059"
+      },
+      "organization": {
+        "fullName": "Yale University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Smoking Cessation Treatment for Adult Women",
+      "officialTitle": "A Smoking Cessation Treatment for Adult Women"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-08-19",
+      "studyFirstSubmitQcDate": "2011-08-22",
+      "studyFirstPostDateStruct": {
+        "date": "2011-08-23",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2013-03-19",
+      "resultsFirstSubmitQcDate": "2013-05-02",
+      "resultsFirstPostDateStruct": {
+        "date": "2013-06-07",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-04-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Yale University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to develop and pilot test a smoking cessation counseling that focuses on the perceived risks of quitting smoking (e.g., weight gain, managing cravings and negative affect, loss of enjoyment).\n\nAim 1: To develop the risk-based smoking cessation intervention.\n\nAim 2: To examine whether manualized smoking cessation counseling about the perceived risks of quitting is feasible to administer and acceptable to adult women who want to quit smoking.\n\nAim 3: To examine smoking cessation outcomes for women who receive the risk-based treatment in comparison to standard smoking counseling. It is expected that women who receive risk-based counseling will show better quit rates and a longer time to relapse than women who receive standard treatment.",
+      "detailedDescription": "The purpose of this treatment development study is to design and pilot test a smoking cessation intervention in which counseling sessions are tailored to individual smokers' perceived risks of quitting. The feasibility, acceptability, and efficacy of the novel treatment will be examined through a pilot study in which female smokers will be randomly assigned to receive either the tailored treatment or a standard treatment. It is expected that participants receiving the tailored treatment will show higher rates of smoking abstinence than participants receiving the standard smoking cessation treatment at the end of the 8-week treatment and at one month follow-up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nicotine Dependence"
+      ],
+      "keywords": [
+        "smoking",
+        "treatment",
+        "perceived risks"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tailored behavioral counseling",
+          "type": "EXPERIMENTAL",
+          "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. The last 5 counseling sessions will be based on perceived risks of quitting.",
+          "interventionNames": [
+            "Behavioral: Tailored treatment"
+          ]
+        },
+        {
+          "label": "Standard behavioral counseling",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. All participants will receive identical counseling sessions during week 4-8 based on material from the Mayo Clinic manual.",
+          "interventionNames": [
+            "Behavioral: Standard Treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Tailored treatment",
+          "description": "8 sessions of individual behavioral counseling. The first 3 sessions will be 45 minutes long and include 30 minutes tailored to the perceived risks of quitting most strongly held by each participant. The final 5 sessions will be 30 minutes long and include material from the Mayo Clinic's smoking cessation manual.",
+          "armGroupLabels": [
+            "Tailored behavioral counseling"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard Treatment",
+          "description": "8 sessions of individual behavioral counseling. The first 3 sessions will be 45 minutes long and include 30 minutes focused on the benefits of quitting smoking. The final 5 sessions will be 30 minutes long and include material from the Mayo Clinic's smoking cessation manual.",
+          "armGroupLabels": [
+            "Standard behavioral counseling"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Point-prevalence Smoking Abstinence Assessed at the End of the Trial and Measured by Self-report and Confirmed by Carbon Monoxide Levels",
+          "description": "point-prevalence smoking abstinence assessed at the end of the trial and measured by self-report (no smoking reported in the previous 7 days) and confirmed by carbon monoxide levels (CO levels \\< 5ppm)",
+          "timeFrame": "Up to 8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Point-prevalence Smoking Abstinence Four Weeks After the End of the Trial Assessed by Self-report and Carbon Monoxide Levels",
+          "description": "point-prevalence smoking abstinence assessed at one month after the completion of counseling and measured by self-report (no smoking reported in the previous 7 days) and confirmed by carbon monoxide levels (CO levels \\< 5ppm)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in Smoking From Baseline to the Followup Assessment (Week 12)",
+          "description": "Change in number of cigarettes per day (CPD) (averaged over the previous week) from the baseline assessment (Week 0) to the followup assessment (Week 12) for participants who did not quit smoking during the study.",
+          "timeFrame": "Week 0 (baseline), Week 12 (one month followup)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Between the ages of 18 and 64 years old\n* Meet Diagnostic and Statistical Manual-IV (DSM-IV) criteria for nicotine dependence with Fagerström Test for Nicotine Dependence (FTND) score ≥4\n* Smoke at least 15 cigarettes (3/4 pack) daily (averaged over 1 week, in the past 1 month) and have an expired breath carbon monoxide (CO) level ≥10\n* At the time of initial evaluation, are motivated to quit smoking in the next 30 days.\n* Have the capacity to give informed consent, and are English-speaking.\n\nExclusion Criteria:\n\n* Have a positive urine drug screen or urine pregnancy test at baseline evaluation\n* Meet DSM-IV criteria for alcohol or other drug abuse or dependence in the previous 6 months\n* Meet DSM-IV criteria for a current diagnosis of major depressive disorder, panic disorder or post-traumatic stress disorder\n* Meet DSM-IV criteria for a current or past diagnosis of bipolar disorder or schizophrenia\n* Are currently receiving treatment for nicotine dependence (e.g., nicotine replacement therapy, bupropion, chantix)",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andrea H. Weinberger, Ph.D.",
+          "affiliation": "Yale University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Yale University School of Medicine, Department of Psychiatry",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06519",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "28 adults signed the consent form and 20 adults were randomized and began the study. The 8 participants who completed the consent procedures but were not randomized were either not eligible (drug use, n=3; psychiatric diagnoses, n=2; low smoking, n=1) or did not attend the first study appointment and did not respond to attempts to contact (n=2).",
+      "recruitmentDetails": "Recruitment of participants began in August of 2011 an ended in September 2012. Recruitment methods included radio advertisements, ClinicalTrials.gov, Craig's List postings, flyers, and referrals from research colleagues in the Department of Psychiatry",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Tailored Behavioral Counseling",
+          "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session, coping with withdrawal symptoms in the third session, and on coping with triggers and withdrawal in the forth session using the Mayo Clinic's smoking cessation manual. The focus of sessions 5-7 will be the three perceive risks of quitting that were not covered during the first three session (i.e., the three least highly endorsed risks). Session 8 will cover maintenance of smoking abstinence using the Mayo Clinic manual."
+        },
+        {
+          "id": "FG001",
+          "title": "Standard Behavioral Counseling",
+          "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's smoking cessation manual. All of the material for sessions 4-8 for the standard behavioral counseling condition will cover topics from the Mayo Clinic's smoking cessation manual - Session 4: coping with triggers to smoke and nicotine withdrawal, Session 5: Stress Management, Session 6: Time Management and Self-Image, Session 7: Communication Skills and Wellness, Session 8: Focusing on the Future (maintenance of smoking abstinence)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Tailored Behavioral Counseling",
+          "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. The last 5 counseling sessions will be based on perceived risks of quitting."
+        },
+        {
+          "id": "BG001",
+          "title": "Standard Behavioral Counseling",
+          "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. All participants will receive identical counseling sessions during week 4-8 based on material from the Mayo Clinic manual."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "14"
+            },
+            {
+              "groupId": "BG001",
+              "value": "6"
+            },
+            {
+              "groupId": "BG002",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43.9",
+                      "spread": "8.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45.8",
+                      "spread": "13.3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "44.5",
+                      "spread": "9.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Point-prevalence Smoking Abstinence Assessed at the End of the Trial and Measured by Self-report and Confirmed by Carbon Monoxide Levels",
+          "description": "point-prevalence smoking abstinence assessed at the end of the trial and measured by self-report (no smoking reported in the previous 7 days) and confirmed by carbon monoxide levels (CO levels \\< 5ppm)",
+          "populationDescription": "Participants who dropped out of the study were considered to be smoking.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "Up to 8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tailored Behavioral Counseling",
+              "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. The last 5 counseling sessions will be based on perceived risks of quitting."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Behavioral Counseling",
+              "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. All participants will receive identical counseling sessions during week 4-8 based on material from the Mayo Clinic manual."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Point-prevalence Smoking Abstinence Four Weeks After the End of the Trial Assessed by Self-report and Carbon Monoxide Levels",
+          "description": "point-prevalence smoking abstinence assessed at one month after the completion of counseling and measured by self-report (no smoking reported in the previous 7 days) and confirmed by carbon monoxide levels (CO levels \\< 5ppm)",
+          "populationDescription": "participants who did not complete the appointment were considered to be smoking",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tailored Behavioral Counseling",
+              "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. The last 5 counseling sessions will be based on perceived risks of quitting."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Behavioral Counseling",
+              "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. All participants will receive identical counseling sessions during week 4-8 based on material from the Mayo Clinic manual."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Smoking From Baseline to the Followup Assessment (Week 12)",
+          "description": "Change in number of cigarettes per day (CPD) (averaged over the previous week) from the baseline assessment (Week 0) to the followup assessment (Week 12) for participants who did not quit smoking during the study.",
+          "populationDescription": "Participants who completed the week 8 appointment and provided the number of cigarettes smoked per day were included.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "CPD",
+          "timeFrame": "Week 0 (baseline), Week 12 (one month followup)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tailored Behavioral Counseling",
+              "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. The last 5 counseling sessions will be based on perceived risks of quitting."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Behavioral Counseling",
+              "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. All participants will receive identical counseling sessions during week 4-8 based on material from the Mayo Clinic manual."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "2"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.4",
+                      "spread": "5.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.0",
+                      "spread": "1.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Tailored Behavioral Counseling",
+          "description": "The focus of the first three sessions for participants receiving the tailored treatment will be their three most highly endorsed perceived risks of quitting. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. The last 5 counseling sessions will be based on perceived risks of quitting.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 14
+        },
+        {
+          "id": "EG001",
+          "title": "Standard Behavioral Counseling",
+          "description": "The focus of the first three sessions for participants receiving the standard treatment will be the benefits of quitting smoking. All participants will receive information about preparing for quit day in the second session and coping with withdrawal symptoms in the third session using the Mayo Clinic's \"Smoke Free and Living It\" manual. All participants will receive identical counseling sessions during week 4-8 based on material from the Mayo Clinic manual.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 6,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 6
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Small sample size, half to two-thirds of participants dropped out of the active study phase, half to one quarter did not complete the one month follow up. Female participants only results can not be generalized to men."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Andrea Weinberger, Ph.D.",
+        "organization": "Yale University School of Medicine",
+        "email": "andrea.weinberger@yale.edu",
+        "phone": "203-974-7598"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014029",
+          "term": "Tobacco Use Disorder"
+        },
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

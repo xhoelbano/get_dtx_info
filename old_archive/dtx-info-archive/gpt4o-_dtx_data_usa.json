@@ -1,0 +1,811 @@
+{
+  "metadata": {
+    "country": "USA",
+    "last_updated": "2026-02-08T14:25:26.382943Z",
+    "total_count": 27,
+    "companies_researched": 23,
+    "companies_with_dtx": 16,
+    "source": "LLM Research (Azure OpenAI)"
+  },
+  "dtx_list": [
+    {
+      "dtx_name": "BEATS Medical Parkinson’s Treatment App",
+      "company_provider": "Beats Medical",
+      "company_website": "https://www.beatsmedical.com",
+      "company_founding_year": 2012,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "G20"
+      ],
+      "dtx_category": null,
+      "description": "A clinician-designed digital therapeutic delivering rhythmic auditory stimulation (music/metronome cueing) and structured gait training sessions to improve walking speed, stride length, freezing of gait, balance and mobility in people with Parkinson’s disease. The app provides personalized cueing, guided exercises and progression to support motor rehabilitation.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.beatsmedical.com",
+      "last_scraped": "2026-02-08T14:21:43.865921Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "BEATS Medical Multiple Sclerosis (MS) Gait Training",
+      "company_provider": "Beats Medical",
+      "company_website": "https://www.beatsmedical.com",
+      "company_founding_year": 2012,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "G35"
+      ],
+      "dtx_category": null,
+      "description": "A digital therapeutic using rhythmic auditory stimulation (RAS) with guided home-based walking and mobility exercises designed to improve gait parameters, balance, fatigue-related mobility limitations, and functional ambulation in people with MS through structured cue-based training and progression.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.beatsmedical.com",
+      "last_scraped": "2026-02-08T14:21:43.865969Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "BEATS Medical Stroke Rehabilitation (Gait/Mobility)",
+      "company_provider": "Beats Medical",
+      "company_website": "https://www.beatsmedical.com",
+      "company_founding_year": 2012,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "I63.9",
+        "I69.398",
+        "I69.354"
+      ],
+      "dtx_category": null,
+      "description": "A digital therapeutic applying rhythmic auditory cueing and task-specific gait practice to support post-stroke walking rehabilitation. Provides structured sessions intended to improve cadence, symmetry, step length and functional mobility through repeated cue-based motor training.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.beatsmedical.com",
+      "last_scraped": "2026-02-08T14:21:43.865986Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Wellpepper (Digital Care Plans / Wellpepper Platform)",
+      "company_provider": "Wellpepper",
+      "company_website": "https://www.wellpepper.com",
+      "company_founding_year": 2012,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "M25.561",
+        "M25.562",
+        "M54.5",
+        "M17.0",
+        "M16.0",
+        "Z47.1",
+        "Z48.89",
+        "Z96.651",
+        "Z96.652"
+      ],
+      "dtx_category": null,
+      "description": "A clinician-configured digital therapeutics and care-plan delivery platform that guides patients through prescribed home exercise programs and condition-specific rehabilitation protocols with interactive instructions, reminders, education, symptom check-ins, and two-way messaging; used to improve adherence and outcomes in MSK rehab, pre/post-operative recovery, and chronic condition care pathways. Often deployed as health-system-branded apps rather than a single public consumer app.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.wellpepper.com",
+      "last_scraped": "2026-02-08T14:22:12.988909Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "RelieVRx",
+      "company_provider": "AppliedVR",
+      "company_website": "https://www.appliedvr.io",
+      "company_founding_year": 2015,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "M54.50",
+        "M54.51",
+        "M54.59",
+        "G89.29"
+      ],
+      "dtx_category": null,
+      "description": "Prescription virtual reality (VR) digital therapeutic for chronic low back pain that delivers an 8-week program combining skills-based CBT for pain, mindfulness/relaxation, and pain education in immersive VR to reduce pain intensity and improve function; cleared by the U.S. FDA (De Novo) for reduction of pain intensity and improvement of physical function in adults with chronic lower back pain.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.appliedvr.io",
+      "last_scraped": "2026-02-08T14:22:27.123687Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "EaseVRx",
+      "company_provider": "AppliedVR",
+      "company_website": "https://www.appliedvr.io",
+      "company_founding_year": 2015,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "G89.29",
+        "R52"
+      ],
+      "dtx_category": null,
+      "description": "Virtual reality (VR) digital therapeutic program for chronic pain management using immersive CBT-based pain coping skills training, mindfulness/relaxation, and education modules; positioned as a non-pharmacologic adjunct for chronic pain (product/brand referenced by AppliedVR alongside RelieVRx).",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.appliedvr.io",
+      "last_scraped": "2026-02-08T14:22:27.123725Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "SootheVR",
+      "company_provider": "AppliedVR",
+      "company_website": "https://www.appliedvr.io",
+      "company_founding_year": 2015,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F41.9",
+        "F43.0"
+      ],
+      "dtx_category": null,
+      "description": "Immersive VR therapeutic experience intended to reduce anxiety and stress (e.g., procedural anxiety) through calming environments and guided relaxation/breathing; referenced historically as part of AppliedVR’s therapeutic VR library used by health systems.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.appliedvr.io",
+      "last_scraped": "2026-02-08T14:22:27.123741Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Caterna Vision Therapy (Amblyopia Digital Therapeutic / “Caterna Sehschulung”)",
+      "company_provider": "Caterna",
+      "company_website": "https://www.caterna.de/",
+      "company_founding_year": 2010,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "H53.0"
+      ],
+      "dtx_category": null,
+      "description": "Software-based vision therapy for amblyopia (“lazy eye”) that delivers structured perceptual/vision training tasks (gamified visual exercises) intended to improve visual acuity and binocular function. Designed to be used as a therapeutic intervention (often adjunct to/after patching or glasses) with prescribed training plans and progress monitoring.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.caterna.de",
+      "last_scraped": "2026-02-08T14:22:36.255277Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "reSET",
+      "company_provider": "Pear Therapeutics",
+      "company_website": "https://peartherapeutics.com",
+      "company_founding_year": 2013,
+      "listing_status": "Inactive",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F19.20",
+        "F11.20",
+        "F15.20",
+        "F14.20",
+        "F12.20",
+        "F10.20"
+      ],
+      "dtx_category": null,
+      "description": "Prescription digital therapeutic delivering cognitive behavioral therapy (CBT) and contingency management–based behavior change modules to treat substance use disorder as an adjunct to clinician-managed outpatient care; includes interactive therapy lessons, skill practice, and monitoring to support abstinence and treatment retention.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.peartherapeutics.com",
+      "last_scraped": "2026-02-08T14:22:49.476256Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "reSET-O",
+      "company_provider": "Pear Therapeutics",
+      "company_website": "https://peartherapeutics.com",
+      "company_founding_year": 2013,
+      "listing_status": "Inactive",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F11.20"
+      ],
+      "dtx_category": null,
+      "description": "Prescription digital therapeutic delivering CBT as an adjunct to buprenorphine plus outpatient treatment for opioid use disorder; provides structured therapy modules, adherence support, and monitoring to improve retention and reduce opioid use.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.peartherapeutics.com",
+      "last_scraped": "2026-02-08T14:22:49.476296Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Somryst",
+      "company_provider": "Pear Therapeutics",
+      "company_website": "https://peartherapeutics.com",
+      "company_founding_year": 2013,
+      "listing_status": "Inactive",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F51.01",
+        "G47.00"
+      ],
+      "dtx_category": null,
+      "description": "Prescription digital therapeutic delivering CBT for insomnia (CBT-I) to treat chronic insomnia; provides personalized sleep restriction, stimulus control, cognitive restructuring, sleep diaries, and education to improve sleep onset/maintenance and daytime function.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.peartherapeutics.com",
+      "last_scraped": "2026-02-08T14:22:49.476313Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Sword Health - Move (Musculoskeletal Care / Digital Physical Therapy)",
+      "company_provider": "Sword",
+      "company_website": "https://www.swordhealth.com",
+      "company_founding_year": 2014,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "M54.5",
+        "M54.2",
+        "M54.9",
+        "M25.50",
+        "M25.511",
+        "M25.512",
+        "M25.561",
+        "M25.562",
+        "M17.0",
+        "M17.10",
+        "M16.0",
+        "M16.10",
+        "M75.10",
+        "M75.40",
+        "M79.1"
+      ],
+      "dtx_category": null,
+      "description": "A therapist-led digital physical therapy program for MSK pain that uses an exercise therapy plan delivered via the Sword app with motion-tracking biofeedback (via camera/IMU-based sensors depending on configuration), education, and asynchronous/synchronous PT coaching to reduce pain and improve function.",
+      "app_store_url": "https://apps.apple.com/us/app/sword-health/id1440279754",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.swordhealth.app",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.swordhealth.com",
+      "last_scraped": "2026-02-08T14:23:13.843480Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Sword Health - Bloom (Pelvic Health)",
+      "company_provider": "Sword",
+      "company_website": "https://www.swordhealth.com",
+      "company_founding_year": 2014,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "N39.3",
+        "N39.41",
+        "N39.46",
+        "R32",
+        "R10.2",
+        "N94.10",
+        "N94.12",
+        "N94.19",
+        "N81.10",
+        "K59.00"
+      ],
+      "dtx_category": null,
+      "description": "A digital pelvic health therapy program focused on pelvic floor muscle training and behavior change education (e.g., bladder/bowel habits, core/pelvic stability) with guided exercises and clinician support aimed at improving pelvic floor function and reducing symptoms such as urinary incontinence and pelvic pain.",
+      "app_store_url": "https://apps.apple.com/us/app/sword-health/id1440279754",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.swordhealth.app",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.swordhealth.com",
+      "last_scraped": "2026-02-08T14:23:13.843516Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Sword Health - Thrive (Women’s Health: Pregnancy & Postpartum MSK)",
+      "company_provider": "Sword",
+      "company_website": "https://www.swordhealth.com",
+      "company_founding_year": 2014,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "O99.891",
+        "M54.50",
+        "M54.59",
+        "M25.551",
+        "M25.552",
+        "M79.18"
+      ],
+      "dtx_category": null,
+      "description": "A digital therapy program addressing pregnancy and postpartum musculoskeletal pain and function (e.g., back/hip pain) using guided therapeutic exercise, education, and PT support delivered through the Sword app.",
+      "app_store_url": "https://apps.apple.com/us/app/sword-health/id1440279754",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.swordhealth.app",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.swordhealth.com",
+      "last_scraped": "2026-02-08T14:23:13.843529Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Sword Health - Predict (MSK Risk / Early Intervention Program)",
+      "company_provider": "Sword",
+      "company_website": "https://www.swordhealth.com",
+      "company_founding_year": 2014,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "Z13.89",
+        "Z76.89",
+        "M54.9",
+        "M25.50"
+      ],
+      "dtx_category": null,
+      "description": "A digital MSK risk identification and early-intervention program that uses member-reported inputs and programmatic triage to route members into preventive/early-stage therapeutic exercise, education, and care navigation within the Sword platform to reduce progression and downstream MSK utilization.",
+      "app_store_url": "https://apps.apple.com/us/app/sword-health/id1440279754",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.swordhealth.app",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.swordhealth.com",
+      "last_scraped": "2026-02-08T14:23:13.843545Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Sword Health - Succeed (Post-Surgical / Rehabilitation Program)",
+      "company_provider": "Sword",
+      "company_website": "https://www.swordhealth.com",
+      "company_founding_year": 2014,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "Z47.1",
+        "Z48.89",
+        "Z98.890",
+        "M17.10",
+        "M16.10",
+        "M75.10"
+      ],
+      "dtx_category": null,
+      "description": "A digital rehabilitation program for post-operative and post-procedure MSK recovery using structured therapeutic exercise with motion feedback and PT oversight to improve range of motion, strength, and function while supporting adherence and recovery milestones.",
+      "app_store_url": "https://apps.apple.com/us/app/sword-health/id1440279754",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.swordhealth.app",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.swordhealth.com",
+      "last_scraped": "2026-02-08T14:23:13.843555Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "SpellBound AR",
+      "company_provider": "SpellBound (Healthcare Technology Systems)",
+      "company_website": "https://www.spellboundar.com",
+      "company_founding_year": 2015,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F80.0",
+        "F80.1",
+        "F80.2",
+        "F81.0",
+        "R48.0",
+        "R47.0"
+      ],
+      "dtx_category": null,
+      "description": "Augmented reality (AR) therapeutic/educational software intended to support intervention for speech-language and/or literacy-related difficulties by delivering interactive spelling/phonics practice activities. Publicly available information indicates an AR-based approach, but specific evidence-based therapeutic protocol, intended use claims, and regulated indication are not clearly described in accessible sources.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.spellboundar.com",
+      "last_scraped": "2026-02-08T14:23:30.731352Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "CareAngel",
+      "company_provider": "EmpowerHealth",
+      "company_website": "https://www.careangel.com/",
+      "company_founding_year": 2014,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [],
+      "dtx_category": null,
+      "description": "Mobile/web caregiving coordination and safety support platform focused on communication, tasking, and monitoring for caregivers and care recipients; available information indicates care management/coordination rather than an evidence-based software-delivered therapeutic intervention intended to treat, manage, or prevent a specific medical disorder.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.careangel.com",
+      "last_scraped": "2026-02-08T14:23:39.658742Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "InTandem™ (medRhythms Therapeutic Platform) – Chronic Stroke Gait Training",
+      "company_provider": "Medrhythms Therapy",
+      "company_website": "https://www.medrhythmstherapy.com",
+      "company_founding_year": 2013,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "I69.398",
+        "I69.328",
+        "R26.9",
+        "R26.81",
+        "R26.89"
+      ],
+      "dtx_category": null,
+      "description": "A prescription digital therapeutic that delivers rhythmic auditory stimulation (music-based, tempo-adaptive cues) during walking therapy to improve gait and walking function after neurological injury. The software personalizes rhythmic cueing to the patient’s gait, guides structured therapeutic walking sessions, and is intended to be used alongside rehabilitation care.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.medrhythmstherapy.com",
+      "last_scraped": "2026-02-08T14:23:52.414646Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "InTandem™ – Multiple Sclerosis (MS) Walking/Gait (Pipeline/Clinical Development)",
+      "company_provider": "Medrhythms Therapy",
+      "company_website": "https://www.medrhythmstherapy.com",
+      "company_founding_year": 2013,
+      "listing_status": "Pilot",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "G35",
+        "R26.9",
+        "R26.81",
+        "R26.89"
+      ],
+      "dtx_category": null,
+      "description": "A music-based digital therapeutic program using rhythmic auditory stimulation to address MS-related gait impairment. Uses adaptive rhythmic cueing and guided walking sessions to improve walking speed, cadence, and gait stability; reported publicly by the company as an additional neurologic indication under evaluation/development.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.medrhythmstherapy.com",
+      "last_scraped": "2026-02-08T14:23:52.414679Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Riva",
+      "company_provider": "Riva Health",
+      "company_website": "https://www.rivahealth.com",
+      "company_founding_year": 2013,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "I10",
+        "I11.9",
+        "I12.9",
+        "I13.10",
+        "I15.9",
+        "R03.0",
+        "Z13.6"
+      ],
+      "dtx_category": null,
+      "description": "Prescription-based mobile digital therapeutic for hypertension that uses smartphone-based blood pressure measurement plus clinically-guided behavioral/lifestyle coaching and longitudinal BP management to help patients lower and control blood pressure between clinic visits.",
+      "app_store_url": "https://apps.apple.com/us/app/riva-health/id1526807478",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.rivahealth",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.rivahealth.com",
+      "last_scraped": "2026-02-08T14:24:08.919818Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Relivion MG (Relivion Neuromodulation System)",
+      "company_provider": "Relivion",
+      "company_website": "https://www.relivion.com/",
+      "company_founding_year": 2013,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "G43.0",
+        "G43.1",
+        "G43.7",
+        "G43.8",
+        "G43.9"
+      ],
+      "dtx_category": null,
+      "description": "Prescription digital therapeutic neuromodulation system for migraine that combines a wearable headset delivering non-invasive multi-channel stimulation of trigeminal and occipital nerves with software-guided therapy and session control to acutely treat migraine attacks and support preventive use per clinician direction.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.relivion.com",
+      "last_scraped": "2026-02-08T14:24:19.418177Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Oto (by Blue Mesa Health)",
+      "company_provider": "Blue Mesa Health",
+      "company_website": "https://www.bluemesahealth.com",
+      "company_founding_year": 2015,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "H93.1",
+        "F41.9",
+        "F32.9",
+        "G47.00"
+      ],
+      "dtx_category": null,
+      "description": "A digital therapeutic for tinnitus that delivers a structured, CBT-based program combining psychoeducation, sound therapy, relaxation/mindfulness exercises, and coaching to reduce tinnitus-related distress and improve coping and sleep.",
+      "app_store_url": "https://apps.apple.com/app/oto-tinnitus-support/id1480474519",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.bluemesahealth.oto",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.bluemesahealth.com",
+      "last_scraped": "2026-02-08T14:24:27.566197Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Unknown",
+      "company_provider": "My Mhealth",
+      "company_website": "https://www.mymhealth.com",
+      "company_founding_year": 2011,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [],
+      "dtx_category": null,
+      "description": "Unable to confirm specific evidence-based digital therapeutic product names for My Mhealth from accessible public sources within this run. The website domain is provided, but product-level DTx/app details (names, indications, app store listings) could not be reliably identified without direct access to current site pages or additional identifiers (e.g., product suite names, partner programs, or app developer account names).",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.mymhealth.com",
+      "last_scraped": "2026-02-08T14:24:44.192425Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Aduro Health (Aduro Wellbeing Platform / Aduro App)",
+      "company_provider": "Aduro",
+      "company_website": "https://www.adurolife.com",
+      "company_founding_year": 2001,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "Z71.3",
+        "Z71.82",
+        "Z72.3",
+        "Z73.0",
+        "E66.9",
+        "R03.0",
+        "R73.03",
+        "E78.5",
+        "G47.00",
+        "F43.9"
+      ],
+      "dtx_category": null,
+      "description": "Digital health behavior-change platform that delivers personalized coaching and programs (e.g., stress management, sleep, nutrition, physical activity, weight, resilience) via app/web with assessments and guided interventions; positioned as wellbeing/chronic condition risk reduction rather than a regulated, prescription digital therapeutic.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.adurolife.com",
+      "last_scraped": "2026-02-08T14:24:54.616175Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Feel Program (Feel Therapeutics)",
+      "company_provider": "Feel Therapeutics",
+      "company_website": "https://feeltherapeutics.com",
+      "company_founding_year": 2015,
+      "listing_status": "Unknown",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F41.1",
+        "F41.9",
+        "F43.22",
+        "F43.23",
+        "F43.9",
+        "Z73.3"
+      ],
+      "dtx_category": null,
+      "description": "Digital mental health therapeutic program using physiological sensing (via the Feel wristband) and app-based interventions (e.g., emotion awareness, guided exercises, coaching/CBT-inspired techniques) intended to help users manage stress, anxiety, and related emotional dysregulation through real-time biofeedback and skills training.",
+      "app_store_url": null,
+      "play_store_url": null,
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.feeltherapeutics.com",
+      "last_scraped": "2026-02-08T14:25:02.871381Z",
+      "reason_for_delisting": null
+    },
+    {
+      "dtx_name": "Mightier",
+      "company_provider": "Mightier",
+      "company_website": "https://www.mightier.com",
+      "company_founding_year": 2016,
+      "listing_status": "Active",
+      "date_of_first_listing": null,
+      "clinical_area_icd10": [
+        "F41.9",
+        "F93.9",
+        "F98.8",
+        "R45.4",
+        "R45.86",
+        "F90.9"
+      ],
+      "dtx_category": null,
+      "description": "A biofeedback-based digital therapeutic for children that uses a heart-rate sensor paired with mobile/tablet video games to teach emotional regulation skills (calming strategies, frustration tolerance, coping) in-the-moment. The therapeutic mechanism is real-time physiological arousal detection (heart rate) with game difficulty/feedback that adapts to arousal, plus structured skill coaching content for parents/child to generalize regulation strategies outside gameplay.",
+      "app_store_url": "https://apps.apple.com/us/app/mightier/id1452112350",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.mightier.app",
+      "web_app_url": null,
+      "price_usd": null,
+      "languages": [
+        "English"
+      ],
+      "trial_registration_ids": [],
+      "reviews_playstore": null,
+      "reviews_appstore": null,
+      "source_url": "www.mightier.com",
+      "last_scraped": "2026-02-08T14:25:19.605565Z",
+      "reason_for_delisting": null
+    }
+  ]
+}

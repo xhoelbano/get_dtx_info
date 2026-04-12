@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05545826",
+      "orgStudyIdInfo": {
+        "id": "67304"
+      },
+      "organization": {
+        "fullName": "Stanford University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Vibrotactile Coordinated Reset (VCR): A Treatment for Early Stage Parkinson's Disease",
+      "officialTitle": "Vibrotactile Coordinated Reset: A Treatment for Early Stage Parkinson's Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-04-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-10-20",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-10-20",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-09-12",
+      "studyFirstSubmitQcDate": "2022-09-14",
+      "studyFirstPostDateStruct": {
+        "date": "2022-09-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Vivek P. Buch",
+        "investigatorTitle": "Protocol Director",
+        "investigatorAffiliation": "Stanford University"
+      },
+      "leadSponsor": {
+        "name": "Stanford University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of our study is to evaluate Vibrotactile Coordinated Reset stimulation (vCR) and its effects on early stage Parkinson's symptoms. VCR will be administered with a device called the Stanford Glove. vCR is expected to provide patients with a non-invasive alternative to the most widely used treatments such as levodopa and or deep brain stimulation. Patients will be followed for two years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Parkinson Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vibrotactile Coordinated Reset (vCR)",
+          "type": "EXPERIMENTAL",
+          "description": "Vibrotactile Coordinated Reset delivers vibratory stimulation to the fingertips of each hand. A specific pattern of vibration to each fingertip is delivered which theoretically disrupts abnormal synchrony in the brain.",
+          "interventionNames": [
+            "Device: Vibrotactile coordinated reset"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Vibrotactile coordinated reset",
+          "description": "The purpose of this study is to test the efficacy of vibrotactile coordinated reset stimulation on human subject participants with early stage Parkinson's disease",
+          "armGroupLabels": [
+            "Vibrotactile Coordinated Reset (vCR)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Movement Disorders Society Unified Parkinson's Disease Rating Scale Part 3 (MDS-UPDRS III) off medication",
+          "description": "This scale measures motor ability within Parkinson's patients. For part 3, the scales minimum values is 0 and max value is 132. Higher scores indicate more impaired motor ability, while lower scores indicate less impaired motor ability. A score of 0 indicates no motor impairment. Assessment will be performed while participants are off PD medication.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Parkinsons disease quality of life questionnaire-39 (PDQ-39)",
+          "description": "The PD Quality of Life Questionnaire-39 (PDQ-39) is a self-report questionnaire that examines health related difficulties specific to PD in eight quality of life categories within the last month. Items are grouped into eight scales that are scored by expressing summed item scores as a percentage score ranging between 0 and 100, with higher % indicating more health problems.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Freezing of gait questionnaire (FOG)",
+          "description": "The Freezing of Gait Questionnaire (FOG) assesses severity unrelated to falls in patients with Parkinson's Disease (PD), FOG frequency, disturbances in gait, and relationship to clinical features conceptually associated with gait and motor aspects (e.g., turning). The FOG is comprised of 6 questions measured on a 0 to 4 scale (where 0 is normal and 4 represents severe abnormalities). The scores are summed together with 0 representing the best possible score and 24 representing the worst possible score.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Movement disorders unified Parkinson's rating scale (MDS-UPDRS) part 1",
+          "description": "The MDS-UPDRS part 1 focuses on non-motor symptoms, such as dementia, depression, and psychosis. The total summed score ranges from 0-52 with higher scores indicating increased non-motor impairment.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Movement disorders unified Parkinson's rating scale (MDS-UPDRS) part 2",
+          "description": "The MDS-UPDRS part 2 focuses on the patient's ability to perform daily motor activities including dressing, grooming, and using utensils. The total summed score ranges from 0-52 with higher scores indicating increased daily motor impairment.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Movement disorders unified Parkinson's rating scale (MDS-UPDRS) part 4",
+          "description": "The MDS-UPDRS 4 focuses on Measures the complications of treatment, e.g. dyskinesias and motor fluctuations. The total summed score ranges from 0-24 with higher scores indicating increased motor complications.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Spontaneous EEG beta band power",
+          "description": "Patients will be recorded while receiving vibrotactile stimulation. The Beta Band (13-30Hz) power spectral density (PSD) will be of interest. The units of the power spectral density are micro-Volts-squared per Hz. Increases in Beta band PSD are associated with motor impairment in Parkinson's disease, while decreases in the beta band are associated with motor improvement.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Smell Identification",
+          "description": "Patients will smell 16 pens filled with a specific odor. One point is given to a correctly identified smell. The score is range from 0 to 16 with lower scores indicating smell loss.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Smell threshold",
+          "description": "Thresholds are obtained in a three alternative forced choice paradigm where subjects are repeatedly presented with triplets of pens and have to discriminate one pen containing an odorous solution from two blanks filled with the solvent. Sixteen concentrations are created by stepwise diluting previous ones by 1:2. Starting with the lowest odor concentration, a staircase paradigm is used where two subsequent correct identifications of the odorous pen or one incorrect answer marked a so-called turning point, and results in a decrease or increase of concentration in the next triplet. The threshold score is the mean of the last four turning points in the staircase, with the final score ranging between 1 and 16 points, with lower scores indicating an increased smell threshold.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Smell discrimination",
+          "description": "Smell discrimination is obtained in a three alternative forced choice paradigm where subjects are repeatedly presented with triplets of pens and in which 2 have the same odorant and 1 has a different smell. Subjects were asked to indicate the single pen with a different smell.\n\nThe score is the sum of correctly identified odors. The scores in this task ranged from 0 to 16 points, which lower scores indicating a decrease in smell discrimination",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Visual acuity",
+          "description": "Visual acuity is assessed via the Early Treatment for Diabetic Retinopathy Study chart. Participants will read letters from the chart at a distance of four meters. Each eye will be assessed separately, with one eye occluded, as well as both eyes together.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        },
+        {
+          "measure": "Visual contrast sensitivity",
+          "description": "Visual contrast sensitivity is assessed via the Pelli-Robson chart. Participants will read letters from the chart at a distance of one meter. Each eye will be assessed separately, with one eye occluded, as well as both eyes together.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ages 18 and older\n2. Idiopathic Parkinson's disease Hoehn and Yahr stage I\n3. Fluent in English\n4. Appropriate social support if required during an off state.\n5. Comfortable with technology; can use a computer, check email, and access the internet; can initiate and engage in a virtual meeting for training and monitoring purposes.\n6. Feels comfortable going off PD related medication during in person study visits\n7. Lives in the United States\n\nExclusion Criteria:\n\n1. Any significant neuro-psychiatric problems, including acute confusional state, ongoing psychosis, or suicidal tendencies\n2. Any current drug or alcohol abuse.\n3. Participation in another drug, device, or biologics trial concurrently or within the preceding 30 days. Any other trial participation should be approved by the Principal Investigators.\n4. Pregnancy, breast-feeding or wanting to become pregnant\n5. Physical limitations unrelated to PD that would affect motor ratings\n6. Craniotomy\n7. Brain surgery\n8. Patient is unable to communicate properly with staff (i.e., severe speech problems)\n9. Excessive drooling\n10. A type of hair style that would impede the use of an EEG cap\n11. Sensory abnormalities of the fingertips\n12. Nasal dysfunction unrelated to smell loss",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jessica Yankulova",
+          "role": "CONTACT",
+          "phone": "650-474-9547",
+          "email": "jessky@stanford.edu"
+        },
+        {
+          "name": "Ellyn Daly",
+          "role": "CONTACT",
+          "phone": "6509450174",
+          "email": "ellynd@stanford.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Stanford University",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Peter Tass, MD, Ph.D",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

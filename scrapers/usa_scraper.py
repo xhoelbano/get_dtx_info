@@ -6,7 +6,6 @@ information for US companies from CSV input files.
 import asyncio
 import csv
 import json
-import os
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -17,31 +16,6 @@ from .base_scraper import BaseScraper
 from utils.llm_provider import LLMProvider
 
 
-def _get_llm_source_name() -> str:
-    """Get a human-readable name for the current LLM provider and model."""
-    provider = (os.getenv("LLM_PROVIDER") or "azure_openai").strip().lower()
-    
-    provider_names = {
-        "azure_openai": "Azure OpenAI",
-        "openai": "OpenAI",
-        "gemini": "Google Gemini",
-        "anthropic": "Anthropic Claude",
-    }
-    provider_display = provider_names.get(provider, provider)
-    
-    # Get the model name
-    if provider == "azure_openai":
-        model = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
-    elif provider == "openai":
-        model = os.getenv("OPENAI_MODEL", "gpt-4o")
-    elif provider == "gemini":
-        model = os.getenv("GOOGLE_MODEL", "gemini-pro")
-    elif provider == "anthropic":
-        model = os.getenv("ANTHROPIC_MODEL", "claude-3-opus")
-    else:
-        model = "unknown"
-    
-    return f"LLM Research ({provider_display} - {model})"
 
 
 class USAScraper(BaseScraper):
@@ -496,7 +470,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "total_count": len(dtx_list),
                 "companies_researched": len(companies),
                 "companies_with_dtx": companies_with_dtx,
-                "source": _get_llm_source_name()
+                "source": LLMProvider.get_source_name()
             },
             "dtx_list": dtx_list
         }
@@ -541,7 +515,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "country": "USA",
                 "last_updated": datetime.utcnow().isoformat() + "Z",
                 "total_count": len(dtx_list),
-                "source": _get_llm_source_name()
+                "source": LLMProvider.get_source_name()
             },
             "dtx_list": dtx_list
         }
@@ -615,7 +589,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "country": "USA",
                 "last_updated": datetime.utcnow().isoformat() + "Z",
                 "total_count": len(merged_list),
-                "source": _get_llm_source_name()
+                "source": LLMProvider.get_source_name()
             },
             "dtx_list": merged_list
         }

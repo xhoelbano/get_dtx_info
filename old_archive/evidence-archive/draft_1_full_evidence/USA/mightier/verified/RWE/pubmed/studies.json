@@ -1,0 +1,92 @@
+{
+  "studies": [
+    {
+      "study_id": "11103635",
+      "pmid": "11103635",
+      "title": "Mightier than the syringe.",
+      "authors": "Fleming D R",
+      "authors_list": [
+        "Fleming D R"
+      ],
+      "publication_year": "2000",
+      "publication_date": "2000-Nov",
+      "journal": "The American journal of nursing",
+      "journal_abbrev": "Am J Nurs",
+      "doi": "",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [
+        "Diabetes Mellitus, Type 1",
+        "Humans",
+        "Hypoglycemic Agents",
+        "Injections, Subcutaneous",
+        "Insulin",
+        "Patient Selection",
+        "Syringes"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11103635/",
+      "pdf_available": false,
+      "_matched_query": "\"Mightier\"",
+      "_raw_xml_path": "evidence/USA/mightier/candidates/pubmed/raw/11103635.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study title explicitly mentions 'Mightier,' which matches the name of the digital therapeutic product. However, the lack of additional details such as an abstract or intervention description slightly reduces confidence.",
+        "matched_elements": [
+          "Mightier (title)"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 70,
+        "reason": "The study lacks explicit indicators of randomization, blinding, placebo control, or interventional design, and appears to be a review or observational in nature based on publication types."
+      }
+    },
+    {
+      "study_id": "36489815",
+      "pmid": "36489815",
+      "title": "Mightier Than the Pen.",
+      "authors": "",
+      "authors_list": [],
+      "publication_year": "1875",
+      "publication_date": "1875-Oct",
+      "journal": "Hall's journal of health",
+      "journal_abbrev": "Halls J Health",
+      "doi": "",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36489815/",
+      "pdf_available": false,
+      "_matched_query": "\"Mightier\"",
+      "_raw_xml_path": "evidence/USA/mightier/candidates/pubmed/raw/36489815.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study title explicitly mentions 'Mightier,' which matches the name of the digital therapeutic product. However, the lack of additional details such as an abstract or intervention description slightly reduces confidence.",
+        "matched_elements": [
+          "Mightier"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 60,
+        "reason": "The study lacks explicit indicators of randomization, blinding, placebo control, or interventional design, which are typical of RCTs. The absence of detailed study type suggests it may lean toward observational or real-world evidence."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-10T08:12:19.796106Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

@@ -1,0 +1,87 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00016329",
+      "drks_id": "DRKS00016329",
+      "title": "e-Health and mobile health application for the self-management support of patients with low back pain - a confirmatory trial",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00016329/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00016329.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study title does not explicitly mention 'Kaia Rückenschmerzen - Rückentraining für Zuhause' or any clear variation of the product name. The intervention is not specified, and there is no mention of the company 'kaia health software GmbH' or any specific description matching the DTx. This could be a generic study about e-health or mobile health applications for low back pain.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00015048",
+      "drks_id": "DRKS00015048",
+      "title": "Innovative Back Pain Therapy with eHealth for our Patients",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00015048/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00015048.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 80,
+        "reason": "The study title mentions eHealth and back pain therapy but does not explicitly reference 'Kaia Rückenschmerzen - Rückentraining für Zuhause' or provide specific details matching the described DTx product. No sponsor, intervention, or abstract information confirms relevance.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00009528",
+      "drks_id": "DRKS00009528",
+      "title": "Impact of alternative exercise technologies on chronic low back pain in back pain patients under special regard of its sustainability.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00009528/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00009528.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'Kaia Rückenschmerzen - Rückentraining für Zuhause,' its company, or provide a specific intervention description matching the DTx product. The title suggests a generic focus on alternative exercise technologies for back pain, which could include other products or approaches.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00036874",
+      "drks_id": "DRKS00036874",
+      "title": "BackCare - Digitally supported back training in the home environment",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036874/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00036874.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 80,
+        "reason": "The study title mentions 'digitally supported back training,' which is a generic description and does not explicitly reference 'Kaia Rückenschmerzen - Rückentraining für Zuhause' or kaia health software GmbH. No specific intervention details or sponsor/funder information are provided to confirm relevance.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00007652",
+      "drks_id": "DRKS00007652",
+      "title": "Short-term effects of self-myofascial release compared to a conventional mobility exercise and no additional exercise on isometric strength in patients with chronic low-back pain",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00007652/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00007652.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'Kaia Rückenschmerzen - Rückentraining für Zuhause,' its company, or provide a specific description matching the DTx product. The intervention is not specified, and the title suggests a focus on self-myofascial release and conventional mobility exercises, which could be unrelated to the Kaia Back Pain app.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 5,
+  "_saved_at": "2026-02-09T19:40:01.480104Z",
+  "_source": "drks"
+}

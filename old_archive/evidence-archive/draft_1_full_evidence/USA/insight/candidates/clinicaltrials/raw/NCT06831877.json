@@ -1,0 +1,259 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06831877",
+      "orgStudyIdInfo": {
+        "id": "dTMS and Insight"
+      },
+      "organization": {
+        "fullName": "Shanghai Mental Health Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study on Deep Transcranial Magnetic Stimulation for Enhancing Insight",
+      "officialTitle": "Targeted Intervention Study of Deep Transcranial Magnetic Stimulation for Impaired Insight in Patients with High-Risk and First-Episode Psychosis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-02-12",
+      "studyFirstSubmitQcDate": "2025-02-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shanghai Mental Health Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Impaired insight is a key factor in the conversion of high-risk individuals to schizophrenia, but there is a lack of targeted interventions. We found that an electroencephalogram (EEG) signal, error-related negativity (ERN), was closely related to impaired insight. The more pronounced the ERN attenuation in patients with high-risk and first-episode psychosis, the more severe the impairement of clinical insight. ERN is a negative potential that appears at the frontal and central scalp electrode locations within 100 ms after an erroneous behavioral response, reflecting the activity of the brain's error-monitoring system. Research has shown that the brain region underlying ERN is partly located in the anterior cingulate cortex (ACC). Other research has reported that the activity extending from the ACC to the medial prefrontal cortex (mPFC) is associated with impaired insight in patients with various disorders. Therefore, this project targets mPFC/ACC and uses deep transcranial magnetic stimulation (dTMS) for targeted modulation, with an exploratory observation of changes in patients' insight before and after neurostimulation.",
+      "detailedDescription": "This study will be carried out at a single center, the Shanghai Mental Health Center (SMHC).\n\n1. Modulating ACC Functional Activity Using dTMS to Observe Changes in Insight Among FES and CHR Before and After Intervention This study will employ a randomized, double-blind, sham-controlled experimental design. dTMS intervention will be administered for 10 consecutive days, with two sessions per day, ensuring at least a 3-hour interval between sessions. A total of 36 FES participants and 68 CHR participants with impaired insight will be recruited. Participants will be randomly assigned to either the active-dTMS group or the sham-dTMS group to compare changes in insight between the two conditions. This study will conduct clinical assessments and laboratory testing before and immediately after the intervention. Additionally, clinical assessments will be performed at one month and three months post-intervention to analyze the sustained effects of dTMS in modulating ACC functional activity to improve insight.\n2. Follow-Up of CHR Participants to Analyze the Predictive Role of Insight and ACC Functional Activity on CHR Outcomes A prospective cohort design will be used to compare the transition outcomes among three CHR groups: the active-dTMS group, the sham-dTMS group, and an observational control group. The primary focus is to examine the probability of conversion to schizophrenia at a one-year follow-up and to analyze the extent to which insight and ACC functional activity predict CHR outcomes. 34 CHR participants with intact insight (observational control group) will be recruited for baseline assessments and laboratory testing, followed by a one-year follow-up. By comparing baseline assessments, laboratory indicators, and clinical outcomes between the observational control group and the CHR intervention groups (active-dTMS and sham-dTMS), this study aims to determine whether improvement in insight in the active-dTMS group leads to prognostic outcomes comparable to those of the observational control group. Specifically, it will assess whether the risk of conversion to schizophrenia in the active-dTMS group becomes statistically indistinguishable from that of the observational control group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Impaired Insight"
+      ],
+      "keywords": [
+        "Insight",
+        "Self monitoring",
+        "Anterior cingulate cortex",
+        "Medial prefrontal cortex",
+        "Deep transcranial magnetic stimulation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants will be randomly assigned to different montage of stimulation, including deep transcranial magnetic stimulation (active-dTMS) and sham stimulation (sham-dTMS).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Participants will remain blinded to the dTMS montage they receive. The research team will include clinical evaluators, laboratory inspectors, dTMS operators, and statistical analysts. Prior to unblinding, each group of researchers will be blinded to the information collected by the other groups. For example, except for the dTMS operators, no one will know which stimulus montage any participant receives.\n\nAfter the post-intervention assessments, the first stage of unblinding will take place. At this stage, dTMS operators will provide group identifiers (A and B) to the statistical analysts, but without revealing the corresponding stimulation montages. Once the statistical analysis of group differences is completed, a second stage of unblinding will occur, allowing for further analysis of the clinical trial results, with the corresponding stimulation montage revealed for each group.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 138,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "active-CHR",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Individuals with clinical high risk for psychosis (CHR) will be intervened with dTMS.",
+          "interventionNames": [
+            "Device: active-dTMS"
+          ]
+        },
+        {
+          "label": "sham-CHR",
+          "type": "SHAM_COMPARATOR",
+          "description": "Individuals with CHR, as a control group, will receive sham stimulation.",
+          "interventionNames": [
+            "Device: sham-dTMS"
+          ]
+        },
+        {
+          "label": "NoI-CHR",
+          "type": "NO_INTERVENTION",
+          "description": "For the observation group of CHR, baseline assessments will be conducted, and follow-up outcomes will be observed one year later. Clinical outcomes will be compared with those of the CHR intervention group."
+        },
+        {
+          "label": "active-FEP",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with first-episode psychosis (FEP) will be intervened with dTMS.",
+          "interventionNames": [
+            "Device: active-dTMS"
+          ]
+        },
+        {
+          "label": "sham-FEP",
+          "type": "SHAM_COMPARATOR",
+          "description": "FEP patients , as a control group, will receive sham stimulation.",
+          "interventionNames": [
+            "Device: sham-dTMS"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "active-dTMS",
+          "description": "The dTMS using H-coil with 5Hz stimulate ACC. The sessions of dTMS will be conducted twice daily for 5 consecutive days, and twice sessions of a day will be separated by 3 hours at least.",
+          "armGroupLabels": [
+            "active-CHR",
+            "active-FEP"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "sham-dTMS",
+          "description": "The sham-dTMS has the same appearance with the real stimulation coil, which can not generate magnetic field. A sound generator is built in the coil beat to simulate the sound of the real stimulation.",
+          "armGroupLabels": [
+            "sham-CHR",
+            "sham-FEP"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clinical Insight",
+          "description": "Clinical insight will be assessed using the SAI (Schedule for Assessment of Insight). The SAI is a semi-structured interview tool consisting of seven items, with a total score of 14. It evaluates three areas: illness recognition (scoring 0-6), relabeling of symptoms (scoring 0-4), and treatment compliance (scoring 0-4). Patients are considered to have impaired insight if they score less than 3 on illness recognition, less than 2 on relabeling of symptoms, and less than 2 on treatment compliance.",
+          "timeFrame": "Baseline and immediately after the intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Error-related negativity",
+          "description": "The error-related negativity (ERN) is observed over frontocentral sites within 100 ms following an error response in behavioral tasks and a reduced ERN indicates reduced error monitoring. EEG epochs were marked with artifacts and excluded from the following ERN analysis if on any electrode, (i) the maximal peak-to-peak amplitude exceeded 100 μV within any moving window (width: 200 ms; step: 50 ms) or (ii) the absolute amplitude exceeded 100 μV at any time point. The calculation for the ERN was based on no fewer than five available epochs with erroneous responses.",
+          "timeFrame": "Baseline and immediately after the intervention"
+        },
+        {
+          "measure": "Resting-state functional activity of the anterior cingulate cortex (ACC) and its functional connectivity with the whole brain",
+          "description": "Imaging data will be collected on a 3 Tesla Siemens Prisma scanner with a 64-channel Siemens head coil, including structural phase and resting stage detection, which will be used to analyze the functional activity.",
+          "timeFrame": "Baseline and immediately after the intervention"
+        },
+        {
+          "measure": "Psychopathological symptoms",
+          "description": "This study will also observe the psychopathological symptoms, including positive, negative and general symptoms, using PANSS.The reductive ratio of PANSS points will be calculated after dTMS treatment.",
+          "timeFrame": "Baseline and immediately after the intervention"
+        },
+        {
+          "measure": "Reality monitoring ability",
+          "description": "Reality monitoring ability refers to distinguish internally self-generated information from externally-derived information. The test will be carried out by the experimental paradigm of reality monitoring ability.The stimulus materials are easy to be accepted and understood by patients with mental illness.The material consisted of 48 pairs of familiar pictures and was divided into two tests, each consisting of a learning and a testing phase. In the learning phase, 24 pictures will be presented with different combinations of conditions (four combinations of \"perceptive/imaginative × left/right\" conditions). In the testing phase, one object will be presented and the participants will be asked to decide whether the other paired object is perceptive or imaginative, or whether the image is positioned on the left or right side of the screen.",
+          "timeFrame": "Baseline and immediately after the intervention"
+        },
+        {
+          "measure": "Convertion rate of transition into psychosis",
+          "description": "This study will use SIPS to identify individuals with CHR and assess the participants' clinical outcomes, including transition into psychosis, symptomatic, remission, and other disorders",
+          "timeFrame": "1-2 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Meet the criteria of clinical high risk for psychosis or meet the DSM-V diagnostic criteria for schizophrenia;\n* Meeting the following definition of impaired insight: below a specific threshold in at least one dimension of the Scale to Assess Unawareness of Mental Disorder (SAI). Specifically, a score of less than 2 in the \"awareness of the need for treatment\" dimension, less than 3 in the \"recognition of illness\" dimension, or less than 2 in the \"attribution of psychotic symptoms\" dimension qualifies an individual as having impaired insight;\n* Having completed at least six years of primary education;\n* Being able to give informed consent, oral or written. Patients under 18 years old give oral consent and their next of kin or legal guardians give written consent.\n\nExclusion Criteria:\n\n* Participating in any other clinical intervention research;\n* Meeting the diagnostic criteria of psychotic disorders (including affective disorders);\n* Threshold symptoms are induced by other mental disorders or psychoactive substances;\n* Undergoing anti-psychotic medication for more than 2 weeks;\n* Being diagnosed as organic brain diseases, or severe somatic diseases;\n* Had Experienced traumatic brain injury, and got scores of 7;\n* Dementia, or mental retardation (IQ\\<70);\n* Being a condition of scalp infection;\n* A pacemaker or other metal implants in the body, pregnancy, or claustrophobia.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "15 Years",
+      "maximumAge": "35 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lihua Xu, Doctoral",
+          "role": "CONTACT",
+          "phone": "15000092086",
+          "email": "mas_xulihua2008@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jijun Wang",
+          "affiliation": "Shanghai Mental Health Center",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Shanghai Mental Health Center",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200030",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Weimin Yang",
+              "role": "CONTACT",
+              "phone": "18017311052",
+              "email": "kjksmhc@yeah.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

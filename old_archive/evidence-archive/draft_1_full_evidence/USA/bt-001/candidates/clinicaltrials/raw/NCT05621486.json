@@ -1,0 +1,270 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05621486",
+      "orgStudyIdInfo": {
+        "id": "B4T2-PRC-IIT-001"
+      },
+      "organization": {
+        "fullName": "Shanghai East Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Clinical Study to Evaluate B4T2-001 CAR T Cells in the Treatment of Advanced Solid Tumors",
+      "officialTitle": "A FIH, Single Arm, Open Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Preliminary Antitumor Activity of Autologous CAR T Cells Targeting BT-001 in Patients With Advanced Solid Tumors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-11",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-09-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-03",
+      "studyFirstSubmitQcDate": "2022-11-17",
+      "studyFirstPostDateStruct": {
+        "date": "2022-11-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-10-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-10-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shanghai East Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Bio4T2 LLC",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a first in human (FIH), open-label, dose escalation and expansion study to evaluate the safety, tolerability, pharmacokinetics, and antitumor activity of B4T2-001 Autologous CAR T cells in subjects with advanced solid tumors including but not limited to advanced gastric or gastroesophageal junction (GEJ) adenocarcinoma, advanced pancreatic cancer, advanced non-small cell lung cancer (NSCLC), colorectal cancers (CRC) and metastatic breast cancer that tests positive for BT-001 target antigen according to Immunohistochemistry (IHC).",
+      "detailedDescription": "This is an open-label dose escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, and antitumor activity of B4T2-001 Autologous CAR T cells in subjects with BT-001 expressing advanced solid tumors. Patients who meet the eligibility criteria will receive B4T2-001 CAR T infusion after lymphodepletion. The lymphodepleting chemotherapy is administered on days -5, -4, and -3 before CAR T infusion using cyclophosphamide 300mg/m2 once daily and fludarabine 30mg/m2 once daily for 3 consecutive days. Doses may be adjusted for renal and/or hepatic insufficiency, or other comorbidities. The study is designed to include the following sequential steps: patient screening, pre-treatment, treatment and follow up for up to 2 years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Solid Tumor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "B4T2-001 CAR T cells",
+          "type": "EXPERIMENTAL",
+          "description": "Single Arm and Open Label study consisting of dose escalation study design followed by dose expansion phase at determined MTD. Treatment follows a lymphodepleting chemotherapy regimen",
+          "interventionNames": [
+            "Biological: B4T2-001 Autologous CAR T cells"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "B4T2-001 Autologous CAR T cells",
+          "description": "Each subject will receive infusion with B4T2-001 autologous CAR T Cells",
+          "armGroupLabels": [
+            "B4T2-001 CAR T cells"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of serious adverse events (SAEs), incidence and severity of adverse events (AEs)",
+          "description": "Safety and tolerability of B4T2-001 CAR T cells",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "To determine the maximum tolerated dose (MTD) and recommended Phase 2 dose (RP2D) of B4T2-001 CAR T cells",
+          "description": "The MTD will be determined based on the occurrence of the Dose-Limiting Toxicities (DLTs) according to the accelerated titration design and 3+3 dose escalation design. RP2D will be defined based on MTD, safety, PK, and preliminary efficacy data.",
+          "timeFrame": "2 years after B4T2-001 CAR T infusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pharmacokinetics (PK): Area Under Curve (AUC)",
+          "description": "Pharmacokinetics (PK): Area Under Curve (AUC) with immunoanalytical method",
+          "timeFrame": "Blood sampling for PK will be performed at planned time points till the end of the study"
+        },
+        {
+          "measure": "Pharmacokinetics (PK): maximum concentration (Cmax)",
+          "description": "Pharmacokinetics (PK): maximum concentration (Cmax) with immunoanalytical method",
+          "timeFrame": "Blood sampling for PK will be performed at planned time points till the end of the study"
+        },
+        {
+          "measure": "Pharmacokinetics (PK): Time to Cmax (Tmax)",
+          "description": "Pharmacokinetics (PK): Time to Cmax (Tmax) with immunoanalytical method",
+          "timeFrame": "Blood sampling for PK will be performed at planned time points till the end of the study"
+        },
+        {
+          "measure": "Overall response rate (ORR) after administration",
+          "description": "ORR is defined as the proportion of subjects who achieve complete response (CR) or partial response (PR) after treatment via B4T2-001 CAR T cell infusion, and the objective tumor response rate will be calculated for patients with measurable disease per RECIST 1.1 only",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "Duration of Response (DOR) after administration",
+          "description": "DOR is defined as the time from the first documentation of remission (PR or better) to the first documented disease progression evidence (according to RECIST 1.1) of the responders (who achieve PR or better response)",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "Progress Free Survival (PFS) after administration",
+          "description": "PFS is defined as the time from the date of first infusion of the B4T2-001 to the first documented disease progression (according to RECIST 1.1) or death (due to any cause), whichever occurs first",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "Overall Survival (OS) after administration",
+          "description": "OS is defined as the time from the date of first infusion of B4T2-001 CAR T to death of the subject",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Blood cytokine levels include interleukin 6 (IL-6), IL-2, IL-4, IL-8, IL-10, TNF-α, and INF-γ with ELISA or equivalent method",
+          "description": "Concentration and kinetics of multiple blood cytokines including (IL-6), IL-2, IL-4, IL-8, IL-10, TNF-α, and INF-γ using ELISA or equivalent before and after CAR T infusion and will be evaluated according to actual blood sampling time points",
+          "timeFrame": "Blood sampling for cytokine measurement will be performed at planned time points till 90 days after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "H score (0-300)",
+          "description": "Explore and evaluate histology before and after CAR T infusion for expression of BT-001 antigen on the tumor by IHC with histologist scoring system to evaluate the score intensity.\n\nH score (0-300) will be calculated",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "Overall IHC Score (0-4)",
+          "description": "Explore and evaluate histology before and after CAR T infusion for expression of BT-001 antigen on the tumor by IHC with histologist scoring system to evaluate the score intensity.\n\nOverall IHC Score (0-4) will be calculated",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        },
+        {
+          "measure": "The percentage of positive stained tumor.",
+          "description": "Explore and evaluate histology before and after CAR T infusion for expression of BT-001 antigen on the tumor",
+          "timeFrame": "Minimum 2 years after B4T2-001 CAR T infusion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The subjects have been fully informed of the possible risks and benefits of participating in this study and have voluntarily signed the informed consent form (ICF);\n2. Age:18-70 years (including 18 and 70 years);\n3. ECOG 0-1;\n4. With an expected survival of more than 3 months;\n5. Histologically or cytologically confirmed locally advanced or metastatic BT-001 positive malignant solid tumors (including but not limited to gastric or gastroesophageal junction adenocarcinoma, pancreatic cancer, non-small cell lung cancer and breast cancer), who have failed standard treatment, or for whom standard treatment is not available or applicable at this stage;\n6. Having measurable or evaluable lesions according to RECIST 1.1 or the latest version;\n7. Having sufficient bone marrow, liver and kidney functions (based on the normal value of the clinical trial site):\n\n   * Absolute neutrophil count (ANC) ≥ 1.5×109/L, platelets ≥ 75×109/L;\n   * Total serum bilirubin ≤ 1.5×upper limit of normal (ULN);\n   * Without liver metastases, alanine aminotransferase (ALT), aspartate aminotransferase (AST), or alkaline phosphatase (ALP) ≤ 2.5×ULN; with liver metastases, ALT, AST, or ALP ≤ 5×ULN;\n   * Serum creatinine (ScR) ≤ 1.5×ULN or creatinine clearance \\> 50 mL/min (calculated according to Cockcroft Gault formula);\n   * International normalized ratio (INR) ≤ 1.5×ULN, APTT ≤ 1.5×ULN.\n8. Adequate oxygen saturation (≥ 95%) can be maintained without oxygen inhalation;\n9. Male or female patients of childbearing potential must agree to use effective methods of contraception (such as double-barrier contraceptive methods, condoms, oral or injectable contraceptives, and intrauterine devices) during the study period and within 1 year after infusion.\n\nExclusion Criteria:\n\n1. Patients who have received the following anti-tumor treatments prior to apheresis:\n\n   1. Cytotoxic therapy within 14 days;\n   2. Small molecule targeted therapy within 14 days or at least 5 half-lives, whichever is longer;\n   3. Therapy with monoclonal antibody within 21 days;\n   4. Immunomodulatory therapy within 7 days;\n   5. Radiotherapy within 14 days;\n   6. Traditional Chinese medicine with anti-tumor indications within 14 days;\n   7. Investigational agents or treatment within 28 days.\n2. Previously treated with CAR-T/TCR-T cells therapy against any target or other cell therapies or therapeutic tumor vaccine;\n3. Previously treated with any BT-001-targeted therapy;\n4. Brain metastases with central nervous system symptoms;\n5. Pregnant (positive pregnancy test prior to dosing) or breast-feeding women;\n6. Allergic reaction to any drug and related excipients specified in protocol, e.g., lymphodepletion regimen (cyclophosphamide and fludarabine) and pre-infusion medication (acetaminophen and diphenhydramine), human serum albumin, tocilizumab, Erbitux/cetuximab, dimethyl sulfoxide (DMSO), and dextran 40;\n7. Patients with active hepatitis B (hepatitis B surface antigen (HBsAg) is positive and hepatitis B virus (HBV) deoxyribonucleic acid (DNA) \\> 500IU/ml or lower limit of the research center \\[Only when the detection limit of the research center is higher than 500IU/ml\\]), or active hepatitis C (patients with positive HCV antibody but HCV-RNA \\< lower limit of detection at the site are allowed), but patients receiving prophylactic antiviral therapy other than interferon are allowed;\n8. Patients with a history of immunodeficiency, including those who are HIV-positive, or patients with other acquired or congenital immune deficiency, or a history of organ transplantation;\n9. Patients with autoimmune diseases;\n10. Patients with active infection requiring intravenous anti-infective therapy based on the investigator's judgment;\n11. Patients who underwent major surgeries within 2 weeks prior to apheresis and not fully recovered;\n12. The toxicity of previous anti-cancer therapy has not returned to less than or equal to Grade 1 as specified in CTCAE v5.0 or the latest version (except for hair loss, Grade 2 peripheral neuropathy, and stable hypothyroidism treated with hormone replacement therapy);\n13. Patients with severe complications such as active gastrointestinal bleeding, intestinal obstruction, intestinal paralysis, interstitial pneumonia, pulmonary fibrosis, renal failure, and uncontrolled diabetes;\n14. Patients with a history of acute myocardial infarction, unstable angina pectoris, stroke, or transient ischemic attack within 6 months prior to the enrollment, or with NYHA Class 2 or higher congestive heart failure;\n15. Patients with chronic diseases requiring treatment with systemic corticosteroids or other immunosuppressants, received systemic corticosteroids (≥ 70 mg prednisone or equivalent dose of other corticosteroids) or other immunosuppressants within 7 days before apheresis, except for the following cases: local, ocular, intra-articular, intranasal, and inhaled glucocorticoid treatment; short term use of glucocorticoids for preventive treatment (such as prevention of contrast medium allergy);\n16. Patients with the third space effusion that cannot be controlled clinically are not suitable for inclusion in the group according to the judgment of the investigator;\n17. Patients with a history of uncontrollable mental illness;\n18. Patients with gastric cancer have gastric perforation, pyloric obstruction, or complete biliary obstruction;\n19. Patients with pancreatic cancer who have tumor causing biliary obstruction;\n20. Any condition in which the investigator considers that the subject is not suitable to participate in the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jin Li, MD, PhD",
+          "affiliation": "Shanghai East Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Shanghai East Hospital",
+          "city": "Shanghai",
+          "state": "China/Shanghai",
+          "zip": "200126",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Shanghai Artemed Hospital",
+          "city": "Shanghai",
+          "state": "China/Shanghai",
+          "zip": "200131",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33538338",
+          "type": "BACKGROUND",
+          "citation": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021 May;71(3):209-249. doi: 10.3322/caac.21660. Epub 2021 Feb 4."
+        },
+        {
+          "pmid": "35390769",
+          "type": "BACKGROUND",
+          "citation": "Thompson JA, Schneider BJ, Brahmer J, Achufusi A, Armand P, Berkenstock MK, Bhatia S, Budde LE, Chokshi S, Davies M, Elshoury A, Gesthalter Y, Hegde A, Jain M, Kaffenberger BH, Lechner MG, Li T, Marr A, McGettigan S, McPherson J, Medina T, Mohindra NA, Olszanski AJ, Oluwole O, Patel SP, Patil P, Reddy S, Ryder M, Santomasso B, Shofer S, Sosman JA, Wang Y, Zaha VG, Lyons M, Dwyer M, Hang L. Management of Immunotherapy-Related Toxicities, Version 1.2022, NCCN Clinical Practice Guidelines in Oncology. J Natl Compr Canc Netw. 2022 Apr;20(4):387-405. doi: 10.6004/jnccn.2022.0020."
+        },
+        {
+          "pmid": "32731404",
+          "type": "BACKGROUND",
+          "citation": "Jo Y, Ali LA, Shim JA, Lee BH, Hong C. Innovative CAR-T Cell Therapy for Solid Tumor; Current Duel between CAR-T Spear and Tumor Shield. Cancers (Basel). 2020 Jul 28;12(8):2087. doi: 10.3390/cancers12082087."
+        },
+        {
+          "pmid": "19097774",
+          "type": "BACKGROUND",
+          "citation": "Eisenhauer EA, Therasse P, Bogaerts J, Schwartz LH, Sargent D, Ford R, Dancey J, Arbuck S, Gwyther S, Mooney M, Rubinstein L, Shankar L, Dodd L, Kaplan R, Lacombe D, Verweij J. New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1). Eur J Cancer. 2009 Jan;45(2):228-47. doi: 10.1016/j.ejca.2008.10.026."
+        },
+        {
+          "pmid": "30592986",
+          "type": "BACKGROUND",
+          "citation": "Lee DW, Santomasso BD, Locke FL, Ghobadi A, Turtle CJ, Brudno JN, Maus MV, Park JH, Mead E, Pavletic S, Go WY, Eldjerou L, Gardner RA, Frey N, Curran KJ, Peggs K, Pasquini M, DiPersio JF, van den Brink MRM, Komanduri KV, Grupp SA, Neelapu SS. ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells. Biol Blood Marrow Transplant. 2019 Apr;25(4):625-638. doi: 10.1016/j.bbmt.2018.12.758. Epub 2018 Dec 25."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

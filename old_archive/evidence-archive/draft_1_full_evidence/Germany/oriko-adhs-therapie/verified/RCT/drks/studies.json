@@ -1,0 +1,33 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00037711",
+      "drks_id": "DRKS00037711",
+      "title": "Efficacy of a digital health application (ORIKO®) for attention deficit hyperactivity disorder (ADHD) in adults: a randomized controlled trial",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00037711/details",
+      "_matched_query": "\"ORIKO ADHS-Therapie\"",
+      "_raw_json_path": "evidence/Germany/oriko-adhs-therapie/candidates/drks/raw/DRKS00037711.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'ORIKO®', which matches the product name 'ORIKO ADHS-Therapie'. The clinical area (ADHD in adults) aligns with the described product, and there is no indication that this is about a different product or a generic study.",
+        "matched_elements": [
+          "ORIKO®",
+          "ADHD in adults"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The title explicitly states 'randomized controlled trial,' which is a clear indicator of an RCT study design."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:01:29.669398Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,1847 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06389838",
+      "orgStudyIdInfo": {
+        "id": "DINKS01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "DRKS00033704",
+          "type": "REGISTRY",
+          "domain": "DRKS"
+        },
+        {
+          "id": "2024-512094-27",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Kranus Health GmbH",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "RCT on Multimodal Self-treatment for Women With Incontinence Using a Digital Health Application",
+      "officialTitle": "Prospektiv Randomisierte Studie Zur Multimodalen Selbstbehandlung Von Frauen Mit Inkontinenzbeschwerden Mit Einer Digitalen Gesundheitsanwendung",
+      "acronym": "DINKS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-04-25",
+      "studyFirstSubmitQcDate": "2024-04-25",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-29",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-04-17",
+      "resultsFirstSubmitQcDate": "2025-05-28",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-06-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Kranus Health GmbH",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Johannes Gutenberg University Mainz",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study, titled \"Prospective Randomized Study on Multimodal Self-Treatment for Women with Incontinence Symptoms Using a Digital Health Application,\" abbreviated as DINKS, aims to investigate the efficacy of a digital health application in treating incontinence in women. The study involves a single-center, single blinded, randomized, controlled trial with two arms: one receiving digital therapy intervention and the other serving as a control group with standard of care. The primary objective is to reduce the frequency of incontinence episodes over a 12-week intervention period, with secondary goals including improvements in disease symptoms, quality of life, and patient activation. The study plans to recruit 198 female participants and assess various endpoints related to incontinence severity, quality of life, and treatment outcomes.",
+      "detailedDescription": "The intervention in this study involves a digital therapy program delivered via a smartphone or tablet application. This program includes several components aimed at addressing different aspects of incontinence management:\n\nVoiding Diary: Participants will be instructed to maintain a diary to track their urinary habits, including frequency of voiding, episodes of incontinence, and fluid intake.\n\nPelvic Floor Exercises and Physiotherapy: The digital therapy program will provide guidance on performing pelvic floor exercises and other physiotherapeutic interventions aimed at strengthening pelvic floor muscles and improving bladder control.\n\nBladder Training and Cognitive Behavioral Therapy: Participants will receive instructions on bladder training techniques and cognitive behavioral strategies to manage urgency and frequency of urination.\n\nMental Exercises: The program will include mental exercises such as mindfulness techniques, progressive muscle relaxation, and stimulus control methods to help participants manage stress, anxiety, and other psychological factors contributing to incontinence.\n\nAcute Urgency Management: Strategies for managing acute episodes of urgency and urge incontinence will be provided, including techniques to delay voiding and control bladder spasms.\n\nEducational and Nutritional Guidance: Participants will have access to educational materials and nutritional guidance aimed at optimizing bladder health and overall well-being.\n\nProgress Tracking and Motivation: The application will feature tools for tracking progress, setting goals, and providing motivational feedback to encourage adherence to the intervention.\n\nOverall, the digital therapy program is designed to provide comprehensive support for women with incontinence symptoms, addressing both physical and psychological aspects of the condition to improve symptom severity, quality of life, and patient activation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Urinary Incontinence,Stress",
+        "Urinary Incontinence, Urge",
+        "Urinary Incontinence",
+        "Overactive Bladder Syndrome",
+        "Female Urinary Stress Incontinence"
+      ],
+      "keywords": [
+        "Urinary Incontinence",
+        "Mobile Health",
+        "Digital therapeutics",
+        "Pelvic Floor exercises",
+        "bladder control",
+        "digital health",
+        "app based therapy",
+        "behavioral intervention",
+        "quality of life"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, randomized, controlled, single-blinded, 2-arm design",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Participants know which group they are assigned to, but the investigators are blinded.",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 194,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care",
+          "interventionNames": [
+            "Device: Kranus Mictera"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Kranus Mictera",
+          "description": "An app-based digital therapy program aimed at multimodal self-treatment for incontinence. The app is certified class I medical device (MDR).",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incontinence Episodes",
+          "description": "Relative change (rel-CfB-IEF) of IEF from baseline to week 12 relative to baseline; desired reduction in mean relative IEF by 50%; IEF per 24 hours - averaged over 72 hours.",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "International Consultation on Incontinence Questionnaire - Short Form (ICIQ-SF)",
+          "description": "ICIQ-SF assess the frequency and severity of urinary incontinence and its impact on the quality of life of those affected.\n\nScore range: 0 - 21 points, with higher values representing a worse outcome. Outcome measure: change in ICIQ-SF from baseline to week 12.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Incontinence Quality-of-Life (I-QOL)",
+          "description": "I-QoL assesses the impact of urinary incontinence on quality of life. Scale score ranging from 0-100. Higher scores on the I-QOL indicate a better quality of life, while lower scores indicate greater impairment due to urinary incontinence.\n\nOutcome measure: change in I-QoL from baseline to week 12.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Patient Activation Measure-13 (PAM-13)",
+          "description": "The PAM-13 assesses patients' self-competence and knowledge about their own health.\n\nThe range is from 0 to 100 points, with higher scores for a higher level of activation.\n\nOutcome Measure: Change in PAM-13 score from baseline to week 12.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Patient Global Impression of Improvement (PGI-I)",
+          "description": "The PGI-I is a subjective assessment of the improvement in state of health or symptoms. It consists of a single question that asks patients to give their own assessment of the improvement in their state of health.\n\nScale: from \"much better\" to \"much worse\". Outcome measure: Count of participants who had an improvement (\"minimally better\" or higher) in PGI-I value at week 12.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Cured Patients",
+          "description": "Proportion of patients without incontinence (cured patients) at study end",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Urinary Frequency Day",
+          "description": "Change in urinary frequency during the day from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Urinary Frequency Night",
+          "description": "Change in urinary frequency at night from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Pad Use",
+          "description": "Change in pad use from baseline to week 12",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Urge Incontinence",
+          "description": "Change in urge incontinence from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Functional Bladder Capacity",
+          "description": "Change in functional bladder capacity from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Number of Participants With Treatment Failure",
+          "description": "Proportion of patients with treatment failure within the study period, defined as any reported worsening in the PGI-I questionnaire at the end of the study or the start of any interventions against the incontinence symptoms (conservative and invasive methods).",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Stress Urinary Incontinence Episodes of the S/U-IQ",
+          "description": "Change in stress urinary incontinence episodes of the S/U-IQ",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Urgency Urinary Incontinence Episodes of the S/U-IQ",
+          "description": "Change in urgency urinary incontinence episodes of the S/U-IQ",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women aged 18 years or older.\n* Diagnosis of urinary incontinence, including stress incontinence, urge incontinence, or mixed incontinence.\n* Mastery of the German language.\n* Access to the internet.\n* Access to a tablet or smartphone (Android not older than version 7 and iPhone not older than iPhone 9).\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Acute cystitis (N30.0)\n* Bladder stones (N21.0)\n* Recurrent, uncontrollable macrohematuria (R31)\n* Newly diagnosed bladder carcinoma \\< 3 months (C67)\n* Relative Exclusion Criteria not coded according to ICD-10:\n* Inability to physically participate in the therapy program\n* Active pregnancy\n* Bladder botulinum toxin treatment within the last 6 months\n* Study-specific methodological exclusion criteria:\n* Patients unable to understand and independently sign the consent form\n* Initiation of new medication or physical therapy for urinary symptoms within the last 4 weeks\n* Severe psychiatric disorders hindering app usage\n* Neurological disorders affecting the urinary tract\n* Incontinence or tumor surgeries in the pelvic area\n* Severe obesity (BMI \\>35)\n* Recurrent urinary tract infections (at least 2 within 6 months or 3 within a year)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Axel Haferkamp, PhD",
+          "affiliation": "Director of the Clinic of Urology, University of Mainz , Germyny",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Clinic of Urology",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41407582",
+          "type": "DERIVED",
+          "citation": "Haferkamp A, Frey L, Duwe G, Borner JH, Hunfeld C, Brocker KA, Troilo S, Lehmacher W, Papp CP, Miller K, Wiemer L. App-based therapy for female patients with urinary incontinence in Germany (DINKS): a single-blind, randomised, controlled trial. Lancet Digit Health. 2025 Dec;7(12):100935. doi: 10.1016/j.landig.2025.100935. Epub 2025 Dec 16."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Kranus webpage for the medical device",
+          "url": "https://kranushealth.com/de/fachkreise/mictera"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Study protocol and study report will be shared"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Intervention",
+          "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+        },
+        {
+          "id": "FG001",
+          "title": "Control",
+          "description": "Participants will continue their therapy treatment (standard of care) if they are on it for more than four weeks before inclusion."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "96"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "98"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "92"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "94"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Intervention",
+          "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+        },
+        {
+          "id": "BG001",
+          "title": "Control",
+          "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "96"
+            },
+            {
+              "groupId": "BG001",
+              "value": "98"
+            },
+            {
+              "groupId": "BG002",
+              "value": "194"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48.5",
+                      "spread": "11.65"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51.0",
+                      "spread": "12.01"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50.0",
+                      "spread": "11.80"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Germany",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BMI",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kg/m2",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25.04",
+                      "spread": "4.11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25.69",
+                      "spread": "4.47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25.37",
+                      "spread": "4.24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Type of incontinence",
+          "populationDescription": "Proportion of participants with either stress, urge and mixed incontinence.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Stress incontinence",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "121"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Urge incontinence",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Mixed incontinence",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Duration of incontinence",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "year",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5.31",
+                      "spread": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5.21",
+                      "spread": "5.55"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5.26",
+                      "spread": "5.76"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Number of incontinence episodes per 24h",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "episodes",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3.71",
+                      "spread": "2.32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3.57",
+                      "spread": "2.09"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3.64",
+                      "spread": "2.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Country of birth",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "96"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "194"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Germany",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "82"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "88"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "170"
+                    }
+                  ]
+                },
+                {
+                  "title": "Russian Federation",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "United Kingdom",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Kyrgyzstan",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Others",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Incontinence Episodes",
+          "description": "Relative change (rel-CfB-IEF) of IEF from baseline to week 12 relative to baseline; desired reduction in mean relative IEF by 50%; IEF per 24 hours - averaged over 72 hours.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "number of incontinencies",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.25",
+                      "spread": "2.26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.14",
+                      "spread": "1.45"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "International Consultation on Incontinence Questionnaire - Short Form (ICIQ-SF)",
+          "description": "ICIQ-SF assess the frequency and severity of urinary incontinence and its impact on the quality of life of those affected.\n\nScore range: 0 - 21 points, with higher values representing a worse outcome. Outcome measure: change in ICIQ-SF from baseline to week 12.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.94",
+                      "lowerLimit": "-12",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.27",
+                      "lowerLimit": "-7",
+                      "upperLimit": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Incontinence Quality-of-Life (I-QOL)",
+          "description": "I-QoL assesses the impact of urinary incontinence on quality of life. Scale score ranging from 0-100. Higher scores on the I-QOL indicate a better quality of life, while lower scores indicate greater impairment due to urinary incontinence.\n\nOutcome measure: change in I-QoL from baseline to week 12.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.9",
+                      "lowerLimit": "-24",
+                      "upperLimit": "65"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.16",
+                      "lowerLimit": "-30",
+                      "upperLimit": "27"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Patient Activation Measure-13 (PAM-13)",
+          "description": "The PAM-13 assesses patients' self-competence and knowledge about their own health.\n\nThe range is from 0 to 100 points, with higher scores for a higher level of activation.\n\nOutcome Measure: Change in PAM-13 score from baseline to week 12.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.35",
+                      "lowerLimit": "-73",
+                      "upperLimit": "58"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.51",
+                      "lowerLimit": "-14",
+                      "upperLimit": "43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Patient Global Impression of Improvement (PGI-I)",
+          "description": "The PGI-I is a subjective assessment of the improvement in state of health or symptoms. It consists of a single question that asks patients to give their own assessment of the improvement in their state of health.\n\nScale: from \"much better\" to \"much worse\". Outcome measure: Count of participants who had an improvement (\"minimally better\" or higher) in PGI-I value at week 12.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "92"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "94"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cured Patients",
+          "description": "Proportion of patients without incontinence (cured patients) at study end",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Urinary Frequency Day",
+          "description": "Change in urinary frequency during the day from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "populationDescription": "Data was available only for intervention group users who utilized this feature, leaving the control group without corresponding data. Entry was optional for the participants using the app. Therefore, there is a lower number of participant for this analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "urination events per day",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "66"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.51",
+                      "spread": "2.28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Urinary Frequency Night",
+          "description": "Change in urinary frequency at night from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "populationDescription": "Data was available only for intervention group users who utilized this feature, leaving the control group without corresponding data. Entry was optional for the participants using the app. Therefore, there is a lower number of participant for this analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "urination events per night",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention Group",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "39"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.29",
+                      "spread": "0.62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pad Use",
+          "description": "Change in pad use from baseline to week 12",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "pads",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.63",
+                      "spread": "4.37"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.15",
+                      "spread": "3.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Urge Incontinence",
+          "description": "Change in urge incontinence from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "populationDescription": "Data was available only for intervention group users who utilized this feature, leaving the control group without corresponding data. Entry was optional for the participants using the app. Therefore, there is a lower number of participant for this analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "episodes",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.84",
+                      "spread": "1.82"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Functional Bladder Capacity",
+          "description": "Change in functional bladder capacity from baseline to week 12. The outcome measure was assessed via the optional app diary, so data was available only for intervention group users who utilized this feature.",
+          "populationDescription": "Data was available only for intervention group users who utilized this feature, leaving the control group without corresponding data. Entry was optional for the participants using the app. Therefore, there is a lower number of participant for this analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "ml",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "66"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "48.28",
+                      "spread": "57.48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Treatment Failure",
+          "description": "Proportion of patients with treatment failure within the study period, defined as any reported worsening in the PGI-I questionnaire at the end of the study or the start of any interventions against the incontinence symptoms (conservative and invasive methods).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care."
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Stress Urinary Incontinence Episodes of the S/U-IQ",
+          "description": "Change in stress urinary incontinence episodes of the S/U-IQ",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "episodes",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-10.14",
+                      "spread": "14.69"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.59",
+                      "spread": "12.94"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Urgency Urinary Incontinence Episodes of the S/U-IQ",
+          "description": "Change in urgency urinary incontinence episodes of the S/U-IQ",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "eisodes",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Intervention",
+              "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care"
+            },
+            {
+              "id": "OG001",
+              "title": "Control",
+              "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "96"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "98"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.53",
+                      "spread": "11.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.67",
+                      "spread": "7.89"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "For an average of 3 months.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Intervention",
+          "description": "Intervention through a digital therapy program aimed at multimodal self-treatment for incontinence in addition to standard of care",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 96,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 96,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 96
+        },
+        {
+          "id": "EG001",
+          "title": "Control",
+          "description": "Participants will continue with their therapy treatment (standard of care) if they are on it for more that four weeks before inclusion. Beginning of new therapies during the study is not allowed.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 98,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 98,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 98
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Director of Clinical Trials",
+        "organization": "Kranus Health GmbH",
+        "email": "medical@kranushealth.com",
+        "phone": "+491756939818"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-11-14",
+          "uploadDate": "2025-04-17T09:22",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 472527
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014550",
+          "term": "Urinary Incontinence, Stress"
+        },
+        {
+          "id": "D053202",
+          "term": "Urinary Incontinence, Urge"
+        },
+        {
+          "id": "D014549",
+          "term": "Urinary Incontinence"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014555",
+          "term": "Urination Disorders"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D059411",
+          "term": "Lower Urinary Tract Symptoms"
+        },
+        {
+          "id": "D020924",
+          "term": "Urological Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

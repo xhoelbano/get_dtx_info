@@ -1,0 +1,331 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07005921",
+      "orgStudyIdInfo": {
+        "id": "7.593.695"
+      },
+      "organization": {
+        "fullName": "Santos Dumont Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Attention, Memory and Quality of Life in Post-COVID-19 Adults",
+      "officialTitle": "Attention, Memory, Self-reflection and Insight, and Quality of Life in Post-COVID-19 Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-03",
+      "studyFirstSubmitQcDate": "2025-06-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Jade Carvalho Da Silva",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Santos Dumont Institute"
+      },
+      "leadSponsor": {
+        "name": "Jade Carvalho Da Silva",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Santos Dumont Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The pandemic has highlighted social, economic, educational, and political issues that have affected the health and quality of life of millions of Brazilians. Currently, attention and memory impairment remains predominant among the cognitive symptoms of Coronavirus observed in adults. The persistance of the reffered impairment after 12 weeks of COVID-19 is known as cognitive impairment in post-COVID-19 syndrome. Despite studies indicating the negative effects of COVID-19 on attention and memory, there is a gap in the literature regarding its effects on self-reflection and insight. Previous studies highlight the role of self-awareness as an essential cognitive process that aids the criation of a resolution for the social consequences of the ongoing pandemic. Thus, understanding the relationship between self-reflection, insight, memory, and quality of life in adults that presented COVID-19 could reveal how memory loss might affect the ability to evaluate and understand one's own behaviors and quality of life. Moreover, this study could provide a background for future interventions to enhance attention, memory, self-reflection, and insight in this population. In this context, quantitative electroencephalogram neurofeedback training (EEGq-NFT) is a promising non-invasive intervention designed to improve cognition, such as attention and working memory. By modifying electrophysiological patterns in the cerebral cortex. Considering the information presented, the question is what is the relationship between cognitive failures, self-reflection and insight, and quality of life in adults who had COVID-19, and what is the efficacy of EEGq-NFT training in rehabilitating attention and working memory in adults with cognitive impairment due to post-COVID-19 syndrome. This study aims to examine the relationship between cognitive failures, self-reflection, insight, and quality of life in adults post-COVID-19, as well as to assess the efficacy of EEGq-NFT in improving attention and working memory in adults with cognitive impairment due to post-COVID-19 syndrome. Method 1 will employ a survey with cross-sectional design and quantitative data analysis. A total of 385 adults will be recruted. Data will be collected through online forms. Cognitive Failures Questionnaire, Self-Reflection and Insight Scale and WHOQOL-bref scale will be used. In Method 2, a quasi-experimental with quantitative data analysis will be employed. A total of 60 participants will be randomly assigned to an EEGq neurofeedback training group (n = 20), an active control group called SHAM EEGq-neurofeedback (n = 20), and a waiting list control group (n = 20). The theta/beta ratio reduction protocol at Cz will be used, with 10 sessions of 30 minutes each. The Psychological Battery of Attention 2 (BPA-2) and Digit Span Test will be employed to measure attention and working memory levels. Statistical analyses will be performed using IBM SPSS version 25 with statistical significance set at p \\< 0.05 for a 95% confidence interval. The research follows all ethical standards for studies involving human subjects and was submitted for review and approval at the Research Ethics Committee. A understanding of memory levels, self-reflection, insight, and quality of life in adults post- COVID-19 is expected as a result of the present study. Additionally, this study expects that EEGq-NFT will be effective in reducing the theta/beta ratio, as well as improving attention and working memory in adults with cognitive impairment in post-COVID-19 syndrome."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post-Acute COVID-19 Syndrome",
+        "Long COVID",
+        "Brain Fog"
+      ],
+      "keywords": [
+        "Attention",
+        "Memory",
+        "Self-awareness",
+        "COVID-19",
+        "COVID-19 syndrome",
+        "long COVID",
+        "post-COVID-19",
+        "Quality of life",
+        "Brain Fog"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "qEEG-neurofeedback",
+          "type": "EXPERIMENTAL",
+          "description": "The participants will be submitted to a qEEG-neurofeedback intervention in order to verifify its feasibility to enhance cognition. The theta/beta ratio reduction protocol at electrodes Fp1, Fp2, Fz, F3, F4, Cz, C3, C4 will be performed, with 10 sessions of qEEG-neurofeedback training, 2 sessions for pre and post test, and 1 session for follow-up after 30 days of intervention. Each session will last approximately 1 hour. The Psychological Battery of Attention 2 (BPA-2) and Digit Span Test will be employed to measure attention and working memory levels. The Montreal Cognitive Assessment (Moca) will be used for neurological and cognitive assessment.",
+          "interventionNames": [
+            "Behavioral: qEEG-neurofeedback"
+          ]
+        },
+        {
+          "label": "SHAM qEEG-neurofeedback",
+          "type": "SHAM_COMPARATOR",
+          "interventionNames": [
+            "Behavioral: SHAM qEEG-neurofeedback"
+          ]
+        },
+        {
+          "label": "wait list control group",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "qEEG-neurofeedback",
+          "description": "The participants will be submitted to a qEEG-neurofeedback intervention in order to verifify its feasibility to enhance cognition. The theta/beta ratio reduction protocol at electrodes Fp1, Fp2, Fz, F3, F4, Cz, C3, C4 will be performed, with 10 sessions of qEEG-neurofeedback training, 2 sessions for pre and post test, and 1 session for follow-up after 30 days of intervention. Each session will last approximately 1 hour. The Psychological Battery of Attention 2 (BPA-2) and Digit Span Test will be employed to measure attention and working memory levels. The Montreal Cognitive Assessment (Moca) will be used for neurological and cognitive assessment. Participants will receive feedback based on their theta/beta ratio in the frontal and central cortical areas (electrodes Fp1, Fp2, Fz, F3, F4, Cz, C3, C4).",
+          "armGroupLabels": [
+            "qEEG-neurofeedback"
+          ],
+          "otherNames": [
+            "Experimental Group",
+            "Group 1"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "SHAM qEEG-neurofeedback",
+          "description": "The participant will be submitted to an inactive qEEG-neurofeedback that appears to be the same as a functional procedure or device. Participants will not receive feedback based on their theta/beta ratio in the frontal and central cortical areas (electrodes Fp1, Fp2, Fz, F3, F4, Cz, C3, C4).",
+          "armGroupLabels": [
+            "SHAM qEEG-neurofeedback"
+          ],
+          "otherNames": [
+            "SHAM",
+            "Group 2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in the Mean of Psychological Battery of Attention 2 (BPA-2), Digit Span Test, and Five Digit Test at 5 weeks",
+          "description": "Psychological Battery for Attention Assessment 2 (BPA-2) evaluates overall attention capacity, which is a somatory of specific types of attention, namely, concentrated attention (CA), divided attention (DA) and alternating attention (AA). Digit Span Test (DST) assesses auditory memory and working memory (in direct and reverse order). It consists on sequences of digits, which increase in length, ranging from two to nine items in sequence that must be repeated. The Five Digit Test measures Executive Functions. It involves routines of reading and number counting, with four tasks: reading digits from 1 to 5; counting quantities from 1 to 5; the ability to ignore an automatic processing routine (digit reading) in favor of a controlled one (digit counting) in incongruent stimuli; and the ability to alternate between reading and counting processes. Participants will achieve a response if they score a performance status of to 3 on a classification ranging from 1 (inferior) to 5 (superior).",
+          "timeFrame": "From baseline to the end of treatment at 5 weeks. Finally, at follow-up 30 days post treatment."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "The inclusion criteria - 1) Be over 18 years old and under 60 years old, 2) Authorize participation in the study through the informed consent form.\n\nThe exclusion criteria - 1) Be under 18 years old and over 60 years old; 2) Discontinue participation in the study, 3) Use psychoactive substances that affect attention and memory, 4) Present physical or cognitive repercussions resulting from other diagnoses prior to or subsequent to COVID-19, 5) Present a history of attention and memory impairment prior to the diagnosis of COVID-19.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "JADE DA SILVA, Master's degree",
+          "role": "CONTACT",
+          "phone": "+55(27)99613-0197",
+          "email": "jadecarvalhos@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Santos Dumont Institute",
+          "city": "Macaíba",
+          "state": "Rio Grande do Norte",
+          "zip": "59.288-899",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Denis Delisle Rodriguez Rodriguez, Phd",
+              "role": "CONTACT",
+              "phone": "+55(27)99969-3552",
+              "email": "delisle05@gmail.com"
+            },
+            {
+              "name": "Jade Carvalho da Silva, master's",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -5.85833,
+            "lon": -35.35389
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000094024",
+          "term": "Post-Acute COVID-19 Syndrome"
+        },
+        {
+          "id": "D005222",
+          "term": "Mental Fatigue"
+        },
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D000094025",
+          "term": "Post-Infectious Disorders"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D005221",
+          "term": "Fatigue"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C005703",
+          "term": "salicylhydroxamic acid"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

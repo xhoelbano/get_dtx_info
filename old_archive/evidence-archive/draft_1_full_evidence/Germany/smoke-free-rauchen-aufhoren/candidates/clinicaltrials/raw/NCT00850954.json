@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00850954",
+      "orgStudyIdInfo": {
+        "id": "2006-0440"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2019-02502",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "2006-0440",
+          "type": "OTHER",
+          "domain": "M D Anderson Cancer Center"
+        },
+        {
+          "id": "P30CA016672",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30CA016672"
+        }
+      ],
+      "organization": {
+        "fullName": "M.D. Anderson Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Project CASA in Promoting Smoke-Free Indoor Air Policy in Mexican American Households",
+      "officialTitle": "Project CASA: Promoting Smoke-Free Indoor Air Policy in Mexican American Households"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2006-08-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-08-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-08-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-02-24",
+      "studyFirstSubmitQcDate": "2009-02-24",
+      "studyFirstPostDateStruct": {
+        "date": "2009-02-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2023-09-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "M.D. Anderson Cancer Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial studies the effect of an intervention program, Project CASA, on smoking cessation and reducing secondhand smoke exposure in Mexican American households. Project CASA, comprising pamphlets and fotonovelas (illustrated storybooks), may provide valuable information to participants on how to improve the air quality in their homes.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Reduction in secondhand smoke exposure: The study will distinguish if a tailored intervention designed to address the needs of the target group will reduce objectively and subjectively measured secondhand smoke exposure of nonsmokers in Mexican American (MA) households.\n\nIa. Develop tailored fotonovelas for intervention implementation. II. Smoking cessation: The study will identify if a tailored intervention designed to address the needs of the target group will help the primary smokers in the household quit smoking.\n\nIII. Stages of change: The study will identify if the proposed intervention will have a significant impact on the primary smoker(s) progression through the stages of smoking cessation.\n\nIV. Knowledge and attitudes: The study will identify if the proposed intervention will result in better knowledge and changed attitudes towards secondhand smoke exposure among members of MA households (smokers and nonsmokers) compared to standard care.\n\nV. Perceived health: The study will distinguish whether reduced exposure to secondhand smoke would improve perceived health.\n\nOUTLINE: Participants are assigned to 1 of 2 groups based on smoking status.\n\nGROUP I (SMOKERS): Participants receive smoking cessation intervention materials based on transtheoretical model of change (TTM).\n\nGROUP II (NON-SMOKERS): Participants receive fotonovelas and other materials on secondhand smoking and how to assist the smoker in quitting.\n\nParticipants are followed up at 6 and 12 months to assess for home air quality."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cigarette Smoker",
+        "Current Smoker",
+        "Currently Living With Smoker"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 168,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group I (smoking cessation)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive smoking cessation intervention materials based on TTM.",
+          "interventionNames": [
+            "Behavioral: Smoking Cessation Intervention",
+            "Other: Survey Administration"
+          ]
+        },
+        {
+          "label": "Group II (informational)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive fotonovelas and other materials on secondhand smoking and how to assist the smoker in quitting.",
+          "interventionNames": [
+            "Other: Informational Intervention",
+            "Other: Survey Administration"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Informational Intervention",
+          "description": "Receive information on secondhand smoke and supporting smoker in quitting",
+          "armGroupLabels": [
+            "Group II (informational)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoking Cessation Intervention",
+          "description": "Receive smoking cessation materials based on TTM",
+          "armGroupLabels": [
+            "Group I (smoking cessation)"
+          ],
+          "otherNames": [
+            "Smoking and Tobacco Use Cessation Interventions"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Survey Administration",
+          "description": "Ancillary studies",
+          "armGroupLabels": [
+            "Group I (smoking cessation)",
+            "Group II (informational)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Level of nicotine measured at 6 month post intervention",
+          "description": "Method of analysis is a pre-post test analysis of covariance, ANCOVA, using a linear regression model (PROC REG in SAS). In this analysis, the prevalence of nicotine levels at the 6-month follow-up compared between conditions while controlling for baseline nicotine levels. Second hand smoke (SHS) exposure based on objective monitoring of SHS in each household (in the kitchen and TV room) over a 7-day period. A small, lightweight (16 gram) passive nicotine monitor used to measure exposure to nicotine.",
+          "timeFrame": "6 months after treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Live in the targeted Mexican American neighborhoods.\n* Can read Fotonovelas in English and Spanish.\n* Access to telephone.\n* Smoker in household (adult \\[18+\\] person living in the household who smokes INSIDE at least one cigarette a week).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Alexander V Prokhorov",
+          "affiliation": "M.D. Anderson Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "M D Anderson Cancer Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "University of Texas MD Anderson Cancer Center Website",
+          "url": "http://www.mdanderson.org"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000074602",
+          "term": "Smoking Devices"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008420",
+          "term": "Manufactured Materials"
+        },
+        {
+          "id": "D013676",
+          "term": "Technology, Industry, and Agriculture"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

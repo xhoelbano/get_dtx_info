@@ -1,0 +1,366 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05310474",
+      "orgStudyIdInfo": {
+        "id": "Rehab360 Knee Glider"
+      },
+      "organization": {
+        "fullName": "Force Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Does an Active Range of Motion Monitor Improve Outcomes/Decrease Cost for Patients Undergoing Total Knee Arthroplasty?",
+      "officialTitle": "Does an Active Range of Motion Monitor Improve Outcomes and Decrease Cost for Patients Undergoing Total Knee Arthroplasty?"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-04-30",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-14",
+      "studyFirstSubmitQcDate": "2022-03-25",
+      "studyFirstPostDateStruct": {
+        "date": "2022-04-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Force Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "OSI Orthopedics and Sports Medicine",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Rehab 360 Knee Glider",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to study the efficacy of a remote range of motion monitor, the Knee Glider, alongside a patient engagement platform, Force Therapeutics, on clinical improvements and cost following primary TKA.",
+      "detailedDescription": "The purpose of this study is to study the efficacy of a remote range of motion monitor, the Knee Glider, alongside a patient engagement platform, Force Therapeutics, on clinical improvements and cost following primary TKA. Patients will be given the opportunity to participate, and enrolled and consented participants will be treated and followed by physicians from OSI Orthopedic \\& Sports Medicine. Upon consent, patients will be randomized to receive the active range of motion monitor (the knee glider) two weeks prior to surgery, near day of surgery to use postoperatively, or standard of care (no knee glider). All patients enrolled in the study will have access to Force Therapeutics, patient engagement and outcome collection system utilized by OSI Orthopedic \\& Sports Medicine. Enrolled subjects will be followed from the time of consent, through 6 months following surgery. Patients who are randomized into groups receiving the knee glider will receive the knee glider for up to 4 weeks following surgery, and compliance will be monitored. The hypothesis of this study is that patients who utilize an active range of motion monitor (the knee glider) will have improved clinical outcomes over patients receiving standard of care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Total Knee Arthroplasty (TKA)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This study includes 3 arms.",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group C",
+          "type": "NO_INTERVENTION",
+          "description": "Upon consent, patients will be randomized to receive standard of care, and not be given the active range of motion monitor (the knee glider) two weeks prior to surgery. All patients enrolled in the study will have access to Force Therapeutics, patient engagement and outcome collection system utilized by OSI Orthopedic \\& Sports Medicine."
+        },
+        {
+          "label": "Group B",
+          "type": "EXPERIMENTAL",
+          "description": "Upon consent, patients will be randomized to receive the active range of motion monitor (the knee glider) close to surgery to use postoperatively (through week 4). All patients enrolled in the study will have access to Force Therapeutics, patient engagement and outcome collection system utilized by OSI Orthopedic \\& Sports Medicine.",
+          "interventionNames": [
+            "Device: Knee Glider"
+          ]
+        },
+        {
+          "label": "Group A",
+          "type": "EXPERIMENTAL",
+          "description": "Upon consent, patients will be randomized to receive the active range of motion monitor (the knee glider) Receives Knee Glider 2 weeks prior to surgery to utilize through postoperative week 4. All patients enrolled in the study will have access to Force Therapeutics, patient engagement and outcome collection system utilized by OSI Orthopedic \\& Sports Medicine.",
+          "interventionNames": [
+            "Device: Knee Glider"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Knee Glider",
+          "description": "The purpose of this study is to study the efficacy of a remote range of motion monitor, the Knee Glider, alongside a patient engagement platform, Force Therapeutics, on clinical improvements and cost following primary TKA.",
+          "armGroupLabels": [
+            "Group A",
+            "Group B"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Baseline Patient Characteristics",
+          "description": "Intended to collect patient demographics, contact information, birth date, surgery date, age and other baseline demographic variables.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Knee Injury and Osteoarthritis Outcome Score (KOOS Jr.)",
+          "description": "Intended to elicit people's opinions about the difficulties they experience due to problems with their knee and covers aspects of pain, functional limitations and knee-related quality of life.\n\nKOOS, JR is scored by summing the raw response (range 0-28) and then converting it to an interval score using the table provided below. The interval score ranges from 0 to 100 where 0 represents total knee disability and 100 represents perfect knee health.",
+          "timeFrame": "Baseline, 2 Weeks Post Op, 6 Weeks Post Op, 12 Weeks Post Op, 6 Months Post Op,"
+        },
+        {
+          "measure": "Knee Injury and Osteoarthritis Outcome Score (KOOS Jr.)",
+          "description": "Intended to elicit people's opinions about the difficulties they experience due to problems with their knee and covers aspects of pain, functional limitations and knee-related quality of life.\n\nKOOS, JR is scored by summing the raw response (range 0-28) and then converting it to an interval score using the table provided below. The interval score ranges from 0 to 100 where 0 represents total knee disability and 100 represents perfect knee health.",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Knee Injury and Osteoarthritis Outcome Score (KOOS Jr.)",
+          "description": "Intended to elicit people's opinions about the difficulties they experience due to problems with their knee and covers aspects of pain, functional limitations and knee-related quality of life.\n\nKOOS, JR is scored by summing the raw response (range 0-28) and then converting it to an interval score using the table provided below. The interval score ranges from 0 to 100 where 0 represents total knee disability and 100 represents perfect knee health.",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Knee Injury and Osteoarthritis Outcome Score (KOOS Jr.)",
+          "description": "Intended to elicit people's opinions about the difficulties they experience due to problems with their knee and covers aspects of pain, functional limitations and knee-related quality of life.\n\nKOOS, JR is scored by summing the raw response (range 0-28) and then converting it to an interval score using the table provided below. The interval score ranges from 0 to 100 where 0 represents total knee disability and 100 represents perfect knee health.",
+          "timeFrame": "6 Months Post Op"
+        },
+        {
+          "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)",
+          "description": "1. The WOMAC is a disease-specific tool used for people with hip or knee OA to measure physical function, pain, and stiffness in the past 48 hours.\n2. The WOMAC is a self-administered instrument containing 24 items measuring 3 subscales: physical function (17 items), pain (5 items), and stiffness (2 items).\n3. Scores can be calculated for each subscale and a total score is calculated by adding all 3 subscale scores. Higher points signify higher levels of functional difficulty.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)",
+          "description": "1. The WOMAC is a disease-specific tool used for people with hip or knee OA to measure physical function, pain, and stiffness in the past 48 hours.\n2. The WOMAC is a self-administered instrument containing 24 items measuring 3 subscales: physical function (17 items), pain (5 items), and stiffness (2 items).\n3. Scores can be calculated for each subscale and a total score is calculated by adding all 3 subscale scores. Higher points signify higher levels of functional difficulty.",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)",
+          "description": "1. The WOMAC is a disease-specific tool used for people with hip or knee OA to measure physical function, pain, and stiffness in the past 48 hours.\n2. The WOMAC is a self-administered instrument containing 24 items measuring 3 subscales: physical function (17 items), pain (5 items), and stiffness (2 items).\n3. Scores can be calculated for each subscale and a total score is calculated by adding all 3 subscale scores. Higher points signify higher levels of functional difficulty.",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)",
+          "description": "1. The WOMAC is a disease-specific tool used for people with hip or knee OA to measure physical function, pain, and stiffness in the past 48 hours.\n2. The WOMAC is a self-administered instrument containing 24 items measuring 3 subscales: physical function (17 items), pain (5 items), and stiffness (2 items).\n3. Scores can be calculated for each subscale and a total score is calculated by adding all 3 subscale scores. Higher points signify higher levels of functional difficulty.",
+          "timeFrame": "6 Months Post Op"
+        },
+        {
+          "measure": "Veterans RAND 12 (VR-12)",
+          "description": "a. The Veterans RAND 12 Item Health Survey (VR-12) is a patient-reported global health measure that is used to assess a patient's overall perspective of their health.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Veterans RAND 12 (VR-12)",
+          "description": "The Veterans RAND 12 Item Health Survey (VR-12) is a patient-reported global health measure that is used to assess a patient's overall perspective of their health.",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Veterans RAND 12 (VR-12)",
+          "description": "The Veterans RAND 12 Item Health Survey (VR-12) is a patient-reported global health measure that is used to assess a patient's overall perspective of their health.",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Veterans RAND 12 (VR-12)",
+          "description": "The Veterans RAND 12 Item Health Survey (VR-12) is a patient-reported global health measure that is used to assess a patient's overall perspective of their health.",
+          "timeFrame": "6 Months Post Op"
+        },
+        {
+          "measure": "Force Patient Engagement",
+          "description": "Engagement on the patient engagement platform including logins, exercise videos watched and patient recorded outcome measures (PROM) compliance during platform access",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Force Patient Engagement",
+          "description": "Engagement on the patient engagement platform including logins, exercise videos watched and patient recorded outcome measures (PROM) compliance during platform access",
+          "timeFrame": "2 Weeks Post Op"
+        },
+        {
+          "measure": "Force Patient Engagement",
+          "description": "Engagement on the patient engagement platform including logins, exercise videos watched and patient recorded outcome measures (PROM) compliance during platform access",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Force Patient Engagement",
+          "description": "Engagement on the patient engagement platform including logins, exercise videos watched and patient recorded outcome measures (PROM) compliance during platform access",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Force Patient Engagement",
+          "description": "Engagement on the patient engagement platform including logins, exercise videos watched and patient recorded outcome measures (PROM) compliance during platform access",
+          "timeFrame": "6 Months Post Op"
+        },
+        {
+          "measure": "Range of Motion via the Knee Glider",
+          "description": "Daily Knee Flexion and Extension for the duration of utilizing the knee glider",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Range of Motion via the Knee Glider",
+          "description": "Daily Knee Flexion and Extension for the duration of utilizing the knee glider",
+          "timeFrame": "2 Weeks Post Op"
+        },
+        {
+          "measure": "Range of Motion via the Knee Glider",
+          "description": "Daily Knee Flexion and Extension for the duration of utilizing the knee glider",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Range of Motion via the Knee Glider",
+          "description": "Daily Knee Flexion and Extension for the duration of utilizing the knee glider",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Range of Motion (Exam / Patient Reported)",
+          "description": "a. Knee Flexion and Extension via in clinic exam or patient reported via the Force Therapeutics Platform",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Range of Motion (Exam / Patient Reported)",
+          "description": "a. Knee Flexion and Extension via in clinic exam or patient reported via the Force Therapeutics Platform (0 to 110 degrees)",
+          "timeFrame": "2 Weeks Post Op"
+        },
+        {
+          "measure": "Range of Motion (Exam / Patient Reported)",
+          "description": "a. Knee Flexion and Extension via in clinic exam or patient reported via the Force Therapeutics Platform (0 to 110 degrees)",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Range of Motion (Exam / Patient Reported)",
+          "description": "a. Knee Flexion and Extension via in clinic exam or patient reported via the Force Therapeutics Platform (0 to 110 degrees)",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Daily NRS Pain (Continuous)",
+          "description": "The NPRS is a segmented numeric version of the visual analog scale (VAS) in which a respondent selects a whole number (0-10 integers) that best reflects the intensity of his/her pain",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Daily NRS Pain (Continuous)",
+          "description": "The NPRS is a segmented numeric version of the visual analog scale (VAS) in which a respondent selects a whole number (0-10 integers) that best reflects the intensity of his/her pain",
+          "timeFrame": "2 Weeks"
+        },
+        {
+          "measure": "Daily NRS Pain (Continuous)",
+          "description": "The NPRS is a segmented numeric version of the visual analog scale (VAS) in which a respondent selects a whole number (0-10 integers) that best reflects the intensity of his/her pain",
+          "timeFrame": "6 Weeks"
+        },
+        {
+          "measure": "Daily NRS Pain (Continuous)",
+          "description": "The NPRS is a segmented numeric version of the visual analog scale (VAS) in which a respondent selects a whole number (0-10 integers) that best reflects the intensity of his/her pain",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "measure": "Discharge Services Utilization & Cost",
+          "description": "The Discharge Services Utilization \\& Cost survey is intended collect patient discharge information. The survey consists of 16 questions asking about where they went for physical therapy, how much it costs, and if any adverse events resulted in admission to an Emergency Room or Urgent Care.",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Discharge Services Utilization & Cost",
+          "description": "The Discharge Services Utilization \\& Cost survey is intended collect patient discharge information. The survey consists of 16 questions asking about where they went for physical therapy, how much it costs, and if any adverse events resulted in admission to an Emergency Room or Urgent Care.",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Knee Glider Satisfaction",
+          "description": "The Knee Glider Satisfaction questionnaire is a 4 question survey asking about patient experience using the glider.",
+          "timeFrame": "2 Weeks Post Op"
+        },
+        {
+          "measure": "Knee Glider Satisfaction",
+          "description": "The Knee Glider Satisfaction questionnaire is a 4 question survey asking about patient experience using the glider.",
+          "timeFrame": "6 Weeks Post Op"
+        },
+        {
+          "measure": "Knee Glider Satisfaction",
+          "description": "The Knee Glider Satisfaction questionnaire is a 4 question survey asking about patient experience using the glider.",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Total Joint Replacement (TJR) Satisfaction",
+          "description": "The TJR Satisfaction survey intends to understand patient experience and satisfaction results with their total joint replacement procedure.",
+          "timeFrame": "12 Weeks Post Op"
+        },
+        {
+          "measure": "Total Joint Replacement (TJR) Satisfaction",
+          "description": "The TJR Satisfaction survey intends to understand patient experience and satisfaction results with their total joint replacement procedure.",
+          "timeFrame": "6 Months Post Op"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Individuals who have undergone Total Knee Arthroplasty (TKA) and have agreed to participate in this study.\n\nExclusion Criteria:\n\n* Individuals who have not undergone TKA.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Joyce Harary, BA",
+          "role": "CONTACT",
+          "phone": "6463319165",
+          "email": "joyce@forcetherapeutics.com"
+        },
+        {
+          "name": "Ben Koerner, DO, MBA",
+          "role": "CONTACT",
+          "phone": "(316)648-5158",
+          "email": "benkoerner5@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Alan Cornett, DO",
+          "affiliation": "OSI Orthopedic Sports Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

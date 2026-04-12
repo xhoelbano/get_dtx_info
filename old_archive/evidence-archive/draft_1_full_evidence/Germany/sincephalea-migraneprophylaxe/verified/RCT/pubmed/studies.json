@@ -1,0 +1,74 @@
+{
+  "studies": [
+    {
+      "study_id": "36510284",
+      "pmid": "36510284",
+      "title": "Efficacy of the Digital Therapeutic sinCephalea in the prophylaxis of migraine in patients with episodic migraine: study protocol for a digital, randomized, open-label, standard treatment controlled trial.",
+      "authors": "Schröder Torsten et al.",
+      "authors_list": [
+        "Schröder Torsten",
+        "Brudermann Hanna C B",
+        "Kühn Gianna",
+        "Sina Christian",
+        "Thaçi Diamant"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Dec-12",
+      "journal": "Trials",
+      "journal_abbrev": "Trials",
+      "doi": "10.1186/s13063-022-06933-2",
+      "abstract": "BACKGROUND: The German government implemented the Digital Healthcare Act in order to bring Digital Therapeutics into standard medical care. This is one of the first regulatory pathways to reimbursement for Digital Therapeutics (DTx). The Digital Therapeutic sinCephalea is intended to act as a prophylactic treatment of migraine by reducing the migraine days. For this, sinCephalea determines personalized nutritional recommendations using continuous glucose monitoring (CGM) data and enables the patients to follow a personalized low-glycemic nutrition. Migraine is a headache disorder with the highest socioeconomic burden. Emerging evidence shows that CGM-based personalized nutritional recommendations are of prophylactic use in episodic migraine. However, prospective data are yet missing to demonstrate clinical effectiveness. This study is designed to fill this gap. METHODS: Patients between 18 and 65 years of age with proven migraine and a minimal disease severity of 3 migraine days per month are included. After a 4-week baseline phase as a pre-study, patients are randomized to the DTx intervention or a waiting-list control. The objective of the study is to show differences between the intervention and control groups regarding the change of migraine symptoms and of effects of migraine on daily life. DISCUSSION: To our knowledge, this is the first systematic clinical trial with a fully digital program to enable patients with migraine to follow a personalized low-glycemic nutrition in order to reduce their number of migraine days and the migraine-induced impact on daily life. Designing a clinical study using a digital intervention includes some obstacles, which are addressed in this study approach. TRIAL REGISTRATION: German Registry of Clinical Studies (Deutsches Register Klinischer Studien) DRKS-ID DRKS00024657. Registered on March 8, 2021.",
+      "publication_types": [
+        "Clinical Trial Protocol",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Infant, Newborn",
+        "Prospective Studies",
+        "Blood Glucose Self-Monitoring",
+        "Blood Glucose",
+        "Migraine Disorders",
+        "Treatment Outcome",
+        "Randomized Controlled Trials as Topic"
+      ],
+      "keywords": [
+        "DTx",
+        "Decentralized study",
+        "Digital nutrition program",
+        "Digital therapeutic",
+        "Migraine prophylaxis",
+        "RCT",
+        "Randomized controlled trial",
+        "Study protocol",
+        "sinCephalea"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36510284/",
+      "pdf_available": false,
+      "_matched_query": "\"sinCephalea\"",
+      "_raw_xml_path": "evidence/Germany/sincephalea-migraneprophylaxe/candidates/pubmed/raw/36510284.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions the digital therapeutic 'sinCephalea' by name in both the title and abstract, and describes its functionality and intervention approach, which matches the provided product description. The study is clearly focused on this specific DTx product.",
+        "matched_elements": [
+          "sinCephalea",
+          "title",
+          "abstract",
+          "description of intervention"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 1 RWE indicators"
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T22:06:06.667560Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

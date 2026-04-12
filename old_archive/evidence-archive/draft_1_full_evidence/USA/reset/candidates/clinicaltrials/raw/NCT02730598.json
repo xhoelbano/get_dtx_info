@@ -1,0 +1,1819 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02730598",
+      "orgStudyIdInfo": {
+        "id": "STUDY00003435"
+      },
+      "organization": {
+        "fullName": "University of Kansas Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Combined Application of Electrical Stimulated Antagonist Contraction During Walking (Walking Study)",
+      "officialTitle": "Determining Efficacy of the Combined Application of Electrical Stimulated Antagonist Contraction During Walking With Sensory TENS for Increasing Strength and Decreasing Pain in Women With Frequent Knee Symptoms"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-01-20",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-01-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-04-01",
+      "studyFirstSubmitQcDate": "2016-04-01",
+      "studyFirstPostDateStruct": {
+        "date": "2016-04-06",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-03-28",
+      "resultsFirstSubmitQcDate": "2018-06-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-06-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-06-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Neil Segal, MD, MS",
+        "investigatorTitle": "Professor and Faculty Physiatrist",
+        "investigatorAffiliation": "University of Kansas Medical Center"
+      },
+      "leadSponsor": {
+        "name": "University of Kansas Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Kurume University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Osteoarthritis of the knee (KOA) is the most common cause of disability in older adults. Osteoarthritis involves a loss of cartilage, which acts like a cushion between the bones as well as changes in the bones of joints. Once the joint cartilage is gone, the body does not produce new cartilage. Joint damage can contribute to pain. Currently, treatment for pain associated with knee osteoarthritis includes exercise. However, exercise at a medium- to high-intensity level can be problematic for people with knee pain. Because exercise is a common treatment for knee pain but many people experience pain during exercise, researchers hope to find a safer and more effective exercise method to strengthen the muscles around the knee.\n\nBoth aerobic exercise and resistance exercise are recommended for the treatment of people with knee pain. However, pain can be a barrier to participating in exercise at a moderate or vigorous intensity. Electrical stimulation of muscles holds potential to allow effective exercise to be completed at tolerable intensities. Transcutaneous electrical nerve stimulation (TENS) is the use of very low electric currents produced by a device to stimulate the nerves, to treat pain. Neuromuscular electrical stimulation (NMES) uses low electrical current to cause muscles to contract.\n\nBy doing this study, the investigators hope to learn if a hybrid training system (HTS), using a combination of NMES and walking, is effective in strengthening muscles in people with knee pain, aching or stiffness.\n\nIn this pilot study, the investigators will use walking with TENS as conventional exercise.\n\nRandomized controlled trial will be conducted to compare the effect of walking augmented by HTS with walking without HTS. The investigators will evaluate the relative advantages of training that combines HTS with conventional walking exercise on the improvement of muscle strength, physical function, and pain relief in obese women with frequent knee symptoms.\n\nStudy Hypotheses: Compared with walking with sensory TENS, walking with HTS will:\n\n* 1 increase quadriceps muscle strength.\n* 2 decrease knee pain.\n\nExploratory Hypotheses:\n\n* 3 improve physical function.\n* 4 increase PPT (improve central sensitization).\n* 5 improve self-reported quality of life.",
+      "detailedDescription": "Osteoarthritis of the knee (KOA) is the most common cause of disability not only in the United States but also in Japan. KOA is associated with pain, quadriceps weakness, swelling, instability, decline of range of motion, physical function, and quality of life (QOL) (1). In particular, quadriceps weakness may contribute to incident symptomatic and progressive disease (2, 3), cause functional limitations and disability (4) and increase the risk of mortality (5). Both aerobic exercise and resistance exercise are recommended for the treatment of people with knee osteoarthritis (KOA) (6). However, exercise at a moderate or severe intensity is often a problem for people with knee pain or a history of knee injury.\n\nNeuromuscular electrical stimulation (NMES) is widely used as a method to increase muscle strength and improve physical function even at a low-moderate exercise intensity (7). However, NMES effect may prove to be insufficient because the exercise intensity is determined by the electrical stimulation endurance level of the user (7). On the other hand, transcutaneous electrical stimulation, so-called transcutaneous electrical nerve stimulation (TENS), is effective for pain relief (8). Knee pain independently reduced quadriceps strength and activation (9). TENS restores inhibited quadriceps motor function (central and muscle activation) through pain relief (10). Moreover the combined application of electrical stimulation (ES) and volitional contractions (VC) is said to be more effective than ES or VC alone (11). Therefore, a hybrid training system (HTS) that resists the motion of a volitionally contracting agonist muscle using the force generated by its electrically stimulated antagonist (NMES) was developed as a way to combine the application of electrical stimulation and voluntary contraction (12). HTS is a method that eliminates the disadvantages of both volitional exercise and NMES (13). It has been reported that HTS is a new training technique that can increase both muscular strength and muscle mass (12, 13, 14, 15). Recently, HTS is showing promise as a countermeasure for the musculoskeletal disuse of astronauts because the HTS technique can generate exercise resistance within the body even if there is no gravity (1). In addition, HTS can be utilized during many different types of exercise (e.g. knee extension exercise, squat and hip flexion, walking exercise, and cycling exercise) (17, 18). It seems to be more effective for improvement of muscle strength and physical function to combine HTS with easy exercise (e.g. knee extension, walking, and squats) for KOA patients.\n\nThe main purpose of exercise therapy for KOA is not only muscular strength improvement (the quadriceps femoris muscle in particular) and but also pain relief (19, 20). Muscular strength improvement protects joints and relieves nociceptive stimulation. However, exercise sometimes increases pain. In addition to the pathological change in articular structures, changes in central pain processing or central sensitization appear to be involved in KOA pain (19). Murphy et al. reported that 36% of a heterogenous sample of patients with hip and KOA demonstrated evidence of central sensitization (22). This finding has been incompletely characterized, but it is necessary to consider central sensitization in the treatment of patients with KOA. From a theoretical perspective, exercise has the potential to treat the process of central sensitization: e.g. exercise activates brain-orchestrated endogenous analgesia (23). An initial bout of high intensity eccentric exercise induces central sensitization, but a repeated round of exercise facilitates inherent protective spinal mechanisms (repeated bout effect) (24). Moreover, ipsilateral resistance exercise may possibly prevent the central sensitization (25). Therefore, a time-contingent approach which implies that the patient does not cease exercise bouts once local pain severity increases is recommended (22). A few reports about the dysfunctional endogenous analgesia for patients with musculoskeletal pain response to aerobic exercise were shown, but neither type of aerobic exercise was able to activate endogenous analgesia (24). At present, there is no report of an exercise method that is effective in central sensitization pain patients. Brain-derived neurotrophic factor (BDNF) belongs to the neurotrophic family of growth factors. The loss of BDNF usually leads to neurodegeneration in these motor centers and eventually results in several severe motor diseases, such as amyotrophic lateral sclerosis, spinocerebellar ataxias, Parkinson's disease, Huntington's disease, as well as vestibular syndrome. These neurotrophic factors (e.g., decreasing brain-derived neurotrophic factor) are promising new avenues for diminishing hyperexcitability of the CNS in central sensitization pain patients (2). Da Graca-Tarrago et al. showed that a 30-minute electrical intramuscular stimulation in osteoarthritis decreased pain, increased the local pain pressure threshold (PPT), and decreased BDNF (27). Gajewska-Wozniak et al. reported that low-threshold electrical stimulation of peripheral nerves to stimulate Ia afferent fibers (proprioceptive signaling) might affect the expression of BDNF in rats (28). HTS is an exercise technique that uses electrically eccentric muscle contraction. Yamaguchi et al. showed that the soleus H-reflex increased after one HTS adversely in conventional resistance exercise (29). This seems to indicate that HTS serves to activate Ia fibers. HTS may affect central sensitization and relieve pain in KOA patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Knee Osteoarthritis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Hybrid Training System (HTS)",
+          "type": "EXPERIMENTAL",
+          "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.",
+          "interventionNames": [
+            "Device: Hybrid Training System (HTS)"
+          ]
+        },
+        {
+          "label": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.",
+          "interventionNames": [
+            "Device: Sensory TENS"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Hybrid Training System (HTS)",
+          "description": "Electrodes (15 cm x 6 cm) will be placed over the quadriceps and electrodes (11 cm x 6 cm) (Sekisui Plastics Co., Tokyo, Japan) will be placed over the hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5,000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor (EWTS9PD, Home Appliances Development Center Corporate Engineering Division, Appliances Company Panasonic Corporation 2-3-1-2 Noji-higashi,Kusatsu City, Shiga, Japan) is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks.",
+          "armGroupLabels": [
+            "Hybrid Training System (HTS)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sensory TENS",
+          "description": "The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS.",
+          "armGroupLabels": [
+            "Transcutaneous Electrical Nerve Stimulation (TENS)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Knee Extensor Strength Assessed by Isokinetic Dynamometer.",
+          "description": "Participants will be familiarized with strength testing equipment and counseled on proper lifting technique. They will undergo testing to determine their peak isokinetic knee extensor torque, using an isokinetic dynamometer.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Knee Flexor Strength Assessed by Isokinetic Dynamometer",
+          "description": "Participants will be familiarized with strength testing equipment and counseled on proper lifting technique. They will undergo testing to determine their peak isokinetic knee flexor torque, using an isokinetic dynamometer.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        },
+        {
+          "measure": "Change in Knee Pain Assessed by a Visual Analog Scale (VAS)",
+          "description": "Knee pain will be evaluated using a visual analog scale (VAS) of 100 mm from no pain (0 mm) to the worst imaginable pain (100 mm). Participants will be asked to record their pain levels of the past one week.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        },
+        {
+          "measure": "Change in Knee Pain Assessed by Knee Injury and Osteoarthritis Outcome Score (KOOS)",
+          "description": "The Knee Injury and Osteoarthritis Outcome Score (KOOS) Pain subscale was used at baseline and follow-up to assess participant outcomes. The pain subscale is made up of 9 questions and was scored from zero to 100, with zero corresponding to extreme knee problems and 100 corresponding to no knee problems.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        },
+        {
+          "measure": "Change in Quality of Life (QOL) Assessed by Knee Injury and Osteoarthritis Outcome Score (KOOS)",
+          "description": "The Knee Injury and Osteoarthritis Outcome Score (KOOS) Quality of Life (QOL) subscale was used at baseline and follow-up to assess participant outcomes. The QOL subscale is made up of 4 questions and was scored from zero to 100, with zero corresponding to extreme knee problems and 100 corresponding to no knee problems.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        },
+        {
+          "measure": "Change in 20-meter Walk Time.",
+          "description": "Average time of two trials used for each participant.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        },
+        {
+          "measure": "Change in 5-chair Stand Time.",
+          "description": "Average time of two trials used for each participant.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        },
+        {
+          "measure": "Change in Stair Climb Time.",
+          "description": "Average time of two trials used for each participant.",
+          "timeFrame": "Baseline and 12-week follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female\n2. Age 40-70 years\n3. Knee symptoms (pain, aching, or stiffness) on most of the last 30 days (categorically defined)\n4. Body Mass Index (BMI) 30-45kg/m2\n\nExclusion Criteria:\n\n1. Resistance training at any time in the last 3 months prior to the study\n2. Bilateral knee replacement\n3. Lower limb amputation\n4. Lower limb surgery in the last 6 months that affects walking ability or ability to exercise\n5. Back or hip problems that affect walking ability or ability to exercise\n6. Unable to walk without a cane or walker\n7. Inflammatory joint or muscle disease such as rheumatoid or psoriatic arthritis or polymyalgia rheumatica\n8. Multiple sclerosis or other neurodegenerative disorder\n9. Known neuropathy\n10. Currently being treated with insulin for diabetes\n11. Currently being treated for cancer or having untreated cancer\n12. Terminal illness (cannot be cured or adequately treated and there is a reasonable expectation of death in the near future)\n13. Peripheral Vascular Disease\n14. History of myocardial infarction or stroke in the last year\n15. Chest pain during exercise or at rest\n16. Use of supplemental oxygen\n17. Inability to follow protocol (e.g. lack of ability to attend visits or understand instructions)\n18. Staff concern for participant health (such as history of dizziness/faintness or current restrictions on activity)\n19. Unable to attend more than 2 days within any 1 week or unable to attend 4 or more sessions during the study\n20. Implanted cardiac pacemaker, spinal cord stimulator, baclofen or morphine pump or other implanted electrical device.\n21. Dermatitis or skin sensitivity to tape used in the study.\n22. Pregnancy",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "39 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Neil A Segal, MD",
+          "affiliation": "University of Kansas Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Kansas Medical Center",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20633679",
+          "type": "BACKGROUND",
+          "citation": "Muraki S, Akune T, Oka H, En-yo Y, Yoshida M, Saika A, Suzuki T, Yoshida H, Ishibashi H, Tokimura F, Yamamoto S, Nakamura K, Kawaguchi H, Yoshimura N. Association of radiographic and symptomatic knee osteoarthritis with health-related quality of life in a population-based cohort study in Japan: the ROAD study. Osteoarthritis Cartilage. 2010 Sep;18(9):1227-34. doi: 10.1016/j.joca.2010.06.001. Epub 2010 Jul 13."
+        },
+        {
+          "pmid": "20351594",
+          "type": "BACKGROUND",
+          "citation": "Segal NA, Glass NA, Felson DT, Hurley M, Yang M, Nevitt M, Lewis CE, Torner JC. Effect of quadriceps strength and proprioception on risk for knee osteoarthritis. Med Sci Sports Exerc. 2010 Nov;42(11):2081-8. doi: 10.1249/MSS.0b013e3181dd902e."
+        },
+        {
+          "pmid": "20188686",
+          "type": "BACKGROUND",
+          "citation": "Segal NA, Glass NA, Torner J, Yang M, Felson DT, Sharma L, Nevitt M, Lewis CE. Quadriceps weakness predicts risk for knee joint space narrowing in women in the MOST cohort. Osteoarthritis Cartilage. 2010 Jun;18(6):769-75. doi: 10.1016/j.joca.2010.02.002. Epub 2010 Feb 11."
+        },
+        {
+          "pmid": "17013827",
+          "type": "BACKGROUND",
+          "citation": "van Dijk GM, Dekker J, Veenhof C, van den Ende CH; Carpa Study Group. Course of functional status and pain in osteoarthritis of the hip or knee: a systematic review of the literature. Arthritis Rheum. 2006 Oct 15;55(5):779-85. doi: 10.1002/art.22244."
+        },
+        {
+          "pmid": "21385807",
+          "type": "BACKGROUND",
+          "citation": "Nuesch E, Dieppe P, Reichenbach S, Williams S, Iff S, Juni P. All cause and disease specific mortality in patients with knee or hip osteoarthritis: population based cohort study. BMJ. 2011 Mar 8;342:d1165. doi: 10.1136/bmj.d1165."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Linda S Pescatello, Ross Arena, Deborah Riebe, Paul D Thompson. ACSM's Guidelines for Exercise Testing and Prescription by American College of Sports Medicine., 9nd ed., Wolters Kluwer/Lippincott Williams & Wilkins, Philadelphia, PA. 2014"
+        },
+        {
+          "pmid": "22324059",
+          "type": "BACKGROUND",
+          "citation": "Giggins O, Fullen B, Coughlan G. Neuromuscular electrical stimulation in the treatment of knee osteoarthritis: a systematic review and meta-analysis. Clin Rehabil. 2012 Oct;26(10):867-81. doi: 10.1177/0269215511431902. Epub 2012 Feb 9."
+        },
+        {
+          "pmid": "19821296",
+          "type": "BACKGROUND",
+          "citation": "Rutjes AW, Nuesch E, Sterchi R, Kalichman L, Hendriks E, Osiri M, Brosseau L, Reichenbach S, Juni P. Transcutaneous electrostimulation for osteoarthritis of the knee. Cochrane Database Syst Rev. 2009 Oct 7;2009(4):CD002823. doi: 10.1002/14651858.CD002823.pub2."
+        },
+        {
+          "pmid": "23103783",
+          "type": "BACKGROUND",
+          "citation": "Park J, Hopkins JT. Induced anterior knee pain immediately reduces involuntary and voluntary quadriceps activation. Clin J Sport Med. 2013 Jan;23(1):19-24. doi: 10.1097/JSM.0b013e3182717b7b."
+        },
+        {
+          "pmid": "26346597",
+          "type": "BACKGROUND",
+          "citation": "Son SJ, Kim H, Seeley MK, Feland JB, Hopkins JT. Effects of transcutaneous electrical nerve stimulation on quadriceps function in individuals with experimental knee pain. Scand J Med Sci Sports. 2016 Sep;26(9):1080-90. doi: 10.1111/sms.12539. Epub 2015 Sep 8."
+        },
+        {
+          "pmid": "18201117",
+          "type": "BACKGROUND",
+          "citation": "Paillard T. Combined application of neuromuscular electrical stimulation and voluntary muscular contractions. Sports Med. 2008;38(2):161-77. doi: 10.2165/00007256-200838020-00005."
+        },
+        {
+          "pmid": "12808536",
+          "type": "BACKGROUND",
+          "citation": "Yanagi T, Shiba N, Maeda T, Iwasa K, Umezu Y, Tagawa Y, Matsuo S, Nagata K, Yamamoto T, Basford JR. Agonist contractions against electrically stimulated antagonists. Arch Phys Med Rehabil. 2003 Jun;84(6):843-8. doi: 10.1016/s0003-9993(02)04948-1."
+        },
+        {
+          "pmid": "16780234",
+          "type": "BACKGROUND",
+          "citation": "Matsuse H, Shiba N, Umezu Y, Nago T, Tagawa Y, Kakuma T, Nagata K, Basford JR. Muscle training by means of combined electrical stimulation and volitional contraction. Aviat Space Environ Med. 2006 Jun;77(6):581-5."
+        },
+        {
+          "pmid": "16636520",
+          "type": "BACKGROUND",
+          "citation": "Iwasaki T, Shiba N, Matsuse H, Nago T, Umezu Y, Tagawa Y, Nagata K, Basford JR. Improvement in knee extension strength through training by means of combined electrical stimulation and voluntary muscle contraction. Tohoku J Exp Med. 2006 May;209(1):33-40. doi: 10.1620/tjem.209.33."
+        },
+        {
+          "pmid": "20453461",
+          "type": "BACKGROUND",
+          "citation": "Takano Y, Haneda Y, Maeda T, Sakai Y, Matsuse H, Kawaguchi T, Tagawa Y, Shiba N. Increasing muscle strength and mass of thigh in elderly people with the hybrid-training method of electrical stimulation and volitional contraction. Tohoku J Exp Med. 2010 May;221(1):77-85. doi: 10.1620/tjem.221.77."
+        },
+        {
+          "pmid": "26296204",
+          "type": "BACKGROUND",
+          "citation": "Shiba N, Matsuse H, Takano Y, Yoshimitsu K, Omoto M, Hashida R, Tagawa Y, Inada T, Yamada S, Ohshima H. Electrically Stimulated Antagonist Muscle Contraction Increased Muscle Mass and Bone Mineral Density of One Astronaut - Initial Verification on the International Space Station. PLoS One. 2015 Aug 21;10(8):e0134736. doi: 10.1371/journal.pone.0134736. eCollection 2015."
+        },
+        {
+          "pmid": "23934874",
+          "type": "BACKGROUND",
+          "citation": "Matsuse H, Shiba N, Takano Y, Yamada S, Ohshima H, Tagawa Y. Cycling exercise to resist electrically stimulated antagonist increases oxygen uptake in males: pilot study. J Rehabil Res Dev. 2013;50(4):545-54. doi: 10.1682/jrrd.2012.04.0067."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Omoto M, Matsuse H, Takano Y, Yamada S, Ohshima H, Tagawa Y, Shiba N. Oxygen Uptake during Aerobic Cycling Exercise Simultaneously Combined with Neuromuscular Electrical Stimulation of Antagonists. J Nov Physiother. 3-6, 2013."
+        },
+        {
+          "pmid": "25300730",
+          "type": "BACKGROUND",
+          "citation": "Aguiar GC, Do Nascimento MR, De Miranda AS, Rocha NP, Teixeira AL, Scalzo PL. Effects of an exercise therapy protocol on inflammatory markers, perception of pain, and physical performance in individuals with knee osteoarthritis. Rheumatol Int. 2015 Mar;35(3):525-31. doi: 10.1007/s00296-014-3148-2. Epub 2014 Oct 10."
+        },
+        {
+          "pmid": "22632702",
+          "type": "BACKGROUND",
+          "citation": "Vincent KR, Vincent HK. Resistance exercise for knee osteoarthritis. PM R. 2012 May;4(5 Suppl):S45-52. doi: 10.1016/j.pmrj.2012.01.019."
+        },
+        {
+          "pmid": "23392185",
+          "type": "BACKGROUND",
+          "citation": "Lluch Girbes E, Nijs J, Torres-Cueco R, Lopez Cubas C. Pain treatment for patients with osteoarthritis and central sensitization. Phys Ther. 2013 Jun;93(6):842-51. doi: 10.2522/ptj.20120253. Epub 2013 Feb 7."
+        },
+        {
+          "pmid": "21864381",
+          "type": "BACKGROUND",
+          "citation": "Murphy SL, Lyden AK, Phillips K, Clauw DJ, Williams DA. Subgroups of older adults with osteoarthritis based upon differing comorbid symptom presentations and potential underlying pain mechanisms. Arthritis Res Ther. 2011 Aug 24;13(4):R135. doi: 10.1186/ar3449."
+        },
+        {
+          "pmid": "22786458",
+          "type": "BACKGROUND",
+          "citation": "Nijs J, Kosek E, Van Oosterwijck J, Meeus M. Dysfunctional endogenous analgesia during exercise in patients with chronic pain: to exercise or not to exercise? Pain Physician. 2012 Jul;15(3 Suppl):ES205-13."
+        },
+        {
+          "pmid": "23922170",
+          "type": "BACKGROUND",
+          "citation": "Hosseinzadeh M, Andersen OK, Arendt-Nielsen L, Madeleine P. Pain sensitivity is normalized after a repeated bout of eccentric exercise. Eur J Appl Physiol. 2013 Oct;113(10):2595-602. doi: 10.1007/s00421-013-2701-0. Epub 2013 Aug 7."
+        },
+        {
+          "pmid": "26105529",
+          "type": "BACKGROUND",
+          "citation": "Hosseinzadeh M, Samani A, Andersen OK, Nosaka K, Arendt-Nielsen L, Madeleine P. Ipsilateral resistance exercise prevents exercise-induced central sensitization in the contralateral limb: a randomized controlled trial. Eur J Appl Physiol. 2015 Nov;115(11):2253-62. doi: 10.1007/s00421-015-3205-x. Epub 2015 Jun 24."
+        },
+        {
+          "pmid": "24930805",
+          "type": "BACKGROUND",
+          "citation": "Nijs J, Malfliet A, Ickmans K, Baert I, Meeus M. Treatment of central sensitization in patients with 'unexplained' chronic pain: an update. Expert Opin Pharmacother. 2014 Aug;15(12):1671-83. doi: 10.1517/14656566.2014.925446. Epub 2014 Jun 15."
+        },
+        {
+          "pmid": "26398594",
+          "type": "BACKGROUND",
+          "citation": "da Graca-Tarrago M, Deitos A, Patricia Brietzke A, Torres IL, Cadore Stefani L, Fregni F, Caumo W. Electrical Intramuscular Stimulation in Osteoarthritis Enhances the Inhibitory Systems in Pain Processing at Cortical and Cortical Spinal System. Pain Med. 2016 May 1;17(5):877-891. doi: 10.1111/pme.12930. Epub 2015 Sep 23."
+        },
+        {
+          "pmid": "23776573",
+          "type": "BACKGROUND",
+          "citation": "Gajewska-Wozniak O, Skup M, Kasicki S, Ziemlinska E, Czarkowska-Bauch J. Enhancing proprioceptive input to motoneurons differentially affects expression of neurotrophin 3 and brain-derived neurotrophic factor in rat hoffmann-reflex circuitry. PLoS One. 2013 Jun 11;8(6):e65937. doi: 10.1371/journal.pone.0065937. Print 2013."
+        },
+        {
+          "pmid": "17711043",
+          "type": "BACKGROUND",
+          "citation": "Yamaguchi T, Tanabe S, Watanabe T, Muraoka Y. Effect of voluntary contraction with electrical stimulation to antagonist muscle on agonist H-reflex. Electromyogr Clin Neurophysiol. 2007 Jul;47(4-5):251-5."
+        },
+        {
+          "pmid": "35337843",
+          "type": "DERIVED",
+          "citation": "Matsuse H, Segal NA, Rabe KG, Shiba N. Effect of Neuromuscular Electrical Stimulation During Walking on Pain Sensitivity in Women With Obesity With Knee Pain: A Randomized Controlled Trial. Arch Phys Med Rehabil. 2022 Sep;103(9):1707-1714. doi: 10.1016/j.apmr.2022.01.157. Epub 2022 Mar 23."
+        },
+        {
+          "pmid": "31592880",
+          "type": "DERIVED",
+          "citation": "Matsuse H, Segal NA, Rabe KG, Shiba N. The Effect of Neuromuscular Electrical Stimulation During Walking on Muscle Strength and Knee Pain in Obese Women With Knee Pain: A Randomized Controlled Trial. Am J Phys Med Rehabil. 2020 Jan;99(1):56-64. doi: 10.1097/PHM.0000000000001319."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Hybrid Training System (HTS)",
+          "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+        },
+        {
+          "id": "FG001",
+          "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+          "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Unrelated Injury affecting outcomes.",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Hybrid Training System (HTS)",
+          "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+        },
+        {
+          "id": "BG001",
+          "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+          "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "14"
+            },
+            {
+              "groupId": "BG001",
+              "value": "14"
+            },
+            {
+              "groupId": "BG002",
+              "value": "28"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59.21",
+                      "spread": "10.02"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "58.29",
+                      "spread": "6.35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58.75",
+                      "spread": "8.19"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Weight",
+          "description": "Digital physicians scale (Detecto 6449 Digital Physician Scale, DETECTO Scale Company, Webb City, MO).",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kilograms (kg)",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "97.1",
+                      "spread": "9.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "95.6",
+                      "spread": "12.6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "96.4",
+                      "spread": "11.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Height",
+          "description": "Wall mounted stadiometer (seca 216 Stadiometer, seca Corporation, Chino, CA)",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "centimeters (cm)",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "161.5",
+                      "spread": "6.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "163.5",
+                      "spread": "8.6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "162.5",
+                      "spread": "7.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body Mass Index (BMI)",
+          "description": "BMI was calculated by dividing body mass by the square of the height.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "kilograms per meters squared (kg/m2)",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37.4",
+                      "spread": "4.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35.8",
+                      "spread": "2.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36.6",
+                      "spread": "3.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "20-Meter Walk Time",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "seconds",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12.5",
+                      "spread": "2.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12.9",
+                      "spread": "2.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12.7",
+                      "spread": "2.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5-Chair Stand Time",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "seconds",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11.9",
+                      "spread": "3.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15.2",
+                      "spread": "4.6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13.6",
+                      "spread": "3.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stair Climb Time",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "seconds",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6.4",
+                      "spread": "1.3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6.7",
+                      "spread": "2.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6.5",
+                      "spread": "1.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Knee Extension Torque",
+          "description": "Maximum isokinetic torque measured on the HUMAC NORM (Model 502140, Computer Sports Medicine, Inc., Stoughton, MA).",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Newton-meters (Nm)",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "79.6",
+                      "spread": "35.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71.7",
+                      "spread": "42.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75.6",
+                      "spread": "39.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Knee Flexion Torque",
+          "description": "Maximum isokinetic torque measured on the HUMAC NORM (Model 502140, Computer Sports Medicine, Inc., Stoughton, MA).",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Newton-meters (Nm)",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36.8",
+                      "spread": "22.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26.3",
+                      "spread": "19.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31.6",
+                      "spread": "20.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Knee Injury and Osteoarthritis Outcome Score (KOOS) Pain Subscale",
+          "description": "The Knee Injury and Osteoarthritis Outcome Score (KOOS) Pain subscale was used at baseline and follow-up to assess participant outcomes. The pain subscale is made up of 9 questions and was scored from zero to 100, with zero corresponding to extreme knee problems and 100 corresponding to no knee problems.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14.7",
+                      "spread": "4.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17.1",
+                      "spread": "4.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15.9",
+                      "spread": "4.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Knee Injury and Osteoarthritis Outcome Score (KOOS) Quality of Life (QOL) sub scale",
+          "description": "The Knee Injury and Osteoarthritis Outcome Score (KOOS) Quality of Life (QOL) subscale was used at baseline and follow-up to assess participant outcomes. The QOL subscale is made up of 4 questions and was scored from zero to 100, with zero corresponding to extreme knee problems and 100 corresponding to no knee problems.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9.1",
+                      "spread": "2.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10.4",
+                      "spread": "3.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9.8",
+                      "spread": "2.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Knee Pain by Visual Analog Scale",
+          "description": "Knee pain will be evaluated using a visual analog scale (VAS) of 100 mm from no pain (0 mm) to the worst imaginable pain (100 mm). Participants will be asked to record their pain levels of the one week prior to their baseline visit.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "millimeters (mm)",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "31.6",
+                      "spread": "23.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "43.6",
+                      "spread": "22.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "37.6",
+                      "spread": "22.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Knee Extensor Strength Assessed by Isokinetic Dynamometer.",
+          "description": "Participants will be familiarized with strength testing equipment and counseled on proper lifting technique. They will undergo testing to determine their peak isokinetic knee extensor torque, using an isokinetic dynamometer.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "Newton-meters (Nm)",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.6",
+                      "spread": "10.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.8",
+                      "spread": "28.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Knee Flexor Strength Assessed by Isokinetic Dynamometer",
+          "description": "Participants will be familiarized with strength testing equipment and counseled on proper lifting technique. They will undergo testing to determine their peak isokinetic knee flexor torque, using an isokinetic dynamometer.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Newton-meters (Nm)",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.3",
+                      "spread": "9.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.3",
+                      "spread": "15.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Knee Pain Assessed by a Visual Analog Scale (VAS)",
+          "description": "Knee pain will be evaluated using a visual analog scale (VAS) of 100 mm from no pain (0 mm) to the worst imaginable pain (100 mm). Participants will be asked to record their pain levels of the past one week.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "millimeters (mm)",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-14.9",
+                      "spread": "27.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-11.9",
+                      "spread": "23.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Knee Pain Assessed by Knee Injury and Osteoarthritis Outcome Score (KOOS)",
+          "description": "The Knee Injury and Osteoarthritis Outcome Score (KOOS) Pain subscale was used at baseline and follow-up to assess participant outcomes. The pain subscale is made up of 9 questions and was scored from zero to 100, with zero corresponding to extreme knee problems and 100 corresponding to no knee problems.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.4",
+                      "spread": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-5.3",
+                      "spread": "4.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Quality of Life (QOL) Assessed by Knee Injury and Osteoarthritis Outcome Score (KOOS)",
+          "description": "The Knee Injury and Osteoarthritis Outcome Score (KOOS) Quality of Life (QOL) subscale was used at baseline and follow-up to assess participant outcomes. The QOL subscale is made up of 4 questions and was scored from zero to 100, with zero corresponding to extreme knee problems and 100 corresponding to no knee problems.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.6",
+                      "spread": "1.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.4",
+                      "spread": "3.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in 20-meter Walk Time.",
+          "description": "Average time of two trials used for each participant.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "seconds",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.53",
+                      "spread": "0.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.52",
+                      "spread": "1.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in 5-chair Stand Time.",
+          "description": "Average time of two trials used for each participant.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "seconds",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.5",
+                      "spread": "1.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.4",
+                      "spread": "2.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Stair Climb Time.",
+          "description": "Average time of two trials used for each participant.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "seconds",
+          "timeFrame": "Baseline and 12-week follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Hybrid Training System (HTS)",
+              "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+              "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.8",
+                      "spread": "0.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.4",
+                      "spread": "1.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse event data was collected over the duration of the study from baseline to 12-week follow-up.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Hybrid Training System (HTS)",
+          "description": "HTS stimulation while walking at a comfortable pace for 30 minutes.\n\nHybrid Training System (HTS): Electrodes will be placed over the quadriceps and hamstrings. Electrical stimulation parameters will be based on a standard Russian waveform in which a 5000 Hz carrier frequency is modulated at 40 Hz (2.4 ms on, 22.6 ms off) to deliver a rectangular voltage biphasic pulse. Acceleration sensors as a joint motion sensor is placed on the front of each leg 88mm above the patellar edge. It analyzes the algorithm of each exercise pattern, and stimulates the antagonist of the motion of each bilateral knee joint during exercise. Electrical stimulation intensity will be set to \\~50-60% of 1RM based on the subject's tolerance. The subject's tolerance gradually increases, and electrical stimulation intensity is reset every 2 weeks.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 14,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 14
+        },
+        {
+          "id": "EG001",
+          "title": "Transcutaneous Electrical Nerve Stimulation (TENS)",
+          "description": "Sensory TENS while walking at a comfortable pace for 30 minutes.\n\nSensory TENS: The electrical stimulation intensity will be set under the muscle contraction threshold (but at a level at which the subject can perceive as sensory TENS). Electrical stimulation parameters (i.e. waveform and pulse duration) will be the same of HTS, while the amplitude will be lower. The subject will be stimulated using the same device as for HTS.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 14,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 14
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Increased Knee Pain during Intervention",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 14
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 14
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The number of participants was insufficient to detect a statistically significant improvement in knee pain."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Neil Segal",
+        "organization": "University of Kansas Medical Center",
+        "email": "segal-research@kumc.edu",
+        "phone": "(913) 945-8985"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2016-02-24",
+          "uploadDate": "2018-05-01T10:56",
+          "filename": "ICF_000.pdf",
+          "size": 761295
+        },
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2016-12-08",
+          "uploadDate": "2018-05-01T11:28",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 388685
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020370",
+          "term": "Osteoarthritis, Knee"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010003",
+          "term": "Osteoarthritis"
+        },
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

@@ -1,0 +1,204 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06580496",
+      "orgStudyIdInfo": {
+        "id": "2594"
+      },
+      "organization": {
+        "fullName": "Neuromotion Labs",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Adding Printed CBT Materials to a Pediatric Digital Intervention",
+      "officialTitle": "Examining the Impact of Adding Printed CBT Materials to a Pediatric Digital Emotional Regulation Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-09-15",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-02-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-08-29",
+      "studyFirstSubmitQcDate": "2024-08-29",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Neuromotion Labs",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary goal of this study is to demonstrate that engaging with \"offscreen\" physical materials that focus on teaching and practicing Cognitive Behavioral Therapy-based skills alongside a digital emotional regulation intervention results in greater symptom improvement in kids than engaging with the digital intervention alone.\n\nParticipants are children who are using Mightier a video-game based heart rate biofeedback intervention used to build emotion regulation. Caregivers will be asked to complete a short survey prior to their child's first play and then complete that survey at 12 weeks post baseline.\n\nThe pre-post self-report design, combined with analyses accounting for engagement with offscreen materials will allow the investigators to observe changes during Mightier use and relate those changes to type of program engagement. (edited)",
+      "detailedDescription": "Mightier is an app-based biofeedback videogame platform that utilizes heart rate (HR) monitoring during gameplay to teach and facilitate practice of emotional regulation skills in children ages 6-14. The effectiveness of Mightier has been supported through several studies in children ages 8-18, specifically reducing symptoms of aggression, oppositional behavior, and parental stress. The developers of Mightier have recently created \"offscreen\" physical materials that focus on teaching additional Cognitive Behavioral Therapy (CBT)-based skills and concepts. While these materials are based on empirically supported principles, it remains unclear whether they impart additional clinical benefit when used in conjunction with the validated video game. Investigators seek (1) a better understanding of how offscreen materials may support digital experiences, and (2) to provide preliminary evidence that these specific offscreen experiences provide clinical benefit to families, rather than solely entertainment benefit.\n\nFor this proposed study investigators hypothesize the following:\n\n1. Caregivers will report family engagement with CBT printed materials.\n2. Caregivers who indicated high family engagement with printed CBT materials will report larger gains in emotional awareness and emotional regulation than those who did not engage, or engaged minimally, with CBT printed materials.\n3. Caregivers will report significantly greater feelings of self-efficacy after using the Mightier program.\n4. Those who reported high family engagement with printed CBT materials will report higher increases in parenting self-efficacy.\n\nFor the duration of the 12 week intervention period, participants will play Mightier and engage with CBT-based printed materials ad libitum. They will not receive any special instructions or recommendations outside of those provided to all Mightier families. Consistent with any other family using Mightier, participating families will be free to engage with or deny all programming associated with Mightier (e.g. email updates and other support). All individuals engaging with participating families to facilitate the standard Mightier experience will be blinded to their participation in research.\n\nParticipating families will be contacted via email to complete follow-up measures at 12 weeks. Participants will only be sent these emails if they are customers of Mightier at the time of follow up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Emotional Regulation"
+      ],
+      "keywords": [
+        "Emotional Dysregulation",
+        "Pediatric",
+        "CBT",
+        "Digital Intervention"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "As a single arm study all participants will receive a game-based biofeedback intervention with offline CBT-based materials. They are encouraged to engage with the intervention in an entirely self-directed manner. Study analyses will seek to understand the impact of differential engagement with the intervention (offscreen materials + biofeedback vs. biofeedback alone) in a post-hoc manner.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Mightier",
+          "type": "EXPERIMENTAL",
+          "description": "Ad lib use of child biofeedback video game play and CBT-based offscreen program materials in home",
+          "interventionNames": [
+            "Behavioral: Mightier"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Mightier",
+          "description": "Mightier is a pediatric at-home intervention program that includes an app-based biofeedback video game that utilizes heart rate (HR) monitoring during game play to teach and facilitate practice of emotional regulation skills in children ages 6-14. The program also uses physical materials including printed workbooks and conversation cards that focus on teaching additional Cognitive Behavioral Therapy (CBT)-based skills and concepts.",
+          "armGroupLabels": [
+            "Mightier"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difficulties in Emotion Regulation Scale-Parent (DERS-P)",
+          "description": "The Difficulties in Emotion Regulation Scale--Parent Report (DERS-P) Bunford et al., 2020) was adapted from the Difficulties in Emotion Regulation Scale (DERS; Gratz \\&amp; Roemer, 2004) to assess emotion dysregulation (ED) in 11- to 17-year-old youth. There are 36 items that assess parental perceptions of youth without a specified time frame. Parents of children who play Mightier will complete the DERS-P at Baseline and Week 12 by choosing one of the following response categories: Almost never (0-10%), Sometimes (11-35%), About half the time (36-65%), Most of the time (66-90%) or Almost always (91-100%).",
+          "timeFrame": "Baseline and Week 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Brief Parental Self-Efficacy Scale (BPSES)",
+          "description": "The Brief Parental Self Efficacy Scale (BPSES) is a 5- item measure of parental self- efficacy. Parental self-efficacy (PSE) \"describes a parent's belief in their ability to perform the parenting role successfully. Scores on the BPSES can be used to measure change over time in PSE. Parents of children who play Mightier will complete the BPSES at Baseline and Week 12 indicating how much they agree or disagree with each of the statements over the past month. Response categories for the BPSES include: Strongly Disagree, Disagree, Neural, Agree, or Strongly Disagree",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Parent Reported Clinical Global Impression- Improvement (CGI-I)",
+          "description": "The Parent Reported CGI-I asks the parent to rate their child's emotional regulation since the beginning of Mightier use. Emotional regulation includes emotional awareness, use of strategies, calming behavior changes, ability to pause, use of deep breaths in game or out of game, or any other behaviors that the parent has found notable. Response Categories for the Parent Reported CGI-I include: Very much improved, Much improved, Minimally improved, No change, Minimally worse, Much worse, or Very much worse.",
+          "timeFrame": "Week 12"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Self-Reported use of Mightier Materials",
+          "description": "At week 12 Parents will be asked to complete a survey with 8 items about the Mightier materials they received and how their child used the materials. There are 5 questions which indicate if the child used Mightier materials and how they used the materials. There are 3 items that ask the parent to indicate how much they agree or disagree with statements about the Mightier materials they used.",
+          "timeFrame": "Week 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 4-16 years old at time of enrollment\n* Regular access to WiFi (for Mightier gameplay device connection)\n* Independently elected to engage with Mightier program\n\nExclusion Criteria:\n\n* Previous use of Mightier\n* Under the age of 4\n* Older then 16 years of age",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "4 Years",
+      "maximumAge": "16 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Alyssa Peechatka, PhD",
+          "role": "CONTACT",
+          "phone": "1-888-978-7495",
+          "email": "alyssa@mightier.com"
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Link to described intervention to be used in study",
+          "url": "https://www.mightier.com/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000080103",
+          "term": "Emotional Regulation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000068356",
+          "term": "Self-Control"
+        },
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

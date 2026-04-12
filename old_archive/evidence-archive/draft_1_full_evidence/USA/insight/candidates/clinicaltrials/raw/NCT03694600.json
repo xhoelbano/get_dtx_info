@@ -1,0 +1,600 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03694600",
+      "orgStudyIdInfo": {
+        "id": "LAM-2018-01"
+      },
+      "organization": {
+        "fullName": "Helio Genomics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Clinical Trial Multi-analyte Blood Test",
+      "officialTitle": "Prospective Clinical Trial to Detect Liver Cancer Through Quantification of cfDNA Methylation in Blood Samples: A LAM Insight Trial Study",
+      "acronym": "CLiMB"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-02-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-02-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-09-28",
+      "studyFirstSubmitQcDate": "2018-10-01",
+      "studyFirstPostDateStruct": {
+        "date": "2018-10-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Helio Genomics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a clinical trial designed to evaluate the performance of a multi-analyte blood test alone to ultrasound alone for the detection of HCC within a population that is at high risk for HCC due to liver cirrhosis.",
+      "detailedDescription": "This multi-site, prospective study is designed to compare the sensitivity and specificity of a multi-analyte blood test alone to ultrasound alone for the detection of HCC within a population at high risk of HCC due to liver cirrhosis. Subjects will be enrolled until the pre-determined number of subjects are enrolled.\n\nSubjects at high risk for developing HCC due to liver cirrhosis and who are eligible for liver cancer surveillance as determined by the patient's physician and who meet all inclusion and exclusion eligibility criteria as described in this protocol, will be invited to participate in this study. Subjects will then read, understand and sign the Informed Consent Form and the HIPAA Authorization Agreement for Medical Records Form.\n\nFor each subject upon enrollment, the following blood analytes will also be determined: creatinine, prothrombin time, bilirubin, blood platelet count, ALT, AST and ALP. The results of all clinical laboratory tests will be recorded by use of the subject's Case Report Form. Whole blood samples drawn for the multi-analyte blood test will be collected (according to the instructions provided with each sample collection kit) by using the multi-analyte Sample Collection, Stabilization and Shipping Kit, and shipped to a central LAM laboratory for testing. Samples will be assayed by laboratory technicians blinded to the results of any other testing. Within the same clinical visit as the blood draws (when possible), subjects will undergo conventional ultrasound to examine the liver. Every subject will then go on to diagnostic imaging by multiphasic MRI. The results of diagnostic imaging will primarily be scored by LI-RADS score and the number and size of any malignant lesions identified will be recorded. The images of all MRI, CT, or ultrasound will be saved and uploaded for evaluation by a blinded, centralized team of radiologists to confirm diagnosis. Any biopsy results or surgical pathology results that are generated for study subjects as part of current clinical practice will also be recorded.\n\nStudy procedures will consist of conventional ultrasound to examine the liver, providing blood samples for testing with the multi-analyte blood test and other conventional blood analytes, and diagnostic imaging by multiphasic MRI.\n\nUpon enrolling in the study, subjects will commence the Initial Surveillance Visit (t=0 months). During the Initial Surveillance Visit, all enrolled subjects will undergo ultrasound to examine the liver and provide blood samples for the multi-analyte blood test and for determining conventional blood analytes. Every subject will then go on to diagnostic imaging by multiphasic MRI. The results of diagnostic imaging will primarily be scored by a Liver Reporting and Data System (LI-RADS) score. The data of all diagnostic imaging by MRI will be saved and uploaded for evaluation by a blinded, centralized team of radiologists, which will be used as the basis of the clinical truth for all subjects.\n\nAfter the Initial Surveillance Visit (t=0 months), subjects with an indeterminant HCC finding by MRI (LI-RADS 3) will be recommended to up to three Follow-Up Visits (t=6 months, t=12 months, and t=18 months) to attempt to resolve the clinical truth for these subjects. Each Follow-Up Visit will consist of an ultrasound to examine the liver, providing blood samples for the multi-analyte blood test , as well as diagnostic imaging by multiphasic MRI.\n\nAlthough not required by this clinical protocol, any biopsy or surgical pathology results, or any additional imaging (such as multiphasic CT) that are generated for study subjects as part of current clinical practice will also be recorded for each subject and the results shall be made available to the Sponsor if performed within 6 months of a scheduled Visit. Biopsy and surgical pathology results that indicate a malignancy will be used in place of diagnostic imaging as the clinical truth for each subject if performed within 6 months of a scheduled visit and prior to database lock.\n\nAll study-related procedures will occur during the Study Duration Period, which consists of the Initial Surveillance Visit for all subjects and up to three Follow-Up Visits for subjects with an initial indeterminant HCC finding (LI-RADS 3) by diagnostic imaging. After this Study Duration Period, no study related blood draws, imaging or procedures will occur for these subjects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Liver Cirrhosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "OTHER",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 1900,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "men or women between 21-84",
+          "description": "Multi-analyte blood test alone versus ultrasound in subjects diagnosed with liver cirrhosis",
+          "interventionNames": [
+            "Diagnostic Test: Multi-analyte blood Test"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Multi-analyte blood Test",
+          "description": "intended for the qualitative detection of DNA methylation profiles associated with hepatocellular carcinoma in cell-free DNA derived from patient whole blood specimens.",
+          "armGroupLabels": [
+            "men or women between 21-84"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Independent performance measure of sensitivity and specificity of a multi-analyte blood test vs ultrasound",
+          "description": "The primary objective is to compare the performance (sensitivity and specificity) of the multi-analyte blood test alone to ultrasound alone for the detection of liver cancers within a high-risk population.",
+          "timeFrame": "1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Independent performance measure of sensitivity and specificity of a multi-analyte blood test vs ultrasound for the detection of liver cancer lesions that are ≤ 4 cm in diameter.",
+          "description": "To compare the performance (sensitivity and specificity) of the multi-analyte blood test alone to ultrasound alone for the detection of liver cancer lesions that are ≤ 4 cm in diameter.",
+          "timeFrame": "1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject is age 21 to 84 (inclusive)\n* Subject is able to read, comprehend and sign the Informed Consent Document\n* Subject is willing and able to undergo liver cancer surveillance by ultrasound and the multi-analyte blood Test\n* Subject is able and willing to undergo diagnostic imaging by multiphasic MRI with contrast according to the Study Protocol\n* Subject has been diagnosed with liver cirrhosis by one or more of the following methods:\n\n  1. Clinical diagnosis by blood analytes (APRI ≥ 1.5 or Bonacini cirrhosis discriminant score ≥ 8 or Lok index \\> 0.5)\n  2. Ultrasound and Elastography \\> 12.5 kPa (Vibration-controlled transient elastography, Point shear wave elastography, Two-dimensional shear wave ultrasound and transient elastography or Magnetic Resonance Elastography)\n  3. Diagnostic imaging by CT or MRI (liver cirrhosis indicated on radiology report)\n  4. Liver biopsy (liver cirrhosis indicated on pathology report)\n\nExclusion Criteria:\n\n* The study investigator deems the subject's participation to be unsafe due to an underlying medical condition\n* Subject has previously been diagnosed with a primary liver cancer or a non-liver cancer that has metastasized\n* Subject has previously submitted a blood sample to Helio Health (HELIO) through a separate clinical protocol\n* Subject is unable or unwilling to submit blood samples for testing, undergo ultrasound or undergo diagnostic imaging by multiphasic MRI with contrast as required for the Study Protocol\n* Subject has any internal metallic device or fragment, including but not limited to: A pacemaker, artificial joint or valve, surgical clips, pins, plates, screws, wire mesh or shrapnel\n* It is unsafe for the subject to receive an MRI contrast dye due to pregnancy or severe kidney disease\n* Subject would not routinely be recommended for HCC surveillance\n* Subject received an abdominal ultrasound or diagnostic imaging by MRI or CT to image the liver within the past 5 months",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The maximum study duration for any given subject participating in the trial will be approximately 21 months (includes Initial Surveillance Visit and Follow-Up Visits at 6 months, 12 months and 18 months). No study-related lab assessments, imaging or procedures shall be required for any subject after the Study Duration Period.\n\nSubject Eligibility Screening Period: 14 days Study Duration Period: Up to 21 months (includes Initial Surveillance Visit for all subjects and up to three Follow-Up Visits ONLY for subjects with indeterminant findings by diagnostic imaging) The maximum observational window for any subject enrolled in the study is expected to be approximately 21 months (for subjects with indeterminant findings by diagnostic imaging).",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Taggart, PhD",
+          "affiliation": "Helio Genomics",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "AZ Liver Health (Chandler)",
+          "city": "Chandler",
+          "state": "Arizona",
+          "zip": "85224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          }
+        },
+        {
+          "facility": "AZ Liver Health (Glendale, Peoria)",
+          "city": "Peoria",
+          "state": "Arizona",
+          "zip": "85381",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.5806,
+            "lon": -112.23738
+          }
+        },
+        {
+          "facility": "AZ Liver Health (Tucson)",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Banner University Hospital (University of Arizona Tucson)",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Alliance Research Centers",
+          "city": "Irvine",
+          "state": "California",
+          "zip": "92612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.66946,
+            "lon": -117.82311
+          }
+        },
+        {
+          "facility": "University of South California",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "University of Colorado Hospital - Anschutz Cancer Pavilion",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Covenant Metabolic LLC",
+          "city": "Fort Myers",
+          "state": "Florida",
+          "zip": "33012",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          }
+        },
+        {
+          "facility": "University of Florida Clinical and Translational Science Institute",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "University of Miami - Schiff Center for Liver Diseases",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Gastroenterology Group of Naples",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "Covenant Metabolics LLC",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34240",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Atlanta Gastroenterology",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Piedmont Research Institute",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Loyola University Medical Center",
+          "city": "Maywood",
+          "state": "Illinois",
+          "zip": "60153",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.8792,
+            "lon": -87.84312
+          }
+        },
+        {
+          "facility": "St Luke's Hospital of Kansas City",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "64111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "University of Louisville",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Tulane University Health Sciences Center",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Ochsner Clinic Foundation",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Louisiana Research Center, LLC",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "Kansas City Research Institute (KCRI)",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "PMG Research of Winston-Salem",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "University of Cincinnati College of Medicine",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45627",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Gastro One in Memphis",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "Quality Medical",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Liver Center of Texas",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75234",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Methodist Dallas Medical Center",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "79936",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "SouthTexas Research Institute",
+          "city": "Edinburg",
+          "state": "Texas",
+          "zip": "78539",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          }
+        },
+        {
+          "facility": "Texas Gastro Clinic",
+          "city": "El Paso",
+          "state": "Texas",
+          "zip": "79936",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.75872,
+            "lon": -106.48693
+          }
+        },
+        {
+          "facility": "Konkord Research",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Texas Liver Institute - American Research Corp.",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Impact Research Institute",
+          "city": "Waco",
+          "state": "Texas",
+          "zip": "76710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          }
+        },
+        {
+          "facility": "Digestive & Liver Disease Specialists (DLDS) - Norfolk",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "VA Richmond",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23249",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Harborview Medical Center (University of Washington)",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Liver Institute Northwest",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008103",
+          "term": "Liver Cirrhosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

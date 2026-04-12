@@ -1,0 +1,134 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04883073",
+      "nct_id": "NCT04883073",
+      "title": "Impact on Quality of Life of \"Endo-App\" (ELEA)",
+      "official_title": "Impact on Quality of Life by Additional Use of the Digital Health Application \"Endo-App\" to Standard Therapy: Monocentric, Prospective, Randomised Trial (ELEA)",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 300,
+      "start_date": "2023-01-26",
+      "completion_date": "2023-09-01",
+      "conditions": [
+        "Endometriosis",
+        "Endometriosis-related Pain",
+        "Quality of Life"
+      ],
+      "keywords": [
+        "endometriosis",
+        "quality of life",
+        "Endo-App",
+        "EHP-5",
+        "Endometriosis Health Profile",
+        "digital therapeutics"
+      ],
+      "interventions": [
+        {
+          "name": "Use of Endo App",
+          "type": "DEVICE",
+          "description": "Use of Endo App"
+        }
+      ],
+      "lead_sponsor": "University Hospital Muenster",
+      "collaborators": [
+        "Endo Health GmbH"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "monocentric randomized controlled trial enrolment of endometriosis patients from certified endometriosis centers. Randomization to control group (no Endo App use) vs intervention group (Endo App use) 12 weeks use / no use of Endo App. Evaluation of quality of life at onset, at 4, 8 and 12 weeks by using endometriosis health profile (EHP) 5 as a global index. Statistical analysis of global index at the end minus global index at onset between control and intervention group.",
+      "detailed_description": "randomized controlled trial enrolment of patients with diagnosed endometriosis 300 patients in total, 150 patients per group, randomization to control group (no Endo App use) vs intervention group (12 weeks Endo App use). The Endo App is a german language certified medical device which can be used to monitor the disease and gives support by providing complementary, multimodal interventions to standard therapy and is commercially available. Purpose of this study is the evaluation of quality of life at onset and then at 4, 8 and 12 weeks by using endometriosis health profile (EHP) 5 as a global index. The secondary endpoints of this study to evaluate are Fatigue symptoms (FSSsurvey), pain- specific self-efficacy (FESS), difficulty in everyday life due to pain (PDI) and emotional wellbeing (DASS- 21)",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04883073",
+      "_matched_query": "\"Endo-App\"",
+      "_raw_json_path": "evidence/Germany/endo-app/candidates/clinicaltrials/raw/NCT04883073.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'Endo-App' by name multiple times in the title, abstract, and intervention description. The intervention aligns with the described functionality of the Endo-App, and there is no indication that this is about a different product or a generic study.",
+        "matched_elements": [
+          "Endo-App in title",
+          "Endo-App in abstract",
+          "Intervention description matches product functionality"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 100,
+        "reason": "The study explicitly mentions randomization, an interventional design, and comparison between control and intervention groups, which are key indicators of a Randomized Controlled Trial."
+      }
+    },
+    {
+      "study_id": "NCT05528601",
+      "nct_id": "NCT05528601",
+      "title": "Influence of an App on Quality of Life of Women With Endometriosis",
+      "official_title": "Observational Study on the Influence of an App-based Self-management Program on the Quality of Life of Women With Endometriosis",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NON_RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 106,
+      "start_date": "2022-01-01",
+      "completion_date": "2022-01-30",
+      "conditions": [
+        "Endometriosis",
+        "Quality of Life"
+      ],
+      "keywords": [
+        "endometriosis",
+        "quality of life",
+        "smartphone application"
+      ],
+      "interventions": [
+        {
+          "name": "use of Endo App®",
+          "type": "BEHAVIORAL",
+          "description": "use of Endo App® smartphone application containing endometriosis relevant exercises and educational material"
+        }
+      ],
+      "lead_sponsor": "University Hospital Muenster",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "Comparison of quality of life before and after 14 days of use of Endo App® in endometriosis patients compared to non-users",
+      "detailed_description": "Introduction: Endometriosis can significantly impair the quality of life of those affected. Multimodal self-help measures are recommended but often difficult to access. Smartphone apps have been shown to improve quality of life for other conditions with chronic pain. The aim of this study was to examine whether there is evidence of beneficial effects of the Endo-App and whether a multicenter randomized controlled trial should be planned to substantiate these effects.\n\nMethods: In a sample of N=106 women affected by endometriosis the present study determined the influence of the use of a smartphone app (Endo-App ®) on their quality of life. Among others, the validated questionnaire Endometriosis Health Profile from Oxford University was used for this purpose.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05528601",
+      "_matched_query": "\"Endo-App\"",
+      "_raw_json_path": "evidence/Germany/endo-app/candidates/clinicaltrials/raw/NCT05528601.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'Endo App®', which is a clear variation of 'Endo-App', and the intervention description matches the product's features, including endometriosis-related exercises and educational material. There is no indication that this is about a different product or a generic study.",
+        "matched_elements": [
+          "Endo App® in title and abstract",
+          "Intervention description matches Endo-App features"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "The study is interventional and involves a comparison between users and non-users of the app, suggesting a controlled design. However, randomization and blinding are not explicitly mentioned, lowering confidence slightly."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T19:30:31.653381Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

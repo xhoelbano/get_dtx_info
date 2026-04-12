@@ -1,0 +1,345 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04822506",
+      "orgStudyIdInfo": {
+        "id": "2019XZZX-ZJ0011"
+      },
+      "organization": {
+        "fullName": "Shanghai Yueyang Integrated Medicine Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "PEA Promote Gastrointestinal Function Recovered After Colorectal Cancer Operation",
+      "officialTitle": "Perioperative Electroacupuncture Promotes Early Gastrointestinal Function Rehabilitation After Radical Resection of Colorectal Cancer: a Pilot Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-01",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-10-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-02-23",
+      "studyFirstSubmitQcDate": "2021-03-29",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-01-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-01-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shanghai Yueyang Integrated Medicine Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To investigate whether perioperative electroacupuncture is more effective than postoperative electroacupuncture in improving gastrointestinal function after colorectal cancer operation",
+      "detailedDescription": "Although there are large intestine cancer postoperative clinical research of acupuncture, but fewer sample size, whether perioperative acupuncture intervention is superior to the postoperative acupuncture intervention, remains to be seen, so investigators proposed to carry out the preliminary experiment, the data can be collected according to the different characteristics of perioperative, perioperative choose different acupoints compatibility, give full play to the needle medicine compound anesthesia in colorectal cancer surgery play a unique function of viscera protection, to explore the curative in colorectal cancer surgery perioperative intervened to promote the role of gastrointestinal function after surgery for early rehabilitation provides evidence-based medical evidence, develop and optimize the acupuncture and drugs combined anesthesia in colorectal cancer surgery perioperative application of specification, It promoted the establishment of the first treatment mode of \"accelerated recovery in perioperative period of colorectal cancer operation based on combined acupuncture and drug anesthesia\""
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Colorectal Cancer"
+      ],
+      "keywords": [
+        "electroacupuncture",
+        "ERAS",
+        "Gastrointesinal function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Routine perioperative management and PEA",
+          "type": "EXPERIMENTAL",
+          "description": "Routine perioperative management and perioperative electroacupuncture (preoperative, intraoperative, postoperative)；",
+          "interventionNames": [
+            "Procedure: Routine perioperative management and PEA"
+          ]
+        },
+        {
+          "label": "Routine perioperative management and postEA",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Routine perioperative management and postoperative electroacupuncture",
+          "interventionNames": [
+            "Procedure: Routine perioperative management and postEA"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Routine perioperative management and PEA",
+          "description": "Routine perioperative management： All patients were given perioperative fluid rehydration and nutritional support to correct acid-base imbalance, electrolyte disturbance, anti-infection, hemostasis and other symptomatic treatment； electroacupuncture protocol： Preoperation:RN 6 + RN 4 +ST30 + ST 36+ Hegu (bilateral),De qi, electroacupuncture, continuous wave, 5Hz, 30min before surgery at 19:00 PM Inoperatively: LI 4+ PC 6 + ST36 + GB 34 (bilateral) ,Deqi, electroacupuncture with density wave, 2/100Hz, 30 minutes before operation to the end of the operation Postoperative: LI 4 +SJ 6 + ST 6 + ST 37(Left);LI 4 +SJ 6 + ST 6 + ST 37(Right)(alternated on both sides per 12h) Deqi, electroacupuncture, continuous wave, 5Hz, 30min,19:00 on the left side and 07:00 on the next day after surgery,until to first flatus (FF)",
+          "armGroupLabels": [
+            "Routine perioperative management and PEA"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Routine perioperative management and postEA",
+          "description": "Routine perioperative management： All patients were given perioperative fluid rehydration and nutritional support to correct acid-base imbalance, electrolyte disturbance, anti-infection, hemostasis and other symptomatic treatment； electroacupuncture protocol： Postoperative: LI 4 +SJ 6 + ST 6 + ST 37(Left);LI 4 +SJ 6 + ST 6 + ST 37(Right)(alternated on both sides per 12h) Deqi, electroacupuncture, continuous wave, 5Hz, 30min,19:00 on the left side and 07:00 on the next day after surgery,until to first flatus (FF)",
+          "armGroupLabels": [
+            "Routine perioperative management and postEA"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "time to first flatus (TFF)",
+          "description": "time to first flatus",
+          "timeFrame": "Day 3"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Recovery time of postoperative bowel sounds",
+          "description": "The enteric voice continuous auscultation recorder was used to monitor immediately after operation, and the time to the end of operation was calculated",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Time of first postoperative defecation",
+          "description": "Patients self-report their defecation and doctors record the time",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Dietary recovery",
+          "description": "First time of water intake, tolerance to liquid diet time, tolerance to solid diet time",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Postoperative gastrointestinal dysfunction",
+          "description": "Duration and frequency of postoperative appearance: nausea, emesis,ventosity",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Quality of life scale 1",
+          "description": "EORTC QLQ-C30（Version 3.0 European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (standard score, SS, range from 0 to 100, higher scores mean a better outcome);",
+          "timeFrame": "\"Day 0\"，\"Day 3\"，\"Day 7\""
+        },
+        {
+          "measure": "Quality of life scale 2",
+          "description": "SF-36(Chinese version),The Short Form (36) Health Survey,( The SF-36 consists of eight scaled scores, which are the weighted sums of the questions in their section. Each scale is directly transformed into a 0-100 scale on the assumption that each question carries equal weight. The lower the score the more disability. The higher the score the less disability)",
+          "timeFrame": "\"Day 0\"，\"Day 3\"，\"Day 7\""
+        },
+        {
+          "measure": "Postperation pain",
+          "description": "VAS,Visual analogy score (0 to 10,higher scores mean a worse outcome)",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "Motor function",
+          "description": "Walking independently after surgery",
+          "timeFrame": "Day 3"
+        },
+        {
+          "measure": "LOS(length of stay)",
+          "description": "From admission to discharge",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Biochemical indexes",
+          "description": "C-reactive protein(CRP)，motilin(MTL).Gastrin(GAS),vasoactive peptide(VIP)",
+          "timeFrame": "\"Day 0\"，\"Day 3\""
+        },
+        {
+          "measure": "Biochemical indexes 1",
+          "description": "C-reactive protein(CRP, ug/L)",
+          "timeFrame": "\"Day 0\"，\"Day 3\""
+        },
+        {
+          "measure": "Biochemical indexes 2",
+          "description": "Motilin(MTL, ng/L)",
+          "timeFrame": "\"Day 0\"，\"Day 3\""
+        },
+        {
+          "measure": "Biochemical indexes 3",
+          "description": "Gastrin(GAS, ng/L)",
+          "timeFrame": "\"Day 0\"，\"Day 3\""
+        },
+        {
+          "measure": "Biochemical indexes 4",
+          "description": "vasoactive peptide(VIP, pg/L)",
+          "timeFrame": "\"Day 0\"，\"Day 3\""
+        },
+        {
+          "measure": "Adverse Event Assessment",
+          "description": "Any adverse events in the study",
+          "timeFrame": "\"Day 0\"，\"Day 3\"，\"Day 7\""
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients who meet the diagnostic criteria of colorectal cancer and need elective radical resection of colorectal cancer;\n2. 18≤ age≤79, gender is not limited;\n3. Understand and agree to participate in the study and sign the informed consent;\n4. No previous history of abdominal surgery and no abdominal adhesion;\n\nExclusion Criteria:\n\n1. Patients with mental illness;\n2. Patients requiring combined resection of other organs;\n3. Participated in or is participating in other clinical researchers in the previous 3 months\n4. People who have received acupuncture (including electroacupuncture) in the past;\n5. Other treatment options are being used (chemotherapy, radiotherapy, etc.) Those who meet any of the above criteria will be excluded from the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "79 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ke Wang, PhD",
+          "role": "CONTACT",
+          "phone": "021-65161782",
+          "phoneExt": "+86",
+          "email": "wangke8430@163.com"
+        },
+        {
+          "name": "Xuqiang Wei, PhD",
+          "role": "CONTACT",
+          "phone": "15871123824",
+          "phoneExt": "+86",
+          "email": "wxqzdyx123@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jia Zhou, MD",
+          "affiliation": "Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of TCM",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jia Zhou, M.D.",
+              "role": "CONTACT",
+              "email": "pdzhoujia@163.com"
+            },
+            {
+              "name": "Ke Wang, Ph D",
+              "role": "CONTACT",
+              "email": "wangke8430@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Through the article publication",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "timeFrame": "6 month later for one year",
+      "accessCriteria": "contact with the principal investigator"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007414",
+          "term": "Intestinal Neoplasms"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        },
+        {
+          "id": "D003108",
+          "term": "Colonic Diseases"
+        },
+        {
+          "id": "D007410",
+          "term": "Intestinal Diseases"
+        },
+        {
+          "id": "D012002",
+          "term": "Rectal Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

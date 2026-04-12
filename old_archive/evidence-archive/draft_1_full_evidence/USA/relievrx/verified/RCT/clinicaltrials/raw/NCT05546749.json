@@ -1,0 +1,1535 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05546749",
+      "orgStudyIdInfo": {
+        "id": "2022-14257"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01DA060796-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R01DA060796-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Albert Einstein College of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Virtual Reality for Chronic Pain and Opioid Use Disorder Pilot",
+      "officialTitle": "Virtual Reality Treatment in a Methadone Maintenance Treatment Program for Chronic Pain and Opioid Use Disorder"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-02-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-09-13",
+      "studyFirstSubmitQcDate": "2022-09-15",
+      "studyFirstPostDateStruct": {
+        "date": "2022-09-21",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-01-09",
+      "resultsFirstSubmitQcDate": "2025-02-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-03-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Albert Einstein College of Medicine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a pilot feasibility study of a virtual reality device for patients with co-morbid chronic pain and opioid use disorder.",
+      "detailedDescription": "The investigators will conduct a study of patients with co-morbid chronic pain and opioid use disorder enrolled in a methadone maintenance treatment program (MMTP) to pilot device feasibility and measure changes in pain intensity and opioid craving. All patients will be randomized to one of each of the following arms: 1) RelieVRx (intervention group) or 2) Non-immersive sham VR (control group).\n\nThe intervention being piloted is the RelieVRx - AppliedVR, Los Angeles, California - VR hardware and software. RelieVRx incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences.\n\nRelieVRx is typically delivered in a 56-day program through daily virtual experiences, with each experience lasting between 2 and 16 minutes. In this pilot study, the investigators will conduct virtual experiences twice weekly at the MMTP. Over 6 weeks, participants in both groups will participate in 20-30 minute VR sessions twice per week. Each session will last about 20-30 minutes and go through 1-5 virtual experiences. The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx. Control participants will similarly experience 1-5 virtual experiences in each 20-30 session."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Pain",
+        "Opioid Use Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 18,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "RelieVRx",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.",
+          "interventionNames": [
+            "Device: RelieVRx"
+          ]
+        },
+        {
+          "label": "Sham Virtual Reality",
+          "type": "SHAM_COMPARATOR",
+          "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.",
+          "interventionNames": [
+            "Device: Sham VR"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "RelieVRx",
+          "description": "The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences.",
+          "armGroupLabels": [
+            "RelieVRx"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham VR",
+          "description": "The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx.",
+          "armGroupLabels": [
+            "Sham Virtual Reality"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Pain Intensity",
+          "description": "Change in Pain Intensity from baseline was assessed using the single items Patient-Reported Outcomes Measurement Information System (PROMIS) pain intensity scale. Patients were asked to assess their average pain over the past 7 days on an 11-point Likert scale ranging from 0-10 where 0 = no pain and 10 = worst pain imaginable. Positive mean scores were associated with increased pain intensity from baseline and negative mean scores were associated with decreased pain intensity from baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Opioid Craving",
+          "description": "Change in Opioid Craving was assessed using the Opioid Medication Craving Visual Analog Scale. This 3-item scale asked participants to rate how strong their desire to use opioids was during the previous 24 hours; the likelihood that they would use opioids if placed in the environment in which they had previously used drugs/alcohol; and how strong their urges for opioids are when something in their environment reminds them of it. Responses were marked on visual scale ranging from 0-100 where \"0\" signified 'No Desire or Likelihood of Use' and \"100\" signified 'Strong Desire or Likelihood of use. Positive mean scores were associated with increased opioid craving from baseline and negative mean scores were associated with decreased opioid craving from baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Percentage of Participants Contacted That Are Enrolled",
+          "description": "The percentage of participants contacted who were enrolled into the study was used to assess the feasibility of the study. Results were summarized using basic descriptive statistics.",
+          "timeFrame": "Baseline, up to 2 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Pain Interference",
+          "description": "Change in pain interference was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Pain Interference Short Form 4a scale. This form consists of 4 items which asked participants to rate the degree to which their pain interfered with a range of activities over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Not at all\" = 0 to \"Very much\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with greater pain interference. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater pain interference relative to baseline and negative mean scores were associated with reduced pain interference relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Sleep",
+          "description": "Change in sleep was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Sleep Disturbance Short Form 6a. This form consists of 6 items which asked participants to assess quality and attributes of their sleep patterns over the prior 7 days. Response options for the sleep quality item range from \"Very poor\" = 1 to \"Very good = 5\" and from \"Not at all\" = 1 to \"Very much\" = 5 for the remaining five items. The two positively phrased items are reverse-coded and sum scores are calculated and the raw sum score is rescaled on the PROMIS conversion table to determine a standardized T-score (overall mean of 50 and standard deviation of 10). For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater sleep disturbance and decreased overall sleep quality relative to baseline and negative mean scores were associated with decreased sleep disturbance and increased overall sleep quality relative to baseline.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Cognitive Function",
+          "description": "Change in cognitive function was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS 29) Cognitive Function domain form. This form consists of 2 questions which asked participants to assess cognitive function over the prior 7 days. Both questions for this measure are summed up on a 5-point Likert scale ranging from \"Not at all\" to \"Very much\" = 4, for an overall possible scoring range of 0-8 such that higher scores are associated with increased overall cognitive function. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with increased overall cognitive function from baseline and negative mean scores were associated with decreased overall cognitive function from baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Social Function",
+          "description": "Change in social function was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Social 4a Heal form. This form consists of 4 items which asked participants to assess their leisure, family, work and general social function behaviors over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Never\" = 0 to \"Always\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with increased inhibition in social function/participation. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with decreased inhibition to social participation relative to baseline and negative mean scores were associated with increased inhibition to social participation relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Physical Function",
+          "description": "Change in physical function was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Social 6b Heal form. This form consists of 6 items which asked participants to assess their physical function and ability to conduct chores, climb stairs, walk, and run errands. Responses to the 6 items are summed up on a 5-point Likert scale ranging from \"Without any difficulty\" (or \"Not at all\") = 0 to \"Unable to do\" (or \"Cannot do\") = 4, for an overall possible scoring range of 0-24 such that higher scores are associated with increased inhibition in physical function. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with decreased inhibition in physical function relative to baseline and negative mean scores were associated with increased inhibition in physical function relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Depression",
+          "description": "Change in depression was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Depression 4a Heal form. This form consists of 4 items which asked participants to assess the frequency of depressive symptoms over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Never\" = 0 to \"Always\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with a greater level of depression-related symptoms. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater frequency of depression-related symptoms relative to baseline and negative mean scores were associated with reduced frequency of depression-related symptoms relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Anxiety",
+          "description": "Change in anxiety was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Anxiety 4a Heal form. This form consists of 4 items which asked participants to assess the frequency of onset of anxiety-related symptoms over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Never\" = 0 to \"Always\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with a greater level of anxiety-related symptoms. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater frequency of anxiety symptoms relative to baseline and negative mean scores were associated with reduced frequency of anxiety symptoms relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in Stress",
+          "description": "Change in stress was assessed using the National Institutes of Health (NIH) Perceived Stress Scale (PSS-10) which consists of 10 items asking participants to assess the frequency of onset of stress-related symptoms over the prior month on a 5-item Likert scale ranging from 0-4. Six of the ten items are coded such that \"Never\" = 0 and \"Very often\" = 4; and four of the ten items are reverse-coded such that \"Never\" =4 and \"Very often\" = 0, for an overall scoring range of 0-40. The higher the score the worse the perceived stress. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater frequency of stress relative to baseline and negative mean scores were associated with reduced frequency of stress relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "timeFrame": "From baseline to 6 weeks"
+        },
+        {
+          "measure": "Change in Salivary Cortisol",
+          "description": "The investigators will collect saliva the morning of each time frame and test for cortisol, which is a chronic pain inflammatory biomarker. Higher levels of salivary cortisol may indicate greater chronic pain symptoms.",
+          "timeFrame": "baseline, 3 weeks, 6 weeks"
+        },
+        {
+          "measure": "Change in Serum Cortisol",
+          "description": "The investigators will collect blood and urine samples at each time frame and test for serum cortisol, which is a chronic pain inflammatory biomarker. Higher levels of serum cortisol may indicate greater chronic pain symptoms.",
+          "timeFrame": "baseline, 3 weeks, 6 weeks"
+        },
+        {
+          "measure": "Change in Serum C-reactive Protein",
+          "description": "The investigators will collect blood samples at each time frame and test for serum c-reactive protein, which is a chronic pain inflammatory biomarker. Higher levels of serum c-reactive protein may indicate greater chronic pain symptoms.",
+          "timeFrame": "baseline, 3 weeks, 6 weeks"
+        },
+        {
+          "measure": "Change in Serum Cytokines",
+          "description": "The investigators will collect blood samples at each time frame and test for serum cytokines, which is a chronic pain inflammatory biomarker. Higher levels of serum c-reactive protein may indicate greater chronic pain symptoms.",
+          "timeFrame": "baseline, 3 weeks, 6 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥18 years old\n2. English proficiency\n3. receiving methadone treatment for DSM-5 (Diagnostic and Statistical Manual of Mental Disorders, 5th Edition) confirmed Opioid Use Disorder (OUD) in the Montefiore network for at least 12 weeks, with no dose change in 14 days to ensure treatment stability\n4. chronic pain of at least moderate pain severity (score ≥4 on the Pain, Enjoyment of Life, and General Activity (PEG) scale)\n5. willingness to participate in all study components\n6. ability to provide informed consent, assessed using consent teach-back\n\nExclusion Criteria:\n\n1. conditions that could make participation in VR hazardous or cause adverse effects (current or prior diagnosis of epilepsy, seizure disorder, dementia, or migraines, any medical condition predisposing to nausea or dizziness, hypersensitivity to flashing light or motion)\n2. conditions that could prevent proper use of the VR headset (stereoscopic vision or severe hearing impairment, or injury to eyes, face, or neck that prevents use of the VR headset)\n3. acute exacerbation of psychiatric conditions that preclude the ability to participate in the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hector Perez, MD, MS",
+          "affiliation": "Albert Einstein College of Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Melrose Clinic",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10451",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "RelieVRx",
+          "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+        },
+        {
+          "id": "FG001",
+          "title": "Sham Virtual Reality",
+          "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "8"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "RelieVRx",
+          "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+        },
+        {
+          "id": "BG001",
+          "title": "Sham Virtual Reality",
+          "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "10"
+            },
+            {
+              "groupId": "BG001",
+              "value": "8"
+            },
+            {
+              "groupId": "BG002",
+              "value": "18"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59.5",
+                      "spread": "5.3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "60.3",
+                      "spread": "8.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59.8",
+                      "spread": "6.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White, non-Hispanic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Black, non Hispanic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hispanic, any race",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education",
+          "description": "The number of participants who did not complete High School (HS), completed their General Educational Development (GED) or equivalent, received their HS diploma, or completed 1 or more years of college/university were summarized by study arm.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Did not complete High School (HS)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Completed GED or equivalent",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Received HS diploma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Completed 1 or more years of college/university",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pain impact (PEG score)",
+          "description": "Pain, Enjoyment of Life, and General Activity (PEG) scale scores were obtained at baseline. The PEG score is a 3-item pain assessment tool that measures the impact of pain intensity and interference on a participant's daily life. The PEG score is calculated by averaging the responses to three questions each on a scale of 0-10. Higher average (mean) scores are associated with increased impact of pain on a participant's life. Scores were summarized by study arm using basic descriptive statistics.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "score on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7.67",
+                      "spread": "1.67"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6.71",
+                      "spread": "1.86"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7.24",
+                      "spread": "1.78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Pain Intensity",
+          "description": "Change in Pain Intensity from baseline was assessed using the single items Patient-Reported Outcomes Measurement Information System (PROMIS) pain intensity scale. Patients were asked to assess their average pain over the past 7 days on an 11-point Likert scale ranging from 0-10 where 0 = no pain and 10 = worst pain imaginable. Positive mean scores were associated with increased pain intensity from baseline and negative mean scores were associated with decreased pain intensity from baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.38",
+                      "spread": "1.69"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.33",
+                      "spread": "2.66"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A mixed effects model was performed to predict pain intensity by arm at weeks 3 and 6, controlling for baseline pain intensity score.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.17",
+              "statisticalMethod": "Mixed Models Analysis",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-1.28",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-3.1",
+              "ciUpperLimit": "0.54",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": ".93"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Change in Opioid Craving",
+          "description": "Change in Opioid Craving was assessed using the Opioid Medication Craving Visual Analog Scale. This 3-item scale asked participants to rate how strong their desire to use opioids was during the previous 24 hours; the likelihood that they would use opioids if placed in the environment in which they had previously used drugs/alcohol; and how strong their urges for opioids are when something in their environment reminds them of it. Responses were marked on visual scale ranging from 0-100 where \"0\" signified 'No Desire or Likelihood of Use' and \"100\" signified 'Strong Desire or Likelihood of use. Positive mean scores were associated with increased opioid craving from baseline and negative mean scores were associated with decreased opioid craving from baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.86",
+                      "spread": "30.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.17",
+                      "spread": "17.44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A mixed effects model was used to predict opioid craving score by arm at weeks 3 and 6, controlling for baseline opioid craving score.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.32",
+              "statisticalMethod": "Mixed Models Analysis",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-13.6",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-40.3",
+              "ciUpperLimit": "13.1",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "13.6"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Contacted That Are Enrolled",
+          "description": "The percentage of participants contacted who were enrolled into the study was used to assess the feasibility of the study. Results were summarized using basic descriptive statistics.",
+          "populationDescription": "All participants who were contacted enrolled into the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline, up to 2 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "8"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Pain Interference",
+          "description": "Change in pain interference was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Pain Interference Short Form 4a scale. This form consists of 4 items which asked participants to rate the degree to which their pain interfered with a range of activities over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Not at all\" = 0 to \"Very much\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with greater pain interference. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater pain interference relative to baseline and negative mean scores were associated with reduced pain interference relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Pain Interference (PROMIS, Pain Interference 4a) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.25",
+                      "spread": "8.43"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.67",
+                      "spread": "5.20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Sleep",
+          "description": "Change in sleep was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Sleep Disturbance Short Form 6a. This form consists of 6 items which asked participants to assess quality and attributes of their sleep patterns over the prior 7 days. Response options for the sleep quality item range from \"Very poor\" = 1 to \"Very good = 5\" and from \"Not at all\" = 1 to \"Very much\" = 5 for the remaining five items. The two positively phrased items are reverse-coded and sum scores are calculated and the raw sum score is rescaled on the PROMIS conversion table to determine a standardized T-score (overall mean of 50 and standard deviation of 10). For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater sleep disturbance and decreased overall sleep quality relative to baseline and negative mean scores were associated with decreased sleep disturbance and increased overall sleep quality relative to baseline.",
+          "populationDescription": "3-week Sleep (PROMIS, Sleep Disturbance 6a) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "spread": "8.52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3",
+                      "spread": "3.90"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Cognitive Function",
+          "description": "Change in cognitive function was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS 29) Cognitive Function domain form. This form consists of 2 questions which asked participants to assess cognitive function over the prior 7 days. Both questions for this measure are summed up on a 5-point Likert scale ranging from \"Not at all\" to \"Very much\" = 4, for an overall possible scoring range of 0-8 such that higher scores are associated with increased overall cognitive function. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with increased overall cognitive function from baseline and negative mean scores were associated with decreased overall cognitive function from baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Cognitive Function (PROMIS 29 Cognitive Function) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.5",
+                      "spread": "3.25"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.67",
+                      "spread": "2.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Social Function",
+          "description": "Change in social function was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Social 4a Heal form. This form consists of 4 items which asked participants to assess their leisure, family, work and general social function behaviors over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Never\" = 0 to \"Always\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with increased inhibition in social function/participation. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with decreased inhibition to social participation relative to baseline and negative mean scores were associated with increased inhibition to social participation relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Social Function (PROMIS, Social 4a Heal) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2",
+                      "spread": "3.51"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.333",
+                      "spread": "3.44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Physical Function",
+          "description": "Change in physical function was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Social 6b Heal form. This form consists of 6 items which asked participants to assess their physical function and ability to conduct chores, climb stairs, walk, and run errands. Responses to the 6 items are summed up on a 5-point Likert scale ranging from \"Without any difficulty\" (or \"Not at all\") = 0 to \"Unable to do\" (or \"Cannot do\") = 4, for an overall possible scoring range of 0-24 such that higher scores are associated with increased inhibition in physical function. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with decreased inhibition in physical function relative to baseline and negative mean scores were associated with increased inhibition in physical function relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Physical Function (PROMIS, Social 6b Heal) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.13",
+                      "spread": "5.38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.83",
+                      "spread": "3.49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Depression",
+          "description": "Change in depression was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Depression 4a Heal form. This form consists of 4 items which asked participants to assess the frequency of depressive symptoms over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Never\" = 0 to \"Always\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with a greater level of depression-related symptoms. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater frequency of depression-related symptoms relative to baseline and negative mean scores were associated with reduced frequency of depression-related symptoms relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Depression (PROMIS, Depression 4a Heal) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.38",
+                      "spread": "5.01"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.5",
+                      "spread": "4.46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Anxiety",
+          "description": "Change in anxiety was assessed using the Patient-Reported Outcomes Measurement Information System (PROMIS) Anxiety 4a Heal form. This form consists of 4 items which asked participants to assess the frequency of onset of anxiety-related symptoms over the prior 7 days. Responses to the 4 items are summed up on a 5-point Likert scale ranging from \"Never\" = 0 to \"Always\" = 4, for an overall possible scoring range of 0-16 such that higher scores are associated with a greater level of anxiety-related symptoms. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater frequency of anxiety symptoms relative to baseline and negative mean scores were associated with reduced frequency of anxiety symptoms relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Anxiety (PROMIS, Anxiety 4a Heal) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.88",
+                      "spread": "6.64"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.0",
+                      "spread": "4.34"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Stress",
+          "description": "Change in stress was assessed using the National Institutes of Health (NIH) Perceived Stress Scale (PSS-10) which consists of 10 items asking participants to assess the frequency of onset of stress-related symptoms over the prior month on a 5-item Likert scale ranging from 0-4. Six of the ten items are coded such that \"Never\" = 0 and \"Very often\" = 4; and four of the ten items are reverse-coded such that \"Never\" =4 and \"Very often\" = 0, for an overall scoring range of 0-40. The higher the score the worse the perceived stress. For purposes of reporting of this change from baseline outcome measure, positive mean scores were associated with greater frequency of stress relative to baseline and negative mean scores were associated with reduced frequency of stress relative to baseline. Scores were summarized by study arm using basic descriptive statistics.",
+          "populationDescription": "3-week Stress (NIH Perceived Stress Scale) data was not collected and, therefore, results were not available to be reported. 8 participants in the RelieVRx arm and 6 participants in the Sham Virtual Reality arm completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "From baseline to 6 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "RelieVRx",
+              "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences."
+            },
+            {
+              "id": "OG001",
+              "title": "Sham Virtual Reality",
+              "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.13",
+                      "spread": "8.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.17",
+                      "spread": "15.70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "We performed a mixed effects model to predict stress score at week 6 by arm, controlling for baseline stress score.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.137",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-9.7",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-23.1",
+              "ciUpperLimit": "3.6",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "6.1",
+              "estimateComment": "RelieVRx was associated with lower stress score."
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Salivary Cortisol",
+          "description": "The investigators will collect saliva the morning of each time frame and test for cortisol, which is a chronic pain inflammatory biomarker. Higher levels of salivary cortisol may indicate greater chronic pain symptoms.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "baseline, 3 weeks, 6 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Serum Cortisol",
+          "description": "The investigators will collect blood and urine samples at each time frame and test for serum cortisol, which is a chronic pain inflammatory biomarker. Higher levels of serum cortisol may indicate greater chronic pain symptoms.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "baseline, 3 weeks, 6 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Serum C-reactive Protein",
+          "description": "The investigators will collect blood samples at each time frame and test for serum c-reactive protein, which is a chronic pain inflammatory biomarker. Higher levels of serum c-reactive protein may indicate greater chronic pain symptoms.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "baseline, 3 weeks, 6 weeks",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Change in Serum Cytokines",
+          "description": "The investigators will collect blood samples at each time frame and test for serum cytokines, which is a chronic pain inflammatory biomarker. Higher levels of serum c-reactive protein may indicate greater chronic pain symptoms.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "baseline, 3 weeks, 6 weeks",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Approximately 6 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "RelieVRx",
+          "description": "RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences. Participants in the intervention group will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nRelieVRx: The virtual reality device that will be piloted is called RelieVRx, which incorporates evidence-based principles of cognitive behavioral therapy, mindfulness, and pain neuroscience education into an immersive and enhanced biofeedback experience. RelieVRx includes breathing training and relaxation response exercises that activate the parasympathetic nervous system. RelieVRx was designed for at-home use and comes with a sequence of daily immersive experiences.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 10,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 10,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 10
+        },
+        {
+          "id": "EG001",
+          "title": "Sham Virtual Reality",
+          "description": "The sham virtual reality (VR) device is also by RelieVRx. However, it lacks the immersive nature of the interventional VR. Control participants will complete 20-30 minute VR sessions twice per week over the course of 6 weeks.\n\nSham VR: The sham VR control is a non-immersive set of 56 daily virtual experiences, tuned to the length of the RelieVRx.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 8,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 8,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 8
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant vomited during blood draw during last visit.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 10
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 8
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Hector Perez",
+        "organization": "Albert Einstein College of Medicine",
+        "email": "heperez@montefiore.org",
+        "phone": "7189205756"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2023-04-20",
+          "uploadDate": "2024-10-22T22:56",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 261420
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-02-03",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059350",
+          "term": "Chronic Pain"
+        },
+        {
+          "id": "D009293",
+          "term": "Opioid-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D000079524",
+          "term": "Narcotic-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

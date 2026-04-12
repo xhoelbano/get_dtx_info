@@ -1,0 +1,432 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06949774",
+      "orgStudyIdInfo": {
+        "id": "R01MH135751",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/R01MH135751"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01MH135751",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01MH135751"
+        }
+      ],
+      "organization": {
+        "fullName": "RAND",
+        "class": "OTHER"
+      },
+      "briefTitle": "INcentives and ReMINDers to Improve Long-term Medication Adherence (INMIND)",
+      "officialTitle": "INcentives and ReMINDers to Improve Long-term Medication Adherence",
+      "acronym": "INMIND"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-04-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-10-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-22",
+      "studyFirstSubmitQcDate": "2025-04-22",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sebastian Linnemayr",
+        "investigatorTitle": "Senior Economist; Professor, RAND Pardee Graduate School",
+        "investigatorAffiliation": "RAND"
+      },
+      "leadSponsor": {
+        "name": "RAND",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Arizona State University",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute of Mental Health (NIMH)",
+          "class": "NIH"
+        },
+        {
+          "name": "Mildmay Uganda Limited",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Low medication adherence when initiating antiretroviral treatment (ART) is a key barrier to HIV virologic suppression, resulting in avoidable cases of drug resistance, death, and viral transmission. Routinized pill-taking can lead to successful long-term ART adherence, and short-term behavioral economics-based supports are a novel way to overcome the limited success of existing routinization interventions. This study proposes to test this combined approach for promoting long-term ART adherence using a Stage III Sequential, Multiple Assignment, Randomized Trial (SMART) design in one of the largest HIV clinics in Uganda to identify the most cost-effective adaptive intervention that if found effective is generalizable to other settings and other chronic diseases.",
+      "detailedDescription": "Building on a previous R34 study, the investigators will adapt and deliver the INMIND approach to 550 ART initiators at Mildmay. Participants will initially be randomized to receive either usual care (Control, n=275) or daily text messages (Messages, n=275) to support adherence routines. At months 1 and 2, participants may revise their adherence plans. Those showing \\<80% adherence in month 3 will be re-randomized to receive either monthly or monthly escalated prize incentives for the next three months. Adherence will be monitored for an additional 12 months (total follow-up: 18 months) to assess long-term routine maintenance and recovery after interruptions. The SMART design will help identify the most cost-effective intervention sequencing. A cost-effectiveness analysis and stakeholder dissemination will support future scale-up. The investigators hypothesize that Messages will be more effective than Control as a first-stage treatment; that monthly escalated prizes will be more effective than monthly prizes as a second-stage treatment; and that the mechanisms of lack of Salience and Present Bias will mediate the effect of INMIND on our primary and secondary outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV/AIDS",
+        "Medication Adherence",
+        "Habits"
+      ],
+      "keywords": [
+        "Behavioral: Daily Text Messages",
+        "Behavioral: Incentivization based on"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "At recruitment, participants will be randomized to one of two low-intensity components (Control or Messages). Those not showing progress towards routinization (defined as pill-taking in line with their anchoring plan on fewer than 80% of days during study month three) will be re-randomized to one of two higher-intensity components (monthly or monthly escalated prizes), ensuring that even participants who do not show routinization progress at month three will have a full three months in the second stage to form a strong ART adherence routine. The second-stage incentives will be given out as prize drawings, as BE shows that they leverage the bias of overestimation of small probabilities and take advantage of the motivational power and joy of games of chance.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 550,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Phase B Stage 1: Control",
+          "type": "NO_INTERVENTION",
+          "description": "This arm will receive care as usual, including the adherence support mechanisms that are part of usual care practices. At recruitment participant will be explained the importance of pill-taking. All participants (including in the control group) will receive a leaflet containing detailed information on how to establish healthy pill-taking routines. Finally, clinic staff will counsel participants on how to select an already existing routine behavior that occurs at roughly the same time each day that forms the basis of their implementation plan."
+        },
+        {
+          "label": "Phase B Stage 1: Intervention group receiving messages (Messages group)",
+          "type": "EXPERIMENTAL",
+          "description": "The Messages group will receive the same brief information session as the Control group but also receive daily text messages reinforcing the information provided at the recruitment visit and reminders of their personalized routinization strategy.",
+          "interventionNames": [
+            "Behavioral: Daily Text Messages"
+          ]
+        },
+        {
+          "label": "Phase B Stage 2: Intervention group receiving messages and incentives (Monthly prize draws)",
+          "type": "EXPERIMENTAL",
+          "description": "First-stage non-responders will be re-randomized to the monthly prize draw group, where they may become eligible for a small prize each month for three months of the intervention if they take their ART pills within one hour of the time, they carry out their existing routine as stated in their anchoring plan for at least 80% of the days in that month. The prizes at each monthly drawing will be worth 1,000; 5,000; or 10,000 Uganda Shillings. Participants who were receiving messages will continue to receive messages as before.",
+          "interventionNames": [
+            "Behavioral: Daily Text Messages",
+            "Behavioral: Incentivization based on timely ART adherence"
+          ]
+        },
+        {
+          "label": "Phase B Stage 2: Intervention group receiving messages and incentives (Monthly escalated Prizes)",
+          "type": "EXPERIMENTAL",
+          "description": "First-stage non-responders will be re-randomized to the monthly escalating prizes group, where they may become eligible for a small prize each month for three months of the intervention if they take their ART pills for at least 80% of the days in that month. In the first month, the prize will be worth 1,000 Uganda Shillings. If they are consistent, the prize amount will increase to 5,000 Uganda Shillings in the second month and 10,000 Uganda Shillings in the third month. However, if they do not achieve the 80% adherence level, they will be reset to only receive 1,000 Uganda Shillings in that month. Participants in this group who have been receiving messages will continue to receive messages as before.",
+          "interventionNames": [
+            "Behavioral: Daily Text Messages",
+            "Behavioral: Incentivization based on timely ART adherence"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Daily Text Messages",
+          "description": "Participants will receive daily text message reminders to use their routine behavior to trigger medication adherence.",
+          "armGroupLabels": [
+            "Phase B Stage 1: Intervention group receiving messages (Messages group)",
+            "Phase B Stage 2: Intervention group receiving messages and incentives (Monthly escalated Prizes)",
+            "Phase B Stage 2: Intervention group receiving messages and incentives (Monthly prize draws)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Incentivization based on timely ART adherence",
+          "description": "Participants will be eligible to (draw a prize in monthly prize group) or get a monthly prize (monthly escalated group) if they take their medication within +/-one hour of the stated existing routine to which pill-taking is anchored on at least 80% of days for 3-months.",
+          "armGroupLabels": [
+            "Phase B Stage 2: Intervention group receiving messages and incentives (Monthly escalated Prizes)",
+            "Phase B Stage 2: Intervention group receiving messages and incentives (Monthly prize draws)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Electronically measured mean medication adherence",
+          "description": "We will collect Wisepill data continuously over the 24-month study period to calculate the primary outcome variable of mean adherence (# of actual bottle openings /# of prescribed bottle openings)",
+          "timeFrame": "24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Retention in Care.",
+          "description": "Retention in care will be measured as the fraction of participants recruited who are still active clients at the clinic at month 24.",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Viral Suppression",
+          "description": "HIV RNA (viral load) is the secondary outcome measure, and we will also examine intervention effects on mean change in log-transformed viral load. Viral loads are now part of routine clinical care in Uganda and will be chart abstracted.",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Routinization of ART adherence",
+          "description": "We will calculate the fraction of scheduled pills taken within a one-hour window around the typical time that participants report completing their existing routine behavior that anchors their pill-taking.",
+          "timeFrame": "24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female clients age 18 and older.\n* Started ART at Mildmay or another clinic within the preceding 2 months\n* Able to speak and understand either English or Luganda.\n* Have their own cell phone or have consistent access to someone else's phone.\n* Willing to receive daily text messages for the 6 months of intervention duration.\n* Willing and able to use the WisePill device distributed for adherence verification for the duration of the study.\n\nExclusion Criteria:\n\n* Not mentally fit to consent.\n* Language other than Luganda or English.\n* Not willing to consistently use the Wisepill device for adherence measurement.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yvonne Karamagi Site Principal Investigator",
+          "role": "CONTACT",
+          "phone": "+256312210200",
+          "email": "yvonne.karamagi@mildmay.or.ug"
+        },
+        {
+          "name": "Lillian Lukuse",
+          "role": "CONTACT",
+          "email": "lillianlunkuse@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Sebastian Linnemayr, Ph.D",
+          "affiliation": "RAND",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Chad Stecher, Ph.D",
+          "affiliation": "Arizona State University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mildmay Uganda",
+          "status": "RECRUITING",
+          "city": "Kampala",
+          "zip": "24985",
+          "country": "Uganda",
+          "contacts": [
+            {
+              "name": "Lillian Lukuse",
+              "role": "CONTACT",
+              "phone": "+256703925522",
+              "email": "lillianlunkuse@gmail.com"
+            },
+            {
+              "name": "Yvonne Karamagi, MB.Ch.B.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Mary Odiit",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 0.31628,
+            "lon": 32.58219
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29048966",
+          "type": "BACKGROUND",
+          "citation": "Linnemayr S, Huang H, Luoto J, Kambugu A, Thirumurthy H, Haberer JE, Wagner G, Mukasa B. Text Messaging for Improving Antiretroviral Therapy Adherence: No Effects After 1 Year in a Randomized Controlled Trial Among Adolescents and Young Adults. Am J Public Health. 2017 Dec;107(12):1944-1950. doi: 10.2105/AJPH.2017.304089. Epub 2017 Oct 19."
+        },
+        {
+          "pmid": "25987190",
+          "type": "BACKGROUND",
+          "citation": "Linnemayr S, Stecher C. Behavioral Economics Matters for HIV Research: The Impact of Behavioral Biases on Adherence to Antiretrovirals (ARVs). AIDS Behav. 2015 Nov;19(11):2069-75. doi: 10.1007/s10461-015-1076-0."
+        },
+        {
+          "pmid": "28225450",
+          "type": "BACKGROUND",
+          "citation": "Linnemayr S, Stecher C, Mukasa B. Behavioral economic incentives to improve adherence to antiretroviral medication. AIDS. 2017 Mar 13;31(5):719-726. doi: 10.1097/QAD.0000000000001387."
+        },
+        {
+          "pmid": "32513192",
+          "type": "BACKGROUND",
+          "citation": "Jennings Mayo-Wilson L, Devoto B, Coleman J, Mukasa B, Shelton A, MacCarthy S, Saya U, Chemusto H, Linnemayr S. Habit formation in support of antiretroviral medication adherence in clinic-enrolled HIV-infected adults: a qualitative assessment using free-listing and unstructured interviewing in Kampala, Uganda. AIDS Res Ther. 2020 Jun 8;17(1):30. doi: 10.1186/s12981-020-00283-2."
+        },
+        {
+          "pmid": "33306553",
+          "type": "BACKGROUND",
+          "citation": "Stecher C, Linnemayr S. Promoting antiretroviral therapy adherence habits: a synthesis of economic and psychological theories of habit formation. AIDS. 2021 Apr 1;35(5):711-716. doi: 10.1097/QAD.0000000000002792. No abstract available."
+        },
+        {
+          "pmid": "33831632",
+          "type": "BACKGROUND",
+          "citation": "Stecher C, Mukasa B, Linnemayr S. Uncovering a behavioral strategy for establishing new habits: Evidence from incentives for medication adherence in Uganda. J Health Econ. 2021 May;77:102443. doi: 10.1016/j.jhealeco.2021.102443. Epub 2021 Mar 16."
+        },
+        {
+          "pmid": "21749245",
+          "type": "BACKGROUND",
+          "citation": "Lally P, Wardle J, Gardner B. Experiences of habit formation: a qualitative study. Psychol Health Med. 2011 Aug;16(4):484-9. doi: 10.1080/13548506.2011.555774."
+        },
+        {
+          "pmid": "19588667",
+          "type": "BACKGROUND",
+          "citation": "Ruppar TM, Russell CL. Medication adherence in successful kidney transplant recipients. Prog Transplant. 2009 Jun;19(2):167-72. doi: 10.1177/152692480901900211."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "This study will produce longitudinal data on a sample of 550 adult (≥18 years old) clients of Mildmay Uganda who started receiving antiretroviral (ART) medications for their HIV infection within the past month. The data will include continuous ART adherence measures over the 24-month study and questionnaires responses. All data will be de-identified prior to receipt by the repository, but the information needed to generate a global unique identifier for the NIMH Data Archive (NDA) will be collected for each subject. Documentation to be made publicly available to the research community will include a codebook with univariate statistics for each variable and study-level metadata following the Data Documentation Initiative specifications. Each variable in the codebook will include a brief description of the item along with the question number and question text from the questionnaire, variable name, variable label, value labels, and standard codes for missing values.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "All data will be deposited to NDA starting 12 months after the award begins and will be deposited every six months thereafter following the usual NDA data submission dates.",
+      "accessCriteria": "To request access of the data, researchers will use the standard processes at NDA, and the NDA Data Access Committee will decide which requests to grant. The standard NDA data access process allows access for one year and is renewable."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000163",
+          "term": "Acquired Immunodeficiency Syndrome"
+        },
+        {
+          "id": "D055118",
+          "term": "Medication Adherence"
+        },
+        {
+          "id": "D006184",
+          "term": "Habits"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015658",
+          "term": "HIV Infections"
+        },
+        {
+          "id": "D000086982",
+          "term": "Blood-Borne Infections"
+        },
+        {
+          "id": "D003141",
+          "term": "Communicable Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D015229",
+          "term": "Sexually Transmitted Diseases, Viral"
+        },
+        {
+          "id": "D012749",
+          "term": "Sexually Transmitted Diseases"
+        },
+        {
+          "id": "D016180",
+          "term": "Lentivirus Infections"
+        },
+        {
+          "id": "D012192",
+          "term": "Retroviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D012897",
+          "term": "Slow Virus Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D010349",
+          "term": "Patient Compliance"
+        },
+        {
+          "id": "D010342",
+          "term": "Patient Acceptance of Health Care"
+        },
+        {
+          "id": "D000074822",
+          "term": "Treatment Adherence and Compliance"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

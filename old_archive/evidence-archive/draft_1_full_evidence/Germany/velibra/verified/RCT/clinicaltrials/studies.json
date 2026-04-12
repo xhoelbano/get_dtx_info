@@ -1,0 +1,79 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04793828",
+      "nct_id": "NCT04793828",
+      "title": "A Transdiagnostic, Self-guided Internet Intervention (\"Velibra\") for Waitlist Patients With Anxiety Disorders",
+      "official_title": "The Effect of a Transdiagnostic, Self-guided Internet Intervention (\"Velibra\") for Waitlist Patients With Anxiety Disorders",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NA",
+        "intervention_model": "SINGLE_GROUP",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 30,
+      "start_date": "2020-07-04",
+      "completion_date": "2025-12-31",
+      "conditions": [
+        "Panic Disorder With Agoraphobia",
+        "Panic Disorder Without Agoraphobia",
+        "Generalized Anxiety Disorder",
+        "Social Anxiety Disorder"
+      ],
+      "keywords": [
+        "cognitive behavioral therapy",
+        "internet intervention",
+        "administrative-supported",
+        "anxiety",
+        "panic disorder",
+        "social anxiety disorder",
+        "generalized anxiety disorder",
+        "computerized CBT",
+        "anxiety disorders",
+        "velibra"
+      ],
+      "interventions": [
+        {
+          "name": "Velibra",
+          "type": "BEHAVIORAL",
+          "description": "Velibra is an internet-based cognitive behavioral therapy program developed by GAIA AG. It consists of six modules which are meant to be completed over a span of 6 weeks. The first module educates participants about anxiety and the treatment program. The second module focuses on cognitive techniques for dealing with anxiety. In the third module, relaxation techniques are practiced. The fourth module encourages the participant to practice non-anxious behaviors. In the fifth module, the central to"
+        }
+      ],
+      "lead_sponsor": "Charite University, Berlin, Germany",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "The project's aim is to investigate the effect of a transdiagnostic, self-guided, internet-based cognitive behavioral therapy program in waitlist patients with anxiety disorders.",
+      "detailed_description": "Patients who fulfill the inclusion criteria and are interested in psychotherapy are offered participation in the study to bridge the waiting time for face-to-face psychotherapy. After obtaining informed consent, a pre-treatment assessment is conducted. Then, participants are provided access to velibra, an internet-based cognitive behavioral therapy program which they can work through at their own pace. While velibra is a self-guided program, participants are supported by study personnel during four assessments at four time points: pre-treatment, mid-treatment (after the first three velibra modules), post-treatment and at the one-month follow-up. The investigators expect improvements on the primary as well as the secondary outcomes. Furthermore, the investigators are interested in studying the acceptability of velibra and whether positive changes already become observable after the first three modules, i.e., at the mid-treatment assessment.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04793828",
+      "_matched_query": "\"velibra\"",
+      "_raw_json_path": "evidence/Germany/velibra/candidates/clinicaltrials/raw/NCT04793828.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'Velibra' by name multiple times, describes it as an internet-based cognitive behavioral therapy program developed by GAIA AG, and provides details that match the product description provided. The intervention is clearly about the specific DTx product 'velibra'.",
+        "matched_elements": [
+          "Velibra in title",
+          "Velibra in abstract",
+          "Intervention description matches product",
+          "GAIA AG as developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "The study is interventional and investigates the effect of a therapy program, which aligns with RCT characteristics. However, randomization and blinding are not explicitly mentioned, reducing confidence slightly."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:31:57.883097Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

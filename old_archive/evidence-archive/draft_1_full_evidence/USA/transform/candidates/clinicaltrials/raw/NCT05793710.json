@@ -1,0 +1,367 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05793710",
+      "orgStudyIdInfo": {
+        "id": "IRB-201311HM023"
+      },
+      "organization": {
+        "fullName": "National Taipei University of Nursing and Health Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects o Laughing Qigong Program on Psychological Outcomes and the Physiological Immunological Responses",
+      "officialTitle": "Effects of a 12-week Laughing Qigong Program on Psychological Outcomes and the Physiological Immunological Responses Among Female Breast Cancer Survivors: A Quasi-experimental Nonequivalent Control Group"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-12-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-12-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-12-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-03-20",
+      "studyFirstSubmitQcDate": "2023-03-20",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Chia Jung Hsieh",
+        "investigatorTitle": "Ph.D., RN, Associate Professor",
+        "investigatorAffiliation": "National Taipei University of Nursing and Health Sciences"
+      },
+      "leadSponsor": {
+        "name": "National Taipei University of Nursing and Health Sciences",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Laughter programs are safe, affordable, and age-appropriate activities. Few studies have utilized mixed study designs to look at the impact on resilience in and experiences of participants in such activities.",
+      "detailedDescription": "The laughing qigong program is a physical and mental practice program that combines qigong and laughter. It is influenced by Chinese local culture. It emphasizes the transformation of voice, body, and emotional use so that people can experience relaxation and tranquility, and then the transformation of emotions so that physical and mental energy can be released then to achieve balance. Our research has shown that laughter-related psychological interventions have consistent effects on mental health, reducing mood conditions under life stress (Grace, 2013), depressed mood (Hsieh et al., 2015), and cortisol concentration (Grace, 2013). However, there have only been a few studies where similar protocols focused on positive mental states (e.g. resilience, well-being) and the application of laughing in immune function.\n\nTherefore, the current quasi-experimental trial was to investigate the effects of the LQP on psychological outcomes (resilience and well-being), mucosal immunity (salivary immunoglobulin A, s-IgA), and immune-inflammatory index (interleukins, IL-6) amongst breast cancer survivors. We hypothesized that (a) experimental group participants would have significantly higher levels of resilience and well-being at baseline (before the test) and post-treatment (post-test) compared to the wait list control group; (b) Compared to the control group on the wait list, experimental group participants will have significant differences in mucosal immunity (s-IgA) and inflammatory index (IL-6) before and after the test; and (c) experimental group membership had a significant effect on psychological outcomes (resilience and well-being) as well as mucosal immunity (s-IgA) and immune-inflammatory indices (IL-6) after a 12-week LQP intervention"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Survivors"
+      ],
+      "keywords": [
+        "Laughing Qigong Program, well-being, salivary biomarkers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double (Participant, Outcomes Assessor) Blinded to group membership, research assistants collected data from both groups.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 71,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "the principle of laughter plus Qigong",
+          "type": "EXPERIMENTAL",
+          "description": "The basic method of \" LQP \" is the principle of laughter plus Qigong, combined with the sound of laughter, stretching the body, thereby activating the parasympathetic nerve, so that the body can automatically relax, and at the same time guide the individual to face their own emotions when facing pressure, and transform emotions into positive energy or relieve negative emotions through practice, so as to achieve the energy balance of body, mind and spirit.",
+          "interventionNames": [
+            "Behavioral: The principle of laughter plus Qigong"
+          ]
+        },
+        {
+          "label": "their current lifestyle for a 12-week",
+          "type": "NO_INTERVENTION",
+          "description": "After baseline testing, participants in the waitlist control group (CON) were asked to maintain their current lifestyle for a 12-week. Participants in the CON group will then undergo a 12-week fully supervised intervention."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "The principle of laughter plus Qigong",
+          "description": "The intervention program include muscle stretching, breathing exercises, and closing exercises. The laughing practice method begins with a warm-up consisting of laughing to stretch the body, yawning, and exerting the voice, and ends with expelling all the \"qi\" in order to return to natural movements and return to taking care of your body and mind (He et al., 2021).\n\nThe LQP program meets once a week for 90 minutes and runs for 12 weeks. The program content: the laughter skills were 50-60 minutes, the feedback was 30 minutes, and relaxation was 10 minutes.",
+          "armGroupLabels": [
+            "the principle of laughter plus Qigong"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Resilience scale",
+          "description": "This scale is used to assess an individual's resilience to setbacks. There is a total of 25 items. For each item, the Likert five-point scale is used, with scores ranging from 1 (extremely dissatisfied) to 5 (extremely satisfied) (very satisfied). The higher the score, the more resilient to frustration. The scale was divided into five items, the higher the score, which are a meaningful life, a peaceful mind, self-confidence, an indomitable spirit, and acceptance of the loneliness of existence (Wagnild, \\& Young, 1993).The psychometric evaluation of this scale supports its internal consistency reliability and concurrent validity as a good tool for measuring resilience (Wagnild, \\& Young, 1993), and the scale has also been translated into Chinese and demonstrates good reliability (α=0.91) and validity.",
+          "timeFrame": "Pre-intervention(T0)]"
+        },
+        {
+          "measure": "Pre-intervention(T0)]",
+          "description": "The Thai Mental Health Indicator (TMHI) Scale was used to assess one's mental health, the indicator has 15 items divided into four categories: mental state, mental capacity, mental equality, and social support (Mongkol, Tangseree, Udomratn, Huttapanom, \\& Chuta, 2007; Songprakun and McCann 2012). Each item is scored on a scale of 0 (never) to 3, with a total score of 45 points indicating better well-being outcomes. The scale has good reliability and construct validity (Mongkol, Tangseree, Udomratn, Huttapanom, \\& Chuta, 2007), and it was used by two-way translation and showed excellent reliability (0.90) in this study. This scale is used after the second stage translation was completed and confirming when the sentences be smooth and the meaning",
+          "timeFrame": "Pre-intervention(T0)]"
+        },
+        {
+          "measure": "Resilience Scale",
+          "description": "This scale is used to assess an individual's resilience to setbacks. There is a total of 25 items. For each item, the Likert five-point scale is used, with scores ranging from 1 (extremely dissatisfied) to 5 (extremely satisfied) (very satisfied). The higher the score, the more resilient to frustration. The scale was divided into five items, the higher the score, which are a meaningful life, a peaceful mind, self-confidence, an indomitable spirit, and acceptance of the loneliness of existence (Wagnild, \\& Young, 1993).The psychometric evaluation of this scale supports its internal consistency reliability and concurrent validity as a good tool for measuring resilience (Wagnild, \\& Young, 1993), and the scale has also been translated into Chinese and demonstrates good reliability (α=0.91) and validity",
+          "timeFrame": "5-week after intervention (T1)]"
+        },
+        {
+          "measure": "Resilience Scale",
+          "description": "This scale is used to assess an individual's resilience to setbacks. There is a total of 25 items. For each item, the Likert five-point scale is used, with scores ranging from 1 (extremely dissatisfied) to 5 (extremely satisfied) (very satisfied). The higher the score, the more resilient to frustration. The scale was divided into five items, the higher the score, which are a meaningful life, a peaceful mind, self-confidence, an indomitable spirit, and acceptance of the loneliness of existence (Wagnild, \\& Young, 1993).The psychometric evaluation of this scale supports its internal consistency reliability and concurrent validity as a good tool for measuring resilience (Wagnild, \\& Young, 1993), and the scale has also been translated into Chinese and demonstrates good reliability (α=0.91) and validity",
+          "timeFrame": "12-week after intervention (T2)]"
+        },
+        {
+          "measure": "Thai Mental Health Indicator (TMHI)",
+          "description": "The Thai Mental Health Indicator (TMHI) Scale was used to assess one's mental health, the indicator has 15 items divided into four categories: mental state, mental capacity, mental equality, and social support (Mongkol, Tangseree, Udomratn, Huttapanom, \\& Chuta, 2007; Songprakun and McCann 2012). Each item is scored on a scale of 0 (never) to 3, with a total score of 45 points indicating better well-being outcomes. The scale has good reliability and construct validity (Mongkol, Tangseree, Udomratn, Huttapanom, \\& Chuta, 2007), and it was used by two-way translation and showed excellent reliability (0.90) in this study. This scale is used after the second stage translation was completed and confirming when the sentences be smooth and the meaning.",
+          "timeFrame": "5-week after intervention (T1)]"
+        },
+        {
+          "measure": "Thai Mental Health Indicator (TMHI)",
+          "description": "The Thai Mental Health Indicator (TMHI) Scale was used to assess one's mental health, the indicator has 15 items divided into four categories: mental state, mental capacity, mental equality, and social support (Mongkol, Tangseree, Udomratn, Huttapanom, \\& Chuta, 2007; Songprakun and McCann 2012). Each item is scored on a scale of 0 (never) to 3, with a total score of 45 points indicating better well-being outcomes. The scale has good reliability and construct validity (Mongkol, Tangseree, Udomratn, Huttapanom, \\& Chuta, 2007), and it was used by two-way translation and showed excellent reliability (0.90) in this study. This scale is used after the second stage translation was completed and confirming when the sentences be smooth and the meaning.",
+          "timeFrame": "12-week after intervention (T2)]"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ｍucosal immunity (secretory(s)-IgA) immunoglobulin A",
+          "description": "The saliva samples (s-IgA) were collected with the IPRO oral fluid collection (OFC) kits that were labeled and given to each participant.",
+          "timeFrame": "Pre-intervention(T0)]"
+        },
+        {
+          "measure": "Ｍucosal immunity (secretory(s)-IgA) immunoglobulin A",
+          "description": "The saliva samples (s-IgA) were collected with the IPRO oral fluid collection (OFC) kits that were labeled and given to each participant.",
+          "timeFrame": "5-week after intervention (T1)]"
+        },
+        {
+          "measure": "Ｍucosal immunity (secretory(s)-IgA) immunoglobulin A",
+          "description": "The saliva samples (s-IgA) were collected with the IPRO oral fluid collection (OFC) kits that were labeled and given to each participant.",
+          "timeFrame": "12-week after intervention (T2)]"
+        },
+        {
+          "measure": "Saliva Interleukin-6 (IL-6",
+          "description": "The enzyme immunoassay was used to measure IL-6 (Enzyme-linked immunosorbent assay, ELISA)",
+          "timeFrame": "Pre-intervention(T0)]"
+        },
+        {
+          "measure": "Saliva Interleukin-6 (IL-6",
+          "description": "The enzyme immunoassay was used to measure IL-6 (Enzyme-linked immunosorbent assay, ELISA)",
+          "timeFrame": "5-week after intervention (T1)]"
+        },
+        {
+          "measure": "Saliva Interleukin-6 (IL-6",
+          "description": "The enzyme immunoassay was used to measure IL-6 (Enzyme-linked immunosorbent assay, ELISA)",
+          "timeFrame": "12-week after intervention (T2)]"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1\\) female adult (18 years old); 2) diagnosed with stage I-III breast cancer; 3) major treatment completed at least 3 months ago (i.e. surgery, chemotherapy, and/or radiotherapy); and 4) no communication difficulties (visual and auditory).\n\nExclusion Criteria:\n\n1\\) having recurrent or metastatic breast cancer; 2) being involved in other studies at the same time, 3) patients who are unable to cooperate with the trial and follow-up; and 4) having a history of mental illness in past 3 months (major depression disorder)..",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Chia Jung Hsieh, PhD",
+          "affiliation": "National Taipei University of Nursing and Health Sciences Taipei, Taipei City, Taiwan, 112303",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Taipei University of Nursing and Health Sciences",
+          "city": "Taipei",
+          "zip": "112303",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34593698",
+          "type": "RESULT",
+          "citation": "Luo C, Li N, Lu B, Cai J, Lu M, Zhang Y, Chen H, Dai M. Global and regional trends in incidence and mortality of female breast cancer and associated factors at national level in 2000 to 2019. Chin Med J (Engl). 2022 Jan 5;135(1):42-51. doi: 10.1097/CM9.0000000000001814."
+        },
+        {
+          "pmid": "33538338",
+          "type": "RESULT",
+          "citation": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021 May;71(3):209-249. doi: 10.3322/caac.21660. Epub 2021 Feb 4."
+        },
+        {
+          "pmid": "33411711",
+          "type": "RESULT",
+          "citation": "Carreira H, Williams R, Funston G, Stanway S, Bhaskaran K. Associations between breast cancer survivorship and adverse mental health outcomes: A matched population-based cohort study in the United Kingdom. PLoS Med. 2021 Jan 7;18(1):e1003504. doi: 10.1371/journal.pmed.1003504. eCollection 2021 Jan."
+        },
+        {
+          "pmid": "20401551",
+          "type": "RESULT",
+          "citation": "Rottmann N, Dalton SO, Christensen J, Frederiksen K, Johansen C. Self-efficacy, adjustment style and well-being in breast cancer patients: a longitudinal study. Qual Life Res. 2010 Aug;19(6):827-36. doi: 10.1007/s11136-010-9653-1. Epub 2010 Apr 17."
+        },
+        {
+          "pmid": "33086128",
+          "type": "RESULT",
+          "citation": "Borgi M, Collacchi B, Ortona E, Cirulli F. Stress and coping in women with breast cancer:unravelling the mechanisms to improve resilience. Neurosci Biobehav Rev. 2020 Dec;119:406-421. doi: 10.1016/j.neubiorev.2020.10.011. Epub 2020 Oct 18."
+        },
+        {
+          "pmid": "29655277",
+          "type": "RESULT",
+          "citation": "Eicher M, Ribi K, Senn-Dubey C, Senn S, Ballabeni P, Betticher D. Interprofessional, psycho-social intervention to facilitate resilience and reduce supportive care needs for patients with cancer: Results of a noncomparative, randomized phase II trial. Psychooncology. 2018 Jul;27(7):1833-1839. doi: 10.1002/pon.4734. Epub 2018 May 4."
+        },
+        {
+          "pmid": "33120216",
+          "type": "RESULT",
+          "citation": "Aizpurua-Perez I, Perez-Tejada J. Resilience in women with breast cancer: A systematic review. Eur J Oncol Nurs. 2020 Dec;49:101854. doi: 10.1016/j.ejon.2020.101854. Epub 2020 Oct 10."
+        },
+        {
+          "type": "RESULT",
+          "citation": "8. Azhari, R., & Harkomah, I. (2021). Progressive muscle relaxation, spiritual guided imagery, music on coping and resilience among cancer patients who undergo chemotherapy. KnE Life Sciences, 344-355."
+        },
+        {
+          "pmid": "31315142",
+          "type": "RESULT",
+          "citation": "Plitzko L, Mehnert-Theuerkauf A, Gotze H. [Resilience in Long-Term Cancer Survivors - Associations with Psychological Distress and Sociodemographic Characteristics]. Psychother Psychosom Med Psychol. 2020 May;70(5):182-189. doi: 10.1055/a-0927-6782. Epub 2019 Jul 17. German."
+        },
+        {
+          "pmid": "23402226",
+          "type": "RESULT",
+          "citation": "Van Puymbroeck M, Burk BN, Shinew KJ, Cronan Kuhlenschmidt M, Schmid AA. Perceived health benefits from yoga among breast cancer survivors. Am J Health Promot. 2013 May-Jun;27(5):308-15. doi: 10.4278/ajhp.110316-QUAL-119. Epub 2013 Feb 12."
+        },
+        {
+          "pmid": "21831722",
+          "type": "RESULT",
+          "citation": "Loprinzi CE, Prasad K, Schroeder DR, Sood A. Stress Management and Resilience Training (SMART) program to decrease stress and enhance resilience among breast cancer survivors: a pilot randomized clinical trial. Clin Breast Cancer. 2011 Dec;11(6):364-8. doi: 10.1016/j.clbc.2011.06.008. Epub 2011 Aug 10."
+        },
+        {
+          "pmid": "23167421",
+          "type": "RESULT",
+          "citation": "Wang HH, Chung UL. Use of complementary and alternative medicine among breast cancer survivors in Taiwan. Asian Pac J Cancer Prev. 2012;13(9):4789-92. doi: 10.7314/apjcp.2012.13.9.4789."
+        },
+        {
+          "pmid": "14694921",
+          "type": "RESULT",
+          "citation": "Correa-Velez I, Clavarino A, Barnett AG, Eastwood H. Use of complementary and alternative medicine and quality of life: changes at the end of life. Palliat Med. 2003 Dec;17(8):695-703. doi: 10.1191/0269216303pm834oa."
+        },
+        {
+          "pmid": "11119695",
+          "type": "RESULT",
+          "citation": "McEwen BS. The neurobiology of stress: from serendipity to clinical relevance. Brain Res. 2000 Dec 15;886(1-2):172-189. doi: 10.1016/s0006-8993(00)02950-4."
+        },
+        {
+          "pmid": "17615391",
+          "type": "RESULT",
+          "citation": "McEwen BS. Physiology and neurobiology of stress and adaptation: central role of the brain. Physiol Rev. 2007 Jul;87(3):873-904. doi: 10.1152/physrev.00041.2006."
+        },
+        {
+          "pmid": "24533887",
+          "type": "RESULT",
+          "citation": "Hsieh CJ, Chang C, Tsai G, Wu HF. Empirical study of the influence of a Laughing Qigong Program on long-term care residents. Geriatr Gerontol Int. 2015 Feb;15(2):165-73. doi: 10.1111/ggi.12244. Epub 2014 Feb 18."
+        },
+        {
+          "type": "RESULT",
+          "citation": "17. McMillan, J. H., & Schumacher, S. (2010). Research in education: Evidence-based inquiry. Pearson."
+        },
+        {
+          "pmid": "7850498",
+          "type": "RESULT",
+          "citation": "Wagnild GM, Young HM. Development and psychometric evaluation of the Resilience Scale. J Nurs Meas. 1993 Winter;1(2):165-78."
+        },
+        {
+          "pmid": "22260148",
+          "type": "RESULT",
+          "citation": "Songprakun W, McCann TV. Evaluation of a cognitive behavioural self-help manual for reducing depression: a randomized controlled trial. J Psychiatr Ment Health Nurs. 2012 Sep;19(7):647-53. doi: 10.1111/j.1365-2850.2011.01861.x. Epub 2012 Jan 20."
+        },
+        {
+          "type": "RESULT",
+          "citation": "20. Mongkol, A., Tangseree, T., Udomratn, P., Huttapanom, W., & Chuta, W. (2007). The development of Thai Mental Health Indicator (TMHI): from past to present. In The 3rd international conference on gross national happiness towards global transformation."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064906",
+          "term": "Qigong"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001945",
+          "term": "Breathing Exercises"
+        },
+        {
+          "id": "D026441",
+          "term": "Mind-Body Therapies"
+        },
+        {
+          "id": "D000529",
+          "term": "Complementary Therapies"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D026241",
+          "term": "Exercise Movement Techniques"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

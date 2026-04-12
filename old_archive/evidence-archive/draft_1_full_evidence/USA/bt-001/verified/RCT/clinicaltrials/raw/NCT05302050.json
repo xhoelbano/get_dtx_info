@@ -1,0 +1,224 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05302050",
+      "orgStudyIdInfo": {
+        "id": "DM2-07-MGB"
+      },
+      "organization": {
+        "fullName": "Better Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Cognitive Behavioral Digital Therapeutic InterventiON for Glycemic Control in Type 2 Diabetes Mellitus",
+      "officialTitle": "A Cognitive Behavioral Digital Therapeutic InterventiON for Glycemic Control in Type 2 Diabetes Mellitus",
+      "acronym": "ACTION-DM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-03-21",
+      "studyFirstSubmitQcDate": "2022-03-21",
+      "studyFirstPostDateStruct": {
+        "date": "2022-03-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-10-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-10-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Better Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Massachusetts General Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Randomized, controlled, pragmatic trial with open-label extension evaluating BT-001, an investigational digital therapeutic intended to help patients with type 2 diabetes improve their glycemic control.",
+      "detailedDescription": "The study intervention, BT-001 (the App), will be dispensed at enrollment to the Immediate Intervention App Use arm of the trial. Patients randomized to the Delayed Intervention App Use arm will be provided a \"control App\" with diabetes control, and then the BT-001 App after 180 days. Each participant is assigned to one 90-day treatment cycle of BT-001. Over the 12-month intervention period, study participants will be able to opt into up to 3 additional treatment cycles of BT-001. Study schema is included at the end of this section"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Type 2"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The study population consists of approximately 500 total participants, ages 18 - 75 years old, inclusive, who have type 2 diabetes. They will be randomized to the treatment or control group at a 3:1 ratio",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "open label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention BT-001 + Standard of Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in this arm will receive the BT-001 treatment for up to 18 months.",
+          "interventionNames": [
+            "Device: BT-001"
+          ]
+        },
+        {
+          "label": "Standard of Care",
+          "type": "OTHER",
+          "description": "Patients will have access to a control mobile application for 6 months and then will have the option to use the treatment for the remainder of the 18 month study",
+          "interventionNames": [
+            "Device: Control Mobile Application"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "BT-001",
+          "description": "BT-001is a software application that delivers treatment to participants with type 2 diabetes, using behavioral therapy. BT-001 is accessed via the participants' smartphone.\n\nThe behavioral intervention process involves:\n\nIdentifying maladaptive thoughts based on misinformed core beliefs that lead to disease-promoting behaviors; replacing maladaptive core beliefs with adaptive ways of thinking; and providing collaborative construction of behavioral exercises to test core beliefs.\n\nEach week, BT-001 asks participants to complete a new lesson, along with one skill exercise. The lessons are expected to take between 10-20 minutes to complete. In addition to completing a lesson and skill, participants will be directed to report plant-based meals consumed and minutes of exercise completed and to measure their blood sugar daily.",
+          "armGroupLabels": [
+            "Intervention BT-001 + Standard of Care"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Control Mobile Application",
+          "description": "The app asks patients brief questions about their health but does not include any behavioral therapy.",
+          "armGroupLabels": [
+            "Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in HbA1c",
+          "description": "Change in HbA1c from baseline (enrollment) to 6 months after enrollment between groups.",
+          "timeFrame": "Baseline and Day 180"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in HbA1c",
+          "description": "Change in HbA1c from baseline (enrollment) and from 6 months, to 12 months after enrollment between groups",
+          "timeFrame": "Baseline and day 180, 365"
+        },
+        {
+          "measure": "Significant change in HbA1c",
+          "description": "Proportion of patients with a ≥ 0.4% decrease in HbA1c at 12 months within each study group",
+          "timeFrame": "Baseline and Day 365"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Current (within 3 months prior to enrollment) HbA1c \\>=7.01%\n* Possession of and ability to use Android or iPhone mobile phone\n* Speaks and reads in English\n* Willing to measure frequent fasting finger glucose measurements as part of the App utilization\n\nExclusion Criteria:\n\n* Current use of insulin other than a long-acting insulin analogue or human NPH insulin\n* HbA1c \\>=11%\n* Cognitive impairment or degenerative neuropsychiatric condition (e.g. Alzheimer's, dementia, mixed dementia, other significant memory loss, schizophrenia), or any other condition that in the Investigator's opinion may prevent patient from completing study activities\n* Any terminal medical condition with life expectancy of \\< 1 year.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Mass General Brigham Hospital and Clinics",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02199",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "IPD will not be shared"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

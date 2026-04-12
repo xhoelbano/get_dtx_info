@@ -1,0 +1,226 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06003790",
+      "orgStudyIdInfo": {
+        "id": "PS200"
+      },
+      "organization": {
+        "fullName": "MedRhythms, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Facilitators and Barriers to the Clinical Implementation of MR-001",
+      "officialTitle": "Characterization of the Facilitators and Barriers to the Clinical Implementation of MR-001 for Community-dwelling Chronic Stroke Patients Who Have Walking Impairments",
+      "acronym": "RhaPSody"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-08-07",
+      "studyFirstSubmitQcDate": "2023-08-15",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "MedRhythms, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single arm, multi-site, prospective hybrid implementation and feasibility trial. The primary purpose of this trial is to gather data on the facilitators and barriers to clinical implementation of MR-001 for patients with chronic stroke who experience walking impairments. Secondarily, the trial will evaluate the feasibility of MR-001 clinically impacting walking capacity, quality of life, mood, and cognition.\n\nThe goal of this single arm, multi-site, prospective hybrid implementation and feasibility trial is to gather data on the facilitators and barriers to clinical implementation of MR-001 for patient with chronic stroke who experience walking impairments. The main questions it aims to answer are:\n\n1. Enhance understanding of the potential clinical and operational needs and opportunities that may be associated with implementation of MR-001 in various treatment settings.\n2. Assess the impact of MR-001 on walking capacity.\n3. Assess the impact of MR-001 on quality of life and mood.\n4. Assess the impact of MR-001 on cognition.\n\nAll participants will be prescribed MR-001 and will be asked to walk with it for 30 minutes, 3 times weekly, for 8 weeks.",
+      "detailedDescription": "MR-001 is a medical device providing in-home outpatient rehabilitative therapy intended to improve walking and ambulation status in adult chronic stroke patients. The device is based on Rhythmic Auditory Stimulation (RAS) and is designed to operate digitally and autonomously. RAS is a therapy supported by rigorous research of both the foundational neuroscience mechanisms and its clinical application.\n\nThe scientific principle of \"auditory-motor entrainment\" is the basis for the standardized clinical intervention of RAS. Studies have shown that there is rich connectivity between the auditory and motor systems via multiple cortical and subcortical networks. Specifically, it has been shown that the auditory and motor system can synchronize subconsciously to an external, auditory rhythmic cue, a phenomenon known as \"auditory-motor entrainment\" (also referred to as \"entrainment\"). The auditory rhythm provides a consistent temporal structure for synchronization between these two systems. This consistent structure is used to subconsciously inform the brain where the next movement should be.\n\nThe primary endpoint of this study will be the evaluation of the implementation of MR-001 in clinical settings, including but not limited to hospital systems, outpatient rehabilitation centers, and non-acute clinic settings. This evaluation will include detailed qualitative feedback from clinicians on suitable implementation strategies for deploying MR-001, characterization of the facilitators and barriers to delivering MR-001 to chronic stroke patients, characterization of the enrolled patient profile, and characterization of the participant experience and satisfaction with MR-001. Secondary endpoints for this study will evaluate the impact of MR-001 on walking capacity, quality of life, mood, and cognition."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Single arm, multi-site, prospective hybrid implementation and feasibility trial.",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 31,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive MR-001 delivered to their home via mail. Participants will be asked to use the device for 24 sessions, 3 times a week for 8 weeks.",
+          "interventionNames": [
+            "Device: MR-001"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "MR-001",
+          "description": "Use of device 3 times per week for 8 weeks - for a total of 24 sessions.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Enhance understanding of the potential clinical and operational needs and opportunities that may be associated with implementation of MR-001 in various treatment settings.",
+          "description": "Accomplished by qualitative data collection via prescriber interviews collected up to 3 times during the indicated time frame. These interviews will focus on feedback from prescribers on suitable implementation strategies for deploying MR-001; facilitators and barriers to delivering MR-001 to chronic stroke patients; characterization of the enrolled patient profile, and the enrolled participant experience and satisfaction with MR-001.",
+          "timeFrame": "8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "2 Minute Walk Test (2MWT)",
+          "description": "Assessed by directional improvement of participants on the 2 Minute Walk Test (2MWT) pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Patient Health Questionnaire (PHQ-8)",
+          "description": "Proportion of participants who directionally improve self-report of depression severity as measured by the Patient Health Questionnaire (PHQ-8) pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Trails Making Test Part A (TMT-A)",
+          "description": "Proportion of participants who directionally improve processing speed as measured by Trail Making Test Part A (TMT-A) pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Short Falls Efficacy Scale International (Short FES-I)",
+          "description": "Proportion of participants who directionally improve with regard to their concerns about falling as measured by the Short Falls Efficacy Scale International (Short FES-I) pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Generalized Anxiety Disorder (GAD-7) Questionnaire",
+          "description": "Proportion of participants who directionally improve self-report of severity of generalized anxiety as measured by the Generalized Anxiety Disorder (GAD-7) questionnaire pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Trail Making Test Park B (TMT-B)",
+          "description": "Proportion of participants who directionally improve set-shifting (executive function) as measured by Trail Making Test Part B (TMT-B) pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Stroke Impact Scale (SIS) Memory & Thinking Subtest",
+          "description": "Proportion of participants who directionally improve self-reported thinking ability as measured by the Stroke Impact Scale (Memory \\& Thinking subtest only) pre vs post MR-001 intervention.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Patients' Global Impression of Change Scale (PGIC)",
+          "description": "Proportion of participants who directionally improve self-reported degree of change as measured by the Patients' Global Impression of Change (PGIC) scale.",
+          "timeFrame": "8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adults (\\>18y/o) who have a history of stroke, now in the chronic phase, and with a clinically-relevant walking deficit, as determined by the Principal Investigator (PI).\n2. Able and willing to self-consent and comply with the proposed study schema.\n3. Per PI discretion, individuals who would likely be recommended home use of the MR-001 intervention and considered able to safely participate in independent protocol-defined walking therapy sessions.\n\nExclusion Criteria:\n\n1. Previous use of MR-001, as self-reported by the potential participant.\n2. Past medical history that prevents participation, as determined by PI's clinical judgment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sabrina Taylor, PhD",
+          "affiliation": "MedRhythms, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Wake Forest University Health Sciences",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "The Cleveland Clinic Foundation",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,385 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05422391",
+      "orgStudyIdInfo": {
+        "id": "2204-1028"
+      },
+      "organization": {
+        "fullName": "Skidmore College",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Acute Effects of Caloric Restriction on Anthropometrics, Metabolism, and Cardiovascular Health in Overweight Adults",
+      "officialTitle": "Evaluating the Short-Term Effects of 3 Days of Caloric Restriction/Intermittent Fasting Using the Plexus(R) Program on Anthropometrics, Metabolism, Markers of Cardiovascular Health in Overweight/Obese Men and Women"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-09-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-11-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-05-17",
+      "studyFirstSubmitQcDate": "2022-06-13",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-12-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-12-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Stephen J. Ives",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Skidmore College"
+      },
+      "leadSponsor": {
+        "name": "Skidmore College",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to document the efficacy of a 3 day intermittent fasting/caloric restriction (IF/CR) using the Plexus® 3 day reset program on body weight as well as regulatory parameters of metabolism and metabolic flexibility. This study will provide data on the acute efficacy regarding the program but also identify the potential underlying physiological mechanisms through which the dietary intervention may elicit improvements, and the participant experience of the program. Collectively, this will provide a window into the possible adaptations with a longer-term dietary intervention.",
+      "detailedDescription": "According to the US Centers for Disease Control, more than 42% of adults are classified as obese, and approximately 74% of US adults are classified as overweight (body mass index of 25.0 to \\< 30 kg/m2) or obese (\\>30 kg/m2) (Ow/Ob). The costs on human health are profound, increasing the risk of heart disease, stroke, type 2 diabetes, and certain cancers, and ultimately increasing morbidity associated with these chronic diseases. Obesity and the negative sequelae inflict staggering economic costs, estimated at $147 billion, and that was in 2008. Therefore, understanding and developing interventions that can help address Ow/Ob can reduce the risk of chronic disease, reduce healthcare costs, and likely improve quality of life.\n\nOne such intervention has been through altering diet and/or physical activity. However, prior systematic review and meta-analysis suggests that when comparing diet alone vs. exercise alone, dietary interventions result in \\~3-fold greater weight loss (11 vs 3 Δkg). While the additional benefits of exercise are not be discounted, engaging dietary approaches can be a highly effective way to promote weight loss. Caloric restriction (CR) has long been touted as an effective method of inducing weight loss, although there are also issues with adherence and maintenance with such an approach. This study is seeking to understand the acute metabolic changes with engaging in a 3-day caloric restriction, which would typically be part of an intermittent fasting dietary regimen.\n\nSpecific Aim 1. Document the efficacy of the 3 day IF/CR on inducing short term weight loss, the nature of the weight loss changes (body composition), changes in anthropometrics (waist and hip circumference), changes in resting metabolic rate and changes in metabolic flexibility (relative utilization of fats versus carbohydrates).\n\nSpecific Aim 2. Explore the physiological responses to the 3 day IF/CR with the Plexus 3 day reset program through analysis of blood plasma for levels of insulin, glucose, lipid profile (total cholesterol, high- and low-density cholesterol (HDL/LDL)), pro- and anti-inflammatory mediators (Tumor Necrosis Factor-alpha, TNFa and Cortisol, respectively), ketones, thyroid stimulating hormone (TSH), and hormones related to hunger and satiety and thus energy intake (protein YY (PYY), neuropeptide Y (NPY), Ghrelin, and Leptin).\n\nSpecific Aim 3. Ascertain any possible changes in clinically relevant parameters such as heart rate, heart rate variability (HRV), blood pressure (central and peripheral), and vascular stiffness (augmentation index, AIx).\n\nHypothesis: The investigators hypothesize that the nutritional intervention will induce weight loss, changes in anthropometrics/body composition (i.e. decreased body water), resting metabolic rate, and alterations in metabolic flexibility. These measures will be explained, at least, in part, by alterations in specific blood biomarkers. The investigators also hypothesize that the 3 day IF/CR will result in improved indicators of cardiovascular health."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Overweight",
+        "Intermittent Fasting"
+      ],
+      "keywords": [
+        "intermittent fasting",
+        "caloric restriction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This study will utilize a pre-post interventional design to assess the acute effects of a 3 day caloric restriction protocol.",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pre- post-dietary intervention",
+          "type": "OTHER",
+          "description": "Single arm pre-post dietary intervention (caloric restriction)",
+          "interventionNames": [
+            "Dietary Supplement: 3 day caloric restriction/metabolic reset"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "3 day caloric restriction/metabolic reset",
+          "description": "Participants will consume \\~500 kcal/day, using commercially available products (Plexus(r)), for 3 days, measuring physiological relevant parameters pre-and post-intervention.",
+          "armGroupLabels": [
+            "Pre- post-dietary intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in body weight",
+          "description": "Change in total body weight",
+          "timeFrame": "(days 0 and 4)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in total body water",
+          "description": "Assessed via bioelectric impedance analysis (BIA)",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in body fat (%)",
+          "description": "Assessed via bioelectric impedance analysis (BIA)",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in lean mass (kg)",
+          "description": "Assessed via bioelectric impedance analysis (BIA)",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in waist circumference",
+          "description": "Changes in waist circumference (cm) using Gulick tape measure",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in hip circumference",
+          "description": "Changes in hip circumference (cm) using Gulick tape measure",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Changes in waist to hip ratio",
+          "description": "Changes in waist:hip ratio derived from waist and hip circumferences",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in resting metabolic rate",
+          "description": "Change in resting metabolic rate assessed using the ventilated hood technique and indirect calorimetry (TrueOne2400, Parvomedics).",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in substrate utilization",
+          "description": "Change in resting-fasted substrate utilization (Fat vs. Carbohydrate) using the ventilated hood technique and indirect calorimetry (TrueOne2400, Parvomedics).",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change peripheral blood pressure",
+          "description": "Changes in peripheral blood pressure assessed using oscillometric cuff technique on the brachial artery (Sphygmocor Xcel).",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in central blood pressure",
+          "description": "Change in estimated central blood pressure, assessed using oscillometric cuff technique and generalized transfer function (Sphygmocor Xcel).",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in augmentation index",
+          "description": "Changes in augmentation index (a marker of vascular stiffness) will be assessed using oscillometric cuff technique and generalized transfer function (Sphygmocor Xcel).",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Change in heart rate variability",
+          "description": "Changes in time-domain based heart rate variability will be assessed using standard ECG with subsequent automated analysis with artifact correction (H7 PolarUSA and Elite HRV).",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Changes in blood lipid profile",
+          "description": "Changes in blood lipids (total Cholesterol, TC; low density lipoprotein LDL Cholesterol; high density lipoprotein, HDL Cholesterol; and TC:HDL ratio) will be assessed using standard techniques (Cholestech System)",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Changes in blood glucose regulation",
+          "description": "Changes in fasting blood glucose and insulin using standard techniques.",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Changes in blood markers of inflammation",
+          "description": "Changes in blood inflammatory markers (Tumor Necrosis Factor alpha (TNFa) and Cortisol) using standard techniques.",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Changes in circulating regulators of metabolism",
+          "description": "Changes in blood levels of the metabolically active hormones (thyroid stimulating hormone (TSH), protein yy (PYY), neuropeptide y (NPY), Ghrelin, and Leptin) using standard biochemical techniques.",
+          "timeFrame": "(days 0 and 4)"
+        },
+        {
+          "measure": "Changes in perceptual indicators",
+          "description": "Changes in self-reported sensations of hunger, fullness, satiety, and gastrointestinal discomfort will be assessed using visual analog scales (VAS). The VAS is 100 mm line ranging from 0 to 100, where a participant who marks 0 indicates \"none\" (not hungry at all or no gastrointestinal distress) vs. marking at 100 would indicate the maximal response (\"severely hungry\" or \"severe gastrointestinal distress\"). The hunger, fullness, and satiety ratings are not necessarily worse or better type outcomes, but simply descriptive. The magnitude is quantified by measuring the distance the participant marks on the 100mm line. In the case of gastrointestinal distress, scores over 51, or large increases in GID would be considered a less favorable outcome and the higher the score the worse the outcome on this specific item.",
+          "timeFrame": "Days 0 through 4"
+        },
+        {
+          "measure": "Changes in sleep health",
+          "description": "Changes in sleep quantity and quality will be assessed using the consensus sleep diary, core form. This form records times for going to sleep, falling asleep, waking during the night, waking in the morning. There is only one likert type item which ask participants to subjectively rate the quality of sleep from very poor to very good, and reports of poor or very poor sleep would be considered worse outcomes, particularly those with changes in response to the dietary outcome.",
+          "timeFrame": "Days 0 through 4"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Overweight or obese (body mass index, BMI \\> 27.5 kg/m2)\n* Weight stable (± 4.4 lb) for \\> 6 months prior\n* 25 to 65 years of age\n* Participants will be expected to be otherwise relatively healthy without uncontrolled chronic disease (e.g. cardiovascular, metabolic, or pulmonary) and 2 or fewer positive risk factors for cardiovascular disease (CVD) (e.g. high blood pressure, high cholesterol, etc) as described by the American College of Sports Medicine (ACSM)/American Heart Association (AHA) Criteria.\n* Cleared by Physician\n\nExclusion Criteria:\n\n* Subjects who present with more than 2 CVD risk factors (AHA/ACSM criteria) or have uncontrolled/overt cardiovascular, pulmonary, or metabolic disease (Diabetes Mellitus)\n* Not cleared by their physician.\n* Recent blood donation (\\<8 weeks)\n* Those who have cancer or are being treated for cancer.\n* Women who are currently pregnant, breastfeeding, attempting to conceive, or amenorrheic (not associated with menopause).\n* Anyone who presents with food allergies to coconuts, dairy, soy, stevia, or nuts will also be excluded.\n* Those with eating disorders should not partake in this study.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "25 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Stephen Ives, Ph.D.",
+          "affiliation": "Skidmore College",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Skidmore College",
+          "city": "Saratoga Springs",
+          "state": "New York",
+          "zip": "12866",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.08313,
+            "lon": -73.78457
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Requests for data may be reviewed on a case-by-case basis, after publication of initial findings."
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "Stephen J. Ives, Associate Professor, Skidmore College",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2024-07-23"
+          },
+          {
+            "type": "RESET",
+            "date": "2024-10-23"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2024-07-23",
+        "submissionInfos": [
+          {
+            "releaseDate": "2024-07-23",
+            "resetDate": "2024-10-23"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D000093763",
+          "term": "Intermittent Fasting"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D005215",
+          "term": "Fasting"
+        },
+        {
+          "id": "D005247",
+          "term": "Feeding Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D031204",
+          "term": "Caloric Restriction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D002149",
+          "term": "Energy Intake"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

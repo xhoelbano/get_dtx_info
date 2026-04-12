@@ -1,0 +1,1300 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02973425",
+      "orgStudyIdInfo": {
+        "id": "H00007427"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01CA190866-01A1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01CA190866-01A1"
+        },
+        {
+          "id": "R25CA172009-01A1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R25CA172009-01A1"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Massachusetts, Worcester",
+        "class": "OTHER"
+      },
+      "briefTitle": "Take a Break (TAB): mHealth-assisted Skills Building Challenge for Unmotivated Smokers",
+      "officialTitle": "Take a Break (TAB): mHealth-assisted Skills Building Challenge for Unmotivated Smokers"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-11-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-07-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-11-08",
+      "studyFirstSubmitQcDate": "2016-11-21",
+      "studyFirstPostDateStruct": {
+        "date": "2016-11-25",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-04-07",
+      "resultsFirstSubmitQcDate": "2022-08-09",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-08-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-08-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Rajani Sadasivam",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Massachusetts, Worcester"
+      },
+      "leadSponsor": {
+        "name": "University of Massachusetts, Worcester",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Take a Break (TAB) is a randomized trial designed to evaluate Nicotine Replacement Therapy (NRT)-sampling and a mHealth suite of apps. TAB is a time-limited self-efficacy and skills building experience for Motivation Phase smokers. TAB is designed to create a timeline within which motivation smokers will be encouraged to try a brief period of abstinence. Smokers in this Motivation Phase are relatively untapped in research available information. This project offers these smokers point-of-need technology support in the many components of the intervention..",
+      "detailedDescription": "The Take a Break intervention is designed to increase self-efficacy and support new skills for Motivation Phase smokers. We hypothesize that, compared with the NRT-only group, the Take a Break group will have a greater number of days abstinent during the 'break' period, a greater increase in self-efficacy at the end of the 'break' period, a lower time to first quit attempt, and a higher rate of quit at 6 months. This research study will also provide valuable insight into this population of smokers and increase our understanding of which tools may be effective in helping them quit smoking Our Specific Aims are\n\n* AIM 1: Refine the Take a Break mHealth tool and implementation program.\n* AIM 2: Conduct a randomized trial of the effectiveness of Take a Break.\n* AIM 3: Follow participants in the AIM 2 randomized clinical trial for 6 months to evaluate time to quit attempts, number of quit attempts, and 6-month biochemically verified point prevalent cessation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking Cessation"
+      ],
+      "keywords": [
+        "mHealth, Smoking cessation,"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 433,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "NRT and mHealth assessment tool without feedback",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.",
+          "interventionNames": [
+            "Behavioral: NRT and mHealth assessment tool without feedback"
+          ]
+        },
+        {
+          "label": "Take a Break as an augmentation to NRT in Motivation",
+          "type": "EXPERIMENTAL",
+          "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.",
+          "interventionNames": [
+            "Behavioral: Take a Break as an augmentation to NRT-sampling in Motivation Phase"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Take a Break as an augmentation to NRT-sampling in Motivation Phase",
+          "description": "NRT sampling experience \\& Suite of mHealth motivational tools and mini-games.",
+          "armGroupLabels": [
+            "Take a Break as an augmentation to NRT in Motivation"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "NRT and mHealth assessment tool without feedback",
+          "description": "NRT and mHealth assessment tool without feedback",
+          "armGroupLabels": [
+            "NRT and mHealth assessment tool without feedback"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to First Quit Attempt",
+          "description": "Time to first quit attempt is measured by participant self-report of number of days from baseline to first quit attempt within a 6 month period. At the 6-month follow-up visit, the dates of all quit attempts were assessed using the Timeline Follow-Back Method and used to calculate time to first quit attempt.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Self-Efficacy at the End of the 6 Months",
+          "description": "Self Efficacy is measured by the Self-Efficacy Questionnaire (SEQ-12).The SEQ-12 is a 12-item instrument (two six-item subscales) that measures the confidence in ability to refrain from smoking when facing internal stimuli (e.g. feeling depressed) and external stimuli (e.g. being with smokers).\n\nThe scale varies from 1-5 \\[Not at all (1) Not very(2) Moderately(3) Very (4) Extremely (5)\\] A higher score indicates a higher level of confidence to refrain from smoking in certain social or emotional situations and a lower score indicates a lower level of confidence to refrain from smoking.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Point Prevalent Cessation as Measured by Carbon Monoxide Levels",
+          "description": "Point prevalent cessation here is measured by the number of participants with a decreased carbon monoxide level as verified by carbon monoxide levels in blood.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mean Number of Days Abstinent During the First 3 Weeks",
+          "description": "Measure the mean number of days abstinent as self-reported by participant via the mHealth assessment.",
+          "timeFrame": "3 Weeks"
+        },
+        {
+          "measure": "Number of Participants Abstinent During the First 3 Weeks",
+          "description": "Number of participants abstinent within the 3 week period as self-reported by participant via the mHealth assessment.\n\n.",
+          "timeFrame": "3 Weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of Participants Completing Daily Challenge Quiz",
+          "description": "Participants were asked to complete daily challenge quizzes during the first 3 weeks of participation. The challenge quizzes contained daily self-assessment text messages and motivational replies (intervention only)",
+          "timeFrame": "3 weeks"
+        },
+        {
+          "measure": "Number of Participants Completing a Call With Study Team to Establish a Smoking Abstinence Goal.",
+          "description": "Participants in the Intervention group were asked to participate in a goal-setting call to establish a smoking abstinence goal (typically one to two days of abstinence from cigarettes). The outcome measures the number of participants who completed to goal-setting call.",
+          "timeFrame": "1 week"
+        },
+        {
+          "measure": "Number of Participants Use of Mobile Health Application (mHealth App) to Manage Nicotine Cravings.",
+          "description": "TAB participants were encouraged to use mHealth apps that provide relaxation or distraction to help manage smoking cravings. The study team measured the number of participants used mHealth apps to manage nicotine cravings in a 3 week period.",
+          "timeFrame": "3 week"
+        },
+        {
+          "measure": "Number of TAB Participants Setting a Brief Abstinence Goal With the TTS (Tobacco Treatment Specialist)",
+          "description": "At one week TAB participants were asked to whether they would like to set an abstinence goal for the following 2-week challenge. The outcome measures the number of participants in the TAB group who set a brief abstinence goal",
+          "timeFrame": "2 week"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* For all Aims, investigators will include individuals 18 years and older who are identified as current smokers who are not preparing to quit, and are active in care within the UMMHC system, Northwell Health in Long Island, NY, Reliant Medical Group (RMG) in Worcester, MA and Central Western Massachusetts VA (VACWM) in Worcester, MA. Active in care is defined as having at least two clinical visits in the past year. If an eligible participant does not already have a smart phone, one will be provided to them, free of charge, for the duration of their participation in the study.\n\nExclusion Criteria:\n\n* Exclusion Criteria: Those unwilling to sample nicotine lozenges or participate in the game will be excluded. All patients already on NRT will be excluded. All participants who have a FDA contraindication or cautions for nicotine lozenge use (pregnancy, breastfeeding, recent cardiovascular distress, or phenylketonuria) will be excluded. We have chosen to exclude patients with a diagnosis of depression, due to confounding factors.\n\nAdults unable to consent, individuals who are not yet adults (infants, children, teenagers), and prisoners will be excluded from this study. The Food and Drug Administration (FDA) advises caution for nicotine lozenge use among women who are pregnant. Thus, women who are pregnant at the time of baseline will be excluded from the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Rajani S Sadasivam, PhD",
+          "affiliation": "UMMS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Reliant Medical Group",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        },
+        {
+          "facility": "VA Central Western Massachusetts Healthcare System",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        },
+        {
+          "facility": "University of Massachusetts Medical School",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01655",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        },
+        {
+          "facility": "Northwell Health",
+          "city": "Great Neck",
+          "state": "New York",
+          "zip": "11030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.80066,
+            "lon": -73.72846
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35072714",
+          "type": "DERIVED",
+          "citation": "Houston TK, Chen J, Amante DJ, Blok AC, Nagawa CS, Wijesundara JG, Kamberi A, Allison JJ, Person SD, Flahive J, Morley J, Conigliaro J, Mattocks KM, Garber L, Sadasivam RS. Effect of Technology-Assisted Brief Abstinence Game on Long-term Smoking Cessation in Individuals Not Yet Ready to Quit: A Randomized Clinical Trial. JAMA Intern Med. 2022 Mar 1;182(3):303-312. doi: 10.1001/jamainternmed.2021.7866."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Study participants were recruited from UMMHC, Northwell Health, VACWM. Recruitment activities started on November 2016.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "NRT and mHealth Assessment Tool Without Feedback",
+          "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+        },
+        {
+          "id": "FG001",
+          "title": "Take a Break as an Augmentation to NRT in Motivation",
+          "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "220"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "213"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "171"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "160"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "49"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "53"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "49"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "53"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "NRT and mHealth Assessment Tool Without Feedback",
+          "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+        },
+        {
+          "id": "BG001",
+          "title": "Take a Break as an Augmentation to NRT in Motivation",
+          "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "220"
+            },
+            {
+              "groupId": "BG001",
+              "value": "213"
+            },
+            {
+              "groupId": "BG002",
+              "value": "433"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "populationDescription": "The Row population differs from the Overall because some participants didn't report values on some demographic variables.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "212"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "201"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "413"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "169"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "163"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "332"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "220"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "213"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "433"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "108"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "115"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "223"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "112"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "210"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "220"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "213"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "433"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "190"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "197"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "387"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "220"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "213"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "433"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "220"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "213"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "433"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Time to First Quit Attempt",
+          "description": "Time to first quit attempt is measured by participant self-report of number of days from baseline to first quit attempt within a 6 month period. At the 6-month follow-up visit, the dates of all quit attempts were assessed using the Timeline Follow-Back Method and used to calculate time to first quit attempt.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NRT and mHealth Assessment Tool Without Feedback",
+              "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+            },
+            {
+              "id": "OG001",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "171"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "160"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.89",
+                      "spread": "1.04"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.48",
+                      "spread": "2.29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "The primary hypothesis was tested through a time-to-event analysis implemented using Cox proportional hazards models",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.02",
+              "statisticalMethod": "Regression, Cox",
+              "paramType": "Cox Proportional Hazard",
+              "paramValue": "1.68",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.09",
+              "ciUpperLimit": "2.60"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Self-Efficacy at the End of the 6 Months",
+          "description": "Self Efficacy is measured by the Self-Efficacy Questionnaire (SEQ-12).The SEQ-12 is a 12-item instrument (two six-item subscales) that measures the confidence in ability to refrain from smoking when facing internal stimuli (e.g. feeling depressed) and external stimuli (e.g. being with smokers).\n\nThe scale varies from 1-5 \\[Not at all (1) Not very(2) Moderately(3) Very (4) Extremely (5)\\] A higher score indicates a higher level of confidence to refrain from smoking in certain social or emotional situations and a lower score indicates a lower level of confidence to refrain from smoking.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "SEQ-12 overall score (mean)",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NRT and mHealth Assessment Tool Without Feedback",
+              "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+            },
+            {
+              "id": "OG001",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "171"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "160"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.7",
+                      "spread": "0.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.9",
+                      "spread": "1.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "groupDescription": "For hypothesis 3, we compared the mean score on the SEQ-12 and its subscales at 6 months, adjusting for baseline.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.03",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Linear regression",
+              "paramValue": "0.03",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Point Prevalent Cessation as Measured by Carbon Monoxide Levels",
+          "description": "Point prevalent cessation here is measured by the number of participants with a decreased carbon monoxide level as verified by carbon monoxide levels in blood.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NRT and mHealth Assessment Tool Without Feedback",
+              "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+            },
+            {
+              "id": "OG001",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "171"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "160"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Six-month OR, 95%CI, and P value were calculated from generalized estimating equation marginal models with a logit link and an exchangeable correlation matrix.",
+              "pValue": "0.048",
+              "pValueComment": "Analysis models were adjusted by study site, having quit attempts in the past 12 months measured at baseline, cigarettes per day measured at baseline, quit attempts in the past 12 months measured at baseline.",
+              "statisticalMethod": "Chi-squared",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.92",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.01",
+              "ciUpperLimit": "3.68"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Number of Days Abstinent During the First 3 Weeks",
+          "description": "Measure the mean number of days abstinent as self-reported by participant via the mHealth assessment.",
+          "populationDescription": "The number of participants analyzed is higher than the number of participants who completed the study as all participants were able to self-reported the number of days abstinent at three weeks.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "3 Weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NRT and mHealth Assessment Tool Without Feedback",
+              "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+            },
+            {
+              "id": "OG001",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "209"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "200"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.60",
+                      "spread": "2.38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.20",
+                      "spread": "3.02"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "During the first 3 weeks from randomization, both the Take a Break and comparison groups reported the number of cigarettes smoked daily (by texting); texting response rate (responded on at least 1 day).",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.01",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "2.01",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Abstinent During the First 3 Weeks",
+          "description": "Number of participants abstinent within the 3 week period as self-reported by participant via the mHealth assessment.\n\n.",
+          "populationDescription": "The population analyzed includes participants who eventually dropped out.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 Weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "NRT and mHealth Assessment Tool Without Feedback",
+              "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback"
+            },
+            {
+              "id": "OG001",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "209"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "200"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants Completing Daily Challenge Quiz",
+          "description": "Participants were asked to complete daily challenge quizzes during the first 3 weeks of participation. The challenge quizzes contained daily self-assessment text messages and motivational replies (intervention only)",
+          "populationDescription": "The number of participants analyzed is higher than the number of participants who completed the study as all participants were able to complete daily challenge quizzes at baseline and at three weeks.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "213"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "112"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants Completing a Call With Study Team to Establish a Smoking Abstinence Goal.",
+          "description": "Participants in the Intervention group were asked to participate in a goal-setting call to establish a smoking abstinence goal (typically one to two days of abstinence from cigarettes). The outcome measures the number of participants who completed to goal-setting call.",
+          "populationDescription": "The number of participants analyzed is higher than the number of participants who completed the study as more participants were able to complete goal setting at baseline.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "1 week",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "213"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "199"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants Use of Mobile Health Application (mHealth App) to Manage Nicotine Cravings.",
+          "description": "TAB participants were encouraged to use mHealth apps that provide relaxation or distraction to help manage smoking cravings. The study team measured the number of participants used mHealth apps to manage nicotine cravings in a 3 week period.",
+          "populationDescription": "The number of participants analyzed varies from number completed to reflect the number of participants still engaged at 3 weeks.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 week",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "213"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "159"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of TAB Participants Setting a Brief Abstinence Goal With the TTS (Tobacco Treatment Specialist)",
+          "description": "At one week TAB participants were asked to whether they would like to set an abstinence goal for the following 2-week challenge. The outcome measures the number of participants in the TAB group who set a brief abstinence goal",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "2 week",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Take a Break as an Augmentation to NRT in Motivation",
+              "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "213"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "145"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse events were monitored/assessed for each participant through study completion up to six months.",
+      "description": "No Adverse Event",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "NRT and mHealth Assessment Tool Without Feedback",
+          "description": "For the comparison group, implementation will be balanced in all variables except the Take a Break Intervention. The investigators will balance the two groups further by having the comparison (NRT-Sampling group) complete mHealth assessments (without feedback or goal-setting) as an attention control.\n\nParticipants randomized to the comparison group will only have access to a mHealth assessment tool similar to the \"Challenge Quizzes\" but without feedback.\n\nNRT and mHealth assessment tool without feedback: NRT and mHealth assessment tool without feedback",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 220,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 220,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 220
+        },
+        {
+          "id": "EG001",
+          "title": "Take a Break as an Augmentation to NRT in Motivation",
+          "description": "The Intervention: Take a Break as an augmentation to NRT-sampling in Motivation Phase. Take a Break is an intervention in which smokers are encouraged to engage in smoking abstinence. The main element, the \"Break,\" is a two-week challenge where smokers report days they are smoke-free. The Break is preceded by a 1-week training challenge where Challenge Quizzes (ecological momentary assessments) collect information to guide the smokers during the Break. At baseline, all smokers will be provided NRT lozenges for sampling. At weeks 1 and 3 of the \"Marathon\", our Tobacco Treatment Specialist will call all smokers, assess their experiences and collect data.Participants in the intervention will receive the full tool suite.\n\nTake a Break as an augmentation to NRT-sampling in Motivation Phase: NRT sampling experience \\& Suite of mHealth motivational tools and mini-games.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 213,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 213,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 213
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Rajani Sadasivam",
+        "organization": "UMass Chan Medical School",
+        "email": "Rajani.Sadasivam@umassmed.edu",
+        "phone": "15088568923"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-11-11",
+          "uploadDate": "2022-08-04T16:28",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1122207
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000095488",
+          "term": "Nicotine Replacement Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

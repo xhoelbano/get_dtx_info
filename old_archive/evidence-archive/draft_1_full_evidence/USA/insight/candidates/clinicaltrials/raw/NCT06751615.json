@@ -1,0 +1,162 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06751615",
+      "orgStudyIdInfo": {
+        "id": "CMFV-SCL-2024-03"
+      },
+      "organization": {
+        "fullName": "Centro de Miopía Fernández-Velázquez",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Enhancing Scleral Lens Fit With Advanced Imaging",
+      "officialTitle": "Scleral Insight: Enhancing the Predictability of ICD Scleral Lens Fitting Using Pentacam Corneal Scleral Profile Analysis in Madrid, Spain",
+      "acronym": "SPLEPICA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-20",
+      "studyFirstSubmitQcDate": "2024-12-20",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Fernando Fernandez Velazquez",
+        "investigatorTitle": "Doctor of Optometry",
+        "investigatorAffiliation": "Centro de Miopía Fernández-Velázquez"
+      },
+      "leadSponsor": {
+        "name": "Fernando Fernandez Velazquez",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "Centro de Miopía Fernández-Velázquez",
+          "class": "NETWORK"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this experimental clinical trial is to enhance the predictability and precision of scleral lens fitting in patients with complex corneal conditions such as keratoconus, post-surgical irregularities, and severe dry eye syndrome. The main questions it aims to answer are:\n\nCan detailed sagittal height measurements obtained from the Oculus Pentacam Corneal Scleral Profile (CSP) predict the necessary adjustments for optimal scleral lens fit? Will the use of these measurements reduce the number of trial-and-error adjustments needed to achieve an ideal fit, thereby reducing chair time and improving patient satisfaction?\n\nParticipants will:\n\nUndergo detailed corneal and scleral tomography using the Oculus Pentacam with the CSP strategy.\n\nReceive customized ICD 16.5 mm scleral lenses based on precise measurements of their ocular surface.\n\nParticipate in follow-up assessments to evaluate the fit of the lenses and provide feedback on comfort and visual outcomes.\n\nThis study focuses on a specific participant population of adults aged 18 and older who have not had success with other types of contact lenses. By leveraging advanced imaging technologies, the research aims to streamline the fitting process for scleral lenses, potentially setting new standards for treatment efficacy in specialty contact lens practices.",
+      "detailedDescription": "This prospective, single-center clinical trial aims to refine the process of fitting scleral lenses by utilizing advanced imaging technologies to enhance the precision and predictability of lens adaptations for individuals with complex corneal conditions. Conducted at Centro Fernández in Madrid, Spain, the study focuses on patients who have historically struggled with standard contact lens solutions due to conditions such as keratoconus, post-surgical corneal irregularities, and severe dry eye syndrome.\n\nStudy Objectives:\n\nThe primary objective of the study is to determine if detailed sagittal height measurements obtained from the Oculus Pentacam CSP can predict the necessary adjustments required for an optimal scleral lens fit. The secondary objective is to assess whether the use of these precise measurements can reduce the number of adjustments and follow-up visits typically required, thus improving overall patient satisfaction and clinical efficiency.\n\nMethods and Procedures:\n\nParticipants will be enrolled based on specific inclusion criteria, including a history of intolerance or incompatibility with other forms of contact lenses. The study will include the following steps:\n\nInitial Evaluation: Comprehensive ocular surface assessment using the Oculus Pentacam, which provides detailed corneal and scleral topography.\n\nLens Fitting: Custom scleral lenses will be fitted based on the Pentacam CSP measurements, with a focus on achieving a central vault of approximately 300 microns over the cornea.\n\nFollow-Up Assessments: Participants will return for follow-up visits to assess the fit of the lenses, comfort, and visual outcomes. Adjustments to the lenses will be made based on these assessments.\n\nImaging and Technology:\n\nThe Oculus Pentacam CSP is a pivotal tool in this study, offering high-resolution imaging that captures detailed topographical data of both the cornea and sclera. This data is crucial for customizing each scleral lens to the unique contours of the patient's ocular surface, potentially reducing the iterative nature of traditional scleral lens fittings.\n\nExpected Outcomes:\n\nThe study is expected to produce several key outcomes:\n\nValidation of Predictive Models: Establishing reliable predictive models correlating sagittal height measurements with lens fitting parameters.\n\nClinical Efficiency: Reduction in the total number of fitting sessions required, as well as decreased chair time during each visit.\n\nPatient Satisfaction: Improvement in patient comfort and visual acuity, leading to higher satisfaction rates.\n\nImpact on Clinical Practice:\n\nBy demonstrating the effectiveness of integrating advanced imaging technologies into the scleral lens fitting process, this study aims to influence current practices significantly. It is anticipated that the results will provide evidence-based guidelines that can be adopted widely, leading to more predictable and efficient scleral lens fittings across various clinical settings."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Keratoconus",
+        "Astigmatism High"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental: Advanced ICD Fitting with Pentacam CSP",
+          "description": "This cohort involves a single group of patients who will undergo an innovative scleral lens fitting process using the Oculus Pentacam Corneal Scleral Profile (CSP) analysis. The intervention focuses on enhancing the precision and predictability of ICD scleral lens adaptations by utilizing advanced imaging techniques to measure corneal and scleral topography. Participants will receive custom-fitted ICD scleral lenses designed based on detailed ocular surface measurements captured by Pentacam CSP. The main goal is to achieve optimal fitting with reduced chair time and fewer adjustment visits.\n\nThe Pentacam CSP provides high-resolution, three-dimensional scans of the anterior segment, allowing for precise mapping of both the cornea and sclera. This data is crucial for determining the appropriate sagittal depth and lens curvature needed for each patient, aiming to enhance comfort and visual outcomes. By integrating these measurements, the study seeks to develop a more efficient and effect"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Predictive Accuracy of Sagittal Height for Scleral Lens Fit",
+          "description": "This primary outcome measure evaluates the predictive accuracy of sagittal height measurements obtained using the Oculus Pentacam at 10 mm, limbus, and 15 mm in determining the necessary adjustments to achieve optimal scleral lens fit. The main goal is to establish how closely the sagittal heights at these specific points predict the required lens sagittal depth to achieve a targeted central vault of approximately 300 microns. This outcome will assess the effectiveness of using Pentacam CSP data to reduce the number of fitting sessions and adjustments, thereby increasing the efficiency of the scleral lens fitting process. The expected result is a validated predictive model correlating specific sagittal height measurements with precise lens fitting parameters, potentially setting new standards for custom scleral lens adaptations.",
+          "timeFrame": "Throughout the study duration, from initial measurement to final lens fitting (approximately 6 months)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years and older. Diagnosed with keratoconus, post-corneal transplant irregularities, or severe dry eye disease, which are indicated for scleral lens usage.\n\nPrevious intolerance or inability to use other types of contact lenses such as soft or rigid gas-permeable lenses.\n\nWilling and able to comply with scheduled visits, treatment plan, and other study procedures.\n\nAdequate ocular health suitable for contact lens wear, except for conditions being treated in the study.\n\nAbility to give informed consent.\n\nExclusion Criteria:\n\n* Under 18 years of age. Active ocular infection or inflammation. History of herpetic keratitis. Severe allergies or contraindications to any component of the scleral lenses or imaging dyes used in the study.\n\nAny condition which, in the opinion of the investigator, may interfere with safe participation in the study or adherence to study procedures.\n\nParticipation in another simultaneous clinical trial that might confound the results of the current study.\n\nPregnant or breastfeeding women.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study will enroll 30 eyes from approximately 16 to 18 participants, predominantly adults ranging from 18 to 60 years old, with an average age of around 39.7 years. The participants will consist of a diverse group, primarily diagnosed with keratoconus, which accounts for the majority of the study population. Additionally, individuals with post-surgical corneal irregularities and severe dry eye syndrome, who have shown intolerance or are unable to use other types of contact lenses such as soft or rigid gas-permeable lenses, will also be included.\n\nThis population is chosen because these conditions typically present challenges in achieving optimal vision correction through conventional means, making them ideal candidates for the benefits offered by scleral lenses. The study aims to refine the fitting process of ICD 16.5 mm scleral lenses using advanced Pentacam CSP imaging to achieve better comfort, fit, and visual outcomes.\n\nPatients will be consecutively recruited based on their cli",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Centro de Miopia Fernandez-Velazquez",
+          "city": "Madrid",
+          "zip": "28029",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007640",
+          "term": "Keratoconus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003316",
+          "term": "Corneal Diseases"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

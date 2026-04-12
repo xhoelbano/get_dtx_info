@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04987034",
+      "orgStudyIdInfo": {
+        "id": "16-11"
+      },
+      "organization": {
+        "fullName": "Cook Group Incorporated",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Comparing a Direct Versus an Indirect Approach to Measuring the Portalsytemic Pressure Gradients",
+      "officialTitle": "Endoscopic Ultrasound-Guided Portosystemic Pressure Gradient Measurements vs. Transjugular Balloon Occlusion Measurement: A Multicenter EU Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-07-27",
+      "studyFirstSubmitQcDate": "2021-07-27",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cook Research Incorporated",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study is to evaluate the correlation of the calculated portosystemic pressure gradient (PPG) obtained by direct portal and hepatic pressure measurements with the EchoTip® Insight™ and indirect portal vein pressure measurements using the interventional radiology based hepatic venous pressure gradient (HVPG) procedure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Liver Cirrhosis"
+      ],
+      "keywords": [
+        "Portal Pressure Measurement",
+        "Portal Pressure Gradient",
+        "Hepatic Vein Pressure Gradient",
+        "Liver Diseases",
+        "Portal Hypertension",
+        "Intractable ascites",
+        "End Stage Liver Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 35,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Direct and indirect PPG measurements",
+          "description": "Measuring the portalsystemic pressure gradient in patients directly using the EchoTip® Insight™ and indirectly through the HVPG procedure.",
+          "interventionNames": [
+            "Device: EchoTip® Insight™"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "EchoTip® Insight™",
+          "description": "Patients will undergo procedure where HVPG is obtained under mild sedation, next the patients will undergo anesthesia and mechanical intubation where HVPG measurements will be obtained simultaneously with the EchoTip Insight measurement. For patients receiving a transjugular intrahepatic portosystemic shunt (TIPS), direct portal vein pressure measurements will be obtained by the EchoTip® Insight™ and compared to the transjugular direct portal vein measurement obtained during the interventional radiology (IR) procedure.",
+          "armGroupLabels": [
+            "Direct and indirect PPG measurements"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The correlation between the direct and indirect procedures to measure PPG.",
+          "description": "Under general anesthesia, to quantify the correlation between the calculated PPG from the EchoTip® Insight™ direct measurements (difference between direct portal vein pressure and direct hepatic vein pressure) and indirect HVPG measurement (difference between transjugular free hepatic venous pressure (FHVP) and wedge hepatic venous pressure (WHVP) obtained during an IR procedure.",
+          "timeFrame": "The period from the start of the procedure until all measurements are completed is anticipated to be approximately two hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with cirrhosis who have been referred for a procedure where HVPG is obtained.\n\nExclusion Criteria:\n\n* Patient is pregnant, breast-feeding, or planning to become pregnant during the course of the study\n* Patient is unwilling or unable to sign and date the informed consent\n* Patient is unwilling to comply with the follow-up study schedule\n* Previous total or partial splenectomy\n* Non-cirrhotic portal hypertension\n* Known history of spontaneous bacterial peritonitis (SBP) within the last three months irrespective of treatment for SBP\n* Patients with known infection which is not controlled by medical intervention\n* Portopulmonary hypertension\n* Cardiac decompensation\n* Pre-sinusoidal liver disease\n* Cholestatic liver disease\n* Patient who received endoscopic treatment for upper gastrointestinal (GI) variceal bleeding within the past 7 days\n* Patients with current hepatocellular carcinoma (HCC)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with cirrhosis who have been referred for a HVPG procedure.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Schalk Van der Merwe, Prof",
+          "affiliation": "Department of Gastroenterology and Hepatology and Department of Clinical and Experimental Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospitals Leuven",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Erasmus University Medical Center",
+          "city": "Rotterdam",
+          "zip": "NL-3015 CE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Hospital Clinic, Barcelona",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40689144",
+          "type": "DERIVED",
+          "citation": "Vanderschueren E, Laleman W, Bonne L, Maleux G, Wagner DR, Yeh C, Calvo A, Sendino O, Gines A, Baiges A, Bruno MJ, Garcia-Pagan JC, van der Merwe S. Endoscopic ultrasound-guided portosystemic pressure gradient measurement vs. transjugular balloon occlusion measurement in patients with cirrhosis (ENCOUNTER): A bicentric EU study. JHEP Rep. 2025 May 29;7(8):101466. doi: 10.1016/j.jhepr.2025.101466. eCollection 2025 Aug."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Cook Research Incorporated (CRI) is fully committed to supporting the principles of responsible data sharing, including providing qualified scientific researchers access to deidentified, patient-level data from CRI clinical studies to conduct legitimate scientific research. Data underlying the results reported in this clinical study will be made available for request after final report has been distributed and ending 5 years after final report has been distributed. Interested researchers may review the \"Cook Research Incorporated Policy on Access to Clinical Study Data\" at https://www.cookresearchinc.com/extranet/data-access.html and submit a complete research proposal to request data access. Additional study documents (such as the study protocol) will be shared as needed if the data access request is granted. A data sharing agreement will be executed for access to deidentified patient-level data."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008103",
+          "term": "Liver Cirrhosis"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D006975",
+          "term": "Hypertension, Portal"
+        },
+        {
+          "id": "D058625",
+          "term": "End Stage Liver Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D017093",
+          "term": "Liver Failure"
+        },
+        {
+          "id": "D048550",
+          "term": "Hepatic Insufficiency"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

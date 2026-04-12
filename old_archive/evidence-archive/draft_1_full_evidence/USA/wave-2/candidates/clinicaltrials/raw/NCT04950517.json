@@ -1,0 +1,221 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04950517",
+      "orgStudyIdInfo": {
+        "id": "S65474"
+      },
+      "organization": {
+        "fullName": "Universitaire Ziekenhuizen KU Leuven",
+        "class": "OTHER"
+      },
+      "briefTitle": "Physical Activity and Cardiorespiratory Fitness in Adolescents With Autism Spectrum Disorder",
+      "officialTitle": "Physical Activity and Cardiorespiratory Fitness in Adolescents With Autism Spectrum Disorder: Reliability, Validity and Correlates",
+      "acronym": "PAASD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-10-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-10-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-06-14",
+      "studyFirstSubmitQcDate": "2021-06-23",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Universitaire Ziekenhuizen KU Leuven",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to increase knowledge and insights with regard to physical activity behavior in adolescents with Autism Spectrum Disorder.",
+      "detailedDescription": "Low levels of physical activity (PA) in adolescents with Autism Spectrum Disorder (ASD) increase the risk for both physical and mental health problems during adolescence and subsequent adulthood. To enable the identification of adolescents with ASD at risk for developing an inactive lifestyle and to inform the future design of high-quality, evidence-based and ASD-specific PA interventions and programs, several gaps of the current literature need to be addressed.\n\n1. To date, no PA and cardiorespiratory fitness (CRF) tests have been validated in adolescents with ASD, causing an inability to accurately assess and interpret these two important health markers.\n2. There is a lack of knowledge regarding PA correlates in this population, resulting in difficulties to identify adolescents with ASD at risk of developing an inactive lifestyle.\n3. It is still unknown why adolescents with ASD are predominantly inactive and qualitative research of the perspectives of adolescents with ASD towards PA participation in order to understand their PA behavior is scant.\n\nTherefore, the aims of this project with regard to adolescents with ASD are:\n\n1. To examine the concurrent validity of two self-report PA instruments and the concurrent validity and test-retest reliability of a submaximal CRF test.\n2. To determine potential complex and multiple (interactions between) correlates of PA, using a comprehensive assessment protocol.\n3. To explore the perspectives of adolescents with ASD concerning the barriers and facilitators of PA participation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Autism Spectrum Disorder"
+      ],
+      "keywords": [
+        "Physical activity",
+        "Adolescents",
+        "Cardiorespiratory fitness"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "CROSS_SECTIONAL"
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Wave 1 participants",
+          "description": "The study consists of three work packages. Wave 1 participants will be included in all work packages."
+        },
+        {
+          "label": "Wave 2 participants",
+          "description": "The study consists of three work packages. Wave 2 participants will only be recruited for work package 2."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Concurrent validity of the Physical Activity Vital Sign (questionnaire) and an Online Physical Activity Logbook (m-Path app) by using accelerometry (Actigraph model wGT3X-BT) as the criterion measure in adolescents with Autism Spectrum Disorder",
+          "description": "The Physical Activity Vital Sign (PAVS) is a questionnaire consisting of 2 questions to measure the amount of moderate-to-vigorous physical activity (MVPA) participation during a typical week (total minutes MVPA/week). The Online Physical Activity Logbook (OPAL) is designed to obtain information regarding physical activity type and its intensity in blocks of 30 minutes (average minutes/week and average minutes/day spent in light, moderate, moderate-to-vigorous and vigorous physical activity. Accelerometry (ActiGraph model wGT3X-BT) will be used as the criterion measure. Accelerometer data will be downloaded, screened and processed using ActiGraph Actilife 6 software to determine the average daily and weekly minutes spent in light, moderate, moderate-to-vigorous and vigorous physical activity.",
+          "timeFrame": "Wave 1 participants will wear the accelerometers for seven consecutive days. After, they will be asked to fill out the PAVS. Next, wave 1 participants will wear the accelerometers again for 7 consecutive days and will fill out the OPAL."
+        },
+        {
+          "measure": "Concurrent validity of a submaximal cardiorespiratory fitness test in adolescents with Autism Spectrum Disorder",
+          "description": "Examination of the concurrent validity of the Astrand-Rhyming Test (ART). The ART is a submaximal cardiorespiratory fitness test on a bicycle to estimate VO2 max. A maximal cardiorespiratory fitness test (cardiopulmonary exercise test (CPET)) will be used as the criterion measure. The CPET is also a cardiorespiratory fitness test on a bicycle and measures VO2 max.",
+          "timeFrame": "Wave 1 participants will perform the ART (total duration approx 20 minutes) and the CPET (total duration approx 20 minutes). The time between both cardiorespiratory fitness tests will be approx 9 days."
+        },
+        {
+          "measure": "The test-retest reliability of a submaximal cardiorespiratory fitness test in adolescents with Autism Spectrum Disorder",
+          "description": "Examination of the test-retest reliability of the Astrand-Rhyming Test (ART). The ART is a submaximal cardiorespiratory fitness test on a bicycle to estimate VO2 max. Participants will perform the ART twice in order to examine the test-retest reliability of this submaximal exercise test.",
+          "timeFrame": "Participants will perform the ART twice. The time between both test moments will be approx 19 days and the total duration of each test will be approx 20 minutes."
+        },
+        {
+          "measure": "Determination of (interactions between) intrapersonal correlates of physical activity in adolescents with Autism Spectrum Disorder by using a comprehensive assessment protocol with standardized assessment tools",
+          "description": "(Interactions between) intrapersonal correlates of physical activity will be determined by using a comprehensive assessment protocol with standardized assessment tools (online questionnaires for the participants and their parents, clinical assessment tools). The potential intrapersonal correlates of physical activity that will be assessed are: demographic factors (socioeconomic status, age, gender, number of siblings and household type); psychological/cognitive/emotional factors (maladaptive functioning, autism severity level, sensory problems, developmental problems); physical profile factors (cardiometabolic risk, overweight/obesity, medical comorbidity, motor skills, body adiposity) and behavioral factors (screen time, time of the day and week being physically active). Physical activity levels (total minutes of moderate-to-vigorous physical activity) will be obtained by using accelerometers (ActiGraph model wGT3X-BT).",
+          "timeFrame": "Participants (wave 1+2) will wear the accelerometers for seven consecutive days. Clinical assessments and online questionnaires for adolescents will be executed at one visit. Parents will fill out the online questionnaires at home (60 minutes)."
+        },
+        {
+          "measure": "Exploration of the barriers and facilitators adolescents with Autism Spectrum Disorder experience with regard to physical activity participation",
+          "description": "Semi-structured interviews will be used to explore the barriers and facilitators adolescents with Autism Spectrum Disorder experience with regard to physical activity participation.\n\nThe interview manual is designed with questions targeting all levels of the socio-ecological model.",
+          "timeFrame": "One-on-one in-depth interviews for wave 1 participants will take place according to the adolescent's preference: online (chat) interview or face to face interview. An average duration of 45 minutes for each interview will be expected."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent/assent\n* ASD diagnosis according to the DSM-IV/5\n* Proficient knowledge of Dutch\n\nExclusion Criteria:\n\n* A physical disability hampering the administration of the standardized tests (e.g. unable to sit on a bicycle/perform a motor skill test in standing position)\n* Participants with an intellectual disability (defined as an intelligence quotient \\< 70)\n* Participants with severe medical problems (e.g. severe metabolic disorders, oncological disease, diabetes), because of safety reasons\n* Wave 1 participants only: the use of antipsychotics, because of safety reasons in the context of performing a maximal exercise test\n* Participation in another clinical trial\n* In case of pregnancy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "12 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "Participants (wave 1 + wave 2 participants) will be recruited from the Autism Expertise Center (UPC Z.org KU Leuven), by contacting (special education) schools and the autism societies. Summary flyers will be distributed via schools, autism societies and social media.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tine Van Damme",
+          "affiliation": "KU Leuven",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Anke Arkesteyn",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "UPC Z.Org",
+          "city": "Leuven",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Short description of the research project on the Leuven Autism Research group webpage",
+          "url": "https://www.kuleuven.be/laures/members/anke-arkesteyn-eng"
+        },
+        {
+          "label": "Information regarding the Leuven Autism Research group",
+          "url": "https://www.kuleuven.be/laures/research"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000067877",
+          "term": "Autism Spectrum Disorder"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002659",
+          "term": "Child Development Disorders, Pervasive"
+        },
+        {
+          "id": "D065886",
+          "term": "Neurodevelopmental Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,327 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03076723",
+      "orgStudyIdInfo": {
+        "id": "UMU-2016-CSFD-PC"
+      },
+      "organization": {
+        "fullName": "Umeå University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Using Cerebrospinal Fluid Dynamics to Optimize Treatment of Idiopathic Normal Pressure Hydrocephalus",
+      "officialTitle": "Using Cerebrospinal Fluid Dynamics to Identify Shunt Responders in Idiopathic Normal Pressure Hydrocephalus and to Optimize Postoperative Clinical Improvement While Minimizing Overdrainage Related Complications - A Double Blind Randomized Study",
+      "acronym": "PULSE-OPT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Acceptable duration exceeded. Enrolment too slow due to covid pandemic and extensive protocol.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-06-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-12-13",
+      "studyFirstSubmitQcDate": "2017-03-09",
+      "studyFirstPostDateStruct": {
+        "date": "2017-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-05-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-05-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Umeå University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sahlgrenska University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Uppsala University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Kuopio University Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to determine if the so called pulsatility curve, which describes the relationship between intracranial pressure (ICP) and ICP pulsatility, can be used to predict outcome of treatment, in the form of shunt surgery, in idiopathic normal pressure hydrocephalus (INPH) and to guide the adjustment of shunt opening pressure after the surgery. The main hypotheses of the study are:\n\n1. The pulsatility curve may be the best auxiliary test to predict shunt surgery outcome in INPH patients. With a \"fixed\" shunt opening pressure, the preoperatively assessed potential pulse amplitude reduction (determined by analysis of the pulsatility curve) predicts postoperative improvement in gait velocity and cognitive functions.\n2. A postoperative pulsatility curve can be used to further optimize ICP pulsatility by guiding opening pressure adjustment. Shunt adjustment based on the pulsatility curve three months postoperatively will increase improvement, but not complications, compared to a shunt with \"fixed\" opening pressure.\n\nBased on these hypotheses, three specific aims for the study have been defined:\n\n1. To determine if improvement three month after surgery is associated with postoperative reduction in pulse amplitude.\n2. To determine if a pulsatility curve obtained preoperatively can predict improvement in gait velocity and cognitive functions in INPH patients three months after surgery.\n3. To compare outcome six months after surgery and complications rates between INPH patients with a \"fixed\" opening pressure versus those where the shunt has been adjusted based on the pulsatility curve, three months after the shunt insertion."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hydrocephalus, Normal Pressure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 43,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Fixed opening pressure",
+          "type": "SHAM_COMPARATOR",
+          "description": "The shunt opening pressure is changed to the same setting as at surgery.",
+          "interventionNames": [
+            "Other: Simulated change in shunt opening pressure"
+          ]
+        },
+        {
+          "label": "Individual shunt opening pressure",
+          "type": "EXPERIMENTAL",
+          "description": "The shunt opening pressure is adjusted (up one step, down one step or unchanged) according to an individual analysis of the pulsatility curve (as assessed after shunt surgery).",
+          "interventionNames": [
+            "Other: Change in shunt opening pressure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Change in shunt opening pressure",
+          "description": "An individually determined change in shunt opening pressure is compared to no change in opening pressure.",
+          "armGroupLabels": [
+            "Individual shunt opening pressure"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Simulated change in shunt opening pressure",
+          "description": "The shunt opening pressure is reset to the same setting.",
+          "armGroupLabels": [
+            "Fixed opening pressure"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in total score on European INPH scale",
+          "description": "scale describing the cardinal symptoms of INPH",
+          "timeFrame": "3 and 6 months after surgery"
+        },
+        {
+          "measure": "Gait velocity",
+          "description": "Maximal gait velocity (3 x 10 m)",
+          "timeFrame": "3 and 6 months after surgery"
+        },
+        {
+          "measure": "European INPH scale",
+          "description": "Change in total score on scale describing the cardinal symptoms of INPH",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Gait velocity",
+          "description": "Maximal gait velocity (3 x 10 m)",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Computerized General Neuropsychological INPH Test (CoGNIT)",
+          "description": "A computerized neuropsychological test battery for use in INPH, which produces a total \"neuropsychological\" score",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Timed up and go test",
+          "description": "Mobility test: rise from chair, walk 3 m, turn around, walk back and sit down again",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "EuroQoL's (EQ) standardized 5 dimensions (5D) 5 levels (5L) instrument (EQ-5D-5L™)",
+          "description": "EuroQoL's standardized instrument for health outcome, which assesses health in 5 dimensions, on 5 levels",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Urogenital Distress Inventory (UDI-6)",
+          "description": "Continence assessment scale",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Incontinence Impact Questionnaire, Short Form (IIQ-7)",
+          "description": "Continence assessment scale",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Barthel Index",
+          "description": "Activities of daily living assessment scale",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Modified Rankin scale",
+          "description": "Disability assessment scale",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Geriatric depression scale (GDS-15)",
+          "description": "Score on a geriatric depression scale consisting of 15 yes/no questions",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        },
+        {
+          "measure": "Mini-mental state examination (MMSE) score",
+          "description": "Score on the MMSE scale (general mental status)",
+          "timeFrame": "baseline (before surgery) and 3 months after surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Possible or probable INPH according to the INPH guidelines.\n* Symptom duration ≥ 3 months\n* Age ≥50 years\n* Able to walk 10 meters with or without an assistant device.\n* Decision to recommend shunt surgery based either on:\n\n  * Improvement after cerebrospinal fluid (CSF) tap (i.e. positive tap test), or;\n  * Increased CSF outflow resistance, or;\n  * A combination of \"typical\" signs/symptoms + \"typical\" MRI findings;\n  * A combination of a-c.\n\nExclusion Criteria:\n\n* NPH due to hemorrhage, meningitis or stroke (secondary NPH).\n* Symptom duration ≥ 5 years.\n* Patients considered surgical risk.\n* Baseline gait velocity \\>1.1 m/sec (60 m/min) without assistant device\n* Mini Mental State Exam score ≤ 20 points.\n* Musculoskeletal condition precluding gait assessment.\n* Severe hearing or visual impairment\n* Medication in the form of warfarin or novel oral anticoagulant (NOAC)\n* Insufficient pressure data below resting pressure during the CSF infusion investigation, i.e. no complete assessment of the pulsatility curve",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jan Malm, MD, PhD",
+          "affiliation": "Umeå University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Sara Qvarlander, PhD",
+          "affiliation": "Umeå University",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kuopio university hospital",
+          "city": "Kuopio",
+          "zip": "70210",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "facility": "Turku university hospital",
+          "city": "Turku",
+          "zip": "20521",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.45148,
+            "lon": 22.26869
+          }
+        },
+        {
+          "facility": "Sahlgrenska university hospital",
+          "city": "Gothenburg",
+          "zip": "41345",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Umeå university hospital",
+          "city": "Umeå",
+          "zip": "90185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 63.82842,
+            "lon": 20.25972
+          }
+        },
+        {
+          "facility": "The Uppsala university hospital",
+          "city": "Uppsala",
+          "zip": "75185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006850",
+          "term": "Hydrocephalus, Normal Pressure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006849",
+          "term": "Hydrocephalus"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}
