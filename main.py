@@ -603,5 +603,88 @@ def translate(text: str):
     asyncio.run(run())
 
 
+@cli.command()
+@click.option('--country', default='Germany', help='Country to analyze (default: Germany)')
+@click.option('--limit', default=None, type=int,
+              help='Limit number of DTx apps to process (default: all)')
+@click.option('--model', default=None, type=str,
+              help='Override LLM model name (uses LLM_PROVIDER default otherwise)')
+@click.option('--output', default='data/evidence_analysis_results.json',
+              help='Output JSON path')
+@click.option('--csv', 'csv_output', default=None, type=str,
+              help='Also export results as CSV to this path')
+def analyze_evidence(country: str, limit: int, model: str, output: str, csv_output: str):
+    """Analyze verified evidence files using LLM extraction.
+
+    Walks through every verified raw evidence file (JSON, XML, HTML),
+    sends the content to the configured LLM, and extracts structured
+    study information into the evidence_analysis.json schema.
+
+    DiGA-level metadata (app name, company, ratings, etc.) is pre-filled
+    from dtx_data.json. The LLM extracts study-level fields only from
+    the raw evidence data — no hallucination or external research.
+
+    Examples:
+        python main.py analyze-evidence --limit 10
+        python main.py analyze-evidence --model gpt-4o --csv data/evidence.csv
+        python main.py analyze-evidence --country Germany --limit 5
+    """
+    click.echo("Starting LLM-based evidence analysis...")
+    click.echo(f"  Country: {country}")
+    if limit:
+        click.echo(f"  DTx limit: {limit}")
+    if model:
+        click.echo(f"  Model override: {model}")
+    click.echo(f"  Output: {output}")
+    if csv_output:
+        click.echo(f"  CSV export: {csv_output}")
+
+    async def run():
+        from scrapers.evidence.evidence_analyzer import EvidenceAnalyzer
+
+        data_manager = DataManager()
+        analyzer = EvidenceAnalyzer(
+            data_manager=data_manager,
+            limit=limit,
+            model_override=model,
+        )
+
+        click.echo(f"  LLM: {analyzer.llm_source_name}")
+        click.echo("")
+
+        files = analyzer.discover_evidence_files(country=country)
+        if not files:
+            click.echo("No verified evidence files found. Run 'find-evidence' first.")
+            return
+
+        dtx_count = len({f["dtx_slug"] for f in files})
+        click.echo(f"Found {len(files)} raw evidence files across {dtx_count} DTx apps")
+        click.echo(f"{'='*60}")
+
+        results = await analyzer.analyze_all(country=country)
+
+        if results:
+            analyzer.save_results(
+                results,
+                output_path=output,
+                country=country,
+                llm_source_name=analyzer.llm_source_name,
+            )
+            click.echo(f"\n{'='*60}")
+            click.echo(f"Analysis complete!")
+            click.echo(f"  Studies analyzed: {len(results)}")
+            name_field = analyzer.schema_fields[0] if analyzer.schema_fields else "_source_file"
+            click.echo(f"  DTx apps covered: {len({r.get(name_field) for r in results})}")
+            click.echo(f"  Results saved to: {output}")
+
+            if csv_output:
+                analyzer.export_csv(results, csv_path=csv_output)
+                click.echo(f"  CSV exported to: {csv_output}")
+        else:
+            click.echo("\nNo results produced.")
+
+    asyncio.run(run())
+
+
 if __name__ == "__main__":
     cli()
