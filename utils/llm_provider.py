@@ -20,11 +20,115 @@ class LLMProvider:
     PROVIDER_GEMINI = "gemini"
     PROVIDER_ANTHROPIC = "anthropic"
 
+    # Which providers expose a native web-search / grounding tool we can bind.
+    # Azure OpenAI does not generally expose the built-in web_search tool, so
+    # it is intentionally disabled here.
+    WEB_SEARCH_SUPPORTED = {
+        PROVIDER_AZURE: False,
+        PROVIDER_OPENAI: True,
+        PROVIDER_GEMINI: True,
+        PROVIDER_ANTHROPIC: True,
+    }
+
+    @staticmethod
+    def get_active_provider() -> str:
+        """Return the active provider name from LLM_PROVIDER (normalized)."""
+        return (os.getenv("LLM_PROVIDER") or "azure_openai").strip().lower()
+
+    @staticmethod
+    def get_active_model(model_override: Optional[str] = None) -> str:
+        """Return the exact model name that get_llm() would use."""
+        if model_override:
+            return model_override
+        provider = LLMProvider.get_active_provider()
+        if provider == LLMProvider.PROVIDER_AZURE:
+            return os.getenv("AZURE_OPENAI_DEPLOYMENT") or ""
+        if provider == LLMProvider.PROVIDER_OPENAI:
+            return os.getenv("OPENAI_MODEL") or ""
+        if provider == LLMProvider.PROVIDER_GEMINI:
+            return os.getenv("GEMINI_MODEL") or ""
+        if provider == LLMProvider.PROVIDER_ANTHROPIC:
+            return os.getenv("ANTHROPIC_MODEL") or ""
+        return ""
+
+    @staticmethod
+    def _env_web_search_enabled() -> bool:
+        """Read the ENABLE_WEB_SEARCH env toggle (default: True)."""
+        raw = (os.getenv("ENABLE_WEB_SEARCH") or "true").strip().lower()
+        return raw not in ("0", "false", "no", "off", "")
+
+    @staticmethod
+    def web_search_active(enable_web_search: Optional[bool] = None) -> bool:
+        """Return whether web search will actually be applied for the active provider.
+
+        Combines the env/explicit toggle with provider capability so callers can
+        log the real state.
+        """
+        enabled = (
+            LLMProvider._env_web_search_enabled()
+            if enable_web_search is None
+            else enable_web_search
+        )
+        if not enabled:
+            return False
+        provider = LLMProvider.get_active_provider()
+        return LLMProvider.WEB_SEARCH_SUPPORTED.get(provider, False)
+
+    @staticmethod
+    def _web_search_tool(provider: str) -> Optional[Any]:
+        """Return the provider-native web-search tool spec, or None."""
+        if provider == LLMProvider.PROVIDER_OPENAI:
+            return {"type": "web_search"}
+        if provider == LLMProvider.PROVIDER_ANTHROPIC:
+            return {
+                "type": "web_search_20250305",
+                "name": "web_search",
+                "max_uses": 5,
+            }
+        if provider == LLMProvider.PROVIDER_GEMINI:
+            return {"google_search": {}}
+        return None
+
+    @staticmethod
+    def _maybe_bind_web_search(
+        llm: Any,
+        provider: str,
+        enable_web_search: Optional[bool],
+    ) -> Any:
+        """Bind the native web-search tool when enabled and supported.
+
+        Falls back to the plain model (with a warning) if binding is disabled,
+        unsupported, or raises.
+        """
+        if not LLMProvider.web_search_active(enable_web_search):
+            if (
+                (LLMProvider._env_web_search_enabled() if enable_web_search is None else enable_web_search)
+                and not LLMProvider.WEB_SEARCH_SUPPORTED.get(provider, False)
+            ):
+                print(
+                    f"      [web_search] requested but not supported for provider "
+                    f"'{provider}'; using plain completion."
+                )
+            return llm
+
+        tool = LLMProvider._web_search_tool(provider)
+        if tool is None:
+            return llm
+        try:
+            return llm.bind_tools([tool])
+        except Exception as exc:
+            print(
+                f"      [web_search] failed to bind tool for '{provider}' "
+                f"({exc}); using plain completion."
+            )
+            return llm
+
     @staticmethod
     def get_llm(
         temperature: float = 0.0,
         max_tokens: int = 500,
         model_override: Optional[str] = None,
+        enable_web_search: Optional[bool] = None,
     ) -> Any:
         """Return the configured LLM based on LLM_PROVIDER env var.
 
@@ -32,45 +136,51 @@ class LLMProvider:
             temperature: Model temperature (0.0 = deterministic).
             max_tokens: Maximum tokens in response.
             model_override: Optional model name to use instead of env default.
+            enable_web_search: Force web search on/off. When None (default),
+                the ENABLE_WEB_SEARCH env toggle is used (default on). Web search
+                is only applied when the active provider supports it.
 
         Returns:
-            LangChain chat model (BaseChatModel) instance.
+            LangChain chat model (BaseChatModel) instance, optionally bound with
+            a native web-search tool.
 
         Raises:
             ValueError: If provider is unknown or required env vars are missing.
         """
-        provider = (os.getenv("LLM_PROVIDER") or "azure_openai").strip().lower()
+        provider = LLMProvider.get_active_provider()
 
         if provider == LLMProvider.PROVIDER_AZURE:
-            return LLMProvider._get_azure_llm(
+            llm = LLMProvider._get_azure_llm(
                 temperature=temperature,
                 max_tokens=max_tokens,
                 model_override=model_override,
             )
-        if provider == LLMProvider.PROVIDER_OPENAI:
-            return LLMProvider._get_openai_llm(
+        elif provider == LLMProvider.PROVIDER_OPENAI:
+            llm = LLMProvider._get_openai_llm(
                 temperature=temperature,
                 max_tokens=max_tokens,
                 model_override=model_override,
             )
-        if provider == LLMProvider.PROVIDER_GEMINI:
-            return LLMProvider._get_gemini_llm(
+        elif provider == LLMProvider.PROVIDER_GEMINI:
+            llm = LLMProvider._get_gemini_llm(
                 temperature=temperature,
                 max_tokens=max_tokens,
                 model_override=model_override,
             )
-        if provider == LLMProvider.PROVIDER_ANTHROPIC:
-            return LLMProvider._get_anthropic_llm(
+        elif provider == LLMProvider.PROVIDER_ANTHROPIC:
+            llm = LLMProvider._get_anthropic_llm(
                 temperature=temperature,
                 max_tokens=max_tokens,
                 model_override=model_override,
+            )
+        else:
+            raise ValueError(
+                f"Unknown LLM_PROVIDER: {provider}. "
+                f"Use one of: {LLMProvider.PROVIDER_AZURE}, {LLMProvider.PROVIDER_OPENAI}, "
+                f"{LLMProvider.PROVIDER_GEMINI}, {LLMProvider.PROVIDER_ANTHROPIC}"
             )
 
-        raise ValueError(
-            f"Unknown LLM_PROVIDER: {provider}. "
-            f"Use one of: {LLMProvider.PROVIDER_AZURE}, {LLMProvider.PROVIDER_OPENAI}, "
-            f"{LLMProvider.PROVIDER_GEMINI}, {LLMProvider.PROVIDER_ANTHROPIC}"
-        )
+        return LLMProvider._maybe_bind_web_search(llm, provider, enable_web_search)
 
     @staticmethod
     def get_source_name() -> str:

@@ -2,10 +2,15 @@
 
 This module uses the configured LLM provider to research and extract DTx
 information for US companies from CSV input files.
+
+The extraction schema is driven entirely by data-format/dtx_research.json — to
+add, remove, or rename fields, edit that file (no code changes needed). The
+model, provider, and web-search behavior are all controlled via .env.
 """
 import asyncio
 import csv
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -14,8 +19,82 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from .base_scraper import BaseScraper
 from utils.llm_provider import LLMProvider
+from utils.llm_metrics import aggregate, invoke_with_metrics
 
 
+# Single source of truth for the DTx research extraction schema.
+RESEARCH_SCHEMA_PATH = Path("data-format/dtx_research.json")
+
+# System prompt template. The schema JSON is injected (not hardcoded) so the
+# prompt always matches data-format/dtx_research.json.
+RESEARCH_SYSTEM_PROMPT_TEMPLATE = """\
+You are a research assistant specializing in Digital Therapeutics (DTx) and healthcare technology.
+
+Your task is to research a single company and identify its Digital Therapeutic (DTx) products.
+
+WHAT COUNTS AS A DTx:
+A Digital Therapeutic is software that delivers an evidence-based therapeutic intervention to \
+treat, manage, or prevent a medical condition (e.g. mental health, neurological, chronic disease, \
+substance use, rehabilitation). Pure trackers, wellness/lifestyle apps, booking tools, and \
+generic remote-monitoring dashboards are NOT DTx unless they deliver an actual therapeutic intervention.
+
+WHAT COUNTS AS ONE PRODUCT:
+- Treat each distinct, separately-branded product or app as ONE entry.
+- If the company sells a single platform, return ONE entry for the platform. Only split a platform \
+into multiple entries when each disease-specific module is independently branded and marketed as a \
+distinct product. Do NOT inflate the count by listing every indication of one product separately.
+
+GROUNDING RULES:
+- If you have a web-search tool available, use it to verify product names, store URLs, and status. \
+Prefer information you can confirm from the company website or app stores.
+- Provide a "source_url" for every product: the page the information came from. If you cannot find \
+a real source, do not invent the product.
+- Do NOT fabricate App Store / Play Store URLs. Use null if you cannot confirm a real listing.
+- For "clinical_area_icd10", give the single primary ICD-10 code unless the product is clearly \
+multi-indication. Examples: G20 (Parkinson's), F82 (Dyspraxia/DCD), F32 (Depression), \
+F41 (Anxiety), G47.0 (Insomnia).
+- It is acceptable and correct to return an empty "dtx_products" list if the company has no genuine \
+DTx product. Do not pad the result.
+
+OUTPUT FORMAT:
+Respond with ONLY a valid JSON object (no markdown, no code fences, no explanations) matching \
+exactly this schema. The placeholder values describe what each field should contain:
+
+{schema_json}
+"""
+
+
+def _load_research_schema() -> Dict:
+    """Load the DTx research schema from the JSON file."""
+    if not RESEARCH_SCHEMA_PATH.exists():
+        raise FileNotFoundError(
+            f"Schema file not found: {RESEARCH_SCHEMA_PATH}. "
+            "Create it at data-format/dtx_research.json."
+        )
+    with open(RESEARCH_SCHEMA_PATH, "r", encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def _env_float(name: str, default: float) -> float:
+    """Read a float from env, falling back to default on missing/invalid."""
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return default
+    try:
+        return float(raw)
+    except ValueError:
+        return default
+
+
+def _env_int(name: str, default: int) -> int:
+    """Read an int from env, falling back to default on missing/invalid."""
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return default
+    try:
+        return int(raw)
+    except ValueError:
+        return default
 
 
 class USAScraper(BaseScraper):
@@ -24,56 +103,6 @@ class USAScraper(BaseScraper):
     This scraper takes a CSV file with company information and uses
     the configured LLM provider to research and extract DTx product information.
     """
-    
-    # System prompt for the LLM to research DTx information
-    RESEARCH_SYSTEM_PROMPT = """You are a research assistant specializing in Digital Therapeutics (DTx) and healthcare technology.
-
-Your task is to research a company and find ALL of their Digital Therapeutics products.
-
-IMPORTANT: A Digital Therapeutic (DTx) is software that delivers evidence-based therapeutic interventions to treat, manage, or prevent medical conditions. This includes:
-- Apps for treating mental health conditions (depression, anxiety, PTSD, etc.)
-- Apps for neurological conditions (Parkinson's, dyspraxia, ADHD, etc.)
-- Apps for chronic disease management (diabetes, chronic pain, insomnia, etc.)
-- Apps for substance use disorders
-- Apps for rehabilitation and physical therapy
-- Any software/app that provides therapeutic treatment (not just tracking/monitoring)
-
-For each company, you MUST find:
-1. **ALL DTx Product Names**: List every digital therapeutic product/app they offer
-2. **Clinical Areas**: What conditions each DTx treats (provide ICD-10 codes)
-3. **App Store Presence**: URLs for Apple App Store and Google Play Store
-4. **Product Description**: What the DTx does therapeutically
-5. **Active Status**: Whether currently available
-
-Research guidelines:
-- Search thoroughly - companies often have MULTIPLE DTx products
-- Look at the company's website, especially "Products", "Solutions", "DTx", or "Therapeutics" sections
-- Include products even if they are in pilot phase or development
-- Include pilot programs and products in development if they are therapeutic
-- ICD-10 codes examples: G20 (Parkinson's), F82 (Dyspraxia/DCD), F32 (Depression), F41 (Anxiety), G47.0 (Insomnia)
-
-Respond ONLY with a valid JSON object (no markdown, no explanations). The JSON must have this exact structure:
-{
-    "dtx_products": [
-        {
-            "dtx_name": "Product Name",
-            "description": "Brief description of the therapeutic intervention",
-            "clinical_area_icd10": ["G20", "F82"],
-            "app_store_url": "https://apps.apple.com/..." | null,
-            "play_store_url": "https://play.google.com/..." | null,
-            "listing_status": "Active" | "Inactive" | "Pilot" | "Unknown",
-            "price_usd": "199.00" | null
-        }
-    ],
-    "company_info": {
-        "company_website": "https://..." | null,
-        "company_founding_year": 2015 | null,
-        "headquarters": "City, Country" | null
-    },
-    "research_notes": "Any relevant notes about the research findings"
-}
-
-CRITICAL: If the company website mentions DTx products, you MUST include them. Do not return empty dtx_products if the company clearly has therapeutic apps."""
 
     def __init__(self, config_path: str = "config/usa.json"):
         """Initialize the USA DTx scraper.
@@ -85,14 +114,30 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
         
         self.csv_input_path = self.config.get("csv_input_path", "data-format/us_company.csv")
         self.output_file = self.config.get("output_file", "data/dtx_data_usa.json")
-        self.llm_settings = self.config.get("llm_settings", {})
         self.csv_mappings = self.config.get("csv_column_mappings", {})
-        
-        # Initialize the LLM using centralized provider
-        self.llm = LLMProvider.get_llm(
-            temperature=self.llm_settings.get("temperature", 0.1),
-            max_tokens=self.llm_settings.get("max_tokens", 4000),
+
+        # Schema-driven system prompt (no hardcoded JSON structure).
+        self.research_schema = _load_research_schema()
+        schema_json = json.dumps(self.research_schema, indent=2, ensure_ascii=False)
+        self.research_system_prompt = RESEARCH_SYSTEM_PROMPT_TEMPLATE.replace(
+            "{schema_json}", schema_json
         )
+
+        # Model + provider come purely from .env (LLM_PROVIDER + model var).
+        # Temperature/max_tokens default in code, optionally overridden via env.
+        temperature = _env_float("LLM_TEMPERATURE", 0.0)
+        max_tokens = _env_int("LLM_MAX_TOKENS", 4000)
+
+        self.llm = LLMProvider.get_llm(
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+        self.provider = LLMProvider.get_active_provider()
+        self.model_name = LLMProvider.get_active_model()
+        self.web_search_active = LLMProvider.web_search_active()
+
+        # Per-call benchmark rows collected during a run.
+        self._call_metrics: List[Dict] = []
     
     def _get_column_value(self, row: Dict, column_names: List[str]) -> Optional[str]:
         """Get value from row using multiple possible column names.
@@ -230,79 +275,70 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
         company_name = company.get("company_name", "Unknown")
         website = company.get("website", "")
         description = company.get("description", "")
-        
-#         # Build the research prompt
-#         research_prompt = f"""Research the following company for ALL Digital Therapeutics (DTx) products:
 
-# **Company Name**: {company_name}
-# **Website**: {website if website else 'Perform web search to identify official URL'}
-# **Company Description**: {description if description else 'Not provided'}
-
-# IMPORTANT RESEARCH STEPS:
-# 1. Visit the company website and look for ALL therapeutic products/apps
-# 2. Check "Products", "Solutions", "DTx", "Therapeutics", "Digital Theraupetics", "Applications" sections
-# 3. Look for mobile apps on App Store and Google Play and retrieve the URLs
-# 4. Find clinical areas and ICD-10 codes for each product
-
-# DO NOT skip products that are in pilot phase or development.
-# DO NOT skip products that are for children or specific populations.
-# List EVERY therapeutic app/product the company offers.
-
-# ### OUTPUT INSTRUCTIONS
-# Analyze the findings and strictly map them to the defined JSON schema in the system prompt.
-# If the company offers a "platform" solution, treat the platform or its specific disease modules as individual DTx entries where appropriate.
-# """
-
-# # Build the research prompt
-#         research_prompt = f"""### RESEARCH TARGET
-# **Company Name**: {company_name}
-# **Website**: {website if website else 'Perform web search to identify official URL'}
-# **Context/Description**: {description if description else 'General DTx/Healthcare company'}
-
-# ### RESEARCH MISSION
-# Conduct a rigorous audit of the entity above to identify **ALL** Digital Therapeutic (DTx) assets. 
-# You are looking for software that delivers evidence-based therapeutic interventions, not just wellness trackers or booking systems.
-
-# ### INVESTIGATION PARAMETERS
-# 1. **Scope of Discovery**: 
-#     - Check "Products", "Solutions", "DTx", "Therapeutics", "Digital Theraupetics", "Applications" sections 
-#    - Identify all commercialized products, pilot programs, and assets in clinical development.
-
-# 2. **Data Extraction Requirements**:
-#     - Conduct web search to each of the products, dtxs and digital therapeutics to identify the mechanism of action, clinical coding, and digital footprint.
-#    - **Mechanism of Action**: For every product, identify *how* it treats the condition (e.g., "Cognitive Behavioral Therapy," "Auditory Rhythmic Cueing," "Remote Patient Monitoring with Feedback Loop").
-#    - **Clinical Coding**: Map every identified condition to its specific **ICD-10 code**.
-#    - **Digital Footprint**: Verify existence on Apple App Store and Google Play Store; retrieve URLs if active.
-
-# ### OUTPUT INSTRUCTIONS
-# Analyze the findings and strictly map them to the defined JSON schema in the system prompt.
-# If the company offers a "platform" solution, treat the platform or its specific disease modules as individual DTx entries where appropriate.
-# """
-
-
-# Build the research prompt
+        website_line = (
+            website
+            if website
+            else "Not provided - use web search to find the official website for each product."
+        )
         research_prompt = f"""### RESEARCH TARGET
 **Company Name**: {company_name}
-**Website**: {website if website else 'Perform web search to identify official URL for each product, dtx and digital therapeutics'}
-- Conduct web search to each of the products, dtxs and digital therapeutics to identify the mechanism of action, clinical coding, and digital footprint."""
+**Website**: {website_line}
+**Context/Description**: {description if description else 'Not provided'}
 
+Identify this company's genuine Digital Therapeutic products following the rules in the system prompt.
+For each product, confirm details against the company website or app stores and include a source_url.
+Return an empty dtx_products list if the company has no real DTx product."""
+
+        response_text = ""
         try:
             messages = [
-                SystemMessage(content=self.RESEARCH_SYSTEM_PROMPT),
+                SystemMessage(content=self.research_system_prompt),
                 HumanMessage(content=research_prompt)
             ]
-            
-            response = await self.llm.ainvoke(messages)
-            
-            # Handle both string and list content formats (newer OpenAI models return list)
+
+            response, _metrics = await invoke_with_metrics(
+                self.llm,
+                messages,
+                provider=self.provider,
+                model=self.model_name,
+                call_label="usa_research",
+                web_search=self.web_search_active,
+                extra={"company_name": company_name},
+            )
+            self._call_metrics.append(_metrics)
+
+            # Handle both string and list content formats. When a native
+            # web-search tool is bound, OpenAI/Anthropic return a list of
+            # content blocks where the leading blocks are tool-use records
+            # (web_search_call / server_tool_use) with no usable text. Keep
+            # only genuine text blocks; never stringify tool blocks (that
+            # corrupts the JSON with Python dict reprs).
             content = response.content
             if isinstance(content, list):
-                response_text = "".join(
-                    block.get("text", str(block)) if isinstance(block, dict) else str(block)
-                    for block in content
-                ).strip()
+                parts = []
+                for block in content:
+                    if isinstance(block, str):
+                        parts.append(block)
+                    elif isinstance(block, dict):
+                        text_val = block.get("text")
+                        if isinstance(text_val, str) and text_val:
+                            parts.append(text_val)
+                    # skip web_search_call / server_tool_use / tool_result blocks
+                response_text = "".join(parts).strip()
             else:
                 response_text = content.strip()
+
+            if not response_text:
+                print("      Empty text response after filtering tool-use blocks.")
+                return {
+                    "dtx_products": [],
+                    "company_info": {},
+                    "research_notes": (
+                        "Model returned no final text (only tool-use blocks). "
+                        "Web search may not have produced a final answer."
+                    ),
+                }
             
             # Handle GPT-5.2-pro and other reasoning models that return reasoning blocks
             # before the actual JSON content. Format: {...reasoning...}{...json...}
@@ -395,7 +431,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             "reviews_playstore": None,
             "reviews_appstore": None,
             # Metadata
-            "source_url": company.get("website"),
+            "source_url": product.get("source_url") or company_info.get("company_website") or company.get("website"),
             "last_scraped": datetime.utcnow().isoformat() + "Z",
             "reason_for_delisting": None
         }
@@ -417,7 +453,12 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             Dictionary containing all researched DTx data.
         """
         print(f"Starting USA DTx research...")
-        
+        print(f"  Provider: {self.provider} | Model: {self.model_name or '(from env)'} | "
+              f"Web search: {'on' if self.web_search_active else 'off'}")
+
+        # Reset per-run metrics.
+        self._call_metrics = []
+
         # Read companies from CSV
         companies = self.read_csv(csv_path)
         print(f"Loaded {len(companies)} companies from CSV")
@@ -463,6 +504,7 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             await asyncio.sleep(2)
         
         # Build the result
+        benchmark = aggregate(self._call_metrics)
         result = {
             "metadata": {
                 "country": "USA",
@@ -470,7 +512,13 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
                 "total_count": len(dtx_list),
                 "companies_researched": len(companies),
                 "companies_with_dtx": companies_with_dtx,
-                "source": LLMProvider.get_source_name()
+                "source": LLMProvider.get_source_name(),
+                "benchmark": {
+                    "provider": self.provider,
+                    "model": self.model_name,
+                    "web_search": self.web_search_active,
+                    **benchmark,
+                },
             },
             "dtx_list": dtx_list
         }
@@ -479,6 +527,10 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
         print(f"  Companies researched: {len(companies)}")
         print(f"  Companies with DTx: {companies_with_dtx}")
         print(f"  Total DTx products: {len(dtx_list)}")
+        print(f"  LLM calls: {benchmark['total_calls']} | "
+              f"Tokens: {benchmark['total_tokens']} | "
+              f"Cost: ${benchmark['total_estimated_cost_usd']} | "
+              f"Total time: {benchmark['total_latency_ms']} ms")
         
         return result
     
@@ -498,8 +550,13 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             "description": None,
             "year_founded": None
         }
-        
+
+        # Reset per-run metrics.
+        self._call_metrics = []
+
         print(f"Researching single company: {company_name}")
+        print(f"  Provider: {self.provider} | Model: {self.model_name or '(from env)'} | "
+              f"Web search: {'on' if self.web_search_active else 'off'}")
         research_result = await self.research_company(company)
         
         products = research_result.get("dtx_products", [])
@@ -510,12 +567,19 @@ CRITICAL: If the company website mentions DTx products, you MUST include them. D
             dtx_entry = self._format_dtx_entry(company, product, company_info)
             dtx_list.append(dtx_entry)
         
+        benchmark = aggregate(self._call_metrics)
         return {
             "metadata": {
                 "country": "USA",
                 "last_updated": datetime.utcnow().isoformat() + "Z",
                 "total_count": len(dtx_list),
-                "source": LLMProvider.get_source_name()
+                "source": LLMProvider.get_source_name(),
+                "benchmark": {
+                    "provider": self.provider,
+                    "model": self.model_name,
+                    "web_search": self.web_search_active,
+                    **benchmark,
+                },
             },
             "dtx_list": dtx_list
         }

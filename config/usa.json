@@ -38,11 +38,6 @@
     "Oncology": "Cancer",
     "Cancer": "Cancer"
   },
-  "llm_settings": {
-    "model": "gpt-4o",
-    "temperature": 0.1,
-    "max_tokens": 4000
-  },
   "data_sources": {
     "fda_510k_database": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm",
     "fda_de_novo_database": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm",

@@ -2,6 +2,7 @@
 from .data_manager import DataManager
 from .evidence_classifier import EvidenceClassifier
 from .evidence_verifier import EvidenceVerifier, EvidenceClassifierV2
+from .llm_metrics import aggregate, invoke_with_metrics
 from .llm_provider import LLMProvider
 from .search_query_generator import SearchQueryGenerator
 from .translator import Translator
@@ -14,4 +15,6 @@ __all__ = [
     "LLMProvider",
     "SearchQueryGenerator",
     "Translator",
+    "aggregate",
+    "invoke_with_metrics",
 ]
