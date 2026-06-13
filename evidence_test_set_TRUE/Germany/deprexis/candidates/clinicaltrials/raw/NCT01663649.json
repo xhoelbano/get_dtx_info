@@ -1,0 +1,296 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01663649",
+      "orgStudyIdInfo": {
+        "id": "Deprexis_2"
+      },
+      "organization": {
+        "fullName": "Universitätsklinikum Hamburg-Eppendorf",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effectiveness of Web-based Treatment for Depression in Patients With Neurologic Disorders",
+      "officialTitle": "Evaluation of the Effectiveness of a Web-based Treatment Program for Depression (Deprexis) for the Reduction of Depressive Symptoms in Patients With Multiple Sclerosis and Epilepsy. A Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-08-08",
+      "studyFirstSubmitQcDate": "2012-08-08",
+      "studyFirstPostDateStruct": {
+        "date": "2012-08-13",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-03-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-03-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Universitätsklinikum Hamburg-Eppendorf",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Epilepsy Centre Alsterdorf",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "200 persons (100 with multiple sclerosis and 100 with epilepsy) with depressive symptoms are recruited via the multiple sclerosis clinics of the University Medical Center Hamburg-Eppendorf and the epilepsy centre Alsterdorf and randomly assigned either to the online program deprexis or to a wait-list control condition. All participants receive free-of-charge online access to deprexis either immediately or with a six month delay.\n\nAt three time points (1. prior to intervention, 2. after completion of the intervention nine weeks later and 3. at follow-up six month later), both groups are assessed via an anonymous online survey, which was implemented using the software package OPST®.\n\nThe survey consists of different questionnaires. The Beck Depression Inventory (BDI) represents the primary outcome (IIT analysis for pre versus post). It is assumed that the severity of depressive symptoms will improve to a significantly greater extent in the deprexis than in the wait-list control condition in the course of nine weeks and will be maintained in a six month follow-up.",
+      "detailedDescription": "Deprexis is a web-based intervention that can be obtained online (www.deprexis.com). Deprexis encompasses 10 content modules with a strong focus on evidence-based cognitive-behavioral techniques, either from its so-called first (behavior-oriented), second (cognitive-oriented) or third wave (e.g. mindfulness and acceptance): (1) psychoeducation, (2) behavioral activation, (3) cognitive modification, (4) mindfulness and acceptance, (5) interpersonal skills, (6) relaxation, physical exercise and lifestyle modification, (7) problem solving and (8) expressive writing and forgiveness, (9) positive psychology and (10) dreamwork and emotion-focus interventions. The ten modules are framed by one introductory and one summary module. Communication is carried out online via simulated dialogues. Patients have to respond to narrative text messages from the virtual therapists in multiple-choice response fashion, enabling them to express doubt, to affirm a particular message or to request more information. Text messages are aided with drawings, photographs and animations. The program is adaptive and selects exercises and contents on the basis of the subject's response. The modules are sequential and each module refers and builds upon previous one. Modules can (and should be) repeated within the intervention period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "Depression",
+        "Online-Therapy",
+        "Deprexis",
+        "Self-help"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Deprexis",
+          "type": "EXPERIMENTAL",
+          "description": "Deprexis (Web-based intervention deprexis consists of ten online modules (plus one introductory and one summary module) representing different psychotherapeutic strategies with a strong focus on evidence-based cognitive-behavioral techniques (e.g. interpersonal skills). Each module lasts approximately 10-60 minutes (e.g. depending on the user´s reading speed). Modules are sequential and organized as simulated dialogues. Each module refers and builds upon previous one. The program is delivered at no cost to participants.)",
+          "interventionNames": [
+            "Behavioral: Deprexis"
+          ]
+        },
+        {
+          "label": "Wait-list",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Wait-list group (Subjects receive access to deprexis after six months)",
+          "interventionNames": [
+            "Behavioral: Deprexis",
+            "Behavioral: Wait-list"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Deprexis",
+          "description": "web-based treatment program for depression",
+          "armGroupLabels": [
+            "Deprexis",
+            "Wait-list"
+          ],
+          "otherNames": [
+            "web-based treatment program for depression"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Wait-list",
+          "description": "the wait-list group receives Deprexis after 6 month",
+          "armGroupLabels": [
+            "Wait-list"
+          ],
+          "otherNames": [
+            "web-based treatment for depression after 6 month"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Severity of depressive symptoms",
+          "description": "Severity of depressive symptoms as assessed with the Beck Depression Inventory (BDI)",
+          "timeFrame": "7 Days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "quality of life",
+          "description": "quality of life as assessed by the WHO Quality of Life scale (WHO-QOL BREF)",
+          "timeFrame": "14 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "depressive symptoms",
+          "description": "depressive symptoms as assessed by the Quick Inventory of Depressive Symptomatology (QIDS)",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "core self-evaluations",
+          "description": "core self-evaluations as assessed by the Core Self-Evaluations Scale (CSES)",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "suicidal behaviors and tendencies",
+          "description": "suicidal behaviors and tendencies as assessed by the Suicidal Behaviors Questionnaire-Revised (SBQ-R)",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "quality of life",
+          "description": "quality of life as assessed by the Hamburg MS Quality of Life Questionnaire (HALEMS)",
+          "timeFrame": "7 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* presence of a confirmed diagnosis of multiple sclerosis or epilepsy\n* self-reported urge to be treated for depressive symptoms (no externally confirmed diagnosis necessary)\n* informed consent (provided online in line with regulations by the Hamburg Department of Data Security)\n\nExclusion Criteria:\n\n* unable to provide informed consent\n* diagnosis of bipolar or schizophrenia spectrum disorders\n* substantial neurocognitive impairment (e.g. dementia)\n* acute suicidal tendencies as assessed with the Suicide Behaviors Questionnaire-Revised (SBQ-R). Subjects excluded for this reason are provided various emergency contacts and phone numbers.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Steffen Moritz, Prof.",
+          "affiliation": "Universitätsklinikum Hamburg-Eppendorf",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Epilepsy Centre Alsterdorf",
+          "city": "Hamburg",
+          "state": "Hamburg",
+          "zip": "22337",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "University Medical Center Hamburg-Eppendorf - Neurology",
+          "city": "Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22677231",
+          "type": "BACKGROUND",
+          "citation": "Moritz S, Schilling L, Hauschildt M, Schroder J, Treszl A. A randomized controlled trial of internet-based therapy in depression. Behav Res Ther. 2012 Aug;50(7-8):513-21. doi: 10.1016/j.brat.2012.04.006. Epub 2012 May 3."
+        },
+        {
+          "pmid": "19632969",
+          "type": "BACKGROUND",
+          "citation": "Meyer B, Berger T, Caspar F, Beevers CG, Andersson G, Weiss M. Effectiveness of a novel integrative online treatment for depression (Deprexis): randomized controlled trial. J Med Internet Res. 2009 May 11;11(2):e15. doi: 10.2196/jmir.1151."
+        },
+        {
+          "pmid": "26359900",
+          "type": "RESULT",
+          "citation": "Fischer A, Schroder J, Vettorazzi E, Wolf OT, Pottgen J, Lau S, Heesen C, Moritz S, Gold SM. An online programme to reduce depression in patients with multiple sclerosis: a randomised controlled trial. Lancet Psychiatry. 2015 Mar;2(3):217-23. doi: 10.1016/S2215-0366(14)00049-2. Epub 2015 Feb 25."
+        },
+        {
+          "pmid": "25410633",
+          "type": "RESULT",
+          "citation": "Schroder J, Bruckner K, Fischer A, Lindenau M, Kother U, Vettorazzi E, Moritz S. Efficacy of a psychological online intervention for depression in people with epilepsy: a randomized controlled trial. Epilepsia. 2014 Dec;55(12):2069-76. doi: 10.1111/epi.12833. Epub 2014 Nov 19."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014850",
+          "term": "Waiting Lists"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001071",
+          "term": "Appointments and Schedules"
+        },
+        {
+          "id": "D009934",
+          "term": "Organization and Administration"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

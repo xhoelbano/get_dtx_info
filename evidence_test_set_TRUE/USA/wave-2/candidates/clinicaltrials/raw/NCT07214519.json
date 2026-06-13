@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07214519",
+      "orgStudyIdInfo": {
+        "id": "(Pending) POP-2"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UG3DA063084",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UG3DA063084"
+        }
+      ],
+      "organization": {
+        "fullName": "NYU Langone Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "Permanent Supportive Housing Overdose Prevention-2 Study",
+      "officialTitle": "Preventing Overdose in Supportive Housing: Stepped Wedge Randomized Controlled Trial of a Multi-Sector, Upstream Intervention",
+      "acronym": "POP-2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-24",
+      "studyFirstSubmitQcDate": "2025-10-08",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NYU Langone Health",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This community-partnered study examines a technical assistance intervention designed to help permanent supportive housing agencies implement evidence-based practices to prevent tenant overdose and improve tenant health.",
+      "detailedDescription": "Homelessness and housing instability are strongly linked with overdose risk. Permanent supportive housing (PSH) -subsidized housing paired with supportive services-is a key strategy to end homelessness yet supportive housing tenants face high overdose risk due to a confluence of factors. This multi-sector, community-partnered, stepped wedge randomized controlled trial evaluates the impact of a technical assistance intervention designed to support supportive housing agencies in sustainably implementing evidence-based practices to reduce tenant overdose and improve tenant health more broadly. The technical assistance intervention will be delivered to supportive housing agencies in New Jersey and New York who are enrolled in the trial. Outcomes include PSH agency implementation of overdose prevention practices and downstream tenant overdose, substance use, and other health-related outcomes. Outcomes will be assessed using surveys, administrative data, and agency records. This trial is a part of the HEAL Initiative (https://heal.nih.gov/)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overdose",
+        "Substance Use"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2940,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Wave 1: Control, Intervention, Sustainment",
+          "type": "EXPERIMENTAL",
+          "description": "Participants at agencies assigned to wave 1 will receive the control condition from months 1-6; intervention for months 6-12; and sustainment from months 12-45.",
+          "interventionNames": [
+            "Behavioral: TA Intervention"
+          ]
+        },
+        {
+          "label": "Wave 2: Control, Intervention, Sustainment",
+          "type": "EXPERIMENTAL",
+          "description": "Participants at agencies assigned to wave 2 will receive the control condition from months 1-13; intervention for months 13-19; and sustainment from months 19-45.",
+          "interventionNames": [
+            "Behavioral: TA Intervention"
+          ]
+        },
+        {
+          "label": "Wave 3: Control, Intervention, Sustainment",
+          "type": "EXPERIMENTAL",
+          "description": "Participants at agencies assigned to wave 3 will receive the control condition from months 1-20; intervention for months 20-26; and sustainment from months 26-45.",
+          "interventionNames": [
+            "Behavioral: TA Intervention"
+          ]
+        },
+        {
+          "label": "Wave 4: Control, Intervention, Sustainment",
+          "type": "EXPERIMENTAL",
+          "description": "Participants at agencies assigned to wave 4 will receive the control condition from months 1-27; intervention for months 27-33; and sustainment from months 33-45.",
+          "interventionNames": [
+            "Behavioral: TA Intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "TA Intervention",
+          "description": "Technical assistance (TA) intervention designed to support PSH agencies in sustainably implementing evidence-based practices to reduce tenant overdose and improve tenant health more broadly.",
+          "armGroupLabels": [
+            "Wave 1: Control, Intervention, Sustainment",
+            "Wave 2: Control, Intervention, Sustainment",
+            "Wave 3: Control, Intervention, Sustainment",
+            "Wave 4: Control, Intervention, Sustainment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite Score of Agency-Level Fidelity to Overdose Prevention Evidence-Based Practices",
+          "description": "Fidelity will be measured as the extent to which an intervention is implemented as intended by researchers; the specific method of measurement will be determined during the trial's preparatory phase, in consultation with multiple stakeholders. The measurement will comprise a composite score of multiple measures.",
+          "timeFrame": "Baseline, Month 12 (End of Wave 1), Month 19 (End of Wave 2), Month 26 (End of Wave 3), Month 33 (End of Wave 4)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "We will be enrolling supportive housing agencies from NY and NJ to participate in this study. Trial enrollment and intervention delivery will occur at the level of the agency. There are anticipated to be 24 supportive housing agencies total that will be enrolled in the study; approximately 6 agencies will be randomly assigned to each of the four intervention waves in the stepped wedge randomized controlled trial.\n\nInclusion Criteria:\n\nSupportive Housing Agencies/Individuals who Work at Supportive Housing Agencies:\n\n* Serve at least 40 tenants in New York and/or New Jersey\n* Have a significant concern for overdose (as demonstrated by past year tenant overdose)\n* Be willing to complete all activities required for participation in the trial\n\nTenants who Live in Supportive Housing Agencies:\n\n* Must live in an enrolled Supportive Housing Agency\n* Must be 18 years and older\n\nExclusion Criteria:\n\n* See inclusion criteria.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Kelly Doran, MD",
+          "role": "CONTACT",
+          "phone": "212-263-5850",
+          "email": "Kelly.Doran@nyulangone.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Kelly Doran, MD",
+          "affiliation": "NYU Langone Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NYU Langone Health",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The data that will be shared / made available to the research community resulting from this project includes: analytic summary matrices for focus groups; analytic summary matrices for one-on-one qualitative interviews; deidentified survey data; summary data for analyses using administrative datasets and accompanying code; and all metadata and other documentation.\n\nStudy data will be available no later than the time of an associated publication or within 3 months following the end of the study, whichever is first.\n\nDeidentified data will be made available after completion of a data use agreement (DUA). Data sharing requests will be reviewed by the study PI and study team.\n\nThe protocol and statistical analysis plan will be posted on Clinicaltrials.gov only as required by federal regulation or supporting awards and agreements.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Study data will be available no later than the time of an associated publication or within 3 months following the end of the study, whichever is first.",
+      "accessCriteria": "Data that has been prepared for public access by the research community will be archived in the NYU Data Catalog, a research data repository maintained by the NYU Langone Health (NYULH) science library, available free to the NYU community and to the public. Data will be made available to qualified researchers who have a research question appropriate to the data. Deidentified data (i.e., not identifiable at an individual or specific PSH agency level) will be made available after completion of a data use agreement (DUA). Data sharing requests will be reviewed by the study PI and study team."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D062787",
+          "term": "Drug Overdose"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D063487",
+          "term": "Prescription Drug Misuse"
+        },
+        {
+          "id": "D000076064",
+          "term": "Drug Misuse"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

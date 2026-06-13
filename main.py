@@ -1,11 +1,86 @@
 #!/usr/bin/env python3
 """CLI entry point for DTx data scraping system."""
 import asyncio
+import csv
+import json
+import os
+from datetime import datetime
 import click
 from pathlib import Path
 
 from scrapers import DiGAScraper, USAScraper
 from utils import DataManager, Translator
+
+
+def _env_bool(name: str, default: bool = False) -> bool:
+    """Read a boolean .env toggle (true/1/yes/on)."""
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return default
+    return raw.strip().lower() in ("1", "true", "yes", "on")
+
+
+def _load_dtx_filter_file(path: str) -> list:
+    """Read newline-separated DTx name substrings (ignore blanks and # comments)."""
+    out = []
+    p = Path(path)
+    if not p.exists():
+        return out
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        out.append(line)
+    return out
+
+
+def _write_phase2_benchmark(metrics: list, outcomes: list, out_dir: Path) -> None:
+    """Write Phase 2 LLM metrics + evidence-outcome counts under Results and Benchmarks.
+
+    Produces:
+    - phase2_llm_metrics.jsonl : one row per LLM call (verify/classify/website agent)
+    - phase2_benchmark.csv     : aggregate per call_label plus a TOTAL row
+    - phase2_evidence_outcomes.csv : per-country candidate/verified/rejected counts
+    """
+    from utils.llm_metrics import aggregate
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    with open(out_dir / "phase2_llm_metrics.jsonl", "w", encoding="utf-8") as fh:
+        for row in metrics:
+            fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+    labels = sorted({m.get("call_label", "") for m in metrics})
+    cols = [
+        "call_label", "total_calls", "successful_calls", "failed_calls",
+        "total_input_tokens", "total_output_tokens", "total_tokens",
+        "total_estimated_cost_usd", "total_latency_ms", "avg_latency_ms",
+    ]
+    with open(out_dir / "phase2_benchmark.csv", "w", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(cols)
+        for label in labels:
+            agg = aggregate([m for m in metrics if m.get("call_label") == label])
+            writer.writerow([label] + [agg.get(c, "") for c in cols[1:]])
+        total = aggregate(metrics)
+        writer.writerow(["TOTAL"] + [total.get(c, "") for c in cols[1:]])
+
+    with open(out_dir / "phase2_evidence_outcomes.csv", "w", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        writer.writerow([
+            "country", "dtx_searched", "total_candidates", "verified_rct",
+            "verified_rwe", "rejected_irrelevant", "ineligible",
+        ])
+        for row in outcomes:
+            writer.writerow([
+                row.get("country", ""),
+                row.get("dtx_searched", 0),
+                row.get("total_candidates", 0),
+                row.get("total_verified_rct", 0),
+                row.get("total_verified_rwe", 0),
+                row.get("total_rejected", 0),
+                row.get("total_ineligible", 0),
+            ])
 
 
 @click.group()
@@ -343,6 +418,8 @@ def show_status():
 @click.option('--country', type=click.Choice(['germany', 'usa', 'both']), default='both',
               help='Which country DTx to search (default: both)')
 @click.option('--dtx', type=str, help='Search evidence for specific DTx by name')
+@click.option('--dtx-file', 'dtx_file', type=str,
+              help='Path to a newline-separated file of DTx name substrings to search (scoped test set)')
 @click.option('--source', type=click.Choice(['pubmed', 'clinicaltrials', 'drks', 'isrctn', 'all']), 
               default='all', help='Which source to search (default: all)')
 @click.option('--no-pdfs', is_flag=True, help='Skip downloading PDFs from PubMed')
@@ -378,6 +455,7 @@ def find_evidence(
     search_all: bool,
     country: str,
     dtx: str,
+    dtx_file: str,
     source: str,
     no_pdfs: bool,
     max_results: int,
@@ -404,10 +482,16 @@ def find_evidence(
         python main.py find-evidence --all --candidates-only  # Just collect
         python main.py find-evidence --all --verify-only       # Just verify
         python main.py find-evidence --all --legacy           # Old behavior
-        python main.py find-evidence --all --website-fallback # Optional website pass for zero-evidence DTx
+        python main.py find-evidence --dtx-file "Results and Benchmarks/Phase 2/phase2_test_dtx.txt"
+        ENABLE_WEBSITE_SEARCH=true python main.py find-evidence --dtx-file <path>  # website pass for every DTx
     """
-    if not search_all and not dtx:
-        click.echo("Error: Please specify --all or --dtx <name>")
+    dtx_file_filters = _load_dtx_filter_file(dtx_file) if dtx_file else []
+    if dtx_file and not dtx_file_filters:
+        click.echo(f"Error: --dtx-file '{dtx_file}' is empty or not found")
+        return
+
+    if not search_all and not dtx and not dtx_file_filters:
+        click.echo("Error: Please specify --all, --dtx <name>, or --dtx-file <path>")
         return
     
     if candidates_only and verify_only:
@@ -422,19 +506,31 @@ def find_evidence(
         click.echo("Error: --website-fallback requires the two-layer workflow (omit --legacy)")
         return
     
+    # Website search is primarily driven by the ENABLE_WEBSITE_SEARCH .env toggle.
+    # When the toggle is on, the website pass runs for EVERY DTx in the pipeline.
+    # The legacy --website-fallback flag still works as a zero-evidence-only override.
+    enable_website_env = _env_bool("ENABLE_WEBSITE_SEARCH", False)
+    run_website = (enable_website_env or website_fallback) and not candidates_only and not legacy
+    website_run_for_all = enable_website_env
+    
     mode = "legacy" if legacy else "candidates-only" if candidates_only else "verify-only" if verify_only else "full"
     
     click.echo("Starting evidence search (Two-Layer Classification)...")
     click.echo(f"  Mode: {mode}")
     click.echo(f"  Sources: {source if source != 'all' else 'PubMed, ClinicalTrials.gov, DRKS, ISRCTN'}")
     click.echo(f"  Country: {country}")
+    if dtx_file_filters:
+        click.echo(f"  DTx filter file: {dtx_file} ({len(dtx_file_filters)} entries)")
     if not legacy:
         click.echo(f"  Layer 1: {'Yes' if not verify_only else 'Skip (using existing candidates)'}")
         click.echo(f"  Layer 2: {'Yes' if not candidates_only else 'Skip'}")
-    if website_fallback:
-        click.echo(f"  Website fallback: Yes (after registry; DTx with 0 verified registry evidence only)")
+    if run_website:
+        scope = "every DTx (ENABLE_WEBSITE_SEARCH)" if website_run_for_all else "DTx with 0 verified registry evidence"
+        click.echo(f"  Website search: Yes ({scope})")
         if website_force:
             click.echo("  Website force: re-run browser even if candidates/website exists")
+    else:
+        click.echo("  Website search: No (ENABLE_WEBSITE_SEARCH off)")
     
     async def run():
         from scrapers.evidence import EvidenceOrchestrator
@@ -476,16 +572,23 @@ def find_evidence(
                     click.echo(f"\nNo {country_name} DTx data found. Run scraping commands first.")
                     continue
                 
-                # Filter to specific DTx if specified
+                # Filter to specific DTx if specified (single --dtx and/or --dtx-file).
+                def normalize_quotes(s):
+                    return s.replace("'", "'").replace("'", "'").replace('"', '"').replace('"', '"')
+
+                filters = []
                 if dtx:
-                    # Normalize quotes for matching
-                    def normalize_quotes(s):
-                        return s.replace("'", "'").replace("'", "'").replace('"', '"').replace('"', '"')
-                    
-                    dtx_normalized = normalize_quotes(dtx.lower())
-                    dtx_list = [d for d in dtx_list if dtx_normalized in normalize_quotes(d.get("dtx_name", "").lower())]
+                    filters.append(dtx)
+                filters.extend(dtx_file_filters)
+
+                if filters:
+                    norm_filters = [normalize_quotes(f.lower()) for f in filters]
+                    dtx_list = [
+                        d for d in dtx_list
+                        if any(f in normalize_quotes(d.get("dtx_name", "").lower()) for f in norm_filters)
+                    ]
                     if not dtx_list:
-                        click.echo(f"\nNo DTx matching '{dtx}' found in {country_name}")
+                        click.echo(f"\nNo DTx matching the filter(s) found in {country_name}")
                         continue
                 
                 click.echo(f"\n{'='*60}")
@@ -527,11 +630,20 @@ def find_evidence(
                         click.echo(f"  Verified RWE: {stats['total_verified_rwe']}")
                         click.echo(f"  Rejected (false positives): {stats['total_rejected']}")
                 
-                if website_fallback and not legacy and not candidates_only:
-                    click.echo(f"\n--- Website fallback ({country_name}) ---")
-                    wf = await orchestrator.run_website_fallback(
+                if not legacy and isinstance(stats, dict):
+                    outcomes.append({"country": country_name, **{
+                        k: stats.get(k, 0) for k in (
+                            "dtx_searched", "total_candidates", "total_verified_rct",
+                            "total_verified_rwe", "total_rejected", "total_ineligible",
+                        )
+                    }})
+
+                if run_website:
+                    click.echo(f"\n--- Website search ({country_name}) ---")
+                    wf = await orchestrator.run_website_search(
                         dtx_list,
                         country_name,
+                        run_for_all=website_run_for_all,
                         max_agent_steps=website_max_steps,
                         delay_seconds=website_delay,
                         force_website=website_force,
@@ -543,7 +655,7 @@ def find_evidence(
                         f"errors: {wf['dtx_errors']}"
                     )
                     click.echo(
-                        f"  Log: evidence/summary/{country_name.lower()}_website_fallback.json"
+                        f"  Log: evidence/summary/{country_name.lower()}_website_search.json"
                     )
             
             click.echo(f"\n{'='*60}")
@@ -553,10 +665,21 @@ def find_evidence(
                 click.echo("  - candidates/: All search results (Layer 1)")
                 click.echo("  - verified/: LLM-verified studies (Layer 2)")
                 click.echo("  - rejected/: False positives for review")
+
+            # Persist Phase 2 LLM metrics (tokens/cost/time) + evidence outcomes.
+            if not legacy and orchestrator.llm_metrics:
+                bench_dir = Path("Results and Benchmarks") / "Phase 2"
+                _write_phase2_benchmark(orchestrator.llm_metrics, outcomes, bench_dir)
+                from utils.llm_metrics import aggregate
+                agg = aggregate(orchestrator.llm_metrics)
+                click.echo(f"\nPhase 2 LLM metrics ({agg.get('total_calls', 0)} calls):")
+                click.echo(f"  Tokens: {agg.get('total_tokens', 0)} | Est. cost: ${agg.get('total_estimated_cost_usd', 0)}")
+                click.echo(f"  Saved to: {bench_dir}/phase2_benchmark.csv")
             
         finally:
             await orchestrator.close()
     
+    outcomes = []
     asyncio.run(run())
 
 

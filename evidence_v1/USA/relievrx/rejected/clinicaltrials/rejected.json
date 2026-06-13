@@ -1,0 +1,66 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05585905",
+      "nct_id": "NCT05585905",
+      "title": "Virtual Reality in Pediatric Dentistry",
+      "official_title": "The Effect of Virtual Reality on the Behavior of Pediatric Dental Patients During Dental Sealant Application.",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "CROSSOVER",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 20,
+      "start_date": "2023-03-17",
+      "completion_date": "2024-06-30",
+      "conditions": [
+        "Behavior, Child",
+        "Anxiety, Dental"
+      ],
+      "keywords": [
+        "Virtual Reality",
+        "Dental",
+        "Local Anesthesia",
+        "Nitrous Oxide",
+        "Anxiety",
+        "Pain"
+      ],
+      "interventions": [
+        {
+          "name": "Virtual Reality",
+          "type": "DEVICE",
+          "description": "The VR system will be worn for approximately 5-10 minutes during dental sealant application"
+        },
+        {
+          "name": "Basic Behavior Guidance Techniques",
+          "type": "BEHAVIORAL",
+          "description": "Basic behavior guidance techniques will be used as a distraction technique when the VR system is not used during the dental sealant application"
+        }
+      ],
+      "lead_sponsor": "University of Southern California",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "Dental Fear and Anxiety is an emotional experiences affecting many children and adolescents which can lead to behavioral problems in the dental setting. The purpose of the proposed study is to investigate the effect of virtual reality on anxiety, behavior, and pain in children undergoing restorative dental procedures. Children enrolled in the study will include patients ages 6-18 who are healthy and require two or more dental sealants (at least one sealant per side). The participants in the study will serve as their own control using a split-mouth cross-over randomized control clinical trial design and will be randomly assigned to receive virtual reality or traditional behavior guidance techniques first during dental sealant placement. The objectives of this study are to explore the associations between the use of virtual reality distraction during dental sealant placement with Frankl score, FLACC scale, and anxiety based on the change in heart rate, and pain based on self-reported FPS-R when compared with to the control group. The crossover design will be assessed by a linear mixed model with patient treated as a random effect. This model will include treatment, visit, treatment by visit interaction term as well as a treatment sequence variable. Prior to analysis, the primary outcome measures will be assessed for normality using a Shapiro-Wilk statistic as well as quantile-quantile (QQ) plots. Should the data deviate sharply from a normal distribution, normalizing transforma",
+      "detailed_description": "This study is a randomized controlled trial with a crossover design. Patients who are visiting the clinic for a comprehensive or periodic dental exam and are found to require two or more dental sealants (at least one sealant per side). The study subjects will include children ages 6-18 who are ASA I or II, as defined by the American Society of Anesthesiologists classification system. The proposed sample size for the study is 40 participants.\n\nThe children who are enrolled in the study will serve as both the experimental group and their own control. This is a split mouth design in which children who are enrolled in the study will serve as both the experimental group and their own control. After the child and parent are scheduled for the dental sealant appointment, they will be randomly assigned to receive the virtual reality system as a distraction technique for the first half or the latter half of the appointment (for research purposes). During the time when virtual reality is not used, traditional basic behavior guidance techniques will be used, as is the standard of care.\n\nThe virtual reality system being used for research purposes is the RelieVR by Applied VR which includes the goggle headset only. The VR experience will be an immersive experience where the child will interact with the system and navigate their way through a game that will involve bright colors, cartoon-like characters and settings with age-appropriate content. The VR system will be worn for approximately 5-10 minutes during the dental sealant application.\n\nThe dental sealant appointment will be video recorded, for research purposes and data collection. The video camera will be placed to include the child's face in order to monitor their facial expressions, legs movement, and activity during the administration of local anesthesia. The video camera will also be placed to include the blood pressure monitor and heart rate readings.\n\nThe behavior, pain, and anxiety will be analyzed at specific steps ",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05585905",
+      "_matched_query": "\"RelieVRx\"",
+      "_raw_json_path": "evidence/USA/relievrx/candidates/clinicaltrials/raw/NCT05585905.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention 'RelieVRx', 'AppliedVR', or provide a description that matches the specific features of RelieVRx. It appears to be a generic study about virtual reality in pediatric dentistry, not about the specific DTx product.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T22:29:49.051238Z",
+  "_source": "clinicaltrials"
+}

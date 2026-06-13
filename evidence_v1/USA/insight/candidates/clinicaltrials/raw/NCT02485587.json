@@ -1,0 +1,275 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02485587",
+      "orgStudyIdInfo": {
+        "id": "EU Health-F2-2013-602805"
+      },
+      "organization": {
+        "fullName": "Central Institute of Mental Health, Mannheim",
+        "class": "OTHER"
+      },
+      "briefTitle": "Arousal-Biofeedback for the Treatment of Aggressive Behavior in Children and Adolescents",
+      "officialTitle": "Arousal-Biofeedback for the Treatment of Aggressive Behavior in Children and Adolescents (Part of EC FP7 Project Aggressotype: Aggression Subtyping for Improved Insight and Treatment Innovation in Psychiatric Disorders)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-06-22",
+      "studyFirstSubmitQcDate": "2015-06-25",
+      "studyFirstPostDateStruct": {
+        "date": "2015-06-30",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-04-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Central Institute of Mental Health, Mannheim",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Zurich",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether individualized biofeedback of arousal (skin conductance) is effective in the treatment of aggressive behavior problems in children and adolescents with either predominantly impulsive (reactive) and/or high callous unemotional traits (proactive) subtypes of aggression when compared to treatment as usual (TAU), and induces normalization when compared to a group of typically developing children receiving no intervention.",
+      "detailedDescription": "In this study, which is part of the EC FP7 projects Aggressotype (FP7-Health-2013-Innovation-1 602805, Aggression subtyping for improved insight and treatment innovation in psychiatric disorders), the investigators focus on the testing of an innovative, non-pharmacological therapeutic approach for children and adolescents with different subtypes of aggressive behavior problems. Participants will be trained to acquire control over their arousal as measured by skin conductance/electrodermal activity. As aggressive behavior involves a dysregulation of arousal at rest and in response to emotional stimuli (lower electrodermal activity and heart rate, differences in EEG), the individualized acquisition of self-control over ones arousal level might represent a promising therapeutic approach for this kind of disorder.\n\nWhile trying to control their arousal level, participants receive direct continuous feedback about their physiological state and its changes, and are rewarded for successful manipulation, i.e. up- or downregulation. During transfer trials continuous feedback is omitted. Biofeedback methods are currently used to treat patients with a variety of psychiatric disorders such as ADHD.\n\nThe investigators would like to focus on the following questions concerning the effectiveness of this treatment approach:\n\n1. Can participants gain increasing control over their arousal level through biofeedback training of electrodermal activity?\n2. Which short- and longer term consequences can be expected from improved self-control over physiological measures of arousal upon aggressive and antisocial behavior problems?\n\nBefore the training, all subjects will undergo an extensive pre-treatment assessment as part of the characterization and subtyping of aggression within the large multicenter subtyping studies (EU-Aggressotype and EU-MATRICS). The assessment includes clinical and psychometric measures, neuropsychological testing, fMRI (3 tasks + resting state), MRS (2 voxels) and DTI as well as biosampling (blood/saliva for genetics/epigenetics/hormones). Comparison with a typically developing (TD) control group receiving no intervention will allow to interpret changes in terms of normalisation or compensation.\n\nAfter completion of this pretest, subjects meeting the inclusion criteria for the arousal-biofeedback treatment study will be randomly assigned to two different treatment arms, either to the experimental arousal feedback condition or to the comparator condition with TAU lasting about 20 weeks. Subjects assigned to the experimental condition will receive 20 sessions (1/week) of arousal (electrodermal activity)-feedback, learning to either in- or decrease levels of electrodermal activity. At the beginning of the first treatment session, a baseline assessment of arousal measures will be done in order to determine the arousal subtype of the participants (hypo- or hyperarousal), and the main direction of individualized training (up- or downregulation). Afterwards, each training will last about 1 hour and consist of several experimental blocks, including feedback as well as transfer trials with EEG and heart rate recorded simultaneously during the sessions. Video clips of emotional and aggressive situations will be used to support regulation of arousal. During the first 10 sessions, all participants will be asked to increase/decrease their electrodermal activity in a proportion of about 2:1 depending on the dominant arousal subtype, in order to train mainly upregulation in patients with hypoarousal, and downregulation in patients with hyperarousal. Subjects in the comparator TAU arm will receive several sessions of psychoeducation and counseling with their parents/caregivers or group training over the 20 weeks.\n\nAfter the first 10 sessions of feedback training (or several appointments with their parents/caregivers or group trainings in the TAU group) approximately 10 weeks after the beginning of the training, parents/caregivers will be asked to shortly evaluate behavioral measures of aggressive behavior by filling out the MOAS. In the feedback group arousal measures will be reassessed as done at the beginning of the first training to assess stability.\n\nAfter completion of either the training or the TAU, subjects will undergo post-treatment assessment including again the same teachers and parents reports on behavioral measures, as well as the neuropsychological testing, fMRI and MRS. A follow-up assessment with parents and teachers reports on behavioral measures only will take place 6 months after the end of the treatment phase."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Aggression",
+        "Conduct Disorder",
+        "Oppositional Defiant Disorder"
+      ],
+      "keywords": [
+        "Arousal Biofeedback",
+        "Electrodermal activity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Individualized Arousal-Biofeedback",
+          "type": "EXPERIMENTAL",
+          "description": "After a pre-training assessment at baseline, subjects will be randomized to either treatment arm or treatment as usual. Subjects in the experimental condition will receive 20 sessions of arousal (electrodermal activity) feedback, 1 session/week. Each session will last about 1 hour. After the first 10 sessions (10 weeks after the beginning of the training phase), parents/caregivers will be asked to evaluate behavioral measures of aggression.\n\nAfter training completion (approximately 20 weeks after the beginning of the training phase), subjects will undergo post-treatment assessment (week 20/21) and follow up (6 months after the end of the training phase).",
+          "interventionNames": [
+            "Behavioral: Individualized Arousal-Biofeedback"
+          ]
+        },
+        {
+          "label": "Treatment as usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "After a pre-training assessment at baseline, subjects will be randomized to either treatment arm or treatment as usual. Subjects in the comparator condition will receive several appointments together with their parents/caregivers or group trainings over a timeframe of 20 weeks. Within the sessions, the investigators will focus on psychoeducational issues and provide general counseling for the families. After 10 weeks, parents/caregivers will be asked to evaluate behavioral measures of aggression. After 20 weeks, subjects will undergo post-treatment assessment (week 20/21) and follow up (6 months after the end of the treatment phase).",
+          "interventionNames": [
+            "Behavioral: Treatment as usual"
+          ]
+        },
+        {
+          "label": "Typically developing (TD) control group",
+          "type": "NO_INTERVENTION",
+          "description": "Healthy, typically developing children will only undergo baseline assessment (observational) for comparison"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Individualized Arousal-Biofeedback",
+          "description": "biofeedback of biological measures of arousal (electrodermal activity)",
+          "armGroupLabels": [
+            "Individualized Arousal-Biofeedback"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Treatment as usual",
+          "description": "counseling, psychoeducation",
+          "armGroupLabels": [
+            "Treatment as usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in aggressive behavior from baseline at 10 weeks, 20 weeks and at follow up after 6 months as assessed by the Modified Overt Aggression Scale (MOAS)",
+          "description": "Parents or caregivers report on type and intensity of aggressive behavior over the last week (questionnaire)",
+          "timeFrame": "Baseline, evaluation after 10 weeks of treatment, post treatment assessment (20 weeks after the beginning of the training), follow up at 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in brain activation as assessed by fMRI from baseline after 20 weeks",
+          "description": "• At pre-treatment assessment and at the end of the treatment phase, patients will perform 3 tasks during functional magnetic resonance imaging (fMRI). The tasks used are: Passive Avoidance task, Emotional Faces task, Stop-Signal task",
+          "timeFrame": "Baseline and post treatment assessment (20 weeks after the beginning of the training)"
+        },
+        {
+          "measure": "Changes in composition of neurotransmitter metabolites as assessed by MRS from baseline after 20 weeks",
+          "description": "At pre-treatment assessment and at the end of the treatment phase, patients will undergo magnetic resonance spectroscopy (MRS) of two brain areas implicated in inhibitory control (ACC and insula)",
+          "timeFrame": "Baseline and post treatment assessment (20 weeks after the beginning of the training)"
+        },
+        {
+          "measure": "Changes in aggressive behavior from baseline after 20 weeks and at follow up after 6 months as assessed by teachers through the aggressive behavior subscale of theTRF (Teachers Report Form)",
+          "description": "At pre-treatment assessment, after the end of the treatment phase and at follow up, teachers will be asked to complete the TRF, which is a questionnaire focusing on general psychopathology (and allows to differentiate between several subsets of symptoms, amongst others those indicating externalizing and aggressive behavior)",
+          "timeFrame": "Baseline, post treatment assessment at 20 weeks and follow up at 6 months after the beginning of the training"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria (interventional group):\n\n* ODD/CD diagnosis based on the DSM-5 criteria\n* aggression in the clinical range, T \\> 70 on the aggression or delinquency subscale of the Teacher Report Form (TRF), Youth Self Report (YSR) or Child Behaviour Checklist (CBCL)\n* Preferably medication-naive, otherwise medication should be stable for at least 2 months\n\nInclusion Criteria (typically developing (TD) control group):\n\n* No diagnosis based on the DSM-5 criteria\n* aggression below clinical range, T \\< 70 on the aggression or delinquency subscale of the Teacher Report Form (TRF), Youth Self Report (YSR) or Child Behaviour Checklist (CBCL)\n\nExclusion Criteria (both groups):\n\n* IQ\\<80\n* a primary DSM-5 diagnosis of psychosis, bipolar disorder, depression or anxiety\n* contra-indications for MRI scanning, e.g. presence of metal parts in the body\n* epilepsy",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "8 Years",
+      "maximumAge": "14 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Daniel Brandeis, PhD",
+          "affiliation": "Department of Child and Adolescent Psychiatry and Psychotherapy, Central Institute of Mental Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Tobias Banaschewski, MD, PhD",
+          "affiliation": "Department of Child and Adolescent Psychiatry and Psychotherapy, Central Institute of Mental Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Child and Adolescent Psychiatry and Psychotherapy, Central Institute of Mental Health",
+          "city": "Mannheim",
+          "zip": "68159",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.4891,
+            "lon": 8.46694
+          }
+        },
+        {
+          "facility": "Department of Child and Adolescent Psychiatry",
+          "city": "Zurich",
+          "zip": "CH-8032",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "removedCountries": [
+        "Netherlands"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000374",
+          "term": "Aggression"
+        },
+        {
+          "id": "D019955",
+          "term": "Conduct Disorder"
+        },
+        {
+          "id": "D000096865",
+          "term": "Oppositional Defiant Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000096762",
+          "term": "Aberrant Motor Behavior in Dementia"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        },
+        {
+          "id": "D019958",
+          "term": "Attention Deficit and Disruptive Behavior Disorders"
+        },
+        {
+          "id": "D065886",
+          "term": "Neurodevelopmental Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

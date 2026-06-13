@@ -1,0 +1,344 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05051345",
+      "orgStudyIdInfo": {
+        "id": "2018-0901"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2020-07338",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "2018-0901",
+          "type": "OTHER",
+          "domain": "M D Anderson Cancer Center"
+        }
+      ],
+      "organization": {
+        "fullName": "M.D. Anderson Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Increasing Access to Smoking Cessation and Smoke Free Home Services for Low-Income Pregnant Women in Northeast Texas",
+      "officialTitle": "Increasing Access to Smoking Cessation and Smoke Free Home Services for Low-Income Pregnant Women in Northeast Texas"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-02-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-02",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-02-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-10-05",
+      "studyFirstSubmitQcDate": "2021-09-10",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "M.D. Anderson Cancer Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial seeks to increase access to smoking cessation services to low-income pregnant women. Smoking is associated with an increased risk of developing cancer. Smoking during pregnancy smoking is associated with an increased risk of low birth weight, a condition that is associated with neonatal, perinatal, and infant morbidity and mortality. The overall goal of this trial is to help patients make healthy choices and provide support during pregnancy and in the first few months after the birth of the baby.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Establish proactive referral to services. II. Provide access to evidence-based counseling and app-based smoking cessation, relapse prevention services, and counseling to household members of pregnant women who smoke III. Provide access to smoke free homes intervention. IV. Provide access to evidence-based counseling for non-pregnant smokers and access to smoke free homes intervention for non-pregnant individuals who have smoking in the home.\n\nOUTLINE:\n\nGOAL 1: Participants download and use the Wellness app onto their smartphones. Participants also receive information on the services provided for pregnant women and smoking cessation.\n\nGOAL 2: Participants receive telephone counseling sessions over 30-45 minutes for a minimum of 6 sessions in the prenatal period and about 4-6 postpartum period. Participants who start counseling after birth, may receive 6-8 sessions up to 4 months postpartum. Participants may also use the Pregnancy and Wellness smartphone app that provides wellness messages, smoking cessation information, relapse prevention tips, and tips to create a smoke-free home. Participants also receive tobacco cessation self-help materials including National Partnership for Smoke Free Families and Forever Free Baby and Me.\n\nGOAL 3: Participants receive the Smoke-Free Homes kit providing guidance for how to talk with household members and visitors about not smoking inside the home. Participants may also receive 3 separate Smoke-Free Homes mailings over 6 weeks, and a coaching call from a Baby Steps for Health counselor to help follow the steps described in the mailed materials in order to set up a smoke-free home.\n\nGOAL 4: Non-pregnant participants receive telephone counseling sessions over 30 minutes for 6-8 sessions over a 3 month period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cigarette Smoking-Related Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54158,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Goal 1 (Wellness app)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants download and use the Wellness app onto their smartphones. Participants also receive information on the services provided for pregnant women and smoking cessation.",
+          "interventionNames": [
+            "Other: Informational Intervention",
+            "Other: Media Intervention",
+            "Other: Questionnaire Administration",
+            "Other: Survey Administration"
+          ]
+        },
+        {
+          "label": "Goal 2 (counseling, Wellness app, self-help)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive telephone counseling sessions over 30-45 minutes for a minimum of 6 sessions in the prenatal period and about 4-6 postpartum period. Participants who start counseling after birth, may receive 6-8 sessions up to 4 months postpartum. Participants may also use the Pregnancy and Wellness smartphone app that provides wellness messages, smoking cessation information, relapse prevention tips, and tips to create a smoke-free home. Participants also receive tobacco cessation self-help materials including National Partnership for Smoke Free Families and Forever Free Baby and Me.",
+          "interventionNames": [
+            "Other: Informational Intervention",
+            "Other: Media Intervention",
+            "Other: Questionnaire Administration",
+            "Other: Survey Administration",
+            "Behavioral: Telephone-Based Intervention",
+            "Other: Tobacco Cessation Counseling"
+          ]
+        },
+        {
+          "label": "Goal 3 (Smoke-free Homes)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive the Smoke-Free Homes kit providing guidance for how to talk with household members and visitors about not smoking inside the home. Participants may also receive 3 separate Smoke-Free Homes mailings over 6 weeks, and a coaching call from a Baby Steps for Health counselor to help follow the steps described in the mailed materials in order to set up a smoke-free home.",
+          "interventionNames": [
+            "Other: Informational Intervention",
+            "Other: Questionnaire Administration",
+            "Behavioral: Smoking Cessation Intervention",
+            "Other: Survey Administration",
+            "Behavioral: Telephone-Based Intervention"
+          ]
+        },
+        {
+          "label": "Goal 4 (counseling)",
+          "type": "EXPERIMENTAL",
+          "description": "Non-pregnant participants receive telephone counseling sessions over 30 minutes for 6-8 sessions over a 3 month period.",
+          "interventionNames": [
+            "Other: Questionnaire Administration",
+            "Other: Survey Administration",
+            "Behavioral: Telephone-Based Intervention",
+            "Other: Tobacco Cessation Counseling"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Informational Intervention",
+          "description": "Receive information on the services provided for pregnant women and smoking cessation",
+          "armGroupLabels": [
+            "Goal 1 (Wellness app)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Informational Intervention",
+          "description": "Receive tobacco cessation self-help materials",
+          "armGroupLabels": [
+            "Goal 2 (counseling, Wellness app, self-help)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Informational Intervention",
+          "description": "Receive Smoke-Free Homes mailings",
+          "armGroupLabels": [
+            "Goal 3 (Smoke-free Homes)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Media Intervention",
+          "description": "Download and use the Wellness app",
+          "armGroupLabels": [
+            "Goal 1 (Wellness app)",
+            "Goal 2 (counseling, Wellness app, self-help)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Questionnaire Administration",
+          "description": "Ancillary studies",
+          "armGroupLabels": [
+            "Goal 1 (Wellness app)",
+            "Goal 2 (counseling, Wellness app, self-help)",
+            "Goal 3 (Smoke-free Homes)",
+            "Goal 4 (counseling)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoking Cessation Intervention",
+          "description": "Receive Smoke-Free Homes kit",
+          "armGroupLabels": [
+            "Goal 3 (Smoke-free Homes)"
+          ],
+          "otherNames": [
+            "Smoking and Tobacco Use Cessation Interventions"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Survey Administration",
+          "description": "Ancillary studies",
+          "armGroupLabels": [
+            "Goal 1 (Wellness app)",
+            "Goal 2 (counseling, Wellness app, self-help)",
+            "Goal 3 (Smoke-free Homes)",
+            "Goal 4 (counseling)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Telephone-Based Intervention",
+          "description": "Receive telephone counseling sessions",
+          "armGroupLabels": [
+            "Goal 2 (counseling, Wellness app, self-help)",
+            "Goal 4 (counseling)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Telephone-Based Intervention",
+          "description": "Receive a coaching call from a Baby Steps for Health counselor",
+          "armGroupLabels": [
+            "Goal 3 (Smoke-free Homes)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Tobacco Cessation Counseling",
+          "description": "Receive telephone counseling sessions",
+          "armGroupLabels": [
+            "Goal 2 (counseling, Wellness app, self-help)",
+            "Goal 4 (counseling)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To provide proactive referral to services to participants",
+          "timeFrame": "Through study completion, an average of 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* PRE-TEST SURVEY FOR PREGNANT WOMEN: Currently pregnant\n* PRE-TEST SURVEY FOR PREGNANT WOMEN: Currently receiving services at one of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) or Federally Qualified Health Centers (FQHC) clinics listed in the protocol\n* PRE-TEST SURVEY FOR PREGNANT WOMEN: Self-report being a current smoker, having quit for the pregnancy or allowing smoking in the home\n* PRE-TEST SURVEY FOR PREGNANT WOMEN: Reside in Texas\n* PRE-TEST SURVEY FOR PREGNANT WOMEN: Consent to take surveys\n* PRE-TEST SURVEY FOR PREGNANT WOMEN: English or Spanish speaking\n* SERVICES OFFERED TO PREGNANT WOMEN: Currently pregnant or within the first 4 months of postpartum period\n* SERVICES OFFERED TO PREGNANT WOMEN: Self-report that they are currently receiving services at one of the WIC or FQHC clinics listed in the protocol\n* SERVICES OFFERED TO PREGNANT WOMEN: Self-report being a current smoker, having quit for the pregnancy or allowing smoking in the home\n* SERVICES OFFERED TO PREGNANT WOMEN: Reside in Texas\n* SERVICES OFFERED TO PREGNANT WOMEN: Willing to provide address, telephone contact or download app onto their smartphones\n* SERVICES OFFERED TO PREGNANT WOMEN: English or Spanish speaking\n* HOUSEHOLD MEMBERS OF PREGNANT WOMEN: Self-report that he/she currently smokes and lives in the household with the pregnant woman who is receiving services\n* HOUSEHOLD MEMBERS OF PREGNANT WOMEN: Reside in Texas\n* HOUSEHOLD MEMBERS OF PREGNANT WOMEN: English or Spanish speaking\n* SERVICES OFFERED TO NON-PREGNANT INDIVIDUALS: Currently receiving services at one of the WIC or FQHC clinics listed in the protocol\n* SERVICES OFFERED TO NON-PREGNANT INDIVIDUALS: Self-report being a current smoker or allowing smoking in the home\n* SERVICES OFFERED TO NON-PREGNANT INDIVIDUALS: Reside in Texas\n* SERVICES OFFERED TO NON-PREGNANT INDIVIDUALS: English or Spanish speaking",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jan Blalock",
+          "role": "CONTACT",
+          "phone": "713-745-1728",
+          "email": "jablaloc@mdanderson.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jan Blalock",
+          "affiliation": "M.D. Anderson Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "M D Anderson Cancer Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jan Blalock",
+              "role": "CONTACT",
+              "phone": "713-745-1728",
+              "email": "jablaloc@mdanderson.org"
+            },
+            {
+              "name": "Jan Blalock",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "University of Texas MD Anderson Cancer Center Website",
+          "url": "http://www.mdanderson.org"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000074602",
+          "term": "Smoking Devices"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008420",
+          "term": "Manufactured Materials"
+        },
+        {
+          "id": "D013676",
+          "term": "Technology, Industry, and Agriculture"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

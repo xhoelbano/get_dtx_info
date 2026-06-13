@@ -1,0 +1,303 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05362318",
+      "orgStudyIdInfo": {
+        "id": "MCC-21108"
+      },
+      "organization": {
+        "fullName": "H. Lee Moffitt Cancer Center and Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Project HEALS (Helping and Empowering pAtients for Living a Life Smoke-free",
+      "officialTitle": "Motivating Smoking Cessation and Relapse Prevention Among Lung Cancer Patients: Helping and Empowering pAtients for Living a Life Smoke-free (Project HEALS)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-01-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-04-29",
+      "studyFirstSubmitQcDate": "2022-05-03",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "H. Lee Moffitt Cancer Center and Research Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to pilot test a multi-modal smoking cessation and relapse prevention intervention with the lung cancer patient population and to obtain preliminary data on its feasibility."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking",
+        "Tobacco Use",
+        "Lung Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 21,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1: Usual Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive brief advice to quit, an offer of enrollment to the Florida Tobacco Quitline, and a 12 week supply of nicotine replacement therapy (nicotine patches and lozenges).",
+          "interventionNames": [
+            "Drug: Nicotine patch and lozenges",
+            "Behavioral: Florida Tobacco Quitline"
+          ]
+        },
+        {
+          "label": "Group 2: Usual Care + Motivation and Problem Solving + Relapse Prevention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive brief advice to quit, an offer of enrollment to the Florida Tobacco Quitline, and a 12 week supply of nicotine replacement therapy (nicotine patches and lozenges), 6 telephone counseling sessions over 6 months, and access to a web based video.",
+          "interventionNames": [
+            "Drug: Nicotine patch and lozenges",
+            "Behavioral: Telephone counseling sessions",
+            "Behavioral: Access to a web-based video",
+            "Behavioral: Florida Tobacco Quitline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nicotine patch and lozenges",
+          "description": "Participants will receive nicotine patch and lozenges. The regimen will be based on the participant's self-reported smoking rate. At the time of enrollment, a research staff member will determine the proper dose. Participants who smoke \\>10 cigarettes/day will receive 8 weeks of 21 mg. patches, 2 weeks of 14 mg. patches, 2 weeks of 7 mg. patches, and 12 weeks of 2 mg. lozenges. Those who smoke \\<10 cigarettes/day will receive 8 weeks of 14 mg. patches, 4 weeks of 7 mg patches, and 12 weeks of 2 mg. lozenges",
+          "armGroupLabels": [
+            "Group 1: Usual Care",
+            "Group 2: Usual Care + Motivation and Problem Solving + Relapse Prevention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Telephone counseling sessions",
+          "description": "Participants will be offered 6 Motivation and Problem Solving (MAPS)-based counseling sessions by phone over a 6-month period.",
+          "armGroupLabels": [
+            "Group 2: Usual Care + Motivation and Problem Solving + Relapse Prevention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Access to a web-based video",
+          "description": "Participants will be given web-based access to the relapse prevention video \"Surviving Smokefree\".",
+          "armGroupLabels": [
+            "Group 2: Usual Care + Motivation and Problem Solving + Relapse Prevention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Florida Tobacco Quitline",
+          "description": "Participants will receive an offer of enrollment to the Florida Tobacco Quitline which enables participant to speak with a Quit Coach who will assess nicotine addiction and help create a quit plan.",
+          "armGroupLabels": [
+            "Group 1: Usual Care",
+            "Group 2: Usual Care + Motivation and Problem Solving + Relapse Prevention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants who meet inclusion criteria",
+          "description": "Percentage of participants who meet inclusion criteria",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Percentage of participants who agree to participate in the study",
+          "description": "Percentage of participants who agree to participate in the study",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Percentage of participants completing baseline assessment",
+          "description": "Percentage of participants completing baseline assessment",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Percentage of participants completing the 3 month follow-up assessments",
+          "description": "Percentage of participants completing the 3 month follow-up assessments",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Percentage of participants completing the 6 month follow-up assessments",
+          "description": "Percentage of participants completing the 6 month follow-up assessments",
+          "timeFrame": "at 6 months"
+        },
+        {
+          "measure": "Treatment satisfaction - Acceptability",
+          "description": "Mean scores of the Client Satisfaction Questionnaire (SCQ-8) will be used for this measure. The CSQ-8 comprises 8 items for the assessment of treatment satisfaction using a scale from 8 to 32, with higher scores indicating greater satisfaction.",
+          "timeFrame": "at 6 months"
+        },
+        {
+          "measure": "Completion rate of MAPS calls for UC+MAPS+RP participants - Demand",
+          "description": "Percentage of MAPS calls completed for UC+MAPS+RP participants",
+          "timeFrame": "at 6 months"
+        },
+        {
+          "measure": "Percentage of UC+MAPS+RP participants who viewed the web-based video -Demand",
+          "description": "Percentage of UC+MAPS+RP participants who viewed the web based video",
+          "timeFrame": "at 3 months"
+        },
+        {
+          "measure": "Percentage of UC+MAPS+RP participants who viewed the web-based video -Demand",
+          "description": "Percentage of UC+MAPS+RP participants who viewed the web based video",
+          "timeFrame": "at 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Smoked at least 100 cigarettes in lifetime\n* Current smoking (defined as self-report of any smoking, even a puff, in the past 30 days)\n* Diagnosis of lung cancer\n* Able to read and write English\n* Not currently enrolled in a smoking cessation program\n* Has a working telephone\n* Has a valid home address\n\nExclusion Criteria:\n\n* Current use of tobacco cessation medications\n* Another household member enrolled in this study\n* Contraindication of nicotine patch, unless under the supervision of a physician as advised by project staff\n* Moffitt clinical trial participant at time of enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Vani N Simmons, PhD",
+          "affiliation": "Moffitt Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Jennifer I Vidrine, PhD",
+          "affiliation": "Moffitt Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Moffitt Cancer Center",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33617",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        },
+        {
+          "id": "D064424",
+          "term": "Tobacco Use"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D061485",
+          "term": "Tobacco Use Cessation Devices"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

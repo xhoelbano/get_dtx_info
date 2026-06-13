@@ -1,0 +1,328 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03643640",
+      "orgStudyIdInfo": {
+        "id": "Optimune Trial Add-on"
+      },
+      "organization": {
+        "fullName": "Technical University of Dortmund",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluating a Novel Web-based Intervention for Breast Cancer Survivors",
+      "officialTitle": "Evaluation of a Web-based Psychological Intervention as add-on to Care as Usual in Breast Cancer Survivors: Effect on Lifestyle and Psychometric Outcome",
+      "acronym": "OPTIMUNE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-06-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-09-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-08-21",
+      "studyFirstSubmitQcDate": "2018-08-21",
+      "studyFirstPostDateStruct": {
+        "date": "2018-08-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-10-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Carsten Watzl",
+        "investigatorTitle": "Scientific Director, IfADo",
+        "investigatorAffiliation": "Technical University of Dortmund"
+      },
+      "leadSponsor": {
+        "name": "Technical University of Dortmund",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Leipzig",
+          "class": "OTHER"
+        },
+        {
+          "name": "Gaia AG",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The trial aims to evaluate the effectiveness of a novel web-based intervention (Optimune), which was designed to introduce relevant cognitive-behavioral therapy (CBT) techniques to women with breast cancer who are past the active eradication phase. The present study will test the hypothesis that Optimune has an impact on lifestyle parameters and psychometric outcomes. Therefore, 360 woman with breast cancer will be recruited and randomized to two groups: (1) a control group, in which they may engage with any treatment (Care-as-Usual, CAU) and receive access to Optimune after a delay of 3 months (i.e., CAU/wait list control group), or (2) to a treatment group that immediately receives 12-month access to Optimune and may also use CAU. The primary outcome measure is the effect on quality of life, physical activity and diet three month post-baseline.",
+      "detailedDescription": "Depression and fatigue is common in breast cancer survivors and its presence is associated with personal suffering, increased inflammatory activity, and worse prognosis. While in the phase of acute treatment many women receive short-term psychological support to better cope with the situation, this is not standard of care in the years following. Web-based psychological interventions are easily accessible and preliminary evidence suggests that such interventions can be effective. However, no trial has yet examined whether a CBT-based internet intervention designed to meet the needs of breast cancer survivors can achieve effects on lifestyle parameters and psychometric outcomes, when offered as adjunct to care as usual.\n\nIn this study, the investigators will investigate treatment effects of the novel web-based program Optimune when added to treatment as usual. Beyond established CBT techniques targeting depression, anxiety, and fatigue, this intervention specifically includes elements that have shown effects on markers of immune status and inflammation, including sleep and stress management (e.g., mindfulness-based techniques) and lifestyle optimization (dietary and physical activity advice). The delivery and training of content is continuously individualized to match users' preferences and needs, based on responses within the program. The intervention is delivered via the internet and protected by individually assigned passwords. The program can be accessed for 365 days after registration.\n\nThis randomized controlled trial will include 360 women with breast cancer who are past the active eradication phase. Participants will be recruited from various settings, including web-based advertisement and internet forums/groups. Participants will be randomly assigned to either (1) a control group, in which they receive care as usual (CAU) and are given access to the web-based intervention (Optimune) after a delay of 3 months (i.e., CAU/wait list control group), or (2) a treatment group that may also use CAU and in addition immediately receives 12-month access to the web-based intervention (Optimune). Measurements are collected at pre-treatment (T0) three months (T1) and six months (T2)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 360,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Optimune",
+          "type": "EXPERIMENTAL",
+          "description": "Optimune is an web-based psychological intervention for women with breast cancer. Beyond established CBT techniques targeting depression, anxiety, and fatigue, this intervention specifically includes elements that have shown effects on markers of immune status and inflammation, including sleep, stress management (e.g., mindfulness-based techniques) and lifestyle optimization (dietary and physical activity advice). Content is continuously adapted to users' concerns and needs. It contains interactive dialogues that can be accessed via computer or smart-phone, illustrations, audio files and motivating text messages. Optional daily text messages with motivational content accompany the program. The program can be accessed for 365 days after registration.",
+          "interventionNames": [
+            "Behavioral: Optimune"
+          ]
+        },
+        {
+          "label": "Care-as-Usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "As in the experimental arm, participants are free to continue to engage with any treatment they require (i.e., CAU). However, they will receive access to Optimune six months post-baseline (i.e., wait list with respect to Optimune access).",
+          "interventionNames": [
+            "Other: Care-As-Usual"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Optimune",
+          "description": "Optimune is a web-based psychological intervention developed for women with breast cancer.",
+          "armGroupLabels": [
+            "Optimune"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Care-As-Usual",
+          "description": "Participants are free to continue to engage with any treatment they require (i.e., CAU).",
+          "armGroupLabels": [
+            "Care-as-Usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Determination of Quality of Life using the WHOQOL-BREF",
+          "description": "Quality of Life will be measured using the World Health Organization Quality of Life Questionnaire (WHOQOL-BREF), which is a shorter version of the original instrument. Scale Range: 26 to 130.\n\nThe WHOQOL-BREF is a 26-item, 5-point rating scale. It measures the following broad domains: physical health, psychological health, social relationships, and environment. Response options range from 1, indicating \"very dissatisfied\" to 5, indicating \"very satisfied\" and relate to the last two weeks.\n\nHigher scores on the WHOQOL-BREF correspond to higher self-reported levels of quality of life.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of Physical Activity using the International Physical Activity Questionnaire",
+          "description": "Physical Activity will be measured using the short version of the International Physical Activity Questionnaire (IPAQ - short).\n\nThe short version of the IPAQ is a 7-item questionnaire that assesses the types of intensity of physical activity and sitting time that people do as part of their daily lives. Open-ended questions surrounding individuals' last 7-day recall of physical activity are considered to estimate total physical activity min/week and time spent sitting.\n\nInterpretation: Three levels (categories) of physical activity are proposed: low, moderate and high.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of Diet Quality using the Food Quality Questionnaire",
+          "description": "Diet Quality will be measured using the Food Quality Questionnaire (FQQ). Scale Range: 0 to 39.\n\nThe FQQ is a 10-item, 5-point rating scale. The FQQ is a short food frequency questionnaire, which includes 10 food items on a 5-point rating scale. It focuses on fruit, vegetables, high-sugar foods, processed food, meat and drinks. The aim of the tool is to measure diet quality. Response options range from 0, indicating \"daily\" to 3\" indicating, \"once or never\". Interpretation: A global diet quality score can be obtained by averaging all the items on the FQQ.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Determination of cancer-related fatigue using the Brief Fatigue Inventory Questionnaire",
+          "description": "Fatigue will be measured using the Brief Fatigue Inventory Questionnaire (BFI-9) questionnaire. Scale Range: 0 to 90.\n\nThe BFI is a 9-item, 11-point rating scale. The first three questions measure fatigue severity from 0, indicating \"no fatigue,\" to 10, indicating \"as bad as you can imagine,\" at current, usual, and worst levels. The following six questions assess fatigue interference with daily activities. Response options range from 0, indicating \"does not interfere,\" to 10, indicating, \"completely interferes.\" Interpretation: A global fatigue score can be obtained by averaging all the items on the BFI.\n\nHigher scores on the BFI correspond to greater self-reported levels of fatigue",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of cancer-related emotional stress",
+          "description": "Cancer-related emotional stress will be measured using the standardized IES-R (Impact of Event Scale) Questionnaire. Scale Range: 0 to 88 The IES-R is a 22-item self-report measure that assesses subjective distress caused by traumatic events. Items are rated on a 5-point scale ranging from 0 (\"not at all\") to 4 (\"extremely\"). The IES-R yields a total score (ranging from 0 to 88) and subscale scores can also be calculated for the Intrusion, Avoidance, and Hyperarousal subscales.\n\nInterpretation: Higher scores correspond to greater self-reported levels of post-traumatic stress.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of depression",
+          "description": "Depression will be measured using the standardized PHQ-9 (Patient Health Questionnaire). Scale Range: 0 to 27 The PHQ-9 is a multipurpose instrument for screening, diagnosing, monitoring and measuring the severity of depression. PHQ-9 scores of 5, 10, 15, and 20 represents mild, moderate, moderately severe and severe depression.\n\nInterpretation: Higher scores correspond to greater self-reported levels of depression.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of anxiety",
+          "description": "Anxiety will be measured using the standardized GAD-7 (Generalized Anxiety Disorder) questionnaire. Scale Range: 0 to 21 The GAD-7 is an instrument for screening, diagnosing, monitoring and measuring the severity of anxiety. GAD-7 scores of 5, 10, and 15 represents mild, moderate, and severe anxiety.\n\nInterpretation: Higher scores correspond to greater self-reported levels of anxiety.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of fear of progression",
+          "description": "Fear of progression will be measured using the standardized PA-F12 (Fear of progression) questionnaire. Scale Range: 12 - 60 The PAF-12 items are scored on a five-point Likert Scale ranging from 1 ('never') to 5 ('very often'), higher values indicating higher levels of anxiety.\n\nInterpretation: Higher scores correspond to greater self-reported levels of fear of progression.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of insomnia",
+          "description": "Insomnia will be measured using the standardized - ISI (Insomnia Severity Index), Scale Range: 0 - 28, higher values indicating increasing severity of insomnia",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Determination of usefulness of the program",
+          "description": "Usefulness of the program will be measured by a questionnaire",
+          "timeFrame": "Assessed at 3 and 6 months"
+        },
+        {
+          "measure": "Determination of Negative Effects",
+          "description": "Negative Effects will be measured using the standardized INEP (Inventory for the Assessment of Negative Effects of Psychotherapy) questionnaire.",
+          "timeFrame": "Assessed at 3 and 6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Determination of recurrence of breast cancer (local relapse or remote metastasis)",
+          "description": "Recurrence of breast cancer (local relapse or remote metastasis) will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Frequency of common cold or virus flu",
+          "description": "Frequency of common cold or virus flu will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Frequency of unscheduled medical encounters",
+          "description": "Frequency of unscheduled medical encounters will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Body Mass Index",
+          "description": "Height and weight will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        },
+        {
+          "measure": "Psychotherapy",
+          "description": "A questionnaire will determine if a psychotherapy has started during the trial",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6 months post-baseline)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Eligible are women who\n\n* had breast cancer diagnosed less than 5 years ago\n* completed acute treatment for breast cancer at least 1 month ago. This applies for surgery, chemotherapy or radiation, whichever occurred last. (Prophylactic treatment with anti-hormones like tamoxifene, aromatase-inhibitors or bisphosphonates is allowed).\n* are competent in German language\n* provide written consent to study procedures\n* are willing to provide the discharge letter from oncology (to verify diagnosis and therapies)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "30 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Carsten Watzl, PhD",
+          "affiliation": "Leibniz Research Center (IfADo), TU Dortmund",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Technical University of Dortmund, Leibniz Research Centre for Working Environment and Human Factors",
+          "city": "Dortmund",
+          "zip": "44139",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.51494,
+            "lon": 7.466
+          }
+        },
+        {
+          "facility": "University Medical Center Leipzig, Department of Medical Psychology and Medical Sociology, Section Psychosocial Oncology",
+          "city": "Leipzig",
+          "zip": "04103",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33961667",
+          "type": "DERIVED",
+          "citation": "Holtdirk F, Mehnert A, Weiss M, Mayer J, Meyer B, Brode P, Claus M, Watzl C. Results of the Optimune trial: A randomized controlled trial evaluating a novel Internet intervention for breast cancer survivors. PLoS One. 2021 May 7;16(5):e0251276. doi: 10.1371/journal.pone.0251276. eCollection 2021."
+        },
+        {
+          "pmid": "31996235",
+          "type": "DERIVED",
+          "citation": "Holtdirk F, Mehnert A, Weiss M, Meyer B, Watzl C. Protocol for the Optimune trial: a randomized controlled trial evaluating a novel Internet intervention for breast cancer survivors. Trials. 2020 Jan 29;21(1):117. doi: 10.1186/s13063-019-3987-y."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Anonymized individual participant data shall be made available upon request for projects such as meta-analyses after completion of the study",
+      "timeFrame": "after completion of the study",
+      "accessCriteria": "available upon request"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

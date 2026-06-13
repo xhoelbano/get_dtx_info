@@ -1,0 +1,534 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06763549",
+      "orgStudyIdInfo": {
+        "id": "PBH-COR-INSIGHT-1"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "PBH-COR-INSIGHT-1-A",
+          "type": "OTHER",
+          "domain": "Peerbridge Health"
+        }
+      ],
+      "organization": {
+        "fullName": "Peerbridge Health, Inc",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "COR-INSIGHT: Optimizing Cardiovascular and Cardiopulmonary Outcomes with AI-Driven Multiplexed Indications Using COR ECG Wearable",
+      "officialTitle": "COR-INSIGHT: Optimizing Cardiovascular and Cardiopulmonary Outcomes with AI-Driven Multiplexed Indications from the COR ECG Wearable",
+      "acronym": "COR-INSIGHT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-11-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-04-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-01",
+      "studyFirstSubmitQcDate": "2025-01-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Peerbridge Health, Inc",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The COR-INSIGHT trial aims to evaluate the effectiveness of Peerbridge COR advanced ambulatory ECG wearables (COR 1.0 and COR 2.0) in accurately and non-invasively detecting cardiovascular and cardiopulmonary conditions using AI-based software (CardioMIND and CardioQSync). The study devices offer non-invasive, multiplexed, AI-enabled direct-from-ECG detection as a novel alternative to traditional diagnostic methods, including imaging, hemodynamic monitoring systems, catheter-based devices, and biochemical assays. Continuous COR ECG data collected in hospital, outpatient clinic, or home settings will be analyzed to evaluate the predictive accuracy, sensitivity, specificity, and performance of these devices in differentiating between screen-positive and screen-negative subjects.\n\nThe panel of screened indications encompasses a broad spectrum of clinically relevant cardiovascular, cardiopulmonary, and sleep-related diagnostic parameters, which are critical for advanced patient assessment and management. In the cardiovascular domain, the protocol emphasizes the detection and classification of heart failure, assessment of ejection fraction severity, and identification of myocardial infarction, including pathological Q-waves and STEMI. It further addresses diagnostic markers for arrhythmogenic conditions such as QT interval prolongation, T-wave alternans, and ventricular tachycardia, as well as insights into ischemia, atrial enlargement, ventricular activation time, and heart rate turbulence. Additional parameters, such as heart rate variability, pacing efficacy, electrolyte imbalances, and structural abnormalities, including left ventricular hypertrophy, contribute to comprehensive cardiovascular risk stratification.\n\nIn the non-invasive cardiopulmonary context, the protocol incorporates metrics like respiratory sinus arrhythmia, cardiac output, stroke volume, and stroke volume variability, providing critical insights into hemodynamic and autonomic function. The inclusion of direct-from-ECG metrics for sleep-related disorders, such as the apnea-hypopnea index, respiratory disturbance index, and oxygen saturation variability, underscores the protocol's utility in addressing the intersection of cardiopulmonary and sleep medicine. This multifaceted approach establishes a robust framework for precision diagnostics and holistic patient management.\n\nThe COR 1.0 and COR 2.0 wearables provide multi-lead ECG recordings, with COR 2.0 offering extended capabilities for cardiopulmonary metrics and longer battery life (up to 14 days). COR 2.0 supports tri-modal operations:\n\n(i) Extended Holter Mode: Outputs Leads II and III, mirroring the functionality of COR 1.0 for broader ECG monitoring applications.\n\n(ii) Cardiopulmonary Mode: Adds real-time recording of Lead I, V2, respiratory impedance, and triaxial accelerometer outputs, providing advanced cardiopulmonary insights.\n\n(iii) Real-Time Streaming Mode: Streams data directly to mobile devices or computers via Bluetooth Low Energy (BLE), enabling real-time waveform rendering and analysis.\n\nThe COR 2.0 units are experimental and not yet FDA-cleared.\n\nPrimary endpoints include sensitivity (true positive rate) \\> 80%, specificity (true negative rate) \\> 90%, and statistical agreement with reference devices for cardiovascular, cardiopulmonary, and sleep metrics. Secondary endpoints focus on predictive values (PPV and NPV) and overall diagnostic performance. The study employs eight distinct sub-protocols (A through H) to address a variety of cardiovascular, cardiopulmonary, and sleep-related diagnostic goals. These sub-protocols are tailored to specific clinical endpoints, varying in duration (30 minutes to 14 days) and type of data collection. Up to 15,000 participants will be enrolled across multiple sub-protocols. Screening ensures eligibility, and subjects must provide informed consent before participation. Dropouts and non-compliant subjects will be excluded from final analyses.",
+      "detailedDescription": "The COR-INSIGHT trial is a clinical study designed to evaluate the effectiveness of Peerbridge COR ambulatory ECG wearables, COR 1.0 and COR 2.0 (\"CORMDX\"). These devices integrate advanced AI technologies, including CardioMIND and CardioQSync, to accurately detect a broad spectrum of cardiovascular and cardiopulmonary conditions. By offering multiplexed diagnostics via direct-from-ECG analysis, the trial seeks to validate an alternative to traditional diagnostic modalities such as imaging, catheter-based techniques, and biochemical assays.\n\nCOR-INSIGHT study is validating a comprehensive, non-invasive screening framework designed to benefit cardiac patients, including those who are asymptomatic, critically ill, or awaiting procedures such as ablation, transcatheter aortic valve replacement (TAVR), transcatheter aortic valve implantation (TAVI), or implantable cardioverter defibrillator (ICD) placement. Additionally, the protocol addresses the needs of patients with cardiopulmonary conditions, offering precise diagnostics and remote monitoring capabilities in hospital, outpatient, and home-based environments.\n\nObjectives\n\nThe COR-INSIGHT trial is structured around clearly defined objectives aimed at demonstrating the clinical efficacy and utility of COR wearable ECG:\n\n1. Primary Objectives:\n\n   \\- To achieve sensitivity (\\>80%) and specificity (\\>90%) in detecting each cardiovascular and cardiopulmonary indication assessed in the study.\n   * To validate the Positive Predictive Value (PPV) and Negative Predictive Value (NPV) of AI-enabled diagnostics on per indication basis.\n   * To establish statistical concordance between COR ECG wearable outputs and standard reference devices, ensuring robust diagnostic performance for each indication assessed.\n2. Secondary Objectives:\n\n   * To evaluate the outcome and impact of continuous, non-invasive monitoring on early detection and personalized management.\n   * To assess the scalability and feasibility of deploying COR devices in diverse healthcare settings, including underserved populations.\n\nDevice Features\n\nCOR 1.0: delivers 3-lead, 2-channel ECG monitoring with high diagnostic fidelity with continuous data acquisition for up to 7 days, optimizing mid-term diagnostic applications.\n\nCOR 2.0:\n\n* Extends COR 1.0 functionality with cardiopulmonary metrics and advanced battery life, enabling up to 14 days of uninterrupted monitoring.\n* Operates in three distinct modes:\n\n  i. Extended Holter Mode: Outputs Leads II and III for standard ECG analysis.\n\nii. Cardiopulmonary Mode: Outputs Leads I, II, III and V2, respiratory impedance, and triaxial accelerometer data for comprehensive evaluations.\n\niii. Real-Time Streaming Mode: Enables seamless Lead I, II, III, V2 and accelerometer data transmission via Bluetooth Low Energy (BLE) for immediate waveform rendering and remote analysis.\n\nStudy Design\n\nThe trial employs a prospective, cross-sectional design encompassing eight distinct sub-protocols (A-H), tailored to address diverse clinical indications:\n\n1. Subprotocol A: Short-term (30-minute) ECG monitoring focused on cardiovascular diagnostics using COR 1.0\n2. Subprotocol B: 24-hour monitoring incorporating HRV and sleep analysis using COR 1.0.\n3. Subprotocol C: Multi-day (2-7 days) monitoring with integrated SpO2 measurements using COR 1.0.\n4. Subprotocol D: Extended monitoring (2-14 days) to provide comprehensive cardiopulmonary insights using COR 2.0.\n5. Subprotocol E: Short-term up to 30-min COR 2.0 monitoring for diagnostics excluding sleep and HRV analysis.\n6. Subprotocol F: Dual-modality diagnostics combining COR 2.0 and 12-lead ECG monitoring for comparative validation of COR 2.0 derived leads against QT-Medical 12-lead ECG reference.\n7. Subprotocol G: Hemodynamic monitoring with dual-phase (sitting and supine) assessments using COR 2.0 against cleared Hemodynamic Reference or thermodilution reference.\n8. Subprotocol H: Sequential recordings with COR 1.0 and COR 2.0 devices to evaluate cross-device efficacy for hemodynamic assessments.\n\nKey Indications and Metrics\n\nAn indication panel report will be provided to the subject's clinician or care-team, summarizing how the subject is risk-stratified on the panel. The panels of indications will vary depending on the Subprotocol a subject is placed in. COR-INSIGHT report will display whether a patient is predicted to be at risk or negative for each indication.\n\nCardiovascular Diagnostics\n\n* Detection of heart failure, to be validated through combination of reference standards, including ultrasound, MRI, BNP/NT-proBNP levels, or EMR, using 5-minute ECG windows.\n* Ejection Fraction (EF) severity, critical for assessing cardiac dysfunction, compared against gold-standard ultrasound metrics.\n* Identification of myocardial infarction (MI), including pathological Q-waves and STEMI, compared against 12-lead cleared ECG or troponin levels as reference.\n* Classification of HFrEF (Heart Failure with Reduced Ejection Fraction) and HFpEF (Heart Failure with Preserved Ejection Fraction) validated against ultrasound and/or cardiac MRI reference.\n* Diagnosis of intermittent and silent ischemia, validated against treadmill tests and/or cardiac MRI for confirmation.\n\nCardiopulmonary Metrics\n\n* Monitoring key indicators - respiratory sinus arrhythmia, cardiac output (CO), and stroke volume (SV) to provide actionable insights into cardiovascular-respiratory interactions, validated against cleared CNAP 500 hemodynamic system or thermodilution using pulmonary artery (PA) catheter reference.\n* Advanced evaluation of stroke volume variability and cardiopulmonary interplay is validated against cleared CNAP 500 hemodynamic system or thermodilution using pulmonary artery (PA) catheter reference.\n\nSleep-Related Metrics\n\n• Direct-from-ECG computation of the apnea-hypopnea index (AHI), respiratory disturbance index, and oxygen saturation variability facilitates the diagnosis of sleep-disordered breathing. AHI to be validated using PSG or cleared Home Sleep Test (HST) as reference.\n\nData Collection and Analysis\n\n1. ECG Recordings: Continuous data acquisition for durations ranging from 30 minutes to 14 days depending on the sub-protocol.\n2. AI-Driven Analysis: Real-time and post-hoc analyses using CardioMIND and CardioQSync to compute diagnostic metrics with high precision.\n3. Blinded Validation: Comparison of device outputs against gold-standard reference systems, including 12-lead ECG with automated interpretation, and non-invasive hemodynamic monitors, and EMR for previously diagnosed patients.\n4. Explainable AI: The study utilizes a GenAI model, driven by the COR-INSIGHT indication panel and metrics, to produce explainable traces for the clinician, demonstrating how risk stratification decisions align with standard care guidelines.\n5. Statistical Evaluation: Use of z-tests and ROC curve analysis to validate sensitivity, specificity, PPV, and NPV.\n\nParticipant Enrollment\n\nThe study will enroll up to 15,000 participants across diverse demographic and clinical backgrounds. Inclusion criteria prioritize patients with potential cardiovascular or cardiopulmonary conditions. Key aspects of participant management include:\n\n1. Screening and Consent: Comprehensive screening protocols to ensure eligibility and informed consent adherence.\n2. Blinded Data Handling: Participant history and demographics remain blinded during analysis to minimize bias.\n3. Protocol Compliance: Non-compliance or dropout cases are systematically excluded to maintain data integrity.\n\nSafety and Ethical Considerations\n\nThe trial adheres to stringent ethical and safety standards:\n\n1. Risk Mitigation: Risks are limited to minor skin irritation from adhesive electrodes, with proactive monitoring to address adverse events.\n2. Ethical Compliance: Conducted under Good Clinical Practice (GCP) guidelines and robust data confidentiality protocols.\n3. Potential Benefits: Enhanced diagnostic accuracy, reduced reliance on invasive procedures, and improved accessibility to advanced healthcare.\n\nPrimary and Secondary Endpoints\n\n1\\. Primary Endpoints:\n\n* Achieve \\>80% sensitivity and \\>90% specificity for detecting key conditions.\n* Demonstrate statistical concordance with reference standards for cardiovascular, cardiopulmonary, and sleep-related metrics.\n\n  2\\. Secondary Endpoints:\n* PPV \\>50% and NPV \\>85% for diagnostic predictions.\n* Area Under the Receiver Operating Characteristic Curve (AUC-ROC) exceeding 0.82.\n\nClinical Impact\n\nThe COR-INSIGHT trial seeks to establish a validated framework for diagnosing cardiovascular and cardiopulmonary conditions using wearable ECG technology. Specific objectives include:\n\n1. Advancing Early Detection: Providing clinically actionable insights into conditions that often remain undiagnosed until advanced stages.\n2. Enhancing Patient Outcomes: Enabling personalized care strategies through continuous, non-invasive monitoring.\n3. Promoting Healthcare Accessibility: Deploying scalable, cost-effective solutions to underserved and remote populations.\n4. Reducing Healthcare Costs: Minimizing dependence on invasive procedures, imaging, and hospitalizations.\n\nThe COR-INSIGHT trial provides a comprehensive, non-invasive diagnostic and screening framework designed to benefit cardiac patients, including those who are asymptomatic, critically ill, or awaiting procedures such as ablation, transcatheter aortic valve replacement (TAVR), transcatheter aortic valve implantation (TAVI), or implantable cardioverter defibrillator (ICD) placement. Additionally, the protocol addresses the needs of patients with cardiopulmonary conditions.\n\nBenefits for Asymptomatic Cardiac Patients\n\n1\\. Early Detection of Subclinical Conditions:\n\n* The protocol leverages continuous ECG monitoring and advanced metrics such as ST-segment changes, QT interval, QTc, PR interval, and P-wave analysis to identify early signs of arrhythmias, conduction defects, and structural abnormalities before symptoms manifest.\n\n  2\\. Sudden Cardiac Death (SCD) Risk Stratification:\n* Advanced AI-enabled analytics provide stratification for high-risk asymptomatic individuals, focusing on prolonged QT syndrome, ventricular arrhythmias, and atrial fibrillation. This screening offers a critical layer of protection for patients with genetic predispositions or undiagnosed structural heart abnormalities.\n\n  3\\. Personalized Monitoring for Athletic Populations:\n* Healthy athletic individuals gain insights into cardiovascular performance and potential risks, enabling proactive management of underlying conditions and preventing SCD during high-intensity physical activity.\n\nBenefits for Critically Ill Cardiac Patients\n\n1\\. Hemodynamic Monitoring:\n\n* For patients in critical care with sepsis, shock, or multi-organ failure, the protocol's ability to monitor cardiac output, stroke volume, and heart rate variability ensures optimal fluid management and medication titration.\n\n  2\\. Dynamic Assessment of Treatment Efficacy:\n* Critically ill patients on inotropic or vasopressor support benefit from continuous hemodynamic data, allowing real-time adjustments to therapy and minimizing the risk of complications.\n\n  3\\. Post-Surgical Recovery Optimization:\n* For patients recovering from cardiac or vascular surgeries, COR devices detect early signs of heart failure or inadequate perfusion, supporting timely intervention.\n\nBenefits for Patients Awaiting Procedures\n\n1. Pre-Procedural Risk Stratification:\n\n   o The protocol evaluates ejection fraction severity, arrhythmogenic risks, and cardiac output parameters, enabling comprehensive pre-procedural risk assessments. These data inform clinical decision-making for patients awaiting procedures such as ablation, TAVR, TAVI, or ICD placement, ensuring optimized intervention timing and reduced perioperative risks.\n2. Interim Monitoring:\n\n   o Patients awaiting procedures benefit from real-time monitoring of cardiac electrical and hemodynamic stability. This enables clinicians to detect emergent arrhythmias, ischemic events, or heart failure exacerbations that may necessitate changes in medical management or expedited scheduling.\n3. Enhanced Decision Support:\n\n   * The combination of continuous ECG and cardiopulmonary data allows for individualized procedural planning, including patient-specific adjustments to intervention strategies based on dynamic cardiac function and risk profiles.\n\nBenefits for Patients with Cardiopulmonary Conditions\n\n1. Comprehensive Diagnostics:\n\n   o The protocol integrates cardiac output, respiratory sinus arrhythmia, and stroke volume variability to provide actionable insights into conditions like chronic obstructive pulmonary disease (COPD), pulmonary hypertension, and interstitial lung disease (ILD).\n2. Management of Acute Conditions:\n\n   o For acute conditions like acute respiratory distress syndrome (ARDS) and pulmonary embolism, COR devices enable fluid optimization and right ventricular function assessment to guide therapy.\n3. Chronic Condition Monitoring:\n\n   * Patients with conditions such as cystic fibrosis or advanced pulmonary hypertension benefit from ongoing monitoring of cardiac-pulmonary interactions to track disease progression and treatment efficacy.\n\nThe COR-INSIGHT is aimed at demonstrating and validating transformative benefits for cardiac patients across the spectrum of asymptomatic individuals, critically ill patients, and those awaiting procedures."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiopulmonary Failure",
+        "Myocardial Infarction (MI)",
+        "Heart Decompensation",
+        "Heart Failure",
+        "HFrEF - Heart Failure with Reduced Ejection Fraction",
+        "HFpEF - Heart Failure with Preserved Ejection Fraction",
+        "Syncopation",
+        "Syncope",
+        "Ischemic Cardiovascular Disease",
+        "STEMI",
+        "STEMI (ST Elevation MI)",
+        "Atrial Fibrillation (AF)",
+        "Atrial Enlargement",
+        "LVF",
+        "Conduction Defect",
+        "Conduction Abnormalities",
+        "Heart Block",
+        "Valvular Diseases",
+        "Cardiac Output, Low",
+        "Stroke Volume",
+        "Stroke Volume Variation",
+        "Hyperkalemia",
+        "Hypercalcemia",
+        "Hypocalcemia",
+        "LV Dysfunction",
+        "QT Prolongation",
+        "Sudden Cardiac Death Due to Cardiac Arrhythmia",
+        "Ventricular Arrhythmia",
+        "Pacing",
+        "Pacing Induced Dyssynchrony",
+        "Silent Ischemia",
+        "Pericarditis",
+        "Sleep Related Breathing Disorder",
+        "RSA",
+        "Apnea, Obstructive",
+        "Cardiac Output Measurement",
+        "Respiratory Impedance",
+        "CRT And/or ICD",
+        "Infarction",
+        "Cardiomyopathies, Primary",
+        "Hypertrophy"
+      ],
+      "keywords": [
+        "CORMDX",
+        "COR",
+        "Peerbridge COR",
+        "CardioMIND",
+        "CardioQSync",
+        "GenAI",
+        "COR-INSIGHT",
+        "COR INSIGHTS",
+        "INSIGHT REPORT",
+        "Respiratory ECG",
+        "SAMD",
+        "direct-from-ECG",
+        "ECG Derived Indications",
+        "Electrical Remodeling"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 15000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort Breakdown to Power Accuracy Assessments",
+          "description": "Up to a total of 15,000 subjects will be enrolled in the study covering all subprotocols (A through H).\n\nData from a minimum of 500 subjects (covering all Subprotocols A through H) will be analyzed to evaluate primary and secondary endpoints.\n\nAt least 3 subjects will be assigned to each Subprotocol (A through H) to characterize and demonstrate computability of each indication using CardioMIND and CardioQSync software.\n\nThere are no upper limits on the number of subjects that can be assigned to any individual Subprotocol.\n\nThe study shall have 1 study site with up to 50 sub-sites. All COR ECG studies started with PHS at subject's home will be assigned to a single sub-site.",
+          "interventionNames": [
+            "Device: SUBPROTOCOL A",
+            "Device: SUBPROTOCOL B",
+            "Device: SUBPROTOCOL C",
+            "Device: SUBPROTOCOL D",
+            "Device: SUBPROTOCOL E",
+            "Device: SUBPROTOCOL F",
+            "Device: SUBPROTOCOL G",
+            "Device: SUBPROTOCOL H"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL A",
+          "description": "A 30-minute COR ECG recording will be performed, including 15 minutes of continuous sitting data used for clinical indication analysis through CardioMIND software. Data collection can occur in-clinic, via PHS, or using a shipped device with telehealth support. Sleep, HRV, and AFIB risk analysis will not be included.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL B",
+          "description": "Subjects will undergo 24 hours of COR ECG recording, which must include at least one 15-minute unsupervised sitting session. Data analysis will include sleep patterns, HRV, and AFIB risk. ECG acquisition may take place in-clinic, via Patient Home Setup (PHS), or with a shipped device.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL C",
+          "description": "COR 1.0 ECG recordings will be conducted over 2 to 7 days, with at least one 15-minute unsupervised sitting session. At least 25% of randomly selected trial participants subjects will also wear a cleared wrist or finger device to track SpO2 during sleep. PI or Sub-Investigator will assign the number of wear days to the subject. The analysis will include sleep data, HRV, and AFIB risk assessment.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL D",
+          "description": "COR 2.0 (CORMDX) recordings will be conducted over 2 to 14 days, with at least one 15-minute unsupervised sitting session. At least 25% of randomly selected trial participants will also wear a cleared wrist or finger device to track SpO2 during sleep nights. PI or Sub-Investigator will assign the number of wear days to the subject. The analysis will include sleep data, HRV, and AFIB risk assessment.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL E",
+          "description": "Subjects will complete a 30-minute CORMDx (COR 2.0) ECG recording, with 15 minutes of continuous sitting data used for clinical indication analysis. Sleep, HRV, and AFIB risk analysis will not be performed.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL F",
+          "description": "A 30-minute COR 2.0 ECG recording will be completed, along with a 12-lead resting ECG using an FDA-cleared reference device. Sleep, HRV, and AFIB analysis will not be performed.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL G",
+          "description": "A 40-minute COR 2.0 recording will be conducted in two phases: 15 minutes of upright sitting and 15 minutes in a supine position. Hemodynamic monitoring, including blood pressure, cardiac output, and stroke volume variation, will be conducted using an FDA-cleared reference device. No sleep, HRV, or AFIB analysis will be performed.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "SUBPROTOCOL H",
+          "description": "Subjects will undergo a 40-minute COR 2.0 recording, followed by a 40-minute COR 1.0 recording. Hemodynamic monitoring using an FDA-cleared reference device will be performed during both sessions. The transition between devices must occur within 60 minutes if the same adhesive is reused. Sleep, HRV, and AFIB analysis will not be performed.",
+          "armGroupLabels": [
+            "Cohort Breakdown to Power Accuracy Assessments"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Screen Positive Accuracy for Cardiovascular Indication Panel Assessed Using CardioMIND",
+          "description": "The primary endpoint of this trial, for subjects participating in Subprotocols A through H, is to demonstrate screen-positive accuracy-sensitivity (True Positive Rate) exceeding 80%. This applies when a participant is indicated as having a cardiovascular condition based on COR ECG (COR 1.0 or COR 2.0) data analyzed using CardioMIND. Accuracy is assessed for substantial agreement on a per-indication basis, compared against results from an approved reference device or validated against electronic medical records (EMR) for previously diagnosed subjects.",
+          "timeFrame": "Through study completion - average of 18-months"
+        },
+        {
+          "measure": "Screen Negative Accuracy for Cardiovascular Indication Panel Assessed Using CardioMIND",
+          "description": "The primary endpoint of this trial, for subjects participating in Subprotocols A through H, is to demonstrate screen-negative accuracy-specificity (True Negative Rate) exceeding 90%. This applies when a participant is indicated as negative or normal for a cardiovascular condition based on COR ECG (COR 1.0 or COR 2.0) data analyzed using CardioMIND. Screen-negative accuracy is assessed for substantial agreement on a per-indication basis, compared against results from an approved reference device or validated against electronic medical records (EMR) for subjects screened for the condition within 30 days of the study visit.",
+          "timeFrame": "Through study completion - average of 18-months"
+        },
+        {
+          "measure": "Agreement of CO, SV and RSA Cardiopulmomary Panel Assessed Using Peerbridge CORMDX ECG Data with CardioQSync software",
+          "description": "The primary endpoint of this trial, for subjects participating in Subprotocols G and H, is to demonstrate statistical agreement with bias (mean difference ) of less than +/- 10% and standard difference to be within +/- 15% between non-invasive hemodynamic metrics (CO, SV and RSA) assessed using CardioQSync and cleared non-invasive hemodynamic Reference System using only 5 minutes of CORMDx (or COR 2.0) ECG wearable data. Accuracy is assessed for substantial agreement on a per-indication basis, compared against results from an approved reference device.",
+          "timeFrame": "Through study completion - average of 18-months"
+        },
+        {
+          "measure": "Screen Positive and Screen Negative Accuracy for Obstructive Sleep Apnea (OSA) Metrics",
+          "description": "The primary endpoint for Sleep and OSA metrics (for Subprotocol B, C and D) is to demonstrate\n\n1. screen positive accuracy - sensitivity (True Positive Rate) \\> 90% where the participant has been indicated for OSA using COR ECG (COR 1.0 or COR 2.0) data with CardioMIND analysis.\n2. Screen negative accuracy - specificity (True Negative Rate) \\> 90% where the participated has been indicated negative or normal for OSA using COR ECG with CardioMIND analysis.\n3. Statistical agreement between Apnea-Hypopnea Index (AHI) computed over one night of sleep between the output of COR ECG study data to the AHI output from an approved HST over one sleep night",
+          "timeFrame": "Through study completion - average of 18-months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Positive Predictive Value (PPV) for Indicated Cardiovascular Condition Using CardioMIND",
+          "description": "The secondary endpoint (for Subprotocols A thru H) for this trial are to demonstrate a Positive Predictive Value (PPV) \\> 50% where the participant has been indicated for a cardiovascular condition using COR ECG (COR 1.0 or COR 2.0) data with CardioMIND analysis, when validated using an approved Reference System for each indicated condition.",
+          "timeFrame": "Through study completion - average of 18-months"
+        },
+        {
+          "measure": "Negative Predictive Value (PPV) for Indicated Cardiovascular Condition Using CardioMIND",
+          "description": "The secondary endpoint (for Subprotocols A thru H) for this trial are to demonstrate a Negative Predictive Value (PPV) \\> 85% where the participated has been indicated negative or normal for a cardiovascular condition using COR ECG with CardioMIND analysis, when validated using an approved Reference System for each indicated condition.",
+          "timeFrame": "Through study completion - average of 18-months"
+        },
+        {
+          "measure": "Statistical Agreement Between The Proportion Of Screen Positive Cases With Clinically Significant CO & SV Changes That Require Interventions",
+          "description": "The secondary cardiopulmonary endpoints (for Subprotocols G and H) will be to assess for statistical agreement between the proportion of screen positive cases with clinically significant CO \\& SV changes that require interventions by analyzing 5-minutes of continuous COR 2.0 device data compared to those that are categorized by the Reference Standard. This will be tested with a one-sided single-sample z-test at a 97.5% confidence level to see if agreement exceeds 80%, thereby rejecting the null hypothesis of ≤80% agreement in favor of significant concordance.",
+          "timeFrame": "Through study completion - average of 18-months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Able and eligible to wear a Holter monitor\n\nExclusion Criteria:\n\n1. Receiving any mechanical (respiratory or circulatory) or renal support therapy at Screening or during Visit #1.\n2. Any other conditions that in the opinion of the investigators are likely to prevent compliance with the study protocol or pose a safety concern if the subject participates in the study.\n3. Poor tolerance, susceptibility to severe skin reactions from ECG adhesive.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Participants will be recruited from the community population receiving treatments or affiliated with participating subsites. These subsites will include hospitals, cardiac/medical/academic research centers, and medical practice clinics. It is anticipated that upto 50 trial sub-sites distributed across the United States will participate in the study.\n\nEnrollment will include healthy, diagnosed and undiagnosed community patients that could be at risk for cardiovascular, cardiopulmomary and sleep disorders. Participating subsite clinicans may enroll subjects with non-cardiac co-morbidities such as diabetes, neural and renal conditions to assess cardiac risk. The study population will comprise both male and female participants, as several indications being assessed have gender specific thresholds for calling presence of a medical condition.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sandeep Gulati, PhD",
+          "affiliation": "Peerbridge Health, Inc",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peerbridge Health, Melbourne, Florida 32935",
+          "city": "Melbourne",
+          "state": "Florida",
+          "zip": "32935",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.08363,
+            "lon": -80.60811
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Peerbridge COR ECG Waveform Data in standards representation (MIT-BIH Physionet Format); De-Identified Subject Demographics - gender, age, zipcode. Adverse Event Information.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "60 days after Trial Scoring is Completed. Expected Around March 2026. Will be available for 3 years after the date.",
+      "accessCriteria": "Trial Site PI and study staff, All Site Sub-Investigators and their SubSite Research Staff, Trial SubSite Affiliates, Data Safety Monitoring Board (DSMB)Members, KOLs invited to Data Reviews and Affiliates; Publication submissions sites if required."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D013575",
+          "term": "Syncope"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006327",
+          "term": "Heart Block"
+        },
+        {
+          "id": "D002303",
+          "term": "Cardiac Output, Low"
+        },
+        {
+          "id": "D006947",
+          "term": "Hyperkalemia"
+        },
+        {
+          "id": "D006934",
+          "term": "Hypercalcemia"
+        },
+        {
+          "id": "D006996",
+          "term": "Hypocalcemia"
+        },
+        {
+          "id": "D018487",
+          "term": "Ventricular Dysfunction, Left"
+        },
+        {
+          "id": "D008133",
+          "term": "Long QT Syndrome"
+        },
+        {
+          "id": "D010493",
+          "term": "Pericarditis"
+        },
+        {
+          "id": "D020181",
+          "term": "Sleep Apnea, Obstructive"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006984",
+          "term": "Hypertrophy"
+        },
+        {
+          "id": "D064752",
+          "term": "Atrial Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D014474",
+          "term": "Unconsciousness"
+        },
+        {
+          "id": "D003244",
+          "term": "Consciousness Disorders"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D014883",
+          "term": "Water-Electrolyte Imbalance"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D002128",
+          "term": "Calcium Metabolism Disorders"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        },
+        {
+          "id": "D006330",
+          "term": "Heart Defects, Congenital"
+        },
+        {
+          "id": "D018376",
+          "term": "Cardiovascular Abnormalities"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D012891",
+          "term": "Sleep Apnea Syndromes"
+        },
+        {
+          "id": "D001049",
+          "term": "Apnea"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

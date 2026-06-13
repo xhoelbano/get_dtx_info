@@ -1,0 +1,249 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06166433",
+      "orgStudyIdInfo": {
+        "id": "GW13528"
+      },
+      "organization": {
+        "fullName": "George Washington University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Implementing a Scalable Smoke-free Home Intervention in Armenia and Georgia",
+      "officialTitle": "Implementing a Scalable Smoke-free Home Intervention in Armenia and Georgia",
+      "acronym": "SFHAMGE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-07-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-12-01",
+      "studyFirstSubmitQcDate": "2023-12-10",
+      "studyFirstPostDateStruct": {
+        "date": "2023-12-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Carla Berg",
+        "investigatorTitle": "Professor of Prevention and Community Health",
+        "investigatorAffiliation": "George Washington University"
+      },
+      "leadSponsor": {
+        "name": "George Washington University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Tobacco use and secondhand smoke exposure represent critical health disparities in low- and middle-income countries; Armenia and Georgia represent the 11th and 6th highest smoking rates in men globally (51.5% and 55.5%, respectively), but have low rates of smoking in women (1.8% and 7.8%) and few smoke-free homes (38.6%), which can reduce secondhand smoke exposure and tobacco use rates. This study builds on ongoing collaborations between George Washington University, Emory, and national public health organizations in Armenia and Georgia and advancements in local public health infrastructure; it aims to adapt an evidence-based smoke-free home intervention for homes in Armenia and Georgia, develop capacity to deliver the intervention via local community partners and the national quitlines, and test the intervention in a hybrid effectiveness-implementation randomized clinical trial. This work will advance the knowledge base informing strategies to reduce global tobacco-related disparities, as well as the implementation and scale-out of evidence-based interventions in low- and middle-income countries.",
+      "detailedDescription": "Among the disparities faced by populations in low- and middle-income countries are those related to tobacco use and secondhand smoke exposure. Two countries particularly impacted by tobacco use and secondhand smoke exposure are Armenia and Georgia, which represent the 11th and 6th highest smoking rates in men globally (51.5% and 55.5%, respectively). However, smoking prevalence is much lower among women (1.8% and 7.8%). Notably, a primary source of secondhand smoke exposure among children and most nonsmoking adults in many low- and middle-income countries, including Armenia and Georgia, is the home. Smoke-free homes can reduce secondhand smoke exposure, promote cessation, and possibly disrupt initiation; however, 61.4% of households in Armenia and Georgia allow smoking in the home. Thus, promoting smoke-free homes may be an innovative and relatively untapped strategy for chronic disease prevention in these countries - and in other low- and middle-income countries with high smoking rates. Research focused on implementing evidence-based interventions offers unique opportunities to address the pressing needs in low- and middle-income countries and to examine key barriers in the adoption, scale-up, and sustainment of evidence-based interventions in low-resource settings. This study builds on ongoing collaborations among George Washington University, Emory, the Georgia National Center for Disease Control, the Armenia National Institute of Health, and the American University of Armenia that have established: 1) a strong community-based infrastructure for implementing public health programs using local coalitions in 14 communities, developed in our current Fogarty-funded R01; and 2) a theory-based smoke-free homes intervention, designed to be brief and adaptable and shown to be effective, generalizable, scalable, and cost-effective among low-income households in the US. The current study will strategically capitalize on these partnerships with national public health agencies, local community mobilization infrastructure, and smoke-free homes evidence-based intervention to address the specific aims. Aim 1 involves adapting the smoke-free homes intervention to be culturally appropriate for the Armenia and Georgia populations, using a community-engaged approach and robust adaptation frameworks and methods, and develop in-country capacity for intervention dissemination (via local coalitions) and delivery (via national quitlines). Aim 2 involves examining the effectiveness of the adapted intervention (vs. control) on smoke-free home adoption (primary outcome) among households in Armenia and Georgia, using a type 1 hybrid effectiveness-implementation randomized clinical trial (n=550 participants; 275/country), with follow-up assessments at 3 and 6 months. Aim 3 will assess intervention reach, adoption, implementation, and maintenance potential, as well as related contextual influences, using a mixed-methods process evaluation. The research team (including national public health agencies) will use these findings to develop a sustainability and dissemination plan (e.g., intervention packaging for scale-up). This work will provide a robust model for adapting and implementing this evidence-based intervention for Armenia and Georgia, which could then be used for this intervention in other countries and/or for other behavioral targets and evidence-based interventions in Armenia, Georgia, and elsewhere. This work will advance the knowledge base informing strategies to reduce tobacco-related disparities globally and the implementation and scale-out of evidence-based interventions in low- and middle-income countries."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Second Hand Tobacco Smoke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Theory-based intervention involving 3 mailed sets of educational materials and a brief coaching call using motivational interviewing, delivered over a 6-week period.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Participants, investigators, and outcomes assessors will blind to assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 550,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Theory-based intervention involving 3 mailed sets of educational materials and a brief coaching call using motivational interviewing, delivered over a 6-week period",
+          "interventionNames": [
+            "Behavioral: Smoke-free homes intervention"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Assessment-only control"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoke-free homes intervention",
+          "description": "Theory-based intervention involving 3 mailed sets of educational materials and a brief coaching call using motivational interviewing, delivered over a 6-week period.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Complete smoke-free home rule",
+          "description": "\"Which statement best describes the rules about smoking inside your home: smoking is not allowed anywhere inside my home; smoking is allowed in some places or at some times; smoking is allowed anywhere inside my home; or there are no rules about smoking inside my home.\" Participant indicates no smoking allowed in the home (in any place or at any time).",
+          "timeFrame": "Current status; assessed at 6-months post baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondhand smoke exposure in the home",
+          "description": "Number of days smoking occurred in the home in the past 7 days",
+          "timeFrame": "Past 7 days; assessed at 6 months post baseline"
+        },
+        {
+          "measure": "Secondhand smoke exposure in the home",
+          "description": "Number of days smoking occurred in the home in the past 7 days",
+          "timeFrame": "Past 7 days; assessed at 3 months post baseline"
+        },
+        {
+          "measure": "Complete smoke-free vehicle rule",
+          "description": "\"Which statement best describes the rules about smoking in your household vehicles (cars or trucks)? allowed in all vehicles; sometimes allowed in some vehicles; never allowed in any vehicle; no rules about smoking in the vehicles; don't own a vehicle.\" Participant indicates no smoking allowed in the household vehicles (at any time).",
+          "timeFrame": "Current status; assessed at 6 months post baseline"
+        },
+        {
+          "measure": "Complete smoke-free vehicle rule",
+          "description": "\"Which statement best describes the rules about smoking in your household vehicles (cars or trucks)? allowed in all vehicles; sometimes allowed in some vehicles; never allowed in any vehicle; no rules about smoking in the vehicles; don't own a vehicle.\" Participant indicates no smoking allowed in the household vehicles (at any time).",
+          "timeFrame": "Current status; assessed at 3 months post baseline"
+        },
+        {
+          "measure": "Among Smokers: Cigarette consumption",
+          "description": "Cigarettes smoked per day; days smoked",
+          "timeFrame": "Past 7 days; assessed at 6 months post baseline"
+        },
+        {
+          "measure": "Among Smokers: Cigarette consumption",
+          "description": "Cigarettes smoked per day; days smoked",
+          "timeFrame": "Past 7 days; assessed at 3 months post baseline"
+        },
+        {
+          "measure": "Among Smokers: Cigarette consumption",
+          "description": "Cigarettes smoked per day; days smoked",
+          "timeFrame": "Past 30 days; assessed at 6 months post baseline"
+        },
+        {
+          "measure": "Among Smokers: Cigarette consumption",
+          "description": "Cigarettes smoked per day; days smoked",
+          "timeFrame": "Past 30 days; assessed at 3 months post baseline"
+        },
+        {
+          "measure": "Among Smokers: Cessation attempts",
+          "description": "Number of quit attempts in the past 3 months",
+          "timeFrame": "Past 3 months; assessed at 6 months post baseline"
+        },
+        {
+          "measure": "Among Smokers: Cessation attempts",
+          "description": "Number of quit attempts in the past 3 months",
+          "timeFrame": "Past 3 months; assessed at 3 months post baseline"
+        },
+        {
+          "measure": "Complete smoke-free home rule",
+          "description": "\"Which statement best describes the rules about smoking inside your home: smoking is not allowed anywhere inside my home; smoking is allowed in some places or at some times; smoking is allowed anywhere inside my home; or there are no rules about smoking inside my home.\" Participant indicates no smoking allowed in the home (in any place or at any time).",
+          "timeFrame": "Current status; assessed at 3 months post baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. be greater than or equal to 18 years old\n2. smoke in the home and have a child and-or nonsmoker in the home, or be a non-smoker and live with someone who smokes in the home\n3. speak Armenian or Georgian\n4. live in a selected community\n\nExclusion Criteria:\n\nN/A",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Carla Berg",
+          "role": "CONTACT",
+          "phone": "4045585395",
+          "email": "carlaberg@gwu.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "George Washington University",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20052",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Carla J Berg, PhD",
+              "role": "CONTACT",
+              "phone": "202-994-0168",
+              "email": "carlaberg@gwu.edu"
+            },
+            {
+              "name": "Darcey McCready, MS",
+              "role": "CONTACT",
+              "phone": "202-994-2474",
+              "email": "bergresearch@gwu.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

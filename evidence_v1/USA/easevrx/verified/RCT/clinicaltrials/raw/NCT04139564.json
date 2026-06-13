@@ -1,0 +1,907 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04139564",
+      "orgStudyIdInfo": {
+        "id": "2019-1017"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5R44DA050231",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5R44DA050231"
+        }
+      ],
+      "organization": {
+        "fullName": "AppliedVR Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "EaseVRx for the Reduction of Chronic Pain and Opioid Use",
+      "officialTitle": "Safety and Effectiveness of Virtual Reality Utilizing EaseVRx for the Reduction of Chronic Pain and Opioid Use"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-23",
+      "studyFirstSubmitQcDate": "2019-10-24",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-25",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-11-22",
+      "resultsFirstSubmitQcDate": "2024-03-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-03-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AppliedVR Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Geisinger Clinic",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "EaseVRx, a software-based virtual reality (VR) medical device, is intended to offer users a prescription pain management tool that manages the symptoms associated with chronic pain and reduces or eliminates the risk of opioid dependence. The investigators will conduct a proof-of-concept randomized study to assess the feasibility and efficacy of using EaseVRx as a 56-day, VR-based, at-home program among 100 chronic low back pain patients by gathering pilot data on the efficacy of the intervention in decreasing pain, reducing opioid/non-opioid pharmacotherapy, and improving pain-related quality of life.",
+      "detailedDescription": "EaseVRx, a software-based virtual reality (VR) medical device, is intended to offer users a prescription pain management tool that manages the symptoms associated with chronic pain and reduces or eliminates the risk of opioid dependence. EaseVRx is based on principles of cognitive behavioral therapy, pain psychology, mindfulness-based stress reduction, biofeedback, and distraction therapy commonly used in interdisciplinary pain rehabilitation programs. The investigators will conduct a proof-of-concept randomized study to assess the feasibility and efficacy of using EaseVRx as a 56-day, VR-based, at-home program among 100 chronic low back pain patients by gathering pilot data on the efficacy of the intervention in decreasing pain, reducing opioid/non-opioid pharmacotherapy, and improving pain-related quality of life. While VR has been tested in academic medical centers and shown to be efficacious in the management of acute pain, this study will investigate the feasibility of VR use at home to manage chronic pain in preparation for a larger efficacy trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Low-back Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 108,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "EaseVRx group",
+          "type": "EXPERIMENTAL",
+          "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.",
+          "interventionNames": [
+            "Device: EaseVRx headset"
+          ]
+        },
+        {
+          "label": "Active control group VR Sham",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content",
+          "interventionNames": [
+            "Device: Active control VR sham program"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "EaseVRx headset",
+          "description": "EaseVRx is a virtual reality therapy intended to treat chronic pain",
+          "armGroupLabels": [
+            "EaseVRx group"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Active control VR sham program",
+          "description": "VR, 2d visual wildlife scenes similar to some EaseVRx content",
+          "armGroupLabels": [
+            "Active control group VR Sham"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pain: Numerical Pain Rating Scale",
+          "description": "Numerical Pain Rating Scale; scale from 0 to 10 with higher numbers implying greater pain\n\nThe outcome values presented below are the difference between baseline pain and pain at 12 weeks. Specifically, baseline pain score minus 12 week pain score\n\nA positive difference implies that pain was reduced",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Outcome Assessments Completed by Participant",
+          "description": "Thirty four assessments were attempted. This measure notes the total number of assessments completed by each participant",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Patient Compliance",
+          "description": "number of VR modules completed. For the EaseVRx group this would be the number of EaseVRx modules completed with worst 0 - 56 best. For the Active control VR Sham group this would be the number of ShamVR modules completed with worst 0 - 56 best.",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Opioid Consumption",
+          "description": "Morphine Milligram Equivalents (MME)",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ≥ 18 years old\n* Low back pain experienced ≥ 3 days per week on average for ≥ 6 months\n* Pre-medication NPRS score ≥ 5 stable for ≥ 3 months\n\nExclusion Criteria:\n\n* Exclusions based on potential medical or lifestyle confounders:\n\n  * Has a body mass index (BMI) \\> 40 kg/m2\n  * Pain related to cancer, fibromyalgia, or disk herniation\n  * History of a major psychiatric disorder not controlled with medication or has behavioral factors that would interfere with proper study procedures\n  * Is not ambulatory/has significant motor impairment\n  * Surgery in the past 3 months\n  * Open workers compensation claim\n  * Planning to have surgery in the next 3 months\n  * Planning to start a new exercise program in the next 3 months\n  * Planning to start a new treatment for their pain (e.g. medication, physiotherapy, acupuncture, electrical nerve stimulation) in the next 3 months\n* Exclusions based on potential drug-related cofounders:\n\n  * Current or recent history (in past year) of substance abuse disorder\n  * Currently pregnant/breastfeeding or planning to in the next 3 months\n  * Was administered an epidural steroid during the 3 months prior to screening\n* Exclusions based on ability to use EaseVR effectively:\n\n  * Comorbidities including neurological, psychosocial, sensory, or other disorders that may impact pain perception\n  * Diagnosis of epilepsy, dementia, migraines, or other neurological disorders that may prevent VR usage, and/or other medical conditions predisposed to nausea and dizziness\n  * Hypersensitivity to flashing lights or motion\n  * Claustrophobia\n  * Lack of stereoscopic vision\n  * Severe hearing impairment\n  * Injury to eyes, face, or neck that prevents comfortable VR usage\n  * Planning to take a vacation from their home for more than one week in the next 8 weeks",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Chulhyun Ahn, MD",
+          "affiliation": "Geisinger Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Geisinger Medical Center",
+          "city": "Danville",
+          "state": "Pennsylvania",
+          "zip": "17822",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96342,
+            "lon": -76.61273
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "EaseVRx Group",
+          "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain"
+        },
+        {
+          "id": "FG001",
+          "title": "Active Control Group VR Sham",
+          "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "55"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "52"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "55"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "EaseVRx Group",
+          "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain"
+        },
+        {
+          "id": "BG001",
+          "title": "Active Control Group VR Sham",
+          "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "52"
+            },
+            {
+              "groupId": "BG001",
+              "value": "55"
+            },
+            {
+              "groupId": "BG002",
+              "value": "107"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "107"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51.5",
+                      "spread": "13.5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51.4",
+                      "spread": "12.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51.4",
+                      "spread": "13.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Numerical Pain Rating Scale",
+          "description": "The scale ranges from 0 to 10 with larger numbers implying greater pain.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale from 0 to 10",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6.0",
+                      "spread": "1.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5.9",
+                      "spread": "1.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5.9",
+                      "spread": "1.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Pain: Numerical Pain Rating Scale",
+          "description": "Numerical Pain Rating Scale; scale from 0 to 10 with higher numbers implying greater pain\n\nThe outcome values presented below are the difference between baseline pain and pain at 12 weeks. Specifically, baseline pain score minus 12 week pain score\n\nA positive difference implies that pain was reduced",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "EaseVRx Group",
+              "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control Group VR Sham",
+              "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "52"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "55"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.6",
+                      "spread": "1.67"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.3",
+                      "spread": "1.49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Outcome Assessments Completed by Participant",
+          "description": "Thirty four assessments were attempted. This measure notes the total number of assessments completed by each participant",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "total number of assessments completed",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "EaseVRx Group",
+              "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control Group VR Sham",
+              "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "51"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "53"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30",
+                      "spread": "14.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28",
+                      "spread": "15.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Patient Compliance",
+          "description": "number of VR modules completed. For the EaseVRx group this would be the number of EaseVRx modules completed with worst 0 - 56 best. For the Active control VR Sham group this would be the number of ShamVR modules completed with worst 0 - 56 best.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "modules",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "EaseVRx Group",
+              "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control Group VR Sham",
+              "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "48"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37",
+                      "spread": "18.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40",
+                      "spread": "19.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Opioid Consumption",
+          "description": "Morphine Milligram Equivalents (MME)",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "Morphine Milligram Equivalents(MME)",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "EaseVRx Group",
+              "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain"
+            },
+            {
+              "id": "OG001",
+              "title": "Active Control Group VR Sham",
+              "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "45"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "50"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.75",
+                      "spread": "3.37"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.67",
+                      "spread": "2.56"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "12 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "EaseVRx Group",
+          "description": "Each subject will be asked to complete a 56-day program using the EaseVRx virtual reality headset with assigned modules each week. Each week, subjects will be asked to complete 7 modules (one per day), each approximately 5 minutes in duration, for a total of 56 modules across the program.\n\nEaseVRx headset: EaseVRx is a virtual reality therapy intended to treat chronic pain",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 52,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 52,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 52
+        },
+        {
+          "id": "EG001",
+          "title": "Active Control Group VR Sham",
+          "description": "Each subject will be asked to complete a program accessible via VR that includes 2d visual wildlife scenes similar to some EaseVRx content\n\nActive control VR sham program: VR, 2d visual wildlife scenes similar to some EaseVRx content",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 55,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 55,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 55
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Vice President of Research",
+        "organization": "AppliedVR",
+        "email": "tmaddox@appliedvr.io",
+        "phone": "13108901584"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-05-22",
+          "uploadDate": "2024-02-01T12:58",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 570742
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": true
+}

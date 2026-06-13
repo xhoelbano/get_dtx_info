@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06218459",
+      "orgStudyIdInfo": {
+        "id": "RESET 2023 Dec 17639 Macsween"
+      },
+      "organization": {
+        "fullName": "Teesside University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Comparison of Two Brief Interventions for People With Chronic Low Back Pain",
+      "officialTitle": "Oldpain2go®: a Randomized Pilot Virtual Feasibility Study for a Virtual Randomized Control Trial of a Novel Brief Intervention for People With Chronic Low Back Pain: RESET",
+      "acronym": "RESET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Failed to recruit to target.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-01-10",
+      "studyFirstSubmitQcDate": "2024-01-22",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Alasdair MacSween",
+        "investigatorTitle": "Principal Lecturer (Research and Innovation)",
+        "investigatorAffiliation": "Teesside University"
+      },
+      "leadSponsor": {
+        "name": "Teesside University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Norton Physiotherapy",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Newcastle University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal is to undertake a Decentralized Randomized Pilot Feasibility study to inform the methods for a definitive Randomized Controlled Trial (RCT) (including recruitment success, participant experience, intervention delivery, safety, outcome measurement and sample size estimation). The main question is if the methods used are feasible for an adequately powered future RCT. Participants will be randomly allocated to receive either: Intervention - OldPain2Go® treatment or Placebo Control - Jacobson's progressive relaxation",
+      "detailedDescription": "The project is a virtual Randomized Control Trial and the independent variable is OldPain2Go® a novel brief intervention for people with chronic low back pain. The investigators aim to answer the research question: Is OldPain2Go® an effective intervention for pain and function in people with chronic low back pain - when applied in an adequately powered RCT comparing OldPain2Go® with placebo? The Intervention arm participants will receive OldPain2Go® and the Control arm participants will receive Jacobson's progressive relaxation, as a placebo. The Control (placebo) is a commonly used element of treatment, for a wide range of conditions, but is never applied only once (or twice) as a treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Low Back Pain"
+      ],
+      "keywords": [
+        "Chronic Pain",
+        "Feasibility Study"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Sequential randomised assignment to intervention or control arms.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double blind",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Oldpain2go®",
+          "type": "EXPERIMENTAL",
+          "description": "This is a concept of dealing with a client in a way that uses their conscious mind to alter their unconscious automated programs (chronic pain) that are troubling them.",
+          "interventionNames": [
+            "Other: Oldpain2go®"
+          ]
+        },
+        {
+          "label": "Jacobson's progressive relaxation",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Jacobson's progressive relaxation is used in a range of conditions to relieve muscle tension and stress as part of self-management.",
+          "interventionNames": [
+            "Other: Jacobson's progressive relaxation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Oldpain2go®",
+          "description": "OldPain2Go® is a non-medical intervention for the treatment of chronic pain conditions including, but not limited to Chronic Low Back Pain. The underlying premise is rooted in the biopsychosocial model of pain, where the cause of ongoing pain and the development of chronicity, is believed to lie beyond simple tissue damage, injury or malfunction. The intervention draws upon subconscious communication as a means to help patients to re-frame their pain as less threatening and remove old, out of date, pain messages that no longer serve a purpose.",
+          "armGroupLabels": [
+            "Oldpain2go®"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Jacobson's progressive relaxation",
+          "description": "Jacobson's progressive relaxation is a technique commonly used for eliciting the relaxation response and relieving muscular tension. It involves sequentially relaxing various muscle groups, often starting at the head and moving down the body to the feet.",
+          "armGroupLabels": [
+            "Jacobson's progressive relaxation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "0-10 Numeric Rating Scale for Pain Intensity",
+          "description": "A standard measure in most pain studies. Participants are asked to rate their pain on a 0-10 scale with 0 being no pain and 10 being worst imaginable pain.\n\nA higher score means greater pain. An increase in score, over time, means an increase in pain and a worse outcome.",
+          "timeFrame": "Change measures at six time points, baseline, immediately after treatment, 1 week and 2, 4 and 12 weeks from baseline."
+        },
+        {
+          "measure": "The Roland Morris Disability Questionnaire",
+          "description": "A standard measure used in most low back pain studies to measure the degree of a person's disability. It is a 24 item, closed question, self-completed questionnaire. Each item is scored as zero or one and the minimum score is zero and maximum is 24.\n\nA higher score means greater self-rated physical disability caused by low back pain. An increase in score, over time, means an increase in self-rated physical disability caused by low back pain and a worse outcome.",
+          "timeFrame": "Change measures at five time points, baseline, 1 week and 2, 4 and 12 weeks from baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Currently suffering from persistent, non-specific, low back pain of six or more months duration\n* No known tissue damage, structural abnormality, or pathology causing persistent low back pain\n* Aged over 18 years\n* Person's for whom Oldpain2go® is indicated as a treatment option, after the standard clinical screening process for the Oldpain2go® treatment\n* Has access to digital communication device able to host encrypted secure on-line meetings.\n\nExclusion Criteria:\n\n* Any Red Flags,\n* Any causative (or potentially causative) structural abnormality, or pathology detected or suspected\n* Any concurrent pathology, or condition that would render them unsuitable for on-line virtual assessment and Physiotherapy treatment\n* Lack of (or any reason to doubt presence of) Mental Capacity to give Informed Consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Alasdair MacSween, PhD",
+          "affiliation": "Teesside University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Norton Physiotherapy Centre",
+          "city": "Norton",
+          "state": "Stockton-on-Tees",
+          "zip": "TS20 2PT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.13303,
+            "lon": -0.78501
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The non-person identifiable data set (non-person identifiable demographics and outcome measure data) will be available on as an Excel Spreadsheet on Teesside University's Mendeley Data account and will be accessible to all under Attribution 4.0 International (CC BY 4.0) licence.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "The non-person identifiable data set will be made available when analysis has been completed and written up for submission as a scientific journal article and will remain available indefinitely",
+      "accessCriteria": "The data will be owned by Teesside University and no restrictions will be placed on the use or access to the non-person identifiable data set available on Mendeley Data other than those restrictions included in Attribution 4.0 International (CC BY 4.0) licence."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017116",
+          "term": "Low Back Pain"
+        },
+        {
+          "id": "D059350",
+          "term": "Chronic Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001416",
+          "term": "Back Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,200 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07099287",
+      "orgStudyIdInfo": {
+        "id": "FH-077"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R21CA284313",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R21CA284313"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Rochester",
+        "class": "OTHER"
+      },
+      "briefTitle": "Advancing Smoking Cessation Among Transgender",
+      "officialTitle": "TRANSformá tu Salud Dejando de Fumar: Advancing Smoking Cessation Among Transgender"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-09-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-02-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-07-25",
+      "studyFirstSubmitQcDate": "2025-07-31",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Francisco Cartujano, MD",
+        "investigatorTitle": "Assistant Professor - Department of Public Health Sciences (SMD)",
+        "investigatorAffiliation": "University of Rochester"
+      },
+      "leadSponsor": {
+        "name": "University of Rochester",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "Fundación Huésped",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In partnership with a Community Advisory Board, the investigators developed TRANSformá tu salud (Spanish for TRANSform your health), a culturally adapted smoking cessation intervention for transgender and gender diverse individuals living in Argentina. This was a single-arm pilot study with 40 TGD individuals who smoke and received TRANSformá tu salud. The investigators assessed the feasibility, acceptability, and preliminary impact of TRANSformá tu salud.",
+      "detailedDescription": "In partnership with a Community Advisory Board, the investigators developed TRANSformá tu salud (Spanish for TRANSform your health), a culturally adapted smoking cessation intervention for transgender and gender diverse individuals living in Argentina. This was a single-arm pilot study with 40 TGD individuals who smoke and received TRANSformá tu salud. The investigators assessed the feasibility, acceptability, and preliminary impact of TRANSformá tu salud."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking Cessation"
+      ],
+      "keywords": [
+        "Smoking Cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TRANSform your health",
+          "type": "EXPERIMENTAL",
+          "description": "A culturally adapted smoking cessation intervention for transgender and gender diverse individuals living in Argentina",
+          "interventionNames": [
+            "Behavioral: TRANSform your health"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "TRANSform your health",
+          "description": "A culturally adapted smoking cessation intervention for transgender and gender diverse individuals living in Argentina",
+          "armGroupLabels": [
+            "TRANSform your health"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Reporting 7-Day Point Prevalence Smoking Abstinence at Month 3",
+          "description": "Seven-day point prevalence smoking abstinence is defined as no cigarette smoking, not even a puff, during the 7 days prior to the Month 3 assessment. Abstinence will be assessed as a binary outcome (yes or no), and the result will be reported as the percentage of participants who meet this criterion at Month 3.",
+          "timeFrame": "Month 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Eligible individuals self-identified as transgender and gender diverse individuals, were 18 years old or older, smoked at least three days per week, were interested in quitting smoking within the next 30 days, had an active cellphone with WhatsApp®, and were willing to complete two study visits.\n\nExclusion Criteria:\n\n* Use of other tobacco products (including e-cigarettes), pregnancy or breast-feeding, plans to move from their current residence in the next six months, and shared residence with a current study participant",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "genderBased": true,
+      "genderDescription": "Transgender and gender diverse individuals",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Francisco Cartujano, MD",
+          "affiliation": "University of Rochester",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fundación Huésped",
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

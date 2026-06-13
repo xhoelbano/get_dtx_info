@@ -1,0 +1,349 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05638568",
+      "orgStudyIdInfo": {
+        "id": "H-22007105 RCT Study"
+      },
+      "organization": {
+        "fullName": "Rigshospitalet, Denmark",
+        "class": "OTHER"
+      },
+      "briefTitle": "Fast Assessment of Surfactant Deficiency in Preterm Infants to Speed up Treatment",
+      "officialTitle": "FAST TRIAL 2 - Fourier-transform Infrared Spectroscopy(FTIR) Guided Surfactant Therapy - RCT",
+      "acronym": "FAST2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Concerns about the validity of the method",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-07-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-07-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-07",
+      "studyFirstSubmitQcDate": "2022-12-02",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Christian Heiring",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Rigshospitalet, Denmark"
+      },
+      "leadSponsor": {
+        "name": "Rigshospitalet, Denmark",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Odense University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Aalborg University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Aarhus University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Holbaek Sygehus",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Recently the investigators have developed a point of care test (LS-test) to measure surfactant as lecithin in gastric aspirates from preterm infants.\n\nThis test can be done immediately at delivery and potentially be used to guide surfactant treatment.\n\nTo obtain evidence-based knowledge on harms and benefit of surfactant therapy guided by the L/S test, a randomized clinical trial with relevant clinical short-and long-term outcomes needs to be performed, which is why the FAST 2 Trial has been designed.",
+      "detailedDescription": "Treatment of respiratory distress syndrome (RDS) has evolved greatly over the past three decades. Major advances in treatment include antenatal steroids, early nasal continuous positive airway pressure (nCPAP) combined with early rescue surfactant replacement strategies such as Intubation Surfactant Extubation (INSURE) and Less Invasive Surfactant Administration (LISA), together with use of lung protective ventilation and overall reduced use of mechanical ventilation. However, RDS and bronchopulmonary dysplasia (BPD) are still major causes of mortality and morbidity in premature infants. To improve the outcome, very early treatment with surfactant is necessary. However, only about half of infants with a gestational age (GA) below 30 weeks need surfactant treatment and prophylactic surfactant treatment increases the combined mortality and incidence of BPD contrary to selective rescue surfactant treatment. Therefore, there is a need for a rapid test to guide early targeted surfactant treatment.\n\nThe investigators have recently developed a new test of lung maturity based on measuring the lecithin sphingomyelin ratio (L/S) in fresh gastric aspirates (GAS) from newborn preterm infants using mid-red Fourier Transform Infrared spectroscopy (FTIR). The sphingomyelin concentration in amniotic fluid and accordingly in GAS is relatively constant during the pregnancy, whereas the lecithin (or dipalmitoylphosphatidylcholine (DPPC), the lung surfactant phospholipid with the highest surface activity) concentration increases with the lung maturation.\n\nIt has been demonstrated in clinical observational trials that this laboratory based L/S-test predicts development of RDS when measured immediately at delivery (FAST 1 Trial).\n\nThe L/S-test has now been developed into an easy-to-use Point of Care (POC) test for bedside use that expresses the L/S ratio in approximately 10 minutes. It is believed this new POC test can be used to guide surfactant therapy, enabling very early rescue treatment, potentially even before symptoms occur.\n\nTo obtain evidence-based knowledge on harms and benefit of surfactant therapy guided by the L/S test, a randomized clinical trial with relevant clinical short-and long-term outcomes needs to be performed, which is why the FAST 2 Trial has been designed.\n\nDuring design and development of the FAST 2 Trial protocol extensive engineering work has been conducted towards building a fully automated L/S POC Device (AIMI 1.0/2.0) from the prototypes in the first L/S studies (including FAST 1 Trial).\n\nDuring this process the accuracy of the L/S algorithm has been improved through machine learning and use of artificial intelligence. Consequently, the previously defined cut-off ratio from the FAST 1 Trial needs to be re-validated using the L/S POC Device in a new population of preterm infants.\n\nThe FAST 2 Trial therefore consists of two individual studies starting with the FAST 2 Validation Study which will followed by the FAST 2 Randomized Clinical Trial (FAST 2 RCT) once completed. The FAST 2 Validation study has been registered separately on clinicaltrials.gov (NCT05615428).\n\nThis registration concerns the FAST 2 RCT\n\nParticipants:\n\nPreterm newborn infants with gestational age at birth of ≤ 29+6 weeks who have not received prophylactic surfactant.\n\nIntervention:\n\nSurfactant treatment guided by fast determination of the L/S-ratio in a fresh gastric aspirate (GAS) obtained at birth, measured by Fourier Transform Mid-infrared Spectroscopy as a POC test.\n\nComparison:\n\nStandard rescue surfactant treatment based on clinical criteria defined by the European Consensus Guidelines on the management of Respiratory Distress Syndrome\n\nOutcome:\n\nInfants surviving without moderate to severe BPD assessed at 36 weeks post menstrual age as per a modified NIH definition\n\nThe primary outcome is a composite of survival without moderate to severe BPD, defined as per a modified \"NIH definition\"\n\nThe primary objective is to compare the rate of survival without moderate to severe BPD between 2 groups:\n\n* L/S guided treatment of surfactant deficiency with exogenous surfactant (intervention group) vs.\n* Standard treatment of surfactant deficiency (comparison)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Surfactant Deficiency Syndrome Neonatal",
+        "Respiratory Distress Syndrome, Newborn",
+        "Bronchopulmonary Dysplasia"
+      ],
+      "keywords": [
+        "surfactant assay",
+        "surfactant replacement therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "all participating infants will have a gastric aspirate (GAS) sampled at birth within 45 minutes of life.\n\nThe GAS will be analyzed bedside by a LS-test POC device. For infants allocated to the interventional group the LS-result will be displayed as \"treat with surfactant\" or \" do not treat with surfactant\" depending on wether the LS-ratio is under or above the cut-off ratio for treatment.\n\nThose with LS-ratio above the cut-off ratio will be treated with surfactant as per routine in accordance with the European RDS guidelines based on oxygen requirement (FiO2 \\> 0.30)\n\nInfants allocated to the control group will be treated with surfactant as per routine in accordance with the European RDS guidelines based on oxygen requirement (FiO2 \\> 0.30). The LS-ratio for those infants will remain blinded",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "It is not possible to blind LS-guided surfactant treatment in the interventional group, but the actual result of the LS-test will remain blinded for both groups until completion of the study except for as detailed above."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention arm LS guided treatment",
+          "type": "EXPERIMENTAL",
+          "description": "all participating infants will have a gastric aspirate (GAS) sampled at birth within 45 minutes of life.\n\nThe GAS will be analyzed immediately at the bedside by a LS-test POC device. For infants allocated to the interventional group the LS-result will be displayed as \"treat with surfactant\" or \" do not treat with surfactant\" depending on wether the LS-ratio is under or above the cut-off ratio for treatment.\n\nThose with LS-ratio above the cut-off ratio will be treated with surfactant as per routine in accordance with the European RDS guidelines based on oxygen requirement (FiO2 \\> 0.30) - ie same as in control group.",
+          "interventionNames": [
+            "Diagnostic Test: LS test"
+          ]
+        },
+        {
+          "label": "Control arm - routine surfactant treatment",
+          "type": "NO_INTERVENTION",
+          "description": "all participating infants will have a gastric aspirate (GAS) sampled at birth within 45 minutes of life.\n\nThe GAS will be analyzed immediately at the bedside by a LS-test POC device, but result will remain blinded.\n\nInfants allocated to the control group will be treated with surfactant as per routine in accordance with the European RDS guidelines based on oxygen requirement (FiO2 \\> 0.30). The LS-ratio for those infants will remain blinded"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "LS test",
+          "description": "If the LS test indicated surfactant deficiency based on the cut off ratio early surfactant treatment will be done for patients in the intervention group If the LS test indicated no surfactant deficiency routine surfactant treatment will be done as per European RDS guidelines based on oxygen requirement (FiO2 \\> 0.30)",
+          "armGroupLabels": [
+            "Intervention arm LS guided treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Survival without moderate to severe bronchopulmonary dysplasia (BPD)",
+          "description": "BPD is defined as per a modified \"NIH definition\" in which any degree of respiratory support for at least 28 days is considered equal to the need for oxygen:\n\n* Treatment with oxygen \\> 21% or any degree of respiratory support for a least 28 days plus\n* Need for treatment with oxygen \\> 21% or any degree of respiratory support at PMA 36 weeks or at discharge, whichever comes first.\n\nDefinitions:\n\n* Moderate BPD is defined as treatment with oxygen \\> 21% or any degree of respiratory support for a least 28 days plus need of supplemental oxygen from \\>21% to \\< 30% (as low flow O2) at 36+0 weeks PMA\n* Severe BPD is defined as treatment with oxygen \\> 21% or any degree of respiratory support for a least 28 days plus need of \\> 30% oxygen and/or continuous need for any level of respiratory support providing positive airway pressure (nHFT, nCPAP, NIV or mechanical ventilation)",
+          "timeFrame": "at 36 weeks PMA or discharge withever comes first"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "mortality",
+          "description": "assessed at discharged",
+          "timeFrame": "From date of birth until the date of death if this happens before discharge"
+        },
+        {
+          "measure": "Bronchopulmonary dysplasia",
+          "description": "BPD is defined as per a modified \"NIH definition\" in which any degree of respiratory support for at least 28 days is considered equal to the need for oxygen:\n\n* Treatment with oxygen \\> 21% or any degree of respiratory support for a least 28 days plus\n* Need for treatment with oxygen \\> 21% or any degree of respiratory support at PMA 36 weeks or at discharge, whichever comes first.\n\nDefinitions:\n\n* Moderate BPD is defined as treatment with oxygen \\> 21% or any degree of respiratory support for a least 28 days plus need of supplemental oxygen from \\>21% to \\< 30% (as low flow O2) at 36+0 weeks PMA\n* Severe BPD is defined as treatment with oxygen \\> 21% or any degree of respiratory support for a least 28 days plus need of \\> 30% oxygen and/or continuous need for any level of respiratory support providing positive airway pressure (nHFT, nCPAP, NIV or mechanical ventilation)",
+          "timeFrame": "at 36 weeks PMA or discharge withever comes first"
+        },
+        {
+          "measure": "LS-ratio",
+          "description": "POC measurement using FTIR Spectroscopy",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "Nectrotizing enterocolitis",
+          "description": "According to Bell classification/AXR",
+          "timeFrame": "From date of birth to 44 weeks of gestational age (usually around 18 weeks)"
+        },
+        {
+          "measure": "Spontaneous intestinal perforation",
+          "description": "As diagnosed on AXR",
+          "timeFrame": "From date of birth to 44 weeks of gestational age (usually around 18 weeks)"
+        },
+        {
+          "measure": "Intraventricular hemorhage",
+          "description": "According to Papile classification",
+          "timeFrame": "From date of birth to 44 weeks of gestational age (usually around 18 weeks)"
+        },
+        {
+          "measure": "Airleak",
+          "description": "Assessed on CXR or lung ultrasound",
+          "timeFrame": "From date of birth to 44 weeks of gestational age (usually around 18 weeks)"
+        },
+        {
+          "measure": "surfactant treatment,",
+          "description": "from medical record",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "surfactant treatmentdose,",
+          "description": "from medical record",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "number of surfactant treatments,",
+          "description": "from medical record",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "timing surfactant treatments,",
+          "description": "from medical record",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "gastric aspirate obtained",
+          "description": "from medical record",
+          "timeFrame": "72 hours"
+        },
+        {
+          "measure": "gastric aspirate analyzed",
+          "description": "from medical record",
+          "timeFrame": "72 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* GA ≤ 29+6, inborn at a participating centre\n* Age less than 45 minutes as GAS must be sampled within 45 minutes from delivery.\n\nExclusion Criteria:\n\n* Treated with surfactant before randomisation and obtaining gastric aspirates\n* Diagnosis of major malformations (major congenital heart defects, congenital diaphragmatic hernia, gastroschisis/omphalocele, pulmonary abnormalities including pulmonary hypoplasia and trachea-oesophageal fistula\n* Antenatal suspicion of significant oligohydramnios and lung hypoplasia\n* Any intrauterine intervention except if done for genetic testing",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "maximumAge": "45 Minutes",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christian Heiring",
+          "affiliation": "Rigshospitalet, Denmark",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Aalborg University Hospital",
+          "city": "Aalborg",
+          "zip": "9000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        },
+        {
+          "facility": "Aarhus Universtity Hospital",
+          "city": "Aarhus",
+          "zip": "8200",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Department of Neonatology, Rigshospitalet",
+          "city": "Copenhagen",
+          "zip": "2100",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Odense University Hospital",
+          "city": "Odense",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Study protocol will be published in peer reviewed journal as soon as possible SAP will be ublished in peer reviewed journal as soon as possible and prior to completion of primary data collection"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001261",
+          "term": "Pulmonary Atelectasis"
+        },
+        {
+          "id": "D012127",
+          "term": "Respiratory Distress Syndrome, Newborn"
+        },
+        {
+          "id": "D001997",
+          "term": "Bronchopulmonary Dysplasia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D012128",
+          "term": "Respiratory Distress Syndrome"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D007235",
+          "term": "Infant, Premature, Diseases"
+        },
+        {
+          "id": "D007232",
+          "term": "Infant, Newborn, Diseases"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D055397",
+          "term": "Ventilator-Induced Lung Injury"
+        },
+        {
+          "id": "D055370",
+          "term": "Lung Injury"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

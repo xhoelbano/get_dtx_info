@@ -60,6 +60,9 @@ class EvidenceOrchestrator:
         self.query_generator = None
         self.verifier = None
         self.classifier = None
+
+        # Shared sink for Phase 2 LLM metrics (verify/classify/website agent).
+        self.llm_metrics: List[Dict] = []
     
     def _init_scrapers(self, sources: List[str] = None):
         """Initialize scrapers on demand."""
@@ -105,6 +108,13 @@ class EvidenceOrchestrator:
         self.query_generator = query_generator
         self.classifier = classifier
         self.verifier = verifier
+
+        # Route verifier/classifier per-call metrics into the shared sink so a
+        # full run can be aggregated and benchmarked like Phase 1.
+        if verifier is not None and hasattr(verifier, "metrics"):
+            verifier.metrics = self.llm_metrics
+        if classifier is not None and hasattr(classifier, "metrics"):
+            classifier.metrics = self.llm_metrics
     
     async def close(self):
         """Clean up all scraper resources."""
@@ -241,6 +251,7 @@ class EvidenceOrchestrator:
         total_verified_rct = 0
         total_verified_rwe = 0
         total_rejected = 0
+        total_ineligible = 0
         
         # Process each source
         for source in sources:
@@ -273,27 +284,47 @@ class EvidenceOrchestrator:
                 
                 print(f"      {len(relevant)} relevant, {len(rejected)} rejected")
                 
-                # Classify relevant studies
+                # Classify relevant studies into RCT / RWE / INELIGIBLE.
+                # Only genuine RCT or RWE reach verified/; INELIGIBLE designs
+                # (reviews, protocols, editorials, etc.) are rejected.
                 rct_results = []
                 rwe_results = []
+                ineligible_results = []
                 
                 for study in relevant:
+                    raw_content = study.pop("__raw_content", None)
                     try:
-                        classification = await self.classifier.classify(study)
+                        classification = await self.classifier.classify(
+                            study, raw_content=raw_content
+                        )
                         study["_classification"] = classification
+                        label = classification.get("classification")
                         
-                        if classification.get("classification") == "RCT":
+                        if label == "RCT":
                             rct_results.append(study)
-                        else:
+                        elif label == "RWE":
                             rwe_results.append(study)
+                        else:
+                            study["_rejection_stage"] = "classification"
+                            study["_rejection_reason"] = classification.get(
+                                "reason", "Not a primary RCT or RWE study"
+                            )
+                            ineligible_results.append(study)
                     except Exception as e:
-                        # Default to RWE on error
+                        # Do NOT default to RWE: an unclassifiable study is excluded.
                         study["_classification"] = {
-                            "classification": "RWE",
-                            "confidence": 50,
+                            "classification": "INELIGIBLE",
+                            "confidence": 0,
                             "reason": f"Classification error: {e}"
                         }
-                        rwe_results.append(study)
+                        study["_rejection_stage"] = "classification"
+                        study["_rejection_reason"] = f"Classification error: {e}"
+                        ineligible_results.append(study)
+                
+                # Strip transient raw content from rejected (irrelevant) studies.
+                for study in rejected:
+                    study.pop("__raw_content", None)
+                    study["_rejection_stage"] = "verification"
                 
                 # Save verified results
                 if rct_results:
@@ -310,22 +341,27 @@ class EvidenceOrchestrator:
                     )
                     print(f"      Saved {len(rwe_results)} RWE studies")
                 
-                # Save rejected studies (for debugging/review)
-                if rejected:
+                # Save rejected (irrelevant) + ineligible (wrong design) together.
+                rejected_all = rejected + ineligible_results
+                if rejected_all:
                     self._save_rejected_studies(
-                        country, dtx_name, source, rejected
+                        country, dtx_name, source, rejected_all
                     )
+                if ineligible_results:
+                    print(f"      {len(ineligible_results)} relevant but ineligible (not RCT/RWE)")
                 
                 results["sources"][source] = {
                     "candidates": len(candidates),
                     "verified_rct": len(rct_results),
                     "verified_rwe": len(rwe_results),
-                    "rejected": len(rejected)
+                    "rejected": len(rejected),
+                    "ineligible": len(ineligible_results)
                 }
                 
                 total_verified_rct += len(rct_results)
                 total_verified_rwe += len(rwe_results)
                 total_rejected += len(rejected)
+                total_ineligible += len(ineligible_results)
                 
             except Exception as e:
                 print(f"      Error: {e}")
@@ -334,9 +370,10 @@ class EvidenceOrchestrator:
         results["total_verified_rct"] = total_verified_rct
         results["total_verified_rwe"] = total_verified_rwe
         results["total_rejected"] = total_rejected
+        results["total_ineligible"] = total_ineligible
         
         print(f"    Verified: {total_verified_rct} RCT, {total_verified_rwe} RWE")
-        print(f"    Rejected: {total_rejected}")
+        print(f"    Rejected: {total_rejected} irrelevant, {total_ineligible} ineligible")
         
         return results
     
@@ -506,6 +543,7 @@ class EvidenceOrchestrator:
             "total_verified_rct": 0,
             "total_verified_rwe": 0,
             "total_rejected": 0,
+            "total_ineligible": 0,
             "by_dtx": {}
         }
         
@@ -535,6 +573,7 @@ class EvidenceOrchestrator:
                     total_stats["total_verified_rct"] += v.get("total_verified_rct", 0)
                     total_stats["total_verified_rwe"] += v.get("total_verified_rwe", 0)
                     total_stats["total_rejected"] += v.get("total_rejected", 0)
+                    total_stats["total_ineligible"] += v.get("total_ineligible", 0)
                 
                 total_stats["by_dtx"][dtx_name] = results
                 
@@ -550,24 +589,34 @@ class EvidenceOrchestrator:
         
         return total_stats
     
-    async def run_website_fallback(
+    async def run_website_search(
         self,
         dtx_list: List[Dict],
         country: str,
         *,
+        run_for_all: bool = True,
         max_agent_steps: int = 35,
         delay_seconds: float = 7.0,
         force_website: bool = False,
     ) -> Dict:
-        """Run browser-use website scraper only for DTx with 0 registry-verified evidence.
+        """Run the browser-use website search for DTx in the pipeline.
+
+        Controlled by the ENABLE_WEBSITE_SEARCH .env toggle via main.py:
+        - run_for_all=True (toggle on): run for EVERY DTx with a company_website.
+        - run_for_all=False (legacy flag): only run for DTx with 0 registry-verified
+          evidence (the previous "fallback" behavior).
 
         Requires company_website on the DTx record. Saves under candidates/website,
-        verified/*/website, rejected/website like other sources.
+        verified/*/website, rejected/website like other sources. Browser-use LLM
+        usage is recorded into the shared metrics sink.
         """
-        scraper = WebsiteEvidenceScraper(str(self.evidence_dir))
+        scraper = WebsiteEvidenceScraper(
+            str(self.evidence_dir), metrics_sink=self.llm_metrics
+        )
         out = {
             "country": country,
             "run_date": datetime.utcnow().isoformat() + "Z",
+            "run_for_all": run_for_all,
             "dtx_attempted": 0,
             "dtx_skipped_has_registry_evidence": 0,
             "dtx_skipped_no_website": 0,
@@ -576,12 +625,13 @@ class EvidenceOrchestrator:
         }
         for dtx_data in dtx_list:
             name = dtx_data.get("dtx_name", "Unknown")
-            rct, rwe = count_registry_verified_studies(
-                self.evidence_dir, country, name
-            )
-            if rct + rwe > 0:
-                out["dtx_skipped_has_registry_evidence"] += 1
-                continue
+            if not run_for_all:
+                rct, rwe = count_registry_verified_studies(
+                    self.evidence_dir, country, name
+                )
+                if rct + rwe > 0:
+                    out["dtx_skipped_has_registry_evidence"] += 1
+                    continue
             if not (dtx_data.get("company_website") or "").strip():
                 out["dtx_skipped_no_website"] += 1
                 continue
@@ -606,11 +656,17 @@ class EvidenceOrchestrator:
 
         summary_dir = self.evidence_dir / "summary"
         summary_dir.mkdir(parents=True, exist_ok=True)
-        path = summary_dir / f"{country.lower()}_website_fallback.json"
+        path = summary_dir / f"{country.lower()}_website_search.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(out, f, indent=2, ensure_ascii=False)
 
         return out
+
+    # Backwards-compatible alias (older callers / tests).
+    async def run_website_fallback(self, dtx_list, country, **kwargs):
+        """Deprecated name. Defaults to zero-evidence-only behavior."""
+        kwargs.setdefault("run_for_all", False)
+        return await self.run_website_search(dtx_list, country, **kwargs)
     
     # =====================================================================
     # Legacy support

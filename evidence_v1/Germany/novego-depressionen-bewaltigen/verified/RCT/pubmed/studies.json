@@ -1,0 +1,67 @@
+{
+  "studies": [
+    {
+      "study_id": "38260995",
+      "pmid": "38260995",
+      "title": "[Efficacy of internet-based interventions for depression available in Germany-A systematic review and meta-analysis].",
+      "authors": "Haaf Raoul et al.",
+      "authors_list": [
+        "Haaf Raoul",
+        "Vock Pia",
+        "Wächtershäuser Nikolaj",
+        "Correll Christoph U",
+        "Köhler Stephan"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Mar",
+      "journal": "Der Nervenarzt",
+      "journal_abbrev": "Nervenarzt",
+      "doi": "10.1007/s00115-023-01587-0",
+      "abstract": "BACKGROUND: Internet-based interventions (IBIs) for the treatment of depression have been found to have positive effects in international meta-analyses; however, it is unclear whether these effects also extend to IBIs specifically available in Germany. The aim of this meta-analysis was to estimate the immediate effects and the long-term effects of IBIs available in Germany free of charge or available on prescription and covered by the public health insurances as so-called digital health applications (DiGAs) and to compare the efficacy of DiGAs and freely available IBIs. METHOD: A systematic literature search and random-effects meta-analysis were performed (preregistration: INPLASY202250070). Randomized controlled trials (RCTs) of IBIs freely available in Germany or as DiGA in adults with elevated depressive symptoms were compared with active and inactive controls available at the time of the survey in May 2022. RESULTS: A total of six interventions were identified: COGITO, deprexis, iFightDepression, moodgym, Novego, and Selfapy. The pooled effect size of a total of 28 studies with 13,413 participants corresponded to an effect of Cohen's d = 0.42, (95% confidence interval, CI: 0.31-0.54, I2 = 81%). The analysis of long-term effects showed a smaller effect size of d = 0.29, (95% CI: 0.21-0.37, I2 = 22%, N = 10). Subgroup analyses indicated a possible superiority of the three interventions listed in the DiGA directory (d = 0.56, 95% CI: 0.38-0.74, I2 = 83%, N = 15) compared to the three freely available IBIs (d = 0.24, 95% CI: 0.14-0.33, I2 = 44%, N = 13, p = 0.002). CONCLUSION: The IBIs for depressive disorders available in Germany are effective and can therefore be used in the treatment of people with a depressive disorder; however, it is possible that not all interventions are equally effective.",
+      "publication_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "English Abstract",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Depression",
+        "Germany",
+        "Internet-Based Intervention"
+      ],
+      "keywords": [
+        "Digital health applications",
+        "Efficacy",
+        "Internet and mobile-based interventions (IMI)",
+        "Long-term effects",
+        "Unipolar depression"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38260995/",
+      "pmc_id": "PMC12855330",
+      "pdf_available": true,
+      "_matched_query": "\"Novego\"",
+      "_raw_xml_path": "evidence/Germany/novego-depressionen-bewaltigen/candidates/pubmed/raw/38260995.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions 'Novego' as one of the six interventions analyzed, and the description aligns with the product's focus on internet-based interventions for depression available in Germany. While the study is broader in scope, Novego is specifically included in the analysis.",
+        "matched_elements": [
+          "Novego mentioned in abstract",
+          "Focus on internet-based interventions for depression in Germany"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 1 RWE indicators"
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T19:59:17.809105Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

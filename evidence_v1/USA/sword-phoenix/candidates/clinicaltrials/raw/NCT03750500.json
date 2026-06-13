@@ -1,0 +1,280 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03750500",
+      "orgStudyIdInfo": {
+        "id": "SH-RCT-FP-01"
+      },
+      "organization": {
+        "fullName": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Clinical Impact of a Digital Home-based Falls Prevention Program on Elderly People",
+      "officialTitle": "Clinical Impact of a Digital Home-based Falls Prevention Program on Elderly People - a Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-05",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-11-20",
+      "studyFirstSubmitQcDate": "2018-11-20",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sword Health, SA",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a single-center, prospective, non-blind, parallel-group, randomized controlled trial with an experimental and a control group with the aim of evaluating the clinical impact of a home-based falls prevention program using a new biofeedback system on community-dwellers older adults with fall risk in comparison with standard of care.\n\nThe experimental group will perform a 12-week exercise program at home, under remote monitoring from a clinical team, whereas the control group will benefit from standard medical care currently in place at the participating primary care facility.\n\nThe hypothesis is that the home-based falls prevention program will lead to a lower risk of falling than standard medical care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Fall"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Participants included in this arm will benefit from a 12-week exercise program using the novel biofeedback rehabilitation device, under remote monitoring from a physical therapist",
+          "interventionNames": [
+            "Device: Biofeedback device",
+            "Behavioral: Education on falls risk",
+            "Other: Medication review",
+            "Diagnostic Test: Visual and auditory screening"
+          ]
+        },
+        {
+          "label": "Standard of Care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients included in this arm will benefit from the standard of care currently in place in the Primary Care facility: education on risk factors for falls, medication review, visual and auditory acuity screening.",
+          "interventionNames": [
+            "Behavioral: Education on falls risk",
+            "Other: Medication review",
+            "Diagnostic Test: Visual and auditory screening"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Biofeedback device",
+          "description": "12-week exercise program performed through the device",
+          "armGroupLabels": [
+            "Experimental"
+          ],
+          "otherNames": [
+            "SWORD Phoenix"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Education on falls risk",
+          "description": "Education on falls risk factors and how to minimize them",
+          "armGroupLabels": [
+            "Experimental",
+            "Standard of Care"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Medication review",
+          "description": "Medication will be reviewed to reduce sedative drugs and minimize interactions",
+          "armGroupLabels": [
+            "Experimental",
+            "Standard of Care"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Visual and auditory screening",
+          "description": "Patients will go through visual and auditory screening as part of their regular care",
+          "armGroupLabels": [
+            "Experimental",
+            "Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in the 5 Times Sit to Stand Test",
+          "description": "The 5 Times Sit to Stand Test is a performance test that measures the strength and the lower limb mobility. It consists of the time it takes to stand up from a chair five consecutive times. A cutoff value of 15 seconds is used to distinguish between individuals with and without risk of recurrent falls",
+          "timeFrame": "Baseline; week 4; week 8; week 12 and then week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in the Timed Up and Go Test score",
+          "description": "The TUG is a performance test that assesses the mobility, balance and gait in elderly individuals, consisting of the time it takes to stand up from a chair, walk 3 meters, turn around, come back and sit down again.",
+          "timeFrame": "Baseline; week 4; week 8; week 12 and then week 24"
+        },
+        {
+          "measure": "Change in the Berg Balance Scale",
+          "description": "The Berg Balance Scale was developed to evaluate the static and dynamic balance in three domains: sitting, standing and changing posture. It is a scale composed of 14 items graded by an external observer on 5 levels (from 0 to 4). Scale scores range from 0 to 56, with higher scores representing a higher level of functionality.",
+          "timeFrame": "Baseline; week 4; week 8; week 12 and then week 24"
+        },
+        {
+          "measure": "Change in the Shorts Falls Efficacy Scale-International",
+          "description": "The Shorts Falls Efficacy Scale-International was developed in order to systematize on a scale the fear of falling. It is a questionnaire of 7 items filled by the user, evaluating from 1 to 4 the fear of falling during the execution of a series of activities of daily living. It is a standardized and comparable measure over time, which provides an additional dimension in the characterization of participants. The cutoff levels are: low fear (7-8); moderate fear (9-13) and high fear (14-28).",
+          "timeFrame": "Baseline; week 4; week 8; week 12 and then week 24"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients aged over 65 years old\n2. Ability to walk at least 20 meters, unaided or with unilateral support\n3. Ability to understand motor complex commands\n4. Mini-Mental State Examination (MMSE) score \\> 24 points\n5. Functional independence for instrumental activities of daily living\n6. Risk of recurrent falls, defined as 5xSST score \\> 15,00 seconds\n\nExclusion Criteria:\n\n1. Patients residing in nursing homes, daycare units or assisted-living facilities\n2. Aphasia, dementia or psychiatric comorbidity, significantly interfering with communication or compliance with a home-based exercise program\n3. Severe visual our hearing, interfering with communication or with compliance to a home-based exercise program\n4. Cardiac, respiratory or other condition incompatible with at least 30 minutes of light to moderate physical activity\n5. Osteoarticular conditions (e.g. severe osteoarthrosis), which prevent the patient from complying with a home-based exercise program\n6. Patients with neurologic conditions (e.g. stroke, multiple sclerosis, Parkinson's disease)\n7. Other medical complications, which prevent the patient from complying with a home-based exercise program\n8. Illiteracy",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "65 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Fernando Correia, MD",
+          "role": "CONTACT",
+          "phone": "+351966557789",
+          "email": "fanacorreia@gmail.com"
+        },
+        {
+          "name": "Mariana Sant'Ana, MD",
+          "role": "CONTACT",
+          "phone": "+351918448914",
+          "email": "mariana.magsant@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "USF Aldoar",
+          "city": "Porto",
+          "country": "Portugal",
+          "contacts": [
+            {
+              "name": "Mariana Sant'Ana",
+              "role": "CONTACT",
+              "phone": "+351918448194"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Study protocol and study aggregate results (including anonymised individual patient data) will be made available",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "The data will become available upon study publication, for 5 years.",
+      "accessCriteria": "The protocol will be made available through this platform."
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP_ICF",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": true,
+          "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+          "date": "2018-11-14",
+          "uploadDate": "2018-11-20T12:10",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "size": 1369286
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000090143",
+          "term": "Medication Review"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008509",
+          "term": "Medication Systems"
+        },
+        {
+          "id": "D009934",
+          "term": "Organization and Administration"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D010346",
+          "term": "Patient Care Management"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

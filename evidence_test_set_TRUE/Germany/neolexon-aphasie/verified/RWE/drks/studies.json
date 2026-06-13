@@ -1,0 +1,32 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00026233",
+      "drks_id": "DRKS00026233",
+      "title": "Investigation of language improvement in aphasia using the app “neolexon Aphasie” as a home exercise supplement",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00026233/details",
+      "_matched_query": "\"neolexon Aphasie\"",
+      "_raw_json_path": "evidence/Germany/neolexon-aphasie/candidates/drks/raw/DRKS00026233.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions 'neolexon Aphasie' in the title, which matches the product name provided. While the abstract and intervention details are not available, the title alone provides strong evidence that the study is specifically about this DTx product.",
+        "matched_elements": [
+          "neolexon Aphasie"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 70,
+        "reason": "The study appears to focus on real-world use of an app as a home exercise supplement, which suggests an observational design rather than a controlled, randomized intervention. However, due to limited information, the confidence is moderate."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T19:53:03.358867Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

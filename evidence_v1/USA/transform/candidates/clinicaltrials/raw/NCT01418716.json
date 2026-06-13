@@ -1,0 +1,368 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01418716",
+      "orgStudyIdInfo": {
+        "id": "FRSQ-22424"
+      },
+      "organization": {
+        "fullName": "Fonds de la Recherche en Santé du Québec",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "TRANSforming InTerprofessional Cardiovascular Prevention in Primary Care",
+      "officialTitle": "A Program to TRANSform InTerprofessional Clinical Practices to Improve Cardiovascular Prevention in Primary Care",
+      "acronym": "TRANSIT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-08-16",
+      "studyFirstSubmitQcDate": "2011-08-16",
+      "studyFirstPostDateStruct": {
+        "date": "2011-08-17",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-02-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lyne Lalonde",
+        "investigatorTitle": "Professor (professeur agrégé)",
+        "investigatorAffiliation": "Fonds de la Recherche en Santé du Québec"
+      },
+      "leadSponsor": {
+        "name": "Fonds de la Recherche en Santé du Québec",
+        "class": "OTHER_GOV"
+      },
+      "collaborators": [
+        {
+          "name": "Université de Montréal",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The TRANSIT program is a program to TRANSform InTerprofessional clinical practices to improve cardiovascular prevention in primary care. It addresses priorities in primary care relevant to the Chronic Care Model (Wagner 2001): self-management support, delivery-system design, and management of clinical information.\n\nThe program includes :\n\n* a case manager to coordinate and provide care and follow up;\n* clinical protocols and tools to support interprofessional and systematic follow up;\n* training for clinicians;\n* patient's personalized cardiovascular health booklet;\n* tools to promote group sessions for patient education on cholesterol, hypertension, and diabetes.\n\nThe general OBJECTIVE of this trial is to evaluate and compare two STRATEGIES for implementing the TRANSIT program in Family Medicine Groups (FMGs):\n\n1. facilitation, and\n2. passive diffusion.\n\nPassive diffusion is the usual strategy where clinicians implement an intervention program by themselves. Facilitation is a strategy whereby a facilitator provides support to a team of clinicians to help them introduce the changes required to implement the program into practice.\n\nThe hypothesis is that facilitation will be more efficacious to implement the program than passive diffusion:\n\n* it will enhance the provision of cardiovascular preventive care;\n* it will enhance interprofessional collaboration;\n* it will enable more efficaciously the implementation of new clinical processes;\n* it will improve patient clinical outcomes;\n* it will cost more in the short term, but will have positive economic impact in the long term;\n* there will be less \"undesired effects\" of all types related to implementation.\n\nTo test the hypothesis, we assess the efficacy of the implementation strategies to enhance interprofessional collaboration and better support patients in the management of their conditions. Impact on provision of care, interprofessional collaboration, clinical processes, and patient clinical outcomes (values, therapeutic targets, and lifestyle habits) will be evaluated. Moreover, the implementation cost related to each strategy will be estimated.\n\nWe complement the trial with qualitative methods to document the perceptions of clinicians, facilitators, patients and members of the family regarding the TRANSIT program, the implementation strategies and the observed changes in the clinical practices and outcomes.",
+      "detailedDescription": "STUDY DESIGN:\n\nPragmatic cluster randomized clinical trial\n\nSETTING:\n\nNine Family Medicine Groups (FMGs) take part in the study. FMGs are primary care clinics delivering family medicine services. They include physicians and nurses, and collaborate with other health professionals.\n\nEligible FMGs meet the following criteria:\n\n1. 2 physicians, 1 nurse, 1 community pharmacist, 1 member of the medical administrative support, and 1 other health professional (nutritionist, kinesiologist, or psychologist) accept to participate by collaborating to the facilitation activities, if the FMG is assigned to the facilitation group;\n2. 1 physician, 1 nurse, 1 community pharmacist and 1 other health professional (nutritionist, psychologist, kinesiologist) accept to play a role in the internal facilitation team, if the FMG is assigned to the facilitation group;\n3. a room is available for the case manager nurse for the equivalent of one day/week over 15 months;\n4. 100 eligible patients accept to participate in the study, with a minimum of 15 patients per physician participant.\n\nAll FMGs in the TRANSIT study are given access to the TRANSIT program, to the supportive clinical tools cliniques, and to a case manager nurse. Training will be offered on the use of the electronic directory of health resources and on motivational interview.\n\nRANDOMIZATION:\n\nPrior to randomization, each clinician is assigned to one FMG only. Each FMG will be paired with 2 others of the same level of CVD preventive care (score \\<6 or ≥6), as estimated with the questionnaire \"Assessment of Chronic Illness Care\" (ACIC). Usually, medical clinics report a score of 5 or less at baseline.\n\nParticipating FMGs (n=9) will be randomly assigned to facilitation (n=6) and to passive diffusion (n=3). FMGs will be randomized simultaniously in blocs of 3. For each bloc, 2:1 ratio (facilitation:passive diffusion) will be respected. Randomization will be stratified in fonction of the ACIC score (score \\<6 or score ≥6). Because of the small number of participating FMGs, grouping GMFs in blocs of 3 according to the ACIC score will ensure complete blocs are found in each randomization stratum.\n\nANALYSIS:\n\nFor all variables, multivariable analysis models taking account the intracluster correlation (linear/SAS PROC MIXED) for continuous and categorical variables (logistic/PROC GENMOD) will be developed. Significative variables (p\\<0.2) in bivariable model including the study group will be included in the multivariable model. We will then apply a backward selection procedure and include in the final model those variables that were statistically significant at p \\< 0.1."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Hypertension",
+        "Dyslipidemias",
+        "Cholesterol, LDL",
+        "Comorbitdity"
+      ],
+      "keywords": [
+        "Disease Management",
+        "Quality Improvement",
+        "Cooperative Behavior (collaboration)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 759,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Facilitation",
+          "type": "EXPERIMENTAL",
+          "description": "Facilitation is a change management process. In the TRANSIT study, the change consist in implementing the TRANSIT program in primary care clinics. In the facilitation group, external facilitators accompany, support, and empower clinical teams so they quickly develop a sense of ownership regarding new clinical practices and sustainably implement them with lower costs. External facilitators offer counseling, coaching, and various tools to an internal facilitation team composed of clinicians of the clinical team to support their efforts in implementing change in their practices. Facilitation activities are structured in a cycle of 4 steps, the Plan-Do-Study-Act cycle (PDSA cycle).",
+          "interventionNames": [
+            "Other: Facilitation"
+          ]
+        },
+        {
+          "label": "Passive diffusion",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Clinical teams in primary care clinics implement the TRANSIT program without the help of facilitators.",
+          "interventionNames": [
+            "Other: Passive diffusion"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Facilitation",
+          "description": "Facilitation is a change management process. In the TRANSIT study, the change consist in implementing the TRANSIT program in primary care clinics. In the facilitation group, external facilitators accompany, support, and empower clinical teams so they quickly develop a sense of ownership regarding new clinical practices and sustainably implement them with lower costs. External facilitators offer counseling, coaching, and various tools to an internal facilitation team composed of clinicians of the clinical team to support their efforts in implementing change in their practices. Facilitation activities are structured in a cycle of 4 steps, the Plan-Do-Study-Act cycle (PDSA cycle).",
+          "armGroupLabels": [
+            "Facilitation"
+          ],
+          "otherNames": [
+            "Plan-Do-Study-Act cycles (PDSA cycles)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Passive diffusion",
+          "description": "Clinical teams in primary care clinics implement the TRANSIT program without the help of facilitators.",
+          "armGroupLabels": [
+            "Passive diffusion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Quality of the cardiovascular preventive care",
+          "description": "Mean change in the composite score of the quality of the cardiovascular preventive care",
+          "timeFrame": "Baseline and 12 months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Organisational outcomes",
+          "description": "Impact of implementation strategy on:\n\n1. clinicians' and patients' perception of health service delivery (questionnaires: ACIC and PACIC);\n2. team work (questionnaire: TCI - short version);\n3. clinicians' perception of achievement of change (questionnaires: Herscovitch and Meyer's Affective Engagement, Bandura's Self Efficacy, and clinician's perception of achievement of the TRANSIT program \\[after 12 months only\\]);\n4. direct costs (clinician time and compensations for participation in facilitation activities, salary and training of the external facilitator).",
+          "timeFrame": "Baseline and 12 months after randomization"
+        },
+        {
+          "measure": "Blood pressure",
+          "description": "Mean change in the systolic/diastolic blood pressure",
+          "timeFrame": "Baseline and 12 months after randomization"
+        },
+        {
+          "measure": "c-LDL",
+          "description": "Mean change in change in the c-LDL",
+          "timeFrame": "Baseline and 12 months after randomization"
+        },
+        {
+          "measure": "Glycosylated hemoglobine (HgA1c)",
+          "description": "Mean change in the HgA1c",
+          "timeFrame": "Baseline and 12 months after randomization"
+        },
+        {
+          "measure": "Achieved therapeutic targets",
+          "description": "Mean change in percentage of achieved therapeutic targets",
+          "timeFrame": "Baseline and 12 months after randomization"
+        },
+        {
+          "measure": "Lifestyle habits",
+          "description": "Mean change in lifestyle habits as measured using self-administered questionnaires to patients : Hopkin's food frequency questionnaire, International Physical Activity Questionnaire (IPAQ), smoking status",
+          "timeFrame": "Baseline and 12 months after randomization"
+        },
+        {
+          "measure": "Use of public programs",
+          "description": "Mean change in percentage of patients using the education programs and in mean frequency of use. Programs are education to patients on diabetes, cholesterol, hypertension, and healthy weight control",
+          "timeFrame": "Baseline and 12 months after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patient is registered in a Family Medicine Group;\n* 10-year Framingham risk score (FRS) moderate (11-19%) to high (≥ 20%);\n* at least one of the following condition uncontrolled:\n\n  * Diabetes: HbA1C \\> 7% OR fasting blood glucose \\> 7 mmol/L OR 2-hour postprandial blood glucose \\> 10 mmol/L (OR \\> 8 mmol/L if HbA1C target is not acheived)(Canadian Diabetes Association Clinical Practice Guidelines Expert Committee, Canadian Journal of Diabetes, 2008)\n  * Dyslipidemia: C-LDL ≥ 2 mmol/L in moderate to high risk patients OR less than 50% reduction of C-LDL compared to initial value OR Apo-B ≥ 0,8 g/L (Genest, McPherson et al. 2009)\n  * Hypertension: blood pressure ≥ 140/90 ou ≥ 130/80 in diabetic patients or with chronic kidney disease (TFG \\< 60mL/min/1,73m2; (Cloutier \\& Poirier 2011)\n* Patient with at least two chronic disease or chronic health problem other than type II diabetes, dyslipidemia, hypertension, or cardiovascular disease (e.g. : angina, previous history of myocard infarct, stroke, and intermittent claudication).\n\nExclusion Criteria:\n\n* Patient followed for a cardiovascular disease in a specialized clinic in secondary care (ex.: cardiology, endocrinology etc).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lyne Lalonde, Ph.D.",
+          "affiliation": "Centre de santé et de services sociaux de Laval ; University of Montreal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Johanne Goudreau, Ph.D.",
+          "affiliation": "Université de Montréal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Céline Bareil, Ph.D.",
+          "affiliation": "HEC Montréal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Éveline Hudon, M.D.",
+          "affiliation": "Université de Montréal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Fabie Duhamel, Ph.D.",
+          "affiliation": "Université de Montréal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Marie-Thérèse Lussier, M.D.",
+          "affiliation": "Université de Montréal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre de santé et de services sociaux de Laval",
+          "city": "Laval",
+          "state": "Quebec",
+          "zip": "H7M 3L9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.56995,
+            "lon": -73.692
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "11816692",
+          "type": "BACKGROUND",
+          "citation": "Wagner EH, Austin BT, Davis C, Hindmarsh M, Schaefer J, Bonomi A. Improving chronic illness care: translating evidence into action. Health Aff (Millwood). 2001 Nov-Dec;20(6):64-78. doi: 10.1377/hlthaff.20.6.64."
+        },
+        {
+          "pmid": "20180826",
+          "type": "BACKGROUND",
+          "citation": "Dogherty EJ, Harrison MB, Graham ID. Facilitation as a role and process in achieving evidence-based practice in nursing: a focused review of concept and meaning. Worldviews Evid Based Nurs. 2010 Jun 1;7(2):76-89. doi: 10.1111/j.1741-6787.2010.00186.x. Epub 2010 Feb 19."
+        },
+        {
+          "pmid": "16951300",
+          "type": "BACKGROUND",
+          "citation": "Nagykaldi Z, Mold JW, Robinson A, Niebauer L, Ford A. Practice facilitators and practice-based research networks. J Am Board Fam Med. 2006 Sep-Oct;19(5):506-10. doi: 10.3122/jabfm.19.5.506."
+        },
+        {
+          "pmid": "19812802",
+          "type": "BACKGROUND",
+          "citation": "Genest J, McPherson R, Frohlich J, Anderson T, Campbell N, Carpentier A, Couture P, Dufour R, Fodor G, Francis GA, Grover S, Gupta M, Hegele RA, Lau DC, Leiter L, Lewis GF, Lonn E, Mancini GB, Ng D, Pearson GJ, Sniderman A, Stone JA, Ur E. 2009 Canadian Cardiovascular Society/Canadian guidelines for the diagnosis and treatment of dyslipidemia and prevention of cardiovascular disease in the adult - 2009 recommendations. Can J Cardiol. 2009 Oct;25(10):567-79. doi: 10.1016/s0828-282x(09)70715-9."
+        },
+        {
+          "pmid": "20485689",
+          "type": "BACKGROUND",
+          "citation": "Hackam DG, Khan NA, Hemmelgarn BR, Rabkin SW, Touyz RM, Campbell NR, Padwal R, Campbell TS, Lindsay MP, Hill MD, Quinn RR, Mahon JL, Herman RJ, Schiffrin EL, Ruzicka M, Larochelle P, Feldman RD, Lebel M, Poirier L, Arnold JM, Moe GW, Howlett JG, Trudeau L, Bacon SL, Petrella RJ, Milot A, Stone JA, Drouin D, Boulanger JM, Sharma M, Hamet P, Fodor G, Dresser GK, Carruthers SG, Pylypchuk G, Burgess ED, Burns KD, Vallee M, Prasad GV, Gilbert RE, Leiter LA, Jones C, Ogilvie RI, Woo V, McFarlane PA, Hegele RA, Tobe SW; Canadian Hypertension Education Program. The 2010 Canadian Hypertension Education Program recommendations for the management of hypertension: part 2 - therapy. Can J Cardiol. 2010 May;26(5):249-58. doi: 10.1016/s0828-282x(10)70379-2."
+        },
+        {
+          "pmid": "17510108",
+          "type": "BACKGROUND",
+          "citation": "Fortin M, Soubhi H, Hudon C, Bayliss EA, van den Akker M. Multimorbidity's many challenges. BMJ. 2007 May 19;334(7602):1016-7. doi: 10.1136/bmj.39201.463819.2C."
+        },
+        {
+          "pmid": "22379187",
+          "type": "BACKGROUND",
+          "citation": "Lalonde L, Goudreau J, Hudon E, Lussier MT, Duhamel F, Belanger D, Levesque L, Martin E; Group for TRANSIT to Best Practices in Cardiovascular Disease Prevention in Primary Care. Priorities for action to improve cardiovascular preventive care of patients with multimorbid conditions in primary care--a participatory action research project. Fam Pract. 2012 Dec;29(6):733-41. doi: 10.1093/fampra/cms021. Epub 2012 Feb 29."
+        },
+        {
+          "pmid": "26770705",
+          "type": "BACKGROUND",
+          "citation": "Lalonde L, Goudreau J, Hudon E, Lussier MT, Bareil C, Duhamel F, Levesque L, Turcotte A, Lalonde G; Group for TRANSIT to Best Practices in Cardiovascular Disease Prevention in Primary Care. Development of an interprofessional program for cardiovascular prevention in primary care: A participatory research approach. SAGE Open Med. 2014 Feb 17;2:2050312114522788. doi: 10.1177/2050312114522788. eCollection 2014."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Protocole de suivi interprofessionnel TRANSIT et outils cliniques associés (in French only)",
+          "url": "http://www.recherchepl.ca/autres-productions-scientifiques.php"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D003299",
+          "term": "Cooperative Behavior"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

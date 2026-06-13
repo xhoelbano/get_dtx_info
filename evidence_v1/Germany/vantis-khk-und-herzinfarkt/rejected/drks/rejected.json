@@ -1,0 +1,39 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00028081",
+      "drks_id": "DRKS00028081",
+      "title": "Prospective, randomized, controlled,\nmulti-centre study on secondary prevention of\nchronic ischemic\nheart disease through a digital program",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028081/details",
+      "_matched_query": "\"Vantis | KHK und Herzinfarkt\"",
+      "_raw_json_path": "evidence/Germany/vantis-khk-und-herzinfarkt/candidates/drks/raw/DRKS00028081.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 80,
+        "reason": "The study does not explicitly mention 'Vantis | KHK und Herzinfarkt' or provide a clear description of the specific product. The intervention is not specified, and the title suggests a generic digital program for secondary prevention of chronic ischemic heart disease, which could refer to other products.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "DRKS00033453",
+      "drks_id": "DRKS00033453",
+      "title": "Prospective, Randomized, Controlled, Multicenter Study on the Treatment of Hypertension and LDL Cholesterol Using a Digital Program for Patients with Coronary Heart Disease",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00033453/details",
+      "_matched_query": "\"Vantis | KHK und Herzinfarkt\"",
+      "_raw_json_path": "evidence/Germany/vantis-khk-und-herzinfarkt/candidates/drks/raw/DRKS00033453.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'Vantis | KHK und Herzinfarkt' or provide a clear description of the specific product. The intervention is not specified, and the title suggests a focus on a digital program for coronary heart disease, which could be generic or a different product.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T22:11:04.506577Z",
+  "_source": "drks"
+}

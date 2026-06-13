@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00032452",
+      "drks_id": "DRKS00032452",
+      "title": "Investigating the effectiveness of the digital lifestyle intervention \"actensio\" to reduce blood pressure in adults with hypertension after six months of use",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00032452/details",
+      "_matched_query": "\"actensio\"",
+      "_raw_json_path": "evidence/Germany/actensio/candidates/drks/raw/DRKS00032452.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions 'actensio' by name in the title and describes its use for reducing blood pressure in adults with hypertension, which aligns with the product's description. While the abstract and intervention details are not available, the title provides sufficient specificity to confirm relevance.",
+        "matched_elements": [
+          "actensio",
+          "hypertension",
+          "digital lifestyle intervention"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 70,
+        "reason": "The study appears to assess the effectiveness of a digital lifestyle intervention in a real-world setting, likely without randomization or controlled conditions, as no RCT indicators are mentioned."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:40:37.010654Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

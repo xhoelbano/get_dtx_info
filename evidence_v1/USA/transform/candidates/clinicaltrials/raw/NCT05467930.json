@@ -1,0 +1,322 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05467930",
+      "orgStudyIdInfo": {
+        "id": "AAAT6079"
+      },
+      "organization": {
+        "fullName": "Columbia University",
+        "class": "OTHER"
+      },
+      "briefTitle": "CU-COMMITS: COVID-19 Care in Black and Latino Communities and Households. Clinical and Molecular Outcomes of SARS-CoV-2",
+      "officialTitle": "CU-COMMITS (Columbia University Addresses COVID-19 unMet MedIcal Needs to Transform liveS) Study: COVID-19 Care in Black and Latino Communities and Households. Clinical and Molecular Outcomes of SARS-CoV-2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-07-19",
+      "studyFirstSubmitQcDate": "2022-07-19",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Columbia University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Gilead Sciences",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to describe the long-term health effects of COVID-19 in a population of mostly Black and Latinx individuals and their households who were diagnosed with COVID-19 at Columbia University Irving Medical Center. In New York, the upper Manhattan and south Bronx communities neighboring Columbia University Irving Medical Center (CUIMC) have been two of the most impacted communities of the COVID-19 pandemic. These neighborhoods are predominantly non-Hispanic black or African American and Latinx. This study will invite people who tested positive for COVID-19 and/or were treated at Columbia University Irving Medical Center to: 1) take a survey to ask about current symptoms and any health problems and 2) ask permission to review COVID-related health history including COVID-19 testing results (from the medical record) since infection to learn about health effects after COVID-19 infection; 3) invite anyone in their household to take a survey; and 4) for up to 500 patients who were hospitalized for COVID, give the option of doing a nasal swab to test for SARS-CoV-2 virus and blood test to check for antibody up to 12 months after diagnosis, to compare how results are different 12 months after infection. The goal is to learn about how the severity of person's infection in 2020 influences long term health effects and how others in their household are impacted by COVID-19.",
+      "detailedDescription": "The goal of this study is to describe long-term outcomes of COVID-19 in a predominantly Black and Latinx community. The investigators propose to recruit patients who were diagnosed with and/or treated for COVID-19 at CUIMC. The investigators seek to characterize the long-term outcomes of the patients and their households. The catchment community and patient population accessing CUIMC is predominantly Black and Latinx. The investigators will approach individuals who were treated for COVID at CUIMC in order to: administer an online questionnaire to collect information about presence of long-term sequalae or complications after initial infection (mental health, cardiovascular, pulmonary, neurological, as well as impact on activities of daily of living); with participant's permission, obtain data from the electronic medical record about initial testing results, inflammatory markers, post-diagnosis events such as re-admissions, clinic visits, and treatments for cardiovascular, pulmonary, neurological complications related to COVID; the investigators will also invite interested household members to complete out a on-line questionnaire with an option to review their electronic medical record for information related to COVID-19 testing and diagnosis. For a subset of individuals who were admitted to the hospital at the time of initial diagnosis the investigators will invite them to submit a follow-up nasal swab (for polymerase chain reaction (PCR) and sequencing) and blood sample (to measure antibodies) to assess for re-infection and change in the molecular epidemiology of the SARS-CoV-2. The investigators hypothesize that the baseline clinical, serological and molecular responses to COVID-19 will be characterized by demographic markers such as age, sex, racial and ethnic identity of families and households. Furthermore, the investigators hypothesize that baseline inflammatory and virologic phenotype of the individual (as defined by levels of plasma inflammatory markers and SARS-COV-2 viral load in nasopharyngeal swabs) will have an impact on clinical outcomes and overall status following infection and the investigators will examine the role of these factors in the cohort. The investigators will partner with community based organizations and community stakeholders, to dissemination information about this study and to communicate results back to the communities."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS CoV 2 Infection"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "* Blood for local antibody test NYP/CUIMC\n* Research Lab: plasma and serum for storage\n* Midturbinate nasal swab for real-time PCR"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Participant",
+          "description": "Individuals who were positive for COVID-19 and visited CUIMC/ New York Presbyterian (NYP) Hospital",
+          "interventionNames": [
+            "Other: Survey",
+            "Other: Medical History Review",
+            "Other: Sample Collection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Survey",
+          "description": "Survey completion by the participant to collect information about health and social experience",
+          "armGroupLabels": [
+            "Participant"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Medical History Review",
+          "description": "Review of the participant's medical history at New York Presbyterian/Columbia University Irving Medical Center",
+          "armGroupLabels": [
+            "Participant"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Sample Collection",
+          "description": "Collection of nasal and blood samples",
+          "armGroupLabels": [
+            "Participant"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Characterization of long-term COVID-19 sequelae",
+          "description": "Sequelae will be defined through several sources; 1) as the prevalence and persistence of symptoms of COVID-19 at least three weeks after the onset of COVID symptom, as medically attended visits and 2) self-reported presence of symptoms from the electronic questionnaire conducted at 9-18 months after infection. Sequelae from the electronic questionnaire will be defined several ways; 1) as a binary variable (yes/no), 2) as a linear variable measuring severity of symptoms across multiple organ systems, and 3) \\>2 symptoms self-reported.",
+          "timeFrame": "At least 9 months after COVID-19 Diagnosis"
+        },
+        {
+          "measure": "Presence of antibody response and molecular characteristics of SARS-CoV-2",
+          "description": "Presence of antibody responses and molecular characteristics of the virus as collected by blood samples and nasal swabs in a subset of patients (N=500).",
+          "timeFrame": "At least 9 months after COVID-19 Diagnosis"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria - Objective 1 Participants:\n\n1. age 18 years and older\n2. having an electronic medical record at NYP\n3. laboratory confirmed COVID-19 infection diagnosed at NYP/CUIMC after March 1, 2020 or were diagnosed at least 9 months prior to administration of the online questionnaire on long-term outcomes and sequelae.\n4. Able to provide informed consent\n\nExclusion Criteria -\n\n1. Index cases less than 18 years of age.\n2. Not COVID-19 diagnosed\n\nInclusion Criteria - Objective 2 Participants:\n\n1. age 18 years and older\n2. having an electronic medical record at NYP\n3. Hospitalized at NYP/CUIMC after March 1 2020, or at least 9 months prior to administration of the online questionnaire on long-term outcomes and sequelae\n4. Randomly selected: every 10th index case who was not hospitalized\n5. Able to provide informed consent AND\n6. Are willing to provide a nasal swab, blood sample in addition to completing the questionnaire.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Cohort of predominantly Black and Latinx participants and their households who sought testing and care at CUIMC beginning in March 2020.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Magdalena Sobieszczyk, MD, MPH",
+          "role": "CONTACT",
+          "phone": "(845) 372-5023",
+          "email": "covid19idresearch@cumc.columbia.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Magdalena Sobieszczyk, MD, MPH",
+          "affiliation": "Columbia University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Delivette Castor, PhD",
+          "affiliation": "Columbia University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Columbia University Irving Medical Center",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Magdalena Sobieszczyk, MD, MPH",
+              "role": "CONTACT",
+              "phone": "845-372-5023",
+              "email": "covid19idresearch@cumc.columbia.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011795",
+          "term": "Surveys and Questionnaires"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003625",
+          "term": "Data Collection"
+        },
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D017531",
+          "term": "Health Care Evaluation Mechanisms"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D011634",
+          "term": "Public Health"
+        },
+        {
+          "id": "D004778",
+          "term": "Environment and Public Health"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

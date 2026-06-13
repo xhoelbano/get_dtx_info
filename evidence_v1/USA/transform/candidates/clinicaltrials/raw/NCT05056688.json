@@ -1,0 +1,247 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05056688",
+      "orgStudyIdInfo": {
+        "id": "AICUNI-YILDIRIM-001"
+      },
+      "organization": {
+        "fullName": "Agri Ibrahim Cecen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Online Education Given to Young Adults on Testicular Cancer Health Beliefs and Behaviors",
+      "officialTitle": "Effect of Online Education Given to Young Adults on Testicular Cancer Health Beliefs and Behaviors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-09-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-09-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-12",
+      "studyFirstSubmitQcDate": "2021-09-14",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mehmet Salih YILDIRIM",
+        "investigatorTitle": "LECTURER",
+        "investigatorAffiliation": "Agri Ibrahim Cecen University"
+      },
+      "leadSponsor": {
+        "name": "Agri Ibrahim Cecen University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Aim: One of the cheapest, easiest and most effective ways to detect testicular cancer early is to resort to early detection screening methods associated with health beliefs about testicular cancer, and the second is to self-examine the testicles. In the country, there are a limited number of studies on the health beliefs and early diagnosis behaviors of young adult men for testicular cancer. For this reason, the study was conducted to determine the effect of online education given to young adults on testicular cancer health beliefs and behavior.\n\nMaterial and method: The research was conducted as a randomized controlled experimental study. The study population consisted of 768 individuals who applied to Family Health Centers affiliated to Agri Provincial Health Directorate between April 2021 and June 2022, and the sample of the research consisted of 90 individuals selected from the population using the improbable random sampling method. \"Descriptive Feature Form\", \"Champion's Health Belief Model Scale in Testicular Cancer Screenings\" were used to collect data. In the analysis of data; percentile distribution, chi-square, Fisher-Freeman-Halton Exact test, t-test in independent groups, Repeated Measures ANOVA Test, Friedman Test, One Way ANOVA test, Kruskall Wallis test, and post hoc analyzes (Bonferroni, Games Howell, Dunn) were used."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Testicular Neoplasms"
+      ],
+      "keywords": [
+        "Health Belief Model",
+        "Health Behavior",
+        "Education, Distance",
+        "Testicular Neoplasms"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "In the study, 90 individuals, including 1 experimental and 1 control group, were included in the study.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Application of training set to experimental group",
+          "type": "EXPERIMENTAL",
+          "description": "Testicular Model BSE/TSE Training Set",
+          "interventionNames": [
+            "Diagnostic Test: Testicular Model BSE/TSE Training Set"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Testicular Model BSE/TSE Training Set",
+          "description": "The investigators will use the Testicular Model BSE/TSE Trainer to transform individuals' routine testicular self-examination into behavior.",
+          "armGroupLabels": [
+            "Application of training set to experimental group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Giving training to the experimental group for 6 weeks with an interval of 2 weeks.",
+          "description": "Individuals in the experimental and control group were evaluated with \"Champion's Health Belief Model Scale in Testicular Cancer Screening\". The effect of the training given to people in the online training group, which cannot be given to the control group, was changed at the end of 16 weeks with the mid-test \"Champion's Health Belief Model Scale in Testicular Cancer Screening\". A minimum of 26 points and a maximum of 130 points are obtained from Champion's Health Belief Model Scale in Testicular Cancer Screenings. The sub-dimensions of the scale are evaluated separately and there is no total score.",
+          "timeFrame": "Four monts"
+        },
+        {
+          "measure": "Collection of the final test",
+          "description": "The mid-test for individuals in the experimental and control group was evaluated by the \"Champion's Health Belief Model Scale in Testicular Cancer Screening\". The effect of training given to those who could not be given to the control group in the online training group was replaced by the \"Champion's Health Belief Model Scale in Testicular Cancer Screening\" final test 3 months after training. A minimum of 26 points and a maximum of 130 points are obtained from Champion's Health Belief Model Scale in Testicular Cancer Screenings. The sub-dimensions of the scale are evaluated separately and there is no total score.",
+          "timeFrame": "Three monts"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Being 18-35 years old,\n* Being literate,\n* Computer can be used,\n* Being able to access the Internet,\n* Not having a testicular diagnosis before,\n* Deciding to participate in the research.\n\nExclusion Criteria:\n\n* Being outside the age range of 18-35,\n* To be diagnosed with testicular cancer before",
+      "healthyVolunteers": true,
+      "sex": "MALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "35 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mehmet Salih YILDIRIM, Ph. D",
+          "affiliation": "Agri Ibrahim Cecen University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Agri Ibrahim Cecen University",
+          "city": "Ağrı",
+          "zip": "04100",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.71467,
+            "lon": 43.04015
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013736",
+          "term": "Testicular Neoplasms"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004701",
+          "term": "Endocrine Gland Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D005834",
+          "term": "Genital Neoplasms, Male"
+        },
+        {
+          "id": "D014565",
+          "term": "Urogenital Neoplasms"
+        },
+        {
+          "id": "D005832",
+          "term": "Genital Diseases, Male"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D013733",
+          "term": "Testicular Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

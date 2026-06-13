@@ -1,0 +1,58 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00028028",
+      "drks_id": "DRKS00028028",
+      "title": "Use of a smartphone application (Orthopy App) to improve preoperative and postoperative therapy in patients with ACL rupture compared to conventional standard of care treatment - a randomized, monocentric study.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028028/details",
+      "_matched_query": "\"Orthopy\"",
+      "_raw_json_path": "evidence/Germany/orthopy-bei-knieverletzungen/candidates/drks/raw/DRKS00028028.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'Orthopy App,' which is a clear variation of 'Orthopy bei Knieverletzungen,' and the study focuses on its use in therapy for ACL rupture, aligning with the clinical area described for the product. No evidence suggests it is about a different product or a generic study.",
+        "matched_elements": [
+          "Orthopy App in study title",
+          "ACL rupture clinical area matches product description"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The study explicitly mentions randomization and compares interventions, indicating an interventional design typical of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00032793",
+      "drks_id": "DRKS00032793",
+      "title": "Use of a smartphone application (Orthopy App) to improve pre- and\npostoperative therapy in patients after anterior cruciate ligament rupture\n(with or without meniscal damage) or meniscal damage alone compared\nto conventional standard of care treatment - a randomized, controlled,\nmulticenter study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00032793/details",
+      "_matched_query": "\"Orthopy\"",
+      "_raw_json_path": "evidence/Germany/orthopy-bei-knieverletzungen/candidates/drks/raw/DRKS00032793.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'Orthopy App,' which is a clear variation of 'Orthopy bei Knieverletzungen,' and the clinical area aligns with the described ICD-10 codes for the product. The study focuses on the specific application of the app in therapy for knee injuries, matching the product description.",
+        "matched_elements": [
+          "Orthopy App",
+          "knee injuries",
+          "specific application in therapy"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The study explicitly mentions randomization and a controlled design, which are key indicators of an RCT."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T20:56:45.937869Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

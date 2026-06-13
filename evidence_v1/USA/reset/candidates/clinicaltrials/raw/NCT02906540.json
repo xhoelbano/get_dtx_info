@@ -1,0 +1,231 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02906540",
+      "orgStudyIdInfo": {
+        "id": "ShengjingH_001"
+      },
+      "organization": {
+        "fullName": "Shengjing Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Transpubic Symphysis Reset for Treatment of Low Back Pain",
+      "officialTitle": "Transpubic Symphysis Reset for Treatment of Low Back Pain: a Stratified, Randomized, Controlled Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-09-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-09-02",
+      "studyFirstSubmitQcDate": "2016-09-14",
+      "studyFirstPostDateStruct": {
+        "date": "2016-09-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-03-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-03-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hongliang Liu",
+        "investigatorTitle": "Attending Physician",
+        "investigatorAffiliation": "Shengjing Hospital"
+      },
+      "leadSponsor": {
+        "name": "Shengjing Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "To verify the efficacy of transpubic symphysis reset therapy for low back pain, and provide support for the clinical application of this treatment.",
+      "detailedDescription": "Low back pain is a common clinical affliction involving the back muscles, nerves, and bones. This condition mainly manifests as limited lumbar mobility, decreased back muscle strength and endurance, and disordered as well as asymmetrical movement of lower back muscles. Although these symptoms can severely impact quality of life and work, most patients report no precise origin of the condition. Low back pain may be associated with mechanical musculoskeletal damage, inflammation, cancer, and infection. More than 80% of adults experience low back pain at some point during their lifespan, although most patients are between 40-80 years old. As many countries have an aging population, the incidence of low back pain is increasing globally. Most patients suffer recurrent low back pain, which becomes more and more serious with each manifestation.\n\nPatients with nonspecific low back pain often choose conservative treatments, such as physiotherapy. Compared with surgery and drug therapy, physiotherapy is advantageous as a treatment associated with low trauma, high comfort, few side effects, and low cost. Previous studies have confirmed that treatment with ultrashort waves can improve blood and lymph circulation in diseased areas and enhance the phagocytosis of macrophages and leukocytes, as well as having an anti-inflammatory effect, making it effective in the treatment of low back pain. Additionally, thermotherapy can directly expand the microvascular network of external annulus fibrosus, increase vascular permeability, promote venous return of partial metabolic waste, increase analgesic substance endorphin levels in vivo, suppress the generation of pathological excitatory foci in the brain, and accelerate the self-repair of injured cells, thus improving low back pain.\n\nChinese traditional massage is also a common clinical therapy. The application of pressure to the waist, hip, and lower limb on the affected side of the body can improve local blood circulation, promote the absorption of inflammatory exudates, reduce muscle tension, loosens abdominal adhesion, and mitigate muscle spasms to restore a normal anatomical position. Indeed, the efficacy of massage in the treatment of low back pain has been confirmed, according to five reports addressing manipulation for treating low back pain in Science Citation Index and four separate trials regarding such manipulation listed in ClinicalTrials.gov.\n\nTranspubic symphysis reset is a massage therapy for treatment of low back pain. Although the efficacy of this treatment has been observed in the clinic, few studies have reported on the efficacy of transpubic symphysis reset in mitigating low back pain.\n\nData collection, management, analysis, and open access Data collection Two physicians, who will not participate in the experimental treatment or evaluation, will collect all patient data. The investigators will use the double data entry strategy. The data will be summarized and numbered by the research manager. A database will be established using Excel software. For questionable data, the data manager will present the data query table to the investigator for review and response. The researcher will answer the questions and return the table as soon as possible. The data manager will modify and check the data according to the researcher's answer. If necessary, the data manager can resubmit a question sheet.\n\nData management After blind review and database confirmation, the researcher in charge, sponsor, and statisticians will lock the database. The locked database will not be altered and will be preserved, along with the original records, by Shengjing Hospital, China Medical University, China.\n\nData analysis All data will be statistically analyzed by professional statisticians. The results of these statistical analyses will be reported to a researcher and used to prepare the research report. An independent data monitoring committee will be responsible for data monitoring and management throughout the entire trial to ensure scientific accuracy, stringency, authenticity, and integrity.\n\nOpen access Published data will be available at www.figshare.com.\n\nStatistical analysis All data will be statistically analyzed using the SPSS 17.0 statistical software package in line with the intention-to-treat principle. Data will be expressed as mean ± SD. Measurement data will be analyzed with an analysis of variance for independent samples. Normally distributed data will be analyzed using group t-tests. Non-normally distributed data will be compared using the Wilcoxon test. A value of P \\< 0.05 will be considered statistically significant.\n\nConfidentiality Patient information, including name, identity card number, address, and telephone number, will be encrypted in accordance with relevant Chinese laws and regulations. The findings will be published for scientific purposes without revealing any patient identities, except as required by law. Encoded information will be stored properly in Shengjing Hospital of China Medical University. To ensure that the research is in accordance with the applicable laws and regulations, relevant national authorities and the Ethics Committee of Shengjing Hospital of China Medical University will review patient records."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Low Back Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Transpubic symphysis reset therapy group",
+          "type": "EXPERIMENTAL",
+          "description": "Transpubic symphysis reset therapy will be conducted once a day for 7 consecutive days.",
+          "interventionNames": [
+            "Procedure: Transpubic symphysis reset therapy group"
+          ]
+        },
+        {
+          "label": "Physiotherapy group",
+          "type": "EXPERIMENTAL",
+          "description": "Physiotherapy and a sham reset treatment will be performed once a day for 7 consecutive days.",
+          "interventionNames": [
+            "Procedure: Physiotherapy group"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Transpubic symphysis reset therapy group",
+          "description": "The patients in the treatment group will undergo daily transpubic symphysis reset therapy for 7 consecutive days.",
+          "armGroupLabels": [
+            "Transpubic symphysis reset therapy group"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Physiotherapy group",
+          "description": "The patients in the control group will undergo physiotherapy and a sham treatment.",
+          "armGroupLabels": [
+            "Physiotherapy group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Visual Analog Scale pain scores",
+          "description": "To use the Visual Analog Scale for pain to evaluate the severity of low back pain. The scale consists of a 10-cm line with 0 on one end, representing no pain, and 10 on the other, representing the worst pain ever experienced. The patient indicates their level of pain by placing a mark somewhere on the scale, between 0 and 10",
+          "timeFrame": "14 days after treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes of Oswestry Disability Index",
+          "description": "To assess the degree of impairment of limb function induced by low back pain.",
+          "timeFrame": "1, 7, and 14 days, and 1 month after treatment"
+        },
+        {
+          "measure": "Changes of hip muscle strength",
+          "description": "To be measured using a Biodex isokinetic muscle testing machine (Biodex, Germany).",
+          "timeFrame": "1 day before treatment, 1, 7, 14 days, and 1 month after treatment"
+        },
+        {
+          "measure": "Changes of joint motion",
+          "description": "To be measured using a Biodex isokinetic muscle testing machine (Biodex, Germany).",
+          "timeFrame": "1 day before treatment, 1, 7, 14 days, and 1 month after treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* No abnormalities of the lumbar spine and no intervertebral disc slipping or mild protrusion revealed via CT scans or MRI\n* Pain in the lumbosacral region\n* Pain in the unilateral lower back, including the buttocks, inguinal region, and perineal region\n* Patient is unable to sit for a long duration\n* Varying degrees of crooked hip and claudication\n* A history of chronic fatigue disease involving a lumbar sprain, a fall injury affecting the buttocks, or prolonged sitting\n* Tenderness of sacroiliac joint on the affected side\n* Course of disease between 1 day and 6 months\n* Age between 18 and 75 years old, any gender\n* Provision of informed consent regarding the trial procedure\n\nExclusion Criteria:\n\n* Sciatic nerve radiating pain caused by lumbar disc herniation\n* Lumbar spinal stenosis combined with intermittent claudication\n* Edema and necrosis produced by lumbar spinal cord compression revealed by MRI\n* Clear spinal deformity\n* Low back pain induced by cancer and associated inflammation\n* Hip malformation and bone disease\n* Coagulopathy\n* Ongoing participation in physiotherapy and massage therapy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Hongliang Liu, Ph.D",
+          "affiliation": "Shengjing Hospital Of China Medical University,China",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017116",
+          "term": "Low Back Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001416",
+          "term": "Back Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

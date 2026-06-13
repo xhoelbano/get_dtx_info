@@ -1,0 +1,162 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07144982",
+      "orgStudyIdInfo": {
+        "id": "B7072024000085"
+      },
+      "organization": {
+        "fullName": "University of Liege",
+        "class": "OTHER"
+      },
+      "briefTitle": "Perioperative Counselling and Parental Awareness of Second-hand Smoke",
+      "officialTitle": "Impact of a Brief Perioperative Counselling Session on Parental Awareness of Passive Smoking in Paediatric Ambulatory Surgery: a Single-centre Observational Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-11-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-03-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-08-14",
+      "studyFirstSubmitQcDate": "2025-08-25",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michele Carella",
+        "investigatorTitle": "MD PhD ESRA-DRA",
+        "investigatorAffiliation": "University of Liege"
+      },
+      "leadSponsor": {
+        "name": "University of Liege",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In a single-centre observational before-after study (n=31 parental smokers), a standardized \\~15-minute tobacco-counselling intervention delivered during the paediatric ambulatory pathway significantly increased parental awareness of secondhand-smoke harms (median total score 34→46; p=0.0026). Item-level gains were greatest for perceived anaesthetic risk and misconceptions about tertiary/indirect exposure. Session acceptability was high, but self-reported behavioural change at 30 days was limited. The perioperative consultation is a feasible \"teachable moment\"; integration with visual aids, objective exposure measures, structured cessation referral and longitudinal follow-up should be considered to translate awareness into sustained exposure reduction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Secondhand Smoke Exposure"
+      ],
+      "keywords": [
+        "Tobacco Smoke Pollution",
+        "Child",
+        "Secondhand Smoking",
+        "Patient Education",
+        "Perioperative Care"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 31,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Provide additional information about the group or cohort, including a description of any interventio",
+          "description": "Eligible participants were adult parents who declared current tobacco use and were present at their child's ambulatory surgical visit. Exclusions included parents absent on the day of surgery, procedures postponed, or explicit refusal to participate.",
+          "interventionNames": [
+            "Behavioral: Counselling session"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Counselling session",
+          "description": "Each enrolled parent received a single, standardized counselling session (\\~15 minutes) delivered in the ambulatory unit by a certified tobacco counsellor. The session followed a fixed script and covered: (1) types of tobacco smoke exposure (primary, secondary and tertiary), (2) health consequences for children with emphasis on perioperative respiratory and anaesthetic risks, (3) practical measures to reduce household exposure (smoke-free home/car rules, behavioural strategies), and (4) brief advice on initial cessation steps and referral options. Structured handouts and signposting to support services were offered when appropriate.",
+          "armGroupLabels": [
+            "Provide additional information about the group or cohort, including a description of any interventio"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "60-points score parental awareness",
+          "description": "The primary outcome was change in parental awareness measured by a six-item questionnaire (each item scored 0-10; total range 0-60) administered at baseline (arrival), immediately after counselling, and at 30 days by telephone.",
+          "timeFrame": "4 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Smoking changes",
+          "description": "Self-reported changes in smoking behaviour at 30 days",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* adult parents who declared current tobacco use and were present at their child's ambulatory surgical visit\n\nExclusion Criteria:\n\n* parents absent on the day of surgery\n* procedures postponed\n* explicit refusal to participate",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Eligible participants were adult parents who declared current tobacco use and were present at their child's ambulatory surgical visit. Exclusions included parents absent on the day of surgery, procedures postponed, or explicit refusal to participate.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Michele Carella",
+          "city": "Liège",
+          "zip": "4000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

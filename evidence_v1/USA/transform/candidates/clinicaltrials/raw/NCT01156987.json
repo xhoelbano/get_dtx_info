@@ -1,0 +1,600 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01156987",
+      "orgStudyIdInfo": {
+        "id": "2009NTLS055"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "0907M69461",
+          "type": "OTHER",
+          "domain": "IRB, University of Minnesota"
+        },
+        {
+          "id": "1R21CA139688",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R21CA139688"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Minnesota",
+        "class": "OTHER"
+      },
+      "briefTitle": "Improved Breast MRI With SWIFT",
+      "officialTitle": "Improved Breast Dynamic Contrast Enhanced-magnetic Resonance Imaging (DCE-MRI) With Sweep Imaging With Fourier Transform (SWIFT)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-07-02",
+      "studyFirstSubmitQcDate": "2010-07-02",
+      "studyFirstPostDateStruct": {
+        "date": "2010-07-05",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2015-12-09",
+      "resultsFirstSubmitQcDate": "2016-10-25",
+      "resultsFirstPostDateStruct": {
+        "date": "2016-12-19",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-01-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-03-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Minnesota",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Today's medical imaging methods have insufficient specificity for reliable differentiation between benign and malignant breast lesions in patients. Pathologic evaluation is currently the only way to obtain a definitive diagnosis. This research will use a novel method of magnetic resonance imaging (MRI), Sweep Imaging with Fourier Transform (SWIFT), at a very high magnetic field (4 Tesla) to distinguish malignant from benign breast lesions. This research will reveal whether the SWIFT sequence bears new capabilities in medical imaging for breast cancer diagnosis.",
+      "detailedDescription": "Patients will be asked to come to the Center for Magnetic Resonance Research (CMRR) at the University of Minnesota. Researchers will interview the patient and describe procedures and risks. An intravenous (IV) line will be placed in an upper extremity for infusing magnetic resonance imaging (MRI) contrast dye. Baseline MRI scans will be done. These MRI measurements will be compared with clinical, radiological and pathological findings (the gold standard).\n\nFollow-up contact will occur within one year after the MRI to determine whether a pathology report is available."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 31,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Healthy Volunteers",
+          "type": "EXPERIMENTAL",
+          "description": "Five healthy women will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection, and SWIFT acquisition.",
+          "interventionNames": [
+            "Device: Magnetic resonance imaging"
+          ]
+        },
+        {
+          "label": "Breast Cancer Patients",
+          "type": "EXPERIMENTAL",
+          "description": "40 breast cancer patients who have suspected breast lesion that will be biopsied will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection and SWIFT acquisition.",
+          "interventionNames": [
+            "Device: Magnetic resonance imaging"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Magnetic resonance imaging",
+          "description": "Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compared to prior FLASH-DCE methods.",
+          "armGroupLabels": [
+            "Breast Cancer Patients",
+            "Healthy Volunteers"
+          ],
+          "otherNames": [
+            "SWIFT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Lesions",
+          "description": "Number of lesions detected",
+          "timeFrame": "at time of read by two radiologiests, compared to biopsy within 7 days."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women with a clinically or mammographically identified suspicious breast mass that is likely to be biopsied or surgically removed.\n\nExclusion Criteria:\n\n* Pregnancy\n* Ferromagnetic implants\n* History of shotgun wounds and shrapnel\n* Obesity (\\>250 pounds)\n* Cardiac pacemaker\n* Incompatible implanted medical device\n* Severe claustrophobia\n* Major surgeries with potential of ferromagnetic implants\n* Severe asthma and allergies\n* i-STAT system, a handheld blood analyzer (I-STAT) creatinine test, estimated glomerular filtration rate (GFR) \\<30\n* Metallic object (greater than 2 cm in length) in the breast\n* Metallic ink tatoo within 20 cm of the breast (approximately 8 inches)",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Curtis Corum, Ph.D.",
+          "affiliation": "Masonic Cancer Center, University of Minnesota",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Center for Magnetic Resonance Research",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55455",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24604286",
+          "type": "BACKGROUND",
+          "citation": "Corum CA, Idiyatullin D, Snyder CJ, Garwood M. Gap cycling for SWIFT. Magn Reson Med. 2015 Feb;73(2):677-82. doi: 10.1002/mrm.25141. Epub 2014 Feb 24."
+        },
+        {
+          "pmid": "16782371",
+          "type": "BACKGROUND",
+          "citation": "Idiyatullin D, Corum C, Park JY, Garwood M. Fast and quiet MRI using a swept radiofrequency. J Magn Reson. 2006 Aug;181(2):342-9. doi: 10.1016/j.jmr.2006.05.014. Epub 2006 Jun 19."
+        },
+        {
+          "pmid": "23083549",
+          "type": "RESULT",
+          "citation": "Nelson MT, Benson JC, Prescott T, Corum CA, Snyder A, Garwood M. Breast MRI using SWeep Imaging with Fourier Transform (SWIFT). Eur J Radiol. 2012 Sep;81 Suppl 1(0 1):S109. doi: 10.1016/S0720-048X(12)70044-X. No abstract available."
+        },
+        {
+          "pmid": "25247405",
+          "type": "RESULT",
+          "citation": "Corum CA, Benson JC, Idiyatullin D, Snyder AL, Snyder CJ, Hutter D, Everson LI, Eberly LE, Nelson MT, Garwood M. High-spatial- and high-temporal-resolution dynamic contrast-enhanced MR breast imaging with sweep imaging with Fourier transformation: a pilot study. Radiology. 2015 Feb;274(2):540-7. doi: 10.1148/radiol.14131273. Epub 2014 Sep 22."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "31 were consented to enroll to start study with 23 breast cancer subjects and 8 healthy controls being able to complete the portion of the MRI study needed for analysis.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Healthy Volunteers",
+          "description": "Healthy women will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection, and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compared to prior FLASH-DCE methods."
+        },
+        {
+          "id": "FG001",
+          "title": "Breast Cancer Patients",
+          "description": "Breast cancer patients who have suspected breast lesion that will be biopsied will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained. 10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compar"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "23"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Healthy Volunteers",
+          "description": "Healthy women will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection, and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compared to prior FLASH-DCE methods."
+        },
+        {
+          "id": "BG001",
+          "title": "Breast Cancer Patients",
+          "description": "Breast cancer patients who have suspected breast lesion that will be biopsied will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compar"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "8"
+            },
+            {
+              "groupId": "BG001",
+              "value": "23"
+            },
+            {
+              "groupId": "BG002",
+              "value": "31"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lesion measurements",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Lesions",
+          "description": "Number of lesions detected",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "lesions",
+          "timeFrame": "at time of read by two radiologiests, compared to biopsy within 7 days.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Healthy Volunteers",
+              "description": "Healthy women will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection, and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compared to prior FLASH-DCE methods."
+            },
+            {
+              "id": "OG001",
+              "title": "Breast Cancer Patients",
+              "description": "Breast cancer patients who have suspected breast lesion that will be biopsied will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compar"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Healthy Volunteers",
+          "description": "Healthy women will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection, and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compared to prior FLASH-DCE methods.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 8,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 8
+        },
+        {
+          "id": "EG001",
+          "title": "Breast Cancer Patients",
+          "description": "Breast cancer patients who have suspected breast lesion that will be biopsied will be screened for Magnetic Resonance Imaging (MRI) contraindications, and then undergo contrast injection and SWIFT acquisition.\n\nMagnetic resonance imaging: Patients and healthy volunteers will be first screened for MRI contraindications. The SWIFT MRI workflow will be performed as follows:\n\n* an IV line is placed by nurse,\n* patient is placed in the 4 T MRI scanner at CMRR,\n* initial scout images and manual linear shims are adjusted,\n* Pre-contrast SWIFT T1 weighted images and T1 map are obtained,\n* continuous SWIFT acquisition begins immediately before contrast injection,\n* contrast injection,\n* continuous SWIFT acquisition continues for 12 min after contrast,\n* late enhancement images may also be obtained.\n\n  10 and 30 patients will be scanned in the first and second year, respectively. Thresholds will be set for prospective analysis. SWIFT-DCE diagnostic performance will be compar",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 23,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 23
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Curt Corum",
+        "organization": "University of MN",
+        "email": "corum003@umn.edu",
+        "phone": "(612) 625-5000"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008279",
+          "term": "Magnetic Resonance Imaging"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014054",
+          "term": "Tomography"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

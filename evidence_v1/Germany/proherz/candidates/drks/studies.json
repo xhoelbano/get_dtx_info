@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00024798",
+      "drks_id": "DRKS00024798",
+      "title": "CARNA Pretest - Pre-study to assess a medical benefit and positive care effects of an app-based, guideline-compliant patient support in heart failure.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00024798/details",
+      "_matched_query": "\"ProHerz\"",
+      "_raw_json_path": "evidence/Germany/proherz/candidates/drks/raw/DRKS00024798.json"
+    },
+    {
+      "study_id": "DRKS00027949",
+      "drks_id": "DRKS00027949",
+      "title": "CARNA - Evaluation study to assess medical benefits and positive care effects of app-based, guideline-compliant patient support in heart failure",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027949/details",
+      "_matched_query": "\"ProHerz\"",
+      "_raw_json_path": "evidence/Germany/proherz/candidates/drks/raw/DRKS00027949.json"
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"ProHerz\"",
+    "\"ProHerz\" AND \"übermittelten Angaben\""
+  ],
+  "dtx_name": "ProHerz",
+  "country": "Germany",
+  "_saved_at": "2026-02-09T20:07:30.574357Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

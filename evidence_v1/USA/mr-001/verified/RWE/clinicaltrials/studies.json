@@ -1,0 +1,64 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT06003790",
+      "nct_id": "NCT06003790",
+      "title": "Facilitators and Barriers to the Clinical Implementation of MR-001",
+      "official_title": "Characterization of the Facilitators and Barriers to the Clinical Implementation of MR-001 for Community-dwelling Chronic Stroke Patients Who Have Walking Impairments",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NA",
+        "intervention_model": "SINGLE_GROUP",
+        "primary_purpose": "OTHER",
+        "masking": "NONE"
+      },
+      "enrollment": 31,
+      "start_date": "2023-08-29",
+      "completion_date": "2024-04-30",
+      "conditions": [
+        "Chronic Stroke"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "MR-001",
+          "type": "DEVICE",
+          "description": "Use of device 3 times per week for 8 weeks - for a total of 24 sessions."
+        }
+      ],
+      "lead_sponsor": "MedRhythms, Inc.",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "This is a single arm, multi-site, prospective hybrid implementation and feasibility trial. The primary purpose of this trial is to gather data on the facilitators and barriers to clinical implementation of MR-001 for patients with chronic stroke who experience walking impairments. Secondarily, the trial will evaluate the feasibility of MR-001 clinically impacting walking capacity, quality of life, mood, and cognition.\n\nThe goal of this single arm, multi-site, prospective hybrid implementation and feasibility trial is to gather data on the facilitators and barriers to clinical implementation of MR-001 for patient with chronic stroke who experience walking impairments. The main questions it aims to answer are:\n\n1. Enhance understanding of the potential clinical and operational needs and opportunities that may be associated with implementation of MR-001 in various treatment settings.\n2. Assess the impact of MR-001 on walking capacity.\n3. Assess the impact of MR-001 on quality of life and mood.\n4. Assess the impact of MR-001 on cognition.\n\nAll participants will be prescribed MR-001 and will be asked to walk with it for 30 minutes, 3 times weekly, for 8 weeks.",
+      "detailed_description": "MR-001 is a medical device providing in-home outpatient rehabilitative therapy intended to improve walking and ambulation status in adult chronic stroke patients. The device is based on Rhythmic Auditory Stimulation (RAS) and is designed to operate digitally and autonomously. RAS is a therapy supported by rigorous research of both the foundational neuroscience mechanisms and its clinical application.\n\nThe scientific principle of \"auditory-motor entrainment\" is the basis for the standardized clinical intervention of RAS. Studies have shown that there is rich connectivity between the auditory and motor systems via multiple cortical and subcortical networks. Specifically, it has been shown that the auditory and motor system can synchronize subconsciously to an external, auditory rhythmic cue, a phenomenon known as \"auditory-motor entrainment\" (also referred to as \"entrainment\"). The auditory rhythm provides a consistent temporal structure for synchronization between these two systems. This consistent structure is used to subconsciously inform the brain where the next movement should be.\n\nThe primary endpoint of this study will be the evaluation of the implementation of MR-001 in clinical settings, including but not limited to hospital systems, outpatient rehabilitation centers, and non-acute clinic settings. This evaluation will include detailed qualitative feedback from clinicians on suitable implementation strategies for deploying MR-001, characterization of the facilitators and barriers to delivering MR-001 to chronic stroke patients, characterization of the enrolled patient profile, and characterization of the participant experience and satisfaction with MR-001. Secondary endpoints for this study will evaluate the impact of MR-001 on walking capacity, quality of life, mood, and cognition.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06003790",
+      "_matched_query": "\"MR-001\"",
+      "_raw_json_path": "evidence/USA/mr-001/candidates/clinicaltrials/raw/NCT06003790.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions MR-001 by name multiple times, describes its use in the clinical area of chronic stroke with walking impairments, and aligns with the product description provided. The sponsor, MedRhythms, Inc., matches the company associated with MR-001.",
+        "matched_elements": [
+          "MR-001",
+          "MedRhythms, Inc.",
+          "description of intervention matching MR-001"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 85,
+        "reason": "The study is a single-arm, prospective trial without randomization, blinding, or placebo control, focusing on implementation and feasibility rather than comparative efficacy, which aligns with real-world evidence characteristics."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-10T07:34:43.275348Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

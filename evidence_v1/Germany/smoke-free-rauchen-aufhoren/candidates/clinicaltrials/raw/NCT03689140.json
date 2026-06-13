@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03689140",
+      "orgStudyIdInfo": {
+        "id": "1R21TW010896",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/1R21TW010896"
+      },
+      "organization": {
+        "fullName": "Michigan State University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Mobile Health Intervention for Family Smoking Cessation in Romania",
+      "officialTitle": "Mobile Health Intervention for Family Smoking Cessation in Romania"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-01-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-08-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-08-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-09-19",
+      "studyFirstSubmitQcDate": "2018-09-27",
+      "studyFirstPostDateStruct": {
+        "date": "2018-09-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Cristian Meghea",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Michigan State University"
+      },
+      "leadSponsor": {
+        "name": "Michigan State University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Babes-Bolyai University",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Michigan",
+          "class": "OTHER"
+        },
+        {
+          "name": "Wake Forest University Health Sciences",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objectives of this study are to determine in a randomized controlled trial (RCT) whether a mobile health (mHealth) couples intervention shows promise in increasing smoking cessation among pregnant couples who smoke and to build mHealth research capacity in Romania. The intervention will be novel in its use of the unique functionality of smartphones, its emphasis on the dyadic efficacy for smoking cessation, and the focus on pregnant couples. Our aims are to (1) Test the implementation feasibility, acceptability, and initial efficacy of a culturally-adapted mHealth smoking cessation intervention among couples during pregnancy and postpartum in Romania. (2) Develop mHealth research capacity by enhancing individual and institutional research capabilities in Romania and expanding the existing international research network."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Telemedicine: Smoking Cessation App Only",
+        "Telemedicine: Smoking Cessation Counseling",
+        "Telemedicine: App + Counseling",
+        "Usual Care"
+      ],
+      "keywords": [
+        "mHealth",
+        "Mobile health",
+        "Telehealth",
+        "Pregnancy",
+        "Tobacco",
+        "Cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 324,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "App-only",
+          "type": "EXPERIMENTAL",
+          "description": "The intervention will consist of participants will only use a smoking cessation app",
+          "interventionNames": [
+            "Behavioral: Smoke Free Together - App-only"
+          ]
+        },
+        {
+          "label": "Telemedicine counseling only",
+          "type": "EXPERIMENTAL",
+          "description": "The intervention will consist of participants will only use telemedicine counseling",
+          "interventionNames": [
+            "Behavioral: Smoke Free Together - Telemedicine counseling only"
+          ]
+        },
+        {
+          "label": "App + telemedicine counseling",
+          "type": "EXPERIMENTAL",
+          "description": "The intervention will consist of participants will only use a smoking cessation app + telemedicine counseling",
+          "interventionNames": [
+            "Behavioral: Smoke Free Together - app + telemedicine"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "The participants will continue with usual care"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoke Free Together - App-only",
+          "description": "Pregnant smokers and their life partners will use a smoking cessation app.",
+          "armGroupLabels": [
+            "App-only"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoke Free Together - Telemedicine counseling only",
+          "description": "Pregnant smokers and their life partners will use telemedicine, real time video counseling on smoking cessation",
+          "armGroupLabels": [
+            "Telemedicine counseling only"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoke Free Together - app + telemedicine",
+          "description": "Pregnant smokers and their life partners will use telemedicine and an app for smoking cessation",
+          "armGroupLabels": [
+            "App + telemedicine counseling"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of women in each arm who stopped smoking, and who relapsed smoking postpartum",
+          "description": "The primary outcomes are maternal pregnancy smoking cessation and postnatal relapse. Maternal smoking status will be biochemically verified at the final follow-up based on salivary cotinine obtained by mail.",
+          "timeFrame": "Change from smoking at baseline to quitting assessed at 3 months after the intervention is completed"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* pregnant smokers in the 2nd or 3rd pregnancy trimester and their partners.\n* 18 years or older\n* married or in a stable relationship\n* owns and uses an Android smartphone with broadband internet connection\n* willing to have the partner contacted for participation.\n\nExclusion Criteria:\n\n\\-",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Babes-Bolyai University",
+          "city": "Cluj-Napoca",
+          "state": "Cluj",
+          "zip": "400301",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form: Informed consent for women",
+          "date": "2019-04-25",
+          "uploadDate": "2021-09-03T02:43",
+          "filename": "ICF_000.pdf",
+          "size": 145615
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form: Informed consent for partners",
+          "date": "2019-04-04",
+          "uploadDate": "2021-09-03T02:44",
+          "filename": "ICF_001.pdf",
+          "size": 142892
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017216",
+          "term": "Telemedicine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003695",
+          "term": "Delivery of Health Care"
+        },
+        {
+          "id": "D010346",
+          "term": "Patient Care Management"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

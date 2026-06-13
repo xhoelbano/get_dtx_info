@@ -1,0 +1,222 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06201208",
+      "orgStudyIdInfo": {
+        "id": "70904504/516"
+      },
+      "organization": {
+        "fullName": "Akdeniz University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Self-Transcendence Facilitation Psychoeducational Program Applied to Mothers of Children With Special Needs",
+      "officialTitle": "The Effect on Well-Being, Self-Transcendence, Self-Reflection and Insight of the Self-Transcendence Facilitation Psychoeducational Program Applied to Mothers of Children With Special Needs",
+      "acronym": "STFacilitation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-02-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-03-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-05-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-12-30",
+      "studyFirstSubmitQcDate": "2023-12-30",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "YELDA KUBLAY",
+        "investigatorTitle": "Lecturer",
+        "investigatorAffiliation": "Akdeniz University"
+      },
+      "leadSponsor": {
+        "name": "Akdeniz University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aimed to determine the effect of the Facilitating Self-Transcendence Psychoeducation Program, which will be applied to mothers of children with special needs, on well-being, self-transcendence, self-reflection, and insight.",
+      "detailedDescription": "This study aimed to determine the effect of the Facilitating Self-Transcendence Psychoeducation Program, which will be applied to mothers of children with special needs, on well-being, self-transcendence, self-reflection and insight.\n\nThis study is a non-randomized experimental study with pre-test, post-test, follow-up and control groups. A 2x3 split-plot factorial design will be used as the research design. In this design, the first factor shows independent interventional procedure groups, and the second factor shows repeated measurements of the dependent variable (pre-test, post-test and follow-up). Considering the theoretical basis of psychoeducational programs, the follow-up period in this study was planned to be eight weeks after the last session.\n\nThe study will be carried out between February 2024 and July 2024. The sample of the study will consist of mothers of children with special needs between the ages of 0-11 who are registered in a special education and rehabilitation center in Kumluca. 30 mothers will be included in the intervention group and 30 mothers in the control group. The ST-Facilitation psychoeducation program is planned for mothers in the intervention group as an 80-minute session (40-minute session + 20-minute break + 40-minute session) once a week for six weeks, in groups of two to four people. Data will be collected using the Personal Information Form, Self-Transcendence Scale, Warwick-Edinburgh Mental Well-Being Scale and Self-reflection and Insight Scale."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mothers",
+        "Special Needs Children",
+        "Psychoeducation",
+        "Well-being"
+      ],
+      "keywords": [
+        "well being",
+        "self-reflection",
+        "insight",
+        "mother",
+        "special needs children",
+        "self-transdence theory",
+        "psychoeducation program",
+        "psychiatric nursing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "This study is a non-randomized experimental study with pre-test, post-test, follow-up and control groups.",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "The ST-Facilitation Psychoeducation Program Group",
+          "type": "EXPERIMENTAL",
+          "description": "The ST-Facilitation Psychoeducation Program is planned for mothers in the intervention group as an 80-minute session (40-minute session + 20-minute break + 40-minute session) once a week for six weeks, in groups of two to four participants.",
+          "interventionNames": [
+            "Behavioral: The ST-Facilitation Psychoeducation Program"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION",
+          "description": "No action will be taken by the researcher during the research. Only data collection will be carried out. At the end of the research, ST-Facilitation Psychoeducation Program will be applied ethically."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "The ST-Facilitation Psychoeducation Program",
+          "description": "One of the important roles of the psychiatric nurse, who helps healthy/sick individuals and their families to improve their mental health, prevent and cope with diseases, is their educational role. The psychiatric nurse determines the psychosocial care needs of the patient and his family and plans, implements and evaluates psychoeducational interventions, which are an evidence-based practice, to meet these needs.\n\nPsychiatric nurses can benefit from existing programs when developing a psychoeducation program, or they can be advised to create programs that include educational and psychosocial goals based on theory specific to the problems of the relevant population. The theoretical basis is of great importance when planning a psychoeducation program. In this study, the psychoeducation program was based on the Self-Transcendence Theory of Pamela G. Reed, a psychiatric nurse.",
+          "armGroupLabels": [
+            "The ST-Facilitation Psychoeducation Program Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Warwick-Edinburgh Mental Well-Being Scale",
+          "description": "Warwick-Edinburgh Mental Well-Being Scale consists of 14 items and a single dimension. The scale is five-point Likert type. Scoring of the scale is as follows: 1 = strongly disagree, 2 = disagree, 3 = somewhat agree, 4 = agree, 5 = completely agree. All items of the scale are positive and there is no cut-off score. The minimum score from the scale is 14 and the maximum score is 70. High scores from the scale indicate high mental well-being.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Self-Transcendence Scale",
+          "description": "Self-Transcendence Scale is a unidimensional scale consisting of 15 items. The scale is a four-point Likert type. Scoring of the scale is as follows: 1 = not at all, 2 = very little, 3 = quite a bit, 4 = very much. All items of the scale are positive and there is no cut-off score. A minimum of 15 and a maximum of 60 points are obtained from the scale. Increasing scores from the scale are evaluated as increasing self-transcendence.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Self-reflection and Insight Scale",
+          "description": "The scale consists of 20 items and two factors. These factors are \"self-reflection\" and \"insight\"; The \"self-reflection\" factor has two sub-dimensions: being dependent on self-reflection and needing self-reflection. There are 8 items in the \"insight\" factor of the scale and 12 items in the \"self-reflection\" factor. The scale is a six-point Likert type. Scoring of the scale is 1 = strongly disagree, 2 = disagree, 3 = partially disagree, 4 = partially agree, 5 = agree, 6 = strongly agree. Items that require reverse scoring are items 1, 2, 4, 8, 9, 11, 13, 14 and 17. In reverse scoring, a score of \"1\" becomes \"6\"; \"2\" becomes \"5\"; \"3\" becomes \"4\" and vice versa. No scaling or scale conversion is required other than basic reverse scoring. A minimum of 20 and a maximum of 120 points are obtained from the scale.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nVolunteering to participate in research No cognitive disabilities such as reading, writing, communication and understanding No possibility of leaving the region during the research. Being a mother of a child with special needs between the ages of 0-11\n\nExclusion Criteria:\n\nContinuing psychiatric treatment during the period when the study was conducted Involvement in another psychosocial intervention that is likely to influence the research outcome.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "YELDA KUBLAY",
+          "role": "CONTACT",
+          "phone": "800-664-4542",
+          "email": "yelda_kublay@hotmail.com"
+        },
+        {
+          "name": "SALİHA HALLAÇ",
+          "role": "CONTACT",
+          "phone": "800-664-4542",
+          "email": "saliha.alkan@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Akdeniz University",
+          "city": "Antalya",
+          "state": "Kumluca",
+          "zip": "07350",
+          "country": "Turkey (Türkiye)",
+          "contacts": [
+            {
+              "name": "YELDA KUBLAY, RN, Lecturer",
+              "role": "CONTACT",
+              "phone": "+90 552 014 40 49",
+              "email": "yelda_kublay@hotmail.com"
+            },
+            {
+              "name": "Saliha Hallaç, PhD, RN, Assoc. Prof.",
+              "role": "CONTACT",
+              "phone": "+90 533 224 10 03",
+              "email": "saliha.alkan@gmail.com"
+            },
+            {
+              "name": "YELDA KUBLAY, RN, Lecturer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.90812,
+            "lon": 30.69556
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "In order to preserve the originality of the research, it is not intended to be shared until the research is completed and reaches the publication stage."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

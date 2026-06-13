@@ -1,0 +1,168 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05094401",
+      "orgStudyIdInfo": {
+        "id": "DM2-07-CAT"
+      },
+      "organization": {
+        "fullName": "Better Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Use of an Investigational Digital Therapeutic in Patients With Type 2 Diabetes",
+      "officialTitle": "Long-term Effectiveness and Medication Changes After Use of an Investigational Digital Therapeutic in Patients With Type 2 Diabetes Cared for in a Community Based, Clinically Integrated Network"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Sponsor/Investigator Decision",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-04-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-04-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-10-14",
+      "studyFirstSubmitQcDate": "2021-10-14",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Better Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Catalyst Health Network",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "BT-001 is a software program intended to help patients with type 2 diabetes, under the guidance of their physician, improve glycemic control (i.e., levels of blood sugar). The BT-001 software delivers a type of behavioral therapy to patients via a mobile application that targets behaviors related to achieving glycemic control. The effectiveness of BT-001 will be measured by its ability to help patients reduce Hemoglobin A1c, or HbA1c (a marker in the blood that measures blood sugar) in patients with type 2 diabetes.",
+      "detailedDescription": "The study will utilize an open-label, pragmatic design to confirm and characterize the safety and efficacy of BT-001 used in addition to standard of care (SOC) in patients with type 2 diabetes. The screening period will consist of review of Electronic Health Record (EHR) for participants that meet inclusion criteria and telephonic outreach.\n\nOnce confirmed consented, patients will then be given access to BT-001 for 90 days with an opportunity to continue using the product for an additional 275 days.\n\nParticipants will continue their standard of care with their provider in addition to using BT-001."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type2 Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Open-Label, Pragmatic",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention BT-001 + Standard of Care",
+          "type": "EXPERIMENTAL",
+          "description": "BT-001 is a software program used with physician guidance, being investigated to improve glycemic control. Patients randomized to this arm of the study will interact with the BT-001 software program in addition to receiving Standard of Care for type 2 diabetes",
+          "interventionNames": [
+            "Device: BT-001"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "BT-001",
+          "description": "BT-001 is a software program intended to help patients with type 2 diabetes, under the guidance of their physician, improve glycemic control.",
+          "armGroupLabels": [
+            "Intervention BT-001 + Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean change in HbA1c",
+          "description": "Mean change in HbA1c from baseline (enrollment) to 12 months after enrollment",
+          "timeFrame": "Baseline and Day 365"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Medications",
+          "description": "The change in number and type of medications used to treat type 2 diabetes, hypertension and dyslipidemia from baseline to 12 months",
+          "timeFrame": "Baseline and Day 365"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of Type2 Diabetes\n* Possess a smart phone (iPhone or Android only) capable of running the smart phone application (App) used in the study;\n* HbA1c level ≥7% and \\<11%, as determined by the HbA1c measured within the previous 12 months;\n* Willing to use a glucometer for self-monitoring blood glucose while using the study App;\n* Capable of giving informed consent in English, which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n\nExclusion Criteria:\n\n* Unable to understand, consent to, or comply with the study protocol for any reason, including the inability to read or comprehend English. The behavioral intervention mechanisms, including educational materials and digital tools, are only available in English at this time;\n* Currently taking prandial (mealtime) insulin;\n* Currently experiencing heart failure of New York Heart Association Class IV;\n* Currently experiencing stage 4 or 5 chronic kidney disease;\n* Currently on kidney dialysis (hemo or peritoneal);\n* Currently on the list for an organ transplant or previously received a transplant of any organ;\n* Currently receiving treatment for cancer;\n* For women only: pregnant or lactating or having the intention of becoming pregnant during the time frame of the study;\n* Presumed or confirmed COVID-19 diagnosis within 90 days prior to study enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Catalyst Health Network",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

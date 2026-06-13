@@ -1,0 +1,273 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03648047",
+      "orgStudyIdInfo": {
+        "id": "SH-RCT-ARCR-01"
+      },
+      "organization": {
+        "fullName": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Digital Biofeedback System Versus Conventional Rehabilitation After Rotator Cuff Repair",
+      "officialTitle": "Efficacy of a Digital Kinematic Biofeedback System for Rehabilitation After Arthroscopic Rotator Cuff Repair Versus Conventional In-person Rehabilitation: a Randomized Controlled Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "COVID-19 pandemic imposed restrictions to normal study conduct",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-11-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-04-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-04-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-08-23",
+      "studyFirstSubmitQcDate": "2018-08-23",
+      "studyFirstPostDateStruct": {
+        "date": "2018-08-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-08-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-09-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Hospital da Prelada",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study was designed to compare the clinical outcomes of a mixed home-based rehabilitation program after arthroscopic rotator cuff repair, incorporating face-to-face sessions as well as sessions performed with a novel digital kinematic biofeedback system against conventional in-person home-based rehabilitation, with the intent of reducing the need for face-to-face sessions.\n\nThe investigators hypothesize that the clinical outcomes of such a program will be at least similar to those of conventional rehabilitation.\n\nPatients will be enrolled pre-operatively and then randomized into 2 groups: experimental group and conventional rehabilitation group. Both groups will perform a 12 to 16-week rehabilitation program starting immediately after surgery.\n\nOutcomes will be measured at baseline, 8 and 12 weeks. In patients where a decision is made to extend the program to 16 weeks, another assessment will be made at this point."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rotator Cuff Tear"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "All patients will be assessed by an independent outcomes assessor",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients in this group will receive a mixed home-based rehabilitation program consisting of face-to-face sessions with a Physical Therapist (with decreasing periodicity depending on program stage) as well as sessions performed with a digital kinematic biofeedback system.",
+          "interventionNames": [
+            "Device: Digital kinematic biofeedback device",
+            "Other: Additional face-to-face rehabilitation sessions"
+          ]
+        },
+        {
+          "label": "Conventional rehabilitation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in this group will receive a home-based rehabilitation program consisting of face-to-face sessions with a Physical Therapist 3 times per week, for 1 hour. Patients will also be instructed to perform additional unsupervised sessions in at least two other days of the week. Compliance to these additional sessions is not mandatory, but patients will be asked to fill in a diary regarding these extra-sessions.",
+          "interventionNames": [
+            "Other: Conventional rehabilitation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Digital kinematic biofeedback device",
+          "description": "The system will be used independently by the patients to perform rehabilitation sessions at home, under remote monitoring from the clinical team.",
+          "armGroupLabels": [
+            "Experimental group"
+          ],
+          "otherNames": [
+            "SWORD Phoenix"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Conventional rehabilitation",
+          "description": "Patients will receive conventional face-to-face sessions by a Physical Therapist.",
+          "armGroupLabels": [
+            "Conventional rehabilitation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Additional face-to-face rehabilitation sessions",
+          "description": "Patients will receive face-to-face sessions in addition to sessions performed with the Digital Rehabilitation Device",
+          "armGroupLabels": [
+            "Experimental group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Constant Score Test",
+          "description": "The Constant Score is a functional assessment score specific to the shoulder region. It is the most used instrument to assess the shoulder in Europe and its psychometric properties prove it to be a valid, reliable and responsive measure.",
+          "timeFrame": "Baseline, 8 weeks after surgery, 12 (and 16) weeks."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in QuickDASH score",
+          "description": "The QuickDASH is an 11-item self-administered outcome measure, specific to measure disability and symptoms in individuals with musculoskeletal disorders of the upper limb.It is an instrument widely used for clinical or research purposes and which has proven to be a valid, reliable and responsive measure.",
+          "timeFrame": "Baseline, 8 weeks after surgery, 12 (and16) weeks."
+        },
+        {
+          "measure": "Change in Shoulder Range of Motion",
+          "description": "Shoulder range of motion (in degrees) in the following exercises: sitting external rotation/abduction/flexion; lying internal/external rotation with 90º shoulder abduction",
+          "timeFrame": "Baseline, 8 weeks after surgery, 12 (and16) weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Shoulder pain and functional limitation with clinical examination compatible with rotator cuff tendinopathy\n* Imaging (MRI or ultrasound) evidence of rotator cuff tear (supra and/or infraspinatus tendon tear inferior to 3 cm? or 5cm?)\n* Indication for a simple rotator cuff repair according to the patient´s orthopedic surgeon\n* Ability to understand simple and complex motor commands\n* Availability of a carer to assist the patient after surgery\n\nExclusion Criteria:\n\n* Patients admitted for revision cuff repair\n* Complex cuff tears (involving subscapularis tendon or more than one tendon besides supra and infraspinatus, or massive dimension tears)\n* Glenohumeral arthritis\n* Irreparable tendon defect\n* Patients with concomitant neurological disorders (ex. Stroke, Parkinson´s disease, multiple sclerosis)\n* Aphasia, dementia or psychiatric comorbidity interfering with the communication or compliance to the rehabilitation process\n* Respiratory, cardiac, metabolic conditions or others incompatible with at least 30 minutes of light to moderate physical activity\n* Major medical complications occurring after surgery that prevent the discharge of the patient within 10 days after surgery\n* Other medical and/or surgical complications that prevent the patient from complying with a rehabilitation program\n* Blind and/or illiterate patients",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Fernando D Correia, MD",
+          "affiliation": "SWORD Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Rosmaninho Seabra, MD",
+          "affiliation": "Hospital da Prelada",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital da Prelada",
+          "city": "Porto",
+          "zip": "4250-449",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33935152",
+          "type": "DERIVED",
+          "citation": "Correia FD, Molinos M, Luis S, Carvalho D, Carvalho C, Costa P, Seabra R, Francisco G, Bento V, Lains J. Digitally Assisted Versus Conventional Home-Based Rehabilitation After Arthroscopic Rotator Cuff Repair: A Randomized Controlled Trial. Am J Phys Med Rehabil. 2022 Mar 1;101(3):237-249. doi: 10.1097/PHM.0000000000001780."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Study protocol and study aggregate results (including anonymised individual patient data) will be made available",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "The data will become available upon study publication, for 5 years.",
+      "accessCriteria": "Study protocol will be available through a direct link in this platform. The excel file with the aggregate results will be made available as supplementary information upon study publication.",
+      "url": "https://drive.google.com/file/d/1BBfowtHXm4U91QTRPilzvxOFglKx3T_h/view?usp=sharing"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2018-06-14",
+          "uploadDate": "2018-11-19T12:30",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 249736
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000070636",
+          "term": "Rotator Cuff Injuries"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012421",
+          "term": "Rupture"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        },
+        {
+          "id": "D000070599",
+          "term": "Shoulder Injuries"
+        },
+        {
+          "id": "D013708",
+          "term": "Tendon Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

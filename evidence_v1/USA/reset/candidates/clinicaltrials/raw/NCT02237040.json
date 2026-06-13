@@ -1,0 +1,198 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02237040",
+      "orgStudyIdInfo": {
+        "id": "SYSU-Clinical Treatment"
+      },
+      "organization": {
+        "fullName": "Sun Yat-sen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A New Treatment Protocol for Paediatric Mandibular Condylar Fractures",
+      "officialTitle": "Management of Paediatric Mandibular Condylar Fractures Simply With a Mandibular Manipulation Technique and Mouth Opening Training"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-05",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2020-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2014-08-29",
+      "studyFirstSubmitQcDate": "2014-09-10",
+      "studyFirstPostDateStruct": {
+        "date": "2014-09-11",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-05-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-05-20",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "zhang zhiguang",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Sun Yat-sen University"
+      },
+      "leadSponsor": {
+        "name": "Sun Yat-sen University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aim to evaluate the clinical and radiographic outcomes of mandibular condylar fractures in pediatrics treated simply with a mandibular manipulation technique accompanied by mouth opening training.",
+      "detailedDescription": "There is a consensus on nonsurgical approach is a priority for paediatric condylar fractures, but a recognized nonsurgical method for treating children with condylar fractures is still a highly debated theme. The purpose of this study is to investigate the effect of a new nonsurgical method simply using a mandibular manipulation technique and mouth opening training in managing children with condylar fractures.\n\nSpiral computed tomography (CT) or Cone beam computed tomography (CBCT) will be taken before treatment when the patients present to the department. Condylar fracture classification is defined according to SPIESSL \\& SCHROLL.\n\nThese patients are then treated termly with a mandibular manipulation technique reported by Farrar, which is an effective treatment method to reset the physiological positional relationship between condyle and disc. Neither intermaxillary fixation nor guiding elastics will be used after hand manipulation. Then patients are told to persist in mouth opening training at home everyday. The mouth opening training is performed as follow: patients are told to try to close his mouth in intercuspal position at first, then open their mouth as wide as possible(the reference maximal mouth opening is as wide as the mouth opening after treatment in last time), then closed back to the intercuspal position again. Patients are recommended to follow up at every week at first two months, then every 2 weeks at third months, 6th months, 1 year after first treatment, then yearly afterward. The mandibular manipulation is performed at every follow-up. Meanwhile, the maximal mouth opening (MMO) is recorded before and after hand manipulation treatment. So do the occlusion status, deviation during opening, as well as subjective symptoms of temporomandibular joints. At first moth, 3rd month, 6th month, 1 year, then every year after first treatment, CBCT is performed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Fractures"
+      ],
+      "keywords": [
+        "Children",
+        "mandible",
+        "condylar fracture",
+        "conservative treatment",
+        "functional treatment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "treatment group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients are treated with the mandibular manipulation technique termly and mouth opening training",
+          "interventionNames": [
+            "Procedure: Mandibular manipulation technique"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Mandibular manipulation technique",
+          "description": "patients are treated with The mandibular manipulation technique reported by Farrar, which was an effective treatment method to reset the physiological positional relationship between condyle and disc.Then patients are told to persist in mouth opening training at home everyday. The mouth opening training is performed as follow: patients are told to try to close his mouth in intercuspal position at first, then open their mouth as wide as possible(the reference maximal mouth opening is as wide as the mouth opening after treatment in last time), then close back to the intercuspal position again.",
+          "armGroupLabels": [
+            "treatment group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants with accepted anatomical and functional recovery",
+          "description": "\"accepted anatomical and functional recover\" was defined as follow:\n\n1. the maximal mouth opening is more than 32 millimeter\n2. the fractured condylar with complete remodeling\n3. No joint pain, clicking of the TMJ, and opening deviation(Normal mandibular movement without pathologic deviation was defined as lateral sliding less than 5 millimeter out of the midline of face during opening), unacceptable malocclusion(accepted occlusion is defined as stable intercuspidation between dental arches), dietary limitation was detected.",
+          "timeFrame": "up to 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* suffer mandibular condylar fracture\n* voluntary Patient\n* with no concomitant displaced jaw fractures\n* the fracture-treatment interval time is less than 2 months\n\nExclusion Criteria:\n\n* Life-threatening Patient\n* Patient can not do the Guide Line",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "maximumAge": "12 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "zhang zhiguang, master",
+          "role": "CONTACT",
+          "phone": "8602083870387",
+          "email": "kouqiangzzg@hotmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "zhang zhiguang, master",
+          "affiliation": "UANGHUA SHOOL OF STOMATOLOGY and HOSPITAL OF STOMATOLOGY SUN YAT-SEN UNIVERSITY",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Guanghua School of Stomatology, Hospital of Stomatology, Sun Yat-sen University",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510055",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhang zhiguang, master",
+              "role": "CONTACT",
+              "phone": "8602083870387",
+              "email": "kouqiangzzg@hotmail.com"
+            },
+            {
+              "name": "Zhang zhiguang, master",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D050723",
+          "term": "Fractures, Bone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

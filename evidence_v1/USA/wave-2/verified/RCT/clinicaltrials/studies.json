@@ -1,0 +1,71 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05118191",
+      "nct_id": "NCT05118191",
+      "title": "Efficacy of Commercially Available Technology in Augmenting Sleep and Well-being",
+      "official_title": "Efficacy of Commercially Available Technology in Augmenting Sleep and Well-being",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "BASIC_SCIENCE",
+        "masking": "NONE"
+      },
+      "enrollment": 52,
+      "start_date": "2021-10-18",
+      "completion_date": "2023-10-30",
+      "conditions": [
+        "Sleep Quality"
+      ],
+      "keywords": [
+        "Sleep",
+        "Commercial devices"
+      ],
+      "interventions": [
+        {
+          "name": "OOLER",
+          "type": "OTHER",
+          "description": "Following the baseline block (first four weeks), participants will use the OOLER device to power a cooling mattress pad each night during sleep for four weeks."
+        },
+        {
+          "name": "EmbrWave",
+          "type": "OTHER",
+          "description": "Following the baseline block (first four weeks), participants will use the Embr Wave 2 device to provide pulsed warm sensations to the inner wrist each night during sleep for four weeks."
+        }
+      ],
+      "lead_sponsor": "West Virginia University",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The objective of this research study is to assess how the implementation of various commercially available devices affect sleep quality, sleep structure, nocturnal physiology, subjective wellness, recovery from stressors, and resultant effects on performance and well-being.",
+      "detailed_description": "Sleep is a vital process for memory, cognitive performance, physical recovery, hormonal balance, and the repair of cellular damage, among numerous other functions. Despite its importance for maintaining one's health, it is amongst the most variable human behaviors experienced across the population. While many individuals fail to allocate sufficient time in their schedules for sufficient sleep, many individuals allocate plenty of time but struggle to receive efficient, and good quality sleep. In both cases, failure of the body to receive its required combination of enough and efficient enough sleep can result in significant consequences, including increased rates of disease development.\n\nIn an effort to help with these issues, which affect a significant portion of the adult population, commercial companies have sought to combine science, convenience, and good hygienic practices in the development of products aimed toward augmenting sleep. A wide range of products have hit the market including supplements (i.e. melatonin, melatonin infused products, GABA), sound producing devices (i.e. white noise machines), wearable products (i.e. sleep masks, special pajamas), and physiological modification devices and routines (i.e. temperature modulators, meditation), among dozens of other products, all with varying degrees of validity and scientific backing. Thermoregulatory products, the types of technologies utilized herein, have a great deal of scientific backing in how they have the potential to enhance sleep behaviors. Given the critical reduction in core body temperature that is needed at sleep onset, careful modulation of reduced body temperature is vital for falling asleep, staying asleep, and receiving good quality sleep. While these products demonstrate promising potential, further research is needed to identify the efficacy of these products in enhancing sleep. Further, it is of high interest what aspects of sleep can be enhanced via thermoregulation, what factors cont",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05118191",
+      "_matched_query": "\"Wave 2\"",
+      "_raw_json_path": "evidence/USA/wave-2/candidates/clinicaltrials/raw/NCT05118191.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions the 'Embr Wave 2' device by name and describes its use in the intervention, which matches the product description provided. The study is specifically evaluating the device's efficacy in improving sleep and well-being, aligning with the clinical area and intended use of Wave 2.",
+        "matched_elements": [
+          "Embr Wave 2",
+          "Intervention description matches product functionality"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 85,
+        "reason": "The study is interventional, which aligns with RCT design. While randomization and blinding are not explicitly mentioned, interventional studies typically involve controlled conditions, suggesting an RCT approach."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T22:20:05.946698Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

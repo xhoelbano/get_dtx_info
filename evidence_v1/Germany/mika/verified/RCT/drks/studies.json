@@ -1,0 +1,56 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00023791",
+      "drks_id": "DRKS00023791",
+      "title": "Randomized controlled pilot study of the clinical efficacy of the Mika App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00023791/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00023791.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'Mika App,' which matches the product name provided. Although the abstract and intervention details are not available, the title alone provides strong evidence that the study is specifically about the Mika App.",
+        "matched_elements": [
+          "Mika App in study title"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 90,
+        "reason": "The title explicitly states 'Randomized controlled pilot study,' which strongly indicates an RCT design. However, the lack of additional details slightly reduces confidence."
+      }
+    },
+    {
+      "study_id": "DRKS00026038",
+      "drks_id": "DRKS00026038",
+      "title": "Prospective Randomized Group Controlled Study of Clinical Efficacy and Safety of the CE marked Mika App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00026038/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00026038.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions the Mika App, which matches the product name provided. Additionally, the study specifies it is about the clinical efficacy and safety of the CE-marked Mika App, directly aligning with the described DTx product.",
+        "matched_elements": [
+          "Mika App",
+          "CE marked Mika App"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 90,
+        "reason": "The title explicitly mentions 'Randomized Group Controlled Study,' which strongly indicates an RCT design."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T20:51:04.771440Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

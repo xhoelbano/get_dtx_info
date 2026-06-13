@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05579106",
+      "orgStudyIdInfo": {
+        "id": "CoCo 2021-017"
+      },
+      "organization": {
+        "fullName": "Leiden University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Nociception and BIS Level Monitoring in COVID-19 Patients in the Intensive Care Unit",
+      "officialTitle": "Nociception and BIS Level Monitoring in COVID-19 Patients in the Intensive Care Unit",
+      "acronym": "NEMO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-11-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-12-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-10-12",
+      "studyFirstSubmitQcDate": "2022-10-12",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Albert Dahan",
+        "investigatorTitle": "Professor Anesthesiology",
+        "investigatorAffiliation": "Leiden University Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Leiden University Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Pain (nociception), stress and discomfort are difficult to detect in sedated and intubated patients during mechanical ventilation. In order to improve this several nociception level monitors (NOL) were developed that objectively track nociception in sedated or anesthetized patients. Earlier studies showed that for sedated and intubated patients in the operating room, using such monitors is beneficial in reducing stress hormones and post operative pain scores. In this study the investigators aim to observe whether the NOL could be equally beneficial in managing nociception in sedated and intubated ICU patients.",
+      "detailedDescription": "To date it remains challenging to adequately titrate analgesic medication in sedated and anesthetized patients. Recently, nociception monitoring was introduced to guide analgesic treatment in sedated and anesthetized surgical patients. One such monitor is the Nociception Level (NOL; Medasense Biometrics Ltd., Israel). The NOL combines various measurements such as, skin conductance, heart rate, heart rate variability and photoplethysmograph amplitude, and translates these inputs into a single index ranging from 0 (no nociception) to 100 (maximal nociception). Earlier studies have shown that during surgery, the NOL-guided opioid treatment resulted in improved hemodynamics and reduced postoperative pain.\n\nIn the COVID-19 pandemic, patients admitted in the Intensive Care Unit (ICU), needed excessive amounts of sedatives, analgesics and muscle relaxants during mechanical ventilation. To determine its value in the ICU, the investigators measured NOL values in COVID and non-COVID ICU patients in an earlier study. The aim of the investigators was to verify the assumption that COVID-19 patients were overdosed on opioids. Since the investigators indeed did observe lower NOL values in COVID-19 patients than in non-COVID patients in an earlier study, the investigators expanded the study to determine whether sedatives were equally overdosed, by also measuring the bispectral index (BIS). With this extra information the investigators also hope to determine whether it is feasible to use the NOL in the ICU."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nociceptive Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Covid-19 patients",
+          "description": "Mechanically ventilated and sedated adult patients with proven COVID-19 infection by PCR of nose- or airway sample. The nociception of this patient will be monitored by the nociception level monitor for 8 hours.",
+          "interventionNames": [
+            "Device: Nociception Level Monitor (NOL) by Medasense Biometrics Ltd., Israel",
+            "Device: Bispectral index (BIS)",
+            "Other: Questionnaire perception of the nurse on pain patient"
+          ]
+        },
+        {
+          "label": "non-COVID-19 patients",
+          "description": "Mechanically ventilated and sedated adult patients not infected with COVID-19 infection. The nociception of this patient will be monitored by the nociception level monitor for 8 hours.",
+          "interventionNames": [
+            "Device: Nociception Level Monitor (NOL) by Medasense Biometrics Ltd., Israel",
+            "Device: Bispectral index (BIS)",
+            "Other: Questionnaire perception of the nurse on pain patient"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Nociception Level Monitor (NOL) by Medasense Biometrics Ltd., Israel",
+          "description": "The NOL monitor measures various parameters via a sensor in a finger probe that is attached to the patient.\n\nThese parameters are:\n\n* Temperature\n* Galvanic skin response\n* Accelerometer\n* Photoplethysmograph (pulse rate, pulse rate variability, photoplethysmograph amplitude)\n\nAll this data is combined in an algorithm which produces a number between 0-100. Between 10-25 indicates adequate analgesia, below 10 too much analgesia, above 25 too little analgesia. No actions are taken based on this measurement.",
+          "armGroupLabels": [
+            "Covid-19 patients",
+            "non-COVID-19 patients"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Bispectral index (BIS)",
+          "description": "The BIS processes EEG information to provide a direct measurement of the patient's level of consciousness and insight into the effects of anesthesia on the brain.",
+          "armGroupLabels": [
+            "Covid-19 patients",
+            "non-COVID-19 patients"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Questionnaire perception of the nurse on pain patient",
+          "description": "The investigators developed a questionnaire with 7-questions regarding the perception of the responsible nurse on the pain of the patient. When the investigators measured for 8 hours with the BIS and the NOL they will ask the nurse what his or her perception was of the pain of the patient. Eventually the investigators will compare the answers of this questionnaire with the NOL and BIS values that they observed, whether the information corresponds or not.",
+          "armGroupLabels": [
+            "Covid-19 patients",
+            "non-COVID-19 patients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "BIS and NOL values over time",
+          "description": "The observation of the BIS and NOL values over time",
+          "timeFrame": "8 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Propofol and opioid dosage",
+          "description": "Propofol and opioid dosage will be monitored during 8 hours",
+          "timeFrame": "8 hours"
+        },
+        {
+          "measure": "Feasibility of using the NOL in the ICU",
+          "description": "Is it possible to use the NOL on ICU patients and does it monitor correctly",
+          "timeFrame": "8 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* aged 18 years or older\n* mechanical ventilation for any reason\n* deemed suitable by the investigators\n\nExclusion Criteria:\n\n* aged 17 years or younger\n* severe peripheral edema\n* veno-arterial (VA) and veno-venous (VV) exctracorporeal membrane oxygenation (ECMO)\n* heart rate below 35\n* abdominal position\n* not deemed suitable by the investigators",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients admitted to the ICU meeting the above mentioned selection criteria can be included in the study. Only half of the included patients will have proven COVID-19 disease by PCR of nose- or airway sample. The Control patients (without COVID-19) will be randomly selected. There will be no matching.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Leiden University Medical Centre",
+          "city": "Leiden",
+          "state": "South Holland",
+          "zip": "2333ZA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.49306
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059226",
+          "term": "Nociceptive Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D056805",
+          "term": "Consciousness Monitors"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013523",
+          "term": "Surgical Equipment"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

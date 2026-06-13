@@ -1,0 +1,340 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03448250",
+      "orgStudyIdInfo": {
+        "id": "Optimune Trial"
+      },
+      "organization": {
+        "fullName": "Technical University of Dortmund",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluating a Novel Web-based Intervention for Breast Cancer Survivors",
+      "officialTitle": "Evaluation of a Web-based Psychological Intervention as add-on to Care as Usual in Breast Cancer Survivors: Effect on Immune Status, Inflammation and Psychometric Outcome",
+      "acronym": "OPTIMUNE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Participant recruitment was stopped due to corona pandemic.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-03-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-09-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-02-07",
+      "studyFirstSubmitQcDate": "2018-02-21",
+      "studyFirstPostDateStruct": {
+        "date": "2018-02-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-05-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Carsten Watzl",
+        "investigatorTitle": "Scientific Director, IfADo",
+        "investigatorAffiliation": "Technical University of Dortmund"
+      },
+      "leadSponsor": {
+        "name": "Technical University of Dortmund",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Leipzig",
+          "class": "OTHER"
+        },
+        {
+          "name": "Gaia AG",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The trial aims to evaluate the effectiveness of a novel web-based intervention (Optimune), which was designed to introduce relevant cognitive-behavioral therapy (CBT) techniques to women with breast cancer who are past the active eradication phase and free from disease recurrence. The present study will test the hypothesis that Optimune has an impact on immune status, markers of inflammation and psychometric outcomes. Therefore, 150 woman with breast cancer will be recruited and randomized to two groups: (1) a control group, in which they may engage with any treatment (Care-as-Usual, CAU) and receive access to Optimune after a delay of 6 months (i.e., CAU/wait list control group), or (2) to a treatment group that immediately receives 12-month access to Optimune and may also use CAU. The primary outcome measure is the effect on inflammatory parameters six month post-baseline.",
+      "detailedDescription": "Depression and fatigue is common in breast cancer survivors and its presence is associated with personal suffering, increased inflammatory activity, and worse prognosis. While in the phase of acute treatment many women receive short-term psychological support to better cope with the situation, this is not standard of care in the years following. Web-based psychological interventions are easily accessible and preliminary evidence suggests that such interventions can be effective. However, no trial has yet examined whether a CBT-based internet intervention designed to meet the needs of breast cancer survivors can achieve effects on immune status, inflammation and psychometric outcomes, when offered as adjunct to care as usual.\n\nIn this study, the investigators will study treatment effects of the novel web-based program Optimune when added to treatment as usual. Beyond established CBT techniques targeting depression, anxiety, and fatigue, this intervention specifically includes elements that have shown effects on markers of immune status and inflammation, including sleep and stress management (e.g., mindfulness-based techniques) and lifestyle optimization (dietary and physical activity advice). The delivery and training of content is continuously individualized to match users' preferences and needs, based on responses within the program. The intervention is delivered via the internet and protected by individually assigned passwords. The program can be accessed for 365 days after registration.\n\nThis randomized controlled trial will include 150 women with breast cancer who are past the active eradication phase and free from disease recurrence. Participants will be recruited from various settings, including web-based advertisement and internet forums/groups. Participants will be randomly assigned to either (1) a control group, in which they receive care as usual (CAU) and are given access to the web-based intervention (Optimune) after a delay of 6 months (i.e., CAU/wait list control group), or (2) a treatment group that may also use CAU and in addition immediately receives 12-month access to the web-based intervention (Optimune). Measurements are collected at pre-treatment (T0) three months (T1), six months (T2), nine months (T3) and twelve months (T4)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 64,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Optimune",
+          "type": "EXPERIMENTAL",
+          "description": "Optimune is an web-based psychological intervention for women with breast cancer. Beyond established CBT techniques targeting depression, anxiety, and fatigue, this intervention specifically includes elements that have shown effects on markers of immune status and inflammation, including sleep, stress management (e.g., mindfulness-based techniques) and lifestyle optimization (dietary and physical activity advice). Content is continuously adapted to users' concerns and needs. It contains interactive dialogues that can be accessed via computer or smart-phone, illustrations, audio files and motivating text messages. Optional daily text messages with motivational content accompany the program. The program can be accessed for 365 days after registration.",
+          "interventionNames": [
+            "Behavioral: Optimune"
+          ]
+        },
+        {
+          "label": "Care-as-Usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "As in the experimental arm, participants are free to continue to engage with any treatment they require (i.e., CAU). However, they will receive access to Optimune six months post-baseline (i.e., wait list with respect to Optimune access).",
+          "interventionNames": [
+            "Other: Care-As-Usual"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Optimune",
+          "description": "Optimune is a web-based psychological intervention developed for women with breast cancer.",
+          "armGroupLabels": [
+            "Optimune"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Care-As-Usual",
+          "description": "Participants are free to continue to engage with any treatment they require (i.e., CAU).",
+          "armGroupLabels": [
+            "Care-as-Usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "concentration of C-reactive protein (CRP)",
+          "description": "Plasma concentration of C-reactive protein (CRP)",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "circulating Interleukin (IL) 6",
+          "description": "Plasma concentration of IL-6",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "circulating Tumor necrosis factor (TNF)-α",
+          "description": "Plasma concentration of TNF-α",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "stimulated IL-6",
+          "description": "Concentration of secreted IL-6 after stimulation of peripheral blood mononuclear cells with Lipopolysaccharide (LPS)",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "stimulated TNF-α",
+          "description": "Concentration of secreted TNF-α after stimulation of peripheral blood mononuclear cells with Lipopolysaccharide (LPS)",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Plasma Concentrations of Cytokines",
+          "description": "Circulating levels (pg/ml) of IL-1β, IFN- α, IFN-γ, MCP-1, IL-8, IL-10, IL-12p70, IL-17A, IL-18, IL-23, and IL-33 will be measured using cytometric bead array (CBA)",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "Concentration of secreted Cytokines after Phorbol-12-myristate-13-acetate (PMA) stimulation of peripheral blood mononuclear cells",
+          "description": "Concentrations (pg/ml) of secreted of IL-1β, Interferon (IFN)-α, IFN-γ, TNF-α, MCP-1, IL-6, IL-8, IL-10, IL-12p70, IL-17A, IL-18, IL-23, and IL-33 after stimulation of peripheral blood mononuclear cells with Phorbol-12-myristate-13-acetate (PMA) will be measured using a cytometric bead array (CBA).",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "Concentration of secreted Cytokines after Lipopolysaccharide (LPS) Stimulation of peripheral blood mononuclear cells",
+          "description": "Concentrations (pg/ml) of secreted of IL-1β, IFN- α, IFN-γ, TNF- α, MCP-1, IL-6, IL-8, IL-10, IL-12p70, IL-17A, IL-18, IL-23, and IL-33 after stimulation of peripheral blood mononuclear cells with LPS will be measured using cytometric bead array (CBA)",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "Circulating numbers of Lymphocytes, Monocytes, Granulocytes",
+          "description": "Circulating numbers of Lymphocytes, Monocytes, and Granulocytes (per ul blood) will be measured by 'TruCount' Flow Cytometry.",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "Phenotypic analysis of T and NK cell subsets",
+          "description": "We will analyze the distribution of T cell and NK cell subsets by 11 color Flow Cytometry (using the following antibody panels:\n\nPanel 1 (\"NK + T cells + Treg + memory + homing\"): KLRG1, CD3, Zombie Yellow, CD8, CD28, CD57, CD56, CD62L, CD197, CD45RA, CD4.\n\nPanel 2 (\"NK + T activation + memory\"): KLRG1, CD3, Zombie Yellow, NKG2C, CD56, CD57, CD25, DNAM-1, CD69.",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "Cortisol awakening response (CAR)",
+          "description": "Cortisol concentrations from saliva samples taken at time of awakening and 30 and 45 min. after awakening will be measured to determine the Cortisol awakening response (CAR)",
+          "timeFrame": "Change from baseline to 6 months (also assessed at 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of cancer-related fatigue using the Brief Fatigue Inventory Questionnaire",
+          "description": "Fatigue will be measured using the Brief Fatigue Inventory Questionnaire (BFI-9) questionnaire. Scale Range: 0 to 90.\n\nThe BFI is a 9-item, 11-point rating scale. The first three questions measure fatigue severity from 0, indicating \"no fatigue,\" to 10, indicating \"as bad as you can imagine,\" at current, usual, and worst levels. The following six questions assess fatigue interference with daily activities. Response options range from 0, indicating \"does not interfere,\" to 10, indicating, \"completely interferes.\" Interpretation: A global fatigue score can be obtained by averaging all the items on the BFI.\n\nHigher scores on the BFI correspond to greater self-reported levels of fatigue",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of cancer-related emotional stress",
+          "description": "Cancer-related emotional stress will be measured using the standardized IES-R (Impact of Event Scale) Questionnaire. Scale Range: 0 to 88 The IES-R is a 22-item self-report measure that assesses subjective distress caused by traumatic events. Items are rated on a 5-point scale ranging from 0 (\"not at all\") to 4 (\"extremely\"). The IES-R yields a total score (ranging from 0 to 88) and subscale scores can also be calculated for the Intrusion, Avoidance, and Hyperarousal subscales.\n\nInterpretation: Higher scores correspond to greater self-reported levels of post-traumatic stress.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of depression",
+          "description": "Depression will be measured using the standardized PHQ-9 (Patient Health Questionnaire). Scale Range: 0 to 27 The PHQ-9 is a multipurpose instrument for screening, diagnosing, monitoring and measuring the severity of depression. PHQ-9 scores of 5, 10, 15, and 20 represents mild, moderate, moderately severe and severe depression.\n\nInterpretation: Higher scores correspond to greater self-reported levels of depression.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of anxiety",
+          "description": "Anxiety will be measured using the standardized GAD-7 (Generalized Anxiety Disorder) questionnaire. Scale Range: 0 to 21 The GAD-7 is an instrument for screening, diagnosing, monitoring and measuring the severity of anxiety. GAD-7 scores of 5, 10, and 15 represents mild, moderate, and severe anxiety.\n\nInterpretation: Higher scores correspond to greater self-reported levels of anxiety.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of fear of progression",
+          "description": "Fear of progression will be measured using the standardized PA-F12 (Fear of progression) questionnaire. Scale Range: 12 - 60 The PAF-12 items are scored on a five-point Likert Scale ranging from 1 ('never') to 5 ('very often'), higher values indicating higher levels of anxiety.\n\nInterpretation: Higher scores correspond to greater self-reported levels of fear of progression.",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Determination of usefulness of the program",
+          "description": "Usefulness of the program will be measured by a questionnaire",
+          "timeFrame": "Assessed at 3, 6, 9 and 12 months"
+        },
+        {
+          "measure": "Determination of Negative Effects",
+          "description": "Negative Effects will be measured using the standardized INEP (Inventory for the Assessment of Negative Effects of Psychotherapy) questionnaire.",
+          "timeFrame": "Assessed at 3, 6, 9 and 12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Determination of recurrence of breast cancer (local relapse or remote metastasis)",
+          "description": "Recurrence of breast cancer (local relapse or remote metastasis) will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Frequency of common cold or virus flu",
+          "description": "Frequency of common cold or virus flu will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        },
+        {
+          "measure": "Frequency of unscheduled medical encounters",
+          "description": "Frequency of unscheduled medical encounters will be determined by a questionnaire",
+          "timeFrame": "Change from baseline to 3 months (also assessed at 6, 9 and 12 months post-baseline)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nEligible are women who\n\n* had breast cancer diagnosed less than 4 years ago, classified as T0-4, N0-1, M0\n* completed acute treatment for breast cancer at least 6 month ago. This applies for surgery, chemotherapy or radiation, whichever occurred last. (Prophylactic treatment with anti-hormones like tamoxifen, aromatase-inhibitors or bisphosphonates is allowed).\n* are competent in German language\n* provide written consent to study procedures\n* are willing to provide the discharge letter from oncology (to verify diagnosis and therapies)\n\nExclusion Criteria:\n\nWomen are not eligible if they\n\n* have a prior history of breast cancer (other than the current one) or any other cancer except basal or squamous cell skin cancer\n* suffer from the following autoimmune and/or inflammatory diseases: rheumatoid arthritis, lupus erythematodes, psoriasis, multiple sclerosis or inflammatory breast cancer\n* have a history of schizophrenia, bipolar disorder, or an established diagnosis of borderline personality disorder\n* have elevated current suicide risk\n* routinely attend psychotherapy, either 1:1, group-therapy or web-based interaction (at least two sessions per month)\n* practice 5 hours or more of vigorous physical activity per week (e.g. training for marathon)\n* have cognitive impairment\n* abuse alcohol or drugs",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "30 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Carsten Watzl, PhD",
+          "affiliation": "Leibniz Research Center (IfADo), TU Dortmund",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Technical University of Dortmund, Leibniz Research Centre for Working Environment and Human Factors",
+          "city": "Dortmund",
+          "zip": "44139",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.51494,
+            "lon": 7.466
+          }
+        },
+        {
+          "facility": "University Medical Center Leipzig, Department of Medical Psychology and Medical Sociology, Section Psychosocial Oncology",
+          "city": "Leipzig",
+          "zip": "04103",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Anonymized individual participant data shall be made available upon request for projects such as meta-analyses after completion of the study",
+      "timeFrame": "after completion of the study",
+      "accessCriteria": "available upon request"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

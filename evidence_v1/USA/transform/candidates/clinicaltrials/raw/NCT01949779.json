@@ -1,0 +1,653 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01949779",
+      "orgStudyIdInfo": {
+        "id": "T4023"
+      },
+      "organization": {
+        "fullName": "Stryker Neurovascular",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "TransForm™ Occlusion Balloon Catheter Registry",
+      "officialTitle": "TransForm™ Occlusion Balloon Catheter Registry"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-09-20",
+      "studyFirstSubmitQcDate": "2013-09-23",
+      "studyFirstPostDateStruct": {
+        "date": "2013-09-25",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-04-16",
+      "resultsFirstSubmitQcDate": "2019-07-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-08-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-08-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-09-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Stryker Neurovascular",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this registry is to collect real world data on the safety and performance of the TransForm™ Occlusion Balloon Catheter when used in current neurointerventional procedures",
+      "detailedDescription": "* This is a prospective, single-arm, non-randomized, multi-center, observational registry.\n* The expected duration for study enrollment is approximately 6 months-1 year.\n* Study participation for each subject will be completed upon removal of the guide catheter post-procedure.\n* Up to 140 subjects will be enrolled at up to 15 study sites. A given site will be allowed to enroll a maximum of 20 subjects.\n* Enrollment in the registry occurs after a signed Informed Consent Form has been obtained, and the index procedure starts."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Intracranial Aneurysms"
+      ],
+      "keywords": [
+        "Coil embolization",
+        "TransForm™ Occlusion Balloon Catheter",
+        "Registry",
+        "Neurointerventional procedures"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "1 Day",
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 81,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TransForm™ Occlusion Balloon Catheter",
+          "description": "TransForm™ Occlusion Balloon Catheter",
+          "interventionNames": [
+            "Device: TransForm™ Occlusion Balloon Catheter"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TransForm™ Occlusion Balloon Catheter",
+          "description": "TransForm™ Occlusion Balloon Catheter",
+          "armGroupLabels": [
+            "TransForm™ Occlusion Balloon Catheter"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Catheters Visualized That Reached Intended Target",
+          "description": "The number of TransForm™ OBC catheters that reached the intended target location confirmed by angiography visualization.",
+          "timeFrame": "intra-procedure"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Angiographic Assessment on Catheter",
+          "description": "Visibility of TransForm™ OBC on angiography",
+          "timeFrame": "intra-procedure"
+        },
+        {
+          "measure": "Procedural Technical Success",
+          "description": "Ability of TransForm™ OBC to Perform as Intended",
+          "timeFrame": "post-procedure"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subject or legal representative is willing and has provided informed consent.\n2. Subject is scheduled to undergo a neurointerventional procedure that may include the use of the occlusion balloon catheter.\n3. Subject is over 18 years of age.\n\nExclusion Criteria:\n\n1. Subject's anatomy precludes safe delivery of the TransForm Occlusion Balloon Catheter.\n2. Subject's pregnant",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "primary care/hospitals",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Desert Regional Medical Center",
+          "city": "Palm Springs",
+          "state": "California",
+          "zip": "92262",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.8303,
+            "lon": -116.54529
+          }
+        },
+        {
+          "facility": "Central Baptist Hospital",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "University of Massachusetts Medical School",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01655",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        },
+        {
+          "facility": "The Ohio State University Wexner Medical Center",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "West Virginia University",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26505",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        },
+        {
+          "facility": "Medical College of Wisconsin",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Hospital Universitario Donostia",
+          "city": "Donostia / San Sebastian",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.31283,
+            "lon": -1.97499
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Enrollment occurred over 13 months at 7 sites in the US and 1 site in Spain. Each site was allowed to enroll up to 20 consecutive subjects. The first subject was enrolled on 12 December 2013 and the enrollment was completed on 12 January 2015. A total of 81 subjects were enrolled.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "TransForm OBC",
+          "description": "TransForm Occlusion Balloon Catheter"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "81"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "79"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "TransForm OBC",
+          "description": "TransForm Occlusion Balloon Catheter"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "81"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54.78",
+                      "spread": "14.51"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "56"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Spain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Catheters Visualized That Reached Intended Target",
+          "description": "The number of TransForm™ OBC catheters that reached the intended target location confirmed by angiography visualization.",
+          "populationDescription": "The number of catheters exceeds the number of participants enrolled, as more than one catheter may have been used for each participant.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Catheters",
+          "timeFrame": "intra-procedure",
+          "typeUnitsAnalyzed": "Catheters",
+          "denomUnitsSelected": "Catheters",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "TransForm™ OBC",
+              "description": "TransForm™ Occlusion Balloon Catheter"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "81"
+                }
+              ]
+            },
+            {
+              "units": "Catheters",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "83"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.59",
+                      "spread": "0.78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Angiographic Assessment on Catheter",
+          "description": "Visibility of TransForm™ OBC on angiography",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Catheters",
+          "timeFrame": "intra-procedure",
+          "typeUnitsAnalyzed": "Catheters",
+          "denomUnitsSelected": "Catheters",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "TransForm™ OBC",
+              "description": "TransForm™ Occlusion Balloon Catheter"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "81"
+                }
+              ]
+            },
+            {
+              "units": "Catheters",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "83"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.78",
+                      "spread": "0.84"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Procedural Technical Success",
+          "description": "Ability of TransForm™ OBC to Perform as Intended",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Catheters",
+          "timeFrame": "post-procedure",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "TransForm™ OBC",
+              "description": "TransForm™ Occlusion Balloon Catheter"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "81"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "TransForm OBC",
+          "description": "TransForm Occlusion Balloon Catheter",
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 81,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 81
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Thromboembolic event",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 81
+            }
+          ]
+        },
+        {
+          "term": "Vessel rupture/perforation",
+          "organSystem": "Surgical and medical procedures",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 81
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Thrombus formation",
+          "organSystem": "Surgical and medical procedures",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 81
+            }
+          ]
+        },
+        {
+          "term": "Thrombus formation",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 81
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "LTE60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Cheryl Fontana, Sr. Manager, Clinical Services",
+        "organization": "Stryker Neurovascular",
+        "email": "cheryl.fontana1@stryker.com",
+        "phone": "510-413-2948"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002532",
+          "term": "Intracranial Aneurysm"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020765",
+          "term": "Intracranial Arterial Diseases"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D000783",
+          "term": "Aneurysm"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

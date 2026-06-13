@@ -1,0 +1,294 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04512157",
+      "orgStudyIdInfo": {
+        "id": "259-2012-71"
+      },
+      "organization": {
+        "fullName": "Stockholm University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Supporting Social and Emotional Competence in Preschool Children",
+      "officialTitle": "Supporting Social and Emotional Competence in Preschool Children: A Study of the Cultural Adaptation and Effectiveness of Preschool Promoting Alternative THinking Strategies (PsPATHS)",
+      "acronym": "PsPATHS_STK"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-09-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-08-04",
+      "studyFirstSubmitQcDate": "2020-08-10",
+      "studyFirstPostDateStruct": {
+        "date": "2020-08-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-08-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-08-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lilianne Eninger",
+        "investigatorTitle": "Associate Professor in Psychology, Senior lecturer",
+        "investigatorAffiliation": "Stockholm University"
+      },
+      "leadSponsor": {
+        "name": "Stockholm University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Göteborg University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Tarleton State University",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Social emotional competence is instrumental to children's health and development. The preschool edition of Promoting Alternative THinking Strategies (PATHS®) intervention was tested in this study. PATHS® is a universal teacher implemented, and school-based intervention. In the first years of this study, PATHS® which was originally developed in the United States was adapted for a Swedish preschool context according to a theoretical model for intervention cultural adaptation entitled the Planned Intervention Adaptation (PIA) protocol. After the cultural adaptation process, a two-wave pre-posttest randomized controlled trial of PsPATHS was conducted with Swedish preschool aged children. Implementation data were collected and outcome evaluation results are being finalized at the time that this protocol is being submitted in August 2020.",
+      "detailedDescription": "Social emotional competence is instrumental to children's health and development. The preschool edition of Promoting Alternative THinking Strategies (PATHS®) intervention was tested in this study. PATHS® is a universal teacher implemented, and school-based intervention that aims to give preschool children a strategically timed boost in social emotional competence. Specifically, PATHS® encourages the use of interactive techniques to bolster children's ability to self-regulate, increase their adeptness at social cognitive problem solving, as well as to gain insight into their emotions and emotions of others. In the first years of this study, PATHS® which was originally developed in the United States was adapted for a Swedish preschool context according to a theoretical model for intervention cultural adaptation entitled the Planned Intervention Adaptation (PIA) protocol. PIA calls for specific small-scale research studies that guide the cultural adaptation of an imported intervention. After the cultural adaptation process, a two-wave pre-posttest randomized controlled trial of PsPATHS was conducted with Swedish preschool aged children. The main study, which this protocol documents was a two-wave pre to posttest, cluster randomized controlled trial with multi-method and informant assessment (N = 285 four and five-year-old Swedish children; 145 wait-list control and 140 intervention). Implementation data were collected and outcome evaluation results are being finalized at the time that this protocol is being submitted in August 2020."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Children's Social Emotional Competence",
+        "Children's Well-being"
+      ],
+      "keywords": [
+        "Promoting Alternative Thinking Strategies",
+        "Preschool",
+        "Children",
+        "Sweden",
+        "PATHS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The design used was a cluster randomized controlled intervention trial, with a waitlist comparison group, with pre and post-testing.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "There was no masking after random assignment of recruited schools to condition (intervention or waitlist control condition)."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 285,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PATHS, Intervention preschools",
+          "type": "EXPERIMENTAL",
+          "description": "These preschools implement PATHS for one school year",
+          "interventionNames": [
+            "Behavioral: Promoting Alternative Thinking Strategies (PATHS), Preschool Edition"
+          ]
+        },
+        {
+          "label": "Waitlist control preschools",
+          "type": "NO_INTERVENTION",
+          "description": "Preschool as usual, which does have some social emotional learning but not PATHS specifically"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Promoting Alternative Thinking Strategies (PATHS), Preschool Edition",
+          "description": "PATHS® is a universal teacher implemented, and school-based intervention that aims to give preschool children a strategically timed boost in social emotional competence. Specifically, PATHS® encourages the use of interactive techniques to bolster children's ability to self-regulate, increase their adeptness at social cognitive problem solving, as well as to gain insight into their emotions and emotions of others.",
+          "armGroupLabels": [
+            "PATHS, Intervention preschools"
+          ],
+          "otherNames": [
+            "PATHS"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Emotional knowledge",
+          "description": "Child task: Emotional knowledge is measured by Assessment of Children's Emotions Skills (ACES; Schultz, et al., 2001) accuracy score. One point was given for each correct response. The 10 faces with clear emotional expressions were used for this scale score. The maximum score was 10, indicating excellent emotional knowledge.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Emotional awareness",
+          "description": "Child task: Emotional awareness is measured by the Challenging Situations Task (Denham et al., 1994) score called Label Emotional responses (sum score across four situations, with one point given for each correct response).",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Social problem solving",
+          "description": "Child task: Social problem solving is measured by the Challenging Situations Task scores for competent, aggressive, and inept responses. For each category of response, a maximum of four was possible.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Inhibitory control 1",
+          "description": "Child task: inhibitory control as measured by number of correct responses on the Knock \\& Tap task from NEPSY (Korkman et al., 1998). Possible range of scores was 0 to 30, with high scores indicating good inhibitory control.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Inhibitory control 2",
+          "description": "Child task: accuracy score on an adapted version of the Day-Night task (Gerstadt et al., 1994). Possible range of scores was 0 to 48, with high scores indicating good inhibitory control.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Working memory",
+          "description": "Child task: accuracy score on the Word span task as an index of working memory (Tillman et al., 2008). The score was calculated as the sum of correctly remembered words in the right order, maximum of 30 points, with high scores indicating good working memory.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Prosocial/communication skills",
+          "description": "Teachers rated Prosocial/communication skills using the Social Competence Scale (SCS; Sorensen et al., 2016). Mean score was calculated, with items rated from 0 to 4. High mean score indicated good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Child's Emotional self-regulation",
+          "description": "Teachers rated Child's Emotional self-regulation using the Social Competence Scale (SCS; Sorensen et al., 2016). Mean score was calculated, with items rated from 0 to 4. High mean score indicated good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Child's Academic skills",
+          "description": "Teachers rated Child's Academic skills using the Social Competence Scale (SCS; Sorensen et al., 2016). Mean score was calculated, with items rated from 0 to 4. High mean score indicated good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Prosocial skills",
+          "description": "Observer ratings: Observers rated Prosocial skills of children across two standardized play situations, ratings were seven items from the Prosocial/communication skills subscale of the SCS. The seven items on this scale were rated on a 5-point Likert scale from 1 (Not At All) to 5 (Very Well). Mean score was calculated, with a high mean score indicating good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Task orientation",
+          "description": "Observer ratings: Task orientation of children was rated on a Task Orientation scale (adapted from Smith-Donald et al., 2007). Interviewers used this scale to rate the child's ability to sustain attention across the performed tasks children. Interviewers rated nine items on a 5-point Likert scale ranging from 0 (Not True At All) to 4 (Very True). Mean score was calculated, with a high mean score indicating good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Social cooperation",
+          "description": "Teacher ratings: Children's social cooperation skills were rated by teachers using the Preschool and Kindergarten Behavior Scale (PKBS; Merrell, 1996). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Social interaction",
+          "description": "Teacher ratings: Children's social interaction skills were rated by teachers using the Preschool and Kindergarten Behavior Scale (PKBS; Merrell, 1996). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating good skills.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Social independence",
+          "description": "Teacher ratings: Children's social independence skills were rated by teachers using the Preschool and Kindergarten Behavior Scale (PKBS; Merrell, 1996). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating good skills.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Social withdrawal (internalizing behavior)",
+          "description": "Teacher ratings: Social withdrawal using the Preschool and Kindergarten Behavior Scales (PKBS; Merrell, 1996). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating a high level of social withdrawal.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Anxiety/somatic problems (internalizing behavior)",
+          "description": "Teacher ratings: Anxiety/somatic problems using the Preschool and Kindergarten Behavior Scales (PKBS; Merrell, 1996). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating a high level of anxiety/somatic problems.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Aggression (externalizing behavior)",
+          "description": "Teacher ratings: Aggression using the Preschool and Kindergarten Behavior Scales (PKBS; Merrell, 1996). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating a high level of aggression.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Inattention",
+          "description": "Teacher ratings: Inattention using the ADHD Rating Scale - IV (DuPaul, Power, Anastopoulos \\& Reid, 1998). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating a high level of inattention problems.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Hyperactivity/Impulsivity",
+          "description": "Teacher ratings: Hyperactivity/Impulsivity using the ADHD Rating Scale - IV (DuPaul, Power, Anastopoulos \\& Reid, 1998). Likert scale ranging from 0 to 3. Mean score was calculated, with a high mean score indicating a high level of hyperactivity/impulsivity problems.",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Preschool level: Public or privately administered preschools with at least one classroom of 4- to 5-year old children, located within one of three selected municipalities in the Stockholm area.\n* Individual child level: Children were included if they attended participating preschools, were 4 or 5 years old and had the written consent of their guardians, and if they had a sufficient understanding of Swedish to perform tasks.\n\nExclusion criteria:\n\n* Preschool level: Types of preschools excluded from study participation were open preschools, parent cooperative run preschools, and family day homes.\n* Individual child level: Children were excluded if they did not have a sufficient understanding of Swedish to perform tasks.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "4 Years",
+      "maximumAge": "5 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lilianne Eninger, PhD",
+          "affiliation": "Stockholm University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Håkan Fischer, Department Head, PhD",
+          "affiliation": "Stockholm University",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34326800",
+          "type": "DERIVED",
+          "citation": "Eninger L, Ferrer-Wreder L, Eichas K, Olsson TM, Hau HG, Allodi MW, Smedler AC, Sedem M, Gull IC, Herkner B. A Cluster Randomized Trial of Promoting Alternative Thinking Strategies (PATHS(R)) With Swedish Preschool Children. Front Psychol. 2021 Jul 13;12:695288. doi: 10.3389/fpsyg.2021.695288. eCollection 2021."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "This study's ethical review does not allow for individual participant data to be in a public repository.\n\nUnder certain circumstances researchers may be able to access de identified data, see IPD Sharing Access Criteria (below)",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "August 2020-August 2023",
+      "accessCriteria": "Individual data requests for de-identified (IPD) will be reviewed for qualified researchers (e.g., Ph.D.) who obtain ethical permission under Swedish ethical regulations/laws for secondary data analysis for purposes such as meta-analysis or confirmation of published study results."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

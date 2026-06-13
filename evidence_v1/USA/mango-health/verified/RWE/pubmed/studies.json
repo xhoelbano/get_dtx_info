@@ -1,0 +1,66 @@
+{
+  "studies": [
+    {
+      "study_id": "27248315",
+      "pmid": "27248315",
+      "title": "Mobile Applications to Improve Medication Adherence.",
+      "authors": "Haase Jamie et al.",
+      "authors_list": [
+        "Haase Jamie",
+        "Farris Karen B",
+        "Dorsch Michael P"
+      ],
+      "publication_year": "2017",
+      "publication_date": "2017-Feb",
+      "journal": "Telemedicine journal and e-health : the official journal of the American Telemedicine Association",
+      "journal_abbrev": "Telemed J E Health",
+      "doi": "10.1089/tmj.2015.0227",
+      "abstract": "UNLABELLED: Background and Introduction: Mobile applications are useful tools to improve medication adherence. As developers continue to improve the features of existing mobile applications, pharmacists should be aware of the current features that are available to patients. There are limited studies available that discuss which applications have the most desirable features. The aim of this study was to compare available mobile applications and identify ideal application features used to improve medication adherence. MATERIALS AND METHODS: As of September 5, 2014, the search terms \"medication adherence\" and \"medication reminder\" generated a total of 225 hits. Ideal application features were used to create an Application Score Card to identify applications with the highest number of ideal features. RESULTS: We identified 30 applications that were written in English, medication related, last updated in 2014, and did not meet any exclusion criteria. The top five applications RxNetwork, Mango Health, MyMeds, C3HealthLink, and HuCare are discussed in detail. DISCUSSION: There are numerous studies looking at medication adherence. However, current literature regarding mobile applications to improve medication adherence is lacking. This article will provide pharmacists with a brief overview of the available mobile applications and features that could be used to improve patient adherence to medications. CONCLUSION: Existing mobile applications to improve medication adherence have ideal features that could help patients take medication as prescribed. Once further research is performed to establish their efficacy, pharmacists could begin to recommend mobile applications to their patients.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [
+        "Computer Security",
+        "Health Insurance Portability and Accountability Act",
+        "Humans",
+        "Medication Adherence",
+        "Mobile Applications",
+        "Motivation",
+        "Pharmacists",
+        "Professional Role",
+        "Reminder Systems",
+        "United States"
+      ],
+      "keywords": [
+        "medication adherence",
+        "mobile applications",
+        "nonadherence"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27248315/",
+      "pmc_id": "PMC12843135",
+      "pdf_available": true,
+      "_matched_query": "\"Mango Health\"",
+      "_raw_xml_path": "evidence/USA/mango-health/candidates/pubmed/raw/27248315.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study explicitly mentions 'Mango Health' by name as one of the top five applications discussed in detail. While the study is not exclusively about Mango Health, it is clearly included as a focus of the analysis.",
+        "matched_elements": [
+          "Mango Health"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study is observational in nature, focusing on the evaluation and comparison of existing mobile applications without any randomization, blinding, or interventional design."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-10T08:13:45.453230Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

@@ -1,0 +1,78 @@
+{
+  "studies": [
+    {
+      "study_id": "41501870",
+      "pmid": "41501870",
+      "title": "Outcomes and Health Economics of Stroke using Rhythmic Auditory Stimulation (OrcHESTRAS): a protocol for a pragmatic, decentralized, longitudinal, multi-phase, withdrawal with randomized re-treatment trial of MR-001 in chronic stroke.",
+      "authors": "Taylor Sabrina R et al.",
+      "authors_list": [
+        "Taylor Sabrina R",
+        "Awad Lou N",
+        "Carlowicz Cecilia A",
+        "Maricich Yuri A",
+        "Finklestein Seth P"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jan-08",
+      "journal": "Trials",
+      "journal_abbrev": "Trials",
+      "doi": "10.1186/s13063-025-09415-3",
+      "abstract": "BACKGROUND: Persistent gait deficits limiting mobility, independence, and quality of life are common after stroke. These deficits also increase fall risk, hospitalizations, and mortality, driving substantial clinical and economic burden. Interventions that improve gait may reduce these risks and associated costs. Rhythmic auditory stimulation (RAS) is a validated technique that enhances gait parameters, including speed, cadence, and stride symmetry in stroke rehabilitation. MR-001 is an autonomous neurorehabilitation system that delivers personalized RAS for home-based walking rehabilitation. This study incorporates pragmatic and controlled design elements, consistent with real-world implementation settings, to evaluate engagement, clinical effectiveness, durability of response, and health economic impact of MR-001 in people living with gait impairment after stroke. METHODS: This decentralized, longitudinal trial combines a pragmatic single-arm intervention phase with a randomized re-treatment phase. Approximately 225 participants with chronic stroke and gait deficit will be enrolled. In Step 1, all participants receive 12 weeks of MR-001 therapy (30 min, 3 times per week) followed by a 12-week washout. In Step 2, participants are randomized to either 12 additional weeks of MR-001 or a 24-week extended washout. The primary endpoint is user engagement, defined as the proportion achieving at least moderate engagement during Step 1. Secondary endpoints include walking endurance, durability of gains, quality of life, activities of daily living, social isolation, and cognitive function. Exploratory analyses include changes to general mobility, effects of re-treatment, subgroup analyses by baseline function and engagement, proportion and predictors of responders, and healthcare resource utilization assessed through claims data. DISCUSSION: This pragmatic trial evaluates MR-001, a technology-enabled, autonomous neurorehabilitation system. The design expands on earlier work to assess engagement, durability, and re-treatment while linking clinical outcomes to claims data to generate preliminary evidence on the economic impact of home-based RAS. Findings will inform strategies to optimize adherence, support payer reimbursement, and guide the integration of MR-001 into long-term stroke care. TRIAL REGISTRATION: ClinicalTrials.gov NCT06051539. Registered on 20 September 2023 https://clinicaltrials.gov/study/NCT06051539 .",
+      "publication_types": [
+        "Journal Article",
+        "Clinical Trial Protocol"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Stroke Rehabilitation",
+        "Stroke",
+        "Pragmatic Clinical Trials as Topic",
+        "Longitudinal Studies",
+        "Treatment Outcome",
+        "Acoustic Stimulation",
+        "Cost-Benefit Analysis",
+        "Recovery of Function",
+        "Chronic Disease"
+      ],
+      "keywords": [
+        "Digital therapeutics",
+        "Gait",
+        "Healthcare resource utilization",
+        "Home-based intervention",
+        "Mobility",
+        "Neuromodulation",
+        "Neurorehabilitation",
+        "Rhythmic auditory stimulation",
+        "Stroke rehabilitation",
+        "Walking"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41501870/",
+      "pmc_id": "PMC12882513",
+      "pdf_available": true,
+      "_matched_query": "\"MR-001\"",
+      "_raw_xml_path": "evidence/USA/mr-001/candidates/pubmed/raw/41501870.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'MR-001' multiple times in the title and abstract, clearly identifying it as the digital therapeutic being evaluated. The description of MR-001 as an autonomous neurorehabilitation system using rhythmic auditory stimulation matches the provided product information. There is no indication that this study is about a different product or a generic intervention.",
+        "matched_elements": [
+          "MR-001",
+          "rhythmic auditory stimulation",
+          "chronic stroke",
+          "autonomous neurorehabilitation system"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The study includes a randomized re-treatment phase, which is a key indicator of an RCT design. While it incorporates pragmatic elements, the presence of randomization and controlled intervention phases aligns it with RCT methodology."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-10T07:34:29.352271Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

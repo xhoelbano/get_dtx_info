@@ -1,0 +1,274 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01192594",
+      "orgStudyIdInfo": {
+        "id": "0906005268"
+      },
+      "organization": {
+        "fullName": "Yale University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Milestones of Adjustment Post-Psychosis",
+      "officialTitle": "Outcomes of Psychiatric Case Manager Training on Medication Adherence, Progression Through the Four Phases of the MAPP Recovery Model, and Quality of Life in Patients With Schizophrenia",
+      "acronym": "MAPP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-09",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-08-30",
+      "studyFirstSubmitQcDate": "2010-08-30",
+      "studyFirstPostDateStruct": {
+        "date": "2010-09-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-09-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-09-08",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Yale University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This nested design clinical outcome study of psychiatric case manager education on disease state, psychopharmacology of schizophrenia, relapse, motivational interviewing, and the process of psychological adjustment post-psychosis (Milestones of Adjustment Post-Psychosis Recovery Model-MAPP) will test the following hypotheses:\n\n1. Medication non-adherence in patients with schizophrenia assigned to case managers who receive MAPP training will decrease from their pre-study rate and from the reported national average after one year enrollment compared to consumers not enrolled in the MAPP arm of the study.\n2. Consumers in the MAPP intervention will have higher Quality of Life Enjoyment and Satisfaction Questionnaire (Q-Les-Q (53) scores than consumers not enrolled in the MAPP at quarterly measures.\n3. Consumers enrolled in the MAPP intervention arm of the study will successfully complete the first two phases of the MAPP Recovery Model in one year.\n4. Consumers in the MAPP intervention arm will have greater symptom reductions at quarterly data points compared to consumers not enrolled in the MAPP intervention arm.",
+      "detailedDescription": "52 psychiatric case managers will receive manualized training in the disease state of schizophrenia, psychotropic medications, motivational interviewing, and relapse prevention. After randomization, 26 case managers will receive additional manualized training in the process of post-psychotic adjustment. Outcomes of 130 consumers (5 per case manager) related to medication adherence, relapse rates, symptom intensity, and quality of life will be evaluated at quarterly intervals over a two-year period. Outcomes of 130 consumers related to medication adherence, relapse rates, symptom intensity, quality of life, and progression through the phases of postpsychotic adjustment (MAPP-Milestones of Adjustment Post-Psychosis Recovery Model) will be evaluated at quarterly intervals via rating scales over a two-year period and the two groups compared."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Schizophrenia",
+        "Quality of Life",
+        "Adjustment, Psychological",
+        "Medication Adherence",
+        "Signs and Symptoms"
+      ],
+      "keywords": [
+        "symptom management",
+        "empowerment",
+        "medication adherence",
+        "recovery",
+        "schizophrenia",
+        "post-psychotic adjustment process",
+        "psychological adjustment",
+        "psychiatric case managers",
+        "psychosis",
+        "insight",
+        "cognitive function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 110,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MAPP Trained Case Managers",
+          "type": "EXPERIMENTAL",
+          "description": "Consumers assigned to case managers who receive training in the Milestones of Adjustment Post-Psychosis Recovery Model",
+          "interventionNames": [
+            "Behavioral: Training in all modules including MAPP Recovery Model"
+          ]
+        },
+        {
+          "label": "Non-MAPP trained case managers",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Consumers of case managers not trained in the Milestones of Adjustment Post-Psychosis Recovery Model",
+          "interventionNames": [
+            "Behavioral: Training in all modules except MAPP Recovery Model"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Training in all modules including MAPP Recovery Model",
+          "description": "50% of the case managers will complete all five modules: Disease state,psychopharmacology,symptom management, motivational interviewing and adherence, and the Milestones of Adjustment Post-Psychosis Recovery Model including the MAPP treatment guide.",
+          "armGroupLabels": [
+            "MAPP Trained Case Managers"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Training in all modules except MAPP Recovery Model",
+          "description": "50% of the case managers in the study will complete only four training modules: Disease state, psychopharmacology, symptom management, and motivational interviewing and adherence. They will not complete the Milestones of Adjustment Post-Psychosis Recovery Model module.",
+          "armGroupLabels": [
+            "Non-MAPP trained case managers"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Medication Adherence",
+          "description": "Specific consumer medication adherence outcome data will be collected quarterly for both groups for two years targeting two specific analyses of change: pharmacy records of prescription refills one year before and quarterly after the educational intervention. These records will be obtained by informed consent from the consumer and respective pharmacies.",
+          "timeFrame": "Two years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Psychological Adjustment Post-Psychosis",
+          "description": "Movement through the four phases of the MAPP: cognitive dissonance, insight, cognitive constancy, and ordinariness and resolution of stage specific themes will be evaluated quarterly for both years of the study and analyzed using latent transitional analysis",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Quality of Life",
+          "description": "The Quality of Life Enjoyment and Satisfaction Questionnaire (Q-Les-Q) will be administered quarterly to consumers in both arms of the study over two years.",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "Symptom Management",
+          "description": "Symptoms associated with anxiety, depression, psychosis, mania,cognitive difficulties, activities of daily living, medication adherence, interpersonal relationships, general health concerns, and common symptom management strategies will be measured quarterly using the Moller-Murphy Symptom Management Assessment Tool",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:Case Managers\n\n* Voluntary basis-includes willingness to administer study tools quarterly for two years to at least five consumers from their assigned caseloads and to keep a log of their activities and reactions.\n\nInclusion Criteria for consumer subjects: 130 in each treatment arm\n\n1. A diagnosis of a schizophrenia spectrum disorder as defined by DSMIV TR (63)\n2. Males and females at least 21 years of age assigned to case managers\n3. Able to understand the requirements of the study\n\nExclusion Criteria:Case Managers\n\n* None, all case managers are eligible for the study\n\nExclusion Criteria: Consumers\n\n* Any DSM-IV Axis I disorder not defined in the inclusion criteria",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mary D Moller, DNP",
+          "affiliation": "Yale University School of Nursing",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The Connection Inc",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06511",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "BACKGROUND",
+          "citation": "Moller, M.D. (2009). Neurobiological responses and schizophrenia and psychotic disorders. In, Stuart, G. Principles and practices of psychiatric nursing, 9th Ed. Chapter 20/ St. Louis: Mosby."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012559",
+          "term": "Schizophrenia"
+        },
+        {
+          "id": "D055118",
+          "term": "Medication Adherence"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D000079102",
+          "term": "Empowerment"
+        },
+        {
+          "id": "D011618",
+          "term": "Psychotic Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019967",
+          "term": "Schizophrenia Spectrum and Other Psychotic Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D010349",
+          "term": "Patient Compliance"
+        },
+        {
+          "id": "D010342",
+          "term": "Patient Acceptance of Health Care"
+        },
+        {
+          "id": "D000074822",
+          "term": "Treatment Adherence and Compliance"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

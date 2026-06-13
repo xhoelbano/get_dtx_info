@@ -1,0 +1,62 @@
+{
+  "studies": [
+    {
+      "study_id": "32425873",
+      "pmid": "32425873",
+      "title": "Follow-Up in Aphasia Caused by Acute Stroke in a Prospective, Randomized, Clinical, and Experimental Controlled Noninvasive Study With an iPad-Based App (Neolexon®): Study Protocol of the Lexi Study.",
+      "authors": "Thunstedt Dennis C et al.",
+      "authors_list": [
+        "Thunstedt Dennis C",
+        "Young Peter",
+        "Küpper Clemens",
+        "Müller Katharina",
+        "Becker Regina"
+      ],
+      "publication_year": "2020",
+      "publication_date": "2020",
+      "journal": "Frontiers in neurology",
+      "journal_abbrev": "Front Neurol",
+      "doi": "10.3389/fneur.2020.00294",
+      "abstract": "Rationale: Treatment of aphasia is still challenging for clinicians and patients. So far, there is proven evidence for \"face-to-face\" speech therapy. However, the digital age potentially offers new and complementary strategies that may add to treatment outcome in a cost-effective way. Neolexon® is a commercial tablet-based software for treatment of aphasia, which can be applied with the help of a therapist or as self-training by the patient. Aims and hypothesis: In the Lexi study, we aim to determine whether treatment with Neolexon® is superior to standard therapy in acute post-stroke aphasia. Sample size estimates: A sample size of 180 patients, 90 for each group, will be included with an assumed dropout rate of ~20%. Methods and design: Prospective, randomized, parallel group, open-label, blinded-endpoint clinical, and experimental controlled non-invasive trial (PROBE). Adult German native speakers with acute aphasia after stroke are included. Computer-generated, blocked, and stratified randomization by aphasia severity will assign patients to one of two groups: 4 weeks of either standard logopedic speech therapy or logopedic speech therapy with the app version of Neolexon®. Both groups will be instructed in self-training: the frequency and duration of self-training will be documented. Screening for aphasia will be performed using the Language Screening Test (LAST). The severity of aphasia in general and in subitems will be assessed using the Bielefelder Aphasie Screening (BIAS) and the Aphasia Check List (ACL). Follow-up will be assessed after 3 months. Study outcomes: Based on the consensus in our study team, we considered a 10% mean difference in the change of percentile rank (PR) of BIAS to be a minimal and clinically important difference. The primary endpoint is defined as a significant difference in BIAS comparing the two groups. Differences in quality of life, Beck Depression Inventory (BDI), and modified Ranking Scale (mRS) will be evaluated as secondary outcome parameters. Discussion: This trial will determine whether speech therapy with the use of Neolexon® is superior to standard logopedic therapy. Subgroups with the greatest response to Neolexon® will be described. The trial was prospectively registered on the \"EU Clinical Trials Register\" (NCT04080817).",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Neolexon®",
+        "acute aphasia",
+        "acute stroke",
+        "app",
+        "hemorrhagic stroke",
+        "ischemic stroke",
+        "speech therapy",
+        "tablet-based therapy"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32425873/",
+      "pdf_available": false,
+      "_matched_query": "\"neolexon Aphasie\"",
+      "_raw_xml_path": "evidence/Germany/neolexon-aphasie/candidates/pubmed/raw/32425873.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'Neolexon®', which is a clear variation of 'neolexon Aphasie', and describes it as a tablet-based software for aphasia treatment. The intervention matches the product description, including its use for speech therapy and self-training. There is no indication that this is about a different product or a generic study.",
+        "matched_elements": [
+          "Neolexon®",
+          "tablet-based software for aphasia treatment",
+          "speech therapy and self-training"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 100,
+        "reason": "The study is described as a prospective, randomized, parallel group, open-label, blinded-endpoint clinical trial, which aligns with the definition of an RCT. Randomization and controlled experimental design are explicitly mentioned."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T19:52:54.448670Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,2927 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03022370",
+      "orgStudyIdInfo": {
+        "id": "BFC043/15"
+      },
+      "organization": {
+        "fullName": "University of KwaZulu",
+        "class": "OTHER"
+      },
+      "briefTitle": "Stepping Stones and Creating Futures Intervention Trial",
+      "officialTitle": "Stepping Stones and Creating Futures Intervention Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-01-05",
+      "studyFirstSubmitQcDate": "2017-01-11",
+      "studyFirstPostDateStruct": {
+        "date": "2017-01-16",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-03-11",
+      "resultsFirstSubmitQcDate": "2020-05-25",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-05-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-06-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Andrew Gibbs",
+        "investigatorTitle": "Principal Investigator, Senior Specialist Scientist",
+        "investigatorAffiliation": "Medical Research Council, South Africa"
+      },
+      "leadSponsor": {
+        "name": "University of KwaZulu",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "London School of Hygiene and Tropical Medicine",
+          "class": "OTHER"
+        },
+        {
+          "name": "Department for International Development, United Kingdom",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "Project Empower",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates whether the behavioural/structural interventions of Stepping Stones and Creating Futures can reduce the incidence of intimate partner violence in urban informal settlements amongst young people. Half the participants will receive the interventions, while the other half will be in a control wait-list, only receiving the intervention after final data collection."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "IPV",
+        "Sexual Violence"
+      ],
+      "keywords": [
+        "informal settlements",
+        "poverty"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1351,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stepping Stones and Creating Futures",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive the Stepping Stones and Creating Futures intervention, comprising of 21 participatory/inter-active sessions, delivered by a trained facilitators. Each session last approximately 3 hours. Sessions are delivered twice a week. Sessions are primarily single sex, with 20 participants per group.",
+          "interventionNames": [
+            "Behavioral: Stepping Stones and Creating Futures"
+          ]
+        },
+        {
+          "label": "Wait-list control",
+          "type": "NO_INTERVENTION",
+          "description": "Participants receive no intervention until after final data collection occurs, at which point they will be offered Stepping Stones and Creating Futures."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Stepping Stones and Creating Futures",
+          "description": "Stepping Stones consists of 10 sessions. It seeks to strengthen relationships and to transform views on gender and in the process impact on exposure to, or participation in, gender-based violence and HIV risk. These cover gender and peer influences our actions; sex and love; conception and contraception; STIs and HIV; safer sex and condoms; GBV; motivations for behaviour (including influences of alcohol and poverty); and communication skills.\n\nCreating Futures is a facilitated group intervention of eleven sessions. It seeks to strengthen livelihoods. The key sessions include: setting medium term livelihood goals, the need for assets and coping with crises; social resources for livelihoods (trust and community participation); getting and keeping jobs; and savings and spending.",
+          "armGroupLabels": [
+            "Stepping Stones and Creating Futures"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Any Past Year Physical Intimate Partner Violence Perpetration (Men) and Experience (Women)",
+          "description": "Physical intimate partner violence is assessed using five items based on the WHO VAW scale. A positive response to any item leads to a person being classified as perpetrating (men) and experiencing (women) in the past year. With 0=none, 1=yes.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Any Past Year Sexual Intimate Partner Violence Perpetration (Men) and Experience (Women)",
+          "description": "Sexual intimate partner violence is assessed using three items based on the WHO VAW scale. A positive response to any item leads to a person being classified as perpetrating (men) and experiencing (women) in the past year. With 0=none, 1=yes.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Past Year Severe Sexual and/or Physical Intimate Partner Violence Perpetration (Men) and Experience (Women)",
+          "description": "Severe sexual and/or physical intimate partner violence perpetration (men) and experience (women) is assessed using 8 items. Past year severe sexual and/or physical IPV is assessed as positive if a person responds to two (or more) items as once, or one item as few (or more), essentially creating a more than once categorization.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Controlling Behaviours",
+          "description": "Controlling behaviours are assessed using a modified Sexual Relationship Power (SRP) scale. Men's control of female sexual partner's and women's experience of controlling behaviours from a male partner. A mean score is calculated with higher scores indicating more controlling (bad). Range: 0-24",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Earnings in Past Month",
+          "description": "A single item question asks \"Considering all the money you earned from jobs or selling things (excluding grants), how much did you earn last month?\" Responses are in Rands and a continuous scale, with no upper limit.",
+          "timeFrame": "24 months post baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Gender Attitudes",
+          "description": "Modified gender equitable men's scale (GEMS) assess participant's gender attitudes. A mean score is calculated with higher scores indicative of more gender inequitable attitudes (range: 0-60)",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Depressive Symptomology",
+          "description": "Past week depressive symptomology is assessed by the Centre for Epidemiological Studies Depression (CESD) scale, with the full twenty items (range 0-60). A mean score is calculated, with higher scores indicating more depression.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Number of Participants Reporting Suicidal Ideation",
+          "description": "Past four week suicidal ideation was assessed using a single item question. Responses are either 0=no, or 1=yes.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Life Circumstances",
+          "description": "Four items modified from the Satisfaction with Life Scale (SWLS) by Denier et al. (1985), with items on a five point Likert Scale (range 0-20) higher scores indicative of greater life satisfaction.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Problem Alcohol Use",
+          "description": "Problem drinking in the past year is assessed using the AUDIT (alcohol use disorders identification test) scale. With a range of 0-40, and recoded with scores of 8 or more classifing a participant as having potentially problematic alcohol use.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Number of People Quarreling With Partner About Alcohol Use",
+          "description": "A single item binary response question asks whether participants have argued about alcohol with their sexual partner in the past year (0=no; 1=yes). Only asked to those who reported alcohol use in the past year.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Last Sexual Partner of Participant is the Main Partner",
+          "description": "A single item assess who the participant last had sex with, with possible responses being: \"main partner\", \"casual partner\", \"once-off sex partner\" or \"ex-partner\". As per the protocol, we recategorised this into either \"1=main partner\" or \"0=other\". Positive change is towards main partner. And the reported number (proportion) is those reporting Main partner.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Transactional Sex Past Year",
+          "description": "Five item scale asks about transactional sex with casual or once-off sexual partners in the past year based on the scale developed and tested by Dunkle et al (2004). Each item has a no/yes response. A response of yes to any is classified as having engaged in transactional sex.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Shame About Lack of Work",
+          "description": "Four items assess participants' feelings of shame about not enough work, based on a scale developed for use in the IMAGES study, with . Mean score calculated, with higher scores indicative of more shame (range: 4-16)",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Stress About Lack of Work",
+          "description": "Four items assess participants' feelings of stress about not enough work, based on a scale developed for the IMAGES study. Mean score calculated, with higher scores indicating more stress (range: 4-20)",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Individual's Ability to Mobilise Money in an Emergency",
+          "description": "A single item asks participants how hard it would be to mobilise R200 (\\~US$15) in an emergency. Those responding it would be \"very difficult, or somewhat difficult\" are classified as finding it hard (=1). Those responding \"fairly easy or easy\" are classified as not finding it hard (=0). Reported number (proportion) is of those finding it hard to mobilise money in an emergency. A positive change is towards a lower proportion.",
+          "timeFrame": "24 months post baseline"
+        },
+        {
+          "measure": "Stolen Because of Hunger in Past Month",
+          "description": "Single item question asks about stealing because of lack of food or money in the past month with responses \"never\", \"once\", \"every week\" or \"every day\". Responses are recoded, as per protocol, into \"0=never\" and \"1=once or more\". The number/proportion of those stealing in the past month is reported. A lower proportion is a positive change.",
+          "timeFrame": "24 months post baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Normally resident in informal settlement cluster\n* Not formally employed\n* Able to communicate in main study languages (English, isiZulu, iXhosa)\n\nExclusion Criteria:\n\n* Under 18\n* Mental deficit (learning difficulty, mental illness or substance abuse)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "30 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andrew Gibbs, PhD",
+          "affiliation": "Gender and Health Research Unit, South African Medical Research Council (SAMRC); Health Economics and HIV/AIDS Research Division (HEARD), University of KwaZulu Natal",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Gender and Health Research Unit, South African Medical Research Council",
+          "city": "Durban",
+          "state": "KwaZulu-Natal",
+          "zip": "4001",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -29.8579,
+            "lon": 31.0292
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28427380",
+          "type": "BACKGROUND",
+          "citation": "Gibbs A, Washington L, Willan S, Ntini N, Khumalo T, Mbatha N, Sikweyiya Y, Shai N, Chirwa E, Strauss M, Ferrari G, Jewkes R. The Stepping Stones and Creating Futures intervention to prevent intimate partner violence and HIV-risk behaviours in Durban, South Africa: study protocol for a cluster randomized control trial, and baseline characteristics. BMC Public Health. 2017 Apr 20;17(1):336. doi: 10.1186/s12889-017-4223-x."
+        },
+        {
+          "pmid": "29624612",
+          "type": "BACKGROUND",
+          "citation": "Gibbs A, Dunkle K, Washington L, Willan S, Shai N, Jewkes R. Childhood traumas as a risk factor for HIV-risk behaviours amongst young women and men living in urban informal settlements in South Africa: A cross-sectional study. PLoS One. 2018 Apr 6;13(4):e0195369. doi: 10.1371/journal.pone.0195369. eCollection 2018."
+        },
+        {
+          "pmid": "29659595",
+          "type": "BACKGROUND",
+          "citation": "Gibbs A, Dunkle K, Jewkes R. Emotional and economic intimate partner violence as key drivers of depression and suicidal ideation: A cross-sectional study among young women in informal settlements in South Africa. PLoS One. 2018 Apr 16;13(4):e0194885. doi: 10.1371/journal.pone.0194885. eCollection 2018."
+        },
+        {
+          "pmid": "31784410",
+          "type": "BACKGROUND",
+          "citation": "Gibbs A, Washington L, Abdelatif N, Chirwa E, Willan S, Shai N, Sikweyiya Y, Mkhwanazi S, Ntini N, Jewkes R. Stepping Stones and Creating Futures Intervention to Prevent Intimate Partner Violence Among Young People: Cluster Randomized Controlled Trial. J Adolesc Health. 2020 Mar;66(3):323-335. doi: 10.1016/j.jadohealth.2019.10.004. Epub 2019 Nov 26."
+        },
+        {
+          "pmid": "41562393",
+          "type": "DERIVED",
+          "citation": "Gibbs A, Mkhwanazi S, Khaula S, Washington L, Sikweyiya Y. A Prospective Analysis of Associations Between Changes in Mental Health and Men's Perpetration of Intimate Partner Violence: Post-Hoc Analysis of Young Men Involved in the Stepping Stones and Creating Futures Trial. J Interpers Violence. 2026 Jan 21:8862605251408126. doi: 10.1177/08862605251408126. Online ahead of print."
+        },
+        {
+          "pmid": "36927500",
+          "type": "DERIVED",
+          "citation": "Oyekunle V, Gibbs A, Tomita A. Assessing the role of depression in reducing intimate partner violence perpetration among young men living in urban informal settlements using a mediation analysis of the Stepping Stones and Creating Futures intervention. Glob Health Action. 2023 Dec 31;16(1):2188686. doi: 10.1080/16549716.2023.2188686."
+        },
+        {
+          "pmid": "35487735",
+          "type": "DERIVED",
+          "citation": "Mannell J, Minckas N, Burgess R, Chirwa ED, Jewkes R, Gibbs A. Does experiencing a traumatic life event increase the risk of intimate partner violence for young women? A cross-sectional analysis and structural equation model of data from the Stepping Stones and Creating Futures intervention in South Africa. BMJ Open. 2022 Apr 29;12(4):e051969. doi: 10.1136/bmjopen-2021-051969."
+        },
+        {
+          "pmid": "32424011",
+          "type": "DERIVED",
+          "citation": "Gibbs A, Dunkle K, Mhlongo S, Chirwa E, Hatcher A, Christofides NJ, Jewkes R. Which men change in intimate partner violence prevention interventions? A trajectory analysis in Rwanda and South Africa. BMJ Glob Health. 2020 May;5(5):e002199. doi: 10.1136/bmjgh-2019-002199."
+        },
+        {
+          "pmid": "30281677",
+          "type": "DERIVED",
+          "citation": "Gibbs A, Jewkes R, Willan S, Washington L. Associations between poverty, mental health and substance use, gender power, and intimate partner violence amongst young (18-30) women and men in urban informal settlements in South Africa: A cross-sectional study and structural equation model. PLoS One. 2018 Oct 3;13(10):e0204956. doi: 10.1371/journal.pone.0204956. eCollection 2018."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Stepping Stones and Creating Futures",
+          "description": "Participants receive the Stepping Stones and Creating Futures intervention, comprising of 21 participatory/inter-active sessions, delivered by a trained facilitators. Each session last approximately 3 hours. Sessions are delivered twice a week. Sessions are primarily single sex, with 20 participants per group."
+        },
+        {
+          "id": "FG001",
+          "title": "Wait-list Control",
+          "description": "Participants receive no intervention until after final data collection occurs, at which point they will be offered Stepping Stones and Creating Futures."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "677"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "674"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "497"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "553"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "180"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "121"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "174"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "109"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Women - Intervention",
+          "description": "Women who received the Stepping Stones and Creating Futures intervention"
+        },
+        {
+          "id": "BG001",
+          "title": "Men - Intervention",
+          "description": "Men who received the intervention"
+        },
+        {
+          "id": "BG002",
+          "title": "Women - Control",
+          "description": "Women in the wait list control"
+        },
+        {
+          "id": "BG003",
+          "title": "Men - Control",
+          "description": "Men in the wait list control"
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "339"
+            },
+            {
+              "groupId": "BG001",
+              "value": "338"
+            },
+            {
+              "groupId": "BG002",
+              "value": "338"
+            },
+            {
+              "groupId": "BG003",
+              "value": "336"
+            },
+            {
+              "groupId": "BG004",
+              "value": "1351"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "336"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1351"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "336"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1351"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "336"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1351"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "677"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "336"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "674"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "South Africa",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "336"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1351"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "336"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1351"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Any Past Year Physical Intimate Partner Violence Perpetration (Men) and Experience (Women)",
+          "description": "Physical intimate partner violence is assessed using five items based on the WHO VAW scale. A positive response to any item leads to a person being classified as perpetrating (men) and experiencing (women) in the past year. With 0=none, 1=yes.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "86"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "155"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "118"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "=0.686",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.92",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.62",
+              "ciUpperLimit": "1.37"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "=0.032",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.71",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.51",
+              "ciUpperLimit": "0.97"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Any Past Year Sexual Intimate Partner Violence Perpetration (Men) and Experience (Women)",
+          "description": "Sexual intimate partner violence is assessed using three items based on the WHO VAW scale. A positive response to any item leads to a person being classified as perpetrating (men) and experiencing (women) in the past year. With 0=none, 1=yes.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "86"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "101"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.555",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.90",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.64",
+              "ciUpperLimit": "1.28"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.072",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.74",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.54",
+              "ciUpperLimit": "1.03"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Past Year Severe Sexual and/or Physical Intimate Partner Violence Perpetration (Men) and Experience (Women)",
+          "description": "Severe sexual and/or physical intimate partner violence perpetration (men) and experience (women) is assessed using 8 items. Past year severe sexual and/or physical IPV is assessed as positive if a person responds to two (or more) items as once, or one item as few (or more), essentially creating a more than once categorization.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "151"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "99"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "171"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "135"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.672",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.93",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.66",
+              "ciUpperLimit": "1.31"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.019",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.70",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.52",
+              "ciUpperLimit": "0.94"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Controlling Behaviours",
+          "description": "Controlling behaviours are assessed using a modified Sexual Relationship Power (SRP) scale. Men's control of female sexual partner's and women's experience of controlling behaviours from a male partner. A mean score is calculated with higher scores indicating more controlling (bad). Range: 0-24",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.75",
+                      "lowerLimit": "9.17",
+                      "upperLimit": "10.32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.96",
+                      "lowerLimit": "9.36",
+                      "upperLimit": "10.56"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "9.70",
+                      "lowerLimit": "9.12",
+                      "upperLimit": "10.22"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "9.96",
+                      "lowerLimit": "9.44",
+                      "upperLimit": "10.47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.984",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.01",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.88",
+              "ciUpperLimit": "0.86"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.839",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "0.06",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.51",
+              "ciUpperLimit": "0.63"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Earnings in Past Month",
+          "description": "A single item question asks \"Considering all the money you earned from jobs or selling things (excluding grants), how much did you earn last month?\" Responses are in Rands and a continuous scale, with no upper limit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Rands",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "565",
+                      "lowerLimit": "443",
+                      "upperLimit": "688"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "988",
+                      "lowerLimit": "798",
+                      "upperLimit": "1177"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "385",
+                      "lowerLimit": "268",
+                      "upperLimit": "503"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "817",
+                      "lowerLimit": "594",
+                      "upperLimit": "1038"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "<0.0001",
+              "statisticalMethod": "Tobit",
+              "statisticalComment": "Log + 1 performed on data",
+              "paramType": "Slope",
+              "paramValue": "0.97",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.43",
+              "ciUpperLimit": "1.51"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.521",
+              "statisticalMethod": "Tobit",
+              "statisticalComment": "Log plus 1 to transform data",
+              "paramType": "Slope",
+              "paramValue": "0.21",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.42",
+              "ciUpperLimit": "0.83"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Gender Attitudes",
+          "description": "Modified gender equitable men's scale (GEMS) assess participant's gender attitudes. A mean score is calculated with higher scores indicative of more gender inequitable attitudes (range: 0-60)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.98",
+                      "lowerLimit": "20.78",
+                      "upperLimit": "23.18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24.99",
+                      "lowerLimit": "23.58",
+                      "upperLimit": "26.39"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "21.65",
+                      "lowerLimit": "20.74",
+                      "upperLimit": "22.72"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "25.15",
+                      "lowerLimit": "23.93",
+                      "upperLimit": "26.38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.718",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "0.25",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.09",
+              "ciUpperLimit": "1.58"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.712",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.30",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.87",
+              "ciUpperLimit": "1.28"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Depressive Symptomology",
+          "description": "Past week depressive symptomology is assessed by the Centre for Epidemiological Studies Depression (CESD) scale, with the full twenty items (range 0-60). A mean score is calculated, with higher scores indicating more depression.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.95",
+                      "lowerLimit": "20.70",
+                      "upperLimit": "23.20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "19.26",
+                      "lowerLimit": "18.06",
+                      "upperLimit": "20.47"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "23.11",
+                      "lowerLimit": "21.86",
+                      "upperLimit": "24.36"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "20.35",
+                      "lowerLimit": "19.26",
+                      "upperLimit": "20.47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.067",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-1.52",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-3.14",
+              "ciUpperLimit": "0.11"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.398",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.75",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-2.48",
+              "ciUpperLimit": "0.99"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Reporting Suicidal Ideation",
+          "description": "Past four week suicidal ideation was assessed using a single item question. Responses are either 0=no, or 1=yes.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "72"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "65"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.228",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.29",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.85",
+              "ciUpperLimit": "1.97"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.558",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.86",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.53",
+              "ciUpperLimit": "1.41"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Life Circumstances",
+          "description": "Four items modified from the Satisfaction with Life Scale (SWLS) by Denier et al. (1985), with items on a five point Likert Scale (range 0-20) higher scores indicative of greater life satisfaction.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.28",
+                      "lowerLimit": "9.82",
+                      "upperLimit": "10.75"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.59",
+                      "lowerLimit": "10.13",
+                      "upperLimit": "11.06"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "9.88",
+                      "lowerLimit": "9.47",
+                      "upperLimit": "10.29"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "10.03",
+                      "lowerLimit": "9.62",
+                      "upperLimit": "10.43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.679",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "0.14",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.52",
+              "ciUpperLimit": "0.80"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.08",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "0.55",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.07",
+              "ciUpperLimit": "1.16"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Problem Alcohol Use",
+          "description": "Problem drinking in the past year is assessed using the AUDIT (alcohol use disorders identification test) scale. With a range of 0-40, and recoded with scores of 8 or more classifing a participant as having potentially problematic alcohol use.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.27",
+                      "lowerLimit": "3.49",
+                      "upperLimit": "5.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.81",
+                      "lowerLimit": "5.86",
+                      "upperLimit": "7.75"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4.62",
+                      "lowerLimit": "3.80",
+                      "upperLimit": "5.45"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "7.97",
+                      "lowerLimit": "6.94",
+                      "upperLimit": "8.99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.810",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.13",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.21",
+              "ciUpperLimit": "0.95"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.041",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-1.03",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-2.01",
+              "ciUpperLimit": "-0.04"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of People Quarreling With Partner About Alcohol Use",
+          "description": "A single item binary response question asks whether participants have argued about alcohol with their sexual partner in the past year (0=no; 1=yes). Only asked to those who reported alcohol use in the past year.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "129"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "160"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "138"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "184"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "79"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.635",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.14",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.67",
+              "ciUpperLimit": "1.92"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.256",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.72",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.41",
+              "ciUpperLimit": "1.27"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Last Sexual Partner of Participant is the Main Partner",
+          "description": "A single item assess who the participant last had sex with, with possible responses being: \"main partner\", \"casual partner\", \"once-off sex partner\" or \"ex-partner\". As per the protocol, we recategorised this into either \"1=main partner\" or \"0=other\". Positive change is towards main partner. And the reported number (proportion) is those reporting Main partner.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "236"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "220"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "243"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "258"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "185"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "138"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "182"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "159"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.526",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.16",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.73",
+              "ciUpperLimit": "1.84"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.931",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.02",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.67",
+              "ciUpperLimit": "1.56"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Transactional Sex Past Year",
+          "description": "Five item scale asks about transactional sex with casual or once-off sexual partners in the past year based on the scale developed and tested by Dunkle et al (2004). Each item has a no/yes response. A response of yes to any is classified as having engaged in transactional sex.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "236"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "220"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "243"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "258"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "111"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "138"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "118"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "146"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.691",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.92",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.63",
+              "ciUpperLimit": "1.36"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.692",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.92",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.60",
+              "ciUpperLimit": "1.40"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Shame About Lack of Work",
+          "description": "Four items assess participants' feelings of shame about not enough work, based on a scale developed for use in the IMAGES study, with . Mean score calculated, with higher scores indicative of more shame (range: 4-16)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.3",
+                      "lowerLimit": "9.9",
+                      "upperLimit": "10.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.7",
+                      "lowerLimit": "10.4",
+                      "upperLimit": "11.1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "10.7",
+                      "lowerLimit": "10.4",
+                      "upperLimit": "10.9"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "10.9",
+                      "lowerLimit": "10.6",
+                      "upperLimit": "11.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.137",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.31",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.72",
+              "ciUpperLimit": "0.24"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.721",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.09",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.58",
+              "ciUpperLimit": "0.40"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Stress About Lack of Work",
+          "description": "Four items assess participants' feelings of stress about not enough work, based on a scale developed for the IMAGES study. Mean score calculated, with higher scores indicating more stress (range: 4-20)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.0",
+                      "lowerLimit": "11.6",
+                      "upperLimit": "12.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11.8",
+                      "lowerLimit": "11.5",
+                      "upperLimit": "12.2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12.1",
+                      "lowerLimit": "11.8",
+                      "upperLimit": "12.5"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "12.0",
+                      "lowerLimit": "11.7",
+                      "upperLimit": "12.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.332",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.23",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.70",
+              "ciUpperLimit": "0.24"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.468",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.19",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.71",
+              "ciUpperLimit": "0.32"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Individual's Ability to Mobilise Money in an Emergency",
+          "description": "A single item asks participants how hard it would be to mobilise R200 (\\~US$15) in an emergency. Those responding it would be \"very difficult, or somewhat difficult\" are classified as finding it hard (=1). Those responding \"fairly easy or easy\" are classified as not finding it hard (=0). Reported number (proportion) is of those finding it hard to mobilise money in an emergency. A positive change is towards a lower proportion.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.174",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.30",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.89",
+              "ciUpperLimit": "1.90"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.129",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.49",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.89",
+              "ciUpperLimit": "2.50"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Stolen Because of Hunger in Past Month",
+          "description": "Single item question asks about stealing because of lack of food or money in the past month with responses \"never\", \"once\", \"every week\" or \"every day\". Responses are recoded, as per protocol, into \"0=never\" and \"1=once or more\". The number/proportion of those stealing in the past month is reported. A lower proportion is a positive change.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "24 months post baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Women - Intervention",
+              "description": "Women who received the Stepping Stones and Creating Futures intervention"
+            },
+            {
+              "id": "OG001",
+              "title": "Men - Intervention",
+              "description": "Men who received the intervention"
+            },
+            {
+              "id": "OG002",
+              "title": "Women - Control",
+              "description": "Women in the wait list control"
+            },
+            {
+              "id": "OG003",
+              "title": "Men - Control",
+              "description": "Men in the wait list control"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "260"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "237"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "285"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "268"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "91"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "105"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.174",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.30",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.89",
+              "ciUpperLimit": "1.90"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.836",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.96",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.64",
+              "ciUpperLimit": "1.43"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "24 months of follow up",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Women - Intervention",
+          "description": "Women who received the Stepping Stones and Creating Futures intervention",
+          "deathsNumAffected": 5,
+          "deathsNumAtRisk": 339,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 339,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 339
+        },
+        {
+          "id": "EG001",
+          "title": "Men - Intervention",
+          "description": "Men who received the intervention",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 338,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 338,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 338
+        },
+        {
+          "id": "EG002",
+          "title": "Women - Control",
+          "description": "Women in the wait list control",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 338,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 338,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 338
+        },
+        {
+          "id": "EG003",
+          "title": "Men - Control",
+          "description": "Men in the wait list control",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 336,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 336,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 336
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Violence experience",
+          "organSystem": "Social circumstances",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Participants experienced violence other men",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 339
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 338
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 338
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 336
+            }
+          ]
+        },
+        {
+          "term": "Hospitalisation",
+          "organSystem": "Social circumstances",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "We did not collect detailed information on causes of hospitalisation",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 339
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 338
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 338
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 336
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr Andrew Gibbs",
+        "organization": "SAMRC",
+        "email": "andrew.gibbs@mrc.ac.za",
+        "phone": "+27(0)312034899"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2016-09-01",
+          "uploadDate": "2020-05-12T08:19",
+          "filename": "Prot_000.pdf",
+          "size": 991917
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2018-09-18",
+          "uploadDate": "2020-05-12T08:21",
+          "filename": "SAP_001.pdf",
+          "size": 653994
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2015-11-07",
+          "uploadDate": "2020-05-12T08:23",
+          "filename": "ICF_002.pdf",
+          "size": 622687
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": true
+}

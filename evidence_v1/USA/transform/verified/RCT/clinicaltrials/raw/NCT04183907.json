@@ -1,0 +1,205 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04183907",
+      "orgStudyIdInfo": {
+        "id": "H19-01533"
+      },
+      "organization": {
+        "fullName": "Simon Fraser University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Preventing Risk for Metabolic Syndrome in Workaholics: An Intervention",
+      "officialTitle": "Preventing Risk for Metabolic Syndrome in Workaholics: An Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-09-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-09-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-11-29",
+      "studyFirstSubmitQcDate": "2019-11-29",
+      "studyFirstPostDateStruct": {
+        "date": "2019-12-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-09-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lieke ten Brummelhuis",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Simon Fraser University"
+      },
+      "leadSponsor": {
+        "name": "Simon Fraser University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Fraser Health",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Given the serious nature of the health risks workaholics face, it is important to understand how the health risks of workaholics can be mitigated. Blue Mesa Health (BMH), partner in this research, has developed a digital lifestyle intervention program, Transform, that aims to prevent or delay the onset of type 2 diabetes through incremental changes to health behaviours. The program's participants work to improve their diet and physical activity levels with the guidance of a smartphone app and a remote health coach. The researchers designed a study to examine if Transform is particularly effective for workaholics as compared to non-workaholics. The goal of this study is to test the effectiveness of Transform in improving workaholics' and non-workaholics' health and work outcomes.",
+      "detailedDescription": "The study that BMH and SFU will coordinate together consists of the following steps:\n\n1. A screening and eligibility survey (3 min) that determines a participant's risk for type 2 diabetes.\n2. Participants receive an email informing them of their relative risk (above average or below average).\n\n   1. Above average risk: Participants are invited to participate in the study. Of the interested participants 100 will be randomly assigned to the Transform group or the Control group (n = 50 in each group). They have the option of deferring study enrollment until after an onsite information session.\n   2. Below average risk: Participants are informed that they do not qualify to participate in Transform but they are welcome to participate in the Control group. There are 50 spots for below risk participants in the Control Group (total in control group = 100).\n3. The information session will take place for eligible participants assigned to the Transform group. Attending this session is voluntary.\n4. Both groups (Transform and Control) complete Monitor Survey 1 including questions on health behaviours, workaholism and work outcomes.\n5. The Transform intervention delivers weekly learning sessions and health coaching via the Transform mobile app to initiate and sustain changes to health behaviors. Participants receive a wireless scale at the start of Transform, and a wearable activity tracker (Fitbit) after 4 weeks provided that they meet the minimum engagement criteria . Both devices synchronize with the Transform app to transmit and automatically track activity and weight data. The program runs for six months; 4 months of core programing and 2 months of maintenance programing.\n6. At month 3, the Transform group and Control group are invited to complete Monitor Survey 2 (15-minutes) to report their health, well-being and work outcomes. This survey is meant to capture Transform's short-term effectiveness.\n7. At month 6, when the Transform maintenance program ends, Monitor Survey 3 is sent to the Transform and Control group participants to capture Transform's longer-term effectiveness on participants' health, well-being and work outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PreDiabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "There will be one group that participates in the intervention, and one control group that does not.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Interested employees working at Fraser Health can sign up to our study. They will fill in a prediabetes check list. By filling out this check list (online survey) participants' the Blue Mesa Health portal assigns a participant number to each participant. The names of participants are stored on the portal.\n\nParticipants scoring as 'risk for prediabetes' are invited to participate in the study. Of the interested participants 100 will be randomly assigned to the Transform group or the Control group (n = 50 in each group). Participants will know whether they participate in the lifestyle intervention (Transform program) or not. The researchers do not know (it is an online program) although they could in theory look up in the data which person is in the control vs treatment group."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 210,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "The control group completes three questionnaires in months 1, 3 and 6, including questions on health behaviours, workaholism and work outcomes."
+        },
+        {
+          "label": "Transform",
+          "type": "EXPERIMENTAL",
+          "description": "Intervention (see next page)",
+          "interventionNames": [
+            "Behavioral: Transform"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Transform",
+          "description": "The Partner, Blue Mesa Health, has developed a lifestyle intervention program for pre-diabetics that aims to prevent or delay the onset of type 2 diabetes through incremental changes to health behaviours. Transform is based on the CDC's National Diabetes Prevention Program (DPP). Blue Mesa Health adapted the National DPP into a digital experience by combining the use of technology- an app, wearable activity trackers (Fitbit) and digital scales- with the professional guidance of remote health coaches.\n\nIt is a 6-month intervention that helps individuals establish healthier lifestyle habits. Each participant strives to achieve 2 primary goals:\n\nAttaining 5 to 7 percent weight loss from their starting bodyweight Engaging in at least 150 minutes of weekly physical activity",
+          "armGroupLabels": [
+            "Transform"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Health outcomes",
+          "description": "Weight loss",
+          "timeFrame": "3 to 6 months"
+        },
+        {
+          "measure": "Work outcomes",
+          "description": "lower absenteeism",
+          "timeFrame": "3 to 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Employees who work 24 hours (3 days) per week or more.\n\nExclusion Criteria:\n\n* Pre-existing diabetes (I and II)\n* Pregnancy\n* End stage Renal disease",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Fraser Health",
+          "city": "Surrey",
+          "state": "British Columbia",
+          "zip": "V3T OH1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.10635,
+            "lon": -122.82509
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Electronic data collected in this study will be uploaded to the data repository of an academic journal, ONLY if the journal requires this. Some journals in health sciences and psychology require authors to share their data so that other researchers can re-analyze results or have statisticians check the analyses before publication. The de-identified data that will be uploaded to an online repository will not contain information that could identify participants (e.g., no names, email addresses, date of birth) and hence, does not increase the participants' risk or re-identification. Once data is shared with a journal, participants will be unable to withdraw their data. Participants can decide up to two months after completing the study, to withdraw their data."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

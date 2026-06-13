@@ -1,0 +1,2625 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04636528",
+      "orgStudyIdInfo": {
+        "id": "SH-RCT-CS-US-01"
+      },
+      "organization": {
+        "fullName": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Digital Versus Conventional Physical Therapy for Chronic Shoulder Tendinopathy",
+      "officialTitle": "Digital Care Program for Chronic Shoulder Tendinopathy Versus Conventional Physical Therapy: a Prospective, Randomized Controlled Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-08-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-16",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-12-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-11-18",
+      "studyFirstSubmitQcDate": "2020-11-18",
+      "studyFirstPostDateStruct": {
+        "date": "2020-11-19",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-12-10",
+      "resultsFirstSubmitQcDate": "2025-01-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-01-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "University of California, San Francisco",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-center, prospective, randomised, controlled study, with two parallel groups, designed to assess the clinical impact of a digital exercise program against conventional rehabilitation for shoulder tendonitis. The hypothesis is that all the clinical outcomes measured will significantly improve after the program, and patients using this novel system will attain at least the same outcomes than the ones attained by the conventional PT group.",
+      "detailedDescription": "Shoulder pain is highly prevalent, being the third main complaint in primary care settings.There is a wide range of reported incidence and prevalence rates, with a median of 24.8% of adults reporting shoulder pain every month. In developed countries, 1% of adults annually consult a primary care provider due to shoulder pain.\n\nAround 65 to 70% of shoulder pain complaints involve problems in the rotator cuff (RTC) tendons, with incidence rising higher after the 4th decade of life.Abundant data from across the world is available on the prevalence of RTC pathologies.\n\nRTC dysfunction represent a huge burden for healthcare systems, insurance companies and employers alike. Shoulder problems account for 2.4% of all general practitioner consultations in the UK, and 4.5 million visits to physicians annually in the USA. One study in the UK20 estimated that nearly £310 million is spent on medical appointments in the first 6 months of shoulder pain onset, and additional costs of surgical procedures are estimated at approximately £30 million/year, with up to 50% of these costs related to sick leave from paid employment. More than 300,000 surgical repairs for RTC pathologies are performed annually in the USA, and the annual financial burden of RTC management was also estimated at $3 billion.\n\nA myriad of international clinical practice guidelines have been put forth over the years, outlining the management of pain-causing shoulder disorders. Most causes of mild-to-moderate and gradual onset shoulder pain are treated initially with conservative care. Indeed, many recent studies and systematic reviews, as well as the American Academy of Orthopaedic Surgeons guidelines, support that firstly the patient should be directed to a physical therapy (PT) program and not surgery. For some specific conditions (e.g., symptomatic small to medium full-thickness RTC tears), strong evidence further supports that both PT and operative treatment attain significant improvements in patient-reported outcomes. Of note, another systematic review on treatment options for shoulder pain suggests that passive modalities, such as manual therapy, electrotherapy and taping should be avoided as mono-therapy but that they could, in specific cases, provide additional benefit when utilized in conjunction with therapeutic exercise programs. This suggests that the exercise component of PT is fundamental in the treatment of painful shoulder disorders.\n\nRegarding rehabilitation setting, some studies show that home-based therapy, based on exercise, could be as effective as conventional PT interventions. This is in line with the recent trends in healthcare delivery, moving away from inpatient care and towards home-based care with the intent of improving cost-effectiveness. Furthermore, the need for home-based digital solutions is now felt more acutely than ever, in the face of the current pandemic. In this context, solutions enabling home-based rehabilitation without requiring real-time human supervision can be key to improving effectiveness and lowering costs, while keeping all stakeholders safe. Indeed, there are studies demonstrating the potential and cost-effectiveness of shoulder postoperative care and rehabilitation through telehealth solutions.\n\nHowever, while evidence is growing that digital therapeutics (DTx) can improve outcomes, personalize care and decrease costs, there is still much ground to be explored in the field of digital therapy following RCR. Several studies can be found on the validation/development of systems/algorithms for monitoring shoulder motion to assist clinicians on patient evaluation but these do not meet the aforementioned needs and cannot be considered digital therapeutics.\n\nThere have been some advances on new technologies for shoulder rehabilitation, namely using wearable sensors and augmented reality. Of note, some of these studies focus on systems based on inertial motion trackers that can be used by the patient at home, under remote monitoring from the physical therapist. However, these are either in very preliminary stages of development or validation, with no clinical validation studies performed, or are directed at rehabilitation after stroke.\n\nSWORD Health has developed a novel motion tracking-based digital biofeedback system for home-based physical rehabilitation - SWORD Phoenix - which is an FDA-listed class II medical device. The company has previously conducted two pilot studies (NCT03047252; NCT03045549) comparing a digital therapy program using this device against conventional face-to-face physical therapy. These studies have proven the feasibility, safety and effectiveness of this digital therapeutic on rehabilitation after total knee and hip arthroplasty.\n\nThis is a single-center, prospective, randomised, controlled study, with two parallel groups, designed to assess the clinical impact of a digital exercise program against conventional rehabilitation for shoulder tendonitis. The hypothesis is that all the clinical outcomes measured will significantly improve after the program, and patients using this novel system will attain at least the same outcomes than the ones attained by the conventional PT group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Musculoskeletal Pain",
+        "Chronic Shoulder Pain",
+        "Shoulder Tendinopathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "single-center, prospective, randomised, controlled study, with two parallel groups",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Blinding of investigators and patients regarding allocation arm will not be possible, given the nature of the intervention. Analysis of study results will be performed by an independent statistician at UCSF.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Digital Rehabilitation",
+          "type": "EXPERIMENTAL",
+          "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist",
+          "interventionNames": [
+            "Device: Digital rehabilitation"
+          ]
+        },
+        {
+          "label": "Conventional Rehabilitation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions",
+          "interventionNames": [
+            "Device: Conventional rehabilitation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Digital rehabilitation",
+          "description": "Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist.",
+          "armGroupLabels": [
+            "Digital Rehabilitation"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Conventional rehabilitation",
+          "description": "Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week).",
+          "armGroupLabels": [
+            "Conventional Rehabilitation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in the Shortened Disabilities of the Arm, Shoulder and Hand Questionnaire (QuickDASH)",
+          "description": "Shoulder physical function and symptoms will be measured using the shortened Disabilities of the Arm, Shoulder and Hand questionnaire QuickDASH, ranging from 0 (zero;non-disability) to 100 (maximum disability)",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Shoulder Pain - Worst Pain Level",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your worst pain in the last 24 hours?\".",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Surgery Intent",
+          "description": "Measured through the following question: \"What do you think are the chances you will get shoulder surgery in the next 12 months, in %?\". Minimum and maximum values of the scale are respectively 0 and 100%, with lower values representing a lower chance.",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Anxiety",
+          "description": "Change in the General Anxiety Disorder-7 scale score. Minimum score zero; maximum score 21. Lower scores indicate less severe anxiety.",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Patient Satisfaction With Intervention",
+          "description": "Measured through the following question: \"On a scale from 0 to 10, how likely would you recommend this program to a friend or colleague?\". Minimum value is zero and maximum is 10. Higher scores translate higher satisfaction.",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Change in Shoulder Pain - Least Pain Level",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your least pain in the last 24 hours?\".",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Change in Shoulder Pain - Average Pain Level",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your pain over the last 7 days?\".",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Depression",
+          "description": "Change in the Patient Health Questionnaire 9 - 7 scale score. Minimum score zero; maximum score 27. Lower scores indicate less severe depression.",
+          "timeFrame": "8 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Dropout Rate",
+          "description": "Rate of patients who dropout from the program",
+          "timeFrame": "Program-end"
+        },
+        {
+          "measure": "Total Sessions",
+          "description": "Number of sessions performed at program-end",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Treatment Intensity",
+          "description": "Total number of minutes spent doing exercise sessions.",
+          "timeFrame": "Between baseline and 8 weeks."
+        },
+        {
+          "measure": "Frequency of Sessions Per Week",
+          "description": "Number of sessions performed per week in the 8-week rehabilitation program",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Retention Rate",
+          "description": "Number of participants that completed the 8 week program.",
+          "timeFrame": "Between baseline and 8 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects aged between 18 and 80 years of age at enrolment\n2. Reporting intermittent or persistent shoulder pain for at least 12 weeks, and/or present at least 50% of the time in the past 6 months\n3. Lack of visual/audio or cognitive impairment interfering with the ability to understand or comply with the program\n\nExclusion Criteria:\n\n1. Non-English speaking\n2. Residing outside greater SF area\n3. Known pregnancy\n4. Submitted to spinal surgery less than 3 months ago\n5. Symptoms and/or signs indicative of possible infectious disorder\n6. Referred pain from spine and/or thoracic outlet syndrome\n7. Active cancer diagnosis or undergoing treatment for cancer\n8. Cardiac, respiratory or other known disorder incompatible with at least 20 minutes of light to moderate physical activity\n9. Concomitant neurological disorder (e.g. stroke, multiple sclerosis, Parkinson's disease)\n10. Dementia or psychiatric disorders precluding patient from complying with a home-based exercise program\n11. Illiteracy and/or serious visual or auditory impairment interfering with communication or compliance",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sam Pak, PT",
+          "affiliation": "University of California, San Francisco",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Physical Medicine and Rehabilitation Clinic",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94158",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37490337",
+          "type": "DERIVED",
+          "citation": "Pak SS, Janela D, Freitas N, Costa F, Moulder R, Molinos M, Areias AC, Bento V, Cohen SP, Yanamadala V, Souza RB, Correia FD. Comparing Digital to Conventional Physical Therapy for Chronic Shoulder Pain: Randomized Controlled Trial. J Med Internet Res. 2023 Aug 18;25:e49236. doi: 10.2196/49236."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The study protocol will be made available in PDF format. Aggregate study results, with anonymised individual participant data will be made available in Excel format",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Upon study publication, for at least five years.",
+      "accessCriteria": "Study protocol will be made available in clinicaltrials.gov and the excel file with the aggregate results will be made available upon study publication, for at least 5 years."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Digital Rehabilitation",
+          "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+        },
+        {
+          "id": "FG001",
+          "title": "Conventional Rehabilitation",
+          "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "46"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "44"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "39"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "35"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Baseline characteristics were analyzed presented for participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from the baseline analysis. As a result, the total number of participants included in the baseline analysis differs from the overall number of participants enrolled in the study.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Digital Rehabilitation",
+          "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+        },
+        {
+          "id": "BG001",
+          "title": "Conventional Rehabilitation",
+          "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face PT sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face PT sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, PTs will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "41"
+            },
+            {
+              "groupId": "BG001",
+              "value": "41"
+            },
+            {
+              "groupId": "BG002",
+              "value": "82"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49.7",
+                      "spread": "12.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50.8",
+                      "spread": "12.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50.3",
+                      "spread": "12.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<25",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "25-40",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                },
+                {
+                  "title": "40-60",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36"
+                    }
+                  ]
+                },
+                {
+                  "title": ">60",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex/Gender, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Woman",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                },
+                {
+                  "title": "Man",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "38"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prefer not to answer",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Asian or Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "White or Caucasian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41"
+                    }
+                  ]
+                },
+                {
+                  "title": "Multiracial or biracial",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prefer not to answer",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body Mass Index, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "Kg/m2",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24.21",
+                      "lowerLimit": "21.32",
+                      "upperLimit": "27.00"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25.36",
+                      "lowerLimit": "22.48",
+                      "upperLimit": "29.30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24.49",
+                      "lowerLimit": "22.03",
+                      "upperLimit": "28.24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body Mass Index, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Underweight (<18.5)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Normal (18.5-25)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    }
+                  ]
+                },
+                {
+                  "title": "Overweight (25-30)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Obese (30-40)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Morbidly obese (>40)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education Level",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Some high school, general educational development, or less",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Some college or college degree",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40"
+                    }
+                  ]
+                },
+                {
+                  "title": "Some graduate or graduate degree",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Employment Status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Employed (part-time or full-time)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "56"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unemployed (seeking opportunities)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not employed and not seeking work",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prefer not to answer",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Weekly exercise levels",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "None",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Less than 1 hour",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 1 and 2.5 hours",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": ">2.5 hours",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Laterality of shoulder pain",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Right",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50"
+                    }
+                  ]
+                },
+                {
+                  "title": "Left",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": "Both",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Previous physical therapy",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Previous or scheduled shoulder surgery",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Smoking status",
+          "description": "Number of participants who reported being current smokers at baseline measured through the question \"Do you smoke?\". Participants were classified as smokers or non-smokers based on their responses.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "QuickDASH",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25",
+                      "lowerLimit": "18.18",
+                      "upperLimit": "38.64"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25",
+                      "lowerLimit": "18.18",
+                      "upperLimit": "35.23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25",
+                      "lowerLimit": "18.18",
+                      "upperLimit": "36.93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pain level - worst",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your worst pain in the last 24 hours?\".",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6",
+                      "lowerLimit": "4.00",
+                      "upperLimit": "7.50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5",
+                      "lowerLimit": "3.50",
+                      "upperLimit": "7.00"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6.00",
+                      "lowerLimit": "4.00",
+                      "upperLimit": "7.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pain level - least",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your least pain in the last 24 hours?\".",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1.00",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "2.00"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2.00",
+                      "lowerLimit": "1.00",
+                      "upperLimit": "3.50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1.00",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "3.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pain level - average",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your pain over the last 7 days?\".",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4.00",
+                      "lowerLimit": "3.00",
+                      "upperLimit": "6.00"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5.00",
+                      "lowerLimit": "3.00",
+                      "upperLimit": "6.00"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4.00",
+                      "lowerLimit": "3.00",
+                      "upperLimit": "6.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anxiety",
+          "description": "Measured through the General Anxiety Disorder-7 scale score. Minimum score zero; maximum score 21. Lower scores indicate less severe anxiety.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3.00",
+                      "lowerLimit": "1.00",
+                      "upperLimit": "5.00"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2.00",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "6.00"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2.00",
+                      "lowerLimit": "0.75",
+                      "upperLimit": "5.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Depression",
+          "description": "Measured through the Patient Health Questionnaire 9 - 7 scale score. Minimum score zero; maximum score 27. Lower scores indicate less severe depression.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3.00",
+                      "lowerLimit": "1.00",
+                      "upperLimit": "5.00"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2.00",
+                      "lowerLimit": "0.50",
+                      "upperLimit": "4.50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3.00",
+                      "lowerLimit": "1.00",
+                      "upperLimit": "5.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Surgery Intent",
+          "description": "Measured through the following question: \"What do you think are the chances you will get shoulder surgery in the next 12 months, in %?\". Minimum and maximum values of the scale are respectively 0 and 100%, with lower values representing a lower chance.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "percentage",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0.00",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "3.50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1.00",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "15.00"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0.00",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "10.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities - High blood pressure",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities - High blood sugar or diabetes",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities - Cardiac conditions",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities - Respiratory conditions",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comorbidities - None",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in the Shortened Disabilities of the Arm, Shoulder and Hand Questionnaire (QuickDASH)",
+          "description": "Shoulder physical function and symptoms will be measured using the shortened Disabilities of the Arm, Shoulder and Hand questionnaire QuickDASH, ranging from 0 (zero;non-disability) to 100 (maximum disability)",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.5",
+                      "lowerLimit": "7.7",
+                      "upperLimit": "23.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.1",
+                      "lowerLimit": "5.8",
+                      "upperLimit": "20.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "nonInferiorityComment": "A minimal detectable difference of 11.2 points was selected based on the psychometric properties of the scale. Considering a power of 80%, a 2-sided 0.05 significance level, and a 10% dropout rate, 82 patients would be necessary to detect an 11.2-point difference between the 2 groups.",
+              "pValue": "0.75",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "quantile mixed-effects model",
+              "statisticalComment": "a robust method on the medians",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-1.8",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-13.5",
+              "ciUpperLimit": "9.8"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "0.71",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "0.84",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.32",
+              "ciUpperLimit": "2.16"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Shoulder Pain - Worst Pain Level",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your worst pain in the last 24 hours?\".",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.6",
+                      "lowerLimit": "2.2",
+                      "upperLimit": "3.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.5",
+                      "lowerLimit": "1.2",
+                      "upperLimit": "1.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "0.12",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Quantile mixed-effects model",
+              "statisticalComment": "a robust method on the medians",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-0.6",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.4",
+              "ciUpperLimit": "-0.2"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Surgery Intent",
+          "description": "Measured through the following question: \"What do you think are the chances you will get shoulder surgery in the next 12 months, in %?\". Minimum and maximum values of the scale are respectively 0 and 100%, with lower values representing a lower chance.",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.3",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "23.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.2",
+                      "lowerLimit": "0.00",
+                      "upperLimit": "25.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "0.89",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Quantile mixed-effects model",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-2.2",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-34.6",
+              "ciUpperLimit": "30.2"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Anxiety",
+          "description": "Change in the General Anxiety Disorder-7 scale score. Minimum score zero; maximum score 21. Lower scores indicate less severe anxiety.",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.8",
+                      "lowerLimit": "2.1",
+                      "upperLimit": "3.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.2",
+                      "lowerLimit": "1.7",
+                      "upperLimit": "2.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "0.51",
+              "statisticalMethod": "Quantile mixed-effects model",
+              "statisticalComment": "a robust method on the medians",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-0.3",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.0",
+              "ciUpperLimit": "0.5"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Patient Satisfaction With Intervention",
+          "description": "Measured through the following question: \"On a scale from 0 to 10, how likely would you recommend this program to a friend or colleague?\". Minimum value is zero and maximum is 10. Higher scores translate higher satisfaction.",
+          "populationDescription": "This analysis includes only participants who completed the allocated digital or conventional interventions.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "39"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "35"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8",
+                      "lowerLimit": "5.00",
+                      "upperLimit": "10.00"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10",
+                      "lowerLimit": "9.00",
+                      "upperLimit": "10.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "<0.001",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Median Difference (Final Values)",
+              "paramValue": "2.00",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Shoulder Pain - Least Pain Level",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your least pain in the last 24 hours?\".",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.7",
+                      "lowerLimit": "0.6",
+                      "upperLimit": "0.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.7",
+                      "lowerLimit": "0.5",
+                      "upperLimit": "0.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "<.001",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Quantile mixed-effects model",
+              "statisticalComment": "a robust method on the medians",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-1.1",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.5",
+              "ciUpperLimit": "0.6"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Shoulder Pain - Average Pain Level",
+          "description": "Shoulder pain level within the will be measured through the following question: \"On a scale of 0 to 10, where 0 is no pain and 10 the worst pain imaginable, how would you rate your pain over the last 7 days?\".",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.1",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "2.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.5",
+                      "lowerLimit": "1.4",
+                      "upperLimit": "1.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "<.001",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Quantile mixed-effects model",
+              "statisticalComment": "a robust method on the medians",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-0.9",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.4",
+              "ciUpperLimit": "-0.5"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Depression",
+          "description": "Change in the Patient Health Questionnaire 9 - 7 scale score. Minimum score zero; maximum score 27. Lower scores indicate less severe depression.",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "8 weeks after initiation of rehabilitation program",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.7",
+                      "lowerLimit": "2.0",
+                      "upperLimit": "3.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.6",
+                      "lowerLimit": "1.3",
+                      "upperLimit": "1.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": ".27",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Quantile mixed-effects model",
+              "statisticalComment": "A robust method on the medians.",
+              "paramType": "Median Difference (Net)",
+              "paramValue": "-0.5",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.3",
+              "ciUpperLimit": "0.4"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Dropout Rate",
+          "description": "Rate of patients who dropout from the program",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Program-end",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "44"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "0.14",
+              "statisticalMethod": "Chi-squared",
+              "paramType": "Difference in proportions",
+              "paramValue": "11.8",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Total Sessions",
+          "description": "Number of sessions performed at program-end",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "sessions",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.1",
+                      "spread": "11.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.4",
+                      "spread": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "<0.001",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "12.7",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Treatment Intensity",
+          "description": "Total number of minutes spent doing exercise sessions.",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "minutes",
+          "timeFrame": "Between baseline and 8 weeks.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "461.6",
+                      "spread": "218.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "393.9",
+                      "spread": "118.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "0.36",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "67.7",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Frequency of Sessions Per Week",
+          "description": "Number of sessions performed per week in the 8-week rehabilitation program",
+          "populationDescription": "This analysis includes only participants who received the allocated digital or conventional interventions. Participants who did not receive the allocated intervention were excluded from this analysis. Consequently, the total number of participants analyzed for this outcome differs from the overall number of participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "sessions per week",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face physical therapy sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face physical therapy sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, physical therapists will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.3",
+                      "spread": "1.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.68",
+                      "spread": "0.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "EQUIVALENCE",
+              "pValue": "<0.001",
+              "pValueComment": "The threshold for statistical significance was set at 0.05.",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "1.62",
+              "ciNumSides": "TWO_SIDED"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Retention Rate",
+          "description": "Number of participants that completed the 8 week program.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Between baseline and 8 weeks.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Digital Rehabilitation",
+              "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist."
+            },
+            {
+              "id": "OG001",
+              "title": "Conventional Rehabilitation",
+              "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face PT sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face PT sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, PTs will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "44"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "8 weeks",
+      "description": "The total number of participants at risk for adverse events differs from the overall number of participants enrolled in the study, as only participants who received the allocated interventions were considered.\n\nBoth participants and physical therapists were instructed to contact the study investigators when adverse events occurred (registered on Castor Electronic Data Capture).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Digital Rehabilitation",
+          "description": "Home-based 8-week rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist\n\nDigital rehabilitation: Patients in the digital intervention group will benefit from an 8-week program composed of therapeutic exercise, education and cognitive behavioural therapy (CBT) program provided by SWORD Health.\n\nPatients in this group will performed home-based rehabilitation sessions using SWORD Phoenix®, under remote monitoring by a physical therapist.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 41,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 41,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 41
+        },
+        {
+          "id": "EG001",
+          "title": "Conventional Rehabilitation",
+          "description": "Outpatient clinic-based 8 week rehabilitation program with face-to-face PT sessions\n\nConventional rehabilitation: Patients in this group will benefit from a 8-week program consisting of two 30 min face-to-face PT sessions per week in an outpatient clinic setting, for a total of 16 sessions. The program includes commonly used interventions adapted by the physical therapist to the specific needs of the participant.\n\nIn addition to the face-to-face sessions, PTs will also be communicating with participants in this group through a secure messaging system (Mychart) used at UCSF or, alternatively, through a telephone check-ins (10-15 min calls, up to twice per week).",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 41,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 41,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 41
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was conducted during the COVID-19 pandemic which may have influenced compliance with physical therapy programs. The cohort included may limit generalizability. Cognitive behavioural therapy (CBT) and educational components differed between groups despite conceptual similarity. Investigators and participants were unblinded to group allocation. Absence of follow-up restricts conclusions on long-term benefits and cost-effectiveness."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Fernando Dias Correia",
+        "organization": "Sword Health Inc",
+        "email": "fcorreia@swordhealth.com",
+        "phone": "+1 (646) 379-6751"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP_ICF",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": true,
+          "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+          "date": "2020-10-08",
+          "uploadDate": "2024-12-09T11:47",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "size": 843674
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-12-31",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059352",
+          "term": "Musculoskeletal Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009135",
+          "term": "Muscular Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

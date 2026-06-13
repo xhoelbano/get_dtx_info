@@ -1,0 +1,263 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06702046",
+      "orgStudyIdInfo": {
+        "id": "20240723R"
+      },
+      "organization": {
+        "fullName": "Shin Kong Wu Ho-Su Memorial Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Efficacy of Transcutaneous Pulsed Radiofrequency Acupuncture for Knee Osteoarthritis",
+      "officialTitle": "The Efficacy of Transcutaneous Pulsed Radiofrequency Acupuncture for Knee Osteoarthritis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-11-20",
+      "studyFirstSubmitQcDate": "2024-11-20",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shin Kong Wu Ho-Su Memorial Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Efficacy of transcutaneous acupoint pulsed radiofrequency with rehabilitation for knee osteoarthritis.",
+      "detailedDescription": "With the aging population, knee osteoarthritis (KOA) has become a major issue affecting functional living and causing socioeconomic burdens. Its etiology includes biomechanical abnormalities, genetics, hormones, and environmental factors. KOA causes pain, stiffness, and muscle weakness, affecting daily activities and quality of life. Previous studies have shown that traditional acupuncture or electroacupuncture can improve pain and function in knee osteoarthritis. In recent years, pulsed radiofrequency therapy has gradually been applied for pain control in KOA. However, both treatments are invasive, and patients may fear and avoid needle insertion, which also has a higher risk of complications. This study aims to combine the strengths of both treatments by using transcutaneous pulsed radiofrequency(TCPRF) at acupuncture points. This non-invasive treatment approach aims to achieve effective pain control, allowing patients to participate more actively in rehabilitation therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Osteoarthritis (OA) of the Knee"
+      ],
+      "keywords": [
+        "knee osteoarthritis",
+        "transcutaneous pulsed radiofrequency",
+        "acupuncture",
+        "acupoints"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TCPRF acupuncture group",
+          "type": "EXPERIMENTAL",
+          "description": "The investigators choose ST34 (Liangqiu), SP10 (Xuehai), GB34 (Yanglingquan), SP9 (Yinlingquan) around the affected knee. The TCPRF device is a wearable modality with innovative pulse radiofrequency technology aimed at alleviating symptomatic chronic pain, which revealed that UHF (500-kHz sine wave, 2-Hz frequency with a 25-ms pulse). It was attached to the electrode pad through magnetic attraction. A 500-KHz stimulus was delivered. The symmetric two-phase sine wave has a 2-Hz frequency witha 25-ms pulse width. The treatment has 15 min per time. treatment is administered for 30 minutes each session, divided into two 15-minute phases. After the first 15 minutes, the treatment is paused and then restarted for an additional 15 minutes. The output peak current was 13.2 mA and the output peak voltage was 6.6 V at 500 Ω.",
+          "interventionNames": [
+            "Device: transcutaneous pulsed radiofrequency acupuncture"
+          ]
+        },
+        {
+          "label": "Sham group",
+          "type": "SHAM_COMPARATOR",
+          "description": "same protocol will be done on the same acupoints, but the machine will be turn off interiorly. Therefore, although the machine still has lights and a vibrating sensation, it will not release PRF waves.",
+          "interventionNames": [
+            "Device: Sham Comparison"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "transcutaneous pulsed radiofrequency acupuncture",
+          "description": "For the TCPRF acupuncture group, the investigators choose ST34 (Liangqiu), SP10 (Xuehai), GB34 (Yanglingquan), SP9 (Yinlingquan) around the affected knee. The TCPRF device is a wearable modality with innovative pulse radiofrequency technology aimed at alleviating symptomatic chronic pain, which revealed that UHF (500-kHz sine wave, 2-Hz frequency with a 25-ms pulse). It was attached to the electrode pad through magnetic attraction. A 500-KHz stimulus was delivered. The symmetric two-phase sine wave has a 2-Hz frequency witha 25-ms pulse width. The treatment has 15 min per time. Electrical stimulation is administered for 30 minutes each session, divided into two 15-minute phases. After the first 15 minutes, the treatment is paused and then restarted for an additional 15 minutes. The output peak current was 13.2 mA and the output peak voltage was 6.6 V at 500 Ω.",
+          "armGroupLabels": [
+            "TCPRF acupuncture group"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham Comparison",
+          "description": "same protocol will be done on the same acupoints, but the machine will be turn off interiorly. Therefore, although the machine still has lights and a vibrating sensation, it will not release PRF waves.",
+          "armGroupLabels": [
+            "Sham group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Western Ontario and McMaster Universities Osteoarthritis Index",
+          "description": "WOMAC is used to assess pain(5 items), stiffness(2 items), and physical function(17 items) of knee OA with excellent validity and reliability. Higher scores mean worse symptoms with more functional limitation.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Western Ontario and McMaster Universities Osteoarthritis Index",
+          "description": "WOMAC is used to assess pain(5 items), stiffness(2 items), and physical function(17 items) of knee OA with excellent validity and reliability. Higher scores mean worse symptoms with more functional limitation",
+          "timeFrame": "12 weeks after completing treatment"
+        },
+        {
+          "measure": "visual analogue scale",
+          "description": "Visual analogue scale (VAS) at rest and during activity will be recorded. VAS of pain is obtained using a 10-cm long horizontal line, with 0 cm on the left, indicating no pain, and 10 cm on the right, indicating the most severe pain.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks and 12 weeks after completing treatment"
+        },
+        {
+          "measure": "Tampa Scale for Kinesiophobia",
+          "description": "Tampa Scale for Kinesiophobia (TSK-11) is used to evaluate the pain-related fear. It consists of 11 items, each rated on a 4-point Likert scale ranging from \"strongly disagree\" to \"strongly agree.\" Higher scores indicate greater fear of movement, which can be a significant barrier to rehabilitation and physical activity",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks and 12 weeks after completing treatment"
+        },
+        {
+          "measure": "World Health Organization Quality of Life-Brief Version",
+          "description": "World Health Organization Quality of Life-Brief Vision (WHOQoL-BREF) was used to assess general health-related quality of life. It consists of total 28 items with 4 domains: physical, psychological, social relationship, and environmental (internal consistency: 0.7-0.77, reliability: 0.76-0.8, with good validity). The scores range from 0 to 100, the higher the score, the better the quality of life",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks and 12 weeks after completing treatment"
+        },
+        {
+          "measure": "Biodex Stability System",
+          "description": "Biodex Stability System (Biodex Medical Systems, 20 Ramsay Rd, Shirley, NY 11967-4704) was used to evaluate static, dynamic balance, and fall risk. The Biodex Stability System comprises a foot platform, support handle, and display module. The foot platform has two axes with different tilting angles. By adjusting the grade of the tilting angles of the axes, the overall stability index was recorded. A higher score indicated poorer static balance. For the limit of stability test, the investigators measured the displacement of the patient's center of gravity when the platform was tilting on different axes according to the directions displayed randomly on the monitor. Higher scores represented superior dynamic balance",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks and 12 weeks after completing treatment"
+        },
+        {
+          "measure": "Timed Up and Go",
+          "description": "Timed Up and Go (TUG) test is an assessment used to evaluate participants' mobility and balance. It measures the time it takes for a person to stand up from a seated position, walk three meters, turn around, walk back to the chair, and sit down. The test is reliable for the time score to predict out-door mobility and safety.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks and 12 weeks after completing treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age from 45 to 85 year-old with knee pain for more than six months\n* Fulfill the combined clinical and radiographic criteria of knee OA established by the American College of Rheumatology with a Kellgren and Lawrence score of 2 or greater\n* Pain score above 3 (range 0-10 on the visual analog scale; higher scores indicate greater pain\n* Could participate in 4 weeks of treatment and 3 months of follow-up\n\nExclusion Criteria:\n\n* Knee OA combined with any infection, inflammation, autoimmune disease, or fracture\n* History or underlying disease that would affect posture and balance, such as malignancy, dizziness, vertigo, or stroke\n* Ever underwent any type of knee operation or internal fixation\n* Pregnant or planning to become pregnant\n* Receiving other treatment for knee OA in previous 3 months\n* History of epilepsy, electronic devices implanted in the body\n* Active infection at the stimulator contact site\n* Lack of informed consent\n* Any other reason thought likely to result in inability to complete the trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "45 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yu-Ting Lin, M.D.",
+          "role": "CONTACT",
+          "phone": "+886-28332211",
+          "phoneExt": "2538",
+          "email": "M012225@ms.skh.org.tw"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Shin Kong Wu Ho-Su Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "state": "State",
+          "zip": "111",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Yu-Ting Lin, M.D.",
+              "role": "CONTACT",
+              "phone": "+00886-28332211",
+              "phoneExt": "2538",
+              "email": "M012225@ms.skh.org.tw"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010003",
+          "term": "Osteoarthritis"
+        },
+        {
+          "id": "D020370",
+          "term": "Osteoarthritis, Knee"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

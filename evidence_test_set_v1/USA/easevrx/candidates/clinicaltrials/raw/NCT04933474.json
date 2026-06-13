@@ -1,0 +1,2137 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04933474",
+      "orgStudyIdInfo": {
+        "id": "STUDY00001262"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01NR019947-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R01NR019947-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Cedars-Sinai Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pragmatic Comparative Effectiveness Trial of Evidence-based, On-demand, Digital Behavioral Treatments for Chronic Pain",
+      "officialTitle": "Transcending COVID-19 Barriers to Pain Care in Rural America: Pragmatic Comparative Effectiveness Trial of Evidence-based, On-demand, Digital Behavioral Treatments for Chronic Pain"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-05-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-06-18",
+      "studyFirstSubmitQcDate": "2021-06-18",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-21",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-05-12",
+      "resultsFirstSubmitQcDate": "2025-06-10",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-06-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Brennan Spiegel",
+        "investigatorTitle": "Director of Health Services Research, Professor of Medicine",
+        "investigatorAffiliation": "Cedars-Sinai Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Cedars-Sinai Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Northwestern University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Stanford University",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Alabama at Birmingham",
+          "class": "OTHER"
+        },
+        {
+          "name": "Ochsner Health System",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute of Nursing Research (NINR)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study compared two available, evidence-based, at-home digital pain treatment programs. The goal is to see if one approach is better than the other, and whether certain patients respond to one more than the other. Study participants will be randomly assigned to receive one of two treatment programs: Skills-Based VR or painTRAINER. VR devices and painTRAINER manuals will be delivered to the participant's home with instructions for use via FedEx; participants will receive remote technical support. They will be followed for 12 weeks and complete Patient Reported Outcome (PRO) questionnaires to assess functional status, pain levels, and use of pain medications (including opioids). Participants will also be asked to provide consent/authorization to access medical records from their treating facility.",
+      "detailedDescription": "We performed a two-arm, multi-center, virtual randomized controlled trial (vRCT) in a geographically diverse group of patients with mixed-etiology chronic pain. Using a random number generator, patients were allocated in a 1:1 ratio between two self-administered, remotely deployed CBT delivery platforms, stratified by site: (1) a 2D mHealth app called PainTRAINER; and (2) 3D virtual reality (VR) app called EaseVRx+. The primary analysis compared changes in pain intensity over two months upon completion of the standardized 8-week digital CBT protocols. Secondary outcomes include pain catastrophizing, anxiety, pain interference, self-efficacy, and opioid use. Patient blinding is not possible in VR versus non-VR studies; however, researchers exhibited equipoise when describing the competing interventions, Investigators and data analysts were blinded to patient allocation; coordinators administering the intervention were unblinded in order onboard participants to their assigned program and troubleshoot any difficulties throughout the study.\n\nThe population eligible for the study include individuals with any of more than 130 ICD codes for chronic pain conditions, including somatic, musculoskeletal, neuropathic, and visceral pain who also recorded an average pain intensity of 4 or greater on a standard 0-10 numeric rating scale (NRS) over the past week. Patients were recruited from three major sites: (1) Cedars-Sinai Health System (CSHS); (2) Ochsner Health; (3) UAB. All sites used search tools to identify participants within their respective electronic health record (EHR) with at least one of the inclusionary chronic pain ICD codes and who did not meet several coded ineligibility criteria, included but not limited to ongoing end-of-life care and an age less than 13 years old. Patients meeting preliminary eligibility were chart reviewed for confirmation, then contacted through methods approved by each respective site's IRB, which included combinations of email, physical mail, and patient-portal notifications. Patients were offered an opportunity to opt-in or opt-out, and those who do not respond were contacted by phone call to assess interest and eligibility.\n\nThis trial was conducted remotely using patient identification, screening, and monitoring processes developed by the study team and applied in many trials involving virtual reality, including other NIH-sponsored trials using VR therapies for pain (NCT04409353, NCT04907643). Participants who provided eConsent and completed a 7-day \"screener week\" on REDCap were randomized and sent study materials by mail. Study onboarding was performed over the phone and did not require in-person interactions with the study team.\n\nWe employed a biopsychosocial conceptual framework for monitoring outcomes in the trial, focusing on pain intensity as the primary outcome, and included a range of other relevant PROs selected in partnership with our patient partners. PROs were collected via REDCap. Pain intensity was measured using a standard 11-point numeric rating scale (NRS) with a 24-hour recall. Consistent with NIH Helping to End Addiction Long-Term (HEAL) guidance, we measured daily pain NRS for 7-days during baseline (week 0), and again during the final week of the digital program study (week 8). Intention-to-Treat (ITT) analysis of the primary endpoint involved comparing the proportion of individuals who recorded a minimally clinically importance difference (MCID) of two on the average pain NRS recorded between Week 8 and Week 0. Secondary outcomes include the 4-item short form pain catastrophizing scale, 4-item NIH PROMIS Anxiety scale, 4-item NIH PROMIS Pain Interference scale, 2-item Pain Self-Efficacy Questionnaire, and average opioid usage derived from total morphine milligram equivalents (MMEs) in self-reported medication use. In addition, VR presence and cybersickness at the start of intervention use using the Presence Scale and Simulator Sickness Questionnaire (SSQ), respectively."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Pain"
+      ],
+      "keywords": [
+        "Virtual Reality",
+        "Web App",
+        "Digital Health",
+        "Rural"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Providers, Primary Investigator, and Biostatistician were all blinded to allocations until the end of data collection.",
+          "whoMasked": [
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 330,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "painTRAINER (2D mHealth intervention)",
+          "type": "EXPERIMENTAL",
+          "description": "painTRAINER® is an 8-week, self-administered mobile health (mHealth) program. The painTRAINER® program delivers skills training and cognitive behavioral therapy (CBT)-related treatments through 8 weekly sessions as well as optional practice modules available between sessions. It is accessible by visiting https://mypaintrainer.org/ on most devices with a web browser, including computers, smartphones, and tablets. Participants assigned to the painTRAINER® intervention were mailed a physical workbook created by the painTRAINER® team to assist users in their progress through the program.",
+          "interventionNames": [
+            "Behavioral: painTRAINER®"
+          ]
+        },
+        {
+          "label": "Skills-Based VR (3D VR intervention)",
+          "type": "EXPERIMENTAL",
+          "description": "EaseVRx+ incorporates the evidence-based principles of CBT, mindful meditation, and physiologic biofeedback therapy using embedded biometric sensors. It combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward living better with chronic pain. The standardized, prescriptive, and reproducible 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. EaseVRx+ also features an on-demand library, allowing users to access any of the unique video sessions as needed.",
+          "interventionNames": [
+            "Device: Skills-Based VR"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "painTRAINER®",
+          "description": "PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events.",
+          "armGroupLabels": [
+            "painTRAINER (2D mHealth intervention)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Skills-Based VR",
+          "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device, loaded with the EaseVRx+ software. The Pico G2 4K is a standalone VR headset that comes with an orientation-tracked controller. It does not require a smartphone or personal computer to operate. The device supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view. The headset battery requires recharging after approximately 2.5 hours of use.\n\nhttps://www.pico-interactive.com/us/G2\\_4K.html",
+          "armGroupLabels": [
+            "Skills-Based VR (3D VR intervention)"
+          ],
+          "otherNames": [
+            "EaseVRx+ Software",
+            "PICO G2 4k"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change From Baseline to Week 8 in Daily Pain Intensity",
+          "description": "\\[Alternative Title: Proportion of Participants with \\>=2 Change in Average of 7 Daily Pain Intensity Questionnaires\\]\n\nThe change from study baseline to week 8 in daily pain intensity was measured using the standard 11-point numeric rating scale (NRS) with a 24-hour recall. Daily pain NRS was measured for 7-days during baseline and again during the final week of the study (week 8). This outcome is the baseline vs. week 8 difference-in-difference in 7-day average NRS pain intensity scores, dichotomized into if the minimally clinically importance difference (MCID) of 2 is achieved.\n\nNRS is positively scored, where higher scores indicate worse pain intensity. The difference from baseline is reported as Baseline - Week 8, therefore a higher difference corresponds to improvement of symptoms (reduced pain intensity). The difference-in-difference is dichotomized into if the MCID of 2 is achieved, reported as the proportion of participants by arm.",
+          "timeFrame": "From baseline to end of treatment at Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Patient-Reported Outcomes Measurement Information System Pain Interference 4a (PROMIS-PI) T-score",
+          "description": "The Patient-Reported Outcomes Measurement Information System Pain Interference (PROMIS-PI) scale, version 4a, measures the consequences of pain on relevant aspects of one's life. This includes the extent to which pain hinders engagement with social, cognitive, emotional, physical, and recreational activities. Items are rated on a 5-point Likert scale from \"not at all\" (1) to \"very much\" (5), with a raw score calculated by a sum of the 4 items ranging from 4 to 20. Results are linked to a T-Score to standardize the results across a general population (a mean T-score of 50 and a standard deviation of 10).\n\nPROMIS-PI is positively scored, where higher scores indicate worse pain interference. The difference from baseline is reported as Week 8 - Baseline, therefore a negative difference corresponds to improvement of symptoms (reduced PI).",
+          "timeFrame": "From baseline to end of treatment at Week 8"
+        },
+        {
+          "measure": "Change in Patient-Reported Outcomes Measurement Information System (PROMIS) Anxiety T-score",
+          "description": "The Patient-Reported Outcomes Measurement Information System (PROMIS) Anxiety scale, version 4, assesses self-reported perceptions of fear, anxious misery (worry, dread), hyperarousal, and somatic symptoms related to arousal. Items are rated Items are rated on a 5-point Likert scale from \"never\" (1) to \"always\" (5), with a raw score calculated by a sum of the 4 items ranging from 4 to 20. Results are linked to a T-Score (healthmeasures.net) to standardize the results across a general population (a mean T-score of 50 and a standard deviation of 10).\n\nPROMIS-Anxiety is positively scored, where higher scores indicate worse anxiety. The difference from baseline is reported as Week 8 - Baseline, therefore a negative difference corresponds to improvement of symptoms (reduced anxiety).",
+          "timeFrame": "From baseline to end of treatment at Week 8"
+        },
+        {
+          "measure": "Change in 2-item Pain Self-Efficacy Questionnaire (PSEQ-2)",
+          "description": "The Pain Self-Efficacy Questionnaire (PSEQ-2) is a two-item instrument designed to assess the extent to which people in pain believe they are presently able to work and live a normal life, despite pain. \"Work\" includes housework and paid and unpaid work.\n\nItems are rated on a 7-point Likert scale from \"not confident at all\" (0) to \"completely confident\" (6), with a raw score calculated by a sum of the 2 items ranging from 0 to 12.\n\nPSEQ-2 is positively scored, where higher scores indicate greater self-efficacy. The difference from baseline is reported as Week 8 - Baseline, therefore a positive difference corresponds to improvement of symptoms (greater self-efficacy).",
+          "timeFrame": "From baseline to end of treatment at Week 8"
+        },
+        {
+          "measure": "Change in 4-item Pain Catastrophizing Scale (briefPCS)",
+          "description": "Self-reported pain catastrophizing was measured using the 4-item Pain Catastrophizing Scale (briefPCS) questionnaire. Pain catastrophizing is a negative mental state regarding actual or anticipated pain, and includes aspects of rumination, magnification, and sense of helplessness. Pain catastrophizing is a highly potent prognostic indicator for acute analgesic use, and acute and chronic pain outcomes, yet is also highly modifiable with behavioral treatment that enhances pain self-regulation via evidence-based skills.\n\nItems are rated on a 5-point Likert scale from \"not at all\" (0) to \"all the time\" (4), with a raw score calculated by a sum of the 4 items, ranging from 0 to 16.\n\nbriefPCS is positively scored, where higher scores indicate greater levels of pain catastrophizing. The difference from baseline is reported as Week 8 - Baseline, therefore a negative difference corresponds to improvement of symptoms (reduced pain catastrophizing).",
+          "timeFrame": "From baseline to end of treatment at Week 8"
+        },
+        {
+          "measure": "Change in Weekly Opioid Use (Use or No Use)",
+          "description": "Opioid medications are commonly prescribed for pain analgesia. Participants self-reported their prescription and over-the-counter pain medications, daily for 7 days, at baseline (days -6 to 0) and during Week 8 of the study (days 50-56). The questionnaire contains lists of opioids and non-opioids.\n\nResponses were categorized based on whether or not an individual reported the use of an opioid medication on at least one of the daily surveys during baseline and during week 8; responses are reported as the proportion of individuals who reported the use of an opioid and who completed at least 4 daily questionnaires during the specified time period, divided by the total number of individuals who completed at least 4 daily questionnaires during the time interval, by arm. A smaller proportion at week 8 corresponds to a decrease in the frequency of opioid use in the observed sample.",
+          "timeFrame": "From baseline to end of treatment at Week 8"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "We will recruit patients who:\n\n(1) have chronic pain, from any underlying condition, using the administrative definition of ICD-10 code series G89.X or one or more of 134 chronic overlapping pain condition codes, as previously standardized and validated by an expert panel, (2) have experienced average pain intensity of \\>3 out of 10 within the previous week, (3) are ≥13 years of age, (4) are able to read/write English, (5) have either a personal computer or a smartphone, and (6) live in a designated rural zip code as defined by the Federal Office of Rural Health Policy (FORHP) data (RUCA Codes 4-10).\n\nWe will exclude patients who:\n\n(1) have a condition that interferes with use of the intervention (e.g., significant visual or auditory impairment, any history of seizure), (2) are hospitalized, (3) are receiving active cancer treatment, (4) are receiving end-of-life care, (5) have cognitive impairment that affects participation, or (6) have previously used the EaseVRx+ or painTRAINER programs.\n\nWe will stratify analyses across key patient characteristics, including type of pain condition, sex, age, race, ethnicity, State and zip code, Rural-Urban Commuting Area (RUCA) codes (a composite measure of population density, urbanization, and daily commuting), pain severity, opioid use, comorbidities, social support, and COVID-19 impacts (unemployment, financial hardship, family or personal COVID-19 diagnosis).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "13 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Brennan Spiegel, MD, MSHS",
+          "affiliation": "Cedars-Sinai Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Study team plans to submit IPD to openICPSR. A URL will be provided once available."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Of 2,804 participants screened, 367 underwent the informed eConsent process and enrolled in the Screening Week. Of the 367 participants, 330 successfully met inclusion criteria and were randomized to one of two treatment arms.",
+      "recruitmentDetails": "Participants were recruited from four clinical sites: Cedars-Sinai Medical Center (CA), Ochsner Health System (LA), University of Alabama at Birmingham (AL), and Bendcare (FL). Patient cohort search engines identified individuals with chronic pain, and their zip codes were matched with 2010 USDA RUCA data. Enrollment activities were conducted remotely, by telephone and electronic surveys. Recruitment spanned from 3/29/2022 to 2/28/2024 with final analyzable sample N=330 (N=300+30 replacements).",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "painTRAINER (2D mHealth Intervention)",
+          "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management. Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+        },
+        {
+          "id": "FG001",
+          "title": "Skills-based VR Therapy (3D VR Intervention)",
+          "description": "Participants will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ incorporates the evidence-based principles of CBT, mindful meditation, and physiologic biofeedback therapy using embedded biometric sensors. It combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward chronic pain management. The standardized, prescriptive, and reproducible 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. EaseVRx+ also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes.\n\nSkills-based VR: Participants will use the Pico G2 4K VR audio and visual head-mounted device. The Pico G2 4K is a standalone VR headset that comes with an orientation-tracked controller. It does not require a smartphone or personal computer to operate. The device supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view. The headset battery requires recharging after approximately 2.5 hours of use.\n\nhttps://www.pico-interactive.com/us/G2\\_4K.html"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "161"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "169"
+                }
+              ]
+            },
+            {
+              "type": "Follow-Up Complete",
+              "comment": "Completed survey follow-up - may have discontinued use of intervention",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "129"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "153"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "comment": "Completed protocol (follow-up complete and did not discontinue intervention)",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "127"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "152"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "34"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "17"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Discontinued Intervention Prior to End of Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "19"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            },
+            {
+              "type": "Life Burden - unable to participate",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Disease Burden - unable to participate",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Surgery/Hospitalization",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Dissatisfied with Intervention",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrew interest in participation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Had previously enrolled in the study",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "painTRAINER (2D mHealth Intervention)",
+          "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+        },
+        {
+          "id": "BG001",
+          "title": "Skills-based VR (3D VR Intervention)",
+          "description": "Participants will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed.VR experiences last between 2-16 minutes.\n\nParticipants will use the Pico G24K VR audio and visual head-mounted device, loaded with EaseVRx+. It does not require a smartphone or personal computer to operate and comes with an orientation-tracked controller. The device supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "161"
+            },
+            {
+              "groupId": "BG001",
+              "value": "169"
+            },
+            {
+              "groupId": "BG002",
+              "value": "330"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54.4",
+                      "spread": "12.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55.4",
+                      "spread": "12.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "54.9",
+                      "spread": "12.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "112"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "122"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "234"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "96"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "142"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "156"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "298"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "129"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "263"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Education",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Did not complete Secondary School or Less than High School",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Some Secondary School or High School Education",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                },
+                {
+                  "title": "High School or Secondary School Degree Complete",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "115"
+                    }
+                  ]
+                },
+                {
+                  "title": "Associate's or Technical Degree Complete",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                },
+                {
+                  "title": "College or Baccalaureate Degree Complete",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59"
+                    }
+                  ]
+                },
+                {
+                  "title": "Doctoral or Postgraduate Education",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Employment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Not employed",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "102"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "200"
+                    }
+                  ]
+                },
+                {
+                  "title": "Part-time employment",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": "Full-time employment",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "101"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Household Income",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Less than $10,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    }
+                  ]
+                },
+                {
+                  "title": "$10,000-$24,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52"
+                    }
+                  ]
+                },
+                {
+                  "title": "$25,000-$34,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "$35,000-$49,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52"
+                    }
+                  ]
+                },
+                {
+                  "title": "$50,000-$74,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "44"
+                    }
+                  ]
+                },
+                {
+                  "title": "$75,000-$99,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                },
+                {
+                  "title": "$100,000-$149,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                },
+                {
+                  "title": "$150,000-$199,999",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                },
+                {
+                  "title": "$200,000 or more",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Prefer not to answer",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Participant Enrollment by Site",
+          "description": "Participants were primarily recruited from 4 clinical sites: Cedars-Sinai Health System (CA), Ochsner Health System (LA), University of Alabama at Birmingham (AL), Bendcare (FL).",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Cedars-Sinai Health System",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "63"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ochsner Health",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "110"
+                    }
+                  ]
+                },
+                {
+                  "title": "University of Alabama at Birmingham (UAB)",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "61"
+                    }
+                  ]
+                },
+                {
+                  "title": "Bendcare",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "93"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change From Baseline to Week 8 in Daily Pain Intensity",
+          "description": "\\[Alternative Title: Proportion of Participants with \\>=2 Change in Average of 7 Daily Pain Intensity Questionnaires\\]\n\nThe change from study baseline to week 8 in daily pain intensity was measured using the standard 11-point numeric rating scale (NRS) with a 24-hour recall. Daily pain NRS was measured for 7-days during baseline and again during the final week of the study (week 8). This outcome is the baseline vs. week 8 difference-in-difference in 7-day average NRS pain intensity scores, dichotomized into if the minimally clinically importance difference (MCID) of 2 is achieved.\n\nNRS is positively scored, where higher scores indicate worse pain intensity. The difference from baseline is reported as Baseline - Week 8, therefore a higher difference corresponds to improvement of symptoms (reduced pain intensity). The difference-in-difference is dichotomized into if the MCID of 2 is achieved, reported as the proportion of participants by arm.",
+          "populationDescription": "All analyses were performed by study arm using an Intent-to-treat (ITT) population defined as all randomized participants across each treatment arm. Participants that provided at least 4 out of 7 possibly daily responses at Week 8 were included in the analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From baseline to end of treatment at Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "painTRAINER (2D mHealth Intervention)",
+              "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+            },
+            {
+              "id": "OG001",
+              "title": "Skills-based VR (3D VR Intervention)",
+              "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "125"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "153"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Difference is less than 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "85"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "118"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Difference is greater than or equal to 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "The primary outcome will be the baseline vs. week 8 difference-in-difference in 7-day average NRS pain intensity scores, dichotomized into if the MCID of 2 is achieved. The between arm difference of achieving the MCID of 2 will be tested using Chi-squared test.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.088",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Patient-Reported Outcomes Measurement Information System Pain Interference 4a (PROMIS-PI) T-score",
+          "description": "The Patient-Reported Outcomes Measurement Information System Pain Interference (PROMIS-PI) scale, version 4a, measures the consequences of pain on relevant aspects of one's life. This includes the extent to which pain hinders engagement with social, cognitive, emotional, physical, and recreational activities. Items are rated on a 5-point Likert scale from \"not at all\" (1) to \"very much\" (5), with a raw score calculated by a sum of the 4 items ranging from 4 to 20. Results are linked to a T-Score to standardize the results across a general population (a mean T-score of 50 and a standard deviation of 10).\n\nPROMIS-PI is positively scored, where higher scores indicate worse pain interference. The difference from baseline is reported as Week 8 - Baseline, therefore a negative difference corresponds to improvement of symptoms (reduced PI).",
+          "populationDescription": "All analyses were performed by study arm using an Intent-to-Treat (ITT) population, defined as all randomized participants. Participants who completed the PROMIS-PI instrument at Week 8 were included in the analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "T-score",
+          "timeFrame": "From baseline to end of treatment at Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "painTRAINER (2D mHealth Intervention)",
+              "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+            },
+            {
+              "id": "OG001",
+              "title": "Skills-based VR (3D VR Intervention)",
+              "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "127"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "153"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.5",
+                      "spread": "6.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.2",
+                      "spread": "6.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A two-sample t-test will be used to compare differences-in-differences between the arms.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.103",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Patient-Reported Outcomes Measurement Information System (PROMIS) Anxiety T-score",
+          "description": "The Patient-Reported Outcomes Measurement Information System (PROMIS) Anxiety scale, version 4, assesses self-reported perceptions of fear, anxious misery (worry, dread), hyperarousal, and somatic symptoms related to arousal. Items are rated Items are rated on a 5-point Likert scale from \"never\" (1) to \"always\" (5), with a raw score calculated by a sum of the 4 items ranging from 4 to 20. Results are linked to a T-Score (healthmeasures.net) to standardize the results across a general population (a mean T-score of 50 and a standard deviation of 10).\n\nPROMIS-Anxiety is positively scored, where higher scores indicate worse anxiety. The difference from baseline is reported as Week 8 - Baseline, therefore a negative difference corresponds to improvement of symptoms (reduced anxiety).",
+          "populationDescription": "All analyses were performed by study arm using an Intent-to-Treat (ITT) population, defined as all randomized participants. Participants who completed the PROMIS Anxiety instrument at Week 8 were included in the analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "T-score",
+          "timeFrame": "From baseline to end of treatment at Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "painTRAINER (2D mHealth Intervention)",
+              "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+            },
+            {
+              "id": "OG001",
+              "title": "Skills-based VR (3D VR Intervention)",
+              "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "127"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "153"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.3",
+                      "spread": "7.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.6",
+                      "spread": "7.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A two-sample t-test will be used to compare differences-in-differences between the arms.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.774",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in 2-item Pain Self-Efficacy Questionnaire (PSEQ-2)",
+          "description": "The Pain Self-Efficacy Questionnaire (PSEQ-2) is a two-item instrument designed to assess the extent to which people in pain believe they are presently able to work and live a normal life, despite pain. \"Work\" includes housework and paid and unpaid work.\n\nItems are rated on a 7-point Likert scale from \"not confident at all\" (0) to \"completely confident\" (6), with a raw score calculated by a sum of the 2 items ranging from 0 to 12.\n\nPSEQ-2 is positively scored, where higher scores indicate greater self-efficacy. The difference from baseline is reported as Week 8 - Baseline, therefore a positive difference corresponds to improvement of symptoms (greater self-efficacy).",
+          "populationDescription": "All analyses were performed by study arm using an Intent-to-Treat (ITT) population defined as all randomized participants. Participants that completed PSEQ-2 at Week 8 were included in the analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "From baseline to end of treatment at Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "painTRAINER (2D mHealth Intervention)",
+              "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+            },
+            {
+              "id": "OG001",
+              "title": "Skills-based VR (3D VR Intervention)",
+              "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "127"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "153"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.5",
+                      "spread": "2.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.6",
+                      "spread": "2.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A two-sample t-test will be used to compare differences-in-differences between the arms.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.005",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in 4-item Pain Catastrophizing Scale (briefPCS)",
+          "description": "Self-reported pain catastrophizing was measured using the 4-item Pain Catastrophizing Scale (briefPCS) questionnaire. Pain catastrophizing is a negative mental state regarding actual or anticipated pain, and includes aspects of rumination, magnification, and sense of helplessness. Pain catastrophizing is a highly potent prognostic indicator for acute analgesic use, and acute and chronic pain outcomes, yet is also highly modifiable with behavioral treatment that enhances pain self-regulation via evidence-based skills.\n\nItems are rated on a 5-point Likert scale from \"not at all\" (0) to \"all the time\" (4), with a raw score calculated by a sum of the 4 items, ranging from 0 to 16.\n\nbriefPCS is positively scored, where higher scores indicate greater levels of pain catastrophizing. The difference from baseline is reported as Week 8 - Baseline, therefore a negative difference corresponds to improvement of symptoms (reduced pain catastrophizing).",
+          "populationDescription": "All analyses will be performed by study arm using an Intent-to-Treat (ITT) population defined as all randomized participants. Participants who completed the briefPCS instrument at Week 8 were included in the analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "From baseline to end of treatment at Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "painTRAINER (2D mHealth Intervention)",
+              "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+            },
+            {
+              "id": "OG001",
+              "title": "Skills-based VR (3D VR Intervention)",
+              "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "127"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "153"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.8",
+                      "spread": "3.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.7",
+                      "spread": "3.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "A two-sample t-test will be used to compare differences-in-differences between the arms.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.831",
+              "statisticalMethod": "t-test, 2 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Weekly Opioid Use (Use or No Use)",
+          "description": "Opioid medications are commonly prescribed for pain analgesia. Participants self-reported their prescription and over-the-counter pain medications, daily for 7 days, at baseline (days -6 to 0) and during Week 8 of the study (days 50-56). The questionnaire contains lists of opioids and non-opioids.\n\nResponses were categorized based on whether or not an individual reported the use of an opioid medication on at least one of the daily surveys during baseline and during week 8; responses are reported as the proportion of individuals who reported the use of an opioid and who completed at least 4 daily questionnaires during the specified time period, divided by the total number of individuals who completed at least 4 daily questionnaires during the time interval, by arm. A smaller proportion at week 8 corresponds to a decrease in the frequency of opioid use in the observed sample.",
+          "populationDescription": "Participants that responded to the medication use questionnaire in at least 4 out of 7 days administered during Baseline and during Week 8 were included in the each respective analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From baseline to end of treatment at Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "painTRAINER (2D mHealth Intervention)",
+              "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events."
+            },
+            {
+              "id": "OG001",
+              "title": "Skills-based VR (3D VR Intervention)",
+              "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "161"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "169"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline:Used Opioid in Past 7 Days",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "161"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "169"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Used Opioid in Past 7 Days",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "125"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "153"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "The Cochran-Mantel-Haenszel (CMH) test was used to compare the association between time (baseline and week 8) and opioid use (yes or no) while stratifying for the treatment groups. The null hypothesis is that the common odds ratio of the association between time and response across the treatment groups is equal to 1, versus the alternative hypothesis that the common odds ratio is not equal to 1.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.031",
+              "pValueComment": "A two-sided test performed at the 0.05 level of significance without the continuity correction.",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "paramType": "Common Odds Ratio",
+              "paramValue": "1.44",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "1.03",
+              "ciUpperLimit": "2.02"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Adverse event data were collected during participants' 8-week follow-up period.",
+      "description": "Adverse events (AEs) were collected via weekly questionnaires, participant communications, and free-text responses. This low-risk trial focused on chronic pain, with most AEs involving initial VR side effects and intermittent pain flare-ups.\n\nFor side-effects reported in the SSQ survey, only side-effects reported at moderate or above were logged. Mild AEs requiring treatment were upgraded to moderate, and ER visits/hospitalizations were reported as severe/serious.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "painTRAINER (2D mHealth Intervention)",
+          "description": "Participants will use one of the most widely-validated mHealth interventions for pain management called painTRAINER®, which is a standardized, 56-day program delivering skills training and Cognitive behavioral therapy (CBT)-related treatments through daily virtual experiences.\n\npainTRAINER®: PainTRAINER is among the most widely-validated mHealth interventions for pain management.18-25 Originally developed by members of our team at Duke and Northwestern University under NIH funding, the app teaches evidence-based pain coping skills using a self-administered, home-based software program. The system delivers eight sessions via any web-connected platform, including Android or iOS smartphones, tablets, or personal computers. The digital curriculum covers progressive muscle relaxation, activity/rest cycling, pleasant activity scheduling, recognizing negative automatic thoughts, pleasant imagery/distraction, problem solving, and monitoring for maintenance. Patients complete one session per week in a pre-determined order. The program can be completed in a flexible manner to accommodate life and medical events.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 161,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 161,
+          "otherNumAffected": 13,
+          "otherNumAtRisk": 161
+        },
+        {
+          "id": "EG001",
+          "title": "Skills-based VR (3D VR Intervention)",
+          "description": "Participants will use the Pico G2 4K VR audio and visual head-mounted device. It is a standalone VR headset that comes with an orientation-tracked controller and does not require a smartphone or personal computer to operate. It supports 3 degrees of freedom (3DOF) head tracking, has best-in-class optics, and a wide field-of-view.\n\nPatients will use a skills-based, self management VR program called EaseVRx+. Developed by AppliedVR (Los Angeles, CA) in partnership with Stanford pain psychologist Dr. Beth Darnall, the program teaches and trains users on evidence-based strategies and biofeedback exercises. EaseVRx+ combines psychoeducation, pain education, breathing training, relaxation exercises, and executive functioning games to provide a mind-body approach toward pain management. The standardized, reproducible, 56-day program delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. It also features an on-demand library, allowing users to access any of the unique video sessions as needed. VR experiences last between 2-16 minutes.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 169,
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 169,
+          "otherNumAffected": 47,
+          "otherNumAtRisk": 169
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Hysterectomy",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-study related in patient hospitalization related to hysterectomy from 6/29/2022 to 7/11/2022. Event was unrelated to intervention, unexpected and marked as severe due to hospitalization status. Participant continued use of intervention.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Kidney Infection",
+          "organSystem": "Hepatobiliary disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Non-study related in patient hospitalization for kidney infection from 12/8/2022 to 12/11/2022. Event was unrelated to intervention, unexpected, resolved with treatment. Participant continued use of intervention.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization for pain",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant was hospitalized for pain following radiofrequency ablation to thoracic spine from 4/20/2023 to 4/21/2023. Event was unrelated to intervention, unexpected, severe and resolved with treatment. Participant continued use of intervention.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Heart transplant",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant was hospitalized in ICU after heart transplant from 7/22/2023 to 7/27/2023. Event was unrelated to intervention, unexpected, severe and resolved with treatment. Participant withdrew from study.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Kidney Stones",
+          "organSystem": "Hepatobiliary disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Hospitalization for Kidney stones and urinary tract infection from 6/30/2022 to 7/6/2022. Event was unrelated to intervention, unexpected, severe and resolved with treatment. Participant continued use of intervention.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Lumbar Sprain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant experience a lumbar sprain requiring an ER visit following progressive relaxation exercise. Event was unexpected, serious, resolved with treatment, and related to the intervention. Participant continued use of intervention.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Leg Swelling",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Participant was hospitalized due to leg swelling from 2/15/2024 to 2/18/2024. Event was unrelated to intervention, marked as severe, unexpected and resolved with treatment. Participant continued use of intervention.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 169
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Cybersickness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "With VR use, any report of: General Discomfort, Fatigue, Headache, Eye Strain, Difficulty focusing, Salivation increasing, Sweating, Nausea, Difficulty concentrating, Fullness of head, Blurred vision, Dizziness, Vertigo, Stomach awareness, Burping",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 52,
+              "numAffected": 35,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Video Game Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 13,
+              "numAffected": 8,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Pain flare-up/Spasms",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Flu/Head cold",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Neck pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 18,
+              "numAffected": 12,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Muscle soreness and stiffness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Strep Throat",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Hip Swelling",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 169
+            }
+          ]
+        },
+        {
+          "term": "Shingles",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 161
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 169
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Survey responses contained 2-week response windows, so responses at a point in time do not necessarily reflect the actual difference in days.\n\nVariation exists in day difference between baseline measurements and start of study intervention due to variation and delays in the shipping of study devices to participants' homes and the availability of participants to complete protocolized onboarding phone calls."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Samuel Eberlein",
+        "organization": "Cedars-Sinai Medical Center",
+        "email": "samuel.eberlein@cshs.org",
+        "phone": "310-423-6721"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2023-10-17",
+          "uploadDate": "2025-02-24T18:55",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 920919
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-04-07",
+          "uploadDate": "2024-03-04T12:50",
+          "filename": "ICF_000.pdf",
+          "size": 275215
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-05-29",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059350",
+          "term": "Chronic Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

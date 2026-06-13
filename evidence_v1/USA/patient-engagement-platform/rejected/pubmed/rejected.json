@@ -1,0 +1,1964 @@
+{
+  "studies": [
+    {
+      "study_id": "30684401",
+      "pmid": "30684401",
+      "title": "A Novel Patient Engagement Platform Using Accessible Text Messages and Calls (Epharmix): Feasibility Study.",
+      "authors": "Som Avik et al.",
+      "authors_list": [
+        "Som Avik",
+        "Patel Kunjan",
+        "Sink Eric",
+        "Peters Robert Mattson",
+        "Javaherian Kavon"
+      ],
+      "publication_year": "2017",
+      "publication_date": "2017-Sep-18",
+      "journal": "JMIR formative research",
+      "journal_abbrev": "JMIR Form Res",
+      "doi": "10.2196/formative.7211",
+      "abstract": "BACKGROUND: Patient noncompliance with therapy, treatments, and appointments represents a significant barrier to improving health care delivery and reducing the cost of care. One method to improve therapeutic adherence is to improve feedback loops in getting clinically acute events and issues to the relevant clinical providers as necessary (ranging from detecting hypoglycemic events for patients with diabetes to notifying the provider when patients are out of medications). Patients often don't know which information should prompt a call to their physician and proactive checks by the clinics themselves can be very resource intensive. We hypothesized that a two-way SMS system combined with a platform web service for providers would enable both high patient engagement but also the ability to detect relevant clinical alerts. OBJECTIVE: The objectives of this study are to develop a feasible two-way automated SMS/phone call + web service platform for patient-provider communication, and then study the feasibility and acceptability of the Epharmix platform. First, we report utilization rates over the course of the first 18 months of operation including total identified clinically significant events, and second, review results of patient user-satisfaction surveys for interventions for patients with diabetes, COPD, congestive heart failure, hypertension, surgical site infections, and breastfeeding difficulties. METHODS: To test this question, we developed a web service + SMS/phone infrastructure (\"Epharmix\"). Utilization results were measured based on the total number of text messages or calls sent and received, with percentage engagement defined as a patient responding to a text message at least once in a given week, including the number of clinically significant alerts generated. User satisfaction surveys were sent once per month over the 18 months to measure satisfaction with the system, frequency and degree of communication. Descriptive statistics were used to describe the above information. RESULTS: In total, 28,386 text messages and 24,017 calls were sent to 929 patients over 9 months. Patients responded to 80% to 90% of messages allowing the system to detect 1164 clinically significant events. Patients reported increased satisfaction and communication with their provider. Epharmix increased the number of patient-provider interactions to over 10 on average in any given month for patients with diabetes, COPD, congestive heart failure, hypertension, surgical site infections, and breastfeeding difficulties. CONCLUSIONS: Engaging high-risk patients remains a difficult process that may be improved through novel, digital health interventions. The Epharmix platform enables increased patient engagement with very low risk to improve clinical outcomes. We demonstrated that engagement among high-risk populations is possible when health care comes conveniently to where they are.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "bioinformatics",
+        "eHealth",
+        "mHealth innovations",
+        "mobile health",
+        "multiple chronic conditions",
+        "telehealth",
+        "telemedicine"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30684401/",
+      "pmc_id": "PMC12880541",
+      "pdf_available": true,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/30684401.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study explicitly mentions a different platform, 'Epharmix,' and not 'Patient Engagement Platform' by Wellpepper. There is no indication that the two are related, and the intervention description does not match the Wellpepper product.",
+        "matched_elements": [
+          "Epharmix"
+        ]
+      }
+    },
+    {
+      "study_id": "39357049",
+      "pmid": "39357049",
+      "title": "Retention in HIV Primary Care Using a Web-Based Patient Engagement Platform: Multistate Case-Control Study.",
+      "authors": "Sukhija-Cohen Adam Carl et al.",
+      "authors_list": [
+        "Sukhija-Cohen Adam Carl",
+        "Patani Henna",
+        "Blasingame Michael Foxworth",
+        "Vu Kathy Linh",
+        "Bastani Ramin"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Oct-02",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/64092",
+      "abstract": "BACKGROUND: Digital interventions to improve retention in HIV care are critical to ensure viral suppression and prevent further transmission. AIDS Healthcare Foundation Healthcare Centers are centers across the United States that provide primary HIV care. Traditionally, the Healthcare Centers conduct phone calls with patients to schedule and confirm appointments, as well as share laboratory results. In 2017, Healthvana piloted a digital platform at AIDS Healthcare Foundation Healthcare Centers to send patients SMS text message appointment reminders and allow patients to review their upcoming appointment and view their laboratory results in the web-based patient portal. OBJECTIVE: A national implementation in 15 US states and Washington, DC, of this digital intervention pilot by Healthvana aims to determine whether SMS appointment reminders and web-based patient portal logins improved retention in care compared to traditional methods. METHODS: A retrospective analysis of 40,028 patients living with HIV was conducted at the 61 AIDS Healthcare Foundation Healthcare Centers between January 2, 2017, and May 22, 2018. Patients were invited to enroll in Healthvana's digital intervention pilot, allowing for a natural, organization-wide case-control study. Separate binary logistic regression models evaluated the relationship between receiving SMS appointment reminders and completing scheduled appointments, as well as the relationship between logging into the web-based patient portal and completing scheduled appointments. Four scheduled consecutive appointments for each patient were included in the analysis to account for 1 full year of data per patient. RESULTS: Patients who received the SMS appointment reminder were 1.7 times more likely to complete appointment 1 compared to patients who did not receive the SMS appointment reminder (P<.001). In addition, patients who received the SMS appointment reminder were 1.6 times more likely to complete appointment 2 (P<.001), 1.7 times more likely to complete appointment 3 (P<.001), and 1.8 times more likely to complete appointment 4 (P<.001) compared to patients who did not receive the SMS appointment reminder. Patients who logged in to the web-based patient portal prior to their scheduled appointment were 7.4 times more likely to complete appointment 1 compared to patients who did not log in (P<.001). In addition, patients who logged in to the web-based patient portal prior to their scheduled appointment were 3.6 times more likely to complete appointment 2 (P<.001), 3.2 times more likely to complete appointment 3 (P<.001), and 2.8 times more likely to complete appointment 4 (P<.001) compared to patients who did not log in. CONCLUSIONS: HIV primary care appointment completion was higher when patients engaged with Healthvana's digital platform. Digital technology interventions to ensure patients complete their scheduled HIV care appointments are imperative to curb the HIV epidemic.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "HIV Infections",
+        "Case-Control Studies",
+        "Primary Health Care",
+        "Male",
+        "Internet",
+        "Female",
+        "Adult",
+        "Middle Aged",
+        "Reminder Systems"
+      ],
+      "keywords": [
+        "HIV",
+        "appointments and schedules",
+        "digital technology",
+        "primary health care",
+        "retention in care"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39357049/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/39357049.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study explicitly mentions a digital platform called 'Healthvana,' which is not the same as 'Patient Engagement Platform' by Wellpepper. There is no mention of Wellpepper, its product, or a matching description of the intervention.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "38269987",
+      "pmid": "38269987",
+      "title": "Developing eHealth for Home Dialysis: Clinicians' Needs for a Digital Patient Engagement Platform.",
+      "authors": "Hölsä Sini et al.",
+      "authors_list": [
+        "Hölsä Sini",
+        "Viitanen Johanna",
+        "Valkonen Paula",
+        "Lääveri Tinja",
+        "Rauta Virpi"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Jan-25",
+      "journal": "Studies in health technology and informatics",
+      "journal_abbrev": "Stud Health Technol Inform",
+      "doi": "10.3233/SHTI231137",
+      "abstract": "eHealth solutions such as digital patient engagement platforms (DPEPs) aim at enhancing communication and collaboration between patients and clinicians. From the clinicians' viewpoint, concerns exist about new information systems (IS) leading to increased workload and interoperability problems. This article aims to support the development and implementation of DPEPs from the end-users' perspective. We studied clinicians' needs for a new DPEP developed to support home dialysis (HD) care. Eight clinicians participated in remote semi-structured interviews. Clinicians had positive expectations for the new DPEP as it could provide an overall picture of patients' status, support patients' self-care, and save time during patient visits. However, they had concerns about successful implementation, changes to workflows, and integration issues. To conclude, it is important to design and agree on changes in work practices, patient care, and complex IS environments when implementing new DPEP solutions in clinics.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Hemodialysis, Home",
+        "Patient Participation",
+        "Renal Dialysis",
+        "Home Care Services",
+        "Telemedicine"
+      ],
+      "keywords": [
+        "Clinical systems implementation",
+        "digital health",
+        "human-computer interaction",
+        "telehealth",
+        "user-centered design methods",
+        "virtual care"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38269987/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/38269987.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study discusses a generic 'digital patient engagement platform' (DPEP) for home dialysis without explicitly mentioning the 'Patient Engagement Platform' by Wellpepper or providing a specific description that matches the Wellpepper product. It could be about a different product or a generic concept.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "29499043",
+      "pmid": "29499043",
+      "title": "Patient and public engagement in priority setting: A systematic rapid review of the literature.",
+      "authors": "Manafò Elizabeth et al.",
+      "authors_list": [
+        "Manafò Elizabeth",
+        "Petermann Lisa",
+        "Vandall-Walker Virginia",
+        "Mason-Lai Ping"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018",
+      "journal": "PloS one",
+      "journal_abbrev": "PLoS One",
+      "doi": "10.1371/journal.pone.0193579",
+      "abstract": "BACKGROUND: Current research suggests that while patients are becoming more engaged across the health delivery spectrum, this involvement occurs most often at the pre-preparation stage to identify 'high-level' priorities in health ecosystem priority setting, and at the preparation phase for health research. OBJECTIVE: The purpose of this systematic rapid review of the literature is to describe the evidence that does exist in relation to patient and public engagement priority setting in both health ecosystem and health research. DATA SOURCES: HealthStar (via OVID); CINAHL; Proquest Databases; and Scholar's Portal. STUDY ELIGIBILITY CRITERIA: i) published in English; ii) published within the timeframe of 2007-Current (10 years) unless the report/article was formative in synthesizing key considerations of patient engagement in health ecosystem and health research priority setting; iii) conducted in Canada, the US, Europe, UK, Australia/New Zealand, or Scandinavian countries. STUDY APPRAISAL AND SYNTHESIS: i) Is the research valid, sound, and applicable?; ii) what outcomes can we potentially expect if we implement the findings from this research?; iii) will the target population (i.e., health researchers and practitioners) be able to use this research?. A summary of findings from each of the respective processes was synthesized to highlight key information that would support decision-making for researchers when determining the best priority setting process to apply for their specific patient-oriented research. RESULTS: Seventy articles from the UK, US, Canada, Netherlands and Australia were selected for review. Results were organized into two tiers of public and patient engagement in prioritization: Tier 1-Deliberative and Tier 2-Consultative. Highly structured patient and public engagement planning activities include the James Lind Alliance Priority Setting Partnerships (UK), Dialogue Method (Netherlands), Global Evidence Mapping (Australia), and the Deep Inclusion Method/CHoosing All Together (US). LIMITATIONS: The critical study limitations include challenges in comprehensively identifying the patient engagement literature for review, bias in article selection due to the identified scope, missed information due to a more limited use of exhaustive search strategies (e.g., in-depth hand searching), and the heterogeneity of reported study findings. CONCLUSION: The four public and patient engagement priority setting processes identified were successful in setting priorities that are inclusive and objectively based, specific to the priorities of stakeholders engaged in the process. The processes were robust, strategic and aimed to promote equity in patient voices. Key limitations identified a lack of evaluation data on the success and extent in which patients were engaged. Issues pertaining to feasibility of stakeholder engagement, coordination, communication and limited resources were also considered.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review"
+      ],
+      "mesh_terms": [
+        "Databases, Factual",
+        "Health Priorities",
+        "Humans",
+        "Patient Participation",
+        "Research"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29499043/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/29499043.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by Wellpepper, the company itself, or provide a specific description matching the product. It appears to be a generic review of patient and public engagement in health research priority setting.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "29415734",
+      "pmid": "29415734",
+      "title": "Patient engagement in Canada: a scoping review of the 'how' and 'what' of patient engagement in health research.",
+      "authors": "Manafo Elizabeth et al.",
+      "authors_list": [
+        "Manafo Elizabeth",
+        "Petermann Lisa",
+        "Mason-Lai Ping",
+        "Vandall-Walker Virginia"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018-Feb-07",
+      "journal": "Health research policy and systems",
+      "journal_abbrev": "Health Res Policy Syst",
+      "doi": "10.1186/s12961-018-0282-4",
+      "abstract": "BACKGROUND: Over the last 10 years, patient engagement in health research has emerged as the next evolution in healthcare research. However, limited evidence about the clear role and scope of patient engagement in health research and a lack of evidence about its impact have influenced the uptake, implementation and ongoing evolution of patient engagement. The present study aims to conduct a scoping review to identify methods for and outcomes of patient engagement in health research. METHODS: An adaptation of the scoping review methodology originally described by Arksey and O'Malley and updated by Levac, Colquhoun and O'Brien was applied. Sources from a formal database search and relevant documents from a grey literature search were compiled into data extraction tables. Articles were synthesised into key themes according to the (1) methods and (2) outcomes of patient engagement in health research. RESULTS: The total yield for the scoping review was 55 records from across Canada, the United Kingdom and the United States. While evidence about the methods used to engage patients in health research is increasing, stronger evidence of specific patient and healthcare system outcomes is required. This necessitates further mobilisation of research that explores outcomes and that validates specific tools to evaluate engagement. Additionally, theoretical frameworks that can better inform and sustain patient engagement across the lifecycle of health research are lacking. CONCLUSION: Further increasing the volume and reach of evidence about patient engagement in health research will support the paradigmatic shift needed to normalise the patient's role in research beyond 'subject' or 'participant', so as to ultimately improve patient health outcomes and better address healthcare reform in Canada.",
+      "publication_types": [
+        "Journal Article",
+        "Scoping Review"
+      ],
+      "mesh_terms": [
+        "Biomedical Research",
+        "Canada",
+        "Humans",
+        "Patient Participation",
+        "Research Design"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29415734/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/29415734.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by name, the company 'Wellpepper', or provide a specific description that matches the DTx product. It appears to be a generic study about patient engagement in health research.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "28851740",
+      "pmid": "28851740",
+      "title": "Patient and Researcher Engagement in Health Research: A Parent's Perspective.",
+      "authors": "Amirav Israel et al.",
+      "authors_list": [
+        "Amirav Israel",
+        "Vandall-Walker Virginia",
+        "Rasiah Jananee",
+        "Saunders Laura"
+      ],
+      "publication_year": "2017",
+      "publication_date": "2017-Sep",
+      "journal": "Pediatrics",
+      "journal_abbrev": "Pediatrics",
+      "doi": "10.1542/peds.2016-4127",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Attitude to Health",
+        "Child",
+        "Consultants",
+        "Correspondence as Topic",
+        "Delivery of Health Care",
+        "Electronic Health Records",
+        "Humans",
+        "Interdisciplinary Communication",
+        "Intersectoral Collaboration",
+        "Parents"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28851740/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/28851740.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study title does not mention 'Patient Engagement Platform,' Wellpepper, or provide any specific details about the intervention. No abstract or intervention details are available to confirm relevance. It could be about a different product or a generic study.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "30349739",
+      "pmid": "30349739",
+      "title": "People with lived experience (PWLE) of depression: describing and reflecting on an explicit patient engagement process within depression research priority setting in Alberta, Canada.",
+      "authors": "Breault Lorraine J et al.",
+      "authors_list": [
+        "Breault Lorraine J",
+        "Rittenbach Katherine",
+        "Hartle Kelly",
+        "Babins-Wagner Robbie",
+        "de Beaudrap Catherine"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018",
+      "journal": "Research involvement and engagement",
+      "journal_abbrev": "Res Involv Engagem",
+      "doi": "10.1186/s40900-018-0115-1",
+      "abstract": "PLAIN ENGLISH SUMMARY: The Alberta Depression Research Priority Setting Project aimed to meaningfully involve patients, families and clinicians in determining a research agenda aligned to the needs of Albertans who have experienced depression. The project was modeled after a process developed in the UK by the James Lind Alliance and adapted to fit the Alberta, Canada context. This study describes the processes used to ensure the voices of people with lived experience of depression were integrated throughout the project stages. The year long project culminated with a facilitated session to identify the top essential areas of depression research focus. People with lived experience were engaged as part of the project's Steering Committee, as survey participants and as workshop participants. It is hoped this process will guide future priority setting opportunities and advance depression research in Alberta. ABSTRACT: Background The Depression Research Priority Setting (DRPS) project has the clear aim of describing the patient engagement process used to identify depression research priorities and to reflect on the successes of this engagement approach, positive impacts and opportunities for improvement. To help support patient-oriented depression research priority setting in Alberta, the Patient Engagement (PE) Platform of the Alberta Strategy for Patient Oriented Research Support for People and Patient-Oriented Research and Trials (SUPPORT) Unit designed, along with the support of their partners in addictions and mental health, an explit process to engage patients in the design and execution of the DRPS. Methods The UK's James Lind Alliance (JLA) Priority Setting Partnership (PSP) method was adapted into a six step process to ensure voices of \"people with lived experience\" (PWLE) with depression were included throughout the project stages. This study uses an explicit and parallel patient engagement process throughout each estage of the PSP designed by the PE Platform. Patient engagement was divided into a five step process: i) Awareness and relationship building; ii) Co-designing and co-developing a shared decision making process; iii) Collaborative communication; iv) Collective sensemaking; and v) Acknowledgement, celebration and recognition. A formative evaluation of the six PE processes was undertaken to explore the success of the parallel patient engagement process. Results This project was successful in engaging people with lived depression experience as partners in research priority setting, incorporating their voices into the discussions and decisions that led to the top 25 depression research questions. Conclusions The DRPS project has positively contributed to depression research in Canada by identifying the priorities of Albertans who have experienced depression for depression research. Dissemination activities to promote further knowledge exchange of prioritized research questions, with emphasis on the importance of process in engaging the voices of PWLE of depression are planned.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Depression",
+        "Depression research",
+        "Patient engagement",
+        "People with lived experience (PWLE)",
+        "Priority setting partnership",
+        "Process"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30349739/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/30349739.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by Wellpepper, nor does it provide a description that clearly matches the product. The term 'Patient Engagement Platform' is used generically in the context of the Alberta Strategy for Patient Oriented Research, which appears unrelated to Wellpepper's product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "29540188",
+      "pmid": "29540188",
+      "title": "Correction to: Patient engagement in Canada: a scoping review of the 'how' and 'what' of patient engagement in health research.",
+      "authors": "Manafo Elizabeth et al.",
+      "authors_list": [
+        "Manafo Elizabeth",
+        "Petermann Lisa",
+        "Mason-Lai Ping",
+        "Vandall-Walker Virginia"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018-Mar-14",
+      "journal": "Health research policy and systems",
+      "journal_abbrev": "Health Res Policy Syst",
+      "doi": "10.1186/s12961-018-0296-y",
+      "abstract": "It has been highlighted that the original manuscript [1] contains a typesetting error in the surname of Virginia Vandall-Walker. This was incorrectly captured as Virgnia Vandall-Walker in the original manuscript which has since been updated.",
+      "publication_types": [
+        "Journal Article",
+        "Published Erratum"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29540188/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/29540188.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any specific description of the intervention that matches the DTx product. It appears to be a correction notice unrelated to any specific digital therapeutic.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "38178914",
+      "pmid": "38178914",
+      "title": "Optimizing CFTR modulator therapy management for cystic fibrosis through the ReX platform.",
+      "authors": "Yaacoby-Bianu Karin et al.",
+      "authors_list": [
+        "Yaacoby-Bianu Karin",
+        "Cohen-Cymberknoh Malena",
+        "Shoseyov David",
+        "Lavi Tal",
+        "Ostrovski Ana"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023",
+      "journal": "Frontiers in pediatrics",
+      "journal_abbrev": "Front Pediatr",
+      "doi": "10.3389/fped.2023.1300968",
+      "abstract": "BACKGROUND: Cystic fibrosis (CF) is a chronic multi-systemic disease that requires a complex daily treatment regimen. Therefore, there is sub-optimal adherence to CF therapies, and it was shown to impact its clinical and economic burden. Cystic fibrosis transmembrane conductance regulator modulators (CFTRm) are high-cost medications that demonstrated significant benefit in clinical trials. The aim of this study was to evaluate the safety, usability, and efficacy of the ReX platform in medication management of CFTRm for the treatment of people with CF (pwCF). METHODS: ReX is a patient engagement platform consisting of a cloud-based management system and a cell-enabled handheld device intended to dispense oral medication into the patient's mouth, following a pre-programmed treatment protocol. It provides real-time adherence data to caregivers and timely, personalized reminders to patients. This is a prospective multi-center open study for pwCFs older than 12 years, who had been prescribed CFTRm [elexacaftor/tezacaftor/ivacaftor (ETI) or tezacaftor/ivacaftor (TI)], and provided consent to use ReX platform to receive CFTRm and record their health condition. Study duration was 12-24 months, with clinic visits where physical examination, body mass index (BMI), and pulmonary function tests were performed, and user experience questionnaires were filled in. RESULTS: Ten pwCFs from two CF centers in Israel were included. The mean age was 31.5 years (range 15-74 years); eight were taking ETI and two TI. Median adherence to CFTRm was 97.5% (range 70%-100%) in the first year and 94% (range 84%-99%) in the second year, which is higher than the previously reported CFTRm adherence of ∼80%. No adverse events related to the use of the platform were reported. Patients reported ReX to be valuable to their treatment management and user friendly. Estimated mean forced expiratory volume in 1 s (FEV1%) increased from 74.4% to 80.8% (p = 0.004) over 2 years. Similarly, estimated BMI percentile increased from 53.5 to 59.0 (p < 0.001). CONCLUSIONS: Using the ReX platform in medication management of pwCF treated by CFTRm is safe, easy to use, and effective in improving the adherence to treatment and the clinical outcomes. Consequently, this device may potentially reduce costs to healthcare providers. Further larger and long-term studies are required to examine the clinical benefits of the ReX platform.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CFTR modulators",
+        "adherence to chronic treatment",
+        "cystic fibrosis",
+        "elexacaftor/tezacaftor/ivacaftor",
+        "medication delivery platforms",
+        "remote patient monitoring"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38178914/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/38178914.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study explicitly mentions the 'ReX platform,' which is a different product from the 'Patient Engagement Platform' by Wellpepper. There is no mention of Wellpepper, 'Patient Engagement Platform,' or a description that matches the Wellpepper product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "34988035",
+      "pmid": "34988035",
+      "title": "Use of Patient-Reported Experience Measures in Pediatric Care: A Systematic Review.",
+      "authors": "Bele Sumedh et al.",
+      "authors_list": [
+        "Bele Sumedh",
+        "Teela Lorynn",
+        "Zhang Muning",
+        "Rabi Sarah",
+        "Ahmed Sadia"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021",
+      "journal": "Frontiers in pediatrics",
+      "journal_abbrev": "Front Pediatr",
+      "doi": "10.3389/fped.2021.753536",
+      "abstract": "Introduction: Patient-reported Experience Measures (PREMs) are validated questionnaires, that gather patients' and families' views of their experience receiving care and are commonly used to measure the quality of care, with the goal to make care more patient and family-centered. PREMs are increasingly being adopted in pediatric population, however knowledge gaps exist around understanding the use of PREMs in pediatrics. Objective: To identify and synthesize evidence on the use of PREMs in pediatric healthcare settings and their characteristics. Evidence Review: Preferred Reporting Items for Systematic Reviews and Meta-Analysis guidelines governed the conduct and reporting of this review. An exhaustive search strategy was applied to MEDLINE, EMBASE, PsycINFO, Cochrane Library, and CINAHL databases to identify relevant peer-reviewed articles from high-income countries. Additionally, gray literature was searched to capture real-world implementation of PREMs. All the articles were screened independently by two reviewers in two steps. Data was extracted independently, synthesized, and tabulated. Findings from gray literature was synthesized and reported separately. Risk of bias for the studies identified through scientific databases was assessed independently by two reviewers using the National Institutes of Health Quality Assessment Tool for Observational Cohort and Cross-Sectional Studies. Results: The initial search identified 15,457 articles. After removing duplicates, the title and abstracts of 11,543 articles were screened. Seven hundred ten articles were eligible for full-text review. Finally, 83 articles met the criteria and were included in the analyses. Of the 83 includes studies conducted in 14 countries, 48 were conducted in USA, 25 in European countries and 10 in other countries. These 83 studies reported on the use of 39 different PREMs in pediatric healthcare settings. The gray literature retrieved 10 additional PREMs. The number of items in these PREMs ranged from 7 to 89. Twenty-three PREMs were designed to be completed by proxy, 10 by either pediatric patients or family caregivers, and 6 by pediatric patients themselves. Conclusion and Relevance: This comprehensive review is the first to systematically search evidence around the use of PREMs in pediatrics. The findings of this review can guide health administrators and researchers to use appropriate PREMs to implement patient and family-centered care in pediatrics.",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "patient-centered care",
+        "patient-reported experience measures (PREMs)",
+        "pediatrics",
+        "routine clinical care",
+        "systematic review"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34988035/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/34988035.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description that matches the specific DTx product. It is a generic review of Patient-Reported Experience Measures (PREMs) in pediatric care.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "37432990",
+      "pmid": "37432990",
+      "title": "Disconnected: Electronic Patient-Reported Outcome Measure Collection In Orthopaedic Patients at an Urban Safety-Net Hospital.",
+      "authors": "Tucker Nicholas J et al.",
+      "authors_list": [
+        "Tucker Nicholas J",
+        "Shah Ananya",
+        "Mauffrey Cyril",
+        "Hammerberg Mark",
+        "Parry Joshua A"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Nov-01",
+      "journal": "The Journal of the American Academy of Orthopaedic Surgeons",
+      "journal_abbrev": "J Am Acad Orthop Surg",
+      "doi": "10.5435/JAAOS-D-23-00132",
+      "abstract": "INTRODUCTION: Collection of patient-reported outcome measures (PROMs) in orthopaedic patients at safety-net hospitals is challenging. The purpose of this study was to evaluate the success of electronic PROM (E-PROM) collection in this setting. METHODS: A retrospective review identified 207 consecutive orthopaedic patients undergoing 77 elective arthroplasty procedures and 130 trauma procedures. E-PROMs were collected through automated e-mails from an online patient engagement platform (PatientIQ) at 2 weeks, 6 weeks, and 3 months postoperatively. Patients with trauma received the percentage of normal Single Assessment Numerical Evaluation (SANE) and Patient-Reported Outcomes Measurement Information System-Physical Function (PROMIS-PF). Arthroplasty patients received the Hip/Knee SANE, Hip/Knee Disability and Osteoarthritis Outcome Score-Joint Replacement (HOOS Jr/KOOS Jr), PROMIS Global Physical Health (PROMIS-G-PH), and Veterans RAND 12-Item (VR-12) Health Survey. RESULTS: Compared with patients with trauma, arthroplasty patients were older (median difference 18.0 years; 95% confidence interval [CI] 12.0-22.0; P < 0.0001), more likely to be Hispanic/Black (proportional difference 16.9%; CI 2.8-30.3%; P = 0.02), more likely to have noncommercial or no insurance (proportional difference 34.0%; CI 23.2-43.0%; P < 0.001), and did not differ in Area Deprivation Index or E-PROM completion at each time point. E-PROMs were completed at 2 weeks, 6 weeks, and 3 months by 25.1% (52 of 207), 24.6% (51 of 207), and 21.7% (45 of 207) of all patients, respectively. Trauma and arthroplasty patients had a similar rate of partial E-PROM completion. Patients who completed 3-month E-PROMs were less likely to be Hispanic/Black (PD -16.4%; CI -31.0 to -0.2%; P < 0.04); less likely to have noncommercial/no insurance (PD -20.0%; CI -35.5 to -4.5%; P = 0.01); and did not differ in age, sex, Area Deprivation Index, or procedure type. DISCUSSION: The low collection rate of E-PROMs from orthopaedic patients at safety-net hospitals should be weighed against their costs. E-PROM collection may exacerbate disparities in PROM collection among certain patient populations. LEVEL OF EVIDENCE: Diagnostic Level III.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37432990/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/37432990.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study explicitly mentions a different platform, 'PatientIQ,' and does not reference 'Patient Engagement Platform' or Wellpepper. The intervention description does not match the Wellpepper product.",
+        "matched_elements": [
+          "PatientIQ"
+        ]
+      }
+    },
+    {
+      "study_id": "27553007",
+      "pmid": "27553007",
+      "title": "Using digital technologies to engage with medical research: views of myotonic dystrophy patients in Japan.",
+      "authors": "Coathup Victoria et al.",
+      "authors_list": [
+        "Coathup Victoria",
+        "Teare Harriet J A",
+        "Minari Jusaku",
+        "Yoshizawa Go",
+        "Kaye Jane"
+      ],
+      "publication_year": "2016",
+      "publication_date": "2016-Aug-24",
+      "journal": "BMC medical ethics",
+      "journal_abbrev": "BMC Med Ethics",
+      "doi": "10.1186/s12910-016-0132-2",
+      "abstract": "BACKGROUND: As in other countries, the traditional doctor-patient relationship in the Japanese healthcare system has often been characterised as being of a paternalistic nature. However, in recent years there has been a gradual shift towards a more participatory-patient model in Japan. With advances in technology, the possibility to use digital technologies to improve patient interactions is growing and is in line with changing attitudes in the medical profession and society within Japan and elsewhere. The implementation of an online patient engagement platform is being considered by the Myotonic Dystrophy Registry of Japan. The aim of this exploratory study was to understand patients' views and attitudes to using digital tools in patient registries and engagement with medical research in Japan, prior to implementation of the digital platform. METHODS: We conducted an exploratory, cross-sectional, self-completed questionnaire with a sample of myotonic dystrophy (MD) patients attending an Open Day at Osaka University, Japan. Patients were eligible for inclusion if they were 18 years or older, and were diagnosed with MD. RESULTS: A total of 68 patients and family members attended the Open Day and were invited to participate in the survey. Of those, 59 % submitted a completed questionnaire (n = 40). The survey showed that the majority of patients felt that they were not receiving the information they wanted from their clinicians, which included recent medical research findings and opportunities to participate in clinical trials, and 88 % of patients indicated they would be willing to engage with digital technologies to receive relevant medical information. Patients also expressed an interest in having control over when and how they received this information, as well as being informed of how their data is used and shared with other researchers. CONCLUSION: Overall, the findings from this study suggest that there is scope to develop a digital platform to engage with patients so that they can receive information about medical care and research opportunities. While this study group is a small, self-selecting population, who suffer from a particular condition, the results suggest that there are interested populations within Japan that would appreciate enhanced communication and interaction with healthcare teams.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Attitude",
+        "Biomedical Research",
+        "Communication",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Information Seeking Behavior",
+        "Internet",
+        "Japan"
+      ],
+      "keywords": [
+        "Data sharing",
+        "Digital technology",
+        "Dynamic consent",
+        "Electronic health records",
+        "Myotonic dystrophy",
+        "Participant centric initiatives",
+        "Patient engagement",
+        "Patient perspectives",
+        "Patient privacy",
+        "Patient views"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27553007/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/27553007.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a specific description that matches the product. It discusses a generic digital platform for patient engagement in the context of myotonic dystrophy, which could be unrelated to the Wellpepper product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "34193519",
+      "pmid": "34193519",
+      "title": "Categorising patient concerns using natural language processing techniques.",
+      "authors": "Fairie Paul et al.",
+      "authors_list": [
+        "Fairie Paul",
+        "Zhang Zilong",
+        "D'Souza Adam G",
+        "Walsh Tara",
+        "Quan Hude"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Jun",
+      "journal": "BMJ health & care informatics",
+      "journal_abbrev": "BMJ Health Care Inform",
+      "doi": "10.1136/bmjhci-2020-100274",
+      "abstract": "OBJECTIVES: Patient feedback is critical to identify and resolve patient safety and experience issues in healthcare systems. However, large volumes of unstructured text data can pose problems for manual (human) analysis. This study reports the results of using a semiautomated, computational topic-modelling approach to analyse a corpus of patient feedback. METHODS: Patient concerns were received by Alberta Health Services between 2011 and 2018 (n=76 163), regarding 806 care facilities in 163 municipalities, including hospitals, clinics, community care centres and retirement homes, in a province of 4.4 million. Their existing framework requires manual labelling of pre-defined categories. We applied an automated latent Dirichlet allocation (LDA)-based topic modelling algorithm to identify the topics present in these concerns, and thereby produce a framework-free categorisation. RESULTS: The LDA model produced 40 topics which, following manual interpretation by researchers, were reduced to 28 coherent topics. The most frequent topics identified were communication issues causing delays (frequency: 10.58%), community care for elderly patients (8.82%), interactions with nurses (8.80%) and emergency department care (7.52%). Many patient concerns were categorised into multiple topics. Some were more specific versions of categories from the existing framework (eg, communication issues causing delays), while others were novel (eg, smoking in inappropriate settings). DISCUSSION: LDA-generated topics were more nuanced than the manually labelled categories. For example, LDA found that concerns with community care were related to concerns about nursing for seniors, providing opportunities for insight and action. CONCLUSION: Our findings outline the range of concerns patients share in a large health system and demonstrate the usefulness of using LDA to identify categories of patient concerns.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Algorithms",
+        "Health Services",
+        "Hospitals",
+        "Humans",
+        "Natural Language Processing",
+        "Patient Safety",
+        "Professional-Patient Relations"
+      ],
+      "keywords": [
+        "BMJ health informatics",
+        "patient care"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34193519/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/34193519.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any description that matches the specific digital therapeutic product. It focuses on natural language processing techniques for categorizing patient concerns, which is unrelated to the described DTx.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "41027596",
+      "pmid": "41027596",
+      "title": "Does robotic assistance influence recovery after total knee arthroplasty? : a prospective study using daily remote patient monitoring.",
+      "authors": "Hannon Charles P et al.",
+      "authors_list": [
+        "Hannon Charles P",
+        "Schwabe Maria T",
+        "King Jacqueline",
+        "Riegler Venessa",
+        "Barrack Robert L"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Oct-01",
+      "journal": "The bone & joint journal",
+      "journal_abbrev": "Bone Joint J",
+      "doi": "10.1302/0301-620X.107B10.BJJ-2024-0989.R2",
+      "abstract": "AIMS: The aim of this study was to compare the early clinical outcomes of robotically-assisted total knee arthroplasty (RA-TKA) and manual total knee arthroplasty (M-TKA), using daily remote patient monitoring. METHODS: We prospectively enrolled and compared patients who underwent 95 RA-TKAs with those who underwent 114 M-TKAs. All patients used an activity monitor and a patient engagement platform for two weeks preoperatively and 90 days postoperatively to collect daily visual analogue scale (VAS) pain scores, opioid consumption (in morphine milligram equivalents (MMEs)), step counts, weekly Oxford Knee Scores (OKSs), and monthly Forgotten Joint Scores (FJS). There were no significant differences between groups in sex or BMI. Patients in the RA-TKA group were significantly younger (mean age 63 vs 65 years; p = 0.006). Independent-samples t-tests, chi-squared tests, and Fisher's exact tests were used for statistical analysis. RESULTS: RA-TKA led to significantly decreased pain (mean VAS 3.6 vs 4.2; p = 0.011) and significantly reduced opioid consumption in the first seven days postoperatively (a mean of 10 less MMEs per day; p < 0.001) compared with M-TKA. The RA-TKA group stopped taking opioids six days sooner (mean 24 days vs 30 days; p = 0.041). There were no significant differences in the number of days before stopping the use of walking aids (mean 31 days vs 35 days; p = 0.091). Patients in the RA-TKA group had significantly increased OKSs for the first five weeks (p = 0.013). There were no significant differences in the FJSs at all times or in OKSs beyond five weeks. There were no significant differences in the operating times (p = 0.405), step counts (p = 0.642), or complications (p = 0.222) between the groups. CONCLUSION: The use of robotic assistance in TKA led to significant improvements in pain, opioid consumption, and OKSs compared with manual instrumentation in the early recovery after primary TKA.",
+      "publication_types": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Arthroplasty, Replacement, Knee",
+        "Male",
+        "Female",
+        "Prospective Studies",
+        "Robotic Surgical Procedures",
+        "Middle Aged",
+        "Aged",
+        "Postoperative Pain",
+        "Pain Measurement"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41027596/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/41027596.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study mentions the use of a 'patient engagement platform' but does not explicitly name 'Patient Engagement Platform' or Wellpepper. The description of the intervention is too generic to confirm it is the specific Wellpepper product.",
+        "matched_elements": [
+          "patient engagement platform"
+        ]
+      }
+    },
+    {
+      "study_id": "38828670",
+      "pmid": "38828670",
+      "title": "Evaluating patient and family preferences for acute and preventive pediatric headache treatment.",
+      "authors": "Martin Elise G et al.",
+      "authors_list": [
+        "Martin Elise G",
+        "Kuziek Jonathan",
+        "Rasiah Jananee",
+        "Orr Serena L"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Sep",
+      "journal": "Headache",
+      "journal_abbrev": "Headache",
+      "doi": "10.1111/head.14739",
+      "abstract": "OBJECTIVE: To describe acute and preventive treatment preferences among youth with migraine and their parents/guardians, and to describe the degree of youth-parent/guardian preference agreement. BACKGROUND: Headache disorders are common in youth, but little is known about patient and family preferences for headache treatments and outcomes. METHODS: In this cross-sectional survey, a headache treatment preferences questionnaire was co-created with stakeholders, piloted, and distributed to consenting youth with migraine aged 9-18 years and parents/guardians at a tertiary care headache clinic in western Canada. Response data were summarized for youth and parents/guardians separately, and agreement rates within a youth-parent/guardian pair were compared to a hypothesized agreement rate of 80% for the primary questionnaire items. RESULTS: Seventy-two youth and n = 94 parents/guardians participated, with n = 63 in youth-parent/guardian pairs. Freedom from pain and rapid relief, and reducing pain severity and headache frequency were top acute and preventive treatment priorities, respectively. More than 90% (69/72) agreed that ≥ 50% reduction in headache frequency was a good target. For both acute and preventive interventions, swallowed pill-based options were most often selected as the preferred first-line treatment, with neuromodulation selected as the preferred second-line treatment. The level of agreement within youth-parent/guardian pairs on preferred treatment modalities was lower than hypothesized for acute (63% [40/63], 95% confidence interval [CI] = 52-75%, χ2 = 10.73, p = 0.001) but not for preventive treatment (73% [46/63], 95% CI = 62-84%, χ2 = 1.92, p = 0.166). Regarding which treatment modalities were perceived as most effective, youth-parent agreement was lower than hypothesized for both acute (48% [30/63], 95% CI = 35-60%, χ2 = 41.29, p < 0.001) and preventive treatment (46% [29/63], 95% CI = 34-58%, χ2 = 45.43, p < 0.001). CONCLUSION: Youth and family preferences aligned qualitatively, but sometimes diverged quantitatively, from typical clinical trial outcomes. The level of agreement within youth-parent/guardian pairs on treatment preferences and perceptions was low. Clinicians should consider both perspectives as they may be divergent.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Child",
+        "Adolescent",
+        "Male",
+        "Female",
+        "Cross-Sectional Studies",
+        "Patient Preference",
+        "Parents",
+        "Surveys and Questionnaires",
+        "Migraine Disorders"
+      ],
+      "keywords": [
+        "acute and preventative treatment",
+        "child and adolescent headache",
+        "patient engagement"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38828670/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/38828670.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any description matching the digital therapeutic product. It focuses on treatment preferences for pediatric headache, which is unrelated to the described DTx.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "35227873",
+      "pmid": "35227873",
+      "title": "Protocol for the IMPACT Trial: Improving Healthcare Outcomes in American Transplant Recipients Using Culturally-Tailored Novel Technology.",
+      "authors": "Rice Claudia M et al.",
+      "authors_list": [
+        "Rice Claudia M",
+        "Singh Pooja P",
+        "Judd Nila S",
+        "Jimenez Elizabeth Yakes",
+        "Blair Cindy K"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-May",
+      "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
+      "journal_abbrev": "J Ren Nutr",
+      "doi": "10.1053/j.jrn.2022.02.004",
+      "abstract": "Kidney transplant (KT) recipients face post-transplant health issues. Immunosuppressive agents can cause hyperlipidemia, hypertension, post-transplant diabetes, and glomerulopathy. Post-transplant weight gain and decreased activity are associated with poor quality of life, sleep, and cardiometabolic outcomes. This study will test the feasibility and acceptability of a culturally tailored diet and exercise intervention for KT patients delivered immediately post-transplant using novel technology. A registered dietitian nutritionist (RDN) and physical rehabilitation therapist will examine participants' cultural background, preferences, and health-related obstacles (with consultation from the transplant team) to create an individualized exercise and meal plan. The RDN will provide medical nutrition therapy via the nutrition care process throughout the course of the intervention. The Twistle Patient Engagement Platform will be used to deliver and collect survey data, communicate with participants, and promote retention. Outcomes to be assessed include intervention feasibility and acceptability and intervention efficacy on patients' adherence, medical, quality of life, and occupational outcomes.",
+      "publication_types": [
+        "Clinical Trial Protocol",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Delivery of Health Care",
+        "Humans",
+        "Quality of Life",
+        "Technology",
+        "Transplant Recipients",
+        "Weight Gain"
+      ],
+      "keywords": [
+        "diet and exercise",
+        "kidney transplant",
+        "lifestyle modification",
+        "medical nutrition therapy",
+        "post-transplant"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35227873/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/35227873.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study explicitly mentions the 'Twistle Patient Engagement Platform,' which is a different product and not the 'Patient Engagement Platform' by Wellpepper. There is no mention of Wellpepper or its product in the study.",
+        "matched_elements": [
+          "Twistle Patient Engagement Platform"
+        ]
+      }
+    },
+    {
+      "study_id": "37019311",
+      "pmid": "37019311",
+      "title": "Chitranjan S. Ranawat Award: Tourniquet Use Does Not Impact Trajectory of Total Knee Arthroplasty Early Recovery: A Prospective, Randomized Controlled Trial.",
+      "authors": "Lawrie Charles M et al.",
+      "authors_list": [
+        "Lawrie Charles M",
+        "Hannon Charles P",
+        "Jo Sally",
+        "King Jacqueline",
+        "Riegler Venessa"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Jun",
+      "journal": "The Journal of arthroplasty",
+      "journal_abbrev": "J Arthroplasty",
+      "doi": "10.1016/j.arth.2023.03.081",
+      "abstract": "BACKGROUND: The impact of tourniquet use on recovery after total knee arthroplasty (TKA) remains controversial. The purpose of this prospective, single blinded, randomized controlled trial was to investigate the effect of tourniquet use on early recovery after TKA using a smartphone app-based patient engagement platform (PEP) with a wrist-based activity monitor to obtain more robust data on early recovery. METHODS: There were 107 patients undergoing primary TKA for osteoarthritis who were enrolled (54 tourniquet [TQ+]; 53 no tourniquet [TQ-]). All patients utilized a PEP and wrist-based activity sensor for 2 weeks preoperatively and 90 days postoperatively to collect Visual Analog Scale (VAS) pain scores and opioid consumption, as well as weekly Oxford Knee Score (OKS) and monthly Forgotten Joint Score (FJS). There was no difference in demographics between groups. Formal physical therapy assessments were performed preoperatively and 3 months postoperatively. Independent sample t-tests were used for continuous data and Chi-square and Fisher's exact tests were used for discrete data. RESULTS: Tourniquet use did not have a statistically significant impact on daily VAS pain or opioid consumption during the first 30 days postoperatively (P > .05). Tourniquet use did not have a significant impact on OKS or FJS at 30 or 90 days postoperatively (P > .05), or on performance of formal physical therapy testing at 3 months postoperatively (P > .05). CONCLUSION: Using a digital technology to collect daily patient data, we found that tourniquet use has no clinically significant negative impact on pain and function in the first 90 days after primary TKA.",
+      "publication_types": [
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Arthroplasty, Replacement, Knee",
+        "Knee Joint",
+        "Analgesics, Opioid",
+        "Prospective Studies",
+        "Treatment Outcome",
+        "Recovery of Function",
+        "Osteoarthritis, Knee",
+        "Postoperative Pain",
+        "Tourniquets"
+      ],
+      "keywords": [
+        "remote patient monitoring",
+        "smartphone",
+        "total knee arthroplasty",
+        "tourniquet",
+        "tourniquetless",
+        "wearable"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37019311/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/37019311.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions a 'patient engagement platform' (PEP) but does not explicitly name 'Patient Engagement Platform' or 'Wellpepper'. The description of the intervention is generic and could apply to other digital solutions. There is no clear evidence linking this study to the specific Wellpepper product.",
+        "matched_elements": [
+          "mention of 'patient engagement platform'"
+        ]
+      }
+    },
+    {
+      "study_id": "30030212",
+      "pmid": "30030212",
+      "title": "Accuracy of Internet-Based Patient Self-Report of Postdischarge Health Care Utilization and Complications Following Orthopedic Procedures: Observational Cohort Study.",
+      "authors": "Rosner Benjamin I et al.",
+      "authors_list": [
+        "Rosner Benjamin I",
+        "Gottlieb Marc",
+        "Anderson William N"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018-Jul-20",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/10405",
+      "abstract": "BACKGROUND: The accuracy of patient self-report of health care utilization and complications has yet to be determined. If patients are accurate and engaged self-reporters, collecting this information in a manner that is temporally proximate to the health care utilization events themselves may prove valuable to health care organizations undertaking quality improvement initiatives for which such data are often unavailable. OBJECTIVE: The objective of this study was to measure the accuracy of patient self-report of health care utilization and complications in the 90 days following orthopedic procedures using an automated digital patient engagement platform. METHODS: We conducted a multicenter real-world observational cohort study across 10 orthopedic practices in California and Nevada. A total of 371 Anthem members with claims data meeting inclusion criteria who had undergone orthopedic procedures between March 1, 2015, and July 1, 2016, at participating practices already routinely using an automated digital patient engagement platform for asynchronous remote guidance and telemonitoring were sent surveys through the platform (in addition to the other materials being provided to them through the platform) regarding 90-day postencounter health care utilization and complications. Their self-reports to structured survey questions of health care utilization and complications were compared to claims data as a reference. RESULTS: The mean age of the 371 survey recipients was 56.5 (SD 15.7) years, 48.8% (181/371) of whom were female; 285 individuals who responded to 1 or more survey questions had a mean age of 56.9 (SD 15.4) years and a 49.5% (141/285) female distribution. There were no significant differences in demographics or event prevalence rates between responders and nonresponders. With an overall survey completion rate of 76.8% (285/371), patients were found to have accuracy of self-report characterized by a kappa of 0.80 and agreement of 0.99 and a kappa of 1.00 and agreement of 1.00 for 90-day hospital admissions and pulmonary embolism, respectively. Accuracy of self-report of 90-day emergency room/urgent care visits and of surgical site infection were characterized by a kappa of 0.45 and agreement of 0.96 and a kappa of 0.53 and agreement of 0.97, respectively. Accuracy for other complications such as deep vein thrombosis, hemorrhage, severe constipation, and fracture/dislocation was lower, influenced by low event prevalence rates within our sample. CONCLUSIONS: In this multicenter observational cohort study using an automated internet-based digital patient engagement platform, we found that patients were most accurate self-reporters of 90-day hospital admissions and pulmonary embolism, followed by 90-day surgical site infection and emergency room/urgent care visits. They were less accurate for deep vein thrombosis and least accurate for hemorrhage, severe constipation, and fracture/dislocation. A total of 76.8% (285/371) of patients completed surveys without the need for clinical staff to collect responses, suggesting the acceptability to patients of internet-based survey dissemination from and collection by clinical teams. While our methods enabled detection of events outside of index institutions, assessment of accuracy of self-report for presence and absence of events and nonresponse bias analysis, low event prevalence rates, particularly for several of the complications, limit the conclusions that may be drawn for some of the findings. Nevertheless, this investigation suggests the potential that engaging patients in self-report through such survey modalities may offer for the timely and accurate measurement of matters germane to health care organizations engaged in quality improvement efforts post discharge.",
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "mesh_terms": [
+        "Cohort Studies",
+        "Female",
+        "Hospitalization",
+        "Humans",
+        "Internet",
+        "Male",
+        "Middle Aged",
+        "Orthopedics",
+        "Patient Discharge",
+        "Self Report"
+      ],
+      "keywords": [
+        "complications",
+        "emergency room",
+        "hospital economics",
+        "patient readmission",
+        "patient reported outcome measures",
+        "patient self-report",
+        "patient-generated health data",
+        "utilization"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30030212/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/30030212.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions an 'automated digital patient engagement platform,' but it does not explicitly name 'Patient Engagement Platform' or Wellpepper. The description of the platform is generic and could apply to other products. There is no clear evidence linking this study to the specific Wellpepper product.",
+        "matched_elements": [
+          "automated digital patient engagement platform"
+        ]
+      }
+    },
+    {
+      "study_id": "40331207",
+      "pmid": "40331207",
+      "title": "What Are the Preferences in Patient-Physician Communication Among Total Joint Arthroplasty Patients?",
+      "authors": "Dandamudi Siddhartha et al.",
+      "authors_list": [
+        "Dandamudi Siddhartha",
+        "Jan Kyleen",
+        "Majji Ilyass",
+        "DeBenedetti Anne",
+        "Behery Omar"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Jun",
+      "journal": "Arthroplasty today",
+      "journal_abbrev": "Arthroplast Today",
+      "doi": "10.1016/j.artd.2025.101682",
+      "abstract": "BACKGROUND: Effective communication is essential in fostering a strong physician-patient relationship. With a growing number of patient engagement platforms, understanding communication preferences is crucial in guiding patient contact strategies more effectively. The goal of this study is to explore communication medium preferences of hip and knee arthroplasty patients. METHODS: A 10-question survey focused on patient communication preferences with the surgical team was distributed anonymously to patients at clinic visits of multiple arthroplasty surgeons at a large academic center. No identifying information was collected. RESULTS: Four hundred seventy-two responses were collected. Of the patients, 95.6% were willing to share their phone number with the surgical team. Of those responding, 53.5% and 35.4% indicated that a phone call and text, respectively, were their preferred communication medium. A majority (93%) of respondents had positive feelings towards receiving 1-way message updates with reminders, videos, and expected milestones perioperatively. Most patients (92.5%) want an open line of communication with the surgical team, and almost every respondent (99.6%) believes that the surgeon or insurance company is responsible financially for this means of communication or patient engagement platform. CONCLUSIONS: Our data suggest that direct communication via phone calls and texts are the preferred media of communication with arthroplasty patients. Financially, surgeons should be aware that engagement platforms may add to practice costs. However, incorporating these insights into practice can enhance patient satisfaction, ultimately leading to better outcomes and more efficient care. Understanding these preferences may afford clearer, more effective interactions with patients and potentially improve overall engagement and outcome data collection.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Arthroplasty",
+        "Communication",
+        "Satisfaction"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40331207/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/40331207.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by Wellpepper, the company name, or provide a specific description that matches the product. It appears to be a generic study about patient communication preferences and engagement platforms in general.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "37828695",
+      "pmid": "37828695",
+      "title": "Disconnected: Electronic Patient-Reported Outcome Measure Collection in Orthopaedic Patients is Less Successful Than In-Person Collection at an Urban Safety Net Trauma Center.",
+      "authors": "Tucker Nicholas J et al.",
+      "authors_list": [
+        "Tucker Nicholas J",
+        "Shah Ananya",
+        "Mauffrey Cyril",
+        "Hammerberg E Mark",
+        "Parry Joshua A"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Nov-01",
+      "journal": "Journal of orthopaedic trauma",
+      "journal_abbrev": "J Orthop Trauma",
+      "doi": "10.1097/BOT.0000000000002687",
+      "abstract": "OBJECTIVES: Electronic patient-reported outcome measure (E-PROM) collection is a technological advancement that has the potential to facilitate PROM collection in orthopaedic trauma. The purpose of this study was to compare E-PROM versus in-person PROM collection. DESIGN: This is a retrospective comparative study. SETTING: Urban Level I trauma center. PATIENTS/PARTICIPANTS: One hundred and fifty consecutive operative orthopaedic trauma patients. INTERVENTION: The Percent of Normal single assessment numerical evaluation and patient-reported outcomes measurement information system physical function were collected through automated e-mails from an online patient-engagement platform (PatientIQ, Chicago, IL) 2-week, 6-week, 3-month, and 6-month postoperatively. The Percent of Normal was also administered to patients in clinic at the same time intervals. MAIN OUTCOME MEASUREMENTS: Completion of PROMs; Loss to follow-up. RESULTS: The median clinical follow-up time was 4 months (interquartile range: 1.3-6 months), and 42.7% (64/150) were lost to follow-up. Loss to follow-up was associated with a more disadvantaged area deprivation index [observed difference, 7.0, 95% confidence interval, 1.0 to 13.0; P = 0.01] and noncommercial/no insurance (observed difference 34.8%, confidence interval, 20.9%-45.5%; P < 0.0001). In-person PROM collection was more successful than E-PROM collection at all intervals [2-week (51.3% vs 20.7), 6-week (46.7% vs 20.0%), 3-month (50.0% vs 18.7%), and 6-month (38.0% vs 18.7%), P < 0.0001]. Patients who completed 3-month E-PROMs had longer clinical follow-up (5.2 vs. 3.0 months, P = 0.004) and a trend of being less likely to be lost to follow-up (28.6% vs 45.9%, P = 0.13). CONCLUSION: E-PROMs were less successful than in-person PROM collection in trauma patients at an urban safety net trauma center. LEVEL OF EVIDENCE: Diagnostic Level III.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Orthopedics",
+        "Trauma Centers",
+        "Retrospective Studies",
+        "Patient Reported Outcome Measures"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37828695/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/37828695.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study explicitly mentions a different platform, 'PatientIQ,' which is not the same as 'Patient Engagement Platform' by Wellpepper. There is no mention of Wellpepper or its product in the title, abstract, or intervention description.",
+        "matched_elements": [
+          "PatientIQ"
+        ]
+      }
+    },
+    {
+      "study_id": "28933935",
+      "pmid": "28933935",
+      "title": "A Smartphone Application to Reduce Time-to-Notification of Sexually Transmitted Infections.",
+      "authors": "Cohen Adam Carl et al.",
+      "authors_list": [
+        "Cohen Adam Carl",
+        "Zimmerman Frederick",
+        "Prelip Michael",
+        "Glik Deborah"
+      ],
+      "publication_year": "2017",
+      "publication_date": "2017-Nov",
+      "journal": "American journal of public health",
+      "journal_abbrev": "Am J Public Health",
+      "doi": "10.2105/AJPH.2017.303999",
+      "abstract": "OBJECTIVES: To measure whether the implementation of Healthvana-an online patient engagement platform and smartphone application-reduced the number of days between sexually transmitted infection (STI) testing, notification, and treatment at AIDS Healthcare Foundation (AHF) Wellness Centers. METHODS: We analyzed the retrospective data for 917 male clients who tested positive and received treatment for chlamydia, gonorrhea, or syphilis between January 1, 2014, and December 31, 2015. We included 8 AHF Wellness Centers from California and Florida in the study. We used regression models to evaluate the relationship between Healthvana implementation (pre-Healthvana vs post-Healthvana) and the number of days between the STI test, notification, and treatment. RESULTS: Following Healthvana implementation at the AHF Wellness Centers, the mean number of days decreased between the STI test and notification, from 8 to 6 days. The mean number of days between the overall STI test and treatment decreased from 12 to 10 days. Regression models found the reduction in the number of days from STI test to notification to be statistically significant. CONCLUSIONS: Smartphone applications like Healthvana are promising technologies to ensure clients are successfully and immediately notified of their STI test results.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "California",
+        "Chlamydia Infections",
+        "Contact Tracing",
+        "Florida",
+        "Gonorrhea",
+        "Humans",
+        "Male",
+        "Mobile Applications",
+        "Retrospective Studies"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28933935/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/28933935.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'Healthvana' as the digital platform being evaluated, which is not the same as 'Patient Engagement Platform' by Wellpepper. There is no mention of Wellpepper or its product in the study.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "33457531",
+      "pmid": "33457531",
+      "title": "Albertans for Health Research Network: Form, Fit, and Function.",
+      "authors": "Rasiah Jananee et al.",
+      "authors_list": [
+        "Rasiah Jananee",
+        "Manafò Elizabeth",
+        "Krawec Kiara",
+        "Nielssen Ingrid",
+        "Amirav Israel"
+      ],
+      "publication_year": "2020",
+      "publication_date": "2020-Dec",
+      "journal": "Journal of patient experience",
+      "journal_abbrev": "J Patient Exp",
+      "doi": "10.1177/2374373520925245",
+      "abstract": "The patient engagement (PE) platform staff of Alberta Strategy for Patient Oriented Research Support for People and Patient Oriented Research Trials Unit developed a patient-powered PE network called Albertans for Health Research Network (AB4HR); an enhanced tool to better connect patient partners and researchers online. AB4HR was developed in response to an identified need-a user-friendly online forum for both patient partners and researchers to access, so that they can better work together, as partners, in health research. We codesigned AB4HR and identified ways to improve the form, fit, and function of an existing registry through discussion groups with patient partners and researchers. We found 3 main themes derived from the perspective shared by patient partners and researchers. Patient partners and researchers agreed that the existing registry provides a forum to connect with one another in an easy, low-barrier way. However, there were opportunities for improvement with AB4HR, including possibilities for greater interaction between patient partners and researchers to promote more collaborative partnerships.",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Albertans for health research",
+        "discussion groups",
+        "patient engagement",
+        "patient engagement network",
+        "patient registry"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33457531/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/33457531.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by Wellpepper, the company Wellpepper, or provide a description that matches the specific DTx product. The study appears to focus on a different patient engagement tool (AB4HR) developed in Alberta.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "30586227",
+      "pmid": "30586227",
+      "title": "Utilization of a novel interactive mobile health platform to evaluate functional outcomes and pain following septoplasty and functional endoscopic sinus surgery.",
+      "authors": "Khanwalkar Ashoke R et al.",
+      "authors_list": [
+        "Khanwalkar Ashoke R",
+        "Shen Jasper",
+        "Kern Robert C",
+        "Welch Kevin C",
+        "Smith Stephanie S"
+      ],
+      "publication_year": "2019",
+      "publication_date": "2019-Apr",
+      "journal": "International forum of allergy & rhinology",
+      "journal_abbrev": "Int Forum Allergy Rhinol",
+      "doi": "10.1002/alr.22273",
+      "abstract": "BACKGROUND: Whether for research or quality improvement, assessment of postoperative quality of life outcomes faces a challenge in reliable data collection. Typical coordinator-led studies cite response rates from 35% to 70%. This study evaluates the utility of a digital patient engagement platform to track patient-reported outcome measures (PROMs) following septoplasty and functional endoscopic sinus surgery (FESS). METHODS: A prospective cohort was recruited at a tertiary care center from January 2017 to March 2018. A mobile phone application relayed PROMs, including pain (assessed on a 0 to 10 visual analogue scale [VAS] every other day for 2 weeks, as well as the patient-reported outcome measure information system [PROMIS] pain interference short form 4a at baseline, 2 weeks, and 3 months) and timing of return to work. RESULTS: Of 288 patients enrolled, 249 (86.5%) provided clinical data, including 208 who underwent septoplasty or FESS. Granular VAS scores, submitted by 195 patients, demonstrated 80% of these patients achieved minimal pain by postoperative day 8. A nonsignificant trend of increased days to pain relief by procedure emerged: septoplasty (mean ± standard deviation [SD], 3.60 ± 2.44), FESS (3.96 ± 3.25), FESS with septoplasty (4.40 ± 3.04), and FESS with drilling (4.86 ± 3.68). Across procedures, PROMIS pain interference increased at 2 weeks (9.17 ± 4.15) and decreased at 3 months (5.32 ± 2.61) compared with baseline (7.09 ± 4.63), with greater improvement noted in the FESS subgroup at 3 months. Patients returned to work at mean 7.1 days regardless of procedure. CONCLUSIONS: With its high response rate, mobile digital patient engagement platforms may effectively track postoperative outcomes with the potential for reduced sample bias.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Acetaminophen",
+        "Adult",
+        "Analgesics, Opioid",
+        "Anti-Inflammatory Agents, Non-Steroidal",
+        "Drug Combinations",
+        "Endoscopy",
+        "Female",
+        "Humans",
+        "Hydrocodone",
+        "Male"
+      ],
+      "keywords": [
+        "mobile applications",
+        "pain measurement",
+        "paranasal sinuses",
+        "patient participation",
+        "patient-reported outcome measures",
+        "quality of life",
+        "return to work",
+        "sinusitis",
+        "telemedicine"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30586227/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/30586227.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions a 'mobile digital patient engagement platform,' but it does not explicitly name 'Patient Engagement Platform' or Wellpepper. The description of the intervention is generic and could apply to other products. There is no clear evidence linking this study to the specific Wellpepper product.",
+        "matched_elements": [
+          "'mobile digital patient engagement platform' in abstract"
+        ]
+      }
+    },
+    {
+      "study_id": "33068305",
+      "pmid": "33068305",
+      "title": "Barriers to and enablers of attendance at diabetic retinopathy screening experienced by immigrants to Canada from multiple cultural and linguistic minority groups.",
+      "authors": "van Allen Zack et al.",
+      "authors_list": [
+        "van Allen Zack",
+        "Dogba Maman Joyce",
+        "Brent Michael H",
+        "Bach Catherine",
+        "Grimshaw Jeremy M"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Apr",
+      "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+      "journal_abbrev": "Diabet Med",
+      "doi": "10.1111/dme.14429",
+      "abstract": "AIM: To identify barriers to/enablers of attendance at eye screening among three groups of immigrantsto Canada from cultural/linguistic minority groups living with diabetes. METHODS: Using a patient-oriented research approach leveraging Diabetes Action Canada's patient engagement platform, we interviewed a purposeful sample of people with type 2 diabetes who had immigrated to Canada from: Pakistan (interviews in Urdu), China (interviews in Mandarin) and French-speaking African and Caribbean nations (interviews in French). We collected and analysed data based on the Theoretical Domains Framework covering key modifiable factors that may operate as barriers to or enablers of attending eye screening. We used directed content analysis to code barrier/enabler domains. Barriers/enablers were mapped to behaviour change techniques to inform future intervention development. RESULTS: We interviewed 39 people (13 per group). Many barriers/enablers were consistent across groups, including views about harms caused by screening itself, practical appointment issues including forgetting, screening costs, wait times and making/getting to an appointment, lack of awareness about retinopathy screening, language barriers, and family and clinical support. Group-specific barriers/enablers included a preference to return to one's country of birth for screening, the impact of winter, and preferences for alternative medicine. CONCLUSION: Our results can inform linguistic and culturally competent interventions to support immigrants living with diabetes in attending eye screening to prevent avoidable blindness.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Canada",
+        "Communication Barriers",
+        "Culture",
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Retinopathy",
+        "Emigrants and Immigrants",
+        "Female",
+        "Humans"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33068305/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/33068305.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by Wellpepper, nor does it provide a clear description matching the product. The term 'patient engagement platform' is used generically and refers to Diabetes Action Canada's platform, which is unrelated to Wellpepper.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "27249775",
+      "pmid": "27249775",
+      "title": "Electronic Patient-Reported Outcomes: The Time Is Ripe for Integration Into Patient Care and Clinical Research.",
+      "authors": "Schwartzberg Lee",
+      "authors_list": [
+        "Schwartzberg Lee"
+      ],
+      "publication_year": "2016",
+      "publication_date": "2016",
+      "journal": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+      "journal_abbrev": "Am Soc Clin Oncol Educ Book",
+      "doi": "10.1200/EDBK_158749",
+      "abstract": "In the emerging team-based approach to delivering cancer care, collecting patient-reported outcomes (PROs) provides longitudinal monitoring of treatment adverse effects, disease complications, functional statuses, and psychological states throughout the cancer continuum for all providers to use. Electronic systems offer added capabilities, including easy quantitation of individual symptom items and aggregated scales, standardization, and longitudinal tracking of patient surveys for trend analysis over time. An ideal electronic PRO (ePRO) platform is clinically relevant, validated, and reliable and would offer patient usability. Additionally, it should allow for automated responses to and from patients, have scheduling functionality, and send real-time alerts to site personnel and patients. Clinical interfaces should be easy to read and integrated into the electronic medical record. Multiple ePRO systems, often using electronic tablets, have been created and are beginning to be widely deployed. The Patient Care Monitor is one example of a system that has evolved into a comprehensive patient engagement platform, with a complete review of systems survey and capabilities for mobile health usage. Recent clinical trials have established ePRO systems as an effective method of providing information, which aids improved patient outcomes, including reduced health resource utilization and longer time on therapy. ePROs are also increasingly incorporated into clinical trials, where they can provide more thorough reporting of adverse events than can be captured by alternative methods. Mobile devices have the potential to become the method by which all members of the provider team communicate with patients both at the point-of-care and between clinic visits to optimize care delivery.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Electronic Health Records",
+        "Humans",
+        "Neoplasms",
+        "Outcome Assessment, Health Care",
+        "Patient Care",
+        "Patient Reported Outcome Measures",
+        "Surveys and Questionnaires"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27249775/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/27249775.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention 'Patient Engagement Platform' or Wellpepper. It discusses ePRO systems and mentions a 'Patient Care Monitor,' which appears to be a different product. The description is generic and not specific to the Wellpepper product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "41520565",
+      "pmid": "41520565",
+      "title": "Feasibility of a mobile health platform for patient education and remote symptom monitoring in patients with advanced ovarian cancer undergoing primary chemotherapy.",
+      "authors": "Smith Haller J et al.",
+      "authors_list": [
+        "Smith Haller J",
+        "Dinkins Kaitlyn",
+        "Liang Margaret I",
+        "Chu Daniel I",
+        "Huh Warner K"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jan-10",
+      "journal": "Gynecologic oncology",
+      "journal_abbrev": "Gynecol Oncol",
+      "doi": "10.1016/j.ygyno.2025.12.006",
+      "abstract": "OBJECTIVE: To design and implement a mobile health (mHealth) patient engagement platform for use in patients with advanced ovarian cancer undergoing primary chemotherapy. METHODS: This prospective pilot study included patients with newly diagnosed epithelial ovarian cancer undergoing primary chemotherapy at a single institution from 8/2021-11/2023. Patients were offered enrollment in a mHealth platform which provided access to an education library and sent weekly health checks for the duration of their chemotherapy. Mild symptoms triggered recommendations for care at home, while more severe symptoms prompted a call or alert to the care team. The primary outcome was feasibility of the intervention. Secondary outcomes included frequency and severity of symptoms reported, recommended interventions, and patient reported outcomes (PROs). RESULTS: 44 patients were enrolled during the study period. Activation rate was 79.5 %. Of the patients who activated, adherence was high with 77.1 % of patients still active at 3 months. Mean number of health checks completed was 16.1 (range 1-50). Commonly reported symptoms were fatigue (26.4 %), joint pain (24.2 %), neuropathy (22.2 %), and abdominal pain (18.7 %). Of 578 total health checks, 60.2 % triggered additional education, 20.9 % prompted a call to the care team, and 9.9 % resulted in an automated alert. 94 % of patients completed at least one PRO survey. CONCLUSIONS: This mHealth intervention was feasible in patients with advanced ovarian cancer undergoing primary chemotherapy and was associated with high adherence. mHealth interventions may help better identify adverse effects in patients undergoing chemotherapy and provide earlier opportunities for intervention compared to standard in-person visits.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "At home symptom monitoring",
+        "Mobile health intervention",
+        "Ovarian cancer",
+        "Patient reported outcomes"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41520565/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/41520565.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study does not explicitly mention 'Patient Engagement Platform' or 'Wellpepper' by name, nor does it provide a description specific enough to confirm it is about this product. The intervention described could be a different mHealth platform or a generic solution.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "37947920",
+      "pmid": "37947920",
+      "title": "Variation in parental experiences with their child's hospitalization over the COVID-19 pandemic.",
+      "authors": "Kemp Kyle A et al.",
+      "authors_list": [
+        "Kemp Kyle A",
+        "Fairie Paul",
+        "Steele Brian",
+        "Santana Maria J"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Nov-10",
+      "journal": "Journal of patient-reported outcomes",
+      "journal_abbrev": "J Patient Rep Outcomes",
+      "doi": "10.1186/s41687-023-00626-3",
+      "abstract": "BACKGROUND: Hospitals and healthcare workers have been greatly impacted by the COVID-19 pandemic. The potential impacts upon the patient experience have been less documented, particularly in the pediatric setting. Our aim was to examine how parental experiences with their child's hospitalization varied during the COVID-19 pandemic at two children's hospitals in Alberta, Canada. METHODS: A random sample of parents were surveyed within six weeks of their child's discharge from Alberta's two children's hospitals. Surveys were administered using the Alberta Pediatric Inpatient Experiences Survey (APIES) - a validated instrument used to assess parental experiences during their child's hospitalization. Surveys were linked with administrative inpatient records. Three cohorts were created based on hospital discharge date: Pre-COVID (Pre: April 2019 to March 2020), COVID year one (C1: April 2020 to March 2021), and COVID year two (C2: April 2021 to March 2022). We examined 48 survey questions, including four overall rating scales. Survey responses were Likert scales. These were transformed to normalized scores from 0 (worst) to 100 (best). Differences between cohorts were assessed using ANOVA and the post-hoc Tukey test. RESULTS: A total of 3,611 surveys (1,314 Pre; 997 C1; 1,300 C2) were completed over the three-year period. Five questions showed differences between the Pre and C1 periods, six showed differences between Pre and C2, and 13 showed differences between C1 and C2. Among these questions, scores pre-COVID were lower than COVID year one, while results in COVID year two were lower than pre-COVID and COVID year one. Thirty-one survey questions showed no statistical differences between the three time periods. For the overall ratings, only hospital rating showed a difference in any of the periods (91.4 C1 vs. 90.2 C2). Overall ratings of doctors, nurses, and recommendation of the hospital to others showed no differences. CONCLUSION: This study showed that the experiences of parents during the first year of the COVID-19 pandemic were mildly better or comparable to historical results. This changed over the following year, where lower scores were reported on 13 questions.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Child",
+        "Pandemics",
+        "COVID-19",
+        "Patient Discharge",
+        "Parents",
+        "Alberta",
+        "Hospitals, Pediatric"
+      ],
+      "keywords": [
+        "COVID-19",
+        "Hospitalization",
+        "PREM",
+        "Patient experience",
+        "Pediatrics",
+        "Survey"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37947920/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/37947920.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any description matching the DTx product. It focuses on parental experiences during pediatric hospitalizations and does not involve a digital therapeutic intervention.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "35551089",
+      "pmid": "35551089",
+      "title": "Drivers of paediatric inpatient experience: retrospective analysis of casemix factors for the Alberta Paediatric Inpatient Experience Survey in Alberta, Canada.",
+      "authors": "Steele Brian Jacob et al.",
+      "authors_list": [
+        "Steele Brian Jacob",
+        "Fairie Paul",
+        "Kemp Kyle",
+        "Santana Maria-Jose"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-May-12",
+      "journal": "BMJ open",
+      "journal_abbrev": "BMJ Open",
+      "doi": "10.1136/bmjopen-2020-048207",
+      "abstract": "OBJECTIVE: In Alberta, the Alberta Paediatric Inpatient Experience Survey (APIES) is used as a proxy-reported measure of paediatric experience. To our knowledge, the influence of casemix factors on patient experience as measured by paediatric patient experience surveys have not been reported within Canadian paediatric samples. In this paper, we sought to determine the patient and respondent factors associated with paediatric inpatient experiences in Alberta, Canada. DESIGN: Retrospective analysis of patient experience survey data. SETTING: Inpatiet acute care hospitals in Alberta, Canada. INTERVENTION AND MAIN OUTCOME MEASURES: Retrospective analyses were conducted using APIES surveys linked with eligible inpatient records (n=6262). Descriptive statistics were reported. χ2 tests were performed to assess distribution of casemix between general and paediatric hospitals. Logistic regression was performed with overall hospital experience as the dependent variable with casemix and hospital variables as independent variables. RESULTS: Casemix characteristics were unevenly distributed between general and paediatric hospitals. Compared with reference categories, older respondents, healthier patients and treatment at paediatric facilities had increased odds of providing most-positive ratings. Increased respondent education was associated with decreased odds of providing most-positive ratings. Likelihood-ratio tests showed that most casemix variables improved model fit, except for respondent relationship to the patient. CONCLUSIONS: To improve reports of paediatric inpatient experience, administrators and providers require reliable and comparable measurement. Both the Child Hospital Consumer Assessment of Healthcare Providers and Systems and other measures of patient and family experience need to consider patient and respondent characteristics when interpreting results. Considered with other research from patient experience in Alberta, we discuss future directions and quality improvement implications.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Alberta",
+        "Child",
+        "Hospitals, Pediatric",
+        "Humans",
+        "Inpatients",
+        "Retrospective Studies",
+        "Surveys and Questionnaires"
+      ],
+      "keywords": [
+        "Health policy",
+        "PAEDIATRICS",
+        "Quality in health care",
+        "STATISTICS & RESEARCH METHODS"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35551089/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/35551089.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any description matching the DTx product. It focuses on paediatric inpatient experience surveys in Alberta, Canada, which is unrelated to the specified digital therapeutic.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "36348406",
+      "pmid": "36348406",
+      "title": "Co-designing person-centred quality indicator implementation for primary care in Alberta: a consensus study.",
+      "authors": "Manalili Kimberly et al.",
+      "authors_list": [
+        "Manalili Kimberly",
+        "Scott Catherine M",
+        "Hemmelgarn Brenda",
+        "O'Beirne Maeve",
+        "Bailey Allan L"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Nov-08",
+      "journal": "Research involvement and engagement",
+      "journal_abbrev": "Res Involv Engagem",
+      "doi": "10.1186/s40900-022-00397-z",
+      "abstract": "BACKGROUND: We aimed to contribute to developing practical guidance for implementing person-centred quality indicators (PC-QIs) for primary care in Alberta, Canada. As a first step in this process, we conducted stakeholder-guided prioritization of PC-QIs and implementation strategies. Stakeholder engagement is necessary to ensure PC-QI implementation is adapted to the context and local needs. METHODS: We used an adapted nominal group technique (NGT) consensus process. Panelists were presented with 26 PC-QIs, and implementation strategies. Both PC-QIs and strategies were identified from our extensive previous engagement of patients, caregivers, healthcare providers, and quality improvement leaders. The NGT objectives were to: 1. Prioritize PC-QIs and implementation strategies; and 2. Facilitate the participation of diverse primary care stakeholders in Alberta, including patients, healthcare providers, and quality improvement staff. Panelists participated in three rounds of activities. In the first, panelists individually ranked and commented on the PC-QIs and strategies. The summarized results were discussed in the second-round face-to-face group meeting. For the last round, panelists provided their final individual rankings, informed by the group discussion. Finally, we conducted an evaluation of the consensus process from the panelists' perspectives. RESULTS: Eleven primary care providers, patient partners, and quality improvement staff from across Alberta participated. The panelists prioritized the following PC-QIs: 'Patient and caregiver involvement in decisions about their care and treatment'; 'Trusting relationship with healthcare provider'; 'Health information technology to support person-centred care'; 'Co-designing care in partnership with communities'; and 'Overall experience'. Implementation strategies prioritized included: 'Develop partnerships'; 'Obtain quality improvement resources'; 'Needs assessment (stakeholders are engaged about their needs/priorities for person-centred measurement)'; 'Align measurement efforts'; and 'Engage champions'. Our evaluation suggests that panelists felt that the process was valuable for planning the implementation and obtaining feedback, that their input was valued, and that most would continue to collaborate with other stakeholders to implement the PC-QIs. CONCLUSIONS: Our study demonstrates the value of co-design and participatory approaches for engaging stakeholders in adapting PC-QI implementation for the primary care context in Alberta, Canada. Collaboration with stakeholders can promote buy-in for ongoing engagement and ensure implementation will lead to meaningful improvements that matter to patients and providers.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Context consensus",
+        "Implementation",
+        "Participatory research",
+        "Person-centred care",
+        "Primary care",
+        "Quality indicators",
+        "Strategies"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36348406/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/36348406.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform,' Wellpepper, or provide a description that clearly matches the product. It appears to be a generic study about person-centred quality indicators in primary care.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "35136834",
+      "pmid": "35136834",
+      "title": "Adult Experiences with Hospitalization in Alberta, Canada During the COVID-19 Pandemic: A Comparative Cross-Sectional Study.",
+      "authors": "Kemp Kyle A et al.",
+      "authors_list": [
+        "Kemp Kyle A",
+        "Fairie Paul",
+        "Steele Brian J",
+        "Santana Maria J"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022",
+      "journal": "Journal of patient experience",
+      "journal_abbrev": "J Patient Exp",
+      "doi": "10.1177/23743735221077518",
+      "abstract": "Little is known about the experiences of those hospitalized during the COVID-19 pandemic in Canada. Our aims were to (a) report on the experiences, (b) compare with historical results, and (c) assess for potential monthly differences of patients hospitalized in the early months of the COVID-19 across Alberta. A random sample of adults was surveyed within 6 weeks of discharge from 93 hospitals, using a modified version of the Canadian Patient Experiences Survey - Inpatient Care (CPES-IC). Discharges from April to September 2020 comprised the \"during COVID-19 pandemic\" cohort, while April to September 2019 formed the historical one. Results were reported as percent in \"top box\", indicative of the most positive answer choice. Odds of reporting a \"top box\" response were calculated while controlling for demographic and clinical features. In total, 23,412 surveys (11,344 during COVID-19, 12,068 historical) were obtained. Those hospitalized during COVID-19 had higher odds of \"top box\" ratings on 17 of 39 questions examined, and lower odds on 2 questions (information about the admission process, inclusion of family/friends in care decisions). The remaining 20 questions showed no difference between the 2 cohorts. Our results indicate that respondents hospitalized during the early months of the pandemic had experiences that were largely better or comparable to pre-pandemic. This speaks to the dedication and resilience of staff who provided care during challenging circumstances. Our findings may assist in mitigating fears among those who are hesitant to seek medical care during future pandemics or public health emergencies, including subsequent waves of COVID-19.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "COVID-19",
+        "CPES-IC",
+        "Canada",
+        "hospitalization",
+        "patient feedback",
+        "patient satisfaction",
+        "survey data"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35136834/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/35136834.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not mention 'Patient Engagement Platform', 'Wellpepper', or provide any description that matches the specific digital therapeutic product. It appears to be a generic study about patient experiences during hospitalization in Alberta, Canada, unrelated to any specific digital therapeutic intervention.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "30266777",
+      "pmid": "30266777",
+      "title": "The top research questions asked by people with lived depression experience in Alberta: a survey.",
+      "authors": "Breault Lorraine J et al.",
+      "authors_list": [
+        "Breault Lorraine J",
+        "Rittenbach Katherine",
+        "Hartle Kelly",
+        "Babins-Wagner Robbie",
+        "de Beaudrap Catherine"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018",
+      "journal": "CMAJ open",
+      "journal_abbrev": "CMAJ Open",
+      "doi": "10.9778/cmajo.20180034",
+      "abstract": "BACKGROUND: To support patient-oriented setting of priorities for depression research in Alberta, the Patient Engagement Platform of the Alberta Strategy for Patient Oriented Research's Support for People and Patient-Oriented Research and Trials Unit and Alberta Health Services' Addiction and Mental Health Strategic Clinical Network, along with partners in addictions and mental health, designed the Alberta Depression Research Priority Setting Project. The aim of the project was to survey patients, caregivers and clinicians/researchers in Alberta about what they considered to be the most important unanswered questions about depression. METHODS: The project adapted the James Lind Alliance Priority Setting Partnership method into a 6-step process to gather and prioritize questions about depression posed by people with lived depression experience, which included patients, caregivers, clinicians and health care practitioners. RESULTS: Implementation of the project, from initial data collection to final priority setting, took 10 months (August 2016 to June 2017). A total of 445 Albertans with lived experience of depression participated, ultimately identifying 11 priority depression research questions spanning the health continuum, life stages, and treatment and prevention opportunities. INTERPRETATION: This project is a fundamental step that has the potential to positively influence depression research. Including the voices of Albertans with lived experience will create advantages for depression research for Albertans, researchers and research funders, and for patient engagement in the research enterprise overall.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30266777/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/30266777.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention the 'Patient Engagement Platform' by Wellpepper, nor does it describe a digital therapeutic matching its description. The term 'Patient Engagement Platform' in the study refers to a general initiative rather than the specific product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "40641831",
+      "pmid": "40641831",
+      "title": "Clinical Outcomes and Overall Satisfaction of Patents Enrolled in an Artificial Intelligence-Powered Chatbot Following Periacetabular Osteotomy.",
+      "authors": "Rainey Joshua P et al.",
+      "authors_list": [
+        "Rainey Joshua P",
+        "Metz Allan K",
+        "Blackburn Brenna E",
+        "Campbell Kevin J",
+        "Erickson Jill A"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Aug",
+      "journal": "Arthroplasty today",
+      "journal_abbrev": "Arthroplast Today",
+      "doi": "10.1016/j.artd.2025.101752",
+      "abstract": "BACKGROUND: The role of technology in the perioperative care of patients continues to grow. A surgeon-specific perioperative chatbot may improve the care of patients by answering questions or concerns. The purpose of this retrospective review was to assess if enrollment in a perioperative chatbot was associated with differences in clinical outcomes or patient satisfaction following periacetabular osteotomy. METHODS: We identified 62 patients who enrolled in a short message service (SMS) chatbot from December 1, 2020 to August 1, 2023. A consecutive historical cohort of 64 patients from August 1, 2018 to November 30, 2020 was identified for comparative purposes. Descriptive statistics were used to compare demographic differences between patients enrolled vs not enrolled in the chatbot. Independent t-tests, Fischer's exact tests, and chi-squared tests were also used for comparative purposes. RESULTS: Patients who were enrolled in a perioperative SMS-based chatbot requested significantly fewer narcotic refills (P = .0001). There were also significantly fewer clinic calls placed for patients enrolled in the chatbot compared to those not enrolled (1.1 calls vs 3.3 calls, P < .0001). There were no significant differences in emergency department visits or readmissions within 90 days of surgery, reoperations, or infections. Patients enrolled in a perioperative chatbot had significantly higher satisfaction compared to those not enrolled (4.7 vs 4.3, P = .039). CONCLUSIONS: Enrollment in an SMS-based perioperative chatbot for patients undergoing periacetabular osteotomy was associated with fewer narcotic refills, fewer telephone calls to clinic, and increased patient satisfaction compared to a historical cohort not enrolled perioperative chatbot.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Chatbot",
+        "Communication",
+        "Patient engagement platform",
+        "Patient satisfaction",
+        "Periacetabular osteotomy"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40641831/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/40641831.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description that clearly matches the product. It focuses on a perioperative SMS-based chatbot, which could be a different product or a generic intervention.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "31256024",
+      "pmid": "31256024",
+      "title": "Evidence available for patient-identified priorities in depression research: results of 11 rapid responses.",
+      "authors": "Sebastianski Meghan et al.",
+      "authors_list": [
+        "Sebastianski Meghan",
+        "Gates Michelle",
+        "Gates Allison",
+        "Nuspl Megan",
+        "Bialy Liza M"
+      ],
+      "publication_year": "2019",
+      "publication_date": "2019-Jun-28",
+      "journal": "BMJ open",
+      "journal_abbrev": "BMJ Open",
+      "doi": "10.1136/bmjopen-2018-026847",
+      "abstract": "OBJECTIVES: Patient priority setting projects (PPSPs) can reduce research agenda bias. A key element of PPSPs is a review of available literature to determine if the proposed research priorities have been addressed, identify research gaps, recognise opportunities for knowledge translation (KT) and avoid duplication of research efforts. We conducted rapid responses for 11 patient-identified priorities in depression to provide a map of the existing evidence. DESIGN: Eleven rapid responses. DATA SOURCES: Single electronic database (PubMed). ELIGIBILITY CRITERIA: Each rapid response had unique eligibility criteria. For study designs, we used a stepwise inclusion process that started with systematic reviews (SRs) if available, then randomised controlled trials and observational studies as necessary. RESULTS: For all but one of the rapid responses we identified existing SRs (median 7 SRs per rapid response, range 0-179). There were questions where extensive evidence exists (ie, hundreds of primary studies), yet uncertainties remain. For example, there is evidence supporting the effectiveness of many non-pharmacological interventions (including psychological interventions and exercise) to reduce depressive symptoms. However, targeted research is needed that addresses comparative effectiveness of promising interventions, specific populations of interest (eg, children, minority groups) and adverse effects. CONCLUSIONS: We identified an extensive body of evidence addressing patient priorities in depression and mapped the results and limitations of existing evidence, areas of uncertainty and general directions for future research. This work can serve as a solid foundation to guide future research in depression and KT activities. Integrated knowledge syntheses bring value to the PPSP process; however, the role of knowledge synthesis in PPSPs and methodological approaches are not well defined at present.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Depression",
+        "Evidence-Based Medicine",
+        "Health Priorities",
+        "Humans",
+        "Observational Studies as Topic",
+        "Patient Participation",
+        "Qualitative Research",
+        "Randomized Controlled Trials as Topic",
+        "Systematic Reviews as Topic"
+      ],
+      "keywords": [
+        "patient priority setting project",
+        "patient-identified priorities",
+        "rapid review"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31256024/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/31256024.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description matching the specific DTx. It focuses on patient priorities in depression research and does not specify any digital therapeutic product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "37181490",
+      "pmid": "37181490",
+      "title": "How to analyze and link patient experience surveys with administrative data to drive health service improvement - examples from Alberta, Canada.",
+      "authors": "Kemp Kyle A et al.",
+      "authors_list": [
+        "Kemp Kyle A",
+        "Fairie Paul",
+        "Steele Brian J",
+        "Santana Maria J"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022",
+      "journal": "International journal of population data science",
+      "journal_abbrev": "Int J Popul Data Sci",
+      "doi": "10.23889/ijpds.v7i4.1763",
+      "abstract": "The ability of hospitals and health systems to learn from those who use its services (i.e., patients and families) is crucial for quality improvement and the delivery of high-quality patient-centered care. To this end, many hospitals and health systems regularly collect survey data from patients and their families, and are engaged in activities to publicly report the results. Despite this, there has been limited research into the experiences of patients and families, and how to improve them. Since 2015, our research team has conducted a variety of studies which have explored patient experience survey data, in isolation, and in linkages with routinely-captured administrative data sets across Alberta; a Canadian province of 4.4 million residents. Via secondary analyses, these studies have shed light upon the drivers of inpatient experience, the specific aspects of care which are most correlated with one's overall experiences, and the association of elements of the patient experience with other measures, such as patient safety indicators and unplanned hospital readmissions. The aim of this paper is to provide an overview of the methods we have used, including further details about the data sets and linkage protocol. The main findings from these papers have been presented for readers and those who wish to conduct their own work in this area.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Alberta",
+        "Surveys and Questionnaires",
+        "Hospitals",
+        "Health Services",
+        "Patient Outcome Assessment"
+      ],
+      "keywords": [
+        "administrative data",
+        "data linkage",
+        "patient experience survey",
+        "quality improvement"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37181490/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/37181490.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description that matches the specific DTx product. It appears to be a generic study about patient experience surveys and administrative data, not a specific digital therapeutic.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "40120654",
+      "pmid": "40120654",
+      "title": "The CCJR® Gerard A. Engh Excellence in Knee Research Award: Patient-Reported Outcomes Collection and Mandatory Medicare Inpatient Total Knee Arthroplasty Patient-Reported Outcome Performance Measures: How to Optimize the Process.",
+      "authors": "Franco Jonathan R et al.",
+      "authors_list": [
+        "Franco Jonathan R",
+        "Chen Antonia F",
+        "Ready John E",
+        "Olsen Adam S",
+        "Lange Jeffrey K"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Jul",
+      "journal": "The Journal of arthroplasty",
+      "journal_abbrev": "J Arthroplasty",
+      "doi": "10.1016/j.arth.2025.03.033",
+      "abstract": "BACKGROUND: The Centers for Medicare and Medicaid Services (CMS) has mandated that patient-reported outcomes (PROs) reporting for total knee arthroplasty (TKA) start on July 1, 2024, which will impact reimbursement in 2028. The financial penalty for not reporting 50% of eligible patients is 25% of the Annual Payment Update (usually 2 to 4%). The CMS will evaluate for a substantial clinical benefit, defined as a 20-point increase in the Knee Injury and Osteoarthritis Outcome Score (KOOS JR) score. A final \"risk-standardized improvement rate\" will be calculated based on all risk variables and claims data submitted. The purpose of this study was to present our process for complying with these mandates. METHODS: We employed a multiprong approach in a 12-hospital enterprise to collect PROs. We utilized a web-based PRO collection system embedded in our electronic medical record, a tablet in-person collection system in the clinic, and a patient engagement platform. RESULTS: Since 2019, we enrolled 7,354 TKA patients in a patient engagement platform and 6,942 (94%) have opted in and used the platform. Percentages of PRO completion were 90% preoperatively, 80% at 3 months postoperatively, 76% at 6 months postoperatively, and 79% at 1 year postoperatively. Patient satisfaction scores averaged 4.51 out of five at 90 days. The KOOS JR. scores improved on average from 52.0 preoperatively to 74.9 in 1 year. Utilizing our web-based electronic medical record collection system in addition to the in-person tablet PRO collection achieved minimum collection performance. CONCLUSIONS: Our study found that using a multiprong approach to comply with the Inpatient Prospective Payment System CMS Inpatient TKA-PRO Performance Measures will meet the minimum standards of 50% paired PROs reporting. Furthermore, our hospital system was able to meet the required substantial clinical benefit of 20 points on the KOOS JR and collect this information for reporting.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Arthroplasty, Replacement, Knee",
+        "Humans",
+        "Patient Reported Outcome Measures",
+        "United States",
+        "Medicare",
+        "Awards and Prizes",
+        "Aged",
+        "Male",
+        "Female",
+        "Centers for Medicare and Medicaid Services, U.S."
+      ],
+      "keywords": [
+        "centers for medicare and medicaid services",
+        "digital education",
+        "patient-reported outcomes",
+        "reimbursement models",
+        "total knee arthroplasty"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40120654/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/40120654.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions a 'patient engagement platform' but does not explicitly name 'Patient Engagement Platform' or Wellpepper. The description of the intervention is too generic to confirm it is the specific DTx product in question.",
+        "matched_elements": [
+          "patient engagement platform"
+        ]
+      }
+    },
+    {
+      "study_id": "34580166",
+      "pmid": "34580166",
+      "title": "The Experience of Parents of Hospitalized Children Living With Medical Complexity.",
+      "authors": "Kemp Kyle A et al.",
+      "authors_list": [
+        "Kemp Kyle A",
+        "Fairie Paul",
+        "Steele Brian",
+        "McNeil Deborah",
+        "Kromm Seija"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Oct",
+      "journal": "Hospital pediatrics",
+      "journal_abbrev": "Hosp Pediatr",
+      "doi": "10.1542/hpeds.2020-003038",
+      "abstract": "BACKGROUND AND OBJECTIVES: Children living with medical complexity (CMC) experience frequent hospital admissions. Validated patient-reported experience measures may inform care improvements in this cohort. Our objectives were to examine the comprehensive inpatient experience of CMC by using a validated patient-reported experience measure and compare the results with all other respondents at 2 academic pediatric hospitals in a western Canadian province. METHODS: Parents completed the Child Hospital Consumer Assessment of Healthcare Providers and Systems survey. Surveys were linked with inpatient records, and an accepted case definition was used to extract records pertaining to CMC. Results were reported as percent in \"top box,\" represented by the most positive answer choice to each measure. Odds of reporting a top box response were calculated while controlling for demographic and clinical features. RESULTS: From October 2015 to March 2019, 4197 surveys (1515 CMC; 2682 non-CMC) were collected. Among CMC, the highest-rated measures pertained to being kept informed while in the emergency department, a willingness to recommend the hospital, and parents having a clear understanding of their role in their child's care. The lowest-rated measures pertained to preventing mistakes and reporting concerns and the quietness of the hospital room at night. Compared with others, parents of CMC reported lower raw results on 20 of the 28 measures. They also reported lower a odds of reporting a top box score on 2 measures and higher odds on 1. CONCLUSIONS: Parents of CMC revealed many perceived gaps. These findings can be used to inform strategies to improve care among CMC and policies to support the care of CMC and their families.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Canada",
+        "Child",
+        "Child, Hospitalized",
+        "Hospitals, Pediatric",
+        "Humans",
+        "Inpatients",
+        "Parents"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34580166/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/34580166.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description matching the DTx product. It focuses on patient-reported experience measures for hospitalized children with medical complexity, which is unrelated to the described DTx.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "39424274",
+      "pmid": "39424274",
+      "title": "Patient Experiences With Hospitalization Due to Diabetes in Alberta, Canada: A Cohort Study Using Survey and Administrative Data.",
+      "authors": "Kemp Kyle A et al.",
+      "authors_list": [
+        "Kemp Kyle A",
+        "Fairie Paul",
+        "Santana Maria J"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Dec",
+      "journal": "Canadian journal of diabetes",
+      "journal_abbrev": "Can J Diabetes",
+      "doi": "10.1016/j.jcjd.2024.10.005",
+      "abstract": "OBJECTIVES: Individuals living with diabetes are often hospitalized. Despite this, little is known about their experiences with hospital care. In this study, we examined the comprehensive experiences of patients hospitalized due to diabetes in Alberta, Canada, and compared them with those of patients hospitalized for other chronic conditions. METHODS: We conducted a retrospective cohort study that linked survey data with inpatient records. Survey data were collected using the Canadian Patient Experiences Survey-Inpatient Care (CPES-IC) instrument. Results from 37 questions were classified as percent in \"top box,\" which reflects the most positive answer choice. We also examined the association between overall experience and demographic and clinical factors among those living with diabetes. RESULTS: Over a 7-year period, 12,593 surveys (2,288 with diabetes and 10,305 with other chronic conditions) were obtained. Patients hospitalized due to diabetes had lower \"top-box\" scores on 24 questions, higher scores on 3 questions, and the remaining 10 questions showed no difference between groups. Those hospitalized due to diabetes indicated potential areas for improvement. These included receiving information about their condition and about the admission process, the nighttime quietness of their hospital room, being informed about possible side effects of new medications, and pain control. Overall experience was also shown to vary according to demographic and clinical factors. CONCLUSIONS: We found that individuals hospitalized due to diabetes reported lower experience scores than those hospitalized due to other chronic conditions. Our findings may be used to develop strategies to improve the patient experience among this cohort.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Male",
+        "Alberta",
+        "Hospitalization",
+        "Retrospective Studies",
+        "Middle Aged",
+        "Diabetes Mellitus",
+        "Aged",
+        "Surveys and Questionnaires"
+      ],
+      "keywords": [
+        "enquête",
+        "expérience des patients",
+        "hospital care",
+        "patient experience",
+        "soins hospitaliers",
+        "survey"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39424274/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/39424274.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention the 'Patient Engagement Platform,' Wellpepper, or any specific digital therapeutic product. It focuses on patient experiences with hospitalization due to diabetes and does not describe any digital intervention.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "34873628",
+      "pmid": "34873628",
+      "title": "Family-Rated Pediatric Health Status Is Associated With Unplanned Health Services Use.",
+      "authors": "Steele Brian J et al.",
+      "authors_list": [
+        "Steele Brian J",
+        "Kemp Kyle",
+        "Fairie Paul",
+        "Santana Maria J"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Jan-01",
+      "journal": "Hospital pediatrics",
+      "journal_abbrev": "Hosp Pediatr",
+      "doi": "10.1542/hpeds.2020-005728",
+      "abstract": "OBJECTIVE: Self-rated health is a common self-reported health measure associated with morbidity, mortality, and health care use. The objective was to investigate the association of family-rated health status (FRH) in pediatric care with administrative indicators, patient and respondent features, and unplanned health services use. PATIENTS AND METHODS: Data were taken from Child-Hospital Consumer Assessment of Healthcare Providers and Systems surveys collected between 2015 and 2019 in Alberta, Canada and linked with administrative health records. Three analyses were performed: correlation to assess association between administrative indicators of health status and FRH, logistic regression to assess respondent and patient characteristics associated with FRH, and automated logistic regression to assess the association between FRH and unplanned health services use within 90 days of discharge. RESULTS: A total of 6236 linked surveys were analyzed. FRH had small but significant associations with administrative indicators. Models of FRH had better fit with patient and respondent features. Respondent relationship to child, child age, previous hospitalizations, and number of comorbidities were significantly associated with ratings of FRH. Automated models of unplanned services use included FRH as a feature, and poor ratings of health were associated with increased odds of emergency department visits (adjusted odds ratio: 2.15, 95% confidence interval: 1.62-2.85) and readmission (adjusted odds ratio: 2.48, 95% confidence interval: 1.62-2.85). CONCLUSION: FRH is a simple, single-item global rating of health for pediatric populations that provides accessible and useful information about pediatric health care needs. The results of this article serve as a reminder that family members are valuable sources of information that can improve care and potentially prevent unplanned health services use.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Alberta",
+        "Child",
+        "Health Status",
+        "Hospitalization",
+        "Humans",
+        "Patient Discharge",
+        "Patient Readmission"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34873628/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/34873628.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any description that matches the specific digital therapeutic product. It appears to be a generic study about family-rated health in pediatric care.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "32715388",
+      "pmid": "32715388",
+      "title": "Using implementation science to inform the integration of electronic patient-reported experience measures (ePREMs) into healthcare quality improvement: description of a theory-based application in primary care.",
+      "authors": "Manalili Kimberly et al.",
+      "authors_list": [
+        "Manalili Kimberly",
+        "Santana Maria J"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Nov",
+      "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+      "journal_abbrev": "Qual Life Res",
+      "doi": "10.1007/s11136-020-02588-1",
+      "abstract": "BACKGROUND: Collecting and monitoring the information from patients through patient-reported experience measures (PREMs) about the quality of care they receive is important for tracking changes in healthcare quality, stimulate innovation, and enhance person-centred care. The objective of this theoretical paper is to discuss the use of implementation science theories, models, and frameworks to inform and evaluate the integration of the electronic collection of PREMs (ePREMs) in healthcare quality improvement for primary care in Canada. METHODS: To assess potential knowledge-to-practice gaps in implementing ePREMs in primary care in Alberta, the overarching implementation model that will be used is the Knowledge to Action Cycle. An integrated knowledge translation approach will ensure ongoing engagement of key stakeholders (e.g. primary care providers, patients) throughout the study. ePREM implementation will be informed by the identification of barriers and facilitators to implementation using the Consolidated Framework for Implementation Research (CFIR). The CFIR brings an organizational perspective providing an opportunity to explore the intervention characteristics, the context of implementation, individual factors, and the processes that influence implementation of ePREMs in healthcare. Identified barriers and facilitators to ePREM implementation will be mapped to evidence-based implementation strategies and prioritized by stakeholders. The RE-AIM framework will be used to guide the evaluation of ePREM implementation outcomes after six months of implementation by assessing Reach, Effectiveness, Adoption, Implementation, and Maintenance (sustainability). DISCUSSION: Consultations with stakeholders affirm the importance of using integrated knowledge translation approaches and the need to better understand how to integrate ePREMs in primary care. Using an implementations science approach, this study can provide guidance for mitigating important ePREM implementation challenges and promote the successful uptake and use of ePREMs for quality improvement in healthcare.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Alberta",
+        "Delivery of Health Care",
+        "Electronics",
+        "Humans",
+        "Implementation Science",
+        "Patient Reported Outcome Measures",
+        "Primary Health Care",
+        "Quality Improvement",
+        "Quality of Life"
+      ],
+      "keywords": [
+        "Electronic data collection",
+        "Implementation science",
+        "Patient-reported experience measures",
+        "Person-centred care",
+        "Primary care",
+        "Quality improvement"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32715388/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/32715388.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description that clearly matches the product. It focuses on ePREMs and their implementation in primary care, which appears to be a generic concept rather than a specific digital therapeutic product.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "39826298",
+      "pmid": "39826298",
+      "title": "An interactive visualization dashboard for predicting the effect of sacubitril/valsartan initiation in patients with heart failure.",
+      "authors": "Russell Chien Tung-Chun et al.",
+      "authors_list": [
+        "Russell Chien Tung-Chun",
+        "Chang Yao-Wei",
+        "Weng Shao-En",
+        "Wu Yee-Jen",
+        "Wang Shih-Rong"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Mar",
+      "journal": "Computers in biology and medicine",
+      "journal_abbrev": "Comput Biol Med",
+      "doi": "10.1016/j.compbiomed.2025.109667",
+      "abstract": "BACKGROUND: Sacubitril/valsartan (S/V) reduces mortality and hospitalization rates in patients with heart failure with reduced ejection fraction (HFrEF), but low adherence remains a challenge. Early initiation of S/V is recommended, yet no practical tool currently exists to effectively communicate its benefits to outpatients or assess patient stability before S/V initiation during hospitalization. METHODS: We collected data retrospectively from 527 HFrEF patients who started S/V between March 2017 and January 2020 at the National Taiwan University Hospital, with follow-up through September 2022. A modern stepwise variable selection approach was applied to fit the optimal Cox's proportional-hazards model to address nonlinear covariate effects and potential multicollinearity. Penalized smoothing splines were used to visualize nonlinear effects and identify cutoff values for continuous covariates. The model was then integrated into an interactive Streamlit dashboard for real-time simulation and risk prediction based on patient-specific covariates. RESULTS: We identified 20 key variables - 12 associated with increased risk and 8 conferring protective effects. Some variables presented actionable cutoff values. The predictive model helped estimate individualized hazard ratios and covariate-adjusted survival curves, which serve as both a patient engagement platform in outpatient settings and a practical tool for physicians to assess inpatient stability before initiating S/V. CONCLUSION: Our interactive visualization dashboard can potentially improve medication adherence and clinical outcomes by involving patients in their treatment journey and facilitating more informed decision-making. A pragmatic clinical trial is currently underway to further evaluate the dashboard's clinical utility and effectiveness in both outpatient and inpatient environments.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Heart Failure",
+        "Valsartan",
+        "Biphenyl Compounds",
+        "Aminobutyrates",
+        "Male",
+        "Female",
+        "Drug Combinations",
+        "Aged",
+        "Middle Aged"
+      ],
+      "keywords": [
+        "Cox's regression",
+        "Dashboard",
+        "Heart failure with reduced ejection fraction",
+        "Penalized splines",
+        "Sacubitril/valsartan",
+        "Survival prediction"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39826298/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/39826298.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study does not explicitly mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description that clearly matches the DTx product. The term 'patient engagement platform' is used generically, and the study focuses on a visualization dashboard for heart failure treatment, which appears unrelated to the described DTx.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "32440163",
+      "pmid": "32440163",
+      "title": "An Asthma Specialist's Consult Letter: What Do Parents Think About Receiving a Copy?",
+      "authors": "Amirav Israel et al.",
+      "authors_list": [
+        "Amirav Israel",
+        "Vandall-Walker Virginia",
+        "Rasiah Jananee",
+        "Saunders Laura",
+        "Belur Harsha"
+      ],
+      "publication_year": "2020",
+      "publication_date": "2020",
+      "journal": "Journal of asthma and allergy",
+      "journal_abbrev": "J Asthma Allergy",
+      "doi": "10.2147/JAA.S249893",
+      "abstract": "OBJECTIVE: Written summaries about visits with general practitioners' have influenced increased patient knowledge, satisfaction, recollection, and compliance, and strengthened the doctor-patient relationship. All previous studies about this communication pre-dated the electronic medical record (EMR) era, and none examined views from parents of children with asthma. We explored parents' perceptions about receiving a hard copy summary Letter immediately following the visit, with the pediatric asthma specialist about findings and the care plan for their child. METHODS: A Parent Advisory Council helped inform this pilot study, an observational cross-sectional electronic survey. Each Letter included a comprehensive summary of the child's visit with the specialist. RESULTS: Previous findings from patients about the benefits of receiving this Letter were strongly supported by data from 51 participants. Interestingly, more than 54% of respondents preferred receiving a hard copy Letter over an electronic copy, and 98% wanted other clinicians to adopt this practice. CONCLUSION: Parents of children with asthma value and want timely written information of this nature from other clinicians. PRACTICE IMPLICATIONS: These results can influence further asthma research to promote a change in the perceptions of clinicians, parents, and patients about timely access to health information in the EMR era.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "asthma",
+        "parents",
+        "patient perspectives",
+        "provider–patient communication"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32440163/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/32440163.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide a description that matches the specific digital therapeutic product. It focuses on written summaries and parent perceptions in asthma care, which is unrelated to the described DTx.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "41081059",
+      "pmid": "41081059",
+      "title": "The experiences of patients who leave hospital against medical advice: analysis of survey data.",
+      "authors": "Kemp Kyle et al.",
+      "authors_list": [
+        "Kemp Kyle",
+        "Steele Brian",
+        "Fairie Paul",
+        "Santana Maria Jose"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025",
+      "journal": "Frontiers in health services",
+      "journal_abbrev": "Front Health Serv",
+      "doi": "10.3389/frhs.2025.1620715",
+      "abstract": "BACKGROUND: Historically, when patients leave hospital against medical advice (LAMA), the focus has often been on non-compliance or other patient-level factors, rather than on how services may be designed to better support these patients. Efforts to better understand why patients LAMA could strengthen the provision of patient-centered care that is responsive to individual needs and values. This study aimed to explore the experiences of Albertan adults who LAMA by examining patient-centered quality indicators (PC-QIs) derived from survey data. We sought to identify actionable insights that may inform service improvements and reduce the risks associated with LAMA discharges. METHODS: We analyzed seven years of survey data, encompassing hospital discharges from April 2016 to March 2023. A random sample of respondents completed the Canadian Patient Experiences - Inpatient Care (CPES-IC) instrument by telephone within six weeks of hospital discharge. From the data, we assessed ten patient-centred quality indicators (PC-QI) which were previously co-created with patient advisors, researchers, and health system administrators. Survey responses/PC-QIs were reported as percent in \"top box\", as represented by the most positive answer choice. Differences between patients who LAMA and other medical/surgical discharges were assessed. RESULTS: A total of 144,480 surveys were successfully linked with inpatient records and included for analysis. This included 1,177 (0.9%) respondents who LAMA. In our sample, those who LAMA were predominantly male, younger, had a lower level of educational attainment, and were living with a greater number of comorbid health conditions. They also had lower self-reported levels of physical and mental health and had a longer average length of stay. The LAMA group had significantly lower top-box percentages on all ten of the PC-QIs which we examined. This difference ranged from 20.7% (communicating test results; 51.6% LAMA group vs. 71.3% others) to 29.2% (patient involvement in decisions about their care and treatment; 39.8% vs. 69.0% respectively). CONCLUSION: Patients who LAMA reported lower ratings of patient experience across all PC-QIs studied. Our findings may provide actionable, service-related insights into the reasons why patients LAMA. This is important as those who do so may place themselves at increased risk for future unplanned healthcare events, mortality, and morbidity.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "hospital",
+        "leaving against medical advice (LAMA)",
+        "patient experience",
+        "patient-centered care",
+        "survey"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41081059/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/41081059.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention the 'Patient Engagement Platform,' Wellpepper, or provide any description matching the specific digital therapeutic product. It focuses on patient experiences with leaving hospitals against medical advice and does not involve a digital intervention.",
+        "matched_elements": []
+      }
+    },
+    {
+      "study_id": "34993432",
+      "pmid": "34993432",
+      "title": "Sex Differences in the Care Experiences of Patients Hospitalized Due to Ischemic Heart Disease in Alberta, Canada.",
+      "authors": "Kemp Kyle A et al.",
+      "authors_list": [
+        "Kemp Kyle A",
+        "Norris Colleen M",
+        "Steele Brian",
+        "Fairie Paul",
+        "Santana Maria J"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Dec",
+      "journal": "CJC open",
+      "journal_abbrev": "CJC Open",
+      "doi": "10.1016/j.cjco.2021.08.011",
+      "abstract": "BACKGROUND: Women with heart disease experience disparities in the diagnosis, treatment, and management of their condition. However, it is unknown whether these sex differences exist with respect to in-hospital patient experience. We examined the comprehensive experience of patients hospitalized due to ischemic heart disease (IHD) across Alberta, Canada, according to sex. METHODS: Patients completed a modified version of the Canadian Patient Experiences Survey-Inpatient Care (CPES-IC) within 6 weeks of discharge. We examined 37 questions, including 33 regarding specific care processes and 4 global rating scales. Survey responses were reported as raw \"top-box\" percentages, that is, the most-positive answer choice to each question. Odds and corresponding 95% confidence intervals of women reporting a top-box response were then calculated for each question, while controlling for demographic and clinical factors. RESULTS: From April 2014 to March 2020, a total of 5795 surveys (1612 women, 4183 men) were completed. Taking the survey margin of error into account, women had lower top-box percentages on 26 of 37 questions. Similar results were obtained for the adjusted odds of reporting a top-box response. Women did not have a higher percentage of top-box responses on any of the questions studied. CONCLUSIONS: This study is a Canadian first, which stratified the experiences of hospitalized patients living with ischemic heart disease according to sex. Our results highlighted important sex differences. Future research to understand the mechanisms associated with these observed sex differences in patient-reported experiences is warranted.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34993432/",
+      "pdf_available": false,
+      "_matched_query": "\"Patient Engagement Platform\"",
+      "_raw_xml_path": "evidence/USA/patient-engagement-platform/candidates/pubmed/raw/34993432.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study does not mention 'Patient Engagement Platform,' 'Wellpepper,' or provide any description matching the digital therapeutic product. It focuses on sex differences in patient experiences with ischemic heart disease in Alberta, Canada, without reference to any specific digital therapeutic intervention.",
+        "matched_elements": []
+      }
+    }
+  ],
+  "count": 43,
+  "_saved_at": "2026-02-09T22:26:43.671182Z",
+  "_source": "pubmed"
+}

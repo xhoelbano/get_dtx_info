@@ -1,0 +1,1997 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04538378",
+      "orgStudyIdInfo": {
+        "id": "200149"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "20-C-0149"
+        }
+      ],
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "Olaparib (LYNPARZA) Plus Durvalumab (IMFINZI) in EGFR-Mutated Adenocarcinomas That Transform to Small Cell Lung Cancer (SCLC) and Other Neuroendocrine Tumors",
+      "officialTitle": "Phase II Trial of Olaparib (LYNPARZA) Plus Durvalumab (IMFINZI) in EGFR-Mutated Adenocarcinomas That Transform to Small Cell Lung Cancer (SCLC) and Other Neuroendocrine Tumors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Closed due to slow accrual.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-03-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-02-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-09-03",
+      "studyFirstSubmitQcDate": "2020-09-03",
+      "studyFirstPostDateStruct": {
+        "date": "2020-09-04",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-12-30",
+      "resultsFirstSubmitQcDate": "2025-01-24",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Anish Thomas",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "National Cancer Institute (NCI)"
+      },
+      "leadSponsor": {
+        "name": "National Cancer Institute (NCI)",
+        "class": "NIH"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Background:\n\nLung cancers with epidermal growth factor receptor (EGFR) mutations may develop resistance to therapies targeting this protein by evolving/being transformed into small cell or neuroendocrine cancers. There are no standard treatments for it. Researchers want to see if a new combination of drugs can help.\n\nObjective:\n\nTo see if the combination of durvalumab and olaparib will cause tumors to shrink.\n\nEligibility:\n\nAdults age 18 and older who had EGFR-mutated non-small-cell lung carcinoma (NSCLC) that was treated and now transformed to SCLC or another neuroendocrine tumor.\n\nDesign:\n\nParticipants will be screened under a separate protocol. They may have a tumor biopsy.\n\nParticipants will have a physical exam. They will have a review of their symptoms, their medicines, and their ability to do their normal activities. They will have blood tests. They will have an electrocardiogram to evaluate their heart.\n\nParticipants will have a computed tomography (CT) scan, a series of x-rays taken of parts of the body.\n\nParticipants will get durvalumab on Day 1 of each 28-day cycle. It is given through a small plastic tube that is put in an arm vein. They will take olaparib by mouth twice every day. They will keep a medicine diary.\n\nParticipants will take the study drugs until their disease gets worse or they have unacceptable side effects.\n\nAbout 30 days after they stop taking the study drugs, participants will have a follow-up visit. Then they will be contacted every 6 months for the rest of their life....",
+      "detailedDescription": "Background:\n\nTargeted therapies designed for specific genetic alterations, known as cancer driver mutations, have changed the treatment paradigm in advanced non-small cell lung carcinoma (NSCLC). Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) are effective in NSCLC with activating mutation in the EGFR. Although most patients achieve robust responses to EGFR tyrosine kinase inhibitors (TKIs) with tumor shrinkage and symptomatic relief, drug resistance eventually develops in the majority of patients.\n\nSmall cell lung cancer (SCLC) transformation has been reported as one of the mechanisms of acquired resistance to EGFR TKIs.\n\nSeveral phase III trials showed durable response with poly adenosine diphosphate (ADP)-ribose) polymerase (PARP) inhibitors in the breast and ovarian cancer with breast cancer gene (BRCA) mutation, a tumor suppressor gene involving homologous recombination repair (HRR) pathway, and several PARP inhibitors are now Food and Drug Administration (FDA) approved for these cancers.\n\nImmune checkpoint blockade appears to be most effective against hypermutated tumors, suggesting that clinical responses correlate with an increased propensity to produce neoantigens.\n\nEGFR-mutated transformed SCLC is an aggressive cancer whose clinical course is similar to that of SCLC. There are no standard treatments for this disease and prospective studies have not been conducted to date. Immune checkpoint inhibitors alone are not effective for EGFR-mutated transformed SCLC. Analyses of EGFR transformed SCLC tumors suggest that these tumors are HRR deficient.\n\nObjective:\n\nTo assess the efficacy of a combination of durvalumab and olaparib with respect to best overall response (BOR) according to Response Evaluation Criteria (RECIST 1.1) in patients with EGFR-mutated non-small-cell lung carcinoma (NSCLC) that transform to SCLC and other neuroendocrine carcinomas.\n\nEligibility:\n\nSubjects with initial diagnosis of EGFR-mutated non-small-cell lung carcinoma (NSCLC) and histologically or cytologically confirmed transformation to small cell/neuroendocrine tumors following treatment with EGFR tyrosine kinase inhibitor.\n\nSubjects should have received platinum-based chemotherapy with or without immunotherapy for small cell/neuroendocrine transformation or refused such therapy.\n\nAge \\>=18 years.\n\nSubjects must have measurable disease.\n\nEastern Cooperative Oncology Group (ECOG) performance status \\<= 2\n\nAdequate organ function\n\nDesign:\n\n-This is an open label Phase II study evaluating the combination of durvalumab and olaparib\n\nin participants with EGFR-mutated non-small-cell lung carcinoma and histologically or cytologically confirmed transformation to small cell/neuroendocrine tumors following treatment with EGFR tyrosine kinase inhibitor.\n\nPatients will be treated with durvalumab (1,500 mg), intravenous (IV), every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) in a 28-day cycles.\n\nPatients will be evaluated for toxicity every 4 weeks by Common Terminology Criteria for Adverse Events (CTCAE) v5.0, and for response every 8 (+/-1) weeks by RECIST 1.1\n\nTreatment will continue until disease progression or unacceptable toxicity."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "EGFR-Mutated Non-Small-Cell Lung Carcinoma",
+        "Small Cell/Neuroendocrine"
+      ],
+      "keywords": [
+        "Targeted Therapy",
+        "(PARP) Inhibitors",
+        "Poly (ADP-ribose) Polymerase",
+        "Monoclonal Antibody"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1/Arm 1: Combination of Durvalumab and Olaparib",
+          "type": "EXPERIMENTAL",
+          "description": "Combination of durvalumab and olaparib",
+          "interventionNames": [
+            "Drug: Olaparib",
+            "Drug: Durvalumab",
+            "Diagnostic Test: EKG",
+            "Procedure: Tumor biopsy",
+            "Diagnostic Test: CT chest, abdomen and pelvis",
+            "Diagnostic Test: MRI chest, abdomen and pelvis"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Olaparib",
+          "description": "Olaparib tablet will be administered at a total daily dose of 600 mg orally in two divided doses, approximately 12 hours apart.",
+          "armGroupLabels": [
+            "1/Arm 1: Combination of Durvalumab and Olaparib"
+          ],
+          "otherNames": [
+            "Lynparza"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Durvalumab",
+          "description": "Durvalumab will be administered intravenous (IV) into a peripheral or central vein on Day 1 of every cycle at a flat dose of 1,500 mg.",
+          "armGroupLabels": [
+            "1/Arm 1: Combination of Durvalumab and Olaparib"
+          ],
+          "otherNames": [
+            "Imfinzi"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "EKG",
+          "description": "Screening and all cycles Day 1 and Day 15 (+/- 3) days. One cycle is 28 days.",
+          "armGroupLabels": [
+            "1/Arm 1: Combination of Durvalumab and Olaparib"
+          ],
+          "otherNames": [
+            "Electrocardiogram"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Tumor biopsy",
+          "description": "Baseline and all cycles Day 15 (+/- 3) days. One cycle is 28 days.",
+          "armGroupLabels": [
+            "1/Arm 1: Combination of Durvalumab and Olaparib"
+          ],
+          "otherNames": [
+            "Tumor bx"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "CT chest, abdomen and pelvis",
+          "description": "Screening and baseline and every 8 (+/-1) weeks after start of therapy.",
+          "armGroupLabels": [
+            "1/Arm 1: Combination of Durvalumab and Olaparib"
+          ],
+          "otherNames": [
+            "Computed tomography chest, abdomen and pelvis"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "MRI chest, abdomen and pelvis",
+          "description": "Screening and baseline and every 8 (+/-1) weeks after start of therapy.",
+          "armGroupLabels": [
+            "1/Arm 1: Combination of Durvalumab and Olaparib"
+          ],
+          "otherNames": [
+            "Magnetic resonance imaging chest, abdomen and pelvis"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Best Overall Response (BOR)",
+          "description": "BOR is the best response recorded from the start of the treatment until disease progression/recurrence. The clinical response rate of evaluable participants will be reported along with a 95% confidence interval according to the Response Evaluation Criteria in Solid Tumors (RECIST 1.1). Complete response (CR) is the disappearance of all target lesions. Partial response (PR) is at least a 30% decrease in the sum of the diameters of target lesions. Progressive Disease (PD) is at least a 20% increase in the sum of the diameters of target lesions. Stable disease (SD) is neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD.",
+          "timeFrame": "Disease progression; an average of 53 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Progression-free Survival (PFS)",
+          "description": "PFS is defined as the time interval from start of treatment to documented evidence of disease progression assessed by the Response Evaluation Criteria in Solid Tumors (RECIST). PFS will be estimated by the Kaplan-Meier method. The median PFS will be reported along with a 95% confidence interval. Progressive Disease (PD) is at least a 20% increase in the sum of the diameters of target lesions.",
+          "timeFrame": "Disease progression, an average of 7 weeks"
+        },
+        {
+          "measure": "Number of Participants With Grades 1, 2, 3, 4 and/or 5 Serious and/or Non-serious Toxicity",
+          "description": "Participants will be assessed for toxicity by reporting the grades of toxicity and the type of toxicity observed for all participants. Toxicity was assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned. Grade 1 is mild. Grade 2 is moderate. Grade 3 is severe. Grade 4 is life-threatening. Grade 5 is death related to adverse event.",
+          "timeFrame": "Treatment phase, an average of 12 weeks"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS is defined as the time between the first day of treatment to the day of death. OS will be estimated by the Kaplan-Meier method. The median OS will be reported along with a 95% confidence interval.",
+          "timeFrame": "At death, an average of 275 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of Participants With Serious and/or Non-Serious Adverse Events Assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0).",
+          "description": "Here is the number of participants with serious and/or non-serious adverse events assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned.",
+          "timeFrame": "From the first study intervention, Study Day 1 of Cycle 1 through 30 days after the study agent (s) was/were administered, an average of 11.4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "* INCLUSION CRITERIA:\n* Subjects with initial diagnosis of epidermal growth factor receptor (EGFR)-mutated non-small-cell lung carcinoma (NSCLC) and histologically or cytologically confirmed transformation to small cell or neuroendocrine tumor following treatment with EGFR tyrosine kinase inhibitor.\n* Subjects should have received platinum-based chemotherapy with or without immunotherapy for small cell/neuroendocrine transformation or refused such therapy.\n* Age greater than or equal to 18 years.\n* Patients must have measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1.\n* Eastern Cooperative Oncology Group (ECOG) performance status less than or equal to 2.\n* Adequate hematological function within 28 days prior to enrollment as defined below:\n\n  * white blood cell (WBC) count greater than or equal to 3x10\\^9/L,\n  * absolute neutrophil count (ANC) greater than or equal to 1.0x10\\^9/L,\n  * platelet count greater than or equal to 75x10\\^9/L, and\n  * Hemoglobin (Hgb) greater than or equal to 9 g/ dL if no blood transfusion within 4 weeks prior to enrollment OR \\>10 g/dL if no blood transfusion within 2 weeks prior to enrollment.\n* Adequate hepatic function within 28 days prior to enrollment as defined by:\n\n  * a total bilirubin level less than or equal to 1.5 x upper limit of normal (ULN); for subjects with documented/suspected Gilbert's disease, bilirubin less than or equal to 3 x ULN\n  * an aspartate aminotransferase (AST) level less than or equal to 2.5 x ULN, (less than or equal to 5X ULN if liver metastasis)\n  * an alanine aminotransferase (ALT) level less than or equal to 2.5 x ULN, (less than or equal to 5X ULN if liver metastasis).\n* Adequate renal function within 28 days prior to enrollment as defined by:\n\n  * Creatinine OR Measured or calculated creatinine clearance (CrCl) estimated glomerular filtration rate (eGFR) may also be used in place of CrCl)\n\n    ---\\< 1.5x institution upper limit of normal OR\n  * greater than or equal to 51 mL/min/1.73 m\\^2 for participant with creatinine levels\n  * greater than or equal to 1.5 X institutional ULN\n\nCreatinine clearance (CrCl) or eGFR should be calculated per institutional standard.\n\n-The effects of the study treatment on the developing human fetus are unknown; thus, women of childbearing potential must agree to use 1 highly effective form of contraception and their partners must use a male condom, or they must totally/truly abstain from any form of sexual intercourse from the time of screening throughout the total duration of the protocol treatment and for at least 6 months after the last dose of the study drugs. Male participants and their partners must use a highly effective form of contraception from the time\n\nof screening throughout the total duration of the protocol treatment and for 3 months after the last dose of study treatment.\n\n* Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately\n\n  ---Postmenopausal or evidence of non-childbearing status for women of childbearing potential: negative urine or serum pregnancy test within 28 days of enrollment and confirmed prior to treatment on day 1. Postmenopausal is defined as: amenorrheic for 1 year (12 months in a row) or more following cessation of exogenous hormonal treatments; luteinizing hormone (LH) and follicle stimulating hormone (FSH) levels in the post-menopausal range for women under 50, radiation-induced oophorectomy with last menses \\>1 year ago; chemotherapy-induced menopause with more than one-year interval since last menses; surgical sterilization for female participants (bilateral oophorectomy or hysterectomy) or male partners.\n* Patients with symptomatic brain metastases will be excluded from trial secondary to poor prognosis. However, patients who have had treatment for their brain metastasis and whose brain disease is stable without steroid therapy for 2 weeks may be enrolled. Imaging to rule out brain metastases is not required for screening but should be performed prior to study enrollment if clinically indicated.\n* Subjects must be able to understand and willing to sign a written informed consent document\n\nEXCLUSION CRITERIA:\n\n* Patients who are receiving any other investigational agents. Patients may be on other clinical trials or treatment during screening to determine eligibility\n* Systemic anti-cancer treatment or major surgery within 2 weeks prior to enrollment.\n* Palliative radiation within 24 hours prior to enrollment.\n* High-dose consolidative chest radiation within 2 weeks prior to enrollment.\n* Major surgical procedure (as defined by the Investigator) within 28 days prior to enrollment. Note: local surgery of isolated lesions for palliative intent is acceptable.\n* Patients receiving any medications or substances that are moderate and strong inhibitors or inducers of cytochrome P450 3A4 (CYP3A4).\n\nNote: dihydropyridine calcium - channel blockers are permitted for management of underling disease.\n\n* History of auto-immune disease requiring steroid maintenance, or history of primary immunodeficiency.\n* Current or prior use of immunosuppressive medication within 14 days before the enrollment, with the exception of intranasal and inhaled corticosteroids or systemic corticosteroids at physiological doses, which are not to exceed 10 mg/day of prednisone or an equivalent corticosteroid. In the case of short-term use of systemic corticosteroids (less than 24 hours within 28 days) of greater than 10 mg/day of prednisone or an equivalent corticosteroid, the required washout period prior to enrollment is 7 days.\n* Patients with myelodysplastic syndrome/acute myeloid leukemia; or baseline clinical features suggestive of myelodysplastic syndrome or acute myelogenous leukemia.\n* Persistent toxicities (greater than or equal to Common Terminology Criteria for Adverse Events (CTCAE) grade 2) with the exception of alopecia, caused by previous cancer therapy.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition of olaparib or durvalumab.\n* Resting electrocardiogram (ECG) indicating uncontrolled, potentially reversible cardiac conditions, as judged by the investigator (e.g., unstable ischemia, uncontrolled symptomatic arrhythmia, congestive heart failure, Q wave and the T wave (QT) corrected for heart rate by Fridericia's cube root formula (QTcF) prolongation \\>500 ms, electrolyte disturbances, etc.), or patients with congenital long QT syndrome.\n* Active infection including tuberculosis (clinical evaluation that includes clinical history, physical examination and radiographic findings, and tuberculosis (TB) testing), hepatitis B (known positive hepatitis B virus (HBV) hepatitis B surface antigen (HBsAg) result), hepatitis C. Patients with a past or resolved HBV infection (defined as the presence of hepatitis B core antibody \\[anti-HBc\\] and absence of HBsAg) and patients positive for hepatitis C (HCV) antibody are eligible only if polymerase chain reaction is negative for HBV or HCV ribonucleic acid (RNA).\n* Human immunodeficiency virus (HIV)-positive patients on antiretroviral therapy are ineligible because of potential pharmacokinetic interactions with study drugs. However, patients with long-standing (\\>5 years) HIV on antiretroviral therapy \\> 1 month (undetectable HIV viral load and cluster of differentiation 4 (CD4) count \\> 150 cells/microliters) may be eligible if the PI determines no anticipated clinically significant drug-drug interactions.\n* History of allogenic organ transplantation, bone marrow transplant or double umbilical cord blood transplantation (dUCBT).\n* Uncontrolled intercurrent illness or medical condition including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia requiring medications ((except chronic atrial fibrillation/flutter with controlled vascular rate), or psychiatric illness/social situations that may impair the patients tolerance of study treatments and, in the judgment of the investigator, would make the patient inappropriate for the study.\n* Patients unable to swallow orally administered medication and patients with gastrointestinal disorders likely to interfere with absorption of the study medication based on primary investigator decision.\n* Pregnant women are excluded from this study because olaparib is a poly adenosine diphosphate ribose polymerase (PARP) inhibitor agent with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with durvalumab and olaparib, breastfeeding should be discontinued if the mother is treated with study drugs.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anish Thomas, M.D.",
+          "affiliation": "National Cancer Institute (NCI)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Institutes of Health Clinical Center",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "NIH Clinical Center Detailed Web Page",
+          "url": "https://clinicalstudies.info.nih.gov/cgi/detail.cgi?B_2020-C-0149.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All individual participant data (IPD) recorded in the medical record will be shared with intramural investigators upon request. In addition, all large-scale genomic sequencing data will be shared with subscribers to the database of Genotypes and Phenotypes (dbGaP). All collected IPD will be shared with collaborators under the terms of collaborative agreements.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Clinical data available during the study and indefinitely. Genomic data are available once genomic data are uploaded per protocol Genomic Data Sharing (GDS) plan for as long as database is active.",
+      "accessCriteria": "Clinical data will be made available via subscription to Biomedical Translational Research Information System (BTRIS) and with the permission of the study principal investigator (PI). Genomic data are made available via the database of Genotypes and Phenotypes (dbGaP) through requests to the data custodians."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+          "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+          "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60",
+                      "spread": "10.23"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Best Overall Response (BOR)",
+          "description": "BOR is the best response recorded from the start of the treatment until disease progression/recurrence. The clinical response rate of evaluable participants will be reported along with a 95% confidence interval according to the Response Evaluation Criteria in Solid Tumors (RECIST 1.1). Complete response (CR) is the disappearance of all target lesions. Partial response (PR) is at least a 30% decrease in the sum of the diameters of target lesions. Progressive Disease (PD) is at least a 20% increase in the sum of the diameters of target lesions. Stable disease (SD) is neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Proportion of participants",
+          "timeFrame": "Disease progression; an average of 53 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+              "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Complete Response",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "lowerLimit": "0",
+                      "upperLimit": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Partial Response",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "lowerLimit": "0",
+                      "upperLimit": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Progressive Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.0",
+                      "lowerLimit": "1.0",
+                      "upperLimit": "1.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stable Disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "lowerLimit": "0",
+                      "upperLimit": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Progression-free Survival (PFS)",
+          "description": "PFS is defined as the time interval from start of treatment to documented evidence of disease progression assessed by the Response Evaluation Criteria in Solid Tumors (RECIST). PFS will be estimated by the Kaplan-Meier method. The median PFS will be reported along with a 95% confidence interval. Progressive Disease (PD) is at least a 20% increase in the sum of the diameters of target lesions.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Days",
+          "timeFrame": "Disease progression, an average of 7 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+              "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53",
+                      "lowerLimit": "35",
+                      "upperLimit": "55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Grades 1, 2, 3, 4 and/or 5 Serious and/or Non-serious Toxicity",
+          "description": "Participants will be assessed for toxicity by reporting the grades of toxicity and the type of toxicity observed for all participants. Toxicity was assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned. Grade 1 is mild. Grade 2 is moderate. Grade 3 is severe. Grade 4 is life-threatening. Grade 5 is death related to adverse event.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Treatment phase, an average of 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Grade 1 Non-Serious",
+              "description": "1/Arm 1: Combination of Durvalumab and Olaparib"
+            },
+            {
+              "id": "OG001",
+              "title": "Grade 2 Non-Serious",
+              "description": "1/Arm 1: Combination of Durvalumab and Olaparib"
+            },
+            {
+              "id": "OG002",
+              "title": "Grade 3 Non-Serious",
+              "description": "1/Arm 1: Combination of Durvalumab and Olaparib"
+            },
+            {
+              "id": "OG003",
+              "title": "Grade 4 Non-Serious",
+              "description": "1/Arm 1: Combination of Durvalumab and Olaparib"
+            },
+            {
+              "id": "OG004",
+              "title": "Any Grade Serious",
+              "description": "1/Arm 1: Combination of Durvalumab and Olaparib"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Anemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Anorexia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Anxiety",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Constipation",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cough",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dizziness",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dyspnea",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fatigue",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Headache",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hyperglycemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hyperkalemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hypokalemia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hyponatremia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lipase increased",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lymphocyte count decreased",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nausea",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Paresthesia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Serum amylase increased",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Superficial thrombophlebitis",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Thyroid stimulating hormone increased",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tremor",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Urticaria",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Vomiting",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival (OS)",
+          "description": "OS is defined as the time between the first day of treatment to the day of death. OS will be estimated by the Kaplan-Meier method. The median OS will be reported along with a 95% confidence interval.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Days",
+          "timeFrame": "At death, an average of 275 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+              "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "284",
+                      "lowerLimit": "136",
+                      "upperLimit": "397"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Participants With Serious and/or Non-Serious Adverse Events Assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0).",
+          "description": "Here is the number of participants with serious and/or non-serious adverse events assessed by the Common Terminology Criteria for Adverse Events (CTCAE v5.0). A non-serious adverse event is any untoward medical occurrence. A serious adverse event is an adverse event or suspected adverse reaction that results in death, a life-threatening adverse drug experience, hospitalization, disruption of the ability to conduct normal life functions, congenital anomaly/birth defect or important medical events that jeopardize the patient or subject and may require medical or surgical intervention to prevent one of the previous outcomes mentioned.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From the first study intervention, Study Day 1 of Cycle 1 through 30 days after the study agent (s) was/were administered, an average of 11.4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+              "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "All-Cause Mortality was monitored/assessed an average of 275 days. Adverse Events was monitored/assessed from the first study intervention, Study Day 1 of Cycle 1 through 30 days after the study agent (s) was/were administered, an average of 11.4 weeks.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "1/Arm 1: Combination of Durvalumab and Olaparib",
+          "description": "Dose Level 1: Durvalumab (1,500 mg) will be given intravenous (IV) every 28 days and olaparib (300 mg twice a day (BID) for total daily dose of 600 mg) will be administered orally on every day of every cycle.",
+          "deathsNumAffected": 4,
+          "deathsNumAtRisk": 4,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Hyperkalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Lipase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Paresthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Serum amylase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Superficial thrombophlebitis",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Thyroid stimulating hormone increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Tremor",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Urticaria",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Anish Thomas",
+        "organization": "National Cancer Institute",
+        "email": "anish.thomas@nih.gov",
+        "phone": "240-760-7343"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-03-11",
+          "uploadDate": "2024-12-18T12:53",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1767325
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2024-05-09",
+          "uploadDate": "2024-12-18T12:54",
+          "filename": "ICF_001.pdf",
+          "size": 1039186
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-01-23",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C531550",
+          "term": "olaparib"
+        },
+        {
+          "id": "C000613593",
+          "term": "durvalumab"
+        },
+        {
+          "id": "D004562",
+          "term": "Electrocardiography"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006334",
+          "term": "Heart Function Tests"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D004568",
+          "term": "Electrodiagnosis"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

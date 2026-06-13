@@ -1,0 +1,112 @@
+{
+  "studies": [
+    {
+      "study_id": "25248206",
+      "pmid": "25248206",
+      "title": "Prediction of Heart Failure Decompensation Events by Trend Analysis of Telemonitoring Data.",
+      "authors": "Henriques J et al.",
+      "authors_list": [
+        "Henriques J",
+        "Carvalho P",
+        "Paredes S",
+        "Rocha T",
+        "Habetha J"
+      ],
+      "publication_year": "2015",
+      "publication_date": "2015-Sep",
+      "journal": "IEEE journal of biomedical and health informatics",
+      "journal_abbrev": "IEEE J Biomed Health Inform",
+      "doi": "10.1109/JBHI.2014.2358715",
+      "abstract": "This paper aims to assess the predictive value of physiological data daily collected in a telemonitoring study in the early detection of heart failure (HF) decompensation events. The main hypothesis is that physiological time series with similar progression (trends) may have prognostic value in future clinical states (decompensation or normal condition). The strategy is composed of two main steps: a trend similarity analysis and a predictive procedure. The similarity scheme combines the Haar wavelet decomposition, in which signals are represented as linear combinations of a set of orthogonal bases, with the Karhunen-Loève transform, that allows the selection of the reduced set of bases that capture the fundamental behavior of the time series. The prediction process assumes that future evolution of current condition can be inferred from the progression of past physiological time series. Therefore, founded on the trend similarity measure, a set of time series presenting a progression similar to the current condition is identified in the historical dataset, which is then employed, through a nearest neighbor approach, in the current prediction. The strategy is evaluated using physiological data resulting from the myHeart telemonitoring study, namely blood pressure, respiration rate, heart rate, and body weight collected from 41 patients (15 decompensation events and 26 normal conditions). The obtained results suggest, in general, that the physiological data have predictive value, and in particular, that the proposed scheme is particularly appropriate to address the early detection of HF decompensation.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Blood Pressure",
+        "Blood Pressure Determination",
+        "Early Diagnosis",
+        "Female",
+        "Heart Failure",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Telemedicine"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25248206/",
+      "pdf_available": false,
+      "_matched_query": "\"myHeart\"",
+      "_raw_xml_path": "evidence/USA/myheart/candidates/pubmed/raw/25248206.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study explicitly mentions 'myHeart' in the abstract as the source of telemonitoring data used in the research. This matches the product name and its description as a digital therapeutic for cardiovascular conditions. While the sponsor/funder and intervention details are not specified, the direct mention of 'myHeart' strongly indicates relevance.",
+        "matched_elements": [
+          "myHeart"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 95,
+        "reason": "The study uses observational data from a telemonitoring study to analyze physiological trends and predict heart failure decompensation events. There is no mention of randomization, blinding, or an interventional design, which are key indicators of an RCT."
+      }
+    },
+    {
+      "study_id": "31946736",
+      "pmid": "31946736",
+      "title": "Latent states extraction through Kalman Filter for the prediction of heart failure decompensation events.",
+      "authors": "Nunes D et al.",
+      "authors_list": [
+        "Nunes D",
+        "Rocha T",
+        "Traver V",
+        "Teixeira C",
+        "Ruano M"
+      ],
+      "publication_year": "2019",
+      "publication_date": "2019-Jul",
+      "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+      "journal_abbrev": "Annu Int Conf IEEE Eng Med Biol Soc",
+      "doi": "10.1109/EMBC.2019.8857591",
+      "abstract": "Cardiac function deterioration of heart failure patients is frequently manifested by the occurrence of decompensation events. One relevant step to adequately prevent cardiovascular status degradation is to predict decompensation episodes in order to allow preventive medical interventions.In this paper we introduce a methodology with the goal of finding onsets of worsening progressions from multiple physiological parameters which may have predictive value in decompensation events. The best performance was obtained for the model composed by only two features using a telemonitoring dataset (myHeart) with 41 patients. Results were achieved by applying leave-one-subject-out validation and correspond to a geometric mean of 83.67%. The obtained performance suggests that the methodology has the potential to be used in decision support solutions and assist in the prevention of this public health burden.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Forecasting",
+        "Heart Failure",
+        "Humans",
+        "Remote Sensing Technology",
+        "Telemedicine"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31946736/",
+      "pdf_available": false,
+      "_matched_query": "\"myHeart\"",
+      "_raw_xml_path": "evidence/USA/myheart/candidates/pubmed/raw/31946736.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study explicitly mentions 'myHeart' as the telemonitoring dataset used, which aligns with the product name and its focus on cardiovascular conditions. However, the study does not provide detailed information about the intervention or explicitly link it to the My Mhealth company, leaving a small degree of uncertainty.",
+        "matched_elements": [
+          "myHeart"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study uses a telemonitoring dataset with 41 patients and applies a leave-one-subject-out validation method, indicating an observational and retrospective design rather than a randomized controlled trial."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-10T07:57:55.401913Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

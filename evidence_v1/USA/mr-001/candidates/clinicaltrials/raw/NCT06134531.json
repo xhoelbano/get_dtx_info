@@ -1,0 +1,258 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06134531",
+      "orgStudyIdInfo": {
+        "id": "NFEC-2023-382"
+      },
+      "organization": {
+        "fullName": "Nanfang Hospital, Southern Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "First-In-Human Study of Bispecific Antibody MR001 In Subjects With Advanced Solid Tumors",
+      "officialTitle": "Clinical Study on Evaluating the Safety and Tolerability of Bispecific Antibody MR001 in Patients With Advanced Solid Tumors."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-11",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-10-16",
+      "studyFirstSubmitQcDate": "2023-11-12",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-11-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-11-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Nanfang Hospital, Southern Medical University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Phase 1 open-label study to evaluate the safety, tolerability and preliminary efficacy of bispecific antibody MR001 and to determine the maximal tolerated dose and designate the recommended phase 2 dose in subjects with locally advanced or metastatic solid cancers.",
+      "detailedDescription": "Phase 1 open-label study to evaluate the safety, tolerability and preliminary efficacy of bispecific antibody MR001 and to determine the maximal tolerated dose and designate the recommended phase 2 dose in subjects with locally advanced or metastatic solid cancers. The study will be conducted in 2 parts: part 1 will involve dose escalation and part 2 will involve expansion of the recommended phase 2 dose."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Solid Tumors"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 31,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MR001",
+          "type": "EXPERIMENTAL",
+          "description": "The investigational product is MR001 which will be supplied in glass vials containing 50 mg of Freeze-dried powder. MR001 could be diluted in saline for intravenous (IV) administration.",
+          "interventionNames": [
+            "Drug: MR001"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MR001",
+          "description": "Dose Level 1: 0.5 mg/kg Intravenously (IV) Frequency: administered on Day 1 of each cycle (every 3 weeks), 1 cycle\n\nDose Level 2: 2 mg/kg Intravenously (IV) Frequency: administered on Day 1 of each cycle (every 3 weeks), 4 cycle\n\nDose Level 3: 6 mg/kg Intravenously (IV) Frequency: administered on Day 1 of each cycle (every 3 weeks), 4 cycle\n\nDose Level 4: 10 mg/kg Intravenously (IV) Frequency: administered on Day 1 of each cycle (every 3 weeks), 4 cycle\n\nDose Level 5: 15 mg/kg Intravenously (IV) Frequency: administered on Day 1 of each cycle (every 3 weeks), 4 cycle\n\nDose Level 6: 20 mg/kg Intravenously (IV) Frequency: administered on Day 1 of each cycle (every 3 weeks), 4 cycle",
+          "armGroupLabels": [
+            "MR001"
+          ],
+          "otherNames": [
+            "anti-CD4/anti-TGFβ1 bispecific antibody"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of treatment-emergent adverse events, and serious adverse events",
+          "description": "Safety profile of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Dose Limited Toxicity (DLT) and Maximum Tolerated Dose (MTD)",
+          "description": "Determine the DLT and MTD and designate a recommended phase 2 dose (RP2D)",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Peak Time (Tmax) of MR001",
+          "description": "Determine the Tmax of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of MR001",
+          "description": "Determine the Cmax of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Area under the Concentration versus Time Curve (AUC) of MR001",
+          "description": "Determine the AUC(0-t) and AUC(0-∞) of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Elimination of Half-life (t1/2) of MR001",
+          "description": "Determine the t1/2 of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Clearance (CL) of MR001",
+          "description": "Determine the CL of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Volume of Distribution (Vd) of MR001",
+          "description": "Determine the Vd of MR001",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "ORR in accordance with Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 and modified RECIST guidelines for immunotherapy trials (iRECIST).",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "Progression-free Survival (PFS) by RECIST Version 1.1 and iRECIST.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Overall Survival (OS) by RECIST Version 1.1 and iRECIST.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "Duration of Response (DOR) by RECIST Version 1.1 and iRECIST.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Disease Control Rate (DCR)",
+          "description": "Disease Control Rate (DCR) by RECIST Version 1.1 and iRECIST.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Anti-drug Antibody (ADA)",
+          "description": "Determine the Anti-MR001 antibody in the plasma",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18 years old and ≤75 years old (including the critical value);\n2. Patients with histologically or cytologically confirmed advanced metastatic solid tumors who have failed standard treatments, are intolerant to standard treatments, or refuse standard treatments;\n3. According to RECIST 1.1 criteria, there is at least 1 evaluable target lesion;\n4. ECOG score physical status is 0-2;\n5. Have appropriate organs and hematopoietic function, and no serious organ dysfunction according to the following laboratory tests:\n\n   Hematology: absolute neutrophil count (ANC) ≥1.5×10e9/L, platelets ≥100×10e9/L, white blood cell count ≥3×10e9/L, hemoglobin ≥90 g/L; Renal function: serum creatinine ≤1.5 times the upper limit of normal (ULN) or creatinine clearance ≥50 mL/min (creatinine clearance using the Cockcroft-Gault formula); Liver function: AST and ALT ≤ 2.5 times ULN, patients with liver metastasis ≤ 5 times ULN; serum bilirubin (TBIL) ≤ 1.5 times ULN; alkaline phosphatase ≤ 1.5 times ULN, patients with liver metastasis or bone metastasis ≤ 5 times ULN ; Coagulation function: international normalized rate (INR) or activated partial thromboplastin time (APTT) ≤ 1.5 times ULN;\n6. CD4+T lymphocyte count \\>350 cells/μL;\n7. Expected survival ≥3 months;\n8. No birth plans within 2 weeks before screening and 3 months after the end of the trial and agree to take effective non-drug contraceptive measures during the trial;\n9. Voluntarily participate in the trial and sign the informed consent form.\n\nExclusion Criteria:\n\n1. Those who are allergic to trial drugs or excipients;\n2. Subjects with uncontrolled active brain metastasis or meningeal metastasis: those who need to use any radiation, surgery or drug treatment (including steroids, anticonvulsant drugs, etc.) to control metastasis symptoms 1 month before screening are not allowed Enrollment, patients with stable brain metastases can be enrolled;\n3. Those who have suffered from autoimmune diseases in the past and need to use glucocorticoids or immunosuppressive drugs;\n4. Uncontrolled comorbidities or cancer pain;\n5. Hypertension that remains uncontrollable after drug treatment (systolic blood pressure \\>170 mmHg or diastolic blood pressure \\>100 mmHg);\n6. Those with a history of severe heart disease, such as: a history of acute myocardial infarction or coronary angioplasty or stent implantation within 12 months, unstable angina, myocarditis, chronic heart failure ≥ grade III (New York, USA) Heart Association standards), or those with a history of QT interval prolongation (\\>470 ms for women; \\>450 ms for men) or a history of severe arrhythmia as shown by electrocardiogram;\n7. Those with a history of severe kidney disease, such as chronic nephritis, renal insufficiency, etc.;\n8. There is currently an uncontrolled active infection;\n9. Active hepatitis B (HBsAg positive, and peripheral blood HBV DNA titer test ≥1×10e3 IU/mL), hepatitis C, syphilis-specific antibodies and human immunodeficiency virus (HIV) antibody screening Patients with positive test results;\n10. Other malignant tumors occurred within 5 years before screening, except for cervical cancer in situ, cutaneous squamous cell carcinoma or basal cell carcinoma that has been previously treated for radical treatment;\n11. Those who have received the COVID-19 vaccine within 28 days before screening or have received other vaccines within 3 months before screening or plan to receive vaccines during the trial;\n12. Subjects who received systemic steroid treatment within 14 days before the first dose and were judged by the investigator to need long-term systemic steroid treatment during treatment (except for inhaled or topical use, physiological replacement dose);\n13. Participated in any other interventional clinical trial within 28 days before the first dose;\n14. Received blood transfusion and/or colony-stimulating factor-related treatment within 28 days before the first dose;\n15. Those who have received major surgical and/or anti-tumor treatments (including but not limited to chemotherapy, radiotherapy, targeted and immunotherapy, etc.) within 28 days before the first dose, and have failed to recover from the toxicity of these interventions (according to NCI-CTCAE version 5.0 toxicity has not returned to ≤ grade 1), except for alopecia;\n16. Women preparing for pregnancy, pregnancy, and lactation;\n17. Any other circumstances that the researcher believes may increase the risk to the subjects or interfere with the results of the trial, and who are deemed unsuitable to enter this trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Guoxin Li, MD",
+          "role": "CONTACT",
+          "phone": "+86 13802771450",
+          "email": "gzliguoxin@163.com"
+        },
+        {
+          "name": "Shun Li, PhD",
+          "role": "CONTACT",
+          "phone": "+86 14776580498",
+          "email": "lis@majory.com.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Guoxin Li, MD",
+          "affiliation": "Nanfang Hospital, Southern Medical University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Nanfang Hospital, Southern Medical University",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510-515",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33087933",
+          "type": "RESULT",
+          "citation": "Li S, Liu M, Do MH, Chou C, Stamatiades EG, Nixon BG, Shi W, Zhang X, Li P, Gao S, Capistrano KJ, Xu H, Cheung NV, Li MO. Cancer immunotherapy via targeted TGF-beta signalling blockade in TH cells. Nature. 2020 Nov;587(7832):121-125. doi: 10.1038/s41586-020-2850-3. Epub 2020 Oct 21."
+        },
+        {
+          "pmid": "33087928",
+          "type": "RESULT",
+          "citation": "Liu M, Kuo F, Capistrano KJ, Kang D, Nixon BG, Shi W, Chou C, Do MH, Stamatiades EG, Gao S, Li S, Chen Y, Hsieh JJ, Hakimi AA, Taniuchi I, Chan TA, Li MO. TGF-beta suppresses type 2 immunity to cancer. Nature. 2020 Nov;587(7832):115-120. doi: 10.1038/s41586-020-2836-1. Epub 2020 Oct 21."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

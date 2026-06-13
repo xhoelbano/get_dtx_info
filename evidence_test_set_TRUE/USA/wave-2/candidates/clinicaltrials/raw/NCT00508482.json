@@ -1,0 +1,2500 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00508482",
+      "orgStudyIdInfo": {
+        "id": "2006BAI12B05-1"
+      },
+      "organization": {
+        "fullName": "Guang'anmen Hospital of China Academy of Chinese Medical Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Clinical Standardization Study of the Preferred Acupuncture Treatment Protocol to Treat Functional Constipation",
+      "officialTitle": "A Clinical Standardization Study of the Preferred Acupuncture Treatment Protocol to Treat Functional Constipation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-07-26",
+      "studyFirstSubmitQcDate": "2007-07-26",
+      "studyFirstPostDateStruct": {
+        "date": "2007-07-30",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2012-11-28",
+      "resultsFirstSubmitQcDate": "2013-02-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2013-03-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-05-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-06-04",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Liu Zhishun",
+        "investigatorTitle": "Chief of the Acupuncture Department",
+        "investigatorAffiliation": "Guang'anmen Hospital of China Academy of Chinese Medical Sciences"
+      },
+      "leadSponsor": {
+        "name": "Guang'anmen Hospital of China Academy of Chinese Medical Sciences",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ministry of Science and Technology of the People´s Republic of China",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to re-evaluate the therapeutic superiority and safety of acupuncture treatment using high quality and large sampled clinical research. The investigators want to provide a preferred treatment protocol, which is effective, safe, and easy to use in clinical practice. This research also clarifies that the insertion depth is a key factor in the therapeutic effect of acupuncture. The results of the study will help promote the development of the standardization of acupuncture.",
+      "detailedDescription": "Functional constipation is a high morbidity disease. The life-long treatment of functional constipation can seriously impact a patient's quality of life. At present, one of the most frequently used treatment is catharsis, which deals with the symptom. There are three main problems with catharsis. First, there are no long-lasting effects once the patient stops taking medication. Second, there are many side effects, including abdominal pain with defecation and diarrhea. Third, long-term use of irritant laxatives will not only make the constipation become refractory and complex; but also, this type of medicine can harm the enteric nervous system, cause melanosis coli, or even carcinoma of colon. Therefore, a therapy that is safe with minimal side effects and good short-term and long-term effects is urgently needed in functional constipation treatment.\n\nClinical practice shows that acupuncture may meets this need to some extent. The acupuncture therapy is safe and effective and the therapeutic effects are still present several months after the treatment has been completed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Constipation"
+      ],
+      "keywords": [
+        "Acupuncture",
+        "Functional constipation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 475,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "deep needling group",
+          "type": "EXPERIMENTAL",
+          "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location, were used. After sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 20\\~60mm until piercing into the muscle layer. Paired alligator clips of the electric acupuncture (EA) apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose. Patients were treated once a day, five times a week for continuous 4 weeks.",
+          "interventionNames": [
+            "Other: deep needling"
+          ]
+        },
+        {
+          "label": "lactulose group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed.",
+          "interventionNames": [
+            "Drug: Lactulose"
+          ]
+        },
+        {
+          "label": "shallow needling group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group.",
+          "interventionNames": [
+            "Other: shallow needling"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "deep needling",
+          "description": "Huatuo brand needle (0.35×75mm), LH202H electric stimulator, parameter is constant wave, 2/15Hz, and current intensity is the abdominal muscles shiver slightly and the patient feels trivial pain.\n\nOnce a day, five times a week, four weeks.",
+          "armGroupLabels": [
+            "deep needling group"
+          ],
+          "otherNames": [
+            "acupuncture",
+            "electroacupuncture"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Lactulose",
+          "description": "20-30ml, once a day before breakfast, for the whole study except the run-in period",
+          "armGroupLabels": [
+            "lactulose group"
+          ],
+          "otherNames": [
+            "Lactulose produced by Solvay Pharmaceuticals BV"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "shallow needling",
+          "description": "Huatuo brand needle (0.30×25mm). The usage of EA apparatus and treatment course were the same as deep needling group.",
+          "armGroupLabels": [
+            "shallow needling group"
+          ],
+          "otherNames": [
+            "acupuncture",
+            "electroacupuncture"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change of Mean Weekly Spontaneous Bowel Movements",
+          "description": "Spontaneous bowel movements per week were assessed every week during 4 weeks of treatment according to patients' diaries. Weekly spontaneous bowel movements were also assessed at the 4th and 12th week of follow-up according to patients' diaries.",
+          "timeFrame": "over 4-week treatment, at the 4th week of follow-up, at the 12th week of follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change of Mean Value of Straining During Defecating",
+          "description": "Score of straining during defecating was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of straining during defecating over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment. We corrected the mean value of straining during defecating by covariance because the data had significant difference among three groups at baseline.",
+          "timeFrame": "over 4 weeks of treatment"
+        },
+        {
+          "measure": "Change of Mean Value of Incomplete Evacuation",
+          "description": "Score of incomplete evacuation was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of incomplete evacuation over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment.",
+          "timeFrame": "over 4 weeks of treatment"
+        },
+        {
+          "measure": "Change of Mean Value of Stool Consistency",
+          "description": "Score of stool consistency was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of stool consistency over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment. We corrected the mean value of stool consistency by covariance because the data had significant difference among three groups at baseline.",
+          "timeFrame": "over 4 weeks of treatment"
+        },
+        {
+          "measure": "Change of Mean Value of Abdominal Distention",
+          "description": "Score of abdominal distention was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of abdominal distention over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment. We corrected the mean value of abdominal distention by covariance because the data had significant difference among three groups at baseline.",
+          "timeFrame": "over 4 weeks of treatment"
+        },
+        {
+          "measure": "Change of Mean Value of Cleveland Clinic Score",
+          "description": "Cleveland Clinic Score was assessed by doctors which contains eight items about constipation-related symptoms. Score ranges from '0' to '30'. '0' means none of symptoms and '30' means very severe symptoms. The change was calculated as the value at baseline minus the average over 4 weeks of treatment.",
+          "timeFrame": "over 4 weeks of treatment"
+        },
+        {
+          "measure": "Time to the First Spontaneous Bowel Movement After the First Treatment",
+          "timeFrame": "counting by hours"
+        },
+        {
+          "measure": "Percentage of the Usage of Emergency Drugs",
+          "timeFrame": "over 4 weeks of treatment"
+        },
+        {
+          "measure": "Percentage of the Usage of Emergency Drugs",
+          "timeFrame": "at the 4th week of follow-up"
+        },
+        {
+          "measure": "Percentage of the Usage of Emergency Drugs",
+          "timeFrame": "at the 12th week of follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* meeting the diagnosis of Rome III criteria;\n* aged from 18 to 75 years old;\n* no use of medicine for constipation about 2 weeks before the enrollment, no acupuncture treatment for constipation in the previous 3 months, and never joined any other trial in progress in the previous 3 months;\n* volunteered to join this trial and signed the informed consent form\n\nExclusion Criteria:\n\n* irritable bowel syndrome, organic constipation or secondary constipation caused by endocrine, metabolic, nervous, postoperative diseases, or by drugs;\n* constipation with serious cardiovascular, hepatic or renal diseases, cognitive dysfunction, aphasia, mental disorders, or illness which affects the cooperation for examination and treatment;\n* women in gestation or lactation period;\n* abdominal aortic aneurysm or hepatosplenomegaly, etc.;\n* blood coagulation disorders or using anticoagulants regularly such as Warfarin and Heparin;\n* cardiac pacemaker carrier.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Zhishun Liu, M.D.",
+          "affiliation": "Guang'an Men Hospital Affiliated to China Academy of Chinese Medical Sciences",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Guang'an Men Hospital Affiliated to China Academy of Chinese Medical Sciences",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100053",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25526462",
+          "type": "DERIVED",
+          "citation": "Wu J, Liu B, Li N, Sun J, Wang L, Wang L, Cai Y, Ye Y, Liu J, Wang Y, Liu Z. Effect and safety of deep needling and shallow needling for functional constipation: a multicenter, randomized controlled trial. Medicine (Baltimore). 2014 Dec;93(28):e284. doi: 10.1097/MD.0000000000000284."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Recruitment ot this trial started in April 2008 and finished in Dec. 2010. Patients were recruited from clinics in each center by posters and advertisements in newspapers.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Deep Needling Group",
+          "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+        },
+        {
+          "id": "FG001",
+          "title": "Shallow Needling Group",
+          "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+        },
+        {
+          "id": "FG002",
+          "title": "Lactulose Group",
+          "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Over 4 Weeks of Treatment",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "237"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "119"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "119"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "216"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "102"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "99"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "21"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "17"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "20"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Changed mind, didn't want to participate",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "at the 4th Week of Follow-up",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "216"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "102"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "99"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "196"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "96"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "98"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "at the 12th Week of Follow-up",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "196"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "96"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "98"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "196"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "96"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "98"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Deep Needling Group",
+          "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+        },
+        {
+          "id": "BG001",
+          "title": "Shallow Needling Group",
+          "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+        },
+        {
+          "id": "BG002",
+          "title": "Lactulose Group",
+          "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "237"
+            },
+            {
+              "groupId": "BG001",
+              "value": "119"
+            },
+            {
+              "groupId": "BG002",
+              "value": "119"
+            },
+            {
+              "groupId": "BG003",
+              "value": "475"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "199"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "101"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "101"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "401"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45.18",
+                      "spread": "17.28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45.21",
+                      "spread": "17.40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43.71",
+                      "spread": "17.23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "44.87",
+                      "spread": "17.29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "183"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "91"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "372"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Han",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "229"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "115"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "114"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "458"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Minority",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "China",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "237"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "119"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "119"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "475"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "mean spontaneous bowel movements",
+          "description": "defecation times in one week without help of medication or hands",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "stools/week",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "straining during defecation",
+          "description": "one of symptoms assessed by patients (including four symptoms) at baseline.It ranges from 0 to 4. '0' means no such symptom and '4' means very severe symptom.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Incomplete evacuation",
+          "description": "one of symptoms assessed by patients (including four symptoms) at baseline. It ranges from 0 to 4. '0' means no such symptom and '4' means very severe symptom.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stool consistency",
+          "description": "one of symptoms assessed by patients (including four symptoms) at baseline. It ranges from 0 to 4,among them '0' means normal faeces and '4' means very hard faeces.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "abdominal distention",
+          "description": "one of symptoms assessed by patients (including four symptoms) at baseline. It ranges from 0 to 4. '0' means no such symptom and '4' means very severe symptom.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1",
+                      "lowerLimit": "1",
+                      "upperLimit": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1",
+                      "lowerLimit": "0",
+                      "upperLimit": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1",
+                      "lowerLimit": "0",
+                      "upperLimit": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cleveland Clinic Score",
+          "description": "A scale about constipation symptoms, assessed by the doctor. There are eight items(the score was summed up by the 8 items). It ranges from '0' to '30'. '0' means none of symptoms and '30' means very severe symptoms.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13",
+                      "lowerLimit": "11",
+                      "upperLimit": "16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13",
+                      "lowerLimit": "11",
+                      "upperLimit": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13",
+                      "lowerLimit": "10",
+                      "upperLimit": "15"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "13",
+                      "lowerLimit": "10",
+                      "upperLimit": "15.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change of Mean Weekly Spontaneous Bowel Movements",
+          "description": "Spontaneous bowel movements per week were assessed every week during 4 weeks of treatment according to patients' diaries. Weekly spontaneous bowel movements were also assessed at the 4th and 12th week of follow-up according to patients' diaries.",
+          "populationDescription": "Intention-To-Treat(ITT) analysis was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "stools/week",
+          "timeFrame": "over 4-week treatment, at the 4th week of follow-up, at the 12th week of follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "over 4 weeks of treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2",
+                      "lowerLimit": "1.25",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "2.75"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "at the 4th week of follow-up",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2",
+                      "lowerLimit": "1",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2",
+                      "lowerLimit": "0",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1",
+                      "lowerLimit": "0",
+                      "upperLimit": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "at the 12th week of follow-up",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2",
+                      "lowerLimit": "0.5",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.5",
+                      "lowerLimit": "0.5",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1",
+                      "lowerLimit": "0",
+                      "upperLimit": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Comparison among three groups over 4 weeks of treatment",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.238",
+              "statisticalMethod": "Kruskal-Wallis"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Comparison among three groups at the 4th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.004",
+              "statisticalMethod": "Kruskal-Wallis"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "at the 4th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.277",
+              "statisticalMethod": "Least-Significant Difference",
+              "statisticalComment": "We translated the data of three groups through rank cases, so that we can use Least-Significant Difference for the comparison of any two groups."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "at the 4th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.001",
+              "statisticalMethod": "Least-Significant Difference",
+              "statisticalComment": "We translated the data of three groups through rank cases, so that we can use Least-Significant Difference for the comparison of any two groups."
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "at the 4th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.055",
+              "statisticalMethod": "Least-Significant Difference",
+              "statisticalComment": "We translated the data of three groups through rank cases, so that we can use Least-Significant Difference for the comparison of any two groups."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Comparison among three groups at the 12th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.001",
+              "statisticalMethod": "Kruskal-Wallis"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "at the 12th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.330",
+              "statisticalMethod": "Least-Significant Difference",
+              "statisticalComment": "We translated the data of three groups through rank cases, so that we can use Least-Significant Difference for the comparison of any two groups."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "at the 12th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Least-Significant Difference",
+              "statisticalComment": "We translated the data of three groups through rank cases, so that we can use Least-Significant Difference for the comparison of any two groups."
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "at the 12th week of follow-up",
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.018",
+              "statisticalMethod": "Least-Significant Difference",
+              "statisticalComment": "We translated the data of three groups through rank cases, so that we can use Least-Significant Difference for the comparison of any two groups."
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change of Mean Value of Straining During Defecating",
+          "description": "Score of straining during defecating was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of straining during defecating over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment. We corrected the mean value of straining during defecating by covariance because the data had significant difference among three groups at baseline.",
+          "populationDescription": "ITT analysis was used",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "over 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.835",
+                      "spread": "0.037",
+                      "lowerLimit": "0.25",
+                      "upperLimit": "1.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.789",
+                      "spread": "0.053",
+                      "lowerLimit": "0.06",
+                      "upperLimit": "1.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.868",
+                      "spread": "0.053",
+                      "lowerLimit": "0",
+                      "upperLimit": "1.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.573",
+              "statisticalMethod": "ANOVA"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change of Mean Value of Incomplete Evacuation",
+          "description": "Score of incomplete evacuation was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of incomplete evacuation over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment.",
+          "populationDescription": "ITT analysis was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "over 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.75",
+                      "lowerLimit": "0",
+                      "upperLimit": "1.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.75",
+                      "lowerLimit": "0",
+                      "upperLimit": "1.5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.75",
+                      "lowerLimit": "-0.25",
+                      "upperLimit": "1.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.271",
+              "statisticalMethod": "Kruskal-Wallis"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change of Mean Value of Stool Consistency",
+          "description": "Score of stool consistency was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of stool consistency over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment. We corrected the mean value of stool consistency by covariance because the data had significant difference among three groups at baseline.",
+          "populationDescription": "ITT analysis was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "over 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.414",
+                      "spread": "0.025",
+                      "lowerLimit": "0",
+                      "upperLimit": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.438",
+                      "spread": "0.035",
+                      "lowerLimit": "0",
+                      "upperLimit": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.701",
+                      "spread": "0.035",
+                      "lowerLimit": "0",
+                      "upperLimit": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "ANOVA"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.580",
+              "statisticalMethod": "Least-Significant Difference"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Least-Significant Difference"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Least-Significant Difference"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change of Mean Value of Abdominal Distention",
+          "description": "Score of abdominal distention was assessed every week according to patients' diaries during 4 weeks of treatment. Score ranges from '0' to '4'. '0' means none of symptoms and '4' means very severe symptoms. Change from baseline of the mean value of abdominal distention over 4 weeks of treatment was evaluated as the secondary outcome. The change was calculated as the value at baseline minus the average over 4 weeks of treatment. We corrected the mean value of abdominal distention by covariance because the data had significant difference among three groups at baseline.",
+          "populationDescription": "ITT analysis was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "over 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group.\n\n."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.762",
+                      "spread": "0.033",
+                      "lowerLimit": "5",
+                      "upperLimit": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.693",
+                      "spread": "0.041",
+                      "lowerLimit": "6",
+                      "upperLimit": "9"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.661",
+                      "spread": "0.047",
+                      "lowerLimit": "6",
+                      "upperLimit": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.167",
+              "statisticalMethod": "ANOVA"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change of Mean Value of Cleveland Clinic Score",
+          "description": "Cleveland Clinic Score was assessed by doctors which contains eight items about constipation-related symptoms. Score ranges from '0' to '30'. '0' means none of symptoms and '30' means very severe symptoms. The change was calculated as the value at baseline minus the average over 4 weeks of treatment.",
+          "populationDescription": "ITT analysis was used",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "over 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.5",
+                      "lowerLimit": "2.25",
+                      "upperLimit": "7.25"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.38",
+                      "lowerLimit": "1.06",
+                      "upperLimit": "6.44"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4",
+                      "lowerLimit": "1.25",
+                      "upperLimit": "6.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.066",
+              "statisticalMethod": "Kruskal-Wallis"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to the First Spontaneous Bowel Movement After the First Treatment",
+          "populationDescription": "ITT analysis was used",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "hours",
+          "timeFrame": "counting by hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.08",
+                      "spread": "27.53",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36.68",
+                      "spread": "32.75",
+                      "lowerLimit": "2",
+                      "upperLimit": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "16.52",
+                      "spread": "18.84",
+                      "lowerLimit": "2",
+                      "upperLimit": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "ANOVA"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.024",
+              "statisticalMethod": "Least-Significant Difference"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Least-Significant Difference"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Least-Significant Difference"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of the Usage of Emergency Drugs",
+          "populationDescription": "ITT analysis was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "over 4 weeks of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.65"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.04"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "33.91"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.627",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of the Usage of Emergency Drugs",
+          "populationDescription": "ITT analysis was used",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "at the 4th week of follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.50"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "30.43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.587",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.001",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of the Usage of Emergency Drugs",
+          "populationDescription": "ITT analysis was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "at the 12th week of follow-up",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Deep Needling Group",
+              "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks."
+            },
+            {
+              "id": "OG001",
+              "title": "Shallow Needling Group",
+              "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group."
+            },
+            {
+              "id": "OG002",
+              "title": "Lactulose Group",
+              "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "228"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "112"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "115"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.29"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "29.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.006",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.507",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.005",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "testedNonInferiority": false,
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.008",
+              "pValueComment": "α was corrected by the method of Bonferroni as 0.0167 (α=0.05/3=0.0167).",
+              "statisticalMethod": "Chi-squared"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0.8",
+      "timeFrame": "The adverse event data were collected in about more than two years.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Deep Needling Group",
+          "description": "Acupoints of bilateral Tianshu (ST25), which were located according to WHO Standardized Acupuncture Points Location20, were used.\n\nAfter sterilizing the skin, needles of the size of 0.35×0.75mm were inserted into ST25 vertically and slowly without manipulation for about 30\\~70mm until touching the parietal peritoneum. Paired alligator clips of the EA apparatus were attached transversely to the needle holders of bilateral ST25. EA stimulation lasted for 30 minutes with a dilatational wave of 2/15Hz and current intensity of 0.1\\~1mA. Participant's abdominal muscle twitching mildly showed the proper dose.\n\nPatients were treated once a day, five times a week for continuous 4 weeks.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 228,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 228
+        },
+        {
+          "id": "EG001",
+          "title": "Shallow Needling Group",
+          "description": "Bilateral ST25, the same acupoints as deep needling group, were used. After skin disinfection, needles of the size of 0.30×25mm penetrated the skin uprightly for about 5\\~9mm into the fat layer without manipulation. The usage of EA apparatus and treatment course were the same as deep needling group.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 112,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 112
+        },
+        {
+          "id": "EG002",
+          "title": "Lactulose Group",
+          "description": "Lactulose Oral Solution was taken orally at the dose of 20\\~30ml once every morning after breakfast for continuous 4 weeks. Patients should take lactulose for another 3 months if no severe adverse effect was showed.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 115,
+          "otherNumAffected": 10,
+          "otherNumAtRisk": 115
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "moderate or above pricking",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "feelings of moderate or above pricking during the performance of needling",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 228
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 112
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 115
+            }
+          ]
+        },
+        {
+          "term": "Subcutaneous hemorrhage",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Disappear in about 2 weeks",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 228
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 112
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 115
+            }
+          ]
+        },
+        {
+          "term": "mild fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "recover in 24 hours",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 228
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 112
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 115
+            }
+          ]
+        },
+        {
+          "term": "diarrhea and abdominal discomfort",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 228
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 112
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 10,
+              "numAffected": 10,
+              "numAtRisk": 115
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Spontaneous bowel movements were used as the primary outcome in our trial rather than complete, spontaneous bowel movements. Outcomes of follow-up were not the mean value of weekly data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Zhishun Liu",
+        "organization": "Guang'anmen Hospital Affiliated to China Academy of Chinese Medical Sciences",
+        "email": "liuzhishun@aliyun.com",
+        "phone": "0086-010-88001124"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003248",
+          "term": "Constipation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012817",
+          "term": "Signs and Symptoms, Digestive"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015670",
+          "term": "Acupuncture Therapy"
+        },
+        {
+          "id": "D015671",
+          "term": "Electroacupuncture"
+        },
+        {
+          "id": "D007792",
+          "term": "Lactulose"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000529",
+          "term": "Complementary Therapies"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D004599",
+          "term": "Electric Stimulation Therapy"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D004561",
+          "term": "Transcutaneous Electric Nerve Stimulation"
+        },
+        {
+          "id": "D000698",
+          "term": "Analgesia"
+        },
+        {
+          "id": "D000760",
+          "term": "Anesthesia and Analgesia"
+        },
+        {
+          "id": "D000758",
+          "term": "Anesthesia"
+        },
+        {
+          "id": "D004187",
+          "term": "Disaccharides"
+        },
+        {
+          "id": "D009844",
+          "term": "Oligosaccharides"
+        },
+        {
+          "id": "D011134",
+          "term": "Polysaccharides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D000073893",
+          "term": "Sugars"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

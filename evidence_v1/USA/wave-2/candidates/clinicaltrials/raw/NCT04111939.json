@@ -1,0 +1,1018 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04111939",
+      "orgStudyIdInfo": {
+        "id": "38088"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1UM1DA049394",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1UM1DA049394"
+        },
+        {
+          "id": "1UM1DA049415",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1UM1DA049415"
+        },
+        {
+          "id": "1UM1DA049417",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1UM1DA049417"
+        },
+        {
+          "id": "1UM1DA049412",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1UM1DA049412"
+        },
+        {
+          "id": "1UM1DA049406",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1UM1DA049406"
+        }
+      ],
+      "organization": {
+        "fullName": "RTI International",
+        "class": "OTHER"
+      },
+      "briefTitle": "HEALing Communities Study",
+      "officialTitle": "HEALing Communities Study: Developing and Testing an Integrated Approach to Address the Opioid Crisis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-10-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-09-30",
+      "studyFirstSubmitQcDate": "2019-09-30",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-01",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-03-25",
+      "resultsFirstSubmitQcDate": "2025-05-27",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-05-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "RTI International",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Boston Medical Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "Columbia University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Ohio State University",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Kentucky",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        },
+        {
+          "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+          "class": "FED"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will test the impact of implementing the Communities That Helping to End Addiction Long-term (HEAL) intervention on opioid overdose deaths within 67 highly affected communities with the goal of reducing opioid overdose deaths by 40%.",
+      "detailedDescription": "The HEALing Communities Study (HCS) is a multi-site, parallel group, cluster randomized wait-list controlled trial to test the impact of the Communities That HEAL (CTH) intervention, which is designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder. Communities receiving the intervention will be engaged to reach individuals who are at highest risk of overdose death (e.g., out of treatment, leaving jail) and: (1) expand access to and receipt of medication for opioid use disorder (MOUD) and behavioral treatment, (2) increase the number of individuals retained in treatment beyond 6 months, (3) reduce the risk of fatal overdose through expansion of overdose education and naloxone distribution, and (4) improve prescription opioid safety. In addition, the study will determine (1) the factors that contribute to or impede successful implementation of the CTH intervention, (2) the factors that contribute to or impede sustainment of CTH intervention, and (3) the incremental costs and cost effectiveness of the CTH intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Use Disorder (OUD)"
+      ],
+      "keywords": [
+        "opioid",
+        "Opioid Use Disorder (OUD)",
+        "overdose",
+        "addiction",
+        "Naloxone",
+        "Buprenorphine",
+        "methadone",
+        "evidence-based practices",
+        "community engagement"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 67,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Wave 1 - Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Communities in Wave 1 will receive the CTH intervention during the first 30 months of the trial. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.",
+          "interventionNames": [
+            "Other: Communities That HEAL"
+          ]
+        },
+        {
+          "label": "Wave 2 - Wait-list comparison",
+          "type": "OTHER",
+          "description": "Communities in Wave 2 will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.",
+          "interventionNames": [
+            "Other: Wait-list control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Communities That HEAL",
+          "description": "The Communities That HEAL (CTH) intervention is a community-engaged intervention designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. It includes 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.",
+          "armGroupLabels": [
+            "Wave 1 - Intervention"
+          ],
+          "otherNames": [
+            "CTH"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Wait-list control",
+          "description": "Communities in the wait-list control condition will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.",
+          "armGroupLabels": [
+            "Wave 2 - Wait-list comparison"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Opioid Overdose Deaths",
+          "description": "Count of HCS community resident overdose deaths (i.e. deaths with an underlying cause of drug poisoning) where opioids were determined to be contributing (alone or in combination with other drugs) to the drug poisoning.",
+          "timeFrame": "Months 19-30"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Naloxone Units Distributed in Communities",
+          "description": "Count of naloxone units distributed in the HCS communities during the measurement period as captured by the following submeasures: 1) count of naloxone units distributed by the state health agency (secondary data from state health agencies) and HCS study logs for naloxone distributed by the study and 2) the count of naloxone units sold by pharmacies (IQVIA pharmacy data)",
+          "timeFrame": "Months 19-30"
+        },
+        {
+          "measure": "Number of Individuals Receiving Buprenorphine Products That Are Approved by the Food and Drug Administration (FDA) for Treatment of OUD",
+          "description": "Count of number of unique individuals receiving buprenorphine MOUD during the measurement period.",
+          "timeFrame": "Months 19-30"
+        },
+        {
+          "measure": "Incidents of High-risk Opioid Prescribing",
+          "description": "Count of individuals with one or more of the following during the twelve month study period (months 19-30), and not in a prior specified time window (3 months): risk of continued opioid use (new opioid episode lasting at least 31 days); initiating opioid treatment with extended-release or long-acting opioid; incident high dosage (average ≥ 90 mg morphine per day); and/or incident overlapping opioid and benzodiazepine for ≥ 30 days.",
+          "timeFrame": "Months 19-30"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Adverse Event Incidence Per 1000 Community Members",
+          "description": "The mean rate of emergency medical service (EMS) runs for a suspected opioid overdose per 1000 adults to assess potential adverse events and serious adverse events in the community. This is community level data of EMS runs (suspected opioid overdose events in the community areas), but not deaths. We had to use a surrogate measure (EMS runs: not the same as deaths, some may have died but others may have been saved) since the decedent/death certificate data had too long of a lag.\n\nAE Criterion: ORO (opioid-related overdose) rate for a single month increased \\> 3 standard deviations (SDs) above the moving avg of the previous 3 months. SAE Criterion: ORO rate for a single month increased \\> 4 SDs above the moving avg of the previous 3 months. The SD was determined from the monthly rates of the communities for the latest available 12-month period prior to the start of the intervention using a pooled estimate across communities. We did not monitor at the individual participant level.",
+          "timeFrame": "44 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The community must be located in one of the four participating states: Kentucky, Ohio, Massachusetts, or New York.\n* At least 30% of the communities selected within each state must be rural.\n* Across all the HCS communities within each state, there must be a minimum of 150 opioid-related overdose fatalities (with at least 22 opioid-related overdose fatalities experienced by the rural communities) and a rate of at least 25 opioid-related overdose fatalities per 100,000 persons, based on 2016 data.\n* The community must express willingness to address in their response strategy the implementation of MOUD, overdose prevention training, and naloxone distribution across their community.\n* The community must express willingness to develop partnerships across health care, behavioral health, and justice settings for evidence-based practices to address opioid misuse, OUD, and overdoses.\n\nExclusion Criteria:\n\n* Communities that did not meet the aforementioned inclusion criteria were excluded from the HCS.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Kentucky",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40508",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Columbia University",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Ohio State University",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41333386",
+          "type": "DERIVED",
+          "citation": "Speer DD, Bush JL, Ekanayake DL, Nakayima J, Goetz MM, Miles J, Larimore E, Knudsen HK, Walsh SL, McCollister KE. Analysis of the Costs and Reach of Transportation Services to Reduce Barriers to Opioid Use Disorder (OUD) Treatment: Evidence from the Kentucky HEALing Communities Study. Res Sq [Preprint]. 2025 Nov 20:rs.3.rs-7999770. doi: 10.21203/rs.3.rs-7999770/v1."
+        },
+        {
+          "pmid": "41237130",
+          "type": "DERIVED",
+          "citation": "Luster J, Reynolds J, Chahine R, Lewis N, Stein MD, Lefebvre RC, D'Costa L, Asman K, Stephens K, Dsouza N, Slater MD. A Cross-Sectional Study of Acceptability and Influence of HEALing Communities Study Communications Campaign Messaging Among Community Members in Four U.S. States. Am J Health Promot. 2025 Nov 14:8901171251398985. doi: 10.1177/08901171251398985. Online ahead of print."
+        },
+        {
+          "pmid": "40892527",
+          "type": "DERIVED",
+          "citation": "Hall ME, Glasgow L, Holloway J, Chahine RA, Davis J, Harris MTH, Knudsen HK, Neufeld JL, Oga E, Lounsbury DW, Sabounchi N, Davis A, Smith M, Chase RP, Ellison SA, Harness J, Surratt HL, Walsh SL, Nakayima PJ, Chandler R. Reach of Community-Selected Strategies to Reduce Opioid-Related Overdose Deaths in the HEALing Communities Study. Subst Use Misuse. 2026;61(2):200-208. doi: 10.1080/10826084.2025.2549496. Epub 2025 Sep 2."
+        },
+        {
+          "pmid": "40684522",
+          "type": "DERIVED",
+          "citation": "Brown JL, Larochelle MR, Fanucchi LC, Calvert DC, Campbell ANC, Chandler RK, Feaster DJ, Glasgow LM, Gibson EB, Holloway J, Lofwall MR, Mack A, Mack N, Nunes EV, Talbert JC, Tan S, Vandergrift N, Villani J, Asman K, Babakhanlou-Chase H, Bagley SM, Battaglia TA, Blevins D, Bridden C, Cheng DM, Christopher M, Cogan LW, Cunningham CO, Eggleston B, Fareed N, Fernandez S, Freedman DA, Freiermuth CE, Freisthler B, Gilbert L, Hammerslag L, Harris D, Hunt T, Hussain S, Huynh P, Jackson RD, Kauffman EB, Knott C, Knudsen HK, Lefebvre RC, Levin FR, Massatti R, McAlearney AS, Morgan JR, Lopez RM, Lounsbury DW, Newman L, Nickels K, Oga EA, Oller DA, Parran TV, Quinn M, Ramsey KS, Rapkin BD, Salsberry P, Stein M, Taylor JL, Teater J, Walters ST, Zarkin GA, El-Bassel N, Winhusen TJ, Samet JH, Walsh SL. Effects of the Communities That HEAL intervention on initiation, retention, and linkage to medications for opioid use disorder (MOUD): A cluster randomized wait-list controlled trial. Drug Alcohol Depend. 2025 Sep 1;274:112785. doi: 10.1016/j.drugalcdep.2025.112785. Epub 2025 Jul 9."
+        },
+        {
+          "pmid": "40433450",
+          "type": "DERIVED",
+          "citation": "Gibson EB, Glasgow L, Nouvong M, McGladrey M, Freedman D, Chassler D, Vickers-Smith R, D'Onfro M, Goddard-Eckrich DA, Hunt T, Chatterjee A, Holloway J, Fain K, Cruz RS, Martinez LS. Implementing and documenting cultural adaption of evidence-based practice strategies to reduce opioid overdose deaths: examples and lessons from the HEALing communities study. Discov Public Health. 2025;22(1):296. doi: 10.1186/s12982-025-00696-2. Epub 2025 May 25."
+        },
+        {
+          "pmid": "40220509",
+          "type": "DERIVED",
+          "citation": "Gilbert L, Chahine R, Chandler R, Feaster DJ, Kim E, Aldridge A, Bagley S, Balvanz P, Fernandez S, Rock P, Vickers-Smith RA, Villani J, Battaglia T, Brown J, Bush H, Chase RP, Collins T, D'Costa L, Damato-MacPherson C, David JL, Defiore-Hyrmer J, Freeman PR, Glasgow L, Hammerslag LR, Hotchkiss J, Hunt T, Hussain S, Kamanu V, Knott C, Knudsen HK, LaRochelle M, Laudate A, Lyons M, McMullan J, Nakayima J, Schackman BR, Slavova S, Tan S, Vandergrift N, Walters ST, Westgate PM, Wu E, Young AM, Zarkin GA, Freisthler B, Oga E, Samet JH, Walsh SL, Winhusen J, Jackson R, El-Bassel N. The effectiveness of the communities that HEAL intervention on reducing non-fatal opioid overdoses: A prespecified secondary analysis of a waitlist cluster control randomized controlled trial. Int J Drug Policy. 2025 Jun;140:104798. doi: 10.1016/j.drugpo.2025.104798. Epub 2025 Apr 11."
+        },
+        {
+          "pmid": "40176107",
+          "type": "DERIVED",
+          "citation": "Knudsen HK, Andrews-Higgins S, Back-Haddix S, Lofwall MR, Fanucchi L, Walsh SL. Barriers and facilitators to scaling up medications for opioid use disorder in Kentucky: qualitative perspectives of treatment organization staff. Subst Abuse Treat Prev Policy. 2025 Apr 2;20(1):15. doi: 10.1186/s13011-025-00644-y."
+        },
+        {
+          "pmid": "40083021",
+          "type": "DERIVED",
+          "citation": "Knudsen HK, Back-Haddix S, Andrews-Higgins S, Goetz M, Davis OA, Oyler DR, Walsh SL, Freeman PR. Organizational perspectives on the impacts of scaling up overdose education and naloxone distribution in Kentucky. Addict Sci Clin Pract. 2025 Mar 14;20(1):27. doi: 10.1186/s13722-025-00553-2."
+        },
+        {
+          "pmid": "40051546",
+          "type": "DERIVED",
+          "citation": "Olvera RG, Cogan AG, Bartkus M, Benjamin SN, Davis J, Frazier LA, Henry BF, Hunt T, Kinnard EN, Mattingly H, McAlearney AS, Rivera D, Drainoni ML, Walker DM. Community coalitions' navigation of policies to address the opioid epidemic: insights from qualitative interviews in four states. BMJ Public Health. 2025 Feb 27;3(1):e001924. doi: 10.1136/bmjph-2024-001924. eCollection 2025."
+        },
+        {
+          "pmid": "39711557",
+          "type": "DERIVED",
+          "citation": "Knudsen HK, Andrews-Higgins S, Back-Haddix S, Lofwall MR, Fanucchi L, Walsh SL. Scaling up medications for opioid use disorder in Kentucky: Qualitative perspectives of treatment organizations. Res Sq [Preprint]. 2024 Dec 12:rs.3.rs-5440415. doi: 10.21203/rs.3.rs-5440415/v1."
+        },
+        {
+          "pmid": "39636496",
+          "type": "DERIVED",
+          "citation": "Sprunger J, Brown J, Rubi S, Papp J, Lyons M, Winhusen TJ. Jail-based interventions to reduce risk for opioid-related overdose deaths: Examples of implementation within Ohio counties participating in the HEALing Communities Study. Health Justice. 2024 Dec 5;12(1):48. doi: 10.1186/s40352-024-00307-3."
+        },
+        {
+          "pmid": "39630633",
+          "type": "DERIVED",
+          "citation": "Lewis N, Eggleston B, Chandler RK, Goddard-Eckrich D, Luster JE, Beard DD, Rodgers E, Chahine R, Westgate PM, Benjamin SN, Holloway J, Clarke T, Lefebvre RC, Stein MD, Helme DW, Reynolds J, Walsh SL, Freedman D, El-Bassel N, Stephens K, Silwal A, Lofwall M, Childerhose JE, Surratt HL, Crockett BN, Farmer AL, David JL, Fanucchi L, Harness J, Wilburn B, Bursey K, Mattson K, Mann S, Jackson RD, Shadwick A, Calver K, Chassler D, Kimball J, Regan N, Samet JH, Sword-Cruz R, Slater MD. Stigma and efficacy beliefs regarding opioid use disorder treatment and naloxone in communities participating in the HEALing Communities Study intervention. PLoS One. 2024 Dec 4;19(12):e0308965. doi: 10.1371/journal.pone.0308965. eCollection 2024."
+        },
+        {
+          "pmid": "39432308",
+          "type": "DERIVED",
+          "citation": "Freisthler B, Chahine RA, Villani J, Chandler R, Feaster DJ, Slavova S, Defiore-Hyrmer J, Walley AY, Kosakowski S, Aldridge A, Barbosa C, Bhatta S, Brancato C, Bridden C, Christopher M, Clarke T, David J, D'Costa L, Ewing I, Fernandez S, Gibson E, Gilbert L, Hall ME, Hargrove S, Hunt T, Kinnard EN, Larochelle L, Macoubray A, Nigam S, Nunes EV, Oser CB, Pagnano S, Rock P, Salsberry P, Shadwick A, Stopka TJ, Tan S, Taylor JL, Westgate PM, Wu E, Zarkin GA, Walsh SL, El-Bassel N, Winhusen TJ, Samet JH, Oga EA. Communities That HEAL Intervention and Mortality Including Polysubstance Overdose Deaths: A Randomized Clinical Trial. JAMA Netw Open. 2024 Oct 1;7(10):e2440006. doi: 10.1001/jamanetworkopen.2024.40006."
+        },
+        {
+          "pmid": "39388670",
+          "type": "DERIVED",
+          "citation": "Freeman PR, Walley AY, Winhusen TJ, Oga EA, Villani J, Hunt T, Chandler RK, Oyler DR, Reilly B, Gelberg K, Douglas C, Lyons MS, Holloway J, Vandergrift NA, Adams JW, Asman K, Baker TJ, Brancato CJ, Cheng DM, Childerhose JE, David JL, Feaster DJ, Gilbert L, Glasgow LM, Goddard-Eckrich DA, Knott C, Knudsen HK, Lofwall MR, Marks KR, McMullan JT, Oser CB, Roberts MF, Shoben AB, Stein MD, Walters ST, Watson J, Zarkin GA, Jackson RD, Samet JH, Walsh SL, Bassel NE. Effect of the Communities That HEAL Intervention on Overdose Education and Naloxone Distribution: A Cluster-Randomized, Wait-List Controlled Trial. Am J Public Health. 2025 Jan;115(1):83-94. doi: 10.2105/AJPH.2024.307845. Epub 2024 Oct 10."
+        },
+        {
+          "pmid": "39250216",
+          "type": "DERIVED",
+          "citation": "Fareed N, Olvera RG, Wang Y, Hayes M, Larimore EL, Balvanz P, Langley R, Noel CA, Rock P, Redmond D, Neufeld J, Kosakowski S, Harris D, LaRochelle M, Huerta TR, Glasgow L, Oga E, Villani J, Wu E. Lessons Learned From Developing Dashboards to Support Decision-Making for Community Opioid Response by Community Stakeholders: Mixed Methods and Multisite Study. JMIR Hum Factors. 2024 Sep 9;11:e51525. doi: 10.2196/51525."
+        },
+        {
+          "pmid": "39102264",
+          "type": "DERIVED",
+          "citation": "Christine PJ, Chahine RA, Kimmel SD, Mack N, Douglas C, Stopka TJ, Calver K, Fanucchi LC, Slavova S, Lofwall M, Feaster DJ, Lyons M, Ezell J, Larochelle MR. Buprenorphine Prescribing Characteristics Following Relaxation of X-Waiver Training Requirements. JAMA Netw Open. 2024 Aug 1;7(8):e2425999. doi: 10.1001/jamanetworkopen.2024.25999."
+        },
+        {
+          "pmid": "38935213",
+          "type": "DERIVED",
+          "citation": "Oser CB, McGladrey M, Booty M, Surratt H, Knudsen HK, Freeman PR, Stevens-Watkins D, Roberts MF, Staton M, Young A, Draper E, Walsh SL. Rapid jail-based implementation of overdose education and naloxone distribution in response to the COVID-19 pandemic. Health Justice. 2024 Jun 27;12(1):27. doi: 10.1186/s40352-024-00283-8."
+        },
+        {
+          "pmid": "38884347",
+          "type": "DERIVED",
+          "citation": "HEALing Communities Study Consortium; Samet JH, El-Bassel N, Winhusen TJ, Jackson RD, Oga EA, Chandler RK, Villani J, Freisthler B, Adams J, Aldridge A, Angerame A, Babineau DC, Bagley SM, Baker TJ, Balvanz P, Barbosa C, Barocas J, Battaglia TA, Beard DD, Beers D, Blevins D, Bove N, Bridden C, Brown JL, Bush HM, Bush JL, Caldwell R, Calver K, Calvert D, Campbell ANC, Carpenter J, Caspar R, Chassler D, Chaya J, Cheng DM, Cunningham CO, Dasgupta A, David JL, Davis A, Dean T, Drainoni ML, Eggleston B, Fanucchi LC, Feaster DJ, Fernandez S, Figueroa W, Freedman DA, Freeman PR, Freiermuth CE, Friedlander E, Gelberg KH, Gibson EB, Gilbert L, Glasgow L, Goddard-Eckrich DA, Gomori S, Gruss DE, Gulley J, Gutnick D, Hall ME, Harger Dykes N, Hargrove SL, Harlow K, Harris A, Harris D, Helme DW, Holloway J, Hotchkiss J, Huang T, Huerta TR, Hunt T, Hyder A, Ingram VL, Ingram T, Kauffman E, Kimball JL, Kinnard EN, Knott C, Knudsen HK, Konstan MW, Kosakowski S, Larochelle MR, Leaver HM, LeBaron PA, Lefebvre RC, Levin FR, Lewis N, Lewis N, Lofwall MR, Lounsbury DW, Luster JE, Lyons MS, Mack A, Marks KR, Marquesano S, Mauk R, McAlearney AS, McConnell K, McGladrey ML, McMullan J, Miles J, Munoz Lopez R, Nelson A, Neufeld JL, Newman L, Nguyen TQ, Nunes EV, Oller DA, Oser CB, Oyler DR, Pagnano S, Parran TV, Powell J, Powers K, Ralston W 3rd, Ramsey K, Rapkin BD, Reynolds JG, Roberts MF, Robertson W, Rock P, Rodgers E, Rodriguez S, Rudorf M, Ryan S, Salsberry P, Salvage M, Sabounchi N, Saucier M, Savitzky C, Schackman B, Schady E, Seiber EE, Shadwick A, Shoben A, Slater MD, Slavova S, Speer D, Sprunger J, Starbird LE, Staton M, Stein MD, Stevens-Watkins DJ, Stopka TJ, Sullivan A, Surratt HL, Sword Cruz R, Talbert JC, Taylor JL, Thompson KL, Vandergrift N, Vickers-Smith RA, Vietze DJ, Walker DM, Walley AY, Walters ST, Weiss R, Westgate PM, Wu E, Young AM, Zarkin GA, Walsh SL. Community-Based Cluster-Randomized Trial to Reduce Opioid Overdose Deaths. N Engl J Med. 2024 Sep 19;391(11):989-1001. doi: 10.1056/NEJMoa2401177. Epub 2024 Jun 16."
+        },
+        {
+          "pmid": "38626553",
+          "type": "DERIVED",
+          "citation": "Glasgow L, Douglas C, Sprunger JG, Campbell ANC, Chandler R, Dasgupta A, Holloway J, Marks KR, Roberts SM, Martinez LS, Thompson K, Weiss RD, Aldridge A, Asman K, Barbosa C, Blevins D, Chassler D, Cogan L, Fanucchi L, Hall ME, Hunt T, Jadovich E, Levin FR, Lincourt P, Lofwall MR, Loukas V, McAlearney AS, Nunes E, Oga E, Oller D, Rudorf M, Sullivan AM, Talbert J, Taylor A, Teater J, Vandergrift N, Woodlock K, Zarkin GA, Freisthler B, Samet JH, Walsh SL, El-Bassel N. Effect of the Communities that HEAL intervention on receipt of behavioral therapies for opioid use disorder: A cluster randomized wait-list controlled trial. Drug Alcohol Depend. 2024 Jun 1;259:111286. doi: 10.1016/j.drugalcdep.2024.111286. Epub 2024 Apr 5."
+        },
+        {
+          "pmid": "38566249",
+          "type": "DERIVED",
+          "citation": "Montoya ID, Watson C, Aldridge A, Ryan D, Murphy SM, Amuchi B, McCollister KE, Schackman BR, Bush JL, Speer D, Harlow K, Orme S, Zarkin GA, Castry M, Seiber EE, Barocas JA, Linas BP, Starbird LE. Cost of start-up activities to implement a community-level opioid overdose reduction intervention in the HEALing Communities Study. Addict Sci Clin Pract. 2024 Apr 2;19(1):23. doi: 10.1186/s13722-024-00454-w."
+        },
+        {
+          "pmid": "38425462",
+          "type": "DERIVED",
+          "citation": "Moffitt T, Fallin-Bennett A, Fanucchi L, Walsh SL, Cook C, Oller D, Ross A, Gallivan M, Lauckner J, Byard J, Wheeler-Crum P, Lofwall MR. The development of a recovery coaching training curriculum to facilitate linkage to and increase retention on medications for opioid use disorder. Front Public Health. 2024 Feb 15;12:1334850. doi: 10.3389/fpubh.2024.1334850. eCollection 2024."
+        },
+        {
+          "pmid": "38386322",
+          "type": "DERIVED",
+          "citation": "Stopka TJ, Babineau DC, Gibson EB, Knott CE, Cheng DM, Villani J, Wai JM, Blevins D, David JL, Goddard-Eckrich DA, Lofwall MR, Massatti R, DeFiore-Hyrmer J, Lyons MS, Fanucchi LC, Harris DR, Talbert J, Hammerslag L, Oller D, Balise RR, Feaster DJ, Soares W, Zarkin GA, Glasgow L, Oga E, McCarthy J, D'Costa L, Chahine R, Gomori S, Dalvi N, Shrestha S, Garner C, Shadwick A, Salsberry P, Konstan MW, Freisthler B, Winhusen J, El-Bassel N, Samet JH, Walsh SL. Impact of the Communities That HEAL Intervention on Buprenorphine-Waivered Practitioners and Buprenorphine Prescribing: A Prespecified Secondary Analysis of the HCS Randomized Clinical Trial. JAMA Netw Open. 2024 Feb 5;7(2):e240132. doi: 10.1001/jamanetworkopen.2024.0132."
+        },
+        {
+          "pmid": "38150232",
+          "type": "DERIVED",
+          "citation": "McGladrey M, Kelsch J, Lofwall MR, Fanucchi LC, Walsh SL, Oser CB. Get It in Writing: How to Make Medications for Opioid Use Disorder Available During Incarceration. J Correct Health Care. 2024 Feb;30(1):3-6. doi: 10.1089/jchc.23.08.0065. Epub 2023 Dec 26."
+        },
+        {
+          "pmid": "38142801",
+          "type": "DERIVED",
+          "citation": "Walker DM, Lefebvre RC, Davis A, Shiu-Yee K, Chen S, Jackson RD, Helme DW, Oga EA, Oser CB, Stotz C, Balvanz P, Asman K, Holloway J, Lewis N, Knudsen HK. Differences in perceptions of community stigma towards opioid use disorder between community substance use coalition members and the general public. J Subst Use Addict Treat. 2024 Mar;158:209276. doi: 10.1016/j.josat.2023.209276. Epub 2023 Dec 22."
+        },
+        {
+          "pmid": "38128649",
+          "type": "DERIVED",
+          "citation": "Chatterjee A, Baker T, Rudorf M, Walt G, Stotz C, Martin A, Kinnard EN, McAlearney AS, Bosak J, Medley B, Pinkhover A, Taylor JL, Samet JH, Lunze K. Mobile treatment for opioid use disorder: Implementation of community-based, same-day medication access interventions. J Subst Use Addict Treat. 2024 Apr;159:209272. doi: 10.1016/j.josat.2023.209272. Epub 2023 Dec 19."
+        },
+        {
+          "pmid": "38031180",
+          "type": "DERIVED",
+          "citation": "Knudsen HK, Freeman PR, Oyler DR, Oser CB, Walsh SL. Scaling up overdose education and naloxone distribution in Kentucky: adoption and reach achieved through a \"hub with many spokes\" model. Addict Sci Clin Pract. 2023 Nov 30;18(1):72. doi: 10.1186/s13722-023-00426-6."
+        },
+        {
+          "pmid": "37890391",
+          "type": "DERIVED",
+          "citation": "Davis A, Stringer KL, Drainoni ML, Oser CB, Knudsen HK, Aldrich A, Surratt HL, Walker DM, Gilbert L, Downey DL, Gardner SD, Tan S, Lines LM, Vandergrift N, Mack N, Holloway J, Lunze K, McAlearney AS, Huerta TR, Goddard-Eckrich DA, El-Bassel N. Community-level determinants of stakeholder perceptions of community stigma toward people with opioid use disorders, harm reduction services and treatment in the HEALing Communities Study. Int J Drug Policy. 2023 Dec;122:104241. doi: 10.1016/j.drugpo.2023.104241. Epub 2023 Oct 25."
+        },
+        {
+          "pmid": "37851446",
+          "type": "DERIVED",
+          "citation": "Hammerslag LR, Mack A, Chandler RK, Fanucchi LC, Feaster DJ, LaRochelle MR, Lofwall MR, Nau M, Villani J, Walsh SL, Westgate PM, Slavova S, Talbert JC. Telemedicine Buprenorphine Initiation and Retention in Opioid Use Disorder Treatment for Medicaid Enrollees. JAMA Netw Open. 2023 Oct 2;6(10):e2336914. doi: 10.1001/jamanetworkopen.2023.36914."
+        },
+        {
+          "pmid": "37768777",
+          "type": "DERIVED",
+          "citation": "Tin Y, Castry M, Bowers-Sword R, Shantharam S, Aldridge A, Zarkin GA, Starbird L, Linas BP, Barocas JA, Morgan JR. Establishing a Protocol for Determining the Costs of an Integrated Set of Evidence-based Practices Aimed at Reducing Opioid Overdose Deaths. J Addict Med. 2024 Jan-Feb 01;18(1):13-18. doi: 10.1097/ADM.0000000000001218. Epub 2023 Sep 26."
+        },
+        {
+          "pmid": "37757873",
+          "type": "DERIVED",
+          "citation": "Wang J, Doogan N, Thompson K, Bernson D, Feaster D, Villani J, Chandler R, White LF, Kline D, Barocas JA. Massachusetts Prevalence of Opioid Use Disorder Estimation Revisited: Comparing a Bayesian Approach to Standard Capture-Recapture Methods. Epidemiology. 2023 Nov 1;34(6):841-849. doi: 10.1097/EDE.0000000000001653. Epub 2023 Sep 26."
+        },
+        {
+          "pmid": "37752882",
+          "type": "DERIVED",
+          "citation": "Stein MD, Krause C, Rodgers E, Silwal A, Helme D, Slater M, Beard D, Lewis N, Luster J, Stephens K, Lefebvre C. Lessons Learned from Developing Tailored Community Communication Campaigns in the HEALing Communities Study. J Health Commun. 2023 Oct 3;28(10):699-705. doi: 10.1080/10810730.2023.2262948. Epub 2023 Oct 6."
+        },
+        {
+          "pmid": "37666091",
+          "type": "DERIVED",
+          "citation": "Pustz J, Srinivasan S, Shrestha S, Larochelle MR, Walley AY, Samet JH, Babakhanlou-Chase H, Carpenter JF, Stopka TJ. Applied risk mapping and spatial analysis of address-level decedent data to inform opioid overdose interventions: The Massachusetts HEALing Communities Study. Drug Alcohol Depend. 2023 Oct 1;251:110947. doi: 10.1016/j.drugalcdep.2023.110947. Epub 2023 Aug 23."
+        },
+        {
+          "pmid": "37294571",
+          "type": "DERIVED",
+          "citation": "Chhatwal J, Mueller PP, Chen Q, Kulkarni N, Adee M, Zarkin G, LaRochelle MR, Knudsen AB, Barbosa C. Estimated Reductions in Opioid Overdose Deaths With Sustainment of Public Health Interventions in 4 US States. JAMA Netw Open. 2023 Jun 1;6(6):e2314925. doi: 10.1001/jamanetworkopen.2023.14925."
+        },
+        {
+          "pmid": "37211155",
+          "type": "DERIVED",
+          "citation": "Shrestha S, Lindstrom MR, Harris D, Rock P, Srinivasan S, Pustz JC, Bayly R, Stopka TJ. Spatial access to buprenorphine-waivered prescribers in the HEALing communities study: Enhanced 2-step floating catchment area analyses in Massachusetts, Ohio, and Kentucky. J Subst Use Addict Treat. 2023 Jul;150:209077. doi: 10.1016/j.josat.2023.209077. Epub 2023 May 19."
+        },
+        {
+          "pmid": "36780768",
+          "type": "DERIVED",
+          "citation": "Chandler R, Nunes EV, Tan S, Freeman PR, Walley AY, Lofwall M, Oga E, Glasgow L, Brown JL, Fanucchi L, Beers D, Hunt T, Bowers-Sword R, Roeber C, Baker T, Winhusen TJ. Community selected strategies to reduce opioid-related overdose deaths in the HEALing (Helping to End Addiction Long-term SM) communities study. Drug Alcohol Depend. 2023 Apr 1;245:109804. doi: 10.1016/j.drugalcdep.2023.109804. Epub 2023 Feb 10."
+        },
+        {
+          "pmid": "36469995",
+          "type": "DERIVED",
+          "citation": "Thompson K, Barocas JA, Delcher C, Bae J, Hammerslag L, Wang J, Chandler R, Villani J, Walsh S, Talbert J. The prevalence of opioid use disorder in Kentucky's counties: A two-year multi-sample capture-recapture analysis. Drug Alcohol Depend. 2023 Jan 1;242:109710. doi: 10.1016/j.drugalcdep.2022.109710. Epub 2022 Nov 22."
+        },
+        {
+          "pmid": "36315182",
+          "type": "DERIVED",
+          "citation": "Walker DM, Shiu-Yee K, Chen S, DePuccio MJ, Jackson RD, McAlearney AS. Community Coalitions' Perspectives on Engaging with Hospitals in Ohio to Address the Opioid Crisis. Popul Health Manag. 2022 Dec;25(6):729-737. doi: 10.1089/pop.2022.0174. Epub 2022 Oct 28."
+        },
+        {
+          "pmid": "36123106",
+          "type": "DERIVED",
+          "citation": "Young AM, Brown JL, Hunt T, Sprague Martinez LS, Chandler R, Oga E, Winhusen TJ, Baker T, Battaglia T, Bowers-Sword R, Button A, Fallin-Bennett A, Fanucchi L, Freeman P, Glasgow LM, Gulley J, Kendell C, Lofwall M, Lyons MS, Quinn M, Rapkin BD, Surratt HL, Walsh SL. Protocol for community-driven selection of strategies to implement evidence-based practices to reduce opioid overdoses in the HEALing Communities Study: a trial to evaluate a community-engaged intervention in Kentucky, Massachusetts, New York and Ohio. BMJ Open. 2022 Sep 19;12(9):e059328. doi: 10.1136/bmjopen-2021-059328."
+        },
+        {
+          "pmid": "36076295",
+          "type": "DERIVED",
+          "citation": "Tang X, Heeren T, Westgate PM, Feaster DJ, Fernandez SA, Vandergrift N, Cheng DM. Performance of model-based vs. permutation tests in the HEALing (Helping to End Addiction Long-termSM) Communities Study, a covariate-constrained cluster randomized trial. Trials. 2022 Sep 8;23(1):762. doi: 10.1186/s13063-022-06708-9."
+        },
+        {
+          "pmid": "36004683",
+          "type": "DERIVED",
+          "citation": "Doogan NJ, Mack A, Wang J, Crane D, Jackson R, Applegate M, Villani J, Chandler R, Barocas JA. Opioid Use Disorder Among Ohio's Medicaid Population: Prevalence Estimates From 19 Counties Using a Multiplier Method. Am J Epidemiol. 2022 Nov 19;191(12):2098-2108. doi: 10.1093/aje/kwac154."
+        },
+        {
+          "pmid": "35151024",
+          "type": "DERIVED",
+          "citation": "Walker DM, Childerhose JE, Chen S, Coovert N, Jackson RD, Kurien N, McAlearney AS, Volney J, Alford DP, Bosak J, Oyler DR, Stinson LK, Behrooz M, Christopher MC, Drainoni ML. Exploring perspectives on changing opioid prescribing practices: A qualitative study of community stakeholders in the HEALing Communities Study. Drug Alcohol Depend. 2022 Apr 1;233:109342. doi: 10.1016/j.drugalcdep.2022.109342. Epub 2022 Feb 2."
+        },
+        {
+          "pmid": "34991359",
+          "type": "DERIVED",
+          "citation": "Westgate PM, Cheng DM, Feaster DJ, Fernandez S, Shoben AB, Vandergrift N. Marginal modeling in community randomized trials with rare events: Utilization of the negative binomial regression model. Clin Trials. 2022 Apr;19(2):162-171. doi: 10.1177/17407745211063479. Epub 2022 Jan 6."
+        },
+        {
+          "pmid": "33091844",
+          "type": "DERIVED",
+          "citation": "Slavova S, LaRochelle MR, Root ED, Feaster DJ, Villani J, Knott CE, Talbert J, Mack A, Crane D, Bernson D, Booth A, Walsh SL. Operationalizing and selecting outcome measures for the HEALing Communities Study. Drug Alcohol Depend. 2020 Dec 1;217:108328. doi: 10.1016/j.drugalcdep.2020.108328. Epub 2020 Oct 2."
+        },
+        {
+          "pmid": "33091843",
+          "type": "DERIVED",
+          "citation": "El-Bassel N, Jackson RD, Samet J, Walsh SL. Introduction to the special issue on the HEALing Communities Study. Drug Alcohol Depend. 2020 Dec 1;217:108327. doi: 10.1016/j.drugalcdep.2020.108327. Epub 2020 Oct 1."
+        },
+        {
+          "pmid": "33091842",
+          "type": "DERIVED",
+          "citation": "Winhusen T, Walley A, Fanucchi LC, Hunt T, Lyons M, Lofwall M, Brown JL, Freeman PR, Nunes E, Beers D, Saitz R, Stambaugh L, Oga EA, Herron N, Baker T, Cook CD, Roberts MF, Alford DP, Starrels JL, Chandler RK. The Opioid-overdose Reduction Continuum of Care Approach (ORCCA): Evidence-based practices in the HEALing Communities Study. Drug Alcohol Depend. 2020 Dec 1;217:108325. doi: 10.1016/j.drugalcdep.2020.108325. Epub 2020 Oct 4."
+        },
+        {
+          "pmid": "33086156",
+          "type": "DERIVED",
+          "citation": "Knudsen HK, Drainoni ML, Gilbert L, Huerta TR, Oser CB, Aldrich AM, Campbell ANC, Crable EL, Garner BR, Glasgow LM, Goddard-Eckrich D, Marks KR, McAlearney AS, Oga EA, Scalise AL, Walker DM. Model and approach for assessing implementation context and fidelity in the HEALing Communities Study. Drug Alcohol Depend. 2020 Dec 1;217:108330. doi: 10.1016/j.drugalcdep.2020.108330. Epub 2020 Oct 2."
+        },
+        {
+          "pmid": "33070058",
+          "type": "DERIVED",
+          "citation": "Wu E, Villani J, Davis A, Fareed N, Harris DR, Huerta TR, LaRochelle MR, Miller CC, Oga EA. Community dashboards to support data-informed decision-making in the HEALing communities study. Drug Alcohol Depend. 2020 Dec 1;217:108331. doi: 10.1016/j.drugalcdep.2020.108331. Epub 2020 Oct 1."
+        },
+        {
+          "pmid": "33059200",
+          "type": "DERIVED",
+          "citation": "Sprague Martinez L, Rapkin BD, Young A, Freisthler B, Glasgow L, Hunt T, Salsberry PJ, Oga EA, Bennet-Fallin A, Plouck TJ, Drainoni ML, Freeman PR, Surratt H, Gulley J, Hamilton GA, Bowman P, Roeber CA, El-Bassel N, Battaglia T. Community engagement to implement evidence-based practices in the HEALing communities study. Drug Alcohol Depend. 2020 Dec 1;217:108326. doi: 10.1016/j.drugalcdep.2020.108326. Epub 2020 Oct 6."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "We plan to make study methods, data, and results available to anyone interested in reducing the burden of the opioid crisis. The data sharing plan will comply with the NIH HEAL Initiative ClinicalTrials.govSM Public Access and Data Sharing Policy, the NIH Data Sharing Policy, and the NIH Policy on Dissemination of NIH-Funded Clinical Trial Information, and the NIH Clinical Trial Registration and Results Information Submission rule.\n\nThe data sharing plan will follow NIH requirements for sharing data via the creation of public-use data sets. A structured process will be used to evaluate the risk of re-identification based on guidance documents from the US DHHS and HIPAA. The risk of re-identification will also be quantitatively evaluated using accepted statistical methods. Study data deposited into a repository selected by NIDA, such as the National Addiction \\& HIV Data Archive Program, will be de-identified or masked to minimize risks to study participant privacy.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "The HEALing Communities Study period of performance ends September 2025. We expect data archival in April 2025.",
+      "accessCriteria": "The DCC will provide a statistical system file and limit administrative data to the study measures as outlined in the common data model (CDM). We will mask HCS geography and provide five flag variables (Research Site, Intervention Arm, Geography, Community, Time Frequency) in addition to the CDM outcomes. The DCC will suppress or statistically mask individual variables as required in each applicable data use agreement governing HCS administrative data release. The repository disseminates data to users based on its Access Policy Framework. HCS datasets are freely available to the public through the HCS thematic collection. Users download datasets and analyze them on their own computers. Access to data requires submission of username, institution, and analytic purpose and aim. There is no formal approval process initially planned by NIDA. Data users are expected to adhere to norms for responsible use."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "typeUnitsAnalyzed": "Communities",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Wave 1 - Intervention",
+          "description": "Communities in Wave 1 will receive the CTH intervention during the first 30 months of the trial. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.\n\nCommunities That HEAL: The Communities That HEAL (CTH) intervention is a community-engaged intervention designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. It includes 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder."
+        },
+        {
+          "id": "FG001",
+          "title": "Wave 2 - Wait-list Comparison",
+          "description": "Communities in Wave 2 will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.\n\nWait-list control: Communities in the wait-list control condition will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Communities randomized to intervention and actual number of participants is unknown.",
+                  "numSubjects": "NA",
+                  "numUnits": "34"
+                },
+                {
+                  "groupId": "FG001",
+                  "comment": "Communities randomized to intervention and actual number of participants is unknown.",
+                  "numSubjects": "NA",
+                  "numUnits": "33"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Communities randomized to intervention and actual number of participants is unknown.",
+                  "numSubjects": "NA",
+                  "numUnits": "34"
+                },
+                {
+                  "groupId": "FG001",
+                  "comment": "Communities randomized to intervention and actual number of participants is unknown.",
+                  "numSubjects": "NA",
+                  "numUnits": "33"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "NA",
+                  "numUnits": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "NA",
+                  "numUnits": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "We randomly assigned 67 communities in Kentucky, Massachusetts, New York, and Ohio to receive the intervention or a wait-list control, stratified according to state. To be eligible study communities had to have a high baseline rate of opioid-related overdose deaths (≥25 per 100,000 adults); and at least 30% had to be rural. Actual number of participants is unknown. Data for age, sex/gender, race, and region of enrollment at baseline was not collected in communities.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Wave 1 - Intervention",
+          "description": "Communities in Wave 1 will receive the CTH intervention during the first 30 months of the trial. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.\n\nCommunities That HEAL: The Communities That HEAL (CTH) intervention is a community-engaged intervention designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. It includes 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder."
+        },
+        {
+          "id": "BG001",
+          "title": "Wave 2 - Wait-list Comparison",
+          "description": "Communities in Wave 2 will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.\n\nWait-list control: Communities in the wait-list control condition will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized"
+        },
+        {
+          "title": "Sex: Female, Male",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female"
+                },
+                {
+                  "title": "Male"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native"
+                },
+                {
+                  "title": "Asian"
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander"
+                },
+                {
+                  "title": "Black or African American"
+                },
+                {
+                  "title": "White"
+                },
+                {
+                  "title": "More than one race"
+                },
+                {
+                  "title": "Unknown or Not Reported"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "classes": [
+            {
+              "title": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Opioid Overdose Deaths",
+          "description": "Count of HCS community resident overdose deaths (i.e. deaths with an underlying cause of drug poisoning) where opioids were determined to be contributing (alone or in combination with other drugs) to the drug poisoning.",
+          "populationDescription": "Communities randomized to intervention and actual number of participants is unknown.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Opioid-related overdose deaths",
+          "timeFrame": "Months 19-30",
+          "typeUnitsAnalyzed": "Communities",
+          "denomUnitsSelected": "Communities",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Wave 1 - Intervention",
+              "description": "Communities in Wave 1 will receive the CTH intervention during the first 30 months of the trial. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.\n\nCommunities That HEAL: The Communities That HEAL (CTH) intervention is a community-engaged intervention designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. It includes 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder."
+            },
+            {
+              "id": "OG001",
+              "title": "Wave 2 - Wait-list Comparison",
+              "description": "Communities in Wave 2 will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.\n\nWait-list control: Communities in the wait-list control condition will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "NA"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "NA"
+                }
+              ]
+            },
+            {
+              "units": "Communities",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47.2",
+                      "lowerLimit": "41.8",
+                      "upperLimit": "53.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51.7",
+                      "lowerLimit": "44.9",
+                      "upperLimit": "59.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Naloxone Units Distributed in Communities",
+          "description": "Count of naloxone units distributed in the HCS communities during the measurement period as captured by the following submeasures: 1) count of naloxone units distributed by the state health agency (secondary data from state health agencies) and HCS study logs for naloxone distributed by the study and 2) the count of naloxone units sold by pharmacies (IQVIA pharmacy data)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Months 19-30",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Individuals Receiving Buprenorphine Products That Are Approved by the Food and Drug Administration (FDA) for Treatment of OUD",
+          "description": "Count of number of unique individuals receiving buprenorphine MOUD during the measurement period.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Months 19-30",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Incidents of High-risk Opioid Prescribing",
+          "description": "Count of individuals with one or more of the following during the twelve month study period (months 19-30), and not in a prior specified time window (3 months): risk of continued opioid use (new opioid episode lasting at least 31 days); initiating opioid treatment with extended-release or long-acting opioid; incident high dosage (average ≥ 90 mg morphine per day); and/or incident overlapping opioid and benzodiazepine for ≥ 30 days.",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Months 19-30",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Adverse Event Incidence Per 1000 Community Members",
+          "description": "The mean rate of emergency medical service (EMS) runs for a suspected opioid overdose per 1000 adults to assess potential adverse events and serious adverse events in the community. This is community level data of EMS runs (suspected opioid overdose events in the community areas), but not deaths. We had to use a surrogate measure (EMS runs: not the same as deaths, some may have died but others may have been saved) since the decedent/death certificate data had too long of a lag.\n\nAE Criterion: ORO (opioid-related overdose) rate for a single month increased \\> 3 standard deviations (SDs) above the moving avg of the previous 3 months. SAE Criterion: ORO rate for a single month increased \\> 4 SDs above the moving avg of the previous 3 months. The SD was determined from the monthly rates of the communities for the latest available 12-month period prior to the start of the intervention using a pooled estimate across communities. We did not monitor at the individual participant level.",
+          "populationDescription": "AEs and SAEs were assessed at the community level.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Events per 1000 members",
+          "timeFrame": "44 months",
+          "typeUnitsAnalyzed": "Communities",
+          "denomUnitsSelected": "Communities",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Wave 1 - Intervention",
+              "description": "Communities in Wave 1 will receive the CTH intervention during the first 30 months of the trial. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.\n\nCommunities That HEAL: The Communities That HEAL (CTH) intervention is a community-engaged intervention designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. It includes 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder."
+            },
+            {
+              "id": "OG001",
+              "title": "Wave 2 - Wait-list Comparison",
+              "description": "Communities in Wave 2 will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.\n\nWait-list control: Communities in the wait-list control condition will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "NA"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "NA"
+                }
+              ]
+            },
+            {
+              "units": "Communities",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.0007659"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.0008748"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "44 months",
+      "description": "AEs were not monitored/assessed at the individual participant level and were monitored at the community level using EMS opioid-related overdose (ORO) data per 1000 community members. The EMS data included suspected opioid overdose events in the community areas, and not solely deaths. The data are reported in Other Pre-Specified Outcome Measure #5.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Wave 1 - Intervention",
+          "description": "Communities in Wave 1 will receive the CTH intervention during the first 30 months of the trial. The intervention will include 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.\n\nCommunities That HEAL: The Communities That HEAL (CTH) intervention is a community-engaged intervention designed to increase the adoption of an integrated set of evidence-based practices delivered across healthcare, behavioral health, justice, and other community-based settings. It includes 3 components: community engagement to assist key stakeholders in applying evidence-based practices to addressing their opioid crisis, a menu of evidence-based practices for communities to select and implement, and a communications campaign to build demand for evidence-based practices to address overdose and opioid use disorder.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "Wave 2 - Wait-list Comparison",
+          "description": "Communities in Wave 2 will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.\n\nWait-list control: Communities in the wait-list control condition will continue usual care during the first 30 months of the trial. At month 31, Wave 2 communities will begin receiving the CTH intervention.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 0,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Several trial limitations are noteworthy. First, despite randomization, differences among states may have played a role in observed outcomes. In addition, the steep rise in opioid-related overdose deaths during the Covid-19 pandemic was not uniform across states. Another limitation is that the HCS did not consistently assess the number of persons who were affected by the strategies that were implemented in the intervention communities."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Charles Knott",
+        "organization": "RTI International",
+        "email": "cknott@rti.org",
+        "phone": "9195416294"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2025-03-12",
+          "uploadDate": "2025-03-13T10:51",
+          "filename": "Prot_003.pdf",
+          "size": 2863418
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2023-11-16",
+          "uploadDate": "2023-11-21T11:56",
+          "filename": "SAP_001.pdf",
+          "size": 530500
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009293",
+          "term": "Opioid-Related Disorders"
+        },
+        {
+          "id": "D062787",
+          "term": "Drug Overdose"
+        },
+        {
+          "id": "D016739",
+          "term": "Behavior, Addictive"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000079524",
+          "term": "Narcotic-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D063487",
+          "term": "Prescription Drug Misuse"
+        },
+        {
+          "id": "D000076064",
+          "term": "Drug Misuse"
+        },
+        {
+          "id": "D003192",
+          "term": "Compulsive Behavior"
+        },
+        {
+          "id": "D007175",
+          "term": "Impulsive Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

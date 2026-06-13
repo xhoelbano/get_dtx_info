@@ -15,11 +15,12 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
 
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 from .base_scraper import BaseScraper
 from utils.llm_provider import LLMProvider
 from utils.llm_metrics import aggregate, invoke_with_metrics
+from utils.json_extract import parse_research_response
 
 
 # Single source of truth for the DTx research extraction schema.
@@ -154,61 +155,29 @@ class USAScraper(BaseScraper):
                 return row[col].strip()
         return None
     
-    def _extract_json_from_reasoning_response(self, response_text: str) -> str:
-        """Extract JSON content from responses that include reasoning blocks.
-        
-        GPT-5.2-pro and similar reasoning models may return responses like:
-        {'id': '...', 'summary': [], 'type': 'reasoning'}{"dtx_products": [...]}
-        
-        This method extracts just the JSON part we need.
-        
-        Args:
-            response_text: Raw response text that may contain reasoning blocks.
-            
-        Returns:
-            Cleaned response text with only the JSON content.
+    @staticmethod
+    def _response_to_text(response) -> str:
+        """Flatten a LangChain response into plain text.
+
+        When a native web-search tool is bound, OpenAI/Anthropic return a list
+        of content blocks where the leading blocks are tool-use records
+        (web_search_call / server_tool_use) with no usable text. Keep only
+        genuine text blocks; never stringify tool blocks (that corrupts the JSON
+        with Python dict reprs).
         """
-        import re
-        
-        # If it already looks like clean JSON, return as-is
-        stripped = response_text.strip()
-        if stripped.startswith('{') or stripped.startswith('['):
-            # Check if there's a reasoning block prefix
-            # Pattern: {...reasoning object...}{...actual JSON...}
-            # The reasoning block typically has 'type': 'reasoning'
-            
-            # Find all top-level JSON objects by matching balanced braces
-            json_objects = []
-            brace_count = 0
-            current_start = None
-            
-            for i, char in enumerate(stripped):
-                if char == '{':
-                    if brace_count == 0:
-                        current_start = i
-                    brace_count += 1
-                elif char == '}':
-                    brace_count -= 1
-                    if brace_count == 0 and current_start is not None:
-                        json_objects.append(stripped[current_start:i+1])
-                        current_start = None
-            
-            # If we found multiple JSON objects, skip reasoning blocks
-            if len(json_objects) > 1:
-                for obj in json_objects:
-                    # Skip reasoning blocks (they have 'type': 'reasoning')
-                    if "'type': 'reasoning'" in obj or '"type": "reasoning"' in obj:
-                        continue
-                    if "'type':'reasoning'" in obj or '"type":"reasoning"' in obj:
-                        continue
-                    # Return the first non-reasoning JSON object
-                    return obj
-            
-            # If only one object or couldn't parse, return original
-            return stripped
-        
-        # If it starts with something else (like markdown), return as-is
-        return response_text
+        content = response.content
+        if isinstance(content, list):
+            parts = []
+            for block in content:
+                if isinstance(block, str):
+                    parts.append(block)
+                elif isinstance(block, dict):
+                    text_val = block.get("text")
+                    if isinstance(text_val, str) and text_val:
+                        parts.append(text_val)
+                # skip web_search_call / server_tool_use / tool_result blocks
+            return "".join(parts).strip()
+        return (content or "").strip()
     
     def read_csv(self, csv_path: str = None) -> List[Dict]:
         """Read company data from CSV file.
@@ -308,26 +277,7 @@ Return an empty dtx_products list if the company has no real DTx product."""
             )
             self._call_metrics.append(_metrics)
 
-            # Handle both string and list content formats. When a native
-            # web-search tool is bound, OpenAI/Anthropic return a list of
-            # content blocks where the leading blocks are tool-use records
-            # (web_search_call / server_tool_use) with no usable text. Keep
-            # only genuine text blocks; never stringify tool blocks (that
-            # corrupts the JSON with Python dict reprs).
-            content = response.content
-            if isinstance(content, list):
-                parts = []
-                for block in content:
-                    if isinstance(block, str):
-                        parts.append(block)
-                    elif isinstance(block, dict):
-                        text_val = block.get("text")
-                        if isinstance(text_val, str) and text_val:
-                            parts.append(text_val)
-                    # skip web_search_call / server_tool_use / tool_result blocks
-                response_text = "".join(parts).strip()
-            else:
-                response_text = content.strip()
+            response_text = self._response_to_text(response)
 
             if not response_text:
                 print("      Empty text response after filtering tool-use blocks.")
@@ -339,41 +289,31 @@ Return an empty dtx_products list if the company has no real DTx product."""
                         "Web search may not have produced a final answer."
                     ),
                 }
-            
-            # Handle GPT-5.2-pro and other reasoning models that return reasoning blocks
-            # before the actual JSON content. Format: {...reasoning...}{...json...}
-            # We need to extract just the JSON part (starts with {"dtx_products" or similar)
-            response_text = self._extract_json_from_reasoning_response(response_text)
-            
-            # Try to parse JSON from the response
-            # Handle potential markdown code blocks
-            if response_text.startswith("```"):
-                # Extract JSON from code block
-                lines = response_text.split("\n")
-                json_lines = []
-                in_json = False
-                for line in lines:
-                    if line.startswith("```json"):
-                        in_json = True
-                        continue
-                    elif line.startswith("```"):
-                        in_json = False
-                        continue
-                    if in_json:
-                        json_lines.append(line)
-                response_text = "\n".join(json_lines)
-            
-            research_result = json.loads(response_text)
-            return research_result
-            
-        except json.JSONDecodeError as e:
-            print(f"      JSON parse error: {e}")
+
+            # Provider-agnostic parse: tolerates leading prose, code fences, and
+            # a reasoning object emitted before the real JSON, then normalizes to
+            # the schema so every model yields the same shape.
+            research_result = parse_research_response(response_text)
+            if research_result is not None:
+                return research_result
+
+            # Repair retry: chatty models (notably Claude) sometimes ignore the
+            # "JSON only" instruction. Ask once more for strict JSON, reusing the
+            # same model/tools, then re-parse.
+            repaired = await self._repair_to_json(
+                messages, response_text, company_name
+            )
+            if repaired is not None:
+                return repaired
+
+            print("      Could not parse JSON (even after repair retry).")
             print(f"      Response was: {response_text[:500]}...")
             return {
                 "dtx_products": [],
                 "company_info": {},
-                "research_notes": f"Failed to parse LLM response: {str(e)}"
+                "research_notes": "Failed to parse LLM response as JSON after repair retry.",
             }
+
         except Exception as e:
             print(f"      LLM research error: {e}")
             return {
@@ -381,7 +321,45 @@ Return an empty dtx_products list if the company has no real DTx product."""
                 "company_info": {},
                 "research_notes": f"Research failed: {str(e)}"
             }
-    
+
+    async def _repair_to_json(
+        self,
+        original_messages: List,
+        prior_text: str,
+        company_name: str,
+    ) -> Optional[Dict]:
+        """Re-prompt once for strict JSON when the first response didn't parse.
+
+        Reuses the same model (and any bound web-search tool) so the behavior
+        stays identical across providers. Returns the parsed/normalized dict, or
+        None if the repair attempt also fails.
+        """
+        try:
+            repair_messages = list(original_messages) + [
+                AIMessage(content=prior_text),
+                HumanMessage(
+                    content=(
+                        "Your previous response could not be parsed as JSON. "
+                        "Reply with ONLY the JSON object matching the required "
+                        "schema - no explanations, no markdown, no code fences."
+                    )
+                ),
+            ]
+            response, _metrics = await invoke_with_metrics(
+                self.llm,
+                repair_messages,
+                provider=self.provider,
+                model=self.model_name,
+                call_label="usa_research_repair",
+                web_search=self.web_search_active,
+                extra={"company_name": company_name},
+            )
+            self._call_metrics.append(_metrics)
+            return parse_research_response(self._response_to_text(response))
+        except Exception as e:
+            print(f"      Repair retry failed: {e}")
+            return None
+
     def _format_dtx_entry(self, company: Dict, product: Dict, company_info: Dict) -> Dict:
         """Format a single DTx product into the unified schema.
         

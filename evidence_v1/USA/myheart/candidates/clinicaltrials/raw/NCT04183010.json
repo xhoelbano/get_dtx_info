@@ -1,0 +1,247 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04183010",
+      "orgStudyIdInfo": {
+        "id": "54220"
+      },
+      "organization": {
+        "fullName": "Stanford University",
+        "class": "OTHER"
+      },
+      "briefTitle": "MyHeart Counts: Stanford Mobile Cardiovascular Health Study 3.0",
+      "officialTitle": "MyHeart Counts: Stanford Mobile Cardiovascular Health Study 3.0",
+      "acronym": "MHC3"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Lack of Funding to support the study application",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-11-22",
+      "studyFirstSubmitQcDate": "2019-11-28",
+      "studyFirstPostDateStruct": {
+        "date": "2019-12-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Euan Ashley",
+        "investigatorTitle": "Associate Dean, School of Medicine, Professor of Medicine (cardiovascular), of Genetics, of Biomedical Data Science and, by courtesy, of Pathology at the Stanford University Medical Center",
+        "investigatorAffiliation": "Stanford University"
+      },
+      "leadSponsor": {
+        "name": "Stanford University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Google LLC.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "MyHeart Counts is a smartphone-based mobile cardiovascular health research study. It will use the mobile health capabilities of smartphones and wearables to assess daily activity measures of the general public and compare these to measures of cardiovascular health - risk factors and fitness. How people divide their time among exercise, sedentary behavior, and sleep all affect cardiovascular health, yet largely go unmeasured. These can now be measured with sensors in phones or wearable devices as we have shown on iOS. With the large number of smartphone users addressable with a HIPAA complaint iOS \\& Android platform, the investigators aim to collect activity and cardiovascular health data on many more subjects than in prior studies as well as provide much more quantitative data on type, duration, and intensity of daily activities. It also provides a platform to investigate methods to help participants increase heart-healthy activities. The study also includes a randomized controlled trial on physical activity. The overall goal is to develop an extensive source of data to help inform future cardiovascular health guidelines.",
+      "detailedDescription": "The MyHeart Counts research study was designed by Stanford faculty. MyHeart Counts 3.0 will run using the MyStudies Platform, originally commissioned by the FDA, which is currently undergoing technical development to be able to run on the Google Cloud. It includes servers used to set up the study and collect study data, as well as features that produce both iOS and Android study applications using Apple ResearchKit and Android ReserachStack frameworks.\n\nThe subject will be consented through their smartphone. After downloading the app from the App Store, the user will be shown a series of screens that ask eligibility questions and explain the general nature of the study and require interaction and acknowledgment of the subject. These smartphone consent process screens have been adapted from MyHeart Counts, which based its design an open source toolkit developed by Sage Bionetworks in collaboration with the Electronic Data Methods forum of the AHRQ (Agency for Healthcare Research \\& Quality). The investigators have also reviewed this mobile consent process and screenshots with faculty in the Stanford Center for Biomedical Ethics. After reviewing the consent screens, the user will be shown the consent form and can scroll through and accept prior to enrollment. The user will have the option to email themselves the consent form.\n\nAfter consent, subjects will be surveyed about their current cardiovascular health and risk factors and asked to share their activity data collected by the phone and/or any wearable activity device they have. They will then be asked to use their phone and/or wearable to monitor their daily activity for 1 week. They will then be asked to do a standard 6- minute walk test (with the phone/wearable measuring the distance covered), 3 minute step tests and 12 minute runs, with included activities that use the phone's camera to assess heart rate and heart rate recovery.\n\nEvery 3 months for at least one year, subjects will be asked to repeat the above to assess for changes - 1) update surveys/risk factors, 2) monitor activity for 1 week, and 3) aforementioned activity tests.\n\nIn addition to the health, activity, and fitness assessment, the investigators will give participants the option of joining a randomized controlled trial on physical activity. Participants opting to participate will be randomized to either receive personalized activity coaching including physical activity recommendations, endurance training sessions and video classes or no specific content. All participants will be prompted to conduct periodic cardiorespiratory testing via a task within their smartphone application.\n\nThe investigators will also perform a pilot study of up to 50 subjects to test the app prior to release to the general public. Given the potential for large numbers of the general public to download the app for the main study, it is essential that bugs and usage issues with the app be identified and fixed through this larger pilot study. As per the IRB (Institutional Review Board) guidelines, this pilot study will only be \"exploratory\" in order to help \"refine data collection procedures and instruments or prepare a better, more precise research design.\" Data collected from this pilot study will not be used as research data nor stored permanently. The investigators plan to ask colleagues, including Stanford employees, to use the app for up to 3 months, with periodic contact by research staff for feedback on bugs and other usage issues.\n\nThe study is funded by Stanford Medicine, with staff, content and in-kind software development support for the app from Google Inc., including participation of Boston Technology Corporation (Marlborough, MA), an app development company that was hired to create MyStudies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Health"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Study participants will download the MyHeart Counts 3.0 app from their smartphone app store. They will undergo electronic consent, followed by a week of baseline monitoring, during which the phone will track their step count and acceleration. Participants will additionally complete questionnaires about their lifestyle and any risk factors for cardiovascular disease.\n\nAt the end of this initial week of monitoring, participants will be randomized to a control group or an intervention group. Both groups will be followed for three months, with outcome measurements collected monthly.\n\nThe intervention arm will also undergo daily coaching with the goal of increasing their daily step count. Members of this arm will receive daily app notifications indicating that they have activities to complete. They will be provided with 5 exercise options.",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Participants will not be told if they are assigned to the control arm or the coaching arm of the study.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "At the end of this initial week of monitoring, participants will be randomized to a control group or an intervention group. Both groups will be followed for three months, with outcome measurements collected monthly. Both arms will continue to receive their seven day physical activity assessment using the phone's core motion sensors and HealthKit/ Google Health step count. Both groups will also be prompted to complete monthly fitness tests: the 6-minute walk test, a 12 minute run test, and the Tecumseh step test."
+        },
+        {
+          "label": "Physical activity coaching",
+          "type": "EXPERIMENTAL",
+          "description": "In addition to the tasks performed and feedback received by the Control arm (see above), the intervention arm will also undergo daily coaching with the goal of increasing their daily step count. Members of this arm will receive daily app notifications indicating that they have activities to complete. They will be provided with 5 exercise options:\n\n* Low intensity activity options (i.e. walking in the part, bicycling to the store, etc.).\n* Moderate to vigorous endurance activity, performed on their own (running, bicycling, rowing, swimming, etc)\n* An on demand \"group session\" video\n* No exercise today\n* Alternate physical activity -- the participants will have the option to record alternate physical activity that they performed\n\nParticipants will be asked to indicate if they completed the exercise with three options:\n\n* Yes\n* No\n* Request for a different exercise to be shown",
+          "interventionNames": [
+            "Behavioral: Physical activity coaching"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Physical activity coaching",
+          "description": "Interventions will be delivered via smartphone and will consist of physical activity coaching. Once randomized to the Coaching arm, individuals will be presented with seven broad categories of physical activity. They will receive a daily notification on their phone indicating that they have study activities to complete. They will then click on this notification and will be offered five options:\n\n1. A low intensity activity from one of the categories they selected upon start of coaching\n2. A moderate-to-vigorous endurance activity\n3. The participant will be linked to video content with exercise tutorials/video coaching\n4. Option to skip exercise that day\n5. Option to fill in a different activity that the participant completed (free text entry)\n\nThe participant will then select one of these options and complete the chosen activity. They will be presented with the question \"Did you completed the exercise\" with three options:\n\n1. Yes\n2. No\n3. \"Give me a different exercise\"",
+          "armGroupLabels": [
+            "Physical activity coaching"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in daily step count",
+          "description": "Change in daily steps from the iPhone computed via HealthKit and from Android via Google Fit",
+          "timeFrame": "Measured daily for a period of 12 weeks, including 1 week of baseline monitoring and during the 11 week duration of the randomized arms."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Compliance",
+          "description": "Number of exercise sessions completed during the duration of the study.",
+          "timeFrame": "Measured once at the end of the study, covering the 11 week duration of coaching."
+        },
+        {
+          "measure": "Change in resting heart rate",
+          "description": "Change in resting heart rate measured via phone PPG (photoelectric plethysmography) sensors.",
+          "timeFrame": "Measured monthly during the 12 week duration of the study"
+        },
+        {
+          "measure": "Change in recovery heart rate",
+          "description": "Change in recovery heart rate measured via phone PPG (photoelectric plethysmography\n\n) sensors.",
+          "timeFrame": "Measured monthly during the 12 week duration of the study"
+        },
+        {
+          "measure": "Change in daily self-reported happiness",
+          "description": "Participants complete a daily questionnaire in which they are asked \"How happy are you feeling today\" on a scale of 0 (least happy) to 10 (most happy). Changes in their responses over time are measured.",
+          "timeFrame": "Measured daily during the 12 week duration of the study."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18+\n* Daily access to smartphone (iPhone or Android)\n* Living in the US during the duration of the study\n* Ability to understand written English\n\nExclusion Criteria:\n\n* International participants\n* Children (under 18)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Euan A Ashley, MRCP, DPhil",
+          "affiliation": "Stanford University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Anders Johnson",
+          "affiliation": "Stanford University",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Alex Tolas",
+          "affiliation": "Stanford University",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Stanford University",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30975992",
+          "type": "RESULT",
+          "citation": "Hershman SG, Bot BM, Shcherbina A, Doerr M, Moayedi Y, Pavlovic A, Waggott D, Cho MK, Rosenberger ME, Haskell WL, Myers J, Champagne MA, Mignot E, Salvi D, Landray M, Tarassenko L, Harrington RA, Yeung AC, McConnell MV, Ashley EA. Physical activity, sleep and cardiovascular health data for 50,000 individuals from the MyHeart Counts Study. Sci Data. 2019 Apr 11;6(1):24. doi: 10.1038/s41597-019-0016-7."
+        },
+        {
+          "pmid": "27973671",
+          "type": "RESULT",
+          "citation": "McConnell MV, Shcherbina A, Pavlovic A, Homburger JR, Goldfeder RL, Waggot D, Cho MK, Rosenberger ME, Haskell WL, Myers J, Champagne MA, Mignot E, Landray M, Tarassenko L, Harrington RA, Yeung AC, Ashley EA. Feasibility of Obtaining Measures of Lifestyle From a Smartphone App: The MyHeart Counts Cardiovascular Health Study. JAMA Cardiol. 2017 Jan 1;2(1):67-76. doi: 10.1001/jamacardio.2016.4395."
+        },
+        {
+          "pmid": "33323209",
+          "type": "RESULT",
+          "citation": "Shcherbina A, Hershman SG, Lazzeroni L, King AC, O'Sullivan JW, Hekler E, Moayedi Y, Pavlovic A, Waggott D, Sharma A, Yeung A, Christle JW, Wheeler MT, McConnell MV, Harrington RA, Ashley EA. The effect of digital physical activity interventions on daily step count: a randomised controlled crossover substudy of the MyHeart Counts Cardiovascular Health Study. Lancet Digit Health. 2019 Nov;1(7):e344-e352. doi: 10.1016/S2589-7500(19)30129-3. Epub 2019 Oct 9."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "App download link for MyHeart Counts app",
+          "url": "http://med.stanford.edu/myheartcounts.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Upon completion of the study, the anonymized participant data will be made available to qualified researchers for download through a portal on synapse.org.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Upon completion of the study, a publication will be created to share the study findings. The data release will accompany this publication. We anticipate the publication/data release to be completed within 6-8 months following study completion.",
+      "accessCriteria": "All qualified researchers, as determined by criteria defined on synapse.org, will be eligible to access the data.",
+      "url": "http://synapse.org"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

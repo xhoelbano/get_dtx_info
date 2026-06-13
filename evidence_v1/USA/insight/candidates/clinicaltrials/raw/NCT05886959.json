@@ -1,0 +1,324 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05886959",
+      "orgStudyIdInfo": {
+        "id": "MCENGİZ2"
+      },
+      "organization": {
+        "fullName": "Ataturk University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Mindfulness-Based Compassionate Living Training Given to Caregivers of Inpatients in Palliative Clinic",
+      "officialTitle": "The Effect of Mindfulness-Based Compassionate Living Training Given to Informal Caregivers of Inpatients in Palliative Clinics on Burnout and Care Burden: A Randomized Controlled Study",
+      "acronym": "Mindfulness"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05-26",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-06-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-05-24",
+      "studyFirstSubmitQcDate": "2023-05-24",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mine CENGİZ",
+        "investigatorTitle": "Lecturer",
+        "investigatorAffiliation": "Ataturk University"
+      },
+      "leadSponsor": {
+        "name": "Ataturk University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In this study, it was aimed to determine the effect of \"Mindfulness-Based Compassionate Life Training\" given to the relatives of patients in the palliative care clinic on burnout and care burden. According to the experimental design with pretest and posttest control groups, participants selected from the universe were assigned to the experimental and control groups in an unbiased manner.\n\nIn this study, a priori power analysis was performed to determine the sample size, and Cohen's standard effect sizes were taken as reference. It was determined that the effects of \"Mindfulness-Based Compassionate Life Training\" on burnout and care burden in the relatives of the patients in the palliative care clinic would be compared for the independent groups, and it was determined that 80% power would be obtained at the 0.05 significance level at the 95% confidence interval. Considering the data losses and including a 30% backup sample, the research was started with a total of 68 participants. Participants included in the study were numbered from 1 to 68, and 34 experimental and 34 control groups were created at www.random.org. During the application process, 8 people from the experimental group and 6 people from the control group were separated. The research continues with 26 experimental and 28 control groups. Pre-test data were collected before the participants in the experimental group and control group were applied. Participants in the experimental group are given 8 sessions of Mindfulness-Based Compassionate Life training. The trainings are carried out face to face in the busy room of the palliative care clinic. Each session is held between 3 days and 7 days for its effectiveness and continuity. One week after the Awareness-Based Compassionate Life training (after 8 sessions are completed), the relatives of the patients hospitalized in the palliative care clinic will be filled with a face-to-face interview with the \"Maslach Burnout Scale, Caregiver Burden Scale, Self-Compassion Scale Short Form\" posttest. Post-test data will be taken simultaneously from the experimental and control groups.",
+      "detailedDescription": "Research data will be collected face to face by the researcher. The study continues with caregivers of patients in 54 palliative clinics who meet the inclusion criteria (being a caregiver of the patient in the palliative clinic, being willing to participate in the research, being open to communication and cooperation). The descriptive characteristics form consisting of 10 questions, \"Maslach burnout scale (BBL), Caregiver Burden Scale, Self-Compassion Scale Short Form\" was used to collect data. The pre-test data of the research data have been collected and the training process continues. One week after the end of the training, post-test data will be collected simultaneously from the experimental and control groups. The research continues with 54 participants, 26 in the experimental group and 28 in the control group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Informal Caregiver"
+      ],
+      "keywords": [
+        "Caregiving burden",
+        "Mindfulness",
+        "Palliative care",
+        "Informal Caregiver",
+        "Burnout"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Session 1: How We Evolved - Threat, Impulse, and Soothing Systems",
+          "type": "EXPERIMENTAL",
+          "description": "* A \"breath break with kindness\" is practiced.\n* Encourage them to think about how threat, impulse and sedative systems have developed in their own lives.\n* A \"safe place\" application is made.\n* \"Courtesy meditation\" is done.",
+          "interventionNames": [
+            "Other: Session 1: How We Evolved - Threat, Impulse, and Soothing Systems"
+          ]
+        },
+        {
+          "label": "Session 2: Threat and Self-Compassion",
+          "type": "EXPERIMENTAL",
+          "description": "* A \"breath break with kindness\" is practiced.\n* \"Building a compassionate relationship with resilience\" and \"kindness meditation: a benevolent\" practices are made.\n* \"A hand on your heart\" and \"a compassionate comrade\" practices are made.",
+          "interventionNames": [
+            "Other: Session 2: Threat and Self-Compassion"
+          ]
+        },
+        {
+          "label": "Session 3: Unraveling the Knots of Desire and Patterns Agenda",
+          "type": "EXPERIMENTAL",
+          "description": "* Talk about homework.\n* A \"breath break with kindness\" is practiced.\n* \"Establishing a compassionate relationship with desire\", \"guided meditation to discover the inner pattern\", \"courtesy meditation: a good friend\" practices are made.",
+          "interventionNames": [
+            "Other: Session 3: Unraveling the Knots of Desire and Patterns"
+          ]
+        },
+        {
+          "label": "Session 4: Internalizing compassion",
+          "type": "EXPERIMENTAL",
+          "description": "* \"Pretend-to-pretend\" practice is made for participants to observe themselves.\n* In addition to the previous practices, the practice of \"internalizing compassion\" is made in order to increase their expanded mindfulness.\n* Courtesy meditation: a neutral person\", \"kindness towards your body\", which is based on mindfulness practices and increases body awareness and mindful movement, is carried out. During the day, they will be informed that they should do the \"walking with kindness\" practice on their own",
+          "interventionNames": [
+            "Other: Session 4: Internalizing compassion"
+          ]
+        },
+        {
+          "label": "Session 5: Me and others - Expanding the circle",
+          "type": "EXPERIMENTAL",
+          "description": "* A \"compassionate letter\" application is made by asking participants to think about a situation they encountered recently or some time ago and is still causing distress. It is explained that they can gain insight with this application.\n* \"Courtesy meditation: the 'difficult' person\", \"compassion and breathing: yourself\" and \"compassionate breathing: others\" practices are made",
+          "interventionNames": [
+            "Other: Session 5: Me and others - Expanding the circle"
+          ]
+        },
+        {
+          "label": "Session 6: Growing happiness",
+          "type": "EXPERIMENTAL",
+          "description": "* \"Revisiting the good\" practice is carried out to define the five sense organs for the participants.\n* \"Forgiveness\", \"Asking for forgiveness\", \"forgiving others\", \"gratitude\" practices are carried out.\n* The practice is expanded as \"kindness meditation: groups and all beings\".",
+          "interventionNames": [
+            "Other: Session 6: Growing happiness"
+          ]
+        },
+        {
+          "label": "Session 7: Weaving Wisdom and Compassion into Daily Life",
+          "type": "EXPERIMENTAL",
+          "description": "* Participants are made to choose a day in their life and allow a few minutes to pause in a mindful way.\n* \"A breather for wise and compassionate action\", \"calmness meditation\" and \"joy sharing meditation\" practices are carried out.",
+          "interventionNames": [
+            "Other: Session 7: Weaving Wisdom and Compassion into Daily Life"
+          ]
+        },
+        {
+          "label": "Session 8: Living with the Heart",
+          "type": "EXPERIMENTAL",
+          "description": "* The participants are told about the applications that they can apply for, where they need help to develop compassion towards self-healing skills, and the whole training is evaluated.\n* The \"river of life\" application, which evaluates mindfulness in depth, is carried out.\n* An overall summary of the 8-session study is made and feedback is received.",
+          "interventionNames": [
+            "Other: Session 8: Living with the Heart"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Session 1: How We Evolved - Threat, Impulse, and Soothing Systems",
+          "description": "The practice of \"Breath break with kindness\" will be applied for 5 minutes. Afterwards, 15 minutes of information on threats, impulses and soothing systems, \"A safe place\" application for 11 minutes, \"Courtesy meditation\" for 10 minutes. After each application, 10 minutes of feedback will be received from the participants.",
+          "armGroupLabels": [
+            "Session 1: How We Evolved - Threat, Impulse, and Soothing Systems"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 2: Threat and Self-Compassion",
+          "description": "The practice of \"breathing with kindness\" will be done for 7 minutes. The practice of \"Building a compassionate relationship with resilience\" will be held for 12 minutes, and the practice of \"Kindness meditation: a benevolent\" will take place for 11 minutes. \"A hand over your heart\" application will be made for 3 minutes and \"A compassionate comrade\" application will be done for 10 minutes. After each application, 3 minutes of feedback will be received from the participants.",
+          "armGroupLabels": [
+            "Session 2: Threat and Self-Compassion"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 3: Unraveling the Knots of Desire and Patterns",
+          "description": "The practice of \"breathing with kindness\" will be done for 7 minutes. \"Building a compassionate relationship with desire\" 12 minutes, \"Guided meditation to discover the inner pattern\" 10 minutes and \"Courtesy meditation: a good friend\" 11 minutes. Except for the \"breath break with kindness\" application, 3 minutes of feedback will be received from the participants after each application",
+          "armGroupLabels": [
+            "Session 3: Unraveling the Knots of Desire and Patterns Agenda"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 4: Internalizing compassion",
+          "description": "The \"pretend-to-be\" practice for the participants to observe themselves will be made for 10 minutes. The practice of \"internalizing compassion\" will be done for 7 minutes, \"kindness meditation: a neutral person\" practice for 10 minutes, and \"kindness towards your body\" for 10 minutes. After each application, 3 minutes of feedback will be received from the participants.",
+          "armGroupLabels": [
+            "Session 4: Internalizing compassion"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 5: Me and others - Expanding the circle",
+          "description": "The \"a compassionate letter\" practice with the participants will continue for 15 minutes. \"meditation: the 'difficult' person\" 8 minutes, \"compassion and breathing: yourself\" 10 minutes and \"compassionate breathing: others\" 7 minutes. A \"compassionate break\" application is performed for 7 minutes.",
+          "armGroupLabels": [
+            "Session 5: Me and others - Expanding the circle"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 6: Growing happiness",
+          "description": "The practice of \"Revisiting the good\" is carried out for 10 minutes with the participants. \"Forgive yourself\", \"wish for forgiveness\", \"forgive others\", \"gratitude\" practices will be held for 5 minutes each and will take 20 minutes in total. \"Courtesy meditation: groups and all beings\" will be practiced for 10 minutes. After each application, 3 minutes of feedback will be received from the participants.",
+          "armGroupLabels": [
+            "Session 6: Growing happiness"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 7: Weaving Wisdom and Compassion into Daily Life",
+          "description": "Participants will be given 10 minutes to choose a day in their life and allow a few minutes to pause mindfully. The practice of \"a breather for wise and compassionate action\" is 10 minutes, the practice of \"calmness meditation\" is 8 minutes, and the practice of \"sharing the joy meditation\" is 8 minutes. After each application, 3 minutes of feedback will be received from the participants.",
+          "armGroupLabels": [
+            "Session 7: Weaving Wisdom and Compassion into Daily Life"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Session 8: Living with the Heart",
+          "description": "The participants are told about the applications they can apply for, where they need help to develop compassion towards self-healing skills, and the entire training will be evaluated for 20 minutes. The \"river of life\" application is carried out for 20 minutes. 10 minutes of feedback will be received after the application.",
+          "armGroupLabels": [
+            "Session 8: Living with the Heart"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Introductory Information Form",
+          "description": "The form consists of 10 questions containing information about the patient and caregiver in the palliative clinic created by the researcher within the scope of the literature. The created form includes questions covering the caregiver's age, gender, place of residence, educational status, social security, marital status, profession, and the process in which she cares for her patient.",
+          "timeFrame": "up to 1 day"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Maslach Burnout Scale",
+          "description": "The scale was developed by Maslach and Jackson in 1981 and was adapted into Turkish by Ergin (1992). There are 22 items in the original form of the scale and these items are collected in three dimensions. There are 9 items in the dimension of Emotional Exhaustion, 8 items in the dimension of Personal Achievement, and 5 items in the dimension of Depersonalization. Each subscale is scored separately. High scores on the Emotional Exhaustion and Depersonalization subscales and low scores on the Personal Achievement subscale indicate high levels of burnout. The scale is a 5-point Likert-type scale and should be answered as \"never (0), rarely (1), sometimes (2), often (3), always (4)\" according to the severity of the items. The Cronbach Alpha reliability coefficients for the sub-dimensions of the scale were calculated as 0.83 for Emotional Exhaustion, 0.72 for Depersonalization, and 0.67 for Personal Success.",
+          "timeFrame": "up to 1 day"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Caregiver Burden Scale",
+          "description": "The scale was developed by Zarit, Reever and Bach-Peterson in 1980 and adapted into Turkish by İnci (2006). It is a scale used to evaluate the difficulty experienced by caregivers of individuals in need of care. The scale consists of 22 statements that determine the effect of caregiving on the life of the individual. The scale has a Likert-type rating ranging from 0 to 4 as \"never\", \"rarely\", \"sometimes\", \"often\" or \"almost always\". A minimum of 0 and a maximum of 88 points can be obtained from the scale. The items in the scale are generally related to the social and emotional domain, and a high score indicates a high level of distress. It was stated that the internal consistency coefficient of the scale was 0.95.",
+          "timeFrame": "up to 1 day"
+        },
+        {
+          "measure": "Short Form of Self-Compassion Scale (SSS-C)",
+          "description": "The Turkish validity and reliability of the scale developed by Neff (2003) was made by Yıldırım and Sarı in 2018. The scale was confirmed to have a structure consisting of 11 items, a single dimension and two complementary components (positive component and negative component). The internal consistency coefficient of the scale was calculated as .75. Gerber (2021) used the scale developed by Neff (2003) and a professional caregiver working in the intensive care and rehabilitation units of a hospital, and reported that self-compassion is a factor associated with reducing the level of burnout in individuals. It is recommended to be used in studies where a total score will be made to measure self-compassion.",
+          "timeFrame": "up to 1 day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Being a caregiver to a patient in a palliative care clinic\n* Being 18 years or older\n* Willingness to participate in the study\n* Being open to communication and cooperation\n\nExclusion Criteria:\n\n* Not attending sessions regularly",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Ataturk University Faculty of Nursing",
+          "city": "Erzurum",
+          "state": "Yakutiye",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.90861,
+            "lon": 41.27694
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38411949",
+          "type": "DERIVED",
+          "citation": "Kilic D, Tosun Tasar P, Cengiz M. The effect of mindfulness-based compassionate living training for informal caregivers of palliative inpatients on burnout and caregiving burden: a randomized controlled trial. Health Educ Res. 2024 Jul 18;39(4):313-322. doi: 10.1093/her/cyae005."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077062",
+          "term": "Burnout, Psychological"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013315",
+          "term": "Stress, Psychological"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

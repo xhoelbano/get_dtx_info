@@ -1,0 +1,317 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01106638",
+      "orgStudyIdInfo": {
+        "id": "R21DA023362",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/R21DA023362"
+      },
+      "organization": {
+        "fullName": "Montefiore Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Trial to Test the Efficacy of a Tailored Intensive Smoking Cessation Intervention in Persons With HIV (PWHs)",
+      "officialTitle": "A Trial to Test the Efficacy of a Tailored Intensive Smoking Cessation Intervention in Persons With HIV (PWHs)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-04-19",
+      "studyFirstSubmitQcDate": "2010-04-19",
+      "studyFirstPostDateStruct": {
+        "date": "2010-04-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-04-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-04-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jonathan Shuter",
+        "investigatorTitle": "principal investigator",
+        "investigatorAffiliation": "Montefiore Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Montefiore Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Albert Einstein College of Medicine",
+          "class": "OTHER"
+        },
+        {
+          "name": "Yale University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether an intensive, eight session behavioral intervention is superior to standard care in achieving abstinence from cigarettes in smokers living with HIV/AIDS."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking",
+        "HIV Infections",
+        "AIDS"
+      ],
+      "keywords": [
+        "HIV",
+        "AIDS",
+        "Smoking",
+        "Tobacco",
+        "Cessation",
+        "Tobacco use in persons living with HIV/AIDS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 147,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intensive behavioral intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Eight session, behavioral intervention targeting HIV-infected smokers",
+          "interventionNames": [
+            "Behavioral: Positively Smoke Free"
+          ]
+        },
+        {
+          "label": "Standard care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Advice to quit, smoking cessation brochure, offer of nicotine patch",
+          "interventionNames": [
+            "Behavioral: Standard care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Positively Smoke Free",
+          "description": "An eight session, group therapy intervention targeting smokers living with HIV/AIDS",
+          "armGroupLabels": [
+            "Intensive behavioral intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard care",
+          "description": "Advice to quit, smoking cessation brochure, and offer of nicotine patches",
+          "armGroupLabels": [
+            "Standard care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Three month point-prevalence abstinence from cigarettes",
+          "timeFrame": "3 months post-intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Three month continuous abstinence from cigarettes",
+          "timeFrame": "Three months post-intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* HIV-infection\n* current cigarette smoker\n* high motivation to quit\n\nExclusion Criteria:\n\n* Pregnancy\n* breastfeeding",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jonathan Shuter, MD",
+          "affiliation": "Montefiore Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27215559",
+          "type": "DERIVED",
+          "citation": "Shuter J, Pearlman BK, Stanton CA, Moadel AB, Kim RS, Weinberger AH. Gender Differences among Smokers Living with HIV. J Int Assoc Provid AIDS Care. 2016 Sep;15(5):412-7. doi: 10.1177/2325957416649439. Epub 2016 May 23."
+        },
+        {
+          "pmid": "22732470",
+          "type": "DERIVED",
+          "citation": "Moadel AB, Bernstein SL, Mermelstein RJ, Arnsten JH, Dolce EH, Shuter J. A randomized controlled trial of a tailored group smoking cessation intervention for HIV-infected smokers. J Acquir Immune Defic Syndr. 2012 Oct 1;61(2):208-15. doi: 10.1097/QAI.0b013e3182645679."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        },
+        {
+          "id": "D015658",
+          "term": "HIV Infections"
+        },
+        {
+          "id": "D000163",
+          "term": "Acquired Immunodeficiency Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D000086982",
+          "term": "Blood-Borne Infections"
+        },
+        {
+          "id": "D003141",
+          "term": "Communicable Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D015229",
+          "term": "Sexually Transmitted Diseases, Viral"
+        },
+        {
+          "id": "D012749",
+          "term": "Sexually Transmitted Diseases"
+        },
+        {
+          "id": "D016180",
+          "term": "Lentivirus Infections"
+        },
+        {
+          "id": "D012192",
+          "term": "Retroviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D012897",
+          "term": "Slow Virus Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

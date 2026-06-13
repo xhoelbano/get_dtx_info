@@ -1,0 +1,910 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06154252",
+      "orgStudyIdInfo": {
+        "id": "CAB-201-002"
+      },
+      "organization": {
+        "fullName": "Cabaletta Bio",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "RESET-Myositis: An Open-Label Study to Evaluate the Safety and Efficacy of CABA-201 in Subjects With Active Idiopathic Inflammatory Myopathy or Juvenile Idiopathic Inflammatory Myopathy",
+      "officialTitle": "A Phase 1/2, Open-Label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T Cells (CABA-201) in Subjects With Active Idiopathic Inflammatory Myopathy or Juvenile Idiopathic Inflammatory Myopathy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-11-16",
+      "studyFirstSubmitQcDate": "2023-11-30",
+      "studyFirstPostDateStruct": {
+        "date": "2023-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cabaletta Bio",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "RESET-Myositis: Open-Label Study to Evaluate the Safety and Efficacy of CABA-201 in Subjects with Active Idiopathic Inflammatory Myopathy or Juvenile Idiopathic Inflammatory Myopathy",
+      "detailedDescription": "Idiopathic inflammatory myopathies (IIMs, or myositis) are a group of rare autoimmune diseases characterized by inflammation and muscle weakness. Though the cause of IIM is not well understood, some subtypes of IIM, including dermatomyositis (DM), anti-synthetase syndrome (ASyS), immune-mediated necrotizing myopathy (IMNM), and juvenile idiopathic inflammatory myopathy (JIIM), are thought to involve B cells that cause the body to attack different tissues in the body. This study is being conducted to evaluate the safety and efficacy of an investigational cell therapy, CABA-201, that can be given to patients with DM, ASyS, IMNM, or JIIM who have active disease. A single dose of CABA-201 in combination with cyclophosphamide (CY) and fludarabine (FLU) will be evaluated."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Idiopathic Inflammatory Myopathy",
+        "Dermatomyositis",
+        "Anti-Synthetase Syndrome",
+        "Immune-Mediated Necrotizing Myopathy",
+        "Juvenile Dermatomyositis",
+        "Juvenile Polymyositis",
+        "Juvenile Idiopathic Inflammatory Myopathy (JIIM)",
+        "Juvenile Myositis"
+      ],
+      "keywords": [
+        "CABA-201",
+        "Autoimmune Disease",
+        "Anti-CD19 CAR-T therapy",
+        "Cellular Therapy",
+        "Idiopathic Inflammatory Myopathy",
+        "Myositis",
+        "Dermatomyositis",
+        "Anti-synthetase Syndrome",
+        "Immune-mediated Necrotizing Myopathy",
+        "Juvenile Dermatomyositis",
+        "Juvenile Polymyositis",
+        "Juvenile Idiopathic Inflammatory Myopathy (JIIM)",
+        "Juvenile Myositis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 24,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CABA-201",
+          "type": "EXPERIMENTAL",
+          "description": "DM Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide preconditioning in subjects with DM.\n\nASyS Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide preconditioning in subjects with ASyS.\n\nIMNM Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide preconditioning in subjects with IMNM.\n\nJIIM Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide preconditioning in subjects with JIIM.",
+          "interventionNames": [
+            "Biological: CABA-201 following preconditioning with fludarabine and cyclophosphamide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CABA-201 following preconditioning with fludarabine and cyclophosphamide",
+          "description": "Single intravenous infusion of CABA-201 at a single dose level following preconditioning with fludarabine and cyclophosphamide",
+          "armGroupLabels": [
+            "CABA-201"
+          ],
+          "otherNames": [
+            "Rese-cel",
+            "Resecabtagene autoleucel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To evaluate adverse events reported by subjects",
+          "description": "Incidence and severity of AEs",
+          "timeFrame": "Up to 28 days after CABA-201 infusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To evaluate adverse events and laboratory abnormalities",
+          "description": "Incidence and severity of AEs, including changes in laboratory values and vital signs",
+          "timeFrame": "Up to 156 weeks"
+        },
+        {
+          "measure": "To characterize the pharmacodynamics (PD)",
+          "description": "Levels of B cells in the blood",
+          "timeFrame": "Up to 156 weeks"
+        },
+        {
+          "measure": "To characterize the pharmacokinetics (PK)",
+          "description": "Levels of CABA-201-positive T cells in the blood",
+          "timeFrame": "Up to 156 weeks"
+        },
+        {
+          "measure": "To evaluate disease-related biomarkers of muscle inflammation",
+          "description": "Levels of muscle enzymes (CK, LDH, AST, ALT, and aldolase) in serum",
+          "timeFrame": "Up to 156 weeks"
+        },
+        {
+          "measure": "To evaluate autoantibody -related biomarkers",
+          "description": "Levels of autoantibodies from the Myositis-Specific Autoantibody Panel (e.g., MDA-5, Jo-1, and HMGCR) in the serum",
+          "timeFrame": "Up to 156 weeks"
+        },
+        {
+          "measure": "To evaluate efficacy",
+          "description": "Total Improvement Score (0 to 100, with higher scores indicating greater improvement) based on the Core Set Measures",
+          "timeFrame": "Up to 156 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Adult Cohorts\n\nInclusion Criteria:\n\n* Age ≥18 and ≤75\n* A clinical diagnosis of IIM, based on the 2017 The European League Against Rheumatism/American College of Rheumatology classification criteria\n* Diagnosis of DM, ASyS, IMNM\n* Evidence of active disease, despite prior or current treatment with standard of care treatments, as defined by the presence of elevated creatine kinase (CK), DM rash, or active disease on muscle biopsy, magnetic resonance imaging (MRI), or electromyography\n* Presence of muscle weakness\n\nOther protocol-defined criteria apply.\n\nExclusion Criteria:\n\n* Contraindication to leukapheresis\n* History of anaphylactic or severe systemic reaction to fludarabine, cyclophosphamide or any of their metabolites\n* Active infection requiring medical intervention at screening\n* Current symptoms of severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal, pulmonary, psychiatric, cardiac, neurological, or cerebral disease, including severe and uncontrolled infections, such as sepsis and opportunistic infections\n* Concomitant medical conditions that, in the opinion of the investigator, might place the subject at unacceptable risk for participation in this study, interfere with the assessment of the effects or safety of the investigational product or with the study procedures\n* Significant lung or cardiac impairment\n* Previous CAR T cell therapy\n* Prior solid organ (heart, liver, kidney, lung) transplant or hematopoietic cell transplant\n\nOther protocol-defined criteria apply.\n\nJuvenile Cohort\n\nInclusion Criteria:\n\n* Age ≥6 and ≤17 years at enrollment\n* A clinical diagnosis of IIM, based on the 2017 The European League Against Rheumatism/American College of Rheumatology classification criteria\n* Evidence of active disease, despite prior or current treatment with standard of care treatments, as defined by the presence of elevated muscle enzymes, DM rash, or active disease on muscle biopsy, magnetic resonance imaging (MRI), or electromyography\n\nOther protocol-defined criteria apply.\n\nExclusion Criteria:\n\n* Contraindication to leukapheresis\n* History of anaphylactic or severe systemic reaction to fludarabine, cyclophosphamide or any of their metabolites\n* Active infection requiring medical intervention at screening\n* Current symptoms of severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal, pulmonary, psychiatric, cardiac, neurological, or cerebral disease, including severe and uncontrolled infections, such as sepsis and opportunistic infections.\n* Concomitant medical conditions that, in the opinion of the investigator, might place the subject at unacceptable risk for participation in this study, interfere with the assessment of the effects or safety of the investigational product or with the study procedures\n* Significant lung or cardiac impairment\n* Previous CAR T cell therapy\n* Prior solid organ (heart, liver, kidney, lung) transplant or hematopoietic cell transplant\n\nOther protocol-defined criteria apply.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "6 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Cabaletta Bio",
+          "role": "CONTACT",
+          "phone": "267-759-3100",
+          "phoneExt": "4444",
+          "email": "clinicaltrials@cabalettabio.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Medical Director",
+          "affiliation": "Cabaletta Bio",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of California Irvine - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alpha Clinic",
+              "role": "CONTACT",
+              "phone": "949-824-3990",
+              "email": "alphaclinic@uci.edu"
+            },
+            {
+              "name": "Tahseen Mozaffar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "University of California, San Francisco Benioff Children's Hospital - Accepting Young Adult and Juvenile Patients",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94158",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Zilan Zheng",
+              "role": "CONTACT",
+              "phone": "415-353-1301",
+              "email": "Zilan.Zheng@ucsf.edu"
+            },
+            {
+              "name": "Susan Kim, MD, MMSc",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Children's Hospital Colorado - Accepting Juvenile Patients",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80046",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr. Katharine Moore, MD",
+              "role": "CONTACT",
+              "phone": "720-777-7371",
+              "email": "Katharine.moore@childrenscolorado.org"
+            },
+            {
+              "name": "Dr. Katharine Moore, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Mayo Clinic Florida - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Wesley Dillinger",
+              "role": "CONTACT",
+              "phone": "904-953-4511",
+              "email": "dillinger.wesley@mayo.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Emory University - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Trinh Van",
+              "role": "CONTACT",
+              "phone": "404-712-3940",
+              "email": "trinh.van@emory.edu"
+            },
+            {
+              "name": "John Varghese",
+              "role": "CONTACT",
+              "email": "john.varghese@emory.edu"
+            },
+            {
+              "name": "Prateek Chandrashekar Gandiga, MD, FACP",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Ann & Robert H. Lurie Children's Hospital of Chicago - Accepting Young Adult and Juvenile Patients",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tyler Sorensen",
+              "role": "CONTACT",
+              "phone": "312-277-6828",
+              "email": "tsorensen@luriechildrens.org"
+            },
+            {
+              "name": "Pooja N. Patel, DO",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Northwestern Memorial Hospital - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Matthew Selle",
+              "role": "CONTACT",
+              "phone": "312-695-0990",
+              "email": "autoimmunesct@nm.org"
+            },
+            {
+              "name": "Dr. George Georges, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "The University of Chicago Medical Center - Accepting Adult and Juvenile Patients",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr. Iazsmin Ventura, MD - Adult patient contact",
+              "role": "CONTACT",
+              "phone": "773-702-6619",
+              "email": "iventura@uchicago.edu; Dequana.jones@bsd.uchicago.edu"
+            },
+            {
+              "name": "Dr. Cuoghi Edens, MD, FAAP - Juvenile patient contact",
+              "role": "CONTACT",
+              "email": "cedens@bsd.uchicago.edu; Sydni.Hill@bsd.uchicago.edu"
+            },
+            {
+              "name": "Dr. Iazsmin Ventura, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Dr. Cuoghi Edens, MD, FAAP",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "University of Kansas Medical Center - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ali Russo, B.S., CCRP",
+              "role": "CONTACT",
+              "phone": "913-945-9942",
+              "email": "aciersdorff@kumc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "National Institutes of Health - Accepting Adult and Juvenile Patients",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Julie Thompson",
+              "role": "CONTACT",
+              "phone": "301-480-3191",
+              "email": "Julie.thompson@nih.gov"
+            },
+            {
+              "name": "Andrew Mammen, M.D., Ph.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        },
+        {
+          "facility": "University of Michigan - Accepting Young Adult and Juvenile Patients",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48105",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anela Mukherjee",
+              "role": "CONTACT",
+              "phone": "734-232-9896",
+              "email": "mukherja@med.umich.edu"
+            },
+            {
+              "name": "Abigail Whalen",
+              "role": "CONTACT",
+              "phone": "734-615-4466",
+              "email": "abigaiwh@med.umich.edu"
+            },
+            {
+              "name": "Dr. Jennifer Agrusa, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Mayo Clinic - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55902",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Bridget Neja",
+              "role": "CONTACT",
+              "phone": "507-266-9150",
+              "email": "neja.bridget@mayo.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Hospital for Special Surgery - Accepting Adult and Juvenile Patients",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Janvi Bhatia",
+              "role": "CONTACT",
+              "phone": "212-774-2123",
+              "email": "bhatiaj@hss.edu"
+            },
+            {
+              "name": "David R. Fernandez, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center - Accepting Adult and Juvenile Patients",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Atifah Osrat",
+              "role": "CONTACT",
+              "phone": "646-608-2091",
+              "email": "osrata1@mskcc.org"
+            },
+            {
+              "name": "Jae Park, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Children's Hospital at Montefiore - Accepting Juvenile Patients",
+          "status": "NOT_YET_RECRUITING",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Gillies",
+              "role": "CONTACT",
+              "phone": "718-696-2402",
+              "email": "egillies@montefiore.org"
+            },
+            {
+              "name": "Dr. Dawn Wahezi, MD, MS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "Oregon Health & Science University - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katie Lewis",
+              "role": "CONTACT",
+              "phone": "503-908-9724",
+              "email": "lewiskat@ohsu.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Children's Hospital of Philadelphia - Accepting Young Adult and Juvenile Patients",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "CARTintake@chop.edu",
+              "role": "CONTACT",
+              "email": "CARTintake@chop.edu"
+            },
+            {
+              "name": "Dr. Caitlin Elgarten, MD, MSCE",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nur Ali",
+              "role": "CONTACT",
+              "phone": "615-875-5106",
+              "email": "nur.ali@vumc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Houston Methodist Hospital - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Amelia A. Nounes, MSN, RN, CCRP",
+              "role": "CONTACT",
+              "phone": "346-356-3639",
+              "email": "aanounes@houstonmethodist.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Texas MD Anderson Cancer Center - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christina Amos Briggs, BSN, RN",
+              "role": "CONTACT",
+              "phone": "713-563-5076",
+              "email": "cbamos@mdanderson.org"
+            },
+            {
+              "name": "Huifang (Linda) Lu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Seattle Children's Research Institute - Accepting Juvenile Patients",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98105",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dr. Susan Shenoi, MD, MS",
+              "role": "CONTACT",
+              "phone": "206-987-2193",
+              "email": "susan.shenoi@SeattleChildrens.org"
+            },
+            {
+              "name": "Dr. Susan Shenoi, MD, MS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Kings College Hospital NHS Foundation Trust - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "SE5 9RS",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Rheumatology Research Team",
+              "role": "CONTACT",
+              "phone": "0207 848 0214",
+              "phoneExt": "0628",
+              "email": "Kch-tr.CRDresearch@nhs.net"
+            },
+            {
+              "name": "Patrick Gordon, PhD, FRCP, MBBS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "University College London Hospitals NHS Foundation Trust - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "WC1N 3BG",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Dr. Pedro Machado, FRCP, PhD",
+              "role": "CONTACT",
+              "phone": "020 3456 7890",
+              "email": "uclh.car-ttrials@nhs.net"
+            },
+            {
+              "name": "Dr. Pedro Machado, FRCP, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Manchester Royal Infirmary - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Manchester",
+          "zip": "M13 9WL",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Eleni Tholouli, MD, PhD, MRCP(UK), FRCPath",
+              "role": "CONTACT",
+              "phone": "01612765052",
+              "email": "Eleni.Tholouli@mft.nhs.uk"
+            },
+            {
+              "name": "Eleni Tholouli, MD, PhD, MRCP(UK), FRCPath",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        },
+        {
+          "facility": "Salford Royal Hospital - Accepting Adult Patients",
+          "status": "RECRUITING",
+          "city": "Salford",
+          "zip": "M6 8HD",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Michelle Beswick",
+              "role": "CONTACT",
+              "phone": "07759 136787",
+              "email": "Rheumatology.Research@nca.nhs.uk"
+            },
+            {
+              "name": "Hector Chinoy, PhD, FRCP, MSc, BMBS, BMedSci",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.48771,
+            "lon": -2.29042
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009220",
+          "term": "Myositis"
+        },
+        {
+          "id": "D003882",
+          "term": "Dermatomyositis"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009135",
+          "term": "Muscular Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D017285",
+          "term": "Polymyositis"
+        },
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C024352",
+          "term": "fludarabine"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

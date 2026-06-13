@@ -1,0 +1,5177 @@
+{
+  "country": "Germany",
+  "search_date": "2026-02-09T19:06:42.944841Z",
+  "mode": "full",
+  "dtx_searched": 76,
+  "total_candidates": 1045,
+  "total_verified_rct": 172,
+  "total_verified_rwe": 74,
+  "total_rejected": 799,
+  "by_dtx": {
+    "attexis - die digitale Therapie bei ADHS im Erwachsenenalter": {
+      "dtx_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:06:42.945054Z",
+      "candidates": {
+        "dtx_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:06:42.951634Z",
+        "queries": [
+          "\"attexis\"",
+          "\"attexis\" AND \"die digitale Therapie bei ADHS im Erwachsenenalter\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"die digitale Therapie bei ADHS im Erwachsenenalter\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"die digitale Therapie bei ADHS im Erwachsenenalter\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"die digitale Therapie bei ADHS im Erwachsenenalter\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"die digitale Therapie bei ADHS im Erwachsenenalter\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:07:19.491521Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 1
+          },
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 1,
+        "total_rejected": 1
+      }
+    },
+    "Cara Care für Reizdarm": {
+      "dtx_name": "Cara Care für Reizdarm",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:07:35.933764Z",
+      "candidates": {
+        "dtx_name": "Cara Care für Reizdarm",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:07:35.934272Z",
+        "queries": [
+          "\"Cara Care\"",
+          "\"Cara Care\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Cara Care\"",
+              "\"Cara Care\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Cara Care\"",
+              "\"Cara Care\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 13,
+            "queries": [
+              "\"Cara Care\"",
+              "\"Cara Care\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Cara Care\"",
+              "\"Cara Care\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 63
+      },
+      "verification": {
+        "dtx_name": "Cara Care für Reizdarm",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:09:55.508313Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50
+          },
+          "drks": {
+            "candidates": 13,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 12
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 62
+      }
+    },
+    "companion patella powered by medi - proved by Dt. Kniegesellschaft": {
+      "dtx_name": "companion patella powered by medi - proved by Dt. Kniegesellschaft",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:12:14.977299Z",
+      "candidates": {
+        "dtx_name": "companion patella powered by medi - proved by Dt. Kniegesellschaft",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:12:14.977812Z",
+        "queries": [
+          "\"companion patella\"",
+          "\"companion patella\" AND \"proved by Dt. Kniegesellschaft\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 15,
+            "queries": [
+              "\"companion patella\"",
+              "\"companion patella\" AND \"proved by Dt. Kniegesellschaft\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"companion patella\"",
+              "\"companion patella\" AND \"proved by Dt. Kniegesellschaft\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"companion patella\"",
+              "\"companion patella\" AND \"proved by Dt. Kniegesellschaft\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"companion patella\"",
+              "\"companion patella\" AND \"proved by Dt. Kniegesellschaft\""
+            ]
+          }
+        },
+        "total_candidates": 16
+      },
+      "verification": {
+        "dtx_name": "companion patella powered by medi - proved by Dt. Kniegesellschaft",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:13:00.805825Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 15,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 15
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 16
+      }
+    },
+    "companion® shoulder": {
+      "dtx_name": "companion® shoulder",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:13:32.639444Z",
+      "candidates": {
+        "dtx_name": "companion® shoulder",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:13:32.639663Z",
+        "queries": [
+          "\"companion shoulder\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 49,
+            "queries": [
+              "\"companion shoulder\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"companion shoulder\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"companion shoulder\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"companion shoulder\""
+            ]
+          }
+        },
+        "total_candidates": 50
+      },
+      "verification": {
+        "dtx_name": "companion® shoulder",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:14:28.829771Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 49,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 49
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 49
+      }
+    },
+    "deprexis": {
+      "dtx_name": "deprexis",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:16:04.231597Z",
+      "candidates": {
+        "dtx_name": "deprexis",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:16:04.231980Z",
+        "queries": [
+          "\"deprexis\"",
+          "\"deprexis\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 13,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 7,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 3,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 73
+      },
+      "verification": {
+        "dtx_name": "deprexis",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:18:06.247312Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 34,
+            "verified_rwe": 6,
+            "rejected": 10
+          },
+          "clinicaltrials": {
+            "candidates": 13,
+            "verified_rct": 13,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 7,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 5
+          },
+          "isrctn": {
+            "candidates": 3,
+            "verified_rct": 3,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 51,
+        "total_verified_rwe": 7,
+        "total_rejected": 15
+      }
+    },
+    "eCovery - Therapie bei Schmerzen im unteren Rücken": {
+      "dtx_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:21:23.623788Z",
+      "candidates": {
+        "dtx_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:21:23.624026Z",
+        "queries": [
+          "\"eCovery\"",
+          "\"eCovery\" AND \"Therapie bei Schmerzen im unteren Rücken\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 6,
+            "queries": [
+              "\"eCovery\"",
+              "\"eCovery\" AND \"Therapie bei Schmerzen im unteren Rücken\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"eCovery\"",
+              "\"eCovery\" AND \"Therapie bei Schmerzen im unteren Rücken\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"eCovery\"",
+              "\"eCovery\" AND \"Therapie bei Schmerzen im unteren Rücken\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"eCovery\"",
+              "\"eCovery\" AND \"Therapie bei Schmerzen im unteren Rücken\""
+            ]
+          }
+        },
+        "total_candidates": 7
+      },
+      "verification": {
+        "dtx_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:22:05.163378Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 6,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 6
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 6
+      }
+    },
+    "edupression.com®": {
+      "dtx_name": "edupression.com®",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:22:22.848521Z",
+      "candidates": {
+        "dtx_name": "edupression.com®",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:22:22.849010Z",
+        "queries": [
+          "\"edupression.com\"",
+          "\"edupression.com\" AND \"SOFY\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"edupression.com\"",
+              "\"edupression.com\" AND \"SOFY\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"edupression.com\"",
+              "\"edupression.com\" AND \"SOFY\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"edupression.com\"",
+              "\"edupression.com\" AND \"SOFY\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"edupression.com\"",
+              "\"edupression.com\" AND \"SOFY\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "edupression.com®",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:22:58.671049Z",
+        "sources": {
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "elevida": {
+      "dtx_name": "elevida",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:23:16.821841Z",
+      "candidates": {
+        "dtx_name": "elevida",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:23:16.822184Z",
+        "queries": [
+          "\"elevida\"",
+          "\"elevida\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"elevida\"",
+              "\"elevida\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"elevida\"",
+              "\"elevida\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"elevida\"",
+              "\"elevida\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 1,
+            "queries": [
+              "\"elevida\"",
+              "\"elevida\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 6
+      },
+      "verification": {
+        "dtx_name": "elevida",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:23:58.788051Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 1,
+            "verified_rwe": 2,
+            "rejected": 2
+          },
+          "isrctn": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 2,
+        "total_rejected": 2
+      }
+    },
+    "elona explore – für die mentale Gesundheit": {
+      "dtx_name": "elona explore – für die mentale Gesundheit",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:24:20.133441Z",
+      "candidates": {
+        "dtx_name": "elona explore – für die mentale Gesundheit",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:24:20.133934Z",
+        "queries": [
+          "\"elona explore –\"",
+          "\"elona explore –\" AND \"für die mentale Gesundheit\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 11,
+            "queries": [
+              "\"elona explore –\"",
+              "\"elona explore –\" AND \"für die mentale Gesundheit\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"elona explore –\"",
+              "\"elona explore –\" AND \"für die mentale Gesundheit\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"elona explore –\"",
+              "\"elona explore –\" AND \"für die mentale Gesundheit\""
+            ]
+          },
+          "isrctn": {
+            "total": 7,
+            "queries": [
+              "\"elona explore –\"",
+              "\"elona explore –\" AND \"für die mentale Gesundheit\""
+            ]
+          }
+        },
+        "total_candidates": 28
+      },
+      "verification": {
+        "dtx_name": "elona explore – für die mentale Gesundheit",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:26:31.723495Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 11
+          },
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10
+          },
+          "isrctn": {
+            "candidates": 7,
+            "verified_rct": 6,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 6,
+        "total_verified_rwe": 1,
+        "total_rejected": 21
+      }
+    },
+    "elona therapy Depression": {
+      "dtx_name": "elona therapy Depression",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:27:33.500727Z",
+      "candidates": {
+        "dtx_name": "elona therapy Depression",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:27:33.501772Z",
+        "queries": [
+          "\"elona therapy Depression\"",
+          "\"elona therapy Depression\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 9,
+            "queries": [
+              "\"elona therapy Depression\"",
+              "\"elona therapy Depression\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"elona therapy Depression\"",
+              "\"elona therapy Depression\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"elona therapy Depression\"",
+              "\"elona therapy Depression\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 1,
+            "queries": [
+              "\"elona therapy Depression\"",
+              "\"elona therapy Depression\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "elona therapy Depression",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:28:18.416203Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 9,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 6
+          },
+          "isrctn": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 1,
+        "total_rejected": 6
+      }
+    },
+    "Endo-App": {
+      "dtx_name": "Endo-App",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:28:48.664427Z",
+      "candidates": {
+        "dtx_name": "Endo-App",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:28:48.664703Z",
+        "queries": [
+          "\"Endo-App\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"Endo-App\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 3,
+            "queries": [
+              "\"Endo-App\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"Endo-App\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Endo-App\""
+            ]
+          }
+        },
+        "total_candidates": 18
+      },
+      "verification": {
+        "dtx_name": "Endo-App",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:30:05.792668Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 1,
+            "verified_rwe": 2,
+            "rejected": 2
+          },
+          "clinicaltrials": {
+            "candidates": 3,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 1
+          },
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 2,
+        "total_rejected": 13
+      }
+    },
+    "glucura Diabetestherapie": {
+      "dtx_name": "glucura Diabetestherapie",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:30:58.135247Z",
+      "candidates": {
+        "dtx_name": "glucura Diabetestherapie",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:30:58.135499Z",
+        "queries": [
+          "\"glucura Diabetestherapie\"",
+          "\"glucura Diabetestherapie\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"glucura Diabetestherapie\"",
+              "\"glucura Diabetestherapie\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"glucura Diabetestherapie\"",
+              "\"glucura Diabetestherapie\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"glucura Diabetestherapie\"",
+              "\"glucura Diabetestherapie\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"glucura Diabetestherapie\"",
+              "\"glucura Diabetestherapie\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 1
+      },
+      "verification": {
+        "dtx_name": "glucura Diabetestherapie",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:31:34.206265Z",
+        "sources": {
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 1
+      }
+    },
+    "HelloBetter Chronische Schmerzen": {
+      "dtx_name": "HelloBetter Chronische Schmerzen",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:31:39.016545Z",
+      "candidates": {
+        "dtx_name": "HelloBetter Chronische Schmerzen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:31:39.016927Z",
+        "queries": [
+          "\"HelloBetter Chronische Schmerzen\"",
+          "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"HelloBetter Chronische Schmerzen\"",
+              "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Chronische Schmerzen\"",
+              "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 4,
+            "queries": [
+              "\"HelloBetter Chronische Schmerzen\"",
+              "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Chronische Schmerzen\"",
+              "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 6
+      },
+      "verification": {
+        "dtx_name": "HelloBetter Chronische Schmerzen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:32:34.551974Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 4,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 3
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 5
+      }
+    },
+    "HelloBetter Diabetes": {
+      "dtx_name": "HelloBetter Diabetes",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:32:51.503569Z",
+      "candidates": {
+        "dtx_name": "HelloBetter Diabetes",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:32:51.504044Z",
+        "queries": [
+          "\"HelloBetter Diabetes\"",
+          "\"HelloBetter Diabetes\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Diabetes\"",
+              "\"HelloBetter Diabetes\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Diabetes\"",
+              "\"HelloBetter Diabetes\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"HelloBetter Diabetes\"",
+              "\"HelloBetter Diabetes\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Diabetes\"",
+              "\"HelloBetter Diabetes\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 1
+      },
+      "verification": {
+        "dtx_name": "HelloBetter Diabetes",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:33:27.477903Z",
+        "sources": {
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 1
+      }
+    },
+    "HelloBetter Panik": {
+      "dtx_name": "HelloBetter Panik",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:33:32.180627Z",
+      "candidates": {
+        "dtx_name": "HelloBetter Panik",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:33:32.180978Z",
+        "queries": [
+          "\"HelloBetter Panik\"",
+          "\"HelloBetter Panik\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Panik\"",
+              "\"HelloBetter Panik\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Panik\"",
+              "\"HelloBetter Panik\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Panik\"",
+              "\"HelloBetter Panik\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Panik\"",
+              "\"HelloBetter Panik\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "HelloBetter Panik",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:34:02.739806Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "HelloBetter Schlafen": {
+      "dtx_name": "HelloBetter Schlafen",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:34:04.742177Z",
+      "candidates": {
+        "dtx_name": "HelloBetter Schlafen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:34:04.742715Z",
+        "queries": [
+          "\"HelloBetter Schlafen\"",
+          "\"HelloBetter Schlafen\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"HelloBetter Schlafen\"",
+              "\"HelloBetter Schlafen\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Schlafen\"",
+              "\"HelloBetter Schlafen\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"HelloBetter Schlafen\"",
+              "\"HelloBetter Schlafen\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Schlafen\"",
+              "\"HelloBetter Schlafen\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "HelloBetter Schlafen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:34:44.636868Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 2,
+        "total_rejected": 0
+      }
+    },
+    "HelloBetter Stress und Burnout": {
+      "dtx_name": "HelloBetter Stress und Burnout",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:34:53.563897Z",
+      "candidates": {
+        "dtx_name": "HelloBetter Stress und Burnout",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:34:53.564352Z",
+        "queries": [
+          "\"HelloBetter Stress und Burnout\"",
+          "\"HelloBetter Stress und Burnout\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Stress und Burnout\"",
+              "\"HelloBetter Stress und Burnout\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Stress und Burnout\"",
+              "\"HelloBetter Stress und Burnout\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Stress und Burnout\"",
+              "\"HelloBetter Stress und Burnout\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Stress und Burnout\"",
+              "\"HelloBetter Stress und Burnout\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "HelloBetter Stress und Burnout",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:35:24.481632Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "HelloBetter Vaginismus Plus": {
+      "dtx_name": "HelloBetter Vaginismus Plus",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:35:26.483375Z",
+      "candidates": {
+        "dtx_name": "HelloBetter Vaginismus Plus",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:35:26.483863Z",
+        "queries": [
+          "\"HelloBetter Vaginismus Plus\"",
+          "\"HelloBetter Vaginismus Plus\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Vaginismus Plus\"",
+              "\"HelloBetter Vaginismus Plus\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Vaginismus Plus\"",
+              "\"HelloBetter Vaginismus Plus\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Vaginismus Plus\"",
+              "\"HelloBetter Vaginismus Plus\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"HelloBetter Vaginismus Plus\"",
+              "\"HelloBetter Vaginismus Plus\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "HelloBetter Vaginismus Plus",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:35:57.195533Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "hiToco®: ADHS Elterntraining": {
+      "dtx_name": "hiToco®: ADHS Elterntraining",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:35:59.197724Z",
+      "candidates": {
+        "dtx_name": "hiToco®: ADHS Elterntraining",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:35:59.198113Z",
+        "queries": [
+          "\"hiToco\"",
+          "\"hiToco\" AND \"ADHS Elterntraining\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"hiToco\"",
+              "\"hiToco\" AND \"ADHS Elterntraining\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"hiToco\"",
+              "\"hiToco\" AND \"ADHS Elterntraining\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"hiToco\"",
+              "\"hiToco\" AND \"ADHS Elterntraining\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"hiToco\"",
+              "\"hiToco\" AND \"ADHS Elterntraining\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "hiToco®: ADHS Elterntraining",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:36:48.713230Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 1
+      }
+    },
+    "Invirto - Die Therapie gegen Angst": {
+      "dtx_name": "Invirto - Die Therapie gegen Angst",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:37:03.169479Z",
+      "candidates": {
+        "dtx_name": "Invirto - Die Therapie gegen Angst",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:37:03.169948Z",
+        "queries": [
+          "\"Invirto\"",
+          "\"Invirto\" AND \"Die Therapie gegen Angst\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"Invirto\"",
+              "\"Invirto\" AND \"Die Therapie gegen Angst\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"Invirto\"",
+              "\"Invirto\" AND \"Die Therapie gegen Angst\""
+            ]
+          },
+          "drks": {
+            "total": 4,
+            "queries": [
+              "\"Invirto\"",
+              "\"Invirto\" AND \"Die Therapie gegen Angst\""
+            ]
+          },
+          "isrctn": {
+            "total": 1,
+            "queries": [
+              "\"Invirto\"",
+              "\"Invirto\" AND \"Die Therapie gegen Angst\""
+            ]
+          }
+        },
+        "total_candidates": 11
+      },
+      "verification": {
+        "dtx_name": "Invirto - Die Therapie gegen Angst",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:38:05.999226Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 4,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 2
+          },
+          "isrctn": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 1,
+        "total_rejected": 7
+      }
+    },
+    "Kaia Rückenschmerzen - Rückentraining für Zuhause": {
+      "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:38:36.479241Z",
+      "candidates": {
+        "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:38:36.479581Z",
+        "queries": [
+          "\"Kaia Rückenschmerzen\"",
+          "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\""
+            ]
+          },
+          "drks": {
+            "total": 7,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"Rückentraining für Zuhause\""
+            ]
+          }
+        },
+        "total_candidates": 7
+      },
+      "verification": {
+        "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:39:45.883627Z",
+        "sources": {
+          "drks": {
+            "candidates": 7,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 5
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 5
+      }
+    },
+    "Kalmeda": {
+      "dtx_name": "Kalmeda",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:40:03.482274Z",
+      "candidates": {
+        "dtx_name": "Kalmeda",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:40:03.482598Z",
+        "queries": [
+          "\"Kalmeda\"",
+          "\"Kalmeda\" AND \"Boskamp\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 3,
+            "queries": [
+              "\"Kalmeda\"",
+              "\"Kalmeda\" AND \"Boskamp\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Kalmeda\"",
+              "\"Kalmeda\" AND \"Boskamp\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"Kalmeda\"",
+              "\"Kalmeda\" AND \"Boskamp\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kalmeda\"",
+              "\"Kalmeda\" AND \"Boskamp\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "Kalmeda",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:40:46.489134Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 3,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 2
+      }
+    },
+    "Kranus Edera": {
+      "dtx_name": "Kranus Edera",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:41:03.759156Z",
+      "candidates": {
+        "dtx_name": "Kranus Edera",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:41:03.759579Z",
+        "queries": [
+          "\"Kranus Edera\"",
+          "\"Kranus Edera\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Edera\"",
+              "\"Kranus Edera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Edera\"",
+              "\"Kranus Edera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Kranus Edera\"",
+              "\"Kranus Edera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Edera\"",
+              "\"Kranus Edera\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "Kranus Edera",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:41:45.317580Z",
+        "sources": {
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 2
+      }
+    },
+    "Kranus Lutera": {
+      "dtx_name": "Kranus Lutera",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:41:53.352191Z",
+      "candidates": {
+        "dtx_name": "Kranus Lutera",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:41:53.352534Z",
+        "queries": [
+          "\"Kranus Lutera\"",
+          "\"Kranus Lutera\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"Kranus Lutera\"",
+              "\"Kranus Lutera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Lutera\"",
+              "\"Kranus Lutera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Lutera\"",
+              "\"Kranus Lutera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Lutera\"",
+              "\"Kranus Lutera\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "Kranus Lutera",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:42:29.400339Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 4,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "Kranus Mictera": {
+      "dtx_name": "Kranus Mictera",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:42:43.990614Z",
+      "candidates": {
+        "dtx_name": "Kranus Mictera",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:42:43.990947Z",
+        "queries": [
+          "\"Kranus Mictera\"",
+          "\"Kranus Mictera\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"Kranus Mictera\"",
+              "\"Kranus Mictera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"Kranus Mictera\"",
+              "\"Kranus Mictera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"Kranus Mictera\"",
+              "\"Kranus Mictera\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kranus Mictera\"",
+              "\"Kranus Mictera\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "Kranus Mictera",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:43:21.770688Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 1
+      }
+    },
+    "levidex": {
+      "dtx_name": "levidex",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:43:31.502943Z",
+      "candidates": {
+        "dtx_name": "levidex",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:43:31.503264Z",
+        "queries": [
+          "\"levidex\"",
+          "\"levidex\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 6,
+            "queries": [
+              "\"levidex\"",
+              "\"levidex\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"levidex\"",
+              "\"levidex\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"levidex\"",
+              "\"levidex\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"levidex\"",
+              "\"levidex\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 9
+      },
+      "verification": {
+        "dtx_name": "levidex",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:44:19.145098Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 6,
+            "verified_rct": 3,
+            "verified_rwe": 3,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 3,
+        "total_rejected": 2
+      }
+    },
+    "Mawendo": {
+      "dtx_name": "Mawendo",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:44:46.209957Z",
+      "candidates": {
+        "dtx_name": "Mawendo",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:44:46.210290Z",
+        "queries": [
+          "\"Mawendo\"",
+          "\"Mawendo\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"Mawendo\"",
+              "\"Mawendo\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Mawendo\"",
+              "\"Mawendo\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Mawendo\"",
+              "\"Mawendo\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Mawendo\"",
+              "\"Mawendo\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "Mawendo",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:45:28.640936Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 2,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 2,
+        "total_rejected": 0
+      }
+    },
+    "Meine Tinnitus App - Das digitale Tinnitus Counseling": {
+      "dtx_name": "Meine Tinnitus App - Das digitale Tinnitus Counseling",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:45:39.978421Z",
+      "candidates": {
+        "dtx_name": "Meine Tinnitus App - Das digitale Tinnitus Counseling",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:45:39.978825Z",
+        "queries": [
+          "\"Meine Tinnitus\"",
+          "\"Meine Tinnitus\" AND \"Das digitale Tinnitus Counseling\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Meine Tinnitus\"",
+              "\"Meine Tinnitus\" AND \"Das digitale Tinnitus Counseling\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Meine Tinnitus\"",
+              "\"Meine Tinnitus\" AND \"Das digitale Tinnitus Counseling\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Meine Tinnitus\"",
+              "\"Meine Tinnitus\" AND \"Das digitale Tinnitus Counseling\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Meine Tinnitus\"",
+              "\"Meine Tinnitus\" AND \"Das digitale Tinnitus Counseling\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Meine Tinnitus App - Das digitale Tinnitus Counseling",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:47:14.005581Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 1
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 10
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 11
+      }
+    },
+    "memodio": {
+      "dtx_name": "memodio",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:47:43.225287Z",
+      "candidates": {
+        "dtx_name": "memodio",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:47:43.225589Z",
+        "queries": [
+          "\"memodio\"",
+          "\"memodio\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 16,
+            "queries": [
+              "\"memodio\"",
+              "\"memodio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"memodio\"",
+              "\"memodio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"memodio\"",
+              "\"memodio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"memodio\"",
+              "\"memodio\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 17
+      },
+      "verification": {
+        "dtx_name": "memodio",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:48:32.788964Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 16,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 16
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 16
+      }
+    },
+    "Mindable: Panik & Agoraphobie": {
+      "dtx_name": "Mindable: Panik & Agoraphobie",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:49:03.121960Z",
+      "candidates": {
+        "dtx_name": "Mindable: Panik & Agoraphobie",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:49:03.122077Z",
+        "queries": [
+          "\"Mindable\"",
+          "\"Mindable\" AND \"Agoraphobie\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Agoraphobie\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Agoraphobie\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Agoraphobie\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Agoraphobie\""
+            ]
+          }
+        },
+        "total_candidates": 7
+      },
+      "verification": {
+        "dtx_name": "Mindable: Panik & Agoraphobie",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:49:51.295393Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 5
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 7
+      }
+    },
+    "Mindable: Soziale Phobie": {
+      "dtx_name": "Mindable: Soziale Phobie",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:50:09.747486Z",
+      "candidates": {
+        "dtx_name": "Mindable: Soziale Phobie",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:50:09.747570Z",
+        "queries": [
+          "\"Mindable\"",
+          "\"Mindable\" AND \"Soziale Phobie\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Soziale Phobie\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Soziale Phobie\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Soziale Phobie\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Mindable\"",
+              "\"Mindable\" AND \"Soziale Phobie\""
+            ]
+          }
+        },
+        "total_candidates": 7
+      },
+      "verification": {
+        "dtx_name": "Mindable: Soziale Phobie",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:50:57.827522Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 4
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 6
+      }
+    },
+    "My7steps App": {
+      "dtx_name": "My7steps App",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:51:16.573239Z",
+      "candidates": {
+        "dtx_name": "My7steps App",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:51:16.573485Z",
+        "queries": [
+          "\"My7steps\"",
+          "\"My7steps\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"My7steps\"",
+              "\"My7steps\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"My7steps\"",
+              "\"My7steps\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"My7steps\"",
+              "\"My7steps\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"My7steps\"",
+              "\"My7steps\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "My7steps App",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:51:58.612634Z",
+        "sources": {
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 2,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 2,
+        "total_rejected": 0
+      }
+    },
+    "neolexon Aphasie": {
+      "dtx_name": "neolexon Aphasie",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:52:06.416652Z",
+      "candidates": {
+        "dtx_name": "neolexon Aphasie",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:52:06.417013Z",
+        "queries": [
+          "\"neolexon Aphasie\"",
+          "\"neolexon Aphasie\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"neolexon Aphasie\"",
+              "\"neolexon Aphasie\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"neolexon Aphasie\"",
+              "\"neolexon Aphasie\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"neolexon Aphasie\"",
+              "\"neolexon Aphasie\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"neolexon Aphasie\"",
+              "\"neolexon Aphasie\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "neolexon Aphasie",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:52:45.911417Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 2,
+        "total_rejected": 0
+      }
+    },
+    "NeuroNation MED": {
+      "dtx_name": "NeuroNation MED",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:53:05.362934Z",
+      "candidates": {
+        "dtx_name": "NeuroNation MED",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:53:05.363337Z",
+        "queries": [
+          "\"NeuroNation MED\"",
+          "\"NeuroNation MED\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"NeuroNation MED\"",
+              "\"NeuroNation MED\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"NeuroNation MED\"",
+              "\"NeuroNation MED\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 6,
+            "queries": [
+              "\"NeuroNation MED\"",
+              "\"NeuroNation MED\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"NeuroNation MED\"",
+              "\"NeuroNation MED\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "NeuroNation MED",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:54:14.345638Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 2,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 6,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 6
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 2,
+        "total_rejected": 6
+      }
+    },
+    "NichtraucherHelden-App": {
+      "dtx_name": "NichtraucherHelden-App",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:54:36.943065Z",
+      "candidates": {
+        "dtx_name": "NichtraucherHelden-App",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:54:36.943361Z",
+        "queries": [
+          "\"NichtraucherHelden-App\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"NichtraucherHelden-App\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"NichtraucherHelden-App\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"NichtraucherHelden-App\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"NichtraucherHelden-App\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "NichtraucherHelden-App",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:55:49.444791Z",
+        "sources": {
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 8
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 8
+      }
+    },
+    "Novego: Ängste überwinden": {
+      "dtx_name": "Novego: Ängste überwinden",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:56:10.894250Z",
+      "candidates": {
+        "dtx_name": "Novego: Ängste überwinden",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:56:10.894697Z",
+        "queries": [
+          "\"Novego\"",
+          "\"Novego\" AND \"Ängste überwinden\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Ängste überwinden\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Ängste überwinden\""
+            ]
+          },
+          "drks": {
+            "total": 8,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Ängste überwinden\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Ängste überwinden\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "Novego: Ängste überwinden",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:57:33.775647Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 1
+          },
+          "drks": {
+            "candidates": 8,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 7
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 8
+      }
+    },
+    "Novego: Depressionen bewältigen": {
+      "dtx_name": "Novego: Depressionen bewältigen",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:57:55.415577Z",
+      "candidates": {
+        "dtx_name": "Novego: Depressionen bewältigen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:57:55.415851Z",
+        "queries": [
+          "\"Novego\"",
+          "\"Novego\" AND \"Depressionen bewältigen\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Depressionen bewältigen\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Depressionen bewältigen\""
+            ]
+          },
+          "drks": {
+            "total": 8,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Depressionen bewältigen\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Novego\"",
+              "\"Novego\" AND \"Depressionen bewältigen\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "Novego: Depressionen bewältigen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T19:59:13.881552Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 1
+          },
+          "drks": {
+            "candidates": 8,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 7
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 8
+      }
+    },
+    "ORIKO ADHS-Therapie": {
+      "dtx_name": "ORIKO ADHS-Therapie",
+      "country": "Germany",
+      "search_date": "2026-02-09T19:59:35.125515Z",
+      "candidates": {
+        "dtx_name": "ORIKO ADHS-Therapie",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T19:59:35.125885Z",
+        "queries": [
+          "\"ORIKO ADHS-Therapie\"",
+          "\"ORIKO ADHS-Therapie\" AND \"Health\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"ORIKO ADHS-Therapie\"",
+              "\"ORIKO ADHS-Therapie\" AND \"Health\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"ORIKO ADHS-Therapie\"",
+              "\"ORIKO ADHS-Therapie\" AND \"Health\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"ORIKO ADHS-Therapie\"",
+              "\"ORIKO ADHS-Therapie\" AND \"Health\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"ORIKO ADHS-Therapie\"",
+              "\"ORIKO ADHS-Therapie\" AND \"Health\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "ORIKO ADHS-Therapie",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:01:00.877289Z",
+        "sources": {
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 9
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 9
+      }
+    },
+    "Oviva Direkt Bluthochdruck": {
+      "dtx_name": "Oviva Direkt Bluthochdruck",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:01:31.673154Z",
+      "candidates": {
+        "dtx_name": "Oviva Direkt Bluthochdruck",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:01:31.673968Z",
+        "queries": [
+          "\"Oviva Direkt Bluthochdruck\"",
+          "\"Oviva Direkt Bluthochdruck\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Oviva Direkt Bluthochdruck\"",
+              "\"Oviva Direkt Bluthochdruck\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Oviva Direkt Bluthochdruck\"",
+              "\"Oviva Direkt Bluthochdruck\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"Oviva Direkt Bluthochdruck\"",
+              "\"Oviva Direkt Bluthochdruck\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Oviva Direkt Bluthochdruck\"",
+              "\"Oviva Direkt Bluthochdruck\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 1
+      },
+      "verification": {
+        "dtx_name": "Oviva Direkt Bluthochdruck",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:02:12.075386Z",
+        "sources": {
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "Oviva Direkt für Adipositas": {
+      "dtx_name": "Oviva Direkt für Adipositas",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:02:17.646750Z",
+      "candidates": {
+        "dtx_name": "Oviva Direkt für Adipositas",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:02:17.646937Z",
+        "queries": [
+          "\"Oviva Direkt\"",
+          "\"Oviva Direkt\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Oviva Direkt\"",
+              "\"Oviva Direkt\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Oviva Direkt\"",
+              "\"Oviva Direkt\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 8,
+            "queries": [
+              "\"Oviva Direkt\"",
+              "\"Oviva Direkt\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Oviva Direkt\"",
+              "\"Oviva Direkt\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 8
+      },
+      "verification": {
+        "dtx_name": "Oviva Direkt für Adipositas",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:03:32.006621Z",
+        "sources": {
+          "drks": {
+            "candidates": 8,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 7
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 7
+      }
+    },
+    "PINK! Coach": {
+      "dtx_name": "PINK! Coach",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:03:53.029321Z",
+      "candidates": {
+        "dtx_name": "PINK! Coach",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:03:53.029698Z",
+        "queries": [
+          "\"PINK! Coach\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 17,
+            "queries": [
+              "\"PINK! Coach\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"PINK! Coach\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"PINK! Coach\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"PINK! Coach\""
+            ]
+          }
+        },
+        "total_candidates": 19
+      },
+      "verification": {
+        "dtx_name": "PINK! Coach",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:04:35.936204Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 17,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 14
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 1,
+        "total_rejected": 14
+      }
+    },
+    "priovi - digitale Unterstützung der Borderline-Behandlung": {
+      "dtx_name": "priovi - digitale Unterstützung der Borderline-Behandlung",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:05:22.463612Z",
+      "candidates": {
+        "dtx_name": "priovi - digitale Unterstützung der Borderline-Behandlung",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:05:22.463861Z",
+        "queries": [
+          "\"priovi\"",
+          "\"priovi\" AND \"Behandlung\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 9,
+            "queries": [
+              "\"priovi\"",
+              "\"priovi\" AND \"Behandlung\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"priovi\"",
+              "\"priovi\" AND \"Behandlung\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"priovi\"",
+              "\"priovi\" AND \"Behandlung\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"priovi\"",
+              "\"priovi\" AND \"Behandlung\""
+            ]
+          }
+        },
+        "total_candidates": 12
+      },
+      "verification": {
+        "dtx_name": "priovi - digitale Unterstützung der Borderline-Behandlung",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:06:12.826548Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 9,
+            "verified_rct": 3,
+            "verified_rwe": 5,
+            "rejected": 1
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 5,
+        "total_verified_rwe": 6,
+        "total_rejected": 1
+      }
+    },
+    "ProHerz": {
+      "dtx_name": "ProHerz",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:07:00.862413Z",
+      "candidates": {
+        "dtx_name": "ProHerz",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:07:00.862818Z",
+        "queries": [
+          "\"ProHerz\"",
+          "\"ProHerz\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"ProHerz\"",
+              "\"ProHerz\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"ProHerz\"",
+              "\"ProHerz\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"ProHerz\"",
+              "\"ProHerz\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"ProHerz\"",
+              "\"ProHerz\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "ProHerz",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:07:42.645457Z",
+        "sources": {
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 2
+      }
+    },
+    "Selfapys Online-Kurs bei Binge-Eating-Störung": {
+      "dtx_name": "Selfapys Online-Kurs bei Binge-Eating-Störung",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:07:47.926789Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei Binge-Eating-Störung",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:07:47.927119Z",
+        "queries": [
+          "\"Selfapys Online-Kurs bei Binge-Eating-Störung\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs bei Binge-Eating-Störung\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs bei Binge-Eating-Störung\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"Selfapys Online-Kurs bei Binge-Eating-Störung\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs bei Binge-Eating-Störung\""
+            ]
+          }
+        },
+        "total_candidates": 1
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei Binge-Eating-Störung",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:08:11.081988Z",
+        "sources": {
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 1
+      }
+    },
+    "Selfapys Online-Kurs bei Bulimia Nervosa": {
+      "dtx_name": "Selfapys Online-Kurs bei Bulimia Nervosa",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:08:17.253818Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei Bulimia Nervosa",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:08:17.254150Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei Bulimia Nervosa\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Bulimia Nervosa\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Bulimia Nervosa\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Bulimia Nervosa\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Bulimia Nervosa\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei Bulimia Nervosa",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:09:51.451651Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 11
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 13
+      }
+    },
+    "Selfapys Online-Kurs bei Depression": {
+      "dtx_name": "Selfapys Online-Kurs bei Depression",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:10:26.597644Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei Depression",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:10:26.598010Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei Depression\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Depression\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Depression\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Depression\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Depression\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei Depression",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:12:02.450452Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 11
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 13
+      }
+    },
+    "Selfapys Online-Kurs bei Generalisierter Angststörung": {
+      "dtx_name": "Selfapys Online-Kurs bei Generalisierter Angststörung",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:12:30.827340Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei Generalisierter Angststörung",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:12:30.827747Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei Generalisierter Angststörung\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Generalisierter Angststörung\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Generalisierter Angststörung\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Generalisierter Angststörung\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Generalisierter Angststörung\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei Generalisierter Angststörung",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:14:04.231718Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 10
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 12
+      }
+    },
+    "Smoke Free - Rauchen aufhören": {
+      "dtx_name": "Smoke Free - Rauchen aufhören",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:14:25.257197Z",
+      "candidates": {
+        "dtx_name": "Smoke Free - Rauchen aufhören",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:14:25.257623Z",
+        "queries": [
+          "\"Smoke Free\"",
+          "\"Smoke Free\" AND \"Rauchen aufhören\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Smoke Free\"",
+              "\"Smoke Free\" AND \"Rauchen aufhören\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 50,
+            "queries": [
+              "\"Smoke Free\"",
+              "\"Smoke Free\" AND \"Rauchen aufhören\""
+            ]
+          },
+          "drks": {
+            "total": 15,
+            "queries": [
+              "\"Smoke Free\"",
+              "\"Smoke Free\" AND \"Rauchen aufhören\""
+            ]
+          },
+          "isrctn": {
+            "total": 10,
+            "queries": [
+              "\"Smoke Free\"",
+              "\"Smoke Free\" AND \"Rauchen aufhören\""
+            ]
+          }
+        },
+        "total_candidates": 125
+      },
+      "verification": {
+        "dtx_name": "Smoke Free - Rauchen aufhören",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:17:46.159186Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50
+          },
+          "clinicaltrials": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50
+          },
+          "drks": {
+            "candidates": 15,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 14
+          },
+          "isrctn": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 124
+      }
+    },
+    "somnio": {
+      "dtx_name": "somnio",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:21:49.783008Z",
+      "candidates": {
+        "dtx_name": "somnio",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:21:49.783419Z",
+        "queries": [
+          "\"somnio\"",
+          "\"somnio\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 7,
+            "queries": [
+              "\"somnio\"",
+              "\"somnio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"somnio\"",
+              "\"somnio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 7,
+            "queries": [
+              "\"somnio\"",
+              "\"somnio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"somnio\"",
+              "\"somnio\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 14
+      },
+      "verification": {
+        "dtx_name": "somnio",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:23:05.969561Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 7,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 7
+          },
+          "drks": {
+            "candidates": 7,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 7
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 14
+      }
+    },
+    "somnovia": {
+      "dtx_name": "somnovia",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:23:52.463214Z",
+      "candidates": {
+        "dtx_name": "somnovia",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:23:52.463513Z",
+        "queries": [
+          "\"somnovia\"",
+          "\"somnovia\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"somnovia\"",
+              "\"somnovia\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"somnovia\"",
+              "\"somnovia\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"somnovia\"",
+              "\"somnovia\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"somnovia\"",
+              "\"somnovia\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "somnovia",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:24:25.155440Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 1,
+        "total_rejected": 0
+      }
+    },
+    "Una Health für Diabetes": {
+      "dtx_name": "Una Health für Diabetes",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:24:35.855197Z",
+      "candidates": {
+        "dtx_name": "Una Health für Diabetes",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:24:35.855443Z",
+        "queries": [
+          "\"Una Health\"",
+          "\"Una Health\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 13,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 63
+      },
+      "verification": {
+        "dtx_name": "Una Health für Diabetes",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:26:54.981046Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50
+          },
+          "drks": {
+            "candidates": 13,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 12
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 62
+      }
+    },
+    "Untire®": {
+      "dtx_name": "Untire®",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:28:42.541450Z",
+      "candidates": {
+        "dtx_name": "Untire®",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:28:42.541841Z",
+        "queries": [
+          "\"Untire\"",
+          "\"Untire\" AND \"Tired of Cancer\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 6,
+            "queries": [
+              "\"Untire\"",
+              "\"Untire\" AND \"Tired of Cancer\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 3,
+            "queries": [
+              "\"Untire\"",
+              "\"Untire\" AND \"Tired of Cancer\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Untire\"",
+              "\"Untire\" AND \"Tired of Cancer\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Untire\"",
+              "\"Untire\" AND \"Tired of Cancer\""
+            ]
+          }
+        },
+        "total_candidates": 11
+      },
+      "verification": {
+        "dtx_name": "Untire®",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:29:31.206796Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 6,
+            "verified_rct": 5,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 3,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 9,
+        "total_verified_rwe": 2,
+        "total_rejected": 0
+      }
+    },
+    "Uroletics": {
+      "dtx_name": "Uroletics",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:30:10.568286Z",
+      "candidates": {
+        "dtx_name": "Uroletics",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:30:10.568719Z",
+        "queries": [
+          "\"Uroletics\"",
+          "\"Uroletics\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "Uroletics",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:30:55.391160Z",
+        "sources": {
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 2,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 2,
+        "total_rejected": 0
+      }
+    },
+    "velibra": {
+      "dtx_name": "velibra",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:31:04.440329Z",
+      "candidates": {
+        "dtx_name": "velibra",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:31:04.440489Z",
+        "queries": [
+          "\"velibra\"",
+          "\"velibra\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"velibra\"",
+              "\"velibra\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"velibra\"",
+              "\"velibra\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"velibra\"",
+              "\"velibra\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 1,
+            "queries": [
+              "\"velibra\"",
+              "\"velibra\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 5
+      },
+      "verification": {
+        "dtx_name": "velibra",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:31:42.290296Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "isrctn": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 2,
+        "total_rejected": 1
+      }
+    },
+    "Vera-App für Wechseljahresbeschwerden": {
+      "dtx_name": "Vera-App für Wechseljahresbeschwerden",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:32:02.230526Z",
+      "candidates": {
+        "dtx_name": "Vera-App für Wechseljahresbeschwerden",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:32:02.231013Z",
+        "queries": [
+          "\"Vera-App\"",
+          "\"Vera-App\" AND \"App für Wechseljahresbeschwerden\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Vera-App\"",
+              "\"Vera-App\" AND \"App für Wechseljahresbeschwerden\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Vera-App\"",
+              "\"Vera-App\" AND \"App für Wechseljahresbeschwerden\""
+            ]
+          },
+          "drks": {
+            "total": 13,
+            "queries": [
+              "\"Vera-App\"",
+              "\"Vera-App\" AND \"App für Wechseljahresbeschwerden\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Vera-App\"",
+              "\"Vera-App\" AND \"App für Wechseljahresbeschwerden\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Vera-App für Wechseljahresbeschwerden",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:33:43.270770Z",
+        "sources": {
+          "drks": {
+            "candidates": 13,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 13
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 13
+      }
+    },
+    "Vitadio": {
+      "dtx_name": "Vitadio",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:34:11.372038Z",
+      "candidates": {
+        "dtx_name": "Vitadio",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:34:11.372476Z",
+        "queries": [
+          "\"Vitadio\"",
+          "\"Vitadio\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"Vitadio\"",
+              "\"Vitadio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"Vitadio\"",
+              "\"Vitadio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"Vitadio\"",
+              "\"Vitadio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Vitadio\"",
+              "\"Vitadio\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 8
+      },
+      "verification": {
+        "dtx_name": "Vitadio",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:35:02.352376Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 3,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 2,
+        "total_rejected": 2
+      }
+    },
+    "Vivira": {
+      "dtx_name": "Vivira",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:35:26.115267Z",
+      "candidates": {
+        "dtx_name": "Vivira",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:35:26.115588Z",
+        "queries": [
+          "\"Vivira\"",
+          "\"Vivira\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 15,
+            "queries": [
+              "\"Vivira\"",
+              "\"Vivira\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Vivira\"",
+              "\"Vivira\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 8,
+            "queries": [
+              "\"Vivira\"",
+              "\"Vivira\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Vivira\"",
+              "\"Vivira\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 23
+      },
+      "verification": {
+        "dtx_name": "Vivira",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:36:51.528156Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 15,
+            "verified_rct": 1,
+            "verified_rwe": 2,
+            "rejected": 12
+          },
+          "drks": {
+            "candidates": 8,
+            "verified_rct": 2,
+            "verified_rwe": 3,
+            "rejected": 3
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 5,
+        "total_rejected": 15
+      }
+    },
+    "vorvida": {
+      "dtx_name": "vorvida",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:37:46.048178Z",
+      "candidates": {
+        "dtx_name": "vorvida",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:37:46.048786Z",
+        "queries": [
+          "\"vorvida\"",
+          "\"vorvida\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"vorvida\"",
+              "\"vorvida\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"vorvida\"",
+              "\"vorvida\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"vorvida\"",
+              "\"vorvida\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"vorvida\"",
+              "\"vorvida\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "vorvida",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:38:25.133464Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "zanadio": {
+      "dtx_name": "zanadio",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:38:35.793313Z",
+      "candidates": {
+        "dtx_name": "zanadio",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:38:35.793752Z",
+        "queries": [
+          "\"zanadio\"",
+          "\"zanadio\" AND \"übermittelten Angaben\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"zanadio\"",
+              "\"zanadio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"zanadio\"",
+              "\"zanadio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"zanadio\"",
+              "\"zanadio\" AND \"übermittelten Angaben\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"zanadio\"",
+              "\"zanadio\" AND \"übermittelten Angaben\""
+            ]
+          }
+        },
+        "total_candidates": 5
+      },
+      "verification": {
+        "dtx_name": "zanadio",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:39:25.209129Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 2,
+        "total_rejected": 1
+      }
+    },
+    "actensio": {
+      "dtx_name": "actensio",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:39:43.749205Z",
+      "candidates": {
+        "dtx_name": "actensio",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:39:43.749665Z",
+        "queries": [
+          "\"actensio\"",
+          "\"actensio\" AND \"wurde am 01.10.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"actensio\"",
+              "\"actensio\" AND \"wurde am 01.10.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"actensio\"",
+              "\"actensio\" AND \"wurde am 01.10.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"actensio\"",
+              "\"actensio\" AND \"wurde am 01.10.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"actensio\"",
+              "\"actensio\" AND \"wurde am 01.10.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "actensio",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:40:29.532992Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 1
+      }
+    },
+    "CANKADO PRO-React Onco": {
+      "dtx_name": "CANKADO PRO-React Onco",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:40:39.015194Z",
+      "candidates": {
+        "dtx_name": "CANKADO PRO-React Onco",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:40:39.015597Z",
+        "queries": [
+          "\"CANKADO PRO-React Onco\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"CANKADO PRO-React Onco\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"CANKADO PRO-React Onco\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"CANKADO PRO-React Onco\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"CANKADO PRO-React Onco\""
+            ]
+          }
+        },
+        "total_candidates": 1
+      },
+      "verification": {
+        "dtx_name": "CANKADO PRO-React Onco",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:40:56.162206Z",
+        "sources": {
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 0
+      }
+    },
+    "ESYSTA App & Portal – Digitales Diabetesmanagement": {
+      "dtx_name": "ESYSTA App & Portal – Digitales Diabetesmanagement",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:41:01.738308Z",
+      "candidates": {
+        "dtx_name": "ESYSTA App & Portal – Digitales Diabetesmanagement",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:41:01.738612Z",
+        "queries": [
+          "\"ESYSTA App & Portal – Digitales Diabetesmanagement\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"ESYSTA App & Portal – Digitales Diabetesmanagement\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"ESYSTA App & Portal – Digitales Diabetesmanagement\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"ESYSTA App & Portal – Digitales Diabetesmanagement\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"ESYSTA App & Portal – Digitales Diabetesmanagement\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "ESYSTA App & Portal – Digitales Diabetesmanagement",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:41:19.130772Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0
+      }
+    },
+    "Kaia COPD: Meine aktive COPD Therapie": {
+      "dtx_name": "Kaia COPD: Meine aktive COPD Therapie",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:41:21.132813Z",
+      "candidates": {
+        "dtx_name": "Kaia COPD: Meine aktive COPD Therapie",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:41:21.132954Z",
+        "queries": [
+          "\"Kaia COPD\"",
+          "\"Kaia COPD\" AND \"Meine aktive COPD Therapie\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"Kaia COPD\"",
+              "\"Kaia COPD\" AND \"Meine aktive COPD Therapie\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"Kaia COPD\"",
+              "\"Kaia COPD\" AND \"Meine aktive COPD Therapie\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Kaia COPD\"",
+              "\"Kaia COPD\" AND \"Meine aktive COPD Therapie\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kaia COPD\"",
+              "\"Kaia COPD\" AND \"Meine aktive COPD Therapie\""
+            ]
+          }
+        },
+        "total_candidates": 7
+      },
+      "verification": {
+        "dtx_name": "Kaia COPD: Meine aktive COPD Therapie",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:42:06.000191Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 1
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 5,
+        "total_verified_rwe": 1,
+        "total_rejected": 1
+      }
+    },
+    "M-sense Migräne": {
+      "dtx_name": "M-sense Migräne",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:42:29.531482Z",
+      "candidates": {
+        "dtx_name": "M-sense Migräne",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:42:29.532195Z",
+        "queries": [
+          "\"M-sense Migräne\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"M-sense Migräne\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"M-sense Migräne\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"M-sense Migräne\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"M-sense Migräne\""
+            ]
+          }
+        },
+        "total_candidates": 11
+      },
+      "verification": {
+        "dtx_name": "M-sense Migräne",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:43:46.706956Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 9
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 9
+      }
+    },
+    "mebix": {
+      "dtx_name": "mebix",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:44:10.267838Z",
+      "candidates": {
+        "dtx_name": "mebix",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:44:10.268067Z",
+        "queries": [
+          "\"mebix\"",
+          "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 53
+      },
+      "verification": {
+        "dtx_name": "mebix",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:45:43.454534Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 48
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 0,
+            "verified_rwe": 3,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 4,
+        "total_rejected": 48
+      }
+    },
+    "Mika": {
+      "dtx_name": "Mika",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:47:35.707749Z",
+      "candidates": {
+        "dtx_name": "Mika",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:47:35.708023Z",
+        "queries": [
+          "\"Mika\"",
+          "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 4,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 6,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 62
+      },
+      "verification": {
+        "dtx_name": "Mika",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:49:33.205214Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 48
+          },
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 1
+          },
+          "isrctn": {
+            "candidates": 6,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 6
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 1,
+        "total_rejected": 57
+      }
+    },
+    "MindDoc Auf Rezept": {
+      "dtx_name": "MindDoc Auf Rezept",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:51:15.411870Z",
+      "candidates": {
+        "dtx_name": "MindDoc Auf Rezept",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:51:15.412448Z",
+        "queries": [
+          "\"MindDoc Auf Rezept\"",
+          "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "MindDoc Auf Rezept",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:52:43.353247Z",
+        "sources": {
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 10
+      }
+    },
+    "My Dose Coach": {
+      "dtx_name": "My Dose Coach",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:53:04.217412Z",
+      "candidates": {
+        "dtx_name": "My Dose Coach",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:53:04.217544Z",
+        "queries": [
+          "\"My Dose Coach\"",
+          "\"My Dose Coach\" AND \"Unknown\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          }
+        },
+        "total_candidates": 9
+      },
+      "verification": {
+        "dtx_name": "My Dose Coach",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:53:55.283906Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 2,
+            "verified_rwe": 3,
+            "rejected": 0
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 3,
+        "total_rejected": 2
+      }
+    },
+    "optimune": {
+      "dtx_name": "optimune",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:54:29.961160Z",
+      "candidates": {
+        "dtx_name": "optimune",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:54:29.961549Z",
+        "queries": [
+          "\"optimune\"",
+          "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 4,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 9
+      },
+      "verification": {
+        "dtx_name": "optimune",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:55:09.032575Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "clinicaltrials": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 5,
+        "total_verified_rwe": 0,
+        "total_rejected": 4
+      }
+    },
+    "Orthopy bei Knieverletzungen": {
+      "dtx_name": "Orthopy bei Knieverletzungen",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:55:31.705923Z",
+      "candidates": {
+        "dtx_name": "Orthopy bei Knieverletzungen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:55:31.706323Z",
+        "queries": [
+          "\"Orthopy\"",
+          "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 4,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 8
+      },
+      "verification": {
+        "dtx_name": "Orthopy bei Knieverletzungen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:56:28.688073Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 3
+          },
+          "drks": {
+            "candidates": 4,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 5
+      }
+    },
+    "re.flex": {
+      "dtx_name": "re.flex",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:56:47.946245Z",
+      "candidates": {
+        "dtx_name": "re.flex",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:56:47.946589Z",
+        "queries": [
+          "\"re.flex\"",
+          "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 8,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "re.flex",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:57:35.713340Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 8,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 6
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 7
+      }
+    },
+    "Rehappy": {
+      "dtx_name": "Rehappy",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:58:00.629875Z",
+      "candidates": {
+        "dtx_name": "Rehappy",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:58:00.630243Z",
+        "queries": [
+          "\"Rehappy\"",
+          "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 3,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen. Weitere Hinweise finden Sie hier.\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "Rehappy",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T20:58:40.527390Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 3,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 3
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 4
+      }
+    },
+    "Selfapys Online-Kurs bei chronischen Schmerzen": {
+      "dtx_name": "Selfapys Online-Kurs bei chronischen Schmerzen",
+      "country": "Germany",
+      "search_date": "2026-02-09T20:58:50.051243Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei chronischen Schmerzen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T20:58:50.051546Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei chronischen Schmerzen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T21:00:23.459075Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 11
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 13
+      }
+    },
+    "Selfapys Online-Kurs bei Panikstörung": {
+      "dtx_name": "Selfapys Online-Kurs bei Panikstörung",
+      "country": "Germany",
+      "search_date": "2026-02-09T21:00:49.445864Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei Panikstörung",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T21:00:49.446274Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei Panikstörung",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T21:18:41.431267Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 10
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 12
+      }
+    },
+    "sinCephalea - Migräneprophylaxe": {
+      "dtx_name": "sinCephalea - Migräneprophylaxe",
+      "country": "Germany",
+      "search_date": "2026-02-09T21:50:57.961774Z",
+      "candidates": {
+        "dtx_name": "sinCephalea - Migräneprophylaxe",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T21:50:57.962062Z",
+        "queries": [
+          "\"sinCephalea\"",
+          "\"sinCephalea\" AND \"Migräneprophylaxe\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 3,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          }
+        },
+        "total_candidates": 5
+      },
+      "verification": {
+        "dtx_name": "sinCephalea - Migräneprophylaxe",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T22:05:57.428584Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 3,
+            "verified_rct": 1,
+            "verified_rwe": 2,
+            "rejected": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 2,
+            "rejected": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 4,
+        "total_rejected": 0
+      }
+    },
+    "Vantis | KHK und Herzinfarkt": {
+      "dtx_name": "Vantis | KHK und Herzinfarkt",
+      "country": "Germany",
+      "search_date": "2026-02-09T22:06:14.509349Z",
+      "candidates": {
+        "dtx_name": "Vantis | KHK und Herzinfarkt",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-02-09T22:06:14.509685Z",
+        "queries": [
+          "\"Vantis | KHK und Herzinfarkt\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 34,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          }
+        },
+        "total_candidates": 36
+      },
+      "verification": {
+        "dtx_name": "Vantis | KHK und Herzinfarkt",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-02-09T22:09:52.546791Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 34,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 32
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 34
+      }
+    }
+  }
+}

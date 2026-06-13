@@ -1,0 +1,255 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02178631",
+      "orgStudyIdInfo": {
+        "id": "EVIDENTplus"
+      },
+      "organization": {
+        "fullName": "University of Luebeck",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effectiveness of Internet-based Depression Treatment (EVIDENT) in Severe Depression"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-06-25",
+      "studyFirstSubmitQcDate": "2014-06-27",
+      "studyFirstPostDateStruct": {
+        "date": "2014-07-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-05-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-05-27",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Philipp Klein",
+        "investigatorTitle": "Dr. med.",
+        "investigatorAffiliation": "University of Luebeck"
+      },
+      "leadSponsor": {
+        "name": "University of Luebeck",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Björn Meyer, Gaia AG, Hamburg, Germany / Department of Psychology, City University, London, United Kingdom",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "University of Hamburg-Eppendorf",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Bern",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Online self-help is an innovative way of providing self-help. The investigators want to study the effect of an interactive online self-help-program (Deprexis) in the treatment of severe depressive symptoms. Participants will be randomised to either twelve weeks of online-self help or a waiting-list control. Symptoms of depression and other aspects will be assessed over a six months period. The investigators hypothesise that online self-help is superior to the control condition in alleviating depressive symptoms and preventing full blown depression."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Severe Depressive Symptoms"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 163,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Deprexis",
+          "type": "EXPERIMENTAL",
+          "description": "Online self-help",
+          "interventionNames": [
+            "Behavioral: Deprexis"
+          ]
+        },
+        {
+          "label": "CAU",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Care as usual",
+          "interventionNames": [
+            "Other: CAU"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Deprexis",
+          "description": "Online self-help",
+          "armGroupLabels": [
+            "Deprexis"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "CAU",
+          "description": "Care as usual",
+          "armGroupLabels": [
+            "CAU"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Patient Health Questionnaire - 9 items (PHQ-9)",
+          "timeFrame": "Change from Baseline to post (3mths)."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Quick Inventory of Depressive Symptoms - Self-Rreport (QIDS-SR16)",
+          "timeFrame": "Baseline, post (3 mths), follow-up (6 mths)"
+        },
+        {
+          "measure": "Generalized Anxiety Disorder - 7 (GAD-7)",
+          "timeFrame": "Baseline, post (3 mths), follow-up (6 mths)"
+        },
+        {
+          "measure": "Patient Health Questionnaire - 15 items (PHQ-15)",
+          "timeFrame": "Baseline, post (3 mths), follow-up (6 mths)"
+        },
+        {
+          "measure": "Short Form Health Survey - 12 (SF-12)",
+          "timeFrame": "Baseline, post (3 mths), follow-up (6 mths)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age between 18 and 65, ability to read German, willingness to participate in a telephone diagnostic interview, achieving a score of at least 15 on the PHQ-9 in an initial screening, and providing written informed consent\n\nExclusion Criteria:\n\n* Lifetime diagnosis of schizophrenia or bipolar disorder (as determined by a telephone diagnostic interview) or current suicidality (as determined in a telephone interview)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Department of Psychiatry and Psychotherapy, University of Hamburg",
+          "city": "Hamburg",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Gaia AG",
+          "city": "Hamburg",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Department of Psychiatry and Psychotherapy, University of Luebeck",
+          "city": "Lübeck",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Department of Clinical Psychology and Psychotherapy, University of Bern",
+          "city": "Bern",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24074299",
+          "type": "BACKGROUND",
+          "citation": "Klein JP, Berger T, Schroder J, Spath C, Meyer B, Caspar F, Lutz W, Greiner W, Hautzinger M, Rose M, Grafe V, Hohagen F, Andersson G, Vettorazzi E, Moritz S. The EVIDENT-trial: protocol and rationale of a multicenter randomized controlled trial testing the effectiveness of an online-based psychological intervention. BMC Psychiatry. 2013 Sep 28;13:239. doi: 10.1186/1471-244X-13-239."
+        },
+        {
+          "pmid": "33959044",
+          "type": "DERIVED",
+          "citation": "Kaiser T, Boschloo L, Berger T, Meyer B, Spath-Nellissen C, Schroder J, Hohagen F, Moritz S, Klein JP. Maintaining Outcomes of Internet-Delivered Cognitive-Behavioral Therapy for Depression: A Network Analysis of Follow-Up Effects. Front Psychiatry. 2021 Apr 20;12:598317. doi: 10.3389/fpsyt.2021.598317. eCollection 2021."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

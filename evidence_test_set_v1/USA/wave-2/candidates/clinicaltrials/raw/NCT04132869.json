@@ -1,0 +1,315 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04132869",
+      "orgStudyIdInfo": {
+        "id": "1 ASTWH190077-01-00"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1 ASTWH190077-01-00",
+          "type": "OTHER_GRANT",
+          "domain": "Department of Health and Human Services"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Alabama at Birmingham",
+        "class": "OTHER"
+      },
+      "briefTitle": "YES! We Can PLAY: A Physical Activity and Nutrition After-School Program for Middle School Students",
+      "officialTitle": "YES! We Can PLAY: A Physical Activity and Nutrition After School Program for 6th Graders"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-01-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-14",
+      "studyFirstSubmitQcDate": "2019-10-16",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-01-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-01-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lori Bateman",
+        "investigatorTitle": "Instructor",
+        "investigatorAffiliation": "University of Alabama at Birmingham"
+      },
+      "leadSponsor": {
+        "name": "University of Alabama at Birmingham",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "The Birmingham City School System",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "YES! We can PLAY: A Physical Activity and Nutrition After-School Program for Middle School Students, is a collaborative partnership between the University of Alabama at Birmingham and the Birmingham City Schools District to decrease health disparities in obesity and obesity-related diseases by increasing physical activity levels and healthy eating behavior among Birmingham youth. Through the after-school program in which children choose from a menu of sports programming, the proposed intervention will increase physical literacy of the students through education related to both physical activity and nutrition as well as social-emotional learning which will increase students' ability to integrate the information and activities of the program into their lives moving forward.",
+      "detailedDescription": "The Physical Activity Guidelines for Americans recommend that youth engage in 60 minutes of MVPA per day, but most U.S. youth do not meet this goal. Already inadequate levels of physical activity drop still further as children transition from elementary school to middle school; during this transition sports participation and overall physical activity decrease. According to data from the Centers for Disease Control and Prevention Youth Risk Behavior Survey data from 2009, the most recent year for which Alabama data is available for middle-school students, only 30% or fewer of the responding youth reported adherence to Physical Activity Guidelines for Americans. Additional data indicates these poor health behaviors in middle school carry forward into high school. Ninth graders in Alabama report low levels of vegetable and fruit consumption, with roughly 10% of the students indicating that they had eaten no fruit or vegetables at all in the 7 days prior to the survey. In a study conducted in Birmingham, researchers found that school-based resources were the most important determinants of physical activity among youth ages 12-14. This information is particularly meaningful when placed in context with the high prevalence of sedentary behavior among Birmingham youth.\n\nBecause physical activity and sports participation decrease in the transition to middle school, interventions that provide opportunities for physical activity and sports participation for middle school students have the potential to impact the short-term and long-term health of youth. In Alabama middle schools, only 7th and 8th graders are eligible to play on Alabama High School Athletic Association (AHSAA) sports teams, leaving 6th graders who do not have access to club or recreational sports due to finances, transportation or other issues related to poverty, with few options for participating in organized sports. For students who live in neighborhoods that experience high rates of crime, informal physical activity options are rare as well. Lack of opportunities for both organized and informal physical activity may lead 6th graders to drop sports participation altogether, which could impact lifetime physical activity habits and lead to lower health status.\n\nThe school setting is a prime location for improving eating habits and increasing physical activity since schools have direct contact with the children for about eight hours a day, and out of school time programs have been shown to be a desirable environment for such intervention and can be effective in promoting higher fruit and vegetable intake, as well as increased physical activity. Currently the Birmingham City Schools District for 3rd through 5th graders. Let's Move began over 15 years ago and has evolved since. There are approximately 1300 students that participate in some of the Let's Move program components, which include 2 days per week of after-school sports programming. The program emphasizes basic skills instruction while encouraging a positive, fitness-oriented, after-school program supporting healthy lifestyles. Let's Move serves as important foundation for the organization and implementation of the proposed program as it expands the content and elevates the target audience to middle school students. Due to COVID restrictions, the YES! program will operate virtually. in out of school time. During the 2020-2021 school year the program took place virtually will after school at least 3 days per week. Once public health guidelines allowed for in person programming, participants could choose to take part in the program face-to-face at his/her school (during the school year) or at the YMCA of Birmingham's Youth Center (during the summer)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Child Obesity"
+      ],
+      "keywords": [
+        "physical activity",
+        "social emotional learning",
+        "healthy eating",
+        "sports readiness"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This research study uses a cluster randomized design who attend the intervention schools. For the control group, we will invite students from comparison schools that do not participate in the intervention.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 298,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental Group",
+          "type": "EXPERIMENTAL",
+          "description": "In Spring of 2020, all 6th graders in Wave 1 intervention schools (6 schools), which include 561 total 6th graders, will be invited to participate the intervention. Those in the experimental group will complete all measures according to the timeline. Those not in the experimental group will also complete the intervention, but will not participate in measurements. In Fall 2020 all 6th graders who attend the Wave 2 intervention schools (schools that were the control schools in Spring), will be invited to participate the intervention. Those in the experimental group will complete all measures on schedule. \\*Note these activities were delay due to schools shutting down in March 2020 because of COVID-19 In Fall 2021 all 6th graders who attend the Wave 3 intervention schools, will be invited to participate the intervention. Those in the experimental group will complete all measures on schedule.",
+          "interventionNames": [
+            "Behavioral: Sports Readiness Intervention"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "Wave 1 comparison schools (2 Schools) have a total of 267 6th graders. Students will be invited to join the comparison group. and will have measurements taken at baseline and 6 months. Wave 2 comparison schools (3 Schools) have a total of 363 6th graders adn will be invited to join the comparison group and will have measurements taken at baseline and 6 months. These students will continue with their normal activities as usual.\\*Note these activities were delay due to schools shutting down in March 2020 because of COVID-19"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Sports Readiness Intervention",
+          "description": "Sixth graders will participate in a 6 month after-school program in which each daily session will last 90 minutes, 60 minutes of which will be moderate to vigorous physical activity. Two sports tracks will be offered during each 8-week season, and children will choose which they prefer. Coaches will be trained through a one day capacity building session and will receive online training throughout the program. Coaches will integrate sports readiness/physical activity programming, nutrition and healthy eating, and social emotional learning into the program with a focus on habit formation. A text-based platform will be utilized to encourage habits learned in the active portion of the program during June and July as well as on weekends during the intervention. Parents will be sent fliers weekly summarizing concepts addressed, and will be invited to cooking classes to watch students compete.",
+          "armGroupLabels": [
+            "Experimental Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Minutes of MVPA per day - accelerometer",
+          "description": "Number of minutes of MVPA per day - recorded by accelerometer",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Minutes of MVPA per day - accelerometer",
+          "description": "Number of minutes of MVPA per day - recorded by accelerometer",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Minutes of MVPA per day - accelerometer",
+          "description": "Number of minutes of MVPA per day - recorded by accelerometer",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Fruit and Vegetable Consumption",
+          "description": "Number of servings of fruits and vegetables",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Fruit and Vegetable Consumption",
+          "description": "Number of servings of fruits and vegetables",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Fruit and Vegetable Consumption",
+          "description": "Number of servings of fruits and vegetables",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Days of Physical Activity",
+          "description": "Number of days getting 60 minutes or more of physical activity",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Days of Physical Activity",
+          "description": "Number of days getting 60 minutes or more of physical activity",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Days of Physical Activity",
+          "description": "Number of days getting 60 minutes or more of physical activity",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Sugar Sweetened Beverages",
+          "description": "Number of SSB servings per day",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Sugar Sweetened Beverages",
+          "description": "Number of SSB servings per day",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Sugar Sweetened Beverages",
+          "description": "Number of SSB servings per day",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Water",
+          "description": "Number of servings of water per day",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Water",
+          "description": "Number of servings of water per day",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Water",
+          "description": "Number of servings of water per day",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* In 6th-8th grade in targeted middle schools\n* Age 11-15 at the time of enrollment\n* Be able to attend an after school program daily\n\nExclusion Criteria:",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "11 Years",
+      "maximumAge": "15 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lori B Bateman, PhD",
+          "affiliation": "University of Alabama at Birmingham",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "The University of Alabama at Birmingham",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D063766",
+          "term": "Pediatric Obesity"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

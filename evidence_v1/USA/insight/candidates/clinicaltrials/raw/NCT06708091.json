@@ -1,0 +1,182 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06708091",
+      "orgStudyIdInfo": {
+        "id": "DIM-05762-005"
+      },
+      "organization": {
+        "fullName": "Servier",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Real-world Clinical Effectiveness and Patient Insight Associated With Adding Sodium Glucose Co-transporter 2 Inhibitor to Gliclazide Modified Release",
+      "officialTitle": "A Retrospective Chart Review Combined With a Prospective Cross-sectional Survey and Interviews on Patients With Type 2 Diabetes Mellitus to Assess Effectiveness of Adding SodiumGlucose Co-transporter 2 Inhibitor to Gliclazide Modified Release",
+      "acronym": "ADD2DIA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-05-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-05-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-11-22",
+      "studyFirstSubmitQcDate": "2024-11-26",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Servier Affaires Médicales",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study objectives are to assess over the gliclazide MR-SGLT2i combined treatment course in patients with T2DM adding SGLT2i to gliclazide MR-based therapy.\n\nThe primary objective is to determine the effectiveness of adding SGLT2i to gliclazide MR-based therapy in patients with T2DM, as measured by HbA1c changes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "keywords": [
+        "observational",
+        "HbA1c",
+        "type 2 diabetes",
+        "gliclazide MR",
+        "SGLT2i",
+        "gliclazide MR combined to SGLT2i",
+        "retrospective",
+        "chart review"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 537,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "population description",
+          "description": "adult patients with T2DM who initiated add-on SGLT2i treatment to gliclazide MR 60 mg, in routine practice"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "effectiveness of adding SGLT2i to gliclazide MR",
+          "description": "To determine the effectiveness of adding SGLT2i to gliclazide MR-based therapy in patients with T2DM, as measured by HbA1c changes (in %)",
+          "timeFrame": "from index date (date of SGLT2i adding to gliclazide MR) to discontinuation of the combination (at least 2 months) or date of data collection initiation during the eligibility period, loss to follow-up, or death, whichever occurs first (approx 2 months)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient diagnosed with T2DM for at least two years prior to index date\n* Patient aged ≥18 years at the index date\n* Patient naïve to SGLT2i prior to index date\n* Patient treated with gliclazide MR at a minimum daily dose of 60 mg at the index date\n* Starting treatment with SGLT2i added to gliclazide MR based therapy, during the eligibility period, with a minimum of 60 days of combined gliclazide MR-SGLT2i treatment\n* Presence of at least two assessments of HbA1c laboratory test results from the medical records\n\nExclusion Criteria:\n\n* Diagnosis of diabetes other than T2DM (e.g., type 1, gestational) at index date\n* Use of antidiabetic drugs other than those permitted by the inclusion criteria, at index date",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Male and female who are treated by Gliclazide MR 60 at index date and who started with SGLT2i added to gliclazide MR with a minimum of 60 days of these combined treatments during the eligibility period",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Servier Affaires Médicales",
+          "city": "Suresnes",
+          "zip": "92284",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.87143,
+            "lon": 2.22929
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41175321",
+          "type": "DERIVED",
+          "citation": "Moreira RO, Nicodemus NA Jr, Comlekci A, Yu M, Almalki MH. ADD2Dia: Real-World Clinical Effectiveness of Adding a Sodium-Glucose Cotransporter 2 Inhibitor to Gliclazide-Based Therapy in Type 2 Diabetes. Adv Ther. 2025 Dec;42(12):6295-6309. doi: 10.1007/s12325-025-03394-2. Epub 2025 Nov 1."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

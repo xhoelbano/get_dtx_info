@@ -1,0 +1,287 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04832659",
+      "orgStudyIdInfo": {
+        "id": "2021P000004/MGH"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01CA248742",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01CA248742"
+        }
+      ],
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Assessment of Biomarkers in Children to Help Parents Quit Tobacco",
+      "officialTitle": "Assessment of Biomarkers in Children to Help Parents Quit Tobacco",
+      "acronym": "ABC Quit"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-28",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-02-28",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-03-25",
+      "studyFirstSubmitQcDate": "2021-04-01",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jonathan P. Winickoff, MD, MPH",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "University of Minnesota",
+          "class": "OTHER"
+        },
+        {
+          "name": "American Academy of Pediatrics",
+          "class": "OTHER"
+        },
+        {
+          "name": "Mississippi State University",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Rochester",
+          "class": "OTHER"
+        },
+        {
+          "name": "Icahn School of Medicine at Mount Sinai",
+          "class": "OTHER"
+        },
+        {
+          "name": "MetroHealth System, Ohio",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized controlled trial will test whether adding biomarker measurement and informed outreach for tobacco smoke exposure as part of routine practice increases identification and improves treatment, effectiveness, and sustainability of a parental tobacco control intervention that will be integrated into pediatric practice.",
+      "detailedDescription": "This trial will examine the effectiveness of systematic cotinine testing of children 12 years old or younger using blood already collected at any visit to a practice that sees pediatric patients where there is a clinically indicated blood draw. We hypothesize that providing cotinine biomarker results to pediatricians, personalized cotinine feedback to parents about their child's toxin exposure, and offering support to all household tobacco users to quit tobacco use (Biomarker Informed Outreach (BIO)) when added to the Clinical Effort Against Secondhand Smoke Exposure (CEASE) intervention will increase delivery of tobacco cessation assistance, increase household cessation, reduce tobacco smoke exposure in children, and be cost-effective. This is a 2-arm randomized controlled trial with family-level randomization to either CEASE+BIO or CEASE arms at the time of the child's baseline visit. To compare the effectiveness of CEASE+BIO vs. CEASE, we will follow-up with enrolled parents 12 months later to assess parental quit rate and children's tobacco smoke exposure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tobacco Dependence"
+      ],
+      "keywords": [
+        "tobacco control",
+        "tobacco treatment",
+        "pediatrics",
+        "parents"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 865,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CEASE",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Those assigned to the Active Comparator arm will receive the CEASE intervention.",
+          "interventionNames": [
+            "Behavioral: CEASE"
+          ]
+        },
+        {
+          "label": "CEASE + BIO",
+          "type": "EXPERIMENTAL",
+          "description": "Those assigned to the Experimental CEASE + BIO arm will receive the CEASE intervention plus Biomarker Informed Outreach (BIO).",
+          "interventionNames": [
+            "Behavioral: CEASE",
+            "Behavioral: CEASE + BIO"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "CEASE",
+          "description": "The CEASE intervention is considered the accepted standard of care according to national treatment guidelines. Parents of a child scheduled to be seen at a participating pediatric practice will be provided with a brief intake survey. Office staff and clinicians will be trained how to utilize the intake survey system and how to provide evidence-based cessation assistance to parents who smoke. The brief intake survey will conduct screening to identify household smoking. The CEASE system will provide (1) Automatic documentation of smoking cessation services requested; (2) Automatically generated prescription for nicotine replacement therapy for parents who smoke (unless they opt out of receiving the prescription); (3) Automated enrollment in the state's free tobacco Quitline and the SmokeFreeTXT program, a text message program offered by the National Cancer Institute.",
+          "armGroupLabels": [
+            "CEASE",
+            "CEASE + BIO"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "CEASE + BIO",
+          "description": "Children randomized to the CEASE + BIO group will have leftover blood from an already collected blood sample that was taken for a clinically indicated blood draw analyzed for cotinine. Parents of children in the CEASE +BIO group will receive a report of biomarker results followed by proactive outreach from a BIO counselor. The BIO counselor will explain the laboratory results and refer all parents in the household who smoke to tobacco treatment through the parent's primary care provider and/or the state quitline. The BIO counselor will troubleshoot any barriers to obtaining nicotine replacement therapy that may have been prescribed as part of the CEASE protocol and will promote strict smoke-free and vape-free home and car policies. BIO counselors will conduct a maximum of 6 calls per enrolled smoker.",
+          "armGroupLabels": [
+            "CEASE + BIO"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Parental quit rate",
+          "description": "Parental 7-day point-prevalence tobacco abstinence at 12-month follow-up, biochemically confirmed (corrected for NRT use)",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Self-report parental 7-day point prevalence tobacco abstinence",
+          "description": "Self-report parental 7-day point prevalence tobacco abstinence at 12-month follow up, assessed by validated surveys of parents",
+          "timeFrame": "12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Cost per quit",
+          "description": "The cost per quit of CEASE+BIO relative to CEASE will compare favorably to other health system tobacco cessation interventions (\\< $5,000 per quit)",
+          "timeFrame": "45 months"
+        },
+        {
+          "measure": "Parental 7-day point-prevalence tobacco abstinence (corrected for NRT and e-cig use)",
+          "description": "Parental 7-day point-prevalence tobacco abstinence at 12-month follow-up, biochemically confirmed (corrected for NRT and e-cig use)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Nicotine replacement therapy prescriptions",
+          "description": "Rates of delivery of nicotine replacement therapy prescriptions, assessed by validated surveys of parents",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "SmokefreeTXT referrals",
+          "description": "Rates of referrals to the SmokefreeTXT, assessed by validated surveys of parents",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Children's tobacco smoke exposure (dual use, cotinine levels, ecig users- correlate with self report)",
+          "description": "Child's tobacco smoke exposure, assessed by child's blood cotinine level",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Child 12 years old or younger presenting for a visit.\n2. Child scheduled for or has had a clinically indicated blood draw at that visit\n3. Parent/legal guardian of the child.\n4. Parent/legal guardian is a current smoker (past 7 days).\n\nExclusion Criteria:\n\n1. Parent/legal guardian is non-English speaking.\n2. Parent/legal guardian is less than 18 years of age.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jonathan P Winickoff, MD, MPH",
+          "affiliation": "Massachusetts General Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "MetroHealth System",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The study dataset will be made publicly available with the approval the Institutional Review Board of record at Massachusetts General Hospital and Health Information Services Group (responsible for ensuring HIPPA compliance). The data will be de-identified and validated. The dataset will include a codebook that defines the variables and describes the structure of the dataset.",
+      "timeFrame": "Data will become available at the conclusion of the study, after the research findings have been published.",
+      "accessCriteria": "The dataset will be made publicly available."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014029",
+          "term": "Tobacco Use Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

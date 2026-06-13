@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05276999",
+      "orgStudyIdInfo": {
+        "id": "2021-0026"
+      },
+      "organization": {
+        "fullName": "Children's Hospital Medical Center, Cincinnati",
+        "class": "OTHER"
+      },
+      "briefTitle": "Rheumatic Heart Disease Community Streptococcal Treatment Program \"RESET\"",
+      "officialTitle": "Rheumatic Heart Disease Community Streptococcal Treatment Program \"RESET\""
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-03-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-03-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-14",
+      "studyFirstSubmitQcDate": "2022-03-02",
+      "studyFirstPostDateStruct": {
+        "date": "2022-03-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Children's Hospital Medical Center, Cincinnati",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Uganda Heart Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "Children's National Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to determine the impact of a pragmatic RHD primary prevention program in Uganda.\n\nThe secondary Objective are as follow:\n\n1. To improve guideline-based care for sore throat through frontline healthcare provider education on clinical decision rules and guideline-based primary prevention.\n2. To increase health seeking behavior for sore throat thorough a multifaceted community awareness campaign.",
+      "detailedDescription": "Our intervention is designed as a service-oriented plan to be implemented through the primary healthcare structure and facilities of both the national health and private system. Additional support will come from the education system, with participation from schools, teachers, patients, patient families, and the public. Our intervention will focus on two of the more easily rectified impediments to primary prevention, namely (1) poor uptake of guideline-based treatments for Group A Streptococcal (GAS) pharyngitis and (2) low levels of public awareness of the importance of sore throat care and treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rheumatic Heart Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Pragmatic public health study to test an integrated strep education and treatment program to reduce echo-detected burden of RHD",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 66123,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Echocardiographic Screening of school age children",
+          "type": "EXPERIMENTAL",
+          "description": "Echocardiographic screening of school age children in Tororo and Iganga districts in Uganda to measure the prevalence of RHD before and two years after the deployment of an integrated strep infection education and treatment package.",
+          "interventionNames": [
+            "Other: Healthcare provider education",
+            "Other: Community Awareness campaign"
+          ]
+        },
+        {
+          "label": "Healthcare worker knowledge",
+          "type": "EXPERIMENTAL",
+          "description": "Health care worker representatives from 101 facilities (n=101) will participate in primary educational workshops in identifying and treating GAS pharyngitis.",
+          "interventionNames": [
+            "Other: Healthcare provider education"
+          ]
+        },
+        {
+          "label": "Health seeking behavior in the community",
+          "type": "EXPERIMENTAL",
+          "description": "To increase health seeking behavior for sore throat thorough a multifaceted community awareness campaign that includes school based education, VHT lead education, education of patients seeking evaluation of sore throat at HC, and public service announcements",
+          "interventionNames": [
+            "Other: Community Awareness campaign"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Healthcare provider education",
+          "description": "Mix of training and educational activities within the district continuing medical education system targeting community health workers and frontline providers focused on the importance of sore throat and it's link to RHD, clinical guidelines to differentiate patients at high or low risk for GAS pharyngitis and guideline based care for treating GAS pharyngitis",
+          "armGroupLabels": [
+            "Echocardiographic Screening of school age children",
+            "Healthcare worker knowledge"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Community Awareness campaign",
+          "description": "A district wide public health campaign to increase community awareness of sore throat, including school based education, VHT community sensitization, education of parents and patients, radio messaging, posters, signs and billboards.",
+          "armGroupLabels": [
+            "Echocardiographic Screening of school age children",
+            "Health seeking behavior in the community"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Determination of Echocardiography prevalence of RHD among children 5-15 years old",
+          "description": "Echocardiography screening of school age children in Uganda to determine prevalence of RHD prior to and 2 years post intervention",
+          "timeFrame": "2 year endpoint"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n• Has agreed to participate in the study via the study's informed consent/assent process.\n\nExclusion Criteria:\n\n* Known history of ARF or RHD\n* Any known co-morbid conditions (HIV, renal deficiencies, severe malnutrition,\n* among others) that have resulted in prescription of regular antibiotic prophylaxis\n* Structural or functional cardiac defects, other than those consistent with RHD, that were known prior to or detected through echo screening (except patent foramen ovale, small atrial septal defect, small ventricular septal defect, small patent ductus arteriosus).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "5 Years",
+      "maximumAge": "15 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andrea Z Beaton",
+          "affiliation": "Cincinnati Chidren's hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Uganda Heart Institute",
+          "city": "Kampala",
+          "country": "Uganda",
+          "geoPoint": {
+            "lat": 0.31628,
+            "lon": 32.58219
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012214",
+          "term": "Rheumatic Heart Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012213",
+          "term": "Rheumatic Fever"
+        },
+        {
+          "id": "D013290",
+          "term": "Streptococcal Infections"
+        },
+        {
+          "id": "D016908",
+          "term": "Gram-Positive Bacterial Infections"
+        },
+        {
+          "id": "D001424",
+          "term": "Bacterial Infections"
+        },
+        {
+          "id": "D001423",
+          "term": "Bacterial Infections and Mycoses"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

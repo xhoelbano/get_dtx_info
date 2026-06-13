@@ -1,0 +1,4393 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05014672",
+      "orgStudyIdInfo": {
+        "id": "GSN000350"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-001810-13",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Calliditas Therapeutics AB",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Trial of Setanaxib in Patients With Primary Biliary Cholangitis (PBC) and Liver Stiffness",
+      "officialTitle": "TRANSFORM: A 24-week, Randomized, Placebo-controlled, Double-blind, Phase 2b Trial of Setanaxib in Patients With Primary Biliary Cholangitis (PBC) and Elevated Liver Stiffness",
+      "acronym": "TRANSFORM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-05-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-08-10",
+      "studyFirstSubmitQcDate": "2021-08-18",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-20",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-03-19",
+      "resultsFirstSubmitQcDate": "2025-04-07",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-04-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Calliditas Therapeutics Suisse SA",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to evaluate the effect of setanaxib on alkaline phosphatase (ALP) at Week 24 in participants with PBC and with elevated liver stiffness and intolerance or inadequate response to ursodeoxycholic acid (UDCA)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Primary Biliary Cholangitis",
+        "Liver Stiffness"
+      ],
+      "keywords": [
+        "Setanaxib",
+        "Primary Biliary Cholangitis",
+        "Elevated Liver Stiffness"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Placebo-controlled 1:1:1 in double blind treatment period.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Setanaxib 1200 mg/day",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.",
+          "interventionNames": [
+            "Drug: Setanaxib"
+          ]
+        },
+        {
+          "label": "Setanaxib 1600 mg/day",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.",
+          "interventionNames": [
+            "Drug: Setanaxib"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Setanaxib",
+          "description": "Oral tablets, 400mg per tablet",
+          "armGroupLabels": [
+            "Setanaxib 1200 mg/day",
+            "Setanaxib 1600 mg/day"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Oral tablets",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in ALP at Week 24 Compared to Baseline",
+          "description": "Change in ALP at Week 24 Compared to Baseline, ratio of week 24 value to baseline value.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PROMIS Short Form-Fatigue 7b Daily",
+          "description": "The Patient-Reported Outcomes Measurement Information System (PROMIS) Fatigue Short Form 7b measures the severity of fatigue since waking. There are 7 questions, each scored between 1 and 5, with a total score between 7 to 35. A higher score indicates worse fatigue. This raw score is converted to a T score (a standardized score with a mean of 50 and a SD of 10).",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the Patient's Global Impression of Severity (PGIS) Fatigue",
+          "description": "The Patient's Global Impression of Severity (PGIS)-Fatigue is a global index where subjects are asked to rate the severity of fatigue on a 5-point scale within the past 7 days, with choices of 1=None, 2=Mild, 3=Moderate, 4=Severe and 5=Very Severe. Higher scores indicate a worse assessment for fatigue.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the Patient's Global Impression of Change (PGIC) Fatigue",
+          "description": "The Patient's Global Impression of Change (PGIC)-Fatigue is a 7-point scale reflecting a subject's rating of overall improvement where subjects are asked to rate their overall improvement with fatigue with 1=Very much improved, 2=Much improved, 3=Minimally improved, 4=No change, 5=Worse, 6=Much worse, 7=Very much worse. Higher scores indicate a worse outcome for change in fatigue.",
+          "timeFrame": "Week 24"
+        },
+        {
+          "measure": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PBC-40 Questionnaire (PBC 40) Fatigue Domain",
+          "description": "PBC-40 fatigue domain includes 11 item questions, items scores range from 1 to 5. The individual item scores are summed to obtain a total domain score (Range for fatigue domain: 11 to 55), high scores represent high impact and low scores indicate low impact of PBC on the quality of life.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Liver Stiffness at Week 24 Compared to Screening",
+          "description": "Change in liver stiffness at Week 24 compared to Screening, as assessed by transient elastography (FibroScan®)",
+          "timeFrame": "Screening (Day -28) and Week 24"
+        },
+        {
+          "measure": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the Worst Itch Numerical Rating Scale (WI-NRS)",
+          "description": "WI-NRS is a daily patient-reported measure of itch intensity using an 11-point scale where 0=no itch and 10=worst itching imaginable. The WI-NRS score is calculated by averaging the daily WI-NRS scores before the visit date (inclusive). Higher scores indicate worse functioning for pruritus on the WI-NRS.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the PBC-40 Itch Domain",
+          "description": "Pruritus was assessed by answering 3 questions on the PBC-40 Itch domain from 1 to 5, which was also summed to obtain a total domain score (range 3 to 15). A high score represents a high impact, and a low score indicates low impact of pruritus on the quality of life.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the PGIS Pruritus",
+          "description": "PGIS-Pruritus is a global index where subjects are asked to rate the severity of pruritus on a 5-point scale within the past 7 days, with choices of 1=None, 2=Mild, 3=Moderate, 4=Severe and 5=Very Severe. Higher scores indicate a worse assessment for pruritus.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the PGIC Pruritus",
+          "description": "The PGIC-Pruritus is a 7-point scale reflecting a subject's rating of overall improvement where subjects are asked to rate their overall improvement with fatigue with 1=Very much improved, 2=Much improved, 3=Minimally improved, 4=No change, 5=Worse, 6=Much worse, 7=Very much worse. Higher scores indicate a worse outcome for change in pruritus.",
+          "timeFrame": "Week 24"
+        },
+        {
+          "measure": "Changes in Markers of Cholestasis at Week 24",
+          "description": "Changes in markers of cholestasis as assessed by proportion of patients at Week 24 with:\n\n* ALP reduction to \\<1.67×ULN and total bilirubin ≤1×ULN and a ≥15% or ≥30% or ≥40% or ≥70% ALP reduction from Baseline, respectively\n* ALP reduction to \\<1.5×ULN and total bilirubin ≤1×ULN and a ≥40% ALP reduction from Baseline\n* ALP \\<1×ULN and total bilirubin ≤1×ULN\n* Total bilirubin \\<0.6×ULN",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in ALP at Week 24 Compared to Baseline, Where Setanaxib Doses Are Combined",
+          "description": "Change in ALP at Week 24 Compared to Baseline, ratio of week 24 value to baseline value. Setanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PROMIS Short Form-Fatigue 7b Daily, Where Setanaxib Doses Are Combined",
+          "description": "The Patient-Reported Outcomes Measurement Information System (PROMIS) Fatigue Short Form 7b measures the severity of fatigue since waking. There are 7 questions, each scored between 1 and 5, with a total score between 7 to 35. A higher score indicates worse fatigue. This raw score is converted to a T score (a standardized score with a mean of 50 and a SD of 10).\n\nSetanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PBC-40 Questionnaire (PBC 40) Fatigue Domain, Where Setanaxib Doses Are Combined",
+          "description": "PBC-40 fatigue domain includes 11 item questions, items scores range from 1 to 5. The individual item scores are summed to obtain a total domain score (Range for fatigue domain: 11 to 55), high scores represent high impact and low scores indicate low impact of PBC on the quality of life.\n\nSetanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "timeFrame": "Baseline (Day 1) and Week 24"
+        },
+        {
+          "measure": "Change in Liver Stiffness at Week 24 Compared to Screening, Where Setanaxib Doses Are Combined",
+          "description": "Change in liver stiffness at Week 24 compared to Screening, as assessed by transient elastography (FibroScan®). Setanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "timeFrame": "Screening (Day -28) and Week 24"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female participant aged ≥18 years, inclusive at the time of informed consent.\n* Willing and able to give written informed consent and to comply with the requirements of the study.\n* Definite or probable PBC diagnosis as demonstrated by the presence of ≥2 of the following 3 diagnostic factors:\n\n  * Documented history of elevated ALP levels ≥1.67×ULN of the local reference range.\n  * Documented history of positive antimitochondrial antibodies (AMA) titer or positive PBC-specific antibodies (anti-GP210 or anti-SP100 or antibodies against the major M2 components \\[PDC-E2, 2-oxo-glutaric acid dehydrogenase complex\\]).\n  * Historical liver biopsy consistent with PBC.\n* Serum ALP ≥1.67×ULN at Screening.\n* Liver stiffness measured by transient elastography (FibroScan®) of ≥8.8 kilopascals (kPa) and an interquartile range over median ratio (IQR/med) of ≤30% at Screening, are taken with the results expressed in kilopascals).\n* Ursodeoxycholic acid (UDCA) prescriptional dose use for the past 6 months (at a stable dose for \\>3 months prior to Screening) OR intolerant to UDCA (last dose of UDCA \\>3 months prior to Screening). Intolerance to UDCA is defined as participants unable to tolerate the full-labelled dose of UDCA in PBC (13-15 mg/kg) due to frequently reported gastrointestinal symptoms such as diarrhea and abdominal pain.\n* For participants receiving obeticholic acid (OCA), fenofibrate, or bezafibrate treatment for at least 6 months and stable dose for \\>3 months prior to Screening.\n* For participants intolerant to OCA, OCA must have been discontinued \\>3 months prior to Screening.\n* For participants previously treated with bezafibrate or fenofibrate, and these agents were discontinued prior to screening, they must have been discontinued \\>3 months prior to Screening.\n* Female participants of childbearing potential must use a highly effective method of contraception to prevent pregnancy for ≥4 weeks before Randomization and must agree to continue strict contraception up to 90 days after the last dose of investigational medicinal product (IMP).\n\n  * For the purposes of this trial, women of childbearing potential are defined as \"Fertile, following menarche and until becoming postmenopausal unless permanently sterile. Permanent sterilization methods include hysterectomy, bilateral salpingectomy and bilateral oophorectomy.\"\n  * Postmenopausal state is defined as no menses for 12 months without an alternative medical cause. In female participants who are not using hormonal contraception or hormonal replacement therapy but with suspected menopause and less than 12 months of amenorrhea, a high follicle stimulating hormone (FSH) level in the postmenopausal range will be required at Screening to confirm a postmenopausal state. Confirmation with more than one FSH measurement is required.\n  * Highly effective contraception is defined as methods that can achieve a failure rate of less than 1% per year when used consistently and correctly. These methods are:\n\n    * Combined (estrogen and progestogen containing) hormonal contraception associated with inhibition of ovulation (oral, intravaginal, or transdermal)\n    * Progestogen-only hormonal contraception associated with inhibition of ovulation (oral, injectable, or implantable)\n    * Intrauterine device\n    * Intrauterine hormone-releasing system\n    * Bilateral tubal occlusion\n    * Vasectomized partner\n    * Sexual abstinence (refraining from heterosexual intercourse during the entire period of risk associate with the study treatments). The reliability of sexual abstinence needs to be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the participant. Periodic abstinence (calendar, symptothermal, post-ovulation methods), withdrawal (coitus interruptus), spermicides only, and lactational amenorrhea method are not acceptable methods of contraception. Female condom and male condom should not be used together.\n* Female participants of childbearing potential must have a negative serum pregnancy test at Screening and a negative urine pregnancy test at Baseline/Randomization before dosing.\n* Male participants with female partners of childbearing potential must be willing to use a condom and require their partner to use a highly effective contraceptive method. This requirement begins at the time of informed consent and ends 90 days after receiving the last dose of IMP.\n* Male participants must be willing not to donate sperm, and female study participants must be willing not to donate eggs, from Baseline until 90 days after the last dose of IMP.\n\nExclusion Criteria:\n\n* A positive pregnancy test or breastfeeding for female participants.\n* Any historical or current hepatic decompensation event defined as variceal/portal hypertension bleed and/or hepatic encephalopathy, spontaneous bacterial peritonitis, ascites requiring treatment, or liver transplantation list inclusion.\n* History of liver transplantation, current placement on a liver transplant list or current model for end stage liver disease (MELD) score of ≥12 unless the participant is on anticoagulant therapy, or a Child-Pugh Score of ≥6.\n* Cirrhosis with complications, including history or presence of hepatocellular carcinoma.\n* Total bilirubin \\>2×ULN. In case of total bilirubin elevation \\>ULN the Screening serum albumin must be within the reference range.\n* Plasma alanine aminotransferase (ALT) \\>3×ULN and/or aspartate aminotransferase (AST) \\>3×ULN.\n* International normalized ratio (INR) \\>1.2 unless participant is on anticoagulant therapy. One repeat blood sampling (with analysis by the central laboratory) can be performed at the discretion of the Investigator at Screening Visit 2 for participants who meet this exclusion criterion at Screening Visit 1. If this exclusion criterion is not met at Screening Visit 2, the participant may be eligible for the study.\n* Estimated glomerular filtration rate (eGFR) \\<60 mL/min/1.73 m\\^2, as calculated by the central laboratory using the chronic kidney disease-epidemiology collaboration (CKD- EPI) equation.\n* Thyroid-stimulating hormone \\>ULN at Screening. One repeat blood sampling (with analysis by the central laboratory) can be performed at the discretion of the Investigator at Screening Visit 2 for participants who meet this exclusion criterion at Screening Visit 1. If this exclusion criterion is not met at Screening Visit 2, the participant may be eligible for the study.\n* Competing etiology for liver disease (eg, hepatitis C \\[unless effectively cured of hepatitis C, with a sustained virologic response for at least 6 months prior to Screening\\], active hepatitis B \\[HBsAg positive\\], nonalcoholic steatohepatitis \\[NASH\\], alcoholic liver disease, autoimmune hepatitis, autoimmune hepatitis-PBC overlap syndrome, primary sclerosing cholangitis, Gilbert's Syndrome).\n* Medical conditions that could cause nonhepatic increases in ALP (eg, Paget's disease).\n* Known history of human immunodeficiency virus (HIV) infection.\n* Surgery (eg, stomach bypass) or medical condition that might significantly affect absorption of medicines (as judged by the Investigator).\n* Positive urine drug screen (if not due to prescriptional use of a concomitant medication, as confirmed by the Investigator) at Screening. Participants on stable methadone or buprenorphine maintenance treatment for at least 6 months prior to Screening Visit 1 may be included in the study. Medicinal cannabis and cannabidiol products are not exclusionary and may be allowed if the prescription and diagnosis are reviewed and approved by the Investigator.\n* Participants receiving prohibited medications within 3 months of Screening Visit 1.\n* Treatment with any investigational agent within 12 weeks of Screening Visit 1 or 5 half-lives of the IMP (if known) (whichever is longer) or current enrollment in an interventional clinical trial.\n* Evidence of any of the following cardiac conduction abnormalities: A QTc Fridericia interval \\>450 milliseconds for males or \\>470 milliseconds for females, as calculated by the central reader. Participants with a second- or third-degree atrioventricular block are to be excluded.\n* History of a malignancy within 5 years of Screening with the following exceptions:\n\n  * Adequately treated carcinoma in situ of the cervix.\n  * Adequately treated basal or squamous cell cancer or other localized nonmelanoma skin cancer.\n* The occurrence of any acute infection requiring systemic antibiotic therapy within the 2 weeks prior to Screening Visit 1.\n* A history of bone marrow disorder including aplastic anemia, or any current marked anemia defined as hemoglobin \\<10.0 g/dL.\n* Prior treatment with setanaxib or participation in a previous setanaxib clinical trial.\n* Unstable cardiovascular disease.\n* Presence of any laboratory abnormality or condition that, in the opinion of the Investigator, could interfere with or compromise a participant's treatment, assessment, or compliance with the protocol and/or study procedures.\n* Any other condition which, in the opinion of the Investigator, constitutes a risk or contraindication for the participation of the participant in the study, or that could interfere with the study objectives, conduct, or evaluation.\n* Hypersensitivity or intolerance to setanaxib or to any of its excipients or placebo compounds.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "UA Thomas D. Boyer Liver Institute",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "California Liver Research Institute",
+          "city": "Pasadena",
+          "state": "California",
+          "zip": "91105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14778,
+            "lon": -118.14452
+          }
+        },
+        {
+          "facility": "University of California Davis Medical Center",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Gastroenterology Associates - Crystal River",
+          "city": "Inverness",
+          "state": "Florida",
+          "zip": "34452",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.83582,
+            "lon": -82.33037
+          }
+        },
+        {
+          "facility": "University of Miami Leonard M. Miller School of Medicine",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "AdventHealth Transplant Institute",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32804",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Advanced Research Institute, Inc.",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32825",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Tampa General Hospital",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Northwestern University",
+          "city": "Evanston",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.04114,
+            "lon": -87.69006
+          }
+        },
+        {
+          "facility": "Springfield Clinic",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62794-9248",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "University of Iowa Hospitals and Clinics",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "52242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        },
+        {
+          "facility": "Kansas Medical Clinic - Gastroenterology",
+          "city": "Topeka",
+          "state": "Kansas",
+          "zip": "66606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.04833,
+            "lon": -95.67804
+          }
+        },
+        {
+          "facility": "Tulane Medical Center",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "A. Alfred Taubman Health Care Center",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Henry Ford Hospital",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Summit - Southern Therapy and Advanced Research",
+          "city": "Jackson",
+          "state": "Mississippi",
+          "zip": "39216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          }
+        },
+        {
+          "facility": "Northwell Health",
+          "city": "Manhasset",
+          "state": "New York",
+          "zip": "11030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          }
+        },
+        {
+          "facility": "New York University Hepatology Associates",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Wake Forest University Baptist Medical Center",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "University of Cincinnati",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45267-0595",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Einstein Medical Center",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Rapid City Medical Center",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "Vanderbilt Digestive Disease Center",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Liver Specialists of Texas",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Pioneer Research Solutions",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77099",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Utah Hospital",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84132",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Froedtert and Medical College of Wisconsin",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Royal Prince Alfred Hospital",
+          "city": "Camperdown",
+          "state": "New South Wales",
+          "zip": "2050",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "John Hunter Hospital",
+          "city": "New Lambton Heights",
+          "state": "New South Wales",
+          "zip": "2305",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.92466,
+            "lon": 151.69364
+          }
+        },
+        {
+          "facility": "Mater Misericordiae - Hospital Brisbane",
+          "city": "South Brisbane",
+          "state": "Queensland",
+          "zip": "4101",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48034,
+            "lon": 153.02049
+          }
+        },
+        {
+          "facility": "Flinders Medical Centre",
+          "city": "Bedford Park",
+          "state": "South Australia",
+          "zip": "5042",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.02204,
+            "lon": 138.56815
+          }
+        },
+        {
+          "facility": "Eastern Health - Australia",
+          "city": "Box Hill",
+          "state": "Victoria",
+          "zip": "3128",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.81887,
+            "lon": 145.12545
+          }
+        },
+        {
+          "facility": "Monash Medical Centre",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Fiona Stanley Hospital",
+          "city": "Murdoch",
+          "state": "Western Australia",
+          "zip": "6150",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.06987,
+            "lon": 115.83757
+          }
+        },
+        {
+          "facility": "Nepean Hospital",
+          "city": "Kingswood",
+          "zip": "2747",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.75614,
+            "lon": 150.72346
+          }
+        },
+        {
+          "facility": "Liverpool Hospital",
+          "city": "Liverpool",
+          "zip": "2170",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.91938,
+            "lon": 150.92588
+          }
+        },
+        {
+          "facility": "The Alfred Hospital",
+          "city": "Melbourne",
+          "zip": "3004",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Graz - Universitätsklinik für Innere Medizin",
+          "city": "Graz",
+          "state": "Styria",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Medizinische Universität Innsbruck",
+          "city": "Innsbruck",
+          "state": "Tyrol",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Ordensklinikum Linz GmbH Barmherzige Schwestern",
+          "city": "Linz",
+          "state": "Upper Austria",
+          "zip": "4010",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Klinikum Wels-Grieskirchen",
+          "city": "Wels",
+          "state": "Upper Austria",
+          "zip": "4600",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.16667,
+            "lon": 14.03333
+          }
+        },
+        {
+          "facility": "Hôpital Erasme",
+          "city": "Brussels",
+          "state": "Brussels Capital",
+          "zip": "1070",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire Brugmann - Site Victor Horta",
+          "city": "Laken",
+          "state": "Brussels Capital",
+          "zip": "1020",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87585,
+            "lon": 4.34844
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Leuven - Campus Gasthuisberg",
+          "city": "Leuven",
+          "state": "Flemish Brabant",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Gent",
+          "city": "Ghent",
+          "state": "Oost-Vlaanderen",
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "University of Calgary",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N 4Z6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "Queen Elizabeth II Health Sciences Centre - Victoria General",
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "zip": "B3H 3A7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "facility": "St. Joseph's Healthcare Hamilton - Charlton Campus",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8N 4A6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Centricity Research (LMC Manna Research) - London",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 2C2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Office Of Stephane M. Gauthier",
+          "city": "North Bay",
+          "state": "Ontario",
+          "zip": "P1B 2H3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.3168,
+            "lon": -79.46633
+          }
+        },
+        {
+          "facility": "Toronto Liver Center",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M6H 3M1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de l'Université de Montréal (CHUM)",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 3J4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "William Osler Health System - Brampton Civic Hospital",
+          "city": "Brampton",
+          "zip": "L6R 3J7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.68341,
+            "lon": -79.76633
+          }
+        },
+        {
+          "facility": "Ústřední Vojenská Nemocnice Praha",
+          "city": "Prague",
+          "state": "Prague",
+          "zip": "169 02",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Hepato-Gastroenterologie HK",
+          "city": "Hradec Králové",
+          "zip": "500 12",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.20923,
+            "lon": 15.83277
+          }
+        },
+        {
+          "facility": "Hôpital de la Croix Rousse",
+          "city": "Lyon",
+          "state": "Auvergne-Rhône-Alpes",
+          "zip": "69317",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Hôpital Claude Huriez",
+          "city": "Lille",
+          "state": "Hauts-de-France",
+          "zip": "59037",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire Grenoble Alpes",
+          "city": "Grenoble",
+          "state": "Isère",
+          "zip": "38043",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Hopital Dupuytren",
+          "city": "Limoges",
+          "state": "Limousin",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Hôpitaux de Brabois",
+          "city": "Vandœuvre-lès-Nancy",
+          "state": "Lorraine",
+          "zip": "54511",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        },
+        {
+          "facility": "Hôpital Rangueil",
+          "city": "Toulouse",
+          "state": "Occitanie",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Clinique Pasteur - Toulouse",
+          "city": "Toulouse",
+          "state": "Occitanie",
+          "zip": "31076",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Centre Hosptitalier Universitaire d'Angers",
+          "city": "Angers",
+          "state": "Pays de la Loire Region",
+          "zip": "49 933",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire Amiens-Picardie - Site Sud",
+          "city": "Amiens",
+          "state": "Picardie",
+          "zip": "80054",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.9,
+            "lon": 2.3
+          }
+        },
+        {
+          "facility": "Hôpital Claude Huriez",
+          "city": "Lille",
+          "zip": "59037",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Hôpital Saint Joseph Marseille",
+          "city": "Marseille",
+          "zip": "13008",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Hôpital l'Archet",
+          "city": "Nice",
+          "zip": "06202",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Hôpital Saint-Antoine",
+          "city": "Paris",
+          "zip": "75012",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpitaux Universitaires Henri Mondor",
+          "city": "Créteil",
+          "state": "Île-de-France Region",
+          "zip": "94000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Klinikum rechts der Isar der Technischen Universität München",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "81675",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Frankfurt",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "60590",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "St. Josefs-Hospital Wiesbaden",
+          "city": "Wiesbaden",
+          "state": "Hesse",
+          "zip": "65189",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.08601,
+            "lon": 8.24435
+          }
+        },
+        {
+          "facility": "Medizinische Hochschule Hannover",
+          "city": "Hanover",
+          "state": "Lower Saxony",
+          "zip": "30625",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "Eugastro",
+          "city": "Leipzig",
+          "state": "Saxony",
+          "zip": "04103",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Universitätsklinikum des Saarlandes",
+          "city": "Homburg",
+          "zip": "66421",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "facility": "University General Hospital of Heraklion (PAGNI)",
+          "city": "Heraklion",
+          "zip": "71110",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 35.32787,
+            "lon": 25.14341
+          }
+        },
+        {
+          "facility": "University General Hospital of Larissa",
+          "city": "Larissa",
+          "zip": "41110",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "Semmelweis Egyetem - I. Sz. Sebészeti és Intervenciós Gasztroenterológiai Klinika",
+          "city": "Budapest",
+          "zip": "1082",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Carmel Medical Center",
+          "city": "Haifa",
+          "state": "Haifa District",
+          "zip": "3436212",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Western Galilee Hospital-Nahariya",
+          "city": "Nahariya",
+          "state": "Northern District",
+          "zip": "22100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 33.00892,
+            "lon": 35.09814
+          }
+        },
+        {
+          "facility": "Soroka Medical Center",
+          "city": "Beersheba",
+          "state": "Southern District",
+          "zip": "84101",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.25181,
+            "lon": 34.7913
+          }
+        },
+        {
+          "facility": "Rabin Medical Center - Beilinson Hospital",
+          "city": "Petah Tikva",
+          "state": "Tel Aviv",
+          "zip": "4941492",
+          "country": "Israel"
+        },
+        {
+          "facility": "Rambam Health Care Campus",
+          "city": "Haifa",
+          "zip": "3109601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Hadassah University Hospital Ein Kerem",
+          "city": "Jerusalem",
+          "zip": "9112001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Tel Aviv Sourasky Medical Center",
+          "city": "Tel Aviv",
+          "zip": "64239",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Ospedale San Giuseppe",
+          "city": "Milan",
+          "state": "Milano",
+          "zip": "20123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) - Istituto Clinico Humanitas",
+          "city": "Rozzano",
+          "state": "Milan",
+          "zip": "20089",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Azienda Socio Sanitaria Territoriale Monza - Ospedale San Gerardo",
+          "city": "Monza",
+          "state": "Monza and Brianza",
+          "zip": "20900",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria Ospedali Riuniti di Ancona",
+          "city": "Ancona",
+          "zip": "60020",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.60717,
+            "lon": 13.5103
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria Policlinico Gaetano Martino",
+          "city": "Messina",
+          "zip": "98124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          }
+        },
+        {
+          "facility": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+          "city": "Milan",
+          "zip": "20122",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Università degli Studi di Napoli Federico II",
+          "city": "Napoli",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.87618,
+            "lon": 14.5195
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria Maggiore della Carità di Novara",
+          "city": "Novara",
+          "zip": "28100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          }
+        },
+        {
+          "facility": "Auckland City Hospital",
+          "city": "Grafton",
+          "state": "Auckland",
+          "zip": "1023",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -36.86029,
+            "lon": 174.76566
+          }
+        },
+        {
+          "facility": "Wellington Regional Hospital",
+          "city": "Crofton Downs",
+          "state": "Wellington Region",
+          "zip": "6021",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -41.25729,
+            "lon": 174.76218
+          }
+        },
+        {
+          "facility": "Dunedin Hospital",
+          "city": "Dunedin",
+          "zip": "9016",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -45.87416,
+            "lon": 170.50361
+          }
+        },
+        {
+          "facility": "Waikato Hospital",
+          "city": "Hamilton",
+          "zip": "3240",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 175.28333
+          }
+        },
+        {
+          "facility": "Szpital Specjalistyczny Nr 1 w Bytomiu",
+          "city": "Bytom",
+          "zip": "41-902",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.34802,
+            "lon": 18.93282
+          }
+        },
+        {
+          "facility": "ID Clinic",
+          "city": "Mysłowice",
+          "zip": "41-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.20745,
+            "lon": 19.16668
+          }
+        },
+        {
+          "facility": "Centrum Badań Klinicznych Piotr Napora Lekarze Sp. p.",
+          "city": "Wroclaw",
+          "zip": "51-162",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Hospital Germans Trias i Pujol",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital de Sabadell",
+          "city": "Sabadell",
+          "state": "Barcelona",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Canarias",
+          "city": "San Cristóbal de La Laguna",
+          "state": "Santa Cruz De Tenerife",
+          "zip": "38320",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.4853,
+            "lon": -16.32014
+          }
+        },
+        {
+          "facility": "Hospital General Universitari d'Alicante",
+          "city": "Alicante",
+          "zip": "03010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario Torrecárdenas",
+          "city": "Almería",
+          "zip": "04009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.83814,
+            "lon": -2.45974
+          }
+        },
+        {
+          "facility": "Hospital del Mar - Parc de Salut Mar",
+          "city": "Barcelona",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clínic de Barcelona",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Reina Sofía",
+          "city": "Córdoba",
+          "zip": "14004",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.89155,
+            "lon": -4.77275
+          }
+        },
+        {
+          "facility": "Hospital Universitario de La Princesa",
+          "city": "Madrid",
+          "zip": "28006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital General Universitario Gregorio Marañón",
+          "city": "Madrid",
+          "zip": "28007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Paz",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de la Victoria",
+          "city": "Málaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Clínico Universitario de Santiago",
+          "city": "Santiago",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.9358,
+            "lon": -4.13866
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen del Rocío",
+          "city": "Seville",
+          "zip": "41011",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Consorci Hospital General Universitari de València",
+          "city": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Universitario Miguel Servet",
+          "city": "Zaragoza",
+          "zip": "50009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        },
+        {
+          "facility": "Akademiska Sjukhuset - Uppsala",
+          "city": "Uppsala",
+          "zip": "751 85",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        },
+        {
+          "facility": "Fondazione Epatocentro Ticino",
+          "city": "Lugano",
+          "state": "Canton Ticino",
+          "zip": "6900",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.01008,
+            "lon": 8.96004
+          }
+        },
+        {
+          "facility": "Kantonsspital Sankt Gallen",
+          "city": "Sankt Gallen",
+          "zip": "9007",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "Gloucestershire Hospitals NHS Foundation Trust",
+          "city": "Gloucester",
+          "state": "England",
+          "zip": "GL1 3NN",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.86568,
+            "lon": -2.2431
+          }
+        },
+        {
+          "facility": "King's College Hospital NHS Foundation Trust",
+          "city": "London",
+          "state": "England",
+          "zip": "SE5 9RS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "The Newcastle Upon Tyne Hospitals NHS Foundation Trust",
+          "city": "Newcastle upon Tyne",
+          "state": "England",
+          "zip": "NE7 7DN",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.97328,
+            "lon": -1.61396
+          }
+        },
+        {
+          "facility": "Nottingham University Hospitals NHS Trust",
+          "city": "Nottingham",
+          "state": "England",
+          "zip": "NG7 2UH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.9536,
+            "lon": -1.15047
+          }
+        },
+        {
+          "facility": "Sheffield Teaching Hospitals NHS Foundation Trust",
+          "city": "Sheffield",
+          "state": "England",
+          "zip": "S10 2JF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.38297,
+            "lon": -1.4659
+          }
+        },
+        {
+          "facility": "University Hospital Southampton NHS Foundation Trust",
+          "city": "Southampton",
+          "state": "England",
+          "zip": "SO16 6YD",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.90395,
+            "lon": -1.40428
+          }
+        },
+        {
+          "facility": "NHS Greater Glasgow and Clyde",
+          "city": "Glasgow",
+          "state": "Scotland",
+          "zip": "G4 0SF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Setanaxib 1200 mg/Day",
+          "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+        },
+        {
+          "id": "FG001",
+          "title": "Setanaxib 1600 mg/Day",
+          "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+        },
+        {
+          "id": "FG002",
+          "title": "Placebo",
+          "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "17"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "23"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Setanaxib 1200 mg/Day",
+          "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+        },
+        {
+          "id": "BG001",
+          "title": "Setanaxib 1600 mg/Day",
+          "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+        },
+        {
+          "id": "BG002",
+          "title": "Placebo",
+          "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "24"
+            },
+            {
+              "groupId": "BG001",
+              "value": "25"
+            },
+            {
+              "groupId": "BG002",
+              "value": "27"
+            },
+            {
+              "groupId": "BG003",
+              "value": "76"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "61"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "71"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Race",
+              "categories": [
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "65"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Ethnicity",
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "63"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Randomised Screening serum ALP strata",
+          "description": "ALP=alkaline phosphatase; ULN=upper limit of normal",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "< 3.0 × ULN",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "54"
+                    }
+                  ]
+                },
+                {
+                  "title": "≥ 3.0 × ULN",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in ALP at Week 24 Compared to Baseline",
+          "description": "Change in ALP at Week 24 Compared to Baseline, ratio of week 24 value to baseline value.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.89",
+                      "lowerLimit": "0.802",
+                      "upperLimit": "0.988"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.84",
+                      "lowerLimit": "0.758",
+                      "upperLimit": "0.931"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1.03",
+                      "lowerLimit": "0.936",
+                      "upperLimit": "1.141"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0206",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "Ratio of geometric LS mean vs placebo",
+              "paramValue": "0.86",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.746",
+              "ciUpperLimit": "0.994"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0057",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "Ratio of geometric LS mean vs placebo",
+              "paramValue": "0.81",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.703",
+              "ciUpperLimit": "0.939"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PROMIS Short Form-Fatigue 7b Daily",
+          "description": "The Patient-Reported Outcomes Measurement Information System (PROMIS) Fatigue Short Form 7b measures the severity of fatigue since waking. There are 7 questions, each scored between 1 and 5, with a total score between 7 to 35. A higher score indicates worse fatigue. This raw score is converted to a T score (a standardized score with a mean of 50 and a SD of 10).",
+          "populationDescription": "Full Analysis Set. This questionnaire was introduced after protocol version 1.0, so patients enrolled under protocol version 1.0 do not have a baseline value and are excluded from the number of participants analyzed.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "T-scores",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.60",
+                      "lowerLimit": "-7.625",
+                      "upperLimit": "0.429"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.80",
+                      "lowerLimit": "-4.679",
+                      "upperLimit": "3.072"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-1.43",
+                      "lowerLimit": "-5.331",
+                      "upperLimit": "2.461"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.2214",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "LS mean difference vs placebo",
+              "paramValue": "-2.16",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-7.785",
+              "ciUpperLimit": "3.458"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5910",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "LS mean difference vs placebo",
+              "paramValue": "0.63",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-4.859",
+              "ciUpperLimit": "6.120"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the Patient's Global Impression of Severity (PGIS) Fatigue",
+          "description": "The Patient's Global Impression of Severity (PGIS)-Fatigue is a global index where subjects are asked to rate the severity of fatigue on a 5-point scale within the past 7 days, with choices of 1=None, 2=Mild, 3=Moderate, 4=Severe and 5=Very Severe. Higher scores indicate a worse assessment for fatigue.",
+          "populationDescription": "Full Analysis Set subjects who have both non-missing baseline and Week 24 results",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.07",
+                      "spread": "0.730"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.12",
+                      "spread": "0.857"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.22",
+                      "spread": "1.003"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the Patient's Global Impression of Change (PGIC) Fatigue",
+          "description": "The Patient's Global Impression of Change (PGIC)-Fatigue is a 7-point scale reflecting a subject's rating of overall improvement where subjects are asked to rate their overall improvement with fatigue with 1=Very much improved, 2=Much improved, 3=Minimally improved, 4=No change, 5=Worse, 6=Much worse, 7=Very much worse. Higher scores indicate a worse outcome for change in fatigue.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "19"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.27",
+                      "spread": "1.534"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.62",
+                      "spread": "1.564"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3.58",
+                      "spread": "1.427"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PBC-40 Questionnaire (PBC 40) Fatigue Domain",
+          "description": "PBC-40 fatigue domain includes 11 item questions, items scores range from 1 to 5. The individual item scores are summed to obtain a total domain score (Range for fatigue domain: 11 to 55), high scores represent high impact and low scores indicate low impact of PBC on the quality of life.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.44",
+                      "lowerLimit": "-4.919",
+                      "upperLimit": "2.048"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.83",
+                      "lowerLimit": "-5.361",
+                      "upperLimit": "1.699"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-1.85",
+                      "lowerLimit": "-5.217",
+                      "upperLimit": "1.515"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5675",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "LS mean difference vs placebo",
+              "paramValue": "0.42",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-4.454",
+              "ciUpperLimit": "5.285"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5032",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "LS mean difference vs placebo",
+              "paramValue": "0.02",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-4.886",
+              "ciUpperLimit": "4.926"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Liver Stiffness at Week 24 Compared to Screening",
+          "description": "Change in liver stiffness at Week 24 compared to Screening, as assessed by transient elastography (FibroScan®)",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Screening (Day -28) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.78",
+                      "lowerLimit": "0.672",
+                      "upperLimit": "0.906"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.88",
+                      "lowerLimit": "0.764",
+                      "upperLimit": "1.012"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0.92",
+                      "lowerLimit": "0.808",
+                      "upperLimit": "1.055"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0491",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "Ratio of geometric LS mean vs placebo",
+              "paramValue": "0.85",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.692",
+              "ciUpperLimit": "1.033"
+            },
+            {
+              "groupIds": [
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3099",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "Ratio of geometric LS mean vs placebo",
+              "paramValue": "0.95",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.783",
+              "ciUpperLimit": "1.158"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the Worst Itch Numerical Rating Scale (WI-NRS)",
+          "description": "WI-NRS is a daily patient-reported measure of itch intensity using an 11-point scale where 0=no itch and 10=worst itching imaginable. The WI-NRS score is calculated by averaging the daily WI-NRS scores before the visit date (inclusive). Higher scores indicate worse functioning for pruritus on the WI-NRS.",
+          "populationDescription": "Full Analysis Set subjects who have both non-missing baseline and Week 24 results",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "13"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.23",
+                      "spread": "2.280"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.61",
+                      "spread": "1.391"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.56",
+                      "spread": "2.268"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the PBC-40 Itch Domain",
+          "description": "Pruritus was assessed by answering 3 questions on the PBC-40 Itch domain from 1 to 5, which was also summed to obtain a total domain score (range 3 to 15). A high score represents a high impact, and a low score indicates low impact of pruritus on the quality of life.",
+          "populationDescription": "Full Analysis Set subjects who have both non-missing baseline and Week 24 results",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.11",
+                      "spread": "2.111"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.32",
+                      "spread": "2.647"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.70",
+                      "spread": "3.114"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the PGIS Pruritus",
+          "description": "PGIS-Pruritus is a global index where subjects are asked to rate the severity of pruritus on a 5-point scale within the past 7 days, with choices of 1=None, 2=Mild, 3=Moderate, 4=Severe and 5=Very Severe. Higher scores indicate a worse assessment for pruritus.",
+          "populationDescription": "Full Analysis Set subjects who have both non-missing baseline and Week 24 results",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.50",
+                      "spread": "0.941"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.25",
+                      "spread": "0.775"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-0.11",
+                      "spread": "0.758"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Pruritus at Week 24 Compared to Baseline, as Assessed by the PGIC Pruritus",
+          "description": "The PGIC-Pruritus is a 7-point scale reflecting a subject's rating of overall improvement where subjects are asked to rate their overall improvement with fatigue with 1=Very much improved, 2=Much improved, 3=Minimally improved, 4=No change, 5=Worse, 6=Much worse, 7=Very much worse. Higher scores indicate a worse outcome for change in pruritus.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "19"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.73",
+                      "spread": "1.751"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.38",
+                      "spread": "1.244"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "3.37",
+                      "spread": "1.535"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Changes in Markers of Cholestasis at Week 24",
+          "description": "Changes in markers of cholestasis as assessed by proportion of patients at Week 24 with:\n\n* ALP reduction to \\<1.67×ULN and total bilirubin ≤1×ULN and a ≥15% or ≥30% or ≥40% or ≥70% ALP reduction from Baseline, respectively\n* ALP reduction to \\<1.5×ULN and total bilirubin ≤1×ULN and a ≥40% ALP reduction from Baseline\n* ALP \\<1×ULN and total bilirubin ≤1×ULN\n* Total bilirubin \\<0.6×ULN",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib 1200 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Setanaxib 1600 mg/Day",
+              "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "ALP <1.67×ULN and Total Bilirubin ≤1×ULN and ≥15% ALP Reduction from Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ALP <1.67×ULN and Total Bilirubin ≤1×ULN and ≥30% ALP Reduction from Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ALP <1.67×ULN and Total Bilirubin ≤1×ULN and ≥40% ALP Reduction from Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ALP <1.67×ULN and Total Bilirubin ≤1×ULN and ≥70% ALP Reduction from Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ALP <1.50×ULN and Total Bilirubin ≤1×ULN and ≥40% ALP Reduction from Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ALP <1.00×ULN and Total Bilirubin ≤1×ULN",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Total bilirubin <0.6×ULN",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in ALP at Week 24 Compared to Baseline, Where Setanaxib Doses Are Combined",
+          "description": "Change in ALP at Week 24 Compared to Baseline, ratio of week 24 value to baseline value. Setanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib Doses Combined",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day or 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "49"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.87",
+                      "lowerLimit": "0.804",
+                      "upperLimit": "0.931"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.03",
+                      "lowerLimit": "0.930",
+                      "upperLimit": "1.135"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.0039",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "Ratio of geometric LS mean vs placebo",
+              "paramValue": "0.84",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.743",
+              "ciUpperLimit": "0.954"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PROMIS Short Form-Fatigue 7b Daily, Where Setanaxib Doses Are Combined",
+          "description": "The Patient-Reported Outcomes Measurement Information System (PROMIS) Fatigue Short Form 7b measures the severity of fatigue since waking. There are 7 questions, each scored between 1 and 5, with a total score between 7 to 35. A higher score indicates worse fatigue. This raw score is converted to a T score (a standardized score with a mean of 50 and a SD of 10).\n\nSetanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "populationDescription": "Full Analysis Set. This questionnaire was introduced after protocol version 1.0, so patients enrolled under protocol version 1.0 do not have a baseline value and are excluded from the number of participants analyzed.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "T-scores",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib Doses Combined",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day or 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.12",
+                      "lowerLimit": "-4.925",
+                      "upperLimit": "0.678"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.45",
+                      "lowerLimit": "-5.372",
+                      "upperLimit": "2.467"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.3905",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "LS mean difference vs placebo",
+              "paramValue": "0.3905",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-5.496",
+              "ciUpperLimit": "4.153"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fatigue at Week 24 Compared to Baseline, as Assessed by the PBC-40 Questionnaire (PBC 40) Fatigue Domain, Where Setanaxib Doses Are Combined",
+          "description": "PBC-40 fatigue domain includes 11 item questions, items scores range from 1 to 5. The individual item scores are summed to obtain a total domain score (Range for fatigue domain: 11 to 55), high scores represent high impact and low scores indicate low impact of PBC on the quality of life.\n\nSetanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline (Day 1) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib Doses Combined",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day or 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.64",
+                      "lowerLimit": "-4.096",
+                      "upperLimit": "0.826"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.84",
+                      "lowerLimit": "-5.176",
+                      "upperLimit": "1.492"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.5393",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "LS mean difference vs placebo",
+              "paramValue": "0.21",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-3.968",
+              "ciUpperLimit": "4.381"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Liver Stiffness at Week 24 Compared to Screening, Where Setanaxib Doses Are Combined",
+          "description": "Change in liver stiffness at Week 24 compared to Screening, as assessed by transient elastography (FibroScan®). Setanaxib doses are combined and the change from baseline is estimated using a mixed model-repeated measures approach with fixed factors for treatment, visit, log(baseline), treatment\\*visit, and log(baseline)\\*visit, subject is included as a random effect. The variance-covariance matrix is therefore not the same as in the three arm analysis, which causes treatment effects estimated in the placebo to group differ from those estimated in the analysis with three treatment arms.",
+          "populationDescription": "Full Analysis Set",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Screening (Day -28) and Week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Setanaxib Doses Combined",
+              "description": "Participants will be administered setanaxib at a dose of 1200 mg/day or 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "49"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.83",
+                      "lowerLimit": "0.750",
+                      "upperLimit": "0.921"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.92",
+                      "lowerLimit": "0.809",
+                      "upperLimit": "1.056"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.1079",
+              "statisticalMethod": "Mixed Model Repeated Measures",
+              "paramType": "Ratio of geometric LS mean vs placebo",
+              "paramValue": "0.90",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.759",
+              "ciUpperLimit": "1.065"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Reporting of adverse events began when the participant had provided informed consent and continued up to 30 days after the last IMP administration, which is in total a period of up to 32 weeks. AEs that occur, having been absent before the date and time of the first dose of the IMP, or have worsened in severity or seriousness after initiating the IMP until 30 days after the date and time of last dose of IMP will be classified as treatment-emergent AEs (TEAEs).",
+      "description": "Treatment-emergent SAEs are listed on ClinicalTrials.gov.\n\nOne participant who received 1200 mg/day while randomised to placebo was evaluated in the 1200 mg/day treatment group for the Safety Analysis Set.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Setanaxib 1200 mg/Day",
+          "description": "Participants will be administered setanaxib at a dose of 1200 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 14,
+          "otherNumAtRisk": 25
+        },
+        {
+          "id": "EG001",
+          "title": "Setanaxib 1600 mg/Day",
+          "description": "Participants will be administered setanaxib at a dose of 1600 mg/day for the 24-week double-blind treatment period.\n\nSetanaxib: Oral tablets, 400mg per tablet",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 18,
+          "otherNumAtRisk": 25
+        },
+        {
+          "id": "EG002",
+          "title": "Placebo",
+          "description": "Participants will be administered a placebo for the 24-week double-blind treatment period.\n\nPlacebo: Oral tablets",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 26,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 26,
+          "otherNumAffected": 17,
+          "otherNumAtRisk": 26
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Drug-induced liver injury",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Myocarditis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Pancreatitis acute",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Electrocardiogram QT prolonged",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Folate deficiency",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Iron deficiency",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Oligoarthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Chronic obstructive pulmonary disease",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Hypertensive urgency",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 26
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Influenza",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Gastroenteritis viral",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Fall",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Drug-induced liver injury",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 26
+            }
+          ]
+        },
+        {
+          "term": "Eosinophilia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA 24.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 26
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Head of Clinical Operations",
+        "organization": "Calliditas Therapeutics AB",
+        "email": "info@calliditas.com",
+        "phone": "+4684113005"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2023-09-27",
+          "uploadDate": "2025-03-19T04:29",
+          "filename": "Prot_000.pdf",
+          "size": 1322451
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2024-06-27",
+          "uploadDate": "2025-03-19T04:30",
+          "filename": "SAP_001.pdf",
+          "size": 1282390
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2025-04-04",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008105",
+          "term": "Liver Cirrhosis, Biliary"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002780",
+          "term": "Cholestasis, Intrahepatic"
+        },
+        {
+          "id": "D002779",
+          "term": "Cholestasis"
+        },
+        {
+          "id": "D001649",
+          "term": "Bile Duct Diseases"
+        },
+        {
+          "id": "D001660",
+          "term": "Biliary Tract Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D008103",
+          "term": "Liver Cirrhosis"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C576694",
+          "term": "setanaxib"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

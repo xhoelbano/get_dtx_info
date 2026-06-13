@@ -1,0 +1,321 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07074561",
+      "orgStudyIdInfo": {
+        "id": "GZY-KJS-ZJ-2025-006-PSA"
+      },
+      "organization": {
+        "fullName": "The Third Affiliated hospital of Zhejiang Chinese Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Synergism and Attenuation Effects of Electroacupuncture in the Treatment of Trigeminal Neuralgia",
+      "officialTitle": "The Synergism and Attenuation Effects of Electroacupuncture in the Treatment of Trigeminal Neuralgia：Protocol for a Multicentre Pilot Randomised Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-07-20",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-11",
+      "studyFirstSubmitQcDate": "2025-07-10",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Yuanyuan Wu",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "The Third Affiliated hospital of Zhejiang Chinese Medical University"
+      },
+      "leadSponsor": {
+        "name": "Yuanyuan Wu",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Jiaxing Traditional Chinese Medicine Hospital",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Pingyang County Traditional Chinese Medicine Hospital",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Trigeminal neuralgia (TN), characterized by its refractory nature and recurrence, frequently leads to anxiety, depression, and insomnia, thereby significantly diminishing patients' quality of life and potentially inducing self-harm. Carbamazepine (CBZ) is the first-line medication for TN, yet it presents adverse effects such as addiction and the absence of analgesic effects upon cessation. Acupuncture, particularly electroacupuncture（EA）, has demonstrated efficacy in TN treatment, although its therapeutic outcomes are influenced by various factors. This multicenter, randomized controlled trial aims to evaluate the synergistic efficacy-enhancing and toxicity-reducing effects of the optimized protocol when combined with carbamazepine (CBZ) in treating trigeminal neuralgia (TN), thereby proposing novel therapeutic refinements for electroacupuncture treatment regimens in TN management."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Trigeminal Neuralgia"
+      ],
+      "keywords": [
+        "Electroacupuncture",
+        "Carbamazepine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "sham EA +CBZ group",
+          "type": "SHAM_COMPARATOR",
+          "interventionNames": [
+            "Drug: CBZ",
+            "Procedure: Sham electroacupuncture"
+          ]
+        },
+        {
+          "label": "EA+CBZ+placebo group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: CBZ placebo",
+            "Drug: CBZ",
+            "Procedure: Electroacupuncture"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CBZ placebo",
+          "description": "Patients received oral administration of one 100 mg placebo tablet three times daily (TID) after meals for four consecutive weeks.",
+          "armGroupLabels": [
+            "EA+CBZ+placebo group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "CBZ",
+          "description": "In the EA + CBZ + placebo group, patients received oral carbamazepine (CBZ) at a dosage of 100 mg per tablet three times daily (TID) after meals for 4 consecutive weeks. In the sham EA + CBZ group, patients were administered oral CBZ at 200 mg per dose TID after meals for the same 4-week duration.",
+          "armGroupLabels": [
+            "EA+CBZ+placebo group",
+            "sham EA +CBZ group"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Electroacupuncture",
+          "description": "The primary acupoints selected were the affected side's Sibai (ST2), Xiaguan (ST7), and Dicang (ST4). Based on the affected nerve branch, additional acupoints were chosen: for the ophthalmic branch, Tongziliao (GB1); for the maxillary branch, Quanliao (SI18); and for the mandibular branch, Jiache (ST6). Distal acupoints included bilateral Hegu (LI4) and Waiguan (SJ5). Electroacupuncture was applied based on the affected nerve branch. For the ophthalmic branch, the local acupoints selected were Xiaguan + Tongziliao; for the maxillary branch, Xiaguan + Quanliao; and for the mandibular branch, Xiaguan + Jiache. The distal acupoints selected were Hegu + Waiguan. A sparse-dense wave, 2/100Hz, was used, with a treatment duration of 60 minutes. The intensity of the electrical current was adjusted according to the patient's tolerance. Acupuncture was administered 3 times per week (with 1-2-day intervals between sessions) for 4 consecutive weeks, totaling 12 sessions.",
+          "armGroupLabels": [
+            "EA+CBZ+placebo group"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Sham electroacupuncture",
+          "description": "In this group, superficial needling (0.5-1 mm depth) was performed at non-meridian points located 1 cm lateral to: (1) primary local acupoints ST2 (Sibai), ST7 (Xiaguan), and ST4 (Dicang) on the affected side; (2) branch-specific supplementary points GB1 (Tongziliao) for ophthalmic branch involvement, SI18 (Quanliao) for maxillary branch involvement, and ST6 (Jiache) for mandibular branch involvement; and (3) bilateral distal points LI4 (Hegu) and TE5 (Waiguan). Local acupoint pairs (ST7 adjacent +GB1 adjacent or ST7 adjacent +SI18 adjacent or ST7 adjacent +ST6 adjacent) and distal pairs (LI4 adjacent +TE5 adjacent) were connected to a modified electroacupuncture device with severed output wires (preventing current flow while maintaining indicator function), followed by 60-minute needle retention after parameter adjustment. Acupuncture was administered 3 times per week (with 1-2-day intervals between sessions) for 4 consecutive weeks, totaling 12 sessions.",
+          "armGroupLabels": [
+            "sham EA +CBZ group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in Visual Analog Scale (VAS) scores from baseline to the end of the 4th week of treatment",
+          "description": "The Visual Analog Scale (VAS) consists of a 10-cm line, where '0' indicates 'no pain' and '10' represents 'unbearable pain,' with increasing pain intensity from 0 to 10. Patients self-assess their pain level by marking the scale, and the investigator records the score.\"",
+          "timeFrame": "Baseline, 4 weeks after treatment."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in Visual Analog Scale (VAS) scores",
+          "description": "Visual Analog Scale (VAS) consists of a 10-cm line, where '0' indicates 'no pain' and '10' represents 'unbearable pain,' with increasing pain intensity from 0 to 10. Patients self-assess their pain level by marking the scale, and the investigator records the score. VAS scores were assessed at baseline, the end of the 2nd week of treatment, and the end of the 4th week post-treatment (follow-up), to observe changes from baseline at the 2nd week of treatment and the 4th week post-treatment respectively.",
+          "timeFrame": "Baseline, 2 weeks after treatment, at 4-week follow-up."
+        },
+        {
+          "measure": "Pain Diary Card",
+          "description": "Daily records of carbamazepine (CBZ)/CBZ-placebo medication adherence, pain episode frequency, and adverse reactions in both groups will be maintained until the end of follow-up. The recorded data will be used for intergroup comparisons and intra-group comparisons to evaluate the degree of pain status changes between groups and within individuals.",
+          "timeFrame": "Daily from enrollment through four weeks after treatment completion"
+        },
+        {
+          "measure": "Carbamazepine Adverse Reactions",
+          "timeFrame": "Daily from enrollment through four weeks after treatment completion"
+        },
+        {
+          "measure": "Hepatorenal function",
+          "description": "This study will assess the degree of hepatocyte injury and glomerular filtration function. Additionally, the incidence of severe liver or kidney impairment will be evaluated.",
+          "timeFrame": "Baseline, 4 weeks after treatment."
+        },
+        {
+          "measure": "Changes in the The Self-Rating Anxiety Scale (SAS)",
+          "description": "After completing each scale, the raw total score (X) is obtained by summing all item scores. This raw score is then multiplied by 1.25, to derive the standardized score (Y). The SAS cut-off value for clinical significance is a standardized score of 50, with severity classifications as follows: 50-59 indicates mild anxiety, 60-69 moderate anxiety, and scores above 69 severe anxiety.",
+          "timeFrame": "Baseline, 2 weeks after treatment, 4 weeks after treatment, at 4-week follow-up."
+        },
+        {
+          "measure": "Changes in the Self-Rating Depression Scale (SDS)",
+          "description": "The raw scores from each subscale are summed to obtain the total raw score, which is then multiplied by 1.25 to calculate the standard score. For the SDS, the cutoff for depression is a standard score of 53, with scores of 53-62 indicating mild depression, 63-72 indicating moderate depression, and scores above 72 indicating severe depression.",
+          "timeFrame": "Baseline, 2 weeks after treatment, 4 weeks after treatment, at 4-week follow-up."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must meet all of the following criteria to be eligible for this study:\n\n  1. Met the diagnostic criteria for trigeminal neuralgia (TN) as defined in the International Classification of Headache Disorders, 3rd edition (ICHD-3) published by the International Headache Society (IHS) in 2018.\n  2. Between 18 and 75 years old (inclusive), regardless of gender;\n  3. Currently prescribed carbamazepine (400-800 mg/day) or oxcarbazepine (800-1600 mg/day);\n  4. Conscious, alert, and capable of perceiving/differentiating pain, with basic communication abilities;\n  5. Signed informed consent form and voluntary participation in the study.\n\nExclusion Criteria:\n\n* Patients meeting any of the following criteria were excluded:\n\n  1. Patients with epilepsy, head injury, or other relevant neurological disorders;\n  2. Patients with severe cardiac, hepatic, or renal impairment;\n  3. Patients with cognitive dysfunction, aphasia, psychiatric disorders, or those unable to cooperate with treatment;\n  4. Patients with poorly controlled hypertension or hyperglycemia;\n  5. Patients with a recent diagnosis of severe anxiety or depression;\n  6. Pregnant or breastfeeding patients;\n  7. Patients with pacemakers or other contraindications to electroacupuncture;\n  8. Patients concurrently enrolled in other clinical studies.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Nisang Chen",
+          "role": "CONTACT",
+          "phone": "+8615990031347",
+          "email": "237247256@qq.com"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014277",
+          "term": "Trigeminal Neuralgia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020433",
+          "term": "Trigeminal Nerve Diseases"
+        },
+        {
+          "id": "D005156",
+          "term": "Facial Neuralgia"
+        },
+        {
+          "id": "D005155",
+          "term": "Facial Nerve Diseases"
+        },
+        {
+          "id": "D009059",
+          "term": "Mouth Diseases"
+        },
+        {
+          "id": "D009057",
+          "term": "Stomatognathic Diseases"
+        },
+        {
+          "id": "D003389",
+          "term": "Cranial Nerve Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015671",
+          "term": "Electroacupuncture"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D015670",
+          "term": "Acupuncture Therapy"
+        },
+        {
+          "id": "D000529",
+          "term": "Complementary Therapies"
+        },
+        {
+          "id": "D004599",
+          "term": "Electric Stimulation Therapy"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D004561",
+          "term": "Transcutaneous Electric Nerve Stimulation"
+        },
+        {
+          "id": "D000698",
+          "term": "Analgesia"
+        },
+        {
+          "id": "D000760",
+          "term": "Anesthesia and Analgesia"
+        },
+        {
+          "id": "D000758",
+          "term": "Anesthesia"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

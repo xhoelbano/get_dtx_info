@@ -1,0 +1,59 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00036688",
+      "drks_id": "DRKS00036688",
+      "title": "Efficacy of the novel app-based self-help parent management training hiToco® for children with ADHD – a randomized controlled trial",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036688/details",
+      "_matched_query": "\"hiToco\"",
+      "_raw_json_path": "evidence/Germany/hitoco-r-adhs-elterntraining/candidates/drks/raw/DRKS00036688.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions the product name 'hiToco®' and describes it as an app-based self-help parent management training for children with ADHD, which matches the provided DTx information. The sponsor/funder and intervention details are not specified, but the title provides sufficient evidence.",
+        "matched_elements": [
+          "hiToco®",
+          "app-based self-help parent management training",
+          "children with ADHD"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The title explicitly states 'randomized controlled trial,' which is a clear indicator of an RCT study design."
+      }
+    },
+    {
+      "study_id": "DRKS00035661",
+      "drks_id": "DRKS00035661",
+      "title": "Effectiveness of app-supported behavioral parent training with the hiToco®-app for attention-deficit/hyperactivity disorder and oppositional defiant disorder",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00035661/details",
+      "_matched_query": "\"hiToco\"",
+      "_raw_json_path": "evidence/Germany/hitoco-r-adhs-elterntraining/candidates/drks/raw/DRKS00035661.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions the hiToco® app by name in the title and specifies its use for ADHD, which matches the described DTx product. While the abstract is unavailable, the title provides sufficient evidence to confirm relevance.",
+        "matched_elements": [
+          "hiToco®",
+          "ADHD",
+          "app-supported behavioral parent training"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 70,
+        "reason": "The study title suggests an interventional design involving app-supported behavioral parent training, which is indicative of a structured approach often used in RCTs. However, due to the lack of explicit details on randomization or blinding, the confidence is moderate."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T19:37:01.162787Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

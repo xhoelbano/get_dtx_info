@@ -1,0 +1,69 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04744272",
+      "nct_id": "NCT04744272",
+      "title": "Exploring the Efficacy of myAsthma in Secondary Care",
+      "official_title": "A Randomised Controlled Feasibility Study to Explore the Efficacy of Digital Self-management Within Secondary Care in an Asthmatic Population",
+      "status": "WITHDRAWN",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "OTHER",
+        "masking": "NONE"
+      },
+      "enrollment": 0,
+      "start_date": "2022-05",
+      "completion_date": "2023-04",
+      "conditions": [
+        "Asthma"
+      ],
+      "keywords": [
+        "Self-management",
+        "Digital Health"
+      ],
+      "interventions": [
+        {
+          "name": "myAsthma",
+          "type": "DEVICE",
+          "description": "myAsthma is an online digital self-management application to support asthma patients by offering education, inhaler technique, pulmonary rehabilitation, symptoms and medication usage tracking remotely."
+        }
+      ],
+      "lead_sponsor": "my mhealth Ltd",
+      "collaborators": [
+        "Bradford Teaching Hospitals NHS Foundation Trust"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "brief_summary": "Asthma is a common lung condition that causes long-term breathing problems. There is no cure and if uncontrolled can be life threatening. Many asthma deaths are preventable if managed using a personalised treatment plan explaining what to do when unwell, how to manage symptoms and correct inhaler use. Those with controlled asthma are less likely to be admitted to hospital and more likely to have an improved quality of life.\n\nCOVID19 has emphasised the need to redesign healthcare delivery to reduce avoidable exposure. Clinical services are turning to remote care including online digital health apps. Digital health offers mechanisms to promote effective asthma care, offer remote individual treatment plans, monitor asthma control in 'real time' and provides information to prevent asthma attacks. Regulatory health guidelines recognise that technology has the potential to improve asthma care and could lead to reductions in NHS service use and improve symptoms.\n\nThis study aims to evaluate the delivery of an asthma self-management app 'myAsthma' in a secondary care asthma service. Patients will use the app to input and track their symptoms and report their medication usage. The app provides information on environmental triggers such as air quality to better prepare asthma sufferers in preventing an asthma attack. It offers educational videos to improve understanding of asthma, including online training in inhaler technique.\n\nThe goals are to increase adherence to and correct use of",
+      "detailed_description": "Asthma is a chronic highly prevalent condition, which results from inflammation and hyper-responsiveness of the airways resulting in variable airway limitation and symptoms of wheeze, cough, breathlessness and chest tightness. There is no cure for asthma, but the use of simple inhaler treatments can keep the symptoms under control. However, if uncontrolled, asthma can be life-threatening. Most deaths related to asthma are preventable if the condition is managed using the right treatment plan and inhaler technique.\n\nIn the UK, an estimated 4.3 million adults (1 in 12) receive treatment for asthma costing the NHS around £3 billion annually in direct and indirect care. Asthma accounts for approximately 60,000 hospital admissions per year. The NRAD states that a high proportion of patient morbidity is directly related to poor management. The annual 2016 asthma survey reported that 82% of asthma suffers said their asthma was poorly controlled. Those with uncontrolled asthma were almost twice as likely to be admitted to hospital. In the UK seven out of ten people with asthma received care that failed to meet basic quality standards with 30-70% reported as not taking their asthma medication as prescribed. Additionally, a significant proportion of patients do not use their inhalers as prescribed and demonstrate poor inhaler technique.\n\nSince the arrival of COVID-19, it has never been more important for asthma suffers to ensure they are following their prescribed treatment plan. COVID-19 is a highly infectious virus that primarily affects the respiratory system, meaning those with asthma are at greater risk of severe complications. Maintaining consistent infection prevention practices and social distancing are key to minimising the risk of contracting the virus. However, social distancing and required 'lockdown' has impacted on routine clinic appointments, highlighting a lack of an alternative remote self-management system to support patients during this pandemic.\n\nSystemati",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04744272",
+      "_matched_query": "\"myAsthma\"",
+      "_raw_json_path": "evidence/USA/myasthma/candidates/clinicaltrials/raw/NCT04744272.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'myAsthma' by name multiple times, describes its features in detail that match the provided product description, and lists 'my mhealth Ltd' as the sponsor/funder, confirming it is about the specific digital therapeutic product.",
+        "matched_elements": [
+          "myAsthma",
+          "my mhealth Ltd",
+          "intervention description matching the product features"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 85,
+        "reason": "The study evaluates the use of a digital health app in a real-world secondary care setting without mention of randomization, blinding, or placebo control. It focuses on tracking and improving asthma management in a practical, observational manner."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-10T07:53:53.392592Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

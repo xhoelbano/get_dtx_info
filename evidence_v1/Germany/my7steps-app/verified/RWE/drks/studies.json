@@ -1,0 +1,55 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00027925",
+      "drks_id": "DRKS00027925",
+      "title": "My7steps App Pilot Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027925/details",
+      "_matched_query": "\"My7steps\"",
+      "_raw_json_path": "evidence/Germany/my7steps-app/candidates/drks/raw/DRKS00027925.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'My7steps App,' which matches the product name provided. Although the abstract and intervention details are not available, the title alone strongly indicates relevance.",
+        "matched_elements": [
+          "My7steps App"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 50,
+        "reason": "Insufficient information provided to confirm randomization, blinding, or interventional design; likely observational based on the title suggesting a pilot study of an app."
+      }
+    },
+    {
+      "study_id": "DRKS00025530",
+      "drks_id": "DRKS00025530",
+      "title": "My7steps App Trial Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00025530/details",
+      "_matched_query": "\"My7steps\"",
+      "_raw_json_path": "evidence/Germany/my7steps-app/candidates/drks/raw/DRKS00025530.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'My7steps App,' which matches the product name provided. Although the abstract and intervention details are not available, the title alone strongly indicates relevance.",
+        "matched_elements": [
+          "Title: My7steps App Trial Study"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 50,
+        "reason": "Insufficient information provided to confirm RCT indicators such as randomization, blinding, or placebo control. The title suggests a potential observational study related to an app, which aligns more with RWE characteristics."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-02-09T19:52:04.411744Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

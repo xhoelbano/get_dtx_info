@@ -1,0 +1,32 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00027176",
+      "drks_id": "DRKS00027176",
+      "title": "HelloBetter Chronic Pain Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027176/details",
+      "_matched_query": "\"HelloBetter Chronische Schmerzen\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-chronische-schmerzen/candidates/drks/raw/DRKS00027176.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'HelloBetter Chronic Pain,' which is a clear variation of 'HelloBetter Chronische Schmerzen.' Additionally, the source (DRKS) and the context strongly suggest it is about the specific product described.",
+        "matched_elements": [
+          "Title: HelloBetter Chronic Pain Study"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 50,
+        "reason": "Insufficient information provided to confirm RCT indicators such as randomization, blinding, or placebo control. The study type and design details are missing, but the absence of explicit RCT features leans towards RWE classification."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T19:32:49.497487Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

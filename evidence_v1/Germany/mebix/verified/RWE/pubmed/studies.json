@@ -1,0 +1,59 @@
+{
+  "studies": [
+    {
+      "study_id": "37834960",
+      "pmid": "37834960",
+      "title": "Effectiveness of a Digital Health Application for the Treatment of Diabetes Type II-A Pilot Study.",
+      "authors": "Bretschneider Maxi Pia et al.",
+      "authors_list": [
+        "Bretschneider Maxi Pia",
+        "Roth Lena",
+        "Schwarz Peter E H"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Sep-30",
+      "journal": "Journal of clinical medicine",
+      "journal_abbrev": "J Clin Med",
+      "doi": "10.3390/jcm12196317",
+      "abstract": "(1) Background: This study aimed at providing preliminary evidence for mebix, an app-based treatment program for patients with diabetes mellitus type II. The main target was to show a positive healthcare impact as defined by improved blood glucose control, i.e., reduced HbA1c values. (2) Methods: For this, a 3-month, prospective, open-label trial with an intraindividual control group was conducted. Participants received the mebix intervention for 3 months. HbA1c values were observed every 3 months: retrospectively, at baseline, and 3 months after the start of using the app. Additionally, weight and patients' reported outcomes (well-being, diabetes-related distress, and self-management) were assessed. Data generated within the app were summarized and analyzed (steps, physical activity, fulfilled tasks, and food logs). (3) Results: After the usage of mebix for 3 months, participants significantly reduced their HbA1c levels (-1.0 ± 0.8%). Moreover, improvements in weight, well-being, and self-management as well as a reduction in diabetes-related distress were observed. App-generated data mainly supported the other main finding, that higher baseline HbA1c values lead to higher reductions. Overall, the study provided preliminary evidence that mebix can help patients improve metabolic and psychological health outcomes.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "HbA1c",
+        "diabetes mellitus type 2",
+        "digital health",
+        "digital intervention",
+        "lifestyle intervention",
+        "mHealth",
+        "self-management"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37834960/",
+      "pdf_available": false,
+      "_matched_query": "\"mebix\"",
+      "_raw_xml_path": "evidence/Germany/mebix/candidates/pubmed/raw/37834960.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study explicitly mentions 'mebix' multiple times in the title and abstract as the intervention being evaluated. The description of the intervention aligns with the provided information about the digital therapeutic product 'mebix' for type 2 diabetes management.",
+        "matched_elements": [
+          "mebix in title",
+          "mebix in abstract",
+          "description matches intervention"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study is a prospective, open-label trial with an intraindividual control group, which aligns with real-world evidence characteristics. There is no mention of randomization, blinding, or a placebo control, which are key indicators of an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:47:23.626382Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

@@ -1,0 +1,243 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02597530",
+      "orgStudyIdInfo": {
+        "id": "Xijingmazui"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "mazuike",
+          "type": "OTHER",
+          "domain": "Xijing Hospital"
+        }
+      ],
+      "organization": {
+        "fullName": "Xijing Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Different Stimuli of Transcutaneous Electric Acupoint Stimulation(TEAS) on Acupuncture Anesthesia",
+      "officialTitle": "Effect of Different Time of Transcutaneous Electric Acupoint Stimulation(TEAS) on Acupuncture Anesthesia",
+      "acronym": "TEAS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2016-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-10-29",
+      "studyFirstSubmitQcDate": "2015-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2015-11-05",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-12-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-12-11",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "wangqiang",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Xijing Hospital"
+      },
+      "leadSponsor": {
+        "name": "wangqiang",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To determine whether treating by transcutaneous electrical acupoint stimulation (TEAS) combined with general anesthetic during peri-operative could alleviate the dosage of anesthetic drugs compared with control and sham group.",
+      "detailedDescription": "Acupuncture is a traditional Chinese medical technique that involves the insertion of needles at acupoints to treat diseases by Jingluo (the system of meridians, through which energy is thought to ﬂow through the body in Chinese medicine). It is usually applied to relieve pain. Several clinical trials have been conducted to evaluate the effect of electroacupuncture on the consumption of intra-operative anaesthetics and on drug-related side-effects, with promising results. Compared with acupuncture or electroacupuncture, transcutaneous electric acupoint stimulation(TEAS) is a non-invasive technique and has some advantages, including no risk of infections or needle-induced contagious disease and reduced fear of stimulation. It can potentially be applied by any anaesthetist or pre-operative personnel with minimal training.Thus, investigators conducted this controlled, prospective, double-blinded clinical trial to investigate whether treating by transcutaneous electrical acupoint stimulation combined with general anesthetic during peri-operative could alleviate the dosage of anesthetic drugs compared with control and sham group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acupuncture"
+      ],
+      "keywords": [
+        "TEAS",
+        "anesthesia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Long-term stimulution group",
+          "type": "EXPERIMENTAL",
+          "description": "According to ancient Chinese medical books, acupoints Hegu and Zusanli are chosen and identified.Patients in Long-term stimulation group received electrical stimulation with the 'disperse-dense' waves.TEAS will be administered 30 minutes prior to anesthesia and continued until the end of the surgery with dilatational wave(2-15HZ).All patients will remove electrodes on surgery over.",
+          "interventionNames": [
+            "Device: TEAS"
+          ]
+        },
+        {
+          "label": "Short-term stimulution group",
+          "type": "OTHER",
+          "description": "According to ancient Chinese medical books, acupoints Hegu and Zusanli are chosen and identified.The patients in Short-term stimulation group received electrical stimulation with the 'disperse-dense' waves.TEAS will be administered 30 minutes prior to anesthesia and ended at time of anesthesia with dilatational wave(2-15HZ).All patients will remove electrodes on surgery over.",
+          "interventionNames": [
+            "Device: TEAS"
+          ]
+        },
+        {
+          "label": "Sham group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients in sham group will be pasted electrodes 30 minutes before anesthesia but without electrical stimulation.All patients will remove electrodes on surgery over.",
+          "interventionNames": [
+            "Device: TEAS"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TEAS",
+          "description": "According to ancient Chinese medical books, acupoints LI4,PC6 and ST36 are chosen and identified.TEAS in long-term group will be administered 30 minutes prior to anesthesia and continued until the end of the surgery. In short-term group,TEAS will be administered 30 minutes prior to anesthesia and ended at time of anesthesia.In sham group,electrodes will be pasted 30 minutes before anesthesia but without electrical stimulation.All patients will remove electrodes on surgery over.",
+          "armGroupLabels": [
+            "Long-term stimulution group",
+            "Sham group",
+            "Short-term stimulution group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Consumption of remifentanil during the operation（ug/kg/min）.",
+          "timeFrame": "intraoperative"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Content of endocrine hormone in the blood(angiotensin-II(ng/L),Cortisol(nmol/L),β-endorphin(ng/mL) and glucose(mmol/L)).",
+          "timeFrame": "intraoperative"
+        },
+        {
+          "measure": "Time of extubation after operation.",
+          "timeFrame": "intraoperative"
+        },
+        {
+          "measure": "Pain after the operation(visual analog scale (vas)).",
+          "timeFrame": "0 hours ,2 hours ,12 hours ,24 hours after operation"
+        },
+        {
+          "measure": "Side-effects of anesthetics(nausea,vomiting,dizziness and pruritus).",
+          "timeFrame": "0 hours ,2 hours ,12 hours ,24 hours after operation"
+        },
+        {
+          "measure": "Hospital stays after operation(d).",
+          "timeFrame": "Participants will be followed for the duration of hospital stay, an expected average of 4 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Aged between 18 and 65\n2. ASA physical statusⅠorⅡ\n3. Elective gynecological laparoscopic surgery under general anesthesia\n4. BMI of 18 to 25\n5. Duration of operation≤2 hours\n6. Patient who signed the informed consent\n\nExclusion Criteria:\n\n1. Pregnancy or breast-feeding women\n2. Serious lung disease/Serious cardiovascular disease/Serious liver, renal abnormalities\n3. Patients who have a history of gastrointestinal surgery or chronic gastrointestinal disease\n4. Patient has diseases in nervous-mental system\n5. Operation time more than 2 hours\n6. Patients with contraindications to the use of electroacupuncture, such as skin damage or infection at the acupoints;\n7. Patients with experience of transcutaneous electrical stimulation treatment.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shan He",
+          "role": "CONTACT",
+          "phone": "15129014406",
+          "email": "986994820@qq.com"
+        },
+        {
+          "name": "Qiang Wang",
+          "role": "CONTACT",
+          "phone": "86-29-84775343",
+          "email": "dr.wangqiang@139.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Qiang x Qiang Wang",
+          "affiliation": "Xijing Hospital",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24576720",
+          "type": "BACKGROUND",
+          "citation": "Wang H, Xie Y, Zhang Q, Xu N, Zhong H, Dong H, Liu L, Jiang T, Wang Q, Xiong L. Transcutaneous electric acupoint stimulation reduces intra-operative remifentanil consumption and alleviates postoperative side-effects in patients undergoing sinusotomy: a prospective, randomized, placebo-controlled trial. Br J Anaesth. 2014 Jun;112(6):1075-82. doi: 10.1093/bja/aeu001. Epub 2014 Feb 26."
+        },
+        {
+          "pmid": "25456960",
+          "type": "BACKGROUND",
+          "citation": "Iacobone M, Citton M, Zanella S, Scarpa M, Pagura G, Tropea S, Galligioni H, Ceccherelli F, Feltracco P, Viel G, Nitti D. The effects of acupuncture after thyroid surgery: A randomized, controlled trial. Surgery. 2014 Dec;156(6):1605-12; discussion 1612-3. doi: 10.1016/j.surg.2014.08.062. Epub 2014 Nov 11."
+        },
+        {
+          "pmid": "24447388",
+          "type": "BACKGROUND",
+          "citation": "Lee MS, Ernst E. Acupuncture for surgical conditions: an overview of systematic reviews. Int J Clin Pract. 2014 Jun;68(6):783-9. doi: 10.1111/ijcp.12372. Epub 2014 Jan 22."
+        },
+        {
+          "pmid": "22096284",
+          "type": "BACKGROUND",
+          "citation": "Sahni N, Anand LK, Gombar K, Gombar S. Effect of intraoperative depth of anesthesia on postoperative pain and analgesic requirement: A randomized prospective observer blinded study. J Anaesthesiol Clin Pharmacol. 2011 Oct;27(4):500-5. doi: 10.4103/0970-9185.86595."
+        },
+        {
+          "pmid": "21078546",
+          "type": "BACKGROUND",
+          "citation": "Han JS. Acupuncture analgesia: areas of consensus and controversy. Pain. 2011 Mar;152(3 Suppl):S41-S48. doi: 10.1016/j.pain.2010.10.012. No abstract available."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

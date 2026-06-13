@@ -1,0 +1,206 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03329677",
+      "orgStudyIdInfo": {
+        "id": "1412015726"
+      },
+      "organization": {
+        "fullName": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      },
+      "briefTitle": "An 18-Month Psychotherapy of Borderline Personality Disorder",
+      "officialTitle": "An 18-Month Psychotherapy of Borderline Personality Disorder"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-01-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-02-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-10-30",
+      "studyFirstSubmitQcDate": "2017-10-30",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Weill Medical College of Cornell University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to examine the impact of an 18-month psychotherapy treatment for borderline personality disorder. The investigators will examine changes in psychosocial and work functioning in patients with borderline personality disorder using an 18-month psychotherapeutic treatment.\n\nThe investigators are recruiting female patients between the ages of 18-35 who meet DSM criteria for BPD.\n\nThe investigators are excluding patients who meet the following criteria:\n\n* psychotic disorders\n* a current major depressive episode\n* bipolar I disorder\n* current substance dependence\n* antisocial personality disorder.\n* unable to undergo 18-months of twice weekly psychotherapy in NYC (due to the COVID19 pandemic in person meetings are suspended (see detailed description) but will be restated once this is considered safe again)\n\nParticipants in the study will receive 18-months of twice weekly psychotherapy, free of charge, as well as compensation for follow-up assessments. They may be currently taking psychiatric medication.\n\nParticipants will be assessed using semi-structured diagnostic interviews, self-report instruments, and computerized tasks in an initial assessment session lasting about 6-8 hours. They will also be assessed using computerized tasks. Follow-up assessments will occur throughout the treatment as well as after the treatment, lasting about 1-4 hours. The investigators will also be collecting information on their treatment history and psychiatric medication as part of the study.",
+      "detailedDescription": "Patients with borderline personality disorder (BPD) will be provided with an empirically supported form of psychotherapy for BPD patients called transference-focused psychotherapy (TFP) and medication treatment, if indicated. The primary goal of the current study is to detect changes in psychological, psychosocial and work functioning over the course of 18-months of TFP. Previous research has shown that TFP is an effective treatment for BPD over the course of one year, significantly reducing symptoms. An 18-month treatment period will most likely allow patients to achieve significant and lasting gains in work and psychosocial functioning. Each patient will be assessed prior to (baseline), at 3-month intervals throughout, and at the termination of the 18-month treatment period for symptoms, vocational status, and psychosocial functioning. In addition, patients and therapists will complete self-report measures every three months about the therapeutic relationship. After the 18-month treatment period, a final, brief assessment of vocational status, symptoms, and psychosocial functioning will occur.\n\nThe therapists doing TFP are professional psychiatrists, psychologists, and social workers who have been trained by Dr. Otto Kernberg in this special form of psychotherapy. In this therapy, the patient and therapist meet for 45-minute sessions two times a week on a weekly basis (except for vacations) for 18 months. Due to the ongoing worldwide pandemic meetings of the therapist and the patient will take place over a secured internet connection for the time being. Once it is considered safe again, the therapy sessions will take place in the therapists' private office\n\nHypothesis: It is hypothesized that patients in Transference Focused Psychotherapy (TFP) will manifest differential responses to the treatment, depending upon pre-treatment patient psychological and psychiatric characteristics. The investigators expect that some patients will show significant positive changes in symptoms, work, and social functioning at the end of 18 months, and that these positive changes will manifest in psychological and neuropsychological measures. The investigators will investigate the pre-treatment psychological variables (e.g. trait sociability, constraint, and negative affect) and neuropsychological functioning that will be predictive of patient improvement with treatment at the end of 18 months. By the end of the treatment, the investigators expect some patients to approach normal levels of enjoyment and enrichment of their experiences in work and social functioning. As all analyses will occur at the end of the study, response to TFP will not be assessed during the course of treatment. Therefore, patients will not be moved to a different intervention during the course of the study.\n\nResearch Question: The investigators have found in our pilot work that symptom change occurs in the first 12 months of TFP followed by substantial work and psychosocial changes in subsequent months. The primary goal of the current pilot project is to demonstrate that TFP over an 18-month treatment period is associated with significant improvement in work and intimate relations, reflecting significant personality changes that should enhance patients' overall effectiveness and gratification in their lives."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Borderline Personality Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Our study is a longitudinal (i.e., 18-month) treatment outcome study using a within-subjects design with repeated measures. We do not include a control group or a TAU group in our study design.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Not applicable. Treatment is transference-focused psychotherapy for borderline personality disorder and each participant understands that she will receive it for 18 months."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Transference-focused Psychotherapy (TFP)",
+          "type": "EXPERIMENTAL",
+          "description": "Transference-focused psychotherapy is a psychodynamic talk therapy utilized in treating borderline personality disorder in men and women.",
+          "interventionNames": [
+            "Other: Transference-focused Psychotherapy (TFP)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Transference-focused Psychotherapy (TFP)",
+          "description": "Participants receive 18 months of bi-weekly TFP. Each sessions lasts 45 minutes. During sessions, a therapist employs assorted psychodynamic techniques tailored specially for symptoms and relational difficulties associated with BPD. A participant processes interpersonal experiences with her therapist in sessions alongside her therapist and gains therapeutic insight into her problematic ways of relating to her self and others.",
+          "armGroupLabels": [
+            "Transference-focused Psychotherapy (TFP)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Social Adjustment Scale (SAS; Weissman, 1971)",
+          "description": "The SAS is a semi-structured interview continuing 42 questions covering an individual's social adjustment and social role within society. This interview has demonstrated good reliability and validity as shown by previous research.",
+          "timeFrame": "Every 3 months for 18-month duration of treatment"
+        },
+        {
+          "measure": "Brief Symptom Inventory (BSI; Derogatis, 1993)",
+          "description": "The BSI is a 53-item self-report scale designed to assess psychological symptoms in clinical and non-clinical individuals. The items are rated on a 5-point scale of distress (0-4, ranging from 'not at all' to 'extremely') and reflect 9 symptom dimensions (somatization, obsessive-compulsive, interpersonal sensitivity, depression, anxiety, hostility, phobic anxiety, paranoid ideation, and psychoticism). The BSI also includes a global index of distress (the General Severity Index, GSI) that reflects the mean of all items. The BSI exhibits excellent reliability and validity.",
+          "timeFrame": "Every 3 months for 18-month duration of treatment"
+        },
+        {
+          "measure": "Overt Aggression Scale (OAS-M; Coccaro et al., 1991)",
+          "description": "The OAS-M is a clinician-rated scale that characterizes aggressive behavior within the past week based on observation and self-report.",
+          "timeFrame": "Every 3 months for 18-month duration of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Affective Lability Scale (ALS; Harvey et al., 1989)",
+          "description": "The ALS is a 54-item self-report instrument where subjects rate the tendency of their mood to shift between normal to affectively charged domains of anger, depression, elation and anxiety, as well as their tendency to shift between depression and elation and between depression and anxiety. This measure has good reliability and validity.",
+          "timeFrame": "Every 3 months for 18-month duration of treatment"
+        },
+        {
+          "measure": "State-Trait Anger Expression Inventory-2 (STAXI-2; Spielberger, 1999)",
+          "description": "The STAXI-2 is a 57-item self-report inventory, which measures the intensity of anger as an emotional state (state anger) and the disposition to experience angry feelings as a personality trait (trait anger). The STAXI-2 has good reliability and validity.",
+          "timeFrame": "Every 3 months for 18-month duration of treatment"
+        },
+        {
+          "measure": "Reflective Function Questionnaire (RFQ; Fonagy & Luyten, 2009)",
+          "description": "The RFQ is a 54-item measure designed to assess the patient's reflective functioning. It is filled out by the client and assesses the client's ability to mentalize and take the perspective of another person. It has good reliability and validity and has been used to assess the reflective function abilities of patients with BPD in previous studies.",
+          "timeFrame": "Every 3 months for 18-month duration of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* We are recruiting female patients between the ages of 18-35 who meet DSM criteria for BPD.\n\nExclusion Criteria:\n\n* We are excluding patients who meet the following criteria:\n\n  * psychotic disorders\n  * a current major depressive episode\n  * bipolar I disorder\n  * current substance dependence\n  * antisocial personality disorder.\n  * unable to undergo 18-months of twice weekly psychotherapy in NYC",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "35 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Francis S Lee, M.D., PhD",
+          "affiliation": "Weill Medical College of Cornell University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NewYork-Presbyterian/Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001883",
+          "term": "Borderline Personality Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010554",
+          "term": "Personality Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

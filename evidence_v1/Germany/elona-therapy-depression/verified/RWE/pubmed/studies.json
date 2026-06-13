@@ -1,0 +1,64 @@
+{
+  "studies": [
+    {
+      "study_id": "37043272",
+      "pmid": "37043272",
+      "title": "Barriers to and Facilitators of a Blended Cognitive Behavioral Therapy Program for Depression and Anxiety Based on Experiences of University Students: Qualitative Interview Study.",
+      "authors": "Braun Pia et al.",
+      "authors_list": [
+        "Braun Pia",
+        "Atik Ece",
+        "Guthardt Lisa",
+        "Apolinário-Hagen Jennifer",
+        "Schückes Magnus"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Apr-12",
+      "journal": "JMIR formative research",
+      "journal_abbrev": "JMIR Form Res",
+      "doi": "10.2196/45970",
+      "abstract": "BACKGROUND: Blended cognitive behavioral therapy (bCBT) programs have been proposed to increase the acceptance and adoption of digital therapeutics (DTx) such as digital health apps. These programs allow for more personalized care by combining regular face-to-face therapy sessions with DTx. However, facilitators of and barriers to the use of DTx in bCBT programs have rarely been examined among students, who are particularly at risk for developing symptoms of depression and anxiety disorders. OBJECTIVE: This study aimed to evaluate the facilitators of and barriers to the use of a bCBT program with the elona therapy app among university students with mild to moderate depression or anxiety symptoms. METHODS: Semistructured interviews were conducted via videoconference between January 2022 and April 2022 with 102 students (mean age 23.93, SD 3.63 years; 89/102, 87.2% female) from universities in North Rhine-Westphalia, Germany, after they had completed weekly individual cognitive behavioral therapy sessions (25 minutes each) via videoconference for 6 weeks and regularly used the depression (n=67, 65.7%) or anxiety (n=35, 34.3%) module of the app. The interviews were coded based on grounded theory. RESULTS: Many participants highlighted the intuitive handling of the app and indicated that they perceived it as a supportive tool between face-to-face sessions. Participants listed other benefits, such as increased self-reflection and disorder-specific knowledge as well as the transfer of the content of therapy sessions into their daily lives. Some stated that they would have benefited from more personalized and interactive tasks. In general, participants mentioned the time requirement, increased use of the smartphone, and the feeling of being left alone with potentially arising emotions while working on tasks for the next therapy session as possible barriers to the use of the app. Data security was not considered a major concern. CONCLUSIONS: Students mostly had positive attitudes toward elona therapy as part of the bCBT program. Our study shows that DTx complementing face-to-face therapy sessions can be perceived as a helpful tool for university students with mild to moderate anxiety or depression symptoms in their daily lives. Future research could elaborate on whether bCBT programs might also be suitable for students with more severe symptoms of mental disorders. In addition, the methods by which such bCBT programs could be incorporated into the university context to reach students in need of psychological support should be explored.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "acceptance",
+        "anxiety",
+        "bCBT",
+        "blended cognitive behavioral therapy",
+        "depression",
+        "digital therapeutics",
+        "mobile phone",
+        "university students",
+        "user experiences"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37043272/",
+      "pmc_id": "PMC12870472",
+      "pdf_available": true,
+      "_matched_query": "\"elona therapy Depression\"",
+      "_raw_xml_path": "evidence/Germany/elona-therapy-depression/candidates/pubmed/raw/37043272.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions the 'elona therapy app' and describes its use in a blended cognitive behavioral therapy program for depression and anxiety. The description aligns with the product 'elona therapy Depression' from Elona Health GmbH, including its focus on supporting therapy sessions and providing tailored psychotherapeutic resources. There is no indication that this is about a different product or a generic study.",
+        "matched_elements": [
+          "elona therapy app",
+          "blended cognitive behavioral therapy",
+          "depression module"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 90,
+        "reason": "The study is observational in nature, using qualitative interviews to evaluate experiences with a therapy program. There is no mention of randomization, blinding, or an interventional design, which are key indicators of an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T19:28:43.775461Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

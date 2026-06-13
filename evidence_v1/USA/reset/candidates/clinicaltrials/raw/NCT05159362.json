@@ -1,0 +1,1038 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05159362",
+      "orgStudyIdInfo": {
+        "id": "H00017879-1"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R42DA049448",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R42DA049448"
+        }
+      ],
+      "organization": {
+        "fullName": "Q2i, LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Usability Testing for the Reward-based Technology to Improve OUD Treatment",
+      "officialTitle": "Reward-based Technology to Improve Opioid Use Disorder Treatment Initiation After an ED Visit - Phase 1",
+      "acronym": "OARSCM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-10-20",
+      "studyFirstSubmitQcDate": "2021-12-02",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-16",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-04-15",
+      "resultsFirstSubmitQcDate": "2022-09-12",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-10-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-05-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-05-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Q2i, LLC",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "University of Massachusetts, Worcester",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Millions of people in the US misuse opioids each year, leading to thousands of deaths and costing billions of dollars in total economic burden. Medication assisted treatment (MAT) for opioid use disorder (OUD) is highly efficacious, but only a fraction of OUD persons access MAT, and treatment non-adherence is common and associated with poor outcomes. This STTR Fast Track proposal is designed to increase rates of Suboxone (buprenorphine/naloxone) treatment initiation and adherence among OUD patients recruited from emergency and inpatient acute care. To accomplish these aims, the project will enhance the Opioid Addiction Recovery Support (OARS), an existing Q2i company technology, with a new evidence-based reward, contingency management (CM) function. CM interventions systematically reward (reinforce) specific behaviors like treatment initiation and adherence with therapy attendance and drug-free urine tests and are highly efficacious. An OARS solution enhanced with a CM component (OARSCM) that allows for the automatic calculation, delivery, and redemption of rewards contingent on objective evidence of treatment behaviors may be key to improving Suboxone initiation and adherence. In Phase 1 of this proposal, the existing OARS clinician portal and patient mobile application will be modified to accommodate entry into the software system from an acute care setting and to automatically manage and deliver rewards to create OARSCM using patient-centered design principles. Focus groups with OUD patients and other key stakeholders will inform design. Primary usability outcomes will be examined, and the program iteratively updated. After meeting milestones, there was a proof-of-concept pilot of usability, acceptability, and effects on initial behavior targets with approximately 20 patients and at least 4 providers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid-use Disorder",
+        "Contingency Management",
+        "Medication for Opioid-use Disorder"
+      ],
+      "keywords": [
+        "Substance Use Disorder",
+        "Opioid Use Disorder",
+        "Contingency Management",
+        "Medication for opioid use disorder",
+        "Medication-assisted treatment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Participants were enrolled and monitored through a 4-week field test.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 26,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "OARSCM",
+          "type": "EXPERIMENTAL",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 11) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week).",
+          "interventionNames": [
+            "Other: Software Application"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Software Application",
+          "description": "Access is granted to participants for 4 weeks to the OARSCM platform which includes reinforcements for meeting MOUD treatment goals.",
+          "armGroupLabels": [
+            "OARSCM"
+          ],
+          "otherNames": [
+            "Opioid Addiction Recovery Support - Contingency Management (OARSCM)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "OARSCM Usability - Phase 1 Usability",
+          "description": "≥ 3 participants in a row use the program without staff assistance and no more substantive improvements are needed",
+          "timeFrame": "during usability sessions with participants at the time of study enrollment, 1 day"
+        },
+        {
+          "measure": "OARSCM Acceptability - Phase 1 Usability",
+          "description": "Acceptability outcome will be an average System Usability Scale score of ≥ 80 (range 0-100), with higher numbers indicative of better scores",
+          "timeFrame": "during usability sessions with participants at the time of study enrollment, 1 day"
+        },
+        {
+          "measure": "OARSCM Usability - Phase 1 Field Test",
+          "description": "≥ 3 participants in a row use the program without staff assistance and no more substantive improvements are needed",
+          "timeFrame": "End of 4-week field test period"
+        },
+        {
+          "measure": "OARSCM Acceptability - Phase 1 Field Test",
+          "description": "Acceptability outcome will be an average System Usability Scale score of ≥ 80 (range 0-100), with higher numbers indicative of better scores",
+          "timeFrame": "End of 4-week field test period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥18 years old\n2. Presenting for acute care at UMass University and Memorial hospitals, including EDs, inpatient medical units, or inpatient behavioral health units for opioid addiction related health complaints, including opioid overdose, opioid related medical consequences, opioid intoxication or withdrawal syndromes, and/or seeking help for OUD\n3. Presence of a current DSM-V opioid use disorder (OUD), mild to severe\n4. Medically appropriate for outpatient Suboxone treatment, as judged by the treating clinician and behavioral health consultant or toxicologist working with the patient clinically\n\nExclusion Criteria:\n\n1. Persistent altered mental status (not alert, not oriented, psychotic).\n2. Not interested or willing to participate in Suboxone treatment\n3. Best referral site is NOT one of the study's partner clinics in the central MA region, which will be outpatient MAT clinics and primary care within the UMass system and the three other primary facilities outside of the UMass system.\n4. Unwilling to use the OARSCM app (if assigned)\n5. Does not have access to their own smartphone with at least iOS 7.1 or Android 4.2, the minimal technology required to run the app, or not willing to access clinic-dedicated computer to access the program\n6. Currently in state custody or pending legal action that might lead to imprisonment\n7. Cannot paraphrase the study requirements\n8. Does not read or speak English\n9. Does not reside in the central MA region\n10. Already enrolled in the trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Rachel Davis-Martin, PhD",
+          "affiliation": "University of Massachusetts Chan Medical School",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UMass Chan Medical School",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01655",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Webpage for OARSCM solution",
+          "url": "https://q2i.com/oars-cm/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "We plan to share all individual participant data (IPD) that underlie published results.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF"
+      ],
+      "timeFrame": "Data will be available starting 6 months after publication of results.",
+      "accessCriteria": "Deidentified data will be accessible to researchers who wish to conduct analyses not reported in prior publications. The study principal investigator will review any request for data to ensure no overlapping analyses. Deidentified data will be shared via secure, HIPAA-compliant data transfers."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Usability testing participants: Patients: n=12, Providers: n=4; Proof-of-concept field test participants: Patients: n = 11\n\n(1 patient participated in both usability and field test portions of the study, overall study N = 26)",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "OARSCM Patients",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 10) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week).\n\nSoftware Application: Access is granted to participants for 4 weeks to the OARSCM platform which includes reinforcements for meeting MOUD treatment goals."
+        },
+        {
+          "id": "FG001",
+          "title": "Usability Testing Patients",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 10) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week)."
+        },
+        {
+          "id": "FG002",
+          "title": "Usability Testing Providers",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 10) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Usability Testing (1 Day)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Field Testing (4 Weeks)",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Usability testing participants: Patients: n=12, Providers: n=4; Proof-of-concept field test participants: Patients: n = 11\n\n(1 patient participated in both usability and field test portions of study, reported here in the OARSCM Patients section)",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "OARSCM Patients",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 10) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week).\n\nSoftware Application: Access is granted to participants for 4 weeks to the OARSCM platform which includes reinforcements for meeting MOUD treatment goals.\n\n\\*1 participant completed both OARSCM Patient arm and Usability Patient arm (listed only under OARSCM Patient arm here)"
+        },
+        {
+          "id": "BG001",
+          "title": "Usability Patients",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 10) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week).\n\n\\*1 participant completed both OARSCM Patient arm and Usability Patient arm (listed only under OARSCM Patient arm here)"
+        },
+        {
+          "id": "BG002",
+          "title": "Usability Providers",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 10) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week)."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "11"
+            },
+            {
+              "groupId": "BG001",
+              "value": "11"
+            },
+            {
+              "groupId": "BG002",
+              "value": "4"
+            },
+            {
+              "groupId": "BG003",
+              "value": "26"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34",
+                      "spread": "8.99"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "32",
+                      "spread": "10.11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "35",
+                      "spread": "5.57"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "33",
+                      "spread": "8.86"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "OARSCM Usability - Phase 1 Usability",
+          "description": "≥ 3 participants in a row use the program without staff assistance and no more substantive improvements are needed",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "during usability sessions with participants at the time of study enrollment, 1 day",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "OARSCM Usability Testing",
+              "description": "Participants completed Usability and Acceptability Testing."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "OARSCM Acceptability - Phase 1 Usability",
+          "description": "Acceptability outcome will be an average System Usability Scale score of ≥ 80 (range 0-100), with higher numbers indicative of better scores",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "during usability sessions with participants at the time of study enrollment, 1 day",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "OARSCM Usability Testing",
+              "description": "Participants completed the System Usability Scale (scores range 0-100), with higher numbers indicative of better scores."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "93.2",
+                      "spread": "7.99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "OARSCM Usability - Phase 1 Field Test",
+          "description": "≥ 3 participants in a row use the program without staff assistance and no more substantive improvements are needed",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "End of 4-week field test period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "OARSCM Field Testing",
+              "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 11) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week).\n\nSoftware Application: Access is granted to participants for 4 weeks to the OARSCM platform which includes reinforcements for meeting MOUD treatment goals."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "OARSCM Acceptability - Phase 1 Field Test",
+          "description": "Acceptability outcome will be an average System Usability Scale score of ≥ 80 (range 0-100), with higher numbers indicative of better scores",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "End of 4-week field test period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "OARSCM Field Testing",
+              "description": "Participants completed the System Usability Scale (scores range 0-100), with higher numbers indicative of better scores"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "78.1",
+                      "spread": "20.78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "4 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "OARSCM",
+          "description": "After successful completion of usability testing (Patients: n=12, Providers: n=4), a proof-of-concept field test was completed. OARSCM patients (n = 11) received TAU procedures during enrollment (SBIRT for opioid use disorder and a warm handoff to outpatient MOUD treatment). TAU outpatient MOUD treatment consists of urine toxicology (Utox) screening, group/individual therapy, and MOUD prescription. Treatment visits are typically weekly in weeks 1-4 and taper over time. Patients earned chances for prizes, for targeted behaviors, which escalated for each targeted behavior in a row, with reset criteria. For scheduling a MOUD treatment intake, patients will earn 2 chances for prizes. Chances for prizes will increase by 2 chances with each targeted behavior in a row up to a max of 10 draws/targeted behavior. There are 18 targeted behaviors during the 4-week field test (schedule intake, complete intake, 4 opioid-negative Utox/week plus bonuses for cocaine-negative Utox, and 4 therapy/week).\n\nSoftware Application: Access is granted to participants for 4 weeks to the OARSCM platform which includes reinforcements for meeting MOUD treatment goals.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 26,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 26,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 26
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Steven Jenkins, CEO Q2i",
+        "organization": "Q2i, LLC",
+        "email": "sjenkins@q2i-group.com",
+        "phone": "646-660-2151"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-12-21",
+          "uploadDate": "2022-04-15T11:07",
+          "filename": "Prot_000.pdf",
+          "size": 331669
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2021-12-21",
+          "uploadDate": "2022-04-15T11:10",
+          "filename": "SAP_001.pdf",
+          "size": 141850
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009293",
+          "term": "Opioid-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000079524",
+          "term": "Narcotic-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

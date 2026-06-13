@@ -1,0 +1,216 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04857775",
+      "orgStudyIdInfo": {
+        "id": "REB14-0368"
+      },
+      "organization": {
+        "fullName": "University of Calgary",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adaptation and Pilot Testing of Web and Mobile Interface for the ATTACH™ Intervention",
+      "officialTitle": "Attachment and Child Health (ATTACH™)",
+      "acronym": "ATTACH™"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-04-07",
+      "studyFirstSubmitQcDate": "2021-04-21",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nicole Letourneau",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Calgary"
+      },
+      "leadSponsor": {
+        "name": "University of Calgary",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "COVID-19 has placed unprecedented strains on parents impacted by toxic stressors (depression, addiction, family violence, and poverty) and reluctant to see mental health-service providers in home/clinic due to fears of infection. Due to the pandemic, PI Letourneau ceased/delayed recruitment in ATTACH™, a CIHR-funded randomized controlled trials (RCT) of in-person (home or clinic) program designed to improve children's mental, emotional and behavioral (MEB) health and development via parent-child relationship intervention. Recognizing the heightened need for already vulnerable families to obtain safe parenting support to manage depressive symptoms/other stressors. The team's primary knowledge user (D. McNeil, Scientific Director, Maternal Newborn Child and Youth Strategic Clinical Network, Alberta Health Services) advocated for online delivery of the ATTACH™ parent training program. In response, an interdisciplinary team from nursing and software engineering rapidly pivoted to an online delivery format. Critical barriers to using existing commercial technologies emerged, making it essential to develop and implement tailored, user-informed virtual care delivery platforms and tools safe, secure, user-friendly for families already stressed. Innovative user interface design and integrated knowledge transfer approaches will be used to: (a) adapt ATTACH™ for virtual delivery; (b) develop virtual platforms (web-based applications) and tools (mobile apps) for flexible delivery of mental health supports for parents and training for professional facilitators; (c) integrate virtual mental health services into the primary care system promoting program uptake; and (d) design/test streamlined and intuitive virtual systems for nimble spread/scaleup. The project catalyzes and enriches the PIs' research program by crossing disciplines (nursing \\& engineering) in cutting edge research that is responsive to trends in both mental health intervention and web-interface design. The aim is to adapt, develop, design and pilot test virtual (web-based) intervention program to improve children's mental, emotional and behavioral (MEB) health and development. This will be done by building on successful CIHR funded in-person (home or clinic) programs and pivoting to user-engaged program development, adaptation and pilot testing for virtual delivery in the face of COVID19.",
+      "detailedDescription": "ATTACH™ is well established and positioned for transition to an online format as the clinic visit program has: 1) been tested and found to be effective in seven rapid-cycling RCT's; 2) been named a Frontiers of Innovation Project of the Harvard Center of the Developing Child; 3) attained a CIHR Innovative Clinical Trial (ICT) grant to scale and spread the program across Canada; 4) three agencies already independently delivering the clinic program (Discovery House, CUPS and Alcove Addictions Recovery); and 5) agency health-service providers and families have requested an online ATTACH™ program. As building on this sound foundation requires less validation than a newly formed program, ATTACH™ online is poised for rapid uptake by the community partners, and tremendous impact.\n\nMethods: Using participatory design and iKT approaches, the multidisciplinary team (Nursing and Software Engineering) will work collaboratively with mothers enrolled in the ongoing ATTACH™ pilot studies along with health-service providers and professional facilitators, to co-design the user interfaces for virtual delivery of ATTACH™. The goal is to develop and test a functioning minimum viable product (MVP) that is robust and reliable. We propose to undertake a four-phase study as follows:\n\nPhases 1 and 2: Exploratory - user engagement to identify content and explore design challenges and user preferences, followed by prototyping of interface designs; Phase 3: Software Development - iterative design sessions with users to develop MVPs; and Phase 4: Pilot Test - beta test MVPs and refine user interface designs.\n\nSystem Design (Phases 1-4) In Phase 1, content and delivery protocols for ATTACH™ will be determined with each program's Health-Service Provider Advisory Committee (H-SPAC), comprised of service providers who deliver the program. Further, 6 parents recruited from the ongoing or past intervention program studies and 6 H-SPAC members will take part in separate recorded Zoom focus group sessions and a REDcap survey (open and close-ended questions) to explore their experiences with online delivery of the parenting intervention and user-interface design preferences. Data will be transcribed verbatim and reviewed by design team for key design elements to be incorporated into interface prototypes (e.g., mobile app, web-based application) for co-design sessions. In Phase 2, a series of weekly design sessions (3-4) will be conducted with 6 Phase 1 parents and 6 H-SPAC members who will co-design prototypes of user interfaces for virtual intervention programs. Design sessions will be conducted via Zoom, using a whiteboard application to facilitate the co-design process, and recorded for later analysis by the design team. In Phase 3, an agile iterative software design approach will be used to integrate user feedback into design prototypes for 3-4 weekly design sessions, resulting in MVPs for ATTACH™. In Phase 4, two unique MVPs will be pilot (beta) tested with parents and a brief REDcap survey will assess user satisfaction. Refinements will be made to the final MVPs based on user feedback, resulting in the final web-interface.\n\nPilot Testing to Examine Child Mental, Emotional and Behavioural (MEB) Health and Development Outcomes (Phase 4). Parents will be recruited from Discovery House and CUPS for ATTACH™ (n=20; fewer as more sessions). Quasi-experimental design methods (pre/post-test) will evaluate the impact of the MVPs, for both programs, on the primary outcome of children's MEB health and development (Ages and Stages-3rd Ed. and Socio-emotional 2nd d.). Secondary outcomes include parent-infant interaction quality (via the Parent-Child Interaction Teaching Scale) and RF (in ATTACH™). As this new research program is built upon existing CIHR grant designed to test the clinic visit programs, we will determine both within group changes from the virtual program versions and compare virtual to clinic visit versions, once studies resume. Outcomes will be assessed with parametric (e.g. paired and independent t-tests), non-parametric equivalent tests, and effect size statistics as appropriate."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression",
+        "Addiction",
+        "Domestic Violence",
+        "Poverty"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group",
+          "type": "EXPERIMENTAL",
+          "description": "A quasi-experimental design was selected to more closely approximate service delivery models in agencies that do not typically employ control groups. Given promising findings (from seven ATTACH™ pilot studies), a randomized controlled trial design, even employing wait-list controls was deemed unacceptable and even unethical by patients, health care professionals and health system administrators in engagement activities surrounding the preparation of this proposal.",
+          "interventionNames": [
+            "Behavioral: Attachment and Child Health (ATTACH) Parenting Program"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Attachment and Child Health (ATTACH) Parenting Program",
+          "description": "ATTACH™ provides parent training to address Reflective Function (RF) of parents affected by a broad array of toxic stressors. RF, defined as the ability to have insight into one's own and one's child's mental states, feelings, thoughts and intentions, underpins parental sensitivity and responsiveness and is undermined by the experience of current or past stress. Parents require high RF to respond sensitively/appropriately to their children and thus promote secure parent-child attachments, essential for child MEB health. ATTACH™ consists of 10-12 \\~45-minute clinic visits with dyadic (mother and infant) and triadic (mother, infant, and co-parent) elements, with a trained facilitator, who may be a nurse, social worker or other allied health professional.",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mother Child interaction Quality will be assessed by Parent Child Interaction Teaching Scale (PCITS)",
+          "description": "The Parent Child Interaction Teaching Scale will be used to evaluate Mother-child interactions. See Study Detailed Description and Intervention arm for more information on the PCITS Program. Scale range from 0 - 73. A higher score means a better outcome, i.e. higher quality of parent-child interaction.",
+          "timeFrame": "Change from baseline PCITS scores after completion of intervention (an average of 10 weeks)."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* parents with children between birth and 32 months of age (based on selection of age-appropriate tools for assessing children's health and development)\n* parents agree to participate in the ATTACH™ program consisting of 10-12 weeks of one-hour per week parent training sessions\n* parents agreed to bring a co-parent for 2-3 of the 10 sessions (when possible)\n* parents agree to the dried blood sample collection from themselves and their children (in Calgary agencies)\n\nExclusion Criteria:\n\n\\-",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Calgary",
+          "status": "RECRUITING",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N 1N4",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Nicole Letourneau, RN, PhD",
+              "role": "CONTACT",
+              "phone": "403-210-3833",
+              "email": "nicole.letourneau@ucalgary.ca"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D016739",
+          "term": "Behavior, Addictive"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D003192",
+          "term": "Compulsive Behavior"
+        },
+        {
+          "id": "D007175",
+          "term": "Impulsive Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000067576",
+          "term": "Child Health"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006262",
+          "term": "Health"
+        },
+        {
+          "id": "D011154",
+          "term": "Population Characteristics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

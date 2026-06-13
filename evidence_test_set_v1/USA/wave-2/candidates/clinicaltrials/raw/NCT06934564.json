@@ -1,0 +1,289 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06934564",
+      "orgStudyIdInfo": {
+        "id": "HUM00261786"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01HS029306",
+          "type": "AHRQ",
+          "link": "https://reporter.nih.gov/quickSearch/R01HS029306"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Michigan",
+        "class": "OTHER"
+      },
+      "briefTitle": "De-Implementation of Low-value Testing in Patients Undergoing Low-Risk Surgery",
+      "officialTitle": "De-Implementation of Low-value Testing in Patients Undergoing Low-Risk Surgery"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-11",
+      "studyFirstSubmitQcDate": "2025-04-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lesly Ann Dossett",
+        "investigatorTitle": "Research Professor of Cancer Quality Improvement",
+        "investigatorAffiliation": "University of Michigan"
+      },
+      "leadSponsor": {
+        "name": "University of Michigan",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Agency for Healthcare Research and Quality (AHRQ)",
+          "class": "FED"
+        },
+        {
+          "name": "Blue Cross Blue Shield of Michigan Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial aims to evaluate the effectiveness of a multi-level, multi-component de-implementation strategy to reduce unnecessary preoperative testing. Sixteen Michigan Value Collaborative (MVC)/Michigan Surgical Quality Collaborative (MSQC) sites in Michigan will implement several tools that have been proven to reduce unnecessary testing at a single site, including clinician education, a decision aid, audit and feedback on performance, and a pay-for-performance incentive. The researchers believe that, through the use of these strategies, there will be a significant reduction in unnecessary preoperative testing during the intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Lumpectomy",
+        "Laparoscopic Cholecystectomy",
+        "Inguinal Hernia Repair"
+      ],
+      "keywords": [
+        "Preoperative testing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Using a stepped wedge design, sixteen Michigan Value Collaborative (MVC)/Michigan Surgical Quality Collaborative (MSQC) sites in Michigan will implement a multi-level, multi-component de-implementation strategy and collect information on the use of unnecessary preoperative testing.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Wave 1",
+          "type": "EXPERIMENTAL",
+          "description": "Each wave will include usual care, preparation (8 weeks before intervention), active de-implementation interventions, and sustainment phases.\n\nIntervention is Year 1 Quarter 2",
+          "interventionNames": [
+            "Behavioral: Active de-Implementation"
+          ]
+        },
+        {
+          "label": "Wave 2",
+          "type": "EXPERIMENTAL",
+          "description": "Each wave will include usual care, preparation (8 weeks before intervention), active de-implementation interventions, and sustainment phases.\n\nIntervention is Year 1 Quarter 3",
+          "interventionNames": [
+            "Behavioral: Active de-Implementation"
+          ]
+        },
+        {
+          "label": "Wave 3",
+          "type": "EXPERIMENTAL",
+          "description": "Each wave will include usual care, preparation (8 weeks before intervention), active de-implementation interventions, and sustainment phases.\n\nIntervention is Year 1 Quarter 4",
+          "interventionNames": [
+            "Behavioral: Active de-Implementation"
+          ]
+        },
+        {
+          "label": "Wave 4",
+          "type": "EXPERIMENTAL",
+          "description": "Each wave will include usual care, preparation (8 weeks before intervention), active de-implementation interventions, and sustainment phases.\n\nIntervention is Year 2 Quarter 1",
+          "interventionNames": [
+            "Behavioral: Active de-Implementation"
+          ]
+        },
+        {
+          "label": "Wave 5",
+          "type": "EXPERIMENTAL",
+          "description": "Each wave will include usual care, preparation (8 weeks before intervention), active de-implementation interventions, and sustainment phases.\n\nIntervention is Year 2 Quarter 2",
+          "interventionNames": [
+            "Behavioral: Active de-Implementation"
+          ]
+        },
+        {
+          "label": "Wave 6",
+          "type": "EXPERIMENTAL",
+          "description": "Each wave will include usual care, preparation (8 weeks before intervention), active de-implementation interventions, and sustainment phases.\n\nIntervention is Year 2 Quarter 3",
+          "interventionNames": [
+            "Behavioral: Active de-Implementation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Active de-Implementation",
+          "description": "During active de-implementation (3 months), the local team will distribute the strategy components (i.e., clinician education, decision support, evaluation, consensus building around perioperative testing pathways, facility-specific feedback, and a pay-for-performance incentive) at the local site.",
+          "armGroupLabels": [
+            "Wave 1",
+            "Wave 2",
+            "Wave 3",
+            "Wave 4",
+            "Wave 5",
+            "Wave 6"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of tests within 30 days of surgery not associated with an emergency department visit",
+          "description": "Only tests relating to three index procedures; breast lumpectomy, laparoscopic cholecystectomy, and inguinal hernia repair\n\nData collected using MVC/MSQC database",
+          "timeFrame": "Within 30 days of surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of unnecessary preoperative testing before low-risk surgery at MVC/MSQC sites not participating in the trial",
+          "description": "Example related operations: laparoscopic hysterectomy, knee arthroscopy",
+          "timeFrame": "Up to year 2, quarter 4"
+        },
+        {
+          "measure": "30-day episode-based spending",
+          "description": "Using the MVC claims data for total spending amounts",
+          "timeFrame": "Up to Year 2, Quarter 2"
+        },
+        {
+          "measure": "Number of unnecessary preoperative testing before low-risk surgery at trial sites",
+          "description": "Example related operations: laparoscopic hysterectomy, knee arthroscopy",
+          "timeFrame": "Up to year 2, quarter 4"
+        },
+        {
+          "measure": "Number of intraoperative complications",
+          "description": "Examples: myocardial infarction, stroke",
+          "timeFrame": "Up to year 2, quarter 4"
+        },
+        {
+          "measure": "Number of same-day case cancellations",
+          "timeFrame": "Up to year 2, quarter 4"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Site\n\nInclusion Criteria:\n\n* Over 30% of testing rates on at least one of the three index procedures (breast lumpectomy, laparoscopic cholecystectomy, and inguinal hernia repair)\n\nExclusion Criteria:\n\n* none\n\nSurgical participants must be over 18 years old.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Dana Greene Jr., MPH",
+          "role": "CONTACT",
+          "phone": "(313)-670-0408",
+          "email": "greenejr@med.umich.edu"
+        },
+        {
+          "name": "Valerie Gavrila",
+          "role": "CONTACT",
+          "phone": "734-232-9961",
+          "email": "gavrilva@umich.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Lesly Dossett, MD, MPH",
+          "affiliation": "University of Michigan",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Hari Nathan, PhD",
+          "affiliation": "University of Michigan",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Michigan and other Michigan Surgical Quality Collaborative sites",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dana Greene Jr., MPH",
+              "role": "CONTACT",
+              "phone": "(313)-670-0408",
+              "email": "greenejr@med.umich.edu"
+            },
+            {
+              "name": "Lesly Dossett, MD, MPH",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Hari Nathan, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06666127",
+      "orgStudyIdInfo": {
+        "id": "H24-01989"
+      },
+      "organization": {
+        "fullName": "University of British Columbia",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Peak Force At Long and Short Muscle Lengths and the Impact on Muscle Growth and Strength",
+      "officialTitle": "Determining the Effect of Muscle Length At Peak Force on Resistance Training Induced Hypertrophy",
+      "acronym": "SLML"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-05-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-05-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-22",
+      "studyFirstSubmitQcDate": "2024-10-28",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Cameron Mitchell",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of British Columbia"
+      },
+      "leadSponsor": {
+        "name": "University of British Columbia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn the effect of applying peak force/resistance to skeletal muscles during resistance exercise training in young and healthy adults. Participants will undergo two types of resistance training conditions that are randomly assigned to the left arm and leg and the right arm and leg. The LONG condition refers to Prime Fitness machines set to setting number '3' which applies peak force at a long muscle length. The SHORT condition refers to Prime Fitness machines set to setting number '2' which applies peak force at a short muscle length.\n\nThe main questions the trial aims to answer are:\n\n1. Does applying peak force at a longer or shorter muscle length during resistance exercise training result in greater muscle growth?\n2. Does applying peak force at a longer or shorter muscle length during resistance exercise training result in greater muscle growth?\n\nWe hypothesize that:\n\n1. LONG will induce greater hypertrophy compared to SHORT conditions\n2. LONG will result in greater increases in 1RM strength compared to SHORT\n3. LONG and SHORT training will result in angle specific increases in isokinetic strength\n4. Muscle oxygenation will decline to a greater degree during LONG compared to SHORT exercise and this will be maintained between weeks 1 and 12 of training\n\nThe investigators will compare the change in muscle volume and muscular strength between the LONG and SHORT training conditions, which each participant will have the left arm and leg as well as the right arm and leg randomly assigned to either exclusively LONG or SHORT conditions.\n\nParticipants will:\n\n* Resistance train the left and right arm and leg with two separate conditions; LONG and SHORT for 12 weeks, with the first and last weeks dedicated to only strength testing (Isotonic and Isokinetic) and measuring muscle volume via magnetic resonance imaging (MRI)\n* Visit the gym for resistance training 2 times per week\n* Visit the UBC MRI Research Facility in weeks 1 and 12 for MRI of muscle volume",
+      "detailedDescription": "Statistical Analysis:\n\nNull Hypothesis Significance Testing (NHST) will be used to measure differences in hypertrophy, differences in 1RM strength, Isokinetic strength and muscle oxygenation between LONG and SHORT conditions.\n\nIt is anticipated that this study will require at least 20 participants to be screened and registered into the trial. Data will be analyzed on the basis that all participants will be included in the analysis. Participants who drop out (withdraw from treatment) will be followed up with to collect all available data and will not be replaced. Missing data will be assumed missing at random.\n\nSample Size Calculation:\n\nBased on the effect size reported by Maeo et al. (2023) for difference in triceps brachia long head hypertrophy between training performed in the lengthened compared to shortened position using a within participant design, (d=0.61) a sample size of 20 participants was calculated to achieve an a priori power of 90%."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Muscle Hypertrophy",
+        "Muscular Strength"
+      ],
+      "keywords": [
+        "Muscle Hypertrophy",
+        "Muscular Strength",
+        "Long Muscle Lengths",
+        "Peak Force",
+        "Length-Tension Relationship",
+        "Range of Motion",
+        "Neuromechanical Matching",
+        "Resistance Training",
+        "Muscle Oxygenation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Within-Subject Design: Each participant will have the left arm and leg as well as the right arm and leg randomly assigned to the LONG or SHORT condition. Each participant will perform both conditions, exclusively for the left or right sided limbs. This helps to control for genetics, nutrition, recovery, stress management and training history as each participant acts as a self-control group as well as both experimental conditions.",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SHORT and LONG Training Protocol",
+          "type": "EXPERIMENTAL",
+          "description": "Using a within subject design, participants will have the arms and legs from both left and right side of the body (divided by sagittal plane) randomly assigned to either LONG or SHORT conditions. Participants will then engage in maximal strength testing on Prime Fitness machines (1RM) as well as isokinetic strength testing (Biodex) in weeks 1 and 12. Participants will engage in the LONG and SHORT training sessions for 10 weeks in duration from week 2 until week 11.",
+          "interventionNames": [
+            "Other: LONG and SHORT Resistance Training",
+            "Other: Maximal Isotonic Strength Testing (1RM)",
+            "Other: Isokinetic Strength Testing",
+            "Other: Muscle Oxygenation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "LONG and SHORT Resistance Training",
+          "description": "One side of the body will be randomly assigned to perform exercises in position 3 (LONG) with the other randomly assigned to position 2 (SHORT) of Prime Fitness horizontal shoulder adduction, horizontal shoulder abduction, shoulder abduction and hip extension. Each exercise will include 1 warm up set at 50% 1RM followed by 4-5 sets of 8-12 repetitions per limb. 2 minutes of rest between sets on the same side of body will be administered as the participant will alternate between the right and left limb. The left and right side limbs will alternate each session in which one starts each exercise, resulting in 10 training sessions each where the left and right limbs starts first on each exercise. All sets will be performed to momentary failure. A Dynamic Double Progression will be employed to ensure intensity is maintained.",
+          "armGroupLabels": [
+            "SHORT and LONG Training Protocol"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Maximal Isotonic Strength Testing (1RM)",
+          "description": "Each limb will perform a 1RM strength test with each Prime Fitness machine training horizontal shoulder adduction, horizontal shoulder abduction, shoulder abduction and hip extension respectively. Each machine will be set to position 1 (maximal load in mid-range). Testing will occur in weeks 1 and 12 of the study with the non-dominant arm and leg tested before the dominant arm and leg in each exercise. Participants self-selects first warm up set with a weight that is performed between 6-10 repetitions on both limbs. Rest for 1 minute between limbs and subsequent set. A weight is then selected by research staff to perform 3 repetitions with based on previous set. Load is now increased until 1RM is achieved. Rest periods should remain at least 1 minute alternating between limbs, with 1RM being complete within 3-5 attempts. Participant will rest 2-5 minutes before starting testing on the next exercise. Repeat for all exercises. Use pre testing data to inform 1RM attempts for post testing.",
+          "armGroupLabels": [
+            "SHORT and LONG Training Protocol"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Isokinetic Strength Testing",
+          "description": "Participants will engage in isokinetic strength testing on the isokinetic dynamometer (Biodex) in weeks 1 and 12 for each of the four movements: Horizontal shoulder adduction, horizontal shoulder abduction, shoulder abduction and hip extension. Participants will perform each movement unilaterally. Participants will start with the non-dominant arm and leg for each movement. Each movement will be tested through A maximal active range of motion. Participants will complete 10 sub-maximal repetitions to allow familiarization each movement. After a 2-minute rest, participants will complete 3 maximal concentric and eccentric repetitions with 30 seconds rest at 30 degrees per second before the Biodex is reset for the next movement.",
+          "armGroupLabels": [
+            "SHORT and LONG Training Protocol"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Muscle Oxygenation",
+          "description": "During the first and last LONG and SHORT training session (visit 5 and visit 24), A near infrared spectroscopy sensor (NIRS device) (Trainred) will be affixed to the muscle belly of the deltoid during the lateral raise exercise to measure muscle oxygenation.",
+          "armGroupLabels": [
+            "SHORT and LONG Training Protocol"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Muscle Volume",
+          "description": "Muscle volume of the pectoralis major, deltoid and gluteus maximus muscle will be measured by cross sectional area (CSA) via Magnetic Resonance Imaging (MRI). The entire muscle length will be imaged and images at 25%, 50% and 75% of the entire muscle length will be analyzed to calculate CSA and any regional differences in hypertrophy.",
+          "timeFrame": "From enrolment to the end of the intervention at 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Isotonic Strength testing",
+          "description": "Isotonic strength testing will compare the magnitude of gains in isotonic strength via a one repetition maximum test (1RM) which is the maximum weight lifted for 1 repetition. Isotonic strength will be measured using the Prime Fitness Machines used in the LONG and SHORT conditions for four different movements. Single arm shoulder horizontal adduction (Prime Fitness Chest Fly), single arm shoulder horizontal abduction (Prime Fitness Rear Deltoid Fly), single arm shoulder abduction (Prime Fitness Lateral Raise) and single leg hip extension (Prime Fitness Multi-Hip) 1RM (maximum weight lifted for 1 repetition).",
+          "timeFrame": "Initial testing in week 1 and final testing in week 12"
+        },
+        {
+          "measure": "Isokinetic Strength Testing",
+          "description": "Isokinetic Strength Testing: Compare the magnitude of gains in isokinetic strength in the LONG and SHORT conditions for four different movements.\n\nSingle arm shoulder horizontal adduction, shoulder abduction and single leg hip extension measured on an isokinetic dynamometer (Biodex) at long, moderate and short muscle lengths for both the concentric and eccentric contraction phases.",
+          "timeFrame": "Initial testing in week 1 and final testing in week 12"
+        },
+        {
+          "measure": "Muscle Oxygenation",
+          "description": "To compare muscle oxygenation of the deltoid between LONG and SHORT conditions during the first and last LONG and SHORT training sessions. Muscle oxygenation will be measured using a Near Infra-Red Spectroscopy (NIRS) device that will be placed on the participants shoulder during deltoid training.",
+          "timeFrame": "Week 2 and week 11."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Visual Analog Scale of Perceived Rating of Muscular Discomfort",
+          "description": "Participants will rate perceived muscular discomfort/delayed on-set muscle soreness (DOMS) in each of the limbs. Participants will assess 24, 48 and 72 hours after the 1st, 3rd, 5th, 7th and 19th LONG and SHORT training session via a visual analog scale (VAS) that is 10 centimeters (cm) in length. The VAS is labelled \"no pain\" on the far left of the scale and \"unbearable pain\" on the far right of the scale. \"No pain\" would be the minimum value at 0 cm and \"unbearable pain\" would be the maximum value at 10 cm. A better outcome would be closer to the far left of the scale at \"no pain\" and a worse outcome would be closer to the far right of the scale at \"Unbearable pain\". Participants will draw a straight line from left to right above the VAS to a desired length that is indicative of the perceived level of muscular discomfort/DOMS the participant experiences.",
+          "timeFrame": "From week 2 to week 4 and week 11 only."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Any sex\n2. Able to understand and communicate in English\n3. 19-30 years of age\n4. All \"No\" answers on the CSEP Get Active questionnaire or doctors' approval to participate\n5. Untrained participants: no structured resistance training over the past 12-months (i.e. \\> 2 hours per week of structured/periodized training)\n\nExclusion Criteria:\n\n1. BMI lower than 18 or greater than 30\n2. Difficulty to understand and communicate in English\n3. Current use of cigarettes or other nicotine devices\n4. Any major uncontrolled cardiovascular, muscular, metabolic, and/or neurological disorders\n5. Any medical condition impacting the ability to participate in maximal exercise\n6. Type one or type two diabetes\n7. Diagnosis of cancer or undergoing cancer treatment in the past 12 months\n8. Drug therapy with any drugs that alter skeletal muscle metabolism (i.e., Metformin, Benzodiazepines)\n9. Omega-3 (EPA, DHA, fish oil) supplementation within the previous 6 weeks\n10. Implants containing ferrous metal\n11. Surgery or tattoos (including tattooed eyeliner) in the last 6 weeks\n12. Pregnancy",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "19 Years",
+      "maximumAge": "30 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dr. Cameron Mitchell",
+          "affiliation": "University of British Columbia, School of Kinesiology",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of British Columbia",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V6T 1Z4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35819335",
+          "type": "BACKGROUND",
+          "citation": "Maeo S, Wu Y, Huang M, Sakurai H, Kusagawa Y, Sugiyama T, Kanehisa H, Isaka T. Triceps brachii hypertrophy is substantially greater after elbow extension training performed in the overhead versus neutral arm position. Eur J Sport Sci. 2023 Jul;23(7):1240-1250. doi: 10.1080/17461391.2022.2100279. Epub 2022 Aug 11."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

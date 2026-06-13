@@ -1,0 +1,64 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04573296",
+      "nct_id": "NCT04573296",
+      "title": "Impact of Digital Therapeutic on Metabolic Parameters",
+      "official_title": "Impact of Digital Therapeutic Intervention on Metabolic Parameters in Obese Adults With Insulin Resistance, Prediabetes and Type 2 Diabetes as Compared to Conventional Intensive Obesity Management Programme",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 100,
+      "start_date": "2020-02-26",
+      "completion_date": "2022-11-30",
+      "conditions": [
+        "Insulin Resistance",
+        "Prediabetic State",
+        "Diabetes Mellitus, Type 2",
+        "Obesity"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Vitadio",
+          "type": "DEVICE",
+          "description": "A 6-month digitally administered behavioral change program Vitadio focus on lifestyle change and self-management. The program aims for strengthening patients autonomy with the goal to promote weight loss and improve metabolic health. The program includes personalized education, adaptive daily tasks and weekly goals, automated motivational and educational messaging, monitoring tools, recipes, peer-support group and remote coaching."
+        },
+        {
+          "name": "Conventional high-intensity lifestyle intervention program",
+          "type": "BEHAVIORAL",
+          "description": "A 6-month high-intensity lifestyle intervention program consisting of 5 face-to-face nutrition/lifestyle education sessions. Participants can use an online diary tool for recording meals with an option to receive remote feedback on their diet from the educator."
+        }
+      ],
+      "lead_sponsor": "Vitadio s.r.o.",
+      "collaborators": [
+        "University Hospital Olomouc"
+      ],
+      "countries": [
+        "Czechia"
+      ],
+      "brief_summary": "The purpose of this prospective randomized controlled study is to evaluate the impact of a six-month digitally administered behavioral change program on body weight, glycemic control and other metabolic parameters in obese adults with insulin resistance, prediabetes or type 2 diabetes as compared to conventional high-intensity lifestyle intervention program administered at a specialized department of a university hospital.",
+      "detailed_description": "In this prospective randomized clinical study, obese adults with insulin resistance, prediabetes or diabetes mellitus type 2, patients of the Department of Exercise Medicine and Cardiovascular Rehabilitation at the University Hospital Olomouc, are randomized to receive either Vitadio or a conventional 6-month high-intensity lifestyle intervention program at the clinic.\n\nVitadio is a mobile application delivering behavioral change program focused on lifestyle change and self-management. The program aims for strengthening patients autonomy with the goal to promote weight loss and improve metabolic health. The program includes personalized education, adaptive daily tasks and weekly goals, automated motivational and educational messaging, monitoring tools, recipes, peer-support group and one-on-one remote coaching. Personalization of the intervention is achieved by analyzing participant's interactions with the application.\n\nThe conventional therapy consists of 5 face-to-face nutrition/lifestyle education sessions (at baseline, at 1st, 2nd and 3rd month, and at month 6). Participants in the control group can use an online diary tool for recording meals with an option to receive remote feedback on their diet from the educator. In addition, all participants undergo a regular medical assessment at the clinic (baseline, month 3, month 6).\n\nThe aim of the study is to assess feasibility and efficacy of digitally administered intervention by comparing evolution of weight, physical fitness, laboratory measures of metabolic health, blood pressure and other outcomes.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04573296",
+      "_matched_query": "\"Vitadio\"",
+      "_raw_json_path": "evidence/Germany/vitadio/candidates/clinicaltrials/raw/NCT04573296.json"
+    }
+  ],
+  "count": 1,
+  "queries_used": [
+    "\"Vitadio\"",
+    "\"Vitadio\" AND \"übermittelten Angaben\""
+  ],
+  "dtx_name": "Vitadio",
+  "country": "Germany",
+  "_saved_at": "2026-02-09T20:34:19.638268Z",
+  "_source": "clinicaltrials",
+  "_layer": "candidates"
+}

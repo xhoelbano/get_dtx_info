@@ -1,0 +1,33 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00028888",
+      "drks_id": "DRKS00028888",
+      "title": "Effectiveness of Priovi, A Digital Self-help Tool, In Patients with Borderline\nPersonality Disorder – a single-blinded Randomized Controlled Trial (EPADIP-\nBPD)",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028888/details",
+      "_matched_query": "\"priovi\"",
+      "_raw_json_path": "evidence/Germany/priovi-digitale-unterstutzung-der-borderline-behan/candidates/drks/raw/DRKS00028888.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'Priovi,' which matches the name of the digital therapeutic product described. The clinical area (borderline personality disorder) aligns with the product's intended use, and there is no indication that this is about a different product or a generic study.",
+        "matched_elements": [
+          "Priovi",
+          "borderline personality disorder"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'Randomized Controlled Trial' and includes 'single-blinded,' which are clear indicators of an RCT design."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T20:06:58.855325Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

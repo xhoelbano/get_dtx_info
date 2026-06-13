@@ -1,0 +1,218 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06795477",
+      "orgStudyIdInfo": {
+        "id": "HUM00213493"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5R01LM013624",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5R01LM013624"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Michigan",
+        "class": "OTHER"
+      },
+      "briefTitle": "Preventing Medication Dispensing Errors in Pharmacy Practice with Interpretable Machine Intelligence: Wave 2",
+      "officialTitle": "Preventing Medication Dispensing Errors in Pharmacy Practice with Interpretable Machine Intelligence: Wave 2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-02-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-05-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-21",
+      "studyFirstSubmitQcDate": "2025-01-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Corey Lester",
+        "investigatorTitle": "Assistant Professor of Clinical Pharmacy",
+        "investigatorAffiliation": "University of Michigan"
+      },
+      "leadSponsor": {
+        "name": "Corey Lester",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Library of Medicine (NLM)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Pharmacists currently perform an independent double-check to identify drug-selection errors before they can reach the patient. However, the use of machine intelligence (MI) to support this cognitive decision-making work by pharmacists does not exist in practice. This research is being conducted to examine the effectiveness machine intelligence (MI) advice on to determine if its impact on pharmacists' work performance and cognitive demand."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Machine Intelligence in the Pharmacy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Interpretable MI",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive interpretable machine intelligence to complete the medication verification task.",
+          "interventionNames": [
+            "Behavioral: No MI Help",
+            "Behavioral: Interpretable MI"
+          ]
+        },
+        {
+          "label": "Uninterpretable MI",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive uninterpretable (i.e., black-box) machine intelligence to complete the medication verification task.",
+          "interventionNames": [
+            "Behavioral: No MI Help",
+            "Behavioral: Uninterpretable MI"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "No MI Help",
+          "description": "Participants will complete the medication verification task without any MI help",
+          "armGroupLabels": [
+            "Interpretable MI",
+            "Uninterpretable MI"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Interpretable MI",
+          "description": "Participants receive interpretable machine intelligence assistance to complete the medication verification tasks.",
+          "armGroupLabels": [
+            "Interpretable MI"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Uninterpretable MI",
+          "description": "Participants receive uninterpretable (i.e., black-box) machine intelligence assistance to complete the medication verification tasks.",
+          "armGroupLabels": [
+            "Uninterpretable MI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cognitive effort",
+          "description": "Difference in cognitive effort measured by duration of fixation and fixation count",
+          "timeFrame": "1 day - Single study visit"
+        },
+        {
+          "measure": "Decision accuracy",
+          "description": "Difference in detection rate measured by number of medication verification errors",
+          "timeFrame": "1 day - Single study visit"
+        },
+        {
+          "measure": "Trust change",
+          "description": "Difference in trust as measured by visual analog scale will be calculated based on AI advice accuracy. Participants will indicate their level of trust in the AI advice after every trial on a scale from 1-100, with higher scores indicating greater levels of trust.",
+          "timeFrame": "1 day - Single study visit"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Reaction time",
+          "description": "Difference in task time measured by the number of seconds from starting the task to accepting or rejecting a medication image",
+          "timeFrame": "1 day - Single study visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Licensed pharmacist in the United States\n2. Age 18 years and older at screening\n3. PC/Laptop with Microsoft Windows 10 or Mac (Macbook, iMac) with MacOS with Google Chrome or Firefox web browser installed on the device\n4. Screen resolution of 1024x968 pixels or more\n5. A laptop integrated webcam or USB webcam is also required for the eye tracking purpose.\n\nExclusion Criteria:\n\n1. Eyeglasses with more than one power (bifocals, trifocals, progressives, layered lenses, or regression lenses)\n2. Cataracts, intraocular implants, glaucoma, or permanently dilated pupil\n3. Require a screen reader/magnifier or other assistive technology to use the computer\n4. Eye surgery (e.g., corneal)\n5. Eye movement or alignment abnormalities (lazy eye, strabismus, nystagmus)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "University of Michigan",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39888668",
+          "type": "DERIVED",
+          "citation": "Tsai CC, Kim JY, Chen Q, Rowell B, Yang XJ, Kontar R, Whitaker M, Lester C. Effect of Artificial Intelligence Helpfulness and Uncertainty on Cognitive Interactions with Pharmacists: Randomized Controlled Trial. J Med Internet Res. 2025 Jan 31;27:e59946. doi: 10.2196/59946."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,54 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00027176",
+      "drks_id": "DRKS00027176",
+      "title": "HelloBetter Chronic Pain Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027176/details",
+      "_matched_query": "\"HelloBetter Chronische Schmerzen\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-chronische-schmerzen/candidates/drks/raw/DRKS00027176.json"
+    },
+    {
+      "study_id": "DRKS00037509",
+      "drks_id": "DRKS00037509",
+      "title": "Possibility of the health app reducing the impact of pain on\npatients with axial spondyloarthritis in everyday life. (ESTABLISH\nstudy)",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00037509/details",
+      "_matched_query": "\"HelloBetter Chronische Schmerzen\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-chronische-schmerzen/candidates/drks/raw/DRKS00037509.json"
+    },
+    {
+      "study_id": "DRKS00038408",
+      "drks_id": "DRKS00038408",
+      "title": "Segmentation and progress monitoring of chronic wounds using artificial intelligence (WUNDERKINT): Pilot study",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00038408/details",
+      "_matched_query": "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-chronische-schmerzen/candidates/drks/raw/DRKS00038408.json"
+    },
+    {
+      "study_id": "DRKS00030844",
+      "drks_id": "DRKS00030844",
+      "title": "A prospective, non-randomised, multi-centre, post-market clinical follow-up observational study to evaluate the clinical and radiographic outcomes of the BEE® HA Cage for anterior cervical discectomy and fusion",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030844/details",
+      "_matched_query": "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-chronische-schmerzen/candidates/drks/raw/DRKS00030844.json"
+    }
+  ],
+  "count": 4,
+  "queries_used": [
+    "\"HelloBetter Chronische Schmerzen\"",
+    "\"HelloBetter Chronische Schmerzen\" AND \"übermittelten Angaben\""
+  ],
+  "dtx_name": "HelloBetter Chronische Schmerzen",
+  "country": "Germany",
+  "_saved_at": "2026-02-09T19:32:22.599765Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

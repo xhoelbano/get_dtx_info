@@ -1,0 +1,209 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05586893",
+      "orgStudyIdInfo": {
+        "id": "HCFMRP/USP 1332694/2015"
+      },
+      "organization": {
+        "fullName": "University of Sao Paulo",
+        "class": "OTHER"
+      },
+      "briefTitle": "Acupuncture and Skin Temperature Behavior",
+      "officialTitle": "Skin Temperature Behavior by Infrared Thermography After Application of Electroacupuncture and Acupuncture"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-28",
+      "studyFirstSubmitQcDate": "2022-10-18",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Elaine Caldeira de Oliveira Guirro",
+        "investigatorTitle": "PhD Elaine Caldeiro de Oliveira Guirro - Professor",
+        "investigatorAffiliation": "University of Sao Paulo"
+      },
+      "leadSponsor": {
+        "name": "University of Sao Paulo",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Objective: Evaluating the behavior of skin temperature through infrared thermography after application of acupuncture and electroacupuncture in Weizhong (B40) and Kunlun (B60) acupunctures points. Methods: A single-blind randomized clinical trial was performed with 54 participants of both sexes, mean of 21.88±2.53 years, randomized into three groups (n=18): electroacupuncture (EAG), acupuncture (AG) and control (CG). The application was bilateral in the acupoints (B60 and B40), for 20 minutes. The skin temperature of the lower limbs was measured at the following times: before application, 10 minutes of application, 20 minutes of application and 10 minutes after needle removal."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Thermography",
+        "Acupuncture Therapy",
+        "Electroacupuncture"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Electroacupuncture",
+          "type": "EXPERIMENTAL",
+          "description": "The acupuncture electrical stimulation was performed by the EL 608 electroacupuncture device (NKL, Brusque - SC, Brazil, ANVISA 80191680002). For the stimulation of the acupuncture points, we selected a biphasic wave, 2 HZ of frequency, 6 mA of wavelength, and 5 seconds at resting time. The total stimulation time was 20 minutes.",
+          "interventionNames": [
+            "Device: Acupuncture therapy and Electroacupuncture"
+          ]
+        },
+        {
+          "label": "Acupuncture therapy",
+          "type": "EXPERIMENTAL",
+          "description": "The acupuncture points were bilaterally punctured by a stainless steel acupuncture needle (length 30mm x diameter 0.25) (Dongbang, Boryeong, Chungnam- Korea). We used the following Bladder acupuncture points, Weizong (B40) in the middle of the popliteal fossa and Kunlun (B60) located in a depression between the lateral malleolus and the Achilles tendon. The subjects were instructed to report the \"De Qi\" perception (paresthesia or numbness) that was the advice to the researchers that the point was right punctured. After the De qi was reported, the needle remained in the acupuncture point for 20 minutes and was rotated three times more for the preservation of the effect. During this time, all subjects remained in the supine laying down position on the stretcher.",
+          "interventionNames": [
+            "Device: Acupuncture therapy and Electroacupuncture"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION",
+          "description": "Infrared images were captured at the first assessment (P0), 10 minutes later (P10), 20 minutes later (P20) and 30 minutes after the first assessment (P30). All analyzes were performed using QuickReport software, version 1.2 (FLIR Systems). No application of interventions between assessments."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Acupuncture therapy and Electroacupuncture",
+          "description": "We used the following Bladder acupuncture points, Weizong (B40) in the middle of the popliteal fossa and Kunlun (B60) located in a depression between the lateral malleolus and the Achilles tendon. The subjects were instructed to report the \"De Qi\" perception (paresthesia or numbness) that was the advice to the researchers that the point was right punctured. After the De qi was reported, the needle remained in the acupuncture point for 20 minutes and was rotated three times more for the preservation of the effect. During this time, all subjects remained in the supine laying down position on the stretcher.",
+          "armGroupLabels": [
+            "Acupuncture therapy",
+            "Electroacupuncture"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Skin temperature",
+          "description": "Skin temperature was evaluated by infrared thermography using a thermal camera, brand FLIR® Systems (T300, Wilsonville, OR, USA), and accuracy of up to 0.05º C, with emissivity of 0.98 being established and the instrument stabilized for 10 minutes before the exam. Three infrared images were captured in sequence at a distance of 100 cm from the individual, in order to allow the framing of the evaluated limb \\[20\\].",
+          "timeFrame": "30 minutes after the first assessment (P30)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Both sexes;\n* Aged between 18-30 years;\n* Good general health;\n\nExclusion Criteria:\n\n* Pregnant women;\n* Hemophiliacs;\n* Smokers;\n* Patients with severe cardiovascular diseases.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "30 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015670",
+          "term": "Acupuncture Therapy"
+        },
+        {
+          "id": "D015671",
+          "term": "Electroacupuncture"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000529",
+          "term": "Complementary Therapies"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D004599",
+          "term": "Electric Stimulation Therapy"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D004561",
+          "term": "Transcutaneous Electric Nerve Stimulation"
+        },
+        {
+          "id": "D000698",
+          "term": "Analgesia"
+        },
+        {
+          "id": "D000760",
+          "term": "Anesthesia and Analgesia"
+        },
+        {
+          "id": "D000758",
+          "term": "Anesthesia"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

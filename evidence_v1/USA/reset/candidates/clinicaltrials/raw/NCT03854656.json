@@ -1,0 +1,670 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03854656",
+      "orgStudyIdInfo": {
+        "id": "NNF17OC0027822"
+      },
+      "organization": {
+        "fullName": "Steno Diabetes Center Copenhagen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Time-restricted Eating on Behaviour and Metabolism in Overweight Individuals at High Risk of Type 2 Diabetes",
+      "officialTitle": "Effect of Time-restricted Eating on Behaviour and Metabolism in Overweight Individuals at High Risk of Type 2 Diabetes - the RESET Study",
+      "acronym": "RESET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-02-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-02-18",
+      "studyFirstSubmitQcDate": "2019-02-22",
+      "studyFirstPostDateStruct": {
+        "date": "2019-02-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Kristine Færch",
+        "investigatorTitle": "Senior Researcher and Team Leader, PhD",
+        "investigatorAffiliation": "Steno Diabetes Center Copenhagen"
+      },
+      "leadSponsor": {
+        "name": "Kristine Færch",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Copenhagen",
+          "class": "OTHER"
+        },
+        {
+          "name": "Aalborg University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "IMotions A/S",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "University of Leeds",
+          "class": "OTHER"
+        },
+        {
+          "name": "Salk Institute for Biological Studies",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the present study is to investigate effects of 12 weeks time-restricted eating on behaviour and metabolism in individuals with overweight or obesity at high risk of type 2 diabetes.",
+      "detailedDescription": "Overweight and obese individuals with pre-diabetes or with a family history of diabetes or cardiovascular disease (CVD) are at high risk for developing type 2 diabetes (T2D) and CVD. Current prevention and treatment of obesity and T2D include energy restricted diets and increased levels of physical activity; however, adequate adherence to such strategies is difficult, and maintenance is challenging for most individuals, which stresses the need for feasible and sustainable interventions.\n\nCircadian rhythms of behaviour and metabolism are closely related to the daily light/dark cycle and sleep-wake patterns and timing of food intake and fasting periods may affect the circadian rhythms of metabolic organs. In an evolutionary perspective, the pattern of food consumption has been characterised by periods of caloric intake when food was available and subsequent periods of fasting 9. This cyclic pattern leads to cycles of absorption and storage of energy and utilisation of the energy for e.g. tissue repair, stress resistance and vitality where expression of metabolic regulators coordinates with cellular processes, leading to efficient metabolism 10. Factors including the 24-hour availability of energy-dense foods, busy time schedules, different eating and sleep patterns during weekdays and weekends (i.e. 'social jetlag') challenge the feeding-fasting paradigm. Recent data suggest that an erratic diurnal eating pattern characterised by food intake largely spread throughout hours awake (≥15 h) and a concomitant short fasting period is highly prevalent in humans and animal suggest that circadian misalignment of food intake is associated with adverse metabolic effects. A number of animal studies and a few small studies in humans have reported promising effects of time-restricted eating (TRE), without concomitant dietary restrictions, on body weight and other cardiometabolic risk factors. There is a lack of randomized controlled trials investigating effect of TRE in individuals at high risk of type 2 diabetes and cardiovascular diseases.\n\nThe aim of the present study is to investigate effects of 12 weeks TRE on behaviour and metabolism in individuals with overweight or obesity at high risk of type 2 diabetes. Maintenance will be assessed at a follow-up visit 13 weeks after completion of the trial (26 weeks). Testing will be conducted at baseline and after 6, 12, and 26 weeks. Participants are instructed to follow randomization during one week assessment periods after testing at 6 and 12 weeks. Therefore, the total duration of the intervention is 13 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overweight and Obesity",
+        "PreDiabetes"
+      ],
+      "keywords": [
+        "Overweight",
+        "Obesity",
+        "Time-restricted eating",
+        "Prediabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized controlled trial",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Control group for 13 weeks (n=50). Participants will receive advice about a healthy lifestyle according to the national dietary recommendations from the Danish Health Authority."
+        },
+        {
+          "label": "Time-restricted eating",
+          "type": "EXPERIMENTAL",
+          "description": "Time-restricted eating for 13 weeks (n=50). In addition to the intervention, participants will receive advice about a healthy lifestyle according to the national dietary recommendations from the Danish Health Authority.",
+          "interventionNames": [
+            "Other: Time-restricted eating"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Time-restricted eating",
+          "description": "Participants will be instructed to eat within a self-selected 10-hour timeframe between 6AM and 8PM every day. All food/beverages except water must be consumed within the time-interval. Staff will help participants select a time-interval that fits into their daily life and optimally fulfil the following guiding principles:\n\n1. The first food item/beverage of the day should optimally be ingested at least 2 hours after usual wake-up time\n2. The last food item/beverage of the day should optimally be ingested at least 3 hours before usual bed time\n\nDiet is ad libitum and with no further dietary restrictions. Participants will receive advice about a healthy lifestyle according to the national dietary recommendations from the Danish Health Authority.",
+          "armGroupLabels": [
+            "Time-restricted eating"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in body weight (kg)",
+          "description": "Measured in fasted state on a digital scale",
+          "timeFrame": "Change from baseline to the end of the intervention (after 12 weeks)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Body weight (kg)",
+          "description": "Measured on a digital scale",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Body mass index (kg/m^2)",
+          "description": "Calculated from body weight (kg) and height (m)",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Fat mass (kg)",
+          "description": "Measured by Dual-energy X-ray Absorptiometry",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Fat free mass (kg)",
+          "description": "Measured by Dual-energy X-ray Absorptiometry",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Fat percentage (%)",
+          "description": "Measured by Dual-energy X-ray Absorptiometry",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Waist circumference (cm)",
+          "description": "Measured using tape measure",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Hip circumference (cm)",
+          "description": "Measured using tape measure",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "HbA1c (mmol/mol and %)",
+          "description": "Assessed from blood samples at all visits",
+          "timeFrame": "Changes from baseline. All four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Systolic blood pressure (mmHg)",
+          "description": "Measured under resting and fasting conditions",
+          "timeFrame": "Changes from baseline. Measured at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Diastolic blood pressure (mmHg)",
+          "description": "Measured under resting and fasting conditions",
+          "timeFrame": "Changes from baseline. Measured at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Heart rate (bpm)",
+          "description": "Measured under resting and fasting conditions during measurements of blood pressure and in the supine position by a handheld ECG measuring device (Vagus™)",
+          "timeFrame": "Changes from baseline. Measured at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Resting energy expenditure (kcal/day)",
+          "description": "Measured by indirect calorimetry under resting and fasting conditions",
+          "timeFrame": "Changes from baseline. Measured at visits at baseline and after 12 weeks"
+        },
+        {
+          "measure": "Substrate oxidation (respiratory exchange ratio)",
+          "description": "Measured by indirect calorimetry under resting and fasting conditions",
+          "timeFrame": "Changes from baseline. Measured at visits at baseline and after 12 weeks"
+        },
+        {
+          "measure": "Metabolites",
+          "description": "Fasting and postprandial (after a standard mixed breakfast meal) concentrations of metabolites including but not limited to: glucose, lipids, cholesterol, free-fatty acids, and amino acids",
+          "timeFrame": "Changes from baseline. Measured in the blood in the fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test (4 hours) at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Hormones",
+          "description": "Fasting and postprandial (after a standard mixed breakfast meal) concentrations of hormones related to regulation of appetite, glucose and lipid metabolism (including but not limited to: insulin, glucagon, ghrelin, glucagon-like peptide-1 (GLP-1), glucose-dependent insulinotropic polypeptide (GIP) and peptide YY (PYY), leptin, fibroblast growth factor 19 (FGF-19), fibroblast growth factor 21 (FGF-21), growth differentiation factor 15 (GDF-15)).",
+          "timeFrame": "Changes from baseline. Measured in the blood in the fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test (4 hours) at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Circulating proteins that associate with low-grade inflammation and lipid metabolism",
+          "description": "Fasting levels of circulating proteins that associate with low-grade inflammation and lipid metabolism. Such proteins are captured by mass-spectrometry driven analyses of the plasma proteome i.e. proteins circulating in the blood",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Respiratory and glycolytic capacities of isolated peripheral blood mononuclear cells (PBMCs)",
+          "description": "Measured using the Seahorse method, which measures mitochondrial respiration",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Heart rate response to standing up from the supine position",
+          "description": "Measured by a handheld ECG measuring device (Vagus™).",
+          "timeFrame": "Changes from baseline. Measured at visits at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Heart rate response to inhalation and exhalation",
+          "description": "Measured by a handheld ECG measuring device (Vagus™).",
+          "timeFrame": "Changes from baseline. Measured at visits at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Heart rate response to forced exhalation during rest (valsalva maneuver)",
+          "description": "Measured by a handheld ECG measuring device (Vagus™).",
+          "timeFrame": "Changes from baseline. Measured at visits at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Gastric emptying time (hours and minutes)",
+          "description": "Measured using the SmartPill™ technique. The SmartPill™ is ingested together with a standard mixed breakfast meal",
+          "timeFrame": "Changes from baseline. Time after consumption of the standard mixed meal at baseline and end of the intervention (after 12 weeks)."
+        },
+        {
+          "measure": "Small bowel transit time (hours and minutes)",
+          "description": "Measured using the SmartPill™ technique. The SmartPill™ is ingested together with a standard mixed breakfast meal",
+          "timeFrame": "Changes from baseline. Time after consumption of the standard mixed meal at baseline and end of the intervention (after 12 weeks)."
+        },
+        {
+          "measure": "Large bowel transit time (hours and minutes)",
+          "description": "Measured using the SmartPill™ technique. The SmartPill™ is ingested together with a standard mixed breakfast meal",
+          "timeFrame": "Changes from baseline. Time after consumption of the standard mixed meal at baseline and end of the intervention (after 12 weeks)."
+        },
+        {
+          "measure": "Total gastrointestinal transit time (hours and minutes)",
+          "description": "Measured using the SmartPill™ technique. The SmartPill™ is ingested together with a standard mixed breakfast meal",
+          "timeFrame": "Changes from baseline. Time after consumption of the standard mixed meal at baseline and end of the intervention (after 12 weeks)."
+        },
+        {
+          "measure": "Motility index",
+          "description": "Calculated based on amplitudes and number of contractions measured using the SmartPill™ technique. The SmartPill™ is ingested together with a standard mixed breakfast meal",
+          "timeFrame": "Changes from baseline. Time after consumption of the standard mixed meal at baseline and end of the intervention (after 12 weeks)."
+        },
+        {
+          "measure": "Attention measured using eye tracking",
+          "description": "Eye tracking metrics including gaze duration bias, gaze direction bias, fixations, saccades, pupil size/dilation, distance to screen, ocular vergence and blinks to measure attention in response to looking at food pictures during the computerized Leeds Food Preference Questionnaire",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Emotions measured using facial expression analyses",
+          "description": "Facial expression analyses using computer-vision algorithms (AFFDEX) to measure emotions in response to looking at food pictures during the computerized Leeds Food Preference Questionnaire",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Arousal measured using galvanic skin response",
+          "description": "Changes in conductivity of the skin (galvanic skin response) in response to looking at food pictures during the computerized Leeds Food Preference Questionnaire",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Food choice",
+          "description": "Food choice of food items from four combined food categories (high-fat savoury, high-fat sweet, low-fat savoury and low-fat sweet foods) examined from the computerized Leeds Food Preference Questionnaire. Food choice is determined based on frequency of selection made within each food category. The scores range from 0-48 i.e. 0 = foods within a specific food category have not been selected at all to 48 = foods within a specific food category have been selected 48 times",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Implicit wanting",
+          "description": "Implicit wanting of food items from four combined food categories (high-fat savoury, high-fat sweet, low-fat savoury and low-fat sweet foods) examined from the computerized Leeds Food Preference Questionnaire. Implicit wanting is assessed based on food choice and response time for selected and non-selected food items as well as mean response time.",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Explicit liking",
+          "description": "Explicit liking of 16 food items from four combined food categories (high-fat savoury, high-fat sweet, low-fat savoury and low-fat sweet foods) examined from the computerized Leeds Food Preference Questionnaire. Explicit liking is rated using visual analogue scales and the range is 0-100. Each end represents the extremes e.g. Question: \"how pleasant would it be to taste this food right now?\" Answer: \"not at all\" (rated 0 on the 0-100 scale) to \"extremely\" (rated 100 on the 0-100 scale)",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Explicit wanting",
+          "description": "Explicit wanting of 16 food items from four combined food categories (high-fat savoury, high-fat sweet, low-fat savoury and low-fat sweet foods) examined from the computerized Leeds Food Preference Questionnaire. Explicit wanting is rated using visual analogue scales and the range is 0-100. Each end represents the extremes e.g. Question: \"how much do you want some of this food now?\" Answer: \"not at all\" (rated 0 on the 0-100 scale) to \"extremely\" (rated 100 on the 0-100 scale).",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Insulin sensitivity (indices)",
+          "description": "Including but not limited to the Matsuda index",
+          "timeFrame": "At all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Insulin resistance (indices)",
+          "description": "Including but not limited to Homeostaic Model Assessment for Insulin Resistance (HOMA-IR)",
+          "timeFrame": "At all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Subjective appetite",
+          "description": "Rated using visual analogue scales and includes sensations of: Hunger, fullness, satiety, prospective food consumption, wellbeing, nausea, thirst, desire to eat meat, salty, and sweet. The scale range is 0-100 and each end represent the extremes e.g. hunger rating: \"I am not hungry at all\" to \"I have nerver been this hungry before\".",
+          "timeFrame": "Changes from baseline. Fasted state at all four visits (Baseline and after 6, 12, and 26 weeks) and during a mixed meal test at baseline and end of the intervention (after 12 weeks)"
+        },
+        {
+          "measure": "Mean amplitude of glycaemic excursions (MAGE)",
+          "description": "Measured using continous glucose monitoring",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Continuous overall net glycaemic action (CONGA)",
+          "description": "Measured using continous glucose monitoring",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Daily time spent above different glucose concentrations (e.g. >6.1 mmol/L, >7.0 mmol/L, >7.8 mmol/L, and >11.1 mmol/L)",
+          "description": "Measured using continous glucose monitoring.",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Mean glucose concentrations",
+          "description": "Measured using continous glucose monitoring.",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Standard deviation of glucose concentrations",
+          "description": "Measured using continous glucose monitoring.",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Variation coefficients of glucose concentrations",
+          "description": "Measured using continous glucose monitoring.",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Physical activity (time spent at different intensities)",
+          "description": "Sedentary time, light, moderate and vigorous intensity physical activity. Assessed from 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Physical activity (counts/min)",
+          "description": "Assessed from 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Physical activity energy expenditure (kcal/day)",
+          "description": "Assessed from 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Physical activity (MET hours)",
+          "description": "Assessed from 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Timing of physical activity (hh:mm)",
+          "description": "Assessed from activity logs and 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Energy intake (kcal/day)",
+          "description": "Assessed from diet records",
+          "timeFrame": "Changes from baseline. Registered 3 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Macronutrient intake (energy percentage)",
+          "description": "Assessed from diet records",
+          "timeFrame": "Changes from baseline. Registered 3 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Timing of dietary intake (hh:mm)",
+          "description": "Assessed from diet records",
+          "timeFrame": "Changes from baseline. Registered 3 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Sleep timing (hh:mm)",
+          "description": "Including bedtime, sleep onset, wake-up, time out of bed, sleep midpoint. Assessed from sleep logs and 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Registered and measured for 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Sleep duration (min)",
+          "description": "Assessed from sleep logs and 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Registered and measured for 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Sleep variability (min)",
+          "description": "Variability in bedtime, wake-up, sleep duration and sleep midpoint. Assessed from sleep logs and 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Registered and measured for 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Sleep onset latency (min)",
+          "description": "Assessed from sleep logs and 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Registered and measured for 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Sleep efficiency (%)",
+          "description": "Assessed from 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured for 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Wakefulness (min)",
+          "description": "Assessed from 24 h/day accelerometry",
+          "timeFrame": "Changes from baseline. Measured for 7 days after the test days at baseline and after 6 and 12 weeks"
+        },
+        {
+          "measure": "Self-reported gastrointestinal symptoms (part 1)",
+          "description": "Assessed from the questionnaires the Gastrointestinal Symptom Rating Scale (GSRS). Rated on 7-point likert scales. Range: 1 = absence of symptoms to 7 = very severe symptoms.",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported gastrointestinal symptoms (part 2)",
+          "description": "Assessed from the Gastrointestinal Symptom Score (PAGI-SYM). Rated on 6-point likert scales. Range: 1 = absence of symptoms to 6 = very severe symptoms.",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported gastrointestinal symptoms (part 3)",
+          "description": "Number of symptoms. Assessed from logs.",
+          "timeFrame": "Changes from baseline. Registered 7 days after the test days at baseline and after 12 weeks"
+        },
+        {
+          "measure": "Self-reported autonomic symptoms",
+          "description": "Assessed from the questionnaire COMPASS31",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported control over eating",
+          "description": "Assessed from the questionnaire Control over Eating Questionnaire",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported sleepiness",
+          "description": "Assessed from the questionnaire the Epworth Sleepiness Scale",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported sleep quality",
+          "description": "Assessed from the questionnaire Pittsburgh Sleep Quality Index",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported chronotype",
+          "description": "Assessed from the Munich Chronotype Questionnaire",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported physical activity",
+          "description": "Assessed from questionnaire International Physical Activity Questionnaire",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported overall health and wellbeing",
+          "description": "Assessed from the questionnaire Self-reported health (SF-36 health survey)",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported eating behavior",
+          "description": "Assessed from The Dutch Eating Behavior Questionnaire",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Self-reported night eating",
+          "description": "Assessed from The Night Eating Questionnaire",
+          "timeFrame": "Changes from baseline. Assessed at all four visits (Baseline and after 6, 12, and 26 weeks)"
+        },
+        {
+          "measure": "Daily eating/drinking window (hh:min)",
+          "description": "Time of first and last meal/beverage",
+          "timeFrame": "Registrered every day (13 weeks intervention and 13 weeks follow-up period)"
+        },
+        {
+          "measure": "Microbiome content and diversity",
+          "description": "Determined from stool samples. Bacterial DNA and RNA will be purified from the stool samples and changes in the microbiome composition and function will be estimated based on sequencing of the microbiomes' DNA and RNA. Includes but is not limited to the Firmicute/Bacteroidete ratio.",
+          "timeFrame": "Changes from baseline. Collected before or during test days at visits at baseline and after 12 weeks"
+        },
+        {
+          "measure": "Motivation for participation (qualitative methods)",
+          "description": "Themes and aspects related to motivation for participation will be assessed based on interviews with the participants including completers and potential drop-outs.",
+          "timeFrame": "Visits at baseline and after 12 and 26 weeks. Potential drop-outs will be interviewed at the specific time point."
+        },
+        {
+          "measure": "Feasibility of the intervention (qualitative methods)",
+          "description": "Themes and aspects related to feasibility of the intervention will be assessed based on interviews with the participants including completers and potential drop-outs.",
+          "timeFrame": "Visits at baseline and after 12 and 26 weeks. Potential drop-outs will be interviewed at the specific time point."
+        },
+        {
+          "measure": "Satisfaction with the intervention (qualitative methods)",
+          "description": "Themes and aspects related to satisfaction with the intervention will be assessed based on interviews with the participants including completers and potential drop-outs.",
+          "timeFrame": "Visits at baseline and after 12 and 26 weeks. Potential drop-outs will be interviewed at the specific time point."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI ≥30 kg/m2 or BMI ≥25 kg/m2 in combination with pre-diabetes (HbA1c ≥39-\\<48 mmol/mol)\n* Habitual eating/drinking window ≥12 hours (including foods/snacks and energy containing beverages e.g. soft drinks (except of water)) and an eating/drinking window of ≥14 hours minimum one day per week\n\nExclusion criteria\n\n* Daily smoking\n* For women: pregnancy, planned pregnancy (within the study period) or lactating\n* Frequent travels over time zones (max one return trip/travel over times zones (˃one hour time difference) during the 13 weeks intervention).\n* Shift work or partner engaged in shift work (if it affects the person's sleep and eating pattern)\n* Unable to understand the informed consent and the study procedures\n* Self-reported history of an eating disorder during the past three years\n* Self-reported weight change (\\>5 kg) within three months prior to inclusion\n* Diabetes\n* HbA1c ≥48 mmol/mol\n* Uncontrolled medical issues including but not limited to cardiovascular pulmonary, rheumatologic, hematologic, oncologic, infectious, gastrointestinal or psychiatric disease; diabetes or other endocrine disease; immunosuppression\n* Current treatment with medication or medical devices which significantly affect glucose metabolism, appetite, or energy balance\n* Current treatment with antidepressants\n* Bariatric surgery\n* Implanted or portable electro-mechanical medical device such as a cardiac pacemaker, defibrillator or infusion pump\n* Celiac disease, Crohn's disease, ulcerative colitis or proctitis\n* Alcohol/drug abuse or in treatment with disulfiram at time of inclusion\n* Concomitant participation in other intervention studies\n* Not able to eat ≥85% of the test meal because of e.g. allergy\n\nSpecific exclusion criteria for participants receiving SmartPillTM (n=60)\n\n* Gastrointestinal symptoms or diseases such as regular (weekly) abdominal pain, dysphagia, gastric bezoars, strictures, fistulas, bowel obstructions or diverticulitis\n* Current treatment with medication or medical devices which significantly affect gastrointestinal motility or transit time (prokinetics, antidiarrheals, laxatives, or opioids)\n* Gastrointestinal surgery within 3 months before inclusion",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Kristine Færch, PhD",
+          "affiliation": "Steno Diabetes Center Copenhagen",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Steno Diabetes Center Copenhagen",
+          "city": "Gentofte Municipality",
+          "zip": "DK-2810",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.74903,
+            "lon": 12.54601
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38588687",
+          "type": "DERIVED",
+          "citation": "Quist JS, Pedersen HE, Jensen MM, Clemmensen KKB, Bjerre N, Ekblond TS, Uldal S, Storling J, Wewer Albrechtsen NJ, Holst JJ, Torekov SS, Nyeland ME, Vistisen D, Jorgensen ME, Panda S, Brock C, Finlayson G, Blond MB, Faerch K. Effects of 3 months of 10-h per-day time-restricted eating and 3 months of follow-up on bodyweight and cardiometabolic health in Danish individuals at high risk of type 2 diabetes: the RESET single-centre, parallel, superiority, open-label, randomised controlled trial. Lancet Healthy Longev. 2024 May;5(5):e314-e325. doi: 10.1016/S2666-7568(24)00028-X. Epub 2024 Apr 5."
+        },
+        {
+          "pmid": "37315794",
+          "type": "DERIVED",
+          "citation": "Jensen MM, Pedersen HE, Clemmensen KKB, Ekblond TS, Ried-Larsen M, Faerch K, Brock C, Quist JS. Associations Between Physical Activity and Gastrointestinal Transit Times in People with Normal Weight, Overweight, and Obesity. J Nutr. 2024 Jan;154(1):41-48. doi: 10.1016/j.tjnut.2023.06.005. Epub 2023 Jun 12."
+        },
+        {
+          "pmid": "32847912",
+          "type": "DERIVED",
+          "citation": "Quist JS, Jensen MM, Clemmensen KKB, Pedersen H, Bjerre N, Storling J, Blond MB, Wewer Albrechtsen NJ, Holst JJ, Torekov SS, Vistisen D, Jorgensen ME, Panda S, Brock C, Finlayson G, Faerch K. Protocol for a single-centre, parallel-group, randomised, controlled, superiority trial on the effects of time-restricted eating on body weight, behaviour and metabolism in individuals at high risk of type 2 diabetes: the REStricted Eating Time (RESET) study. BMJ Open. 2020 Aug 26;10(8):e037166. doi: 10.1136/bmjopen-2020-037166."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2022-02-28",
+          "uploadDate": "2022-02-28T15:12",
+          "filename": "SAP_000.pdf",
+          "size": 461414
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        },
+        {
+          "id": "D000093763",
+          "term": "Intermittent Fasting"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D005215",
+          "term": "Fasting"
+        },
+        {
+          "id": "D005247",
+          "term": "Feeding Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

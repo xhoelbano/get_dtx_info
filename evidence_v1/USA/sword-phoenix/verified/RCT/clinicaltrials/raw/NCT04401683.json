@@ -1,0 +1,211 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04401683",
+      "orgStudyIdInfo": {
+        "id": "SH-RCT-LBP-01"
+      },
+      "organization": {
+        "fullName": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Home-based Exercise Rehabilitation With a Novel Digital Biofeedback System for Chronic Low Back Pain",
+      "officialTitle": "Home-based Exercise Rehabilitation With a Novel Digital Biofeedback System for Non-specific Chronic Low Back Pain: a Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-03",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "COVID-19 pandemic",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-07-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-07-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-05-18",
+      "studyFirstSubmitQcDate": "2020-05-21",
+      "studyFirstPostDateStruct": {
+        "date": "2020-05-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-05-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-05-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sword Health, SA",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Centro Hospitalar e Universitário do Porto",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The present study is a a single-center, prospective, non-blind, parallel-group, randomized controlled trial, designed to evaluate the clinical impact of a home-based program using a new digital solution on the treatment of non-specific chronic low back pain (CLBP) in adults versus standard of care.\n\nThe hypothesis is that all the clinical outcomes measured will significantly improve after the program, and patients using this novel system will attain better outcomes than the ones in the standard of care group.\n\nThis evidence-based digital program developed by SWORD Health is built on three main pillars - therapeutic exercise, education and cognitive-behavioural therapy, and is specifically tailored to address CLBP. The program will be delivered directly at patient's home, using a biofeedback system and continuous personalised remote clinical monitoring.",
+      "detailedDescription": "Low back pain (LBP) has for long been the world's leading cause of years leaved with disability, and, considering that the overall life expectancy is rising, this pandemic only tends to get worse. Nearly everyone is affected by LBP at some moment in life (70-80% of lifetime prevalence). As a consequence, LBP is also presented as a leading cause of work absenteeism worldwide. Thus, although the estimate costs of LBP may be difficult to compare between different countries, its overwhelming socio-economic impact in modern society is evident.\n\nIn the absence of an effective treatment, LBP can become chronic, causing a huge impact in patients' daily life, and ultimately promoting a high consumption of healthcare resources. In the US alone, health expenditures for adults with spinal problems were estimated at $6000 per person, representing a total cost of $102 billion each year.\n\nThe dim picture described above highlights the urgent need for effective interventions that minimize disability, improve quality of life and decrease productivity losses.\n\nCurrent guidelines on CLBP management recommend patient education, exercise, physical therapy, and behavioural therapy as the mainstays treatments for this condition. Despite some discrepancy in the type of exercise program (e.g. aquatic exercises, stretching, back schools, McKenzie exercise approach, yoga, tai-chi) and mode of delivery (e.g., individually designed programs, supervised home exercise, and group exercise), exercise therapy is recommended nearly transversally, with most studies concluding that exercise intervention programs should include a combination of muscular strength, flexibility and aerobic fitness exercises. Moreover, home exercises with a regular therapist follow-up has proven highly effective. Importantly, however, the main driver of the direct cost component in the care of LBP is physical therapy, meaning new ways of delivering therapy are warranted.\n\nBesides exercise therapy, opioid prescription is also a common practice, despite known opioid-related morbidity and mortality rates. Because the prevalence of CLBP is continuously rising, and opioid misuse is an issue of great concern globally, identifying effective non-opioid alternatives for CLBP is of paramount importance.\n\nThus, SWORD Health has developed an evidence-based program for this disorder based on two main pillars - patient education and therapeutic exercise - the latter delivered through our digital therapist, directly at the patient´s home, and with continuous clinical supervision.\n\nThis approach has already demonstrated to be feasible, safe and to lead to better outcomes than conventional home-based rehabilitation after joint replacement. These results were explained by (a) the positive impact of a kinematic biofeedback tool on patient performance, especially regarding error correction and stimulation of a greater range of motion; (b) patient empowerment regarding their rehabilitation process; (c) high patient engagement through the use of gamification strategies; (d) the positive effect of remote monitoring on patient effort and (e) the availability of objective data for clinical review, enabling data-driven decisions.\n\nThe present study is a a single-center, prospective, non-blind, parallel-group, randomized controlled trial, designed to evaluate the clinical impact of a home-based program using a new digital solution on the treatment of non-specific CLBP in adults versus standard of care. The hypothesis is that all the clinical outcomes measured will significantly improve after the program, and patients using this novel system will attain better outcomes than the ones in the standard of care group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-specific Chronic Low Back Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Digital Rehabilitation",
+          "type": "EXPERIMENTAL",
+          "description": "Standard medical treatment + Fully remote rehabilitation program with a digital therapist",
+          "interventionNames": [
+            "Device: Home-based rehabilitation with a digital biofeedback system"
+          ]
+        },
+        {
+          "label": "Conventional Rehabilitation",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard medical treatment + Home-based rehabilitation program",
+          "interventionNames": [
+            "Other: Conventional home-based rehabilitation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Home-based rehabilitation with a digital biofeedback system",
+          "description": "Participants in the experimental group will perform a 12-week digital exercise program, to be performed independently at home using the SWORD Phoenix® medical device, under remote monitoring from a physical therapist.\n\nAdditionally, both groups will have access to standard medical treatments and to an educational program, specifically developed to target chronic low back pain, consisting of a booklet containing pathology-related information, causes, treatment recommendations, as well as suggestions of cognitive behavioural therapy exercises.",
+          "armGroupLabels": [
+            "Digital Rehabilitation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Conventional home-based rehabilitation",
+          "description": "Participants in the control group will benefit from a 12-week home-based rehabilitation program, consisting of 12 face-to-face sessions (1 per week) with a physical therapist, complemented by additional non-supervised sessions. Both supervised and unsupervised sessions will follow the same set of exercises defined for the experimental group.\n\nAdditionally, both groups will have access to standard medical treatments and to an educational program, specifically developed to target chronic low back pain, consisting of a booklet containing pathology-related information, causes, treatment recommendations, as well as suggestions of cognitive behavioural therapy exercises.",
+          "armGroupLabels": [
+            "Conventional Rehabilitation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Oswestry Disability Index (ODI) score",
+          "description": "The ODI is a condition-specific self-reported measure, that aims to assess the level of disability in different physical activities in patients with low back pain. Scoring: 10 items, each with 6 possible answers (scored from 0 to 5 points) and a total score ranging from 0-100, being 100 the worst function/disability possible. The total score of ODI is calculated through te total sum of the section scores, divided by the total possible score and the result is then multiplied by 100, to achieve a percentage score.",
+          "timeFrame": "Baseline, 6 weeks and 12 weeks after initiation of rehabilitation program"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Fear-Avoidance Beliefs Questionnaire (FABQ)",
+          "description": "Assesses fear-avoidance beliefs regarding physical activity and work in low back pain patients. It is composed by a total of 15 items, each with a 7 option Likert scale. Those with a lower score are less likely to comply with an exercise program.",
+          "timeFrame": "Baseline, 6 weeks and 12 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Change in Pain Catastrophizing Scale (PCS)",
+          "description": "Pain catastrophizing is highly correlated with pain and disability in individuals with chronic low back pain and is considered one predictor of low back pain with disability. 13-item questionnaire regarding individuals thoughts and feelings about pain, with 3 subscales: rumination, magnification and helplessness. Higher scores indicate higher pain catastrophizing.",
+          "timeFrame": "Baseline, 6 weeks and 12 weeks after initiation of rehabilitation program"
+        },
+        {
+          "measure": "Change in Numeric Rating Scale (NRS) score",
+          "description": "Unidimensional 11 point measure of pain, in which the patients are asked to classify their pain from 0 (no pain) to 10 (worst imaginable pain).",
+          "timeFrame": "Baseline, 6 weeks and 12 weeks after initiation of rehabilitation program"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients aged between 18 and 70 years\n2. Intermittent or persistent low back pain for at least 3 months and on at least half the days in the previous 6 months without peripheral symptoms\n3. Ability to understand motor complex commands\n\nExclusion Criteria:\n\n1. Pregnancy or breast-feeding\n2. Inability to stand upright\n3. Clear indication for surgery or other medical treatment (e.g. cancer, infection, cauda equina syndrome, significant lumbar disc herniation or rupture, nerve compression)\n4. Acute low back pain in the past 7 days or unilateral or bilateral radicular pain\n5. Neurologic condition (e.g. stroke, multiple sclerosis, Parkinson's disease)\n6. Concomitant treatment for LBP\n7. Cardiac, respiratory or other condition incompatible with at least 30 minutes of light to moderate physical activity\n8. Severe reduction of visual and/or auditory acuity, aphasia, dementia or psychiatric comorbidity significantly interfering with communication or compliance to a home-based exercise program\n9. Osteoarticular condition (e.g. fractures or severe osteoarthrosis) that prevents the patient from complying with a home-based exercise program\n10. Other medical complications that prevent the patient from complying with a home-based exercise program\n11. Illiteracy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sérgio Moreira, MD",
+          "affiliation": "Centro Hospitalar e Universitário do Porto",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centro Hospitalar e Universitário do Porto - Largo Prof Abel Salazar",
+          "city": "Porto",
+          "zip": "4099-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The study protocol will be made available in PDF format. Aggregate study results, with anonymised individual participant data will be made available in Excel format",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Upon study publication, for at least five years.",
+      "accessCriteria": "Study protocol will be made available in clinicaltrials.gov and the excel file with the aggregate results will be made available upon study publication, for at least 5 years."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

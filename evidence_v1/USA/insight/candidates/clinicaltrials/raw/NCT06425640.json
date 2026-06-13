@@ -1,0 +1,416 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06425640",
+      "orgStudyIdInfo": {
+        "id": "ONZ-2023-0611"
+      },
+      "organization": {
+        "fullName": "University Hospital, Ghent",
+        "class": "OTHER"
+      },
+      "briefTitle": "24-hour Movement Behaviors in Adults With Type 1 Diabetes",
+      "officialTitle": "INTERPLAY WITHIN THE DAY: Optimizing Intra-day Glucose Control by Intervening on the Day-to-day 24-hour Movement Behavior Patterns in Adults With Type 1 Diabetes Mellitus.",
+      "acronym": "24h-MBs_T1D"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-05-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-05-01",
+      "studyFirstSubmitQcDate": "2024-05-17",
+      "studyFirstPostDateStruct": {
+        "date": "2024-05-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Ghent",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University Ghent",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Only 24.9% of the Belgian adults (25-50 years) with type 1 diabetes mellitus (T1DM) achieve a good glucose control. This can be explained by the challenging day-to-day diabetes management which places a substantial burden on this population. However, a tight glycemic control is fundamental in order to prevent the development of acute and chronic complications. Despite the added value of continue glucose monitors to glucose control, optimizing daily glucose levels is still problematic in adults with T1DM. In addition to self-monitoring of blood glucose, a healthy lifestyle with sufficient physical activity (PA), limited sedentary behavior (SB) and sufficient sleep time and quality is crucial for a good glucose control. A recent shift in health promotion stresses the importance of considering all these behaviors (i.e. PA, SB and sleep) in one 24-hour day instead of focusing on one behavior in isolation. The aim of this study is to investigate the association between the day-by-day 24h-MB patterns of adults (25-50 years) with T1DM and their intra-day glucose control (i.e. time in range and coefficient of variation) on the one hand. On the other hand, associations between he 24-h MB patterns and explanatory variables and cardiometabolic health markers will be investigated. To gain insight into the 24-hour behavior of adults with type 1 diabetes, 150 adults with type 1 diabetes will wear an Actigraph accelerometer, for 14 consecutive days. Daily glucose control will be measured using the participant's continuous glucose meter. Information about the explanatory variables and cardiometabolic health will be obtained by means of a questionnaire, diary and a few measurements (blood pressure, weight, length, Advanced Glycation Endproducts, hip-and waist circumference) during a one-off visit to one of the recruitment- and testing centers namely University hospital of Ghent or University hospital of Antwerp. The results of this cross-sectional study will inform future interventions focusing on the 24-hour movement behaviors in adults with T1DM."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 1"
+      ],
+      "keywords": [
+        "24-hour movement behaviors",
+        "Glycemic control"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "CROSS_SECTIONAL"
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Adults with type 1 diabetes",
+          "description": "Adults with type 1 diabetes (25-50 years) will wear an accelerometer to objectively measure their 24-hour movement behaviors. An online questionnaire and food diary will be completed to gain insight into the explanatory variables of 24-hour movement behaviors. Information on glucose control will be collect through the continuous glucose monitor of the participant.",
+          "interventionNames": [
+            "Behavioral: 24-hour movement behavior"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "24-hour movement behavior",
+          "description": "Cross-sectional observational study investigating the 24-hour movement behaviors and glucose control",
+          "armGroupLabels": [
+            "Adults with type 1 diabetes"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "24-hour movement behaviors",
+          "description": "All the movement behaviors performed within one day (i.e. PA, SB and sleep) will be objectively measured using an Actigraph wGT3X-BT accelerometer. The participants will wear the accelerometer for 14 consecutive days. At daytime, the accelerometer will be worn at the right hip, at night the accelerometer will be switched to the non-dominant wrist.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Coefficient of variation (in %)",
+          "description": "Coefficient of variation is a measure for intra-day glucose control and will be measured by the continuous glucose monitor of the participants. Raw CGM data of 14 consecutive days will be downloaded from the receiver of the participants with the programme compatible with their CGM (i.e. Libreview, Dexcom studio, Glooko).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Time in range",
+          "description": "Time in range is a measure for intra-day glucose control and will be measured by the continuous glucose monitor of the participants. Raw CGM data of 14 consecutive days will be downloaded from the receiver of the participants with the programme compatible with their CGM (i.e. Libreview, Dexcom studio, Glooko).",
+          "timeFrame": "Through study completion, an average 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Waist circumference (in cm)",
+          "description": "Waist circumference will be measured twice with a measuring tape (Seca 201).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Hip circumference (in cm)",
+          "description": "Hip circumference will be measured twice with a measuring tape (Seca 201).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Blood pressure (in mmHg)",
+          "description": "Blood pressure will be measured twice with an interval of one minute with an automatic OMRON M6 Comfort device after 10 minutes of rest.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Advanced glycation endproducts",
+          "description": "AGE's, a predictive value for the development of diabetic and cardiovascular complications, will be measured with a skin AGE-reader (Diagnoptics Technologies, Groningen, the Netherlands).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "LDL-cholesterol (in mg/dl)",
+          "description": "LDL-cholesterol will be obtained through the participants' most recent blood results.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "HDL-cholesterol (in mg/dl)",
+          "description": "HDL-cholesterol will be obtained through the participants' most recent blood results.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Triglycerides (in mg/dl)",
+          "description": "Triglycerides will be obtained through the participants' most recent blood results.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Total cholesterol (in mg/dl)",
+          "description": "Total cholesterol will be obtained through the participants' most recent blood results.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Long-term glucose regulation (in % or mmol/mol)",
+          "description": "Average HbA1c over the last 10 years (or from diagnosis if diagnosis was less than 10 years ago) will be collected through the patient file.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Medication intake",
+          "description": "Information about medication intake will be collected through the patient file.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "C-peptide level",
+          "description": "Information about C-peptide level will be collected through the patient file.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Co-morbidities",
+          "description": "Information about comorbidities will be collected through the patient file.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Weight (in kg)",
+          "description": "Weight will be collected through the patient file.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Mean glucose",
+          "description": "The mean glucose of 14 consecutive days will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Standard deviation",
+          "description": "The standard deviation of glucose, a measure of the spread in glucose readings around the average glucose, will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Mean amplitude of glycemic excursions",
+          "description": "Mean amplitude of glycemic excursions, a glucose variability metric, will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Continuous overall net glycemic action",
+          "description": "Continuous overall net glycemic action, a measure of glycemic variability, will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Percent of measurements below 70 mg/dl (in %)",
+          "description": "Percent of measurements below 70 mg/dl, a measure that gives insight in the time in hypoglycemia, will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Percent of measurements above 180 mg/dl (in %)",
+          "description": "Percent of measurements above 180 mg/dl, a measure that gives insight in the time in hyperglycemia, will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Mean of daily differences",
+          "description": "Mean of daily differences, a measure that gives insight in the between-days glycemic variability, will be derived from the participant's raw CGM data.",
+          "timeFrame": "Through study completion, an average 1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Demographics",
+          "description": "Following demographics will be questioned in a self-developed questionnaire: age, sex, ethnicity, smoking status, educational level, profession, family situation.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Health-related variables",
+          "description": "Health-related variables that will be questioned are height, weight, timing of T1DM diagnosis, insulin delivery system (CSII versus multiple daily injections), insulin and other medication.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Health-related quality of life",
+          "description": "Two questionnaires will be used to measure HRQOL: the Short Form 36 health survey questionnaire (SF-36) and the Diabetes Quality of life questionnaire-brief (DQOLQ-brief). The SF-36 will measure the general HLQOL. The DQOLQ-brief will assesses diabetes-related QOL.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Depression an anxiety",
+          "description": "The Hospital Anxiety and Depression Scale is a short (14-item) and easy to use questionnaire. The questionnaire consists of two subscales: one evaluates anxiety (7 items) and the other depression (7 items).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Diabetes knowledge",
+          "description": "The patient education and knowledge (PEAK) questionnaire will be used to assess diabetes knowledge. Diabetes knowledge is determined based on 10-items (i.e. knowledge about insulin titration, correction factor, carbohydrate counting, PA and interpretation of glucose trends) with scores ranging from 0 (no diabetes knowledge) to 10 (excellent diabetes knowledge).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Health literacy",
+          "description": "Health literacy will be assessed using the validated Newest-Vital Sign-D (NVS-D) questionnaire. The NVS-D is a six items questionnaire which assesses an individual ability to find, understand and apply information.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Diabetes self-management",
+          "description": "Diabetes self-management will be assessed using the diabetes self-management questionnaire revised (DSMQ-R). The DSMQ-R is a multidimensional validated questionnaire with 27-items regarding essential self-management practices (e.g. glucose monitoring, physical activity, cooperation with diabetes team) for T1DM.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Behavioral factors",
+          "description": "newly developed and reliable questionnaire to assess explanatory variables 24h-MBs in adults will collect information on behavioral factors. The behavioral factors are based on the integrated behavior change (IBC) model. This model combines different behavioral change theories, i.e. the theory of planned behavior, the self-determination theory, and the dual system theory. The following behaviors will be questioned: autonomous motivation, attitude, internal behavioral control (i.e. habits, skills), external behavioral control (i.e. barriers) and self-efficacy. The validated barriers to physical activity in T1DM (BAPD-1) questionnaire will assess external behavioral control factors for physical activity.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Environmental factors",
+          "description": "A newly developed and reliable questionnaire to assess explanatory variables of 24-h movement behaviors in adults will collect information on socio-environmental factors and physical environmental factors. The socio-environmental factors are subjective norm, social modelling and social support. The physical environmental factors are electronic devices at home, sleep environment, neighbourhood and work environment.",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Context-related information about physical activity",
+          "description": "Each accelerometer will be supplemented by a diary in which the participant will be asked to give context-related information about PA (e.g. type of sport, active transportation) and sleep (e.g. sleep quality).",
+          "timeFrame": "Through study completion, an average 1 year"
+        },
+        {
+          "measure": "Food intake",
+          "description": "Dietary intake, an important and indispensable component of diabetes management, will be measured with a 14-day food diary completed during the same period of wearing the ActiGraph. Since a written food diary is time consuming and can result in reporting errors (i.e. underreporting due to difficulties in estimating portion sizes), the Digitaal Dagboek application (https://digitaaldagboek.be/) will be used to register daily food intake.",
+          "timeFrame": "Through study completion, an average 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults between 25 and 50 years\n* Diagnosed with T1DM for a minimum of two years\n* Minimal daily insulin dose of 10 units\n* Using a continuous glucose monitor\n* Most recent HbA1c between 6% and 9.5%\n\nExclusion Criteria:\n\n* Using a hybrid closed loop insulin pump\n* Shift workers\n* Known cardiovascular disease (e.g. peripheral arterial disease causing intermittent claudication reducing walking distance to \\<500 meters, history of cerebrovascular accidents with residual impact on motoric function or heart failure NYHA class 3 and 4)\n* Physical disabilities that disturb daily functioning (e.g. amputations, paralysis)\n* Other conditions affecting normal movement behaviors (e.g. active treatment for malignancies, diabetic nephropathy stage 4 or 5, chronic obstructive pulmonary disease stage 3 or 4 or asthma stage 3 or 4)\n* Visual impairment (e.g. retinopathy with loss of vision or blindness)\n* Hypoglycemia unawareness (i.e. self-reporting of biochemical hypoglycemia unaccompanied by symptoms, loss of autonomic symptoms (e.g. hunger, sweating) as initial sign of hypoglycemia)\n* Symptomatic peripheral neuropathy(i.e. loss of sensations, pain, exaggerated sensitivity to painless stimuli, paresthesia, ulceration injuries or amputations)\n* Professional or semi-professional top athletes\n* Participating in another supervised healthy lifestyle or drug intervention",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "25 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": "A total of 150 adults (25-50 years) with T1DM will be recruited in this study. Participants will be recruited through visits at diabetologists at University hospital of Ghent and Antwerp, diabetes educators, dieticians, general practitioners and community health centres.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lotte Bogaert, PhD",
+          "role": "CONTACT",
+          "phone": "093323638",
+          "email": "Lotte.Bogaert@ugent.be"
+        },
+        {
+          "name": "Marieke De Craemer, Professor",
+          "role": "CONTACT",
+          "phone": "09 332 52 08",
+          "email": "Marieke.Decraemer@ugent.be"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Bruno Lapauw, Professor",
+          "affiliation": "University Hospital, Ghent",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Eveline Dirinck, Professor",
+          "affiliation": "University Hospital, Antwerp",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Marieke De Craemer, Professor",
+          "affiliation": "University Ghent",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital Ghent",
+          "status": "RECRUITING",
+          "city": "Ghent",
+          "state": "East Flanders",
+          "zip": "9000",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "name": "Bruno Lapauw, Professor",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "University Hospital Antwerp",
+          "status": "RECRUITING",
+          "city": "Antwerp",
+          "zip": "2650",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "name": "Eveline Dirinck, Professor",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003922",
+          "term": "Diabetes Mellitus, Type 1"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

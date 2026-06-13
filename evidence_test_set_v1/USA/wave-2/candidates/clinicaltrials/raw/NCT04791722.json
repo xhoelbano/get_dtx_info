@@ -1,0 +1,227 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04791722",
+      "orgStudyIdInfo": {
+        "id": "MAHHU0041-18"
+      },
+      "organization": {
+        "fullName": "Harvard School of Public Health (HSPH)",
+        "class": "OTHER"
+      },
+      "briefTitle": "Optimizing Smoke-free Residential Housing Policies",
+      "officialTitle": "Optimizing the Impact of Smoke-Free Residential Policies Using an Evidence-Informed Implementation Approach"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-05-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-11-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-11-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-02-24",
+      "studyFirstSubmitQcDate": "2021-03-08",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-11-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-11-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Vaughan Rees",
+        "investigatorTitle": "Director, Center for Global Tobacco Control",
+        "investigatorAffiliation": "Harvard School of Public Health (HSPH)"
+      },
+      "leadSponsor": {
+        "name": "Harvard School of Public Health (HSPH)",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project will be conducted to investigate activities on housing-related health and safety issues. The focus of this project is the development of evidence-based approaches to implement smoke-free policies to reduce harms associated with exposure to secondhand smoke (SHS).",
+      "detailedDescription": "Chronic exposure to secondhand smoke (SHS) is a major health concern for public housing residents. While the prevalence of adult cigarette smoking in the United States has declined to 15.1% in 2015, recent data show that 34% of public housing residents still smoke. A federal rule issued by HUD now requires Public Housing Agencies (PHAs) to adopt a smoke-free policy to reduce SHS exposure. However, no evidence-based approaches are available to support post-adoption implementation by PHAs to ensure that the rule yields optimal benefits for residents. This research gap also applies to the larger population of affordable housing properties that are likely to adopt smoke-free rules in the future. The focus of this research is the development of evidence-based approaches to implement smoke-free policies to reduce harms associated with exposure to secondhand smoke (SHS).\n\nThe investigators will use six key implementation strategies identified in earlier research on the experiences of early-adopter PHAs. The investigators will partner with a for-profit affordable housing management company that recently expanded its portfolio with the acquisition of 55 affordable housing properties in Pennsylvania, Ohio, West Virginia, Virginia and Kentucky. This provides a unique opportunity to address the implementation research gap, because these properties are in geographic locations where the smoking rate is close to twice the national smoking rate. The for-profit affordable housing management company has committed to adopting a smoke-free policy in these properties, to go into effect in early 2020.\n\nUsing an established implementation science framework to guide the approach, the investigators will work with property managers and staff of properties located in five high-smoking states to strategically incorporate the six implementation strategies to reduce SHS exposure among affordable housing residents. The findings will provide accessible, practical, and effective evidence for property managers and staff to support ongoing efforts to optimize the impact of a smoke-free residential policy. The investigators will test this approach in a geographic region with high smoking rates and a disproportionate burden of tobacco-related mortality, covering western Pennsylvania, southern Ohio, West Virginia, Virginia and Kentucky."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking, Tobacco",
+        "Second Hand Tobacco Smoke",
+        "Smoking Cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 386,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Wave 1",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Properties in Wave 1 (n=4) will implement a smoke-free policy on January 1, 2020.",
+          "interventionNames": [
+            "Behavioral: Adaptive Intervention"
+          ]
+        },
+        {
+          "label": "Wave 2",
+          "type": "EXPERIMENTAL",
+          "description": "Properties in Wave 2 (n=4) will implement a smoke-free policy on May 1, 2020.",
+          "interventionNames": [
+            "Behavioral: Adaptive Intervention"
+          ]
+        },
+        {
+          "label": "Wave 3",
+          "type": "EXPERIMENTAL",
+          "description": "Properties in Wave 3 (n=4) will implement a smoke-free policy on October 1, 2020.",
+          "interventionNames": [
+            "Behavioral: Adaptive Intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Adaptive Intervention",
+          "description": "The investigators will conduct an adaptive intervention using six key implementation strategies identified in earlier research on the experiences of public housing authorities adopting a smoke-free housing policy: resident engagement, smoking cessation support, smoker compliance strategies, smoke-free policy enforcement, staff training and community partnership development. The implementation approach will be tailored for each property by varying the order and intensity of smoke-free policy implementation approaches. The design will determine the optimal plan for utilizing the six implementation strategies by learning from the challenges and successes of other properties (previous waves) and providing support to property managers to refine an implementation plan.",
+          "armGroupLabels": [
+            "Wave 1",
+            "Wave 2",
+            "Wave 3"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ambient secondhand smoke (SHS) in common indoor areas",
+          "description": "SHS will be monitored using a passive nicotine dosimeter and measured in units of µg/m3 of airborne nicotine. Monitors will be placed in three common areas of each property.",
+          "timeFrame": "Baseline (prior to smoke-free policy implementation); 1 month post smoke-free policy implementation; 12 months post smoke-free policy implementation"
+        },
+        {
+          "measure": "Self-reported exposure to secondhand smoke (SHS)",
+          "description": "Self-reported exposure to secondhand smoke (smell or sight) in the home or around the property using the questions: Over the past month: how many times did you smell cigarette smoke that came from another apartment or hallway?/ how many times did you smell cigarette smoke anywhere on the property? Measured by resident self-report on the survey.",
+          "timeFrame": "Baseline (prior to smoke-free policy implementation); 1 month post smoke-free policy implementation; 7 months post smoke-free policy implementation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Resident attitude (support) for the smoke-free policy",
+          "description": "Self-reported attitude on resident survey",
+          "timeFrame": "Baseline (prior to smoke-free policy implementation); 1 month post smoke-free policy implementation; 7 months post smoke-free policy implementation"
+        },
+        {
+          "measure": "Resident knowledge of the smoke-free policy",
+          "description": "Self-reported knowledge on resident survey",
+          "timeFrame": "Baseline (prior to smoke-free policy implementation); 1 month post smoke-free policy implementation; 7 months post smoke-free policy implementation"
+        },
+        {
+          "measure": "Smoking behavior (cigarettes/day in the past 30 days).",
+          "description": "Self-reported smoking behavior on resident survey",
+          "timeFrame": "Baseline (prior to smoke-free policy implementation); 1 month post smoke-free policy implementation; 7 months post smoke-free policy implementation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Property Manager Inclusion Criteria:\n\n* Property Manager (or designated appointee) at one of the 12 selected sites implementing a smoke-free policy\n\nProperty Manager Exclusion Criteria:\n\n* None\n\nResident Inclusion Criteria:\n\n* Aged 18 and over\n* A resident of the housing development (12 selected sites) implementing the smoke-free policy\n\nResident Exclusion Criteria:\n\n* Unable/unwilling to complete surveys",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Harvard TH Chan School of Public Health",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000073869",
+          "term": "Tobacco Smoking"
+        },
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D064424",
+          "term": "Tobacco Use"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

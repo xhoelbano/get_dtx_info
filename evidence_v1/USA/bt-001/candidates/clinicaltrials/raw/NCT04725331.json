@@ -1,0 +1,491 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04725331",
+      "orgStudyIdInfo": {
+        "id": "BT-001.01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-000505-80",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "MK3475-E37",
+          "type": "OTHER",
+          "domain": "Merck Sharp & Dohme LLC"
+        },
+        {
+          "id": "KEYNOTE-E37",
+          "type": "OTHER",
+          "domain": "Merck Sharp & Dohme LLC"
+        }
+      ],
+      "organization": {
+        "fullName": "Transgene",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Trial Assessing BT-001 Alone and in Combination With Pembrolizumab in Metastatic or Advanced Solid Tumors",
+      "officialTitle": "A Phase I/IIa Study of Intra-tumoral BT-001 (TG6030) Administered Alone and in Combination With Pembrolizumab in Patients With Cutaneous or, Subcutaneous Lesions or Easily Injectable Lymph Nodes of Metastatic/Advanced Solid Tumors."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Sponsor decision following completion of Phase I part not driven by safety reason",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-01-25",
+      "studyFirstSubmitQcDate": "2021-01-25",
+      "studyFirstPostDateStruct": {
+        "date": "2021-01-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Transgene",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "BioInvent International AB",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Merck Sharp & Dohme LLC",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase I/IIa, multicenter, open-label, consecutive cohorts, dose-escalation study of BT-001 with repeated IT administrations alone and in combination with IV infusions of pembrolizumab.",
+      "detailedDescription": "This study will include 3 parts:\n\n* Phase I, Part A: Repeated intra-tumoral (IT) administrations of BT-001 as a single agent, in patients with metastatic/advanced solid tumors; dose-escalation will be employed.\n* Phase I, Part B: Repeated IT administrations of BT-001 in combination with intravenous (IV) infusions of pembrolizumab in patients with metastatic/advanced soft tissue sarcoma (STS), Merkel cell carcinoma (MCC), melanoma, triple negative breast cancer (TNBC) or non-small cell lung cancer (NSCLC)..\n* Phase IIa: Repeated IT administrations of BT-001 in combination with IV infusions of pembrolizumab in several cohorts of patients with defined metastatic or advanced solid tumor conditions."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Cancer",
+        "Soft Tissue Sarcoma",
+        "Merkel Cell Carcinoma",
+        "Melanoma",
+        "Triple Negative Breast Cancer",
+        "Non Small Cell Lung Cancer"
+      ],
+      "keywords": [
+        "Superficial tumors",
+        "Metastatic cancer",
+        "Intratumoral",
+        "Safety",
+        "Oncolytic virus",
+        "Vaccinia virus",
+        "Solid tumors",
+        "Melanoma",
+        "Merkel",
+        "Sarcoma",
+        "TNBC",
+        "NSCLC",
+        "Pembrolizumab",
+        "BT-001",
+        "TG6030",
+        "Phase 1"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 31,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Phase I, Part A - Dose escalation and safety of BT-001 alone",
+          "type": "EXPERIMENTAL",
+          "description": "Dose escalation with repeated administrations of BT-001 directly into tumor as a single agent, in patients with metastatic or advanced solid tumors.",
+          "interventionNames": [
+            "Biological: BT-001"
+          ]
+        },
+        {
+          "label": "Phase I, Part B - Safety of BT-001 in combination with pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Repeated administrations of BT-001 directly into tumor in combination with infusions of pembrolizumab in patients with metastatic or advanced soft tissue sarcoma (STS), Merkel cell carcinoma (MCC), melanoma, triple negative breast cancer (TNBC) or non-small cell lung cancer (NSCLC)..",
+          "interventionNames": [
+            "Biological: BT-001",
+            "Drug: Pembrolizumab [KEYTRUDA®]"
+          ]
+        },
+        {
+          "label": "Phase IIa - Expansion cohorts of BT-001 in combination with pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Repeated administrations of BT-001 directly into tumor in combination with infusions of pembrolizumab in several cohorts of patients with defined metastatic or advanced solid tumor conditions: soft tissue sarcoma, Merkel cell carcinoma, melanoma, triple negative breast cancer, non-small cell lung cancer.",
+          "interventionNames": [
+            "Biological: BT-001",
+            "Drug: Pembrolizumab [KEYTRUDA®]"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "BT-001",
+          "description": "Oncolytic Vaccinia virus containing genes encoding the 4-E03 human recombinant anti-hCTLA4 antibody and human GM-CSF administered at different dose \\[Phase I, Part A\\]; one dose lower and at Recommended Dose for Part B \\[Phase I, Part B\\] by intra-tumoral (IT) route.",
+          "armGroupLabels": [
+            "Phase I, Part A - Dose escalation and safety of BT-001 alone",
+            "Phase I, Part B - Safety of BT-001 in combination with pembrolizumab",
+            "Phase IIa - Expansion cohorts of BT-001 in combination with pembrolizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab [KEYTRUDA®]",
+          "description": "Programmed death receptor (PD-1) blocking antibody administered at 200mg by intravenous (IV) infusions every 3 weeks.",
+          "armGroupLabels": [
+            "Phase I, Part B - Safety of BT-001 in combination with pembrolizumab",
+            "Phase IIa - Expansion cohorts of BT-001 in combination with pembrolizumab"
+          ],
+          "otherNames": [
+            "KEYTRUDA®"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Phase I: Safety and tolerability (Adverse Event reported per NCI-CTCAE v5.0)",
+          "description": "Incidence of Adverse Event reported per NCI-CTCAE v5.0, Dose limiting toxicity and Serious Adverse Events.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Phase I, Part A: Recommended dose for Part B (RDPB) definition",
+          "description": "RDPB based on the safety data collected during the dose escalation phase (Phase I, Part A).",
+          "timeFrame": "Week 10-12"
+        },
+        {
+          "measure": "Phase IIa (except Soft Tissue Sarcoma cohort): Immune Overall Response Rate (iORR) by iRECIST",
+          "description": "Percentage of patients whose best overall response is either a Complete Response or a Partial Response according to immune Response Evaluation Criteria In Solid Tumors (iRECIST) criteria over the the total number of evaluable patients. for injected and non-injected lesion(s)",
+          "timeFrame": "Up to 2 years"
+        },
+        {
+          "measure": "Phase IIa (Soft Tissue Sarcoma cohort): Immune Disease Control Rate (iDCR) at 6 months by iRECIST",
+          "description": "Percentage of patients whose best overall response is either a Complete Response, a Partial Response or Stable Disease according to immune Response Evaluation Criteria In Solid Tumors (iRECIST) criteria over the the total number of evaluable patients.",
+          "timeFrame": "Up to 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Phase IIa: Safety and tolerability (Adverse Event reported per NCI-CTCAE v5.0)",
+          "description": "Incidence of Adverse Event reported per NCI-CTCAE v5.0, Dose limiting toxicity and Serious Adverse Events.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Disease Control Rate (DCR) and immune DCR by RECIST version 1.1 and iRECIST",
+          "description": "Percentage of patients whose best overall response is either a Complete Response, a Partial Response or Stable Disease according to Response Evaluation Criteria In Solid Tumors version 1.1 (RECIST 1.1) criteria or immune RECIST over the total number of evaluable patients.",
+          "timeFrame": "4 months or 6 months"
+        },
+        {
+          "measure": "Progression Free Survival (PFS) and immune PFS duration by RECIST version 1.1 and iRECIST",
+          "description": "Time from the first BT-001 administration to the date of first documented tumor progression according to Response Evaluation Criteria In Solid Tumors version 1.1 (RECIST 1.1) criteria or immune RECIST or death due to any cause, whichever occurs first over evaluable patients",
+          "timeFrame": "Up to 2 years"
+        },
+        {
+          "measure": "Duration of overall Response (DoR) and immune DOR by RECIST version 1.1 and iRECIST",
+          "description": "Time from the date of first documented response (CR or PR) to the date of first documented disease progression according to Response Evaluation Criteria In Solid Tumors version 1.1 (RECIST 1.1) criteria or immune RECIST or the date of death due to underlying cancer over the number of patients whose Best Overall Response is Complete Response or Partial Response.",
+          "timeFrame": "Up to 2 years"
+        },
+        {
+          "measure": "Overall Survival (OS) duration",
+          "description": "Time from first BT-001 administration to the date of death due to any cause over evalauable patients.",
+          "timeFrame": "Up to 2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Have at least 1 injectable measurable cutaneous, subcutaneous or nodal lesion (direct injection or through the use of ultrasound guidance) not exceeding 50mm in longest diameter and whenever possible 1 distant non-injected measurable lesion.\n* Provision of a fresh tumor sample of the lesion that will be injected first and, whenever possible, from another lesion that is planned to be injected, at baseline and be willing to supply new tumor samples from a biopsy during treatment.\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0 or 1.\n* Have adequate hematological, hepatic and renal functions.\n* Have histologically confirmed, advanced/metastatic sarcoma (soft tissue and bone), Merkel cell carcinoma, melanoma, triple negative breast cancer or non-small cell lung cancer, with cutaneous or, palpable subcutaneous lesions or easily injectable lymph nodes.\n* Have failed and/or are intolerant to standard therapeutic options.\n\nExclusion Criteria:\n\n* Have had major surgery within 4 weeks of first study drug administration.\n* Have received prior treatment with a vaccinia oncolytic virus.\n* Have received prior systemic anti-cancer therapy including investigational agents within 4 weeks prior to the start of treatment.\n* Have received prior radiotherapy within 2 weeks of start of study treatment or have had a history of radiation pneumonitis\n* Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 28 days prior the first dose of study drugs\n* Have a known additional malignancy that is progressing or has required active treatment within the past 3 years.\n* Have an active autoimmune disease that has required systemic treatment in past 2 years (i.e., with use of disease modifying agents, corticosteroids or immunosuppressive drugs).\n* Have a history of (non-infectious) pneumonitis / interstitial lung disease that required steroids or has current pneumonitis / interstitial lung disease\n* Have an active infection requiring systemic therapy\n* Have a known history of HIV infection\n* Is taking an anticoagulant medication that cannot be interrupted prior to IT injections\n* Have had an allogenic tissue/solid organ transplant or allogenic stem cell or bone marrow transplantation\n* History of severe exfoliative skin conditions (e.g., eczema or atopic dermatitis) requiring systemic therapy for more than 4 weeks within 2 years prior to BT-001 initiation.\n* Have received prior therapy with an anti-PD-1, anti-PD-L1, or anti PD L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (e.g., CTLA-4, OX 40, CD137), and was discontinued from that treatment due to a Grade 3 or higher immune-related Adverse Event (irAE).\n* Have known active CNS metastases and/or carcinomatous meningitis.\n* Have a known history of Hepatitis B (defined as HBsAg reactive) or known active Hepatitis C virus (defined as HCV RNA \\[qualitative\\] is detected) infection.n.\n* Woman of childbearing potential who has a positive serum pregnancy test (within 72 hours) prior to the start of treatment.\n* Have received or receiving any live or live-attenuated vaccine within 30 days prior to the first dose of study intervention..\n* History of myocarditis or congestive heart failure, unstable angina, uncontrolled infection, or myocardial infarction 6 months prior to clinical trial entry.\n* Interstitial lung disease that is symptomatic and may interfere with the detection or management of suspected drug-related pulmonary toxicity\n* Is currently participating in or has participated in a study of an investigational agent or has used an investigational device within 4 weeks prior to the first dose of study treatment\n* Have severe hypersensitivity to the active substance or, to any of the excipients of (≥Grade 3) to pembrolizumab. and/or any of its excipients",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Clinique Universitaire Saint-Luc",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Institut Bergonié",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "Centre Léon Bérard",
+          "city": "Lyon",
+          "zip": "69008",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Hôpital Saint-Louis AP-HP",
+          "city": "Paris",
+          "zip": "75010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Institut Gustave Roussy",
+          "city": "Villejuif",
+          "zip": "94800",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D015266",
+          "term": "Carcinoma, Merkel Cell"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D014615",
+          "term": "Vaccinia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D027601",
+          "term": "Polyomavirus Infections"
+        },
+        {
+          "id": "D004266",
+          "term": "DNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014412",
+          "term": "Tumor Virus Infections"
+        },
+        {
+          "id": "D018278",
+          "term": "Carcinoma, Neuroendocrine"
+        },
+        {
+          "id": "D018358",
+          "term": "Neuroendocrine Tumors"
+        },
+        {
+          "id": "D017599",
+          "term": "Neuroectodermal Tumors"
+        },
+        {
+          "id": "D009373",
+          "term": "Neoplasms, Germ Cell and Embryonal"
+        },
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009380",
+          "term": "Neoplasms, Nerve Tissue"
+        },
+        {
+          "id": "D018326",
+          "term": "Nevi and Melanomas"
+        },
+        {
+          "id": "D012878",
+          "term": "Skin Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D011213",
+          "term": "Poxviridae Infections"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C582435",
+          "term": "pembrolizumab"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

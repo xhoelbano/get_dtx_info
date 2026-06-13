@@ -1,0 +1,358 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01731717",
+      "orgStudyIdInfo": {
+        "id": "01KQ1002B-TP7"
+      },
+      "organization": {
+        "fullName": "Universitätsklinikum Hamburg-Eppendorf",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cluster Randomized Trial of Stepped Care Intervention vs. Treatment as Usual for Patients With Depression",
+      "officialTitle": "Effektivität Und Effizienz Von Behandlungspfaden für Patienten Mit Depressiven Erkrankungen: Stepped Care Als Ansatz für Ein Leitliniengerechtes Und Integriertes Versorgungsmanagement",
+      "acronym": "SCM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-11-12",
+      "studyFirstSubmitQcDate": "2012-11-16",
+      "studyFirstPostDateStruct": {
+        "date": "2012-11-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-07-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-07-13",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "PD Dr. phil. Birgit Watzke",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Universitätsklinikum Hamburg-Eppendorf"
+      },
+      "leadSponsor": {
+        "name": "Universitätsklinikum Hamburg-Eppendorf",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main aim of the project is the implementation and evaluation of a stepped care model (SCM) for patients with depression with 6 treatment options of varying intensity and setting, including innovative technologies (e-mental health, telephone-based psychotherapy). Within this complex intervention, patients are treated by a multiprofessional network of health care providers in Hamburg, Germany. The study compares the SCM condition (intervention group) to a control group receiving treatment as usual (cluster randomization on the level of participating general practitioners). It is expected that the SCM condition will show better results regarding reduction of mental symptoms, improvement of quality of life, more efficient access to care and better cost-benefit ratio."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "depression",
+        "stepped care",
+        "evidence-based medicine",
+        "health services research",
+        "psychotherapy",
+        "complex intervention",
+        "guideline"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 737,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stepped care intervention (SCM)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients within the stepped care intervention are screened by general physician using the PHQ-9 (inclusion criterion: \\>4 points) and diagnosed according to International Classification of Diseases (ICD-10) criteria. Patients receive differentially intensive treatment according to depression severity.\n\nPatients with mild depression receive:\n\nStep I: Active monitoring or Step II: II.a. Bibliotherapy or II.b. Online self-help (\"Deprexis®\") or II+: Telephone-based psychotherapy\n\nPatients with moderate depression receive:\n\nStep III: III.a. Outpatient psychotherapy or III.b. Psychopharmacological treatment\n\nPatients with severe depression receive:\n\nStep IV: Combined psychotherapy and psychopharmacological treatment, optionally in inpatient setting.",
+          "interventionNames": [
+            "Behavioral: Active monitoring",
+            "Behavioral: Bibliotherapy",
+            "Behavioral: Online self-help",
+            "Behavioral: Outpatient psychotherapy",
+            "Procedure: Psychiatric treatment",
+            "Behavioral: Combined psychotherapy and psychopharmacological treatment"
+          ]
+        },
+        {
+          "label": "Control group: treatment as usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in the control group are screened by their general physician using the PHQ-D-9 depression scale. Patients included in the study then receive treatment as usual from general physician or other health service providers.",
+          "interventionNames": [
+            "Other: Control group: treatment as usual"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Active monitoring",
+          "description": "General physician performs monitoring every 2 weeks using the PHQ-9 depression scale.",
+          "armGroupLabels": [
+            "Stepped care intervention (SCM)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Bibliotherapy",
+          "description": "Patient works with self-help book \"Selbsthilfe bei Depressionen\" (Görlitz, 2010) under general physician's supervision.",
+          "armGroupLabels": [
+            "Stepped care intervention (SCM)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Online self-help",
+          "description": "Patient works with online self-help program \"Deprexis\" under general physician's supervision.",
+          "armGroupLabels": [
+            "Stepped care intervention (SCM)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Outpatient psychotherapy",
+          "description": "Patient receives outpatient psychodynamic or cognitive-behavioural psychotherapy from a psychotherapist participating in the network.",
+          "armGroupLabels": [
+            "Stepped care intervention (SCM)"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Psychiatric treatment",
+          "description": "Patient receives treatment from psychiatrist or general physician participating in the network, this includes psychopharmacotherapy. Treatment takes place within routine care, thus psychiatrists or general physicians individually determine the type of medication and are committed to follow the recommendations of the German S3-Guideline/National Disease Management Guideline for Unipolar Depression.",
+          "armGroupLabels": [
+            "Stepped care intervention (SCM)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Combined psychotherapy and psychopharmacological treatment",
+          "description": "Patient receives psychotherapy combined with psychopharmacological treatment, if necessary in inpatient setting.",
+          "armGroupLabels": [
+            "Stepped care intervention (SCM)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Control group: treatment as usual",
+          "description": "treatment as usual",
+          "armGroupLabels": [
+            "Control group: treatment as usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in depression severity (PHQ-D-9)",
+          "description": "Change in patient-rated depression symptom severity: Patient Health Questionnaire 9, German version (PHQ-D-9; Löwe, Zipfel \\& Herzog, 2002)",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cost-benefit ratio (QALYs)",
+          "description": "Cost-benefit ratio in quality-adjusted life years(QALYs)",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Response/Remission/Relapse (PHQ-D-9)",
+          "description": "Response/Remission/Relapse as computed by the difference in pre-post depression severity (PHQ-D-9)",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "Quality of life (EQ-5D)",
+          "description": "Quality of life as measured by EuroQol's EQ-5D",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "Quality of life (SF-12)",
+          "description": "Quality of life as measured by the 12-item Short Form Health Survey (SF-12)",
+          "timeFrame": "Baseline, 3 months, 6 months, 9 months"
+        },
+        {
+          "measure": "Health service utilization and medication consumption",
+          "description": "Non-standardized items regarding the amount and cost of health services utilized in the past 6 months",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Self-esteem",
+          "description": "Rosenberg self-esteem scale",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "Therapeutic alliance",
+          "description": "Patient-rated therapeutic alliance as measured by the Helping Alliace Questionnaire (HAQ)",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "Anxiety symptoms (PHQ-D)",
+          "description": "Anxiety as rated by the PHQ-D anxiety scale",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "Panic symptoms (PHQ-D)",
+          "description": "Panic symptoms as measured by the PHQ-D",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "Somatisation (PHQ-D)",
+          "description": "Somatisation as measured by the PHQ-D",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        },
+        {
+          "measure": "General anxiety disorder (GAD-7)",
+          "description": "Symptoms of general anxiety disorder measured by the GAD-7",
+          "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \\>4 points on PHQ-D-9 depression scale\n* sufficient knowledge of German language\n* health situation that allows questionnaire completion\n\nExclusion Criteria:\n\n* insufficient knowledge of German language\n* health situation not allowing questionnaire completion",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Birgit Watzke, Prof. Dr.",
+          "affiliation": "Centre for Psychosocial Medicine, Department of Medical Psychology, University Medical Centre Hamburg-Eppendorf, Hamburg, Germany",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Martin Härter, Prof. Dr. Dr.",
+          "affiliation": "Centre for Psychosocial Medicine, Department of Medical Psychology, University Medical Centre Hamburg-Eppendorf, Hamburg, Germany",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre for Psychosocial Medicine, Department of Medical Psychology, University Medical Centre Hamburg-Eppendorf",
+          "city": "Hamburg",
+          "state": "Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32859177",
+          "type": "DERIVED",
+          "citation": "Brettschneider C, Heddaeus D, Steinmann M, Harter M, Watzke B, Konig HH. Cost-effectiveness of guideline-based stepped and collaborative care versus treatment as usual for patients with depression - a cluster-randomized trial. BMC Psychiatry. 2020 Aug 28;20(1):427. doi: 10.1186/s12888-020-02829-0."
+        },
+        {
+          "pmid": "25182269",
+          "type": "DERIVED",
+          "citation": "Watzke B, Heddaeus D, Steinmann M, Konig HH, Wegscheider K, Schulz H, Harter M. Effectiveness and cost-effectiveness of a guideline-based stepped care model for patients with depression: study protocol of a cluster-randomized controlled trial in routine care. BMC Psychiatry. 2014 Aug 20;14:230. doi: 10.1186/s12888-014-0230-y."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001638",
+          "term": "Bibliotherapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

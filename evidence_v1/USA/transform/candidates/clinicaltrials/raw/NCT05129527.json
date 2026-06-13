@@ -1,0 +1,322 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05129527",
+      "orgStudyIdInfo": {
+        "id": "mINSPIRERS RCT"
+      },
+      "organization": {
+        "fullName": "Universidade do Porto",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of a Mobile App on Improving Asthma Control in Patients With Persistent Asthma",
+      "officialTitle": "Effect of a Mobile App on Improving Asthma Control in Adolescents and Adults With Persistent Asthma: A Pilot Randomized Multicentre, Superiority Clinical Trial",
+      "acronym": "mINSPIRERS_RCT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-10-06",
+      "studyFirstSubmitQcDate": "2021-11-09",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-10-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-10-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Universidade do Porto",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Centro de Investigação em Tecnologias e Serviços de Saúde",
+          "class": "OTHER"
+        },
+        {
+          "name": "Rede de Investigação em Saúde",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "mINSPIRERS\\_RCT aims to assess the magnitude of the effect of a mobile app for improving asthma control in adolescents and adults with persistent asthma, followed at primary and secondary care in Portugal.",
+      "detailedDescription": "INSPIRERS\\_RCT is a pilot randomized, multicenter superiority clinical trial regarding the effect of a mobile app together with usual care (experimental group) in comparison to usual care alone (control group) in adolescents and adults with persistent asthma. The study includes two face-to-face visits (initial visit and at 3 months), and 3 telephone interviews (1 week, 1 month and 4 months), implemented in 32 primary (General Practice) and secondary care centers (Allergy, Pediatrics, Pulmonology) in Portugal."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Asthma"
+      ],
+      "keywords": [
+        "mHealth",
+        "smartphone",
+        "medication adherence",
+        "self-management",
+        "technology assessment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 124,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "InspirerMundi app plus usual care",
+          "type": "EXPERIMENTAL",
+          "description": "Patients, in addition to usual care, will be invited to use the InspirerMundi app for 4 months to support adherence to preventive inhaled medication and their asthma self-management.",
+          "interventionNames": [
+            "Device: InspirerMundi app",
+            "Other: Usual care"
+          ]
+        },
+        {
+          "label": "Usual care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in the control group will maintain usual care during the study.",
+          "interventionNames": [
+            "Other: Usual care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "InspirerMundi app",
+          "description": "Patients in the experimental group, in addition to usual care, will be invited to use the InspirerMundi app for 4 months to support adherence to preventive inhaled medication and their asthma self-management. The purpose of the InspirerMundi app is to transform the adherence process into a positive experience through immediate and pleasant rewards. The InspirerMundi app integrates 3 main components: monitoring (symptoms, control, adherence), gaming and social/peer support.\n\nParticipants will be able to include their action plan in the app. Within the action plan, the application can lead to changes in the medication effectively taken, which means that the therapeutic level can be adjusted according to the action plan.\n\nParticipants in the experimental arm will be able to share with their physician, through the app, their medication adherence and asthma control data in the 3 months visit, and whenever patients wish during the study period.",
+          "armGroupLabels": [
+            "InspirerMundi app plus usual care"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual care",
+          "description": "Usual care will consist of pharmacological treatment and medical monitoring through routine medical visits.",
+          "armGroupLabels": [
+            "InspirerMundi app plus usual care",
+            "Usual care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Asthma control (CARAT)",
+          "description": "Change from baseline in the proportion of patients with controlled asthma as assessed with the CARAT-Control of Allergic Rhinitis and Asthma Test at 3 months",
+          "timeFrame": "Baseline, 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Asthma control (GINA)",
+          "description": "Change in Asthma control assessed by the physician acording to GINA (Global initiative for asthma) guidelines",
+          "timeFrame": "Baseline, 3 months"
+        },
+        {
+          "measure": "Change in Number of asthma exacerbations in last 3 months",
+          "description": "Worsening asthma events requiring unscheduled health care use (emergency department visit, hospitalization, and/or any medical assistance) or initiation/increase in systemic corticosteroids.",
+          "timeFrame": "Baseline, 3 months"
+        },
+        {
+          "measure": "Change in Absenteeism in the last 3 months",
+          "description": "Number of days absent from the workplace/school",
+          "timeFrame": "Baseline, 3 months"
+        },
+        {
+          "measure": "Change in Treatment adherence (Test of the Adherence to Inhalers)",
+          "description": "Assessed with Test of the Adherence to Inhalers",
+          "timeFrame": "Baseline, 3 months"
+        },
+        {
+          "measure": "Change in Beliefs about Medicines",
+          "description": "Assessed with specific Beliefs about Medicines Questionnaire",
+          "timeFrame": "Baseline, 3 months"
+        },
+        {
+          "measure": "Change in Satisfaction with inhaler",
+          "description": "Assessed through 4 visual analogue scales (VAS 0-100, higher number, higher satisfaction)",
+          "timeFrame": "1 week, 4 months"
+        },
+        {
+          "measure": "Change in EuroQol-5 Dimensions (EQ-5D)",
+          "description": "Assessed with EuroQol-5 Dimensions (EQ-5D). Health state index scores generally range from less than 0 (where 0 is the value of a health state equivalent to dead) to 1 (the value of full health), with higher scores indicating higher health utility.",
+          "timeFrame": "Baseline, 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age between 13 and 17 years (adolescents) or and between 18 and 64 years (adults);\n* Previous medical diagnosis of persistent asthma;\n* Uncontrolled or partially controlled asthma according to Global Initiative for Asthma (GINA) criteria;\n* Active prescription of inhaled control medication for asthma (all treatments will be accepted. There will be no change in the prescribed therapeutic regimen directly or indirectly related to participation in this study);\n* Ability to use mobile app and a access (availability and use) to Android mobile devices with internet access;\n* Do not currently use any mobile application for asthma management.\n\nExclusion Criteria:\n\n* Patients diagnosed with chronic respiratory disease other than asthma or, diagnosed with another significant chronic disease, with possible interference with the objectives and/or evaluations of the study.\n* Patients that participated in previous feasibility studies with InspirerMundi app will be excluded.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "13 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "João Almeida Fonseca, PhD",
+          "role": "CONTACT",
+          "phone": "(+351) 229027242",
+          "phoneExt": "26905",
+          "email": "jfonseca@med.up.pt"
+        },
+        {
+          "name": "Cristina Jácome, PhD",
+          "role": "CONTACT",
+          "phone": "(+351) 225513622",
+          "phoneExt": "26924",
+          "email": "cjacome@med.up.pt"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "João Almeida Fonseca, PhD",
+          "affiliation": "Universidade do Porto",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Faculty of Medicine of the University of Porto",
+          "city": "Porto",
+          "zip": "4200-319",
+          "country": "Portugal",
+          "contacts": [
+            {
+              "name": "Cristina Jácome, PhD",
+              "role": "CONTACT",
+              "email": "cjacome@med.up.pt"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001249",
+          "term": "Asthma"
+        },
+        {
+          "id": "D055118",
+          "term": "Medication Adherence"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001982",
+          "term": "Bronchial Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012130",
+          "term": "Respiratory Hypersensitivity"
+        },
+        {
+          "id": "D006969",
+          "term": "Hypersensitivity, Immediate"
+        },
+        {
+          "id": "D006967",
+          "term": "Hypersensitivity"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D010349",
+          "term": "Patient Compliance"
+        },
+        {
+          "id": "D010342",
+          "term": "Patient Acceptance of Health Care"
+        },
+        {
+          "id": "D000074822",
+          "term": "Treatment Adherence and Compliance"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

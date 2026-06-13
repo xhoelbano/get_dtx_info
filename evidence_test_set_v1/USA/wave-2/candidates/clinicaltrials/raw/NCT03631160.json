@@ -1,0 +1,292 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03631160",
+      "orgStudyIdInfo": {
+        "id": "TianjinNH Clinic"
+      },
+      "organization": {
+        "fullName": "Tianjin Nankai Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Transcutaneous Acupoint Electrical Stimulation on Postoperative Spontaneous Voiding for Laparoscopic Patients",
+      "officialTitle": "Effect of Transcutaneous Acupoint Electrical Stimulation on Postoperative Spontaneous Voiding for Laparoscopic Cholecystectomy Patients：A Randomized Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-08-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-06-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-08-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-07-02",
+      "studyFirstSubmitQcDate": "2018-08-10",
+      "studyFirstPostDateStruct": {
+        "date": "2018-08-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-05-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-05-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jianbo Yu",
+        "investigatorTitle": "Department of Anesthesiology, Director, Chief physician, Professor, Doctoral tutor",
+        "investigatorAffiliation": "Tianjin Nankai Hospital"
+      },
+      "leadSponsor": {
+        "name": "Tianjin Nankai Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Tianjin First Central Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Tianjin Beichen Hospital",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Anyang People's Hospital",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "1. Title: Effect of Transcutaneous Acupoint Electrical Stimulation on postoperative spontaneous voiding for Laparoscopic Cholecystectomy patients：A Randomized Clinical Trial\n2. Research center: Multicenter\n3. Design of the research: A randomized, double-blind and parallel controlled study\n4. Object of the research: Patients （40≤age\\<75 years）planing to elective laparoscopic cholecystectomy under general anesthesia without preoperative placement of catheter.\n5. Sample size of the research: A total of 1,200 patients,600 cases in each group\n6. Interventions: The acupuncture points for Transcutaneous Acupoint Electrical Stimulation(TAES) are Zhongji ( CV3),Guanyuan ( CV4),Sanyinjiao ( SP6) and Ciliao ( BL32) points . In treatment group patients are treated with low-frequency pulse electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China) at bilateral of SP6 and BL 32 points during the operation,and treated with a similar method at CV6 and CV4 acupoints for 45 minutes in postanesthesia Care Unit. Each devic is connected and maintained after \"Deqi\". Participants in the control group received nonacupoints (located 1 inch beside acupoints) and avoided manual stimulation and no \"Deqi\" without actual current output.\n7. Aim of the research: Evaluate the effect of TAES on the postoperative spontaneous voiding in patients for Laparoscopic Cholecystectomy (LC ).\n8. Outcome：Primary outcomes: The time of the first spontaneous voiding after surgery .\n\n   Secondary outcomes: symptoms of postoperative voiding, the incidence of Postoperative dysuria,postoperative catheterization rate, catheterization time, incidence of related complications,as well as the effects on postoperative NRS pain and sleep quality scores etc.\n9. The estimated duration of the study：2 years.",
+      "detailedDescription": "This study is a large sample, randomized, double-blinded, placebo-controlled and long-term follow-up design. In this study, bilateralZhongji ( CV3),Guanyuan ( CV4),Sanyinjiao ( SP6) and Ciliao ( BL32) points were selected for perioperative TAES treatment, accompanied with evaluating the postoperative spontaneous voiding, the incidence of Postoperative dysuria,postoperative catheterization rate, as well as the effects on postoperative NRS pain and sleep quality scores . To clarify the effect of TAES on the postoperative spontaneous voiding in patients for laparoscopic surgery is of great significance to the clinical applications and popularization of traditional acupuncture treatment perioperatively across the world."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Voiding Disorders"
+      ],
+      "keywords": [
+        "Laparoscopic Cholecystectomy",
+        "Transcutaneous Acupoint Electrical Stimulation",
+        "Postoperative spontaneous voiding",
+        "Postoperative Dysuria"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "patients undergoing elective laparoscopy cholecystectomy surgery were recruited and allocated into TEAS（transcutaneous electrical acupoint stimulation）group or control group",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Subjects who have signed informed consent were assigned to either TEAS group or control group on the basis of digital random numbers generated by SPSS.23.0 software. The acupuncturist(Z.-Y.) was informed of the randomization allocation each subject by a concealed envelope, just before the onset of TEAS. And during the treatment, the screen of all acupuncture treatment instruments was covered from to ensure the anesthesiologist and surgeon blinded. The acupuncturist, statistician, and data collectors work independently and only perform assigned tasks, besides after the agreement is initiated, all researchers will not have any private communication with the study.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1948,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TAES treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Patients in the treatment group receive Transcutaneous Acupoint Electrical Stimulation (TAES) at Zhongji ( CV3),Guanyuan ( CV4), bilaterally Sanyinjiao ( SP6) and bilaterally Ciliao ( BL32) points by electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China).After \"Deqi\", electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China) is connected and maintained until the end of treatment.",
+          "interventionNames": [
+            "Device: TAES treatmen"
+          ]
+        },
+        {
+          "label": "Sham TAES treatment",
+          "type": "SHAM_COMPARATOR",
+          "description": "Participants in the control group receive shallow TAES at SP6, BL32 ,CV3 and CV4 (nonacupoints located 1 inch beside acupoints, about 20mm). Specifically, the acuponit is shamed without manual stimulation and \"Deqi\" and the stimulation apparatus is inefficiency without actual current output.",
+          "interventionNames": [
+            "Device: Sham TAES treatmen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TAES treatmen",
+          "description": "In the acupoints group patients are treated with low-frequency pulse electroacupuncture stimulation apparatus (HANS G6805-2, Huayi Co, Shanghai, China) at SP6 and BL 32 points during the operation in the operating room ,and at CV3 and CV4 acupoints for 45 minutes in postanesthesia Care Unit. After \"Deqi\", electroacupuncture stimulation apparatus is connected with the density wave (2/100 Hz), width 0.25 ms, intensity of 1 \\~ 30 milliamp (mA) (gradually increase to the patient's maximum tolerance) and maintained until the end of treatment.",
+          "armGroupLabels": [
+            "TAES treatment"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham TAES treatmen",
+          "description": "Participants in the acupoints group receive shallow acupointing at SP6, BL 32 ,CV3 and CV4 (nonacupoints located 1 inch beside acupoints, about 20mm).Specifically, the acupoint is shamed without manual stimulation and \"Deqi\" and the stimulation apparatus is inefficiency without actual current output .",
+          "armGroupLabels": [
+            "Sham TAES treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The first spontaneous voiding after surgery",
+          "description": "Record the time from the end of the procedure to the patient's first spontaneous postoperatively, and record the amount of urine and discomfort",
+          "timeFrame": "an average of 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "symptoms of postoperative voiding",
+          "description": "The number of urination, total urine output and possible urinary discomfort symptoms during the perioperative period",
+          "timeFrame": "an average of 1 year"
+        },
+        {
+          "measure": "postoperative catheterization rate",
+          "description": "The incidence of catheterization in patients who were unable to urinate for a long time after surgery",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Incidence Urinary tract complications after surgery (including re-hospitalization)",
+          "description": "Urinary retention, urinary incontinence, hematuria, urinary tract infection, etc.",
+          "timeFrame": "an average of 1 year"
+        },
+        {
+          "measure": "NRS pain scores",
+          "description": "NRS method is used to evaluate the pain scores of patients (0 points to complete Painless, 10 points to the maximum pain that can be tolerated) The NRS method was used to evaluate the pain scores of patients at resting state and activity (cough) 6-8 hours after operation.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Anxiety and depression assessment",
+          "description": "Using Hospital Anxiety and Depression Scale (HADS) to evaluate perioperative anxiety and depression of patients.HADS includes two scales of anxiety and depression, of which 0-7 is negative, 8-10 is mild, 11-14 is moderate, and 15-21 is severe.",
+          "timeFrame": "an average of 1 year"
+        },
+        {
+          "measure": "The effects on postoperative sleep quality scores",
+          "description": "Using the NRS method (0 for the best quality of sleep and 10 for the worst quality of sleep)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Length of stay in hospital after surgery",
+          "description": "The hospitalization time from the patient's surgery to the time of discharge (excluding re-hospitalization)",
+          "timeFrame": "an average of 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 40 years old and \\< 75 years old, gender and nationality are not limited;\n2. Patients undergoing elective laparoscopic cholecystectomy under general anesthesia\n3. agree to participate in this study and sign the informed consent;\n\nExclusion Criteria:\n\n1. Refused to participate in this study;\n2. laparotomy or preventive indwelling catheter;\n3. There are obvious symptoms of urinary difficulty caused by various causes recently;\n4. Patients who are have treatment taboo with skin injury or insensitivity to acupoint stimulation.\n5. Critical condition (preoperative ASA grade ≥ IV grade); severe renal impairment (need to undergo renal replacement therapy); severe liver and kidney dysfunction (Child-Pugh grade C);\n6. There are other circumstances where it is not appropriate to participate in this study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jianbo Yu, MD,PhD",
+          "affiliation": "Nankai Hospital of Tianjin",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Tianjin Nankai Hospital",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "zip": "300000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28655016",
+          "type": "BACKGROUND",
+          "citation": "Liu Z, Liu Y, Xu H, He L, Chen Y, Fu L, Li N, Lu Y, Su T, Sun J, Wang J, Yue Z, Zhang W, Zhao J, Zhou Z, Wu J, Zhou K, Ai Y, Zhou J, Pang R, Wang Y, Qin Z, Yan S, Li H, Luo L, Liu B. Effect of Electroacupuncture on Urinary Leakage Among Women With Stress Urinary Incontinence: A Randomized Clinical Trial. JAMA. 2017 Jun 27;317(24):2493-2501. doi: 10.1001/jama.2017.7220."
+        },
+        {
+          "pmid": "24980440",
+          "type": "BACKGROUND",
+          "citation": "Arvidsdotter T, Marklund B, Taft C. Six-month effects of integrative treatment, therapeutic acupuncture and conventional treatment in alleviating psychological distress in primary care patients--follow up from an open, pragmatic randomized controlled trial. BMC Complement Altern Med. 2014 Jun 30;14:210. doi: 10.1186/1472-6882-14-210."
+        },
+        {
+          "pmid": "17030438",
+          "type": "BACKGROUND",
+          "citation": "Chao AS, Chao A, Wang TH, Chang YC, Peng HH, Chang SD, Chao A, Chang CJ, Lai CH, Wong AMK. Pain relief by applying transcutaneous electrical nerve stimulation (TENS) on acupuncture points during the first stage of labor: a randomized double-blind placebo-controlled trial. Pain. 2007 Feb;127(3):214-220. doi: 10.1016/j.pain.2006.08.016. Epub 2006 Oct 6."
+        },
+        {
+          "pmid": "6880820",
+          "type": "BACKGROUND",
+          "citation": "Zigmond AS, Snaith RP. The hospital anxiety and depression scale. Acta Psychiatr Scand. 1983 Jun;67(6):361-70. doi: 10.1111/j.1600-0447.1983.tb09716.x."
+        },
+        {
+          "pmid": "17661136",
+          "type": "BACKGROUND",
+          "citation": "Lee SJ, Hyung WJ, Koo BN, Lee JY, Jun NH, Kim SC, Kim JW, Liu J, Kim KJ. Laparoscopy-assisted subtotal gastrectomy under thoracic epidural-general anesthesia leading to the effects on postoperative micturition. Surg Endosc. 2008 Mar;22(3):724-30. doi: 10.1007/s00464-007-9475-6."
+        },
+        {
+          "pmid": "26036221",
+          "type": "RESULT",
+          "citation": "Partelli S, Barugola G, Sartori A, Crippa S, Falconi M, Ruffo G. Single-incision laparoscopic cholecystectomy versus traditional laparoscopic cholecystectomy performed by a single surgeon: findings of a randomized trial. Surg Today. 2016 Mar;46(3):313-8. doi: 10.1007/s00595-015-1182-7. Epub 2015 Jun 3."
+        },
+        {
+          "pmid": "27943036",
+          "type": "RESULT",
+          "citation": "Hata T, Noda T, Shimizu J, Hatano H, Dono K. Omitting perioperative urinary catheterization in laparoscopic cholecystectomy: a single-institution experience. Surg Today. 2017 Aug;47(8):928-933. doi: 10.1007/s00595-016-1454-x. Epub 2016 Dec 9."
+        },
+        {
+          "pmid": "26139091",
+          "type": "RESULT",
+          "citation": "Hawkes N. Cochrane reviews evidence on surgery for stress incontinence after controversy in Scotland. BMJ. 2015 Jul 2;351:h3578. doi: 10.1136/bmj.h3578. No abstract available."
+        },
+        {
+          "pmid": "36745198",
+          "type": "DERIVED",
+          "citation": "Zhang YF, Li XY, Liu XY, Zhang Y, Gong LR, Shi J, Du SH, He SM, Li C, Li YT, Li N, Liu SS, Wu Y, Xie ZL, Pei ZC, Yu JB. Transcutaneous Electrical Acupoints Stimulation Improves Spontaneous Voiding Recovery After Laparoscopic Cholecystectomy: A Randomized Clinical Trial. World J Surg. 2023 May;47(5):1153-1162. doi: 10.1007/s00268-023-06924-7. Epub 2023 Feb 6."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "All of the individual participant data collected during the trial,after deidentification will be shared.And anyone who wishes to acess the date will be available for any purpose."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,84 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04907045",
+      "nct_id": "NCT04907045",
+      "title": "An Initial Study of the Implementation of Digital Therapeutics for Substance Use Disorders in Primary Care",
+      "official_title": "Digital Therapeutics for Opioids and Other Substance Use Disorders in Primary Care Pilot (DIGITS Trial Pilot)",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NON_RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+        "masking": "NONE"
+      },
+      "enrollment": 1552,
+      "start_date": "2021-05-06",
+      "completion_date": "2023-12-04",
+      "conditions": [
+        "Drug Use Disorders",
+        "Illicit Drug Use",
+        "Alcohol-Related Disorders"
+      ],
+      "keywords": [
+        "Implementation Science",
+        "Mobile Applications",
+        "Drug Use Disorders",
+        "Quality Improvement",
+        "Primary Health Care"
+      ],
+      "interventions": [
+        {
+          "name": "Health Coaching",
+          "type": "BEHAVIORAL",
+          "description": "The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team."
+        },
+        {
+          "name": "Practice Facilitation",
+          "type": "BEHAVIORAL",
+          "description": "In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change."
+        },
+        {
+          "name": "Standard Implementation",
+          "type": "BEHAVIORAL",
+          "description": "Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+        }
+      ],
+      "lead_sponsor": "Kaiser Permanente",
+      "collaborators": [
+        "National Institute on Drug Abuse (NIDA)"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The DIGITS Trial addresses a critical knowledge gap: How to best implement digital treatments for opioids and other substance use disorders in primary care. In this pilot study, the FDA-authorized reSET and reSET-O digital therapeutics will be implemented in 2 primary care clinics as part of quality improvement. The pilot is comprised of a 3-month period in which a standard approach to implementing reSET and reSET-O is applied in the two primary care clinics \"standard implementation\", followed by a second 3-month period in which the study will test and refine the two experimental implementation strategy interventions, health coaching (patient-facing) and practice coaching (clinician-facing) in the same clinics. This study will also pilot economic data collection tools and collect qualitative data for a formative evaluation. The analytic goals are to inform the statistical design and data collection processes for the subsequent cluster-randomized DIGITS Trial.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04907045",
+      "_matched_query": "\"reSET-O\"",
+      "_raw_json_path": "evidence/USA/reset-o/candidates/clinicaltrials/raw/NCT04907045.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study explicitly mentions 'reSET-O' by name, which is the specific digital therapeutic product in question. It also describes its implementation in primary care, aligning with the product's intended use for opioid use disorder. Additionally, the study mentions 'reSET,' another product from the same company, but 'reSET-O' is clearly included as a focus.",
+        "matched_elements": [
+          "reSET-O",
+          "FDA-authorized",
+          "digital therapeutic for opioid use disorder"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "confidence": 85,
+        "reason": "The study focuses on implementation strategies and quality improvement in real-world primary care settings without randomization or placebo control. It is described as a pilot study to inform a future cluster-randomized trial, indicating it is not an RCT itself."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T22:50:00.868955Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

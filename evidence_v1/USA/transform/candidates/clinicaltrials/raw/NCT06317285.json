@@ -1,0 +1,823 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06317285",
+      "orgStudyIdInfo": {
+        "id": "220929"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-509371-16-00",
+          "type": "REGISTRY",
+          "domain": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "GlaxoSmithKline",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Efficacy and Safety of GSK3915393 in Participants With Idiopathic Pulmonary Fibrosis (IPF)",
+      "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo Controlled, Parallel Group Study (TRANSFORM) to Evaluate the Efficacy and Safety of GSK3915393 in Participants With Idiopathic Pulmonary Fibrosis (IPF)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The study met futility criteria at pre-planned interim analysis, showing no clinical efficacy of the investigational drug. Based on the lack of efficacy at the interim data review, the sponsor decided to terminate the study.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-04-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-12",
+      "studyFirstSubmitQcDate": "2024-03-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "GlaxoSmithKline",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Idiopathic Pulmonary Fibrosis is a chronic lung disease which causes scarring of the lungs and difficulty in breathing. GSK3915393 is a new medicine, which is being tested in participants with IPF for the first time. The study will assess the safety and effectiveness of GSK3915393 in IPF participants."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Idiopathic Pulmonary Fibrosis"
+      ],
+      "keywords": [
+        "GSK3915393",
+        "Idiopathic Pulmonary Fibrosis",
+        "Efficacy",
+        "Safety",
+        "Forced vital capacity",
+        "Tolerability"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "This will be a double-blind study with respect to allocation of GSK3915393 or placebo to participants.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 158,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "GSK3915393",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive GSK3915393",
+          "interventionNames": [
+            "Drug: GSK3915393"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive placebo.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "GSK3915393",
+          "description": "GSK3915393 will be administered.",
+          "armGroupLabels": [
+            "GSK3915393"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo will be administered.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Absolute Change from Baseline in Forced Vital Capacity (FVC) in milliliters (mL) at Week 26",
+          "timeFrame": "Baseline and at Week 26"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Absolute Change from Baseline in Forced Vital Capacity (mL) at Weeks 4, 8, 12 and 18",
+          "timeFrame": "Baseline and at Week 4, Week 8, Week 12 and Week 18"
+        },
+        {
+          "measure": "Absolute Change from Baseline in Percent Predicted Forced Vital Capacity (%) at Weeks 4, 8, 12, 18 and 26",
+          "timeFrame": "Baseline and at Week 4, Week 8, Week 12, Week 18 and Week 26"
+        },
+        {
+          "measure": "Participants Achieving Relative Decline from Baseline in FVC (mL) Less than or Equal to (≤) 5 Percent (%) at Week 26",
+          "timeFrame": "Baseline and at Week 26"
+        },
+        {
+          "measure": "Number of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+          "timeFrame": "Up to Week 26"
+        },
+        {
+          "measure": "Number of Participants with Clinically Important Findings in Vital Signs",
+          "timeFrame": "Baseline and Up to Week 26"
+        },
+        {
+          "measure": "Number of Participants with Clinically Important Findings in Electrocardiogram (ECG)",
+          "timeFrame": "Baseline and up to Week 26"
+        },
+        {
+          "measure": "Number of Participants with Clinically Important Findings in Haematology",
+          "timeFrame": "Baseline and up to Week 26"
+        },
+        {
+          "measure": "Number of Participants with Clinically Important Findings in Hepatobiliary Parameters",
+          "timeFrame": "Baseline and up to Week 26"
+        },
+        {
+          "measure": "Number of Participants with Clinically Important Findings in Clinical Chemistry",
+          "timeFrame": "Baseline and up to Week 26"
+        },
+        {
+          "measure": "Maximum observed concentration (Cmax) of GSK3915393 in IPF Participants",
+          "timeFrame": "At Week 2 (pre-dose, and 0.5, 1, 1.5, 2, 3 and 4 hour (h) post-dose)"
+        },
+        {
+          "measure": "Area under the time-concentration curve (AUC) from Zero (pre-dose) to 4 hours (h) post-dose sample [0-4 h]) of GSK3915393",
+          "timeFrame": "At Week 2 (pre-dose, and 0.5, 1, 1.5, 2, 3 and 4 hour (h) post-dose)"
+        },
+        {
+          "measure": "Area under the concentration-time curve from time zero (pre-dose) extrapolated to infinite time (AUC- inf) of GSK3915393",
+          "timeFrame": "At Week 2 (pre-dose, and 0.5, 1, 1.5, 2, 3 and 4 hour (h) post-dose)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants with IPF diagnosed within 5 years prior to screening based on the applicable American Thoracic Society (ATS)/ European Respiratory Society (ERS)/ Japanese Respiratory Society (JRS)/ Latin American Thoracic Society (ALAT) Guideline at the time of diagnosis.\n* Centrally read chest High Resolution Computed Tomography (HRCT) obtained at screening or historical HRCT obtained within 12 months of screening that is consistent with Usual interstitial pneumonia (UIP) or probable UIP (if indeterminate HRCT finding, IPF may be confirmed locally by historical biopsy).\n* FVC greater than or equal to (\\>=) 45 percent (%) of predicted normal.\n* Diffusing Capacity (of Lung) for Carbon Monoxide (DLCO) \\>=25% of predicted normal corrected for hemoglobin (Hb).\n* Prebronchodilator Forced Expiratory Volume in 1 second (FEV1)/FVC ≥ 0.7.\n* If receiving antifibrotics must be on stable dose of nintedanib or pirfenidone for at least 12 weeks prior to screening.\n* If not currently receiving pirfenidone or nintedanib, participant must have stopped pirfenidone or nintedanib for at least 4 weeks prior to screening.\n* Body weight ≥40 kilogram (kg) and body mass index within the range 18.5-35 kilogram per meter square (kg/m2) (inclusive).\n* A female participant is eligible to participate if a woman of nonchildbearing potential (WONCBP)\n* Capable of giving signed informed consent\n\nExclusion Criteria:\n\n* Participants with Interstitial Lung Disease (ILD) associated with other known causes.\n* Diagnosis of sarcoidosis or any systemic autoimmune disease (including but not limited to scleroderma, polymyositis/dermatomyositis, systemic lupus erythematosus and rheumatoid arthritis).\n* Acute IPF exacerbation within 6 months prior to screening and/or during the screening period (investigator-determined).\n* Clinically significant non-parenchymal lung disease (e.g., asthma, chronic obstructive pulmonary disease, cavitary or pleural diseases) at screening.\n* Diagnosis of severe pulmonary hypertension (investigator-determined)\n* Extent of emphysema is greater than the extent of fibrosis according to reported results from the most recent HRCT.\n* History of previous lung transplant or recent major surgery (investigator-determined) within 12 weeks prior to screening or planned during the trial period. Registration on a transplant waiting list is allowed.\n* Clinically significant respiratory tract infection (e.g., active tuberculosis, infectious pneumonia, Corona virus disease 2019 \\[COVID-19\\]) requiring treatment within 4 weeks prior to and/or during the screening period.\n* Cigarette smoking (including e-cigarettes) either current or within 3 months before screening.\n* Current or chronic liver disease or known hepatic or biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones).\n* Alanine transaminase (ALT), Aspartate transaminase (AST), Alkaline phosphatase (ALP) \\>2x Upper Limit of Normal (ULN) and bilirubin \\>1.5x ULN (isolated bilirubin \\>1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin less than (\\<) 35% at screening).\n* Clinically significant abnormalities detected on ECG of either rhythm or conduction, a Corrected QT interval (QTc) \\>450 millisecond (msec) or QTc \\> 480msec for participants with a bundle branch block and/or a pacemaker who are actively ventricularly pacing during the screening ECG.\n* Participants with pacemakers who are not pacing at the time of the screening ECG should have a non-paced QTc \\<450 msec.\n\nPrior/Concomitant Therapy-\n\n* Simultaneous use of pirfenidone and nintedanib at screening.\n* Received systemic corticosteroids equivalent to prednisone \\>10 mg/day or equivalent within 2 weeks of screening period.\n* Use of any of the following therapies within 4 weeks prior to screening and during the screening period or planned during the study:\n* Immunomodulatory therapies, including but not limited to azathioprine, mycophenolate mofetil, methotrexate, tacrolimus, cyclophosphamide, imatinib, Tumour Necrosis Factor -Alpha (TNF- α) inhibitors.\n* Medications that are under investigation for the treatment of IPF including inhaled treprostinil and Phosphodiesterase-4 (PDE-4) inhibitors. Symptomatic cough therapies are allowed.\n* Current use of systemic strong and moderate inducers or inhibitors of Cytochrome P450 3A4 (CYP3A4) (see prohibited medication section for further information) that cannot be safely discontinued or switched to an alternative agent at least 14 days before randomization.\n* Current use of systemic CYP3A4 substrates that have a narrow therapeutic index that cannot be safely discontinued or switched to an alternative agent at least 14 days before randomization.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "GSK Clinical Trials",
+          "affiliation": "GlaxoSmithKline",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Newport Beach",
+          "state": "California",
+          "zip": "92663",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.61891,
+            "lon": -117.92895
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "St. Petersburg",
+          "state": "Florida",
+          "zip": "33704",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.77086,
+            "lon": -82.67927
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109-5360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19140",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Cypress",
+          "state": "Texas",
+          "zip": "77429",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.96911,
+            "lon": -95.69717
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Buenos Aires",
+          "zip": "C1426ABP",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Ciudad Autonoma de Bueno",
+          "zip": "C1207AAP",
+          "country": "Argentina"
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Florida",
+          "zip": "B1602DQD",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.53258,
+            "lon": -58.49078
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "La Plata",
+          "zip": "1900",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.92126,
+            "lon": -57.95442
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Mendoza",
+          "zip": "M5500CCG",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.88946,
+            "lon": -68.84582
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Rosario",
+          "zip": "S2000DBS",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V5Z 1M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "zip": "A1B 3V6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 47.56494,
+            "lon": -52.70931
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Ajax",
+          "state": "Ontario",
+          "zip": "L1S 2J5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.85012,
+            "lon": -79.03288
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8N 4A6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Trois-Rivières",
+          "state": "Quebec",
+          "zip": "G8T 7A1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "La Tronche",
+          "zip": "38700",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.20507,
+            "lon": 5.74629
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Pessac",
+          "zip": "33604",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Rennes",
+          "zip": "35000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Rouen",
+          "zip": "76000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Essen",
+          "zip": "45293",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Hanover",
+          "zip": "30173",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Heidelberg",
+          "zip": "69126",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Wuppertal",
+          "zip": "42283",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.25627,
+            "lon": 7.14816
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Catania",
+          "zip": "95123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Monza MB",
+          "zip": "20900",
+          "country": "Italy"
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Napoli",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.87618,
+            "lon": 14.5195
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Padua",
+          "zip": "35128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.40797,
+            "lon": 11.88586
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Perugia",
+          "zip": "06132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.1122,
+            "lon": 12.38878
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Pisa",
+          "zip": "56124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Roma",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Sassari",
+          "zip": "07100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.72586,
+            "lon": 8.55552
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Torrette AN",
+          "country": "Italy"
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Eindhoven",
+          "zip": "5623 EJ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Rotterdam",
+          "zip": "3015 CE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Bialystok",
+          "zip": "15-044",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Lodz",
+          "zip": "90-153",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Poznan",
+          "zip": "60-569",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Barcelona",
+          "zip": "08907",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Madrid",
+          "zip": "28006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Madrid",
+          "zip": "28007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Oviedo",
+          "zip": "33011",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.36029,
+            "lon": -5.84476
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Pozuelo de AlarcOn Madr",
+          "zip": "28223",
+          "country": "Spain"
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Santander",
+          "zip": "39011",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Edinburgh",
+          "zip": "EH16 4SA",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "Leeds West Yorkshire",
+          "zip": "LS9 7TF",
+          "country": "United Kingdom"
+        },
+        {
+          "facility": "GSK Investigational Site",
+          "city": "London",
+          "zip": "SW3 6HP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers may request access to anonymized individual patient-level data (IPD) and related study documents of the eligible studies via the Data Sharing Portal. Details on GSK's data sharing criteria can be found at: https://www.gsk.com/en-gb/innovation/trials/data-transparency/",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "Anonymized IPD will be made available within 6 months of publication of primary, key secondary and safety results for studies in product with approved indication(s) or terminated asset(s) across all indications.",
+      "accessCriteria": "Anonymized IPD is shared with researchers whose proposals are approved by an Independent Review Panel and after a Data Sharing Agreement is in place. Access is provided for an initial period of 12 months but an extension may be granted, when justified, for up to 6 months.",
+      "url": "https://www.gsk.com/en-gb/innovation/trials/data-transparency/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054990",
+          "term": "Idiopathic Pulmonary Fibrosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011658",
+          "term": "Pulmonary Fibrosis"
+        },
+        {
+          "id": "D017563",
+          "term": "Lung Diseases, Interstitial"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

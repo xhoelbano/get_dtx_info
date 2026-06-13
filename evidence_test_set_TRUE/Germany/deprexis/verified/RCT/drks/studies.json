@@ -1,0 +1,33 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00011628",
+      "drks_id": "DRKS00011628",
+      "title": "deprexis®24-NOW\ndeprexis®24-new online cognitive behavioral therapy with or without pharmacotherapy",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00011628/details",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/drks/raw/DRKS00011628.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study title explicitly mentions 'deprexis®24', which is a clear variation of the product name 'deprexis'. Additionally, the description aligns with the clinical area and therapeutic approach of the product. No evidence suggests it is about a different product or a generic study.",
+        "matched_elements": [
+          "deprexis®24 in study title",
+          "alignment with clinical area and therapeutic approach"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "confidence": 70,
+        "reason": "The study title suggests an interventional design involving a new online cognitive behavioral therapy, which is indicative of a randomized controlled trial. However, the lack of detailed information on randomization or blinding reduces confidence."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-02-09T19:21:12.072556Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

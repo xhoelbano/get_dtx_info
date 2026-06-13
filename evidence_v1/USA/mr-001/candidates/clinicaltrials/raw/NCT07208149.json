@@ -1,0 +1,317 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07208149",
+      "orgStudyIdInfo": {
+        "id": "MJR-MR001-03"
+      },
+      "organization": {
+        "fullName": "Shenzhen Majory Biotechnology Co., Ltd.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of MR001 in Patients With Locally Recurrent or Metastatic Advanced Triple-Negative Breast Cancer (TNBC)",
+      "officialTitle": "A Phase Ib/IIa, Open-Label, Two-Cohort, Dose-Escalation and Dose-Expansion Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of MR001 in Patients With Locally Recurrent or Metastatic Advanced Triple-Negative Breast Cancer (TNBC) Who Have Progressed After First-Line or Later-Line Therapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-19",
+      "studyFirstSubmitQcDate": "2025-09-27",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Shenzhen Majory Biotechnology Co., Ltd.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This Phase Ib/IIa study is evaluating the safety, tolerability, pharmacokinetics, and preliminary efficacy of MR001 in patients with advanced triple-negative breast cancer (TNBC) who have progressed after prior therapy.",
+      "detailedDescription": "This is a dual-cohort, open-label, dose escalation and dose expansion Phase Ib/IIa study to evaluate the safety, tolerability, pharmacokinetics, and preliminary anti-tumor activity of MR001 in patients with locally recurrent or metastatic advanced triple-negative breast cancer (TNBC) who have progressed after first-line or later-line therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple-Negative Breast Cancer (TNBC)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 42,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dose Escalation Part, Dose Group A: MR001 1 mg/kg, QW",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: MR001 Bispecific Antibody for Injection"
+          ]
+        },
+        {
+          "label": "Dose Escalation Part, Dose Group B: MR001 2 mg/kg, QW",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: MR001 Bispecific Antibody for Injection"
+          ]
+        },
+        {
+          "label": "Dose Escalation Part, Dose Group C: MR001 4 mg/kg, QW",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: MR001 Bispecific Antibody for Injection"
+          ]
+        },
+        {
+          "label": "Dose Escalation Part, Dose Group D: MR001 2 mg/kg, Q2W",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: MR001 Bispecific Antibody for Injection"
+          ]
+        },
+        {
+          "label": "Dose Expansion Part",
+          "type": "EXPERIMENTAL",
+          "description": "Based on the Dose escalation part results, the Investigator and Sponsor will determine one dose and dosing interval to proceed to the dose expansion study",
+          "interventionNames": [
+            "Drug: MR001 Bispecific Antibody for Injection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MR001 Bispecific Antibody for Injection",
+          "description": "Intravenous infusion",
+          "armGroupLabels": [
+            "Dose Escalation Part, Dose Group A: MR001 1 mg/kg, QW",
+            "Dose Escalation Part, Dose Group B: MR001 2 mg/kg, QW",
+            "Dose Escalation Part, Dose Group C: MR001 4 mg/kg, QW",
+            "Dose Escalation Part, Dose Group D: MR001 2 mg/kg, Q2W",
+            "Dose Expansion Part"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants who experience one or more dose-limiting toxicities (DLTs)",
+          "timeFrame": "Approximately 6 months"
+        },
+        {
+          "measure": "Maximum Tolerated Dose (MTD) of MR001",
+          "description": "The maximum tolerated dose (MTD) of MR001 was assessed for QW dosing schedules",
+          "timeFrame": "Approximately 6 months"
+        },
+        {
+          "measure": "Incidence of Adverse Events (AEs) as Assessed by CTCAE v5.0",
+          "timeFrame": "Approximately 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Recommended Phase II Dose (RP2D) based on safety, pharmacodynamics, pharmacokinetics and Preliminary Anti-tumor Activity of MR001",
+          "timeFrame": "Approximately 6 months"
+        },
+        {
+          "measure": "Progression-free survival (PFS)",
+          "timeFrame": "Approximately 2 years"
+        },
+        {
+          "measure": "Duration of response (DOR)",
+          "timeFrame": "Approximately 2 years"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "timeFrame": "Approximately 3 years"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "timeFrame": "Approximately 2 years"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration-Time Curve (AUC) of MR001",
+          "timeFrame": "Predose and at designated timepoints in each cycle for approximately 2 years (each cycle = 2 weeks)"
+        },
+        {
+          "measure": "Maximum Plasma Concentration (Cmax) of MR001",
+          "timeFrame": "Predose and at designated timepoints in each cycle for approximately 2 years (each cycle = 2 weeks)"
+        },
+        {
+          "measure": "Time to Maximum Plasma Concentration (Tmax) of MR001",
+          "timeFrame": "Predose and at designated timepoints in each cycle for approximately 2 years (each cycle = 2 weeks)"
+        },
+        {
+          "measure": "Change from baseline at different time points for TGF-β1 in plasma",
+          "timeFrame": "Predose and at designated timepoints during the first three cycles (each cycle = 2 weeks)"
+        },
+        {
+          "measure": "Change from baseline at different timepoints for Th1 of MR001",
+          "timeFrame": "Predose and at designated timepoints during the first three cycles (each cycle = 2 weeks)"
+        },
+        {
+          "measure": "Change from baseline at different timepoints for Th2 of MR001",
+          "timeFrame": "Predose and at designated timepoints during the first three cycles (each cycle = 2 weeks)"
+        },
+        {
+          "measure": "Incidence of Antidrug Antibodies (ADA) to MR001",
+          "timeFrame": "Predose in each cycle for approximately 2 years (each cycle = 2 weeks)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with histologically or cytologically confirmed triple-negative breast cancer (TNBC).\n* Subjects with locally recurrent or metastatic advanced TNBC who have progressed after first-line or later-line therapy.\n* Presence of at least one measurable lesion according to RECIST V1.1 criteria.\n* ECOG Performance Status 0 or 1.\n* Life expectancy \\>3 months.\n* Adequate organ and hematopoietic function based on the laboratory tests.\n* Voluntarily sign the informed consent form.\n\nExclusion Criteria:\n\n* History of severe allergy or hypersensitivity to the investigational product or its excipients or drugs of similar chemical class (e.g., monoclonal antibodies), or contraindications to the investigational product.\n* Requirement for systemic immunosuppressive therapy within 14 days prior to the first dose of study drug or during the study.\n* Major surgery (excluding puncture biopsy) within 4 weeks prior to the first dose of study drug, or anticipated need for major surgery during this study.\n* Uncontrolled active brain metastases or leptomeningeal metastasis.\n* History of autoimmune disease requiring treatment with corticosteroids or immunosuppressive drugs.\n* Women in the period of preconception, pregnancy, or lactation.\n* Any other circumstances which the investigator considers may increase risks to subjects or interfere with the results of the trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Qingshan Xue",
+          "role": "CONTACT",
+          "phone": "+86 13332895357",
+          "email": "xueqs@majory.com.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Binghe Xu",
+          "affiliation": "Cancer Institute and Hospital, Chinese Academy of Medical Sciences",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cancer Hospital Chinese Academy of Medical Sciences",
+          "city": "Beijing",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Binghe Xu",
+              "role": "CONTACT",
+              "phone": "+86-10-87788826",
+              "email": "xubinghe@medmail.com.cn"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-02-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004333",
+          "term": "Drug Administration Routes"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}
