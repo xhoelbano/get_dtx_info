@@ -1,0 +1,395 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01602796",
+      "orgStudyIdInfo": {
+        "id": "FI-01"
+      },
+      "organization": {
+        "fullName": "Fundació d'investigació Sanitària de les Illes Balears",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Effectiveness of Intervention on Reducing the Prevalence of Smoking Among Adolescents",
+      "officialTitle": "Effectiveness of a Complex Intervention on Reducing the Prevalence of Smoking Among Adolescents: a Cluster Randomized Control Trial",
+      "acronym": "ITACA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-05-18",
+      "studyFirstSubmitQcDate": "2012-05-18",
+      "studyFirstPostDateStruct": {
+        "date": "2012-05-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-03-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Fundació d'investigació Sanitària de les Illes Balears",
+        "class": "OTHER_GOV"
+      },
+      "collaborators": [
+        {
+          "name": "Instituto de Salud Carlos III",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In this multicenter cluster randomized controlled trial stratified by school baseline prevalence of smoking will be randomly allocated to the control or intervention group. Control schools will receive normal smoking education and intrvention schools will receive a four year class-based curriculum intervention (22 Classroom lessons), reinforcement of smoke-free school policy, smoking cessation in parents, pupils, and teachers and information and annual meeting with parents.\n\nStudy participants will be children aged 12 to 15 years old ; they will be followed to 2 years after high school. External evaluator and analyst will be blinded to school allocation.\n\nThe aim of this study is to analyze the effectiveness of a complex intervention to reduce the prevalence of smoking at 3º ESO (14-15 yrs-old) and 2 years after high school (17-18 yrs-old) ."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2226,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "School-based intervention",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Behavioral: School intervention"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "School intervention",
+          "description": "The ITACA intervention is a cognitive and social-influences approach to prevent tobacco consumption. The intervention is integrated in the curricula of the school, also schools are reinforced to follow a smoke-free school and strictly follow legislation about smoking in schools. The community component include annual meeting with adolescents parents and parents and teachers intensive group for smoking cessation.",
+          "armGroupLabels": [
+            "School-based intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Smoking prevalence of adolescents in each group",
+          "description": "We will compare the smoking prevalence of adolescents in each group at six years against the usual null hypothesis of no difference between groups. We will use the Chi-squared test, taking into account the \"variance inflation factor\" of the adolescent cluster and intraclass correlation coefficient.",
+          "timeFrame": "six years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Children at first of Secondary education.\n* Adolescents and parents accept and sign informed consent\n\nExclusion Criteria:\n\n* None",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "11 Years",
+      "maximumAge": "14 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "IES Albuhaira",
+          "city": "Muro",
+          "state": "Baleare",
+          "zip": "07440",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.73661,
+            "lon": 3.05559
+          }
+        },
+        {
+          "facility": "IES Josep Miquel Guardia",
+          "city": "Alaior",
+          "state": "Balearic Islands",
+          "zip": "07340",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.93034,
+            "lon": 4.14039
+          }
+        },
+        {
+          "facility": "IES Alcudia",
+          "city": "Alcúdia",
+          "state": "Balearic Islands",
+          "zip": "07410",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.85316,
+            "lon": 3.12138
+          }
+        },
+        {
+          "facility": "IES Baltasar Porcel",
+          "city": "Andratx",
+          "state": "Balearic Islands",
+          "zip": "07150",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.57553,
+            "lon": 2.42017
+          }
+        },
+        {
+          "facility": "IES Llorenç Garcias i Font",
+          "city": "Artà",
+          "state": "Balearic Islands",
+          "zip": "07057",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.69315,
+            "lon": 3.34979
+          }
+        },
+        {
+          "facility": "IES Son Ferrer",
+          "city": "Calvià",
+          "state": "Balearic Islands",
+          "zip": "07181",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.5657,
+            "lon": 2.50621
+          }
+        },
+        {
+          "facility": "IES Capdepera",
+          "city": "Capdepera",
+          "state": "Balearic Islands",
+          "zip": "07580",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.70237,
+            "lon": 3.43532
+          }
+        },
+        {
+          "facility": "IES Maria Angels Cardona",
+          "city": "Ciutadella",
+          "state": "Balearic Islands",
+          "zip": "07760",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.00112,
+            "lon": 3.84144
+          }
+        },
+        {
+          "facility": "IES Josep Font i Trias",
+          "city": "Esporles",
+          "state": "Balearic Islands",
+          "zip": "07190",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.66794,
+            "lon": 2.57867
+          }
+        },
+        {
+          "facility": "IES Biel Martí",
+          "city": "Ferreries",
+          "state": "Balearic Islands",
+          "zip": "07200",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.98324,
+            "lon": 4.01181
+          }
+        },
+        {
+          "facility": "IES Pasqual Calbó i Caldes",
+          "city": "Maó",
+          "state": "Balearic Islands",
+          "zip": "07703",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.88853,
+            "lon": 4.26583
+          }
+        },
+        {
+          "facility": "IES La Ribera",
+          "city": "Palma",
+          "state": "Balearic Islands",
+          "zip": "07610",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "IES Guillem Cifre de Colonya",
+          "city": "Pollença",
+          "state": "Balearic Islands",
+          "zip": "07460",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.87678,
+            "lon": 3.01626
+          }
+        },
+        {
+          "facility": "IES Porreres",
+          "city": "Porreres",
+          "state": "Balearic Islands",
+          "zip": "07260",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.51434,
+            "lon": 3.02197
+          }
+        },
+        {
+          "facility": "IES Can Peu Blanc",
+          "city": "sa Pobla",
+          "state": "Balearic Islands",
+          "zip": "07420",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.7692,
+            "lon": 3.02394
+          }
+        },
+        {
+          "facility": "IES Santa Margalida",
+          "city": "Santa Margalida",
+          "state": "Balearic Islands",
+          "zip": "07450",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.70143,
+            "lon": 3.10215
+          }
+        },
+        {
+          "facility": "IES Santanyi",
+          "city": "Santanyí",
+          "state": "Balearic Islands",
+          "zip": "07469",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.35461,
+            "lon": 3.12907
+          }
+        },
+        {
+          "facility": "IES Sineu",
+          "city": "Sineu",
+          "state": "Balearic Islands",
+          "zip": "07510",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.64254,
+            "lon": 3.01034
+          }
+        },
+        {
+          "facility": "IES Guillem Colom Casasnoves",
+          "city": "Soller",
+          "state": "Balearic Islands",
+          "zip": "07470",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.76623,
+            "lon": 2.71521
+          }
+        },
+        {
+          "facility": "IES Puig de Sa Font",
+          "city": "Son Servera",
+          "state": "Balearic Islands",
+          "zip": "07550",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.62073,
+            "lon": 3.36008
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29940292",
+          "type": "DERIVED",
+          "citation": "Leiva A, Estela A, Bennasar-Veny M, Aguilo A, Llobera J, Yanez AM. Effectiveness of a complex intervention on smoking in adolescents: A cluster-randomized controlled trial. Prev Med. 2018 Sep;114:88-94. doi: 10.1016/j.ypmed.2018.06.009. Epub 2018 Jun 22."
+        },
+        {
+          "pmid": "24739452",
+          "type": "DERIVED",
+          "citation": "Leiva A, Estela A, Torrent M, Calafat A, Bennasar M, Yanez A. Effectiveness of a complex intervention in reducing the prevalence of smoking among adolescents: study design of a cluster-randomized controlled trial. BMC Public Health. 2014 Apr 16;14:373. doi: 10.1186/1471-2458-14-373."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,137 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05891431",
+      "nct_id": "NCT05891431",
+      "title": "Engagement and Acceptability of the Untire mHealth App",
+      "official_title": "Acceptability and Preliminary Effectiveness of a Mobile Health Intervention (Untire App) for Adult Cancer Patients and Survivors With Cancer Related Fatigue: A Pilot Clinical Study",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NA",
+        "intervention_model": "SINGLE_GROUP",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 34,
+      "start_date": "2023-12-15",
+      "completion_date": "2025-10-01",
+      "conditions": [
+        "Cancer-related Problem/Condition",
+        "Cancer-related Fatigue"
+      ],
+      "keywords": [
+        "Cancer",
+        "mHealth",
+        "Fatigue",
+        "app",
+        "self-management",
+        "engagement",
+        "Acceptability",
+        "Quality of life"
+      ],
+      "interventions": [
+        {
+          "name": "Untire mobile app",
+          "type": "DEVICE",
+          "description": "The Untire app is an mHealth intervention (digitally delivered using a smartphone app).\n\nUntire offers a comprehensive program to help you understand cancer fatigue and gives a physical activity program, stress reduction exercises and tips to manage your energy level."
+        }
+      ],
+      "lead_sponsor": "University of Bath",
+      "collaborators": [
+        "Tired of Cancer B.V."
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "brief_summary": "The aim of this study will be to assess the engagement and acceptability of the Untire mHealth intervention for adults with cancer related fatigue. Acceptability will be assessed after 2, 4, 6 and 12 weeks of app use. Participants (both those competed the study and those who stopped using the app) will be asked about their engagement with the app.\n\nA secondary aim of this study will be to provide preliminary efficacy outcomes of the Untire intervention in reducing fatigue and QoL in adults experiencing cancer related fatigue.",
+      "detailed_description": "Cancer-related fatigue (CRF) is one of the most severe and commonly reported side effects of cancer treatment. There is a growing body of evidence that mHealth interventions (digitally delivered using a smart phone app) are effective at reducing CRF. The Untire app is a mHealth app is a registered medical device (ICD10 code R53.83 Fatigue) introduced in 2018 to treat CRF. One limitation common to most digitally delivered interventions is high levels of study drop out and decreased app use over time.\n\nThe aim of this study will be to assess the engagement and acceptability of the Untire mHealth intervention for adults with cancer related fatigue.A secondary aim of this study will be to provide preliminary efficacy outcomes of the Untire intervention in reducing fatigue and QoL in adults experiencing cancer related fatigue. The hypotheses for these efficacy outcomes are:\n\nHypothesis 1: Participants using the Untire app intervention will show reduced levels fatigue (as measured by scores on the fatigue subscale of the FACT-F) after 12 weeks compared to baseline.\n\nHypothesis 2: Participants using the Untire app intervention will show improved QoL (as measured by scores on the FACT-F) after 12 weeks compared to baseline.\n\nDesign:\n\nA within groups study design will be used to evaluate the acceptability, engagement, and preliminary efficacy of the Untire mHealth intervention in adults with cancer related fatigue.\n\nParticipants:\n\nParticipants will be recruited through the following channels:\n\n* NHS Cancer Treatment centres within the South West of England.\n* Charities and third sector organisations: Youth Cancer Trust, Cancer Support UK, Macmillan, Shine.\n* Social media: support groups/ networks on Facebook and Instagram: Cancer Awareness for Teens and Twenties (CATTs).\n\nEngagement will be measured through retention and adherence rates over 12-week and in app use data; duration of app use and time spent on each activity within the app. Acceptability will be measured using t",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05891431",
+      "_matched_query": "\"Untire\"",
+      "_raw_json_path": "evidence/Germany/untire-r/candidates/clinicaltrials/raw/NCT05891431.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Untire® app, as evidenced by the repeated mention of the product name 'Untire' in the title, abstract, and full text. The study focuses on the engagement, acceptability, and preliminary efficacy of the Untire app for cancer-related fatigue, and Tired of Cancer B.V. is named as the developer.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 95,
+        "reason": "The study is described as a protocol with aims to assess engagement and acceptability, and to provide preliminary efficacy outcomes. However, it does not provide results yet, making it ineligible as a primary RCT or RWE study."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The study is described as a protocol with aims to assess engagement and acceptability, and to provide preliminary efficacy outcomes. However, it does not provide results yet, making it ineligible as a primary RCT or RWE study."
+    },
+    {
+      "study_id": "NCT05584540",
+      "nct_id": "NCT05584540",
+      "title": "UNTIRE: Cancer-related Fatigue With Digital Treatment",
+      "official_title": "The UNTIRE App Trial: The Feasibility of Using the Untire App for the Colorectal Cancer Patient to Manage Their Cancer Related Fatigue",
+      "status": "WITHDRAWN",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NA",
+        "intervention_model": "SINGLE_GROUP",
+        "primary_purpose": "SUPPORTIVE_CARE",
+        "masking": "NONE"
+      },
+      "enrollment": 0,
+      "start_date": "2025-01-30",
+      "completion_date": "2026-01-30",
+      "conditions": [
+        "Colorectal Cancer",
+        "Fatigue"
+      ],
+      "keywords": [
+        "Colorectal Cancer",
+        "Fatigue"
+      ],
+      "interventions": [
+        {
+          "name": "UNTIRE App",
+          "type": "BEHAVIORAL",
+          "description": "Digital therapeutic application"
+        }
+      ],
+      "lead_sponsor": "Dana-Farber Cancer Institute",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "This research is being done to find out if using a smartphone app as digital treatment to reduce Cancer Related Fatigue is feasible and easy to use.\n\nThis research study is evaluating a smartphone application named the \"Untire\" app. The Untire app was designed as a digital treatment plan for people experiencing Cancer Related Fatigue (CRF).",
+      "detailed_description": "This is a single arm, pilot study evaluating the feasibility, acceptability, and effectiveness of a self-managed digital therapeutic application, the Untire App, for the treatment of cancer-related fatigue in the Colorectal (CRC) cancer patient community.\n\nThe Untire app was developed by Psychology Oncologists and combines proven treatments for Cancer Related Fatigue like cognitive behavioral therapy, mindfulness exercises, physical activities, education, and positive tips. The Untire app helps a patient recognize and learn about daily behaviors, fatigue levels, and energy levels. The Untire app has been tested on all different cancer types globally and has been proven to decrease fatigue and improve overall quality of life but this is the first-time investigators are examining the strengths and weaknesses of using the Untire app as a digital treatment plan for Cancer Related Fatigue.\n\nThe research study procedures include screening for eligibility and study interventions including smartphone app use and evaluations with questionnaires and follow up visits.\n\nParticipants will be in this research study for up to 12 months.\n\nIt is expected that about 60 people will take part in this research study.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05584540",
+      "_matched_query": "\"Untire\"",
+      "_raw_json_path": "evidence/Germany/untire-r/candidates/clinicaltrials/raw/NCT05584540.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the 'Untire' app, which matches the product name and description provided. The app is described as a digital therapeutic application for managing cancer-related fatigue, aligning with the known purpose of the Untire® product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 95,
+        "reason": "The study is described as a protocol for an interventional trial that was withdrawn due to loss of funding, with no results reported. Protocols without results are classified as INELIGIBLE."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The study is described as a protocol for an interventional trial that was withdrawn due to loss of funding, with no results reported. Protocols without results are classified as INELIGIBLE."
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T09:09:09.887057Z",
+  "_source": "clinicaltrials"
+}

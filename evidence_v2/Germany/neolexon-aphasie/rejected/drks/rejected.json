@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00026233",
+      "drks_id": "DRKS00026233",
+      "title": "Investigation of language improvement in aphasia using the app “neolexon Aphasie” as a home exercise supplement",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00026233/details",
+      "_matched_query": "\"neolexon Aphasie\"",
+      "_raw_json_path": "evidence/Germany/neolexon-aphasie/candidates/drks/raw/DRKS00026233.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the use of the app 'neolexon Aphasie' as a home exercise supplement for individuals with aphasia, explicitly naming the product in both the title and the full text. The manufacturer, Limedix GmbH, is also identified as the developer.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The information provided indicates that this is a study protocol registered in a trial registry, with no results or specific design details such as randomization or observational methods described. Therefore, it is classified as INELIGIBLE."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The information provided indicates that this is a study protocol registered in a trial registry, with no results or specific design details such as randomization or observational methods described. Therefore, it is classified as INELIGIBLE."
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T07:51:07.196184Z",
+  "_source": "drks"
+}

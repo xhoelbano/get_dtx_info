@@ -1,0 +1,105 @@
+{
+  "studies": [
+    {
+      "study_id": "41986753",
+      "pmid": "41986753",
+      "title": "Global position statement supporting a World Health Assembly resolution on steatotic liver disease.",
+      "authors": "Lazarus Jeffrey V et al.",
+      "authors_list": [
+        "Lazarus Jeffrey V",
+        "Halpern Bruno",
+        "Schwarz Peter E H",
+        "Boudou Delfina",
+        "Van Spall Harriette G C"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jun",
+      "journal": "Nature reviews. Gastroenterology & hepatology",
+      "journal_abbrev": "Nat Rev Gastroenterol Hepatol",
+      "doi": "10.1038/s41575-026-01201-z",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986753/",
+      "pdf_available": false,
+      "_matched_query": "\"zanadio\"",
+      "_raw_xml_path": "evidence/Germany/zanadio/candidates/pubmed/raw/41986753.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study is a global position statement on steatotic liver disease and does not specifically mention the digital therapeutic product 'zanadio'. The mention of 'zanadio' in the conflict of interest statement is incidental and not related to the study's focus or intervention.",
+        "matched_elements": []
+      },
+      "_rejection_stage": "verification"
+    },
+    {
+      "study_id": "35956348",
+      "pmid": "35956348",
+      "title": "Introducing ",
+      "authors": "Forkmann Katarina et al.",
+      "authors_list": [
+        "Forkmann Katarina",
+        "Roth Lena",
+        "Mehl Nora"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Aug-01",
+      "journal": "Nutrients",
+      "journal_abbrev": "Nutrients",
+      "doi": "10.3390/nu14153172",
+      "abstract": "While the prevalence of overweight and obesity has been increasing annually, the accessibility of on-site treatment programs is not rising correspondingly. Digital, evidence-based obesity treatment programs could potentially alleviate this situation. The application zanadio has been developed to enable patients with obesity (BMI 30-45 kg/m2) to participate in a digital, multimodal weight reduction program based on current treatment guidelines. This article is divided into two parts: (I) it introduces zanadio, its aims and therapeutic concept, and (II) provides a first impression and demographic data on more than 11,000 patients from across the country who have used zanadio within the last 16 months, which demonstrates the demand for a digital obesity treatment. zanadio has the potential to partially close the current gap in obesity care. Future work should focus on identifying predictors of successful weight loss to further individualize digital obesity treatment, and an important next step would be to prevent obesity, i.e., to start the treatment at lower BMI levels, and to invent digital treatment programs for children and adolescents.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Body Mass Index",
+        "Child",
+        "Humans",
+        "Obesity",
+        "Overweight",
+        "Prevalence",
+        "Weight Loss",
+        "Weight Reduction Programs"
+      ],
+      "keywords": [
+        "digital disease management",
+        "digital health application",
+        "digital weight reduction program",
+        "digitalization",
+        "mHealth",
+        "multimodal obesity treatment",
+        "zanadio"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35956348/",
+      "pdf_available": false,
+      "_matched_query": "\"zanadio\"",
+      "_raw_xml_path": "evidence/Germany/zanadio/candidates/pubmed/raw/35956348.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'zanadio', as evidenced by the repeated mention of the product name in the title, abstract, and full text. The study introduces zanadio, its aims, therapeutic concept, and provides data on its use by patients.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "descriptive article",
+        "confidence": 95,
+        "reason": "The article introduces a digital obesity treatment program and provides demographic data on users, but it does not describe a primary RCT or RWE study. It lacks details on randomization or observational study design, focusing instead on program introduction and user demographics."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The article introduces a digital obesity treatment program and provides demographic data on users, but it does not describe a primary RCT or RWE study. It lacks details on randomization or observational study design, focusing instead on program introduction and user demographics."
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T09:18:02.380776Z",
+  "_source": "pubmed"
+}

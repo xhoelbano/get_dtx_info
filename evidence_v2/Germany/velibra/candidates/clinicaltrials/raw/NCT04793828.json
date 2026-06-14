@@ -1,0 +1,434 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04793828",
+      "orgStudyIdInfo": {
+        "id": "EA 1/322/19"
+      },
+      "organization": {
+        "fullName": "Charite University, Berlin, Germany",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Transdiagnostic, Self-guided Internet Intervention (\"Velibra\") for Waitlist Patients With Anxiety Disorders",
+      "officialTitle": "The Effect of a Transdiagnostic, Self-guided Internet Intervention (\"Velibra\") for Waitlist Patients With Anxiety Disorders"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-02-22",
+      "studyFirstSubmitQcDate": "2021-03-09",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Anna Wehrheim",
+        "investigatorTitle": "Psychologist",
+        "investigatorAffiliation": "Charite University, Berlin, Germany"
+      },
+      "leadSponsor": {
+        "name": "Charite University, Berlin, Germany",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The project's aim is to investigate the effect of a transdiagnostic, self-guided, internet-based cognitive behavioral therapy program in waitlist patients with anxiety disorders.",
+      "detailedDescription": "Patients who fulfill the inclusion criteria and are interested in psychotherapy are offered participation in the study to bridge the waiting time for face-to-face psychotherapy. After obtaining informed consent, a pre-treatment assessment is conducted. Then, participants are provided access to velibra, an internet-based cognitive behavioral therapy program which they can work through at their own pace. While velibra is a self-guided program, participants are supported by study personnel during four assessments at four time points: pre-treatment, mid-treatment (after the first three velibra modules), post-treatment and at the one-month follow-up. The investigators expect improvements on the primary as well as the secondary outcomes. Furthermore, the investigators are interested in studying the acceptability of velibra and whether positive changes already become observable after the first three modules, i.e., at the mid-treatment assessment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Panic Disorder With Agoraphobia",
+        "Panic Disorder Without Agoraphobia",
+        "Generalized Anxiety Disorder",
+        "Social Anxiety Disorder"
+      ],
+      "keywords": [
+        "cognitive behavioral therapy",
+        "internet intervention",
+        "administrative-supported",
+        "anxiety",
+        "panic disorder",
+        "social anxiety disorder",
+        "generalized anxiety disorder",
+        "computerized CBT",
+        "anxiety disorders",
+        "velibra",
+        "psychotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention (velibra)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm consisting of participants who receive velibra, an internet-based cognitive behavioral therapy program.",
+          "interventionNames": [
+            "Behavioral: Velibra"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Velibra",
+          "description": "Velibra is an internet-based cognitive behavioral therapy program developed by GAIA AG. It consists of six modules which are meant to be completed over a span of 6 weeks. The first module educates participants about anxiety and the treatment program. The second module focuses on cognitive techniques for dealing with anxiety. In the third module, relaxation techniques are practiced. The fourth module encourages the participant to practice non-anxious behaviors. In the fifth module, the central topic is the experience of social situations in non-anxious ways. The sixth and final module consists of a summary and recapitulation of the most important content.",
+          "armGroupLabels": [
+            "Intervention (velibra)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Panic and Agoraphobia Scale (PAS)",
+          "description": "The Panic and Agoraphobia Scale (PAS) is a self-report questionnaire used to measure the symptom severity of panic disorder with or without agoraphobia. It is given to study participants diagnosed with panic disorder with or without agoraphobia. Total score values range from 0 to 52, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Panic and Agoraphobia Scale (PAS)",
+          "description": "The Panic and Agoraphobia Scale (PAS) is a self-report questionnaire used to measure the symptom severity of panic disorder with or without agoraphobia. It is given to study participants diagnosed with panic disorder with or without agoraphobia. Total score values range from 0 to 52, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Panic and Agoraphobia Scale (PAS)",
+          "description": "The Panic and Agoraphobia Scale (PAS) is a self-report questionnaire used to measure the symptom severity of panic disorder with or without agoraphobia. It is given to study participants diagnosed with panic disorder with or without agoraphobia. Total score values range from 0 to 52, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Panic and Agoraphobia Scale (PAS)",
+          "description": "The Panic and Agoraphobia Scale (PAS) is a self-report questionnaire used to measure the symptom severity of panic disorder with or without agoraphobia. It is given to study participants diagnosed with panic disorder with or without agoraphobia. Total score values range from 0 to 52, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "Liebowitz Social Anxiety Scale (LSAS)",
+          "description": "The Liebowitz Social Anxiety Scale (LSAS) is a self-report questionnaire used to measure the symptom severity of social anxiety disorder. It is given to study participants diagnosed with social anxiety disorder. Total score values range from 0 to 72, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Liebowitz Social Anxiety Scale (LSAS)",
+          "description": "The Liebowitz Social Anxiety Scale (LSAS) is a self-report questionnaire used to measure the symptom severity of social anxiety disorder. It is given to study participants diagnosed with social anxiety disorder. Total score values range from 0 to 72, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Liebowitz Social Anxiety Scale (LSAS)",
+          "description": "The Liebowitz Social Anxiety Scale (LSAS) is a self-report questionnaire used to measure the symptom severity of social anxiety disorder. It is given to study participants diagnosed with social anxiety disorder. Total score values range from 0 to 72, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Liebowitz Social Anxiety Scale (LSAS)",
+          "description": "The Liebowitz Social Anxiety Scale (LSAS) is a self-report questionnaire used to measure the symptom severity of social anxiety disorder. It is given to study participants diagnosed with social anxiety disorder. Total score values range from 0 to 72, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "Penn State Worry Questionnaire (PSWQ)",
+          "description": "The Penn State Worry Questionnaire (PSWQ) is a self-report questionnaire used to measure the symptom severity of generalized anxiety disorder It is given to study participants diagnosed with generalized anxiety disorder. Total score values range from 16 to 80, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Penn State Worry Questionnaire (PSWQ)",
+          "description": "The Penn State Worry Questionnaire (PSWQ) is a self-report questionnaire used to measure the symptom severity of generalized anxiety disorder It is given to study participants diagnosed with generalized anxiety disorder. Total score values range from 16 to 80, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Penn State Worry Questionnaire (PSWQ)",
+          "description": "The Penn State Worry Questionnaire (PSWQ) is a self-report questionnaire used to measure the symptom severity of generalized anxiety disorder It is given to study participants diagnosed with generalized anxiety disorder. Total score values range from 16 to 80, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Penn State Worry Questionnaire (PSWQ)",
+          "description": "The Penn State Worry Questionnaire (PSWQ) is a self-report questionnaire used to measure the symptom severity of generalized anxiety disorder It is given to study participants diagnosed with generalized anxiety disorder. Total score values range from 16 to 80, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Beck Anxiety Inventory (BAI)",
+          "description": "The Beck Anxiety Inventory (BAI) is a self-report questionnaire used to measure the symptom severity of anxiety in general. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Beck Anxiety Inventory (BAI)",
+          "description": "The Beck Anxiety Inventory (BAI) is a self-report questionnaire used to measure the symptom severity of anxiety in general. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Beck Anxiety Inventory (BAI)",
+          "description": "The Beck Anxiety Inventory (BAI) is a self-report questionnaire used to measure the symptom severity of anxiety in general. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Beck Anxiety Inventory (BAI)",
+          "description": "The Beck Anxiety Inventory (BAI) is a self-report questionnaire used to measure the symptom severity of anxiety in general. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "Beck Depression Inventory-II (BDI-II)",
+          "description": "The Beck Depression Inventory-II (BDI-II) is a self-report questionnaire used to measure the symptom severity of depression. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Beck Depression Inventory-II (BDI-II)",
+          "description": "The Beck Depression Inventory-II (BDI-II) is a self-report questionnaire used to measure the symptom severity of depression. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Beck Depression Inventory-II (BDI-II)",
+          "description": "The Beck Depression Inventory-II (BDI-II) is a self-report questionnaire used to measure the symptom severity of depression. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Beck Depression Inventory-II (BDI-II)",
+          "description": "The Beck Depression Inventory-II (BDI-II) is a self-report questionnaire used to measure the symptom severity of depression. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 63, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "Anxiety Sensitivity Index (ASI)",
+          "description": "The Anxiety Sensitivity Index (ASI) is a self-report questionnaire used to measure anxiety sensitivity. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 64, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Anxiety Sensitivity Index (ASI)",
+          "description": "The Anxiety Sensitivity Index (ASI) is a self-report questionnaire used to measure anxiety sensitivity. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 64, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Anxiety Sensitivity Index (ASI)",
+          "description": "The Anxiety Sensitivity Index (ASI) is a self-report questionnaire used to measure anxiety sensitivity. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 64, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Anxiety Sensitivity Index (ASI)",
+          "description": "The Anxiety Sensitivity Index (ASI) is a self-report questionnaire used to measure anxiety sensitivity. It is given to all study participants regardless of diagnosis. Total score values range from 0 to 64, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "ICD-10-Symptom-Rating (ISR)",
+          "description": "The ICD-10-Symptom-Rating (ISR) is a self-report questionnaire used to measure mental distress related to syndromes defined in the ICD-10. It is given to all study participants regardless of diagnosis. Total score values (based on subscale means) range from 0 to 4, with higher scores indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "ICD-10-Symptom-Rating (ISR)",
+          "description": "The ICD-10-Symptom-Rating (ISR) is a self-report questionnaire used to measure mental distress related to syndromes defined in the ICD-10. It is given to all study participants regardless of diagnosis. Total score values (based on subscale means) range from 0 to 4, with higher scores indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "ICD-10-Symptom-Rating (ISR)",
+          "description": "The ICD-10-Symptom-Rating (ISR) is a self-report questionnaire used to measure mental distress related to syndromes defined in the ICD-10. It is given to all study participants regardless of diagnosis. Total score values (based on subscale means) range from 0 to 4, with higher scores indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "ICD-10-Symptom-Rating (ISR)",
+          "description": "The ICD-10-Symptom-Rating (ISR) is a self-report questionnaire used to measure mental distress related to syndromes defined in the ICD-10. It is given to all study participants regardless of diagnosis. Total score values (based on subscale means) range from 0 to 4, with higher scores indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "Short-Form Health Survey (SF-12)",
+          "description": "The Short-Form Health Survey (SF-12) is a self-report questionnaire used to measure health-related quality of life. It is given to all study participants regardless of diagnosis. Values of the summary scores range from 0 to 100, with higher scores indicating a better outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Short-Form Health Survey (SF-12)",
+          "description": "The Short-Form Health Survey (SF-12) is a self-report questionnaire used to measure health-related quality of life. It is given to all study participants regardless of diagnosis. Values of the summary scores range from 0 to 100, with higher scores indicating a better outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Short-Form Health Survey (SF-12)",
+          "description": "The Short-Form Health Survey (SF-12) is a self-report questionnaire used to measure health-related quality of life. It is given to all study participants regardless of diagnosis. Values of the summary scores range from 0 to 100, with higher scores indicating a better outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Short-Form Health Survey (SF-12)",
+          "description": "The Short-Form Health Survey (SF-12) is a self-report questionnaire used to measure health-related quality of life. It is given to all study participants regardless of diagnosis. Values of the summary scores range from 0 to 100, with higher scores indicating a better outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "General Self--Efficacy Scale (GES)",
+          "description": "The General Self--Efficacy Scale (GES) is a self-report questionnaire used to measure self-efficacy. It is given to all study participants regardless of diagnosis. Total score values range from 10 to 40, with higher scores indicating a better outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "General Self--Efficacy Scale (GES)",
+          "description": "The General Self--Efficacy Scale (GES) is a self-report questionnaire used to measure self-efficacy. It is given to all study participants regardless of diagnosis. Total score values range from 10 to 40, with higher scores indicating a better outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "General Self--Efficacy Scale (GES)",
+          "description": "The General Self--Efficacy Scale (GES) is a self-report questionnaire used to measure self-efficacy. It is given to all study participants regardless of diagnosis. Total score values range from 10 to 40, with higher scores indicating a better outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "General Self--Efficacy Scale (GES)",
+          "description": "The General Self--Efficacy Scale (GES) is a self-report questionnaire used to measure self-efficacy. It is given to all study participants regardless of diagnosis. Total score values range from 10 to 40, with higher scores indicating a better outcome.",
+          "timeFrame": "1-month follow-up"
+        },
+        {
+          "measure": "Internal, Powerful Others, and Chance Questionnaire (IPC)",
+          "description": "The Internal, Powerful Others, and Chance Questionnaire (IPC) is a self-report questionnaire used to measure locus of control. It is given to all study participants regardless of diagnosis. Score values of each of the three subscales range from 8 to 48, with higher scores on the subscale of internal orientation indicating a better outcome and higher scores on the subscales of powerful others orientation and chance orientation indicating a worse outcome.",
+          "timeFrame": "Baseline (pre-treatment)"
+        },
+        {
+          "measure": "Internal, Powerful Others, and Chance Questionnaire (IPC)",
+          "description": "The Internal, Powerful Others, and Chance Questionnaire (IPC) is a self-report questionnaire used to measure locus of control. It is given to all study participants regardless of diagnosis. Score values of each of the three subscales range from 8 to 48, with higher scores on the subscale of internal orientation indicating a better outcome and higher scores on the subscales of powerful others orientation and chance orientation indicating a worse outcome.",
+          "timeFrame": "During the intervention (mid-treatment)"
+        },
+        {
+          "measure": "Internal, Powerful Others, and Chance Questionnaire (IPC)",
+          "description": "The Internal, Powerful Others, and Chance Questionnaire (IPC) is a self-report questionnaire used to measure locus of control. It is given to all study participants regardless of diagnosis. Score values of each of the three subscales range from 8 to 48, with higher scores on the subscale of internal orientation indicating a better outcome and higher scores on the subscales of powerful others orientation and chance orientation indicating a worse outcome.",
+          "timeFrame": "Immediately after / as soon as possible after the intervention (post-treatment)"
+        },
+        {
+          "measure": "Internal, Powerful Others, and Chance Questionnaire (IPC)",
+          "description": "The Internal, Powerful Others, and Chance Questionnaire (IPC) is a self-report questionnaire used to measure locus of control. It is given to all study participants regardless of diagnosis. Score values of each of the three subscales range from 8 to 48, with higher scores on the subscale of internal orientation indicating a better outcome and higher scores on the subscales of powerful others orientation and chance orientation indicating a worse outcome.",
+          "timeFrame": "1-month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of panic disorder with or without agoraphobia, social anxiety disorder, or generalized anxiety disorder\n* Knowledge of German that is sufficient for engaging with the treatment and responding to the questionnaires\n* Written informed consent\n* Internet access\n\nExclusion Criteria:\n\n* Diagnoses of severe mental comorbidities (e.g., schizophrenia, severe major depression, borderline personality disorder)\n* Acute suicidality\n* Started or changed anxiolytic pharmacotherapy recently (currently or in the past four weeks)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anna Wehrheim, M.Sc.-Psych.",
+          "role": "CONTACT",
+          "phone": "+49 30 450 517 017",
+          "email": "anna.wehrheim@charite.de"
+        },
+        {
+          "name": "Lena Pyrkosch, Dipl.-Psych.",
+          "role": "CONTACT",
+          "phone": "+49 30 450 517 214",
+          "email": "lena.pyrkosch@charite.de"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Lena Pyrkosch, Dipl.-Psych.",
+          "affiliation": "Department of Psychiatry and Psychotherapy, Charité Campus Mitte - Universitätsmedizin Berlin",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Anna Wehrheim, M.Sc.-Psych.",
+          "affiliation": "Department of Psychiatry and Psychotherapy, Charité Campus Mitte - Universitätsmedizin Berlin",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Psychiatry and Psychotherapy, Charité Campus Mitte - Universitätsmedizin Berlin",
+          "status": "RECRUITING",
+          "city": "Berlin",
+          "zip": "10117",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Anna Wehrheim, M.Sc.-Psych.",
+              "role": "CONTACT",
+              "email": "anna.wehrheim@charite.de"
+            },
+            {
+              "name": "Lena Pyrkosch, Dipl.-Psych.",
+              "role": "CONTACT",
+              "phone": "+49 30 450 517 214",
+              "email": "lena.pyrkosch@charite.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000098647",
+          "term": "Generalized Anxiety Disorder"
+        },
+        {
+          "id": "D000072861",
+          "term": "Phobia, Social"
+        },
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        },
+        {
+          "id": "D016584",
+          "term": "Panic Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D010698",
+          "term": "Phobic Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,1847 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02460900",
+      "orgStudyIdInfo": {
+        "id": "HP-00062925"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01HL136253",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01HL136253"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Maryland, Baltimore",
+        "class": "OTHER"
+      },
+      "briefTitle": "Optimizing Smoking Cessation for People With HIV/AIDS Who Smoke",
+      "officialTitle": "Optimizing Smoking Cessation for People With HIV/AIDS Who Smoke"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-05-29",
+      "studyFirstSubmitQcDate": "2015-06-02",
+      "studyFirstPostDateStruct": {
+        "date": "2015-06-03",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-09-02",
+      "resultsFirstSubmitQcDate": "2023-03-04",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-03-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Deanna Kelly",
+        "investigatorTitle": "Professor of Psychiatry",
+        "investigatorAffiliation": "University of Maryland, Baltimore"
+      },
+      "leadSponsor": {
+        "name": "University of Maryland, Baltimore",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The single greatest health behavior change that could improve cardiovascular morbidity and associated mortality is to assist people living with HIV/AIDS who smoke to quit. The investigators will use a factorial design to evaluate the most promising behavioral and pharmacologic treatments aimed at achieving maximal efficacy for smoking cessation among people living with HIV/AIDS who smoke. Results of this study will provide crucial, real world evidence of the best way for healthcare providers to help smokers living with HIV/AIDS quit smoking.",
+      "detailedDescription": "The study used a factorial design to randomize participants into 4 conditions: (1) Varenicline (12 weeks) + Positively Smoke Free (PSF) (8 weeks); (2) Varenicline (12 weeks) + Standard of Care (brief advice to quit); (3) Placebo (12 weeks) + Positively Smoke Free (8 weeks); and (4) Placebo (12 weeks) + Standard of Care. The primary outcome was the 7-day point prevalence abstinence (PPA) (\\<10mm) at 36 weeks.\n\nThe specific aims of our proposal are:\n\nPrimary Aim 1: Compare varenicline to placebo on rates of 7-day point prevalence abstinence (PPA) at 36 weeks in smokers with HIV/AIDS. We hypothesize that rates of smoking abstinence at week 36 will be higher in those treated with varenicline compared to placebo.\n\nPrimary Aim 2: Compare Positively Smoke Free to low intensity, brief counseling on rates of 7-day PPA at 36 weeks in smokers with HIV/AIDS. We hypothesize that rates of smoking abstinence at week 36 will be higher in those treated with Positively Smoke Free compared to brief counseling.\n\nPrimary Aim 3: Compare Positively Smoke Free + varenicline to the other two study conditions outlined above on rates of 7-day PPA in smokers with HIV/AIDS at 36 weeks. We hypothesize the effect of PSF with varenicline is greater than the effect of PSF or varenicline alone.\n\nExporatory Aim: Explore the effect of successful cessation/smoking abstinence on levels of cardiac specific biomarkers, nicotine biomarkers, generalized markers of inflammation, lipids, coagulation and monocyte/macrophage activation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking",
+        "HIV"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 184,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Varenicline and Standard of Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive varenicline and standard of care",
+          "interventionNames": [
+            "Drug: Varenicline",
+            "Behavioral: Standard of Care"
+          ]
+        },
+        {
+          "label": "Placebo and Standard of Care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive placebo and standard of care",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Behavioral: Standard of Care"
+          ]
+        },
+        {
+          "label": "Positively Smoke Free and Placebo",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Placebo",
+          "interventionNames": [
+            "Behavioral: Positively Smoke Free",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Positively Smoke Free and Varenicline",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Varenicline",
+          "interventionNames": [
+            "Drug: Varenicline",
+            "Behavioral: Positively Smoke Free"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Varenicline",
+          "armGroupLabels": [
+            "Positively Smoke Free and Varenicline",
+            "Varenicline and Standard of Care"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Positively Smoke Free",
+          "armGroupLabels": [
+            "Positively Smoke Free and Placebo",
+            "Positively Smoke Free and Varenicline"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Placebo and Standard of Care",
+            "Positively Smoke Free and Placebo"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard of Care",
+          "armGroupLabels": [
+            "Placebo and Standard of Care",
+            "Varenicline and Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With 7-day Point Prevalence Abstinence at 36 Weeks",
+          "description": "7-day point-prevalence abstinence based onno self-reported tobacco use (not even a puff) during the 7 days preceding the assessment and a CO ≤10ppm as measured by Covita micro smokrlyzer at week 36.",
+          "timeFrame": "36 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Biomarker Evaluation",
+          "description": "Effect of smoking abstinence on levels of cardiac specific biomarkers",
+          "timeFrame": "36 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Study Inclusion Criteria:\n\n1. Confirmed chart diagnosis of a HIV and receiving HIV treatment at the participating HIV clinic.\n2. Age 18 years or older.\n3. Currently self-report smoking 10 cigarettes per day\n4. Motivation to quit within the next 6 months (score 5-8 on the Abrams and Briener Readiness to Quit Ladder);\n5. Does not meet criteria for current Diagnostic Statistical Manual (DSM) 5 moderate or severe alcohol use disorder or moderate or severe substance use disorder as established by the Mini Neuropsychiatric Interview (MINI) drug and alcohol sections (in the last 3 months)\n6. Able to read and speak English\n7. Willingness and ability to provide informed consent to participate.\n\nStudy Exclusion Criteria:\n\nThe exclusion criteria are designed to maximize safety by minimizing drug interactions or worsening pre-existing comorbid psychiatric or medical conditions:\n\n1. Current suicidal thoughts or ideation (past week); recent suicidal thoughts or ideation (past 6 months) or recent suicide attempt (past 6 months) as assessed by the Columbia-Suicide Severity Rating Scale (C-SSRS).\n2. Previous allergic reaction or hypersensitivity to Varenicline (by participant report ever in lifetime)\n3. Pregnant, nursing, or becoming pregnant during the study (pregnancy test).\n4. Current use of any medication that would interfere with the protocol in the opinion of Medically Accountable Physician including use of bupropion targeting nicotine dependence\n5. Moderate to severe renal impairment (\\< 30 mL/min)--As determined by a physician assessment, chart review or thru blood work\n6. Unstable cardiovascular disease (myocardial infarction within past year, uncontrolled arrhythmia, uncontrolled angina, uncontrolled congestive heart failure, electrocardiogram abnormality with QTC \\> 500 msec, cerebrovascular event within past year). (As determined by a physician assessment, chart review and/or EKG)\n7. Meets criteria for dementia by scoring below 10 on the Hopkins HIV Dementia Scale. This criterion is included to ensure the sample consists of participants who are cognitively able to engage in the study procedures\n8. Scores \\<5 ppm of expired carbon monoxide (CO) on the Smokelyzer\n9. The study physician believes that the individual is not medially stable enough to participate in the study. This exclusion will be based on a review of the individual's past medical history and current medical status.\n10. Recent use of Varenicline (by participant report in the past 3 months)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Seth Himelhoch, MD, MPH",
+          "affiliation": "University of Maryland, Baltimore",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Deanna Kelly, PharmD",
+          "affiliation": "University of Maryland, Baltimore",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Maryland Medical Center, Midtown Campus",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41369963",
+          "type": "DERIVED",
+          "citation": "Omanya AA, Shuter J, Koech E, Ojoo S, Potts W, Li L, Kahler CW, Himelhoch SS. Mediation Effects of Biobehavioral Factors in a Trial of Pharmacotherapy and Intensive Cessation Counseling for People with HIV Who Smoke Cigarettes in Nairobi, Kenya. AIDS Behav. 2026 May;30(5):1498-1505. doi: 10.1007/s10461-025-04968-5. Epub 2025 Dec 10."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Varenicline and Standard of Care",
+          "description": "Participants will receive varenicline and standard of care\n\nVarenicline\n\nStandard of Care"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo and Standard of Care",
+          "description": "Participants will receive placebo and standard of care\n\nPlacebo\n\nStandard of Care"
+        },
+        {
+          "id": "FG002",
+          "title": "Positively Smoke Free and Placebo",
+          "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Placebo\n\nPositively Smoke Free\n\nPlacebo"
+        },
+        {
+          "id": "FG003",
+          "title": "Positively Smoke Free and Varenicline",
+          "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Varenicline\n\nVarenicline\n\nPositively Smoke Free"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "46"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "47"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "42"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "49"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "36"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "37"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "28"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "30"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "19"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Varenicline and Standard of Care",
+          "description": "Participants will receive varenicline and standard of care\n\nVarenicline\n\nStandard of Care"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo and Standard of Care",
+          "description": "Participants will receive placebo and standard of care\n\nPlacebo\n\nStandard of Care"
+        },
+        {
+          "id": "BG002",
+          "title": "Positively Smoke Free and Placebo",
+          "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Placebo\n\nPositively Smoke Free\n\nPlacebo"
+        },
+        {
+          "id": "BG003",
+          "title": "Positively Smoke Free and Varenicline",
+          "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Varenicline\n\nVarenicline\n\nPositively Smoke Free"
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "46"
+            },
+            {
+              "groupId": "BG001",
+              "value": "47"
+            },
+            {
+              "groupId": "BG002",
+              "value": "42"
+            },
+            {
+              "groupId": "BG003",
+              "value": "49"
+            },
+            {
+              "groupId": "BG004",
+              "value": "184"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51.5",
+                      "spread": "10.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52.0",
+                      "spread": "8.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "55.3",
+                      "spread": "8.1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "52.6",
+                      "spread": "10.3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "52.8",
+                      "spread": "9.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex/Gender, Customized",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Male",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "115"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Female",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "66"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Transgender",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "165"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "184"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Less than 12 years of education",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "59"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Employed",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Taking antiretroviral medication",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "177"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cigarettes smoked per day",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "cigarettes per day",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11.7",
+                      "spread": "6.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11.0",
+                      "spread": "5.3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11.6",
+                      "spread": "7.1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "10.8",
+                      "spread": "5.7"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "11.3",
+                      "spread": "6.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Smokes mentholated cigarettes",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "178"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fagerstrom Test For Nicotine Dependence (FTND)",
+          "description": "\"The Fagerstrom Test for Nicotine Dependence contains six items that evaluate the quantity of cigarette consumption, the compulsion to use, and dependence. In scoring the Fagerstrom Test for Nicotine Dependence, yes/no items are scored from 0 to 1 and multiple-choice items are scored from 0 to 3. The items are summed to yield a total score of 0-10. The higher the total Fagerström score, the more intense is the patient's physical dependence on nicotine.\"\n\nhttps://cde.drugabuse.gov/instrument/d7c0b0f5-b865-e4de-e040-bb89ad43202b",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4.9",
+                      "spread": "1.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4.2",
+                      "spread": "2.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4.4",
+                      "spread": "2.1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4.4",
+                      "spread": "1.9"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "4.5",
+                      "spread": "1.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Use alcohol in last 30 days",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "96"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Use marijuana in last 30 days",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With 7-day Point Prevalence Abstinence at 36 Weeks",
+          "description": "7-day point-prevalence abstinence based onno self-reported tobacco use (not even a puff) during the 7 days preceding the assessment and a CO ≤10ppm as measured by Covita micro smokrlyzer at week 36.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "36 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Varenicline and Standard of Care",
+              "description": "Participants will receive varenicline and standard of care\n\nVarenicline\n\nStandard of Care"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo and Standard of Care",
+              "description": "Participants will receive placebo and standard of care\n\nPlacebo\n\nStandard of Care"
+            },
+            {
+              "id": "OG002",
+              "title": "Positively Smoke Free and Placebo",
+              "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Placebo\n\nPositively Smoke Free\n\nPlacebo"
+            },
+            {
+              "id": "OG003",
+              "title": "Positively Smoke Free and Varenicline",
+              "description": "Participant will receive Positively Smoke Free (a tailored behavioral intervention) and Varenicline\n\nVarenicline\n\nPositively Smoke Free"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "46"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "47"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "42"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "49"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Biomarker Evaluation",
+          "description": "Effect of smoking abstinence on levels of cardiac specific biomarkers",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2025-03",
+          "timeFrame": "36 weeks",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "12 weeks--This is the timeframe for the medication related non-serious adverse events as the medication part of the trial was discontinued after 12 weeks. 36 weeks--This is the timeframe for all cause mortality and serious adverse events",
+      "description": "All-Cause Mortality: All anticipated and unanticipated deaths due to any cause Serious Adverse Events: All anticipated and unanticipated serious adverse events Other (Not Including Serious) Adverse Events: Anticipated and unanticipated events that exceed a frequency threshold (maximum threshold, 5%) within any arm of the clinical study, grouped by organ system, with number and frequency of such events in each arm/group of the clinical study.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Varenicline + Standard of Care",
+          "description": "Participants will receive varenicline",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 46,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 46,
+          "otherNumAffected": 33,
+          "otherNumAtRisk": 46
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo + Standard of Care",
+          "description": "Participants will receive placebo and standard of care",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 47,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 47,
+          "otherNumAffected": 30,
+          "otherNumAtRisk": 47
+        },
+        {
+          "id": "EG002",
+          "title": "Positively Smoke Free + Placebo",
+          "description": "Participants will receive positively smoke free and placebo",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 42,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 42,
+          "otherNumAffected": 25,
+          "otherNumAtRisk": 42
+        },
+        {
+          "id": "EG003",
+          "title": "Positively Smoke Free + Varenicline",
+          "description": "Participants will receive positively smoke free and varenicline",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 49,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 49,
+          "otherNumAffected": 32,
+          "otherNumAtRisk": 49
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Increased appetite",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 13,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 8,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 6,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Weight increase",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "GERD",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Dyspespsia",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Abnormal dreams",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "stiffness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Restlessness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Dry mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Rhinorrhea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 8,
+              "numAtRisk": 49
+            }
+          ]
+        },
+        {
+          "term": "Malaise",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 46
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 47
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 49
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "From March 16, 2020-August 10, 2020 study recruitment was halted due to COVID-19."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "National Heart, Lung and Blood Institute--Josh Fessel",
+        "organization": "NIH",
+        "email": "josh.fessel@nih.gov",
+        "phone": "3018275514"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2016-06-01",
+          "uploadDate": "2022-10-13T09:57",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 151960
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068580",
+          "term": "Varenicline"
+        },
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011810",
+          "term": "Quinoxalines"
+        },
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

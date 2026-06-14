@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00030672",
+      "drks_id": "DRKS00030672",
+      "title": "A RANDOMIZED, UNCONCLUSED, CONTROLLED CLINICAL STUDY TO EVALUATE THE EFFECTIVENESS AND SAFETY OF THE Ecovery APP IN PATIENTS WITH SUBACUTE TO CHRONIC UNSPECIFIC PAIN OF THE LOWER BACK",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030672/details",
+      "_matched_query": "\"eCovery\"",
+      "_raw_json_path": "evidence/Germany/ecovery-therapie-bei-schmerzen-im-unteren-rucken/candidates/drks/raw/DRKS00030672.json"
+    },
+    {
+      "study_id": "DRKS00038178",
+      "drks_id": "DRKS00038178",
+      "title": "A prospective, randomized, group-controlled, unblinded, multicenter pilot study to investigate the eCovery therapy app in patients with non-specific upper back pain",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00038178/details",
+      "_matched_query": "\"eCovery\"",
+      "_raw_json_path": "evidence/Germany/ecovery-therapie-bei-schmerzen-im-unteren-rucken/candidates/drks/raw/DRKS00038178.json"
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"eCovery\"",
+    "\"eCovery\" AND \"Therapie bei Schmerzen im unteren Rücken\""
+  ],
+  "dtx_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T03:52:01.134011Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

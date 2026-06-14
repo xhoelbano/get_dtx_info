@@ -1,0 +1,67 @@
+{
+  "studies": [
+    {
+      "study_id": "26822579",
+      "pmid": "26822579",
+      "title": "Vorvida: study protocol of a randomized controlled trial testing the effectiveness of Internet-based self-help program for the reduction of alcohol consumption for adults.",
+      "authors": "Zill Jördis M et al.",
+      "authors_list": [
+        "Zill Jördis M",
+        "Meyer Björn",
+        "Topp Janine",
+        "Daubmann Anne",
+        "Härter Martin"
+      ],
+      "publication_year": "2016",
+      "publication_date": "2016-Jan-29",
+      "journal": "BMC psychiatry",
+      "journal_abbrev": "BMC Psychiatry",
+      "doi": "10.1186/s12888-016-0725-9",
+      "abstract": "BACKGROUND: Problem drinking is an important global health concern, causing premature mortality and morbidity. Only few problem drinkers seek professional care, unfortunately, because of multiple barriers such as insufficient change motivation, fear of stigmatization or limited access to care. The aim of this study will be to examine the effectiveness of a novel Internet intervention termed Vorvida, which was developed based on established cognitive-behavioral therapy techniques with the aim of reducing problematic alcohol consumption. METHODS/DESIGN: A two-arm randomized control trial (RCT) will be conducted to determine whether using Vorvida results in greater reductions in self-reported problem drinking, compared with a care-as-usual/waitlist (CAU/WL) control group. There will be a baseline assessment (t0) and follow-up assessments after three (t1) and six months (t2). Inclusion criteria will be: minimum age of 18, an average consumption of alcohol >24/12 g (men/women) per day and an AUDIT-C score ≥ 3, as well as informed consent. Participants will be randomly assigned to the intervention or control condition at a ratio of 1:1. Recruitment, informed consent, randomization and assessment will be Internet-based. Primary outcome will be change in self-reported alcohol consumption between t0 and t1. Secondary outcomes will be self-reported drinking behavior, expectancies of effects of alcohol use, abstinence and relapse tendencies, self-efficacy and motivation to change. DISCUSSION: This study is expected to establish the extent to which a novel Internet intervention could contribute to reducing problem drinking among adults with mild to severe alcohol use disorders who may or may not seek or access a traditional treatments. Potentially, this program could be an effective and efficient tool to help reduce problem drinking on a population level because a great number of users can be reached simultaneously without adding burden to treating clinicians. TRIAL REGISTRATION: German Clinical Trial Registration (DRKS): DRKS00006104. Registered 14 April 2014.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Alcohol Drinking",
+        "Alcoholism",
+        "Clinical Protocols",
+        "Cognitive Behavioral Therapy",
+        "Female",
+        "Health Behavior",
+        "Humans"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26822579/",
+      "pmc_id": "PMC13231115",
+      "pdf_available": true,
+      "_matched_query": "\"vorvida\"",
+      "_raw_xml_path": "evidence/Germany/vorvida/candidates/pubmed/raw/26822579.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'vorvida', as evidenced by the product name appearing in the title and abstract. Additionally, GAIA AG, the manufacturer of vorvida, is mentioned as an affiliation of one of the authors.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 80,
+        "reason": "Title indicates a non-RCT/RWE design ('study protocol')."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "Title indicates a non-RCT/RWE design ('study protocol')."
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T09:16:49.677288Z",
+  "_source": "pubmed"
+}

@@ -1,0 +1,35 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00026256",
+      "drks_id": "DRKS00026256",
+      "title": "Evaluation of digital tobacco cessation using the example of the online program and app \"NichtraucherHelden\"",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00026256/details",
+      "_matched_query": "\"NichtraucherHelden-App\"",
+      "_raw_json_path": "evidence/Germany/nichtraucherhelden-app/candidates/drks/raw/DRKS00026256.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the 'NichtraucherHelden' app, which matches the product name and description provided. The trial registration and full text explicitly mention the app 'NichtraucherHelden' as the subject of the study.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational cohort",
+        "confidence": 85,
+        "reason": "The study evaluates the effectiveness of a digital tobacco cessation program using data from all smokers who used the program between specific dates, indicating an observational design. There is no mention of randomization or control groups, which suggests it is not an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T07:54:34.889736Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

@@ -1,0 +1,83 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00031668",
+      "drks_id": "DRKS00031668",
+      "title": "Investigating the effectiveness of an online-based program for the treatment of anxiety disorders (Novego) - A randomized controlled trial",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00031668/details",
+      "_matched_query": "\"Novego\"",
+      "_raw_json_path": "evidence/Germany/novego-angste-uberwinden/candidates/drks/raw/DRKS00031668.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the online program 'Novego – Ängste überwinden', which matches the product name and description provided. The trial registration and full text explicitly mention this product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial, with participants randomly allocated to an intervention group and a waitlist control group, which is a defining feature of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00025808",
+      "drks_id": "DRKS00025808",
+      "title": "Effectiveness of an online-intervention for patients with anxiety disorder after an inpatient/day clinic stay: a randomized controlled trial",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00025808/details",
+      "_matched_query": "\"Novego\"",
+      "_raw_json_path": "evidence/Germany/novego-angste-uberwinden/candidates/drks/raw/DRKS00025808.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the efficacy of the online intervention 'Novego' for patients with anxiety disorder, as mentioned multiple times in the full text. The intervention is clearly identified as 'Novego', matching the product name.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial, with participants randomly allocated to an intervention group and a control group, which is the defining feature of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00007888",
+      "drks_id": "DRKS00007888",
+      "title": "Effects of an online intervention for depression on mood and positive symptoms in psychosis",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00007888/details",
+      "_matched_query": "\"Novego\"",
+      "_raw_json_path": "evidence/Germany/novego-angste-uberwinden/candidates/drks/raw/DRKS00007888.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions 'novego®' as the intervention used in the experimental condition, which matches the product name variation 'Novego'. The description of the intervention aligns with the characteristics of the Novego: Ängste überwinden program.",
+        "matched_elements": [
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study randomly allocated patients to either an experimental condition (online intervention) or a waitlist control condition, which is characteristic of a randomized controlled trial."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T07:56:16.025861Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

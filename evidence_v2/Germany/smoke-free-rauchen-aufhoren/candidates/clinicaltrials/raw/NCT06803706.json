@@ -1,0 +1,353 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06803706",
+      "orgStudyIdInfo": {
+        "id": "1155/2024"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1155/2024",
+          "type": "OTHER",
+          "domain": "Ethikkommission der Medizinischen Universität Graz"
+        }
+      ],
+      "organization": {
+        "fullName": "Sigmund Freud PrivatUniversitat",
+        "class": "OTHER"
+      },
+      "briefTitle": "Metabolome and Gut Microbiome Changes During Smoking Cessation in Long-term Drug Therapy in a Therapeutic Community",
+      "officialTitle": "Metabolomic and Gut Microbial Biomarkers of Smoking Cessation Treatment in Long-term Drug Therapy: A Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-05-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-10-28",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-10-28",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-23",
+      "studyFirstSubmitQcDate": "2025-01-27",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sigmund Freud PrivatUniversitat",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medical University of Graz",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Theoretical Framework: Cigarette smoking is the leading preventable cause of death worldwide, with nicotine dependence notably common among individuals with Substance Use Disorders (SUD). Smoking exacerbates both physical and mental health issues, further complicating the treatment of SUD. Current therapeutic approaches for SUD often prove inadequate, indicating a need for new strategies. Recent advancements in metabolomics and gut microbiome research have provided valuable insights into the biological mechanisms underlying addiction.\n\nObjectives: This study aims to investigate the therapeutic potential of smoking cessation for individuals with SUD, using a six-week intervention within a therapeutic community. The research specifically explores the psychobehavioral, metabolic, and gut microbiome domains. It is hypothesized that smoking cessation will improve emotional regulation, self-efficacy, and reduce substance craving, mediated by changes in metabolic and microbiome profiles linked to brain reward systems.\n\nMethods: A randomized controlled trial (N=150) will be conducted, examining outcomes such as clinical relapse rates, microbial and metabolic markers, particularly in choline and folate metabolism. Participants with SUD (n=100) will undergo a six-week smoking cessation intervention, with pre- and post-assessments, compared to a control group receiving treatment as usual. Metabolomic and microbiome analyses will be conducted using blood and stool samples, alongside psychological assessments via questionnaires. Assessments on a behavioural level will take place at a 3-months follow-up.\n\nA cross-sectional, non-interventional healthy control group (n=50) will be examined at a single timepoint with an anologous panel of psychological variables, blood and stool to ascertain differences between smokers with SUD and healthy controls."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Substance Use Disorder (SUD)",
+        "Alcohol Use Disorder (AUD)",
+        "Nicotine Addiction",
+        "Healthy Adult Participants"
+      ],
+      "keywords": [
+        "Metabolomics",
+        "Gut microbiome",
+        "Substance use disorder",
+        "nicotine addiction",
+        "smoking cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Additional to the randomized controlled design, a third, cross-sectional, non-interventional healthy control group (n=50) will be examined additionally at a single timepoint.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment As Usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in the TAU group receive long-term rehabilitation drug treatment according to the 'community as a treatment'-model",
+          "interventionNames": [
+            "Behavioral: Long-term drug therapy within a therapeutic community"
+          ]
+        },
+        {
+          "label": "6-weeks smoking cessation cognitive-behavioral therapy intervention",
+          "type": "EXPERIMENTAL",
+          "description": "The \"smoke free in 6 weeks\" program is a standardized behavioural therapy intervention that takes place once a week for 1.5 hours over 6 weeks and is provided by the Austrian health insurance provider Österreichische Gesundheitskasse (ÖGK).",
+          "interventionNames": [
+            "Behavioral: 6-weeks CBT smoking cessation programme",
+            "Behavioral: Long-term drug therapy within a therapeutic community"
+          ]
+        },
+        {
+          "label": "Healthy controls",
+          "type": "NO_INTERVENTION",
+          "description": "Control group with n=50 healthy adult subjects, examined at a single timepoint. No interventions will be administered in this arm."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "6-weeks CBT smoking cessation programme",
+          "description": "Held in the therapeutic community, the intervention will employ principles of cognitive-behavioural therapy (CBT) coupled with personalized recommendations for nicotine replacement. The Austrian Health Insurance standard for therapy will be guiding the program's content, which is tailored for inpatient clients. Specifically, the following interventions based on CBT techniques will be applied in the weekly group sessions consisting of 10 to 15 participants: Psychoeducation including information on tobacco addiction, health risks, advice on relapse prevention and the handling of craving, motivation building, behavioural observation.",
+          "armGroupLabels": [
+            "6-weeks smoking cessation cognitive-behavioral therapy intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Long-term drug therapy within a therapeutic community",
+          "description": "The standard treatment within the 'Grüner Kreis' therapeutic community - which all participants will receive - consists of group therapy (once a week), individual psychotherapy (once a week), counselling by social workers, psychiatric consultations, as well as sport-, art- and work-therapy. Daily life is organized according to principles of therapeutic community-based addiction treatment.",
+          "armGroupLabels": [
+            "6-weeks smoking cessation cognitive-behavioral therapy intervention",
+            "Treatment As Usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Self-efficacy",
+          "description": "Self-efficacy as a psychological variable and will be assessed by the Self-Efficacy Scale (SWE), a self-report instrument for measuring general optimistic self-confidence. It consists of 10 items and measures optimistic competence expectancy, i.e., confidence in solving difficult situations with one's own abilities.",
+          "timeFrame": "From enrollment to follow-up 3 months after the end of the 6-weeks treatment period"
+        },
+        {
+          "measure": "General substance-related craving",
+          "description": "Substance related craving will be assessed by the MaCS (Mannheim Craving Scale). consists of 12 items and four additional items and is rated on a 5- point Likert scale.",
+          "timeFrame": "From enrollment to follow-up 3 months after the end of the 6-weeks treatment period."
+        },
+        {
+          "measure": "Tobacco dependence",
+          "description": "Tobacco dependence will be assessed by The Fagerström Test for Cigarette Dependence (formerly Fagerström Test for Nicotine Dependence; FTND). It consists of 6 categorically scaled items that assess the number of smoked cigarettes per day (CPD), compulsive use, and dependence intensity.",
+          "timeFrame": "From enrollment to follow-up 3 months after the end of the 6-weeks treatment period."
+        },
+        {
+          "measure": "Primary Affects",
+          "description": "Primary Affects, as proposed by Jaak Panksepp will be assessed by the German Version of the Brief Affective Neuroscience Personality Scales including a LUST Scale (BANPS-GL), a self-report questionnaire.",
+          "timeFrame": "From enrollment to follow-up 3 months after the end of the 6-weeks treatment period."
+        },
+        {
+          "measure": "Metabolome",
+          "description": "Metabolome will be ascertained from blood via state-of-the-art NMR (nuclear magnetic resonance).",
+          "timeFrame": "From enrollment to the end of the 6-weeks treatment period."
+        },
+        {
+          "measure": "Gut microbiome",
+          "description": "Gut microbiome will be ascertained via 16s-rRNA sequencing from stool.",
+          "timeFrame": "From enrollment to the end of the 6-weeks treatment period."
+        },
+        {
+          "measure": "Smoking behaviour",
+          "description": "Participants will be asked regarding their daily smoked cigarettes in the last two weeks (interval scaled). A second single item question will be, if participants have been completely abstinent from tobacco smoking in the last two weeks (dichotome).",
+          "timeFrame": "From enrollment to follow-up 3 months after the end of the 6-weeks treatment period."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Psychiatric Symptoms",
+          "description": "For the evaluation of psychopathology, the ICD-10 Symptom Rating (ISR) questionnaire will be utilized. In accordance with the ICD-10, this self-assessment questionnaire, comprising 30 items, is designed to comprehensively assess the status and severity of mental disturbances. Symptoms of the six symptomatic patterns - depressive, anxiety, obsessive-compulsive, eating disorders, somatoform syndrome, and post-traumatic stress disorder - are assessed.",
+          "timeFrame": "From enrollment to follow-up 3 months after the end of the 6-weeks treatment period."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosis of a form of substance use disorder (F1x.x) by a licensed psychiatrist according to ICD-10\n* minimum age of 18 years\n* sufficient knowledge of the German language\n* willingness to quit smoking\n* willingness and ability to consent\n\nInclusion criteria for healthy controls :\n\n* minimum age of 18 years\n* sufficient knowledge of the German language\n* willingness and ability to consent\n\nExclusion Criteria:\n\n* lack of consent, inability to provide informed consent\n* age below 18,\n* acute psychotic symptoms or acute suicidal tendencies\n* cardiovascular disease\n* pregnancy or breastfeeding\n* severe mental or organic illnesses (such as epilepsy, brain tumors, recent major surgery), tumor diseases, dementia (Mini Mental Score \\<20), severe autoimmune diseases or immunosuppression, acute infections, or acute diarrhea, prior gastrointestinal surgery (except appendectomy)\n* probiotic intake within the last 6 months,\n* ongoing consumtion of dietary supplements, probiotics, antibiotics, or prebiotic supplements during the study\n* prior participation in a smoking cessation programme",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Human F Unterrainer, Professor",
+          "role": "CONTACT",
+          "phone": "+43-699-181-95-990",
+          "email": "human.unterrainer@sfu.ac.at"
+        },
+        {
+          "name": "Johannes Peter, MSc",
+          "role": "CONTACT",
+          "phone": "+43-6606941409",
+          "email": "johannes.peter@sfu.ac.at"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Grüner Kreis Organization Johnsdorf Facility",
+          "status": "RECRUITING",
+          "city": "Fehring",
+          "zip": "8350",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Human F Unterrainer, Professor",
+              "role": "CONTACT",
+              "phone": "+43-699-181-95-990",
+              "email": "human.unterrainer@sfu.ac.at"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.94,
+            "lon": 16.00806
+          }
+        },
+        {
+          "facility": "Medical University Graz",
+          "status": "RECRUITING",
+          "city": "Graz",
+          "zip": "8036",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Sabrina Leal Garcia, Professor",
+              "role": "CONTACT",
+              "phone": "+43 316 83040",
+              "email": "sabrina.moerkl@medunigraz.at"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Sigmund Freud Private University Vienna",
+          "status": "RECRUITING",
+          "city": "Vienna",
+          "zip": "1020",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Human Unterrainer, Professor",
+              "role": "CONTACT",
+              "email": "human.unterrainer@sfu.ac.at"
+            },
+            {
+              "name": "Johannes Peter, MSc",
+              "role": "CONTACT",
+              "phone": "0043-6606941409",
+              "email": "johannes.peter@sfu.ac.at"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38693570",
+          "type": "RESULT",
+          "citation": "Fuchshuber J, Schober H, Wohlmuth M, Senra H, Rominger C, Schwerdtfeger A, Unterrainer HF. The effectiveness of a standardized tobacco cessation program on psychophysiological parameters in patients with addiction undergoing long-term rehabilitation: a quasi-experimental pilot study. BMC Med. 2024 May 1;22(1):184. doi: 10.1186/s12916-024-03405-z."
+        },
+        {
+          "pmid": "41853081",
+          "type": "DERIVED",
+          "citation": "Peter J, Pritz A, Hiebler M, Mahmoudi M, Fuchshuber J, Morkl S, Holasek S, Humer E, Unterrainer HF. Metabolomic and gut microbial biomarkers of smoking cessation treatment in long-term drug therapy: a study protocol for a randomized controlled trial. Front Psychiatry. 2026 Mar 3;17:1677235. doi: 10.3389/fpsyt.2026.1677235. eCollection 2026."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D000437",
+          "term": "Alcoholism"
+        },
+        {
+          "id": "D014029",
+          "term": "Tobacco Use Disorder"
+        },
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D019973",
+          "term": "Alcohol-Related Disorders"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

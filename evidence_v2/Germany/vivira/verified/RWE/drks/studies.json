@@ -1,0 +1,86 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00021785",
+      "drks_id": "DRKS00021785",
+      "title": "Preparation of a clinical report on anonymized, statistically evaluated Data from a retrospective data collection on the clinical efficacy of the CE-marked Vivira app \"Therapeutic exercise program for home use\"",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00021785/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00021785.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Vivira app, as evidenced by the title and detailed description in the full text, which mentions the CE-marked Vivira app and its use for therapeutic exercise at home.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "retrospective, intraindividually controlled study",
+        "confidence": 95,
+        "reason": "The study is a retrospective analysis of data collected from routine use of the Vivira app, focusing on clinical efficacy. It uses observational data without randomization, fitting the criteria for real-world evidence (RWE)."
+      }
+    },
+    {
+      "study_id": "DRKS00024051",
+      "drks_id": "DRKS00024051",
+      "title": "Preparation of a clinical report 2020-2021 on anonymized, statistically analyzed data of a retrospective data collection on the clinical efficacy of the CE-marked Vivira app \"Therapeutic Exercise Program for Home Use\"",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00024051/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00024051.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Vivira app, as evidenced by the title and full text which mention the CE-marked Vivira app 'Therapeutic Exercise Program for Home Use'. The study investigates the efficacy of this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "retrospective, intraindividually controlled study",
+        "confidence": 95,
+        "reason": "The study is a retrospective analysis of data collected from patients using the Vivira app, which is observational in nature and does not involve randomization or a control group, fitting the criteria for real-world evidence (RWE)."
+      }
+    },
+    {
+      "study_id": "DRKS00028920",
+      "drks_id": "DRKS00028920",
+      "title": "Post-marketing effectiveness of a digital therapeutic for unspecific and degenerative back, hip and knee pain during an extended probation period: An observational study of patient-reported outcome data",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028920/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00028920.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study is specifically about a digital therapeutic approved as a DiGA by BfArM, which matches the description of Vivira. Additionally, the contact information includes Vivira Health Lab GmbH, confirming the involvement of the manufacturer.",
+        "matched_elements": [
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "retrospective observational study",
+        "confidence": 95,
+        "reason": "The study is described as a retrospective observational study using patient-reported outcome data to assess the effectiveness of a digital therapeutic. It does not involve randomization or a control group, which are key features of an RCT, thus classifying it as RWE."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T09:16:00.939777Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

@@ -1,0 +1,61 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00024415",
+      "drks_id": "DRKS00024415",
+      "title": "The scientific evaluation of zanadio - a multimodal, digital treatment program for patients with obesity",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00024415/details",
+      "_matched_query": "\"zanadio\"",
+      "_raw_json_path": "evidence/Germany/zanadio/candidates/drks/raw/DRKS00024415.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'zanadio', as evidenced by the title and detailed description in the full text. The product name 'zanadio' is mentioned multiple times, and the study evaluates this specific app-based treatment program developed by aidhere GmbH for obesity.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The document describes a study protocol for evaluating a digital treatment program for obesity, but does not provide results or specify if it is a randomized controlled trial or an observational study. Without results, it is classified as INELIGIBLE."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The document describes a study protocol for evaluating a digital treatment program for obesity, but does not provide results or specify if it is a randomized controlled trial or an observational study. Without results, it is classified as INELIGIBLE."
+    },
+    {
+      "study_id": "DRKS00029070",
+      "drks_id": "DRKS00029070",
+      "title": "Anthropometric and behavioural changes after an app-based multimodal treatment for patients with obesity",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00029070/details",
+      "_matched_query": "\"zanadio\"",
+      "_raw_json_path": "evidence/Germany/zanadio/candidates/drks/raw/DRKS00029070.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'zanadio', as evidenced by the trial description which explicitly names 'zanadio' as the app-based treatment program being evaluated for obesity management.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The content provided describes a study protocol for a trial registered with a prospective registration date, but it does not provide results or indicate that the study has been completed. Therefore, it is classified as INELIGIBLE as it is not a primary study with results."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The content provided describes a study protocol for a trial registered with a prospective registration date, but it does not provide results or indicate that the study has been completed. Therefore, it is classified as INELIGIBLE as it is not a primary study with results."
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T09:18:09.520206Z",
+  "_source": "drks"
+}

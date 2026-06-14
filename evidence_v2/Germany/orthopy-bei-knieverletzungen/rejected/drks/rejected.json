@@ -1,0 +1,24 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00037527",
+      "drks_id": "DRKS00037527",
+      "title": "Use of a training-based smartphone application (Orthopy App) for patients with\nrotator cuff-related disorders in comparison to usual care – a randomized,\ncontrolled, multicenter study",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00037527/details",
+      "_matched_query": "\"Orthopy\"",
+      "_raw_json_path": "evidence/Germany/orthopy-bei-knieverletzungen/candidates/drks/raw/DRKS00037527.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study is about the 'Orthopy App' for shoulder complaints, not 'Orthopy bei Knieverletzungen'. The indication and context differ, focusing on rotator cuff-related disorders rather than knee injuries.",
+        "matched_elements": []
+      },
+      "_rejection_stage": "verification"
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T10:09:41.967942Z",
+  "_source": "drks"
+}

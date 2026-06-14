@@ -1,0 +1,61 @@
+{
+  "studies": [
+    {
+      "study_id": "41783467",
+      "pmid": "41783467",
+      "title": "Conducting Behavioural Experiments Using an App-Based Self-Help Program for Social Anxiety Disorder (SMASH): Outcomes of a Quasi-Experimental Pre-Post Pilot Trial.",
+      "authors": "Schüller Johanna S et al.",
+      "authors_list": [
+        "Schüller Johanna S",
+        "Kujat Jacob",
+        "Schittenhelm Jan M",
+        "von Rechenberg Ronja",
+        "Čerič Antonia"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Feb",
+      "journal": "Clinical psychology in Europe",
+      "journal_abbrev": "Clin Psychol Eur",
+      "doi": "10.32872/cpe.15687",
+      "abstract": "BACKGROUND: Social Anxiety Disorder (SAD) is a prevalent mental disorder characterised by fear of negative evaluation. Although effective treatment approaches are available, access remains limited due to psychological and organisational barriers. Internet-based cognitive behavioural therapy (iCBT) has shown promising results and may facilitate an easy and more resource-efficient access to treatment. METHOD: We developed an app-based self-help intervention for SAD based on the Clark and Wells treatment program, implemented as an unguided smartphone application, which was evaluated in this quasi-experimental pre-post pilot study consisting of N = 33 patients with a primary diagnosis of SAD. Feasibility was assessed through usage parameters and qualitative feedback. Effectiveness was evaluated in regard to SAD and depression, using clinician-rated measures (LSAS, QIDS-C) at post-treatment (12 weeks) and self-report measures (SPIN, SCQ, BDI-FS) at midpoint and post-treatment. Additionally, moderating effects of usage parameters on symptom reduction were examined. RESULTS: Clinician- and self-reported SAD symptoms were significantly reduced at post-measurement (within-group effect sizes LSAS: η2 = .54; SPIN: η2 = .47), with 52% of patients achieving a clinically significant improvement. Despite moderate overall adherence, the amount of conducted behavioural experiments moderated reduction in self-reported SAD symptom severity and SAD-related cognitions. Open feedback supported feasibility and acceptability of the app. CONCLUSION: In conclusion, findings provide preliminary support for feasibility, acceptability, and potential effectiveness of Mindable: Soziale Phobie. A randomised controlled trial will further evaluate the effectiveness and explore the impact of therapist guidance.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "app-based",
+        "behavioural experiment",
+        "cognitive behavioural therapy",
+        "iCBT",
+        "mental health",
+        "self-help",
+        "social anxiety disorder"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41783467/",
+      "pdf_available": false,
+      "_matched_query": "\"Mindable\"",
+      "_raw_xml_path": "evidence/Germany/mindable-soziale-phobie/candidates/pubmed/raw/41783467.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'Mindable: Soziale Phobie' in the conclusion as the app evaluated for feasibility, acceptability, and potential effectiveness. Additionally, Mindable Health GmbH, the manufacturer, is noted as the creator and developer of the app evaluated in the research.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "quasi-experimental pre-post pilot trial",
+        "confidence": 95,
+        "reason": "The study is a quasi-experimental pre-post pilot trial, which is an observational design without randomization, fitting the criteria for real-world evidence (RWE) as it evaluates the intervention's effectiveness in a real-world setting without a control group."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T07:49:18.947277Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

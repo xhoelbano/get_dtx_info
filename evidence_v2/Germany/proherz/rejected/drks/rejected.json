@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00024798",
+      "drks_id": "DRKS00024798",
+      "title": "CARNA Pretest - Pre-study to assess a medical benefit and positive care effects of an app-based, guideline-compliant patient support in heart failure.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00024798/details",
+      "_matched_query": "\"ProHerz\"",
+      "_raw_json_path": "evidence/Germany/proherz/candidates/drks/raw/DRKS00024798.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the ProHerz app as the software application being evaluated for its medical benefit and positive care effects in heart failure. The trial description and scientific summary both explicitly refer to the ProHerz app, confirming it as the intervention under study.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 95,
+        "reason": "The study is described as a 'pre-study' or 'Vorstudie', which indicates it is a preliminary or feasibility study to assess the design and feasibility of a future clinical evaluation study. It does not report results from a primary RCT or RWE study, but rather outlines plans for a future study."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The study is described as a 'pre-study' or 'Vorstudie', which indicates it is a preliminary or feasibility study to assess the design and feasibility of a future clinical evaluation study. It does not report results from a primary RCT or RWE study, but rather outlines plans for a future study."
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T08:06:21.880104Z",
+  "_source": "drks"
+}

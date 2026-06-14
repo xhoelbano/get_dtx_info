@@ -1,0 +1,59 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00024174",
+      "drks_id": "DRKS00024174",
+      "title": "Effectiveness of the M-sense Migräne app – a randomized controlled study - EMMA Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00024174/details",
+      "_matched_query": "\"M-sense Migräne\"",
+      "_raw_json_path": "evidence/Germany/m-sense-migrane/candidates/drks/raw/DRKS00024174.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the M-sense Migräne app, as indicated by the title and detailed descriptions in the trial registration. The app is named explicitly and described in the context of the study.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial with participants randomly assigned to either the intervention group using the M-sense Migräne app or a control waiting group, which is a defining feature of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00016328",
+      "drks_id": "DRKS00016328",
+      "title": "Smartphone assisted migraine therapy",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00016328/details",
+      "_matched_query": "\"M-sense Migräne\"",
+      "_raw_json_path": "evidence/Germany/m-sense-migrane/candidates/drks/raw/DRKS00016328.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the use of the M-sense app, including both 'M-sense Premium' and 'M-sense Basis', as part of the SMARTGEM project for migraine therapy. This directly matches the digital therapeutic product M-sense Migräne.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial, which is an interventional, experimental study that randomly allocates participants to an intervention group and a control group to evaluate the effectiveness of the SMARTGEM app in reducing migraine days."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T09:22:42.846579Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

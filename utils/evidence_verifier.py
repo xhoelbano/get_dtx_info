@@ -22,6 +22,7 @@ from typing import Dict, List, Optional, Any, Tuple
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
+from .company_name import normalize_company_name
 from .llm_provider import LLMProvider
 from .llm_metrics import invoke_with_metrics
 
@@ -155,7 +156,9 @@ Return the JSON object only."""
             Verification result dict: is_relevant, confidence, reason, matched_elements.
         """
         dtx_name = dtx_data.get("dtx_name", "Unknown")
-        company = dtx_data.get("company_provider", "Unknown")
+        company = normalize_company_name(
+            dtx_data.get("company_provider", "")
+        ) or "Unknown"
         icd_codes = dtx_data.get("clinical_area_icd10", [])
         description = (dtx_data.get("description") or "")[:500]
         name_variants = self._build_name_variants(dtx_name, company)
@@ -454,16 +457,16 @@ Return the JSON object only."""
         return clean
 
     def _clean_company_name(self, company: str) -> str:
-        """Extract clean company name (drop legal suffixes)."""
-        if not company:
+        """Extract clean company name via the shared normalizer, then drop the
+        trailing legal-entity suffix so matching uses the distinctive part."""
+        clean = normalize_company_name(company)
+        if not clean:
             return ""
 
-        clean = re.sub(
-            r'\s*(GmbH|AG|Inc\.?|Ltd\.?|LLC|Corp\.?|Co\.?).*$',
-            '', company, flags=re.IGNORECASE
+        return re.sub(
+            r'\s*(GmbH|mbH|AG|UG|SE|KG|e\.V\.|B\.V\.|s\.r\.o\.|Ltd\.?|Inc\.?|LLC|Corp\.?|Co\.?)\s*$',
+            '', clean, flags=re.IGNORECASE
         ).strip()
-
-        return clean.split(",")[0].strip()
 
     async def verify_candidates_batch(
         self,

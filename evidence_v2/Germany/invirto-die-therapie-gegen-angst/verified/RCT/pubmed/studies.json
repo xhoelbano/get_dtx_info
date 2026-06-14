@@ -1,0 +1,66 @@
+{
+  "studies": [
+    {
+      "study_id": "39628430",
+      "pmid": "39628430",
+      "title": "App-Based Psychotherapy of Panic Disorder With Self-Guided Exposure in Virtual Reality—A Randomized Controlled Trial.",
+      "authors": "Schultz Josephine et al.",
+      "authors_list": [
+        "Schultz Josephine",
+        "Baumeister Anna",
+        "Schmotz Stella",
+        "Schuurmans Lea",
+        "Jelinek Lena"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Jan-10",
+      "journal": "Deutsches Arzteblatt international",
+      "journal_abbrev": "Dtsch Arztebl Int",
+      "doi": "10.3238/arztebl.m2024.0246",
+      "abstract": "BACKGROUND: Patients with panic disorder often suffer from tempo rary unavailability of care. The smartphone app Invirto (IVT) provides digital treatment for panic disorder comprising self-guided exposure in virtual reality. The aim of this trial was to assess the efficacy of Invirto. METHODS: In a randomized, controlled, non-blinded trial, IVT was compared with care as usual (CAU) in patients with panic disorder (preregistration: DRKS00027585). The endpoints were assessed online before treatment (t0) and at 3 months (t1). The primary endpoint was the change in symptoms of anxiety, as measured with the Beck Anxiety Inventory (BAI), between the groups. The secondary endpoints were the patients' scores on the following assessment instruments, all in their German versions: the Panic and Agoraphobia Scale (PAS), the Beck Depression Inventory (BDI-II), a questionnaire on patient satisfaction (Client Satisfaction Questionnaire, CSQ-8), the Acceptance and Action Questionnaire (AAQ-II), and quality of life as a global item in the World Health Organization Quality of Life Questionnaire (WHOQOL-BREF). RESULTS: One hundred twenty-four participants were included. The intention-to-treat analysis revealed greater improvement with IVT than with CAU with respect to both the primary endpoint (BAI, d = -0.46; 95% confidence interval [-0.87; -0.04]) and the secondary endpoints (PAS, d = -0.63 [-1.05; -0.22]; BDI-II, d = -0.44 [-0.86; -0.02]; AAQ-II, d = -0.42 [-0.84; -0.01]), except for WHOQOL-BREF (p = 0.216). CONCLUSION: A digital treatment with virtual exposure can lessen anxiety, panic, and depressive symptoms and improve mental flexibility. In further studies, IVT should be compared with an active control group.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Panic Disorder",
+        "Female",
+        "Male",
+        "Adult",
+        "Mobile Applications",
+        "Treatment Outcome",
+        "Virtual Reality Exposure Therapy",
+        "Middle Aged",
+        "Germany"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39628430/",
+      "pdf_available": false,
+      "_matched_query": "\"Invirto\"",
+      "_raw_xml_path": "evidence/Germany/invirto-die-therapie-gegen-angst/candidates/pubmed/raw/39628430.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the smartphone app Invirto (IVT) as the digital treatment being assessed for panic disorder, which matches the product name and description provided.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T04:10:55.211902Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

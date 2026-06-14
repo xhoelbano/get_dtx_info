@@ -1,0 +1,84 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00031254",
+      "drks_id": "DRKS00031254",
+      "title": "Randomized controlled trial to assess the effectiveness of the ViViRA digital health app on pain reduction and range of motion in inflammatory low back pain",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00031254/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00031254.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the ViViRA digital health app, which matches the product name 'Vivira'. The full text explicitly mentions the use of the ViViRA app as the intervention in the study.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is explicitly described as a 'randomized controlled trial' with participants randomly allocated to either the intervention group using the ViViRA app or a control group receiving standard physical therapy, fulfilling the criteria for an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00022781",
+      "drks_id": "DRKS00022781",
+      "title": "Prospective Randomized Group Controlled Study \nof Clinical Efficacy and Safety of the \nCE marked Vivira App “In-Home Therapeutic Training Program”",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00022781/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00022781.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Vivira app, as indicated by the title and detailed descriptions in both the trial registration and full text, which mention the CE-marked Vivira app for in-home therapeutic training.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a 'Prospective Randomized Group Controlled Study', indicating that participants were randomly allocated to intervention and control groups, which is characteristic of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00035191",
+      "drks_id": "DRKS00035191",
+      "title": "The influence of personalized coaching on the use of digital or personal health applications in the field of exercise therapy for rheumatic patients",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00035191/details",
+      "_matched_query": "\"Vivira\"",
+      "_raw_json_path": "evidence/Germany/vivira/candidates/drks/raw/DRKS00035191.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the use of the ViViRA app in its intervention arms, both with and without personalized coaching, indicating it is directly studying this digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 90,
+        "reason": "The study involves comparing AI-based coaching and personalized coaching against a control group without coaching, indicating random allocation to different intervention groups, which is characteristic of an RCT."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T09:16:00.931651Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

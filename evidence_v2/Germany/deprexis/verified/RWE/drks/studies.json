@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00011628",
+      "drks_id": "DRKS00011628",
+      "title": "deprexis®24-NOW\ndeprexis®24-new online cognitive behavioral therapy with or without pharmacotherapy",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00011628/details",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/drks/raw/DRKS00011628.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'deprexis', as evidenced by the repeated mention of 'deprexis®24' in the title and throughout the full text. The study examines the application and effectiveness of this online-based psychotherapy program for depression.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational study",
+        "confidence": 90,
+        "reason": "The study collects data under routine conditions over an observation period, indicating an observational design typical of real-world evidence, rather than a controlled, randomized trial."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T03:51:14.307304Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

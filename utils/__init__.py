@@ -1,4 +1,5 @@
 """Utilities package."""
+from .company_name import normalize_company_name
 from .data_manager import DataManager
 from .evidence_classifier import EvidenceClassifier
 from .evidence_verifier import EvidenceVerifier, EvidenceClassifierV2
@@ -17,4 +18,5 @@ __all__ = [
     "Translator",
     "aggregate",
     "invoke_with_metrics",
+    "normalize_company_name",
 ]

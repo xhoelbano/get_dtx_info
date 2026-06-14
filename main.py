@@ -56,14 +56,23 @@ def _write_phase2_benchmark(metrics: list, outcomes: list, out_dir: Path) -> Non
         "total_input_tokens", "total_output_tokens", "total_tokens",
         "total_estimated_cost_usd", "total_latency_ms", "avg_latency_ms",
     ]
-    with open(out_dir / "phase2_benchmark.csv", "w", newline="", encoding="utf-8") as fh:
-        writer = csv.writer(fh)
-        writer.writerow(cols)
-        for label in labels:
-            agg = aggregate([m for m in metrics if m.get("call_label") == label])
-            writer.writerow([label] + [agg.get(c, "") for c in cols[1:]])
-        total = aggregate(metrics)
-        writer.writerow(["TOTAL"] + [total.get(c, "") for c in cols[1:]])
+
+    def _write_benchmark_csv(target: Path) -> None:
+        with open(target, "w", newline="", encoding="utf-8") as fh:
+            writer = csv.writer(fh)
+            writer.writerow(cols)
+            for label in labels:
+                agg = aggregate([m for m in metrics if m.get("call_label") == label])
+                writer.writerow([label] + [agg.get(c, "") for c in cols[1:]])
+            total = aggregate(metrics)
+            writer.writerow(["TOTAL"] + [total.get(c, "") for c in cols[1:]])
+
+    # Canonical (latest run) plus a timestamped copy so prior runs are not lost.
+    _write_benchmark_csv(out_dir / "phase2_benchmark.csv")
+    run_stamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    runs_dir = out_dir / "runs"
+    runs_dir.mkdir(parents=True, exist_ok=True)
+    _write_benchmark_csv(runs_dir / f"phase2_benchmark_{run_stamp}.csv")
 
     with open(out_dir / "phase2_evidence_outcomes.csv", "w", newline="", encoding="utf-8") as fh:
         writer = csv.writer(fh)

@@ -1,0 +1,35 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00031306",
+      "drks_id": "DRKS00031306",
+      "title": "HelloBetter Sleep Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00031306/details",
+      "_matched_query": "\"HelloBetter Schlafen\"",
+      "_raw_json_path": "evidence/Germany/hellobetter-schlafen/candidates/drks/raw/DRKS00031306.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the HelloBetter Schlafen digital therapeutic product, as evidenced by the repeated mention of 'HelloBetter Schlafen' in the trial description and intervention details. The study aims to evaluate the effectiveness of this specific online therapy program.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial (RCT) with participants randomly allocated to the HelloBetter Schlafen online therapy program or a control group receiving online sleep education and treatment-as-usual. Randomization and control conditions are key features of an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T04:04:41.431650Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

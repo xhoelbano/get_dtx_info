@@ -1,0 +1,251 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05215678",
+      "orgStudyIdInfo": {
+        "id": "N-INKA"
+      },
+      "organization": {
+        "fullName": "Frederiksberg University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Characteristics of Patients Declining INKA Trial Participation",
+      "officialTitle": "Generalizability of Overweight Patients With Knee Osteoarthritis Awaiting Knee Surgery Accepting to Join a Weight Loss Randomized Trial: Protocol for a Cross-sectional Study Comparing Baseline Characteristics and Propensity of Patients Accepting/Declining Enrolment",
+      "acronym": "n-INKA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-09-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-18",
+      "studyFirstSubmitQcDate": "2022-01-18",
+      "studyFirstPostDateStruct": {
+        "date": "2022-01-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Marius Henriksen",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Frederiksberg University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Marius Henriksen",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study is to compare baseline characteristics of overweight knee OA patients accepting vs. declining enrolment in the INKA trial (NCT05172843) to explore if enrolled patients differ systematically from the declining participants with respect to both measured as well as unmeasured baseline characteristics."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Knee Osteoarthritis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "CROSS_SECTIONAL"
+      },
+      "enrollmentInfo": {
+        "count": 129,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "INKA participants",
+          "description": "Individuals eligible and accepting participation in the INKA trial (NCT05172843)",
+          "interventionNames": [
+            "Other: Acceptance of invitation to trial participation"
+          ]
+        },
+        {
+          "label": "n-INKA participants",
+          "description": "Individuals eligible and declining participation in the INKA trial (NCT05172843)",
+          "interventionNames": [
+            "Other: Declining invitation to trial participation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Acceptance of invitation to trial participation",
+          "description": "Individuals who are eligible for and accept participation in the INKA trial (NCT05172843)",
+          "armGroupLabels": [
+            "INKA participants"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Declining invitation to trial participation",
+          "description": "Individuals who are eligible for participation in the INKA trial (NCT05172843) but decline the invitation to participate",
+          "armGroupLabels": [
+            "n-INKA participants"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Oxford knee score",
+          "description": "The Oxford Knee Score (OKS) is a 12-item Patient Reported Outcome questionnaire developed specifically to assess the patient's perspective on the outcomes of knee arthroplasty (KA) with respect to combined pain and physical function. Standardized answer options are given (5 Likert boxes) and each question is assigned a score from 0 to 4. Thus, a total score is calculated that ranges from 0 and 48, with 48 indicating the best outcome.",
+          "timeFrame": "Baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Health outcome and quality of life survey (EQ-5D-5L)",
+          "description": "EQ-5D-5L is a standardized patient-reported instrument for use as a measure of health outcome and quality of life. EQ-5D-5L is designed for self-completion by respondents and is ideally suited for use in surveys.\n\nThe EQ-5D-5L consists of a descriptive system and the EQ Visual Analogue scale (EQ VAS). The descriptive system comprises 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression). Standardized answer options are given (5 Likert boxes) and each question is assigned a score from 1 to 3. It is simple, taking only a few minutes to complete. Instructions to respondents are included in the questionnaire.\n\nThe EQ-5D VAS records the respondent's self-rated health on a 20 cm vertical, visual analogue scale with endpoints labelled 'the best health you can imagine' and 'the worst health you can imagine'.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Analgesic use",
+          "description": "At clinical outcome assessment visit, the participants will be interviewed by an investigator about their use of analgesics since last visit. The interview will be focused on intake of\n\n1. Paracetamol/acetaminophen\n2. NSAIDS\n3. Acetylic acids\n4. Opioids The use of these analgesics will be recorded as a 0-3 points Likert scale (0, never; 1, rarely; 2, 2-3 times per week; 3, daily or almost daily).",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "The Knee Injury and Osteoarthritis Outcome Score - 12 item short form (KOOS-12)",
+          "description": "KOOS-12 provides scale scores for knee-specific Pain, Function and QOL, along with a summary measure of overall knee impact.\n\nEach item is scored from 0 to 4, with 0 representing no knee problems and 4 representing extreme knee problems. The separate KOOS-12 Pain, Function and QOL scale scores are calculated, in which item responses are summed.\n\nThe KOOS-12 Summary knee impact score is calculated as the average of the KOOS-12 Pain, KOOS-12 Function and KOOS-12 QOL scale scores. A Summary impact score is not calculated if any of the three scale scores are missing. The KOOS-12 Summary impact score also ranges from 0 to 100, where 0 is the worst possible and 100 is the best possible score.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Patient's global assessment of impact of the knee in daily life (PGA)",
+          "description": "The participant's assessment of the impact of their knee on everyday life is measured as the response to the question \"Taking into account all the activities you have during your daily life, your level of pain, and your functional impairment, how much does your \\[left/right\\] knee impact your daily life?\". A 100 mm visual analogue scale (VAS) will be used as assessment instrument with anchors: 0 = \"No impact\" and 100 = \"Worst imaginable impact\".",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Body weight",
+          "description": "The participants body weight is transferred from the medical records of their visit in the orthopaedic outpatient clinic.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Brief Illness perception questionnaire (B-IPQ)",
+          "description": "B-IPQ is a generic 9-item questionnaire developed to rapidly assess the cognitive and emotional representations in a variety of illnesses. B-IPQ is a short version of the 84-item revised illness perception questionnaire (IPQ-R) (21). B-IPQ assesses perceptions on the following five dimensions: Identity, Cause, Timeline, Consequences and Cure-Control. Five of the items assess cognitive illness representations; two of the items assess emotional representations; and one item assesses illness comprehensibility. The 8 items are scored on a 0-3 Likert scale with descriptors (none or extreme) at either end.",
+          "timeFrame": "Baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18 or more\n2. A clinical and radiological diagnosis of knee OA\n3. BMI ≥ 30 kg/m2\n4. Motivated for weight loss as by the provided program\n5. Signed informed consent.\n\nExclusion Criteria:\n\n1. The scheduled surgery is for revision of an existing prosthesis\n2. Planned surgery for more than one knee within the observation period\n3. KA indication due to sequelae of fracture(s)\n4. Injection of medication or substances in the target knee within 3 months prior to participation\n5. Immuno-inflammatory arthritis as cause of the knee OA\n6. Current systemic treatment with glucocorticoids equivalent to \\> 7.5 mg of prednisolone/day\n7. Previous or planned obesity surgery\n8. Inability to understand or read Danish incl. instructions and questionnaires\n9. Any other condition or impairment that, in the opinion of the investigator (or his/her delegate), makes a potential participant unsuitable for participation or which obstruct participation.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "All patients found eligible in INKA study (inclusion criteria for INKA (NCT05172843) and accepting and declining enrolment in the INKA study are invited to participate in our study.\n\nStudy participants will be adults (i.e. at least 18 years old), have a diagnosis of knee osteoarthritis with an indication for primary knee arthroplasty (unicondylar or total arthroplasty), and be obese (BMI≥30 kg/m2).",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Søren Overgaard, DMSc",
+          "affiliation": "University Hospital Bispebjerg and Frederiksberg",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The Parker Institute, Frederiksberg Hospital",
+          "city": "Copenhagen",
+          "zip": "2000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Decision to share IPD with other researchers will be made at a later stage, including criteria for sharing."
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-01-09",
+          "uploadDate": "2023-12-04T08:03",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 429364
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020370",
+          "term": "Osteoarthritis, Knee"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010003",
+          "term": "Osteoarthritis"
+        },
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

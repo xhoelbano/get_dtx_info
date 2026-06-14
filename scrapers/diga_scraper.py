@@ -12,6 +12,7 @@ from typing import List, Dict, Optional
 from pathlib import Path
 
 from .base_scraper import BaseScraper
+from utils.company_name import normalize_company_name
 from utils.translator import Translator
 
 
@@ -379,10 +380,13 @@ class DiGAScraper(BaseScraper):
             data.listing_status_de = 'Gestrichen';
         }
         
-        // Company/Provider - look for text after company patterns
+        // Company/Provider - look for text after company patterns.
+        // The capture classes allow only spaces/tabs (not newlines) so the
+        // company match never bleeds across lines into status notes / product
+        // names. The Python side additionally normalizes the result.
         const companyPatterns = [
-            /Hersteller[:\\s]+([A-Za-zäöüÄÖÜß0-9\\.\\s]+(?:GmbH|AG|UG|B\\.V\\.|s\\.r\\.o\\.|Ltd\\.?|Inc\\.?)[^\\n]*)/i,
-            /([A-Za-zäöüÄÖÜß0-9\\.\\s]+(?:GmbH|AG|UG|B\\.V\\.|s\\.r\\.o\\.|Ltd\\.?|Inc\\.?)),?\\s*([A-Za-zäöüÄÖÜß]+)\\b/
+            /Hersteller[ \\t:]+([A-Za-zäöüÄÖÜß0-9 \\t\\.\\-&]*(?:GmbH|AG|UG|B\\.V\\.|s\\.r\\.o\\.|Ltd\\.?|Inc\\.?)[^\\n]*)/i,
+            /([A-Za-zäöüÄÖÜß0-9 \\t\\.\\-&]*(?:GmbH|AG|UG|B\\.V\\.|s\\.r\\.o\\.|Ltd\\.?|Inc\\.?)),?[ \\t]*([A-Za-zäöüÄÖÜß]+)\\b/
         ];
         for (const pattern of companyPatterns) {
             const match = bodyText.match(pattern);
@@ -682,6 +686,13 @@ class DiGAScraper(BaseScraper):
             result = dtx_basic.copy()
             if details:
                 result.update({k: v for k, v in details.items() if v is not None})
+            
+            # Normalize the manufacturer name so only the clean company is stored
+            # (strips DiGA status notes / boilerplate / product-name fragments).
+            if result.get("company_provider"):
+                result["company_provider"] = normalize_company_name(
+                    result["company_provider"]
+                )
             
             # Set ICD-10 codes from table extraction (overrides the empty default)
             if icd10_codes:

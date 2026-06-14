@@ -1,0 +1,66 @@
+{
+  "studies": [
+    {
+      "study_id": "40591361",
+      "pmid": "40591361",
+      "title": "A Prescribed Digital Health App and Number of Migraine Days: A Randomized Clinical Trial.",
+      "authors": "Pach Daniel et al.",
+      "authors_list": [
+        "Pach Daniel",
+        "Lysk Stefanie",
+        "Heinz Priska",
+        "Held Ulrike",
+        "Huber Elif"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Jul-01",
+      "journal": "JAMA network open",
+      "journal_abbrev": "JAMA Netw Open",
+      "doi": "10.1001/jamanetworkopen.2025.17708",
+      "abstract": "IMPORTANCE: The digital therapeutics market is expanding rapidly, with growing patient adoption. In some countries, digital health applications are already prescribable, reshaping clinical practice. OBJECTIVE: To compare the effectiveness of the prescribable digital health app used in this study with a control app in reducing the number of migraine days among adults diagnosed with migraine. DESIGN, SETTING, AND PARTICIPANTS: This 2-arm, parallel-group randomized clinical trial was conducted remotely across Germany from March to December 2021. Adults (≥18 years of age) with episodic or chronic migraine were randomly assigned in a 1:1 ratio to the intervention (n = 238) using a prescribable digital health app, called M-sense Migräne, or to the control (n = 239) group. Data were analyzed from February to March 2022. INTERVENTION: The intervention group used the full version of the prescribable digital health app, while the control group used an app version limited to headache diary features. MAIN OUTCOMES AND MEASURES: The primary outcome was the number of migraine days per a 28-day month after 12 weeks of using the app (assessed weeks 9-12), analyzed using analysis of covariance adjusted for baseline migraine days and migraine type. Secondary outcomes included the number of headache days per month, quality of life (assessed with the 6-item Headache Impact Test), self-efficacy (assessed with the Headache Management Self-Efficacy Scale German Short Form), Headache-Attributed Lost Time in the previous 30 days (HALT-30), migraine-specific health literacy, and days with acute headache medication use. RESULTS: Of 477 randomized participants, 476 were included in the intention-to-treat population (intervention, n = 238; control, n = 238). The participants' overall mean (SD) age was 35.2 (10.4) years, 429 were female (90.1%); and the mean (SD) migraine history was 17.42 (10.49) years. After 12 weeks, there was no significant difference in the number of migraine days per month between groups. Migraine days per month decreased from a mean (SD) of 7.74 (3.70) to an adjusted mean of 5.79 (95% CI, 5.02-6.57) in the intervention group and from a mean (SD) of 7.76 (3.69) to an adjusted mean of 5.41 (95% CI, 4.63-6.19) in the control group, with an estimated between-group difference of 0.38 days (95% CI, -0.32 to 1.08 days; P = .29). There were no group differences for most secondary outcomes. No serious adverse reactions were reported. CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, the prescribed digital migraine health app did not show superiority in reducing migraine days compared with a control app having only basic headache documentation features. This finding underscores the need for randomized clinical trials as a cornerstone of a robust evaluation framework, ensuring both treatment efficacy and patient safety in an expanding digital therapeutics market. TRIAL REGISTRATION: German Clinical Trials Register (DRKS) identifier: DRKS00024174.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Migraine Disorders",
+        "Female",
+        "Male",
+        "Mobile Applications",
+        "Adult",
+        "Middle Aged",
+        "Germany",
+        "Quality of Life",
+        "Telemedicine"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40591361/",
+      "pdf_available": false,
+      "_matched_query": "\"M-sense Migräne\"",
+      "_raw_xml_path": "evidence/Germany/m-sense-migrane/candidates/pubmed/raw/40591361.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'M-sense Migräne' as the digital health app used in the intervention group, which matches the product name provided. Additionally, Newsenselab GmbH, the manufacturer, is listed as an affiliation of some authors, confirming the link to the specific product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 6 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T09:22:29.096494Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

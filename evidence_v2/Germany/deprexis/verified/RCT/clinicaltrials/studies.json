@@ -1,0 +1,807 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT02178631",
+      "nct_id": "NCT02178631",
+      "title": "Effectiveness of Internet-based Depression Treatment (EVIDENT) in Severe Depression",
+      "official_title": "",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 163,
+      "start_date": "2013-02",
+      "completion_date": "2014-05",
+      "conditions": [
+        "Severe Depressive Symptoms"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "BEHAVIORAL",
+          "description": "Online self-help"
+        },
+        {
+          "name": "CAU",
+          "type": "OTHER",
+          "description": "Care as usual"
+        }
+      ],
+      "lead_sponsor": "University of Luebeck",
+      "collaborators": [
+        "Björn Meyer, Gaia AG, Hamburg, Germany / Department of Psychology, City University, London, United Kingdom",
+        "University of Hamburg-Eppendorf",
+        "University of Bern"
+      ],
+      "countries": [
+        "Germany",
+        "Switzerland"
+      ],
+      "brief_summary": "Online self-help is an innovative way of providing self-help. The investigators want to study the effect of an interactive online self-help-program (Deprexis) in the treatment of severe depressive symptoms. Participants will be randomised to either twelve weeks of online-self help or a waiting-list control. Symptoms of depression and other aspects will be assessed over a six months period. The investigators hypothesise that online self-help is superior to the control condition in alleviating depressive symptoms and preventing full blown depression.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02178631",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT02178631.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the digital therapeutic product 'deprexis' in treating severe depressive symptoms. The product name 'Deprexis' is mentioned multiple times in the abstract and full text, and Gaia AG, the manufacturer, is listed as a collaborator.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT01401296",
+      "nct_id": "NCT01401296",
+      "title": "Evaluation of the Effectiveness of a Web-based Treatment Program for Depression for the Reduction of Depressive Symptoms",
+      "official_title": "Evaluation of the Effectiveness of a Web-based Treatment Program for Depression (Deprexis) for the Reduction of Depressive Symptoms. A Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 200,
+      "start_date": "2011-05",
+      "completion_date": "2012-09",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "Depression",
+        "Online-Therapy",
+        "Deprexis",
+        "Self-help"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "BEHAVIORAL",
+          "description": "Behavioral: Deprexis (10 sessions) delivered online versus wait-list control group"
+        },
+        {
+          "name": "Wait-list",
+          "type": "BEHAVIORAL",
+          "description": "Behavioral: the wait-list group receives Deprexis after 8 weeks"
+        }
+      ],
+      "lead_sponsor": "Universitätsklinikum Hamburg-Eppendorf",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "200 persons with depression are recruited via internet depression forums devoted to depression and are randomly assigned either to the online program deprexis or to a wait-list control condition. All participants receive free-of-charge online access to deprexis either immediately or with an eight week delay.\n\nPrior to intervention and eight weeks later, both groups are assessed via an anonymous online survey which was implemented using the software package OPST®. The survey consists of different questionnaires. The Beck Depression Inventory (BDI) represents the primary outcome. It is assumed that the severity of depressive symptoms will improve to a significantly greater extent in the deprexis than in the wait-list control condition in the course of eight weeks.",
+      "detailed_description": "Deprexis is a web-based intervention that can be obtained online (www.deprexis.com). Deprexis encompasses 10 content modules with a strong focus on evidence-based cognitive-behavioral techniques, either from its so-called first (behavior-oriented), second (cognitive-oriented) or third wave (e.g. mindfulness and acceptance): (1) psychoeducation, (2) behavioral activation, (3) cognitive modification, (4) mindfulness and acceptance, (5) interpersonal skills, (6) relaxation, physical exercise and lifestyle modification, (7) problem solving and (8) expressive writing and forgiveness, (9) positive psychology and (10) dreamwork and emotion-focus interventions. The ten modules are framed by one introductory and one summary module. Communication is carried out online via simulated dialogues. Patients have to respond to narrative text messages from the virtual therapists in multiple-choice response fashion, enabling them to express doubt, to affirm a particular message or to request more information. Text messages are aided with drawings, photographs and animations. The program is adaptive and selects exercises and contents on the basis of the subject's response. The modules are sequential and each module refers and builds upon previous one. Modules can (and should be) repeated within the intervention period.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01401296",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT01401296.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the effectiveness of the digital therapeutic product 'deprexis' for treating depression. The product name 'deprexis' is mentioned multiple times in the title, abstract, and full text, and the intervention is described in detail as the web-based program developed by GAIA AG.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 1 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT01636752",
+      "nct_id": "NCT01636752",
+      "title": "Effectiveness of Internet-based Depression Treatment",
+      "official_title": "",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 1013,
+      "start_date": "2012-07",
+      "completion_date": "2017-02",
+      "conditions": [
+        "Mild to Moderate Depressive Symptoms"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "BEHAVIORAL",
+          "description": "Online self-help with and without e-mail-support"
+        }
+      ],
+      "lead_sponsor": "University of Luebeck",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "Care for people suffering from depressive symptoms should be given in a step-wise approach. One first step can be the provision of self-help material. Online self-help is an innovative way of providing self-help. The investigators want to study the effect of an interactive online self-help-program (Deprexis) in the treatment of mild to moderate depressive symptoms. Participants will be randomised to either twelve weeks of online-self help or a waiting-list control. Symptoms of depression and other aspects will be assessed over a one year period. Thereafter the controls will also receive online-self help. The investigators hypothesise that online self-help is superior to the control condition in alleviating depressive symptoms and preventing full blown depression.",
+      "detailed_description": "This study is supported by the German Ministry of Health (BMG) and is a collaborative project of Universität Bern (PD Dr. Thomas Berger), Charité Berlin (PD Dr. Matthias Rose), Universität Bielefeld (Prof. Dr. Wolfgang Greiner), Universität Hamburg (Prof. Dr. Steffen Moritz, Prof. Dr. Bernd Löwe), GAIA AG Hamburg (Dr. Björn Meyer), Universität Tübingen (Prof. Dr. Martin Hautzinger) and Universität Trier (Prof. Dr. Wolfgang Lutz).",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01636752",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT01636752.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of 'Deprexis', an interactive online self-help program for depression, which matches the product name and description provided. The intervention is clearly identified as 'Deprexis' in both the abstract and the full text.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as interventional with participants randomized to either an online self-help program or a waiting-list control, which indicates a randomized controlled trial design."
+      }
+    },
+    {
+      "study_id": "NCT02196896",
+      "nct_id": "NCT02196896",
+      "title": "Enhancing Inpatient Psychotherapeutic Treatment With Online Self-help : Acceptance and Efficacy",
+      "official_title": "Enhancing Inpatient Psychotherapeutic Treatment With Online Self Help in a Randomised Controlled Trial: Acceptance and Efficacy",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 229,
+      "start_date": "2014-06",
+      "completion_date": "2016-11",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "deprexis®",
+          "type": "OTHER",
+          "description": "Online self-help program in addition to inpatient psychosomatic treatment for 90 days."
+        },
+        {
+          "name": "Information",
+          "type": "OTHER",
+          "description": "The patients receive online information about depression once a week for 90 days."
+        }
+      ],
+      "lead_sponsor": "Johannes Gutenberg University Mainz",
+      "collaborators": [
+        "Rhön-Klinikum AG"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "The purpose of this study is to determine the acceptance and efficacy of the online self-help program deprexis® for depressed patients in reducing the clinical symptoms of their depression. The patients of the experimental group use deprexis® for 90 days, the patients of the placebo group receive weekly online information about depression for 90 days as well. Both groups receive their treatment in addition to their regular inpatient psychosomatic treatment and as an aftercare intervention.The investigators hypothesize that the online self-help group achieves a greater reduction of depression compared to the control group.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02196896",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT02196896.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the online self-help program deprexis® for its acceptance and efficacy in treating depression, as indicated in the title, abstract, and full text. The product name 'deprexis®' is explicitly mentioned multiple times.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 90,
+        "reason": "Keyword match: 4 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT01663649",
+      "nct_id": "NCT01663649",
+      "title": "Effectiveness of Web-based Treatment for Depression in Patients With Neurologic Disorders",
+      "official_title": "Evaluation of the Effectiveness of a Web-based Treatment Program for Depression (Deprexis) for the Reduction of Depressive Symptoms in Patients With Multiple Sclerosis and Epilepsy. A Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 180,
+      "start_date": "2012-06",
+      "completion_date": "2014-02",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "Depression",
+        "Online-Therapy",
+        "Deprexis",
+        "Self-help"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "BEHAVIORAL",
+          "description": "web-based treatment program for depression"
+        },
+        {
+          "name": "Wait-list",
+          "type": "BEHAVIORAL",
+          "description": "the wait-list group receives Deprexis after 6 month"
+        }
+      ],
+      "lead_sponsor": "Universitätsklinikum Hamburg-Eppendorf",
+      "collaborators": [
+        "Epilepsy Centre Alsterdorf"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "200 persons (100 with multiple sclerosis and 100 with epilepsy) with depressive symptoms are recruited via the multiple sclerosis clinics of the University Medical Center Hamburg-Eppendorf and the epilepsy centre Alsterdorf and randomly assigned either to the online program deprexis or to a wait-list control condition. All participants receive free-of-charge online access to deprexis either immediately or with a six month delay.\n\nAt three time points (1. prior to intervention, 2. after completion of the intervention nine weeks later and 3. at follow-up six month later), both groups are assessed via an anonymous online survey, which was implemented using the software package OPST®.\n\nThe survey consists of different questionnaires. The Beck Depression Inventory (BDI) represents the primary outcome (IIT analysis for pre versus post). It is assumed that the severity of depressive symptoms will improve to a significantly greater extent in the deprexis than in the wait-list control condition in the course of nine weeks and will be maintained in a six month follow-up.",
+      "detailed_description": "Deprexis is a web-based intervention that can be obtained online (www.deprexis.com). Deprexis encompasses 10 content modules with a strong focus on evidence-based cognitive-behavioral techniques, either from its so-called first (behavior-oriented), second (cognitive-oriented) or third wave (e.g. mindfulness and acceptance): (1) psychoeducation, (2) behavioral activation, (3) cognitive modification, (4) mindfulness and acceptance, (5) interpersonal skills, (6) relaxation, physical exercise and lifestyle modification, (7) problem solving and (8) expressive writing and forgiveness, (9) positive psychology and (10) dreamwork and emotion-focus interventions. The ten modules are framed by one introductory and one summary module. Communication is carried out online via simulated dialogues. Patients have to respond to narrative text messages from the virtual therapists in multiple-choice response fashion, enabling them to express doubt, to affirm a particular message or to request more information. Text messages are aided with drawings, photographs and animations. The program is adaptive and selects exercises and contents on the basis of the subject's response. The modules are sequential and each module refers and builds upon previous one. Modules can (and should be) repeated within the intervention period.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01663649",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT01663649.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the digital therapeutic product 'deprexis' for treating depression in patients with neurologic disorders. The product name 'deprexis' is mentioned multiple times in the title, abstract, and full text, confirming the study's focus on this specific intervention.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 1 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT01818453",
+      "nct_id": "NCT01818453",
+      "title": "Can Genetics Predict Treatment Response to a Computerized Self-help Program for Depression?",
+      "official_title": "Genetic Predictors of Response to a Computerized Self-help Program for Depression",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 500,
+      "start_date": "2013-03",
+      "completion_date": "2015-11",
+      "conditions": [
+        "Major Depressive Disorder",
+        "Mood Disorders"
+      ],
+      "keywords": [
+        "Mood Disorders",
+        "Depression",
+        "Genetics",
+        "Treatment response",
+        "Treatment study"
+      ],
+      "interventions": [
+        {
+          "name": "Computerized self-help program for depression",
+          "type": "BEHAVIORAL",
+          "description": "For 8 weeks, participants will engage in a computerized self-help program for depression, called deprexis. This program consists of 10 content modules representing different psychotherapeutic approaches broadly consistent with a cognitive-behavioral perspective. Modules are organized as simulated dialogues in which the program explains and illustrates concepts and techniques, engages the user in exercises, and continuously asks users to respond by selecting from response options. Subsequent cont"
+        }
+      ],
+      "lead_sponsor": "University of Texas at Austin",
+      "collaborators": [
+        "Brown University"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The goal of this project is to determine whether genetic information can be used to predict response to an internet-based treatment of depression. Several studies now indicate that completing an internet-based treatment for depression, called Deprexis, can significantly improve symptoms of depression. However, not everyone improves. The purpose of this study is to determine whether genetic profile can predict who is likely to improve.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01818453",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT01818453.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the digital therapeutic product 'deprexis' as it is named in the title, abstract, and throughout the full text. The intervention description matches the product's known characteristics.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as interventional with a randomized allocation and a parallel intervention model, indicating it is a randomized controlled trial designed to assess treatment effects."
+      }
+    },
+    {
+      "study_id": "NCT02898233",
+      "nct_id": "NCT02898233",
+      "title": "Augmenting Internet-Based Cognitive Behavioral Therapy for Major Depressive Disorder With Low-Level Light Therapy",
+      "official_title": "Augmenting Internet-Based Cognitive Behavioral Therapy for Major Depressive Disorder With Low-Level Light Therapy",
+      "status": "TERMINATED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 20,
+      "start_date": "2016-02",
+      "completion_date": "2020-11-30",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "depression",
+        "internet-based",
+        "treatment",
+        "low-level light therapy",
+        "LLLT",
+        "deprexis"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "OTHER",
+          "description": "Deprexis is an experimental internet-based treatment program for depression created by Gaia (Hamburg, Germany)."
+        },
+        {
+          "name": "Active low-level light therapy",
+          "type": "DEVICE",
+          "description": "Administration of LLLT consists of applying light of a specific wavelength (1064 nanometers) that intersects with the absorption spectrum of cytochrome oxidase, using a laser diode, the high density laser (HD laser; Cell Gen Therapeutics, LLC). Active LLLT includes 4 days, once per week for 4 weeks, during which LLLT is applied to two alternating positions on the participant's right forehead for 8 minutes total."
+        },
+        {
+          "name": "Sham low-level light therapy",
+          "type": "DEVICE",
+          "description": "Administration of LLLT consists of applying light of a specific wavelength (1064 nanometers) that intersects with the absorption spectrum of cytochrome oxidase, using a laser diode, the high density laser (HD laser; Cell Gen Therapeutics, LLC). Sham LLLT includes 4 days, once per week for 4 weeks, during which sham LLLT (5 seconds active, 55 seconds sham) is applied to two alternating positions on the participant's right forehead for 8 minutes total."
+        }
+      ],
+      "lead_sponsor": "University of Texas at Austin",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The purpose of this study is to better understand how low-level light therapy (LLLT) can be used to augment the antidepressant effects of Deprexis, an internet-based treatment program for depression, for participants with current major depressive disorder. The researchers will administer active and placebo LLLT to the right forehead of participants who show an improvement of at least 10% in depressive symptoms from baseline after two weeks of Deprexis treatment.\n\nHypothesis: Participants who receive active LLLT will show a greater reduction of depressive symptoms than participants who receive placebo LLLT.",
+      "detailed_description": "1. Online screening Following a digital informed consent, all participants will complete a brief online screening questionnaire to determine the severity level of their depression, using the Center for Epidemiological Studies - Depression Scale (CES-D). Initial consent and screening procedures will be conducted online via Research Electronic Data Capture (REDCap), a secure, on-line assessment tool designed to collect self-report questionnaire data for research studies. Participants with a CES-D score of 16 or higher will be eligible to continue with the study. At this initial screening, eligible participants will also provide contact information (name, email address, and phone number) for a follow-up phone screening.\n2. Phone screening Following the online screening, eligible participants will complete a phone screening, the Mini International Neuropsychiatric Interview (MINI), conducted by researchers in the Mood Disorders Laboratory. The phone screening will be audio recorded for quality control purposes. Participants will be eligible to continue on in the study if they meet criteria for current Major Depression without any comorbid disorders, excluding anxiety disorders. Next, participants will complete the Colombia-Suicide Severity Rating Scale (C-SSRS) to assess for suicidality. Any participant who endorses suicidal intent, with or without plan, (i.e., items 4 or 5) within the last six months, will be deemed ineligible. Researchers will provide resources to any participant endorsing suicidal ideation, and will contact authorities if necessary. At the end of the phone screening, eligible participants will be scheduled to come into the Mood Disorders Laboratory for their initial study meeting within a week.\n3. Initial meeting\n\n   Participants deemed eligible by the online and phone screenings will come into the Mood Disorders Laboratory within a week of their phone screening. The initial meeting will last approximately one hour. The initial meeting will have seve",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02898233",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT02898233.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the use of Deprexis, an internet-based treatment program for depression created by Gaia AG, as part of its intervention. The product name 'Deprexis' is mentioned multiple times in the abstract and full text, confirming the study's focus on this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as interventional with participants receiving either active or placebo low-level light therapy, indicating random allocation to treatment and control groups, which is characteristic of an RCT."
+      }
+    },
+    {
+      "study_id": "NCT02740361",
+      "nct_id": "NCT02740361",
+      "title": "Online Program to Reduce Depression in MS",
+      "official_title": "International Deprexis Trial in Multiple Sclerosis (IDEMS) - a Multicenter Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 279,
+      "start_date": "2017-02-15",
+      "completion_date": "2021-05-01",
+      "conditions": [
+        "Multiple Sclerosis"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Deprexis, DeprexisPlus",
+          "type": "BEHAVIORAL",
+          "description": "Online program Deprexis, either as a stand-alone internet-based intervention (Deprexis) or with added standardized email support by a clinical psychologist (DeprexisPlus). In this trial, we will use a Version of Deprexis that has been adapted to MS-specific needs."
+        }
+      ],
+      "lead_sponsor": "Charite University, Berlin, Germany",
+      "collaborators": [
+        "National Multiple Sclerosis Society",
+        "Universitätsklinikum Hamburg-Eppendorf",
+        "Cedars-Sinai Medical Center",
+        "University of Missouri, Kansas City",
+        "Penn State University"
+      ],
+      "countries": [
+        "Germany",
+        "United States"
+      ],
+      "brief_summary": "This is an international, multicenter, randomized controlled trial of an internet-based CBT intervention for depression (Deprexis) conducted in five MS centers in the US and Germany. The trial consists of a three-arm primary trial phase and an extension phase targeted at maintenance.",
+      "detailed_description": "Depression is highly common in MS with a lifetime risk for major depressive disorder (MDD) as high as 25-50% and a 12-month prevalence of up to 25%, particularly in younger patients. Depression in MS has been linked to biological as well as psychological factors and substantially impacts psychosocial function. Importantly, depressive symptoms correlate with decreased quality of life, absence from work, and lower social support and are among the strongest predictors for suicidal ideation in MS patients.\n\nDespite its immediate clinical relevance, depression in MS remains underdiagnosed and often untreated and evidence for the efficacy of pharmacological or non-pharmacological interventions for MS-associated depression is scarce. For example, guidelines recently published by the AAN concluded that evidence for pharmacotherapy and individual or group therapies for MS-depression was insufficient but recommended cognitive behavioral therapy (CBT) delivered by phone with weak level of evidence. Such approaches, however, still require availability of a trained psychotherapist.\n\nGiven the mobility problems, cognitive impairment, and fatigue typically associated with MS as well as the limited availability of psychotherapists, self-guided, automated, internet-based interventions may help to overcome treatment barriers often encountered by patients with MS. In a recent phase II randomized controlled trial (RCT) in Germany, the investigators found one such internet-based CBT program, Deprexis, to significantly reduce depressive symptoms in MS (Fischer et al., Lancet Psychiatry 2015). Despite these encouraging results, large, definitive trials of the most promising therapeutic approaches for MS-associated depression that could inform clinical practice are completely lacking.\n\nHere, the investigators conduct a large, international, multicenter RCT of the Deprexis program to treat depression in MS patients. Patients will be recruited in five specialized MS centers in Germany (Chari",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02740361",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT02740361.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the digital therapeutic product 'Deprexis', as indicated by the repeated mention of the product name in the title, abstract, and full text. The study focuses on the effectiveness of Deprexis and its variant DeprexisPlus for treating depression in MS patients.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT04428450",
+      "nct_id": "NCT04428450",
+      "title": "Internet-Based Treatment of Depression: Comparing Guided With Unguided Self-Help",
+      "official_title": "Internet-Based Treatment of Depression: A Randomized Controlled Trial Comparing Guided With Unguided Self-Help",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 76,
+      "start_date": "2009-09-01",
+      "completion_date": "2010-12-31",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "DEVICE",
+          "description": "CBT-based, integrative online self-help program"
+        }
+      ],
+      "lead_sponsor": "Gaia AG",
+      "collaborators": [
+        "University of Bern",
+        "Linkoeping University",
+        "Karolinska Institutet"
+      ],
+      "countries": [],
+      "brief_summary": "The study is a randomized controlled trial and to compare the benefits of a 10-week web-based unguided self-help treatment with the same intervention complemented with weekly therapist support via e-mail. A waiting-list control group will be included. The Beck Depression Inventory (BDI-II) will be used as the primary outcome measure. Secondary outcomes include general psychopathology, interpersonal problems, and quality of life.",
+      "detailed_description": "Depression is a major health problem associated with significant disability and economic costs. Although depression can be treated effectively with several psychological and pharmacological treatment options, many sufferers still seek or receive inadequate therapy or no therapy at all. Internet-based treatments may help to serve this demand, being accessible anytime and anywhere making it easier for underserved populations and people living in remote areas to receive treatment. The present study aims to assess the efficacy of an internet-based CBT intervention for depression (Deprexis), directly comparing the benefits of a low intensity therapist-guided with an unguided self-help version. A waiting-list control group will be included. Individuals meeting the diagnostic criteria of major depression or dysthymia will be randomly assigned to one of the three conditions. While unguided self-help will not include any contact with a therapist or the study team during the treatment, guided self-help will include a weekly scheduled e-mail feedback by a therapist and the possibility to ask questions via e-mail. While in an earlier study Deprexis was assessed as an add-on to TAU, this study will examine the efficacy of the program when delivered as a stand-alone intervention (i.e., only individuals who currently do not receive psychotherapy will be included). Moreover, this study will include a structured diagnostic interview at pretreatment. Only participants fulfilling the criteria of a depressive disorder (major depression or dysthymia) will be included in the trial. Participants will be recruited in Switzerland and Germany via articles in national and regional newspapers and a national television interview. All questionnaires will be administered via the internet. The 21-item BDI-II will be used as the main outcome measure. Secondary outcome measures will include the Brief Symptom Inventory (53-item BSI), the Inventory of Interpersonal Problems (64-item IIP), and the WHOQ",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04428450",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT04428450.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates 'Deprexis', an online self-help program for depression developed by Gaia AG, as indicated in the intervention description and trial registration. The product name 'Deprexis' is explicitly mentioned multiple times in the study details.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT01731717",
+      "nct_id": "NCT01731717",
+      "title": "Cluster Randomized Trial of Stepped Care Intervention vs. Treatment as Usual for Patients With Depression",
+      "official_title": "Effektivität Und Effizienz Von Behandlungspfaden für Patienten Mit Depressiven Erkrankungen: Stepped Care Als Ansatz für Ein Leitliniengerechtes Und Integriertes Versorgungsmanagement",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 737,
+      "start_date": "2012-09",
+      "completion_date": "2015-05",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "depression",
+        "stepped care",
+        "evidence-based medicine",
+        "health services research",
+        "psychotherapy",
+        "complex intervention",
+        "guideline"
+      ],
+      "interventions": [
+        {
+          "name": "Active monitoring",
+          "type": "BEHAVIORAL",
+          "description": "General physician performs monitoring every 2 weeks using the PHQ-9 depression scale."
+        },
+        {
+          "name": "Bibliotherapy",
+          "type": "BEHAVIORAL",
+          "description": "Patient works with self-help book \"Selbsthilfe bei Depressionen\" (Görlitz, 2010) under general physician's supervision."
+        },
+        {
+          "name": "Online self-help",
+          "type": "BEHAVIORAL",
+          "description": "Patient works with online self-help program \"Deprexis\" under general physician's supervision."
+        },
+        {
+          "name": "Outpatient psychotherapy",
+          "type": "BEHAVIORAL",
+          "description": "Patient receives outpatient psychodynamic or cognitive-behavioural psychotherapy from a psychotherapist participating in the network."
+        },
+        {
+          "name": "Psychiatric treatment",
+          "type": "PROCEDURE",
+          "description": "Patient receives treatment from psychiatrist or general physician participating in the network, this includes psychopharmacotherapy. Treatment takes place within routine care, thus psychiatrists or general physicians individually determine the type of medication and are committed to follow the recommendations of the German S3-Guideline/National Disease Management Guideline for Unipolar Depression."
+        },
+        {
+          "name": "Combined psychotherapy and psychopharmacological treatment",
+          "type": "BEHAVIORAL",
+          "description": "Patient receives psychotherapy combined with psychopharmacological treatment, if necessary in inpatient setting."
+        },
+        {
+          "name": "Control group: treatment as usual",
+          "type": "OTHER",
+          "description": "treatment as usual"
+        }
+      ],
+      "lead_sponsor": "Universitätsklinikum Hamburg-Eppendorf",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "The main aim of the project is the implementation and evaluation of a stepped care model (SCM) for patients with depression with 6 treatment options of varying intensity and setting, including innovative technologies (e-mental health, telephone-based psychotherapy). Within this complex intervention, patients are treated by a multiprofessional network of health care providers in Hamburg, Germany. The study compares the SCM condition (intervention group) to a control group receiving treatment as usual (cluster randomization on the level of participating general practitioners). It is expected that the SCM condition will show better results regarding reduction of mental symptoms, improvement of quality of life, more efficient access to care and better cost-benefit ratio.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01731717",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT01731717.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the use of the online self-help program 'Deprexis' as part of the intervention for patients with depression. This matches the product name and description provided.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "cluster randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is an interventional trial that uses cluster randomization to allocate participants to either a stepped care intervention or treatment as usual, which is characteristic of a randomized controlled trial."
+      }
+    },
+    {
+      "study_id": "NCT06480474",
+      "nct_id": "NCT06480474",
+      "title": "Internet-based Treatment for Depression",
+      "official_title": "Internet-based Treatment for Depression: a Randomized Controlled Trial Comparing Therapist Support and Peer-support Using an Online Forum.",
+      "status": "ENROLLING_BY_INVITATION",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 240,
+      "start_date": "2024-05-30",
+      "completion_date": "2026-05-30",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "depression",
+        "online intervention",
+        "internet-based treatment",
+        "online study",
+        "peer-support",
+        "randomized control trial",
+        "India",
+        "Switzerland"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "DEVICE",
+          "description": "The internet-based self-help program used in this study, Deprexis, contains 10 modules ( based on different psychotherapeutic approaches, consistent with a cognitive-behavioral perspective) and accessible at any time via regular internet browsers on laptops, computers, tablets, or smartphones through a secure website. Participants can repeat all modules as often as they wish after completing the full sequence once."
+        },
+        {
+          "name": "Deprexis with online forum",
+          "type": "DEVICE",
+          "description": "Those in this group will have access to deprexis ( same as the first group) as well as an online forum built for the study. This forum will feature a general discussion page where participants can ask and answer questions, and they will be divided into groups of 10 to share experiences if they wish. Additionally, there will be subforums related to specific modules of the program. Participants can share their experiences and ask questions related to the modules. A moderator will regularly check t"
+        }
+      ],
+      "lead_sponsor": "University of Fribourg",
+      "collaborators": [
+        "University of Bern",
+        "Indian Institute of Technology",
+        "Gaia AG",
+        "Haute école d'Ingénierie et d'Architecture de Fribourg"
+      ],
+      "countries": [
+        "Switzerland"
+      ],
+      "brief_summary": "The overall aim of the present project is to test the efficacy of a validated Internet-based self-help program for depression developed in Germany in the French part of Switzerland. The program has shown to be efficacious in different trials with major depression and depression as a comorbidity of another disorder (e.g., gambling addiction, epilepsy). The objectives of this project are:\n\nPrimary Objective: To test the effects of the self-help web-based program on depressive symptoms in French-speaking individuals in Switzerland.\n\nSecondary Objective A: To test the effects of the online program on reward responses for individuals with depressive symptoms.\n\nSecondary Objectives B and C: To test the effects of the role of peer-to-peer support using an online forum in addition to an online program (B) and comparison between Switzerland and India (C).\n\nThis project can inform clinicians about what they can offer as a treatment to individuals, either in combination with psychotherapy or when there is no quick or direct access to a psychotherapist. The study promises to have a direct practical significance for people suffering from depression.",
+      "detailed_description": "Depression is one of the most frequent mental disorders that affect society and individuals psychologically and financially. The text revision of the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-5-TR) defines characterized depression as a minimum of 2 weeks of low mood or loss of interest in daily activities, accompanied by vegetative, motor, and cognitive symptoms. Depressed individuals may also have suicidal thoughts or tendencies. However, not everyone receives adequate care and there is a treatment gap. The causes of the treatment gap are diverse and include the difficulty in accessing treatment, the lack of mental health specialists in a region or a country, the fear of stigmatization, cultural beliefs about mental health, etc.. Technologies such as Internet-based self-help interventions are promising to reduce the burden of depression and to address the treatment gap. Several meta-analyses found that these interventions are effective in reducing depression. Internet-based self-help interventions are easily available, can be utilized regardless of time and location, and can be provided to a large population simultaneously. Although Switzerland has a well-developed mental health care, the treatment gap for depression in Switzerland is estimated to be 51% and depression represents a strong societal burden. The main aim of this study will be to examine the efficacy of a web-based self-help intervention for depression in the French-speaking part of Switzerland, in a randomized clinical trial.\n\nMoreover, anhedonia is a core symptom of depression. It is defined as a loss of pleasure or a lack of reactivity when faced with pleasurable stimuli . Hedonic capacity decreases with depression, such as a reduced reactivity to pleasant cues or diminished reward responsiveness . Reward processes are shown to induce positive or pleasurable experiences . Specifically, there might be a strong association between the presence of anhedonia in depr",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06480474",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT06480474.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'Deprexis' as the internet-based self-help program being tested for depression. The intervention description and the involvement of Gaia AG as a collaborator confirm that this is the same product developed by the manufacturer of Deprexis.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT06217198",
+      "nct_id": "NCT06217198",
+      "title": "A Computerized Depression Intervention in Veterans",
+      "official_title": "A Randomized Controlled Trial of Deprexis; Evaluation of A Computerized Intervention to Decrease Depression and Restore Functioning in Veterans",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 152,
+      "start_date": "2024-05-01",
+      "completion_date": "2029-04-30",
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "Internet-Based Intervention",
+        "Cognitive-Behavioral Therapy"
+      ],
+      "interventions": [
+        {
+          "name": "Deprexis",
+          "type": "BEHAVIORAL",
+          "description": "Deprexis is an internet-delivered treatment for depressive symptoms and related functional impairment. The intervention draws from various theoretical frameworks and consists of 12 modules: 10 core content modules and an introductory and summary module. Deprexis is designed to be interactive, includes answering questions and learning techniques and concepts through instruction and examples."
+        }
+      ],
+      "lead_sponsor": "VA Office of Research and Development",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "Depressive symptoms are common among Veterans and associated with significant impairment. Timely intervention has the potential to improve mental health outcomes and restore functioning. Interventions delivered through the internet can be completed remotely at any time, and thus minimize burden on Veterans, however the research examining their utility in Veterans is limited. This proposed project will examine Deprexis, a self-guided internet-delivered intervention, which targets depressive symptoms and associated functional impairments. Interviews will be conducted to gain insight into Veterans' perceptions, needs, and preferences vis-a-vis Deprexis, with results informing a randomized controlled trial. Here an 8-week course of Deprexis will be compared to a treatment-as-usual (TAU) control condition to establish if Deprexis is acceptable and effective for Veterans with mild to moderate depressive symptoms. Veterans engaged in Deprexis are hypothesized to show improvements on measures of functioning and decreases in depressive symptoms compared to the TAU control group. The proposed work has great clinical utility, as it could provide a readily accessible, high-quality intervention for the many Veterans suffering from depressive symptoms, with the potential to improve functioning and long-term outcomes.",
+      "detailed_description": "Depressive symptoms are common in Veterans and are highly predictive of disability and impairment in quality of life. Providing timely intervention for depressive illness can prevent chronic Major Depressive Disorder (MDD) and entrenched functional impairments. Preventing the progression into severe and recurrent disease and disability is essential; MDD is the second strongest predictor of Veteran suicide among all recorded mental health diagnoses and functional impairments associated with mental health diagnoses increase the risk for suicide. Depressive symptoms strongly predict functional impairment in Veterans independent of other debilitating mental health conditions, including PTSD. These findings suggest that depressive symptoms should be an urgent target of intervention, even in the context of complex or comorbid presentations, to improve functioning and mitigate suicide risk.\n\nThe VA healthcare system is uniquely positioned to identify and treat mild-moderate depressive symptoms because depression symptom screenings are routinely performed in primary care and specialty clinics; however, Veterans still experience various barriers to care. These barriers include shame around depression and stigma associated with seeking mental health treatment, lack of availability of mental health services, as well as difficulties attending mental health treatments due to lack of time. However, the VA is well-suited to intervene at both institutional and individual barriers to care to provide accessible, timely, and acceptable treatments for depressive symptoms using scalable, low-cost computer-delivered interventions.\n\nAlthough internet-delivered interventions have the potential to optimize treatment access and utilization for Veterans with mild-moderate depressive symptoms, the research examining the effectiveness of internet-delivered psychological intervention for Veterans is still in its nascence. Deprexis, a self-guided internet-delivered intervention, improved well-bei",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06217198",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/clinicaltrials/raw/NCT06217198.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically examines 'Deprexis', an internet-delivered intervention for depressive symptoms, as indicated in the title, abstract, and full text. The intervention is clearly identified as 'Deprexis', matching the product name and description provided.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 12,
+  "_saved_at": "2026-06-14T03:50:59.067844Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

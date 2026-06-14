@@ -1,0 +1,62 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00028699",
+      "drks_id": "DRKS00028699",
+      "title": "Evaluation of medical benefits and positive effects of the certified medical product PINK! Coach in a multi-centre, randomized controlled clinical study with breast cancer patients",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00028699/details",
+      "_matched_query": "\"PINK! Coach\"",
+      "_raw_json_path": "evidence/Germany/pink-coach/candidates/drks/raw/DRKS00028699.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product PINK! Coach, as evidenced by the repeated mention of 'PINK! Coach' in the title, trial description, and intervention details. The manufacturer, PINK gegen Brustkrebs GmbH, is also involved, confirming the product's identity.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a multi-centre, randomized controlled clinical study, which indicates that participants are randomly allocated to intervention and control groups under controlled trial conditions."
+      }
+    },
+    {
+      "study_id": "DRKS00025811",
+      "drks_id": "DRKS00025811",
+      "title": "Method validation (pilot study) on the effectiveness of PINK! Coaching app for digital therapy and follow-up care for patients with breast cancer - a prospective, randomized-controlled feasibility study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00025811/details",
+      "_matched_query": "\"PINK! Coach\"",
+      "_raw_json_path": "evidence/Germany/pink-coach/candidates/drks/raw/DRKS00025811.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the PINK! Coaching app, which matches the product name and variations provided. The trial registration and full text confirm the use of the PINK! app as the intervention for breast cancer patients.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a 'prospective, randomized-controlled feasibility study' with participants allocated to an intervention group using the PINK! Coaching app and a control group receiving standard care, indicating an experimental design with randomization."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T08:04:10.072864Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

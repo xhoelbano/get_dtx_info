@@ -1,0 +1,1030 @@
+{
+  "country": "Germany",
+  "search_date": "2026-06-14T09:57:47.815834Z",
+  "mode": "full",
+  "dtx_searched": 14,
+  "total_candidates": 304,
+  "total_verified_rct": 32,
+  "total_verified_rwe": 9,
+  "total_rejected": 256,
+  "total_ineligible": 7,
+  "by_dtx": {
+    "mebix": {
+      "dtx_name": "mebix",
+      "country": "Germany",
+      "search_date": "2026-06-14T09:57:47.815972Z",
+      "candidates": {
+        "dtx_name": "mebix",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T09:57:47.818483Z",
+        "queries": [
+          "\"mebix\"",
+          "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"mebix\"",
+              "\"mebix\" AND \"wurde am 14.07.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 53
+      },
+      "verification": {
+        "dtx_name": "mebix",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T09:58:54.073948Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 47,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 2,
+        "total_rejected": 47,
+        "total_ineligible": 0
+      }
+    },
+    "Mika": {
+      "dtx_name": "Mika",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:00:02.780257Z",
+      "candidates": {
+        "dtx_name": "Mika",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:00:02.780764Z",
+        "queries": [
+          "\"Mika\"",
+          "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 4,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 8,
+            "queries": [
+              "\"Mika\"",
+              "\"Mika\" AND \"wurde am 25.03.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 64
+      },
+      "verification": {
+        "dtx_name": "Mika",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:02:17.144854Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 3,
+            "verified_rwe": 0,
+            "rejected": 47,
+            "ineligible": 0
+          },
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 4,
+            "verified_rct": 3,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 0
+          },
+          "isrctn": {
+            "candidates": 8,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 8,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 6,
+        "total_verified_rwe": 0,
+        "total_rejected": 58,
+        "total_ineligible": 0
+      }
+    },
+    "MindDoc Auf Rezept": {
+      "dtx_name": "MindDoc Auf Rezept",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:03:43.576683Z",
+      "candidates": {
+        "dtx_name": "MindDoc Auf Rezept",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:03:43.577196Z",
+        "queries": [
+          "\"MindDoc Auf Rezept\"",
+          "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"MindDoc Auf Rezept\"",
+              "\"MindDoc Auf Rezept\" AND \"wurde am 25.06.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "MindDoc Auf Rezept",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:05:19.087509Z",
+        "sources": {
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 10,
+        "total_ineligible": 0
+      }
+    },
+    "My Dose Coach": {
+      "dtx_name": "My Dose Coach",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:05:32.413176Z",
+      "candidates": {
+        "dtx_name": "My Dose Coach",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:05:32.413366Z",
+        "queries": [
+          "\"My Dose Coach\"",
+          "\"My Dose Coach\" AND \"Unknown\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          },
+          "drks": {
+            "total": 3,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"My Dose Coach\"",
+              "\"My Dose Coach\" AND \"Unknown\""
+            ]
+          }
+        },
+        "total_candidates": 9
+      },
+      "verification": {
+        "dtx_name": "My Dose Coach",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:06:29.811738Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 1,
+            "verified_rwe": 3,
+            "rejected": 0,
+            "ineligible": 1
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 1
+          },
+          "drks": {
+            "candidates": 3,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 3,
+        "total_rejected": 2,
+        "total_ineligible": 2
+      }
+    },
+    "optimune": {
+      "dtx_name": "optimune",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:06:47.427413Z",
+      "candidates": {
+        "dtx_name": "optimune",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:06:47.427951Z",
+        "queries": [
+          "\"optimune\"",
+          "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"optimune\"",
+              "\"optimune\" AND \"wurde am 14.07.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 6
+      },
+      "verification": {
+        "dtx_name": "optimune",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:07:43.495164Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 1
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 3,
+        "total_ineligible": 1
+      }
+    },
+    "Orthopy bei Knieverletzungen": {
+      "dtx_name": "Orthopy bei Knieverletzungen",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:08:08.494605Z",
+      "candidates": {
+        "dtx_name": "Orthopy bei Knieverletzungen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:08:08.494971Z",
+        "queries": [
+          "\"Orthopy\"",
+          "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 6,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Orthopy\"",
+              "\"Orthopy\" AND \"wurde am 09.09.2025 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "Orthopy bei Knieverletzungen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:09:23.799552Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 3,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 6,
+            "verified_rct": 5,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 6,
+        "total_verified_rwe": 0,
+        "total_rejected": 4,
+        "total_ineligible": 0
+      }
+    },
+    "re.flex": {
+      "dtx_name": "re.flex",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:09:43.969656Z",
+      "candidates": {
+        "dtx_name": "re.flex",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:09:43.969821Z",
+        "queries": [
+          "\"re.flex\"",
+          "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 8,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"re.flex\"",
+              "\"re.flex\" AND \"Diese DiGA wurde am 27.05.2024 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "re.flex",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:10:37.020074Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 8,
+            "verified_rct": 3,
+            "verified_rwe": 0,
+            "rejected": 5,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 1
+          }
+        },
+        "total_verified_rct": 4,
+        "total_verified_rwe": 0,
+        "total_rejected": 5,
+        "total_ineligible": 1
+      }
+    },
+    "Rehappy": {
+      "dtx_name": "Rehappy",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:10:52.332428Z",
+      "candidates": {
+        "dtx_name": "Rehappy",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:10:52.332928Z",
+        "queries": [
+          "\"Rehappy\"",
+          "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 3,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 1,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Rehappy\"",
+              "\"Rehappy\" AND \"wurde am 26.09.2022 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "Rehappy",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:11:36.862518Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 3,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 3,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 3,
+        "total_ineligible": 0
+      }
+    },
+    "Selfapys Online-Kurs bei chronischen Schmerzen": {
+      "dtx_name": "Selfapys Online-Kurs bei chronischen Schmerzen",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:11:44.439561Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei chronischen Schmerzen",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:11:44.439812Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei chronischen Schmerzen\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei chronischen Schmerzen",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:13:30.102346Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 11,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 13,
+        "total_ineligible": 0
+      }
+    },
+    "Selfapys Online-Kurs bei Panikstörung": {
+      "dtx_name": "Selfapys Online-Kurs bei Panikstörung",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:13:45.684116Z",
+      "candidates": {
+        "dtx_name": "Selfapys Online-Kurs bei Panikstörung",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:13:45.684345Z",
+        "queries": [
+          "\"Selfapys Online-Kurs\"",
+          "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Selfapys Online-Kurs\"",
+              "\"Selfapys Online-Kurs\" AND \"Kurs bei Panikstörung\""
+            ]
+          }
+        },
+        "total_candidates": 13
+      },
+      "verification": {
+        "dtx_name": "Selfapys Online-Kurs bei Panikstörung",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:15:30.231633Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 12,
+        "total_ineligible": 0
+      }
+    },
+    "sinCephalea - Migräneprophylaxe": {
+      "dtx_name": "sinCephalea - Migräneprophylaxe",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:15:48.152479Z",
+      "candidates": {
+        "dtx_name": "sinCephalea - Migräneprophylaxe",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:15:48.153060Z",
+        "queries": [
+          "\"sinCephalea\"",
+          "\"sinCephalea\" AND \"Migräneprophylaxe\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"sinCephalea\"",
+              "\"sinCephalea\" AND \"Migräneprophylaxe\""
+            ]
+          }
+        },
+        "total_candidates": 7
+      },
+      "verification": {
+        "dtx_name": "sinCephalea - Migräneprophylaxe",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:16:39.451855Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 2,
+            "ineligible": 2
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 2,
+        "total_rejected": 2,
+        "total_ineligible": 2
+      }
+    },
+    "Una Health für Diabetes": {
+      "dtx_name": "Una Health für Diabetes",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:16:54.723999Z",
+      "candidates": {
+        "dtx_name": "Una Health für Diabetes",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:16:54.724385Z",
+        "queries": [
+          "\"Una Health\"",
+          "\"Una Health\" AND \"wurde am 30.03.2026 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"wurde am 30.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"wurde am 30.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 13,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"wurde am 30.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Una Health\"",
+              "\"Una Health\" AND \"wurde am 30.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 63
+      },
+      "verification": {
+        "dtx_name": "Una Health für Diabetes",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:19:27.572800Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 13,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 11,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 61,
+        "total_ineligible": 0
+      }
+    },
+    "Uroletics": {
+      "dtx_name": "Uroletics",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:20:41.834643Z",
+      "candidates": {
+        "dtx_name": "Uroletics",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:20:41.835124Z",
+        "queries": [
+          "\"Uroletics\"",
+          "\"Uroletics\" AND \"wurde am 23.03.2026 aus dem Verzeichnis gestrichen.\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"wurde am 23.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"wurde am 23.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"wurde am 23.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Uroletics\"",
+              "\"Uroletics\" AND \"wurde am 23.03.2026 aus dem Verzeichnis gestrichen.\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "Uroletics",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:21:27.323640Z",
+        "sources": {
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "Vantis | KHK und Herzinfarkt": {
+      "dtx_name": "Vantis | KHK und Herzinfarkt",
+      "country": "Germany",
+      "search_date": "2026-06-14T10:21:35.193900Z",
+      "candidates": {
+        "dtx_name": "Vantis | KHK und Herzinfarkt",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T10:21:35.194038Z",
+        "queries": [
+          "\"Vantis | KHK und Herzinfarkt\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 38,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Vantis | KHK und Herzinfarkt\""
+            ]
+          }
+        },
+        "total_candidates": 40
+      },
+      "verification": {
+        "dtx_name": "Vantis | KHK und Herzinfarkt",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T10:22:38.473996Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 38,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 36,
+            "ineligible": 1
+          },
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 36,
+        "total_ineligible": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00023023",
+      "drks_id": "DRKS00023023",
+      "title": "Randomized-controlled trial investigating the effectiveness of a digital life-style intervention to improve quality of life in people with multiple sclerosis.",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00023023/details",
+      "_matched_query": "\"levidex\"",
+      "_raw_json_path": "evidence/Germany/levidex/candidates/drks/raw/DRKS00023023.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the online program levidex for therapeutic support and behavior modification among adult patients with multiple sclerosis. The product name 'levidex' is explicitly mentioned in the trial description.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 100,
+        "reason": "The study is explicitly described as a randomized controlled trial, which involves random allocation of participants to an intervention group and a control group, fulfilling the criteria for an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T04:17:09.232204Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

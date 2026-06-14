@@ -1,0 +1,114 @@
+{
+  "studies": [
+    {
+      "study_id": "37901047",
+      "pmid": "37901047",
+      "title": "App-Based Lifestyle Coaching (PINK!) Accompanying Breast Cancer Patients and Survivors to Reduce Psychological Distress and Fatigue and Improve Physical Activity: A Feasibility Pilot Study.",
+      "authors": "Wolff Josefine et al.",
+      "authors_list": [
+        "Wolff Josefine",
+        "Wuelfing Pia",
+        "Koenig Alexander",
+        "Ehrl Brigitte",
+        "Damsch Jana"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Oct",
+      "journal": "Breast care (Basel, Switzerland)",
+      "journal_abbrev": "Breast Care (Basel)",
+      "doi": "10.1159/000531495",
+      "abstract": "INTRODUCTION: This pilot study aimed to investigate the effects of using an app-based certified medical product named PINK! on breast cancer patients and survivors. The objectives were to measure psychological distress, physical activity, and therapy-related fatigue of patients using PINK! to identify trends and develop a study design for a subsequent multicentric proof of efficacy RCT. MATERIALS AND METHODS: PINK! offers individualized, evidence-based therapy and side-effect management, mindfulness-based stress reduction, nutritional and psychological education, physical activity tracking, and motivational exercises to implement lifestyle changes sustainably in daily routine. A prospective, intraindividual RCT was performed with n = 60 patients in 2021 at Comprehensive Cancer Center Munich. Patients with BC were included independent of the stage of diseases. The intervention group got access to PINK! over 12 weeks. Control group served as a waiting-list comparison to \"standard of care.\" RESULTS: Primary efficacy variable analysis revealed a relative average decrease of 32.9% in psychological distress, which corresponds to a statistically significant reduction (p < 0.001) within 12 weeks compared to the control group. Linear regressions within usage groups showed a correlation of high app usage and a reduction of psychological distress. Fatigue data presented a statistically significant antifatigue efficacy (p < 0.001) and physical activity increased by 63.9%. CONCLUSION: App-based supportive care offers a promising, low-threshold, and cost-efficient opportunity to improve psychological well-being, quality of life, fatigue, and physical activity. More research is needed to implement eHealth solutions in clinical cancer care.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "App-based intervention",
+        "Breast cancer",
+        "Digitale Gesundheitsanwendung",
+        "Fatigue",
+        "PINK!",
+        "Physical activity",
+        "Psychological distress",
+        "eHealth"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37901047/",
+      "pdf_available": false,
+      "_matched_query": "\"PINK! Coach\"",
+      "_raw_xml_path": "evidence/Germany/pink-coach/candidates/pubmed/raw/37901047.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effects of the app-based certified medical product named PINK! on breast cancer patients and survivors. The product name 'PINK!' appears in the title, abstract, and full text, and the study is conducted by PINK gegen Brustkrebs GmbH, the manufacturer of PINK! Coach.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a prospective, intraindividual RCT with random allocation of participants to an intervention group and a control group, which is the defining feature of a randomized controlled trial."
+      }
+    },
+    {
+      "study_id": "38699636",
+      "pmid": "38699636",
+      "title": "App-based support for breast cancer patients to reduce psychological distress during therapy and survivorship - a multicentric randomized controlled trial.",
+      "authors": "Wolff Josefine et al.",
+      "authors_list": [
+        "Wolff Josefine",
+        "Seidel Svenja",
+        "Wuelfing Pia",
+        "Lux Michael Patrick",
+        "Zu Eulenburg Christine"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024",
+      "journal": "Frontiers in oncology",
+      "journal_abbrev": "Front Oncol",
+      "doi": "10.3389/fonc.2024.1354377",
+      "abstract": "INTRODUCTION: The negative impact of unmanaged psychological distress on quality of life and outcome in breast cancer survivors has been demonstrated. Fortunately, studies indicate that distress can effectively be addressed and even prevented using evidence-based interventions. In Germany prescription-based mobile health apps, known as DiGAs (digital health applications), that are fully reimbursed by health insurances, were introduced in 2020. In this study, the effectiveness of an approved breast cancer DiGA was investigated: The personalized coaching app PINK! Coach supports and accompanies breast cancer patients during therapy and follow-up. METHODS: PINK! Coach was specifically designed for breast cancer (BC) patients from the day of diagnosis to the time of Follow-up (aftercare). The app offers individualized, evidence-based therapy and side-effect management, mindfulness-based stress reduction, nutritional and psychological education, physical activity tracking, and motivational exercises to implement lifestyle changes sustainably in daily routine. A prospective, intraindividual RCT (DRKS00028699) was performed with n = 434 patients recruited in 7 German breast cancer centers from September 2022 until January 2023. Patients with BC were included independent of their stage of diseases, type of therapy and molecular characteristics of the tumor. Patients were randomized into one of two groups: The intervention group got access to PINK! over 12 weeks; the control group served as a waiting-list comparison to \"standard of care.\" The primary endpoint was psychological distress objectified by means of Patient Health Questionnaire-9 (PHQ-9). Subgroups were defined to investigate the app's effect on several patient groups such as MBC vs. EBC patients, patients on therapy vs. in aftercare, patients who received a chemotherapy vs. patients who did not. RESULTS: Efficacy analysis of the primary endpoint revealed a significant reduction in psychological distress (least squares estimate -1.62, 95% confidence interval [1.03; 2.21]; p<0.001) among intervention group patients from baseline to T3 vs, control group. Subgroup analysis also suggested improvements across all clinical situations. CONCLUSION: Patients with breast cancer suffer from psychological problems including anxiety and depression during and after therapy. Personalized, supportive care with the app PINK! Coach turned out as a promising opportunity to significantly improve psychological distress in a convenient, accessible, and low-threshold manner for breast cancer patients independent of their stage of disease (EBC/MBC), therapy phase (aftercare or therapy) or therapy itself (chemotherapy/other therapy options). The app is routinely available in Germany as a DiGA. Clinical Trial Registration: DRKS Trial Registry (DRKS00028699).",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "app-based coaching",
+        "breast cancer",
+        "depression",
+        "digital intervention",
+        "psychological distress",
+        "supportive care in cancer"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38699636/",
+      "pdf_available": false,
+      "_matched_query": "\"PINK! Coach\"",
+      "_raw_xml_path": "evidence/Germany/pink-coach/candidates/pubmed/raw/38699636.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the PINK! Coach app, which is explicitly named in the abstract and full text as the intervention used in the trial. The app is described in detail, matching the product description provided.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 90,
+        "reason": "Keyword match: 4 RCT indicators vs 1 RWE indicators."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T08:04:05.467692Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

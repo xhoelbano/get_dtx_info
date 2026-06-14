@@ -1,0 +1,247 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01868672",
+      "orgStudyIdInfo": {
+        "id": "13-1808"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U01CA154282",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U01CA154282"
+        }
+      ],
+      "organization": {
+        "fullName": "University of North Carolina, Chapel Hill",
+        "class": "OTHER"
+      },
+      "briefTitle": "Brief Intervention to Create Smoke-Free Homes Policies in Low-Income Households: North Carolina Effectiveness Trial",
+      "officialTitle": "Brief Intervention to Create Smoke-Free Homes Policies in Low-Income Households: North Carolina Effectiveness Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-05-30",
+      "studyFirstSubmitQcDate": "2013-05-30",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-04",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of North Carolina, Chapel Hill",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "Emory University",
+          "class": "OTHER"
+        },
+        {
+          "name": "The University of Texas Health Science Center, Houston",
+          "class": "OTHER"
+        },
+        {
+          "name": "Washington University School of Medicine",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The burden of tobacco use falls disproportionately on low-income populations, through high rates of primary smoking and exposure to secondhand smoke. The remarkable progress in creating smoke-free environments in the U.S. over the past two decades has left smoker's homes as one of the primary sources of exposure to secondhand smoke for both children and nonsmoking adults. Intervention research that identifies effective and practical strategies for reaching the minority of households that still allow smoking in the home has considerable potential to reduce smoke exposure, but suitable channels to reach low-income families are limited.\n\nThe proposed research will systematically test an intervention designed to create smoke-free homes in low income households among 2-1-1 callers. During this randomized control trial, researchers will disseminate and evaluate a brief smoke-free homes intervention through the established infrastructure of a North Carolina 2-1-1 call center. 2-1-1 is a nationally designated 3-digit telephone exchange, similar to 9-1-1 for emergencies or 4-1-1 for directory assistance, that links callers to community-based health and social services. The main hypothesis to be tested is that a higher proportion of households in the intervention group will establish and maintain a smoke-free home than in the measures-only control group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Disease"
+      ],
+      "keywords": [
+        "Secondhand smoke exposure",
+        "Smoke-free homes",
+        "Smoke-free home bans"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Participant receives usual care."
+        },
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Educational print materials and coaching call: Intervention group participants receive three sets of mailed educational materials about making their home smoke-free and one coaching call.",
+          "interventionNames": [
+            "Behavioral: Educational print materials and coaching call"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Educational print materials and coaching call",
+          "description": "Intervention group participants receive three sets of mailed educational materials about making their home smoke-free and one coaching call.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Presence of a total home smoking ban",
+          "timeFrame": "Change from baseline in reported total home smoking bans at 3-month and 6-month follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Weekly secondhand smoke exposure for non-smokers",
+          "timeFrame": "Change from baseline in reported secondhand smoke exposure fro non-smokers at 3-month and 6-month follow-up"
+        },
+        {
+          "measure": "Cessation attempts (for smokers)",
+          "timeFrame": "Change from baseline in reported cessation attempts (for smokers) at 3-month and 6-month follow-up"
+        },
+        {
+          "measure": "Number of cigarettes smoked (for smokers)",
+          "timeFrame": "Change from baseline in reported number of cigarettes smoked (for smokers) at 3-month and 6-month follow-up"
+        },
+        {
+          "measure": "Stage of change to quit smoking (for smokers)",
+          "timeFrame": "Change from baseline in stage of change to quit smoking (for smokers) at 3-month and 6-month follow-up"
+        },
+        {
+          "measure": "Successful cessation (for smokers)",
+          "timeFrame": "Change from baseline in successful cessation (for smokers) at 3-month and 6-month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be 18 years of age or older.\n* Must speak and understand English.\n* Must smoke and live with at least one other non-smoking person OR be a non-smoker who lives with a smoker(s).\n* Must not have a total smoking ban in their home.\n\nExclusion Criteria:\n\n* All participants who are not in immediate crisis will be invited to participate in the study.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Rebecca S Williams, MHS, PhD",
+          "affiliation": "University of North Carolina, Chapel Hill",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of North Carolina, Chapel Hill",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22675374",
+          "type": "BACKGROUND",
+          "citation": "Kegler MC, Escoffery C, Bundy L, Berg CJ, Haardorfer R, Yembra D, Schauer G. Pilot study results from a brief intervention to create smoke-free homes. J Environ Public Health. 2012;2012:951426. doi: 10.1155/2012/951426. Epub 2012 May 17."
+        },
+        {
+          "pmid": "23669213",
+          "type": "BACKGROUND",
+          "citation": "Escoffery C, Bundy L, Carvalho M, Yembra D, Haardorfer R, Berg C, Kegler MC. Third-hand smoke as a potential intervention message for promoting smoke-free homes in low-income communities. Health Educ Res. 2013 Oct;28(5):923-30. doi: 10.1093/her/cyt056. Epub 2013 May 13."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

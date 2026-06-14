@@ -1,0 +1,232 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04207827",
+      "orgStudyIdInfo": {
+        "id": "PN-III-P4-ID-PCE-2016-0632"
+      },
+      "organization": {
+        "fullName": "Babes-Bolyai University",
+        "class": "OTHER"
+      },
+      "briefTitle": "mHealth Intervention to Prevent Postpartum Smoking Relapse",
+      "officialTitle": "An mHealth Intervention to Prevent Smoking Relapse After Pregnancy (RESPREMO)",
+      "acronym": "RESPREMO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-06-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-01-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-07-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-12-19",
+      "studyFirstSubmitQcDate": "2019-12-19",
+      "studyFirstPostDateStruct": {
+        "date": "2019-12-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-12-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-12-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Cristian Ioan Meghea",
+        "investigatorTitle": "Project Director",
+        "investigatorAffiliation": "Babes-Bolyai University"
+      },
+      "leadSponsor": {
+        "name": "Babes-Bolyai University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This project aims to develop an adapted and enhanced mHealth couple intervention to prevent post-partum smoking relapse.",
+      "detailedDescription": "The main goal of this project is to develop, implement, and disseminate effective and sustainable interventions to prevent and reduce smoking in families over their reproductive life span. So, the purpose of this project is to adapt, enhance, and test the implementation feasibility and efficacy of an evidence-based pregnancy and postnatal smoking relapse pilot mHealth intervention. The scientific relevance of this research project is given by: 1) testing a cultural-adapted version of the iCoach mobile application for the prevention of smoking uptake after birth. 2) The cultural adaptation will be obtained based on the existing literature regarding the adaptation of preventive interventions for substance use. 3) The iCoach app intervention is enhanced with SMS-delivered content addressing the dyadic efficacy for smoking cessation aiming to improve both partners' skills to work together as a team to prevent smoking uptake after birth."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tobacco Use Cessation",
+        "Pregnancy Related"
+      ],
+      "keywords": [
+        "mHealth",
+        "smoking",
+        "postpartum"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "xSmoker app",
+          "type": "EXPERIMENTAL",
+          "description": "The xSmoker app was developed with European Commission funding. xSmoker is a digital health coaching mobile app that helps individuals stop smoking and remain smoke free. The initial version of the xSmoker application was received from the developers and translated into Romanian by the research team. The content has been divided into three main sections: \"Daily Tips\" (approximately 630 items), which includes information on the beneficial effects of quitting smoking, \"Panic Tips\" (approximately 100 items), which can be accessed at that time when risk of smoking relapse is high, as well as a section called \"Library\" (about 120 items), where detailed information on the topics included in the first two sections is provided.",
+          "interventionNames": [
+            "Behavioral: xSmoker app"
+          ]
+        },
+        {
+          "label": "xSmoker app + SMSs",
+          "type": "EXPERIMENTAL",
+          "description": "The xSmoker app + phone text messages with content based on the Motivation and Problem Solving approach and informed by our prior work. The investigators developed six categories of messages sent to participants: (1)Importance and trust, (2)Fear of relapse, (3)Partner support, (4)Breastfeeding, (5)The need to smoke, and (6)Relapse. Four major objectives were established based on the content of the SMS text messages, with the help of the literature: (1)supporting motivation, (2)supporting self-efficacy, (3)supporting dyadic effectiveness, and (4)developing problem-solving skills. The messages were delivered using Textit, a platform for visually building interactive SMS applications (htpps://textit.in). All the messages were uploaded in the platform and different flows and sub-flows were created for every day of the intervention to automatize the process of SMS delivery. A combination of trigger words and skip patterns was used in order to tailor the messages.",
+          "interventionNames": [
+            "Behavioral: xSmoker app",
+            "Behavioral: SMS"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "OTHER",
+          "description": "Usual postnatal care",
+          "interventionNames": [
+            "Other: Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "xSmoker app",
+          "description": "xSmoker - mHealth intervention consisted of using the app xSmoker",
+          "armGroupLabels": [
+            "xSmoker app",
+            "xSmoker app + SMSs"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "SMS",
+          "description": "Text messages with content based on the Motivation and Problem Solving approach and informed by our prior work.",
+          "armGroupLabels": [
+            "xSmoker app + SMSs"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "description": "Usual postnatal care",
+          "armGroupLabels": [
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Seven-day point prevalence abstinence (PPA)",
+          "description": "PPA, participants who reported 'no smoking, not even a puff' in the previous 7 days are mailed a saliva cotinine test and asked to send at least one photo of the completed test. Those with a salivary cotinine \\<10 ng/mL, were considered confirmed nonsmokers.",
+          "timeFrame": "At 3 months post-birth"
+        },
+        {
+          "measure": "Prolonged abstinence (PA)",
+          "description": "PA was defined based on the question \"Have you smoked tobacco cigarettes over the past 6 months\", with PA failure determined by the answers \"Yes, I smoked, but never a whole cigarette,\" \"Yes, I smoked cigarettes, but only occasionally,\" or \"Yes, I smoked cigarettes daily for a period (or periods) of time.\"",
+          "timeFrame": "At 3 months post-birth"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* older than 18 years\n* gave up smoking 6 months before or during pregnancy\n* owns a smartphone\n* has a stable partner/husband\n* offers the partner's contact data\n* signs the informed consent\n* CO level (ppm) below 4\n\nExclusion Criteria:\n\n* younger than 18 years\n* smoker\n* does not own a smartphone\n* does not have a stable partner/husband\n* refuses to offer the partner's contact data\n* refuses to sign the informed consent\n* refuses the CO level measurement or the CO level (ppm) is above 4",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "The eligible participants were women who just gave birth and who gave up smoking during their pregnancy or 6 months prior to the pregnancy",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Cristian I Meghea, PhD",
+          "affiliation": "Babes-Bolyai University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Babes-Bolyai University",
+          "city": "Cluj-Napoca",
+          "state": "Cluj",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020340",
+          "term": "Tobacco Use Cessation"
+        },
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

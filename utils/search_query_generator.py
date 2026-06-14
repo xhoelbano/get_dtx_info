@@ -10,6 +10,8 @@ leading to false positives.
 import re
 from typing import List, Dict, Tuple
 
+from .company_name import normalize_company_name
+
 
 class SearchQueryGenerator:
     """Generate exactly 2 targeted search queries for evidence databases.
@@ -93,48 +95,38 @@ class SearchQueryGenerator:
         return core_name, clean_company
     
     def _clean_company_name(self, company: str) -> str:
-        """Extract clean company name suitable for searching.
+        """Extract a clean company name suitable for searching.
         
-        Removes legal suffixes (GmbH, AG, Inc, Ltd, etc.) and common
-        words that don't help with search specificity.
+        Delegates to the shared ``normalize_company_name`` (which strips DiGA
+        status notes / boilerplate / product-name fragments and keeps the real
+        manufacturer). Then trims the trailing legal-entity suffix so the query
+        term is the distinctive part of the name.
         
         Args:
-            company: Full company name.
+            company: Raw or normalized company/provider string.
             
         Returns:
-            Cleaned company name for searching.
+            Cleaned company name for searching, or "" when none can be derived.
         """
-        if not company:
+        clean = normalize_company_name(company)
+        if not clean:
             return ""
         
-        clean = company.strip()
-        
-        # Remove legal entity suffixes
+        # Drop a trailing legal-entity suffix so the search term is the
+        # distinctive part of the name (keep the rest of the name intact).
         clean = re.sub(
-            r'\s*(GmbH|AG|Inc\.?|Ltd\.?|LLC|Corp\.?|Co\.?|s\.r\.o\.|B\.V\.|S\.A\.|SE|KG|mbH|e\.V\.|UG).*$',
+            r'\s*(GmbH|mbH|AG|UG|SE|KG|e\.V\.|B\.V\.|s\.r\.o\.|Ltd\.?|Inc\.?|LLC|Corp\.?)\s*$',
             '', clean, flags=re.IGNORECASE
         ).strip()
         
-        # Take first part before commas or newlines
-        clean = clean.split(",")[0].strip()
-        clean = clean.split("\n")[0].strip()
-        
-        # Remove common non-distinctive words
-        exclusions = [
+        # Guard: never return a bare generic word as the company term.
+        generic = {
             "deutschland", "germany", "usa", "europe", "international",
             "software", "health", "healthcare", "digital", "medical",
-            "therapeutics", "therapy", "solutions", "services", "technologies"
-        ]
-        
-        # Check if the cleaned name is just a generic word
-        if clean.lower() in exclusions:
+            "therapeutics", "therapy", "solutions", "services", "technologies",
+        }
+        if clean.lower() in generic:
             return ""
-        
-        # Remove trailing generic words
-        for word in exclusions:
-            clean = re.sub(
-                rf'\s+{word}\s*$', '', clean, flags=re.IGNORECASE
-            ).strip()
         
         return clean
     

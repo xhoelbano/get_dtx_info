@@ -1,0 +1,311 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07487818",
+      "orgStudyIdInfo": {
+        "id": "25-005696"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R21CA302802-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R21CA302802-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study Of Vagal Nerve Stimulation In Conjunction With NRT For Smoking Cessation",
+      "officialTitle": "Using Vagal Nerve Stimulation In Conjunction With NRT For Smoking Cessation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-15",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-16",
+      "studyFirstSubmitQcDate": "2026-03-18",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ryan T. Hurt, M.D., Ph.D.",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to provide preliminary evidence for the efficacy of 12 weeks of vagal nerve stimulation (VNS) and nicotine replacement therapy (NRT) for increasing smoking abstinence rates.",
+      "detailedDescription": "This study will evaluate the role of vagal nerve stimulation as a potential adjunct to nicotine patches to help smokers stop smoking."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking Cessation"
+      ],
+      "keywords": [
+        "nicotine dependence",
+        "smoking",
+        "vagal nerve stimulator",
+        "VNS",
+        "varenicline",
+        "nicotine replacement therapy",
+        "nicotine patches"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This open-label study will randomize subjects to VNS plus nicotine patch or nicotine patch alone. In the second phase, those who are smoke-free at the end of phase one, will go into post-treatment follow-up (no med), and those who are continuing to smoke will go into a retreatment phase of 12 weeks of varenicline.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vagal Nerve Stimulator and Nicotine Replacement Patches",
+          "type": "EXPERIMENTAL",
+          "description": "This arm will receive nicotine patches (21 mg) for 12 weeks and brief behavioral therapy (through the self-help manual Smoke Free and Living It), as well as the vagal nerve stimulator (VNS) device to use during these 12 weeks while trying to stop smoking. The VNS delivers up to 30 stimulations over 24 hours.",
+          "interventionNames": [
+            "Combination Product: Non-invasive vagus nerve stimulator plus nicotine replacement patches"
+          ]
+        },
+        {
+          "label": "Nicotine Replacement Patches",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "This arm will receive nicotine patches (21 mg) for 12 weeks and brief behavioral therapy (through the self-help manual Smoke Free and Living It).",
+          "interventionNames": [
+            "Drug: nicotine replacement patches"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Non-invasive vagus nerve stimulator plus nicotine replacement patches",
+          "description": "VNS is a handheld, rechargeable, portable device that delivers electrical signals to the vagal nerve when positioned on the skin of the neck at the appropriate location to stimulate the vagal nerve for 2 minutes at each treatment. During these 12 weeks, participants will also use a 21 mg nicotine patch daily.",
+          "armGroupLabels": [
+            "Vagal Nerve Stimulator and Nicotine Replacement Patches"
+          ],
+          "otherNames": [
+            "GammaCore Vagal Nerve Stimulator"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "nicotine replacement patches",
+          "description": "Use of a 21 mg nicotine patch daily for up to 12 weeks",
+          "armGroupLabels": [
+            "Nicotine Replacement Patches"
+          ],
+          "otherNames": [
+            "NRT",
+            "nicotine patches"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Smoking Abstinence",
+          "description": "reporting smoking abstinence and having it be biochemically confirmed (CO reading of \\< 8 ppm)",
+          "timeFrame": "week 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older at the time of consent.\n* Currently smoking at least 10 cigarettes/day\n* Motivated to stop smoking (on a scale of 0 to 10, motivation must be 3 or above);\n* Ability to participate fully in all aspects of the study.\n* Have the ability to provide informed consent.\n* Have no contraindicating comorbid health conditions that would interfere with study participation, as determined by the clinical investigators.\n\nExclusion Criteria:\n\n* Patients with a current moderate/severe depression as assessed by a score of ≥10 on the Patient Health Questionnaire-9 (PHQ-9).\n* Patients who are or have used an investigational drug within the past 30 days.\n* Patients who are currently using medication(s) known to interact with varenicline.\n* Patients who have clinically significant acute/chronic progressive or unstable neurologic, hepatic, renal, cardiovascular, psychological, respiratory, or metabolic disease.\n* Patients with a known allergy to nicotine patches or varenicline.\n* Patients with a personal history of acute pancreatitis, hypoglycemia, acute kidney injury or impairment of renal function, type 1 diabetes or diabetic ketoacidosis, and/or severe gastrointestinal disease such as gastroparesis.\n* Patients with an active implantable medical device, such as a pacemaker, hearing aid implant, or any implanted electronic device.\n* Patients diagnosed with narrowing of the arteries (carotid atherosclerosis)\n* Patients who have had surgery to cut the vagus nerve in the neck (cervical vagotomy)\n* Patients with clinically significant hypertension, hypotension, bradycardia, or tachycardia\n* Patients who have a metallic device such as a stent, bone plate, or bone screw implanted at or near your neck\n* Patients who are using another device at the same time (e.g., TENS Unit, muscle stimulator) or any portable electronic device (e.g., mobile phone).\n* Women who are pregnant or lactating, or who are of childbearing potential and are likely to become pregnant during the medication phase but are not willing to use a reliable form of contraception, will also be excluded.\n\n  1. Reliable forms of contraception include oral contraception, diaphragm or condom (with spermicide), injections, intrauterine devices, surgical sterilization, and abstinence. The study does not include vulnerable populations.\n  2. Specifically, the study does not include fetuses, neonates, pregnant women, children (\\<18 years of age), prisoners, institutionalized individuals, or other vulnerable populations.\n\n  i. All female participants of childbearing potential must have a negative pregnancy test and must agree to use approved contraception during study participation.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shawn Fokken, CCRP",
+          "role": "CONTACT",
+          "phone": "507-538-7820",
+          "email": "RSTGIMRESStudies@mayo.edu"
+        },
+        {
+          "name": "Sara Seegmiller, RN",
+          "role": "CONTACT",
+          "phone": "507-538-7820",
+          "email": "RSTGIMRESStudies@mayo.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Ryan Hurt, MD, PhD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ivana T Croghan, PhD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic in Rochester",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shawn Fokken, CCRP",
+              "role": "CONTACT",
+              "phone": "507-538-7820",
+              "email": "RSTGIMRESStudies@mayo.edu"
+            },
+            {
+              "name": "Sara Seegmiller, RN",
+              "role": "CONTACT",
+              "phone": "507-538-7820",
+              "email": "RSTGIMRESStudies@mayo.edu"
+            },
+            {
+              "name": "Ryan T Hurt, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Ivana T Croghan, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        },
+        {
+          "id": "D014029",
+          "term": "Tobacco Use Disorder"
+        },
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D061485",
+          "term": "Tobacco Use Cessation Devices"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,67 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT07561255",
+      "nct_id": "NCT07561255",
+      "title": "Exploratory Investigation of the Acceptance and Utility of 14-day Trial Periods and Application-related Outcome Measurement (AbEM) Within the Routine Prescription of the DiGA Axia.",
+      "official_title": "Real-world Quality Management Study With Axia to Evaluate the Measures of the DigiG (RAEMD Study)",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "SUPPORTIVE_CARE",
+        "masking": "SINGLE"
+      },
+      "enrollment": 200,
+      "start_date": "2026-04-10",
+      "completion_date": "2027-04-10",
+      "conditions": [
+        "Spondylitis, Ankylosing",
+        "Mobile Phone Use"
+      ],
+      "keywords": [
+        "axial spondyloarthritis",
+        "mobile health",
+        "digitalization",
+        "onboarding",
+        "real-world",
+        "therapeutic app"
+      ],
+      "interventions": [
+        {
+          "name": "Test-phase with immediate access",
+          "type": "DEVICE",
+          "description": "Use of two versions of an onboarding brochure in A7 format containing a QR code. The brochures are provided free of charge to the study centers by the manufacturer. Each study center receives 20 cards in a 1:1 ratio.\n\nOne version contains the QR code with instructions and support for the standard procedure (Axia can only be used once the activation code has been provided by the health insurance fund).\n\nThe second version contains a QR code through which Axia can be downloaded from the app store "
+        },
+        {
+          "name": "Standard procedure",
+          "type": "OTHER",
+          "description": "Axia can only be used once the activation code has been provided by the health insurance fund"
+        }
+      ],
+      "lead_sponsor": "Wuerzburg University Hospital",
+      "collaborators": [],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "This prospective, multicenter, controlled real-world quality management study explores the acceptance and utility of two measures discussed in the context of the German Digital Act (DigiG) for the digital health application (DiGA) Axia: a 14-day trial period and an application-related outcome measurement (AbEM). Patients with axial spondyloarthritis in Axia's indication area who are eligible for prescription in routine care will receive one of two onboarding brochure versions in a 1:1 allocation: either the standard access procedure or immediate 14-day trial access until the health insurance activation code arrives. The manufacturer will analyze aggregated anonymized data to compare voucher redemption and app activation frequencies between groups and to assess acceptance and return rates of a voluntary five-item AbEM questionnaire at weeks 6 and 12. Secondary analyses will descriptively evaluate AbEM results and anonymized usage data.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT07561255",
+      "_matched_query": "\"Axia\"",
+      "_raw_json_path": "evidence/Germany/axia-fur-axiale-spondyloarthritis-axspa/candidates/clinicaltrials/raw/NCT07561255.json"
+    }
+  ],
+  "count": 1,
+  "queries_used": [
+    "\"Axia\"",
+    "\"Axia\" AND \"Applimeda\""
+  ],
+  "dtx_name": "Axia - für axiale Spondyloarthritis (axSpA)",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T03:38:32.436455Z",
+  "_source": "clinicaltrials",
+  "_layer": "candidates"
+}

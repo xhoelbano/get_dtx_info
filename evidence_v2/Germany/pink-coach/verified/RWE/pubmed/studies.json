@@ -1,0 +1,60 @@
+{
+  "studies": [
+    {
+      "study_id": "38473378",
+      "pmid": "38473378",
+      "title": "App-Based Lifestyle Intervention (PINK! Coach) in Breast Cancer Patients-A Real-World-Data Analysis.",
+      "authors": "Wolff Josefine et al.",
+      "authors_list": [
+        "Wolff Josefine",
+        "Smollich Martin",
+        "Wuelfing Pia",
+        "Mitchell Jack",
+        "Wuerstlein Rachel"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Feb-29",
+      "journal": "Cancers",
+      "journal_abbrev": "Cancers (Basel)",
+      "doi": "10.3390/cancers16051020",
+      "abstract": "INTRODUCTION: Overweight and a lack of physical activity not only increase the risk of recurrence in breast cancer patients but also negatively impact overall and long-term survival, as well as quality of life. The results presented here are the first real-world data from the DiGA PINK! Coach examining the physical activity and BMI of app users. Based on the literature, an approximate weight gain of 10% over 6 months and a decrease in physical activity can be expected. The purpose of this study is to retrospectively investigate the effects of the PINK! Coach in a real-world setting on patients' BMI and physical activity level during acute therapies. such as chemotherapy (CHT) and antihormone therapy (AHT). MATERIAL AND METHODS: The PINK! Coach app accompanies breast cancer patients during and after acute therapy to bring about a sustainable lifestyle change. The patients are encouraged to establish a healthy diet, become physically active, and make informed decisions. In this study, real-world data from the app were analyzed over 6 months from baseline to T1 (after 12 weeks) and T2 (after 24 weeks). The patients were under acute therapy or in follow-up care receiving either CHT or AHT. RESULTS: The analyzed data indicate that all patients were able to maintain a consistent BMI over 6 months independent of pre-defined subgroups such as AHT, CHT, or BMI subgroups. In the subgroup of patients undergoing AHT, overweight patients were even able to significantly reduce their BMI by 1-score-point over 6 months (p < 0.01). The subgroup of patients undergoing CHT also showed an significant overall reduction in BMI (p = 0.01). All patients were also able to significantly increase their daily step count as well as their physical activity minutes per day. After the first 12 weeks, 41.4% of patients experienced weight gain, 33.4% were able to maintain their weight, and 24.2% reduced their weight. CONCLUSION: The presented data provides intriguing insights into the users of the PINK! Coach app and the impact of this usage in regards to BMI and physical activity. At the current time, there are only a few effective concepts for encouraging all breast cancer patients to engage in moderate physical activity and reduce body weight. Often, these concepts apply to selected patient groups. The data presented here include all age groups, tumor stages, and therapies, providing an initial insight into a comprehensive approach. Data over an even longer period would be one way to better contextualize the results in current research.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "breast cancer",
+        "coaching",
+        "ehealth",
+        "mhealth app",
+        "psychological distress"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38473378/",
+      "pdf_available": false,
+      "_matched_query": "\"PINK! Coach\"",
+      "_raw_xml_path": "evidence/Germany/pink-coach/candidates/pubmed/raw/38473378.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the PINK! Coach digital therapeutic product, as evidenced by the repeated mention of 'PINK! Coach' in the title, abstract, and full text. The study analyzes real-world data from the PINK! Coach app, confirming its focus on this specific product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "retrospective real-world data analysis",
+        "confidence": 95,
+        "reason": "The study analyzes real-world data from app users in a non-randomized, observational setting to assess the effects of the PINK! Coach app on BMI and physical activity, fitting the criteria for RWE."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T08:04:05.472420Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

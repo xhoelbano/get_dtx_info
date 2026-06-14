@@ -1,0 +1,63 @@
+{
+  "studies": [
+    {
+      "study_id": "42040784",
+      "pmid": "42040784",
+      "title": "A randomized, unblinded, controlled clinical study to assess the mobile digital health application INKA in the management of therapy refractory overactive bladder and mixed incontinence.",
+      "authors": "Schramm L et al.",
+      "authors_list": [
+        "Schramm L",
+        "Wiedemann A",
+        "Neumeister C",
+        "Wolf H",
+        "Götz Marcus Rudolf"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026",
+      "journal": "Frontiers in digital health",
+      "journal_abbrev": "Front Digit Health",
+      "doi": "10.3389/fdgth.2026.1610663",
+      "abstract": "BACKGROUND: This exploratory, two-arm, randomized, unblinded, controlled, multicentre study assessed the health benefits of the INKA app, a MDR class I CE-marked digital therapy companion for patients with overactive bladder (OAB) and mixed incontinence (MI). INKA offers self-guided educational, behavioural, and motivational content, along with physiotherapy modules and supports daily self-management, in accordance with current clinical guidelines. METHODS: 251 patients under first-line stable pharmacological treatment were recruited at 35 study sites in Germany and randomized to receive access to the INKA app or standard of care alone (the control group). Self-assessed OAB related endpoints were investigated at baseline, after 4 and after 12 weeks. The end-of-study visit was conducted on site. RESULTS: Among 111 evaluable patients (43 INKA, 68 control), baseline characteristics were comparable (mean age 52.7 years, SD 14.6; 27% male, 73% female). 55% of INKA users engaged with the app on a daily basis. At 12 weeks, the INKA group showed a mean reduction of -1.02 (SD 3.36) micturitions per 24 h compared to +0.08 (SD 2.97) in the control group. Significant and clinically meaningful improvements were observed in female INKA users and those with heightened symptom severity. A significant mean increase in urine volume per micturition was noted in the INKA group (+15.75 mL, SD 49.74) vs. the control group (-8.84 mL, SD 52.14), in \"OAB wet\" and in the female subgroup. The ICIQ-OAB questionnaire results indicated favourable outcomes for all groups, with all INKA patients and the female subgroup showing clinically relevant symptom relief. Additionally, greater improvement on the ICIQ-OABqol questionnaire was reported for the INKA group (-12.5, SD 20.17) vs. the control group (-7.89, SD 20.15). No INKA-related adverse events or device deficiencies were reported. CONCLUSION: This proof-of-concept study highlights the potential of the INKA mobile app to reduce micturition frequency and increase the micturition volume in therapy refractory OAB patients, both recognized as key factors of OAB symptom burden. A forthcoming trial will evaluate an optimized and more user-friendly version of the app with patients with a higher symptom severity at baseline. CLINICAL TRIAL REGISTRATION: German Clinical Trials Register (DRKS ID 00029329).",
+      "publication_types": [
+        "Clinical Trial",
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "DIGA",
+        "DTx (digital therapeutics)",
+        "bladder training",
+        "digital self-management",
+        "mHealth (mobile health)",
+        "overactive bladder (OAB)",
+        "pelvic floor muscle training",
+        "urinary incontinence"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42040784/",
+      "pdf_available": false,
+      "_matched_query": "\"INKA\"",
+      "_raw_xml_path": "evidence/Germany/inka/candidates/pubmed/raw/42040784.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the INKA app, as evidenced by the title, abstract, and full text, which repeatedly mention the INKA app as the intervention being assessed. The manufacturer, Nextec Medical GmbH, is also identified as the developer and sponsor of the study.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 100,
+        "reason": "The study is described as a randomized, unblinded, controlled clinical study, which indicates that participants were randomly allocated to either the intervention group (INKA app) or the control group (standard of care), fulfilling the criteria for an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T04:09:34.690247Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

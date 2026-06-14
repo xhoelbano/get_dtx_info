@@ -1,0 +1,74 @@
+{
+  "studies": [
+    {
+      "study_id": "40779057",
+      "pmid": "40779057",
+      "title": "[Effectiveness of digital therapy in patellofemoral pain treatment].",
+      "authors": "Hinz Maleen et al.",
+      "authors_list": [
+        "Hinz Maleen",
+        "Wagner Daniel",
+        "Kölle Theresa",
+        "Mayer-Roth Tobias A",
+        "Maiwald Christian"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jan",
+      "journal": "Orthopadie (Heidelberg, Germany)",
+      "journal_abbrev": "Orthopadie (Heidelb)",
+      "doi": "10.1007/s00132-025-04704-w",
+      "abstract": "BACKGROUND: Patellar pathologies are a common manifestation of musculoskeletal disorders. Digital health applications (DiGA), such as Mawendo, offer an alternative therapeutic approach to physiotherapy. AIM OF THE STUDY: This study aimed to evaluate the effectiveness of the DiGA-Mawendo compared to conventional physiotherapy in patients with patellofemoral pain, based on the KOOS subscales. METHODS: A total of 253 participants were randomly assigned to either a DiGA or physiotherapy group over a period of 12 weeks. The primary endpoints were the KOOS subscales, which were analyzed descriptively and using ANCOVA models. RESULTS: DiGA-Mawendo showed significantly better outcomes in all subscales, exceeding the minimum clinically important difference (MCID) in each case. DISCUSSION: DiGA demonstrated a clinically relevant, multidimensional therapeutic effect across all subscales. Its flexible use and high effectiveness support its complementary role in healthcare delivery.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "English Abstract"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Male",
+        "Patellofemoral Pain Syndrome",
+        "Adult",
+        "Physical Therapy Modalities",
+        "Treatment Outcome",
+        "Young Adult",
+        "Middle Aged",
+        "Mobile Applications"
+      ],
+      "keywords": [
+        "Digital health technology",
+        "Patella",
+        "Patient reported outcome (KOOS)",
+        "Physiotherapy",
+        "Self-management"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40779057/",
+      "pmc_id": "PMC12804320",
+      "pdf_available": true,
+      "_matched_query": "\"Mawendo\"",
+      "_raw_xml_path": "evidence/Germany/mawendo/candidates/pubmed/raw/40779057.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the effectiveness of the digital therapeutic product Mawendo, as indicated by the repeated mention of 'DiGA-Mawendo' in the abstract and full text. The study compares Mawendo to conventional physiotherapy for patellofemoral pain, confirming it is about this specific product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T04:18:29.794598Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,1014 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03342027",
+      "orgStudyIdInfo": {
+        "id": "HP-00077523"
+      },
+      "organization": {
+        "fullName": "University of Maryland, Baltimore",
+        "class": "OTHER"
+      },
+      "briefTitle": "Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+      "officialTitle": "Optimizing Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-08-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-09",
+      "studyFirstSubmitQcDate": "2017-11-09",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-14",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-08-28",
+      "resultsFirstSubmitQcDate": "2025-02-03",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Seth Himelhoch",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Maryland, Baltimore"
+      },
+      "leadSponsor": {
+        "name": "University of Maryland, Baltimore",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The proposed study will use a factorial design to evaluate the most promising and accessible behavioral and pharmacologic treatments aimed at achieving maximal efficacy for smoking cessation among people living with HIV who smoke. The study will randomize 300 participants people living with HIV , who smoke and who are receiving care in HIV clinics affiliated with the Center for International Health, Education, and Biosecurity in Nairobi, Kenya to one of the following 4 conditions: (1) bupropion + Positively Smoke Free (an 8 session tailored behavioral intervention for people living with HIV smokers); (2) bupropion + Standard of Care (brief advice to quit); (3) Placebo + Positively Smoke Free; and (4) Placebo + Standard of Care.",
+      "detailedDescription": "The proposed study will use a factorial design to evaluate the most promising and accessible behavioral and pharmacologic treatments aimed at achieving maximal efficacy for smoking cessation among people living with HIV who smoke. The will randomize 300 participants people living with HIV, who smoke and who are receiving care at HIV clinics affiliated with the Center for International Health, Education, and Biosecurity in Nairobi, Kenya to one of the following 4 conditions: (1) bupropion + Positively Smoke Free (an 8 session tailored behavioral intervention for people living with HIV smokers); (2) bupropion + Standard of Care (brief advice to quit); (3) Placebo + Positively Smoke Free; and (4) Placebo + Standard of Care. The study will use a factorial design as it is a highly efficient method of assessing multiple treatments in a single trial with the possibility of saving both time and resources. All participants will be assessed at baseline,12 weeks and 36 weeks with the main outcome being 7-day abstinence (defined as self-reported no smoking in the past 7 days + CO\\<7 ppm)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV",
+        "Smoking Cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "4 conditions: (1) bupropion + Positively Smoke Free (an 8 session tailored behavioral intervention for PLWH smokers); (2) bupropion + Standard of Care (brief advice to quit); (3) Placebo + Positively Smoke Free; and (4) Placebo + Standard of Care.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Bupropion + Positively Smoke Free",
+          "type": "EXPERIMENTAL",
+          "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation bupropion--used for smoking cessation",
+          "interventionNames": [
+            "Drug: Bupropion",
+            "Behavioral: Positively smoke free"
+          ]
+        },
+        {
+          "label": "Bupropion + Standard of Care",
+          "type": "EXPERIMENTAL",
+          "description": "Standard of Care--brief advice to quit provided in a standardized format bupropion--used for smoking cessation",
+          "interventionNames": [
+            "Drug: Bupropion",
+            "Other: Brief advice to quit smoking"
+          ]
+        },
+        {
+          "label": "Placebo + Positively Smoke Free",
+          "type": "EXPERIMENTAL",
+          "description": "Placebo--matched to bupropion Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation",
+          "interventionNames": [
+            "Behavioral: Positively smoke free"
+          ]
+        },
+        {
+          "label": "Placebo + Standard of Care.",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo--matched to bupropion Standard of Care--brief advice to quit provided in a standardized format",
+          "interventionNames": [
+            "Other: Brief advice to quit smoking"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bupropion",
+          "description": "medication for smoking cessation",
+          "armGroupLabels": [
+            "Bupropion + Positively Smoke Free",
+            "Bupropion + Standard of Care"
+          ],
+          "otherNames": [
+            "Zyban"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Positively smoke free",
+          "description": "an 8 session, tailored behavioral intervention for treating tobacco dependence",
+          "armGroupLabels": [
+            "Bupropion + Positively Smoke Free",
+            "Placebo + Positively Smoke Free"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Brief advice to quit smoking",
+          "description": "Standardized brief advice to quit smoking (standard of care)",
+          "armGroupLabels": [
+            "Bupropion + Standard of Care",
+            "Placebo + Standard of Care."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "7-day Abstinence",
+          "description": "defined as self-reported no smoking in the past 7 days + CO\\<7 ppm",
+          "timeFrame": "Up to 36 Weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Chart diagnosis of HIV at recruitment clinic.\n* Age 18 years and older\n* Currently self-report smoking approximately 1 cigarette per day.\n* Motivation to quit (score 6-8 on the Abrams and Briener Readiness to Quit Ladder)\n* Able to read and speak English or Swahili\n* Willingness and ability to provide informed consent to participate\n\nExclusion Criteria:\n\n* Has a history of seizure disorder or bulimia nervosa\n* Recent use of Bupropion (by participant report in the past 3 months)\n* Previous allergic reaction/hypersensitivity to Bupropion (by participant report ever in lifetime)\n* Pregnant, nursing, or becoming pregnant during the study (pregnancy test)\n* Current use of any medication that would interfere with the protocol in the opinion of a medically accountable Physician\n* Known plans to re-locate or travel away from the study site for more than two consecutive months during the study period.\n* Expected survival of less than 6 months\n* Meets criteria for dementia by scoring below 10 on the Hopkins HIV Dementia Scale.\n* The study physician believes that the individual is not medially stable enough to participate in the study. This exclusion will be based on a review of the individual's past medical history and current medical status.\n* Based on screening, not meeting criteria for moderate or severe substance disorder as established by the MINI International Neuropsychiatric Interview.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Center for International Health, Education, and Biosecurity (CIHEB)",
+          "city": "Kilimani",
+          "state": "Nairobi County",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -1.29797,
+            "lon": 36.78809
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27028502",
+          "type": "BACKGROUND",
+          "citation": "Keith A, Dong Y, Shuter J, Himelhoch S. Behavioral Interventions for Tobacco Use in HIV-Infected Smokers: A Meta-Analysis. J Acquir Immune Defic Syndr. 2016 Aug 15;72(5):527-33. doi: 10.1097/QAI.0000000000001007."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Bupropion + Positively Smoke Free",
+          "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence"
+        },
+        {
+          "id": "FG001",
+          "title": "Bupropion + Standard of Care",
+          "description": "Standard of Care--brief advice to quit provided in a standardized format bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)"
+        },
+        {
+          "id": "FG002",
+          "title": "Placebo + Positively Smoke Free",
+          "description": "Placebo--matched to bupropion Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence"
+        },
+        {
+          "id": "FG003",
+          "title": "Placebo + Standard of Care.",
+          "description": "Placebo--matched to bupropion Standard of Care--brief advice to quit provided in a standardized format\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "74"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "74"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "76"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "76"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "72"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "72"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "74"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "76"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Bupropion + Positively Smoke Free",
+          "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence"
+        },
+        {
+          "id": "BG001",
+          "title": "Bupropion + Standard of Care",
+          "description": "Standard of Care--brief advice to quit provided in a standardized format bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)"
+        },
+        {
+          "id": "BG002",
+          "title": "Placebo + Positively Smoke Free",
+          "description": "Placebo--matched to bupropion Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence"
+        },
+        {
+          "id": "BG003",
+          "title": "Placebo + Standard of Care.",
+          "description": "Placebo--matched to bupropion Standard of Care--brief advice to quit provided in a standardized format\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)"
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "72"
+            },
+            {
+              "groupId": "BG001",
+              "value": "72"
+            },
+            {
+              "groupId": "BG002",
+              "value": "74"
+            },
+            {
+              "groupId": "BG003",
+              "value": "76"
+            },
+            {
+              "groupId": "BG004",
+              "value": "294"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41.5",
+                      "spread": "10.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40.8",
+                      "spread": "10.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43.5",
+                      "spread": "10.2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "44.2",
+                      "spread": "10.1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "42.5",
+                      "spread": "10.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "144"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "150"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "72"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "293"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Kenya",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "72"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "294"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "7-day Abstinence",
+          "description": "defined as self-reported no smoking in the past 7 days + CO\\<7 ppm",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 36 Weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Bupropion + Positively Smoke Free",
+              "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence"
+            },
+            {
+              "id": "OG001",
+              "title": "Bupropion + Standard of Care",
+              "description": "Standard of Care--brief advice to quit provided in a standardized format bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo + Positively Smoke Free",
+              "description": "Placebo--matched to bupropion Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo + Standard of Care.",
+              "description": "Placebo--matched to bupropion Standard of Care--brief advice to quit provided in a standardized format\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "72"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "72"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "76"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "We collected SAEs, All-Cause mortality and Adverse Events from the start of the study until the last participant was completed their final appointment. After a participant completes a baseline, they return 2, 4 and 8 weeks later to review any side effects or concerns from the study medication/placebo. 12- and 36-weeks post baseline, additional interviews are completed to review any new side effects, Adverse Events or SAEs.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Bupropion + Positively Smoke Free",
+          "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 72,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 72,
+          "otherNumAffected": 21,
+          "otherNumAtRisk": 72
+        },
+        {
+          "id": "EG001",
+          "title": "Bupropion + Standard of Care",
+          "description": "Standard of Care--brief advice to quit provided in a standardized format bupropion--used for smoking cessation\n\nBupropion: medication for smoking cessation\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 72,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 72,
+          "otherNumAffected": 24,
+          "otherNumAtRisk": 72
+        },
+        {
+          "id": "EG002",
+          "title": "Placebo + Positively Smoke Free",
+          "description": "Placebo--matched to bupropion Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation\n\nPositively smoke free: an 8 session, tailored behavioral intervention for treating tobacco dependence",
+          "deathsNumAffected": 3,
+          "deathsNumAtRisk": 74,
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 74,
+          "otherNumAffected": 34,
+          "otherNumAtRisk": 74
+        },
+        {
+          "id": "EG003",
+          "title": "Placebo + Standard of Care.",
+          "description": "Placebo--matched to bupropion Standard of Care--brief advice to quit provided in a standardized format\n\nBrief advice to quit smoking: Standardized brief advice to quit smoking (standard of care)",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 76,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 76,
+          "otherNumAffected": 28,
+          "otherNumAtRisk": 76
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Hospitalization",
+          "organSystem": "Surgical and medical procedures",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 72
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 72
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 76
+            }
+          ]
+        },
+        {
+          "term": "Hospitalization",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 72
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 72
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 76
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Dry Mouth",
+          "organSystem": "General disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 21,
+              "numAffected": 21,
+              "numAtRisk": 72
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 24,
+              "numAffected": 24,
+              "numAtRisk": 72
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 34,
+              "numAffected": 34,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 28,
+              "numAffected": 28,
+              "numAtRisk": 76
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Seth Himelhoch",
+        "organization": "University of Chicago",
+        "email": "seth.himelhoch@bsd.uchicago.edu",
+        "phone": "773-834-4314"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_ICF",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Study Protocol and Informed Consent Form",
+          "date": "2024-08-26",
+          "uploadDate": "2024-11-13T11:58",
+          "filename": "Prot_ICF_000.pdf",
+          "size": 744111
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2024-08-26",
+          "uploadDate": "2025-01-07T10:19",
+          "filename": "SAP_001.pdf",
+          "size": 46820
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016642",
+          "term": "Bupropion"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011427",
+          "term": "Propiophenones"
+        },
+        {
+          "id": "D007659",
+          "term": "Ketones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

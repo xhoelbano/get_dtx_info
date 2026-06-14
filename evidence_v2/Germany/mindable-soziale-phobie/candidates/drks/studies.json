@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00022204",
+      "drks_id": "DRKS00022204",
+      "title": "Smartphone-assisted exposure therapy for panic disorder and agoraphobia: an effectiveness study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00022204/details",
+      "_matched_query": "\"Mindable\"",
+      "_raw_json_path": "evidence/Germany/mindable-soziale-phobie/candidates/drks/raw/DRKS00022204.json"
+    },
+    {
+      "study_id": "DRKS00029090",
+      "drks_id": "DRKS00029090",
+      "title": "Evaluation of a smartphone app for patients with panic disorder with or without comorbid agoraphobia",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00029090/details",
+      "_matched_query": "\"Mindable\"",
+      "_raw_json_path": "evidence/Germany/mindable-soziale-phobie/candidates/drks/raw/DRKS00029090.json"
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"Mindable\"",
+    "\"Mindable\" AND \"Soziale Phobie\""
+  ],
+  "dtx_name": "Mindable: Soziale Phobie",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T07:48:57.978443Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

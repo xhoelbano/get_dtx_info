@@ -1,0 +1,185 @@
+{
+  "studies": [
+    {
+      "study_id": "35060222",
+      "pmid": "35060222",
+      "title": "How does the Untire app alleviate cancer-related fatigue? A longitudinal mediation analysis.",
+      "authors": "Spahrkäs Simon S et al.",
+      "authors_list": [
+        "Spahrkäs Simon S",
+        "Looijmans Anne",
+        "Sanderman Robbert",
+        "Hagedoorn Mariët"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Jun",
+      "journal": "Psycho-oncology",
+      "journal_abbrev": "Psychooncology",
+      "doi": "10.1002/pon.5886",
+      "abstract": "OBJECTIVE: A waiting-list randomized controlled trial supported the effectiveness of the multimodal Untire app in reducing cancer-related fatigue (CRF) in cancer patients and survivors. However, little is known about the causal mechanisms of different app components through which the intervention effect was achieved. We aim to examine whether specifically targeted factors (i.e., fatigue catastrophizing, depression, mindfulness, sleep, and physical activity) mediated the intervention effects of the Untire app on fatigue outcomes. METHODS: Seven hundred ninety-nine persons with CRF were randomized (2:1) into intervention (n = 519) and waiting-list control (n = 280) groups. Self-report data on the primary outcome fatigue severity and interference and the abovementioned potential mediators were collected at baseline and 12 weeks. Participants who completed the 12-week assessment were included in the analyses (intervention = 159; control = 176). We performed longitudinal multi-categorical multiple mediation analysis using PROCESS macro to examine whether the potential mediators explained the overall intervention effects. RESULTS: Improvements in fatigue catastrophizing (bootstrap 95% CI (-0.110; -0.011)), depression (bootstrap 95% CI (-0.082; -0.004)), and mindfulness (bootstrap 95% CI (-0.082; -0.002)), significantly mediated the intervention effect on fatigue severity, whereas sleep quality (bootstrap 95% CI (-0.081; 0.009)), sleep disturbance (bootstrap 95% CI (-0.038; 0.029)), and physical activity (bootstrap 95% CI (-0.068; 0.000)) did not. Similar associations were found for fatigue interference. CONCLUSIONS: Untire app access reduces fatigue severity and interference mainly by decreasing fatigue catastrophizing, depression, and by increasing mindfulness. Supporting these psychological mechanisms is crucial for reducing fatigue among cancer patients and survivors.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Fatigue",
+        "Humans",
+        "Mediation Analysis",
+        "Mindfulness",
+        "Mobile Applications",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "fatigue",
+        "longitudinal mediation",
+        "mHealth",
+        "mindfulness",
+        "physical activity",
+        "randomized controlled trial"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35060222/",
+      "pdf_available": false,
+      "_matched_query": "\"Untire\"",
+      "_raw_xml_path": "evidence/Germany/untire-r/candidates/pubmed/raw/35060222.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Untire app, as evidenced by the title and multiple mentions in the abstract and full text. The study examines the effectiveness of the Untire app in reducing cancer-related fatigue.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "33393199",
+      "pmid": "33393199",
+      "title": "Beating cancer-related fatigue with the Untire mobile app: Results from a waiting-list randomized controlled trial.",
+      "authors": "Spahrkäs Simon Sebastian et al.",
+      "authors_list": [
+        "Spahrkäs Simon Sebastian",
+        "Looijmans Anne",
+        "Sanderman Robbert",
+        "Hagedoorn Mariët"
+      ],
+      "publication_year": "2020",
+      "publication_date": "2020-Nov",
+      "journal": "Psycho-oncology",
+      "journal_abbrev": "Psychooncology",
+      "doi": "10.1002/pon.5492",
+      "abstract": "OBJECTIVE: This waiting-list randomized controlled trial examined the effectiveness of a self-management mHealth app in improving fatigue and quality of life (QoL) in cancer patients and survivors. METHODS: Persons with cancer-related fatigue (CRF) were recruited across four English speaking countries, via social media, and randomized into intervention (n = 519) and control (n = 280) groups. Whereas the intervention group received immediate access to the Untire app, the control group received access only after 12-weeks. Primary outcomes fatigue severity and interference, and secondary outcome QoL were assessed at baseline, 4, 8, and 12-weeks. We ran generalized linear mixed models for all outcomes to determine the effects of app access (yes/no), over 12-weeks, following the intention-to-treat principle. RESULTS: Compared with the control group, the intervention group showed significantly larger improvements in fatigue severity (d = 0.40), fatigue interference (d = 0.35), and overall QoL on average (d = 0.32) (P's < .01), but not for overall QoL in the past week (P = .07). Sensitivity analyses indicated that participants with medium or high app use benefited most when compared with nonusers and control participants (P's ≤ .02). The intervention effect on fatigue interference was slightly stronger in younger participants (≤56 vs. >56). Effects did not depend on education and cancer status. Reliable change analyses indicated that significantly more people showed full recovery for fatigue in the intervention vs the control group (P's = .02). CONCLUSIONS: The Untire app can be an effective mHealth solution for cancer patients and survivors with moderate to severe CRF.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Fatigue",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Mobile Applications",
+        "Neoplasms",
+        "Quality of Life",
+        "Self-Management"
+      ],
+      "keywords": [
+        "RCT",
+        "app",
+        "cancer",
+        "cancer survivors",
+        "fatigue",
+        "mHealth",
+        "oncology",
+        "palliative care",
+        "psycho‐oncology",
+        "quality of life"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33393199/",
+      "pdf_available": false,
+      "_matched_query": "\"Untire\"",
+      "_raw_xml_path": "evidence/Germany/untire-r/candidates/pubmed/raw/33393199.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically examines the effectiveness of the Untire app, as indicated by the title and multiple mentions in the abstract and full text. The intervention group received immediate access to the Untire app, confirming the study's focus on this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 100,
+        "reason": "The study is described as a 'waiting-list randomized controlled trial' where participants were randomly allocated to an intervention group and a control group, which is the defining feature of an RCT."
+      }
+    },
+    {
+      "study_id": "33489782",
+      "pmid": "33489782",
+      "title": "Recruiting participants for an international mHealth study via Facebook Ads: Experiences from the Untire App RCT.",
+      "authors": "Spahrkäs Simon S et al.",
+      "authors_list": [
+        "Spahrkäs Simon S",
+        "Looijmans Anne",
+        "Sanderman Robbert",
+        "Hagedoorn Mariët"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Mar",
+      "journal": "Internet interventions",
+      "journal_abbrev": "Internet Interv",
+      "doi": "10.1016/j.invent.2021.100362",
+      "abstract": "INTRODUCTION: Social media recruitment via Facebook Ads seems to be a promising method for large-scale international trials examining the effectiveness of mHealth interventions. However, little is known about this method in terms of strategy, reach, and costs in the context of psycho-oncology. This paper presents the results of the recruitment strategy that was applied in the Untire app study and shows how many participants could be reached using advertisements (i.e., Ads) on Facebook, who participated, and what it cost. METHOD: The Untire app study is a randomized controlled trial targeted at cancer patients and survivors across four English-speaking countries (i.e., Australia, Canada, the U.K., and the U.S.A.). Reach was assessed by the number of people who were shown the Ads, who clicked on the Ads, and completed study assessments. Demographic characteristics were gathered from Facebook Ads Manager and from online study assessments to describe who was reached. Costs were assessed by the budget spent and the cost per click for Ads, for reaching the study's landing page, and for completing study assessments. To conduct a powered RCT, we needed 164 12-weeks assessments in both the intervention and the control group. RESULTS: From March till October 2018, we used 76 Ads, which were presented to 1.2 million people. 37.376 persons clicked on the study link in the Ads, resulting in 755 baseline completers. Most participants were female (92%), middle-aged (55.5 ± 9.79), and came from the U.K. (72%). The total Facebook advertisement costs from March till October 2018 were €17 k, resulting in an average cost of €0.45 per click on the Ads, €5.55 on average for a person reaching the study's landing page, and €14.89 on average per eligible participant. The costs for every baseline and 12-weeks completer were €22.42 and €47.69, respectively. DISCUSSION: Reaching participants for international mHealth studies in psycho-oncology via Facebook Ads has potential but is costly. The key to reducing costs lies in constant optimization and testing of Ads and refinement of target audience characteristics.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Costs",
+        "Facebook Ads",
+        "Online recruitment",
+        "Psycho-oncology",
+        "Reach",
+        "mHealth"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33489782/",
+      "pdf_available": false,
+      "_matched_query": "\"Untire\"",
+      "_raw_xml_path": "evidence/Germany/untire-r/candidates/pubmed/raw/33489782.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Untire app, as evidenced by the title and multiple mentions in the abstract and full text. The study discusses recruitment for a randomized controlled trial of the Untire app, which is developed by Tired of Cancer B.V.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T09:09:02.304226Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

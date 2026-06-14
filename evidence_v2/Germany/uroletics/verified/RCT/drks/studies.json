@@ -1,0 +1,35 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00032033",
+      "drks_id": "DRKS00032033",
+      "title": "Clinical study to prove the positive healthcare effect of the Uroletics® app in patients with prostate cancer",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00032033/details",
+      "_matched_query": "\"Uroletics\"",
+      "_raw_json_path": "evidence/Germany/uroletics/candidates/drks/raw/DRKS00032033.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Uroletics app, as evidenced by the repeated mention of 'Uroletics® app' in the title and full text. The study investigates the app's effect on urinary incontinence and erectile function in prostate cancer patients, matching the product description.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a two-arm, randomized, controlled, and multicenter trial with a parallel group design. Patients are randomly assigned to receive either the app in addition to standard care or standard care alone, which aligns with the definition of an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T10:21:33.186487Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}
