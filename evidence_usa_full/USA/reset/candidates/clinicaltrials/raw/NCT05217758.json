@@ -1,0 +1,394 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05217758",
+      "orgStudyIdInfo": {
+        "id": "RESET001"
+      },
+      "organization": {
+        "fullName": "Amsterdam UMC, location VUmc",
+        "class": "OTHER"
+      },
+      "briefTitle": "RESET-medication Glucocorticoid Receptor (GR) Blockade As Disease Modifying Treatment for Depression with Childhood Trauma",
+      "officialTitle": "RESET-medication: Glucocorticoid Receptor (GR) Blockade As Diseasemodifying Treatment for Depression with Childhood Trauma",
+      "acronym": "RESET-m"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-12-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-08-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-12-20",
+      "studyFirstSubmitQcDate": "2022-01-20",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Christiaan Vinkers",
+        "investigatorTitle": "Professor, Psychiatrist",
+        "investigatorAffiliation": "Amsterdam UMC, location VUmc"
+      },
+      "leadSponsor": {
+        "name": "Amsterdam UMC, location VUmc",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Netherlands Brain Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Corcept Therapeutics",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Depression is a recurrent debilitating psychiatric disorder with a lifetime prevalence of 20%. Even though antidepressants and psychotherapy are often effective, a substantial proportion of patients does not respond to currently used evidence-based treatments. The heterogeneous nature of depressive symptoms is a major obstacle for the development of novel effective treatments, and targeted treatments for depression are currently lacking.\n\nThe investigators propose a targeted disease-modifying treatment for the clinically distinct form of depression related to childhood trauma (CT, emotional/ physical/sexual abuse or neglect before the age of18). CT-related depression is critically different from non-CT depression: it emerges earlier in life with more severe and recurrent symptoms and less favorable responses to treatment. With an average 25% prevalence in depression, there is a large and unmet need for therapeutic strategies to treat depression in individuals with substantial CT.\n\nThe GR is the major cortisol receptor in the brain and rodent studies have shown that GR blockade at adult age can reverse the effects of early-life adversity. Therefore, GR blockade is a potential novel treatment for CT-related depression but this has never been investigated. Based on the underlying stress neurobiology, the aim is to investigate whether the biological sequelae of excessive stress due to CT can be targeted by blocking the glucocorticoid receptor (GR) using the generic drug mifepristone.",
+      "detailedDescription": "Rationale: Depression is a recurrent debilitating psychiatric disorder with a lifetime prevalence of 20%. Even though antidepressants and psychotherapy are often effective, a substantial proportion of patients does not respond to currently used evidence-based treatments. The heterogeneous nature of depressive symptoms is a major obstacle for the development of novel effective treatments, and targeted treatments for depression are currently lacking. The investigators propose a targeted disease-modifying treatment for the clinically distinct form of depression related to childhood trauma (CT, emotional/physical/sexual abuse or neglect before the age of 18). CT-related depression is critically different from non-CT depression: it emerges earlier in life with more severe and recurrent symptoms and less favorable responses to treatment.\n\nWith an average 25% prevalence in depression, there is a large and unmet need for therapeutic strategies to treat depression in individuals with substantial CT. Based on the underlying stress neurobiology, the aim is to investigate whether the biological sequelae of excessive stress due to CT can be targeted by blocking the glucocorticoid receptor (GR) using the generic drug mifepristone. The GR is the major cortisol receptor in the brain and rodent studies have shown that GR blockade at adult age can reverse the effects of early-life adversity.\n\nTherefore, GR blockade is a potential novel treatment for CT-related depression but this has never been investigated.\n\nObjective: The investigators will test the hypothesis that treatment with the GR-antagonist mifepristone is more effective than placebo to reduce depressive symptom severity in CT-related depression.\n\nStudy design: Placebo-controlled double-blind randomized controlled trial (RCT).\n\nStudy population: 158 adult patients (male/female, 18+ years), with depression and moderate to severe childhood trauma (CT).\n\nIntervention: Patients are randomized to treatment with the GR antagonist mifepristone (1200 mg/day for 7 days, n=79) or placebo (daily for 7 days, n=79), with both groups receiving usual care for depression.\n\nMain study parameters/endpoints: Improvement of depressive symptoms, as measured with the Inventory of Depressive Symptomatology - Self Rated (IDS-SR, continuous scale) questionnaire, 6 weeks after the start of the intervention.\n\nNature and extent of the burden and risks associated with participation, benefit and group relatedness: For screening, online questionnaires will be completed requiring 10 minutes. After inclusion and randomization, the experimental protocol consists of three face-to- face meetings at baseline (T0, 2,5hrs), week 1 (T1, 1hr), week 6 (T2, 1hr), and two online follow-up meetings at 12 weeks (T3, 0.75hr) and 6 months (T4, 0.75hr). Study medication will be dispensed after the baseline measurements and taken once daily for 7 consecutive days.\n\nClinical measurements consist of clinical interviews, questionnaires, blood and saliva samples (T0, T1, T2), and hair samples (T0, T2). A subgroup of participants (n=60, 30 per intervention group) will be asked to participate in (f)MRI scans at baseline (T0) and post-intervention (T2;1hr per scan session).\n\nMifepristone has been clinically used for Cushing's syndrome (antiglucocorticoid effects) and termination of pregnancy (anti-progesterone effects) for several decades. Mifepristone is generally well-tolerated, and several double-blind studies using the identical duration and dose have shown (7 days, 1200 mg) that the safety profile of mifepristone is comparable to that of placebo treatment, and study dropouts due to side effects were higher for placebo (1.6%) than for mifepristone (1.4%). The most common adverse events (AEs) were nausea, headache, dizziness, and a dry mouth and were comparable between the mifepristone and placebo groups. With regard to mifepristone's progesterone receptor activity and its indication for pregnancy termination, in the current RCT women of childbearing potential (WOCBP) who do not agree to use a non-hormonal contraceptive method (e.g. condom) during the intervention and up to 1 month after the intervention, are strictly excluded from participating in this study.\n\nSince mifepristone may interfere with the effectiveness of hormonal contraceptive methods, a non-hormonal method (e.g. condom) should be used, also in case of continued hormonal contraceptive use during the intervention and up to 1 month after the intervention. Thus, besides men and non-WOCBP, WOCBP can only participate if not currently breastfeeding, with confirmed negative pregnancy test and use of a non-hormonal contraceptive method."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorder",
+        "Childhood Trauma"
+      ],
+      "keywords": [
+        "RESET",
+        "childhood maltreatment",
+        "early life stress",
+        "Glucocorticoid Receptor (GR)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 158,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Mifepristone",
+          "type": "EXPERIMENTAL",
+          "description": "Glucocorticoid Receptor (GR) blockade using the generic drug mifepristone",
+          "interventionNames": [
+            "Drug: Mifepristone"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Mifepristone",
+          "description": "1200 mg/day, once daily, 7 days",
+          "armGroupLabels": [
+            "Mifepristone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo, once daily, 7 days",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Depressive symptom severity at post-treatment",
+          "description": "Depressive symptom severity in patients with CT-related depression, measured with the Inventory of Depressive Symptomatology - Self Report (IDS-SR, with a total score ranging from 0 to 84, where higher scores indicate higher severity of depressive symptoms)",
+          "timeFrame": "6 weeks after the start of the intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Depressive symptom severity at short-term",
+          "description": "Depressive symptom severity in patients with CT-related depression, measured with the Inventory of Depressive Symptomatology - Self Report (IDS-SR, with a total score ranging from 0 to 84, where higher scores indicate higher severity of depressive symptoms)",
+          "timeFrame": "8 days after the start of the intervention"
+        },
+        {
+          "measure": "Depressive symptom severity at long-term",
+          "description": "Depressive symptom severity in patients with CT-related depression, measured with the Inventory of Depressive Symptomatology - Self Report (IDS-SR, with a total score ranging from 0 to 84, where higher scores indicate higher severity of depressive symptoms)",
+          "timeFrame": "3 months and 6 months after the start of the intervention"
+        },
+        {
+          "measure": "Remission in CT-related depression",
+          "description": "The presence or absence of DSM-5 Major Depressive Disorder (MDD), identified using the Major Depressive Disorder (MDD) section of the Mini International Neuropsychiatric Interview (M.I.N.I.-S).",
+          "timeFrame": "Up to 6 months after the start of the intervention"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Functional disability",
+          "description": "General functioning and disability in major life domains, measured with the 12-item WHO Disability Schedule (WHODAS; with a total score ranging from 12 to 60, where higher scores indicate more disability or loss of function).",
+          "timeFrame": "Up to 6 months after the start of the intervention"
+        },
+        {
+          "measure": "Anxiety symptoms",
+          "description": "The presence and severity of anxiety symptoms, determined with the Beck Anxiety Inventory (BAI; with a total score ranging from 0 to 63, where higher scores indicate higher severity of anxiety symptoms)",
+          "timeFrame": "Up to 6 months after the start of the intervention"
+        },
+        {
+          "measure": "Insomnia",
+          "description": "Insomnia severity, measured with with the Insomnia Severity Index (ISI; with a total score ranging from 0-28, where higher scores indicate higher insomnia severity).",
+          "timeFrame": "Up to 6 months after the start of the intervention"
+        },
+        {
+          "measure": "Subjective stress",
+          "description": "Subjective stress, determined with the Perceived Stress Scale (PSS; with a total score ranging from 0-40, where higher scores reflect greater perceived stress)",
+          "timeFrame": "Up to 6 months after the start of the intervention"
+        },
+        {
+          "measure": "Suicidality",
+          "description": "The presence of suicidal ideation or behavior, determined with a shortened version of the Columbia-Suicide Severity Rating Scale (C-SSRS). The suicidal ideation scale ranges from 0-5, where a score of 4 reflects an active suicidal ideation with some intent to act, but without a specific plan and a score of 5 reflects an active suicidal ideation with a specific plan and intent.",
+          "timeFrame": "Up to 6 months after the start of the intervention"
+        },
+        {
+          "measure": "Hair cortisol",
+          "description": "Long-term cortisol levels, assessed by hair samples collected pre- and post-treatment",
+          "timeFrame": "6 weeks after the start of the intervention"
+        },
+        {
+          "measure": "Inflammatory markers (stress-related biomarkers)",
+          "description": "Levels of C-reactive protein (CRP), Tumor Necrosis Factor-alpha (TNF-α) and Interleukin-6 (IL-6), assessed by blood samples drawn pre- and post-treatment",
+          "timeFrame": "6 weeks after the start of the intervention"
+        },
+        {
+          "measure": "Epigenetic regulation",
+          "description": "The DNA, extracted from blood samples drawn pre- and post-treatment, will be used for future exploratory epigenetic research. Epigenetic changes will be analyzed genome-wide using microarrays.",
+          "timeFrame": "6 weeks after the start of the intervention"
+        },
+        {
+          "measure": "Mifepristone plasma levels",
+          "description": "Mifepristone plasma levels 24 hours after last dosage",
+          "timeFrame": "8 days after the start of the intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Mastery of Dutch language\n* Age of ≥ 18 years of age and able to give written IC\n* Participant agrees to be randomized\n* Moderate to severe depression; score ≥ 26 on the Inventory of Depressive Symptoms-Self Report (IDS-SR)\n* DSM-5 diagnosis of major depression disorder (MDD), confirmed with clinical interview (M.I.N.I.-S)\n* Moderate to severe childhood trauma (CT) before the age of 18; Score above validated cut-off for moderate to severe CT on one or more of the following domains using the Childhood Trauma Questionnaire (CTQ):\n\n  * physical neglect: score ≥ 10\n  * emotional neglect: score ≥ 15\n  * sexual abuse: score ≥ 8\n  * physical abuse: score ≥ 10\n  * emotional abuse: score ≥ 13\n\nExclusion Criteria:\n\n* Primary diagnosis of post-traumatic stress disorder (PTSD) or Acute Stress Disorder (ASD)\n* Lifetime diagnosis of borderline personality disorder (BPD)\n* Other lifetime severe psychiatric comorbidity (e.g. bipolar disorder, schizophrenia) or current alcohol/drug dependence that requires clinical attention.\n* Start of other forms of depression treatment in the week before or after the start of the intervention.\n* Female participant being a WOCBP and who does not want to use a non-hormonal contraceptive method (e.g. condom) during the intervention period and up to 1 month after the intervention.\n* Female participants that are pregnant or breastfeeding.\n* Female participants that have a history of unexplained vaginal bleeding or endometrial changes.\n* Chronic adrenal insufficiency (contraindication for mifepristone).\n* Current use of:\n\n  * Medications containing CYP3A4-inhibitors\n  * Medications containing CYP3A4-inductors\n  * Glucocorticoid antagonists within 1 week before possible start of trial treatment.\n  * Systemic corticosteroids. Topical corticosteroid treatment are acceptable, with the exception of inhaled corticosteroids (inhalators).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Amsterdam UMC, location VUmc",
+          "city": "Amsterdam",
+          "state": "North Holland",
+          "zip": "1081HV",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "17074942",
+          "type": "BACKGROUND",
+          "citation": "Rush AJ, Trivedi MH, Wisniewski SR, Nierenberg AA, Stewart JW, Warden D, Niederehe G, Thase ME, Lavori PW, Lebowitz BD, McGrath PJ, Rosenbaum JF, Sackeim HA, Kupfer DJ, Luther J, Fava M. Acute and longer-term outcomes in depressed outpatients requiring one or several treatment steps: a STAR*D report. Am J Psychiatry. 2006 Nov;163(11):1905-17. doi: 10.1176/ajp.2006.163.11.1905."
+        },
+        {
+          "pmid": "20124112",
+          "type": "BACKGROUND",
+          "citation": "McLaughlin KA, Green JG, Gruber MJ, Sampson NA, Zaslavsky AM, Kessler RC. Childhood adversities and adult psychiatric disorders in the national comorbidity survey replication II: associations with persistence of DSM-IV disorders. Arch Gen Psychiatry. 2010 Feb;67(2):124-32. doi: 10.1001/archgenpsychiatry.2009.187."
+        },
+        {
+          "pmid": "23982148",
+          "type": "BACKGROUND",
+          "citation": "Teicher MH, Samson JA. Childhood maltreatment and psychopathology: A case for ecophenotypic variants as clinically and neurobiologically distinct subtypes. Am J Psychiatry. 2013 Oct;170(10):1114-33. doi: 10.1176/appi.ajp.2013.12070957."
+        },
+        {
+          "pmid": "9287218",
+          "type": "BACKGROUND",
+          "citation": "Liu D, Diorio J, Tannenbaum B, Caldji C, Francis D, Freedman A, Sharma S, Pearson D, Plotsky PM, Meaney MJ. Maternal care, hippocampal glucocorticoid receptors, and hypothalamic-pituitary-adrenal responses to stress. Science. 1997 Sep 12;277(5332):1659-62. doi: 10.1126/science.277.5332.1659."
+        },
+        {
+          "pmid": "27246249",
+          "type": "BACKGROUND",
+          "citation": "Arp JM, Ter Horst JP, Loi M, den Blaauwen J, Bangert E, Fernandez G, Joels M, Oitzl MS, Krugers HJ. Blocking glucocorticoid receptors at adolescent age prevents enhanced freezing between repeated cue-exposures after conditioned fear in adult mice raised under chronic early life stress. Neurobiol Learn Mem. 2016 Sep;133:30-38. doi: 10.1016/j.nlm.2016.05.009. Epub 2016 May 28."
+        },
+        {
+          "pmid": "29098176",
+          "type": "BACKGROUND",
+          "citation": "Loi M, Sarabdjitsingh RA, Tsouli A, Trinh S, Arp M, Krugers HJ, Karst H, van den Bos R, Joels M. Transient Prepubertal Mifepristone Treatment Normalizes Deficits in Contextual Memory and Neuronal Activity of Adult Male Rats Exposed to Maternal Deprivation. eNeuro. 2017 Nov 2;4(5):ENEURO.0253-17.2017. doi: 10.1523/ENEURO.0253-17.2017. eCollection 2017 Sep-Oct."
+        },
+        {
+          "pmid": "29941978",
+          "type": "BACKGROUND",
+          "citation": "Papilloud A, Veenit V, Tzanoulinou S, Riccio O, Zanoletti O, Guillot de Suduiraut I, Grosse J, Sandi C. Peripubertal stress-induced heightened aggression: modulation of the glucocorticoid receptor in the central amygdala and normalization by mifepristone treatment. Neuropsychopharmacology. 2019 Mar;44(4):674-682. doi: 10.1038/s41386-018-0110-0. Epub 2018 Jun 4."
+        },
+        {
+          "pmid": "31132569",
+          "type": "BACKGROUND",
+          "citation": "Ding J, da Silva MS, Lingeman J, Chen X, Shi Y, Han F, Meijer OC. Late glucocorticoid receptor antagonism changes the outcome of adult life stress. Psychoneuroendocrinology. 2019 Sep;107:169-178. doi: 10.1016/j.psyneuen.2019.05.014. Epub 2019 May 16."
+        },
+        {
+          "pmid": "23613579",
+          "type": "BACKGROUND",
+          "citation": "Zalachoras I, Houtman R, Atucha E, Devos R, Tijssen AM, Hu P, Lockey PM, Datson NA, Belanoff JK, Lucassen PJ, Joels M, de Kloet ER, Roozendaal B, Hunt H, Meijer OC. Differential targeting of brain stress circuits with a selective glucocorticoid receptor modulator. Proc Natl Acad Sci U S A. 2013 May 7;110(19):7910-5. doi: 10.1073/pnas.1219411110. Epub 2013 Apr 23."
+        },
+        {
+          "pmid": "29523415",
+          "type": "BACKGROUND",
+          "citation": "Block TS, Kushner H, Kalin N, Nelson C, Belanoff J, Schatzberg A. Combined Analysis of Mifepristone for Psychotic Depression: Plasma Levels Associated With Clinical Response. Biol Psychiatry. 2018 Jul 1;84(1):46-54. doi: 10.1016/j.biopsych.2018.01.008. Epub 2018 Jan 31."
+        },
+        {
+          "pmid": "37170109",
+          "type": "DERIVED",
+          "citation": "Linsen F, Broeder C, Sep MSC, Verhoeven JE, Bet PM, Penninx BWJH, Meijer OC, Vinkers CH. Glucocorticoid Receptor (GR) antagonism as disease-modifying treatment for MDD with childhood trauma: protocol of the RESET-medication randomized controlled trial. BMC Psychiatry. 2023 May 11;23(1):331. doi: 10.1186/s12888-023-04830-9."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Study website",
+          "url": "http://www.jeugdtrauma-depressie.nl"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual participant data that underlie the results reported in this article, after deidentification (text, tables, figures and appendices)",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "timeFrame": "Immediately following publication, no end date.",
+      "accessCriteria": "Investigators whose proposed use of the data has been approved by an independent review committee identified for this purpose."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003865",
+          "term": "Depressive Disorder, Major"
+        },
+        {
+          "id": "D013315",
+          "term": "Stress, Psychological"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015735",
+          "term": "Mifepristone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

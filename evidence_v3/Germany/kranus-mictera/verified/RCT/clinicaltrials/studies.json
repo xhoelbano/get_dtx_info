@@ -1,0 +1,80 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT06389838",
+      "nct_id": "NCT06389838",
+      "title": "RCT on Multimodal Self-treatment for Women With Incontinence Using a Digital Health Application",
+      "official_title": "Prospektiv Randomisierte Studie Zur Multimodalen Selbstbehandlung Von Frauen Mit Inkontinenzbeschwerden Mit Einer Digitalen Gesundheitsanwendung",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 194,
+      "start_date": "2024-04-30",
+      "completion_date": "2024-12-06",
+      "conditions": [
+        "Urinary Incontinence,Stress",
+        "Urinary Incontinence, Urge",
+        "Urinary Incontinence",
+        "Overactive Bladder Syndrome",
+        "Female Urinary Stress Incontinence"
+      ],
+      "keywords": [
+        "Urinary Incontinence",
+        "Mobile Health",
+        "Digital therapeutics",
+        "Pelvic Floor exercises",
+        "bladder control",
+        "digital health",
+        "app based therapy",
+        "behavioral intervention",
+        "quality of life"
+      ],
+      "interventions": [
+        {
+          "name": "Kranus Mictera",
+          "type": "DEVICE",
+          "description": "An app-based digital therapy program aimed at multimodal self-treatment for incontinence. The app is certified class I medical device (MDR)."
+        }
+      ],
+      "lead_sponsor": "Kranus Health GmbH",
+      "collaborators": [
+        "Johannes Gutenberg University Mainz"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "brief_summary": "This study, titled \"Prospective Randomized Study on Multimodal Self-Treatment for Women with Incontinence Symptoms Using a Digital Health Application,\" abbreviated as DINKS, aims to investigate the efficacy of a digital health application in treating incontinence in women. The study involves a single-center, single blinded, randomized, controlled trial with two arms: one receiving digital therapy intervention and the other serving as a control group with standard of care. The primary objective is to reduce the frequency of incontinence episodes over a 12-week intervention period, with secondary goals including improvements in disease symptoms, quality of life, and patient activation. The study plans to recruit 198 female participants and assess various endpoints related to incontinence severity, quality of life, and treatment outcomes.",
+      "detailed_description": "The intervention in this study involves a digital therapy program delivered via a smartphone or tablet application. This program includes several components aimed at addressing different aspects of incontinence management:\n\nVoiding Diary: Participants will be instructed to maintain a diary to track their urinary habits, including frequency of voiding, episodes of incontinence, and fluid intake.\n\nPelvic Floor Exercises and Physiotherapy: The digital therapy program will provide guidance on performing pelvic floor exercises and other physiotherapeutic interventions aimed at strengthening pelvic floor muscles and improving bladder control.\n\nBladder Training and Cognitive Behavioral Therapy: Participants will receive instructions on bladder training techniques and cognitive behavioral strategies to manage urgency and frequency of urination.\n\nMental Exercises: The program will include mental exercises such as mindfulness techniques, progressive muscle relaxation, and stimulus control methods to help participants manage stress, anxiety, and other psychological factors contributing to incontinence.\n\nAcute Urgency Management: Strategies for managing acute episodes of urgency and urge incontinence will be provided, including techniques to delay voiding and control bladder spasms.\n\nEducational and Nutritional Guidance: Participants will have access to educational materials and nutritional guidance aimed at optimizing bladder health and overall well-being.\n\nProgress Tracking and Motivation: The application will feature tools for tracking progress, setting goals, and providing motivational feedback to encourage adherence to the intervention.\n\nOverall, the digital therapy program is designed to provide comprehensive support for women with incontinence symptoms, addressing both physical and psychological aspects of the condition to improve symptom severity, quality of life, and patient activation.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT06389838",
+      "_matched_query": "\"Kranus Mictera\"",
+      "_raw_json_path": "evidence/Germany/kranus-mictera/candidates/clinicaltrials/raw/NCT06389838.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the efficacy of Kranus Mictera, as evidenced by the intervention description and the sponsor being Kranus Health GmbH. The product name 'Kranus Mictera' is explicitly mentioned as the digital therapy program used in the study.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 90,
+        "reason": "Keyword match: 4 RCT indicators vs 1 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T04:15:54.074175Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

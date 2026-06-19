@@ -1,0 +1,388 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05454124",
+      "orgStudyIdInfo": {
+        "id": "300006197 (Study 2)"
+      },
+      "organization": {
+        "fullName": "University of Alabama at Birmingham",
+        "class": "OTHER"
+      },
+      "briefTitle": "Factors in Learning And Plasticity: Macular Degeneration",
+      "officialTitle": "Characterization of Multiple Factors in Training and Plasticity in Central Vision Loss: Macular Degeneration",
+      "acronym": "FLAP"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-11",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-07-05",
+      "studyFirstSubmitQcDate": "2022-07-07",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Kristina M Visscher",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Alabama at Birmingham"
+      },
+      "leadSponsor": {
+        "name": "University of Alabama at Birmingham",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of California, Riverside",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A greater understanding of plasticity after central vision loss can inform new therapies for treating low vision and has the potential to benefit millions of individuals suffering from low vision. The treatment of low vision is particularly relevant to the mission of the NEI to support research on visual disorders, mechanisms of visual function, and preservation of sight. The comparison of different training and outcome factors is in line with the NIMH RDOC framework and studies in an aging population are consistent with the mission of the NIA.",
+      "detailedDescription": "Research on perceptual learning (PL) has been dominated by studies that seek to isolate and improve individual visual processes. However, an important translational outcome of PL research is to address the needs of patients with vision loss, who seek to improve performance on daily tasks such as reading, navigation, and face recognition. These more ecological cases of behavioral change and cortical plasticity, which are inherently complex and integrative, have revealed significant gaps in a more holistic understanding of how multiple visual processes and their associated brain systems jointly contribute to durable and generalizable PL. To address these gaps, here the investigators study simulated and natural central vision loss. The investigators focus on macular degeneration (MD), one of the most common causes of vision loss (projected to affect 248 million people worldwide by 2040), which results from damage to photoreceptors in the macula that disrupts central vision. Such central vision loss is a superb lens through which study to how ecologically relevant changes in the use of vision relate to changing brain activity and connectivity because it represents a massive alteration in visual experience requiring reliance on peripheral vision for daily tasks. With the use of eye-trackers and gaze-contingent displays that induce central scotomas, central vision loss can be simulated in normally seeing individuals, who then develop peripheral looking patterns that resemble compensatory vision strategies seen in MD patients. Ideal use of peripheral vision requires improvement in multiple vision domains, three of the most important being: early visual processing (e.g., visual sensitivity), mid-level visual processing (e.g., spatial integration), and attention and eye-movements. To date, no study has systematically investigated these three domains of PL and their neural underpinnings. The proposed research plan rests on rigorous prior work showing that PL influences multiple brain structures and functions related to these three domains. The investigators propose a novel approach of systematically measuring how different training regimes related to the three domains influence a broad range of psychophysical and ecological behaviors (Aim 1), how these changes arise from plasticity in brain structure and function (Aim 2), and how PL after simulated central vision loss compares to PL in MD (Aim 3). This work is significant and innovative as it will be the first integrated study of PL characterizing multiple trainable factors and their impact on diverse behavioral outcomes and on cutting-edge assessments of neural representations and dynamics. It is also the first study to directly compare PL in MD patients with PL in a controlled model system of central visual field loss with simulated scotomas, which if validated will allow the use of this model system to interrogate MD in larger samples of healthy individuals. The investigators will also share a unique dataset that will help the field to understand behavioral and neural plasticity after central vision loss and individual differences in responsiveness to training. Finally, this work will illuminate basic mechanisms of brain plasticity after sensory loss that may generalize to other forms of rehabilitation after peripheral or central damage."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Central Visual Impairment",
+        "Macular Degeneration"
+      ],
+      "keywords": [
+        "plasticity",
+        "central vision loss",
+        "perceptual learning"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Training visual sensitivity",
+          "type": "EXPERIMENTAL",
+          "description": "A standard Perceptual Learning approach to train early visual processes of discriminating the orientation of Gabor patches presented at threshold- level contrast. Preliminary data, using this method, in normally seeing and MD participants show both feasibility and preliminary evidence that this training gives rise to improvements in acuity.",
+          "interventionNames": [
+            "Behavioral: Training visual sensitivity"
+          ]
+        },
+        {
+          "label": "Combination training",
+          "type": "EXPERIMENTAL",
+          "description": "In combination training, investigators test the extent to which a combined training gives rise to the joint benefits of each training individually, or integrative benefits potentially surpassing benefits of the individual training alone. The visual sensitivity task will alternate across blocks with the spatial integration task, using the timing of targets and location switches from spatial attention training.",
+          "interventionNames": [
+            "Behavioral: Combination training"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Training visual sensitivity",
+          "description": "Investigators adopt a standard PL approach to train early visual processes of discriminating the orientation of Gabor patches presented at threshold contrast. Across training blocks, Gabors will range in spatial frequency, where contrast is adapted with a 3/1 staircase. Whenever a specific contrast threshold is reached, spatial frequency will increase by 2 cycles per degree and contrast will be reset. Preliminary data from this method in normally seeing and MD participants show both feasibility and tentative evidence that this training gives rise to improvements in acuity.",
+          "armGroupLabels": [
+            "Training visual sensitivity"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Combination training",
+          "description": "Daily tasks involve a combination of being sensitive to basic visual features, being able to integrate these features, and directing attention and eye movements to better evaluate the information of potential interest. To address this integrative nature of real-world vision, this condition combines elements of training visual sensitivity, spatial integration, and spatial attention.",
+          "armGroupLabels": [
+            "Combination training"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline Radial Bias from the Crowding Task after completion of Training at approximately 7 weeks",
+          "description": "The ratio of the crowding threshold along the axis connected to the fovea vs. along the orthogonal axis.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Saccadic Precision after Completion of Training at approximately 7 weeks",
+          "description": "Consistency across trials in placement of the first saccade calculated by the distribution across trials (bivariate contour ellipse area) of the landing point of the first fixation of each trial.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Fixation Stability after Completion of Training at approximately 7 weeks",
+          "description": "Normalizing fixations in the PRL to the first fixation to that region and calculating the distribution of all fixation locations in this normalized space (measured as a bivariate contour ellipse area).",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change from Baseline Acuity after Completion of Training at approximately 7 weeks",
+          "description": "Acuity threshold from the Landolt C task.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Contrast Sensitivity after Completion of Training at approximately 7 weeks",
+          "description": "Threshold value from contrast sensitivity task.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Minimal print size from the MNREAD task after Completion of Training at approximately 7 weeks",
+          "description": "Minimal print size from the MNREAD task",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Precision of Reconstructed Representation of Stimulus Orientation after Completion of Training at approximately 7 weeks",
+          "description": "Precision of reconstructed representation of stimulus orientation (quantified with FWHM)",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Population receptive field size in V1, V2 and V3 representations of URL and PRL after Completion of Training at approximately 7 weeks",
+          "description": "Population receptive field size in V1, V2 and V3 representations of URL and PRL (quantified as PRF sigma in the swath of cortex associated with that retinal location).",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Cortical thickness in V1, V2 and V3 representations of the PRL and URL after Completion of Training at approximately 7 weeks",
+          "description": "Cortical thickness in V1, V2 and V3 representations of the PRL and URL (quantified as mm of cortical thickness)",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Orientation jitter threshold in the contour integration task at PRL or URL after Completion of Training at approximately 7 weeks",
+          "description": "Orientation jitter threshold in the contour integration task (quantified as threshold average jitter) at PRL or URL.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Crowding Threshold after Completion of Training at approximately 7 weeks",
+          "description": "In the contour integration task stimuli are untrained contours of alphanumeric characters made of Gabor elements. This test allows us to estimate how the magnitude of crowding may change at the PRL compared to the non-PRL.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Decoding classification accuracy for an attended character after Completion of Training at approximately 7 weeks",
+          "description": "Decoding classification accuracy for an attended character, based on decoding from MRI data within VWFA and LOC regions of interest.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Strength of background connectivity between areas with larger receptive fields (V4) to the smaller receptive fields contributing information to that area. after Completion of Training at approximately 7 weeks",
+          "description": "This is measured as functional connectivity (z-transformed Pearson's r) between voxels in V1 to voxels in V4 in that represent the same portion of retinotopically mapped space. Measured in portions of cortex representing PRL and URL.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Sustained Attention after Completion of Training at approximately 7 weeks",
+          "description": "Reaction time of detection of orientation of Landolt Cs presented in an RSVP stream at the beginning of each trial.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Endogenous Attention after Completion of Training at approximately 7 weeks",
+          "description": "Endogenous attention: reaction time when switching between locations due to an endogenous cue on valid vs nonvalid trials.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Exogenous Attention after Completion of Training at approximately 7 weeks",
+          "description": "Exogenous attention: reaction time when switching between locations due to an exogenous cue on valid vs. nonvalid trials.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Saccadic Re-referencing after Completion of Training at approximately 7 weeks",
+          "description": "Saccadic Re-referencing: number of first fixations that do not cover the target location with the scotoma.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Decoding classification accuracy for decoding the locus of spatial attention (PRL or URL), regardless of stimulus type after Completion of Training at approximately 7 weeks",
+          "description": "Decoding classification accuracy for decoding the locus of spatial attention (PRL or URL), regardless of stimulus type. This will be examined in frontal (FEF), parietal (SPL/IPS) and higher order visual (LOC) regions.",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Top-down modulation of visual areas after Completion of Training at approximately 7 weeks",
+          "description": "Top-down modulation of visual areas: background connectivity between frontoparietal control regions (FEF, SPL/IPS) and visual areas ( V1, V2, V3).",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Reading speed in the MNREAD task after Completion of Training at approximately 7 weeks",
+          "description": "Reading speed in the MNREAD task (words per minute).",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        },
+        {
+          "measure": "Change from Baseline Completion time in the trail making task after Completion of Training at approximately 7 weeks",
+          "description": "Completion time in the trail making task",
+          "timeFrame": "Baseline and Within 3 weeks of training completion, training is complete 7 weeks from baseline on average"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged 18-89\n* Severely impaired vision in both eyes (20/100 or worse)\n* diagnosis of Macular Degeneration by an Ophthalmologist\n* Light sensitivity in the macular retina that is at least 10 dB units worse than in peripheral regions, as demonstrated by a scanning laser ophthalmoscope (MAIA)\n* Medical record review indicating this level of disease severity has been present for at least 2 years\n* Reside within 50 miles of study site\n\nExclusion Criteria:\n\n* Pacemaker or any ferromagnetic metal implanted in their body\n* Metal of any type implanted in their head (limited dental work is acceptable)\n* Claustrophobia\n* Being hearing-impaired\n* Weight over 300 pounds\n* Maximum body girth over 60 inches\n* Previous serious head injury\n* Presence of hallucinations or delusions\n* Excessive old, or colorful tattoos, especially near the head\n* Pregnancy\n* Braces/permanent retainer",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "89 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Rachel A Chua, MS",
+          "role": "CONTACT",
+          "phone": "205-410-4041",
+          "email": "r2chel@uab.edu"
+        },
+        {
+          "name": "Kristina M Visscher, PhD",
+          "role": "CONTACT",
+          "phone": "205-934-0497",
+          "email": "kmv@uab.edu"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UAB",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rachel A Chua, MS",
+              "role": "CONTACT",
+              "phone": "205-410-4041",
+              "email": "r2chel@uab.edu"
+            },
+            {
+              "name": "Kristina M Visscher, PhD",
+              "role": "CONTACT",
+              "phone": "205-934-0497",
+              "email": "kmv@uab.edu"
+            },
+            {
+              "name": "Kristina M Visscher, Ph.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Results of the project will be submitted to the relevant repository (ClinicalTrials.gov, or Open-ScienceFramework, MRI data to OpenfMRI) within one year of the final participant completing data collection. The investigators expect to report participant flow by group (intervention or control), participant demographics (age, sex assigned at birth, years of education), outcome measures and statistical analyses, adverse events (if applicable), and limitations or caveats of our results. The investigators also will ensure that the final protocol and statistical analysis code are uploaded to the record. No Protected Health Information will be shared.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Within one year of the final participant completing data collection."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019575",
+          "term": "Blindness, Cortical"
+        },
+        {
+          "id": "D008268",
+          "term": "Macular Degeneration"
+        },
+        {
+          "id": "D012607",
+          "term": "Scotoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001766",
+          "term": "Blindness"
+        },
+        {
+          "id": "D014786",
+          "term": "Vision Disorders"
+        },
+        {
+          "id": "D012678",
+          "term": "Sensation Disorders"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012162",
+          "term": "Retinal Degeneration"
+        },
+        {
+          "id": "D012164",
+          "term": "Retinal Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

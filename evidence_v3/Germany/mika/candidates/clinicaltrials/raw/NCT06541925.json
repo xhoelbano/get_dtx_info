@@ -1,0 +1,283 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06541925",
+      "orgStudyIdInfo": {
+        "id": "MU_DHF_DPD_01"
+      },
+      "organization": {
+        "fullName": "Marmara University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Needle-free Injection System on Dental Injection Pain in Children",
+      "officialTitle": "The Effect of Needle-free Injection System on Dental Injection Pain in Children: A Cross-over, Randomized Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-04-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-10-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-04-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-07-20",
+      "studyFirstSubmitQcDate": "2024-08-02",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Marmara University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study was to compare paediatric patients' pain perception and behavioural response during dental injection using needle free injection (NF) or traditional injection method (TM) over two consecutive visits.",
+      "detailedDescription": "Pain is a complex and multidimensional construct that involves sensory, emotional, and cognitive processes. One of the most important part of child behaviour guidance is pain control, and the most common method used to achieve pain control in dental procedures is using local anesthetics(LA). Nevertheless, administering a LA injection is among the most anxiety-provoking procedure for both children and adults patients in dentistry. Knowledge about change in pain related behaviour during consecutive visits helps in and scheduling of treatment procedures and management of children in dental clinic .\n\nThus, numerious methods and techniques have been suggested to minimize/reduce pain due to infiltration of LA agents, including application of topical anesthesia , pre-cooling injection site , pressure administration to injection site , applying laser as pretreatment method , warming and buffering the local anesthetics, tactile stimulations , distraction technique, use of narrow needles and slow delivery of the injection solution, computerized injection systems , employing modern devices such VibraJect , DentalVibe, or Aculief have been tried out to allay the fears of child patients. However none of them gained universal acceptance and more situations and techniques need to be evaluated to improve stress management among patients in dental settings.\n\nDuring the administration of a LA injection, an anxious patient might perceive more severe pain of longer duration than would a less anxious patient. Visually and psychologyically, the dental syringe is perceived as a threatening instrument, especially by children. Fear of pain from 'the needle' has been frequently indicated to be the most fear-evoking stimulus for dentally anxious children.\n\nThe needle- free injection system may yield a higher level of comfort, because it involves no puncture or injection phase and has emerged as a novel alternative to traditional needle- based techniques. The Comfort-inTM system (Mika Medical; Busan, Korea) is a recent dental device that uses a needle-free injection technique to administer local anesthesia. This system is a patented device using the \"liquid jet\" system to inject the anesthetic solution rapidly from a 0.15-mm hole with high pressure. The use of this needle-free local anaesthesia system in dentistry can be of a help in treating needle phobia patients. To the extent of investigators knowledge, there were few studies have evaluated the effectiveness of this new injection technique on primary molars in children. Investigators feel that paediatric patients are the target group for whom pain control should be adequately followed. Therefore, the current study was designed to compare paediatric patients' pain perception during dental injection using new needle-free injection system (NF) or traditional injection method (TM). In addition, secondary outcomes such as dosage of local anesthetics used (ml) and duration of the analgesia effect (min) were assessed. The expectation and tested hypotheses were that the needle-free method would produce lower pain injection and lower dosage of local anesthetics during the dental procedure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anesthesia, Local",
+        "Child Behavior",
+        "Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Injection with the needle-free (NF) system",
+          "type": "EXPERIMENTAL",
+          "description": "The device used for needle free system was Comfort-in™ (Mika Medical Global Co, Busan, Korea) anesthesia device. The Comfort-in™ system, has a micro-hole injection needle (0.15 mm) that injects the anesthetic solution under the mucosa. The pressure can be controlled according to the dose of the drug to be used, thereby reduced the pain that may occur with the needle in the injection.",
+          "interventionNames": [
+            "Device: Injection with the needle-free (NF) system"
+          ]
+        },
+        {
+          "label": "Injection with the traditional method (TM)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The TM was used with traditional syringe on the opposite side of the dental arch. The injection site was dried with a cotton-tip applicator, and topical anesthetic spray (Lidocaine 10%, Vemcain, Turkey) was applied to the injection area with cotton-tip for 1-2 min. The traditional injection was performed with a 26-gauge, 40-mm, disposable syringe with a needle (Genject, Turkey). The depth of penetration was only a few millimeters and 0.3ml of anesthetic solution was deposited.",
+          "interventionNames": [
+            "Device: Injection with the traditional method (TM)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Injection with the needle-free (NF) system",
+          "description": "Before the injection procedure, the children were demonstrated the popping sound produced by device to prevent reflex reactions, and they informed that they would feel as if their gum were punched. The NF injection device was prepared according to the manufacturer's instructions, placed in full contact with the buccal mucosa and a pre-withdrawn dose of 0.1 ml was applied to the buccal region for topical purposes by the pushing the top of the device. After 10-15 seconds, the same procedure was repeated with withdrawn dose of 0.3 ml. After 5 min the treatment commenced, and the children were instructed to raise their hand if they experienced pain during the procedure. Each time the child indicated pain, in accordance with the same protocol an additional 0.3 ml of anesthetic solution was administered, until the sufficient anesthetic effect was obtained and the final amount of anesthetic solution were recorded. Precautions were taken to prevent tissue ballooning.",
+          "armGroupLabels": [
+            "Injection with the needle-free (NF) system"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Injection with the traditional method (TM)",
+          "description": "The depth of penetration was only a few millimeters and 0.3ml of anesthetic solution was deposited. After 5 min the treatment commenced, and the children were instructed to raise their hand if they experienced pain during the procedure. Each time the child indicated pain, in accordance with the same protocol an additional 0.3 ml of anesthetic solution was administered, until the sufficient anesthetic effect was obtained and the final amount of anesthetic solution were recorded. Precautions were taken to prevent tissue ballooning.",
+          "armGroupLabels": [
+            "Injection with the traditional method (TM)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Wong-Baker Faces Pain Rating Scale (WB PRS) (Wong DL, 1988)",
+          "description": "which measures the unpleasantness or affective dimension of a child's pain experience. The PRS consists of a set of cartoon faces with varying facial expressions ranging from a smile/laughter to tears, and each child is asked to select the facial expression that best represents his/her experience of discomfort. Each face has a numerical value ranging from 0 (smiling face, 'no hurt') to 5 (crying/screaming face, 'hurts worst'). This scale was explained to the children carefully in advance. Immediately after the each injection, the children were asked to rate the level of pain perceived during the administration, using the PRS.",
+          "timeFrame": "12 Month"
+        },
+        {
+          "measure": "Face, Legs, Activity, Cry, Consolability (FLACC) Scale. (Merkel SI, 1997)",
+          "description": "Pain level also objectively evaluated by the operator using the Face, Legs, Activity, Cry, Consolability (FLACC) Scale. (Merkel SI, 1997) This scale includes the following points: face, leg, activity, cry and consolability. Each one of these five categories records either 0, 1, or 2 which result in either a minimum degree of 0 or a maximum degree of 10. According to this scale: 0 = quiet and relaxed (no pain), 1-3 = mild discomfort or pain, 4-6 = moderate pain, and 7-10 = severe pain.",
+          "timeFrame": "12 Month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Amount of Anesthetic Solution (ml)",
+          "description": "Total amount of used anesthetic solution",
+          "timeFrame": "12 month"
+        },
+        {
+          "measure": "Duration of the Analgesia Effect (min)",
+          "description": "Duration of used anesthetic solution",
+          "timeFrame": "12 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Children with good general health without any history of allergic reactions as determined by a written history;\n* Not currently taking any analgesics or sedative medication that would alter their pain perception\n* Children demonstrated either 'positive' or 'definitely positive' behavior according to the Frankl Behavior Scale (FBS)\n* Requiring treatment on their maxillary primary molars bilaterally with similar operative difficulties.\n\nExclusion Criteria:\n\n* The existence of medical or developmental situations, history of chronic disease\n* 'negative' or 'definitely negative' behavior rating according to the Frankl Behavior Scale (FBS)\n* The presence of inflammation at the injection site.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "6 Years",
+      "maximumAge": "12 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sertaç Peker, Prof.",
+          "affiliation": "Marmara University, School of Dentistry, Istanbul/Turkiye",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Betül Kargül, Prof.",
+          "affiliation": "Marmara University, School of Dentistry, Istanbul/Turkiye",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Figen Eren, Assoc. Prof",
+          "affiliation": "Marmara University, School of Dentistry, Istanbul/Turkiye",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Gülnaz Nural Bekiroğlu, Prof.",
+          "affiliation": "Marmara University, School of Medicine, Istanbul/Turkiye",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Emrah Gökay Özgür, Asst. Prof.",
+          "affiliation": "Marmara University, School of Medicine, Istanbul/Turkiye",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Marmara University School of Dentistry",
+          "city": "Istanbul",
+          "zip": "34854",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        }
+      ]
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP_ICF",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": true,
+          "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+          "date": "2017-04-10",
+          "uploadDate": "2024-08-02T07:22",
+          "filename": "Prot_SAP_ICF_000.pdf",
+          "size": 505336
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002652",
+          "term": "Child Behavior"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        },
+        {
+          "id": "D016503",
+          "term": "Drug Delivery Systems"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004333",
+          "term": "Drug Administration Routes"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

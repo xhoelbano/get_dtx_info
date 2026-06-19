@@ -1,0 +1,298 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03064971",
+      "orgStudyIdInfo": {
+        "id": "CASE8516"
+      },
+      "organization": {
+        "fullName": "Case Comprehensive Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Enhancing Quitline Services for African American Smokers",
+      "officialTitle": "Enhancing Quitline Services for African American Smokers: RCT of an Evidence-Based DVD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-05-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-06-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-06-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-02-22",
+      "studyFirstSubmitQcDate": "2017-02-24",
+      "studyFirstPostDateStruct": {
+        "date": "2017-02-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-08-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-08-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Case Comprehensive Cancer Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "American Cancer Society, Inc.",
+          "class": "OTHER"
+        },
+        {
+          "name": "Consumer Wellness Solutions",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "North Carolina Tobacco Quitline",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study proposes to test the value of a culturally specific program for African American smokers to quit smoking.",
+      "detailedDescription": "The intervention to be tested, Pathways to Freedom (PTF), is a video-based program that will be examined as an adjunct to tobacco cessation services provided through a state quitline. Investigators will conduct a 3-arm randomized controlled trial (RCT) to obtain real-world evidence for the efficacy of the PTF DVD. Participants will be randomly assigned to receive standard care plus PTF DVD, standard care plus standard smoking cessation DVD, or standard care only; assessments will occur at baseline, 3, and 6 months post-enrollment. All participants will receive nicotine replacement therapy (NRT). Thus, the impact of the PTF DVD will be isolated, informing investigators whether standard telephone counseling can be enhanced by the provision of a culturally specific DVD-based intervention. The primary abstinence outcome will be cotinine-verified 7-day point-prevalence abstinence (ppa) at the 6-month follow-up; secondary outcomes will be 7-day ppa at 3-months, 24-hour ppa, and 28-day continuous abstinence.\n\nObjective 1: To test the efficacy of an innovative evidence-based smoking cessation DVD targeting African American smokers. Investigators will conduct a 3-arm randomized controlled trial (RCT) to obtain real-world evidence for the efficacy of the Pathway to Freedom (PTF) DVD. Participants will be randomly assigned to receive standard care plus PTF DVD, standard care plus standard smoking cessation DVD, or standard care only; assessments will occur at baseline, 3, and 6 months post-enrollment. All participants will receive nicotine replacement therapy (NRT). Thus, the impact of the PTF DVD will be isolated, informing us of whether standard telephone counseling can be enhanced by the provision of a culturally specific DVD-based intervention. The primary abstinence outcome will be cotinine-verified 7-day point-prevalence abstinence (ppa) at the 6-month follow-up; secondary outcomes will be 7-day ppa at 3-months, 24-hour ppa, and 28-day continuous abstinence. Controlling for covariates (any group differences in socio-demographics, smoking history, and NRT use), the study hypothesizes that standard care plus the PTF DVD will produce greater abstinence rates compared to standard care plus a standard cessation DVD. In this study, it is also expect that the greater abstinence rates in the PTF DVD condition will be maintained over time.\n\nObjective 2: To examine the effect of the PTF DVD on treatment engagement. Previous research suggests that culturally specific interventions are preferred by African American smokers compared to standard interventions. This preference may impact engagement in treatment, which would also represent an important indicator of success. Controlling for baseline differences, this study hypothesizes that the PTF DVD will lead to greater engagement in treatment, specifically positive evaluations of the telephone counseling and smoking cessation DVDs, session length, completed counseling sessions, DVD viewing, NRT use, use of coping strategies, and study retention compared to the standard DVD control group.\n\nObjective 3 (exploratory): To assess the feasibility of delivering the PTF DVD in an online format. Although there are several indications that a DVD format is cutting edge for African American smokers, who tend to be of lower socioeconomic status and have less Internet access, the study will assess the acceptability and utilization of delivering the video interventions in an online format. Specifically, at the 3 and 6-month follow-ups, participants will rate their satisfaction and experience with accessing the videos in each condition via a private YouTube channel, and report the frequency of online viewing. As this is an exploratory aim, there is no specific hypotheses."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tobacco Use Cessation"
+      ],
+      "keywords": [
+        "Quitline",
+        "culturally specific"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1050,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard care + PTF DVD",
+          "type": "EXPERIMENTAL",
+          "description": "The intervention will include the standard care, with the addition of the PTF DVD. Participants randomized to this condition will receive Pathways to Freedom: Leading the Way to a Smoke-Free Community© (PTF). The content of the intervention parallels the types of education, advice, and cessation/relapse prevention strategies that are delivered in clinic and quitline contexts, except for the focus on the specific needs of the Black community. The 60- minute DVD consists of 7 sections. The cultural adaptations (e.g., focus on menthol, focus on religion/spirituality, Black images and music) were infused throughout the DVD. The PTF DVD is useable at varying levels along the readiness to quit smoking continuum, as viewers are empowered to view sections that match their interests and goals. Quit Coaches will be trained to refer participants to appropriate sections for additional help.",
+          "interventionNames": [
+            "Behavioral: Standard Care",
+            "Behavioral: PTF DVD"
+          ]
+        },
+        {
+          "label": "Standard care + standard smoking cessation DVD",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "This arm includes standard care, plus a standard smoking cessation DVD. The evidence-based \"How to Quit\" DVD contains 60 minutes of smoking cessation information and strategies. Narrated by a physician, it describes the process of quitting and strategies for increasing physical activity and healthy nutrition. It includes testimonials from former smokers and dialogue among smokers in a group counseling setting. The information is presented in a standard format, intended for the general population of smokers.",
+          "interventionNames": [
+            "Behavioral: Standard Care",
+            "Behavioral: smoking cessation DVD"
+          ]
+        },
+        {
+          "label": "Standard care only",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Following the first counseling session, participants may receive up to 3 additional proactive counseling calls. Follow-up calls focus on challenges that may have occurred on the quit date or with the use of medication. Quit Coaches® review and modify the person's quit plan, and provide support as appropriate. Participants also receive standard self-help materials by mail, which is often referred to by Quit Coaches. For individuals who have successfully quit, the Coach will focus on relapse prevention strategies. Quit Coaches provide medication education to all participants eligible and interested in using cessation medications. This study will provide starter NRT kits (2 weeks supply) to all participants. Coaches provide decision support using a database-supported algorithm based on current scientific evidence and the product manufacturer use instructions for each drug.",
+          "interventionNames": [
+            "Behavioral: Standard Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard Care",
+          "description": "Standard of care provided by QuitlineNC includes Quit Coaches, counseling calls, nicotine replacement therapy, and written materials",
+          "armGroupLabels": [
+            "Standard care + PTF DVD",
+            "Standard care + standard smoking cessation DVD",
+            "Standard care only"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "smoking cessation DVD",
+          "description": "The evidence-based \"How to Quit\" DVD contains 60 minutes of smoking cessation information and strategies",
+          "armGroupLabels": [
+            "Standard care + standard smoking cessation DVD"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "PTF DVD",
+          "description": "Culturally specific smoking cessation DVD. This DVD contains 60 minutes of material.",
+          "armGroupLabels": [
+            "Standard care + PTF DVD"
+          ],
+          "otherNames": [
+            "Pathways to Freedom DVD"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cotinine-verified 7-day point-prevalence abstinence (ppa)",
+          "description": "number of patients who self-report abstinence from tobacco at 6 months who have confirmed abstinence with a test of saliva for cotinine, an alkaloid found in tobacco",
+          "timeFrame": "At 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cotinine-verified 7-day ppa",
+          "description": "number of patients at 3 months who self-report abstinence from tobacco for 7 days who have confirmed abstinence with a test of saliva for cotinine, an alkaloid found in tobacco",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "Cotinine-verified 24-hour ppa",
+          "description": "number of patients at 3 months who self-report abstinence from tobacco for 24 hours who have confirmed abstinence with a test of saliva for cotinine, an alkaloid found in tobacco",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "Cotinine-verified 24-hour ppa",
+          "description": "number of patients at 6 months who self-report abstinence from tobacco for 24 hours who have confirmed abstinence with a test of saliva for cotinine, an alkaloid found in tobacco",
+          "timeFrame": "At 6 months"
+        },
+        {
+          "measure": "28-day continuous abstinence",
+          "description": "number of patients at 3 months who self-report abstinence from tobacco for 28 days who have confirmed abstinence with a test of saliva for cotinine, an alkaloid found in tobacco",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "28-day continuous abstinence",
+          "description": "number of patients at 6 months who self-report abstinence from tobacco for 28 days who have confirmed abstinence with a test of saliva for cotinine, an alkaloid found in tobacco",
+          "timeFrame": "At 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Self-identification as Black/African American\n* Current smokers (smoked at least 100 lifetime cigarettes and currently smoke on some or every day) who would like help quitting\n* Eligible for state quitline services\n* Access to devices that play DVDs\n* Permanent contact information\n\nExclusion Criteria:\n\n* Recent quitters (have not smoked in past 7 days)\n* Medical contraindications for nicotine replacement therapy (NRT)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Monica Webb Hooper, PhD",
+          "affiliation": "Case Comprehensive Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Case Western Reserve University, Case Comprehensive Cancer Center",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37302513",
+          "type": "DERIVED",
+          "citation": "Webb Hooper M, Carpenter KM, Salmon EE, Resnicow K. Enhancing Tobacco Quitline Outcomes for African American Adults: An RCT of a Culturally Specific Intervention. Am J Prev Med. 2023 Dec;65(6):964-972. doi: 10.1016/j.amepre.2023.06.005. Epub 2023 Jun 10."
+        },
+        {
+          "pmid": "29321008",
+          "type": "DERIVED",
+          "citation": "Webb Hooper M, Carpenter K, Payne M, Resnicow K. Effects of a culturally specific tobacco cessation intervention among African American Quitline enrollees: a randomized controlled trial. BMC Public Health. 2018 Jan 10;18(1):123. doi: 10.1186/s12889-017-5015-z."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020340",
+          "term": "Tobacco Use Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

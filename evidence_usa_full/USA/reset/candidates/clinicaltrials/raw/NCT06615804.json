@@ -1,0 +1,260 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06615804",
+      "orgStudyIdInfo": {
+        "id": "46418926-2022/334"
+      },
+      "organization": {
+        "fullName": "Gulhane Training and Research Hospital",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "The Effects of Transcranial Magnetic Stimulation on Retina and Choroidal Structures",
+      "officialTitle": "The Effects of Transcranial Magnetic Stimulation Treatment on the Structures in Eyes of the Patients With Depression",
+      "acronym": "TMSEYE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-05-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-08-22",
+      "studyFirstSubmitQcDate": "2024-09-23",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Beyazit Garip",
+        "investigatorTitle": "Medical Doctor",
+        "investigatorAffiliation": "Gulhane Training and Research Hospital"
+      },
+      "leadSponsor": {
+        "name": "Gulhane Training and Research Hospital",
+        "class": "OTHER_GOV"
+      },
+      "collaborators": [
+        {
+          "name": "Western University, Canada",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Transcranial Magnetic Stimulation (TMS) therapy is an approved and effective treatment option in treatment-resistant depression. The present study aims to investigate the effect of TMS treatment on eye structures such as retina, macula, and choroid. These patients will be evaluated using the Optic Coherence Tomography (OCT) device, which is routinely used in ophthalmology practice, before and after a month long TMS treatment. The main question it aims to answer is:\n\n* Does TMS treatment influence the structures in eyes. The patients will visit the ophthalmology clinic before and after the TMS treatment.\n* TMS treatment will be applied 5 days a week for 4 weeks.",
+      "detailedDescription": "This prospective cohort study aims to investigate the impact of transcranial magnetic stimulation (TMS) on retinal structures in patients with treatment-resistant depression (TRD). TRD represents a subset of major depressive disorder where patients do not adequately respond to conventional antidepressant treatments. Emerging evidence suggests that TMS, a non-invasive brain stimulation technique, can effectively alleviate symptoms in TRD patients. However, the implications of TMS on ocular health, particularly the retina, remain poorly understood. This study seeks to fill this knowledge gap by assessing retinal nerve fiber layer (RNFL), macular, and choroidal thickness before and after a structured TMS treatment protocol.\n\nThe study will enroll 58 patients diagnosed with TRD according to The Diagnostic and Statistical Manual of Mental Illnesses (DSM-5) criteria. Participants will undergo a TMS treatment regimen using the MagVenture™ MagProX100™ device. The treatment protocol includes 20 sessions over four weeks, delivering 18,000 pulses in total. The stimulation targets the left dorsolateral prefrontal cortex, with parameters set to achieve optimal therapeutic effects without inducing adverse side effects. Motor threshold measurements will be conducted prior to the initiation of treatment and adjusted weekly to maintain consistent treatment intensity. The control group will be consisted of 60 healthy participants. They will not be treated nor followed, they just will be evaluated for ophthalmologic measurements for once.\n\nComprehensive ophthalmologic examinations will be performed on all patients both before and after the completion of the TMS treatment. These examinations will include assessments of RNFL, macula, and choroidal thickness using spectral-domain optical coherence tomography (SD-OCT) equipped with an enhanced depth imaging (EDI) mode. Psychiatric assessments using the the PAtient Health Questionnaire (PHQ-9) and Hamilton Depression Rating Scale (Ham17) will be conducted to evaluate changes in the severity of depressive symptoms.\n\nThe primary objective is to determine whether TMS therapy induces changes in the thickness of the RNFL, macula, and choroid in TRD patients. Secondary objectives include evaluating the safety and tolerability of TMS in this population, assessing changes in depressive symptomatology, and examining potential interactions between TMS and concurrent antidepressant use.\n\nPrimary outcomes will focus on changes in retinal measurements pre- and post-TMS treatment. Secondary outcomes will assess the clinical response to TMS based on standard psychiatric scales, record any TMS-related side effects, and explore associations between treatment effects and antidepressant use.\n\nThis study is crucial for understanding the broader implications of TMS in the treatment of TRD and its potential effects on ocular health. It will provide valuable data for clinicians and researchers, guiding safer and more effective use of TMS in psychiatric practice."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorders"
+      ],
+      "keywords": [
+        "Depressive Disorders",
+        "TMS",
+        "Treatment Resistance",
+        "Retina",
+        "Choroid",
+        "Retinal Nerve Fiber Layer",
+        "Macula"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Treatment resistant depression patient group will be evaluated before and after Transcranial Magnetic stimulation (TMS) treatment. There is a control group consist of healthy participants that will be only evaluated for ophthalmologic measurements.",
+        "primaryPurpose": "SCREENING",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 58,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment resistant depression group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be treated with transcranial magnetic stimulation (TMS) using the MagVenture™ MagProX100™ device. The treatment includes 20 sessions over 4 weeks, delivering 18000 pulses in total. The stimulation targets the left dorsolateral prefrontal cortex, with parameters set to achieve optimal therapeutic effects without inducing adverse side effects. Motor threshold measurements are conducted prior to the initiation of treatment and adjusted weekly to maintain consistent treatment intensity.\n\nComprehensive ophthalmologic examinations will be performed on all participants both before and after the completion of the TMS treatment. These examinations will include assessments of retinal nerve fiber layer, macula, and choroidal thickness using spectral-domain optical coherence tomography equipped with an enhanced depth imaging mode. The patient health questionnaire and Hamilton Depression Rating Scale will be conducted to evaluate changes in the severity of depressive symptoms.",
+          "interventionNames": [
+            "Biological: Transcranial Magnetic Stimulation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Transcranial Magnetic Stimulation",
+          "description": "Transcranial Magnetic Stimulation (TMS) is a non-invasive procedure that uses magnetic fields to stimulate nerve cells in the brain. It's primarily used to treat depression, especially in patients who haven't responded well to traditional treatments like medications or psychotherapy. The most common target is the dorsolateral prefrontal cortex, a region often underactive in people with depression. The magnetic pulses stimulate or inhibit brain activity in the targeted area. This is believed to help reset or correct patterns of neural activity associated with depression and other psychiatric disorders. TMS represents an alternative for those struggling with depression, offering a non-invasive approach with relatively few side effects and significant potential benefits",
+          "armGroupLabels": [
+            "Treatment resistant depression group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Effects of Transcranial Magnetic Stimulation Treatment on thickness of Retinal nerve fiber layer (RNFL) in Eyes of the Patients with Depression",
+          "description": "The changes in retinal nerve fiber layer (RNFL) thickness in treatment resistant depression (TRD) patients before and after transcranial magnetic stimulation (TMS) treatment, as assessed by spectral domain optical coherence tomography (SD-OCT).",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        },
+        {
+          "measure": "The Effects of Transcranial Magnetic Stimulation Treatment on thickness of Macula in Eyes of the Patients with Depression",
+          "description": "The changes in macula in treatment resistant depression (TRD) patients before and after transcranial magnetic stimulation (TMS) treatment, as assessed by spectral domain optical coherence tomography (SD-OCT).",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        },
+        {
+          "measure": "The Effects of Transcranial Magnetic Stimulation Treatment on Choroidal Thickness in Eyes of the Patients with Depression",
+          "description": "The changes in choroid tissue in treatment resistant depression (TRD) patients before and after transcranial magnetic stimulation (TMS) treatment, as assessed by enhanced depth imaging in spectral-domain optical coherence tomography (EDI SD-OCT).",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Retinal Structural Variations after Transcranial Magnetic Stimulation",
+          "description": "Analyzing the changes in nasal and inferior quadrants of the retina assessed by spectral domain optical coherence tomography (SD-OCT) to see if transcranial magnetic stimulation has broader ocular impacts.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        },
+        {
+          "measure": "Side Effects Assessment",
+          "description": "Recording any adverse events or unexpected side effects noted during or after the transcranial magnetic stimulation (TMS) sessions, to evaluate the safety profile of the treatment. There is no standardized method for evaluating the side effects of TMS, a clinician will evaluate the participants for known side effects including changes in hearing, local pain, muscle contractions, headache, non-specific tingling, and discomfort.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        },
+        {
+          "measure": "Tracking reductions in depression severity",
+          "description": "The depressive symptoms will be measured using the Patient Health Questionnaire (PHQ-9) and the Hamilton Depression Rating Scale (Ham17) before and after TMS treatment (effectiveness of the TMS protocol).\n\nThe PHQ-9 consists of nine questions that assess symptoms of depression over the past two weeks. Each question is scored on a scale of 0 to 3, with higher scores indicating more severe symptoms. The total score ranges from 0 to 27.\n\nThe Ham17 consists of 17 questions and it is used to determine the presence and type of depression. Each item is scored on a scale of 0 to 2, with 0 indicating no symptoms, 1 indicating mild symptoms, and 2 indicating severe symptoms. The total score ranges from 0 to 34, with higher scores indicating more severe depression.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        },
+        {
+          "measure": "Drug Interaction Effects",
+          "description": "Examining how concurrent antidepressant therapy might interact with transcranial magnetic stimulation (TMS) outcomes, particularly in terms of retinal measurements. There will be no intervention with the antidepressant treatment. The information on the drug name, dose, and treatment duration will be collected to analyse together with the above mentioned assessments.",
+          "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with Major Depressive Disorder according to DSM-5 TR.\n* Diagnosed with Obsessive-Compulsive Disorder according to DSM-5 TR.\n* Lack of response to treatment after being administered at least two different antidepressants and anti-obsessive agents at effective doses and durations.\n* The clinical condition cannot be better explained by a metabolic or organic disorder.\n* Routine electroencephalography (EEG) findings before TMS do not indicate electrical activity consistent with an epileptic focus.\n* Routine blood tests before TMS show no conditions that could affect treatment levels, particularly thyroid issues, vitamin deficiencies, or inflammation parameters that might cause depression or cognitive impairment (consultation with relevant departments if necessary).\n* No history of hearing loss identified during routine evaluations (if a history of hearing loss exists, consultation will be requested; if none, the process will proceed accordingly).\n\nExclusion Criteria:\n\n* According to the pre-TMS risk assessment form, there is a contraindication for treatment,\n* Epileptic focus is detected in the pre-TMS electroencephalography findings,\n* Previous head trauma, loss of consciousness and intra-cerebral surgery,\n* A metal particle caused by an aneurysm clip, connection tongs or explosive substances that will affect the electromagnetic field in the brain,\n* A significant disorder in the thyroid hormone profile in routine blood checks before TMS,\n* A significant increase in inflammation markers in routine checks before TMS,\n* A vitamin deficiency that may cause cognitive impairment or forgetfulness in routine blood checks before TMS,\n* A presence of electrolyte imbalance in routine blood checks before TMS,\n* The patient has previously had a psychotic attack or bipolar mood attack,\n* The patient has previously had a substance-induced psychosis or bipolar mood disorder,\n* The patient has previously used substances known as alcohol, drugs or stimulants according to DSM-V TR and semi-structured clinical interview (SCID-5 TR) have abuse or addiction (except if they have not used in the last 12 months or have not abused alcohol),\n* Those who want to terminate TMS treatment voluntarily,\n* If an unexpected clinical situation occurs during TMS treatment, the patient will be excluded from the study.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Beyazit Garip, MD",
+          "affiliation": "Gulhane Trainig and Research Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Gulhane Training and Research Hospital",
+          "city": "Ankara",
+          "zip": "06000",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual Participant Data (IDP) will be shared together with the Clinical Study Report",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "The data will be made available immediately after the publication, and will remain available for at least 5 years.",
+      "accessCriteria": "Anyone who wishes to access the data"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003865",
+          "term": "Depressive Disorder, Major"
+        },
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D050781",
+          "term": "Transcranial Magnetic Stimulation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055909",
+          "term": "Magnetic Field Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

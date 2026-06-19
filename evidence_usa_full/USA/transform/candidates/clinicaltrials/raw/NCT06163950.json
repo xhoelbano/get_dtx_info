@@ -1,0 +1,322 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06163950",
+      "orgStudyIdInfo": {
+        "id": "22CH527"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2022-A02510-43",
+          "type": "OTHER",
+          "domain": "ANSM"
+        }
+      ],
+      "organization": {
+        "fullName": "Centre Hospitalier Universitaire de Saint Etienne",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Decline in Walking Performance in Adults With Cerebral Palsy - Influence of Performance Fatigability",
+      "officialTitle": "The Decline in Walking Performance in Adults With Cerebral Palsy - Influence of Performance Fatigability",
+      "acronym": "FAT-GAIT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Lack of inclusion",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-05-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-12-01",
+      "studyFirstSubmitQcDate": "2023-12-01",
+      "studyFirstPostDateStruct": {
+        "date": "2023-12-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Centre Hospitalier Universitaire de Saint Etienne",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Due to an early brain injury occurring in antenatal or postnatal, cerebral palsy (CP) causes alteration in motor function with posture and gait disorders. It is commonly observed motor performance degradation during adulthood, and the underlying pathophysiology remains poorly known.",
+      "detailedDescription": "One of the hypotheses to explain the decline in walking capacities in adults with CP is their greater fatigability, that could be related to energy overconsumption (due to the specific biomechanical constraints of their walking pattern) and/or the occurrence of early sarcopenia affecting the compensatory muscle mechanisms commonly seen in children to compensate for architectural disorders and posture alterations. To optimize prevention and/or therapy in these patients, it is crucial to better understand the aetiology of fatigability and its role in the decline in walking performance."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Muscle Spasticity",
+        "Paralysis; Cerebral"
+      ],
+      "keywords": [
+        "Fatigue",
+        "fatigue-resistance",
+        "torque",
+        "power",
+        "Cerebral Palsy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients with cerebral palsy",
+          "type": "EXPERIMENTAL",
+          "description": "A specially adapted recumbent cycle ergometer with the ability to quickly transform into an isometric dynamometer will be used to assess fatigability development during a task to failure. Throughout the task, which consists of blocks of 3 minutes, neuromuscular assessments will take place to determine the evolution of fatigability and its peripheral and central determinants.",
+          "interventionNames": [
+            "Other: Fatigability assessment"
+          ]
+        },
+        {
+          "label": "Healthy people",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "A specially adapted recumbent cycle ergometer with the ability to quickly transform into an isometric dynamometer will be used to assess fatigability development during a task to failure. Throughout the task, which consists of blocks of 3 minutes, neuromuscular assessments will take place to determine the evolution of fatigability and its peripheral and central determinants.",
+          "interventionNames": [
+            "Other: Fatigability assessment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Fatigability assessment",
+          "description": "An isometric dynamometer will be used to assess fatigability development during a task to failure. Throughout the task, which consists of blocks of 3 minutes, neuromuscular assessments will take place to determine the evolution of fatigability and its peripheral and central determinants.",
+          "armGroupLabels": [
+            "Healthy people",
+            "Patients with cerebral palsy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Neuromuscular fatigue",
+          "description": "Neuromuscular fatigue, defined as the decrease in maximal voluntary force (in % of the resting value) developed in isometric knee extension following a standardized fatigue protocol.",
+          "timeFrame": "Week : 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Maximum voluntary force torque measurement of the knee flexor muscles",
+          "description": "Measurement of the (in Nm) of the knee flexor muscles in isometric and dynamic contraction.",
+          "timeFrame": "Week : 2"
+        },
+        {
+          "measure": "Maximum voluntary force torque measurement of the plantar flexor",
+          "description": "Measurement of the (in Nm) of the plantar flexor in isometric and dynamic contraction.",
+          "timeFrame": "Week : 2"
+        },
+        {
+          "measure": "Maximum voluntary force torque measurement of knee extensor muscles",
+          "description": "Measurement of the (in Nm) of the knee extensor muscles in isometric and dynamic contraction.",
+          "timeFrame": "Week : 4"
+        },
+        {
+          "measure": "Level of voluntary activation measurement",
+          "description": "Measurement of the level of voluntary activation (in %) determined by the force increment obtained following electrical stimulation of the motor nerve during a muscle condition of maximum contraction.",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Measurement of joint amplitude (in °)",
+          "description": "Evaluation of the passive muscular properties of the dominant leg, on the knee flexor muscles, and on the plantar flexor and knee extensor muscles",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Measurement of passive torque (in Nm)",
+          "description": "Evaluation of the passive muscular properties of the dominant leg, on the knee flexor muscles, and on the plantar flexor and knee extensor muscles",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Evaluation of neuromuscular fatigue",
+          "description": "The decrease in muscle twitch evoked by electrical nerve stimulation (in %) (peripheral fatigue)",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "VO2max (in mL/min/kg)",
+          "description": "Cardiorespiratory capacity will be assessed by measuring maximal oxygen consumption (VO2max (in mL/min/kg)) in an incremental cyclo-ergometer test.",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "The distance covered (in m) in the 6-minute walking test",
+          "description": "Quantitative walking performance will be assessed by measuring the distance covered (in m) in the 6-minute walking test",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Time (in seconds) taken during the 10-meter walk test",
+          "description": "Quantitative walking performance will be assessed by measuring the time (in seconds) taken during the 10-meter walk test",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Time (in s) taken in the \"Get Up and Go\" test",
+          "description": "Quantitative walking performance will be assessed by measuring the time (in s) taken in the \"Get Up and Go\" test",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Walking Quality evaluation",
+          "description": "The quality of walking will be evaluated (only in CP subjects) by a Quantified Gait Analysis (QGA) allowing the measurement of spatio-temporal parameters, joint kinematics and kinetics as well as muscle activity during walking. will be evaluated (only in CP subjects) by a Quantified Gait Analysis (QGA) allowing the measurement of spatio-temporal parameters, joint kinematics and kinetics as well as muscle activity during walking.",
+          "timeFrame": "Week : 6"
+        },
+        {
+          "measure": "Berg Balance Scale",
+          "description": "Postural control (or balance) will be assessed (only in CP subjects) by the Berg Balance Scale (BBS) score. This score, ranging from 0 to 56, is an index to measure functional balance.\n\n0 means high risk of falling; person needs a wheelchair 56 means no risk of falling; the person has functional balance",
+          "timeFrame": "Week : 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nCommon for CP and healthy volunteers:\n\n* Capable of walking for six minutes without stopping\n* Capable of consenting to the tests\n\nSpecific for the CP group\n\n* GMFCS I or II at age 18\n* Spastic diplegic cerebral palsy\n\nExclusion Criteria:\n\n* Counter-indications to the test procedures\n* Mental retardation or intelligence quotient (IQ) below 80\n* Accompanying diseases not allowing for the test setup\n* Major surgeries altering performance in the last six months\n* Injection of botulin altering maximal force production in the last three months\n* Refusing to sign the consent form",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bruno FERNANDEZ, MD",
+          "affiliation": "CHU DE SAINT-ETIENNE",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre Hospitalier de Saint-Etienne",
+          "city": "Saint-Etienne",
+          "zip": "42055",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.43389,
+            "lon": 4.39
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39609007",
+          "type": "DERIVED",
+          "citation": "Gravholt A, Fernandez B, Rimaud D, Zeghoudi N, Bessaguet H, Espeit L, Feasson L, Millet GY, Buizer AI, Lapole T. Unravelling age-related gait decline in cerebral palsy: insights into physiological changes and functional implications through an observational study-a French study protocol in a laboratory setting. BMJ Open. 2024 Nov 27;14(11):e090096. doi: 10.1136/bmjopen-2024-090096."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009128",
+          "term": "Muscle Spasticity"
+        },
+        {
+          "id": "D002547",
+          "term": "Cerebral Palsy"
+        },
+        {
+          "id": "D005221",
+          "term": "Fatigue"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009135",
+          "term": "Muscular Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D009122",
+          "term": "Muscle Hypertonia"
+        },
+        {
+          "id": "D020879",
+          "term": "Neuromuscular Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001925",
+          "term": "Brain Damage, Chronic"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,35 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00027925",
+      "drks_id": "DRKS00027925",
+      "title": "My7steps App Pilot Study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027925/details",
+      "_matched_query": "\"My7steps\"",
+      "_raw_json_path": "evidence/Germany/my7steps-app/candidates/drks/raw/DRKS00027925.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the My7steps App, as evidenced by the title 'My7steps App Pilot Study' and multiple mentions of the 'My7steps App' in the full text, describing it as a web-based intervention for depressive symptoms.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "pre-post study",
+        "confidence": 90,
+        "reason": "The study is a pre-post design evaluating the effectiveness of the My7steps app by comparing outcomes before and after the intervention without randomization or a control group, fitting the criteria for real-world evidence."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T07:50:13.967603Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

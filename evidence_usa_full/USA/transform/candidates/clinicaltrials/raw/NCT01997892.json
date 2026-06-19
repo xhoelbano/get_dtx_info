@@ -1,0 +1,1478 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01997892",
+      "orgStudyIdInfo": {
+        "id": "20120126"
+      },
+      "organization": {
+        "fullName": "Amgen",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "TRANSFORM - Observational Cohort Study of Darbepoetin Alfa Use in European Union (EU) Hemodialysis Patients Switched From PEG Epoetin Beta",
+      "officialTitle": "TRANSFORM - Observational Cohort Study of Aranesp Use in EU Haemodialysis Patients Switched From Mircera",
+      "acronym": "TRANSFORM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-12-18",
+      "studyFirstSubmitQcDate": "2013-11-25",
+      "studyFirstPostDateStruct": {
+        "date": "2013-11-28",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-04-17",
+      "resultsFirstSubmitQcDate": "2014-04-17",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-05-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-06-09",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Amgen",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To describe the time course of hemoglobin concentration in EU hemodialysis patients switched from methoxy polyethylene glycol-epoetin beta (PEG epoetin beta; Mircera) to darbepoetin alfa (Aranesp).",
+      "detailedDescription": "This is a multi-centre, observational cohort study of EU hemodialysis patients whose erythropoiesis stimulating agent (ESA) therapy has been switched from PEG epoetin beta to darbepoetin alfa. Data will be collected for the period spanning 14 weeks prior to switch through to 26 weeks post-switch."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anemia"
+      ],
+      "keywords": [
+        "CKD",
+        "Darbepoetin Alfa",
+        "Dialysis",
+        "Hemodialysis",
+        "Anemia",
+        "Peg epoetin beta"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT"
+      },
+      "enrollmentInfo": {
+        "count": 1027,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Chronic Kidney Disease (CKD)",
+          "description": "Participants with CKD on dialysis and treated with PEG epoetin beta for a minimum of 14 weeks immediately prior to being switched to darbepoetin alfa."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hemoglobin Concentration at Monthly Intervals",
+          "description": "Hemoglobin concentration from 3 months prior to switch to darbepoetin alfa until the end of the observation period.",
+          "timeFrame": "Month -3, -2, -1 (pre-switch), and Month 1, 2, 3, 4, 5 and 6 (post-switch)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PEG Epoetin Beta Dose From the Start of the Observation Period Until the Switch",
+          "description": "Mean weekly doses were calculated per participant by first calculating a mean daily dose for the interval (by dividing each dose evenly between the days bounded by its date of administration and the day before the next dose, then taking a mean of these partial doses for the days in the interval) and multiplying by 7 to convert to a weekly dose. Weekly doses \\>150 μg have been excluded as they were deemed infeasible values derived by the algorithm.",
+          "timeFrame": "Month -3, Month -2, Month -1"
+        },
+        {
+          "measure": "Darbepoetin Alfa Dose From the Switch Date Until the End of the Observation Period",
+          "description": "Mean weekly doses were calculated per participant by first calculating a mean daily dose for the interval (by dividing each dose evenly between the days bounded by its date of administration and the day before the next dose, then taking a mean of these partial doses for the days in the interval) and multiplying by 7 to convert to a weekly dose. Weekly doses \\>150 μg have been excluded as they were deemed infeasible values derived by the algorithm.",
+          "timeFrame": "Month 1, 2, 3, 4, 5 and 6"
+        },
+        {
+          "measure": "Dose Ratio Measured at the Time of Switch From PEG Epoetin Beta to Darbepoetin Alfa",
+          "description": "Dose ratio is the average weekly dose of the first darbepoetin alfa dose divided by the average weekly dose of peg-epoetin beta at switch (μg darbepoetin alfa per 1 μg pegylated-epoetin beta).",
+          "timeFrame": "Week -1 and Week 1"
+        },
+        {
+          "measure": "Hemoglobin Concentration Rate of Change by Period",
+          "description": "The hemoglobin rate of change is the maximum monthly increase and maximum monthly decrease for the pre- and post-switch periods. Within each period, the difference was calculated between each hemoglobin value and the most recent hemoglobin value taken at least 28 days previously. The rate of change was calculated by dividing this difference by the number of days in the interval and multiplying by 28. The maximum and minimum rate of change was then determined per participant.",
+          "timeFrame": "Thre months prior to switch and 6 months after the switch"
+        },
+        {
+          "measure": "Percentage of Participants With Hemoglobin Excursions",
+          "description": "The percentage of participants with at least one hemoglobin excursion, defined as hemoglobin concentrations below 10.0 g/dL and above 12.0 g/dL during the pre- and post-switch periods.",
+          "timeFrame": "Month -3, -2, -1, 1, 2, 3, 4, 5 and 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients \\>18 years of age. CKD diagnosis, receiving hemodialysis\n* Received PEG epoetin beta for 14weeks prior to switching to darbepoetin alfa and received at least one dose of darbepoetin alfa.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "CKD dialysed patients from EU centers treated with PEG epoetin beta for a minimum of 14weeks prior to switching to darbepoetin alfa.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "MD",
+          "affiliation": "Amgen",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Research Site",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Antony",
+          "zip": "92160",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.75329,
+            "lon": 2.29668
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Aurillac",
+          "zip": "15000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.92539,
+            "lon": 2.43983
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Béziers",
+          "zip": "34500",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.34122,
+            "lon": 3.21402
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Blois",
+          "zip": "41000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.59432,
+            "lon": 1.32912
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Boulogne-sur-Mer",
+          "zip": "62200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.72485,
+            "lon": 1.61373
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Cahors",
+          "zip": "46000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.4491,
+            "lon": 1.43663
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Essey-lès-Nancy",
+          "zip": "54270",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.705,
+            "lon": 6.22691
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Grabels",
+          "zip": "34790",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.648,
+            "lon": 3.80144
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "La Réunion",
+          "zip": "97420",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.29707,
+            "lon": 0.11776
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "La Roche-sur-Yon",
+          "zip": "85925",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.66974,
+            "lon": -1.42757
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Libourne",
+          "zip": "33505",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.91449,
+            "lon": -0.24186
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Lille",
+          "zip": "59800",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Metz",
+          "zip": "57000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.11911,
+            "lon": 6.17269
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Paris",
+          "zip": "75016",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Poitiers",
+          "zip": "86021",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Saint-Denis de La Réunion",
+          "zip": "97400",
+          "country": "France"
+        },
+        {
+          "facility": "Research Site",
+          "city": "Saint-Nazaire",
+          "zip": "44606",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.27506,
+            "lon": -2.2179
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Saint-Pierre",
+          "zip": "97410",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29282,
+            "lon": 5.40682
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Saint-Priest-en-Jarez",
+          "zip": "42270",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.4739,
+            "lon": 4.37678
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Strasbourg",
+          "zip": "67000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Vandœuvre-lès-Nancy",
+          "zip": "54504",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Kiel",
+          "zip": "24106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Nordhorn",
+          "zip": "48527",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.43081,
+            "lon": 7.06833
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Athens",
+          "zip": "11528",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Athens",
+          "zip": "15562",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Arnhem",
+          "zip": "6815 AD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.98,
+            "lon": 5.91111
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Ribeira",
+          "state": "Galicia",
+          "zip": "15993",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.73809,
+            "lon": -8.44106
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Santiago de Compostela",
+          "state": "Galicia",
+          "zip": "15701",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Santiago de Compostela",
+          "state": "Galicia",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Sion",
+          "zip": "1950",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.22739,
+            "lon": 7.35559
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25367412",
+          "type": "DERIVED",
+          "citation": "Donck J, Gonzalez-Tabares L, Chanliau J, Martin H, Stamatelou K, Manamley N, Farouk M, Addison J. Preservation of anemia control and weekly ESA dosage after conversion from PEG-Epoetin beta to darbepoetin alfa in adult hemodialysis patients: the TRANSFORM study. Adv Ther. 2014 Nov;31(11):1155-68. doi: 10.1007/s12325-014-0161-5. Epub 2014 Nov 1."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "AmgenTrials clinical trials website",
+          "url": "http://www.amgentrials.com"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "First patient enrolled 28 August 2012; Last patient enrolled 3 July 2013.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Chronic Kidney Disease (CKD)",
+          "description": "Participants with CKD on dialysis and treated with PEGylated (PEG) epoetin beta immediately prior to being switched to darbepoetin alfa."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1027"
+                }
+              ]
+            },
+            {
+              "type": "Received Darbepoetin Alfa",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "987"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "959"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "68"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "Renal transplant",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                }
+              ]
+            },
+            {
+              "type": "Other",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Study completion data not recorded",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "35"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "The Primary Analysis Set included all participants who received at least one dose of darbepoetin alfa who completed 26 weeks post-switch on darbepoetin alfa, did not receive another erythropoiesis stimulating agent during this period and had at least one hemoglobin value per month recorded for a minimum of any 4 months post-switch.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Chronic Kidney Disease (CKD)",
+          "description": "Participants with CKD on dialysis and treated with PEG epoetin beta immediately prior to being switched to darbepoetin alfa."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "785"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "68.7",
+                      "spread": "14.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "344"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "441"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Hemoglobin Concentration at Monthly Intervals",
+          "description": "Hemoglobin concentration from 3 months prior to switch to darbepoetin alfa until the end of the observation period.",
+          "populationDescription": "Primary analysis set; participants with available data at each time point (indicated by \"n\").",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "g/dL",
+          "timeFrame": "Month -3, -2, -1 (pre-switch), and Month 1, 2, 3, 4, 5 and 6 (post-switch)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chronic Kidney Disease (CKD)",
+              "description": "Participants with CKD on dialysis and treated with PEG epoetin beta immediately prior to being switched to darbepoetin alfa."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "785"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month -3 (n=725)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.27",
+                      "spread": "1.09"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month -2 (n=766)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.26",
+                      "spread": "1.08"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month -1 (n=769)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.19",
+                      "spread": "1.06"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 1 (n=763)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.14",
+                      "spread": "1.09"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 2 (n=755)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.36",
+                      "spread": "1.13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 3 (n=749)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.48",
+                      "spread": "1.14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 4 (n=754)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.38",
+                      "spread": "1.15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 5 (n=739)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.33",
+                      "spread": "1.15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 6 (n=742)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.29",
+                      "spread": "1.14"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PEG Epoetin Beta Dose From the Start of the Observation Period Until the Switch",
+          "description": "Mean weekly doses were calculated per participant by first calculating a mean daily dose for the interval (by dividing each dose evenly between the days bounded by its date of administration and the day before the next dose, then taking a mean of these partial doses for the days in the interval) and multiplying by 7 to convert to a weekly dose. Weekly doses \\>150 μg have been excluded as they were deemed infeasible values derived by the algorithm.",
+          "populationDescription": "Primary analysis set; participants with available data at each time point (indicated by \"n\").",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "μg/week",
+          "timeFrame": "Month -3, Month -2, Month -1",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chronic Kidney Disease (CKD)",
+              "description": "Participants with CKD on dialysis and treated with PEG epoetin beta immediately prior to being switched to darbepoetin alfa."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "785"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month -3 (n=740)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.7",
+                      "spread": "23.7",
+                      "lowerLimit": "26.3",
+                      "upperLimit": "29.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month -2 (n=779)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.5",
+                      "spread": "22.1",
+                      "lowerLimit": "25.2",
+                      "upperLimit": "27.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month -1 (n=783)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.4",
+                      "spread": "24.2",
+                      "lowerLimit": "26.0",
+                      "upperLimit": "28.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Darbepoetin Alfa Dose From the Switch Date Until the End of the Observation Period",
+          "description": "Mean weekly doses were calculated per participant by first calculating a mean daily dose for the interval (by dividing each dose evenly between the days bounded by its date of administration and the day before the next dose, then taking a mean of these partial doses for the days in the interval) and multiplying by 7 to convert to a weekly dose. Weekly doses \\>150 μg have been excluded as they were deemed infeasible values derived by the algorithm.",
+          "populationDescription": "Primary analysis set; participants with available data at each time point (as indicated by \"n\").",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "μg/week",
+          "timeFrame": "Month 1, 2, 3, 4, 5 and 6",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chronic Kidney Disease (CKD)",
+              "description": "Participants with CKD on dialysis and treated with PEG epoetin beta immediately prior to being switched to darbepoetin alfa."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "785"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month 1 (n=782)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29.4",
+                      "spread": "26.1",
+                      "lowerLimit": "27.9",
+                      "upperLimit": "30.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 2 (n=778)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.8",
+                      "spread": "26.0",
+                      "lowerLimit": "26.3",
+                      "upperLimit": "29.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 3 (n=780)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.4",
+                      "spread": "26.8",
+                      "lowerLimit": "23.9",
+                      "upperLimit": "27.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 4 (n=779)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.3",
+                      "spread": "27.6",
+                      "lowerLimit": "21.9",
+                      "upperLimit": "24.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 5 (n=777)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.8",
+                      "spread": "26.5",
+                      "lowerLimit": "22.3",
+                      "upperLimit": "25.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 6 (n=769)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.6",
+                      "spread": "25.5",
+                      "lowerLimit": "24.1",
+                      "upperLimit": "27.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Dose Ratio Measured at the Time of Switch From PEG Epoetin Beta to Darbepoetin Alfa",
+          "description": "Dose ratio is the average weekly dose of the first darbepoetin alfa dose divided by the average weekly dose of peg-epoetin beta at switch (μg darbepoetin alfa per 1 μg pegylated-epoetin beta).",
+          "populationDescription": "Primary analysis set",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "ratio",
+          "timeFrame": "Week -1 and Week 1",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Chronic Kidney Disease (CKD)",
+              "description": "Participants with CKD on dialysis and treated with PEG epoetin beta immediately prior to being switched to darbepoetin alfa."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "785"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.06",
+                      "lowerLimit": "1.01",
+                      "upperLimit": "1.11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Hemoglobin Concentration Rate of Change by Period",
+          "description": "The hemoglobin rate of change is the maximum monthly increase and maximum monthly decrease for the pre- and post-switch periods. Within each period, the difference was calculated between each hemoglobin value and the most recent hemoglobin value taken at least 28 days previously. The rate of change was calculated by dividing this difference by the number of days in the interval and multiplying by 28. The maximum and minimum rate of change was then determined per participant.",
+          "populationDescription": "Primary Analysis Set with available data",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "g/dL/4 week",
+          "timeFrame": "Thre months prior to switch and 6 months after the switch",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pre-switch Period",
+              "description": "From 3 months prior to the switch until the date of the switch to darbepoetin alfa."
+            },
+            {
+              "id": "OG001",
+              "title": "Post-switch Period",
+              "description": "From the date of the switch to darbepoetin alfa, until up to 6 months."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "774"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "785"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Highest change during period",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.64",
+                      "spread": "0.71"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.17",
+                      "spread": "0.74"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lowest change during period",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.73",
+                      "spread": "0.86"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.21",
+                      "spread": "0.88"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Hemoglobin Excursions",
+          "description": "The percentage of participants with at least one hemoglobin excursion, defined as hemoglobin concentrations below 10.0 g/dL and above 12.0 g/dL during the pre- and post-switch periods.",
+          "populationDescription": "Primary analysis set",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Month -3, -2, -1, 1, 2, 3, 4, 5 and 6",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Excursions <10.0 g/dL",
+              "description": "Hemoglobin excursions below 10.0 g/dL"
+            },
+            {
+              "id": "OG001",
+              "title": "Excursions > 12.0 g/dL",
+              "description": "Hemoglobin excursions above 12.0 g/dL"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "785"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "785"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month -3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.8",
+                      "lowerLimit": "14.3",
+                      "upperLimit": "19.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29.0",
+                      "lowerLimit": "25.9",
+                      "upperLimit": "32.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month -2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.7",
+                      "lowerLimit": "15.1",
+                      "upperLimit": "20.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29.0",
+                      "lowerLimit": "25.9",
+                      "upperLimit": "32.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month -1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.7",
+                      "lowerLimit": "13.2",
+                      "upperLimit": "18.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24.8",
+                      "lowerLimit": "21.9",
+                      "upperLimit": "28.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.8",
+                      "lowerLimit": "15.2",
+                      "upperLimit": "20.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23.1",
+                      "lowerLimit": "20.2",
+                      "upperLimit": "26.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.6",
+                      "lowerLimit": "11.3",
+                      "upperLimit": "16.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29.3",
+                      "lowerLimit": "26.1",
+                      "upperLimit": "32.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 3",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.7",
+                      "lowerLimit": "9.6",
+                      "upperLimit": "14.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.1",
+                      "lowerLimit": "29.8",
+                      "upperLimit": "36.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.8",
+                      "lowerLimit": "11.4",
+                      "upperLimit": "16.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32.6",
+                      "lowerLimit": "29.3",
+                      "upperLimit": "36.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 5",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.2",
+                      "lowerLimit": "10.0",
+                      "upperLimit": "14.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27.8",
+                      "lowerLimit": "24.7",
+                      "upperLimit": "31.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 6",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.6",
+                      "lowerLimit": "12.2",
+                      "upperLimit": "17.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26.5",
+                      "lowerLimit": "23.4",
+                      "upperLimit": "29.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "The observation period for individual participants spanned 14 weeks prior to switching from PEG epoetin beta to darbepoetin alfa to a maximum of 26 weeks post-switch.",
+      "description": "Adverse drug reactions in the Full Analysis Set (all eligible enrolled participants who received at least one dose of darbepoetin alfa) are reported.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Pre-switch Period",
+          "description": "From 3 months prior to the switch until the date of the switch to darbepoetin alfa.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 987,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 987
+        },
+        {
+          "id": "EG001",
+          "title": "Post-switch Period",
+          "description": "From the date of the switch to darbepoetin alfa, until up to 6 months.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 987,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 987
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Hot flush",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 16.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 987
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 987
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "The Clinical Trial Agreement generally does not restrict an investigator's discussion of trial results aftercompletion. The Agreement permits Amgen a limited period of time to review material discussing trial results (typically up to 45 days and possible extension). Amgen may remove confidential information, but authors have final control and approval of publication content. For multicenter studies, the investigator agrees not to publish any results before the first multi-center publication."
+      },
+      "pointOfContact": {
+        "title": "Study Director",
+        "organization": "Amgen Inc.",
+        "phone": "866-572-6436"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000740",
+          "term": "Anemia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006402",
+          "term": "Hematologic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

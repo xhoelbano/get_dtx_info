@@ -1,0 +1,282 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04547686",
+      "orgStudyIdInfo": {
+        "id": "STUDY00001085"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01CA235721",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01CA235721"
+        },
+        {
+          "id": "2025P013504",
+          "type": "OTHER",
+          "domain": "Emory IRB"
+        }
+      ],
+      "organization": {
+        "fullName": "Emory University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of a Smoke-Free Homes Intervention",
+      "officialTitle": "Randomized Controlled Trial to Test the Efficacy of a Smoke-Free Homes Intervention in Promoting Cessation",
+      "acronym": "SFH 5A RCT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-07-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-09-08",
+      "studyFirstSubmitQcDate": "2020-09-08",
+      "studyFirstPostDateStruct": {
+        "date": "2020-09-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michelle C. Kegler",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Emory University"
+      },
+      "leadSponsor": {
+        "name": "Emory University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to test whether the integration of a smoke-free homes intervention into the clinical guidelines for tobacco cessation can encourage sustained smoking cessation in low-income primary care patients. The intervention consists of five components, three interactive mailings and two coaching calls, focused on creating home and vehicle(s) smoking bans among smokers.",
+      "detailedDescription": "Tobacco use remains the top preventable cause of death and disease in the U.S., is a major cause of cancer and cardiovascular disease, and is responsible for 480,000 deaths per year. Recent prevalence estimates show that 15.1% of adults (36.5 million) smoke cigarettes, with significant disparities in rates by socio-economic status and race/ethnicity. Among those living below poverty, 26.1% smoked in 2015, in contrast to 13.9% living above the poverty threshold. Smoking rates are also higher among those on Medicaid (27.8%), uninsured persons (27.4%) and those living in rural areas, particularly in the South. Quitting smoking reduces premature mortality and is beneficial to health across the lifespan. The majority (68.8%) of smokers would like to quit and over half try to quit in any given year. Unfortunately, of those who try to quit, a relatively small proportion succeed. Of significance to this study, just 7% to 20% plan to quit within the next 30 days.\n\nLow-income populations, such as those served by a Federally Qualified Health Center (FQHC), are less likely to have a Smoke-Free Home (SFH). Nationally, in 2012-2013, among combustible-only tobacco users, 53.7% reported a SFH. Among those with an annual household income \\<$20,000, just 37.0% had a SFH. It increased to 48.5% for smokers with an annual household income between $20,000 and $49,999, and 63% for those with annual household incomes between $50,000 and $100,000. Given that the majority of FQHC patients live in poverty, we anticipate that over 60% of FQHC patients who smoke will not yet have a SFH.\n\nThis study is a randomized controlled trial with smokers from Federally Qualified Health Centers (FQHCs) in Georgia which will compare the efficacy of adding a smoke-free homes intervention to the currently recommended clinical guidelines on tobacco cessation. Participants in the intervention condition will receive the expanded Smoke-Free Homes intervention coupled with a connection to the quitline, if they are interested (the quitline is a free cessation counseling offered to all Georgia residents by the state of Georgia). The usual care/control arm will receive mailed information on the quitline immediately following the baseline interview and a connection to the quitline at their request. Follow-up will be at six and twelve months, including saliva cotinine validation for reported 7-day cessation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cessation, Smoking"
+      ],
+      "keywords": [
+        "Smoke-Free",
+        "Home Intervention",
+        "Cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 918,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Smoke-Free Homes Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in the intervention condition will receive the expanded Smoke-Free Homes intervention coupled with a connection to the quitline. Follow-up will be at six and twelve months, including saliva cotinine validation for reported 7-day cessation.",
+          "interventionNames": [
+            "Behavioral: Smoke-Free Homes Intervention",
+            "Behavioral: Control"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The usual care/control arm will receive mailed information on the quitline and a connection to the quitline at their request. Follow-up will be at six and twelve months, including saliva cotinine validation for reported 7-day cessation.",
+          "interventionNames": [
+            "Behavioral: Control"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoke-Free Homes Intervention",
+          "description": "The adapted smoke-free homes intervention consists of five components, three interactive mailings and two coaching calls, focused on creating home and vehicle(s) smoking bans among smokers. The intervention is based on principles of Social Cognitive Theory and the Transtheoretical Model's stages of change. The rationale underlying the intervention is that creation of additional smoke-free environments will reduce situational and environmental cues to smoke, reduce opportunities and places to smoke, increase self-efficacy for quitting and increase motivation to quit. The intervention uses persuasion, role modeling, behavioral contracting and goal setting to move smokers through behavioral capability, outcome expectations and self-efficacy for strict smoke-free rules, creation of and compliance/enforcement with smoke-free rules, reduced cigarettes smoked per day, increased motivation to quit, increased quit attempts, and successful cessation.",
+          "armGroupLabels": [
+            "Smoke-Free Homes Intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Control",
+          "description": "The quitline is a phone number that people can call that offers free smoking cessation counseling to all Georgia residents by the state of Georgia.",
+          "armGroupLabels": [
+            "Control",
+            "Smoke-Free Homes Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants achieving smoking cessation/abstinence",
+          "description": "Smoking cessation/abstinence is assessed as cotinine-validated 7-day point-prevalence abstinence at 12 months. Saliva samples will be collected via mail from participants who report 7-day (and/or 30-day) point-prevalence abstinence at six- and 12-month follow-up in order to examine cotinine levels to verify self-reported abstinence. A standard cut point of 15 ng/ml is used to determine abstinence.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of participants self-reporting 30-day abstinence",
+          "description": "Participants self-report abstinence from smoking during the prior 30 days.",
+          "timeFrame": "6 months, 12 months"
+        },
+        {
+          "measure": "Number of cigarettes smoked per day on smoking days",
+          "description": "Participants are asked to report the number of cigarettes smoked per day, on days that they smoked.",
+          "timeFrame": "6 months,12 months"
+        },
+        {
+          "measure": "Number of quit attempts",
+          "description": "Participants are asked \"How many times during the past 6 months have you stopped smoking for more than one day because you were trying to quit smoking?\" to assess the number of attempts to quit smoking.",
+          "timeFrame": "6 months, 12 months"
+        },
+        {
+          "measure": "Number of participants with smoke-free home rules",
+          "description": "Participants are asked to describe the rules about cigarette smoking inside their home. Possible responses are: There are no rules about smoking inside the home; Smoking is not allowed anywhere inside the home; Smoking is allowed in some places or at sometimes; Smoking is allowed anywhere inside the home. Responses are categorized as the home being smoke-free or not.",
+          "timeFrame": "6 months, 12 months"
+        },
+        {
+          "measure": "Number of participants smoke-free vehicle rules",
+          "description": "Participants are asked to describe the rules about cigarette smoking inside their vehicle. Possible responses are: There are no rules about smoking inside vehicles; Smoking is sometimes allowed in some vehicles; Smoking is never allowed in any vehicle; No vehicle. Responses are categorized vehicles being smoke-free vehicle or not.",
+          "timeFrame": "6 months, 12 months"
+        },
+        {
+          "measure": "Number of cigarettes smoked in the home",
+          "description": "Participants living in homes with nonsmokers and children are asked to report the number of cigarettes smoked inside the home on a typical day, during the last 7 days.",
+          "timeFrame": "6 months,12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age and older\n* referred by primary care physician or provider of a participating Federally Qualified Health Center (FQHC) in Georgia\n* have smoked at least one cigarette in the past 30 days\n* has ability to speak and understand English\n* be the only patient per household to be enrolled in the study\n* not currently be enrolled in a cessation program\n\nExclusion Criteria:\n\n* non-smoker\n* unable to speak or understand English\n* under 18 years of age\n* have another family or household member participating in the research\n* vulnerable special populations will not be enrolled, including:\n\n  * adults unable to consent\n  * pregnant women\n  * prisoners\n  * cognitively impaired or Individuals with Impaired Decision-Making Capacity\n  * not able to clearly understand English\n  * community participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michelle Kegler, DrPH",
+          "affiliation": "Emory University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Rollins School of Public Health, Emory University",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data from the quantitative surveys at baseline and follow-up (6 and 12 month) will be made available for sharing.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "The time frame for making data available for sharing is to be determined.",
+      "accessCriteria": "Access will be granted to investigators who submit a request to the PI for any analyses that are not planned by the research team (with a description of the research question, desired variables, analysis plan, and dissemination plan)."
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-03-14",
+          "uploadDate": "2024-12-10T12:39",
+          "filename": "ICF_000.pdf",
+          "size": 299529
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

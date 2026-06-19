@@ -1,0 +1,290 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04843462",
+      "orgStudyIdInfo": {
+        "id": "2467/2020"
+      },
+      "organization": {
+        "fullName": "Medical University of Vienna",
+        "class": "OTHER"
+      },
+      "briefTitle": "Add-on Therapy With Edupression.Com® on Therapy Resistant Depressive Patients Treated With Nasal Esketamine Spray",
+      "officialTitle": "A Randomized, Controlled Pragmatic Trial Assessing the Value of an add-on Therapy With Edupression.Com® in Therapy Resistant Depressive Patients Treated With Esketamine Nasal Spray",
+      "acronym": "Esketamin+"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-05",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-04-14",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-04-14",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-04-07",
+      "studyFirstSubmitQcDate": "2021-04-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-05-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-05-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Lukas Pezawas",
+        "investigatorTitle": "Assoc.Prof. Priv.Doz. Dr. Lukas Pezawas",
+        "investigatorAffiliation": "Medical University of Vienna"
+      },
+      "leadSponsor": {
+        "name": "Lukas Pezawas",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Pragmatic clinical trial of an add-on therapy regarding the use of edupression.com® - a licensed computer based self-help program - on patients with therapy-resistant depression receiving esketamine nasal spray",
+      "detailedDescription": "edupression.com® - is a medical product and computer based self-help program based on cognitive behavioral therapy, psychoeducation and mood tracking. Patients included in the interventional arm of this study are receiving full access to edupression.com®.\n\nDue to limited resources regarding face-to-face therapy and a high prevalence of Major Depressive Disorder - of which 37% can be identified as therapy-resistant depression (TRD) according to the definition of the European Medical Agency (EMA) - low-intensity psychosocial interventions such as edupression.com® are recommended as first-line digital therapeutic agent by international guidelines such as National Institute for Health and Care Excellence (NICE) guidelines. Studies have shown that digital interventions - such as edupression.com - show comparable clinical efficiency to face-to-face therapy and therefore could be able to fill the gap in limited ressources. In this study patients with therapy-resistant depression are receiving therapy with edupression.com® in addition to their treatment-as-usual with esketamine nasal spray. Comparable studies have shown that patients receiving psychotherapy in addition to their medical therapy benefit in regards to their clinical outcome. Considering these findings, this study is aimed to investigate potential clinical benefits in patients receiving digital therapy with edupression®.com as an add-on therapy to their treatment-as-usual therapy with esketamine nasal spray."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorder",
+        "Therapy Resistant Depression"
+      ],
+      "keywords": [
+        "Depression",
+        "Esketamine",
+        "Treatment resistant depression",
+        "Internet-based intervention",
+        "Telemedicine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The interventional study consists of two parallel study arms. The interventional group receives \"treatment-as-usual\" with nasal esketamine spray and access to edupression.com®. The control group only receives \"treatment-as-usual\".",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Data will be immediately pseudonymized and stored as a master list at the internal server of the MUV (Medical University Vienna). The study staff will only have access to the master list and only the principal investigator and study director will have access to the pseudonymization list. This locked place will be located at the clinic (MUV). All non-personal pseudonymized research relevant data are stored in a master list on a server of the research group at the MUV, to which study staff has access.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "edupression.com® + treatment-as-usual",
+          "type": "EXPERIMENTAL",
+          "description": "Patients are receiving treatment with edupression.com® in addition to TAU (treatment-as-usual) with esketamine nasal spray",
+          "interventionNames": [
+            "Device: edupression.com®",
+            "Drug: Esketamine nasal spray"
+          ]
+        },
+        {
+          "label": "treatment-as-usual",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients are receiving TAU (treatment-as-usual) with esketamine nasal spray",
+          "interventionNames": [
+            "Drug: Esketamine nasal spray"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "edupression.com®",
+          "description": "Edupression.com® is an evidence-based self-help program that was developed for the treatment of mild to moderate unipolar depression. It is based on two core foundations, psychoeducation with elements of cognitive behavior therapy (CBT) and a mood chart. Both foundations are registered as a medical product. As such, detailed risk management documentation includes probability and severity of adverse events. Moreover, detailed strategies such as warnings were implemented in the software and documented accordingly.\n\nIt can be used on a PC as well as on mobile devices (browser, app) at any time.",
+          "armGroupLabels": [
+            "edupression.com® + treatment-as-usual"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Esketamine nasal spray",
+          "description": "All patients included in this study are receiving esketamine nasal spray as treatment-as-usual",
+          "armGroupLabels": [
+            "edupression.com® + treatment-as-usual",
+            "treatment-as-usual"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Therapy response (observer-rated)",
+          "description": "Change in depressive symptoms according to MADRS-Score (0-60 points, higher values stand for)",
+          "timeFrame": "At week 4, 8 and 12 after baseline"
+        },
+        {
+          "measure": "Percentage of received esketamine treatments in relation to scheduled ones",
+          "description": "Change in therapy adherence according to a percentual increase of received esketamine treatments in accordance to scheduled ones",
+          "timeFrame": "Percentage of received esketamine treatments in relation to scheduled ones after 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Therapy response (self-rated)",
+          "description": "Change in depressive symptoms according to the self rating scale PHQ-9 (Patient Health Questionnaire-9) (1-27 points, higher values stand for increased severity)",
+          "timeFrame": "At week 4, 8 and 12 after baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 or older\n* Initial MADRS-Score of 22 or above\n* Diagnosis of a therapy-resistant depression following the definition of the European Medicines Agency (EMA) - absence of remission after two or more guideline-oriented therapies\n* Patients assigned to treatment with nasal esketamine spray Spravato®\n* Signed informed consent\n* Native German speaker\n* Basic knowledge in using computers/smartphones operationalized as daily use of at least two devices (such as tablets, computers, smartphones etc)\n\nExclusion Criteria:\n\n* Contraindication regarding the use of Spravato®\n* Diagnosis of one of the following psychiatric comorbidities: substance abuse, schizoaffective disorders, schizophrenia, bipolar disorder, organic disorders diagnosed via Mini International Neuropsychiatric Interview (MINI)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lukas M Pezawas, MD, Prof.",
+          "role": "CONTACT",
+          "phone": "004314040035470",
+          "email": "lukas.pezawas@meduniwien.ac.at"
+        },
+        {
+          "name": "Gabriele Fischer, MD, Prof.",
+          "role": "CONTACT",
+          "phone": "004314040035470",
+          "email": "gabriele.fischer@meduniwien.ac.at"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Markus Dold, MD., Priv.Doz.",
+          "affiliation": "Medical University of Vienna",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Gabriele Fischer, MD, Prof.",
+          "affiliation": "Medical University of Vienna",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Lukas M Pezawas, MD, Prof.",
+          "affiliation": "Medical University of Vienna",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medical University Vienna",
+          "status": "RECRUITING",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Lukas M Pezawas, Prof.",
+              "role": "CONTACT",
+              "email": "lukas.pezawas@meduniwien.ac.at"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22132433",
+          "type": "RESULT",
+          "citation": "National Collaborating Centre for Mental Health (UK). Depression: The Treatment and Management of Depression in Adults (Updated Edition). Leicester (UK): British Psychological Society; 2010. Available from http://www.ncbi.nlm.nih.gov/books/NBK63748/"
+        },
+        {
+          "pmid": "32775969",
+          "type": "RESULT",
+          "citation": "Luo C, Sanger N, Singhal N, Pattrick K, Shams I, Shahid H, Hoang P, Schmidt J, Lee J, Haber S, Puckering M, Buchanan N, Lee P, Ng K, Sun S, Kheyson S, Chung DC, Sanger S, Thabane L, Samaan Z. A comparison of electronically-delivered and face to face cognitive behavioural therapies in depressive disorders: A systematic review and meta-analysis. EClinicalMedicine. 2020 Jun 27;24:100442. doi: 10.1016/j.eclinm.2020.100442. eCollection 2020 Jul."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003865",
+          "term": "Depressive Disorder, Major"
+        },
+        {
+          "id": "D061218",
+          "term": "Depressive Disorder, Treatment-Resistant"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003866",
+          "term": "Depressive Disorder"
+        },
+        {
+          "id": "D019964",
+          "term": "Mood Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

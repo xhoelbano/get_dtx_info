@@ -1,0 +1,957 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04689256",
+      "orgStudyIdInfo": {
+        "id": "H00021940"
+      },
+      "organization": {
+        "fullName": "University of Massachusetts, Worcester",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pilot Randomized Controlled Study of the Impact of MedRhythms' MR-010 in Acute Stroke",
+      "officialTitle": "Pilot Randomized Controlled Study of the Impact of MedRhythms' MR-010 in Acute Stroke"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Study terminated due to lower than expected recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-12-28",
+      "studyFirstSubmitQcDate": "2020-12-28",
+      "studyFirstPostDateStruct": {
+        "date": "2020-12-30",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-09-02",
+      "resultsFirstSubmitQcDate": "2024-12-31",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Massachusetts, Worcester",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "MedRhythms, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this clinical pilot study is to evaluate the effects of the MR-010 on tolerability, biomechanics and walking speed in the acute stroke care setting in addition to its impact on length of stay."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Stroke, Acute"
+      ],
+      "keywords": [
+        "rehabilitation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MR-010 walking therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.",
+          "interventionNames": [
+            "Device: MR-010"
+          ]
+        },
+        {
+          "label": "Standard of Care",
+          "type": "NO_INTERVENTION",
+          "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "MR-010",
+          "description": "MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat.",
+          "armGroupLabels": [
+            "MR-010 walking therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Gait Speed (m/s)",
+          "description": "Change in gait speed (m/s) from baseline to study completion as measured by a 6 meter walking test.",
+          "timeFrame": "90 days"
+        },
+        {
+          "measure": "Adherence to MR-010 Therapy Schedule",
+          "description": "Adherence to the MR-010 therapy schedule is measured by the number of participants who completed scheduled sessions (3 times per week for 12 weeks)",
+          "timeFrame": "90 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Length of Stay",
+          "description": "Median length of stay in acute stroke hospital",
+          "timeFrame": "Duration of hospital stay, up to 14 days"
+        },
+        {
+          "measure": "Readmission to Hospital",
+          "description": "Percent of readmission to hospital following discharge",
+          "timeFrame": "90 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be 18 years of age or older.\n* Must be able to read and speak English fluently.\n* Be within 24 hours from admission for confirmed stroke event.\n* Currently able to walk at a speed greater or equal to 0.4m/s, but less than 1.0m/s, as determined by a 10-meter walk test for comfortable walking speed (the average of three trials).\n* Demonstrates some level of asymmetry in gait.\n* Is expected to be discharged from the acute care setting requiring physical therapy per standard of care and participant has verbally committed to receiving at least one therapy session.\n* Able and willing to consent with proposed study schema (verbal commitment), including consent to participate in communication with the treating clinician (as needed) during the study period.\n* Score ≤1 on question 1b and a 0 on question 1c on the NIH Stroke Scale.\n* Able to safely participate in protocol-defined walking therapy sessions of 30-minute duration as determined by the Investigator.\n\nExclusion Criteria:\n\n* Participant unable or unwilling to provide informed consent.\n* Has a known history of neurologic (excluding stroke) injury.\n* Has severe aphasia and/or a speech/language disorder, limiting ability to express needs and comprehend instructions.\n* Has an external lower limb prosthetic (\"artificial limb\").\n* Has a hearing impairment.\n* Had orthopedic surgery in the last year.\n* Has co-morbidities that prevent participation in exercise (for example: musculoskeletal, cardiovascular, pulmonary and neurological - other than stroke).\n* Vulnerable populations as deemed inappropriate for study by site Principal Investigator.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Brian Silver, MD",
+          "affiliation": "UMass Medical School",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UMass Chan Medical School",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01655",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Patients included following diagnosis of acute stroke",
+      "recruitmentDetails": "Recruited in hospital after confirmed diagnosis of acute stroke from 11/03/2021 to 11/27/2022. Study terminated due to lower than expected recruitment",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "MR-010 Walking Therapy",
+          "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat."
+        },
+        {
+          "id": "FG001",
+          "title": "Standard of Care",
+          "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Participants declined to participate in the interventions per protocol",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "MR-010 Walking Therapy",
+          "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat."
+        },
+        {
+          "id": "BG001",
+          "title": "Standard of Care",
+          "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "2"
+            },
+            {
+              "groupId": "BG001",
+              "value": "2"
+            },
+            {
+              "groupId": "BG002",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66.5",
+                      "lowerLimit": "66",
+                      "upperLimit": "67"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "67.5",
+                      "lowerLimit": "65",
+                      "upperLimit": "70"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "67",
+                      "lowerLimit": "65",
+                      "upperLimit": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Gait Speed (m/s)",
+          "description": "Change in gait speed (m/s) from baseline to study completion as measured by a 6 meter walking test.",
+          "populationDescription": "No subjects completed the at home 6 Meter Walking Test. Therefore, no data was collected for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MR-010 Walking Therapy",
+              "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care",
+              "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Adherence to MR-010 Therapy Schedule",
+          "description": "Adherence to the MR-010 therapy schedule is measured by the number of participants who completed scheduled sessions (3 times per week for 12 weeks)",
+          "populationDescription": "Data for this outcome was only intended to be collected and measured for participants in the MR-010 walking therapy group. As no participants completed the MR-101 walking therapy intervention, no data was collected.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MR-010 Walking Therapy",
+              "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Length of Stay",
+          "description": "Median length of stay in acute stroke hospital",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "days",
+          "timeFrame": "Duration of hospital stay, up to 14 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MR-010 Walking Therapy",
+              "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care",
+              "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "2"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "2"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3",
+                      "lowerLimit": "2",
+                      "upperLimit": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Readmission to Hospital",
+          "description": "Percent of readmission to hospital following discharge",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MR-010 Walking Therapy",
+              "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care",
+              "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "2"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "2"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "3 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "MR-010 Walking Therapy",
+          "description": "Subjects will use the MR-010 three times a week for 30 minutes per session for 90 days. Subjects will undergo a 10-meter walk test bi-weekly and at 45 and 90 days.\n\nMR-010: MR-010 includes a patient application and sensors with commercially available headphones and smartphones. Sensors are placed on the subject's shoes and measure gait metrics. The algorithm uses data from the sensors to inform changes made to the audio cues. These cues, which are embedded in time-shifted music, are delivered back to the users who aim to walk to the beat.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 2,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 2,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 2
+        },
+        {
+          "id": "EG001",
+          "title": "Standard of Care",
+          "description": "Subjects will undergo a 10-meter walk test bi-weekly for 90 days and at 45 and 90 days",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 2,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 2,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 2
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "In this study, the intervention group opted not to use the devices or participate in interventions or self-measured data as outlined in the protocol. Further, the study was closed early due to slow enrollment."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Brian Silver",
+        "organization": "UMass Chan Medical School/UMass Memorial Health",
+        "email": "Brian.Silver@umassmemorial.org",
+        "phone": "508-334-5989"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "noSap": true,
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-07-17",
+          "uploadDate": "2024-11-06T17:37",
+          "filename": "Prot_001.pdf",
+          "size": 309735
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-09-26",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

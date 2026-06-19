@@ -1,0 +1,296 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06839729",
+      "orgStudyIdInfo": {
+        "id": "FMCH-2024-33169"
+      },
+      "organization": {
+        "fullName": "University of Minnesota",
+        "class": "OTHER"
+      },
+      "briefTitle": "Addressing Parental Tobacco Use in Somali Immigrant Families: Adapting an Evidence-Based Intervention in Primary Care",
+      "officialTitle": "Addressing Parental Tobacco Use in Somali Immigrant Families: Adapting an Evidence-based Intervention in Pediatric Primary Care"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-23",
+      "studyFirstSubmitQcDate": "2025-02-16",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Minnesota",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will modify an existing evidence-based parental tobacco cessation intervention (the Clinical Effort Against Secondhand Smoke Exposure, or CEASE) delivered in pediatric primary care clinics to address shared tobacco use determinants and barriers to smoking cessation treatment among Somali Americans, an immigrant population facing significant combustible tobacco use disparities.",
+      "detailedDescription": "Smoking is a significant and growing concern within U.S. Somali immigrant populations, who experience unique barriers to accessing and using tobacco treatments developed for the general population. Household smoking exposes Somali families to second- and thirdhand smoke with related negative health consequences and influences children's tobacco use beliefs and future behaviors. This study will modify and then pilot test an existing evidence-based parental tobacco cessation intervention (the Clinical Effort Against Secondhand Smoke Exposure, or CEASE) delivered in pediatric primary care clinics to address shared tobacco use determinants and barriers to smoking cessation treatment among Somali Americans. This new intervention, CEASE+, will increase access to and utilization of tobacco cessation treatment for Somali parents through brief clinician- and staff-delivered messaging and tobacco cessation resources. The project will take place in two phases. In phase 1, the investigators will modify the existing intervention to develop CEASE+ by conducting focus groups with Somali parents who smoke and non-smokers who live with adults who smoke and with the help of a community advisory board. In phase 2, we will conduct a pilot study of the new intervention, CEASE+, with Somali parents in 2 pediatric primary care clinics (n=50 parents who smoke). Primary outcomes will include feasibility and acceptability of CEASE+ intervention components and study procedures.\n\nSecondary outcomes will include cigarette smoking abstinence and total tobacco abstinence at 3 months and changes in cigarette smoking heaviness between baseline and 3 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking",
+        "Smoking Cessation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CEASE+",
+          "type": "EXPERIMENTAL",
+          "description": "Clinician- and/or staff-delivered messaging and tobacco cessation resources to Somali parents who smoke",
+          "interventionNames": [
+            "Behavioral: CEASE+"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "CEASE+",
+          "description": "The intervention will be delivered by the clinician to smoking parents who attend the office visit and to smoking parents not present at the visit via resources sent home with a non-smoking parent. If the smoking parent is present in clinic, the intervention consists of a brief, clinician- delivered motivational intervention that includes messaging around the risks of household smoking, verbal recommendation for establishing home/car smoke-free rules, a printed prescription for nicotine replacement therapy and quitline information, and messaging on the benefits of cessation and a quitline referral. If the smoking parent is not present in clinic, the intervention will include clinician-delivered messaging to the non-smoking parent to share CEASE+ resources with the parent who smokes and an invitation for the parent who smokes to participate in a single call delivered by a culturally-/linguistically-congruent community health worker to connect them to CEASE+ resources.",
+          "armGroupLabels": [
+            "CEASE+"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of parents who received motivational intervention",
+          "description": "The proportion of parents who report receipt of this tobacco cessation resource (dichotomous - yes/no)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Proportion of parents who received a verbal recommendation for smoke- free home/care rules",
+          "description": "The proportion of parents who report receipt of this tobacco\n\ncessation resource (dichotomous - yes/no)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Proportion of parents who received nicotine replacement therapy (NRT)",
+          "description": "The proportion of parents who report receipt of this tobacco\n\ncessation resource (dichotomous - yes/no)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Proportion of parents who received a quitline referral",
+          "description": "The proportion of parents who report receipt of this tobacco\n\ncessation resource (dichotomous - yes/no)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Percent completion of adapted protocol content",
+          "description": "The mean percent completion of adapted protocol participants",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Mean duration of telephone call",
+          "description": "The mean duration of the coaching call (minutes)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Change in parental smoker utilization of NRT",
+          "description": "The change in the proportion of parental smoker utilization of NRT between baseline and 3 month follow up",
+          "timeFrame": "baseline, 3months"
+        },
+        {
+          "measure": "Change in parental smoker utilization of quitline referrals",
+          "description": "The change in the proportion of parental smoker utilization of quitline referrals between baseline and 3 month follow",
+          "timeFrame": "baseline, 3 months"
+        },
+        {
+          "measure": "Survey completion rate verification",
+          "description": "The proportion of questions completed relative",
+          "timeFrame": "baseline, 3 months"
+        },
+        {
+          "measure": "Mean duration of telephone survey",
+          "description": "The mean duration of telephone survey calls at baseline and 3 month follow up",
+          "timeFrame": "baseline, 3 months"
+        },
+        {
+          "measure": "Participation rate of recruitment (approached)",
+          "description": "The proportion of participants recruited over the proportion of\n\nparticipants approached",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Participation rate of recruitment (eligible)",
+          "description": "The proportion of participants recruited over the proportion of participants who are eligible based on a positive household",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Retention of participants for follow-up",
+          "description": "The proportion of participants who remain in the study at the 3 month follow up time point",
+          "timeFrame": "3 month follow up"
+        },
+        {
+          "measure": "Abstinence verification participation",
+          "description": "The proportion of participants reporting abstinence at 3 months who submit a sample for iCO biochemical verification",
+          "timeFrame": "3 month followup"
+        },
+        {
+          "measure": "Mean participant satisfaction with CEASE+ materials",
+          "description": "Mean participant satisfaction score measured with 5-point Likert scale score (0 = strongly dissatisfied, 1=dissatisfied, 2=neutral, 3=satisfied, 4=strongly satisfied)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Mean participant satisfaction with in-clinic motivational intervention",
+          "description": "Mean participant satisfaction score measured with 5-point Likert scale score (0 = strongly dissatisfied, 1=dissatisfied, 2=neutral, 3=satisfied, 4=strongly satisfied)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Mean participant satisfaction with telephone- call delivered motivational intervention",
+          "description": "Mean participant satisfaction score measured with 5-point Likert scale score (0 = strongly dissatisfied, 1=dissatisfied, 2=neutral, 3=satisfied, 4=strongly satisfied)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Mean participant satisfaction with CEASE+ messaging",
+          "description": "Mean participant satisfaction score measured with 5-point Likert scale score (0 = strongly dissatisfied, 1=dissatisfied, 2=neutral, 3=satisfied, 4=strongly satisfied)",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Mean participant satisfaction with study procedures (baseline)",
+          "description": "Mean participant satisfaction score measured with 5-point Likert scale score (0 = strongly dissatisfied, 1=dissatisfied, 2=neutral, 3=satisfied, 4=strongly satisfied)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Mean participant satisfaction with study procedures (follow up)",
+          "description": "Mean participant satisfaction score measured with 5-point Likert scale score (0 = strongly dissatisfied, 1=dissatisfied, 2=neutral, 3=satisfied, 4=strongly satisfied)",
+          "timeFrame": "3 month followup"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Parental cigarette smoking abstinence",
+          "description": "7-day point prevalence abstinence of combustible",
+          "timeFrame": "3 month follow up"
+        },
+        {
+          "measure": "Total tobacco product abstinence",
+          "description": "7-day point prevalence abstinence of all tobacco products including shisha, cigars, chew, e-cigarettes",
+          "timeFrame": "3 month follow up"
+        },
+        {
+          "measure": "Change in cigarette smoking heaviness",
+          "description": "Change in the heaviness of cigarette smoking score from baseline to 3 month follow up using the Heaviness of Smoking index measure",
+          "timeFrame": "baseline and 3 month follow up"
+        },
+        {
+          "measure": "Change in the frequency of other tobacco use",
+          "description": "Change from baseline and 3 months in the proportion of parental smoker reported use of other forms of tobacco as a combined measure (i.e., e-cigarettes, hookah, cigars, etc.)",
+          "timeFrame": "baseline and 3 month follow up"
+        },
+        {
+          "measure": "Change in the presence of smoke-free home/car rules",
+          "description": "Change from baseline to 3 month follow up in the proportion of participants who report the presence of smoke-free home/car rules using a 2-item measure \"House Rules about",
+          "timeFrame": "baseline and 3 month follow up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age over 18 years\n* self-reported 1 st or 2 nd generation Somali identity\n* parent or legal guardian at least one pediatric patient within the MHF system\n* self-reported use of combustible cigarettes (even a puff) in the past 30 days\n* access to a telephone\n\nExclusion Criteria:\n\nClinician or staff participant:\n\n* Inability or unwillingness to participate in implementing CEASE+\n* Employees or students of the research team\n\nParent participant:\n\n* Having participated in Aim 1",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "April Wilhelm, MD, MPH",
+          "role": "CONTACT",
+          "phone": "612-625-1654",
+          "email": "awilhelm@umn.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "April Wilhelm, MD, MPH",
+          "affiliation": "University of Minnesota",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        },
+        {
+          "id": "D016540",
+          "term": "Smoking Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

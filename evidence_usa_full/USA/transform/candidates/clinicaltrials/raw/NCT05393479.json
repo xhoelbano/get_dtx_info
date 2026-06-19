@@ -1,0 +1,261 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05393479",
+      "orgStudyIdInfo": {
+        "id": "TPONepal"
+      },
+      "organization": {
+        "fullName": "Transcultural Psychosocial Organization Nepal",
+        "class": "OTHER"
+      },
+      "briefTitle": "\"Thinking Healthy Programme\" for Perinatal Depression in Nepal",
+      "officialTitle": "Feasibility, Acceptability, Appropriateness, and Preliminary Effectiveness of \"Thinking Healthy Programme\" for Perinatal Depression in Nepal: A Pilot Cluster Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-11-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-04-26",
+      "studyFirstSubmitQcDate": "2022-05-23",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Transcultural Psychosocial Organization Nepal",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Liverpool",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "As many as 1 in 3 women in Nepal suffer from perinatal depression however, they often go unidentified and untreated. Lack of knowledge limited trained human resources, and unavailability of specific maternal mental health services are some of the major barriers impeding help-seeking. To mitigate this gap, the World Health Organization recommended Thinking Healthy Programme (THP), a psychological intervention that can be delivered by non-specialists and has been proven effective for perinatal depression in a resource constrained context. The THP has already been translated and adapted to Nepali context. In this study, the investigators plan to pilot test the intervention and assess its feasibility, acceptability, appropriateness, and preliminary effectiveness when delivered by the Female Community Health Volunteers (FCHVs). The FCHVs are cadre of Nepal Government mobilized for the prevention and promotion of maternal and child health in the community level.",
+      "detailedDescription": "The Thinking Healthy Programme (THP) is a community based low-intensity psychosocial intervention tailored for perinatal depression in improving outcomes in three areas - a) mother's health, b) the mother-baby relationship, and c) the mother's relationship with others. The intervention has already been tested in other South Asian context and has been found effective in reducing depressive symptoms and promoting wellbeing even when delivered by a non-specialist with limited education. The intervention is basic and does not require prior knowledge or experience on mental health however, it is preferred that the deliverer should at least know about basics of maternal and childcare. In a resource poor country like Nepal where the investment and human resource for maternal mental health is scanty despite the high burden, the THP can be promising given its effectiveness and cost-effectiveness. The THP has already been adapted to the Nepali context.\n\nFor the pilot-testing of THP, 4 health facilities will be selected. The health facilities will be randomized to intervention and control arm (2 health facilities in each arm). A list of pregnant women from the health facility's and FCHV's catchment area will be collected from the health facility's outpatient department (OPD) register and FCHV's register/logbook. Eligible women will be screened by the research assistant using the Patient Health Questionnaire (PHQ-9), a screening tool for depression consisting of 9 questions that has already been validated in Nepal. If the woman scores 10 or above in the screening tool, the research assistant will collect the baseline information within 1 week and will refer the woman to the respective FCHV from the same locality as the woman's. The FCHVs in the intervention arm will meet the woman, administer consent form regarding the \"Thinking Healthy Programme\" (THP). Participants providing consent will be engaged in the THP programme that will be delivered by the trained FCHV. The FCHVs in the control arm will meet the woman, provide psychoeducation, and refer to the health facility where mental health services are available."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Perinatal Depression"
+      ],
+      "keywords": [
+        "perinatal depression",
+        "psychological intervention",
+        "nonspecialist",
+        "low and middle income countries",
+        "pilot cluster randomized control trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The health facility is the unit of randomization. Altogether 4 health facilities will be selected for the study, where two health facilities will be allocated to each arm. The female community health volunteers (FCHVs) from the health facilities in the intervention arm will receive 10 days training on detection of perinatal depression and THP whilst the FCHVs from control arm will receive 3 days training on detection, psychoeducation, and referral.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Arm: Thinking Healthy Programme",
+          "type": "EXPERIMENTAL",
+          "description": "Perinatal women identified with depression in intervention arm will be engaged in 2 modules, one during pregnancy and one during postnatal. Each module has 3 sessions each focusing on a) mother's health, b) the mother-baby relationship, and c) the mother's relationship with others. Altogether 8 sessions (including 1 introductory session, 6 THP sessions, and 1 closing session) each lasting 30 minutes to 1 hour will be provided to intervention arm participants. In the third session of each module that deals with \"the mother's relationship with others\", family members will be engaged as well. Questionnaire evaluation will be conducted at baseline, post-Module 1 (after 2 months from recruitment date) and at 3 months post delivery after completing Module 2 and closing session.",
+          "interventionNames": [
+            "Behavioral: Thinking Healthy Programme"
+          ]
+        },
+        {
+          "label": "Control Arm: Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "Subjects in the control arm will receive usual care, where perinatal women identified with depression, are provided with psychoeducation about their condition and about the availability of services at the health facility and other health information. They will be then referred to the health facility where trained health workers are available."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Thinking Healthy Programme",
+          "description": "The Thinking Healthy Programme (THP) is a psychological treatment recommended by the World Health Organization for perinatal depression. The THP is based on the basic tenets of cognitive behavioural therapy (CBT) that aims to identify unhealthy thoughts and the vicious effects it has on the emotions and behaviour of a person and transform to healthy thinking style that ultimately impacts one's emotions and behaviour, too. The intervention aims to bring positive outcomes in three areas - a) mother's health, b) the mother-baby relationship, and c) the mother's relationship with others. A randomized controlled trial (RCT) showed that the intervention was effective in reducing depressive symptoms and disability and improving functioning. Additionally, women receiving THP had higher rate of exclusive breastfeeding, and engaging more with their infants. Similarly, infants of these women were also less likely to have diarrhoeal episode and more likely to complete immunization.",
+          "armGroupLabels": [
+            "Intervention Arm: Thinking Healthy Programme"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Female Community Health Volunteers' clinical skills to provide psychological support",
+          "description": "Competency of Female Community Health Volunteers will be assessed through Ensuring Quality in Psychological Support (EQUIP), an online platform consisting of a tool to assess clinical competency of mental health and psychosocial service providers. A service providers' competency is assessed in a Likert scale where 1 represents having harmful behaviour, 2 represents having any or none of the basic helping skills, 3 represents having all basic skills and 4 represents having any advanced skills.",
+          "timeFrame": "From pre training to immediate post training"
+        },
+        {
+          "measure": "Qualitative Information: Feasibility from service providers' perspective",
+          "description": "Service providers who deliver the Thinking Healthy Programme for duration of project will be asked through Focus Group Discussion and Key Informant Interviews about the feasibility of recruiting women with perinatal depression, delivering intervention in the community setting, engaging women, and their family members in the session.",
+          "timeFrame": "Month 18"
+        },
+        {
+          "measure": "Qualitative Information: Feasibility from service users' perspective",
+          "description": "Women with perinatal depression and their family members engaged in the Thinking Healthy Programme will be interviewed to explore feasibility in terms of engaging in the session, scheduling time for session, and completing tasks.",
+          "timeFrame": "3 months postnatal"
+        },
+        {
+          "measure": "Qualitative Information: Acceptability from service providers' perspective",
+          "description": "Service providers who deliver the Thinking Healthy Programme for duration of project will be asked through Focus Group Discussion and Key Informant Interviews about their experience delivering intervention focusing on facilitators and barriers, perceived benefits and challenges of intervention for perinatal depression, and their willingness to engage as deliver agents in the future.",
+          "timeFrame": "Month 18"
+        },
+        {
+          "measure": "Qualitative Information: Acceptability of of Thinking Healthy Programme from service users' perspective",
+          "description": "Women with perinatal depression and their family members engaged in the Thinking Healthy Programme will be interviewed to explore facilitators and barriers to engage in the session, perceived benefits and challenges of receiving intervention in the home setting, and their perception of the service provider.",
+          "timeFrame": "3 months postnatal"
+        },
+        {
+          "measure": "Qualitative Information: Appropriateness of Thinking Healthy Programme from service providers' perspective",
+          "description": "Service providers who deliver the Thinking Healthy Programme for duration of project will be asked through Focus Group Discussion and Key Informant Interviews about their perception towards the intervention, its utility, suitability in Nepali context.",
+          "timeFrame": "Month 18"
+        },
+        {
+          "measure": "Qualitative Information: Appropriateness of Thinking Healthy Programme from service users' perspective",
+          "description": "Women with perinatal depression and their family members engaged in the Thinking Healthy Programme will be interviewed to explore their perception towards the intervention, its utility, suitability for their problem.",
+          "timeFrame": "3 months postnatal"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in Patient Health Questionnaire-9+1",
+          "description": "The PHQ-9 is a 9-item screening tool for depression used in various medical setting, and primary care setting. The tool has nine common symptoms of depression that should be rated by the respondent in a Likert scale where 0 stands for \"not at all\" to 3 \"always\". The symptoms are rated in relation to its occurrence and experience by the respondent in the past 2 weeks. The additional 1 question in PHQ9+1 is related to disability caused by depression. The tool has been translated and validated in a primary care population in Nepal. Symptoms severity will be assessed at baseline, 2 months post baseline and 3 months postnatal.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Changes in Generalized Anxiety Disorder Scale",
+          "description": "A 7-item screening tool for anxiety that is rated by the respondent in a Likert scale where 0 stands for \"not at all\" to 3 \"nearly every day\". The tool has already been used in Nepal. Symptoms severity will be assessed at baseline, 2 months post baseline and 3 months postnatal.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Changes in World Health Organization's Disability Assessment Schedule",
+          "description": "A 12-item tool that measures disability and functionality over the previous 30 days and has already been used in Nepal. Responses are rated in a scale where 1 means \"none\" and 5 means \"extreme\". Higher the score means higher the disability.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Changes in Alcohol Use Disorder Identification Test",
+          "description": "Alcohol Use Disorder Identification Test is a screening tool to identify probable alcohol dependence or alcohol misuse. The tool has 10 questions divided into 3 conceptual domains. The first domain assesses recent alcohol consumption and contains 3 questions (frequency of consumption, typical amount, and frequency of heavy consumption). The second domain assesses symptoms of dependence through 3 questions (loss of control over consumption, increased relevance of consumption, and morning consumption). The third domain assesses harmful alcohol through 4 questions (Feeling of guilt after consumption, memory gaps, alcohol-related injuries and environmental concern about consumption). The tool has been validated in Nepal and a result equal to or greater than 9 is considered indicative of alcohol dependence or alcohol misuse.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Changes in Internalized Stigma of Mental Illness",
+          "description": "The brief version of Internalized Stigma of Mental Illness tool has 9-items that explores self-stigmatization of persons with mental illness. Responses are recorded from 1-4 scale where 1 means \"strongly disagree\" and 4 means \"strongly agree\". Higher the score means greater experience of stigma. The tool has been previously validated and used in other studies in Nepal.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Changes in Multidimensional Scale of Perceived Social Support",
+          "description": "The Multidimensional Scale of Perceived Social Support is a 12-item instrument which measures perceived support from three sources: Family, Friends and Significant Others. It consists of 4 items for each sources and each item is graded on a 7-item likert scale where 1 means \"very strongly disagree\" and 7 means \"very strongly agree\". Higher the score in the scale means having stronger social support system.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Suicide Assessment",
+          "description": "Contains 9 structured questions in which the first 3 questions asks whether the person had suicidal thought, or plan or tried in the last 3 months. The questions only record occurrences of event with binary response options (Yes/No). Question no. 4 to 8 asks about whether medical attention was needed, whether the person has spoken to anyone, who they have spoken to, help sought, and treatment type. The last question asks about suicidal ideation at any point in their life in a yes/no option.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Antenatal care attendance",
+          "description": "Four structured questions whether any antenatal visits were made (yes/no option), number of total visits, any health problems were seen (yes/no option), hospitalization was done (yes/no option).",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2)"
+        },
+        {
+          "measure": "Domestic violence",
+          "description": "Three structured questions with binary option (yes/no) about any occurrences of physical, or emotional, or sexual violence in the last three months.",
+          "timeFrame": "Baseline (M0), 2 months after baseline (M2), 3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Postnatal care attendance",
+          "description": "Four structured questions whether any postnatal visits were made (yes/no option), number of total visits, any health problems were seen (yes/no option), hospitalization was done (yes/no option).",
+          "timeFrame": "3 months postnatal (M4-M8)"
+        },
+        {
+          "measure": "Exclusive breastfeeding",
+          "description": "Four structured questions to indicate whether exclusive breastfeeding has been done. First question asks whether the breastfeeding is done (yes/no option), milk adequacy (yes/no option), breastfeeding frequency, and use of formulas (yes/no option).",
+          "timeFrame": "3 months postnatal (M4-M8)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pregnant women\n* Should be residing in the FCHV's catchment area\n* Should be between 4-7 months pregnant.\n* Should have no severe physical health conditions\n* Should have depressive symptoms (scores 10 or higher in PHQ-9).\n\nExclusion Criteria:\n\n* Women reporting miscarriage, abortion, or still birth will be excluded from the THP intervention (but referred to the psychosocial counsellor for further care)",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "The subject being studied is perinatal depression i.e. women in pregnancy and postnatal period.",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Transcultural Psychosocial Organization Nepal",
+          "city": "Kathmandu",
+          "state": "Bagmati",
+          "zip": "44616",
+          "country": "Nepal",
+          "geoPoint": {
+            "lat": 27.70169,
+            "lon": 85.3206
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    }
+  },
+  "hasResults": false
+}

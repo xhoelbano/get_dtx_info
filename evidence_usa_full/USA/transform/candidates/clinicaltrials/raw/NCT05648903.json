@@ -1,0 +1,348 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05648903",
+      "orgStudyIdInfo": {
+        "id": "Transform study"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "IRAS ID: 295915",
+          "type": "REGISTRY",
+          "domain": "Health Research Authority (HRA)"
+        }
+      ],
+      "organization": {
+        "fullName": "Oviva UK Ltd",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Transform Type 2 Diabetes Study",
+      "officialTitle": "The Transform Diabetes Study: A Mixed-methods Exploratory Study to Evaluate the Acceptability and Potential Clinical Impact of a Choice of Dietary Interventions Delivered Through a Digital Group or 1-to-1 Care to Support Weight Loss and Improve Glycaemic Control in Adults With Type 2 Diabetes Within an Ethnically Diverse Population",
+      "acronym": "Transform"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-01-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-15",
+      "studyFirstSubmitQcDate": "2022-12-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-12-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-12-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Oviva UK Ltd",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Guy's and St Thomas' NHS Foundation Trust",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this mixed-methods, 12-month interventional study is to understand the effectiveness and acceptability of dietary interventions in type 2 diabetes mellitus (T2DM) in an ethnically diverse population. Three dietary interventions will be offered (total diet replacement, intermittent fasting and a low-carbohydrate diet) and two modes of remote care delivery will be used (group and one-to-one).",
+      "detailedDescription": "To date, there is little evidence focusing on preferences, motivating factors, and engagement in adults with type 2 diabetes when following dietary interventions to improve glycaemic control, nor on patient responses to remote group and one-to-one programs. In particular, this evidence is not available in populations with high levels of deprivation and that are culturally and ethnically diverse in which diabetes is most prevalent.\n\nThe 120 participants will be recruited from GP practices in the Southwark area. Practices will be split into two comparable groups based on the demographic and clinical data of eligible patients. Participants from one group of practices will be offered a one-to-one lifestyle coaching program. Patients from the other group of practices will be offered a group lifestyle coaching program. The aim is to recruit 60 patients for each arm.\n\nAll participants will be offered a choice of three dietary approaches: total diet replacement (TDR), intermittent fasting 5:2 approach and a low-carbohydrate diet. Interventions will be led by Diabetes Specialist Dietitians (DSD) and all participants will have access to supporting learning materials. All care will be delivered remotely.\n\nParticipants will receive intensive support in the first 16 weeks and follow-up support for a further 36 weeks. Participants on the one-to-one pathway will access their support via the Oviva app, telephone or video calls. Participants allocated to the group intervention will access their support through video group sessions hosted by their DSD, and will be offered the opportunity to use a secure group chat for patients, between sessions.\n\nThe evaluation will use a mixed methods approach, combining qualitative and quantitative analysis. Surveys, interviews, written material, and quantitative data will be used. This will allow for establishing learnings regarding patient choice, preference, experience, motivation, and engagement. Gaining insight into these perceptions can support our understanding as to how to best support engagement, understand the suitability of dietary interventions for different patients, and improve the quality and delivery of lifestyle interventions to support patients with type 2 diabetes in the future."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type2diabetes"
+      ],
+      "keywords": [
+        "Type 2 Diabetes",
+        "dietary intervention",
+        "digital",
+        "diverse population",
+        "low carbohydrate",
+        "low energy",
+        "intermittent fasting"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two modes of remote care delivery are used (one-to one and group).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "One-to-one",
+          "type": "EXPERIMENTAL",
+          "description": "All participants are offered a choice of three dietary approaches.",
+          "interventionNames": [
+            "Other: Total diet replacement",
+            "Other: Low-carbohydrate diet",
+            "Other: Intermittent fasting 5:2"
+          ]
+        },
+        {
+          "label": "Group",
+          "type": "EXPERIMENTAL",
+          "description": "All participants are offered a choice of three dietary approaches.",
+          "interventionNames": [
+            "Other: Total diet replacement",
+            "Other: Low-carbohydrate diet",
+            "Other: Intermittent fasting 5:2"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Total diet replacement",
+          "description": "The TDR intervention involves a low-calorie, nutritionally complete diet for 12 weeks consuming four meal replacement products exclusively per day, followed by a 4-week food-based reintroduction period; and then weight loss maintenance support monthly to 12 months. The TDR products will be provided to participants free of charge. If a patient gains more than 2kg in the maintenance phase, they have the option to follow a TDR for an additional 4 weeks but participants would have to self-fund these products.",
+          "armGroupLabels": [
+            "Group",
+            "One-to-one"
+          ],
+          "otherNames": [
+            "TDR"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Low-carbohydrate diet",
+          "description": "Participants who choose this intervention will be supported to undertake a low-carbohydrate diet. During the first 12 weeks of the programme patients will be supported to consume below 100g carbohydrate per day, whilst being encouraged to increase protein, choose predominantly unsaturated fats alongside a high intake of non-starchy vegetables and low-carbohydrate fruits. After 12 weeks patients will be able to increase their carbohydrate intake up to 130g per day. If a patient gains more than 2kg in the maintenance phase, they have the option to follow a 100g carbohydrate for an additional 4 weeks.",
+          "armGroupLabels": [
+            "Group",
+            "One-to-one"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Intermittent fasting 5:2",
+          "description": "Participants will have the option to follow a 5:2 dietary approach whereby calories are significantly reduced on two days of the week to 500 calories per day for women and 600 calories per day for men. The placement of the \"fasting\" days can vary each week, but there must be two \"fasting\" days in each seven-day period. After 12 weeks, patients will have the option of continuing with the 5:2 approach for further weight loss or adopting a 6:1 approach whereby patients would only fast on 1 day in each seven-day cycle for weight maintenance. If a patient gains more than 2kg in the maintenance phase, they have the option to follow a 5:2 approach for an additional 4 weeks.",
+          "armGroupLabels": [
+            "Group",
+            "One-to-one"
+          ],
+          "otherNames": [
+            "5:2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Intervention primary outcome- Change in Hba1c (mmol/l)",
+          "description": "Evaluating improvement in Hba1c (mmol/l) upon dietary intervention",
+          "timeFrame": "at 6, 12 & 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Intervention secondary outcome- weight",
+          "description": "Change in weight (kg) and BMI (kg/m2)",
+          "timeFrame": "at 6, 12 & 24 months"
+        },
+        {
+          "measure": "Intervention secondary outcomes- lipids",
+          "description": "Change in lipid markers (mmol/l) total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides)",
+          "timeFrame": "12 & 24 months"
+        },
+        {
+          "measure": "Intervention secondary outcomes- blood pressure",
+          "description": "Change in blood pressure (systolic and diastolic) by British and Irish Hypertension Society validated monitors",
+          "timeFrame": "12 & 24 months"
+        },
+        {
+          "measure": "Intervention secondary outcomes- NHS resource use including medication cost",
+          "description": "The project will explore changes in primary and secondary care resource use and medication use at 12 and 24 months, and associated costs, by treatment arm for participating patients relative to the five years before enrolment.\n\nThe net financial impact of the intervention will be analysed by combining the estimated costs of the intervention with the estimated changes in routine resource use before and after the intervention.",
+          "timeFrame": "12 & 24 months"
+        },
+        {
+          "measure": "Intervention secondary outcomes- change in quality of life",
+          "description": "Patient reported outcome measures (PROMs) including change in quality of life (EQ5D) and ability to self-manage diabetes",
+          "timeFrame": "baseline & 12 months"
+        },
+        {
+          "measure": "Intervention secondary outcomes- diabetes remission",
+          "description": "Diabetes remission defined as 2 HbA1c readings \\< 48mmol/mol without diabetes medications at least 6 months apart",
+          "timeFrame": "12 & 24 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Other study outcomes- Patient questionnaires on acceptability, motivations and preferences",
+          "description": "The project aims to explore the acceptability of three different dietary regimes and the choices patients make. It will explore differences between the 1 to 1 and group delivery approaches in terms of enrolment, retention, patient experience and patient outcomes.\n\nThe online surveys shared with participants throughout the study will cover overall impressions of the intervention, which aspects of the service were most helpful, responses to the diets challenges experienced and whether and how these were overcome, and the effect on knowledge of diabetes and the ability to manage the condition.",
+          "timeFrame": "4 & 12 months"
+        },
+        {
+          "measure": "Other study outcomes- engagement with the programme",
+          "description": "Gaining insight into patient engagement and motivation in relation to the programme can support our understanding as to how to best support engagement and improve the quality and delivery of lifestyle interventions to support patients with type 2 diabetes in the future.\n\nPatient engagement will be assessed through attendance, app usage and patient outcomes.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Registered with one of the Nexus Group GP Practices\n* Willing to give consent for participation including collection of clinical outcomes\n* Diagnosis of type 2 diabetes\n* Minimum age of 18 years\n* Maximum age of 70 years\n* Minimum BMI of 27kg/m² (adjusted to 25kg/m² in people of South Asian or Chinese origin)\n* Upper weight limit of 180kg (due to upper weight limit of BodyTrace scales)\n* HbA1c eligibility:\n* If on diabetes medication, HbA1c ≥ 43 mmol/mol\n* If on diet alone, HbA1c ≥ 48 mmol/mol\n* HbA1c \\<108mml/mol\n* Ability to speak, read and receive care in English\n* Access to internet and email address\n\nExclusion Criteria:\n\n* Currently taking insulin\n* Pregnant or planning to be pregnant in the next 6 months\n* Current breastfeeding\n* Significant physical comorbidities:\n* Active cancer, receiving treatment\n* Myocardial infarction or stroke in last 6 months\n* Severe heart failure defined as equivalent to the New York heart Association grade 3 or 4 (NYHA)\n* eGFR \\<30 mls/min/1.73m2\n* Active liver disease (except non-alcoholic fatty liver disease (NAFLD),Severe angina, cardiac arrhythmia including atrial fibrillation or prolonged QT syndrome\n* Active substance use disorder\n* Active eating disorder\n* Porphyria\n* On current weight management programme / had or awaiting bariatric surgery (unless willing to come off waiting list)\n* Health professional assessment that the person is unable to understand or meet the demands of the programme and/or monitoring requirements\n* Taking monoamine-oxidase inhibitor medication\n* Taking warfarin\n* Taking varenicline (smoking cessation medication)\n* Have attended for monitoring and diabetes review when this was last offered, including retinal screening, and commit to continue attending reviews, even if remission is achieved\n* Active/investigation for gastric or duodenal ulcers",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lucy Jones",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Oviva UK ltd",
+          "city": "London",
+          "zip": "SE1 9RS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D000093763",
+          "term": "Intermittent Fasting"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D005215",
+          "term": "Fasting"
+        },
+        {
+          "id": "D005247",
+          "term": "Feeding Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D050528",
+          "term": "Diet, Carbohydrate-Restricted"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

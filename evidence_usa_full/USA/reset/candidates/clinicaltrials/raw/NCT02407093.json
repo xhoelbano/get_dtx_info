@@ -1,0 +1,358 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02407093",
+      "orgStudyIdInfo": {
+        "id": "1R01DK099516-01A1",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/1R01DK099516-01A1"
+      },
+      "organization": {
+        "fullName": "Kansas State University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Army Training at High Intensity Study",
+      "officialTitle": "HIFT for Obesity Prevention, Fitness and Health Promotion in Military Personnel",
+      "acronym": "ATHIS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-10-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-06-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-06-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-03-30",
+      "studyFirstSubmitQcDate": "2015-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2015-04-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-11-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-11-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Katie M. Heinrich",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Kansas State University"
+      },
+      "leadSponsor": {
+        "name": "Kansas State University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Development and Research Institutes, Inc.",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Although soldiers must be ready to respond to occupational and war theatre demands at a moment's notice, there is an epidemic of overweight and obesity and a need for improved fitness and health in the military. Using a cluster randomized clinical trial we propose to test the effectiveness of a High-Intensity Functional Training (HIFT) exercise intervention to improve the body composition and fitness of active duty military personnel. The effectiveness of the HIFT intervention will be compared to usual Army Physical Readiness Training. Main outcomes will include changes in body composition and traditional fitness measures, a test of combat-preparation, and measures of cardiovascular health risk for both groups.",
+      "detailedDescription": "We will examine the effectiveness of a high-intensity functional training (HIFT) exercise intervention compared to Army Physical Readiness Training (APRT) and their related dietary instructions in improving body composition (percent body fat \\[%BF\\], fat mass, lean body mass, weight) and domains of Total Force Fitness (TFF; Army Physical Fitness Test \\[APFT\\], aerobic capacity, power, strength, and combat preparation and readiness) in a 6-month cluster-randomized clinical trial (CRCT) with 2 (+/- 1) month follow-up. We also will examine the effects of both exercise programs on cardiovascular disease (CVD) health risk (resting heart rate, blood pressure). We will conduct assessments at baseline, 6-months, and 2-month follow-up (+/- 1 month). We also will assess training time/volume, injuries, adverse events, adherence, and participant satisfaction and account for demographic and psychosocial variables.\n\nIn our CRCT, we aim to recruit and randomize approximately 150 soldiers (n=15 clusters-staff groups/platoons-per condition with at least 5 soldiers nested within each cluster) comparing the effectiveness of HIFT versus usual care (APRT) on:\n\nSpecific Aim 1 - changes in body composition including: percent body fat (%BF), fat mass, fat free mass, and body weight.\n\nWe hypothesize that soldiers in the HIFT condition will be significantly more likely to decrease a. %BF and b. fat mass, and to increase c. fat free mass than those in the APRT condition; we expect both groups to d. maintain body weight.\n\nSpecific Aim 2 - changes in fitness (e.g., APFT, power, strength), while accounting for actual physical training time in each condition.\n\nWe hypothesize that soldiers in the HIFT condition will have significantly greater improvement in their performance on fitness tests when compared to those in APRT, despite significantly less total training time. These outcomes will help determine if functional-oriented training can result in better fitness and combat preparedness for Army personnel."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ],
+      "keywords": [
+        "Body Composition",
+        "Military",
+        "High-Intensity Functional Training",
+        "Army Physical Fitness",
+        "CrossFit"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 138,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "High-Intensity Functional Training",
+          "type": "EXPERIMENTAL",
+          "description": "CrossFit will be the HIFT intervention framework with training elements, exercise programming, and scheduling set by CrossFit staff. Workouts will be comprised of one or more of three exercise modalities: aerobic/monostructural (e.g., running), gymnastics (e.g., pullups), and weightlifting/resistance training with workouts designed to maximize use of equipment available in deployed environments (e.g.,vehicle tires). All workouts will be individually scaled to each soldier's current level of fitness by a certified trainer. Sessions will be standardized across the 6 months of intervention so that each cluster will receive exactly the same training.",
+          "interventionNames": [
+            "Behavioral: High-Intensity Functional Training"
+          ]
+        },
+        {
+          "label": "Army Physical Readiness Training",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The APRT program has combat readiness as the primary focus and is mandated for active duty personnel. For this study, APRT sessions have been standardized across the 6 months of the intervention according to FM 7-22 \"Army Physical Readiness Training\" manual so each cluster will receive the same training program using the Reset Phase. Sessions will consist of preparation, activities and recovery and will include strength, endurance, and mobility exercises that involve on-ground (e.g., running), off-ground (e.g., climbing), and combatives (e.g., striking and grappling) training, with supervision by a certified trainer.",
+          "interventionNames": [
+            "Behavioral: Army Physical Readiness Training"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "High-Intensity Functional Training",
+          "description": "Constantly varied functional movements performed at a high intensity and incorporating monostructural (aerobic), gymnastics (body weight) and/or weightlifting movements. CrossFit is a good model of HIFT for the military because of its emphasis on general physical preparedness and functional movements and because it is open source and programming is available at no cost (see www.crossfit.com). Sixty-minute HIFT sessions will include a warm-up, workout and cool down. Workouts will average 15 minutes in duration (range = 5-45 minutes) for a total of 50-100 minutes per week.",
+          "armGroupLabels": [
+            "High-Intensity Functional Training"
+          ],
+          "otherNames": [
+            "CrossFit"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Army Physical Readiness Training",
+          "description": "Usual physical training program for Army personnel from directive FM 7-22, using the Reset phase. Exercises will address strength, endurance, and mobility training. APRT is designed to be completed in 60-90 minute sessions, 5 days/week for a total dose of 300-450 minutes per week.",
+          "armGroupLabels": [
+            "Army Physical Readiness Training"
+          ],
+          "otherNames": [
+            "Army PT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "body fat percentage",
+          "description": "The Tanita 300 digital bioelectrical impedance/weight scale will be used to estimate body fat percentage.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "aerobic capacity",
+          "description": "Aerobic capacity will be estimated from the time during the APFT 2-mile run.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "muscular power",
+          "description": "A standing horizontal jump will be used to assess power with the best of three attempts recorded.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "muscular strength",
+          "description": "We will assess participants' strength by determining their one repetition maximum (1RM) using the deadlift. Use of the 1RM test is a safe and reliable method of assessing strength in both trained and untrained subjects. The test procedure begins with a warm-up of 5-10 repetitions at 40% to 60% of the participant's estimated maximum. After a brief rest period, the load is increased to 60% to 80% of the participant's estimated maximum, attempting to complete 3-5 repetitions. At this point a small increase in weight is added to the load and a 1RM lift is attempted. The goal is to determine the participant's 1RM in 3 to 5 trials, allowing for ample rest (3-5 minutes) between each 1RM attempt.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "muscular endurance",
+          "description": "We will also assess upper body muscular endurance using the Marines pull-up test, where participants will complete as many consecutive strict pull-ups as possible before dropping off the bar.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "simulated victim rescue",
+          "description": "This test will simulate rescuing a wounded soldier on the battlefield. After a verbal signal, the participant will drag a 165-lb dummy 35-ft around a barrel and back 35-ft across the starting line for time.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "blood pressure",
+          "description": "An Omron BP785 10 series monitor will be used to assess blood pressure after the participant has been seated comfortably for at least 5 minutes.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "resting heart rate",
+          "description": "An Omron BP785 10 series monitor will be used to assess resting heart rate after the participant has been seated comfortably for at least 5 minutes.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "fat mass",
+          "description": "The Tanita 300 digital bioelectrical impedance/weight scale will be used to estimate fat mass",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "fat free mass",
+          "description": "The Tanita 300 digital bioelectrical impedance/weight scale will be used to estimate fat free mass",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "body mass index (BMI)",
+          "description": "Measured height (via stadiometer) and measured weight (via Tanita 300) will be used to calculate BMI",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "waist circumference",
+          "description": "Waist circumference will be taken three times twice to the nearest 0.1 cm using standardized landmarks with a spring-loaded tape measure and will be used as a measure of central adiposity",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Army Physical Fitness Test (APFT)",
+          "description": "The APFT measures muscular and cardiorespiratory endurance and consists of 2 minutes of pushups, 2 minutes of sit-ups, and a 2 mile run with 10-20 minutes recovery between events.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "training time",
+          "description": "Each participant will log each session completed during the 6-month intervention through the commercially available fitness software platform Beyond the Whiteboard (www.beyondthewhiteboard.com). The logs will be used to compute total time spent exercising and frequency of workouts.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "injury",
+          "description": "Injuries will be assessed by having participants report any injuries when they complete their daily log. Participants will provide the following information: injury date, body part, injury type, side, when it occurred, description, and the effect of the injury on their physical training status. Reported injuries will be automatically categorized as minor (e.g., bruise, skin tear), medium (e.g., dislocation, sprain/strain) or major (e.g., broken bone, cardiac event). Any medium or major injury will be automatically flagged in the system and both PIs will be immediately notified.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "dietary intake",
+          "description": "All participants will complete a food frequency questionnaire (FFQ) at baseline and 6 months. The Dietary Screener Questions for the National Health and Nutrition Examination Survey (NHANES) 2009-10, a validated self-administered monthly FFQ, will be used to monitor participants' dietary intakes. The 26 item food list has been amended to include 10 additional foods to more specifically capture intakes of meats, breads, pastas, eggs, nuts, and vegetables. The FFQ will be modified, scanned and frequencies of food intake calculated.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* physical activity clearance to participate in the study via the Physical Activity Readiness Questionnaire;\n* willingness to adhere to study protocol and complete all study assessments; and\n* high likelihood of assignment to the military post over the 8 (+/-) 1-month course of the study.\n\nExclusion Criteria:\n\n* being on permanent or temporary medical profile or having any medical condition or injury which would prevent participation in the exercise protocols;\n* having a pacemaker or other implanted/internal electrical device;\n* currently on administrative leave or assigned to exclusively administrative duties; and\n* (if female) pregnant or lactating, or planning to become pregnant in the next 9-months.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Katie M Heinrich, PhD",
+          "affiliation": "Kansas State University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Walker SC Poston, PhD, MPH",
+          "affiliation": "National Develop and Research Institutes",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fort Leavenworth",
+          "city": "Leavenworth",
+          "state": "Kansas",
+          "zip": "66027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.31111,
+            "lon": -94.92246
+          }
+        },
+        {
+          "facility": "Kansas State University",
+          "city": "Manhattan",
+          "state": "Kansas",
+          "zip": "66506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.18361,
+            "lon": -96.57167
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27391615",
+          "type": "BACKGROUND",
+          "citation": "Poston WS, Haddock CK, Heinrich KM, Jahnke SA, Jitnarin N, Batchelor DB. Is High-Intensity Functional Training (HIFT)/CrossFit Safe for Military Fitness Training? Mil Med. 2016 Jul;181(7):627-37. doi: 10.7205/MILMED-D-15-00273."
+        },
+        {
+          "pmid": "27849484",
+          "type": "BACKGROUND",
+          "citation": "Haddock CK, Poston WS, Heinrich KM, Jahnke SA, Jitnarin N. The Benefits of High-Intensity Functional Training Fitness Programs for Military Personnel. Mil Med. 2016 Nov;181(11):e1508-e1514. doi: 10.7205/MILMED-D-15-00503."
+        },
+        {
+          "pmid": "28051964",
+          "type": "BACKGROUND",
+          "citation": "Poston WS, Haddock CK, Heinrich KM, Jahnke SA, Jitnarin N, Batchelor DB, Feito Y, Suminski RR. Response: Is High-Intensity Functional Training (HIFT)/CrossFit Safe for Military Fitness Training? Mil Med. 2017 Jan;182(1):1476-1479. doi: 10.7205/MILMED-D-16-00369. No abstract available."
+        },
+        {
+          "pmid": "30087252",
+          "type": "BACKGROUND",
+          "citation": "Feito Y, Heinrich KM, Butcher SJ, Poston WSC. High-Intensity Functional Training (HIFT): Definition and Research Implications for Improved Fitness. Sports (Basel). 2018 Aug 7;6(3):76. doi: 10.3390/sports6030076."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,61 @@
+{
+  "studies": [
+    {
+      "study_id": "35661128",
+      "pmid": "35661128",
+      "title": "External Concurrent Occipital and Trigeminal Neurostimulation Relieves Migraine Headache: A Prospective, Randomized, Double-Blind, Sham-Controlled Trial.",
+      "authors": "Daniel Oved et al.",
+      "authors_list": [
+        "Daniel Oved",
+        "Tepper Stewart J",
+        "Deutsch Lisa",
+        "Sharon Roni"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Sep",
+      "journal": "Pain and therapy",
+      "journal_abbrev": "Pain Ther",
+      "doi": "10.1007/s40122-022-00394-w",
+      "abstract": "INTRODUCTION: Current external peripheral nerve stimulation devices stimulate only one nerve. This prospective, randomized, double-blind, sham-controlled trial assessed efficacy, safety, and tolerability of a novel external combined occipital and trigeminal neurostimulation (eCOT-NS) device as a self-administered home treatment for migraine (Relivion®MG, Neurolief Ltd; Netanya, Israel). METHODS: Episodic and chronic migraine subjects (N = 55) were randomized to receive active (n = 27) or sham (n = 28) treatment. Subjects received eCOT-NS devices and performed 60 ± 20-min home treatments within 45 min of migraine episode onset. The primary endpoint was relative (percent) change in mean baseline VAS pain scores 1 h after treatment initiation. Treatment outcomes assessed at 1-, 2-, and 24-h post-treatment initiation were pain reduction and proportion of pain-free subjects and treatment responders, defined as ≥ 50% pain reduction. Categorical pain ratings (none, mild, moderate, and severe pain) were also analyzed. RESULTS: Active stimulation was significantly more effective than sham stimulation for decreasing pain intensity at 1 h (53% vs. 10%), 2 h (52% vs. 17%), and 24 h (71% vs. 34%). Pain-free ratings were greater for the active treatment arm at 1 h (29.2% vs. 16%), 2 h (41.7% vs. 20%), and 24 h (65.2% vs. 40%). The number of subjects with baseline moderate or severe migraine pain who were pain-free at 2 h was significantly greater among active treatment subjects (43% vs. 10.5%). The responder rate was significantly higher among the active treatment group at 1 h (67% vs. 20%), 2 h (66.7% vs. 32%,), and 24 h (78.3% vs. 48%). Overall headache relief was significantly higher in the active treatment group at 1 h (67% vs. 26%) and 2 h (76% vs. 31.6%). Mild adverse events, reported by a minority of subjects, resolved spontaneously. CONCLUSIONS: eCOT-NS provides superior clinically meaningful relief and freedom from migraine pain, offering an effective and safe therapy for acute treatment of migraine. TRIAL REGISTRATION: ClinicalTrials.gov Identifier NCT03398668.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Brain stimulation",
+        "Headache",
+        "Migraine",
+        "Neuromodulation",
+        "Neurostimulation",
+        "Occipital nerve",
+        "Peripheral nerve stimulation",
+        "Trigeminal nerve"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35661128/",
+      "pdf_available": false,
+      "_matched_query": "\"Relivion MG\"",
+      "_raw_xml_path": "evidence/USA/relivion-mg/candidates/pubmed/raw/35661128.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the product 'Relivion MG' by Neurolief Ltd as the device being tested for migraine treatment. The product name appears in the abstract and full text, confirming the study is about this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T07:15:36.451941Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

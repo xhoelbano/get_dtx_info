@@ -1,0 +1,228 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05830110",
+      "orgStudyIdInfo": {
+        "id": "VCR-Longitudinal"
+      },
+      "organization": {
+        "fullName": "Synergic Medical Technologies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Patterned Multichannel Vibrotactile Stimulation for the Longitudinal Treatment of Moderate Stage Parkinson's Disease",
+      "officialTitle": "Patterned Multichannel Vibrotactile Stimulation for the Longitudinal Treatment of Moderate Stage Parkinson's Disease"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-04-14",
+      "studyFirstSubmitQcDate": "2023-04-25",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Synergic Medical Technologies, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the present research is to examine the effectiveness of a non-invasive, vibrotactile stimulation protocol, known as coordinated reset (CR), for the alleviation of motor symptoms in patients with Parkinson's disease (PD). PD patients exhibit rigidity, slowness (bradykinesia) and poverty (akinesia) of movement as well as other symptoms. Treatment for PD is either pharmacological (first line) or invasive deep brain stimulation. The non-invasive, vibrotactile stimulation approach uses a novel stimulation pattern to disrupt the pathophysiological mechanism that is responsible for PD symptoms and thus restore motor function.",
+      "detailedDescription": "Up to thirty adults with bilateral, moderate stage idiopathic PD will be enrolled in this longitudinal study. Participants will serve as their own control, receiving alternating active and sham therapy at two-month intervals. This longitudinal protocol will be open-ended to enable continued treatment to those interested / motivated.\n\nStudy treatment will consist of daily, four-hour vibrotactile Coordinated Reset (vCR) stimulation sessions on a continual basis. All daily vCR stimulation sessions will occur at the participant's home (ON-medication) and can be broken up into two, two-hour blocks (with no more than 12 hours between stimulation blocks) to be less cumbersome and better integrate into the participant's daily life. Daily home-based treatment will be unsupervised, though timely support is guaranteed by Synergic Medical Technologies (SMT) support staff when needed (e.g., when usability or IT issues arise). Daily stimulation / device usage will be automatically logged by the device and continuously monitored by SMT staff, meanwhile participants will keep a med diary so we can monitor their med usage (and how it relates to extended exposure) over time. Participants will be able to transition to an as-needed basis with treatment after four months and once they are familiar with the treatment and their body's response to it, to better alleviate PD symptoms."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Parkinson's Disease"
+      ],
+      "keywords": [
+        "vibrotactile"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Participants will serve as their own control, receiving alternating active and sham therapy at two-month intervals.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active vibrotactile coordinated reset",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "mechanical vibrotactile stimulation to the fingers in a defined pattern",
+          "interventionNames": [
+            "Device: Active Vibrotactile Coordinated Reset"
+          ]
+        },
+        {
+          "label": "Sham vibrotactile coordinated reset",
+          "type": "SHAM_COMPARATOR",
+          "description": "mechanical vibrotactile stimulation to the fingers in a defined pattern",
+          "interventionNames": [
+            "Device: Sham vibrotactile coordinated reset"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Active Vibrotactile Coordinated Reset",
+          "description": "Gloves providing vibrotactile coordinated reset stimulation",
+          "armGroupLabels": [
+            "Active vibrotactile coordinated reset"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Sham vibrotactile coordinated reset",
+          "description": "Gloves providing sham vibrotactile coordinated reset stimulation",
+          "armGroupLabels": [
+            "Sham vibrotactile coordinated reset"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Movement Disorder Society - Change in Universal Parkinson Disease Rating Scale (MDS-UPDRS)",
+          "description": "Change in MDS-UPDRS score using Part 3 of the scale.",
+          "timeFrame": "baseline, 2 months, 4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* between the ages 45 and 90\n* diagnosis of bilateral, moderate stage idiopathic PD\n* qualify for EEG procedures\n\nExclusion Criteria:\n\n* on dopamine agonist medications and exhibiting compulsive behaviors",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "45 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Phan Luu, PhD",
+          "affiliation": "Synergic Medical Technologies, Inc.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Synergic Medical Technologies",
+          "city": "Eugene",
+          "state": "Oregon",
+          "zip": "97403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.05207,
+            "lon": -123.08675
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

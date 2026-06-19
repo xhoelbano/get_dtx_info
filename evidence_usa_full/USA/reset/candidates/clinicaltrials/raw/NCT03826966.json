@@ -1,0 +1,255 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03826966",
+      "orgStudyIdInfo": {
+        "id": "00009931"
+      },
+      "organization": {
+        "fullName": "Milton S. Hershey Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Comprehensive CBT (Cognitive Behavioral Therapy) Via reSET App",
+      "officialTitle": "Comprehensive CBT (Cognitive Behavioral Therapy) Via Reset for a Hub and Spoke MAT (Medication Assisted Treatment) System of Care"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-03-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-01-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-01-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-01-11",
+      "studyFirstSubmitQcDate": "2019-01-30",
+      "studyFirstPostDateStruct": {
+        "date": "2019-02-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-07-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-07-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sarah Kawasaki",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Milton S. Hershey Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Milton S. Hershey Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Columbia University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Research Foundation for Mental Hygiene, Inc.",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This research is being done to find out whether an app based cognitive behavior therapy called reSET improves the adherence to and outcome of buprenorphine treatment for opioid use disorder (OUD) in the setting of a Hub and Spoke implementation system."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Addiction",
+        "Opioid-use Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "N/A at this time. This trial is a pilot study seeking an N of 15 participants. All participants will be assigned the \"treatment,\" which is accessing an mobile app, re-SET, for cognitive behavioral therapy extension that is to be used with MAT (Buprenorphine only at this time)."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "reSET",
+          "description": "reSET is a mobile app created by Pear Therapeutics, Inc., which has previously been approved by the FDA."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Retention in treatment on MAT for 6 months after enrolling in the study",
+          "description": "ReSET is a mobile app designed to provide extended cognitive behavioral therapy for patients initiating medication assisted treatment (MAT) for opioid use disorder (OUD). This pilot trial is evaluating the acceptability and feasibility of the app, reSET. The first outcome being measure is treatment retention. We want to examine if participants enrolled in the study will maintain on MAT for 6 months after enrollment. This will be evaluated based on the number of appointments attended by the research participants. Data mining through our systems electronic medical record (EMR) will be conducted in order to count the number of attended appointments for study participants to gauge their treatment retention.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Opioid and other substance abuse as assessed through biological specimen",
+          "description": "Part of this study is looking at the effect of reSET on substance use. This will be measured by collecting urine drug screens to assess drug use (if any) at each research appointment. The number of endorsed drugs used (as indicated by a positive urine drug screen) will be counted and recorded for each research visit.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Opioid and other substance abuse as assessed through participant self-report",
+          "description": "Part of this study is looking at the effect of reSET on substance use. This will be measured by participant self-report on the Timeline Follow Back Questionnaire (TLFB). The TLFB is a self-report measure that gages the participant's memory by using a calendar to assess drug use within a specific period of time. The number of endorsed drugs used (as indicated by the participant) will be counted and recorded for each research visit.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cravings to use drugs as assessed by the reSET app",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as cravings to use drugs. This is captured in the reSET app as part of the programmed surveys that participants are asked to complete once pinged by the app. These surveys utilize a likert scale to ask the participant if they have experienced any cravings and the severity of said cravings (1 = mild cravings; 4=severe cravings). These ratings will assess total number of cravings and severity of cravings for the duration of the study (24 weeks) or up until the participant stops using the app; whichever comes first.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Overall mental health symptoms related to depression and anxiety as assessed by the K-10",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as overall mental health symptoms as measured by participant self-report on the Kessler 10 (K-10). The K-10 is a 10 item questionnaire that yields a global measure of distress based on questions about anxiety and depressive symptoms that an individual has experience within the most recent four week period. The questionnaire uses a likert scale for each prompt; a score of one indicates that an individual experiences symptoms or issues \"None of the time,\" whereas a score of five indicates that an individual experiences symptoms or issues \"All of time.\" The scores are summed and total amounts will fall in one of four categories: Score under 20 = likely to be well; Score 20-24 = likely to have a mild mental disorder; Score 25-29 = likely to have a moderate mental disorder; and Score 30 or more = likely to have a severe mental disorder.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mental health symptoms specific to depression as assessed by the PHQ-9",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as mental health specific to depression as measured by the participant self-report on the Patient Health Questionnaire (PHQ-9). The PHQ-9 is a 9 item questionnaire that assesses depressive symptoms or issues using a likert scale from \"0 to 3;\" 0 indicating no symptoms or issues and 3 indicating symptoms or issues occurring nearly every day. Scores are summed to calculate a total score. Scores 1-4 indicated minimal depression; scores 5-9 indicate mild depression; scores 10-14 indicate moderate depression; scores 15-19 indicated moderately severe depression; and scores 20-27 indicate severe depression.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mental health symptoms related to PTSD as assessed by the PCL-C",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as mental health specific to post-traumatic stress disorder as measured by the participant self-report on the abbreviated PTSD Checklist-Civilian Version (PCL-C). The PCL-C is a 17 item questionnaire that assesses PTSD symptoms on a likert scale from one to five (one = no symptoms or issues; five = extreme symptoms or issues). The scores are summed and a score of 30 or more indicates clinical PTSD symptoms.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Health status as assessed by the EuroQol",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as health status as measured by the participant self-report on the EuroQol (EQ-5D-5L). The EQ-5D-5L is a 5 item questionnaire that assesses five separate subscales including mobility, self-care, usual activities, pain/discomfort, and anxiety/depression. Each subscale is rated on a 1-5 likert scale (1 =no problems; 5= extremely severe problem). Data will be combined into two categories consisting of \"no problem\" (scores of 0) and \"problems\" (scores 2-5) to establish frequency counts of health status for the duration of the study.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Coping strategies as assessed by the CSS",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as coping strategies as measured by the participant self-report on the Coping Strategies Scale (CSS). The CSS is 24 item questionnaire that assesses individual coping skill use on a likert scale ranging from 1-4 (1 = never use the identified coping skill; 4 = frequently use identified coping skill). A total score will be derived by taking the average of all 24 items.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Social Connectedness as assessed by the SCS",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as social functioning as measured by the participant self-report on the Social Connectedness Scale (SCS). The SCS is a 20 item questionnaire that assesses psychological belonging or interpersonal closeness using a likert scale ranging from 1 to 6 (1= strongly disagree; 6 = strongly agree. A total average across all items and higher scores indicate optimal functioning and a strong sense of belongingness, while lower scores reflect a lack of strong sense of belongingness.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "HIV Risk as assessed by the SERBAS",
+          "description": "Part of this study is looking at the effect of reSET on 6 month adherence and mediation of improvements in quality of life outcomes such as sexual health as measured by the HIV Risk Assessment (Sexual Experience and Risk Behavior Assessment - SERBAS). The SERBAS elicits counts of protected and unprotected vaginal or anal sex occasions by partner type.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Satisfaction of using reSET as a form of treatment as measured by a qualitative interview",
+          "description": "This study will also be measuring patient satisfaction with the reSET app. This will be measured by an investigator created qualitative interview assessing the patient's likes, dislikes, and ease of use with the app, as well as open ended questions regarding how the patient would improve the app. This data will be uploaded into a qualitative system such as Nvivo for analysis.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Effectiveness of the reSET app content as measured by the IAFF",
+          "description": "This study will also measure the effectiveness of the reSET app from the participant's stand point. This will be measured using The Intervention Acceptability/ Feedback Form (IAFF). The IAFF is a 9 item questionnaire. Seven questions evaluate the content of the app through the use of a likert scale ranging from 0 to 10 where 0 indicates the lowest effectiveness of the content and 10 indicates highest effectiveness of the content (i.e.: usefulness, relevancy, interesting, novelty, ease of understanding, and satisfaction as related to the app content). Two open ended questions allow the participant to address additional likes and dislikes with the content, as well as suggestions on improving the content. Frequency counts will be used to analyze likert scale scores, while responses to open ended questions will be uploaded into a qualitative system such as Nvivo for analysis.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Starting outpatient treatment for OUD within the PACMAT Hub and Spoke system (either the Hub or one of the Spokes)\n* Planning maintenance treatment with buprenorphine\n* Willing to participate in the study\n* Can read, write and comprehend English\n\nExclusion Criteria:\n\n* Planning an outpatient detoxification, or treatment other than buprenorphine maintenance (e.g. methadone maintenance, Vivitrol, or counseling with no medication)\n* Judged by the evaluating physician or allied clinician to need a higher level of care (e.g. residential or inpatient treatment)\n* Unwilling to participate in the study\n* Under the age of 18\n* Unable to read, write and comprehend English",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Pennsylvania Psychiatric Institute, Opioid Treatment Program",
+          "city": "Harrisburg",
+          "state": "Pennsylvania",
+          "zip": "17110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.2737,
+            "lon": -76.88442
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016739",
+          "term": "Behavior, Addictive"
+        },
+        {
+          "id": "D009293",
+          "term": "Opioid-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003192",
+          "term": "Compulsive Behavior"
+        },
+        {
+          "id": "D007175",
+          "term": "Impulsive Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D000079524",
+          "term": "Narcotic-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

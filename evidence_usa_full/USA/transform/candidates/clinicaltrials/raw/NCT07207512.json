@@ -1,0 +1,274 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07207512",
+      "orgStudyIdInfo": {
+        "id": "UPComillas-EFT-PGD"
+      },
+      "organization": {
+        "fullName": "Universidad Pontificia Comillas",
+        "class": "OTHER"
+      },
+      "briefTitle": "Emotion-Focused Therapy in the Treatment of Prolonged Grief Disorder",
+      "officialTitle": "Emotion-Focused Therapy in the Treatment of Prolonged Grief Disorder: Study Protocol for a Randomised Controlled Trial",
+      "acronym": "EFT-PGD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-09-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-26",
+      "studyFirstSubmitQcDate": "2025-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "José Gamoneda Larripa",
+        "investigatorTitle": "Associate professor",
+        "investigatorAffiliation": "Universidad Pontificia Comillas"
+      },
+      "leadSponsor": {
+        "name": "Universidad Pontificia Comillas",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn if Emotion-Focused Therapy (EFT) works to reduce symptoms of Prolonged Grief Disorder (PGD) in adults. PGD happens when the pain of losing a loved one lasts a long time and causes serious problems in daily life.\n\n* The main questions this study aims to answer are:\n\n  1. Does EFT lower grief symptoms in adults with PGD?\n  2. Does EFT also help with related problems, such as anxiety, depression, trauma, and overall distress?\n* Who can take part:\n\nAdults (18 years or older) who lost a loved one at least 6 months ago and meet the criteria for PGD.\n\n\\- What will happen in the study:\n\nParticipants will be randomly assigned to one of two groups:\n\n1. EFT group: 8 to 10 weekly, face-to-face therapy sessions with a trained therapist.\n2. Self-help group: 10 weekly self-help exercises based on EFT, completed on their own.\n\n   * All participants will complete questionnaires on grief, mood, and well-being before starting, during the study, at the end of treatment (12 weeks), and again at 5 months and 12 months after starting.\n   * In the EFT group, the therapeutic relationship will also be measured during sessions 3 and 8.\n   * Why this study is important:\n\nMost current treatments for grief are based on cognitive-behavioral therapy, but not everyone benefits from them. EFT is a promising therapy that focuses on emotions and has shown positive results for other mental health problems. This trial will test if EFT can be an effective treatment for people struggling with prolonged grief."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Prolonged Grief Disorder (PGD)"
+      ],
+      "keywords": [
+        "grief",
+        "bereavement",
+        "prolonged grief disorder",
+        "grief with complications",
+        "Emotion-Focused Therapy",
+        "PGD",
+        "Randomized Controlled Trial",
+        "RCT",
+        "study protocol",
+        "Treatment Effectiveness"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 128,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Emotion-Focused Therapy for Grief",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Behavioral: Emotion-Focused Therapy for Grief"
+          ]
+        },
+        {
+          "label": "self-help intervention based on Emotion-Focused Therapy",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Behavioral: Self-help intervention based on EFT"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Emotion-Focused Therapy for Grief",
+          "description": "The EFT intervention will follow the model described in EFT for grief. Its main goal is to transform core emotional pain (e.g., chronic shame) by activating change-inducing emotions (e.g., assertive anger), a process described as \"changing emotion with emotion.\" This work takes place within a safe and supportive therapeutic relationship, characterized by the therapist's empathic, accepting, and compassionate stance. Therapists remain attuned to emotional markers (e.g., self-criticism, unfinished business) that signal opportunities for targeted work on specific affective problems, which are usually addressed through experiential tasks such as the Empty-Chair for Unfinished Business. Although EFT is transdiagnostic, grief work has certain distinctive features, such as the central role of experiencing grief-related sadness and fostering a sense of connection with the deceased.",
+          "armGroupLabels": [
+            "Emotion-Focused Therapy for Grief"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Self-help intervention based on EFT",
+          "description": "The self-help intervention consists of 10 written exercises designed to address different aspects of grief. These include psychoeducation, emotional regulation, focusing on bodily awareness, softening self-criticism, reducing avoidance, managing anxiety and fear, clarifying confusing emotional reactions, processing trauma, imaginal dialogues with the deceased, and cultivating compassion.",
+          "armGroupLabels": [
+            "self-help intervention based on Emotion-Focused Therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Prolonged Grief Scale 13 - Revised",
+          "description": "Higher scores indicate greater symptomatology of Prolonged Grief Disorder; a score of 30 or higher meets the clinical threshold for Prolonged Grief Disorder.",
+          "timeFrame": "From enrollment to the end of the research at 1 year follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Centrality of Event Scale",
+          "description": "Higher scores indicate greater trauma symptomatology",
+          "timeFrame": "From enrollment to the end of the reserch at 1 year follow-up"
+        },
+        {
+          "measure": "Clinical Outcomes in Routine Evaluation-10",
+          "description": "Higher scores indicate greater psychological distress",
+          "timeFrame": "From enrollment to the end of the reserch at 1 year follow-up"
+        },
+        {
+          "measure": "Patients Health Questionnarie 9",
+          "description": "Higher scores indicate greater psychological distress",
+          "timeFrame": "From enrollment to the end of the reserch at 1 year follow-up"
+        },
+        {
+          "measure": "Generalized Anxiety Disorder-7 Scale",
+          "description": "Higher scores indicate greater GAD symptomatology",
+          "timeFrame": "From enrollment to the end of the reserch at 1 year follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (≥18 years).\n* Undergoing a grief process (including perinatal grief).\n* Meeting diagnostic criteria for Prolonged Grief Disorder (bereavement occurring six months or more prior to the loss; PG-13-R score ≥30).\n* Provision of informed consent.\n* Stable psychopharmacological medication for at least six weeks prior to therapy onset, with physician approval to maintain stability during the intervention.\n\nExclusion Criteria:\n\n* Concurrent psychological treatment\n* Bereavement occurring less than six months prior to the loss\n* Substance abuse\n* Eating disorder\n* Psychosis;\n* Organic brain syndrome\n* Suicide risk\n* Risk of harm to others.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "José Gamoneda, PhD",
+          "role": "CONTACT",
+          "phone": "+34636894995",
+          "email": "jgamoneda@comillas.edu"
+        },
+        {
+          "name": "Rafael Jódar, PhD",
+          "role": "CONTACT",
+          "phone": "91 734 39 50",
+          "email": "rafajodar@comillas.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "José Gamoneda, PhD",
+          "affiliation": "Universidad Pontificia Comillas",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Unidad Clínica de Psicología de la Universidad Pontificia Comillas (UNINPSI)",
+          "city": "Madrid",
+          "state": "Madrid",
+          "zip": "28036",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "José Gamoneda, PhD",
+              "role": "CONTACT",
+              "phone": "636894995",
+              "email": "jgamoneda@comillas.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000090382",
+          "term": "Prolonged Grief Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000068099",
+          "term": "Trauma and Stressor Related Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000071441",
+          "term": "Emotion-Focused Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

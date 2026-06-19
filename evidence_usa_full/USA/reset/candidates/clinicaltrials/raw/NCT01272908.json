@@ -1,0 +1,5121 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01272908",
+      "orgStudyIdInfo": {
+        "id": "ML20381"
+      },
+      "organization": {
+        "fullName": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of MabThera (Rituximab) in Patients With Rheumatoid Arthritis Who Have Failed on One Prior Anti-TNF Therapy (RESET)",
+      "officialTitle": "Rituximab Phase IIIb Open-label, Multi-centre Assessment of Safety and Effectiveness in Patients With RA Following an Inadequate Response to One Prior Anti-TNF Inhibitor (RESET)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2006-07-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-03-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-03-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-01-07",
+      "studyFirstSubmitQcDate": "2011-01-07",
+      "studyFirstPostDateStruct": {
+        "date": "2011-01-10",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-05-12",
+      "resultsFirstSubmitQcDate": "2014-07-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-05",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-07-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-08-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the safety and effectiveness of MabThera (rituximab) in patients with active rheumatoid arthritis who are receiving methotrexate, and who have a previous or current inadequate response to one prior anti-TNF therapy. All patients will receive MabThera 1000 mg as an intravenous infusion on days 1 and 15. After the initial study phase of 24 weeks, eligible patients may receive one re-treatment with MabThera. The anticipated time on study treatment is 48 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Rheumatoid Arthritis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Single arm",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: rituximab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "rituximab",
+          "description": "1000 mg intravenously on Days 1 and 15",
+          "armGroupLabels": [
+            "Single arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Adverse Events During the Initial Treatment Period - Overall Summary",
+          "description": "Percentage of participants who reported an AE or serious AE (SAE), a drug-related AE, who had an acute infusion reaction, an AE leading to study drug discontinuation, with an infection or serious infection, or who died.",
+          "timeFrame": "Days 1, 2, 15, and 16 and Week 48 of Initial treatment period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Adverse Events During the Re-Treatment Period - Overall Summary",
+          "description": "Percentage of participants who reported an AE or SAE, a drug-related AE, who had an acute infusion reaction, an AE leading to study drug discontinuation, with an infection or serious infection, or who died.",
+          "timeFrame": "Days 1, 2, 15, and 16 and Week 48 of Re-treatment period"
+        },
+        {
+          "measure": "Percentage of Participants Meeting American College of Rheumatology (ACR) Response Criteria During the Initial Treatment Period",
+          "description": "ACR20/50/70, defined as ≥20 percent (%), 50%, or 70% improvement, respectively, compared to baseline in tender joint count (TJC) and swollen joint count (SJC), and 20%/50%/70% improvement in at least 3 of 5 additional ACR core set variables: Patient Assessment of Pain; Patient's Global Assessment of Disease Activity; Physician's Global Assessment of Disease Activity; Health Assessment Questionnaire - Disability Index (HAQ-DI); and an acute phase reactant (erythrocyte sedimentation rate \\[ESR\\] or C-Reactive Protein \\[CRP\\]). If CRP was missing or not done, then ESR was used.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Percentage of Participants With Complete Clinical Response Per ACR Criteria During the Initial Treatment Period",
+          "description": "Complete clinical response was defined as having an ACR70 for at least 13 weeks.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Percentage of Participants Meeting ACR Response Criteria During the Re-treatment Period",
+          "description": "ACR20/50/70, defined as ≥20%, 50%, or 70% improvement, respectively, compared to baseline in TJC and SJC, and 20%/50%/70% improvement in at least 3 of 5 additional ACR core set variables: Patient Assessment of Pain; Patient's Global Assessment of Disease Activity; Physician's Global Assessment of Disease Activity; HAQ-DI; and an acute phase reactant (ESR or CRP). If CRP was missing or not done, then ESR was used.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Percentage of Participants With Complete Clinical Response Per ACR Criteria During the Re-Treatment Period",
+          "description": "Complete clinical response was defined as having an ACR70 for at least 13 weeks.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Percentage of Participants Meeting European League Against Rheumatism (EULAR) Response Criteria During the Initial Treatment Period",
+          "description": "The EULAR response criteria were based on the assessment of disease activity using the DAS28. The EULAR response criteria included not only change in disease activity but current disease activity. To be classified as responders, participants had to have a significant change in DAS28 and a low current disease activity. There were 4 categories of EULAR response rates: good, moderate, good/moderate, and none. The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score less than or equal to \\[≤\\]3.2), moderate (DAS28 score greater than \\[\\>\\]3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Percentage of Participants Meeting EULAR Response Criteria During the Re-Treatment Period",
+          "description": "The EULAR response criteria were based on the assessment of disease activity using the DAS28. The EULAR response criteria included not only change in disease activity but current disease activity. To be classified as responders, participants had to have a significant change in DAS28 and a low current disease activity. There were 4 categories of EULAR response rates: good, moderate, good/moderate, and none. The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in DAS28 During the Initial Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria. A change of 1.2 units in DAS28 in an individual participant was considered a significant change.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in DAS28 During the Re-Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria. A change of 1.2 units in DAS28 in an individual participant was considered a significant change.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in SJC During the Initial Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in SJC During the Re-Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in TJC During the Initial Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in TJC During the Re-Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in Physician's Global Assessment of Disease Activity During the Initial Treatment Period",
+          "description": "Physician Global Assessment of Disease Activity was measured using a 100-mm visual analog scale (VAS) where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The physician marked the line and the distance from the left edge was measured in mm.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in Physician's Global Assessment of Disease Activity During the Re-Treatment Period",
+          "description": "Physician Global Assessment of Disease Activity was measured using a 100-mm VAS where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The physician marked the line and the distance from the left edge was measured in mm.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in Patient Global Assessment of Disease Activity Score During the Initial Treatment Period",
+          "description": "Patient Global Assessment of Disease Activity was measured using a 100-mm VAS where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The participant was asked to marked the line and the distance from the left edge was measured in mm.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in Patient Global Assessment of Disease Activity During the Re-Treatment Period",
+          "description": "Patient Global Assessment of Disease Activity was measured using a 100-mm VAS where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The participant was asked to marked the line and the distance from the left edge was measured in mm.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period and Week 4 after last maintenance"
+        },
+        {
+          "measure": "Change From Baseline in Patient Global Assessment of Pain During the Initial Treatment Period",
+          "description": "Patient Global Assessment of Pain was measured using a 100-mm VAS where the extreme left end of the line was 0 = no pain and the extreme right end of the line was 100 = unbearable pain. The participant was asked to mark the line and the distance from the left edge was measured in mm.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in Patient Global Assessment of Pain During the Re-Treatment Period",
+          "description": "Patient Global Assessment of Pain was measured using a 100-mm VAS where the extreme left end of the line was 0 = no pain and the extreme right end of the line was 100 = unbearable pain. The participant was asked to mark the line and the distance from the left edge was measured in mm.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline HAQ-DI Score During the Initial Treatment Period",
+          "description": "HAQ-DI: 20 questions, 8 categories of functioning: dressing/grooming, arising, eating, walking, hygiene, reach, grip, and common usual activities. Participants report amount of difficulty in performing 2-3 specific subcategory items. Difficulty score is from 0 to 3 (0 = without any difficulty; 1 = with some difficulty; 2 = with much difficulty; and 3 = unable to do). The highest component score in each of the 8 categories determined the score for that category, unless aids, devices, and/or help from another person were required which = a score of 2 (unless already 2 or 3). The 8 category scores were averaged into overall HAQ-DI score ranging from 0 to 3 (0 to 1 = mild to moderate difficulty; 1 to 2 = moderate to severe disability; and 2 to 3 = severe to very severe disability). HAQ-DI not computed if \\> 2 categories were missing.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline HAQ-DI Score During the Re-Treatment Period",
+          "description": "HAQ-DI: 20 questions, 8 categories of functioning: dressing/grooming, arising, eating, walking, hygiene, reach, grip, and common usual activities. Participants report amount of difficulty in performing 2-3 specific subcategory items. Difficulty score is from 0 to 3 (0 = without any difficulty; 1 = with some difficulty; 2 = with much difficulty; and 3 = unable to do). The highest component score in each of the 8 categories determines the score for that category, unless aids, devices, and/or help from another person were required which = a score of 2 (unless already 2 or 3). The 8 category scores were averaged into overall HAQ-DI score ranging from 0 to 3 (0 to 1 = mild to moderate difficulty; 1 to 2 = moderate to severe disability; and 2 to 3 = severe to very severe disability). HAQ-DI not computed if \\>2 categories were missing.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in ESR During the Initial Treatment Period",
+          "description": "ESR was measured in mm/hour and was used to determine the acute phase response. Lower ESR values indicate reduction in disease activity; normal reference range: 0-20 mm/hr.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in ESR During the Re-Treatment Period",
+          "description": "ESR was measured in mm/hour and was used to determine the acute phase response. Lower ESR values indicate reduction in disease activity; normal reference range: 0-20 mm/hr.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in CRP During the Initial Treatment Period",
+          "description": "CRP levels were measured in milligrams/liter (mg/L) and were used to determine the acute phase response. A reduction in CRP levels is considered an improvement; normal reference range ≤10 mg/L.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline CRP During the Re-Treatment Period",
+          "description": "CRP levels were measured in mg/L and were used to determine the acute phase response. A reduction in CRP levels is considered an improvement; normal reference range ≤10 mg/L.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Percentage of Participants With Disease Remission According to DAS28 in the Initial Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score ≤2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Percentage of Participants With Disease Remission According to DAS28 in the Re-Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score ≤2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        },
+        {
+          "measure": "Change From Baseline in Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-F) Total Score During the Initial Treatment Period",
+          "description": "Participant fatigue was evaluated using the FACIT-F scale, a 13-item questionnaire in which the participants were requested to score each item on a 5-point scale. The FACIT-F scores ranged from 0 to 52, with higher scores representing less fatigue. Score changes of 4 points or more were considered clinically meaningful. The total score was a summation of all 13 items, where 2 of the positive items (I have energy; I am able to do my usual activities) were reversed for scoring.",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period"
+        },
+        {
+          "measure": "Change From Baseline in FACIT-F Total Score During the Re-Treatment Period",
+          "description": "Participant fatigue was evaluated using the FACIT-F scale, a 13-item questionnaire in which the participants were requested to score each item on a 5-point scale. The FACIT-F scores ranged from 0 to 52, with higher scores representing less fatigue. Score changes of 4 points or more were considered clinically meaningful. The total score was a summation of all 13 items, where 2 of the positive items (I have energy; I am able to do my usual activities) were reversed for scoring.",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients, 18-80 years of age\n* Moderate to severe active rheumatoid arthritis\n* Inadequate response to a single previous or current treatment with an anti-TNF agent\n* Methotrexate for at least 12 weeks, at a stable dose over the past 4 weeks\n\nExclusion Criteria:\n\n* Previous treatment with MabThera\n* Use of an anti-TNF agent within past 8 weeks (4 in the case of etanercept)\n* Concurrent treatment with any Disease Modifying Anti-Rheumatic Drug (DMARD) other than methotrexate\n* Active infection, or history of serious or chronic infection",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Trials",
+          "affiliation": "Hoffmann-La Roche",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T5M 0H4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 2B7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "city": "Kelowna",
+          "state": "British Columbia",
+          "zip": "V1Y 3G8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.88307,
+            "lon": -119.48568
+          }
+        },
+        {
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V5Z 3Y1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "city": "Victoria",
+          "state": "British Columbia",
+          "zip": "V8V 3P9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "city": "Winnipeg",
+          "state": "Manitoba",
+          "zip": "R3A 1M4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.8844,
+            "lon": -97.14704
+          }
+        },
+        {
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "zip": "A1A 5E8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 47.56494,
+            "lon": -52.70931
+          }
+        },
+        {
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "zip": "A1C 5B8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 47.56494,
+            "lon": -52.70931
+          }
+        },
+        {
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8N 1Y2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8S 4J9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "city": "Mississauga",
+          "state": "Ontario",
+          "zip": "L5M 2V8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.5789,
+            "lon": -79.6583
+          }
+        },
+        {
+          "city": "Nepean",
+          "state": "Ontario",
+          "zip": "K2G 6E2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.33619,
+            "lon": -75.7225
+          }
+        },
+        {
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1H 8L6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1S 1C2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "city": "Thunder Bay",
+          "state": "Ontario",
+          "zip": "P7B 5G3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.38202,
+            "lon": -89.25018
+          }
+        },
+        {
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4K 1N2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 1X5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5T 2S8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "city": "Windsor",
+          "state": "Ontario",
+          "zip": "N8X 5A6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.30008,
+            "lon": -83.01654
+          }
+        },
+        {
+          "city": "Laval",
+          "state": "Quebec",
+          "zip": "H7G 2E6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.56995,
+            "lon": -73.692
+          }
+        },
+        {
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 2M4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2L 1S6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2L 4M1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3T 1E2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1V 3M7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "city": "Saint-Eustache",
+          "state": "Quebec",
+          "zip": "J7P 4J2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.565,
+            "lon": -73.90554
+          }
+        },
+        {
+          "city": "Sainte-Foy",
+          "state": "Quebec",
+          "zip": "G1W 4R4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.78139,
+            "lon": -71.29217
+          }
+        },
+        {
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        },
+        {
+          "city": "Trois-Rivières",
+          "state": "Quebec",
+          "zip": "G8Z 1Y2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "city": "Borås",
+          "zip": "50182",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.72101,
+            "lon": 12.9401
+          }
+        },
+        {
+          "city": "Falun",
+          "zip": "79182",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 60.60357,
+            "lon": 15.62597
+          }
+        },
+        {
+          "city": "Gothenburg",
+          "zip": "41345",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "city": "Jönköping",
+          "zip": "551 85",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.78145,
+            "lon": 14.15618
+          }
+        },
+        {
+          "city": "Kalmar",
+          "zip": "39185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.66157,
+            "lon": 16.36163
+          }
+        },
+        {
+          "city": "Karlskrona",
+          "zip": "37185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.16156,
+            "lon": 15.58661
+          }
+        },
+        {
+          "city": "Luleå",
+          "zip": "97180",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 65.58415,
+            "lon": 22.15465
+          }
+        },
+        {
+          "city": "Malmö",
+          "zip": "20502",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.60587,
+            "lon": 13.00073
+          }
+        },
+        {
+          "city": "Oskarström",
+          "zip": "31392",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.8,
+            "lon": 12.96667
+          }
+        },
+        {
+          "city": "Skövde",
+          "zip": "54185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.39118,
+            "lon": 13.84506
+          }
+        },
+        {
+          "city": "Stockholm",
+          "zip": "18288",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "city": "Sundsvall",
+          "zip": "85186",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 62.39129,
+            "lon": 17.3063
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Rituximab + Methotrexate (MTX)",
+          "description": "Participants received rituximab 1000 milligrams (mg) intravenously (IV) and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg per week (mg/week) and a stable dose of folate (greater than or equal to \\[≥\\]5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (Disease Activity Score based on 28-Joint Count \\[DAS28\\] score of greater than or equal to \\[≥\\]2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\], given 14 days apart), at any time between Week 24 and 48."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Initial Treatment Period",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "120"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "112"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Lack of Efficacy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Re-Treatment Period",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Only participants with active disease as characterized by DAS-28 score ≥2.6 were included.",
+                  "numSubjects": "77"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "71"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Lack of Efficacy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Intent-to-Treat (ITT) Population: all participants who recieved any amount of infused medication whether or not they completed any further assessment.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Rituximab + MTX",
+          "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "120"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "55.6",
+                      "spread": "10.20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "87"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With Adverse Events During the Initial Treatment Period - Overall Summary",
+          "description": "Percentage of participants who reported an AE or serious AE (SAE), a drug-related AE, who had an acute infusion reaction, an AE leading to study drug discontinuation, with an infection or serious infection, or who died.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Days 1, 2, 15, and 16 and Week 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "With an AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "85.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With a drug-related AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "41.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With an acute infusion reaction",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With AE leading to study drug discontinuation",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With an SAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With infections",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With a serious infections",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Who died",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Adverse Events During the Re-Treatment Period - Overall Summary",
+          "description": "Percentage of participants who reported an AE or SAE, a drug-related AE, who had an acute infusion reaction, an AE leading to study drug discontinuation, with an infection or serious infection, or who died.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Days 1, 2, 15, and 16 and Week 48 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "77"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "With an AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "68.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With a drug-related AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With an acute infusion reaction",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With AE leading to study drug discontinuation",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With an SAE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With infections",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "With a serious infections",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Who died",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants Meeting American College of Rheumatology (ACR) Response Criteria During the Initial Treatment Period",
+          "description": "ACR20/50/70, defined as ≥20 percent (%), 50%, or 70% improvement, respectively, compared to baseline in tender joint count (TJC) and swollen joint count (SJC), and 20%/50%/70% improvement in at least 3 of 5 additional ACR core set variables: Patient Assessment of Pain; Patient's Global Assessment of Disease Activity; Physician's Global Assessment of Disease Activity; Health Assessment Questionnaire - Disability Index (HAQ-DI); and an acute phase reactant (erythrocyte sedimentation rate \\[ESR\\] or C-Reactive Protein \\[CRP\\]). If CRP was missing or not done, then ESR was used.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "ACR20, Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR20, Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR20, Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR20, Week 36",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR20, Week 48",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 36",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 48",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 36",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 48",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "ACR20: Week 12 versus (vs) Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.253",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "2.293"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "ACR20: Week 24 vs Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.005",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "3.019"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "ACR50: Week 12 vs Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.023",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "5.552"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "ACR50: Week 24 vs. Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.001",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "6.861"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Complete Clinical Response Per ACR Criteria During the Initial Treatment Period",
+          "description": "Complete clinical response was defined as having an ACR70 for at least 13 weeks.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants Meeting ACR Response Criteria During the Re-treatment Period",
+          "description": "ACR20/50/70, defined as ≥20%, 50%, or 70% improvement, respectively, compared to baseline in TJC and SJC, and 20%/50%/70% improvement in at least 3 of 5 additional ACR core set variables: Patient Assessment of Pain; Patient's Global Assessment of Disease Activity; Physician's Global Assessment of Disease Activity; HAQ-DI; and an acute phase reactant (ESR or CRP). If CRP was missing or not done, then ESR was used.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "77"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "ACR20, Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR20, Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR50, Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ACR70, Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Complete Clinical Response Per ACR Criteria During the Re-Treatment Period",
+          "description": "Complete clinical response was defined as having an ACR70 for at least 13 weeks.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "77"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants Meeting European League Against Rheumatism (EULAR) Response Criteria During the Initial Treatment Period",
+          "description": "The EULAR response criteria were based on the assessment of disease activity using the DAS28. The EULAR response criteria included not only change in disease activity but current disease activity. To be classified as responders, participants had to have a significant change in DAS28 and a low current disease activity. There were 4 categories of EULAR response rates: good, moderate, good/moderate, and none. The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score less than or equal to \\[≤\\]3.2), moderate (DAS28 score greater than \\[\\>\\]3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 4: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "64.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 36: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 36: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 36: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 36: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 48: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 48: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 48: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 48: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Good vs Moderate vs None: Week 12 vs Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.667",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "2.099"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Good vs Moderate vs None: Week 24 vs Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "3.589"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Good/Moderate vs None: Week 12 vs Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.440",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "2.138"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Good/Moderate vs None: Week 24 vs Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "0.012",
+              "statisticalMethod": "Regression, Logistic",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "3.009"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants Meeting EULAR Response Criteria During the Re-Treatment Period",
+          "description": "The EULAR response criteria were based on the assessment of disease activity using the DAS28. The EULAR response criteria included not only change in disease activity but current disease activity. To be classified as responders, participants had to have a significant change in DAS28 and a low current disease activity. There were 4 categories of EULAR response rates: good, moderate, good/moderate, and none. The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "77"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 12: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "74.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: Good",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "48.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: Good/Moderate",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24: None",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in DAS28 During the Initial Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria. A change of 1.2 units in DAS28 in an individual participant was considered a significant change.",
+          "populationDescription": "ITT Population; n (number) = number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "117"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.4",
+                      "spread": "1.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=112)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.1",
+                      "spread": "0.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=108)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.7",
+                      "spread": "1.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=105)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.0",
+                      "spread": "1.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=66)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-1.7",
+                      "spread": "1.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=33)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.1",
+                      "spread": "1.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Week 4",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Week 12",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Week 36",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Week 48",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in DAS28 During the Re-Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score \\<2.6 corresponded to a state of remission according to American Rheumatism Association criteria. A change of 1.2 units in DAS28 in an individual participant was considered a significant change.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "117"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.4",
+                      "spread": "1.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=70)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.3",
+                      "spread": "1.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=65)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.2",
+                      "spread": "1.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in SJC During the Initial Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "swollen joints",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "117"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.7",
+                      "spread": "5.33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=115)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-3.6",
+                      "spread": "4.45"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=113)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.7",
+                      "spread": "4.97"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=106)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.1",
+                      "spread": "5.66"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=67)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.6",
+                      "spread": "6.50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=33)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.7",
+                      "spread": "5.56"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Wilcoxon Signed-Rank test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in SJC During the Re-Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given vist.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "swollen joints",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "117"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.7",
+                      "spread": "5.33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=71)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.6",
+                      "spread": "6.07"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=69)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.7",
+                      "spread": "5.43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in TJC During the Initial Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specific parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "tender joints",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "117"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.1",
+                      "spread": "6.62"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=115)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6.3",
+                      "spread": "5.95"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=113)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.8",
+                      "spread": "6.68"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=106)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9.0",
+                      "spread": "6.42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=67)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.4",
+                      "spread": "8.35"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=33)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.8",
+                      "spread": "8.31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in TJC During the Re-Treatment Period",
+          "description": "Joints assessed for swelling consisted of shoulders, elbows, wrists, interphalangeal (digit 1), distal interphalangeal joints (digits 2-5), proximal interphalangeal joints (digits 2-5), metacarpophalangeal joints (digits 1-5), and knees.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "tender joints",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "117"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.1",
+                      "spread": "6.62"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=71)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9.4",
+                      "spread": "7.54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=69)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9.7",
+                      "spread": "6.92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Physician's Global Assessment of Disease Activity During the Initial Treatment Period",
+          "description": "Physician Global Assessment of Disease Activity was measured using a 100-mm visual analog scale (VAS) where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The physician marked the line and the distance from the left edge was measured in mm.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "68.6",
+                      "spread": "17.34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-22.0",
+                      "spread": "21.67"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=116)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-31.4",
+                      "spread": "24.28"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=109)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-35.1",
+                      "spread": "24.45"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=68)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-28.6",
+                      "spread": "28.68"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=34)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-35.9",
+                      "spread": "25.18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Physician's Global Assessment of Disease Activity During the Re-Treatment Period",
+          "description": "Physician Global Assessment of Disease Activity was measured using a 100-mm VAS where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The physician marked the line and the distance from the left edge was measured in mm.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "68.6",
+                      "spread": "17.34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=73)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-35.5",
+                      "spread": "25.95"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=69)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-41.5",
+                      "spread": "24.43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Patient Global Assessment of Disease Activity Score During the Initial Treatment Period",
+          "description": "Patient Global Assessment of Disease Activity was measured using a 100-mm VAS where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The participant was asked to marked the line and the distance from the left edge was measured in mm.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.5",
+                      "spread": "22.73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-19.7",
+                      "spread": "21.50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=116)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-26.3",
+                      "spread": "26.84"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=109)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-29.2",
+                      "spread": "25.72"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=68)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-23.8",
+                      "spread": "30.42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=34)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-28.5",
+                      "spread": "22.92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Wilcoxon Signed Rank test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Patient Global Assessment of Disease Activity During the Re-Treatment Period",
+          "description": "Patient Global Assessment of Disease Activity was measured using a 100-mm VAS where the extreme left end of the line was 0 = no disease activity and the extreme right end of the line was 100 = maximum disease activity. The participant was asked to marked the line and the distance from the left edge was measured in mm.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period and Week 4 after last maintenance",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.5",
+                      "spread": "22.73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=72)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-32.6",
+                      "spread": "29.20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=72)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-30.7",
+                      "spread": "28.70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Patient Global Assessment of Pain During the Initial Treatment Period",
+          "description": "Patient Global Assessment of Pain was measured using a 100-mm VAS where the extreme left end of the line was 0 = no pain and the extreme right end of the line was 100 = unbearable pain. The participant was asked to mark the line and the distance from the left edge was measured in mm.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.2",
+                      "spread": "22.85"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-17.5",
+                      "spread": "21.80"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=113)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-24.0",
+                      "spread": "25.31"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=108)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-25.7",
+                      "spread": "25.40"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=68)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-18.0",
+                      "spread": "29.18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=33)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-22.6",
+                      "spread": "20.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Patient Global Assessment of Pain During the Re-Treatment Period",
+          "description": "Patient Global Assessment of Pain was measured using a 100-mm VAS where the extreme left end of the line was 0 = no pain and the extreme right end of the line was 100 = unbearable pain. The participant was asked to mark the line and the distance from the left edge was measured in mm.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.2",
+                      "spread": "22.85"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=72)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-28.3",
+                      "spread": "28.02"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=72)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-26.6",
+                      "spread": "27.61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline HAQ-DI Score During the Initial Treatment Period",
+          "description": "HAQ-DI: 20 questions, 8 categories of functioning: dressing/grooming, arising, eating, walking, hygiene, reach, grip, and common usual activities. Participants report amount of difficulty in performing 2-3 specific subcategory items. Difficulty score is from 0 to 3 (0 = without any difficulty; 1 = with some difficulty; 2 = with much difficulty; and 3 = unable to do). The highest component score in each of the 8 categories determined the score for that category, unless aids, devices, and/or help from another person were required which = a score of 2 (unless already 2 or 3). The 8 category scores were averaged into overall HAQ-DI score ranging from 0 to 3 (0 to 1 = mild to moderate difficulty; 1 to 2 = moderate to severe disability; and 2 to 3 = severe to very severe disability). HAQ-DI not computed if \\> 2 categories were missing.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.7",
+                      "spread": "0.57"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=117)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.2",
+                      "spread": "0.36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=116)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.3",
+                      "spread": "0.46"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=108)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.4",
+                      "spread": "0.48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=68)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.3",
+                      "spread": "0.53"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=34)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.4",
+                      "spread": "0.56"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Wilcoxon Signed Rank test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline HAQ-DI Score During the Re-Treatment Period",
+          "description": "HAQ-DI: 20 questions, 8 categories of functioning: dressing/grooming, arising, eating, walking, hygiene, reach, grip, and common usual activities. Participants report amount of difficulty in performing 2-3 specific subcategory items. Difficulty score is from 0 to 3 (0 = without any difficulty; 1 = with some difficulty; 2 = with much difficulty; and 3 = unable to do). The highest component score in each of the 8 categories determines the score for that category, unless aids, devices, and/or help from another person were required which = a score of 2 (unless already 2 or 3). The 8 category scores were averaged into overall HAQ-DI score ranging from 0 to 3 (0 to 1 = mild to moderate difficulty; 1 to 2 = moderate to severe disability; and 2 to 3 = severe to very severe disability). HAQ-DI not computed if \\>2 categories were missing.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.7",
+                      "spread": "0.57"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=73)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.5",
+                      "spread": "0.60"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=72)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.5",
+                      "spread": "0.62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in ESR During the Initial Treatment Period",
+          "description": "ESR was measured in mm/hour and was used to determine the acute phase response. Lower ESR values indicate reduction in disease activity; normal reference range: 0-20 mm/hr.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm/hr",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37.0",
+                      "spread": "27.84"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=112)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.5",
+                      "spread": "13.57"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=112)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-11.3",
+                      "spread": "20.60"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=107)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-16.0",
+                      "spread": "20.36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=68)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9.2",
+                      "spread": "22.29"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=34)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.0",
+                      "spread": "17.93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Wilcoxon Signed Rank test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in ESR During the Re-Treatment Period",
+          "description": "ESR was measured in mm/hour and was used to determine the acute phase response. Lower ESR values indicate reduction in disease activity; normal reference range: 0-20 mm/hr.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mm/hr",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37.0",
+                      "spread": "27.84"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=73)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-17.9",
+                      "spread": "22.07"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=67)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-18.7",
+                      "spread": "23.05"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in CRP During the Initial Treatment Period",
+          "description": "CRP levels were measured in milligrams/liter (mg/L) and were used to determine the acute phase response. A reduction in CRP levels is considered an improvement; normal reference range ≤10 mg/L.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/L",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "119"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=119)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.6",
+                      "spread": "28.87"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=110)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.9",
+                      "spread": "17.44"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=113)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-11.9",
+                      "spread": "31.97"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=108)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-16.1",
+                      "spread": "24.82"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=67)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9.1",
+                      "spread": "25.74"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=34)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.6",
+                      "spread": "27.06"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Wilcoxon Signed Rank test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline CRP During the Re-Treatment Period",
+          "description": "CRP levels were measured in mg/L and were used to determine the acute phase response. A reduction in CRP levels is considered an improvement; normal reference range ≤10 mg/L.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/L",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "119"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=119)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.6",
+                      "spread": "28.87"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=70)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-16.9",
+                      "spread": "27.15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=67)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-15.3",
+                      "spread": "26.62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Disease Remission According to DAS28 in the Initial Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score ≤2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 36",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 48",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Disease Remission According to DAS28 in the Re-Treatment Period",
+          "description": "The DAS28 scoring used 4 core components: SJC, TJC, Patient's Global Assessment of Disease Activity, and ESR. The DAS28 has a continuous scale ranging from 0 to 9.4. The level of disease activity was interpreted as low (DAS28 score ≤3.2), moderate (DAS28 score \\>3.2 but ≤5.1), or high (DAS28 score \\>5.1). A DAS28 score ≤2.6 corresponded to a state of remission according to American Rheumatism Association criteria.",
+          "populationDescription": "ITT Population",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "77"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 24",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-F) Total Score During the Initial Treatment Period",
+          "description": "Participant fatigue was evaluated using the FACIT-F scale, a 13-item questionnaire in which the participants were requested to score each item on a 5-point scale. The FACIT-F scores ranged from 0 to 52, with higher scores representing less fatigue. Score changes of 4 points or more were considered clinically meaningful. The total score was a summation of all 13 items, where 2 of the positive items (I have energy; I am able to do my usual activities) were reversed for scoring.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "Weeks 4, 12, 24, 36, and 48 of Initial treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Initial Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.9",
+                      "spread": "10.22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 4 (n=116)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.4",
+                      "spread": "8.19"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=116)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.3",
+                      "spread": "10.38"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=108)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-9.1",
+                      "spread": "9.90"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 36 (n=68)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-8.6",
+                      "spread": "11.71"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 48 (n=34)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-10.9",
+                      "spread": "10.68"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 12",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "t-test, 1 sided"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Baseline vs Week 24",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+              "pValue": "<0.001",
+              "statisticalMethod": "Wilcoxon Signed Rank test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in FACIT-F Total Score During the Re-Treatment Period",
+          "description": "Participant fatigue was evaluated using the FACIT-F scale, a 13-item questionnaire in which the participants were requested to score each item on a 5-point scale. The FACIT-F scores ranged from 0 to 52, with higher scores representing less fatigue. Score changes of 4 points or more were considered clinically meaningful. The total score was a summation of all 13 items, where 2 of the positive items (I have energy; I am able to do my usual activities) were reversed for scoring.",
+          "populationDescription": "ITT Population; n=number of participants assessed for the specified parameter at a given visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "Weeks 12 and 24 of Re-treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Re-Treatment Period: Rituximab + MTX",
+              "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "120"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline (n=120)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.9",
+                      "spread": "10.22"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 12 (n=73)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-8.3",
+                      "spread": "12.64"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 24 (n=72)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-8.9",
+                      "spread": "11.72"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Reporting period began after written informed consent was obtained and ended 48 weeks after therapy was initiated or 24 weeks after re-treatment had occurred.",
+      "description": "Participants removed from therapy and entered into the Safety Follow-up period were followed for AEs for an additional 24 weeks after the cessation of therapy, whether considered treatment-related or not. Nonserious adverse events presented in this record include all adverse events reported during the study, not just nonserious events.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Initial Treatment: Rituximab + MTX",
+          "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion).",
+          "seriousNumAffected": 12,
+          "seriousNumAtRisk": 120,
+          "otherNumAffected": 102,
+          "otherNumAtRisk": 120
+        },
+        {
+          "id": "EG001",
+          "title": "Re-treatment: Rituximab + MTX",
+          "description": "Participants received rituximab 1000 mg IV and methylprednisolone 100 mg IV on Days 1 and 15. Participants should have been receiving a stable dose (for at least 12 weeks prior to Screening) of MTX 10-25 mg/week and a stable dose of folate (≥5 mg/week) given as either a single weekly dose or as divided daily doses (per investigator discretion). Participants who, in the opinion of the investigator, achieved a clinically relevant response (DAS28 score of ≥2.6) to the first course of treatment received one additional course of re-treatment with rituximab (2 IV infusions of rituximab 1000 mg \\[and methylprednisolone 100 mg\\] given 14 days apart), at any time between Week 24 and 48.",
+          "seriousNumAffected": 7,
+          "seriousNumAtRisk": 77,
+          "otherNumAffected": 53,
+          "otherNumAtRisk": 77
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Labyrinthitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Breast cellulitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Breast cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Prostate cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Uterine leiomyoma",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Ovarian epithelial cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Hip fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Upper limb fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Abdominal discomfort",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Large intestine perforation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Rheumatoid arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Transient ischaemic attack",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary fibrosis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Bronchitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Rheumatoid arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 20,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 17,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 9,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 77
+            }
+          ]
+        },
+        {
+          "term": "Flushing",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 11.1 and 12.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 77
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Nonserious adverse events presented in this record include all adverse events reported during the study, not just nonserious events."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "The Study being conducted under this Agreement is part of the Overall Study. Investigator is free to publish in reputable journals or to present at professional conferences the results of the Study, but only after the first publication or presentation that involves the Overall Study. The Sponsor may request that Confidential Information be deleted and/or the publication be postponed in order to protect the Sponsor's intellectual property rights."
+      },
+      "pointOfContact": {
+        "title": "Medical Communications",
+        "organization": "Hoffmann-LaRoche",
+        "email": "genentech@druginfo.com",
+        "phone": "800-821-8590"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001172",
+          "term": "Arthritis, Rheumatoid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        },
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069283",
+          "term": "Rituximab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D058846",
+          "term": "Antibodies, Monoclonal, Murine-Derived"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

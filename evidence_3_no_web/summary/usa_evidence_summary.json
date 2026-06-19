@@ -1,0 +1,205 @@
+{
+  "country": "USA",
+  "search_date": "2026-06-16T21:22:09.331508Z",
+  "mode": "full",
+  "dtx_searched": 3,
+  "total_candidates": 112,
+  "total_verified_rct": 6,
+  "total_verified_rwe": 0,
+  "total_rejected": 101,
+  "total_ineligible": 5,
+  "by_dtx": {
+    "Beats Medical Parkinson's App": {
+      "dtx_name": "Beats Medical Parkinson's App",
+      "country": "USA",
+      "search_date": "2026-06-16T21:22:09.331647Z",
+      "candidates": {
+        "dtx_name": "Beats Medical Parkinson's App",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-16T21:22:09.334187Z",
+        "queries": [
+          "\"Beats Medical Parkinson's\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          }
+        },
+        "total_candidates": 50
+      },
+      "verification": {
+        "dtx_name": "Beats Medical Parkinson's App",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-16T21:23:16.233214Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 50,
+        "total_ineligible": 0
+      }
+    },
+    "RelieVRx": {
+      "dtx_name": "RelieVRx",
+      "country": "USA",
+      "search_date": "2026-06-16T21:24:18.849330Z",
+      "candidates": {
+        "dtx_name": "RelieVRx",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-16T21:24:18.849656Z",
+        "queries": [
+          "\"RelieVRx\"",
+          "\"RelieVRx\" AND \"AppliedVR\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 7,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 5,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          }
+        },
+        "total_candidates": 12
+      },
+      "verification": {
+        "dtx_name": "RelieVRx",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-16T21:25:05.714437Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 7,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 4
+          },
+          "clinicaltrials": {
+            "candidates": 5,
+            "verified_rct": 4,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 1
+          }
+        },
+        "total_verified_rct": 6,
+        "total_verified_rwe": 0,
+        "total_rejected": 1,
+        "total_ineligible": 5
+      }
+    },
+    "Sword Mind": {
+      "dtx_name": "Sword Mind",
+      "country": "USA",
+      "search_date": "2026-06-16T21:25:37.742513Z",
+      "candidates": {
+        "dtx_name": "Sword Mind",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-16T21:25:37.742766Z",
+        "queries": [
+          "\"Sword Mind\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          }
+        },
+        "total_candidates": 50
+      },
+      "verification": {
+        "dtx_name": "Sword Mind",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-16T21:26:40.975782Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 50,
+        "total_ineligible": 0
+      }
+    }
+  }
+}

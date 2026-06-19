@@ -1,0 +1,870 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04830839",
+      "orgStudyIdInfo": {
+        "id": "R24HD096350",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/R24HD096350"
+      },
+      "organization": {
+        "fullName": "Children's Hospital Medical Center, Cincinnati",
+        "class": "OTHER"
+      },
+      "briefTitle": "Recovery After Stress Toolkit (ReSeT): Pilot Study",
+      "officialTitle": "Online Modules to Help Children Manage Medical Stress After an Injury: Recovery After Stress Toolkit (ReSeT) Pilot Study",
+      "acronym": "ReSeT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-06-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-06-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-04-01",
+      "studyFirstSubmitQcDate": "2021-04-01",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-05",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-12-06",
+      "resultsFirstSubmitQcDate": "2025-04-10",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Children's Hospital Medical Center, Cincinnati",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Utah",
+          "class": "OTHER"
+        },
+        {
+          "name": "The University of Texas Health Science Center, Houston",
+          "class": "OTHER"
+        },
+        {
+          "name": "Tulane University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Experiencing an accident and staying in the hospital can be scary and traumatic for children. The goal of this project is to develop an online resource to help children and their parents develop effective coping skills to manage their stress. Children ages 8-17 who exhibit signs of posttraumatic stress will view 8 online modules and attend weekly videoconferencing sessions with a therapist. Parents will have 4 modules to assist them in supporting their child after the injury.",
+      "detailedDescription": "The overarching goal of this project is to provide a research and treatment resource for the management of psychological distress in children who have been hospitalized for a physical trauma. The investigators will pilot an innovative, brief e-health approach to treatment of PTSS designed to be delivered through the trauma system. The investigators will create interactive web-based psychoeducational modules that are developmentally tailored for school age children (8 to 17 years) for use with synchronous e-health therapy sessions with a trained therapist. Companion modules for parents will help parents to understand and respond to their child's PTSS. The investigators will perform a single-arm pilot trial of a brief e-health approach to treatment of PTSS (i.e., Recovery after Stress Toolkit; ReSeT). ( delete with usual care.)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Post-traumatic Stress Disorder"
+      ],
+      "keywords": [
+        "post-traumatic stress",
+        "medical stress",
+        "e-health"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This is a single group design as all eligible participants will be offered the 8 session Recovery after Stress Toolkit (ReSeT) program, including 8 self-guided child modules and 4 parent modules, as well as 8 parallel videoconferencing sessions with a therapist.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Recovery after Stress Toolkit (ReSeT)",
+          "type": "EXPERIMENTAL",
+          "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.",
+          "interventionNames": [
+            "Behavioral: Recovery after Stress Toolkit (ReSeT)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Recovery after Stress Toolkit (ReSeT)",
+          "description": "ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative.",
+          "armGroupLabels": [
+            "Recovery after Stress Toolkit (ReSeT)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Adherence",
+          "description": "Adherence to the ReSeT intervention will be assessed by calculating the number of sessions participants complete out of the 8 proposed sessions.",
+          "timeFrame": "Feasibility will be assessed at 12 weeks post-enrollment."
+        },
+        {
+          "measure": "Acceptability",
+          "description": "The acceptability of the ReSeT intervention will be assessed with child and parent satisfaction surveys, and a qualitative interview with open-ended feedback about the program. The satisfaction surveys ask participants to rate their satisfaction with the program on a 4-point Likert scale (from \"strongly disagree\" to \"strongly agree\"), with higher scores indicative of greater satisfaction and acceptability. The ratio of child satisfactory responses over the total number of possible child satisfaction survey responses was calculated to measure overall child satisfaction.",
+          "timeFrame": "Acceptability will be assessed at 12 weeks post-enrollment."
+        },
+        {
+          "measure": "Length of Time to Complete Sessions",
+          "description": "The feasibility of the ReSeT intervention will be assessed with the number of weeks that it takes participants to complete the 8 sessions of the intervention. The intervention was designed to take place over a 12 week period, with sessions occurring weekly.",
+          "timeFrame": "This outcome will be assessed at the end of the 8 sessions of the intervention."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Child Post-traumatic Stress Symptoms (PTSS)",
+          "description": "The Child Post-Traumatic Stress Disorder Scale (CPSS; Foa et al, 2001) is a validated child report and parent proxy measure of PTSS. The measure is comprised of 24-items. The CPSS includes 17 questions mapping on to DSM-IV symptoms of PTSD rated on a 5-point scale that indicates how frequently each symptom occurs (0 = not at all, 1 = once a week or less/once in a while, 2 = 2 to 3 times a week/half the time, 3 = 4 to 5 times a week, 4=6 or more time a week/almost always). The minimum score for PTSS symptoms is 0 and the maximum is 80. A higher score indicates greater PTSS. The change in raw score from the 17 questions mapping PTSD symptoms was calculated from change in scores at 1 week post discharge to scores at 12 weeks post randomization.",
+          "timeFrame": "Child PTSS from pre-intervention (within 6 months of the injury discharge) will be compared to the child's PTSS post-intervention, at 12 weeks post-enrollment or until the child has finished treatment."
+        },
+        {
+          "measure": "Child Anxiety Symptoms",
+          "description": "The Screen Child Anxiety and Related Emotional Disorders (SCARED; Birmaher et al., 1999) is a widely used questionnaire that screens for anxiety and emotional disorders in children. The child self-report version will be used in this study, which consists of 41 items rated on a 3-point Likert scale ( 0 = not true or hardly ever true, 1 = somewhat true or sometimes true, 2 = very true or often true). This measures yields raw scores for anxiety disorder, panic disorder, generalized anxiety disorder, separation anxiety, social anxiety disorder, and significant school avoidance. Total scores range from 0-82, with scores above 25 indicating the presence of clinically significant anxiety. The change in total score from 1 week post discharge to 12 weeks post randomization was then calculated to get the overall change in score.",
+          "timeFrame": "Child anxiety from pre-intervention (within 6 months of the injury discharge) will be compared to child anxiety post-intervention, at 12 weeks post-enrollment or until the child has finished treatment."
+        },
+        {
+          "measure": "Child Quality of Life",
+          "description": "The Pediatric Quality of Life Inventory (PedsQL 4.0; Varni et al., 2001) is a well-validated parent- report measure consisting of 15 items that takes less than 5 minutes to complete. The PedsQL evaluates health-related quality of life by assessing the dimensions of physical, emotional, social, and cognitive functioning in children from infancy to 18 years of life age. The total quality of life scale score will be utilized. Scores range from 0-100, with higher scores indicating better health related quality of life. The Total quality of life score change from 1 week post discharge to 12 weeks post randomization was then calculated, with a greater change in total score indicating greater improvements in quality of life.",
+          "timeFrame": "Child quality of life from pre-intervention (within 6 months of the injury discharge) will be compared to child quality of life post-intervention, at 12 weeks post-enrollment or until the child has finished treatment."
+        },
+        {
+          "measure": "Child Depressive Symptoms",
+          "description": "The Patient Reported Outcomes Measurement Information System is a National Institutes of Health (NIH) initiative created to advance assessment of patient-reported outcomes. To measure child depressive symptoms for this outcome measure, the depression subscale t score (Mean 50 with SD 10) from the child reports were pulled, and the change in t score from 1 week post discharge to 12 weeks post randomization was calculated. As this outcome measure represents a change in t score from one time point to another, there is no standard minimum and maximum value to report. A greater change in t score represents a greater decrease in depressive symptoms, which represents better outcomes. There are no clinical cut-offs, however, greater than two standard deviations above or below the mean would represent an extreme value.",
+          "timeFrame": "Child depressive symptoms from pre-intervention (within 6 months of the injury discharge) will be compared to child depressive symptoms post-intervention, at 12 weeks post-enrollment or until the child has finished treatment."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Ages of 8 to 17 years at time of enrollment\n* Hospitalized for trauma at one of the following sites: PICU, ward or rapid treatment/observation unit (less than 23 hours stay)\n* Both the parent and the child participating have the ability to read and speak English\n* Have broadband internet availability at their home address\n* Elevated post-traumatic stress symptoms (If the child exhibits clinically significant PTSS determined with the CPSS \\[Foa et al., 2001\\] with a score greater than or equal to 11 on the sum of the highest item by item score of parent/child report, they will be invited to participate in the pilot intervention. This methodology for using a joint score on the CPSS was informed by previous work indicating that both parents and children tend to underreport PTSS symptoms. Thus, implementing a multi-informant approach yields a more valid estimation of a child's psychopathology.)\n\nExclusion Criteria:\n\n* Has sustained a moderate or severe TBI, as defined by a Glasgow Coma Score of less than 13\n* Has been diagnosed with moderate or severe intellectual disability , low functioning autism spectrum disorder, or a developmental disability (This will be determined by medical chart review and confirmed with parent report: Has the child ever been diagnosed with an intellectual or developmental disability? i.e., child must be able to talk; the rationale for this is that they may have difficulty mastering the course content)\n* Has a pre-existing severe psychiatric disorder that required prior psychiatric hospitalization (e.g., bipolar disorder, schizophrenia)\n* The mechanism of the injury was abuse or interpersonal violence\n* They are currently receiving psychotherapy\n* Has been hospitalized for their injury for over 30 days\n* No attempt will be made to recruit caregivers while their child is unstable, e.g. vitals are abnormal, there are major complications, or death may be imminent. Children with multiple injuries are eligible to participate but their caregivers will not be approached until any interventions (surgery, casting, etc.) are completed.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "8 Years",
+      "maximumAge": "17 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Shari Wade, PhD",
+          "affiliation": "Children's Hospital Medical Center, Cincinnati",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cincinnati Children's Hospital Medical Center",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "11501254",
+          "type": "BACKGROUND",
+          "citation": "Foa EB, Johnson KM, Feeny NC, Treadwell KR. The child PTSD Symptom Scale: a preliminary examination of its psychometric properties. J Clin Child Psychol. 2001 Sep;30(3):376-84. doi: 10.1207/S15374424JCCP3003_9."
+        },
+        {
+          "pmid": "10517055",
+          "type": "BACKGROUND",
+          "citation": "Birmaher B, Brent DA, Chiappetta L, Bridge J, Monga S, Baugher M. Psychometric properties of the Screen for Child Anxiety Related Emotional Disorders (SCARED): a replication study. J Am Acad Child Adolesc Psychiatry. 1999 Oct;38(10):1230-6. doi: 10.1097/00004583-199910000-00011."
+        },
+        {
+          "pmid": "24085345",
+          "type": "BACKGROUND",
+          "citation": "Varni JW, Magnus B, Stucky BD, Liu Y, Quinn H, Thissen D, Gross HE, Huang IC, DeWalt DA. Psychometric properties of the PROMIS (R) pediatric scales: precision, stability, and comparison of different scoring and administration options. Qual Life Res. 2014 May;23(4):1233-43. doi: 10.1007/s11136-013-0544-0. Epub 2013 Oct 2."
+        },
+        {
+          "pmid": "11468499",
+          "type": "BACKGROUND",
+          "citation": "Varni JW, Seid M, Kurtin PS. PedsQL 4.0: reliability and validity of the Pediatric Quality of Life Inventory version 4.0 generic core scales in healthy and patient populations. Med Care. 2001 Aug;39(8):800-12. doi: 10.1097/00005650-200108000-00006."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "The pilot is only anticipated to have 12-16 participants and thus,data may be identifiable. The investigators have decided to withhold the sharing individual participant data."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Participants were recruited from a tertiary care children's hospital with a Level I trauma center between late 2020 and early 2021.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Recovery After Stress Toolkit (ReSeT)",
+          "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Recovery After Stress Toolkit (ReSeT)",
+          "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "6"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14",
+                      "spread": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Adherence",
+          "description": "Adherence to the ReSeT intervention will be assessed by calculating the number of sessions participants complete out of the 8 proposed sessions.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "number of sessions completed",
+          "timeFrame": "Feasibility will be assessed at 12 weeks post-enrollment.",
+          "typeUnitsAnalyzed": "online sessions",
+          "denomUnitsSelected": "online sessions",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            },
+            {
+              "units": "online sessions",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.3",
+                      "lowerLimit": "6",
+                      "upperLimit": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Acceptability",
+          "description": "The acceptability of the ReSeT intervention will be assessed with child and parent satisfaction surveys, and a qualitative interview with open-ended feedback about the program. The satisfaction surveys ask participants to rate their satisfaction with the program on a 4-point Likert scale (from \"strongly disagree\" to \"strongly agree\"), with higher scores indicative of greater satisfaction and acceptability. The ratio of child satisfactory responses over the total number of possible child satisfaction survey responses was calculated to measure overall child satisfaction.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Satisfactory Survey Responses",
+          "timeFrame": "Acceptability will be assessed at 12 weeks post-enrollment.",
+          "typeUnitsAnalyzed": "Survey Responses",
+          "denomUnitsSelected": "Survey Responses",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            },
+            {
+              "units": "Survey Responses",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "54"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Length of Time to Complete Sessions",
+          "description": "The feasibility of the ReSeT intervention will be assessed with the number of weeks that it takes participants to complete the 8 sessions of the intervention. The intervention was designed to take place over a 12 week period, with sessions occurring weekly.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days",
+          "timeFrame": "This outcome will be assessed at the end of the 8 sessions of the intervention.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65.2",
+                      "spread": "21.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Child Post-traumatic Stress Symptoms (PTSS)",
+          "description": "The Child Post-Traumatic Stress Disorder Scale (CPSS; Foa et al, 2001) is a validated child report and parent proxy measure of PTSS. The measure is comprised of 24-items. The CPSS includes 17 questions mapping on to DSM-IV symptoms of PTSD rated on a 5-point scale that indicates how frequently each symptom occurs (0 = not at all, 1 = once a week or less/once in a while, 2 = 2 to 3 times a week/half the time, 3 = 4 to 5 times a week, 4=6 or more time a week/almost always). The minimum score for PTSS symptoms is 0 and the maximum is 80. A higher score indicates greater PTSS. The change in raw score from the 17 questions mapping PTSD symptoms was calculated from change in scores at 1 week post discharge to scores at 12 weeks post randomization.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Child PTSS from pre-intervention (within 6 months of the injury discharge) will be compared to the child's PTSS post-intervention, at 12 weeks post-enrollment or until the child has finished treatment.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-10",
+                      "spread": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Child Anxiety Symptoms",
+          "description": "The Screen Child Anxiety and Related Emotional Disorders (SCARED; Birmaher et al., 1999) is a widely used questionnaire that screens for anxiety and emotional disorders in children. The child self-report version will be used in this study, which consists of 41 items rated on a 3-point Likert scale ( 0 = not true or hardly ever true, 1 = somewhat true or sometimes true, 2 = very true or often true). This measures yields raw scores for anxiety disorder, panic disorder, generalized anxiety disorder, separation anxiety, social anxiety disorder, and significant school avoidance. Total scores range from 0-82, with scores above 25 indicating the presence of clinically significant anxiety. The change in total score from 1 week post discharge to 12 weeks post randomization was then calculated to get the overall change in score.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Child anxiety from pre-intervention (within 6 months of the injury discharge) will be compared to child anxiety post-intervention, at 12 weeks post-enrollment or until the child has finished treatment.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7",
+                      "spread": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Child Quality of Life",
+          "description": "The Pediatric Quality of Life Inventory (PedsQL 4.0; Varni et al., 2001) is a well-validated parent- report measure consisting of 15 items that takes less than 5 minutes to complete. The PedsQL evaluates health-related quality of life by assessing the dimensions of physical, emotional, social, and cognitive functioning in children from infancy to 18 years of life age. The total quality of life scale score will be utilized. Scores range from 0-100, with higher scores indicating better health related quality of life. The Total quality of life score change from 1 week post discharge to 12 weeks post randomization was then calculated, with a greater change in total score indicating greater improvements in quality of life.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Child quality of life from pre-intervention (within 6 months of the injury discharge) will be compared to child quality of life post-intervention, at 12 weeks post-enrollment or until the child has finished treatment.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9",
+                      "spread": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Child Depressive Symptoms",
+          "description": "The Patient Reported Outcomes Measurement Information System is a National Institutes of Health (NIH) initiative created to advance assessment of patient-reported outcomes. To measure child depressive symptoms for this outcome measure, the depression subscale t score (Mean 50 with SD 10) from the child reports were pulled, and the change in t score from 1 week post discharge to 12 weeks post randomization was calculated. As this outcome measure represents a change in t score from one time point to another, there is no standard minimum and maximum value to report. A greater change in t score represents a greater decrease in depressive symptoms, which represents better outcomes. There are no clinical cut-offs, however, greater than two standard deviations above or below the mean would represent an extreme value.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Child depressive symptoms from pre-intervention (within 6 months of the injury discharge) will be compared to child depressive symptoms post-intervention, at 12 weeks post-enrollment or until the child has finished treatment.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recovery After Stress Toolkit (ReSeT)",
+              "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6",
+                      "spread": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "from 1 week post discharge (start of study) to 12 weeks post randomization (or after completing 8 sessions for study)",
+      "description": "There were no adverse events reported.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Recovery After Stress Toolkit (ReSeT)",
+          "description": "ReSeT is comprised of interactive web-based psychoeducational modules that are developmentally tailored for school age children (8-17 years) for use with synchronous e-health therapy sessions with a trained therapist.\n\nParticipants in the ReSeT treatment will complete 8 modules and therapy sessions. Parents will also have access to 4 modules During the study, children/youth will be asked to complete all eight sessions of the online treatment together with the therapist over an 8 -12 week time period (to allow for scheduling/cancellations). For younger children, parents will participate in the beginning and end of each session. Sessions will last approximately 30-60 minutes and will occur approximately every week for an anticipated 4-8 hour time commitment. Parents of older children will be permitted to review the content independently and participate in feedback sessions.\n\nRecovery after Stress Toolkit (ReSeT): ReSeT involves online modules with parallel videoconferencing sessions. ReSeT integrates two evidence-based treatment methods: cognitive behavioral therapy coping skills (coping CBT) and direct exposure to trauma reminders through a trauma narrative.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 6,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 6,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 6
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Professor",
+        "organization": "Cincinnati Children's Hospital Medical Center",
+        "email": "shari.wade@cchmc.org",
+        "phone": "+15136363370"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-08-14",
+          "uploadDate": "2024-12-06T10:14",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 325856
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013313",
+          "term": "Stress Disorders, Post-Traumatic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D040921",
+          "term": "Stress Disorders, Traumatic"
+        },
+        {
+          "id": "D000068099",
+          "term": "Trauma and Stressor Related Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

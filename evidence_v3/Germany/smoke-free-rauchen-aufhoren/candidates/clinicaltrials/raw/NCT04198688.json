@@ -1,0 +1,247 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04198688",
+      "orgStudyIdInfo": {
+        "id": "MS254"
+      },
+      "organization": {
+        "fullName": "Bispebjerg Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effectiveness of Intensive Smoking Cessation Interventions in Patients With Cancer",
+      "officialTitle": "The Gold Standard Programme (GSP) for Smoking Cessation: Effectiveness in Smokers With and Without Cancer - a Prospective Cohort Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2006-01-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-01-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-01-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-12-06",
+      "studyFirstSubmitQcDate": "2019-12-12",
+      "studyFirstPostDateStruct": {
+        "date": "2019-12-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-07-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-07-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mette Rasmussen",
+        "investigatorTitle": "Senior Researcher",
+        "investigatorAffiliation": "Bispebjerg Hospital"
+      },
+      "leadSponsor": {
+        "name": "Bispebjerg Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Rigshospitalet, Denmark",
+          "class": "OTHER"
+        },
+        {
+          "name": "Aarhus University Hospital Skejby",
+          "class": "OTHER"
+        },
+        {
+          "name": "Danish Cancer Society",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Smoking accounts for approximately 30% of total cancer deaths each year. Even though former studies show that persons with a cancer diagnosis are less likely to smoke than the general population up to 50% of people who smoke and have lung cancer do not stop smoking after their diagnosis or frequently relapse after smoking cessation. Continued smoking leads to increased all-cause mortality, increased cancer-specific mortality, and decreased quality of life. It is well-known that cancer patients are interested in smoking cessation therefore smoking cessation interventions play an important role in the management of people with cancer.\n\nThis study will evaluate the effectiveness of an intensive smoking cessation interventions on cancer patients in real life. The project provides new knowledge about smokers diagnosed with cancer.",
+      "detailedDescription": "This prospective register-based cohort study including smokers attending an intensive smoking cessation intervention (the Gold Standard Programme (GSP)) from 2006-2017 in Denmark. The GSP is a manualised, patient education programme taught by specially trained staff, including pharmacologic strategies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tobacco Smoking",
+        "Cancer",
+        "Tobacco Cessation"
+      ],
+      "keywords": [
+        "National database",
+        "Effectiveness",
+        "Gold Standard Programme",
+        "Intensive intervention"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 77380,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "With cancer",
+          "description": "Patients diagnosed with cancer (with at least one of the following ICD-10 diagnoses: C00-43; C46.1-99; D09)",
+          "interventionNames": [
+            "Behavioral: Intensive Smoking Cessation Intervention"
+          ]
+        },
+        {
+          "label": "Without cancer",
+          "description": "Patients without cancer (without any of the following ICD-10 diagnoses: C00-99; D09; D30.1-9; D32-33; D35.2-4; D41.1-9; D44.3-5)",
+          "interventionNames": [
+            "Behavioral: Intensive Smoking Cessation Intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Intensive Smoking Cessation Intervention",
+          "description": "The intervention comprises 5-6 meetings during six weeks, and can be held in group or as an individual intervention. It is based on counselling and a clearly structured manual-based patient education programme taught by specially trained staff, and contains individual counselling on nicotine replacement therapy or other medical support, according to the level of dependence measured by the Fagerström test score. The first two weeks cover teaching sessions on: ambivalence and motivation, pros and cons of continuous smoking versus cessation, and a quit date is set between the 2. and 3. week. The last 3 sessions cover: risk situations, withdrawal symptoms and medical support for withdrawal symptoms, relapse prevention and how to handle a completely smoke-free life.",
+          "armGroupLabels": [
+            "With cancer",
+            "Without cancer"
+          ],
+          "otherNames": [
+            "GSP (Gold Standard Programme for Smoking Cessation)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "% of patients that are continuously smokefree",
+          "description": "Self-reported smoking status, questionnaire completed by telephone interview",
+          "timeFrame": "6 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "% of patients that are smokefree",
+          "description": "Counsellor observed smoking status, questionnaire completed by counsellor",
+          "timeFrame": "Last intervention day (6 weeks post baseline)"
+        },
+        {
+          "measure": "% of patients that have been smokefree for at least the latest 14 days",
+          "description": "Self-reported smoking status, questionnaire completed by telephone interview",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "% of patients that are satisfied with the smoking cessation intervention",
+          "description": "Self-reported patient-satisfaction, questionnaire completed by telephone interview",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "% of patients that are compliant to the treatment",
+          "description": "Counsellor observed meeting adherence, questionnaire completed by counsellor",
+          "timeFrame": "Last intervention day (6 weeks post baseline)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Smokers registered in the National Danish Smoking Cessation Database between January 2006 until May 2017\n\nExclusion Criteria:\n\n* Entries referring to smokers attending more than one smoking cessation intervention (the latest entry will be used)\n* Smokers younger than 18 years of age\n* Smokers attending interventions other than the intensive Gold Standard Programme for smoking cessation (GSP)\n* Smokers where the smoking cessation unit pre-decided not to follow up on their participants\n* Smokers in the non-cancer group diagnosed with benign neoplasms, tumours of unknown etymology or non-melanoma skin cancer (ICD-10 diagnoses: D30.1-9; D32-33; D35.2-4; D41.1-9; D44.3-5; C44, C46.0)",
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The population in this study are smokers in Denmark, with or without cancer, who are motivated to attempt to quit smoking, and have attented an intensive smoking cessation programme.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mette Rasmussen, PhD",
+          "affiliation": "Bispebjerg and Frederiksberg Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37405937",
+          "type": "BACKGROUND",
+          "citation": "Lauridsen SV, Jensen BT, Tonnesen H, Dalton SO, Rasmussen M. The gold standard program (GSP) for smoking cessation: a cohort study of its effectiveness among smokers with and without cancer. Acta Oncol. 2023 Jul;62(7):774-781. doi: 10.1080/0284186X.2023.2228445. Epub 2023 Jul 5."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "The National Danish Smoking Cessation Database (in Danish)",
+          "url": "https://www.stopbasen.dk/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000073869",
+          "term": "Tobacco Smoking"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D020340",
+          "term": "Tobacco Use Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D064424",
+          "term": "Tobacco Use"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

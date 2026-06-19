@@ -1,0 +1,71 @@
+{
+  "studies": [
+    {
+      "study_id": "35147825",
+      "pmid": "35147825",
+      "title": "Randomized Controlled Trial of a Program to Help Latina Mothers Help Their Children Cope with Stress: Effects on Parenting, Child Coping, and Adjustment.",
+      "authors": "Power Thomas G et al.",
+      "authors_list": [
+        "Power Thomas G",
+        "Garcia Karina Silva",
+        "Martinez AnaMaria Diaz",
+        "Parker Louise A",
+        "Hidalgo-Mendez Jackelyn"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Aug",
+      "journal": "Prevention science : the official journal of the Society for Prevention Research",
+      "journal_abbrev": "Prev Sci",
+      "doi": "10.1007/s11121-022-01353-9",
+      "abstract": "\"Madres Apoyando el Desarrollo Emocional de Sus Hijos\" (\"Mothers Supporting the Emotional Development of Their Children\") is a parenting education program designed to help Latina mothers help their school-age children cope with stress. A previous randomized controlled trial, with a pre-post design, showed that the program had the predicted effects on mothers' knowledge, attitudes, and behavior. However, no data were collected from the children in that initial evaluation. The purpose of the present study was to determine if the program impacted children's coping and adjustment. One hundred twenty-two primarily first-generation Latina mothers from rural Washington State were randomly assigned to the intervention or to a no treatment control. Seven implementations of the program were conducted. Mothers and their 8- to 13-year-old children completed assessments 1 week before the program started, 1 week after its completion, and 3 months later. The results for maternal behavior were largely replicated: at posttest, intervention mothers, compared to controls, reported higher levels of emotion coaching, showed greater self-efficacy for helping their child cope with stress, and were more likely to report positive strategies for scaffolding their child's responses to stressful situations. Several maternal effects (e.g., emotion-coaching and maternal efficacy) continued at 3 months. Children of intervention mothers at posttest used more primary control coping strategies and reported fewer emotional symptoms; analyses of mothers' ratings of child adjustment replicated the posttest child effects for emotional symptoms, showed fewer other psychological problems at posttest, and showed greater child prosocial behavior at 3 months. The results further support the program's efficacy and provide the first evidence of its effects on child coping and adjustment.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adaptation, Psychological",
+        "Adolescent",
+        "Child",
+        "Emotions",
+        "Female",
+        "Hispanic or Latino",
+        "Humans",
+        "Mothers",
+        "Parenting"
+      ],
+      "keywords": [
+        "Child adjustment",
+        "Children",
+        "Coping",
+        "Latina/o",
+        "Parenting",
+        "Stress"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35147825/",
+      "pdf_available": false,
+      "_matched_query": "\"Feel Program\"",
+      "_raw_xml_path": "evidence/USA/feel-program/candidates/pubmed/raw/35147825.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 40,
+        "reason": "Fallback keyword check: matched ['product_name_partial']",
+        "matched_elements": [
+          "product_name_partial"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T09:42:57.572573Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

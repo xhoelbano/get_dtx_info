@@ -1,0 +1,257 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04266327",
+      "orgStudyIdInfo": {
+        "id": "CNRBG-2019-MST-RISI"
+      },
+      "organization": {
+        "fullName": "Peking University Third Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "RISI in the Treatment of Recurrent Metastatic SCC of Thoracic Inlet Lymph Nodes",
+      "officialTitle": "Study on the Safety and Efficacy of 3D-printed Template Assisted Ct-guided RISI in the Treatment of Recurrent Metastatic Squamous Cell Carcinoma of Thoracic Inlet Lymph Nodes After Radiotherapy: a Multi-center Prospective Cohort Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-05",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-04-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-02-10",
+      "studyFirstSubmitQcDate": "2020-02-11",
+      "studyFirstPostDateStruct": {
+        "date": "2020-02-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Peking University Third Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The malignant tumor at the thoracic entrance is difficult to be surgically removed, and radiotherapy or radiotherapy based comprehensive treatment is often chosen at the initial diagnosis. However, for patients with recurrence after radiotherapy, there is basically no ideal local treatment.The Radioactive i-125 Seed Implantation (RISI) therapy is characterized by high dose within the tumor target area and low dose to surrounding normal tissues, and its radiation dose rate is low, which theoretically benefits the protection of normal tissues and is more suitable for the salvage treatment of recurrent lesions after radiotherapy.3 d printing template technology is through the advance of the preoperative plan design and optimization, to achieve better avoid endanger organs, template of individualized and human body surface after laminating, registration accuracy, its guide pillar to precise control the direction of the needle, the present data show that in the template with CT guided by solid tumors as well had significantly higher accuracy, as the actual target dose of basic postoperative can reach the design request of the preoperative planning, so the application of 3 d printing template helps to further improve the operation efficiency and safety, also has potential promotion effect to curative effect.\n\nThe purpose of this study is: (1) Observe the efficacy, toxicity and side effects of 3d-printed template assisted ct-guided RISI in the treatment of recurrent metastatic squamous cell carcinoma of thoracic inlet lymph node after radiotherapy, and evaluate its safety and effectiveness; (2) to explore the relationship between the efficacy, toxicity and side effects of relapsed metastatic squamous cell carcinoma of thoracic inlet lymph node after radiotherapy with different RISI doses;(3)the related influencing factors affecting the effect/toxicity of RISI in the treatment of relapsed lymph node metastatic squamous cell carcinoma at the thoracic inlet after radiotherapy were analyzed.",
+      "detailedDescription": "This is a non-randomized, prospective, single-arm, cohort study.Patients meeting the inclusion criteria were enrolled successively in the order of admission and treatment.In this study, the dose interval was set as 110-130gy, and a total of 30 patients were expected to be enrolled. The prescription dose was planned to be grouped into 15 patients of 110-120gy and 120-130gy respectively. The specific situation was subject to the actual postoperative verification dose."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Brachytherapy",
+        "Squamous Cell Carcinomas"
+      ],
+      "keywords": [
+        "I-125 seed implantation",
+        "radiotherapy",
+        "Recurrent",
+        "Metastatic Squamous cell carcinomas"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Patients meeting the inclusion criteria were enrolled successively in the order of admission and treatment. The dose interval in this study was set as 110-130gy. A total of 30 patients were expected to be enrolled, including 15 patients 110-120gy and 15 patients 120-130gy.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "I-125 Seed Implantation",
+          "type": "EXPERIMENTAL",
+          "description": "All the enrolled patients were treated with ct-guided radioactive i-125 seed implantation assisted by 3D printing template.Prescription dose 110-130gy.",
+          "interventionNames": [
+            "Radiation: 3D-printing Template-assisted CT-guided I-125 Seed Implantation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "3D-printing Template-assisted CT-guided I-125 Seed Implantation",
+          "description": "(1) positioning and preoperative plan design;(2) 3D printing template design and production;(3) reset and seed implantation;(4) intraoperative optimization;Postoperative dose verification.Dosimetric parameters include: dose D90 and D100 reaching a certain percentage target volume;Target volume V100, V150 and V200 reaching a certain percentage of prescribed dose;And the dose of organs at risk: Dmean, D2cc, d0.5cc, d0.1cc.Regular follow-up was conducted after treatment.",
+          "armGroupLabels": [
+            "I-125 Seed Implantation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Local tumor control rate",
+          "description": "The time from the date of seeds implantation to the date of recurrence of the implanted tumor or the date of last observation.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Incidence of adverse events",
+          "description": "The adverse events are evaluated by the common terminology criteria for adverse events (CTCAE). The rate of each adverse event will be measured.",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival time",
+          "description": "The time from the date of seeds implantation to the date of death from any cause or the date of last observation.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "progression-free survival",
+          "description": "The time between the beginning of treatment and the progression of the disease or the occurrence of death for any reason.",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* (1) age 18-75 years\n* (2) the lesion was located at the thoracic entrance, pathologically diagnosed as lymph node metastatic squamous cell carcinoma, and relapsed after radiotherapy. The diameter of the lesion was ≤5cm\n* (3) no systemic metastasis or metastasis, the metastasis has been controlled by early treatment\n* (4) no bleeding tendency, anticoagulant treatment and (or) anti-platelet coagulation drugs should be at least 1 week before the seed implantation treatment\n* (5) not complicated with serious or uncontrolled basic diseases (such as serious or uncontrolled hypertension, diabetes, cardiovascular and cerebrovascular diseases and organ dysfunction, etc.)\n* (6) there is a suitable puncture path, is expected to reach the treatment dose;7 KPS\\> score of 70, expected to be able to tolerate puncture/particle therapy, the expected survival time is more than 3 months\n\nExclusion Criteria:\n\n* (1) extensive invasion of the lesion or surrounding of large blood vessels or large scope of liquefaction necrosis inside the lesion, high risk of expected puncture bleeding or poor particle distribution\n* (2) puncture site infection and/or ulcer\n* (3) pregnant women, nursing women, children and mental patients\n* (4) patients who are participating in other clinical studies\n* (5) poor compliance, unable to complete the treatment\n* (6) the researchers consider it inappropriate to participate in the clinical trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zhe Ji, M.D.",
+          "role": "CONTACT",
+          "phone": "008618710002823",
+          "email": "aschoff@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Junjie Wang, M.D. Ph.D",
+          "affiliation": "Department of Radiation Oncology, Peking University Third Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peking University Third Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100191",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhe Ji, M.D.",
+              "role": "CONTACT",
+              "phone": "+8618710002823",
+              "email": "aschoff@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "De-identified individual participant data for all primary and secondary outcome measures will be made available.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR"
+      ],
+      "timeFrame": "Data will be available within 2 years of the study completion.",
+      "accessCriteria": "Data access requests will be reviewed by an external Independent Review Panel. Requestors will be required to sign a Data Access Agreement."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002294",
+          "term": "Carcinoma, Squamous Cell"
+        },
+        {
+          "id": "D012008",
+          "term": "Recurrence"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D018307",
+          "term": "Neoplasms, Squamous Cell"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

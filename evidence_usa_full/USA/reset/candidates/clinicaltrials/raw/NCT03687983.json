@@ -1,0 +1,383 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03687983",
+      "orgStudyIdInfo": {
+        "id": "GF01"
+      },
+      "organization": {
+        "fullName": "Lifetech Scientific (Shenzhen) Co., Ltd.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Efficacy Study of GoldenFlow Peripheral Stent System",
+      "officialTitle": "Safety and Efficacy Study of GoldenFlow Peripheral Stent System, A Prospective, Multi-center, Single-Arm Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-05-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2019-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-09-26",
+      "studyFirstSubmitQcDate": "2018-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2018-09-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-09-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-09-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Lifetech Scientific (Shenzhen) Co., Ltd.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A Prospective, Multi-center, Single-Arm Clinical Trial to evaluate the safety and efficacy of the GodenFlow Peripheral Stent System manufactured by Lifetech Scientific (Shenzhen) Co., LTD. for lower limb artery stenosis or occlusion diseases.",
+      "detailedDescription": "A Prospective, Multi-center, Single-Arm Clinical Trial to evaluate the safety and efficacy of the GodenFlow Peripheral Stent System manufactured by Lifetech Scientific (Shenzhen) Co., LTD. for lower limb artery stenosis or occlusion diseases. A total of 90 cases of patients, who are suitable to be treated with Peripheral Stent will be screened and enrolled according to the inclusion and exclusion criteria, and the lesion will be treated with GodenFlow Peripheral Stent System under the guidance of Digital Subtraction Angiography (DSA). Clinical and imaging follow-up was conducted 3 months and 6 months after surgery, The follow-ups mainly included clinical symptoms and signs, ankle-brachial index (ABI) and colour Doppler ultrasound, Computed Tomography Angiography (CTA), etc., for the sake of verifying the efficacy and safety of the device in treating patients with lower limb artery stenosis or occlusion."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Iliac Artery Stenosis",
+        "Iliac Artery Occlusion",
+        "Femoral Artery Stenosis",
+        "Femoral Artery Occlusion",
+        "Popliteal Arterial Stenosis",
+        "Popliteal Artery Occlusion"
+      ],
+      "keywords": [
+        "GoldenFlow Peripheral Stent System"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention arm",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be treated with GoldenFlow Peripheral Stent System.",
+          "interventionNames": [
+            "Device: GoldenFlow Peripheral Stent System"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "GoldenFlow Peripheral Stent System",
+          "description": "Performing anaesthetic and pathological angiography according to the standard method, and select appropriate stent specifications according to the contrast results. After 1:1 pre-expansion, the stent system will be imparted into the lesion location, the stent will be distally positioned and released. The Tip head will be reset and the conveyor will be removed. If necessary, local re-expansion can be carried out. Remove the catheter and suture the wound. Postoperative treatment and anticoagulation.",
+          "armGroupLabels": [
+            "Intervention arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The incidence of TLR/ TVR",
+          "description": "There should be no Target Lesion Revascularization (TLR) or Total Vascular Regeneration (TVR).",
+          "timeFrame": "6 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "the successful implantation of the stent",
+          "description": "The stent was placed in the superficial femoral artery after angiography observation, the blood flow was unobstructed, the stent position was appropriate, the wall was well adhered, and there was no displacement.",
+          "timeFrame": "immediate"
+        },
+        {
+          "measure": "the rate of patency",
+          "description": "Under color Doppler ultrasound, the peak systolic velocity ratio (PSVR) ≤ 2.4",
+          "timeFrame": "at 3 months and 6 months after the surgery"
+        },
+        {
+          "measure": "Incidence of adverse events",
+          "description": "Death, TLR, amputation, stent fracture, etc.",
+          "timeFrame": "6 months after surgery"
+        },
+        {
+          "measure": "Clinical success",
+          "description": "During the follow-up period, the improvement of Rutherford classification 1 grade or more than 1 grade.",
+          "timeFrame": "6 months after the surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients aged greater than 18 years old and less than 80 years old.\n2. Patients who are able to understand the purpose of the trial, voluntary to participate and sign the informed consent.\n3. Patients who have good compliance and can complete follow-up.\n4. Life expectancy is more than one year.\n5. Rutherford-Becker classification\\> grade2 and \\<grade 6.\n6. Stenosis or occlusion in the same vessel (one long lesion or several consecutive lesions), the length of lesions ≥20mm, the length of occlusion≤100mm, the length of stenosis ≤200mm, and the total length of lesions≤260mm. Reference vessel diameter \\>4.0 mm.\n7. Patients with bilateral lower limb lesions can be enrolled in, the investigator is the responsible person to determine which side of femoral artery should be enrolled, based on the length, the rate of stenosis and/or the degree of calcification of the lesion.\n8. The conditions of the distal outflow tract and proximal inflow tract are good, the stenosis rate of all blood vessels of the inflow tract is \\<50%, at least one third of the distal branches of the outflow tract is unobstructed (stenosis rate \\<50%), for the sake of the blood flow in the distal outflow track.\n9. The proximal inflow tract can undergo surgeries simultaneously, but the residual stenosis must \\<20%, and without mural thrombus.\n\nExclusion Criteria:\n\n1. Patients who are not suitable for interventional vascular surgery.\n2. The target vessel was previously implanted with a stent, or have undergone an endovascular therapy or surgery within 3 months.\n3. Patients with an ipsilateral femoral aneurysm or femoral/popliteal artery with an aneurysm.\n4. Patients were diagnosed with severe lower limb diseases and previously planned to amputate.\n5. interventional coronary surgery should be performed within 30 days after surgery and patient who has had an interventional coronary surgery within past 7 days.\n6. Patients with known allergic reactions to antiplatelet agents, heparin, Nitinol or contrast agents.\n7. Pregnant and lactating women or women who cannot prevent pregnancy during the study period.\n8. The patient participated in clinical trials of other new drugs, biological products or medical devices during the screening period of this trial, or those who have participated in clinical trials of other drugs or medical devices but have not reached the main study endpoint.\n9. The patient had a cerebrovascular accident or major gastrointestinal bleeding within 6 months or prone to bleeding.\n10. Patients with severe liver and/or renal dysfunction (Alanine transaminase (ALT) or Aspartate transaminase (AST) were five times higher than the normal upper limit；serum total bilirubin (STB) was two times higher than the normal upper limit. Serum creatinine (Cr) \\>177μmol/L) or with hematuria.\n11. Patients are unable or unwilling to participate in the trial, or the investigator judged that the patient is not suitable to participate in the clinical study or the patient is without good compliance.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ying Xia",
+          "role": "CONTACT",
+          "phone": "+86 13760184511",
+          "email": "xiaying@lifetechmed.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Zhong Chen, Professor",
+          "affiliation": "Beijing Anzhen Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Beijing Anzhen Hospital, Capital Medical university",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhong Chen",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Chinese PLA General Hospital",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Peking Union Medical College Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Changwei Liu",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "The Frist Hospital of Lanzhou University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lanzhou",
+          "state": "Guansu",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Wenhui Wang",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.05701,
+            "lon": 103.83987
+          }
+        },
+        {
+          "facility": "Hainan General Hospital",
+          "status": "RECRUITING",
+          "city": "Haikou",
+          "state": "Hainan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhanxiang Xiao",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 20.03421,
+            "lon": 110.34651
+          }
+        },
+        {
+          "facility": "The Second Xiangya Hospital of Central South University",
+          "status": "RECRUITING",
+          "city": "Changsha",
+          "state": "Hunan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Chang Shu",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          }
+        },
+        {
+          "facility": "Jiangsu Province Hospital",
+          "status": "RECRUITING",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiwei Zhang",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "The People's Hospital of Liaoning Province",
+          "status": "RECRUITING",
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Danmin Wu",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Zhongshan Hospital Fudan University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Weiguo Fu",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Shanxi Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Taiyuan",
+          "state": "Shanxi",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Qiang Guan",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.86944,
+            "lon": 112.56028
+          }
+        },
+        {
+          "facility": "Tianjin Medical University General Hospital",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "state": "Tianjin Municipality",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiangchen Dai",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "The Second Affiliated hospital of Zhejiang University School of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Bing Chen",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    }
+  },
+  "hasResults": false
+}

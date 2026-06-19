@@ -1,0 +1,2145 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05227027",
+      "orgStudyIdInfo": {
+        "id": "19-29335"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2021-07004",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "P30AG012839",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30AG012839"
+        },
+        {
+          "id": "R21CA238301",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R21CA238301"
+        }
+      ],
+      "organization": {
+        "fullName": "University of California, San Francisco",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pilot Trial of a Game Embedded in a Smartphone App for Smoking Cessation",
+      "officialTitle": "Influence of a Game Embedded in a Smartphone App for Smoking Cessation on User Engagement: A Randomized Pilot Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-05-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-05-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-26",
+      "studyFirstSubmitQcDate": "2022-01-26",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-07",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-11-14",
+      "resultsFirstSubmitQcDate": "2023-12-14",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-01-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of California, San Francisco",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        },
+        {
+          "name": "University of California, Berkeley",
+          "class": "OTHER"
+        },
+        {
+          "name": "Johns Hopkins University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the effects of a video game embedded in a commercially available mobile application (app) for smoking cessation. Smokers are increasingly turning to mobile health apps for assistance with quitting smoking, and there is a critical need for strategies to engage app users to increase retention and efficacy. Video games are designed to increase users' motivation and engagement, which in turn may increase their exposure and adherence to a smoking cessation program. The hypothesis is that the game increases engagement, retention, and smoking abstinence rates compared with a core version of the app without the game. A two-arm individually randomized pilot trial of 500 adult smokers will test this hypothesis, comparing outcomes for participants randomized to receive the core app plus embedded game with participants randomized to receive the core app only. Primary outcomes relate to user engagement with the app. Secondary outcomes relate to user engagement, efficacy (smoking abstinence), and user satisfaction.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Augment an existing smartphone cessation app for smoking cessation with a video game to increase user engagement.\n\nII. Test the feasibility, engagement, and early efficacy of the 'gamified' app, compared to one without gamification.\n\nOUTLINE:\n\nParticipants are recruited through the Smoke Free smartphone app and randomized to 1 of 2 arms.\n\nARM I: Participants receive an educational intervention through the Smoke Free application (core app) with the embedded video game module. Participants complete questionnaires and may undergo saliva sample collection, if they report being smoke-free on follow-up.\n\nARM II: Participants receive an educational intervention through the Smoke Free application without the video game module (core app only). Participants complete questionnaires and may undergo saliva sample collection, if they report being smoke-free on follow-up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cigarette Smoking-Related Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Education plus game module",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive an educational intervention through the Smoke Free application with the embedded game module. Participants complete questionnaires and may undergo saliva sample collection, if they report being smoke-free on follow-up.",
+          "interventionNames": [
+            "Behavioral: Game Module",
+            "Behavioral: Smoke Free smartphone application"
+          ]
+        },
+        {
+          "label": "Education module only",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receive an educational intervention through the Smoke Free application only (core app only). Participants complete questionnaires and may undergo saliva sample collection, if they report being smoke-free on follow-up.",
+          "interventionNames": [
+            "Behavioral: Smoke Free smartphone application"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Game Module",
+          "description": "Receive access to the the game module through the free, 'Smoke Free' smartphone application",
+          "armGroupLabels": [
+            "Education plus game module"
+          ],
+          "otherNames": [
+            "In-application game module"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoke Free smartphone application",
+          "description": "Receive educational intervention through the free 'Smoke Free' smartphone application (core version of the app)",
+          "armGroupLabels": [
+            "Education module only",
+            "Education plus game module"
+          ],
+          "otherNames": [
+            "Educational intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Unique App Sessions",
+          "description": "Number of times the app was opened; passively collected by the app and averaged in analysis to calculate mean number of app opens by study group over the study period. A new session is defined as use of the app after at least 30 minutes of inactivity.",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)"
+        },
+        {
+          "measure": "Minutes of App Usage Per Session",
+          "description": "Passively collected by the app and averaged in analysis among those with a session to calculate mean number of minutes of usage per session by study group.",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Unique Days With at Least One App Session",
+          "description": "Number of unique days with at least one app session, passively collected by the app and averaged by study group.",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)"
+        },
+        {
+          "measure": "Self-reported 7-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who self-report having abstained for the prior 7 days during the 2-month follow-up assessment, assuming missing = smoking.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Self-reported 30-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who who self-report having abstained for the prior 30 days during the 2-month follow-up assessment, assuming missing = smoking.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Satisfaction With App",
+          "description": "Rating of satisfaction with assigned app on a 5-point Likert scale from \"Not at all\" (1) to \"Extremely\" (5), assessed in the 2-month follow-up questionnaire. The measure is averaged by study group.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Satisfaction With Game (Intervention Group Only)",
+          "description": "Rating of satisfaction with the game on a 5-point Likert scale from \"Not at all\" (1) to \"Extremely\" (5), assessed in the 2-month follow-up questionnaire. The measure is averaged for the intervention group.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Biochemically Verified 7-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who who self-report having abstained for the prior 7 days during the 2-month follow-up assessment, verified by saliva cotinine test, assuming missing = smoking. Averaged by study group. Recoded to 0 if the person reported having smoked during the same 7-day window during repeated measurement of daily smoking in the app.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Biochemically Verified 30-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who who self-report having abstained for the prior 30 days during the 2-month follow-up assessment, verified by saliva cotinine test, assuming missing = smoking. Averaged by study group. Recoded to 0 if the person reported having smoked during the same 30-day window during repeated measurement of daily smoking in the app.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Repeated 1-day Point-prevalence Smoking Abstinence",
+          "description": "Proportion of days in which participants self-report having abstained in the last 24 hours, collected via a pop-up box that appears the first time each day a participant opens the app. Averaged by study group.",
+          "timeFrame": "During the 56 days after participant's selected quit date"
+        },
+        {
+          "measure": "Program Adherence (Index of Core Feature Use)",
+          "description": "Number of non-game (core app) activities completed in the app by activity type: passively collected by the app to assess number of times the participant completed the following activity types: reported a craving, recorded a diary, completed a mission, read a tip, used the chatbot.",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)"
+        },
+        {
+          "measure": "Gifts Unlocked (Intervention Group Only)",
+          "description": "Number of in-game gifts unlocked during the study period (intervention group only); a summary measure of intensity of engagement (dose of treatment) of the app; passively collected by the app.",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)"
+        },
+        {
+          "measure": "Game Activities (Intervention Group Only)",
+          "description": "Number of game activities completed in the app by activity type; passively collected by the app to assess number of times the participant completed the following activity types: navigated to the game dashboard, completed each pet care activity (breathing exercise, feeding, washing, memory mini-game), visited the park, entered the dragon guide.",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)"
+        },
+        {
+          "measure": "Recommends App to Friend",
+          "description": "Rating of whether would recommend assigned app to a friend on a 5-point Likert scale from \"Not at all\" (1) to \"Extremely\" (5), assessed in the 2-month follow-up questionnaire. The measure is averaged by study group.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Motivation to Quit",
+          "description": "Motivation to quit, reported on a 10-point scale from not at all motivated (0) to very unmotivated (10) and assessed in the 2-month follow-up.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        },
+        {
+          "measure": "Digital Therapeutic Alliance",
+          "description": "The measure includes items from the Bonding and Confidence subscales from the Mobile Agnew Relationship Measure, a scale of digital therapeutic alliance. Two items from each of the Bonding and Confidence subscales were included. Each item was asked on a 4-point Likert scale from strongly disagree (1) to strongly agree (4). The subscale items were combined to give a total possible score of 16 and a range of 4 (low alliance) to 16 (high alliance). The measure is averaged by study group. Assessed in the 2-month follow-up.",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. Provides electronic informed consent.\n2. Male or female, aged 18 and older\n3. Has downloaded and opened the Smoke Free app\n4. A smoker of at least 1 cigarette per day\n5. Plans to quit smoking within the next 7 days\n6. Speaks, reads, and writes English\n7. Lives in the United States\n\nExclusion criteria: None",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Justin White, PhD",
+          "affiliation": "University of California, San Francisco",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of California San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37566442",
+          "type": "BACKGROUND",
+          "citation": "White JS, Salem MK, Toussaert S, Westmaas JL, Raiff BR, Crane D, Warrender E, Lyles C, Abroms L, Thrul J. Developing a Game (Inner Dragon) Within a Leading Smartphone App for Smoking Cessation: Design and Feasibility Evaluation Study. JMIR Serious Games. 2023 Aug 11;11:e46602. doi: 10.2196/46602."
+        },
+        {
+          "pmid": "39475840",
+          "type": "DERIVED",
+          "citation": "White JS, Toussaert S, Raiff BR, Salem MK, Chiang AY, Crane D, Warrender E, Lyles CR, Abroms LC, Westmaas JL, Thrul J. Evaluating the Impact of a Game (Inner Dragon) on User Engagement Within a Leading Smartphone App for Smoking Cessation: Randomized Controlled Trial. J Med Internet Res. 2024 Oct 30;26:e57839. doi: 10.2196/57839."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Educational Intervention Plus Game Module",
+          "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+        },
+        {
+          "id": "FG001",
+          "title": "Educational Intervention Only",
+          "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "251"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "249"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "241"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "238"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Did not finish the onboarding process within the Smoke Free app prior to learning their allocation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Educational Intervention Plus Game Module",
+          "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+        },
+        {
+          "id": "BG001",
+          "title": "Educational Intervention Only",
+          "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "241"
+            },
+            {
+              "groupId": "BG001",
+              "value": "238"
+            },
+            {
+              "groupId": "BG002",
+              "value": "479"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38",
+                      "lowerLimit": "29",
+                      "upperLimit": "47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35",
+                      "lowerLimit": "28",
+                      "upperLimit": "47"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36",
+                      "lowerLimit": "29",
+                      "upperLimit": "47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex/Gender, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Gender",
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "177"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "181"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "358"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "114"
+                    }
+                  ]
+                },
+                {
+                  "title": "Non-binary or other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Race and ethnicity",
+              "categories": [
+                {
+                  "title": "Non-Hispanic White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "186"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "182"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "368"
+                    }
+                  ]
+                },
+                {
+                  "title": "Non-Hispanic Black",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hispanic",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Educational attainment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "High school diploma or less",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "100"
+                    }
+                  ]
+                },
+                {
+                  "title": "Some college or technical school",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "93"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "177"
+                    }
+                  ]
+                },
+                {
+                  "title": "Bachelor's or associate degree",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "83"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "68"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "151"
+                    }
+                  ]
+                },
+                {
+                  "title": "Graduate degree",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Household income, categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Less than $20,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "70"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between $20,000 and $40,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "63"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "128"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between $40,000 and $60,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "102"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between $60,000 and $80,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "56"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between $80,000 and $100,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "39"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than $100,000",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "84"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cigarettes per day",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "cigarettes",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15",
+                      "lowerLimit": "10",
+                      "upperLimit": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15",
+                      "lowerLimit": "10",
+                      "upperLimit": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15",
+                      "lowerLimit": "10",
+                      "upperLimit": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fagerström Test for Nicotine Dependence",
+          "description": "Fagerström Test for Nicotine Dependence is a 6-item measure of nicotine dependence. It has a scale range from 0 (low dependence) to 10 (high dependence). The total score is reported.",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5",
+                      "lowerLimit": "4",
+                      "upperLimit": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5",
+                      "lowerLimit": "3",
+                      "upperLimit": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5",
+                      "lowerLimit": "4",
+                      "upperLimit": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Past quit attempts",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "attempts",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4",
+                      "lowerLimit": "2",
+                      "upperLimit": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4",
+                      "lowerLimit": "2",
+                      "upperLimit": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4",
+                      "lowerLimit": "2",
+                      "upperLimit": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Years since initiated smoking",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19",
+                      "lowerLimit": "11",
+                      "upperLimit": "29"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16",
+                      "lowerLimit": "10",
+                      "upperLimit": "28"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18",
+                      "lowerLimit": "10",
+                      "upperLimit": "29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Used electronic nicotine device systems in last 30 days",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "118"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Used nicotine replacmeent therapy in last 30 days",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Frequency played video games in last 6 months",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Not at all",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "116"
+                    }
+                  ]
+                },
+                {
+                  "title": "Less than once a month",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "61"
+                    }
+                  ]
+                },
+                {
+                  "title": "At least monthly but not weekly",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    }
+                  ]
+                },
+                {
+                  "title": "At least weekly but not every day",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "89"
+                    }
+                  ]
+                },
+                {
+                  "title": "Every day",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "89"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "162"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Unique App Sessions",
+          "description": "Number of times the app was opened; passively collected by the app and averaged in analysis to calculate mean number of app opens by study group over the study period. A new session is defined as use of the app after at least 30 minutes of inactivity.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "number of sessions",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29.6",
+                      "spread": "36.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24.3",
+                      "spread": "37.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Minutes of App Usage Per Session",
+          "description": "Passively collected by the app and averaged in analysis among those with a session to calculate mean number of minutes of usage per session by study group.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "minutes per session",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.9",
+                      "spread": "5.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.1",
+                      "spread": "5.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Unique Days With at Least One App Session",
+          "description": "Number of unique days with at least one app session, passively collected by the app and averaged by study group.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "days with a session",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.3",
+                      "spread": "15.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11.9",
+                      "spread": "13.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Self-reported 7-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who self-report having abstained for the prior 7 days during the 2-month follow-up assessment, assuming missing = smoking.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "101"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Self-reported 30-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who who self-report having abstained for the prior 30 days during the 2-month follow-up assessment, assuming missing = smoking.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Satisfaction With App",
+          "description": "Rating of satisfaction with assigned app on a 5-point Likert scale from \"Not at all\" (1) to \"Extremely\" (5), assessed in the 2-month follow-up questionnaire. The measure is averaged by study group.",
+          "populationDescription": "Only those participants who completed the follow-up questionnaire are included in the analysis population.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "144"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "127"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.7",
+                      "spread": "1.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.7",
+                      "spread": "1.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Satisfaction With Game (Intervention Group Only)",
+          "description": "Rating of satisfaction with the game on a 5-point Likert scale from \"Not at all\" (1) to \"Extremely\" (5), assessed in the 2-month follow-up questionnaire. The measure is averaged for the intervention group.",
+          "populationDescription": "Only those participants in the intervention group who completed the follow-up questionnaire are included in the analysis population.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "84"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.3",
+                      "spread": "1.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Biochemically Verified 7-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who who self-report having abstained for the prior 7 days during the 2-month follow-up assessment, verified by saliva cotinine test, assuming missing = smoking. Averaged by study group. Recoded to 0 if the person reported having smoked during the same 7-day window during repeated measurement of daily smoking in the app.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "37"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Biochemically Verified 30-day Point-prevalence Abstinence at 2 Months",
+          "description": "Proportion of participants who who self-report having abstained for the prior 30 days during the 2-month follow-up assessment, verified by saliva cotinine test, assuming missing = smoking. Averaged by study group. Recoded to 0 if the person reported having smoked during the same 30-day window during repeated measurement of daily smoking in the app.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Repeated 1-day Point-prevalence Smoking Abstinence",
+          "description": "Proportion of days in which participants self-report having abstained in the last 24 hours, collected via a pop-up box that appears the first time each day a participant opens the app. Averaged by study group.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "percentage of days",
+          "timeFrame": "During the 56 days after participant's selected quit date",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.3",
+                      "spread": "25.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.4",
+                      "spread": "21.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Program Adherence (Index of Core Feature Use)",
+          "description": "Number of non-game (core app) activities completed in the app by activity type: passively collected by the app to assess number of times the participant completed the following activity types: reported a craving, recorded a diary, completed a mission, read a tip, used the chatbot.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "number of core features used",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "238"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19.0",
+                      "spread": "28.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15.6",
+                      "spread": "29.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Gifts Unlocked (Intervention Group Only)",
+          "description": "Number of in-game gifts unlocked during the study period (intervention group only); a summary measure of intensity of engagement (dose of treatment) of the app; passively collected by the app.",
+          "populationDescription": "In-game gifts available for intervention group only.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "number of gifts unlocked",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.3",
+                      "spread": "6.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Game Activities (Intervention Group Only)",
+          "description": "Number of game activities completed in the app by activity type; passively collected by the app to assess number of times the participant completed the following activity types: navigated to the game dashboard, completed each pet care activity (breathing exercise, feeding, washing, memory mini-game), visited the park, entered the dragon guide.",
+          "populationDescription": "Applicable to intervention group only.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "number of game features used",
+          "timeFrame": "Enrollment through 56 days after participant's selected quit date (56 to 63 days total)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "241"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123.1",
+                      "spread": "285.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Recommends App to Friend",
+          "description": "Rating of whether would recommend assigned app to a friend on a 5-point Likert scale from \"Not at all\" (1) to \"Extremely\" (5), assessed in the 2-month follow-up questionnaire. The measure is averaged by study group.",
+          "populationDescription": "Only those participants who completed the follow-up questionnaire are included in the analysis population.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "144"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "127"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.8",
+                      "spread": "1.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.0",
+                      "spread": "1.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Motivation to Quit",
+          "description": "Motivation to quit, reported on a 10-point scale from not at all motivated (0) to very unmotivated (10) and assessed in the 2-month follow-up.",
+          "populationDescription": "Only those participants who completed the question in the follow-up questionnaire are included in the analysis population. A programming error led to missing data for most respondents who reported having continued to smoke.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "73"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "71"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9.3",
+                      "spread": "1.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.4",
+                      "spread": "1.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Digital Therapeutic Alliance",
+          "description": "The measure includes items from the Bonding and Confidence subscales from the Mobile Agnew Relationship Measure, a scale of digital therapeutic alliance. Two items from each of the Bonding and Confidence subscales were included. Each item was asked on a 4-point Likert scale from strongly disagree (1) to strongly agree (4). The subscale items were combined to give a total possible score of 16 and a range of 4 (low alliance) to 16 (high alliance). The measure is averaged by study group. Assessed in the 2-month follow-up.",
+          "populationDescription": "Only those participants who completed the questions in the follow-up questionnaire are included in the analysis population.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "56 days after participant's selected quit date (56 to 63 days after enrollment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Educational Intervention Plus Game Module",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\""
+            },
+            {
+              "id": "OG001",
+              "title": "Educational Intervention Only",
+              "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "150"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "129"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.7",
+                      "spread": "2.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.8",
+                      "spread": "2.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "63 days after enrollment",
+      "description": "Adverse events were reported based on survey responses to \"Did you experience any negative, unpleasant, unwanted, or otherwise unexpected side effects as a result of participating in this trial?\"",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Educational Intervention Plus Game Module",
+          "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application, as well as the integrated game module. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.\n\nGame module: Receive free access to the the Inner Dragon game module integrated into the Smoke Free smartphone application. In the Inner Dragon game, users care for a customizable pet dragon. that \"evolves\" in tandem with the user's progress in quitting smoking. The game includes several key features: 1) the dragon hatches on the user's quit day and evolves every 7 days to unlock new attributes and powers; 2) users earn experience points by using selected core app features; 3) users maintain \"care meters\" that change when the dragon is fed or pet; 4) the game provides tools for the user to better cope with the challenges of withdrawal, such as a breathing exercise to provide calmness and a memory minigame as a distraction; and 5) users can asynchronously interact with other users' dragons in a \"dragon park.\"",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 241,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 241,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 241
+        },
+        {
+          "id": "EG001",
+          "title": "Educational Intervention Only",
+          "description": "Participants receive free access to an educational intervention consisting of the core features of the Smoke Free application only. Participants complete questionnaires and are invited to completed remote saliva sample collection if they report being smoke-free at follow-up.\n\nSmoke Free educational intervention: Receive free access to core features of the Smoke Free smartphone application, including a calculator that tracks time elapsed since quitting smoking, progress indicators regarding predicted health improvements, daily tasks to avoid and resist urges to smoke, and a text-based chatbot that delivers smoking cessation guidance.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 238,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 238,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 239
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anxious or depressed",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Reported being anxious or depressed",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 241
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 239
+            }
+          ]
+        },
+        {
+          "term": "Feelings of withdrawal, craving, or irritability",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Reported feelings of withdrawal, craving, or irritability",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 241
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 239
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Reported constipation",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 241
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 239
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Justin White, Associate Professor",
+        "organization": "University of California, San Francisco",
+        "email": "justin.white@ucsf.edu",
+        "phone": "415-476-8045"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2022-02-04",
+          "uploadDate": "2023-11-13T10:46",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 806562
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2022-01-06",
+          "uploadDate": "2023-07-27T17:08",
+          "filename": "ICF_000.pdf",
+          "size": 239919
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018479",
+          "term": "Early Intervention, Educational"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002662",
+          "term": "Child Health Services"
+        },
+        {
+          "id": "D003153",
+          "term": "Community Health Services"
+        },
+        {
+          "id": "D006296",
+          "term": "Health Services"
+        },
+        {
+          "id": "D005159",
+          "term": "Health Care Facilities Workforce and Services"
+        },
+        {
+          "id": "D011314",
+          "term": "Preventive Health Services"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

@@ -1,0 +1,408 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07561255",
+      "orgStudyIdInfo": {
+        "id": "2026-TEMP697441-ka"
+      },
+      "organization": {
+        "fullName": "Wuerzburg University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Exploratory Investigation of the Acceptance and Utility of 14-day Trial Periods and Application-related Outcome Measurement (AbEM) Within the Routine Prescription of the DiGA Axia.",
+      "officialTitle": "Real-world Quality Management Study With Axia to Evaluate the Measures of the DigiG (RAEMD Study)",
+      "acronym": "RAEMD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-04-17",
+      "studyFirstSubmitQcDate": "2026-04-27",
+      "studyFirstPostDateStruct": {
+        "date": "2026-05-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Patrick-Pascal Strunz",
+        "investigatorTitle": "PD. Dr. med.",
+        "investigatorAffiliation": "Wuerzburg University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Wuerzburg University Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective, multicenter, controlled real-world quality management study explores the acceptance and utility of two measures discussed in the context of the German Digital Act (DigiG) for the digital health application (DiGA) Axia: a 14-day trial period and an application-related outcome measurement (AbEM). Patients with axial spondyloarthritis in Axia's indication area who are eligible for prescription in routine care will receive one of two onboarding brochure versions in a 1:1 allocation: either the standard access procedure or immediate 14-day trial access until the health insurance activation code arrives. The manufacturer will analyze aggregated anonymized data to compare voucher redemption and app activation frequencies between groups and to assess acceptance and return rates of a voluntary five-item AbEM questionnaire at weeks 6 and 12. Secondary analyses will descriptively evaluate AbEM results and anonymized usage data."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Spondylitis, Ankylosing",
+        "Mobile Phone Use"
+      ],
+      "keywords": [
+        "axial spondyloarthritis",
+        "mobile health",
+        "digitalization",
+        "onboarding",
+        "real-world",
+        "therapeutic app"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, multicenter, controlled study within the framework of quality management measures on the part of the manufacturer.",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Immediate app-use by a test phase",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Device: Test-phase with immediate access"
+          ]
+        },
+        {
+          "label": "Standard procedure",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Other: Standard procedure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Test-phase with immediate access",
+          "description": "Use of two versions of an onboarding brochure in A7 format containing a QR code. The brochures are provided free of charge to the study centers by the manufacturer. Each study center receives 20 cards in a 1:1 ratio.\n\nOne version contains the QR code with instructions and support for the standard procedure (Axia can only be used once the activation code has been provided by the health insurance fund).\n\nThe second version contains a QR code through which Axia can be downloaded from the app store and used with a 14-day trial access until the activation code from the health insurance fund arrives.",
+          "armGroupLabels": [
+            "Immediate app-use by a test phase"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard procedure",
+          "description": "Axia can only be used once the activation code has been provided by the health insurance fund",
+          "armGroupLabels": [
+            "Standard procedure"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of participants with successful Axia app activation within 12 weeks, assessed by successful redemption of the activation code",
+          "description": "Successful app activation is defined as successful redemption of the activation code by the participant. The outcome measure is the percentage of participants with successful app activation from baseline through week 12.",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of participants with a voluntarily completed application-related success measurement questionnaire (AbEM)",
+          "description": "Voluntary completion of the AbEM questionnaire is defined as submission of a completed application-related success measurement questionnaire by the participant.",
+          "timeFrame": "6 and 12 weeks"
+        },
+        {
+          "measure": "Mean AbEM questionnaire item scores among participants with a completed AbEM questionnaire",
+          "description": "The AbEM questionnaire consists of 6 items assessing application-related success. One item assesses improvement in health status using a 7-point Likert scale. Five items assess the quality of the DiGA using numerical rating scales ranging from 0 to 10, with higher scores indicating better perceived quality. Item scores will be summarized descriptively among participants with a completed AbEM questionnaire.",
+          "timeFrame": "6 and 12 weeks"
+        },
+        {
+          "measure": "Exploratory analysis of anonymized usage data.",
+          "description": "App usage days are defined as calendar days on which at least one app usage event is recorded for a participant. The total number of app usage days per participant from baseline through week 12 will be assessed using app usage log data and summarized descriptively.",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willingness to use Axia.\n* Axia indication area.\n* Willingness to activate via onboarding brochure.\n\nExclusion Criteria:\n\n* Absence of the inclusion criteria",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Patrick-Pascal Strunz, MD",
+          "role": "CONTACT",
+          "phone": "093120140100",
+          "email": "Strunz_p@ukw.de"
+        },
+        {
+          "name": "Patrick-Pascal Strunz",
+          "role": "CONTACT",
+          "phone": "093120140100",
+          "email": "Strunz_p@ukw.de"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University Hospital of Wuerzburg",
+          "status": "RECRUITING",
+          "city": "Würzburg",
+          "state": "Bavaria",
+          "zip": "97080",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Patrick-Pascal Strunz, MD",
+              "role": "CONTACT",
+              "phone": "4993120140100",
+              "email": "Strunz_p@ukw.de"
+            },
+            {
+              "name": "Marc Schmalzing, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Hannah Labinsky, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        },
+        {
+          "facility": "Praxisgemeinschaft Rheumatologie Nephrologie Erlangen",
+          "status": "RECRUITING",
+          "city": "Erlangen",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Stefan Kleinert, Prof",
+              "role": "CONTACT",
+              "phone": "0049913189000",
+              "email": "stefan.kleinert@pgrn.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "University Hospital of Erlangen",
+          "status": "RECRUITING",
+          "city": "Erlangen",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Harriet Morf, MD",
+              "role": "CONTACT",
+              "phone": "00499131 85-34742",
+              "email": "Harriet.Morf@uk-erlangen.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "MVZ Rheumatologie",
+          "status": "RECRUITING",
+          "city": "Hamburg",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Eva Schwaneck, MD",
+              "role": "CONTACT",
+              "phone": "004940 333 196 10",
+              "email": "info.moenckeberg@rheuma-hh.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Rheumatologische Gemeinschaftspraxis Hattingen",
+          "status": "RECRUITING",
+          "city": "Hattingen",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "David Kiefer, MD",
+              "role": "CONTACT",
+              "phone": "00492324 919648",
+              "email": "davidkiefer@gmx.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.39894,
+            "lon": 7.18557
+          }
+        },
+        {
+          "facility": "University Hospital of Marburg",
+          "status": "RECRUITING",
+          "city": "Marburg",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Johannes Knitza, MD",
+              "role": "CONTACT",
+              "phone": "0049 6421 58-62651",
+              "email": "johannes.knitza@staff.uni-marburg.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.80904,
+            "lon": 8.77069
+          }
+        },
+        {
+          "facility": "Klinikum Nürnberg",
+          "status": "RECRUITING",
+          "city": "Nuremberg",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Axel Hueber, Prof",
+              "role": "CONTACT",
+              "phone": "00499113983051",
+              "email": "rheumatologie@klinikum-nuernberg.de"
+            },
+            {
+              "name": "Vanessa Bartsch, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.45421,
+            "lon": 11.07752
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013167",
+          "term": "Spondylitis, Ankylosing"
+        },
+        {
+          "id": "D000075782",
+          "term": "Cell Phone Use"
+        },
+        {
+          "id": "D000089183",
+          "term": "Axial Spondyloarthritis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D025242",
+          "term": "Spondylarthropathies"
+        },
+        {
+          "id": "D025241",
+          "term": "Spondylarthritis"
+        },
+        {
+          "id": "D013166",
+          "term": "Spondylitis"
+        },
+        {
+          "id": "D013122",
+          "term": "Spinal Diseases"
+        },
+        {
+          "id": "D001847",
+          "term": "Bone Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D000844",
+          "term": "Ankylosis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D003142",
+          "term": "Communication"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

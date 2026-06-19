@@ -1,0 +1,581 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04949464",
+      "orgStudyIdInfo": {
+        "id": "AMC-111"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2021-04019",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "AMC-111",
+          "type": "OTHER",
+          "domain": "AIDS Malignancy Consortium"
+        },
+        {
+          "id": "AMC-111",
+          "type": "OTHER",
+          "domain": "CTEP"
+        },
+        {
+          "id": "UM1CA121947",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UM1CA121947"
+        }
+      ],
+      "organization": {
+        "fullName": "AIDS Malignancy Consortium",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Impact of Behavior Modification Interventions and Lung Cancer Screening on Smoking Cessation in People Living With HIV: A Feasibility Study",
+      "officialTitle": "Impact of Behavior Modification Interventions and Lung Cancer Screening on Smoking Cessation in People Living With HIV: A Feasibility Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-08-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-06-29",
+      "studyFirstSubmitQcDate": "2021-06-29",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AIDS Malignancy Consortium",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial evaluates the usefulness of using a smartphone-based HIV-specific smoking cessation intervention at the time of lung cancer screening in helping people living with HIV quit smoking. Positively Smoke Free - Mobile may help patients with HIV quit smoking.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Determine the feasibility of a smartphone-based human immunodeficiency virus (HIV)-specific behavioral smoking cessation intervention that can be delivered at the time of low dose non contrast enhanced lung computed tomography (LDCT), as measured by use of and engagement with the intervention.\n\nII. Determine the adherence to LDCT in a study setting for persons living with HIV (PLWH) who smoke.\n\nSECONDARY OBJECTIVES:\n\nI. Determine the prevalence of positive LDCT screens and related follow-up procedures (which may include any of the following: follow-up computed tomography \\[CT\\] scan at an interval less than 12 months from the screening LDCT; (2) positron emission tomography (PET) with or without CT scan; (3) transthoracic needle biopsy; (4) bronchoscopy, with or without biopsy; (5) surgical biopsy and/or resection) in PLWH who smoke.\n\nII. Quantify the proportions of persons who quit smoking at 3 and 6 months after using the HIV-specific smoking cessation intervention and receiving LDCT screening.\n\nIII. Obtain preliminary estimate of the proportion of participants who use prescribed nicotine replacement (self-reported) at 3-month visit.\n\nEXPLORATORY OBJECTIVES:\n\nI. Identify characteristics associated with PLWH who smoke who are more likely to engage with an HIV-specific smoking cessation intervention.\n\nII. Quantify LDCT screening-related study endpoints (i.e. incident lung cancers, emphysema, and other incidental findings in PLWH who smoke.\n\nIII. Compare LDCT screening-relevant patient reported outcomes (anxiety, insomnia, pain) at 3 and 6 months after LDCT to evaluate screening tolerability.\n\nOUTLINE:\n\nPatients use the smartphone application, Positively Smoke Free - Mobile, for 42 days. Patients also receive nicotine replacement therapy for 12 weeks. Within 60 days of study registration, patients undergo LDCT.\n\nAfter completion of study intervention, patients are followed up at 3, 6, and 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV Infection",
+        "Tobacco-Related Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prevention (smoking cessation, nicotine replacement, LDCT)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients use the smartphone application, Positively Smoke Free - Mobile, for 42 days. Patients also receive nicotine replacement therapy for 12 weeks. Within 60 days of study registration, patients undergo LDCT.",
+          "interventionNames": [
+            "Procedure: Computed Tomography",
+            "Behavioral: Smoking Cessation Intervention"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Computed Tomography",
+          "description": "Undergo LDCT",
+          "armGroupLabels": [
+            "Prevention (smoking cessation, nicotine replacement, LDCT)"
+          ],
+          "otherNames": [
+            "CAT",
+            "CAT Scan",
+            "Computed Axial Tomography",
+            "Computerized Axial Tomography",
+            "Computerized Tomography",
+            "CT",
+            "CT Scan",
+            "tomography"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smoking Cessation Intervention",
+          "description": "Use Positively Smoke Free - Mobile",
+          "armGroupLabels": [
+            "Prevention (smoking cessation, nicotine replacement, LDCT)"
+          ],
+          "otherNames": [
+            "Smoking and Tobacco Use Cessation Interventions"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of adherence to Positively Smoke Free - Mobile (PSF-M)",
+          "description": "Adherence is defined by meeting at least one of the following: logging into the application at least 10 of 42 days; watching of \\>= 4 of 8 video sessions; AND meeting the definition of Engagement with the intervention as defined by at least one of the following: use of the \"HELP\" button at least once; OR responding to the text messaging \"check-in\" at least once. Will be summarized as the proportion of participants who meet the criteria as defined above among all the participants who are enrolled in the study. A two-sided 95% confidence interval will also be reported. Proportion of engagement will be calculated similarly. Will also classify levels of adherence with the intervention and categorize these levels as no adherence, low-level adherence, and high-level engagement. The proportion of participants that fall under each category will be calculated.",
+          "timeFrame": "Up to 42 days"
+        },
+        {
+          "measure": "Number of participants who complete the low dose chest CT scan within 60 days of enrollment",
+          "description": "Participants will complete a low dose CT scan for screening purposes",
+          "timeFrame": "Within 60 days of study registration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of positive screening scans",
+          "description": "Defined as Lung Computed Tomography Screening Reporting and Data System (Lung-RADS 3) or higher and follow-up procedures. The estimate of prevalence of \"positive LDCT screen\" (Lung-RADS \\> 3) will be computed as \"total number of participants who test positive/Total number of participants enrolled × 100\". Bivariate association between LDCT screening status and age category, number of smoking pack years will be evaluated separately using either Chi-square test or Fisher's exact test (for sparsely distributed cells). Prevalence of lung cancer will be calculated in a similar manner.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Total number of participants with confirmed smoking cessation",
+          "description": "As confirmed by exhaled carbon monoxide (CO) testing for assessment of long-term impact of smoking cessation interventions.",
+          "timeFrame": "At 3 months and 6 months"
+        },
+        {
+          "measure": "Number of cigarettes smoked per day",
+          "description": "Smoking quantity (daily cigarette consumption)",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "Number of participants reporting anxiety related symptoms (concentration problems, memory problems, insomnia and anxiety) on the NCI PROCTCAE",
+          "description": "Acceptability of both PSF-M and LDCT as rated by subject self-report",
+          "timeFrame": "At 3 months"
+        },
+        {
+          "measure": "Number of participants using nicotine replacement therapy at 3 months",
+          "description": "The proportion of participants who use nicotine replacement at 3 months will be computed as \"total number of participants with self-reported nicotine replacement usage/total number of participants enrolled\". Bivariate association between nicotine usage status and categorical variables will be tested for statistical significance using the Chi-square or Fisher's exact test. Difference in continuous covariates with regards to nicotine usage status will be tested for statistical significance using Kruskal-Wallis test. In each of the aforementioned analysis that involves estimating proportions, a two-sided 95% confidence interval will also be reported.",
+          "timeFrame": "At 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Able to understand and willing to sign a written informed consent document\n* HIV positive. Documentation of HIV-1 infection by means of any one of the following:\n\n  * Documentation of HIV diagnosis in the medical record by a licensed health care provider;\n  * Documentation of receipt of antiretroviral therapy (ART) (at least two different medications that do not constitute a prescription for pre-exposure prophylaxis \\[PrEP\\] or post-exposure prophylaxis \\[PEP\\]) by a licensed health care provider. Documentation may be a record of an ART prescription in the participant's medical record, a written prescription in the name of the participant for ART, or pill bottles for ART with a label showing the participant's name;\n  * HIV-1 ribonucleic acid (RNA) detection by a licensed HIV-1 RNA assay demonstrating \\> 1000 RNA copies/mL;\n  * Any licensed HIV screening antibody and/or HIV antibody/antigen combination assay confirmed by a second licensed HIV assay such as a HIV-1 Western blot confirmation or HIV rapid multispot antibody differentiation assay.\n\nNote: The term \"licensed\" refers to a kit that has been certified or licensed by an oversight body within the participating country and validated internally (e.g., U.S. Food and Drug Administration \\[FDA\\]).\n\nWHO (World Health Organization) and CDC (Centers for Disease Control and Prevention) guidelines mandate that confirmation of the initial test result must use a test that is different from the one used for the initial assessment. A reactive initial rapid test should be confirmed by either another type of rapid assay or an E/CIA that is based on a different antigen preparation and/or different test principle (e.g., indirect versus competitive), or a Western blot or a plasma HIV-1 RNA viral load\n\n* Receiving antiretroviral therapy and CD4 count at least 200 cells/uL within 6 months of registration (due to increased risk of LDCT false positivity with CD4 count \\< 200cells/uL)\n* Age 45-80 years. This age restriction reflects lung cancer risk and appropriateness for lung cancer screening; in epidemiologic studies lung cancer emerges 5-10 years earlier in PLWH, and therefore this is an appropriate risk group for screening. Although younger persons are likely to benefit more from smoking cessation as a lung cancer prevention measure, the risk/benefit ratio associated with lung cancer screening is unlikely to be optimal at ages \\< 45 years for PLWH\n* Biochemically confirmed current smoker (exhaled carbon monoxide \\[CO\\] \\>= 7 parts per million)\n* Meets United States Preventive Services Task Force (USPSTF) criteria for LDCT (age 50-80 and \\>= 20 pack-years smoking) or high-risk but not meeting USPSTF (age 45-49 and \\>= 20 pack-years smoking)\n* Possession of a smartphone that can support Positively Smoke Free Mobile (PSF-M) (\\> 95% of subjects had eligible phones in prior trials although researchers will include specific study screening questions assessing for adequate smartphone for the intervention)\n* Sufficient literacy; \\>= 4 on the Rapid Estimate of Adult Literacy in Medicine-Short Form (REALM-R) literacy scale\n\nExclusion Criteria:\n\n* Receiving any other smoking cessation interventions currently or within the prior 30 days\n* Contraindication to nicotine replacement therapy\n* Pneumonia or serious lung infection in prior 12 weeks\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active major infection, malignant tumors (unless these tumors were: (a) completely resected basal cell or squamous cell skin carcinomas or (b) in-situ squamous cell carcinoma of the cervix or anus), or any other major uncontrolled comorbid condition that would limit life expectancy or psychiatric illness/social situations that would limit compliance with study requirements\n* History of lung cancer\n* Pregnant women are excluded from this study because computed tomography introduces radiation exposure and may have teratogenic effects\n* Women who are breastfeeding (the safety of nicotine replacement therapy has not been established with breastfeeding)\n* Received a chest computed tomography scan in the previous twelve months",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "45 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Keith Sigel",
+          "role": "CONTACT",
+          "phone": "(212) 659-8551",
+          "email": "Keith.Sigel@MSSM.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Keith M Sigel",
+          "affiliation": "AIDS Malignancy Consortium",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UC San Diego Moores Cancer Center",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92093",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jayamalee De Silva, MD",
+              "role": "CONTACT",
+              "phone": "858-822-5377",
+              "email": "jadesilva@health.ucsd.edu"
+            },
+            {
+              "name": "Erin Reid, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "George Washington University",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20052",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lakeisha McCormick",
+              "role": "CONTACT",
+              "phone": "202-994-0872",
+              "email": "lmccorm@gwu.edu"
+            },
+            {
+              "name": "Maria Elena Ruiz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Moffitt Cancer Center",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33612",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alisia Sowden",
+              "role": "CONTACT",
+              "phone": "813-745-6541",
+              "email": "Alisia.Sowden@Moffitt.org"
+            },
+            {
+              "name": "Anna Coghill, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Washington University School of Medicine",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lee Ratner, MD, PhD",
+              "role": "CONTACT",
+              "phone": "314-362-8836",
+              "email": "lratner@wustl.edu"
+            },
+            {
+              "name": "Lee Ratner, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Weill Cornell Medicine - Cornell Clinical Trials Unit",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10010",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kinge-Ann Marcelin",
+              "role": "CONTACT",
+              "phone": "212-746-5613",
+              "email": "kim@med.cornell.edu"
+            },
+            {
+              "name": "Grant Ellsworth, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mount Sinai Hospital",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Keith Sigel, MD",
+              "role": "CONTACT",
+              "phone": "212-659-8551",
+              "email": "keith.sigel@mssm.edu"
+            },
+            {
+              "name": "Keith Sigel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Montefiore Medical Center",
+          "status": "RECRUITING",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10461",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jill Salvi",
+              "role": "CONTACT",
+              "phone": "857-399-5039",
+              "email": "jsalvi@montefiore.org"
+            },
+            {
+              "name": "Balazs Halmos, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "The Ohio State University James Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43221",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Gretchen A McNally, MD",
+              "role": "CONTACT",
+              "phone": "6142933196",
+              "email": "gretchen.mcnally@osumc.edu"
+            },
+            {
+              "name": "Gretchan A McNally, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Thomas Jefferson University",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Julie Barta, MD",
+              "role": "CONTACT",
+              "phone": "215-955-5161",
+              "email": "julie.barta@jefferson.edu"
+            },
+            {
+              "name": "Julie Barta, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "University of Texas M.D. Anderson Cancer Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Edwin Ostrin, MD",
+              "role": "CONTACT",
+              "phone": "713-792-7734",
+              "email": "CR_Study_Registration@mdanderson.org"
+            },
+            {
+              "name": "Edwin Ostrin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Virginia Mason Medical Center",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98101",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Eliza Moore",
+              "role": "CONTACT",
+              "phone": "206-287-6274",
+              "email": "Eliza.moore@vmfh.org"
+            },
+            {
+              "name": "David Aboulafia, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015658",
+          "term": "HIV Infections"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000086982",
+          "term": "Blood-Borne Infections"
+        },
+        {
+          "id": "D003141",
+          "term": "Communicable Diseases"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D015229",
+          "term": "Sexually Transmitted Diseases, Viral"
+        },
+        {
+          "id": "D012749",
+          "term": "Sexually Transmitted Diseases"
+        },
+        {
+          "id": "D016180",
+          "term": "Lentivirus Infections"
+        },
+        {
+          "id": "D012192",
+          "term": "Retroviridae Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D007153",
+          "term": "Immunologic Deficiency Syndromes"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000074602",
+          "term": "Smoking Devices"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008420",
+          "term": "Manufactured Materials"
+        },
+        {
+          "id": "D013676",
+          "term": "Technology, Industry, and Agriculture"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,504 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06553235",
+      "orgStudyIdInfo": {
+        "id": "R366 A21617"
+      },
+      "organization": {
+        "fullName": "Aarhus University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "RESET-BRAIN: REhabilitation of SleEp and CogniTive Impairment in BReast Cancer Survivors Using an App-based Intervention",
+      "officialTitle": "RESET-BRAIN: REhabilitation of SleEp and CogniTive Impairment in BReast Cancer Survivors Using an App-based Intervention",
+      "acronym": "RESET-BRAIN"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-28",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-03-28",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-07-26",
+      "studyFirstSubmitQcDate": "2024-08-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ali Amidi",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Aarhus"
+      },
+      "leadSponsor": {
+        "name": "Aarhus University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Aarhus",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of the study is to investigate whether treating insomnia using app-based cognitive behavioral therapy for insomnia (CBT-I) can improve cognitive impairment in breast cancer survivors compared to an active control group (sleep hygiene education). The study will also explore if CBT-I is associated with changes in the brain and in inflammation. The investigators will recruit approximately 84 participants with insomnia and cognitive impairment who have completed breast cancer treatment within 1-5 years.",
+      "detailedDescription": "The study is a randomized controlled trial comparing the effect of app-based cognitive behavioral therapy for insomnia (CBT-I) on cognitive function and insomnia to an active control group (sleep hygiene). Participants will be 84 breast cancer survivors who have completed primary treatment within 1-5 years and experience insomnia and cognitive impairment. After baseline assessment, participants will be randomized to either app-based CBT-I or sleep hygiene (active control). Both groups will undergo post-treatment assessments and 6-months follow-up assessments. The primary outcomes will be cognitive impairment assessed with the Conners Continuous Performance Test (CCPT) and insomnia assessed with the Insomnia Severity Index (ISI). To explore potential neurobiological and inflammatory mechanisms, structural magnetic resonance imaging (MRI) and inflammatory markers will be secondary outcomes. To provide a broader insight into cognitive function, participants will undergo further neuropsychological assessment with various standardized neuropsychological tests.\n\nThe study has the following aims and hypotheses:\n\nPRIMARY AIM: To investigate whether an app-based CBT-I is associated with improved sleep and cognitive function in BC survivors screened for insomnia and CI when compared with an active control group. PRIMARY HYPOTHESIS: Compared with an active control group, CBT-I will be associated with a statistically significantly greater reduction in insomnia severity using the ISI and improvement of sustained attention and executive function assessed objectively using the CCPT. Effects on secondary sleep outcomes will also be tested. Exploratory hypothesis: Improvements in sustained attention and executive function will be mediated by improved insomnia severity and sleep outcomes.\n\nSECONDARY AIM 1: To investigate whether CBT-I is associated with altered structural brain outcomes when compared with an active control group. HYPOTHESIS: Compared with an active control group, CBT-I will be associated with changes in brain gray and white matter properties, structural network topology, as well as glymphatic function as operationalized with the diffusion tensor image along the perivascular space (DTI-ALPS) approach.\n\nSECONDARY AIM 2: To explore whether CBT-I is associated with changes in inflammatory immune function (IL-1β, IL-6, TNF-α, IFN-γ) when compared with an active control group. HYPOTHESIS: Compared with an active control group, CBT-I will be associated with a statistically significantly greater reduction in inflammatory markers. Improvements in sustained attention and executive function will be mediated by changes in inflammatory markers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Insomnia",
+        "Cognitive Impairment",
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Cognitive behavioral therapy for insomnia",
+        "CBT-I",
+        "Breast cancer",
+        "Insomnia",
+        "Sleep",
+        "Cognitive function",
+        "Magnetic resonance imaging",
+        "White matter",
+        "Gray matter",
+        "Glymphatic function",
+        "Diffusion tensor image along the perivascular space",
+        "Structural brain networks",
+        "Inflammation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "In addition to investigator and outcome assessor masking, we aim to mask the participants as much as possible. Participants will know what treatment they will receive and that there are two groups. However, they will not know what treatment the other group will receive or that one group is the intervention group and the other an active control group.",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 84,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group (group 1)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive individualized digital CBT-I through an app called Hvil®. Treatment will take 6-9 weeks.",
+          "interventionNames": [
+            "Behavioral: Cognitive Behavioral Therapy for Insomnia (CBT-I)"
+          ]
+        },
+        {
+          "label": "Active control group (group 2)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive the sleep hygiene education component of CBT-I through Hvil®. Treatment will take 6-9 weeks.",
+          "interventionNames": [
+            "Behavioral: Sleep hygiene education"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+          "description": "CBT-I is a multi-component intervention consisting of sleep restriction, stimulus control therapy, relaxation therapy, cognitive therapy, and sleep hygiene education",
+          "armGroupLabels": [
+            "Intervention group (group 1)"
+          ],
+          "otherNames": [
+            "CBT-I"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Sleep hygiene education",
+          "description": "\\- Sleep hygiene education includes information on lifestyle factors (diet, exercise, substance use) and environmental variables (noise, light, temperature) affecting sleep quality.",
+          "armGroupLabels": [
+            "Active control group (group 2)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Conners continuous performance test 3rd edition",
+          "description": "Conners continuous performance test is a computerized test. It measures a combination of vigilance, sustained attention, and the inhibition component of executive function.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Insomnia Severity Index (ISI)",
+          "description": "The ISI measures the severity of insomnia symptoms and the associated impact on daytime functioning and distress. The questionnaire consists of 7 questions the sum of which makes up a total score. The ISI has a range of 0-28, with higher scores indicate worse insomnia severity.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Psychomotor Vigilance Test (PVT)",
+          "description": "Changes in vigilance will be measured with the Psychomotor Vigilance Test (PVT).",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Trail-Making Test Part A (TMT-A)",
+          "description": "Changes in processing speed will be measured using the Trail Making Test A with the outcome measured as time in seconds.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Wechsler Adult Intelligence Scale - Fourth Edition (WAIS-IV) - Coding",
+          "description": "Changes in processing speed will be measured with the WAIS-IV Digit Symbol Coding subtest. Scores range from 0 to 135, with higher scores indicating better outcomes.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Wechsler Adult Intelligence Scale - Fourth Edition (WAIS-IV) - Digit span",
+          "description": "Changes in attention will be measured using the Digit Span Forwards subtest of the WAIS-IV. Scores range from a minimum of 0 points to a maximum of 16 points, with higher scores indicating better outcomes.\n\nChanges in working memory will be measured using the WAIS-IV Digit Span Backwards and Ranking. Both have scores range from a minimum of 0 points to a maximum of 16 points, with higher scores indicating better out-comes.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Paced Auditory Serial Addition Test (PASAT)",
+          "description": "Changes in attention will be measured with the Paced Auditory Serial Addition Test, with scores from 0-60 with higher scores indicating better attention.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Hopkins Verbal Learning Test-Revised (HVLT-R)",
+          "description": "The Hopkins Verbal Learning Test-Revised (HVLT-R) assesses verbal learning and memory through immediate recall, delayed recall, and delayed recognition tasks. Part 1 has a scoring range from 0 to 36, where higher scores represent better outcomes. Part 2 has a scoring range from 0 to 12, with higher scores also indicating better outcomes.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Brief Visuospatial Memory Test-Revised (BVMT-R)",
+          "description": "Changes in learning and visual memory will be assessed using the Brief Visuospatial Memory Test - Revised (BVMT-R).",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Controlled Oral Word Association Test (COWAT)",
+          "description": "Changes in verbal fluency will be evaluated using the Controlled Oral Word Association Test (COWAT), assessing both letter and animal categories. Participants will be instructed to generate as many words as possible within a specified time limit for each category. A higher number of words produced indicates a better outcome in verbal fluency for both letter and animal categories.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Trail-Making Test Part B (TMT-B)",
+          "description": "Changes in executive function will be measured using the Trail Making Test B with the outcome measured as time in seconds.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Stroop Color and Word Test",
+          "description": "The Stroop Color and Word Test will be used to measure cognitive processing speed, selective attention, and executive function.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Wechsler Adult Intelligence Scale - Fourth Edition (WAIS-IV) - Information",
+          "description": "Pre-morbid intelligence will be measured using the Wechsler Adult Intelligence Scale - Fourth Edition (WAIS-IV) - Information subtest. Higher scores indicate better performance.",
+          "timeFrame": "Baseline (week 0)"
+        },
+        {
+          "measure": "Glymphatic function",
+          "description": "Glymphatic function will be assessed using diffusion tensor image analysis along the perivascular space (DTI-ALPS). This involves the calculation of an ALPS-index with higher indices indicating better glymphatic function.",
+          "timeFrame": "Baseline (week 0), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Structural brain networks",
+          "description": "Changes in structural brain network organization based on MRI.",
+          "timeFrame": "Baseline (week 0), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Brain gray matter",
+          "description": "Changes in brain gray matter as measured with T1-weighted MRI.",
+          "timeFrame": "Baseline (week 0), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Brain white matter",
+          "description": "Changes in white matter as measured with T1-weighted MRI.",
+          "timeFrame": "Baseline (week 0), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Brain white matter microstructure",
+          "description": "Changes in brain white matter as measured with diffusion-weighted MRI.",
+          "timeFrame": "Baseline (week 0), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Tumor necrosis factor alpha (TNF-α)",
+          "description": "The concentration of tumor necrosis factor alpha (TNF-α) will be extracted from blood samples.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Interleukin 1 beta (Il-1β)",
+          "description": "The concentration of interleukin 1 beta (Il-1β) will be extracted from blood samples.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Interleukin 6 (IL-6)",
+          "description": "The concentration of interleukin 6 (IL-6)will be extracted from blood samples.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Interferon gamma (IFN-γ)",
+          "description": "Changes in the concentration of interferon gamma (IFN-γ) will be extracted from blood samples.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "High sensitivity C-reactive protein (hsCRP)",
+          "description": "Changes in high sensitivity C-reactive protein (hsCRP) will be extracted from blood samples.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Objective sleep",
+          "description": "Objective sleep recorded with wrist actigraphy.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9)"
+        },
+        {
+          "measure": "Functional Assessment of Cancer Therapy-Cognitive (FACT-Cog)",
+          "description": "The FACT-Cog will be used as the measure of perceived cognitive impairment. It is a 37-item questionnaire with four subscales: perceived cognitive impairments, impact on quality of life, comments from others, and perceived cognitive abilities. Responses range from 0, ''never,'' to 4, ''several times a day,'' in the previous 7 days, and negatively worded items are reverse scored to create subscale scores.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Patient Assessment of Own Functioning Inventory (PAOFI)",
+          "description": "Changes in perceived cognitive functioning will be evaluated using The Patient Assessment of Own Functioning Inventory (PAOFI). Scores on this inventory range from a minimum of 35 to a maximum of 210, where higher scores indicate better perceived cognitive functioning.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Pittsburgh Sleep Quality Index (PSQI)",
+          "description": "Changes in sleep quality will be assessed using the Pittsburgh Sleep Quality Index (PSQI), with scores ranging from a minimum of 0, indicating no difficulty, to a maximum of 21, indicating severe difficulties in all areas related to sleep.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "The European Organization for Research and Treatment of Cancer Core Quality of Life (EORCT-QLQ-C30)",
+          "description": "Changes in health-related quality of life will be evaluated using The European Organization for Research and Treatment of Cancer, Quality of Life questionnaire for cancer patients (EORTC QLQ-C30). All scales and single-item measures on this questionnaire range from 0 to 100, where a higher score indicates a higher level of response in health-related quality of life.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Morningness-Eveningness Questionnaire-reduced (MEQr)",
+          "description": "The Morningness-Eveningness Questionnaire-reduced (MEQr) will be used to assess circadian rhythm preferences (chronotype). This 5-item questionnaire evaluates sleep-wake patterns, preferred activity times, and subjective alertness at different times of the day. Scores categorize individuals as morning types, evening types, or intermediate types, with higher scores indicating a preference for morningness and lower scores indicating a preference for eveningness.",
+          "timeFrame": "Baseline (week 0)"
+        },
+        {
+          "measure": "The Functional Assessment of Chronic Illness Therapy (FACIT Fatigue) scale",
+          "description": "Changes in fatigue severity will be measured using the Functional Assessment of Chronic Illness Therapy - Fatigue (FACIT-Fatigue) scale, which ranges from 0 to 52. Items are reverse scored as needed, resulting in a scale where higher scores denote better functioning or less fatigue.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Hospital Anxiety and Depression Scale (HADS)",
+          "description": "Changes in depression and anxiety will be assessed using the Hospital Anxiety and Depression Scale (HADS). Scores on this scale range from a minimum of 0 to a maximum of 21, with higher scores indicating higher levels of depression and anxiety.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "The perceived stress scale (PSS)",
+          "description": "The Perceived Stress Scale (PSS) will be used to measure the perception of stress. This 10-item questionnaire assesses how unpredictable, uncontrollable, and overloaded respondents find their lives. Higher scores indicate higher levels of perceived stress.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "The numeric rating scale (NRS)",
+          "description": "The Numeric Rating Scale (NRS) will be used to measure pain intensity. Participants will rate their pain on a scale ranging from 0 (no pain) to 10 (worst possible pain).",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "Brief Pain Inventory (pain interference (subscale))",
+          "description": "The pain interference subscale from the Brief Pain Inventory (BPI) will be used to measure how pain affects various aspects of daily life. This subscale consists of 7 items, each scored on a scale from 0 to 10, where higher scores indicate greater interference of pain.",
+          "timeFrame": "Baseline (week 0), post-treatment (approximately week 9), 6-months follow-up (approximately week 33)"
+        },
+        {
+          "measure": "The Short-Form (36) Health Survey (SF -36)",
+          "description": "The Short-Form (36) Health Survey (SF-36) will be used to assess health-related quality of life. This questionnaire comprises 36 items that evaluate eight domains of health: physical functioning, role limitations due to physical health problems, bodily pain, general health perceptions, vitality (energy/fatigue), social functioning, role limitations due to emotional problems, and mental health (psychological distress and well-being). Scores from these domains are combined to yield two summary measures: the Physical Component Summary (PCS) and the Mental Component Summary (MCS). Higher scores indicate better health-related quality of life across the evaluated domains.",
+          "timeFrame": "Baseline (week 0)"
+        },
+        {
+          "measure": "Charlson Comorbidity Index (CCI)",
+          "description": "The Charlson Comorbidity Index (CCI) will be used to assess the severity of comorbid medical conditions. It consists of 19 medical conditions, each assigned a weighted score based on its impact on mortality. The total score is calculated by summing these weighted scores, with higher totals indicating a greater burden of comorbidities.",
+          "timeFrame": "Baseline (week 0)"
+        },
+        {
+          "measure": "Expectancy/Credibility Questionnaire (CEQ)",
+          "description": "Treatment expectancy and rationale credibility will be measured with the Expectancy/Credibility Questionnaire (CEQ). Scores for each question range from 1 to 9 or 0% to 100%, with higher scores indicating greater treatment expectancy and credibility.",
+          "timeFrame": "Baseline (week 0)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Have completed primary breast cancer (BC) treatment within 1-5 years (endocrine therapies allowed)\n* Insomnia: a score of \\>10 on the Insomnia Severity index (ISI) and/or meet the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (DSM-5) criteria for Insomnia Disorder\n* Cognitive impairment: a score of \"quite a bit\" or \"very much\" on at least 1 of the 2 items measuring concentration and memory on The European Organization for Research and Treatment of Cancer Core Quality of Life (EORCT-QLQ-C30) and/or \\<54 on the Cancer Therapy-Cognitive (FACT-Cog) perceived cognitive impairment (PCI) subscale\n\nExclusion Criteria:\n\n* Other sleep disorders than insomnia that may confound sleep and/or cognitive function\n* Use of drugs impacting that may confound sleep and/or cognitive function (endocrine therapies allowed)\n* Neurodegenerative and psychiatric disorders that may confound sleep and/or cognitive function\n* Shift work\n* Pregnancy or maternity leave\n* Recurrence of BC or new cancer\n* Insufficient Danish proficiency\n* Substance abuse that may confound sleep and/or cognitive function\n* Previous experience with CBT-I\n* Other cancer than breast cancer",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Ali Amidi",
+          "role": "CONTACT",
+          "phone": "+4587165305",
+          "email": "ali@psy.au.dk"
+        },
+        {
+          "name": "Julie K. Thomadsen",
+          "role": "CONTACT",
+          "phone": "+4587150192",
+          "email": "jtho@psy.au.dk"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Aarhus University Hospital",
+          "status": "RECRUITING",
+          "city": "Aarhus N",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Ali Amidi",
+              "role": "CONTACT",
+              "phone": "+4587165305",
+              "email": "ali@psy.au.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.20367,
+            "lon": 10.17317
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007319",
+          "term": "Sleep Initiation and Maintenance Disorders"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015928",
+          "term": "Cognitive Behavioral Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001521",
+          "term": "Behavior Therapy"
+        },
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

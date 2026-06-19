@@ -1,0 +1,70 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT01715389",
+      "nct_id": "NCT01715389",
+      "title": "Evaluation of a Shared Decision Making Portal for Pediatric Asthma",
+      "official_title": "Evaluation of a Shared Decision Making Portal for Pediatric Asthma",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 81,
+      "start_date": "2012-11",
+      "completion_date": "2015-03",
+      "conditions": [
+        "Asthma"
+      ],
+      "keywords": [
+        "Asthma",
+        "Goals",
+        "Shared Decision Making",
+        "Patient Portal",
+        "Electronic Medical Record"
+      ],
+      "interventions": [
+        {
+          "name": "MyAsthma Patient Portal",
+          "type": "OTHER",
+          "description": "Parents in the intervention group will use the MyAsthma Patient Portal to receive enhanced educational information on asthma and its treatment, identify concerns and goals related to asthma treatment, track progress toward goals and management of concerns monthly, and track asthma symptoms monthly.\n\nClinicians seeing intervention families at office visits will have access to information from the portal including concerns, goals, progress toward goals, and tracking of asthma symptoms."
+        }
+      ],
+      "lead_sponsor": "Children's Hospital of Philadelphia",
+      "collaborators": [],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "This pilot intervention study will test the feasibility and acceptability and explore the outcomes of a primary care-based shared decision making (SDM) electronic medical record (EMR)-based portal that provides education, elicits and tracks patients/families' treatment concerns and goals, assesses symptoms and asthma control over time, and provides decision support to clinicians and families.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT01715389",
+      "_matched_query": "\"myAsthma\"",
+      "_raw_json_path": "evidence/USA/myasthma/candidates/clinicaltrials/raw/NCT01715389.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions the 'MyAsthma Patient Portal' as the intervention being tested, which aligns with the product name 'myAsthma'.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as an interventional pilot study with a randomized allocation to intervention and control groups, which is characteristic of a randomized controlled trial (RCT)."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T07:25:01.919255Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

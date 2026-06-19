@@ -1,0 +1,53 @@
+{
+  "studies": [
+    {
+      "study_id": "41826215",
+      "pmid": "41826215",
+      "title": "An app-based nonpharmacological intervention improves patient-reported disease activity, functionality, and quality of life in patients with axial spondyloarthritis: a randomised controlled trial.",
+      "authors": "Strunz Patrick-Pascal et al.",
+      "authors_list": [
+        "Strunz Patrick-Pascal",
+        "Froehlich Matthias",
+        "Heusinger Tobias",
+        "le Maire Maxime",
+        "Fleischer Anna"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Mar-12",
+      "journal": "Annals of the rheumatic diseases",
+      "journal_abbrev": "Ann Rheum Dis",
+      "doi": "10.1016/j.ard.2026.02.016",
+      "abstract": "OBJECTIVES: No app-based nonpharmacological intervention has yet demonstrated to meaningfully improve disease activity, functional status, and disease-specific quality of life in axial spondyloarthritis (axSpA). We evaluated Axia, a CE-marked smartphone application designed for axSpA, that combines personalised exercise therapy, patient education, and disease management, supported by gamification for long-term adherence. METHODS: To evaluate its clinical efficacy, a 12-week monocentric randomised controlled interventional trial was conducted involving 200 patients with axSpA with stable pharmacotherapy. Patients were randomised (1:1) to either using Axia (intervention group [IG]) or standard of care (control group [CG]). RESULTS: A total of 186 participants (mean age 50.61 years, 66% females, 56% with radiographic axSpA, mean Bath Ankylosing Spondylitis Disease Activity Index [BASDAI] 5.17, and 58% received biologicals or Janus kinase inhibitors) completed the study (95 in the IG and 91 in the CG). Compared to CG, participants in the IG demonstrated significant improvements in BASDAI (analysis of covariance [ANCOVA]-estimated group difference: -1.508, P < .001), Bath Ankylosing Spondylitis Functional Index (-1.139; P < .001), and Ankylosing Spondylitis Quality of Life questionnaire (-2.297; P < .001), all exceeding minimal clinically important difference thresholds. A significantly higher proportion of patients in the IG achieved an Assessment of Spondyloarthritis International Society (ASAS)20 response compared to the CG (51% vs 9%; P < .001), and the ASAS40 response rate was also higher (23% vs 3%; P < .001). No concerning safety signals were observed. CONCLUSIONS: These findings support the potential of Axia as a safe and effective nonpharmacological intervention to further improve the state of care of patients with axSpA in addition to conventional anti-inflammatory pharmacotherapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41826215/",
+      "pdf_available": false,
+      "_matched_query": "\"Axia\"",
+      "_raw_xml_path": "evidence/Germany/axia-fur-axiale-spondyloarthritis-axspa/candidates/pubmed/raw/41826215.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates Axia, a CE-marked smartphone application designed for axial spondyloarthritis (axSpA), as mentioned in both the abstract and full text. The intervention group in the study used Axia, confirming the study's focus on this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T18:19:05.983222Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,198 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07415109",
+      "orgStudyIdInfo": {
+        "id": "NUS-IRB-2025-334"
+      },
+      "organization": {
+        "fullName": "National University Health System, Singapore",
+        "class": "OTHER"
+      },
+      "briefTitle": "Improving LDL-C Levels Through Temporal Self-regulation Theory-based, Personality-tailored Health Messages",
+      "officialTitle": "Improving LDL-C Levels Through Temporal Self-regulation Theory-based, Personality-tailored Health Messages: A Three-Arm Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-02-11",
+      "studyFirstSubmitQcDate": "2026-02-11",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jocelyn Chew",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "National University Health System, Singapore"
+      },
+      "leadSponsor": {
+        "name": "National University Health System, Singapore",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is meant to run parallel to the larger study, RESET. The goal of this study is to to evaluate the effectiveness of a once-off general and personality-tailored text message on GP consultation among RESET participants identified to have high LDL-C. The main question it aims to answer is:\n\nWill participants exposed to personality tailored advice have a higher adherence to GP consultation compared to the participants in the control group?\n\nResearchers will compare a personalized message to a general message (with no personalization according to patients personality type) and control group to see if the messages increase adherence.\n\nParticipants are required to complete two questionnaires: one before and one after they receive their RESET results."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Adherence",
+        "Preventive Health Services"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Personality-Tailored Message",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Behavioral: Personalized Message"
+          ]
+        },
+        {
+          "label": "General Message",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Behavioral: General Message"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "General Message",
+          "description": "The intervention will consist of messages and infographics embedded in participants' return of results (ROR) emails within the RESET study. Each participant will receive the ROR alongside the intervention once, at the time their results are sent. No repeat messages will be delivered.\n\nThe general health message will include indications for lipid therapy, benefits of lipid-lowering medications, common side effects, risks of non-adherence, and an infographic on diet and lifestyle modification based on ACE lipid management guidance. The infographic will be included in the same ROR email.",
+          "armGroupLabels": [
+            "General Message"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Personalized Message",
+          "description": "The intervention will consist of messages and infographics embedded in participants' return of results (ROR) emails within the RESET study. Each participant will receive the ROR alongside the intervention once, at the time their results are sent. No repeat messages will be delivered.\n\nThe message will include the personality-tailored message with the same core content as the general message, including indications for lipid therapy, benefits of lipid-lowering medications, common side effects, risks of non-adherence, and an infographic on diet and lifestyle modification based on ACE lipid management guidance. An infographic will be included in the same ROR email. This message will contain an added component framed according to conscientiousness and neuroticism scores, as these traits are strong predictors of health behaviours. Scores will be derived from baseline BFI-44 results.",
+          "armGroupLabels": [
+            "Personality-Tailored Message"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Intention to adopt a healthier diet",
+          "description": "A 3-item, 7-point Likert scale assessing participants' intention to adopt a healthier diet. The minimum and maximum score one can attain on this measure is 3 and 21 respectively, with a higher score indicating higher intention to adopt a healthier diet.",
+          "timeFrame": "From enrollment to 3 months after results have been returned."
+        },
+        {
+          "measure": "Intention to engage in Physical Activity",
+          "description": "A 3-item, 7-point Likert scale assessing participants' intention to engage in physical activity. The minimum and maximum score one can attain on this measure is 3 and 21 respectively, with a higher score indicating higher intention to engage in physical activity.",
+          "timeFrame": "From enrollment to 3 months after results have been returned."
+        },
+        {
+          "measure": "Intention to visit a General Practitioner",
+          "description": "A 3-item, 7-point Likert scale assessing participants' intention to visit a general practitioner. The minimum and maximum score one can attain on this measure is 3 and 21 respectively, with a higher score indicating higher intention to visit a general practitioner.",
+          "timeFrame": "3 months after results have been returned."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Big Five Inventory - 44",
+          "description": "A 44-item, 5-point Likert scale questionnaire that assesses the \"Big Five\" personality traits of a participant: namely Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism, each represented as sub-scales. Subscale scores are calculated by summing the relevant items. The minimum / maximum score for each sub-scale is as follows, with higher scores indicating higher representation of the respective personality trait.\n\nOpenness: 10/50 Conscientiousness: 9/45 Extraversion: 8/40 Agreeableness: 9/45 Neuroticism: 8/40",
+          "timeFrame": "From enrollment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* New participants of RESET who have given consent to be contacted for future studies\n* ≥21 years old\n\nExclusion Criteria:\n\n* are not able to read, write or communicate in English",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jocelyn Chew",
+          "role": "CONTACT",
+          "phone": "+6565168687",
+          "email": "dbi-lab@nus.edu.sg"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National University of Singapore",
+          "status": "RECRUITING",
+          "city": "Singapore",
+          "zip": "117599",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    }
+  },
+  "hasResults": false
+}

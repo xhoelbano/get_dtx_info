@@ -1,0 +1,71 @@
+{
+  "studies": [
+    {
+      "study_id": "30538444",
+      "pmid": "30538444",
+      "title": "Digitalizing multidisciplinary pulmonary rehabilitation in COPD with a smartphone application: an international observational pilot study.",
+      "authors": "Rassouli Frank et al.",
+      "authors_list": [
+        "Rassouli Frank",
+        "Boutellier David",
+        "Duss Jonas",
+        "Huber Stephan",
+        "Brutsche Martin H"
+      ],
+      "publication_year": "2018",
+      "publication_date": "2018",
+      "journal": "International journal of chronic obstructive pulmonary disease",
+      "journal_abbrev": "Int J Chron Obstruct Pulmon Dis",
+      "doi": "10.2147/COPD.S182880",
+      "abstract": "BACKGROUND: Concerning COPD, pulmonary rehabilitation (PR) has a positive effect on disease progression and mortality, is cost-effective, and is a part of recommendations of international guidelines. Only a minority of patients profit from conventional PR due to a lack of resources, physicians' guideline adherence, or patients' motivation. Novel digital therapies like Kaia COPD, a smartphone application that digitizes PR in COPD, are promising solutions to fill this void. METHODS: Kaia COPD provides a digital version of PR and is certified as a class-I medical device in the European Union. We investigated anonymized data from users of the Kaia COPD app on in-app retention and the change in health-related quality of life (COPD assessment test and Chronic Respiratory Disease Questionnaire [CRQ]) during a period of 20 exercise days with the app. RESULTS: Of 349 app downloads, 56 users fulfilled inclusion criteria and 34 (61%) had finished day 20 at the time of analysis and were included. Users took 33±11 days to complete the 20-day core program. Users finishing the program reduced their COPD assessment test scores (mean 2.5 units from 21.6±7.7 to 19.1±8.4 units, P=0.008). In finishers, there was a statistically significant effect above the minimum clinically important threshold of the CRQ score on the domains of fatigue, mastery, and emotional function. There was a statistically significant but not clinically relevant effect on the domain of dyspnea of CRQ. CONCLUSION: Digitalizing PR with a smartphone app is feasible and accepted by selected patients. The app leads to short-term improvement of health-related quality of life in patients completing a 20-day core program. Due to its observational character, this study has several methodological limitations and was intended to show the feasibility and to extrapolate effect sizes for planned prospective randomized-controlled trials to confirm these findings.",
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study",
+        "Observational Study"
+      ],
+      "mesh_terms": [
+        "Combined Modality Therapy",
+        "Europe",
+        "Exercise Therapy",
+        "Exercise Tolerance",
+        "Feasibility Studies",
+        "Health Status",
+        "Humans",
+        "Lung",
+        "Mobile Applications",
+        "Patient Compliance"
+      ],
+      "keywords": [
+        "COPD",
+        "pulmonary rehabilitation",
+        "telehealth care",
+        "telerehabilitation"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30538444/",
+      "pdf_available": false,
+      "_matched_query": "\"Kaia COPD\"",
+      "_raw_xml_path": "evidence/Germany/kaia-copd-meine-aktive-copd-therapie/candidates/pubmed/raw/30538444.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'Kaia COPD' as the digital therapeutic product being investigated. It describes the app's features and its impact on health-related quality of life for COPD patients, aligning with the product description provided.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational / real-world study",
+        "confidence": 90,
+        "reason": "Keyword match: 4 RWE indicators vs 2 RCT indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T09:20:55.222443Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

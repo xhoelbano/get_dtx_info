@@ -1,0 +1,310 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03362346",
+      "orgStudyIdInfo": {
+        "id": "106152-E"
+      },
+      "organization": {
+        "fullName": "Far Eastern Memorial Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Signal Analysis for Neurocritical Patients",
+      "officialTitle": "Analysis of Physiological Signals From Neurocritical Patients in Intensive Care Units Using Wavelet Transform and Deep Learning"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-05-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-05-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-29",
+      "studyFirstSubmitQcDate": "2017-12-04",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-06-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yi-Hsin Tsai",
+        "investigatorTitle": "Chief of Neurointensive Care Unit",
+        "investigatorAffiliation": "Far Eastern Memorial Hospital"
+      },
+      "leadSponsor": {
+        "name": "Far Eastern Memorial Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The project uses big data analysis techniques such as wavelet transform and deep learning to analyze physiological signals from neurocritical patients and build a model to evaluate intracranial condition and to predict neurological outcome. By identification of correlations among these parameters and their trends, we may achieve early detection of anomalies and enhance the ability in judgement of current neurological condition and prediction of prognosis. By continuous input of the past and contemporary data in the ICU, the model will be modified repeatedly and its accuracy improves as the model grows. The model can be used to recognize abnormalities earlier and provide a warning system. Clinicians taking care of neurocritical patients can adjust their treatment policy and evaluate the outcome according to such system."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Brain Injuries, Acute"
+      ],
+      "keywords": [
+        "Wavelet transform",
+        "Deep learning"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 156,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Neurocritical patients",
+          "description": "Patients with brain injury from trauma, ischemic stroke, hemorrhage stroke (intracerebral hemorrhage, subarachnoid hemorrhage), brain tumor with increased intracranial pressure, brain infection, hydrocephalus, among others.",
+          "interventionNames": [
+            "Device: intracranial pressure monitoring"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "intracranial pressure monitoring",
+          "description": "The patients may have either intracranial pressure (ICP) monitor insertion or external ventricular drainage that can be used as ICP monitor.",
+          "armGroupLabels": [
+            "Neurocritical patients"
+          ],
+          "otherNames": [
+            "physiological monitoring"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Neurological status",
+          "description": "Glasgow coma scale/Mortality",
+          "timeFrame": "Discharge out of the intensive care unit, averaged 2 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age equal to or older than 20 years\n* Neurocritical patients admitted to intensive care unit (ICU), including but not limited to traumatic brain injury, hemorrhagic stroke, ischemic stroke, brain infection, brain tumor and acute hydrocephalus.\n* Patients who have undergone cranial surgery and had intracranial pressure monitor inserted or external ventricular drainage. The central monitor of ICU is able to collect the data continuously\n\nExclusion Criteria:\n\n* Age younger than 20 years.\n* Continuous monitoring of intracranial pressure is not feasible.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Neurocritical patients admitted to intensive care unit (ICU), including but not limited to traumatic brain injury, hemorrhagic stroke, ischemic stroke, brain infection, brain tumor and acute hydrocephalus.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Yi-Hsin Tsai, M.D.",
+          "affiliation": "Far Eastern Memorial Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Far Eastern Memorial Hospital",
+          "city": "New Taipei City",
+          "zip": "200",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.06199,
+            "lon": 121.45703
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "BACKGROUND",
+          "citation": "Diederik P. Kingma and Jimmy Lei Ba. Adam: A method for stochastic optimization. Conference paper at ICLR 2015."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Michael Unser and Akram Aldroubi. (1996 Apr) A review of wavelets in biomedical applications. Proceedings of the IEEE 84(4): 626-638."
+        },
+        {
+          "pmid": "26017442",
+          "type": "BACKGROUND",
+          "citation": "LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015 May 28;521(7553):436-44. doi: 10.1038/nature14539."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Christopher Torrence and Gilbert P. Compo. (1998 Jan) A practical guide to wavelet analysis. Bulletin of the American Meteorological Society 79(1):61-78."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Theis, Fabian & Meyer-Base, Anke. (2010). Biomedical Signal Analysis - Contemporary Methods and Applications. Biomedical Signal Analysis: Contemporary Methods and Applications."
+        },
+        {
+          "pmid": "27473064",
+          "type": "BACKGROUND",
+          "citation": "Min S, Lee B, Yoon S. Deep learning in bioinformatics. Brief Bioinform. 2017 Sep 1;18(5):851-869. doi: 10.1093/bib/bbw068."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Yi Mao, Wenlin Chen, Yixin Chen, Chenyang Lu, Marin Kollef, and Thomas Bailey. (2012) An integrated data mining approach to real-time clinical monitoring and deterioration warning. Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining Pages 1140-1148. doi>10.1145/2339530.2339709"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "Yi-Hsin Tsai, Chief of Neurointensive Care Unit, Far Eastern Memorial Hospital",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2019-03-05"
+          },
+          {
+            "type": "RESET",
+            "date": "2019-06-06"
+          },
+          {
+            "type": "RELEASE",
+            "date": "2019-08-02"
+          },
+          {
+            "type": "RESET",
+            "date": "2019-09-11"
+          },
+          {
+            "type": "RELEASE",
+            "date": "2020-07-20"
+          },
+          {
+            "type": "RESET",
+            "date": "2020-08-04"
+          },
+          {
+            "type": "RELEASE",
+            "date": "2020-08-09"
+          },
+          {
+            "type": "RESET",
+            "date": "2020-08-21"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2019-03-05",
+        "submissionInfos": [
+          {
+            "releaseDate": "2019-03-05",
+            "resetDate": "2019-06-06"
+          },
+          {
+            "releaseDate": "2019-08-02",
+            "resetDate": "2019-09-11"
+          },
+          {
+            "releaseDate": "2020-07-20",
+            "resetDate": "2020-08-04"
+          },
+          {
+            "releaseDate": "2020-08-09",
+            "resetDate": "2020-08-21"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001930",
+          "term": "Brain Injuries"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D006259",
+          "term": "Craniocerebral Trauma"
+        },
+        {
+          "id": "D020196",
+          "term": "Trauma, Nervous System"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008991",
+          "term": "Monitoring, Physiologic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

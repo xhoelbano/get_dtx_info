@@ -1,0 +1,283 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05827861",
+      "orgStudyIdInfo": {
+        "id": "2022-405: HOPE-CVD-Virtual"
+      },
+      "organization": {
+        "fullName": "National University of Singapore",
+        "class": "OTHER"
+      },
+      "briefTitle": "HOPE-CVD-Virtual: A Virtual Trial to Evaluate the Primary Prevention of CVD",
+      "officialTitle": "Evaluating the Impact of HeartAge, Genetic Risk Scores, and HOPE, an Evidence-based Digital Platform for Behaviour Change, on Cardiovascular Disease Risk Factors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-05-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-04-07",
+      "studyFirstSubmitQcDate": "2023-04-23",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Tai E Shyong",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "National University of Singapore"
+      },
+      "leadSponsor": {
+        "name": "National University of Singapore",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Medical Research Council (NMRC), Singapore",
+          "class": "OTHER_GOV"
+        },
+        {
+          "name": "Nanyang Technological University",
+          "class": "OTHER"
+        },
+        {
+          "name": "National University Hospital, Singapore",
+          "class": "OTHER"
+        },
+        {
+          "name": "Singapore General Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Health Network, Toronto",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This 4-arm (1:1:1:1) single-blind randomized controlled trial. Arm 1 will communicate risk and encourage behavioral change that mirrors the standard pathway for health screening in Singapore. Arm 2 replaces the standard report with Heartage to communicate risk. Arm 3 adds the HOPE-CVD app, a digital platform that incorporates evidence based behavioral change techniques, to Arm 2 . Arm 4 adds a genetic risk score to Arm 3.\n\nThe primary objectives of this study are to:\n\n* Evaluate the impact of each intervention compared to standard care (arm 1) on the risk for cardiovascular disease, estimated using the Framingham Risk Score\n* Evaluate the impact of each intervention compared to standard care (arm 1) on health-related quality of life and well-being\n\nThe secondary objectives are:\n\n* Evaluate the impact of each intervention compared to standard care (arm 1) on individual risk factors (Blood pressure, Total cholesterol, HDL cholesterol, BMI, Smoking status) for CVD\n* Evaluate the impact of each intervention compared to standard care (arm 1) on the practice of health-promoting behaviors\n\nThe HOPE-CVD app is a 6-month interventional program. Hence, the effects of the interventions will be evaluated after a 6-month period. Participants will be required to come to the study site twice for baseline and follow-up health screening. All study interventions and other data collected in time points different from baseline and follow-up will be communicated virtually and delivered to participants without additional in-person interaction. Due to this all-virtual nature of the study, participants who need pharmacological therapy (i.e patients with diabetes) will be excluded as they would require a physician's care as well.",
+      "detailedDescription": "During the first visit, participants will be briefed about the study and informed consent will be obtained. Participants will be randomized to one of the four arms and given further details about the study based on their arm allocation. The pre-intervention questionnaire will be administered, followed by their baseline health screening. Genotyping using a micro-array will be used to estimate a genetic risk score, if participants are randomized into Arm 4.\n\nEligibility will be re-assessed according to the inclusion/exclusion criteria based on the results of baseline health screening. For those eligible, an email to initiate their study activities will be sent (Week 1). Emails will be tailored according to the arm allocation and intervention exposure. This is outlined in the intervention section below. Those who are exposed to the HOPE-CVD programme will receive an email each week for 24 weeks when the content of a new week is released.\n\nAll participants will be asked to complete a short questionnaire online (10 minutes) in Week 6. At around week 22, all participants will be sent an accelerometer to wear for 7 days which will capture objective continuous physical activity.\n\nAfter 24 weeks, participants will be asked to visit the study site for their final visit. During this visit, the investigators will administer the post-intervention questionnaire, post-intervention health screening, and conduct a debrief of the study. Once the post-intervention health screening results are ready, the encrypted health screening results will be emailed to all participants. Those who did not get to experience HeartAge or participate in the HOPE-CVD programme, but wish to do so, will be given access to the intervention. The genetic risk score will not be available to those in Arms 1-3 due to budget constraints."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Primary Prevention",
+        "Digital Health",
+        "Genetic risk",
+        "lipids",
+        "blood pressure",
+        "quality of life"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1121,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION",
+          "description": "Standard care in which the participant will receive their health screening results using the format used by Health Promotion Board guidelines and a link to a publicly-available website with information on how to manage the risk of heart disease"
+        },
+        {
+          "label": "HeartAge only",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be directed to HeartAge, a risk assessment tool available online. Then, they will be directed to a publicly-available website with information on how to manage the risk of heart disease",
+          "interventionNames": [
+            "Behavioral: HeartAge"
+          ]
+        },
+        {
+          "label": "HeartAge and HOPE Platform",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be directed to HeartAge, a risk assessment tool available online. Then, they will be led to download the HOPE-CVD mobile app, an evidence-based behaviour change platform.",
+          "interventionNames": [
+            "Behavioral: HeartAge",
+            "Behavioral: HOPE-CVD Mobile App"
+          ]
+        },
+        {
+          "label": "HeartAge, HOPE Platform, and Genetic Risk Communication",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be directed to HeartAge, a risk assessment tool available online. Then, they will be led to download the HOPE-CVD mobile app, an evidence-based behaviour change platform. Additionally, participants will also receive a report of their genetic risk of CVD.",
+          "interventionNames": [
+            "Behavioral: HeartAge",
+            "Behavioral: HOPE-CVD Mobile App",
+            "Behavioral: Genetic Risk Score"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "HeartAge",
+          "description": "HeartAge is a phenotypic age-based risk presentation which is a modified tool for CVD risk communication based on the Framingham risk Score. The Heart-Age risk presentation is the age at which an individual of the same sex would be expected to experience the same absolute risk as the individual, had their risk factors been 'normal' based on the clinical guidelines.",
+          "armGroupLabels": [
+            "HeartAge and HOPE Platform",
+            "HeartAge only",
+            "HeartAge, HOPE Platform, and Genetic Risk Communication"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "HOPE-CVD Mobile App",
+          "description": "The HOPE-CVD mobile app is an evidence-based behaviour change platform that runs for 24 weeks. The programme supports behavioural modification through seven self-care behaviours (active living, exercise, weight management, blood pressure-friendly diet, cholesterol-friendly diet, medication adherence and smoke-free lifestyle). To adopt a digital delivery of Motivational Interviewing and Cognitive Behavioural Therapy, the HOPE-CVD platform incorporates interactive decision aids, dramatic vignettes, expert content, peer videos and behaviour tracking.",
+          "armGroupLabels": [
+            "HeartAge and HOPE Platform",
+            "HeartAge, HOPE Platform, and Genetic Risk Communication"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Genetic Risk Score",
+          "description": "Participants will undergo genetic testing from which a genetic risk score for CVD will be estimated. they will receive a genetic risk communication which indicates which quartile of genetic risk they are at in comparison to the rest of the population. The report also contains information on what this risk means for their chances of developing cardiovascular disease in the future.",
+          "armGroupLabels": [
+            "HeartAge, HOPE Platform, and Genetic Risk Communication"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in 10-yr predicted absolute risk of cardiovascular disease",
+          "description": "Participants' baseline and post-intervention 10-yr predicted absolute cardiovascular disease risk will be calculated and compared by a version of the Framingham Risk Score, which is used in the HeartAge algorithm. The variables (age, total cholesterol, HDL, diabetes prevalence, smoking status, systolic blood pressure, and prescription of anti-hypertensive medications) needed for this algorithm will be measured during the baseline and post-intervention health screenings. These variables will be aggregated into a percentage score ranging from 0-100%, where a higher percentage indicates a higher 10-yr predicted absolute risk of cardiovascular disease. A reduction in the percentage score is a better outcome.",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Change in Health-Related Quality of Life",
+          "description": "Health-Related Quality of Life will be assessed and compared between baseline and post-intervention follow-up using the items from the validated instrument Short Form 36 version 2 (SF-36v2).",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Change in Goal-directed behaviours for living well",
+          "description": "Goal-directed behaviours for living well support a process-based approach to well-being which will be measured and compared between baseline and post-intervention follow-up using items in Euroia-14",
+          "timeFrame": "Baseline and Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Systolic Blood Pressure",
+          "description": "Systolic blood pressure will be measured and compared between the baseline and post-intervention health screenings.",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Change in Total Cholesterol",
+          "description": "Total cholesterol will be measured and compared between the baseline and post-intervention health screenings.",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Change in High-density lipoprotein cholesterol",
+          "description": "High-density lipoprotein (HDL) cholesterol will be measured and compared between the baseline and post-intervention health screenings.",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Change in Body mass index",
+          "description": "Body mass index (BMI) will be measured and compared between the baseline and post-intervention health screenings. BMI will be calculated by combining weight in kilograms and height in meters to report BMI in kg/m\\^2",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Change in smoking habit",
+          "description": "Smoking status will be measured and compared between baseline and post-intervention follow up through self-reported cigarettes smoke per week",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Changes in Health-promoting behaviour",
+          "description": "Health-promoting behaviours will be measured using self-reported questionnaires at baseline, 6 weeks, and 6 months to observe changes over the course of the study. This will be measured using a Readiness for Change questionnaire using a scale of 1 to 40, where a higher score indicates a better outcome.",
+          "timeFrame": "Baseline, Week 6 and Week 24"
+        },
+        {
+          "measure": "Physical Activity",
+          "description": "Physical activity will be objectively measured using an accelerometer at Week 22. Accelerometer will capture physical activity continuously (day and night, 24 hours/day) for 7 days",
+          "timeFrame": "Week 22"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Aged 30-74 years;\n2. Singapore citizen, or permanent resident\n3. Able to read and understand English\n4. Have access to and is comfortable using an internet-enabled device\n5. At least 5% risk of CVD, as measured by the Framingham Risk Score (FRS), based on previous health screening results\n\nExclusion Criteria:\n\n1. Existing heart disease or a prior history of coronary artery disease/angina/myocardial infarction/revascularisation, transient ischaemic attack/stroke, peripheral vascular disease, heart failure and cardiac arrhythmia\n2. Suffering from cancer or chronic kidney disease\n3. Currently prescribed with statins, exetimibe and pcsk-9 inhibitors to treat cholesterol levels\n4. Been told by a doctor that they should only do physical activity recommended by a doctor due to a heart condition\n5. Serious mental illness (Eg. A patient who is suffering from serious mental illness refers to those who need assistance in daily activities due to their mental illness.)\n6. The following groups of individuals will be excluded as most of them would require pharmacological therapy for risk factors based on clinical guidelines in Singapore:\n\n   * Diagnosed with diabetes\n   * For those with FRS of 5-9%, LDL ≥160mg/dL\n   * For those with FRS of 10-19%, LDL ≥130mg/dL\n   * For those with FRS of ≥20%, LDL ≥100mg/dL\n   * Total cholesterol \\>280 mg/dL at the point of screening\n   * Systolic blood pressure \\>160 mmHg at the point of screening\n   * Triglycerides ≥4.5 mmol/L\n7. Pregnant or planning to be pregnant in the next 7 months\n8. Unable to give informed consent\n9. Current or previous participants in HOPE Pilot Study, or HOPE-CVD-GP study\n10. Members of the same household or family of existing enrolled participants",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "74 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "National University of Singapore",
+          "city": "Singapore",
+          "state": "Singapore",
+          "zip": "117549",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,1214 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04907045",
+      "orgStudyIdInfo": {
+        "id": "218046"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01DA047954",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01DA047954"
+        }
+      ],
+      "organization": {
+        "fullName": "Kaiser Permanente",
+        "class": "OTHER"
+      },
+      "briefTitle": "An Initial Study of the Implementation of Digital Therapeutics for Substance Use Disorders in Primary Care",
+      "officialTitle": "Digital Therapeutics for Opioids and Other Substance Use Disorders in Primary Care Pilot (DIGITS Trial Pilot)",
+      "acronym": "DIGITS Pilot"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-12-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-12-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-05-25",
+      "studyFirstSubmitQcDate": "2021-05-25",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-28",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-04-28",
+      "resultsFirstSubmitQcDate": "2025-07-17",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-08-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Kaiser Permanente",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The DIGITS Trial addresses a critical knowledge gap: How to best implement digital treatments for opioids and other substance use disorders in primary care. In this pilot study, the FDA-authorized reSET and reSET-O digital therapeutics will be implemented in 2 primary care clinics as part of quality improvement. The pilot is comprised of a 3-month period in which a standard approach to implementing reSET and reSET-O is applied in the two primary care clinics \"standard implementation\", followed by a second 3-month period in which the study will test and refine the two experimental implementation strategy interventions, health coaching (patient-facing) and practice coaching (clinician-facing) in the same clinics. This study will also pilot economic data collection tools and collect qualitative data for a formative evaluation. The analytic goals are to inform the statistical design and data collection processes for the subsequent cluster-randomized DIGITS Trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Drug Use Disorders",
+        "Illicit Drug Use",
+        "Alcohol-Related Disorders"
+      ],
+      "keywords": [
+        "Implementation Science",
+        "Mobile Applications",
+        "Drug Use Disorders",
+        "Quality Improvement",
+        "Primary Health Care"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Non-randomized parallel groups pilot study to evaluate intervention delivery, data collection, and analysis procedures. Two primary care clinics will implement the reSET and reSET-O digital therapeutics for substance use disorders. There will be one clinic per arm in this pilot study. Implementation strategies will be varied across arms.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1552,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard Implementation Plus Health Coaching",
+          "type": "EXPERIMENTAL",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.",
+          "interventionNames": [
+            "Behavioral: Health Coaching",
+            "Behavioral: Standard Implementation"
+          ]
+        },
+        {
+          "label": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+          "type": "EXPERIMENTAL",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.",
+          "interventionNames": [
+            "Behavioral: Health Coaching",
+            "Behavioral: Practice Facilitation",
+            "Behavioral: Standard Implementation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Health Coaching",
+          "description": "The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.",
+          "armGroupLabels": [
+            "Standard Implementation Plus Health Coaching",
+            "Standard Implementation Plus Health Coaching and Practice Facilitation"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Practice Facilitation",
+          "description": "In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.",
+          "armGroupLabels": [
+            "Standard Implementation Plus Health Coaching and Practice Facilitation"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard Implementation",
+          "description": "Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench.",
+          "armGroupLabels": [
+            "Standard Implementation Plus Health Coaching",
+            "Standard Implementation Plus Health Coaching and Practice Facilitation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reach of the Digital Therapeutic to Patients in the Primary Care Clinic",
+          "description": "The proportion of patients who initiate the digital therapeutic, defined by instances in which patients open the app, enter the prescription code, and use a treatment module",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Fidelity of Patients Use of the Digital Therapeutic to Clinical Recommendations",
+          "description": "Mean number of weeks in which patients use 4 app modules/week and have visited a clinician in the past month",
+          "timeFrame": "9 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Effectiveness",
+          "description": "Mean number of months in which patients make monthly visits for substance use disorder",
+          "timeFrame": "9 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Reach-3",
+          "description": "The proportion of patients who download and unlock reSET or reSET-O",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Reach-2",
+          "description": "The proportion of patients prescribed reSET or reSET-O",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Fidelity-2",
+          "description": "Mean number of weeks in which patients use at least 1 module/week",
+          "timeFrame": "9 months"
+        },
+        {
+          "measure": "Fidelity-3",
+          "description": "Mean number of weeks in which patients use at least 4 modules/week",
+          "timeFrame": "9 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Had a primary care visit in a participating clinic during the pilot\n* Screened positive for substance use\n* Adult aged 18 years or older at time of visit\n\nExclusion Criteria:\n\n* None",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Joseph E Glass, PhD, MSW",
+          "affiliation": "Kaiser Permanente",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kaiser Permanente Washington",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39222348",
+          "type": "DERIVED",
+          "citation": "Mogk J, Idu AE, Bobb JF, Key D, Wong ES, Palazzo L, Stefanik-Guizlo K, King D, Beatty T, Dorsey CN, Caldeiro RM, Garza McWethy A, Glass JE. Prescription Digital Therapeutics for Substance Use Disorder in Primary Care: Mixed Methods Evaluation of a Pilot Implementation Study. JMIR Form Res. 2024 Sep 2;8:e59088. doi: 10.2196/59088."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Of the 18,577 primary care patients with visits to the eligible clinics, 1,552 were eligible for the analysis.",
+      "recruitmentDetails": "Data were collected from the Electronic Health Record (EHR) for an accrual period and an outcomes assessment period.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Standard Implementation Plus Health Coaching",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+        },
+        {
+          "id": "FG001",
+          "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "296"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1256"
+                }
+              ]
+            },
+            {
+              "type": "Prescribed",
+              "comment": "Prescribed represents the number of patients prescribed the digital therapeutic. While this is a study outcome, we have added it as a study milestone, because it represents the population for which adverse events were monitored.",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "8"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "296"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1256"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Standard Implementation Plus Health Coaching",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+        },
+        {
+          "id": "BG001",
+          "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "296"
+            },
+            {
+              "groupId": "BG001",
+              "value": "1256"
+            },
+            {
+              "groupId": "BG002",
+              "value": "1552"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Age group",
+              "categories": [
+                {
+                  "title": "18-24 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "182"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "242"
+                    }
+                  ]
+                },
+                {
+                  "title": "25-34 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "153"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "459"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "612"
+                    }
+                  ]
+                },
+                {
+                  "title": "35-44 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "218"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "266"
+                    }
+                  ]
+                },
+                {
+                  "title": "45-54 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "126"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "139"
+                    }
+                  ]
+                },
+                {
+                  "title": "=>55 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "271"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "293"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "160"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "635"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "795"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "621"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "757"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "89"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "114"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "163"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "899"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1062"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "108"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "268"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "376"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Race",
+              "categories": [
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "92"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "71"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "179"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "916"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1095"
+                    }
+                  ]
+                },
+                {
+                  "title": "Multiple race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "54"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "73"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other race, combined to maintain patient confidentiality",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "80"
+                    }
+                  ]
+                },
+                {
+                  "title": "Missing race data",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "141"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rurality of residence",
+          "description": "Rurality and urbanity was defined using the 2010 rural-urban commuting area codes and 2010 Census Tract geocoding",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Urban",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "296"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1255"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1551"
+                    }
+                  ]
+                },
+                {
+                  "title": "Rural",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Reach of the Digital Therapeutic to Patients in the Primary Care Clinic",
+          "description": "The proportion of patients who initiate the digital therapeutic, defined by instances in which patients open the app, enter the prescription code, and use a treatment module",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Fidelity of Patients Use of the Digital Therapeutic to Clinical Recommendations",
+          "description": "Mean number of weeks in which patients use 4 app modules/week and have visited a clinician in the past month",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Number of weeks",
+          "timeFrame": "9 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "spread": "0.06"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Effectiveness",
+          "description": "Mean number of months in which patients make monthly visits for substance use disorder",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Number of months",
+          "timeFrame": "9 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.01",
+                      "spread": "0.12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "spread": "0.06"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Reach-3",
+          "description": "The proportion of patients who download and unlock reSET or reSET-O",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Reach-2",
+          "description": "The proportion of patients prescribed reSET or reSET-O",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Fidelity-2",
+          "description": "Mean number of weeks in which patients use at least 1 module/week",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Number of weeks",
+          "timeFrame": "9 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": ".01",
+                      "spread": ".35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Fidelity-3",
+          "description": "Mean number of weeks in which patients use at least 4 modules/week",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Number of weeks",
+          "timeFrame": "9 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard Implementation Plus Health Coaching",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            },
+            {
+              "id": "OG001",
+              "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+              "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "296"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1256"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0",
+                      "spread": "0.06"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "spread": "0.06"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "From date of prescription through end of prescription (approximately 90 days).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Standard Implementation Plus Health Coaching",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 6,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 6,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 6
+        },
+        {
+          "id": "EG001",
+          "title": "Standard Implementation Plus Health Coaching and Practice Facilitation",
+          "description": "The clinic in this arm will implement reSET and reSET-O with a standard implementation strategy and patients at the clinic will receive support from a health coach to help them engage with reSET and reSET-O. Additionally, a practice facilitator will provide the clinic with support for implementation.\n\nHealth Coaching: The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team.\n\nPractice Facilitation: In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change.\n\nStandard Implementation: Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 8,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 8,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 8
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Joseph E Glass, PhD",
+        "organization": "Kaiser Permanente Washington Health Research Institute",
+        "email": "joseph.e.glass@kp.org",
+        "phone": "206-287-4266"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-05-15",
+          "uploadDate": "2025-04-25T13:43",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 53624
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D019973",
+          "term": "Alcohol-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

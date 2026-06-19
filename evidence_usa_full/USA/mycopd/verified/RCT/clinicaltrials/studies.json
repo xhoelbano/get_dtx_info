@@ -1,0 +1,133 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT02706600",
+      "nct_id": "NCT02706600",
+      "title": "Trial of E-Health Platform Supported Care vs Usual Care After Exacerbation of COPD",
+      "official_title": "RESCUE-COPD 1 Randomised Trial of E-Health Platform Supported Care vs Usual Care After Exacerbation of COPD",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "SUPPORTIVE_CARE",
+        "masking": "SINGLE"
+      },
+      "enrollment": 40,
+      "start_date": "2015-06",
+      "completion_date": "2016-03",
+      "conditions": [
+        "Chronic Obstructive Pulmonary Diseases"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "myCOPD",
+          "type": "BEHAVIORAL",
+          "description": "myCOPD is a system that can be accessed by patients using any device that can connect to the internet and can operate in any internet browser. It contains: Educational information, Inhaler technique videos explaining the correct technique required to use different inhaler devices licensed for use in people with COPD.\n\nMedication and symptom diaries. Appointment diary Bitesize pulmonary rehabilitation videos designed to promote and support exercises that can be done in a home setting.\n\nOxygen Ale"
+        },
+        {
+          "name": "Written Self management plan",
+          "type": "BEHAVIORAL",
+          "description": "The HealthQuest written self management plan was produced in 2013. It is a one page document which contains a written self management plan which can be individualised for the patient. It consists of a traffic light system to direct patients to the most appropriate action to take should their symptoms deteriorate."
+        }
+      ],
+      "lead_sponsor": "my mhealth Ltd",
+      "collaborators": [
+        "Portsmouth Hospitals NHS Trust"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "brief_summary": "There are currently 900,000 people in the UK with a diagnosis of Chronic Obstructive Pulmonary Disease (COPD), The disease is progressive and often causes disabling symptoms such as chronic cough, breathlessness and reduced tolerance to exercise. National Institute for Health and Care Excellence (NICE) recommends that patients with COPD have a self management plan (SMP). The utilisation of SMP's has been shown to reduce healthcare utilisation, improve quality of life, and reduces the need for hospitalisation. Currently SMP's are delivered to patient in a paper format, myCOPD is a web based self management system which has been developed by Healthcare professional and patients encompasses the principles of Self management and offers a viable solution to a national recommendation.\n\nThe study will compare paper self management plans against the online version myCOPD. The study aims to recruit 60 patients with a diagnosis of COPD during their admission to hospital for an exacerbation or flare up of their COPD. Patients will be given an information sheet during their admission and prior to leaving hospital be asked if they wish to participate in the study. Patients will participate in the study for no less than two months and a maximum of three months. 30 patients will receive written self management and 30 will receive online self management. There will be a total of 4 visits for the duration of the study.\n\nThe screening visits will comprise of written or verbal consent, Demograp",
+      "detailed_description": "The study will compare paper self management plans against the online version myCOPD. The study aims to recruit 60 patients with a diagnosis of COPD during their admission to hospital for an exacerbation or flare up of their COPD. Patients will be given an information sheet during their admission and prior to leaving hospital be asked if they wish to participate in the study. Patients will participate in the study for no less than two months and a maximum of three months. 30 patients will receive written self management and 30 will receive online self management. There will be a total of 6 visits for the duration of the study.\n\nVisit One - Screening Visit This visit will take place within two weeks of discharge from hospital in the participants home and comprise of written informed consent, Demographics, Medical, exacerbation and healthcare utilisation history, Quality of Life questionnaires, inhaler technique assessment This will be assessed using the critical errors list for each inhaler devices. Participants will also have their technique using each of their devices videoed. Those that fore fill inclusion and exclusion criteria will then be randomised in one of two groups, those receiving paper self management and those receiving online self management 'myCOPD'. For those receiving written self management The study nurse will complete with the participant a written self management plan. For those randomised to online self management they will be loan an android/iOS tablet computer and be given unique access codes and directed to the online 'How to tutorials .\n\nVisit Two,Three - Telephone Visits There will be 2 telephone visits during the study and will comprise of verbal consent completion of the COPD Assessment Test and adverse event reporting.\n\nVisit Four - End of Study Visit This visit will take place in the participants home and comprise of verbal consent, Demographics, Medical, exacerbation and healthcare utilisation history, Quality of Life questionnaires a",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT02706600",
+      "_matched_query": "\"myCOPD\"",
+      "_raw_json_path": "evidence/USA/mycopd/candidates/clinicaltrials/raw/NCT02706600.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the digital therapeutic product 'myCOPD' by comparing it to paper self-management plans for COPD patients. The product name 'myCOPD' is mentioned multiple times in the abstract and full text, and the manufacturer 'my mhealth Ltd' is identified as the sponsor.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized trial comparing two interventions (paper self-management plans vs. online myCOPD) with participants randomly allocated to each group, fitting the definition of an RCT."
+      }
+    },
+    {
+      "study_id": "NCT03620630",
+      "nct_id": "NCT03620630",
+      "title": "Clinical Efficacy and Cost Effectiveness of MYCOPD in Patients With Mild and Moderate Newly Diagnosed COPD",
+      "official_title": "Evidence Generation for the Clinical Efficacy and Cost Effectiveness of myCOPD in Patients With Mild and Moderate Newly Diagnosed COPD",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+        "masking": "SINGLE"
+      },
+      "enrollment": 60,
+      "start_date": "2018-11-09",
+      "completion_date": "2019-12-03",
+      "conditions": [
+        "COPD"
+      ],
+      "keywords": [],
+      "interventions": [
+        {
+          "name": "myCOPD",
+          "type": "DEVICE",
+          "description": "myCOPD is a multi faceted web based application designed to support people with COPD in the Long term management of their COPD."
+        }
+      ],
+      "lead_sponsor": "my mhealth Ltd",
+      "collaborators": [
+        "Innovate UK",
+        "Imperial College London",
+        "Hull University Teaching Hospitals NHS Trust",
+        "Hampshire Hospitals NHS Foundation Trust",
+        "Central London Community Healthcare NHS Trust"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "brief_summary": "Millions of patients in the UK live with long term medical conditions such as diabetes, heart disease and lung diseases. These conditions are the major cause of ill health in the UK and cost the NHS billions of pounds each year. One long term condition that carries an enormous impact for patients and the NHS is COPD (Chronic Obstructive Pulmonary Disease). This lung condition affects over one million patients in the UK and is one of the major causes of admission to hospital.\n\nInvolvement of patients in the management of their own medical conditions (self-care) has been shown to improve how individuals feel, reduce the frequency of medical emergencies and reduce the costs of health care. In order to self-care successfully patients require the correct knowledge, skills and the confidence to make the right decisions; about their treatments, use of healthcare services and lifestyle choices. Recently the use of digital tools such as apps and websites has been shown to help patients with self-care and thus to improve their health. However in the UK there are very few providers of apps that are fully accredited by the NHS and only one that has been fully funded to provide apps nationally.\n\nMy mhealth (short for my mobile health) is a UK company founded by NHS doctors which provides high quality digital tools (apps) to enable patients to access information about their condition and treatments and to record symptoms on their phones, tablets, computers or even smart TVs. MyMHealth has ",
+      "detailed_description": "COPD is a disabling, smoking related lung disease that is associated with symptoms of shortness of breath, cough and wheeze. The natural history is one of progressive decline, frequently punctuated by periods of rapid worsening termed acute exacerbations. The functional limitation experienced by individuals with COPD, their propensity to exacerbations and the high levels of psychological and physical co-morbidities place a significant burden on health and social care systems. It is estimated that COPD will become the 4th leading cause of death worldwide by 2030.\n\nA typical UK city has over 7,500 patients with COPD on primary care registries and it is estimated that there are an additional 6,500 individuals living with the disease that have not yet been diagnosed. The NHS in England encourages opportunistic and systematic case finding to achieve early disease recognition. However, the merits of this approach are unclear due to a lack of evidence that early disease identification alters outcomes.\n\nA recent randomised controlled trial undertaken in China has suggested that initiation of Tiotropium in patients with early disease may reduce the rate of lung function decline compared to placebo. This phenomenon was also observed in a subgroup analysis of young and milder COPD patients in the UPLIFT trial. Prior to these observations, smoking cessation was the only means of altering disease course in patients with early disease and there is conflicting evidence as to whether identifying COPD in smokers helps to achieve this or not. The possibility that early drug initiation may alter disease trajectory and improve long term health outcomes, makes early diagnosis appealing.\n\nIt is recognised that at the time of COPD diagnosis, patients are already less physically active than their peers that do not have airflow obstruction. This suggests that patients alter their behaviour to avoid symptoms before they perceive a problem significant enough to warrant medical attention. Phys",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT03620630",
+      "_matched_query": "\"myCOPD\"",
+      "_raw_json_path": "evidence/USA/mycopd/candidates/clinicaltrials/raw/NCT03620630.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'myCOPD' as indicated by the title, abstract, and full text. The intervention is explicitly named as 'myCOPD', and the manufacturer 'My Mhealth' is identified as the developer.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 90,
+        "reason": "The study is described as interventional, which typically implies a controlled trial setting. The presence of a protocol ID and completion status suggests a structured trial, likely with randomization, although explicit mention of randomization is not provided in the text."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-15T07:23:44.700070Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,317 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07003282",
+      "orgStudyIdInfo": {
+        "id": "09032025"
+      },
+      "organization": {
+        "fullName": "Hebrew University of Jerusalem",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study to Test Feasibility and Acceptability of an Intervention Program Aiming to Reduce Prenatal Secondhand Smoke Exposure",
+      "officialTitle": "Feasibility and Acceptability of a Digital Intervention Program Aiming to Reduce Secondhand Smoke Exposure in Pregnancy: a Pilot Study",
+      "acronym": "First Breath"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-18",
+      "studyFirstSubmitQcDate": "2025-05-25",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Professor Yael Bar Zeev",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Hebrew University of Jerusalem"
+      },
+      "leadSponsor": {
+        "name": "Hebrew University of Jerusalem",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This pilot study assess the feasibility and acceptability of the \"First Breath\" digital behavioral intervention aiming to reduce prenatal SHS exposure. By involving both the pregnant women and partners (who smoke) of pregnant women, our intervention encourages reducing secondhand smoke exposure at home and in the car, through a gradual, capacity and self-efficacy building, structured plan. \"First Breath\" focus on raising knowledge about the health consequences of prenatal secondhand exposure, proposing strategies to avoid exposure, and raising motivation to implement a smoke free home and car. Our intervention also includes personal biochemical feedback to the pregnant women using urine cotinine (a marker of secondhand smoke exposure), and advice on using nicotine-replacemnt therapy within the home setting to avoid smoking."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Secondhand Smoke Exposure"
+      ],
+      "keywords": [
+        "Prenatal secondhand smoke exposure",
+        "Digital behavioral intervention"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 160,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention arm: testing the \"First Breath\" digital intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Expectant fathers receive an acess to the digital intervention \"First Breath\" and are asked to complete a questionnaire at baseline and after 3 months.\n\nPregnant women receive an access to the digital intervention and are also asked to provide an urine sample (for measurement of urine cotinine concentration) and to complete a questionnaire during study visits (at Hadassah Ein Karem) at baseline, after 1 and 3 months.",
+          "interventionNames": [
+            "Behavioral: The intervention includes 1) the \"First Breath\" app, 2) reminders during the follow-up period and 3) only for women- cotinine concentration measurement (a biomarker of secondhand smoke exposure)"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "Instead of the \"First Breath\" intervention, participants (both men and women) receive a link to a website that contains uploaded standard educational material from the Israel Cancer Association website.\n\nParticipants will be asked to complete a questionnaire at baseline and after 1 months (only women) and 3 months follow-up, and women are asked to provide urine samples (for measurement of cotinine concentration) at baseline, after 1 and 3 months."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "The intervention includes 1) the \"First Breath\" app, 2) reminders during the follow-up period and 3) only for women- cotinine concentration measurement (a biomarker of secondhand smoke exposure)",
+          "description": "The intervention focus on raising knowledge about the health consequences of prenatal secondhand smoke exposure, proposing strategies to avoid exposure at home and in the car, and raising motivation to implement a smoke-free home and car. An \"exposure score\" of each participant is calculated, based on his perception of secondhand smoke exposure, smoking rules within the home and strategies used to reduce exposure. Participants are guided in setting specific goals, with a detailed action plan, and receive ongoing feedback throughout follow up. In addition, for pregnant women, urine cotinine measurements at baseline, 4-weeks and 12-weeks study visit are integrated into the intervention and personalized biofeedback provided to them . Participants of the intervention arm also receive remiders (by WhatsApp) to re-use the App during all the follow-up period (3 times during the first week, 2 times/week during the 2nd, 3th and 4th weeks, and then once a week until the end of follow-up).",
+          "armGroupLabels": [
+            "Intervention arm: testing the \"First Breath\" digital intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment rate",
+          "description": "Number of participants that sign the informed consent, divided by the total number of participants who were approached for recruitment. Recruitment rate will be calculated separately for pregnant women and expectant fathers' participants.",
+          "timeFrame": "From day of recruitment of the first participant to day of recruitement of the last participant, assessed up to 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall compliance",
+          "description": "Number of participants that completed all questionnaires at baseline, 4 weeks (only for women) and 12 weeks",
+          "timeFrame": "From day of recruitment of the first participant to day of the last follow-up meeting of the last participant, assessed up to 6 months."
+        },
+        {
+          "measure": "Intervention completion rate",
+          "description": "Number of participants who completed at least one full cycle of the digital intervention components (including the \"exposure score\" and action plan), divided by the number of participants that had signed an informed consent to participate.",
+          "timeFrame": "From day of recruitment of the first participant to day of the last follow-up meeting of the last participant, assessed up to 6 months."
+        },
+        {
+          "measure": "Intervention re-enter rate",
+          "description": "Number of participants who re-entered the digital intervention within 1,2 and 3 months, divided by the number of participants that had signed an informed consent to participate.",
+          "timeFrame": "From date of the first signed inform consent form until the date of the last follow-up meeting of the last participant, assessed up to 6 months."
+        },
+        {
+          "measure": "Intervention compliance",
+          "description": "Number of minutes spent by each participant on the digital intervention platform",
+          "timeFrame": "From day of recruitment of the first participant to day of the last follow-up meeting of the last participant, assessed up to 6 months."
+        },
+        {
+          "measure": "Performance of a cotinine baseline test (only for women)",
+          "description": "Number of women who completed a urinary cotinine test at baseline.",
+          "timeFrame": "From date of the first signed informed consent form (woman) until date of the last signed informed consent form (women), assessed up to 3 months."
+        },
+        {
+          "measure": "Performance of at least one follow-up cotinine test (only for women)",
+          "description": "Number of women who completed urinary cotinine test at 4 weeks and/or 12 weeks",
+          "timeFrame": "From date of the first follow-up meeting of the first participant (woman) until the date of the second follow-up meeting to the last participant (woman) of the study, assessed up to 5 months."
+        },
+        {
+          "measure": "Self-report of perceived SHS exposure",
+          "description": "Changes in self-reported SHS exposure level from baseline to 4 weeks (only for women) and 12 weeks.",
+          "timeFrame": "From date of the first signed inform consent form until the date of the last follow-up meeting of the last participant, assessed up to 6 months."
+        },
+        {
+          "measure": "Self-report of a complete smoke free home",
+          "description": "Proportion of participants reported that smoking is not allowed at all at home (and near the home, such as in the balcony or staircase) post-intervention (12 weeks after starting the intervention).",
+          "timeFrame": "From date of the last follow-up meeting of the first participant until the date of the last follow-up meeting to the last participant of the study, assessed up 3 months."
+        },
+        {
+          "measure": "Self-report of changes in smoke-free home rules",
+          "description": "Proportion of participants reported that they (or their partner) made any change in home smoking rules (even if they do not have a complete SFH) 12 weeks after starting the intervention.",
+          "timeFrame": "From date of the second follow-up meeting of the first participant until the date of the last follow-up meeting to the last participant of the study, assessed up 3 months."
+        },
+        {
+          "measure": "Objective SHS exposure (only for women)",
+          "description": "Changes in secondhand smoke exposure by urine cotinine levels from baseline to 4 and 12 weeks.",
+          "timeFrame": "From date of the first signed inform consent form (woman) until the date of the third follow-up meeting of the last participant (woman) of the study, assessed up to 6 months."
+        },
+        {
+          "measure": "Self-report of smoking cessation (only for men)",
+          "description": "Proportion of participants that reported to have quit smoking at three months follow up.",
+          "timeFrame": "From date of the second follow-up meeting of the first participant (man) until the date of the second follow-up meeting to the last participant (man) of the study, assessed up 3 months."
+        },
+        {
+          "measure": "Self-report of changes in smoking habits (only for men)",
+          "description": "The difference in the average number of cigarettes smoked per day on a typical day, at home, between the baseline and three months follow up.",
+          "timeFrame": "From date of the first signed inform consent form (man) until the date of the second follow-up meeting of the last participant (man) of the study, assessed up to 6 months."
+        },
+        {
+          "measure": "Nicotine-replacement therapy use at home (only for men)",
+          "description": "Proportion of participants that reported using nicotine replacement therapy at home at three months follow up.",
+          "timeFrame": "From date of the second follow-up meeting of the first participant (man) until the date of the second follow-up meeting to the last participant (man) of the study, assessed up 3 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Pregnant women:\n\nInclusion criteria:\n\n1. ≤24 gestational weeks;\n2. at least 18 years old;\n3. living with a partner who smokes (at least one combustible cigarette a day); d) ability to understand Hebrew at a reasonable level;\n\ne) currently not smoking any tobacco or nicotine product (to clarify, women who smoked in the past are eligible).\n\nExclusion criteria:\n\n1. women with high-risk pregnancies,\n2. no access to internet,\n3. her partner is currently involved in a smoking cessation process.\n\nExpectant fathers who smoke:\n\nInclusion criteria:\n\n1. male,\n2. at least 18 years old,\n3. able to understand Hebrew at a reasonable level,\n4. smoking at least one combustible cigarette per day,\n5. currently living with a pregnant spouse who does not smoke any tobacco or nicotine product and\n6. the spouse is ≤24 gestational weeks . Note: expectant father who are current users of other tobacco products (such as electronic cigarettes) are also eligible as long as they smoke at least one combustible cigarette a day.\n\nExclusion criteria:\n\n1. currently engaged in a smoking cessation program,\n2. no access to the internet.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yael Bar Zeev, MD MPH PhD",
+          "role": "CONTACT",
+          "phone": "+972-58-6878941",
+          "email": "Yael.Bar-Zeev@mail.huji.ac.il"
+        },
+        {
+          "name": "Anne-Laure Yehudit Guri-Scherman, MsC MPH",
+          "role": "CONTACT",
+          "phone": "+972-52-6698-454",
+          "email": "anne-laure.scherman@mail.huji.ac.il"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Yael Bar-Zeev, MD MPH PhD",
+          "affiliation": "Hebrew University of Jerusalem",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Braun School of Public Health and Community Medicine, Hebrew University of Jerusalem",
+          "status": "RECRUITING",
+          "city": "Jerusalem",
+          "country": "Israel",
+          "contacts": [
+            {
+              "name": "Yael Bar Zeev, MD MPH PhD",
+              "role": "CONTACT",
+              "phone": "+972-58-6878941",
+              "email": "Yael.Bar-Zeev@mail.huji.ac.il"
+            },
+            {
+              "name": "Yael Bar-Zeev, MD MPH PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39673392",
+          "type": "BACKGROUND",
+          "citation": "Rodnay M, Agbaria N, Neumark Y, Guri-Scherman AY, Bar Zeev Y. \"What can I do? fight him?\" Perceptions and Experiences in Reducing Secondhand Smoke Exposure During Pregnancy: A Qualitative Study Among Israeli Women. Nicotine Tob Res. 2025 May 22;27(6):962-969. doi: 10.1093/ntr/ntae291."
+        },
+        {
+          "pmid": "37565607",
+          "type": "BACKGROUND",
+          "citation": "Guri-Scherman AY, Neumark Y, Rodnay M, Bar-Zeev Y. Barriers and Enablers to Implementing a Smoke-free Home and Car During Pregnancy: A Qualitative Study Among Expectant Israeli Fathers. Nicotine Tob Res. 2024 Jan 1;26(1):94-101. doi: 10.1093/ntr/ntad149."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual participant data that underlie the results after deidentification",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF"
+      ],
+      "timeFrame": "Immediately following publication, no end date",
+      "accessCriteria": "Researchers who provide a methodologically sound proposal, proposals should be directed to Yael.Bar-Zeev@mail.huji.ac.il. To gain access, researchers will need to sign a data access agreement"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012847",
+          "term": "Single Person"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017533",
+          "term": "Marital Status"
+        },
+        {
+          "id": "D005191",
+          "term": "Family Characteristics"
+        },
+        {
+          "id": "D003710",
+          "term": "Demography"
+        },
+        {
+          "id": "D011154",
+          "term": "Population Characteristics"
+        },
+        {
+          "id": "D012959",
+          "term": "Socioeconomic Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00029090",
+      "drks_id": "DRKS00029090",
+      "title": "Evaluation of a smartphone app for patients with panic disorder with or without comorbid agoraphobia",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00029090/details",
+      "_matched_query": "\"Mindable\"",
+      "_raw_json_path": "evidence/Germany/mindable-panik-agoraphobie/candidates/drks/raw/DRKS00029090.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the app 'mindable', which matches the product 'Mindable: Panik & Agoraphobie'. The trial registration and full text explicitly mention the app 'mindable' as the intervention being studied.",
+        "matched_elements": [
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a multicenter randomized controlled trial where participants are randomly assigned to either an app group or a waiting control group, which is a defining feature of an RCT."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T07:48:10.718081Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,913 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04010266",
+      "orgStudyIdInfo": {
+        "id": "2019-0388"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2R44DA049640",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2R44DA049640"
+        }
+      ],
+      "organization": {
+        "fullName": "AppliedVR Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "RelieVRx for Total Knee Arthroplasty (TKA) for the Reduction of Acute Postoperative Pain and Opioid Use",
+      "officialTitle": "Safety and Effectiveness of Virtual Reality Utilizing RelieVRx for Total Knee Arthroplasty (TKA) for the Reduction of Acute Postoperative Pain and Opioid Use"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-07-03",
+      "studyFirstSubmitQcDate": "2019-07-03",
+      "studyFirstPostDateStruct": {
+        "date": "2019-07-08",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-11-23",
+      "resultsFirstSubmitQcDate": "2024-02-10",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-02-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AppliedVR Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Geisinger Clinic",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Institute on Drug Abuse (NIDA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-center, prospective, randomized, controlled study of the appliedVR RelieVRx headset in subjects undergoing Total Knee Arthroplasty (TKA). This study will evaluate two primary endpoints - effectiveness of a single use of RelieVRx in the reduction of acute postoperative pain by 20%; and overall effectiveness of RelieVRx as an opioid-sparing intervention, where opioid consumption is reduced by at least 20% over a 90-day postoperative period in the interventional, standard of care (SOC) plus RelieVRx group compared to the control, SOC group.",
+      "detailedDescription": "This is a single-center, prospective, randomized, controlled study of the appliedVR RelieVRx headset in subjects undergoing Total Knee Arthroplasty (TKA). Patients will be randomized to one of the two groups after study enrollment, and patients in the test arm will be educated about the device preoperatively to facilitate its use in the acute post-operative period. The goals of VR will be presented in the context of an alternate method of pain control to opioids. This study will evaluate two primary endpoints - effectiveness of a single use of RelieVRx in the reduction of acute postoperative pain by 20%; and overall effectiveness of RelieVRx as an opioid-sparing intervention, where opioid consumption is reduced by at least 20% over a 90-day postoperative period in the interventional, standard of care (SOC) plus RelieVRx group compared to the control, SOC group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Use",
+        "Arthropathy of Knee",
+        "Pain, Postoperative"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 63,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard of care group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Receive standard of care for pain management, do not receive RelieVRx headset",
+          "interventionNames": [
+            "Drug: multi-modality pain management"
+          ]
+        },
+        {
+          "label": "Standard of care + RelieVRx group",
+          "type": "EXPERIMENTAL",
+          "description": "Receive standard of care for pain management, plus RelieVRx headset",
+          "interventionNames": [
+            "Device: RelieVRx headset",
+            "Drug: multi-modality pain management"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "RelieVRx headset",
+          "description": "RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain",
+          "armGroupLabels": [
+            "Standard of care + RelieVRx group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "multi-modality pain management",
+          "description": "combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids",
+          "armGroupLabels": [
+            "Standard of care + RelieVRx group",
+            "Standard of care group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Acute Postoperative Pain",
+          "description": "Visual Analog Pain scale; worst 0-10 best",
+          "timeFrame": "90 days"
+        },
+        {
+          "measure": "Opioid Consumption",
+          "description": "Morphine Milligram Equivalents (MME)",
+          "timeFrame": "90 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "KOOS Jr. Score",
+          "description": "short form of knee injury and osteoarthritis outcome score; worst 0 - 100 best",
+          "timeFrame": "90 days"
+        },
+        {
+          "measure": "Veterans RAND 12 Health Survey (VR-12) - Physical Component Score",
+          "description": "This is a measure of quality of life. The VR-12 provides a physical component score (i.e., physical health domain) that provides larger weights for four of the domains (physical function, role-physical, bodily pain, and general health). This is a 12 items survey. VR-12 scores are standardized using a T-score metric with a mean of 50 and a standard deviation of 10. Larger values imply greater physical function and quality of life.",
+          "timeFrame": "90 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subject is ≥ 18 years old\n2. Subject is willing and able to read, comprehend, and sign the study informed consent form in English prior to study specific procedure\n3. Subject is scheduled for Total Knee Arthroplasty (TKA) surgery\n4. Subject has a score of 1-3 based on the American Society of Anesthesiologists Physical Status Classification System\n5. Subject attended the pre-op Total Joint Arthroplasty Patient Education class (Proven Recovery Program©)\n6. Subject agrees to be enrolled in Force Therapeutics, a web-based, digital rehabilitation and education program\n7. Subject has family member or community support during post-surgical recovery period\n\nExclusion Criteria:\n\n1. Diagnosed with chronic pain syndrome\n2. Body Mass Index (BMI) ≥ 40\n3. Current tobacco user at time of surgery\n4. Uncontrolled sleep apnea\n5. Bilateral TKA\n6. Current or recent history (in past year) of substance abuse disorder\n7. Uncontrolled diabetes (HbA1c ≥ 7.0) 7.8 at time of surgery\n8. History of Pulmonary Embolism (PE) or Deep Vein Thrombosis (DVT)\n9. Currently being treated with blood thinners at time of surgery\n10. Diagnosis of Rheumatoid Arthritis (RA)\n11. Has Methicillin-resistant Staphylococcus aureus (MRSA)\n12. Currently pregnant/breastfeeding or planning to in the next 3 months\n13. Comorbidities including neurological, psychosocial, sensory, or other disorders that may impact pain perception\n14. Diagnosis of epilepsy, dementia, migraines, or other neurological disorders that may prevent VR usage, and/or other medical conditions predisposed to nausea and dizziness\n15. Hypersensitivity to flashing lights or motion\n16. Claustrophobia\n17. Lack of stereoscopic vision\n18. Severe hearing impairment\n19. Injury to eyes, face, or neck that prevents comfortable VR usage",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dr. Michael Suk",
+          "affiliation": "Geisinger Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Geisinger Medical Center",
+          "city": "Danville",
+          "state": "Pennsylvania",
+          "zip": "17822",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96342,
+            "lon": -76.61273
+          }
+        },
+        {
+          "facility": "Geisinger Wyoming Valley Medical Center",
+          "city": "Wilkes-Barre",
+          "state": "Pennsylvania",
+          "zip": "18711",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.24591,
+            "lon": -75.88131
+          }
+        },
+        {
+          "facility": "Geisinger South Wilkes Barre",
+          "city": "Wilkes-Barre",
+          "state": "Pennsylvania",
+          "zip": "18765",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.24591,
+            "lon": -75.88131
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Standard of Care Group",
+          "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+        },
+        {
+          "id": "FG001",
+          "title": "Standard of Care + RelieVRx Group",
+          "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "32"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "31"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Standard of Care Group",
+          "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+        },
+        {
+          "id": "BG001",
+          "title": "Standard of Care + RelieVRx Group",
+          "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "32"
+            },
+            {
+              "groupId": "BG001",
+              "value": "31"
+            },
+            {
+              "groupId": "BG002",
+              "value": "63"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50.3",
+                      "spread": "12.5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51.4",
+                      "spread": "13.8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50.9",
+                      "spread": "13.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Numerical Pain Rating Scale",
+          "description": "Rating make on a scale from 0 to 10 where 0 implies no pain and 10 implies pain that is unbearable. Thus, increasing values of the Numerical Pain Rating Scale imply greater amounts of pain",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "units on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5.78",
+                      "spread": "1.54"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5.76",
+                      "spread": "1.34"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5.77",
+                      "spread": "1.44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Acute Postoperative Pain",
+          "description": "Visual Analog Pain scale; worst 0-10 best",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard of Care Group",
+              "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care + RelieVRx Group",
+              "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "32"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.13",
+                      "spread": "1.79"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.42",
+                      "spread": "1.17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Opioid Consumption",
+          "description": "Morphine Milligram Equivalents (MME)",
+          "populationDescription": "Morphine milligram equivalents were measured preoperatively and postoperatively for each patient. The outcome measure reported is the median change in total MME from pre-op to Post-op",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "Morphine Milligram Equivalents (MME)",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard of Care Group",
+              "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care + RelieVRx Group",
+              "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-28.0",
+                      "lowerLimit": "-35.0",
+                      "upperLimit": "-23.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-34.8",
+                      "lowerLimit": "-37.0",
+                      "upperLimit": "-23.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "KOOS Jr. Score",
+          "description": "short form of knee injury and osteoarthritis outcome score; worst 0 - 100 best",
+          "populationDescription": "Change in KOOS Jr from Pre-surgery to post-surgery, median (IQR)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard of Care Group",
+              "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care + RelieVRx Group",
+              "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.6",
+                      "lowerLimit": "17.5",
+                      "upperLimit": "38.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32.2",
+                      "lowerLimit": "21.2",
+                      "upperLimit": "42.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Veterans RAND 12 Health Survey (VR-12) - Physical Component Score",
+          "description": "This is a measure of quality of life. The VR-12 provides a physical component score (i.e., physical health domain) that provides larger weights for four of the domains (physical function, role-physical, bodily pain, and general health). This is a 12 items survey. VR-12 scores are standardized using a T-score metric with a mean of 50 and a standard deviation of 10. Larger values imply greater physical function and quality of life.",
+          "populationDescription": "Change in VR-12 from Pre-surgery to post-surgery, median (IQR)",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Standard of Care Group",
+              "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            },
+            {
+              "id": "OG001",
+              "title": "Standard of Care + RelieVRx Group",
+              "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.2",
+                      "lowerLimit": "2.0",
+                      "upperLimit": "11.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.5",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "12.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "4 months for each patient",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Standard of Care Group",
+          "description": "Receive standard of care for pain management, do not receive RelieVRx headset\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 32,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 32,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 32
+        },
+        {
+          "id": "EG001",
+          "title": "Standard of Care + RelieVRx Group",
+          "description": "Receive standard of care for pain management, plus RelieVRx headset\n\nRelieVRx headset: RelieVRx is a virtual reality therapy intended as adjunctive treatment for acute surgical pain\n\nmulti-modality pain management: combination of medications may be used such as a local anesthesia, ibuprofen, acetaminophen, gabapentin, ketamine, lidocaine, and opioids",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 31,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 31,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 31
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Vice President of Research",
+        "organization": "AppliedVR",
+        "email": "tmaddox@appliedvr.io",
+        "phone": "13108901584"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-03-17",
+          "uploadDate": "2023-11-23T08:09",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 443365
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-16"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010149",
+          "term": "Pain, Postoperative"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

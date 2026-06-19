@@ -1,0 +1,372 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03375580",
+      "orgStudyIdInfo": {
+        "id": "U1111-1201-8245"
+      },
+      "organization": {
+        "fullName": "The First Affiliated Hospital of Guangdong Pharmaceutical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Therapeutic Effects of Compound Zhenzhu Tiaozhi Capsules in NAFLD",
+      "officialTitle": "Therapeutic Effects of Compound Zhenzhu Tiaozhi Capsules in Nonalcoholic Fatty Liver disease-a Randomized Controlled Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-31",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-08-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-11-26",
+      "studyFirstSubmitQcDate": "2017-12-14",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-12-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-12-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "He Xingxiang",
+        "investigatorTitle": "Director of the Hospital",
+        "investigatorAffiliation": "The First Affiliated Hospital of Guangdong Pharmaceutical University"
+      },
+      "leadSponsor": {
+        "name": "The First Affiliated Hospital of Guangdong Pharmaceutical University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomised clinical trial which aims to evaluate the efficacy of Compound Zhenzhu Tiaozhi capsules in the treatment of NAFLD and analyze the relationship between improvement in NAFLD parameters and changes in intestinal functions.",
+      "detailedDescription": "This is a randomised clinical trial which aims to evaluate the efficacy of Compound Zhenzhu Tiaozhi capsules in the treatment of NAFLD and analyze the relationship between improvement in NAFLD parameters and changes in intestinal functions. In this study, the investigators will (1)evaluate the relationship between the function of intestinal mucosal barrier, SIBO, and NAFLD;(2)assess the effects of Compound Zhenzhu Tiaozhi capsules on intrahepatic fat content, hepatic noninvasive score, liver biochemical parameters, blood lipid, and insulin resistance. To evaluate the therapeutic effects of Compound Zhenzhu Tiaozhi capsules on the treatment of NAFLD, and determine whether the risk stratification of atherosclerotic cardiovascular disease (ASCVD) and quality of life (using the 36-Item Short Form Health Survey \\[SF-36\\]) can be improved in NAFLD patients with Compound Zhenzhu Tiaozhi capsules;(3) compare the therapeutic effects of Compound Zhenzhu Tiaozhi capsules with conventional medications in the treatment of NAFLD, and to compare their efficacies in improving the risk stratification of ASCVD and quality of life, as assessed by the SF-36; (4) analyze the relationship of Compound Zhenzhu Tiaozhi capsules in improving NAFLD and parameters related to the function of the intestinal mucosal barrier and SIBO."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nonalcoholic Fatty Liver Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 196,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TLC group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "transform life custom (TLC) group",
+          "interventionNames": [
+            "Dietary Supplement: TLC"
+          ]
+        },
+        {
+          "label": "TLC + metformin group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "transform life custom (TLC) combined with 0.5g metformin, PO tid",
+          "interventionNames": [
+            "Dietary Supplement: TLC",
+            "Drug: metformin"
+          ]
+        },
+        {
+          "label": "TLC + CZT capsules group",
+          "type": "EXPERIMENTAL",
+          "description": "transform life custom (TLC) combined with 2.52 Compound Zhenzhu Tiaozhi capsules (four tablets), PO tid",
+          "interventionNames": [
+            "Dietary Supplement: TLC",
+            "Drug: Compound Zhenzhu Tiaozhi capsule"
+          ]
+        },
+        {
+          "label": "TLC + simvastatin group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "transform life custom (TLC) combined with 20mg simvastatin, PO qn",
+          "interventionNames": [
+            "Dietary Supplement: TLC",
+            "Drug: Simvastatin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "TLC",
+          "description": "transform life custom (TLC)",
+          "armGroupLabels": [
+            "TLC + CZT capsules group",
+            "TLC + metformin group",
+            "TLC + simvastatin group",
+            "TLC group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "metformin",
+          "description": "0.5g metformin group，PO tid",
+          "armGroupLabels": [
+            "TLC + metformin group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Compound Zhenzhu Tiaozhi capsule",
+          "description": "Compound Zhenzhu Tiaozhi capsules consist of eight Chinese herbal medications, such as Ligustrum lucidum, Atractylodes macrocephala, Radix Salviae Miltiorrhizae, pseudo-ginseng, Astragalus membranaceus.",
+          "armGroupLabels": [
+            "TLC + CZT capsules group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Simvastatin",
+          "description": "20mg simvastatin, PO qn",
+          "armGroupLabels": [
+            "TLC + simvastatin group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Fat attenuation index",
+          "description": "The fat attenuation index will be used to assess the therapeutic efficacy. A normal fat attenuation index is defined as \\< 240 db/m, mild is 240-264 db/m, moderate is 265-294 db/m, and severity is \\> 295 db/m.We will detect the fat attenuation index at 6 months following treatment. Effective: fat attenuation index is reduced by a level or more (example: moderate to mild). Invalid: fails to meet the effective standard.",
+          "timeFrame": "at 6 months following therapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Serum triglyceride",
+          "description": "detecting the serum level of triglyceride",
+          "timeFrame": "at 6 months following therapy"
+        },
+        {
+          "measure": "Serum cholesterol",
+          "description": "detecting the serum level of cholesterol",
+          "timeFrame": "at 6 months following therapy"
+        },
+        {
+          "measure": "Serum lipoproteins",
+          "description": "including chylomicron (CM), very-low-density lipoprotein (VLDL), low-density lipoprotein (LDL), and high-density lipoprotein (HDL).",
+          "timeFrame": "at 6 months following therapy"
+        },
+        {
+          "measure": "Hydrogen/methane breath testing",
+          "description": "breath testing for SIBO",
+          "timeFrame": "at 6 months following therapy"
+        },
+        {
+          "measure": "Quality of life",
+          "description": "The quality of life of the patients before and after treatment will be assessed using the 36-Item Short Form Health Survey and compared to assess the improvement.",
+          "timeFrame": "at 6 months following therapy"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nclinical diagnosis of simple steatosis or NASH 18 to 75 years old serum alanine transaminase (ALT)≤2 times the upper limit of normal\n\nExclusion Criteria:\n\nother chronic liver diseases serious complications in other organs malignant tumors",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Xingxiang He, Dr.",
+          "role": "CONTACT",
+          "email": "hexingxiangtongxun@126.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "First Affiliated Hospital of Guangdong Pharmaceutical University",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510080",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Guobiao Huang",
+              "role": "CONTACT",
+              "phone": "86-20-39352064",
+              "email": "153706227@qq.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2017-11-11",
+          "uploadDate": "2017-12-07T09:00",
+          "filename": "Prot_000.pdf",
+          "size": 393023
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2017-11-11",
+          "uploadDate": "2017-12-07T09:02",
+          "filename": "SAP_001.pdf",
+          "size": 412999
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2017-11-11",
+          "uploadDate": "2017-12-07T09:02",
+          "filename": "ICF_002.pdf",
+          "size": 169169
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        },
+        {
+          "id": "D019821",
+          "term": "Simvastatin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D008148",
+          "term": "Lovastatin"
+        },
+        {
+          "id": "D009281",
+          "term": "Naphthalenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

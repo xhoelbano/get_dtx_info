@@ -1,0 +1,154 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT04839822",
+      "nct_id": "NCT04839822",
+      "title": "Efficacy of Edupression.Com® in Depressive Patients",
+      "official_title": "Efficacy of the Digital Self-help Programme Edupression.Com® Evaluated Within a Randomized Controlled Trial in Mild to Moderate Unipolar Depressive Patients",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 250,
+      "start_date": "2021-04-28",
+      "completion_date": "2023-07-04",
+      "conditions": [
+        "Depressive; Episode, Major",
+        "Recurrent Depressive Disorder, Current Episode Moderate",
+        "Recurrent Depressive Disorder, Current Episode Mild"
+      ],
+      "keywords": [
+        "Depression",
+        "Internet-Based Intervention",
+        "Mobile Applications"
+      ],
+      "interventions": [
+        {
+          "name": "edupression.com®",
+          "type": "OTHER",
+          "description": "Edupression.com® is an evidence-based self-help program that was developed for the treatment of mild to moderate unipolar depression. It is based on two core foundations, psychoeducation with elements of cognitive behavior therapy (CBT) and a mood chart. Both foundations are registered as a medical product. As such, detailed risk management documentation includes probability and severity of adverse events. Moreover, detailed strategies such as warnings were implemented in the software and docume"
+        },
+        {
+          "name": "Health tips",
+          "type": "OTHER",
+          "description": "Interventions that do not directly target depression: general health tips (diet, lifestyle, smoking, etc.), occupational health interventions (back pain prevention, breaks,...), etc."
+        },
+        {
+          "name": "Surveys",
+          "type": "DIAGNOSTIC_TEST",
+          "description": "Quizzes and surveys for course monitoring (including suicidality), but without extensive reports."
+        },
+        {
+          "name": "Popular psychological interventions",
+          "type": "OTHER",
+          "description": "Popular psychological interventions, which have not been shown to be effective in studies: Affirmation phrases, motivational sayings and quotes (known also from calendars), tests (e.g., Rorschach interpretation), exercises (emotion recognition of faces), multimedia content (pleasant music, landscape images, interviews of famous people with depression), etc."
+        }
+      ],
+      "lead_sponsor": "Medical University of Vienna",
+      "collaborators": [],
+      "countries": [
+        "Austria"
+      ],
+      "brief_summary": "The aim of the study is to investigate the efficacy and adherence of the digital self-help programme edupression.com®.",
+      "detailed_description": "The edupression.com® self-help app is an evidence-based low-level psychosocial intervention, which a can be used as as monotherapy as first-line treatment in mild to moderate depressive patients or as complimentary treatment independent of previous therapy response or depression severity. The two foundations of edupression.com® are evidence-based psychoeducation with CBT elements, as well as self-monitoring in the mood chart. Evidence for the efficacy of this approach stems from a large body of literature regarding eHealth (healthcare services provided electronically via the internet) applications in depression.\n\nThis study's aim is to investigate edupression.com®'s capability to improve the illness course directly by reducing depressive symptoms (primary objective) and indirectly by fostering positive health care effects (secondary objective). The reduction of relapse risk and other preventive effects expected from other studies are beyond the time frame of this study. Beyond the evaluation of edupression.com®, this study could elucidate the general role of psychoeducation and mood tracking in online mental health to improve depression symptoms and adherence.\n\nObjectives: The primary objective is to test the clinical efficacy (at least 50% symptom reduction over a 3-month period) of edupression.com® in mild to moderate unipolar depressed patients. The secondary objective is to demonstrate positive health care effects within this 3-month trial period such as psychoeducation, quality of life, patient empowerment and other factors.\n\nStudy Design: The study design of this clinical trial is consistent with a monocentric, prospective, longitudinal, randomized controlled clinical trial. Patients, currently diagnosed with a mild to moderate major depressive episode (MDE) will be invited to use the digital self-help programme.\n\nFollowing the inclusion procedure, patients will be randomly assigned in a 1:1 ratio to two different treatment arms (A vs. B). Participants of the ",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04839822",
+      "_matched_query": "\"edupression.com\"",
+      "_raw_json_path": "evidence/Germany/edupression-com-r/candidates/clinicaltrials/raw/NCT04839822.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product edupression.com®, as evidenced by the repeated mention of the product name in the title, abstract, and full text. The intervention description matches the product's features, including psychoeducation and mood chart components.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "device_description"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "NCT04843462",
+      "nct_id": "NCT04843462",
+      "title": "Add-on Therapy With Edupression.Com® on Therapy Resistant Depressive Patients Treated With Nasal Esketamine Spray",
+      "official_title": "A Randomized, Controlled Pragmatic Trial Assessing the Value of an add-on Therapy With Edupression.Com® in Therapy Resistant Depressive Patients Treated With Esketamine Nasal Spray",
+      "status": "UNKNOWN",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 70,
+      "start_date": "2021-04-29",
+      "completion_date": "2023-04-14",
+      "conditions": [
+        "Major Depressive Disorder",
+        "Therapy Resistant Depression"
+      ],
+      "keywords": [
+        "Depression",
+        "Esketamine",
+        "Treatment resistant depression",
+        "Internet-based intervention",
+        "Telemedicine"
+      ],
+      "interventions": [
+        {
+          "name": "edupression.com®",
+          "type": "DEVICE",
+          "description": "Edupression.com® is an evidence-based self-help program that was developed for the treatment of mild to moderate unipolar depression. It is based on two core foundations, psychoeducation with elements of cognitive behavior therapy (CBT) and a mood chart. Both foundations are registered as a medical product. As such, detailed risk management documentation includes probability and severity of adverse events. Moreover, detailed strategies such as warnings were implemented in the software and docume"
+        },
+        {
+          "name": "Esketamine nasal spray",
+          "type": "DRUG",
+          "description": "All patients included in this study are receiving esketamine nasal spray as treatment-as-usual"
+        }
+      ],
+      "lead_sponsor": "Lukas Pezawas",
+      "collaborators": [],
+      "countries": [
+        "Austria"
+      ],
+      "brief_summary": "Pragmatic clinical trial of an add-on therapy regarding the use of edupression.com® - a licensed computer based self-help program - on patients with therapy-resistant depression receiving esketamine nasal spray",
+      "detailed_description": "edupression.com® - is a medical product and computer based self-help program based on cognitive behavioral therapy, psychoeducation and mood tracking. Patients included in the interventional arm of this study are receiving full access to edupression.com®.\n\nDue to limited resources regarding face-to-face therapy and a high prevalence of Major Depressive Disorder - of which 37% can be identified as therapy-resistant depression (TRD) according to the definition of the European Medical Agency (EMA) - low-intensity psychosocial interventions such as edupression.com® are recommended as first-line digital therapeutic agent by international guidelines such as National Institute for Health and Care Excellence (NICE) guidelines. Studies have shown that digital interventions - such as edupression.com - show comparable clinical efficiency to face-to-face therapy and therefore could be able to fill the gap in limited ressources. In this study patients with therapy-resistant depression are receiving therapy with edupression.com® in addition to their treatment-as-usual with esketamine nasal spray. Comparable studies have shown that patients receiving psychotherapy in addition to their medical therapy benefit in regards to their clinical outcome. Considering these findings, this study is aimed to investigate potential clinical benefits in patients receiving digital therapy with edupression®.com as an add-on therapy to their treatment-as-usual therapy with esketamine nasal spray.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04843462",
+      "_matched_query": "\"edupression.com\"",
+      "_raw_json_path": "evidence/Germany/edupression-com-r/candidates/clinicaltrials/raw/NCT04843462.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the use of edupression.com® as an add-on therapy for patients with therapy-resistant depression. The product name 'edupression.com®' is mentioned multiple times in the title, abstract, and full text, confirming the study's focus on this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 1 RWE indicators."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T03:53:13.139204Z",
+  "_source": "clinicaltrials",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

@@ -1,0 +1,1086 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04129580",
+      "orgStudyIdInfo": {
+        "id": "00012685"
+      },
+      "organization": {
+        "fullName": "Milton S. Hershey Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "reSET-O RCT (Randomized Controlled Trial)",
+      "officialTitle": "A Randomized Clinical Trial of Comprehensive Cognitive Behavioral Therapy (CBT) Via reSET-O for a Hub and Spoke Medication Assisted Treatment (MAT) System of Care."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-09-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-15",
+      "studyFirstSubmitQcDate": "2019-10-15",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-17",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-04-25",
+      "resultsFirstSubmitQcDate": "2024-04-25",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-05-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sarah Kawasaki",
+        "investigatorTitle": "Associate Professor of Pennsylvania Psychiatric Institute",
+        "investigatorAffiliation": "Milton S. Hershey Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Milton S. Hershey Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Columbia University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Pear Therapeutics, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "Research Foundation for Mental Hygiene, Inc.",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized controlled trial research study will be evaluating an app, reSET-O, owned by Pear Therapeutics, Inc., to evaluate treatment retention rates in individuals with opioid use disorder after initiating medication assisted treatment.",
+      "detailedDescription": "This randomized controlled trial research study will enroll 200 subjects, where half will be randomly assigned to treatment as usual (TAU) and the app, reSET-O (n = 100), and half will be assigned to TAU only (n = 100), in order to evaluate treatment retention rates in individuals with opioid use disorder after initiating medication assisted treatment. All subjects will participate in the study for a total of six months, and all subjects will attend five research appointments across the six months. Participants assigned to TAU + reSET-O will be expected to engage with the app, reSET-O, for the full six months. The app works as an extension of cognitive behavioral therapy as it provides psychoeducation related to opioid dependence and use, and is designed as an adjunctive treatment with medication assisted treatment for opioid use disorder."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid-use Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Single site, randomized controlled trial research study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment-As-Usual (TAU) + reSET-O",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.",
+          "interventionNames": [
+            "Device: reSET-O app"
+          ]
+        },
+        {
+          "label": "TAU only",
+          "type": "NO_INTERVENTION",
+          "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "reSET-O app",
+          "description": "The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,",
+          "armGroupLabels": [
+            "Treatment-As-Usual (TAU) + reSET-O"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Retention in Treatment on MAT for 6 Months After Enrolling in the Study",
+          "description": "reSET-O is a mobile app designed to provide extended cognitive behavioral therapy for patients initiating medication assisted treatment (MAT) for opioid use disorder (OUD). The first outcome being measure is treatment retention. We want to examine if participants enrolled in the study will maintain on MAT for 6 months after enrollment. This will be evaluated based on the number of appointments attended by the research participants. Data mining through our systems electronic medical record (EMR) will be conducted in order to count the number of attended appointments for study participants to gauge their treatment retention.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Opioid and Other Substance Abuse as Assessed Through Biological Specimen",
+          "description": "Part of this study is looking at the effect of reSET-O on substance use. This will be measured by collecting urine drug screens to assess drug use (if any) at each research appointment. The number of endorsed drugs used (as indicated by a positive urine drug screen) will be counted and recorded for each research visit.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Opioid and Other Substance Abuse as Assessed Through Participant Self-report",
+          "description": "Part of this study is looking at the effect of reSET-o on substance use. This will be measured by participant self-report on the Timeline Follow Back Questionnaire (TLFB). The TLFB is a self-report measure that gages the participant's memory by using a calendar to assess drug use within a specific period of time. The number of endorsed drugs used (as indicated by the participant) will be counted and recorded for each research visit.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Overall Mental Health Symptoms Related to Depression and Anxiety as Assessed by the K-10",
+          "description": "Part of this study is looking at the effect of reSET-O on 6 month adherence and mediation of improvements in quality of life outcomes such as overall mental health symptoms as measured by participant self-report on the Kessler 10 (K-10). A score of one indicates that an individual experiences symptoms or issues \"None of the time,\" whereas a score of five indicates that an individual experiences symptoms or issues \"All of time.\" The scores are summed and total amounts will fall in one of four categories: Score under 20 = likely to be well; Score 20-24 = likely to have a mild mental disorder; Score 25-29 = likely to have a moderate mental disorder; and Score 30 or more = likely to have a severe mental disorder. Baseline measurements were assessed and compared with results at 24 weeks in each arm. A negative number indicates improvement over the course of the study.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mental Health Symptoms Specific to Depression as Assessed by the PHQ-9",
+          "description": "Part of this study is looking at the effect of reSET-O on 6 month adherence and mediation of improvements in quality of life outcomes such as mental health specific to depression as measured by the participant self-report on the Patient Health Questionnaire (PHQ-9). The PHQ-9 is a 9 item questionnaire that assesses depressive symptoms or issues using a likert scale from \"0 to 3;\" 0 indicating no symptoms or issues and 3 indicating symptoms or issues occurring nearly every day. Scores are summed to calculate a total score. Scores 1-4 indicated minimal depression; scores 5-9 indicate mild depression; scores 10-14 indicate moderate depression; scores 15-19 indicated moderately severe depression; and scores 20-27 indicate severe depression. Baseline measurements were assessed and compared with results at 24 weeks in each arm. A negative number indicates improvement over the course of the study.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Mental Health Symptoms Related to PTSD as Assessed by the PCL-C",
+          "description": "Part of this study is looking at the effect of reSET-O on 6 month adherence and mediation of improvements in quality of life outcomes such as mental health specific to post-traumatic stress disorder as measured by the participant self-report on the abbreviated PTSD Checklist-Civilian Version (PCL-C). The PCL-C is a 17 item questionnaire that assesses PTSD symptoms on a likert scale from one to five (one = no symptoms or issues; five = extreme symptoms or issues). The scores are summed and a score of 30 or more indicates clinical PTSD symptoms. Baseline measurements were assessed and compared with results at 24 weeks in each arm. A negative number indicates improvement over the course of the study.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Diagnosis of opioid use disorder (OUD) as determined through routine clinical care\n* Recently starting outpatient treatment for OUD within the Penn State Health Hub and Spoke System of Care\n* Initiating MAT with buprenorphine-naloxone (suboxone), buprenorphine (Subutex), or methadone. Since buprenorphine (Subutex) is an FDA approved MAT for pregnant women with OUD, pregnant women are eligible to participate in the research study, assuming they meet all other eligibility requirements.\n* Prison inmates are eligible to participate in the study\n* Ability to read, write, and comprehend English\n\nExclusion Criteria:\n\n* Initiating maintenance treatment that does not include MAT or switching to a maintenance treatment that does not include MAT (i.e.: detoxification and counseling treatment only without MAT).\n* Planning an outpatient detoxification\n* Judged by the evaluating physician or allied clinician to need a higher level of care (i.e.: residential or inpatient treatment)\n* Less than 18 years of age\n* Unable to read, write, and comprehend English",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Pennsylvania Psychiatric Institute",
+          "city": "Harrisburg",
+          "state": "Pennsylvania",
+          "zip": "17110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.2737,
+            "lon": -76.88442
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Penn State's opioid use disorder clinic (opioid treatment program; OTP), housed at the Pennsylvania Psychiatric Institute will be housing and collecting all data. App data transfers will come from Pear Therapeutics, Inc. to the Penn State study team. This data will not include identifiable information. This data will include the number of modules completed per participant, as well as survey data (as assessed by the app) related to cravings and use. Data will be shared using a Penn State IT approved interface such as Kite Drive, Accelion, or File Drop. Penn State will in turn share data with Columbia University research team (collaborators on the study), for data analyses. Again, this data will be deidentified and will be shared via a Penn State IT approved system as mentioned above."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment-As-Usual (TAU) + reSET-O",
+          "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+        },
+        {
+          "id": "FG001",
+          "title": "TAU Only",
+          "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "48"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "52"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "34"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment-As-Usual (TAU) + reSET-O",
+          "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+        },
+        {
+          "id": "BG001",
+          "title": "TAU Only",
+          "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "48"
+            },
+            {
+              "groupId": "BG001",
+              "value": "52"
+            },
+            {
+              "groupId": "BG002",
+              "value": "100"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37.2",
+                      "spread": "8.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "36.1",
+                      "spread": "9.6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36.6",
+                      "spread": "9.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "91"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "83"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Retention in Treatment on MAT for 6 Months After Enrolling in the Study",
+          "description": "reSET-O is a mobile app designed to provide extended cognitive behavioral therapy for patients initiating medication assisted treatment (MAT) for opioid use disorder (OUD). The first outcome being measure is treatment retention. We want to examine if participants enrolled in the study will maintain on MAT for 6 months after enrollment. This will be evaluated based on the number of appointments attended by the research participants. Data mining through our systems electronic medical record (EMR) will be conducted in order to count the number of attended appointments for study participants to gauge their treatment retention.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment-As-Usual (TAU) + reSET-O",
+              "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+            },
+            {
+              "id": "OG001",
+              "title": "TAU Only",
+              "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "52"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Opioid and Other Substance Abuse as Assessed Through Biological Specimen",
+          "description": "Part of this study is looking at the effect of reSET-O on substance use. This will be measured by collecting urine drug screens to assess drug use (if any) at each research appointment. The number of endorsed drugs used (as indicated by a positive urine drug screen) will be counted and recorded for each research visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment-As-Usual (TAU) + reSET-O",
+              "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+            },
+            {
+              "id": "OG001",
+              "title": "TAU Only",
+              "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "52"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Opioid and Other Substance Abuse as Assessed Through Participant Self-report",
+          "description": "Part of this study is looking at the effect of reSET-o on substance use. This will be measured by participant self-report on the Timeline Follow Back Questionnaire (TLFB). The TLFB is a self-report measure that gages the participant's memory by using a calendar to assess drug use within a specific period of time. The number of endorsed drugs used (as indicated by the participant) will be counted and recorded for each research visit.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment-As-Usual (TAU) + reSET-O",
+              "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+            },
+            {
+              "id": "OG001",
+              "title": "TAU Only",
+              "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Mental Health Symptoms Related to Depression and Anxiety as Assessed by the K-10",
+          "description": "Part of this study is looking at the effect of reSET-O on 6 month adherence and mediation of improvements in quality of life outcomes such as overall mental health symptoms as measured by participant self-report on the Kessler 10 (K-10). A score of one indicates that an individual experiences symptoms or issues \"None of the time,\" whereas a score of five indicates that an individual experiences symptoms or issues \"All of time.\" The scores are summed and total amounts will fall in one of four categories: Score under 20 = likely to be well; Score 20-24 = likely to have a mild mental disorder; Score 25-29 = likely to have a moderate mental disorder; and Score 30 or more = likely to have a severe mental disorder. Baseline measurements were assessed and compared with results at 24 weeks in each arm. A negative number indicates improvement over the course of the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment-As-Usual (TAU) + reSET-O",
+              "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+            },
+            {
+              "id": "OG001",
+              "title": "TAU Only",
+              "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "52"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.23",
+                      "lowerLimit": "-7.12",
+                      "upperLimit": "-1.35"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-4.66",
+                      "lowerLimit": "-7.06",
+                      "upperLimit": "-2.26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mental Health Symptoms Specific to Depression as Assessed by the PHQ-9",
+          "description": "Part of this study is looking at the effect of reSET-O on 6 month adherence and mediation of improvements in quality of life outcomes such as mental health specific to depression as measured by the participant self-report on the Patient Health Questionnaire (PHQ-9). The PHQ-9 is a 9 item questionnaire that assesses depressive symptoms or issues using a likert scale from \"0 to 3;\" 0 indicating no symptoms or issues and 3 indicating symptoms or issues occurring nearly every day. Scores are summed to calculate a total score. Scores 1-4 indicated minimal depression; scores 5-9 indicate mild depression; scores 10-14 indicate moderate depression; scores 15-19 indicated moderately severe depression; and scores 20-27 indicate severe depression. Baseline measurements were assessed and compared with results at 24 weeks in each arm. A negative number indicates improvement over the course of the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment-As-Usual (TAU) + reSET-O",
+              "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+            },
+            {
+              "id": "OG001",
+              "title": "TAU Only",
+              "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "52"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.93",
+                      "lowerLimit": "-5.02",
+                      "upperLimit": "-0.84"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-1.65",
+                      "lowerLimit": "-3.40",
+                      "upperLimit": "0.11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mental Health Symptoms Related to PTSD as Assessed by the PCL-C",
+          "description": "Part of this study is looking at the effect of reSET-O on 6 month adherence and mediation of improvements in quality of life outcomes such as mental health specific to post-traumatic stress disorder as measured by the participant self-report on the abbreviated PTSD Checklist-Civilian Version (PCL-C). The PCL-C is a 17 item questionnaire that assesses PTSD symptoms on a likert scale from one to five (one = no symptoms or issues; five = extreme symptoms or issues). The scores are summed and a score of 30 or more indicates clinical PTSD symptoms. Baseline measurements were assessed and compared with results at 24 weeks in each arm. A negative number indicates improvement over the course of the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment-As-Usual (TAU) + reSET-O",
+              "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,"
+            },
+            {
+              "id": "OG001",
+              "title": "TAU Only",
+              "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "52"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.71",
+                      "lowerLimit": "-9.29",
+                      "upperLimit": "-0.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-6.60",
+                      "lowerLimit": "-10.37",
+                      "upperLimit": "-2.84"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "6 months over the course of study enrollment per participant.",
+      "description": "The study",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment-As-Usual (TAU) + reSET-O",
+          "description": "Participants randomly assigned to this arm will receive their TAU alongside the use of the app, reSET-O.\n\nreSET-O app: The reSET-O app, owned by Pear Therapeutics, Inc., is designed to work as cognitive behavioral therapy, adjunctive to medication assisted treatment, for opioid use disorder. The app provides psychoeducation related to opioid use and dependence, coping skills, and skills to avoid relapse,",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 48,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 48,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 48
+        },
+        {
+          "id": "EG001",
+          "title": "TAU Only",
+          "description": "Participants randomly assigned to this arm will receive their TAU only (no use of the app, reSET-O).",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 52,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 52,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 52
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "overdose",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "shortly after randomization, patient used funds from study to purchase OTC medications, which he then ingested. He was treated at the local hospital for nonfatal overdose, and he withdrew from both treatment and the study.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 48
+            },
+            {
+              "groupId": "EG001",
+              "numAtRisk": 52
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr Sarah Kawasaki",
+        "organization": "Penn State Milton S. Hershey Medical Center",
+        "email": "skawasaki@pennstatehealth.psu.edu",
+        "phone": "7175311000"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-03-26",
+          "uploadDate": "2024-04-25T16:30",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 321457
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2022-08-25",
+          "uploadDate": "2024-04-25T16:31",
+          "filename": "ICF_001.pdf",
+          "size": 173983
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009293",
+          "term": "Opioid-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000079524",
+          "term": "Narcotic-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

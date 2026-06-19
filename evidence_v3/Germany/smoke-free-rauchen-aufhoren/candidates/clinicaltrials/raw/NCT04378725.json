@@ -1,0 +1,200 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04378725",
+      "orgStudyIdInfo": {
+        "id": "DFC01811/0080(P)"
+      },
+      "organization": {
+        "fullName": "University of Malaya",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of a School-based Smoking Prevention and Cessation Programme in Negeri Sembilan",
+      "officialTitle": "Evaluation of The KOTAK, a School-based Smoking Prevention and Cessation Programme in Negeri Sembilan, Malaysia"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-01-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-12-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-01-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-05-04",
+      "studyFirstSubmitQcDate": "2020-05-06",
+      "studyFirstPostDateStruct": {
+        "date": "2020-05-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-06-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-06-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Malaya",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "School-based smoking cessation programmes stretched longer than a year had 12% reduction in preventing smoking uptake. With regards to smoking intervention programme among adolescents, there is a lack of evidences regarding its long-term effectiveness. This was due to lack of clear guidelines, methodological issues and the fact that adolescents were likely to be sporadic or non-daily smoker, leading to discrepancies in their self-reported claim. Adolescent's smoking relapse rate was at 47% while those who never smoke have a 13% chance to become smoker. Light and regular smokers have 30% and 75% chance becoming an adult smoker respectively. A review paper in smoking research in Malaysia showed that the provision of anti-smoking education in school was associated with reduced susceptibility in female smoking.Male students perceived printable media, radio and the Internet as effective in delivering anti-smoking messages.School-based smoking cessation programme has been shown to be cost-effective in helping the students to quit smoking both in developed and developing countries.For this reason, it is essential to explore what are the factors that amplify the success rate of smoking cessation effect of the KOTAK programme.",
+      "detailedDescription": "Through this study the investigators will seek to answer the following questions:\n\n* To determine the quit-smoking rate of the KOTAK programme\n* To determine the factors associated with quitting smoking with the KOTAK programme\n\nImportant aspects of the KOTAK programme evaluation will involve assessing its impacts on preventing smoking initiation and promoting smoking cessation among the adolescents. This form of assessment is vital in achieving the KOTAK's objectives to reduce the prevalence of smokers in Malaysian schools. An average of 8 hours of training were required for dental officers and dental nurses to deliver the modules in the KOTAK programme. This programme has an important financial implication as it involved almost 4 thousand dental officers and 3 thousand dental nurses to screen almost 4.6 million Malaysian schoolchildren in 2018.\n\nFactors yielding promising results for adolescents to quit smoking are important to be researched. This will provide us with valuable insights from the perspectives of the stakeholders pertaining on areas that needed improvement. Despite the existence of various tobacco-prevention program in public schools, KOTAK is deemed significant as it is a yearly collaboration of School Dental Services with the schools. This study will compare the quit smoking rate between Intervention (with KOTAK Programme) and Control (without KOTAK programme ) schools. The sampling unit was the school."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The study design is a cluster (cluster = school) randomized trial of schoolchildren participating in the school-based smoking prevention and cessation program (The KOTAK) . Randomization were done at the school level,after the schools were paired and matched base on the schools' overall academic achievement.The matched pairs were randomly selected.The selected pairs were then randomly allocated to either Intervention or Control schools. The Advance Intervention section of the KOTAK program will be assigned to the Intervention Schools.The cluster size will be treated as balancing factors in stratified allocation or as covariate in the statistical analysis.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The schoolchildren in the intervention and control schools were not aware of the differed treatment. The dentist involved in delivery the content of the KOTAK program were aware of the allocation of the schools.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 349,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control School",
+          "type": "NO_INTERVENTION",
+          "description": "When a student is screened as a smoker. The student will only be receiving Brief Intervention Advice from the dentist.\n\nBrief Intervention advice: delivered to all schoolchildren regardless of smoking status by the dentist. Brief information of dangers of smoking was embedded in the generic lecture of Dental Health Education given to the whole school in large group."
+        },
+        {
+          "label": "Intervention School",
+          "type": "EXPERIMENTAL",
+          "description": "The Intervention schools: Screened smokers were given Advanced Intervention sessions. After discussion with the State's oral health deputy director and district's programme coordinator, for the purpose of this study, the interval of the Advance Intervention session was decided at 1-month interval.",
+          "interventionNames": [
+            "Behavioral: School-based smoking prevention and cessation program (The KOTAK program)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "School-based smoking prevention and cessation program (The KOTAK program)",
+          "description": "Advance Intervention: Following the screening process, this intervention package was inclusive of group-briefing for the smokers in at least 3 subsequent sessions in one academic year. The content delivered by the dentist were based on the KOTAK guidebook consisted of 8 Modules.The modules were as follows:\n\n1. Introduction: Identifying students who smoke\n2. Cigarette and addiction\n3. The danger of smoking and passive smokers\n4. Advantages of smoke-free lifestyle and adolescent perception on smoking\n5. Legal and religious perception of smoking\n6. The benefits of smoking cessation\n7. Preparation and how to stop smoking\n8. Nicotine withdrawal symptom and relapse prevention\n\nThe Intervention schools: Screened smokers were given Advanced Intervention sessions. After discussion with the State's oral health deputy director and district's programme coordinator, for the purpose of this study, the interval of the Advance Intervention session was decided at 1-month interval.",
+          "armGroupLabels": [
+            "Intervention School"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Self-reported prolonged smoking abstinence for 7 days",
+          "description": "Prolonged smoking abstinence (self-reported) for 7 days was validated by breath carbon monoxide reading (ppm) and salivary cotinine concentration (ng/ml).\n\nThe cut-off points for both clinical measure were as follows;\n\n1. Exhaled Carbon Monoxide (ppm) reading; 0-4 CO ppm = non-smoker 5-6 CO ppm = light smoker 7 and above CO ppm = frequent smoker\n2. Salivary cotinine concentration (ng/mL) Code 0 (0-10 ng/mL)= non-smoker Code 1 (10-30 ng/mL)= light smoker Code 2-3 (30-200 ng/mL)= light smoker Code 4-6 (200- \\>1000) = heavy smoker",
+          "timeFrame": "6 month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nSmoker, medically fit and consented (parental) students enrolled in;\n\n1. Public funded school\n2. Daily school\n3. Non- same gendered schools (co-ed )\n4. Multiracial school\n\nExclusion Criteria:\n\nStudents who were a smoker enrolled in;\n\n1. Private schools\n2. Boarding school\n3. Same-gendered school\n4. Vernacular schools",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "13 Years",
+      "maximumAge": "17 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Roslan Saub, BDS MDSc PhD",
+          "affiliation": "University of Malaya",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Faculty of Dentistry, University of Malaya",
+          "city": "Kuala Lumpur",
+          "state": "Petaling Jaya",
+          "zip": "50603",
+          "country": "Malaysia",
+          "geoPoint": {
+            "lat": 3.1412,
+            "lon": 101.68653
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2019-01-15",
+          "uploadDate": "2020-06-15T23:28",
+          "filename": "ICF_000.pdf",
+          "size": 297396
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

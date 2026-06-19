@@ -1,0 +1,411 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06455488",
+      "orgStudyIdInfo": {
+        "id": "2020-CSF-00300"
+      },
+      "organization": {
+        "fullName": "CorVita Science Foundation",
+        "class": "OTHER"
+      },
+      "briefTitle": "MANAGE-VT Registry - MANAGEment of Ventricular Tachycardia Outcomes Registry",
+      "officialTitle": "MANAGEment of Ventricular Tachycardia Outcomes Registry",
+      "acronym": "MANAGE-VT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-07-20",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-07-20",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-06-05",
+      "studyFirstSubmitQcDate": "2024-06-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-06-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "CorVita Science Foundation",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Data collection registry for patients with ventricular tachycardia to help physicians give better care for patients clinically and procedurally.",
+      "detailedDescription": "After consent from a patient the research team will input patients data from many different categories. There is a link to the PDF for the consent form, a patients anticoagulant medications will be assessed, their ventricular tachycardia (VT) history will be inputted, and their date of birth and zip code will inputted. The research team will then input any EKG's, echocardiograms, VT ablations, ICD's, S-ICD's, lab results, and comorbidities."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ventricular Tachycardia"
+      ],
+      "keywords": [
+        "ventricular arrhythmia",
+        "ventricular tachycardia",
+        "ventricular fibrillation",
+        "stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 130,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MANAGE-VT Patients",
+          "description": "Patients will be assessed on the status of their ventricular tachycardia as well as other criteria such as: EKG,",
+          "interventionNames": [
+            "Procedure: Ventricular Tachycardia Ablation",
+            "Device: ICD Implant",
+            "Drug: Antiarrhythmic drug",
+            "Diagnostic Test: EKG",
+            "Diagnostic Test: Cardioversion",
+            "Diagnostic Test: Echocardiogram"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Ventricular Tachycardia Ablation",
+          "description": "This is a surgical ablation meant to reset patients irregular rhythm back to sinus.",
+          "armGroupLabels": [
+            "MANAGE-VT Patients"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "ICD Implant",
+          "description": "A pacemaker or defibrillator implant to prevent SCD",
+          "armGroupLabels": [
+            "MANAGE-VT Patients"
+          ],
+          "otherNames": [
+            "Pacemaker Implant"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Antiarrhythmic drug",
+          "description": "Drug therapies",
+          "armGroupLabels": [
+            "MANAGE-VT Patients"
+          ],
+          "otherNames": [
+            "Statin Therapy",
+            "Anticoagulants"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "EKG",
+          "description": "Monitoring EKG testing done on registry patients",
+          "armGroupLabels": [
+            "MANAGE-VT Patients"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Cardioversion",
+          "description": "Monitoring cardioversions on registry patients",
+          "armGroupLabels": [
+            "MANAGE-VT Patients"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Echocardiogram",
+          "description": "Monitoring echocardiogram testing done on patients",
+          "armGroupLabels": [
+            "MANAGE-VT Patients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recurrence of Ventricular Tachycardia",
+          "description": "The natural progression of v-tach will be assessed through medical record review",
+          "timeFrame": "July 20, 2020 - Present"
+        },
+        {
+          "measure": "Number of Participants with Risk of Sudden Cardiac Death",
+          "description": "All events of sudden cardiac death that arise from patients with ventricular tachycardia",
+          "timeFrame": "July 20, 2020 - Present"
+        },
+        {
+          "measure": "Prevent Risk of Stroke",
+          "description": "All strokes, transient ischemic and systemic thrombo-embolic events",
+          "timeFrame": "July 20, 2020 - Present"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be at least 18 years old\n* Must not be\n\nExclusion Criteria:\n\n\\-",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "All patients who have been diagnosed and have evidence of ventricular tachycardia and are over the age of 18. Every patient was presented with a consent form and was given a description of the study in a clinical setting.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Martin C Burke, DO",
+          "role": "CONTACT",
+          "phone": "7735208322",
+          "email": "mburke@corvitahealth.org"
+        },
+        {
+          "name": "Edward M Burke",
+          "role": "CONTACT",
+          "phone": "7737297956",
+          "email": "eddie@corvitahealth.org"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Corvita Science Foundation",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60643",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Martin C Burke, DO",
+              "role": "CONTACT",
+              "phone": "773-520-8322",
+              "email": "mburke@corvitahealth.org"
+            },
+            {
+              "name": "Edward M Burke",
+              "role": "CONTACT",
+              "phone": "7737297956",
+              "email": "eddie@corvitahealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017180",
+          "term": "Tachycardia, Ventricular"
+        },
+        {
+          "id": "D014693",
+          "term": "Ventricular Fibrillation"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013610",
+          "term": "Tachycardia"
+        },
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D000075224",
+          "term": "Cardiac Conduction System Disease"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017147",
+          "term": "Defibrillators, Implantable"
+        },
+        {
+          "id": "D000889",
+          "term": "Anti-Arrhythmia Agents"
+        },
+        {
+          "id": "D000925",
+          "term": "Anticoagulants"
+        },
+        {
+          "id": "D004562",
+          "term": "Electrocardiography"
+        },
+        {
+          "id": "D004452",
+          "term": "Echocardiography"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D047548",
+          "term": "Defibrillators"
+        },
+        {
+          "id": "D004566",
+          "term": "Electrodes"
+        },
+        {
+          "id": "D055615",
+          "term": "Electrical Equipment and Supplies"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        },
+        {
+          "id": "D004567",
+          "term": "Electrodes, Implanted"
+        },
+        {
+          "id": "D019736",
+          "term": "Prostheses and Implants"
+        },
+        {
+          "id": "D002317",
+          "term": "Cardiovascular Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D006401",
+          "term": "Hematologic Agents"
+        },
+        {
+          "id": "D006334",
+          "term": "Heart Function Tests"
+        },
+        {
+          "id": "D003935",
+          "term": "Diagnostic Techniques, Cardiovascular"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D004568",
+          "term": "Electrodiagnosis"
+        },
+        {
+          "id": "D057791",
+          "term": "Cardiac Imaging Techniques"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D014463",
+          "term": "Ultrasonography"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

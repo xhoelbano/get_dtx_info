@@ -1,0 +1,236 @@
+{
+  "country": "Germany",
+  "search_date": "2026-06-14T16:51:53.923880Z",
+  "mode": "full",
+  "dtx_searched": 3,
+  "total_candidates": 94,
+  "total_verified_rct": 53,
+  "total_verified_rwe": 5,
+  "total_rejected": 13,
+  "total_ineligible": 23,
+  "by_dtx": {
+    "attexis - die digitale Therapie bei ADHS im Erwachsenenalter": {
+      "dtx_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+      "country": "Germany",
+      "search_date": "2026-06-14T16:51:53.924013Z",
+      "candidates": {
+        "dtx_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T16:51:53.926285Z",
+        "queries": [
+          "\"attexis\"",
+          "\"attexis\" AND \"GAIA\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 4,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"GAIA\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 2,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"GAIA\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"GAIA\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"attexis\"",
+              "\"attexis\" AND \"GAIA\""
+            ]
+          }
+        },
+        "total_candidates": 6
+      },
+      "verification": {
+        "dtx_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T16:52:34.335800Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 4,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 2
+          },
+          "clinicaltrials": {
+            "candidates": 2,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 1,
+        "total_ineligible": 2
+      }
+    },
+    "deprexis": {
+      "dtx_name": "deprexis",
+      "country": "Germany",
+      "search_date": "2026-06-14T16:52:47.696915Z",
+      "candidates": {
+        "dtx_name": "deprexis",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T16:52:47.697445Z",
+        "queries": [
+          "\"deprexis\"",
+          "\"deprexis\" AND \"GAIA\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 60,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"GAIA\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 13,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"GAIA\""
+            ]
+          },
+          "drks": {
+            "total": 8,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"GAIA\""
+            ]
+          },
+          "isrctn": {
+            "total": 3,
+            "queries": [
+              "\"deprexis\"",
+              "\"deprexis\" AND \"GAIA\""
+            ]
+          }
+        },
+        "total_candidates": 84
+      },
+      "verification": {
+        "dtx_name": "deprexis",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T16:55:09.810945Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 60,
+            "verified_rct": 29,
+            "verified_rwe": 4,
+            "rejected": 9,
+            "ineligible": 18
+          },
+          "clinicaltrials": {
+            "candidates": 13,
+            "verified_rct": 12,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 1
+          },
+          "drks": {
+            "candidates": 8,
+            "verified_rct": 3,
+            "verified_rwe": 1,
+            "rejected": 3,
+            "ineligible": 1
+          },
+          "isrctn": {
+            "candidates": 3,
+            "verified_rct": 3,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 47,
+        "total_verified_rwe": 5,
+        "total_rejected": 12,
+        "total_ineligible": 20
+      }
+    },
+    "Kaia Rückenschmerzen - Rückentraining für Zuhause": {
+      "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "country": "Germany",
+      "search_date": "2026-06-14T16:57:38.687937Z",
+      "candidates": {
+        "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+        "country": "Germany",
+        "layer": "candidates",
+        "search_date": "2026-06-14T16:57:38.688719Z",
+        "queries": [
+          "\"Kaia Rückenschmerzen\"",
+          "\"Kaia Rückenschmerzen\" AND \"kaia health software\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"kaia health software\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"kaia health software\""
+            ]
+          },
+          "drks": {
+            "total": 4,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"kaia health software\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Kaia Rückenschmerzen\"",
+              "\"Kaia Rückenschmerzen\" AND \"kaia health software\""
+            ]
+          }
+        },
+        "total_candidates": 4
+      },
+      "verification": {
+        "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+        "country": "Germany",
+        "layer": "verification",
+        "verification_date": "2026-06-14T16:58:36.051810Z",
+        "sources": {
+          "drks": {
+            "candidates": 4,
+            "verified_rct": 3,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 1
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 1
+      }
+    }
+  }
+}

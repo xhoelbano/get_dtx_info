@@ -1,0 +1,294 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05909878",
+      "orgStudyIdInfo": {
+        "id": "IMAGINE (HSJ)"
+      },
+      "organization": {
+        "fullName": "St. Justine's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Virtual Reality Distraction for Anxiety (VR-IMAGINE at HSJ)",
+      "officialTitle": "Virtual Reality Distraction for Anxiety in Children During MRIs (VR-IMAGINE at HSJ) : A Randomized Controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-05-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-04-04",
+      "studyFirstSubmitQcDate": "2023-06-13",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-12-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sylvie Le May",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "St. Justine's Hospital"
+      },
+      "leadSponsor": {
+        "name": "St. Justine's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background:\n\nMagnetic resonance imaging (MRI) has been known for almost forty years to generate fear and anxiety. Children may become restless during scanning, which results in movement artifacts requiring the MRI to be repeated with sedation. Very few studies seemed to have looked at the effect of immersive virtual reality (IVR) on anxiety in children scheduled for an MRI.\n\nObjectives:\n\nThe aims of this study are two-fold: 1- to address feasibility and acceptability of a pre-procedural immersive VR (IVR) game preparation for anxiety management during MRIs and 2- to examine the efficacy of IVR game preparation compared to usual care for the management of procedural anxiety during MRIs.\n\nMethods:\n\nThis study will first consist of a field test phase with 10 participants, aged 7 to 17 years old, to address the feasibility and acceptability of the use of virtual reality. Following the field test, a RCT will be completed using a parallel design with two groups: 1) experimental group (pre-procedural IVR game preparation), 2) usual care group (standard care as per radiology department's protocol) in an equal ratio of 49 participants per group for a total of 98 participants. Recruitment will be done at CHU Sainte-Justine's, Quebec, Canada. The experimental group will receive a pre-procedural IVR game preparation (IMAGINE) that offers an immersive simulation of the MRI. Participants will complete a questionnaire to assess the acceptability, feasibility and incidence of side effects related to the intervention and the biofeedback device. Data collected will include socio-demographic, clinical characteristics, measures of anxiety with the French-Canadian version of the State-Trait Anxiety Inventory for Children (STAIC-F) and the Child Fear Scale (CFS, 0-4). Physiological biomarkers of anxiety such as alpha-amylase and other markers such as heart rate and head deviation will also be measured. Measures of healthcare professionals, parents, and participants' level of satisfaction will also be collected. Analyses will be carried out according to the intention-to-treat principle, with a significance level (α) of 0.05.\n\nDiscussion:\n\nOur study provides an alternative method for anxiety management to better prepare patients for an awake MRI. It will guide future medical practice by providing evidence-based knowledge on a non-pharmacological therapeutic modality for anxiety management in children scheduled for an MRI.",
+      "detailedDescription": "BACKGROUND\n\nMagnetic resonance imaging (MRI) is a technique that is considered non-invasive and safe as it does not use any radiation or X-rays unlike PET (positron emission tomography) scans or CT scans. MRI technology, instead, uses a magnetic field to generate images of the tissues and organs. For MRI to work as intended, the patient must remain still while laying down within a confined space for a certain amount of time. The MRI environment may be a source of anxiety for some patients. This can be due to the claustrophobic nature of the narrow space tunnel. MRIs have been in known for almost forty years to generate fear and anxiety caused by claustrophobia. In addition, MRI scanners generate loud clicking sounds while running. These loud acoustic noises may be as loud as 100dB, the equivalent of a snowmobile next to the patient. Not surprisingly, up to 30% of patients undergoing MRIs had anxiety-related reactions of various degrees of intensity. Interviews performed with small children and their parents revealed that MRIs caused anxiety in children because of their size, design and sounds. Hence, this environment is difficult to tolerate, especially for children. Oftentimes, anxious children may become restless during the exam leading to uncontrolled movements resulting in unusable images. As a consequence, this may result in a premature termination of the procedure itself, requiring the exam to be repeated ulteriorly, thus, causing subsequent episodes of anxiety.\n\nAs a result, it is becoming common practice in many hospitals' radiology department to require conscious sedation as the frequency of repeated MRI test are higher within the pediatric population. However, sedation is not without any risks or consequences. Emerging evidence suggests that sedation in children might have long-term neurocognitive side effects, in addition to the short-term procedure-related risks.\n\nFor this reason, many efforts have been put into the development of non-pharmacological methods to reduce fear and anxiety in children requiring MRI scans. Many interventions ranging from music and artwork to videogames have been used and deemed useful to relieve anxiety in children during an MRI exam. Interventions done prior to the scan have also been investigated. Among these, preprocedural patient education has been shown to decrease anxiety and enhance comprehension of MRI exams, which in turn, can serve to increase patient collaboration. However, different educational material can have different effects on reducing anxiety levels. Mock MRI scanners, which involve using a full-size replica scanner for a 5-minute training session to lie still, have been used to help explain to children what the procedure involves and what to expect in an age appropriate manner. This preparation has been reported to reduce MRI-related procedural anxiety, rate of motion artifacts, need for sedation, overall duration of the study, as well as a decrease in heart rate during the procedure. However, a shortcoming of mock replica is that there is limited availability in hospitals, since the mock MRI machine would require a room to store, as well as additional resources, including staff and time, to organize these sessions.\n\nVirtual reality (VR) used to replicate an MRI environment can also be used as patient preparation. Indeed, VR has been used as preparation for chest radiography, dental procedures, anesthesia and surgeries. These studies show that VR preparation helped improve procedural experience among pediatric patients by reducing anxiety, distress and procedural time while increasing parents' satisfaction. VR is a distraction method that has been proven effective in reducing pain and anxiety in children in different settings, such as phlebotomy, wound care, chemotherapy, dental procedures and bone pins removal.\n\nTo the best of our knowledge, very few studies seemed to have looked at the effect of virtual reality (VR) on anxiety of children scheduled for an MRI scan. The investigators believe that using a virtual reality preparation game, ahead of time, to familiarize children prior to the MRI procedure would help decrease anxiety, increase patient collaboration, decrease the need for sedation and improve patient, family, and health care professional's satisfaction.\n\nAims of the study\n\nThe aims of this study are three-fold:\n\n1. To address feasibility and acceptability of a pre-procedural immersive VR (IVR) game preparation before an MRI for children's anxiety (field test phase) and;\n2. To examine the efficacy of a pre-procedural IVR game preparation compared to usual care for the management of procedural anxiety in children undergoing an MRI (RCT).\n\nHypothesis (For the scientific validation)\n\nThe investigators believe that an IVR intervention in the format of an interactive video game to prepare participants prior to an MRI exam is easy to use and could help decrease MRI-related procedural anxiety in children from 7 to 17 years old. The investigators believe that a patient who can follow the instructions well, without any signs of anxiety detected by physiological parameters, will have better results in the MRI than a patient who has difficulty following the instructions and/or who shows signs of anxiety through his physiological parameters.\n\nObjectives\n\nThe primary research question is: For children undergoing magnetic resonance imaging, will a preprocedural interactive IVR game preparation decrease their MRI-related procedural anxiety?\n\nMETHODS\n\nDesign\n\nThis study design will be two-fold A) consisting of a field test phase with 10 participants (10% of the total sample size calculated) to address the feasibility and acceptability of the VR intervention and research process. Any changes needed will be made between the end of the field test and the start of the RCT. No changes will be made once the RCT starts. Following the field test, B) the investigators will proceed to a scientific clinical validation based on a randomized clinical trial design using a parallel design with two groups: 1) experimental group (pre-procedural IVR game preparation), 2) usual care group (standard care as per radiology department's protocol) in an equal ratio of 49 participants per group for a total of 98 participants including a correction for an attrition rate of 24%, established according to the 2020 radiology records at the study setting.\n\nSample and setting\n\nRecruitment will be done at CHU Sainte-Justine's, a pediatric hospital. Participants will be identified through the radiology information system as having an appointment for an upcoming MRI. A research nurse will be notified by the radiology technologist and will proceed to contact the parents for recruitment ahead of time before their arrival to the radiology department.\n\nStudy time-points\n\nSocio-demographic and clinical characteristics will be assessed in the waiting room to establish baseline at T0. Measures of procedure related-anxiety with the French-Canadian version of the StateTrait Anxiety Inventory for Children (STAIC-F), the Child Fear Scale (CFS, 0-4) and alpha-amylase salivary sample will be taken before the intervention (T0), immediately after the intervention (T1) and after the MRI procedure (T2). A measure of healthcare professionals, parents, and participants' level of satisfaction via a questionnaire developed and pretested by the team will also be collected at T2. Physiological signs such as heart rate. Data will be collected on the occurrence of side effects throughout the study.\n\nSample size and statistical analysis\n\nSample Size consideration. Primary analysis will involve the comparison of two group means. In addition, no interim analysis will be conducted. Therefore, group sample sizes of 37 (i.e. 74 in total) are necessary to achieve 80% power to reject the null hypothesis of equal means when the population mean difference for State anxiety score is 5 with a standard deviation for both groups of 7.47 and a significance level (alpha) of 5% using a two-sided t-test. Standard deviation for both groups was varying from 4.61 to 7.47. In order to be conservative, the investigators chose 7.47. Based on data from the medical imaging registry, the attrition rate was approximately 24%. Assuming a similar attrition rate, a total of 98 participants (49 per group) will be required. The sample size calculation was performed using PASS Software (version 12). Statistical analysis. Analyses will be conducted using the statistical analysis software (SAS) (version 9.4). Descriptive statistics will be conducted for socio-demographic and clinical variables and presented by treatment group.\n\nPrimary outcomes analyses: An analysis of covariance (ANCOVA) adjusted for age, sex, baseline (T0) Trait anxiety score measurement and baseline State anxiety score measurement will be used to assess the mean difference in State anxiety scores on the STAIC-S, between the experimental and the control groups at T2. Analyses will be carried out according to the intention-to-treat principle, with a significance level (α) of 0.05.\n\nB. Secondary outcomes analyses: An ANCOVA adjusted for age, sex and baseline anxiety score measurement will be used to assess the mean difference in anxiety scores on the CFS, between the experimental and the control groups at T2. To assess the mean difference in the sense of presence in VR and engagement into the game (GRS), between the experimental and the control groups at T1, an ANCOVA adjusted for age and sex will also be conducted. The investigators will use a linear mixed model to estimate the effect of the treatment on the changes in heart rate over all assessment timepoints. This analysis will be adjusted for age, sex and baseline heart rate. Differences between arms for Parents, children and healthcare professionals' levels of satisfaction (T2) as well as the overall procedure time will be assessed using Student's t-tests or nonparametric Mann Whitney U Test if data are non-normal. Chi-squared Test or Fisher's Exact Test will be conducted to compare dichotomous variables including the occurrence of side effects, the number of rescheduled MRI and use of sedation in each group.\n\nAdverse events and serious adverse events (if any) will be reported using the MedDRA terminology and their proportions will be compared between the groups."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Magnetic Resonance Imaging",
+        "Pediatric",
+        "Virtual Reality",
+        "Anxiety"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 98,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Virtual Reality Distraction",
+          "type": "EXPERIMENTAL",
+          "description": "Use of Virtual Reality (VR) before the MRI.",
+          "interventionNames": [
+            "Device: Virtual Reality"
+          ]
+        },
+        {
+          "label": "Standard Treatment",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard Treatment used at the radiology department.",
+          "interventionNames": [
+            "Other: Standard Protocol"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Virtual Reality",
+          "description": "The pre-procedural IVR game preparation (IMAGINE) was developed by Paperplane Therapeutics® (intervention development team). IMAGINE is an immersive virtual reality simulation aiming to reduce the anxiety and phobic reactions of young patients and to better prepare them for this exam. Since the game is a preparation, it is a no success game and is independent of the ability and previous experience of the child with video games. It offers an immersive and fun simulation that aims to desensitize young patients to MRI and transform an anxiety-inducing experience into a fun play session. The participant will learn about the main principles of magnetic resonance imaging and experience a very realistic simulation of the MRI exam. This will allow children to prepare for the MRI scanner by enabling them to experience the process of undergoing an MRI exam beforehand.",
+          "armGroupLabels": [
+            "Virtual Reality Distraction"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard Protocol",
+          "description": "The usual care group will only receive the standard preparation, which comprises of an explanation of the MRI procedure given by the radiology technician as per the radiology department's protocol. Specifically at the hospital (HSJ), standard care also includes access to a television mounted near the MRI playing videos.The research nurse will be able to complete any information should they find it incomplete or substandard.",
+          "armGroupLabels": [
+            "Standard Treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Level of state-trait anxiety",
+          "description": "Anxiety level will be measured using the State-Trait Anxiety Inventory for Children (French-Canadian Version) (STAIC-F), a 40-item questionnaire separated equally into two parts (State \\& Trait) tailored for assessing anxiety in children. Each of the questions (items) use a 0-4 scale where 0 is ''Almost never'' and 4 is ''Almost all the time''. The First part (first 20 questions) of the questionnaire measures the State (situational) anxiety of a specific situation and will be measured at T0, T1 and T2. The Second part (last 20 questions) measure the trait anxiety of the person and will only be measured at T0.",
+          "timeFrame": "Change from Baseline (T0) at 15 minutes (T1) and at 30 minutes (T2)"
+        },
+        {
+          "measure": "Level of anxiety",
+          "description": "Will also be assessed using the Child Fear Scale (CFS). 0 (no fear/anxiety) through 4 (extremely fearful/anxious).",
+          "timeFrame": "Change from Baseline (T0) at 15 minutes (T1) and at 45 minutes (T2)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Sense of presence/engagement",
+          "description": "Will be assessed using the Graphic Rating Scale (GRS), a 7-item Likert-type scale tailored for virtual reality intervention level of immersiveness. Each of the 7 questions (items) use a 0-10 scale where 0 is Not at all and 10 is a lot/extreme. The meaning of the scale is always the same, but the words may change to fit the question.",
+          "timeFrame": "Measured after in intervention - 15 minutes (T1)"
+        },
+        {
+          "measure": "Head deviation in space",
+          "description": "The head deviation during the simulation is measured continuously for the entire duration of the intervention through the positioning cameras in the headset. It will be measured in cm",
+          "timeFrame": "Measured for the duration of the VR simulation for an approximate duration of 15 minutes (From T0 to T1)"
+        },
+        {
+          "measure": "Heart rate",
+          "description": "Measurement of Heart rate via a pulse oximeter will be measured using the biofeedback device that will continuously capture and record physiological signs.",
+          "timeFrame": "Measured at baseline (T0), immediately after the VR intervention has ended at 15 minutes (T1), and measured after the MRI at 45 minutes (T2)"
+        },
+        {
+          "measure": "Oxygen Saturation",
+          "description": "Measurement of oxygen saturation via a pulse oximeter will be measured using the biofeedback device that will continuously capture and record physiological signs.",
+          "timeFrame": "Measured at baseline (T0), immediately after the VR intervention has ended at 15 minutes (T1), and measured after the MRI at 45 minutes (T2)"
+        },
+        {
+          "measure": "Parent's satisfaction",
+          "description": "Will be assessed using a 0 to 10 numerical rating scale (NRS), where 0 is Not satisfied and 10 very much satisfied",
+          "timeFrame": "Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Children's satisfaction",
+          "description": "will be assessed using a 0 to 10 numerical rating scale where 0 indicates Not satisfied and 10 Very much satisfied",
+          "timeFrame": "Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Healthcare professional's satisfaction",
+          "description": "assessed using a numerical rating scale where 0 is Not Satisfied and 10 is Very much satisfied",
+          "timeFrame": "Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Occurrence of side effects",
+          "description": "Will be assessed and documented from enrolment until discharge",
+          "timeFrame": "Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Procedural time",
+          "description": "Time for completion of the MRI procedure",
+          "timeFrame": "Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Number of rescheduled MRI",
+          "description": "Dichotomized variable : yes or no. We will measure the percentage of participants who will require to repeat their MRI.",
+          "timeFrame": "Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Level of State-trait anxiety in parents",
+          "description": "Trait anxiety level will be measured using the State-Trait Anxiety Inventory (French-Canadian Version) (STAI-F), a 40-item questionnaire separated equally into two parts (State \\& Trait) tailored for assessing anxiety. Each of the questions (items) use a 0-4 scale where 0 is ''Almost never'' and 4 is ''Almost all the time''. The First part (first 20 questions) of the questionnaire measures the State (situational) anxiety of a specific situation and will be measured at T0 and T2. The Second part (last 20 questions) measure the trait anxiety of the person and will only be measured at T0.",
+          "timeFrame": "Measured at Baseline (T0) and Measured at 45 minutes (T2)"
+        },
+        {
+          "measure": "Physiological measurement of anxiety (Alpha-Amylase)",
+          "description": "Measurement of anxiety will be done via salivary alpha-amylase which will be collected from children and the accompanying parent.",
+          "timeFrame": "Measured at Baseline (T0) and Measured at 45 minutes (T2)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* aged from 7 to 17 years old\n* required to undergo MRI\n* accompanied by a consenting parent or legal guardian who can understand, read and write either French or English\n\nExclusion Criteria:\n\n* have a diagnosis of epilepsy or any other condition preventing them from playing a virtual reality game\n* cannot stand a sitting or semi-upright sitting position (Fowler's position) during the preparation as the VR gear requires an angle of at least 30 degrees for head-tracking",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "7 Years",
+      "maximumAge": "17 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sylvie Le May, PhD",
+          "role": "CONTACT",
+          "phone": "5143454931",
+          "phoneExt": "4938",
+          "email": "sylvie.lemay@umontreal.ca"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Sylvie Le May, PhD",
+          "affiliation": "St. Justine's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St. Justine's Hospital",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 3C5",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Sylvie Le May, PhD",
+              "role": "CONTACT",
+              "phone": "5143454931",
+              "phoneExt": "4938",
+              "email": "sylvie.lemay@umontreal.ca"
+            },
+            {
+              "name": "Sylvie Le May, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C077194",
+          "term": "AIEOP acute lymphoblastic leukemia protocol"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

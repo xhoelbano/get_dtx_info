@@ -1,0 +1,85 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00023791",
+      "drks_id": "DRKS00023791",
+      "title": "Randomized controlled pilot study of the clinical efficacy of the Mika App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00023791/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00023791.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Mika App, as evidenced by the title and detailed description in the trial registration, which explicitly mentions the Mika App as the intervention being studied.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a 'randomized controlled pilot study' where participants are randomly assigned to intervention and control groups, which is characteristic of an RCT design."
+      }
+    },
+    {
+      "study_id": "DRKS00036566",
+      "drks_id": "DRKS00036566",
+      "title": "Evaluation of the effectiveness of a digital support tool (Mika-App) for cancer patients under clinical routine conditions at the Comprehensive Cancer Center Central Germany (CCCG): Effects on self-management skills, psychological distress, and quality of life",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036566/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00036566.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Mika-App, as evidenced by the title and full text which repeatedly mention the Mika-App as the digital support tool being evaluated for cancer patients.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial where 300 patients are randomly assigned to either an intervention group using the Mika-App or a waitlist control group. This randomization and comparison under controlled conditions classify it as an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00026038",
+      "drks_id": "DRKS00026038",
+      "title": "Prospective Randomized Group Controlled Study of Clinical Efficacy and Safety of the CE marked Mika App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00026038/details",
+      "_matched_query": "\"Mika\"",
+      "_raw_json_path": "evidence/Germany/mika/candidates/drks/raw/DRKS00026038.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Mika App, as evidenced by the title and multiple mentions in the full text, including the description of the intervention group receiving access to the Mika App.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a 'Prospective Randomized Group Controlled Study' with participants randomly assigned to an intervention group and a control group, which is characteristic of an RCT. The use of a waiting list control design further supports this classification."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T10:03:31.739057Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

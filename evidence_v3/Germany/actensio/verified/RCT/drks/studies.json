@@ -1,0 +1,59 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00030109",
+      "drks_id": "DRKS00030109",
+      "title": "Digital lifestyle intervention solution for hypertension",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030109/details",
+      "_matched_query": "\"actensio\"",
+      "_raw_json_path": "evidence/Germany/actensio/candidates/drks/raw/DRKS00030109.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically tests the digital application 'actensio' for hypertension patients, as mentioned in the trial description and scientific summary. The product name 'actensio' appears multiple times, and the manufacturer 'mementor DE GmbH' is identified as the developer.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is described as a randomized controlled trial where participants are randomly assigned to either an intervention group or a control group. This randomization to isolate the treatment effect is the defining feature of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00032452",
+      "drks_id": "DRKS00032452",
+      "title": "Investigating the effectiveness of the digital lifestyle intervention \"actensio\" to reduce blood pressure in adults with hypertension after six months of use",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00032452/details",
+      "_matched_query": "\"actensio\"",
+      "_raw_json_path": "evidence/Germany/actensio/candidates/drks/raw/DRKS00032452.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'actensio', as evidenced by the repeated mention of the product name in the title and full text. The study investigates the effectiveness of 'actensio' in reducing blood pressure in adults with hypertension.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study involves random allocation of participants to an intervention group (actensio + care as usual) or a control group (care as usual), which is a defining feature of a randomized controlled trial."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T09:19:08.328501Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

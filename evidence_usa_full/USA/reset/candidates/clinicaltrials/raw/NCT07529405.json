@@ -1,0 +1,307 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07529405",
+      "orgStudyIdInfo": {
+        "id": "CurbMF-001"
+      },
+      "organization": {
+        "fullName": "Virogen Biotechnology Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of VG712 in Patients With Mycosis Fungoides",
+      "officialTitle": "A Phase II Multi-center Randomized Clinical Trial to Determine the Safety and Effectiveness of A-dmDT390-bisFv(UCHT1) Fusion Protein (VG712) in Subjects With Mycosis Fungoides (CurbMF Trial)",
+      "acronym": "CurbMF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-07-30",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-20",
+      "studyFirstSubmitQcDate": "2026-04-07",
+      "studyFirstPostDateStruct": {
+        "date": "2026-04-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Virogen Biotechnology Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "H. Lee Moffitt Cancer Center and Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "VG712 (A-dmDT390-bisFv(UCHT1) fusion protein) is a recombinant anti-CD3 immunotoxin that selectively depletes CD3-positive T cells through irreversible inhibition of protein synthesis. This Phase II study (CurbMF-001) evaluates the safety and efficacy of VG712 compared with mogamulizumab in subjects with relapsed or refractory mycosis fungoides (MF) who have failed 2 or more prior systemic therapies. The study has two parts: a lead-in dosing part (BOIN design, up to 24 subjects) to determine RP2D, followed by a randomized part (approximately 322 subjects, 1:1 VG712 vs. mogamulizumab). Sponsor: Virogen Biotechnology Inc.",
+      "detailedDescription": "Mycosis fungoides (MF) is the most common subtype of primary cutaneous T-cell lymphoma (CTCL). Patients with advanced or relapsed/refractory MF often experience disease progression despite available systemic therapies, including mogamulizumab, and have limited durable treatment responses, representing a significant unmet medical need.\n\nVG712 is a recombinant anti-CD3 immunotoxin designed to selectively deplete CD3-positive T cells. By targeting the CD3 receptor, VG712 induces rapid and transient T-cell depletion, with subsequent recovery of the T-cell population following completion of treatment. This mechanism may enable elimination of pathogenic or malignant T cells while allowing immune reconstitution.\n\nThis study (CurbMF-001) is a Phase II study evaluating the safety and efficacy of VG712 compared with mogamulizumab in subjects with relapsed or refractory MF who have received two or more prior systemic therapies.\n\nThe study consists of two sequential parts. The lead-in dosing part uses a Bayesian Optimal Interval (BOIN) design to evaluate additional dose levels of VG712 in up to approximately 24 subjects at a single site to determine the recommended Phase 2 dose (RP2D).\n\nThe randomized part will enroll approximately 322 subjects at multiple centers. Subjects will be randomized in a 1:1 ratio to receive either VG712 at the RP2D or mogamulizumab according to the approved dosing regimen. Treatment will continue until disease progression or unacceptable toxicity.\n\nBoth parts of the study include a screening period, treatment period, safety follow-up, and long-term follow-up to assess durability of response and long-term safety."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mycosis Fungoides"
+      ],
+      "keywords": [
+        "Mycosis Fungoides",
+        "CTCL",
+        "Immune Reset",
+        "VG712",
+        "Immune Reconstitution",
+        "A-dmDT390-bisFv(UCHTI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Parallel Assignment (randomized part: Arm 1 VG712 vs. Arm 2 mogamulizumab) / Single Group Assignment (lead-in dosing part).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This is an open-label study with no masking of participants, investigators, or outcome assessors."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 386,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "VG712 Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Lead-in dosing part: VG712 administered IV (twice daily, 4-6 hours apart, for 4 consecutive days) at escalating total doses of 5, 10, 15, or 20 ug/kg per the BOIN design. Randomized part Arm 1: VG712 at RP2D administered IV (twice daily x 4 consecutive days; each injection equals 1/8 of the total RP2D).",
+          "interventionNames": [
+            "Drug: VG712"
+          ]
+        },
+        {
+          "label": "Mogamulizumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Mogamulizumab was administered at a dose of 1.0 mg/kg as an intravenous infusion over at least 60 minutes on Days 1, 8, 15, and 22 of Cycle 1, and on Days 1 and 15 of each subsequent 28-day cycle, until disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Drug: Mogamulizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "VG712",
+          "description": "Recombinant anti-CD3 immunotoxin fusion protein composed of bivalent UCHT1 single-chain variable fragments linked to a modified diphtheria toxin (A-dmDT390). VG712 is administered intravenously to selectively deplete CD3-positive T cells.",
+          "armGroupLabels": [
+            "VG712 Treatment"
+          ],
+          "otherNames": [
+            "A-dmDT390-bisFv(UCHT1) fusion protein"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Mogamulizumab",
+          "description": "Humanized monoclonal antibody targeting CCR4, administered intravenously for the treatment of T-cell lymphomas, including mycosis fungoides.",
+          "armGroupLabels": [
+            "Mogamulizumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "PFS is defined as the time from randomization to tumor progression or death from any cause, based on independent reviewer's assessment.",
+          "timeFrame": "From randomization until disease progression or death, assessed up to 72 months post-EOT visit."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Response Rate (ORR)",
+          "description": "Proportion of subjects achieving CR or PR per investigator's and independent reviewer's assessment using consensus criteria at each scheduled assessment.",
+          "timeFrame": "Up to 72 months post-EOT visit."
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "Time from first documented response (CR or PR) to disease progression or death from any cause, assessed by investigator and independent reviewer per consensus criteria.",
+          "timeFrame": "Up to 72 months post-EOT visit."
+        },
+        {
+          "measure": "Incidence of adverse events (AEs)",
+          "description": "Incidence of adverse events (AEs) graded per NCI-CTCAE version 5.0, including treatment-related AEs, serious adverse events (SAEs), and AEs leading to study drug discontinuation.",
+          "timeFrame": "Up to 72 months post-EOT visit."
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Time from randomization to death from any cause (key secondary endpoint). OS rate assessed at 1 year and annually thereafter.",
+          "timeFrame": "Up to 72 months post-EOT visit."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and/or female, aged 18 years or older at the time of enrollment\n2. Stage IB-IVB histologically confirmed relapsed or refractory mycosis fungoides (MF) without Sézary syndrome, with failure of 2 or more prior systemic therapies (for progression or toxicity as assessed by the investigator). Note: Total skin electron beam therapy, narrow band UVB, and psoralen plus UV light therapy are not counted as systemic therapies\n3. ECOG performance status of 2 or less\n4. Normal lung function evaluated by pulse oximetry after 5 minutes of rest in a seated position, with oxygen saturation values between 92% and 100% without supplemental oxygen\n5. Adequate baseline organ function within 28 days before the start of study treatment, including: left ventricular ejection fraction (LVEF) of 50% or greater by MUGA scan or 2D echocardiogram without evidence of cardiac chamber hypertrophy, dilatation, or hypokinesis; no clinically significant abnormalities on a 12-lead ECG; bilirubin 1.5x ULN or less (except subjects with Gilbert's syndrome); AST and ALT each 2.5x ULN or less (or 5.0x ULN or less with known hepatic involvement by MF); calculated creatinine clearance greater than 50 mL/min using the Cockcroft-Gault formula; serum albumin 3.2 g/dL or greater (albumin infusions are not permitted to meet eligibility); platelets 75,000/uL or greater, ANC 1.0x10\\^9/L or greater, Hgb greater than 8 g/dL (exception for subjects with low blood counts due to documented bone marrow involvement, with sponsor medical monitor approval required before enrollment)\n6. Has recovered from toxicities (except alopecia) of prior chemotherapy or radiation therapy to Grade 1 or less according to NCI-CTCAE v5.0\n7. Females and males must be willing to use an approved form of contraception while on study drug and for 3 months after the last dose of study drug\n8. Expected survival of 3 months or greater\n\nExclusion Criteria:\n\n1. Current evidence of large cell transformation (LCT) in the randomized part (subjects with clinical features suggestive of LCT must have a biopsy performed within 4 months prior to Cycle 1 Day 1 without evidence of LCT; this exclusion criterion does not apply to the lead-in dosing part)\n2. Inability to understand and give written informed consent for participation in this trial, including all evaluations and procedures specified by this protocol\n3. Allergy to diphtheria toxin, a component of A-dmDT390-bisFv(UCHT1) fusion protein\n4. Unstable or severe uncontrolled medical condition (e.g., uncontrolled diabetes, uncontrolled infections requiring systemic antibiotics, psychiatric illness/social situations, or any important medical illness or abnormal laboratory finding that would, in the investigator's judgment, increase risk to the subject)\n5. History of active malignancy within 2 years, or malignancies that may interfere with data interpretation, other than nonmelanoma skin cancer, melanoma in situ, carcinoma in situ of the uterine cervix/prostate/bladder/breast, localized prostate cancer with PSA less than 0.1 ng/mL, or thyroid cancer\n6. Clinical evidence of central nervous system MF involvement\n7. Known active, uncontrolled autoimmune disease requiring systemic corticosteroids, cytotoxic or biologic therapy. Exceptions permitted include: type I diabetes mellitus; hypothyroidism only requiring hormone replacement therapy; skin disorders such as vitiligo, psoriasis, or alopecia not requiring systemic therapy\n8. Baseline corrected QT interval greater than 470 ms; baseline QT interval corrected with Fridericia's method (QTcF) greater than 470 ms (average of triplicate ECG)\n9. Poorly controlled hypertension defined as systolic BP greater than 160 mmHg or diastolic BP greater than 90 mmHg on 2 consecutive measurements separated by 1 week despite 2 antihypertensive medications. Subjects receiving a beta blocker for hypertension must be converted to another antihypertensive drug class (angiotensin inhibitors, angiotensin receptor blockers, or calcium channel blockers are all acceptable) at least 2 weeks before receiving study drug\n10. History of or currently active cardiovascular disease within 12 months before the first dose of study drug, including: myocardial infarction or coronary artery bypass grafting, cardiomyopathy, unstable angina pectoris, clinically significant cardiac arrhythmia, congestive heart failure (NYHA Class III or IV), or cerebrovascular accident. Atrial fibrillation is allowed if rate is controlled (resting heart rate less than 90 bpm and less than 180 bpm during exercise)\n11. Uncontrolled, clinically significant pulmonary disease (e.g., chronic obstructive pulmonary disease, pulmonary hypertension) that in the opinion of the investigator would put the subject at significant risk for pulmonary complications during the study\n12. Pregnant or nursing women\n13. Known active or prior infection with HIV, or active infection with HBV or HCV. However, the following subjects may be included: HIV subjects must have been on established anti-retroviral therapy for at least 4 weeks, have an HIV viral load less than 400 copies/mL, CD4+ T-cell counts of 350 cells/uL or greater, and no AIDS-defining opportunistic infections within the past 12 months; HBV subjects with prior HBV infection (surface antigen or core antibody positive) receiving suppressive antiviral therapy with an undetectable hepatitis B viral load may be included and suppressive antiviral therapy must be continued throughout treatment and for 12 months after completion; HCV subjects with a history of HCV infection who have completed curative antiviral treatment and have HCV viral load below the limit of quantification may be included\n14. History of cirrhosis of the liver based on the Child-Pugh score of Class B or C\n\n14\\. Any therapy directed against the subject's underlying cancer or any investigational medications within 4 weeks of enrollment (skin-directed treatments, including topicals and radiation, are allowed within 2 weeks of enrollment) 16. Prior treatment with alemtuzumab (Campath) or similar agents or procedures that depress blood T-cell counts if current CD4+ T-cell counts are less than 200/uL 17. Severe allergic reactions to monoclonal antibodies or therapeutic proteins 18. Use of corticosteroids within 14 days before the first dose of study drug, except as indicated for medical conditions other than MF such as intraarticular corticosteroid injections, intraocular corticosteroid drops, inhaled or nasal corticosteroids, and replacement doses of systemic corticosteroids. Note: subjects on a stable, low dose of a systemic corticosteroid (20 mg prednisone equivalent or less) and/or medium or low potency topical corticosteroids to control MF for at least 4 weeks prior to Cycle 1 Day 1 are allowed and may continue, although the investigator should attempt to taper to the lowest dosage tolerable 19. Receipt of any live vaccine (e.g., varicella, pneumococcus) within 30 days of the first dose of study drug 20. Prior treatment with mogamulizumab 21. Pregnant, breastfeeding, or planning to become pregnant during study treatment or within 3 months after the last dose of study drug 22. Planning to donate or bank eggs (ova, oocytes) during study treatment and for 90 days after the last dose of study drug",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Su Chen",
+          "role": "CONTACT",
+          "phone": "1-925-699-2195",
+          "email": "chensu@virogenbio.com"
+        },
+        {
+          "name": "Herbert Wayne Hutman",
+          "role": "CONTACT",
+          "phone": "1-240-463-5225",
+          "email": "curemf@virogenbio.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "H. Lee Moffitt Cancer Center and Research Institute",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33612",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yumeng Zhang, MD",
+              "role": "CONTACT",
+              "phone": "(813) - 745-2191",
+              "email": "Yumeng.Zhang@Moffitt.org"
+            },
+            {
+              "name": "Yumeng Zhang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25795722",
+          "type": "BACKGROUND",
+          "citation": "Frankel AE, Woo JH, Ahn C, Foss FM, Duvic M, Neville PH, Neville DM. Resimmune, an anti-CD3epsilon recombinant immunotoxin, induces durable remissions in patients with cutaneous T-cell lymphoma. Haematologica. 2015 Jun;100(6):794-800. doi: 10.3324/haematol.2015.123711. Epub 2015 Mar 20."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009182",
+          "term": "Mycosis Fungoides"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D016410",
+          "term": "Lymphoma, T-Cell, Cutaneous"
+        },
+        {
+          "id": "D016399",
+          "term": "Lymphoma, T-Cell"
+        },
+        {
+          "id": "D008228",
+          "term": "Lymphoma, Non-Hodgkin"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549035",
+          "term": "mogamulizumab"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,250 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06217198",
+      "orgStudyIdInfo": {
+        "id": "D4565-W"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1IK2RX004565",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1IK2RX004565"
+        }
+      ],
+      "organization": {
+        "fullName": "VA Office of Research and Development",
+        "class": "FED"
+      },
+      "briefTitle": "A Computerized Depression Intervention in Veterans",
+      "officialTitle": "A Randomized Controlled Trial of Deprexis; Evaluation of A Computerized Intervention to Decrease Depression and Restore Functioning in Veterans",
+      "acronym": "Deprexis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-05-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-04-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-04-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-01-11",
+      "studyFirstSubmitQcDate": "2024-01-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "VA Office of Research and Development",
+        "class": "FED"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Depressive symptoms are common among Veterans and associated with significant impairment. Timely intervention has the potential to improve mental health outcomes and restore functioning. Interventions delivered through the internet can be completed remotely at any time, and thus minimize burden on Veterans, however the research examining their utility in Veterans is limited. This proposed project will examine Deprexis, a self-guided internet-delivered intervention, which targets depressive symptoms and associated functional impairments. Interviews will be conducted to gain insight into Veterans' perceptions, needs, and preferences vis-a-vis Deprexis, with results informing a randomized controlled trial. Here an 8-week course of Deprexis will be compared to a treatment-as-usual (TAU) control condition to establish if Deprexis is acceptable and effective for Veterans with mild to moderate depressive symptoms. Veterans engaged in Deprexis are hypothesized to show improvements on measures of functioning and decreases in depressive symptoms compared to the TAU control group. The proposed work has great clinical utility, as it could provide a readily accessible, high-quality intervention for the many Veterans suffering from depressive symptoms, with the potential to improve functioning and long-term outcomes.",
+      "detailedDescription": "Depressive symptoms are common in Veterans and are highly predictive of disability and impairment in quality of life. Providing timely intervention for depressive illness can prevent chronic Major Depressive Disorder (MDD) and entrenched functional impairments. Preventing the progression into severe and recurrent disease and disability is essential; MDD is the second strongest predictor of Veteran suicide among all recorded mental health diagnoses and functional impairments associated with mental health diagnoses increase the risk for suicide. Depressive symptoms strongly predict functional impairment in Veterans independent of other debilitating mental health conditions, including PTSD. These findings suggest that depressive symptoms should be an urgent target of intervention, even in the context of complex or comorbid presentations, to improve functioning and mitigate suicide risk.\n\nThe VA healthcare system is uniquely positioned to identify and treat mild-moderate depressive symptoms because depression symptom screenings are routinely performed in primary care and specialty clinics; however, Veterans still experience various barriers to care. These barriers include shame around depression and stigma associated with seeking mental health treatment, lack of availability of mental health services, as well as difficulties attending mental health treatments due to lack of time. However, the VA is well-suited to intervene at both institutional and individual barriers to care to provide accessible, timely, and acceptable treatments for depressive symptoms using scalable, low-cost computer-delivered interventions.\n\nAlthough internet-delivered interventions have the potential to optimize treatment access and utilization for Veterans with mild-moderate depressive symptoms, the research examining the effectiveness of internet-delivered psychological intervention for Veterans is still in its nascence. Deprexis, a self-guided internet-delivered intervention, improved well-being, and decreased depressive symptoms and disability in a general population sample. However, Deprexis has not yet been rigorously evaluated with a Veteran population in a VA medical center setting. The current study aims to fill this critical gap in the literature by pursuing the following aims:\n\nAim 1: To assess Veterans' perceptions, needs, and preferences in relation to Deprexis through conducting qualitative assessments interviews with a subset of Veterans enrolled in Deprexis (n=16-20). Research question: Which potentially modifiable components improve Veterans' experience and uptake of Deprexis? This data will be used to inform potential changes to content and study delivery in the RCT.\n\nAim 2a: To test whether Deprexis is effective for decreasing depressive symptoms and improving functional outcomes in Veterans (n=132) presenting for VHA healthcare with mild-moderate depressive symptoms. A randomized controlled trial comparing an 8-week course of Deprexis to a treatment-as-usual control condition will be conducted. Veterans with a positive screen for depression will be identified through the medical record, and those with a depression symptom severity score in the mild-moderate range will be invited to participate in the study. Depression symptom severity scores and clinically meaningful outcomes measures of functioning, disability, and quality of life will be collected at baseline, post-treatment and 8-week follow-up. Hypothesis: Veterans engaged in Deprexis will show improvements on measures of functioning and decreases in depressive symptoms compared to the TAU control group. To generate hypotheses for future study, exploratory Aim 2b will examine if demographic variables, baseline psychopathology, credibility and Deprexis usage moderate treatment effects on primary outcomes.\n\nImpact: Consistent with the Rehabilitation Research and Development Service aim to maximize functional recovery in Veterans, the proposed study could provide evidence for a rapid, high-quality and low-barrier intervention for Veterans with depressive symptoms, with the potential to attenuate suicide risk, functional disability and impairment in quality of life."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression"
+      ],
+      "keywords": [
+        "Internet-Based Intervention",
+        "Cognitive-Behavioral Therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized Clinical Trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 152,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Deprexis",
+          "type": "EXPERIMENTAL",
+          "description": "Deprexis: an internet-delivered psychosocial treatment for depressive symptoms and related functional impairment.",
+          "interventionNames": [
+            "Behavioral: Deprexis"
+          ]
+        },
+        {
+          "label": "Treatment-as-Usual",
+          "type": "NO_INTERVENTION",
+          "description": "Access to standard non-study care"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Deprexis",
+          "description": "Deprexis is an internet-delivered treatment for depressive symptoms and related functional impairment. The intervention draws from various theoretical frameworks and consists of 12 modules: 10 core content modules and an introductory and summary module. Deprexis is designed to be interactive, includes answering questions and learning techniques and concepts through instruction and examples.",
+          "armGroupLabels": [
+            "Deprexis"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Quick Inventory of Depressive Symptomatology (Self-Report; QIDS-SR-16) Change",
+          "description": "The Quick Inventory of Depressive Symptomatology (Self-Report; QIDS-SR-16) is a 16-item self-report measure of depressive symptom severity. This brief measure assesses the 9 DSM-IV symptom criterion domains for depression and has been shown to be highly reliable, internally consistent and sensitive to symptom change. QIDS-SR-16 scores range from 0 to 27, with higher scores indicating more severe depressive symptoms.",
+          "timeFrame": "Baseline, Post-Treatment (week 8), Follow-up (week 16)"
+        },
+        {
+          "measure": "World Health Organization Disability Assessment Schedule-II (WHODAS) Change",
+          "description": "The World Health Organization Disability Assessment Schedule-II (WHODAS32; is a 36-item questionnaire assessing functional disability across 7 domains (understanding and communicating, getting around, getting along with people, life activities, work, participation in society, self-care) as well as a total score. The WHODAS has high test-retest reliability (r=0.98) and concurrent and construct validity. WHODAS scores range from 0 to 100, with higher scores indicating greater disability",
+          "timeFrame": "Baseline, Post-Treatment (week 8), Follow-up (week 16)"
+        },
+        {
+          "measure": "The Sheehan Disability Scale (SDS) Change",
+          "description": "The Sheehan Disability Scale (SDS) is a 3-item self-report measure of symptom-related disability, which has been used in previous Deprexis trials. The SDS was developed as a global measure of the impact of mental illness on work/school activities, family relationships and social functioning. The SDS has been found to be internally consistent, reliable and to have high construct validity and to be sensitive to treatment effects. SDS scores range from 0 to 30, with higher scores indicating greater functional impairment.",
+          "timeFrame": "Baseline, Post-Treatment (week 8), Follow-up (week 16)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPotential participants include male and female Veterans of all races/ethnicities who are:\n\n* able to comprehend and sign the informed consent form\n* have reliable access to the internet and a computer, tablet and/or smartphone\n* exhibit mild or moderate, but not very severe, levels of depression\n* stable on psychotropic medications\n\nExclusion Criteria:\n\nAim 1 and Aim 2: Veterans will be excluded from study participation if they:\n\n* endorse any positive symptoms of a psychotic disorder\n* screen positive for Bipolar I Disorder\n* report current suicidal risk",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Rahel R Pearson, PhD",
+          "role": "CONTACT",
+          "phone": "(254) 297-5155",
+          "email": "rahel.pearson@va.gov"
+        },
+        {
+          "name": "Joseph F Maher",
+          "role": "CONTACT",
+          "phone": "(254) 743-1478",
+          "email": "Joseph.Maher@va.gov"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Rahel R Pearson, PhD",
+          "affiliation": "Central Texas Veterans Health Care System Waco VA Medical Center, Waco, TX",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Central Texas Veterans Health Care System Waco VA Medical Center, Waco, TX",
+          "status": "RECRUITING",
+          "city": "Waco",
+          "state": "Texas",
+          "zip": "76711",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "David E Dostal, PhD MA BS",
+              "role": "CONTACT",
+              "phone": "254-743-2464",
+              "phoneExt": "42464",
+              "email": "david.dostal@va.gov"
+            },
+            {
+              "name": "Lance Starzyk, BAAS AA",
+              "role": "CONTACT",
+              "phone": "(254) 743-2409",
+              "email": "Lance.Starzyk@va.gov"
+            },
+            {
+              "name": "Rahel R Pearson, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39446432",
+          "type": "DERIVED",
+          "citation": "Pearson R, Beevers CG, Mignogna J, Benzer J, Pfeiffer PN, Post E, Creech SK. The Evaluation of a Web-Based Intervention (Deprexis) to Decrease Depression and Restore Functioning in Veterans: Protocol for a Randomized Controlled Trial. JMIR Res Protoc. 2024 Oct 24;13:e59119. doi: 10.2196/59119."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "A Limited Dataset (LDS) will be created and shared pursuant to a Data Use Agreement (DUA) appropriately limiting use of the dataset and prohibiting the recipient from identifying or re-identifying (or taking steps to identify or re-identify) any individual whose data are included in the dataset."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

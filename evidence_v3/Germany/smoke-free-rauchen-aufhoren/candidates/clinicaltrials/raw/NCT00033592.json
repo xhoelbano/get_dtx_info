@@ -1,0 +1,688 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00033592",
+      "orgStudyIdInfo": {
+        "id": "NCCTG-N99C4"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CDR0000069303",
+          "type": "REGISTRY",
+          "domain": "PDQ (Physician Data Query)"
+        },
+        {
+          "id": "NCI-P02-0220"
+        }
+      ],
+      "organization": {
+        "fullName": "Alliance for Clinical Trials in Oncology",
+        "class": "OTHER"
+      },
+      "briefTitle": "Comparison of Nicotine Inhaler and/or Bupropion in Helping People to Stop Smoking and Prevent the Recurrence of Smoking",
+      "officialTitle": "Phase III Trial Comparing Nicotine Inhaler Versus Bupropion Versus Nicotine Inhaler Plus Bupropion For Smoking Cessation Efficacy And Relapse Prevention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2002-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2006-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2006-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2002-04-09",
+      "studyFirstSubmitQcDate": "2004-02-05",
+      "studyFirstPostDateStruct": {
+        "date": "2004-02-06",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-07-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-07-13",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Alliance for Clinical Trials in Oncology",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "RATIONALE: Use of a nicotine inhaler and/or bupropion may be effective in helping people stop smoking and prevent them from starting smoking again. It is not yet known whether a nicotine inhaler or bupropion are more effective alone or combined for stopping smoking.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of the nicotine inhaler or bupropion alone to that of the nicotine inhaler combined with bupropion in helping people to stop smoking and prevent starting smoking again.",
+      "detailedDescription": "OBJECTIVES: I. Compare the effectiveness of nicotine inhaler vs bupropion vs nicotine inhaler plus bupropion on smoking cessation and prevention of relapse in participants who currently smoke. II. Compare the reduction in the rate of relapse to smoking after initial abstinence in participants treated long term with these regimens.\n\nOUTLINE: This is a randomized, double-blind, placebo-controlled, multicenter study. Patients are stratified according to gender, cigarettes smoked per day at time of screening (10-39 vs 40 or more), and total length of smoking in years (less than 5 vs 5-9 vs 10 or more). Participants are randomized to one of three treatment arms. Arm I: Participants receive 6-16 nicotine inhaler cartridges per day. Arm II: Participants receive oral bupropion 1-2 times daily. Arm III: Participants receive 6-16 nicotine inhaler cartridges per day and oral bupropion 1-2 times daily. In all arms, treatment continues for 12 weeks. After 12 weeks, participants are randomized a second time based on whether they continue to smoke or are smoke-free. Participants randomized to arm I who continue to smoke are randomized to one of two treatment arms. Arm IV: Participants receive oral bupropion 1-2 times daily for 12 weeks Arm V: Participants receive oral placebo 1-2 times daily for 12 weeks. Participants randomized to arm II who continue to smoke are randomized to one of two treatment arms. Arm VI: Participants receive 6-16 nicotine inhaler cartridges per day for 12 weeks. Arm VII: Participants receive 6-16 placebo inhaler cartridges per day for 12 weeks. Participants randomized to arm III who continue to smoke do not receive any further therapy. Participants randomized to arm I who are smoke-free are randomized to one of two treatment arms. Arm VIII: Participants receive 6-16 nicotine inhaler cartridges per day for 40 weeks. Arm IX: Participants receive 6-16 placebo inhaler cartridges per day for 40 weeks. Participants randomized to arm II who are smoke-free are randomized to one of two treatment arms. Arm X: Participants receive oral bupropion 1-2 times daily for 40 weeks. Arm XI: Participants receive oral placebo 1-2 times daily for 40 weeks. Participants randomized to arm III who are smoke-free are randomized to one of four treatment arms. Arm XII: Participants receive 6-16 nicotine inhaler cartridges per day and oral placebo 1-2 times daily for 40 weeks. Arm XIII: Participants receive 6-16 placebo inhaler cartridges per day and oral bupropion 1-2 times daily for 40 weeks. Arm XIV: Participants receive 6-16 nicotine inhaler cartridges per day and oral bupropion 1-2 times daily for 40 weeks. Arm XV: Participants receive 6-16 placebo inhaler cartridges per day and oral placebo 1-2 times daily for 40 weeks. All participants are followed every month for 6 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lung Cancer"
+      ],
+      "keywords": [
+        "non-small cell lung cancer",
+        "small cell lung cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1708,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm I: nicotine inhaler cartridges",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive 6-16 nicotine inhaler cartridges per day. Treatment continues for 12 weeks. After 12 weeks, participants are randomized a second time based on whether they continue to smoke or are smoke-free.\n\nParticipants randomized to arm I who continue to smoke are randomized to one of two treatment arms Arm IV or Arm V. Participants randomized to arm I who are smoke-free are randomized to one of two treatment arms Arm VIII or Arm IX.",
+          "interventionNames": [
+            "Drug: nicotine"
+          ]
+        },
+        {
+          "label": "Arm II: bupropion",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive oral bupropion 1-2 times daily.\n\nTreatment continues for 12 weeks. After 12 weeks, participants are randomized a second time based on whether they continue to smoke or are smoke-free. After 12 weeks, participants are randomized a second time based on whether they continue to smoke or are smoke-free.\n\nParticipants randomized to arm II who continue to smoke are randomized to one of two treatment arms Arm VI or Arm VII. Participants randomized to arm II who are smoke-free are randomized to one of two treatment arms Arm Arm X or Arm XI.",
+          "interventionNames": [
+            "Drug: bupropion hydrochloride"
+          ]
+        },
+        {
+          "label": "Arm III: nicotine inhaler cartridges",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive 6-16 nicotine inhaler cartridges per day and oral bupropion 1-2 times daily. Treatment continues for 12 weeks. After 12 weeks, participants are randomized a second time based on whether they continue to smoke or are smoke-free.\n\nParticipants randomized to arm III who continue to smoke do not receive any further therapy. Participants randomized to arm III who are smoke-free are randomized to one of four treatment arms Arm XII, Arm XIII, Arm XIV or Arm XV.",
+          "interventionNames": [
+            "Drug: nicotine"
+          ]
+        },
+        {
+          "label": "Arm IV: bupropion",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive oral bupropion 1-2 times daily for 12 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Drug: bupropion hydrochloride"
+          ]
+        },
+        {
+          "label": "Arm V: placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive oral placebo 1-2 times daily for 12 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        },
+        {
+          "label": "Arm VI: nicotine inhaler cartridges",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive 6-16 nicotine inhaler cartridges per day for 12 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Drug: nicotine"
+          ]
+        },
+        {
+          "label": "Arm VII: placebo inhaler",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive 6-16 placebo inhaler cartridges per day for 12 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        },
+        {
+          "label": "Arm VIII: nicotine inhaler cartridges",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive 6-16 nicotine inhaler cartridges per day for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Drug: nicotine"
+          ]
+        },
+        {
+          "label": "Arm IX: placebo inhaler cartridges",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive 6-16 placebo inhaler cartridges per day for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        },
+        {
+          "label": "Arm X: bupropion",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive oral bupropion 1-2 times daily for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Drug: bupropion hydrochloride"
+          ]
+        },
+        {
+          "label": "Arm XI: placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive oral placebo 1-2 times daily for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        },
+        {
+          "label": "Arm XII: nicotine inhaler cartridges",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive 6-16 nicotine inhaler cartridges per day and oral placebo 1-2 times daily for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Drug: nicotine"
+          ]
+        },
+        {
+          "label": "Arm XIII: placebo inhaler cartridges",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive 6-16 placebo inhaler cartridges per day and oral bupropion 1-2 times daily for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        },
+        {
+          "label": "Arm XIV: nicotine inhaler cartridges",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive 6-16 nicotine inhaler cartridges per day and oral bupropion 1-2 times daily for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Drug: nicotine"
+          ]
+        },
+        {
+          "label": "Arm XV: placebo inhaler cartridges",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive 6-16 placebo inhaler cartridges per day and oral placebo 1-2 times daily for 40 weeks.\n\nAll participants are followed every month for 6 months.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "placebo",
+          "armGroupLabels": [
+            "Arm IX: placebo inhaler cartridges",
+            "Arm V: placebo",
+            "Arm VII: placebo inhaler",
+            "Arm XI: placebo",
+            "Arm XIII: placebo inhaler cartridges",
+            "Arm XV: placebo inhaler cartridges"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "bupropion hydrochloride",
+          "armGroupLabels": [
+            "Arm II: bupropion",
+            "Arm IV: bupropion",
+            "Arm X: bupropion"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "nicotine",
+          "armGroupLabels": [
+            "Arm I: nicotine inhaler cartridges",
+            "Arm III: nicotine inhaler cartridges",
+            "Arm VI: nicotine inhaler cartridges",
+            "Arm VIII: nicotine inhaler cartridges",
+            "Arm XII: nicotine inhaler cartridges",
+            "Arm XIV: nicotine inhaler cartridges"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Prevention in relapse",
+          "timeFrame": "Up to 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Reduction in the rate of relapse",
+          "timeFrame": "Up to 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "DISEASE CHARACTERISTICS: Currently smoking at least 10 cigarettes per day Smoked regularly for the past year Motivated to use study medication More than 30 days since prior use of tobacco products other than cigarettes (e.g., smokeless tobacco, pipes, cigars, or snuff) No active chemical dependence of drug other than nicotine (e.g., alcohol, marijuana, cocaine, heroin, or other illicit drugs) within the past year\n\nPATIENT CHARACTERISTICS: Age: 18 and over Performance status: Not specified Life expectancy: Not specified Hematopoietic: Not specified Hepatic: Not specified Renal: Not specified Cardiovascular: No unstable angina, myocardial infarction, or cardiac arrhythmias within the past 3 months Other: Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception for at least 3 months prior to and during study Good health by medical history No history of seizure disorder No epilepsy No prior serious head trauma or other predisposing factors to seizures (e.g., alcohol withdrawal, febrile seizures during childhood, brain tumor, cerebrovascular accident, or family history of idiopathic seizure disorder) No known hypersensitivity or allergy to nicotine, menthol, or bupropion No prior or concurrent diagnosis of bulimia or anorexia nervosa No other member of household currently enrolled on this study No bipolar disorder, psychosis, or schizophrenia\n\nPRIOR CONCURRENT THERAPY: Biologic therapy: Not specified Chemotherapy: Not specified Endocrine therapy: More than 30 days since prior systemic steroids Radiotherapy: Not specified Surgery: Not specified Other: More than 30 days since other prior behavioral or pharmacologic smoking- cessation program (e.g., behavioral therapy, nicotine replacement therapy, clonidine, bupropion, nortriptyline, or doxepin) More than 30 days since prior investigational drugs More than 30 days since prior antipsychotics or antidepressants More than 30 days since prior theophylline More than 30 days since prior monoamine oxidase inhibitor More than 30 days since prior medication containing bupropion No concurrent antiepileptic medications No concurrent medications known to lower seizure threshold No other concurrent investigational drugs",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Richard D. Hurt, MD",
+          "affiliation": "Mayo Clinic",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CCOP - Scottsdale Oncology Program",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85259-5404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "MBCCOP-Howard University Cancer Center",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "CCOP - Illinois Oncology Research Association",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "CCOP - Carle Cancer Center",
+          "city": "Urbana",
+          "state": "Illinois",
+          "zip": "61801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.11059,
+            "lon": -88.20727
+          }
+        },
+        {
+          "facility": "CCOP - Cedar Rapids Oncology Project",
+          "city": "Cedar Rapids",
+          "state": "Iowa",
+          "zip": "52403-1206",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.00833,
+            "lon": -91.64407
+          }
+        },
+        {
+          "facility": "CCOP - Iowa Oncology Research Association",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50309-1016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "Siouxland Hematology-Oncology",
+          "city": "Sioux City",
+          "state": "Iowa",
+          "zip": "51101-1733",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.49999,
+            "lon": -96.40031
+          }
+        },
+        {
+          "facility": "CCOP - Wichita",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67214-3882",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Cancer Center of Kansas - Wichita",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67214",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "CCOP - Ochsner",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "CCOP - Ann Arbor Regional",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "CCOP - Duluth",
+          "city": "Duluth",
+          "state": "Minnesota",
+          "zip": "55805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          }
+        },
+        {
+          "facility": "Mayo Clinic Cancer Center",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "CentraCare Clinic",
+          "city": "Saint Cloud",
+          "state": "Minnesota",
+          "zip": "56303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.5608,
+            "lon": -94.16249
+          }
+        },
+        {
+          "facility": "CCOP - Metro-Minnesota",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55416",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "CCOP - Missouri Valley Cancer Consortium",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Medcenter One Health System",
+          "city": "Bismarck",
+          "state": "North Dakota",
+          "zip": "58501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.80833,
+            "lon": -100.78374
+          }
+        },
+        {
+          "facility": "CCOP - Merit Care Hospital",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "Altru Health Systems",
+          "city": "Grand Forks",
+          "state": "North Dakota",
+          "zip": "58201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.92526,
+            "lon": -97.03285
+          }
+        },
+        {
+          "facility": "CCOP - Toledo Community Hospital Oncology Program",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43623-3456",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "CCOP - Sooner State",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "CCOP - Geisinger Clinic and Medical Center",
+          "city": "Danville",
+          "state": "Pennsylvania",
+          "zip": "17822-2001",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96342,
+            "lon": -76.61273
+          }
+        },
+        {
+          "facility": "Rapid City Regional Hospital",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57709",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "CCOP - Sioux Community Cancer Consortium",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "Allan Blair Cancer Centre",
+          "city": "Regina",
+          "state": "Saskatchewan",
+          "zip": "S4T 7T1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 50.45008,
+            "lon": -104.6178
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37230961",
+          "type": "DERIVED",
+          "citation": "Hajizadeh A, Howes S, Theodoulou A, Klemperer E, Hartmann-Boyce J, Livingstone-Banks J, Lindson N. Antidepressants for smoking cessation. Cochrane Database Syst Rev. 2023 May 24;5(5):CD000031. doi: 10.1002/14651858.CD000031.pub6."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016642",
+          "term": "Bupropion"
+        },
+        {
+          "id": "D009538",
+          "term": "Nicotine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011427",
+          "term": "Propiophenones"
+        },
+        {
+          "id": "D007659",
+          "term": "Ketones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D012991",
+          "term": "Solanaceous Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

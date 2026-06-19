@@ -1,0 +1,177 @@
+{
+  "studies": [
+    {
+      "study_id": "36848211",
+      "pmid": "36848211",
+      "title": "Postmarketing Follow-Up of a Digital Home Exercise Program for Back, Hip, and Knee Pain: Retrospective Observational Study With a Time-Series and Matched-Pair Analysis.",
+      "authors": "Teepe Gisbert Wilhelm et al.",
+      "authors_list": [
+        "Teepe Gisbert Wilhelm",
+        "Kowatsch Tobias",
+        "Hans Felix Patricius",
+        "Benning Leo"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Feb-27",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/43775",
+      "abstract": "BACKGROUND: Musculoskeletal conditions are the main drivers of global disease burden and cause significant direct and indirect health care costs. Digital health applications improve the availability of and access to adequate care. The German health care system established a pathway for the approval of \"Digitale Gesundheitsanwendungen\" (DiGAs; Digital Health Applications) as collectively funded medical services through the \"Digitale-Versorgung-Gesetz\" (Digital Health Care Act) in 2019. OBJECTIVE: This article presents real-world prescription data collected through the smartphone-based home exercise program \"Vivira,\" a fully approved DiGA, regarding its effect on self-reported pain intensity and physical inability in patients with unspecific and degenerative pain in the back, hip, and knee. METHODS: This study included 3629 patients (71.8% [2607/3629] female; mean age 47 years, SD 14.2 years). The primary outcome was the self-reported pain score, which was assessed with a verbal numerical rating scale. The secondary outcomes were self-reported function scores. To analyze the primary outcome, we used a 2-sided Skillings-Mack test. For function scores, a time analysis was not feasible; therefore, we calculated matched pairs using the Wilcoxon signed-rank test. RESULTS: Our results showed significant reductions in self-reported pain intensity after 2, 4, 8, and 12 weeks in the Skillings-Mack test (T3628=5308; P<.001). The changes were within the range of a clinically relevant improvement. Function scores showed a generally positive yet more variable response across the pain areas (back, hip, and knee). CONCLUSIONS: This study presents postmarketing observational data from one of the first DiGAs for unspecific and degenerative musculoskeletal pain. We noted significant improvements in self-reported pain intensity throughout the observation period of 12 weeks, which reached clinical relevance. Additionally, we identified a complex response pattern of the function scores assessed. Lastly, we highlighted the challenges of relevant attrition at follow-up and the potential opportunities for evaluating digital health applications. Although our findings do not have confirmatory power, they illustrate the potential benefits of digital health applications to improve the availability of and access to medical care. TRIAL REGISTRATION: German Clinical Trials Register DRKS00024051; https://drks.de/search/en/trial/DRKS00024051.",
+      "publication_types": [
+        "Observational Study",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Middle Aged",
+        "Matched-Pair Analysis",
+        "Follow-Up Studies",
+        "Time Factors",
+        "Musculoskeletal Pain",
+        "Exercise Therapy"
+      ],
+      "keywords": [
+        "digital health",
+        "digital therapeutics",
+        "exercise training",
+        "musculoskeletal diseases"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36848211/",
+      "pdf_available": false,
+      "_matched_query": "\"Vivira\"",
+      "_raw_xml_path": "evidence/Germany/vivira/candidates/pubmed/raw/36848211.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'Vivira,' a fully approved DiGA, and presents data collected through this smartphone-based home exercise program. Additionally, an author is affiliated with Vivira Health Lab GmbH, the developer of the software examined.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational / real-world study",
+        "confidence": 95,
+        "reason": "Keyword match: 6 RWE indicators vs 1 RCT indicators."
+      }
+    },
+    {
+      "study_id": "36459399",
+      "pmid": "36459399",
+      "title": "Preliminary Use and Outcome Data of a Digital Home Exercise Program for Back, Hip, and Knee Pain: Retrospective Observational Study With a Time Series and Matched Analysis.",
+      "authors": "Teepe Gisbert Wilhelm et al.",
+      "authors_list": [
+        "Teepe Gisbert Wilhelm",
+        "Kowatsch Tobias",
+        "Hans Felix Patricius",
+        "Benning Leo"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Dec-02",
+      "journal": "JMIR mHealth and uHealth",
+      "journal_abbrev": "JMIR Mhealth Uhealth",
+      "doi": "10.2196/38649",
+      "abstract": "BACKGROUND: Musculoskeletal conditions are among the main contributors to the global burden of disease. International guidelines consider patient education and movement exercises as the preferred therapeutic option for unspecific and degenerative musculoskeletal conditions. Innovative and decentralized therapeutic means are required to provide access to and availability of such care to meet the increasing therapeutic demand for this spectrum of conditions. OBJECTIVE: This retrospective observational study of preliminary use and outcome data explores the clinical outcomes of Vivira (hereafter referred to as \"program\"), a smartphone-based program for unspecific and degenerative pain in the back, hip, and knee before it received regulatory approval for use in the German statutory health insurance system. METHODS: An incomplete matched block design was employed to assess pain score changes over the intended 12-week duration of the program. Post hoc analyses were performed. In addition, a matched comparison of self-reported functional scores and adherence rates is presented. RESULTS: A total of 2517 participants met the inclusion criteria and provided sufficient data to be included in the analyses. Overall, initial self-reported pain scores decreased significantly from an average of 5.19 out of 10 (SD 1.96) to an average of 3.35 out of 10 (SD 2.38) after 12 weeks. Post hoc analyses indicate a particularly emphasized pain score reduction over the early use phases. Additionally, participants with back pain showed significant improvements in strength and mobility scores, whereas participants with hip or knee pain demonstrated significant improvements in their coordination scores. Across all pain areas and pain durations, a high yet expected attrition rate could be observed. CONCLUSIONS: This observational study provides the first insights into the clinical outcomes of an exercise program for unspecific and degenerative back, hip, and knee pain. Furthermore, it demonstrates a potential secondary benefit of improved functionality (ie, strength, mobility, coordination). However, as this study lacks confirmatory power, further research is required to substantiate the clinical outcomes of the program assessed. TRIAL REGISTRATION: German Clinical Trials Register DRKS00021785; https://drks.de/search/en/trial/DRKS00021785.",
+      "publication_types": [
+        "Observational Study",
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Time Factors",
+        "Pain",
+        "Exercise Therapy",
+        "Exercise",
+        "Musculoskeletal Diseases"
+      ],
+      "keywords": [
+        "back pain",
+        "digital health",
+        "digital intervention",
+        "exercise",
+        "hip pain",
+        "home exercise",
+        "intervention",
+        "knee pain",
+        "management",
+        "mobility"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36459399/",
+      "pdf_available": false,
+      "_matched_query": "\"Vivira\"",
+      "_raw_xml_path": "evidence/Germany/vivira/candidates/pubmed/raw/36459399.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'Vivira' as the smartphone-based program being evaluated for unspecific and degenerative pain in the back, hip, and knee. Additionally, Vivira Health Lab GmbH, the developer of the software, is affiliated with one of the authors, confirming the intervention is the Vivira product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational / real-world study",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RWE indicators vs 1 RCT indicators."
+      }
+    },
+    {
+      "study_id": "37830652",
+      "pmid": "37830652",
+      "title": "The Effect of Therapeutic Adherence on the Effectiveness of a Digital Therapeutic Exercise Program: A Propensity Score Matching Analysis.",
+      "authors": "Klingenberg Markus et al.",
+      "authors_list": [
+        "Klingenberg Markus",
+        "Elsner Andreas",
+        "Pooth Jan-Steffen",
+        "Hans Felix Patricius",
+        "Benning Leo"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Sep-23",
+      "journal": "Healthcare (Basel, Switzerland)",
+      "journal_abbrev": "Healthcare (Basel)",
+      "doi": "10.3390/healthcare11192614",
+      "abstract": "UNLABELLED: Nonspecific back pain (NSBP) contributes greatly to the overall burden of disease from musculoskeletal conditions. Digital therapeutics (DTx) aims to address the excess demand for movement and exercise therapy resulting from this spectrum of conditions. This study aims to investigate the differential therapeutic response of NSBP to different use profiles of a digital home exercise program. METHODS: This study used a PSM model to comparatively assess the achievement of a clinically relevant pain improvement among patients who exhibit a high use (HU), intermediate use (IU), low use (LU), or sub-LU use profile. Sensitivity analyses with commonly accepted thresholds for clinically relevant improvements were conducted. RESULTS: Higher use profiles show a higher probability of achieving a clinically relevant improvement of self-reported pain intensities. Additionally, the achievement of any higher use level is associated with a significant increase in the probability of achieving a clinically relevant improvement. CONCLUSION: To enable the optimal effectiveness of DTx home exercise programs, an HU use profile should be pursued. This finding is in line with earlier guidance for the achievement of optimal therapeutic benefit from conventional movement and exercise therapy and underscores the importance of a cross-disciplinary effort from patients, healthcare professionals and system stakeholders alike to maximize the therapeutic effect from DTx.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "digital health",
+        "digital therapeutics",
+        "movement exercise",
+        "musculoskeletal health"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37830652/",
+      "pdf_available": false,
+      "_matched_query": "\"Vivira\"",
+      "_raw_xml_path": "evidence/Germany/vivira/candidates/pubmed/raw/37830652.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product Vivira, as evidenced by the conflict of interest statement where authors are shareholders or receive compensation from Vivira Health Lab, the manufacturer of the DTx assessed.",
+        "matched_elements": [
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "propensity score matching analysis",
+        "confidence": 95,
+        "reason": "The study uses a propensity score matching model to assess outcomes based on different usage profiles of a digital therapeutic, which is an observational design typical of real-world evidence studies. There is no mention of randomization or controlled trial conditions."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T09:15:41.855074Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

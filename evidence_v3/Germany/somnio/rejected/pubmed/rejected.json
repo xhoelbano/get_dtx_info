@@ -1,0 +1,262 @@
+{
+  "studies": [
+    {
+      "study_id": "34769758",
+      "pmid": "34769758",
+      "title": "Development of a Computer Vision-Based Muscle Stimulation Method for Measuring Muscle Fatigue during Prolonged Low-Load Exposure.",
+      "authors": "Jia Bochen et al.",
+      "authors_list": [
+        "Jia Bochen",
+        "Kumbhar Abhishek Nagesh",
+        "Tong Yourui"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Oct-26",
+      "journal": "International journal of environmental research and public health",
+      "journal_abbrev": "Int J Environ Res Public Health",
+      "doi": "10.3390/ijerph182111242",
+      "abstract": "Measuring muscle fatigue is one essential and standard method to quantify the ergonomic risks associated with prolonged low-load exposure. However, measuring muscle fatigue using EMG-based methods has shown conflicting results under low-load but sustained work conditions, e.g., prolonged sitting. Muscle stimulation technology provides an alternative way to estimate muscle fatigue development during such work conditions by monitoring the stimulation-evoked muscle responses, which, however, could be restricted by the accessibility and measurability of targeted muscles. This study proposes a computer vision-based method to overcome such potential restrictions by visually quantifying the muscle belly displacement caused by muscle stimulation. The results demonstrate the ability of the developed computer vision-based stimulation method to detect muscle fatigue from prolonged low-load tasks. Current results can be used as a foundation to develop a sensitive and reliable method to quantify the adverse effects of the daily low-load sustained condition in occupational and nonoccupational settings.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Computers",
+        "Electromyography",
+        "Ergonomics",
+        "Muscle Fatigue",
+        "Muscle, Skeletal"
+      ],
+      "keywords": [
+        "computer vision",
+        "ergonomics",
+        "low-load exposure",
+        "muscle fatigue",
+        "muscle stimulation",
+        "prolonged exposure"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34769758/",
+      "pdf_available": false,
+      "_matched_query": "\"somnio\"",
+      "_raw_xml_path": "evidence/Germany/somnio/candidates/pubmed/raw/34769758.xml",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study focuses on a computer vision-based method for measuring muscle fatigue, which is unrelated to the digital therapeutic product 'somnio' for treating insomnia. There is no mention of 'somnio', its variations, or its manufacturer in the study.",
+        "matched_elements": []
+      },
+      "_rejection_stage": "verification"
+    },
+    {
+      "study_id": "36376660",
+      "pmid": "36376660",
+      "title": "[Not Available].",
+      "authors": "Müller-Waldeck Roland",
+      "authors_list": [
+        "Müller-Waldeck Roland"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Nov",
+      "journal": "MMW Fortschritte der Medizin",
+      "journal_abbrev": "MMW Fortschr Med",
+      "doi": "10.1007/s15006-022-2116-0",
+      "abstract": "",
+      "publication_types": [
+        "News"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Sleep",
+        "Athletes"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36376660/",
+      "pdf_available": false,
+      "_matched_query": "\"somnio\"",
+      "_raw_xml_path": "evidence/Germany/somnio/candidates/pubmed/raw/36376660.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The vernacular title 'somnio - Schlafcoach' directly mentions 'somnio', which is the digital therapeutic product in question. The publication is from Germany, aligning with the product's origin, and the context suggests a focus on sleep coaching, consistent with somnio's purpose.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "news",
+        "confidence": 85,
+        "reason": "Publication type indicates a non-RCT/RWE design (news)."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "Publication type indicates a non-RCT/RWE design (news)."
+    },
+    {
+      "study_id": "41534534",
+      "pmid": "41534534",
+      "title": "[Digital therapeutics in Neurology].",
+      "authors": "Guth Matthias",
+      "authors_list": [
+        "Guth Matthias"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jan",
+      "journal": "Fortschritte der Neurologie-Psychiatrie",
+      "journal_abbrev": "Fortschr Neurol Psychiatr",
+      "doi": "10.1055/a-2655-2462",
+      "abstract": "Since 2020 physicians and psychotherapist in Germany can prescribe digital interventions. The interventions have to meet safety and data privacy requirements and must prove their effectiveness. Eight interventions are available in the field of neurology: Two for multiple sclerosis (elevida, levidex), three for insomnia (HelloBetter Schlafen, somnio, somnovia), one for aphasia (neolexon Aphasie), one for mild cognitive impairment (NeuroNation MED), and one for migraine headache prophylaxis (sinCephalea - Migräneprophylaxe). In Germany, digital interventions can be prescribed to outpatients and as a post-hospital treatment.",
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "English Abstract"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Neurology",
+        "Germany",
+        "Nervous System Diseases",
+        "Telemedicine"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41534534/",
+      "pdf_available": false,
+      "_matched_query": "\"somnio\"",
+      "_raw_xml_path": "evidence/Germany/somnio/candidates/pubmed/raw/41534534.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions 'somnio' as one of the digital interventions available for insomnia, which matches the product name provided. The context of digital therapeutics in Germany aligns with the product's description.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "review",
+        "confidence": 85,
+        "reason": "Publication type indicates a non-RCT/RWE design (review)."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "Publication type indicates a non-RCT/RWE design (review)."
+    },
+    {
+      "study_id": "42146896",
+      "pmid": "42146896",
+      "title": "Digital treatment for insomnia in adolescents: study protocol for a randomized controlled trial comparing digital cognitive behavioral therapy for insomnia to sleep hygiene.",
+      "authors": "Ralfs Beke et al.",
+      "authors_list": [
+        "Ralfs Beke",
+        "Meschkat Sarah Fee",
+        "Schoone Telke",
+        "Brauer Hannah",
+        "Rieck Jan-Henrik"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026",
+      "journal": "Frontiers in child and adolescent psychiatry",
+      "journal_abbrev": "Front Child Adolesc Psychiatry",
+      "doi": "10.3389/frcha.2026.1686491",
+      "abstract": "BACKGROUND: Insomnia is highly prevalent among adolescents. It is associated with various mental and physical disorders and impairments in daytime functioning. Cognitive behavioral therapy for insomnia (CBT-I) is well supported by evidence and the guideline recommended treatment. Yet only few adolescents receive access due to limited health care resources. Digital delivery of CBT-I may tackle this care gap and has shown promising results in the adult population. However, evidence in the adolescent population is still preliminary. The aim of this randomized controlled trial is to establish whether digitally delivered CBT-I for insomnia is effective in adolescents, when compared to sleep hygiene advice. METHODS: This trial is a monocentric, national, prospective randomized controlled trial aiming to recruit 66 adolescent participants (14-17 years) meeting criteria for insomnia disorder in Germany. Participants will be randomized (1:1) to either 12 weeks of digital CBT-I (somnio junior) or sleep hygiene advice. Outcomes will be collected at baseline, 6- and 12-weeks post-randomization. The primary endpoint is self-reported insomnia severity using the Insomnia Severity Index at 12 weeks. Secondary endpoints include symptoms of depression, anxiety, daytime sleepiness and health-related quality of life. Analyzes will be intention-to-treat. DISCUSSION: The results of this study could make the case for the introduction of digital CBT-I for adolescents in primary care in Germany, increasing access to evidence-based treatment for adolescents with insomnia disorder. Treating insomnia might also positively affect associated mental disorders and physical health problems. CLINICAL TRIAL REGISTRATION: https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/_node.html, identifier DRKS00033527.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "adolescents",
+        "avatar",
+        "cognitive behavioral therapy",
+        "digital",
+        "insomnia",
+        "internet",
+        "randomized controlled trial",
+        "virtual coach"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42146896/",
+      "pdf_available": false,
+      "_matched_query": "\"somnio\"",
+      "_raw_xml_path": "evidence/Germany/somnio/candidates/pubmed/raw/42146896.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'somnio junior', a variation of the product 'somnio', as the digital CBT-I intervention being tested. Additionally, mementor DE GmbH, the manufacturer of somnio, is involved in the study, confirming the intervention is related to the product.",
+        "matched_elements": [
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 80,
+        "reason": "Title indicates a non-RCT/RWE design ('study protocol')."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "Title indicates a non-RCT/RWE design ('study protocol')."
+    },
+    {
+      "study_id": "31639813",
+      "pmid": "31639813",
+      "title": "Combined Internet-Based Cognitive-Behavioral and Chronobiological Intervention for Insomnia: A Randomized Controlled Trial.",
+      "authors": "Dekker Kim et al.",
+      "authors_list": [
+        "Dekker Kim",
+        "Benjamins Jeroen S",
+        "Maksimovic Teodora",
+        "Filardi Marco",
+        "Hofman Winni F"
+      ],
+      "publication_year": "2020",
+      "publication_date": "2020",
+      "journal": "Psychotherapy and psychosomatics",
+      "journal_abbrev": "Psychother Psychosom",
+      "doi": "10.1159/000503570",
+      "abstract": "",
+      "publication_types": [
+        "Letter",
+        "Randomized Controlled Trial"
+      ],
+      "mesh_terms": [
+        "Biological Clocks",
+        "Cognitive Behavioral Therapy",
+        "Diaries as Topic",
+        "Female",
+        "Humans",
+        "Internet",
+        "Male",
+        "Middle Aged",
+        "Sleep Initiation and Maintenance Disorders"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31639813/",
+      "pdf_available": false,
+      "_matched_query": "\"somnio\"",
+      "_raw_xml_path": "evidence/Germany/somnio/candidates/pubmed/raw/31639813.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study mentions 'Somnio ICBTI' developed by an author and owned by Personal Health Institute International. This matches the product name 'somnio' and its description as an internet-based cognitive-behavioral intervention for insomnia.",
+        "matched_elements": [
+          "product_name",
+          "device_description"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "letter",
+        "confidence": 85,
+        "reason": "Publication type indicates a non-RCT/RWE design (letter)."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "Publication type indicates a non-RCT/RWE design (letter)."
+    }
+  ],
+  "count": 5,
+  "_saved_at": "2026-06-14T09:07:00.267494Z",
+  "_source": "pubmed"
+}

@@ -1,0 +1,154 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05412966",
+      "nct_id": "NCT05412966",
+      "title": "Feasibility Study of Novel Prescription Digital Therapeutic Supporting Unobserved Buprenorphine Initiation & Adherence",
+      "official_title": "A Feasibility Study of PEAR-002b, a Novel Prescription Digital Therapeutic to Support Unobserved Buprenorphine Initiation and Adherence in Opioid Use Disorder Outpatients",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NA",
+        "intervention_model": "SINGLE_GROUP",
+        "primary_purpose": "TREATMENT",
+        "masking": "NONE"
+      },
+      "enrollment": 7,
+      "start_date": "2022-11-04",
+      "completion_date": "2022-12-16",
+      "conditions": [
+        "Opioid Use Disorder"
+      ],
+      "keywords": [
+        "digital therapeutic"
+      ],
+      "interventions": [
+        {
+          "name": "PEAR-002B",
+          "type": "DEVICE",
+          "description": "PEAR-002B is a novel prescription digital therapeutic to support unobserved buprenorphine initiation and adherence in Opioid Use Disorder"
+        },
+        {
+          "name": "reSET-O",
+          "type": "DEVICE",
+          "description": "reSET-O is an FDA-authorized mobile application treatment for opioid use disorder."
+        }
+      ],
+      "lead_sponsor": "Pear Therapeutics, Inc.",
+      "collaborators": [
+        "Kaiser Foundation Research Institute",
+        "Whitman-Walker Institute, Inc.",
+        "National Institute on Drug Abuse (NIDA)",
+        "Hassman Research Institute, LLC"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The purpose of this study is to assess feasibility of an at-home digital therapy designed to support buprenorphine initiation and adherence.",
+      "detailed_description": "The purpose of this study is to develop and evaluate the acceptability of a novel feature for use with the prescription digital therapeutic reSET-O.\n\nThis feature aims to improve the quality of treatment for opioid use disorder (OUD) patients starting buprenorphine initiation at home by providing new digital content and withdrawal symptom assessment to support them during this process.\n\nThis study will evaluate the acceptability of this new feature and assess success of at-home buprenorphine initiation.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05412966",
+      "_matched_query": "\"reSET-O\"",
+      "_raw_json_path": "evidence/USA/reset-o/candidates/clinicaltrials/raw/NCT05412966.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions reSET-O as an FDA-authorized mobile application treatment for opioid use disorder and evaluates a novel feature for use with reSET-O. The intervention includes reSET-O, confirming the study is about this product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The study is described as a feasibility study with a focus on assessing the feasibility and acceptability of a digital therapeutic, which suggests it is a preliminary investigation rather than a primary RCT or RWE study. The absence of randomization or observational data collection details further supports this classification."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The study is described as a feasibility study with a focus on assessing the feasibility and acceptability of a digital therapeutic, which suggests it is a preliminary investigation rather than a primary RCT or RWE study. The absence of randomization or observational data collection details further supports this classification."
+    },
+    {
+      "study_id": "NCT04907045",
+      "nct_id": "NCT04907045",
+      "title": "An Initial Study of the Implementation of Digital Therapeutics for Substance Use Disorders in Primary Care",
+      "official_title": "Digital Therapeutics for Opioids and Other Substance Use Disorders in Primary Care Pilot (DIGITS Trial Pilot)",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "NON_RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+        "masking": "NONE"
+      },
+      "enrollment": 1552,
+      "start_date": "2021-05-06",
+      "completion_date": "2023-12-04",
+      "conditions": [
+        "Drug Use Disorders",
+        "Illicit Drug Use",
+        "Alcohol-Related Disorders"
+      ],
+      "keywords": [
+        "Implementation Science",
+        "Mobile Applications",
+        "Drug Use Disorders",
+        "Quality Improvement",
+        "Primary Health Care"
+      ],
+      "interventions": [
+        {
+          "name": "Health Coaching",
+          "type": "BEHAVIORAL",
+          "description": "The clinic is provided access to a health coach who conducts outreach with patients. The health coach facilitates engagement with the digital therapeutic and encourages contact with the care team."
+        },
+        {
+          "name": "Practice Facilitation",
+          "type": "BEHAVIORAL",
+          "description": "In the context of a supportive relationship, a trained facilitator delivers the following interventions to clinic staff: Bolster Education, Audit and Provide Feedback, Support Plan-Do-Study-Act Cycles, Engage Others in Change."
+        },
+        {
+          "name": "Standard Implementation",
+          "type": "BEHAVIORAL",
+          "description": "Brief clinician training and an implementation toolkit consisting of job aids, patient educational materials, scripted conversations, electronic health record tools, and a population management workbench."
+        }
+      ],
+      "lead_sponsor": "Kaiser Permanente",
+      "collaborators": [
+        "National Institute on Drug Abuse (NIDA)"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The DIGITS Trial addresses a critical knowledge gap: How to best implement digital treatments for opioids and other substance use disorders in primary care. In this pilot study, the FDA-authorized reSET and reSET-O digital therapeutics will be implemented in 2 primary care clinics as part of quality improvement. The pilot is comprised of a 3-month period in which a standard approach to implementing reSET and reSET-O is applied in the two primary care clinics \"standard implementation\", followed by a second 3-month period in which the study will test and refine the two experimental implementation strategy interventions, health coaching (patient-facing) and practice coaching (clinician-facing) in the same clinics. This study will also pilot economic data collection tools and collect qualitative data for a formative evaluation. The analytic goals are to inform the statistical design and data collection processes for the subsequent cluster-randomized DIGITS Trial.",
+      "detailed_description": "",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT04907045",
+      "_matched_query": "\"reSET-O\"",
+      "_raw_json_path": "evidence/USA/reset-o/candidates/clinicaltrials/raw/NCT04907045.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the implementation of the reSET-O digital therapeutic, developed by Pear Therapeutics, in primary care clinics. The product name reSET-O appears multiple times in the abstract and full text.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "pilot implementation study",
+        "confidence": 90,
+        "reason": "The study is a pilot implementation study focused on testing and refining implementation strategies for digital therapeutics in primary care, not a primary RCT or RWE study. It aims to inform a future cluster-randomized trial, but does not itself involve randomization or observational data collection for primary effectiveness outcomes."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The study is a pilot implementation study focused on testing and refining implementation strategies for digital therapeutics in primary care, not a primary RCT or RWE study. It aims to inform a future cluster-randomized trial, but does not itself involve randomization or observational data collection for primary effectiveness outcomes."
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-15T06:56:04.777912Z",
+  "_source": "clinicaltrials"
+}

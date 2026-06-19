@@ -1,0 +1,73 @@
+{
+  "studies": [
+    {
+      "study_id": "NCT05353296",
+      "nct_id": "NCT05353296",
+      "title": "Digital Cognitive-Behavioral Therapy for Insomnia in Spanish Speaking Latinas/os (Dormir Mejor Study)",
+      "official_title": "Dormir Mejor Study: Randomized Controlled Trial of a Culturally Adapted Digital Program of Cognitive-Behavioral Therapy for Insomnia for Spanish Speaking Latina/o Primary Care Patients",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "design": {
+        "allocation": "RANDOMIZED",
+        "intervention_model": "PARALLEL",
+        "primary_purpose": "TREATMENT",
+        "masking": "SINGLE"
+      },
+      "enrollment": 7,
+      "start_date": "2022-04-07",
+      "completion_date": "2024-07-15",
+      "conditions": [
+        "Insomnia"
+      ],
+      "keywords": [
+        "Insomnia",
+        "Behavioral Sleep Medicine",
+        "Digital Health",
+        "Hispanic",
+        "Latino",
+        "Sociocultural"
+      ],
+      "interventions": [
+        {
+          "name": "Digital cognitive behavioral therapy for insomnia (CBT-I) program",
+          "type": "BEHAVIORAL",
+          "description": "A self-guided digital program of CBT-I (Somryst) that has been culturally adapted for Spanish-language speakers. Somryst is an interactive and tailored mobile-based program modeled on the primary tenets of face-to-face CBT-I. Patients will be asked to complete six cores (main intervention content) during the 9-week intervention period. The cores provide key content across six domains including behavioral (sleep restriction, stimulus control), cognitive (cognitive restricting), educational (sleep"
+        },
+        {
+          "name": "Minimally Enhanced Usual Care (mEUC)",
+          "type": "BEHAVIORAL",
+          "description": "A minimally enhanced usual care, which will include usual care by patients' Primary Care Provider and a sleep hygiene brochure."
+        },
+        {
+          "name": "Somryst (culturally adapted)",
+          "type": "DEVICE",
+          "description": "FDA-authorized digital cognitive behavioral therapy for insomnia (CBT-I) trains your brain for better sleep."
+        }
+      ],
+      "lead_sponsor": "Columbia University",
+      "collaborators": [
+        "Agency for Healthcare Research and Quality (AHRQ)"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "brief_summary": "The primary objective of the proposed study is to examine the effectiveness of a culturally adapted digital program of cognitive behavioral therapy for insomnia (CBT-I) compared to minimally enhanced usual care (mEUC) on primary outcomes: reduction in insomnia symptoms at 9 weeks and 6 months post-intervention, using a standard scale among Spanish-Speaking Latina/o adults with chronic insomnia.",
+      "detailed_description": "Chronic insomnia is associated with significant public health burden and most adults seek care for insomnia in the primary care setting. While Latina/os are at greater risk for insomnia than non-Hispanic Whites, access to the recommended first-line of treatment, cognitive behavioral therapy for insomnia, is limited especially for Spanish-speakers. Recent advances in health information technology such as self-guided digital health treatments represent an innovative and scalable means to address the supply and demand imbalance that perpetuate mental health care disparities, however its implementation in underserved communities remains elusive. The purpose of this study is to compare the effectiveness of a culturally adapted digital version of Cognitive Behavioral Therapy for Insomnia with minimally enhanced usual care on reduction of insomnia symptoms among Spanish-speaking Latina/os adults with chronic insomnia. The study will also examine barriers and facilitators to implementation, and examine cost-effectiveness of the intervention.",
+      "source": "ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05353296",
+      "_matched_query": "\"Somryst\"",
+      "_raw_json_path": "evidence/USA/somryst/candidates/clinicaltrials/raw/NCT05353296.json"
+    }
+  ],
+  "count": 1,
+  "queries_used": [
+    "\"Somryst\"",
+    "\"Somryst\" AND \"Pear Therapeutics\""
+  ],
+  "dtx_name": "Somryst",
+  "country": "USA",
+  "_saved_at": "2026-06-15T06:56:58.315217Z",
+  "_source": "clinicaltrials",
+  "_layer": "candidates"
+}

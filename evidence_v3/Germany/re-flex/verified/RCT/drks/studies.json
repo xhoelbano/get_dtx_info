@@ -1,0 +1,35 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00030932",
+      "drks_id": "DRKS00030932",
+      "title": "Randomized controlled trial to evaluate a 12-week app-guided exercise intervention in patients with knee osteoarthritis (re.flex)",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030932/details",
+      "_matched_query": "\"re.flex\"",
+      "_raw_json_path": "evidence/Germany/re-flex/candidates/drks/raw/DRKS00030932.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 're.flex', as indicated by the product name appearing in the title and full text. The intervention description matches the product's features, including the use of an app and motion sensors for exercise guidance.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "device_description"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 100,
+        "reason": "The study is explicitly described as a randomized controlled trial, with participants randomly allocated to an intervention group receiving a 12-week app-guided exercise program or a control group with no intervention, under controlled trial conditions."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T10:10:50.326831Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

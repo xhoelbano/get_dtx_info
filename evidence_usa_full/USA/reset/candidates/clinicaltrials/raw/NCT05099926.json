@@ -1,0 +1,976 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05099926",
+      "orgStudyIdInfo": {
+        "id": "AAAT6275"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "P30AG064198",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30AG064198"
+        }
+      ],
+      "organization": {
+        "fullName": "Columbia University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Reducing Exercise Sensitivity With Exposure Training (RESET) Study",
+      "officialTitle": "The Reducing Exercise Sensitivity With Exposure Training (RESET) Study: Interoceptive Bias Reduction Training After Acute Coronary Syndrome",
+      "acronym": "RESET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Halted Prematurely",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-02-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-10-19",
+      "studyFirstSubmitQcDate": "2021-10-19",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-29",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-01-26",
+      "resultsFirstSubmitQcDate": "2024-03-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-04-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Andrea Duran",
+        "investigatorTitle": "Assistant Professor in the Department of Medicine",
+        "investigatorAffiliation": "Columbia University"
+      },
+      "leadSponsor": {
+        "name": "Columbia University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute on Aging (NIA)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study investigates the feasibility of conducting a home-based reducing exercise sensitivity with exposure training (RESET) intervention among acute coronary syndrome (ACS) survivors. RESET is an at-home, 2 visit intervention that involves psychoeducation, a brief, low-to-moderate intensity walking session (i.e., interoceptive exposure), and interoceptive counseling, and is designed to reduce exercise sensitivity (i.e., fear of exercise sensations) and improve participation in exercise-based secondary-prevention guidelines (cardiac rehabilitation and physical activity). The primary purpose of this pilot study is to test the feasibility, acceptability, and appropriateness of recruiting and administering the RESET intervention in ACS patients.",
+      "detailedDescription": "Fear of exercise may be prominent among acute coronary syndrome (ACS) survivors due to the presence of physical disease states that can exacerbate uncertainty about bodily sensations. For instance, patients may perceive physical sensations experienced during exercise (e.g., increased heart rate, shortness of breath, fatigue) as dangerous, intolerable, or similar to sensations experienced or attributed to their ACS, resulting in a fear of exercise sensations (i.e., exercise sensitivity). As a result, patients may avoid heart healthy activities, such as cardiac rehabilitation (CR) and physical activity, that prompt these physical sensations or terminate activities at the first sign of discomfort. Novel programs that target patient-level fears related to exercise sensations (i.e., exercise sensitivity) during the first-year post-discharge (the time window patients are eligible for CR) may be needed to improve CR participation and physical activity levels.\n\nTo the investigator's knowledge, no intervention has been developed specifically to reduce exercise sensitivity in ACS survivors within the first year post-hospital discharge; a vulnerable population that is extremely sedentary, fails to meet physical activity guidelines, and with the most to gain from CR and physical activity participation. Thus, the investigator developed a de novo protocol for a reducing exercise sensitivity with exposure training (RESET) intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome",
+        "Fear Anxiety",
+        "Physical Inactivity"
+      ],
+      "keywords": [
+        "Acute Coronary Syndrome",
+        "Exercise Sensitivity",
+        "Fear of Exercise",
+        "Cardiac Rehabilitation",
+        "Physical Activity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "The intervention involves home-based psychoeducation, interoceptive exposure (walking), and interoceptive counseling administered by research personnel via video visits. Participants also complete weekly physical activity journals throughout the intervention.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Reducing Exercise Sensitivity with Exposure Training",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, and a brief walking activity (i.e., interoceptive exposure), followed by a session reflecting upon their walking experience with research-trained personnel (i.e., interoceptive counseling). Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.",
+          "interventionNames": [
+            "Behavioral: Reducing Exercise Sensitivity with Exposure Training"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Reducing Exercise Sensitivity with Exposure Training",
+          "description": "Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed.",
+          "armGroupLabels": [
+            "Reducing Exercise Sensitivity with Exposure Training"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants That Are Adherent to the Intervention (Intervention Adherence)",
+          "description": "As a measure of adherence, the investigator will assess the percentage of participants that complete a majority of the home-based RESET intervention visits.",
+          "timeFrame": "Assessed after enrollment (baseline) and until pilot study completion (approximately 4 weeks)"
+        },
+        {
+          "measure": "Percentage of Participants Who Complete the Outcome Assessments Upon Program Completion",
+          "description": "This is to assess the feasibility of participants enrolled in the study to achieve outcomes assessments upon program completion",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)"
+        },
+        {
+          "measure": "Percentage of RESET Sessions Administered as Intended",
+          "description": "As a measure of intervention fidelity, the investigator will assess the percentage of participants that had a majority of their home-based RESET intervention administered as intended as per completion of a fidelity checklist.",
+          "timeFrame": "Assessed throughout administration of the pilot study (Up to 4 weeks)"
+        },
+        {
+          "measure": "Percentage of Participants Who Report Adequate Acceptability of the Intervention",
+          "description": "The investigator will assess the percentage of participants who report scores ≥4 for their rating of the patient-perceived intervention's acceptability on the Acceptability of Intervention Measure (average of 4 items, each rated on a 1-5 Likert scale; score range: 1-5, with higher scores indicating greater acceptability).",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)"
+        },
+        {
+          "measure": "Percentage of Participants Who Report Adequate Feasibility of the Intervention",
+          "description": "The investigator will assess the percentage of participants who report scores ≥4 for their rating of the patient-perceived intervention's feasibility on the Feasibility of Intervention Measure (average of 4 items, each rated on a 1-5 Likert scale; score range: 1-5, with higher scores indicating greater feasibility).",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)"
+        },
+        {
+          "measure": "Percentage of Participants Who Report Adequate Appropriateness of the Intervention",
+          "description": "The investigator will assess the percentage of participants who report scores ≥4 for their rating of the patient-perceived intervention's appropriateness on the Intervention Appropriateness Measure (average of 4 items, each rated on a 1-5 Likert scale; score range: 1-5, with higher scores indicating greater appropriateness).",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Exercise Sensitivity Questionnaire Score",
+          "description": "The investigator will assess pre- to post-intervention change in exercise sensitivity using the Exercise Sensitivity Questionnaire (ESQ). The ESQ is an 18-item instrument designed to assess exercise sensitivity, specifically for use in adults with cardiac rehabilitation-qualifying conditions. Items reflect fear and anxiety of various bodily sensations and are rated from 0 to 4 (\"not at all\" to \"very much), based on agreement with each statement. Scores of all the items are summed to create a total score, where higher scores reflect more sever exercise sensitivity (sum of 18 items, each rated on a 0-4 Likert scale; score range: 0-72, with higher scores indicating greater fear of exercise).",
+          "timeFrame": "baseline and after pilot study completion (4 weeks)"
+        },
+        {
+          "measure": "Change in Self-reported Physical Activity",
+          "description": "The investigator will assess pre- to post-intervention change in physical activity using the short form International Physical Activity Questionnaire (IPAQ). The short form IPAQ is a 7-item, open-ended questionnaire eliciting participant's last 7-day recall of physical activity to assess the time spent in different physical activities (vigorous, moderate, walking) as part of their everyday lives. The outcome is an estimate of total physical activity in MET-min/week.",
+          "timeFrame": "baseline and after pilot study completion (4 weeks)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years or older.\n* Speak and read English.\n* A diagnosis of acute coronary syndrome (ACS) based on ICD10 codes in the electronic health record within the past 12 months.\n* Scored \\>1 (sometimes, often, or very often) on at least one item from the Aversive Cognitions about Physical Activity Scale and/or scored \\>1 (some, much, or very much) on at least one item from the Exercise Sensations Questionnaire\n* Owns either a tablet or smartphone (iPhone or Android) to conduct Zoom video visits.\n* Express interest in participating.\n\nExclusion Criteria:\n\n* Severe disabling chronic medical and/or psychiatric comorbidities determined on a case-by-case basis that prevent safe or adequate participation.\n* Unable to comply with the protocol (either self-selected or indicated during screening that s/he/they could not complete all requested tasks) for reasons that include, but are not limited to, patients with a level of cognitive impairment indicative of dementia, patients with current alcohol or substance abuse, patients with a significant movement disorder that interferes with walking, and patients with severe mental illness (e.g., schizophrenia).\n* Unavailable for follow-up for reasons such as terminal illness and imminent plans to leave the United States (as we have migrant or mobile patients due to their citizenship and work issues).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andrea T Duran, PhD",
+          "affiliation": "Columbia University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ian Kronish, MD",
+          "affiliation": "Florence Irving Associate Professor of Medicine",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Columbia University Irving Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "1616469",
+          "type": "BACKGROUND",
+          "citation": "Eifert GH. Cardiophobia: a paradigmatic behavioural model of heart-focused anxiety and non-anginal chest pain. Behav Res Ther. 1992 Jul;30(4):329-45. doi: 10.1016/0005-7967(92)90045-i."
+        },
+        {
+          "pmid": "30801438",
+          "type": "BACKGROUND",
+          "citation": "Farris SG, Abrantes AM, Bond DS, Stabile LM, Wu WC. Anxiety and Fear of Exercise in Cardiopulmonary Rehabilitation: PATIENT AND PRACTITIONER PERSPECTIVES. J Cardiopulm Rehabil Prev. 2019 Mar;39(2):E9-E13. doi: 10.1097/HCR.0000000000000401."
+        },
+        {
+          "pmid": "31364434",
+          "type": "BACKGROUND",
+          "citation": "Duran AT, Ewing Garber C, Cornelius T, Schwartz JE, Diaz KM. Patterns of Sedentary Behavior in the First Month After Acute Coronary Syndrome. J Am Heart Assoc. 2019 Aug 6;8(15):e011585. doi: 10.1161/JAHA.118.011585. Epub 2019 Jul 31."
+        },
+        {
+          "pmid": "28254185",
+          "type": "BACKGROUND",
+          "citation": "Kronish IM, Diaz KM, Goldsmith J, Moise N, Schwartz JE. Objectively Measured Adherence to Physical Activity Guidelines After Acute Coronary Syndrome. J Am Coll Cardiol. 2017 Mar 7;69(9):1205-1207. doi: 10.1016/j.jacc.2016.10.087. No abstract available."
+        },
+        {
+          "pmid": "25249585",
+          "type": "BACKGROUND",
+          "citation": "Amsterdam EA, Wenger NK, Brindis RG, Casey DE Jr, Ganiats TG, Holmes DR Jr, Jaffe AS, Jneid H, Kelly RF, Kontos MC, Levine GN, Liebson PR, Mukherjee D, Peterson ED, Sabatine MS, Smalling RW, Zieman SJ; ACC/AHA Task Force Members. 2014 AHA/ACC guideline for the management of patients with non-ST-elevation acute coronary syndromes: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. Circulation. 2014 Dec 23;130(25):e344-426. doi: 10.1161/CIR.0000000000000134. Epub 2014 Sep 23. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Reducing Exercise Sensitivity With Exposure Training",
+          "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, followed by interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Reducing Exercise Sensitivity With Exposure Training",
+          "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, followed by interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48.8",
+                      "spread": "12.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Exercise Sensitivity",
+          "description": "Exercise Sensitivity Questionnaire (sum of 18 items, each rated on a 0-4 Likert scale; score range: 0-72, with higher scores indicating greater fear of exercise)",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "score on a scale",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28.0",
+                      "spread": "11.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants That Are Adherent to the Intervention (Intervention Adherence)",
+          "description": "As a measure of adherence, the investigator will assess the percentage of participants that complete a majority of the home-based RESET intervention visits.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed after enrollment (baseline) and until pilot study completion (approximately 4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure), followed by interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Complete the Outcome Assessments Upon Program Completion",
+          "description": "This is to assess the feasibility of participants enrolled in the study to achieve outcomes assessments upon program completion",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of RESET Sessions Administered as Intended",
+          "description": "As a measure of intervention fidelity, the investigator will assess the percentage of participants that had a majority of their home-based RESET intervention administered as intended as per completion of a fidelity checklist.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed throughout administration of the pilot study (Up to 4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Report Adequate Acceptability of the Intervention",
+          "description": "The investigator will assess the percentage of participants who report scores ≥4 for their rating of the patient-perceived intervention's acceptability on the Acceptability of Intervention Measure (average of 4 items, each rated on a 1-5 Likert scale; score range: 1-5, with higher scores indicating greater acceptability).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. . Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Report Adequate Feasibility of the Intervention",
+          "description": "The investigator will assess the percentage of participants who report scores ≥4 for their rating of the patient-perceived intervention's feasibility on the Feasibility of Intervention Measure (average of 4 items, each rated on a 1-5 Likert scale; score range: 1-5, with higher scores indicating greater feasibility).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Report Adequate Appropriateness of the Intervention",
+          "description": "The investigator will assess the percentage of participants who report scores ≥4 for their rating of the patient-perceived intervention's appropriateness on the Intervention Appropriateness Measure (average of 4 items, each rated on a 1-5 Likert scale; score range: 1-5, with higher scores indicating greater appropriateness).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Assessed after pilot study completion (approximately 4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Exercise Sensitivity Questionnaire Score",
+          "description": "The investigator will assess pre- to post-intervention change in exercise sensitivity using the Exercise Sensitivity Questionnaire (ESQ). The ESQ is an 18-item instrument designed to assess exercise sensitivity, specifically for use in adults with cardiac rehabilitation-qualifying conditions. Items reflect fear and anxiety of various bodily sensations and are rated from 0 to 4 (\"not at all\" to \"very much), based on agreement with each statement. Scores of all the items are summed to create a total score, where higher scores reflect more sever exercise sensitivity (sum of 18 items, each rated on a 0-4 Likert scale; score range: 0-72, with higher scores indicating greater fear of exercise).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "baseline and after pilot study completion (4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.7",
+                      "spread": "7.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Self-reported Physical Activity",
+          "description": "The investigator will assess pre- to post-intervention change in physical activity using the short form International Physical Activity Questionnaire (IPAQ). The short form IPAQ is a 7-item, open-ended questionnaire eliciting participant's last 7-day recall of physical activity to assess the time spent in different physical activities (vigorous, moderate, walking) as part of their everyday lives. The outcome is an estimate of total physical activity in MET-min/week.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "change in MET-mins/week",
+          "timeFrame": "baseline and after pilot study completion (4 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Reducing Exercise Sensitivity With Exposure Training",
+              "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, pre- to post-intervention change in exercise sensitivity. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1203.8",
+                      "spread": "1381.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "4 weeks",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Reducing Exercise Sensitivity With Exposure Training",
+          "description": "Participants in this group complete 2, at-home reducing exercise sensitivity with exposure training (RESET) intervention visits with research-trained personnel via video visits. They complete psychoeducation, interoceptive exposure, and interoceptive counseling. Participants also complete weekly physical activity journals throughout the intervention. Each RESET intervention visits can occur once or twice per week over the course of 2 weeks, based on patient preference.\n\nReducing Exercise Sensitivity with Exposure Training: Participants complete 2, home-based intervention visits on a secure video visit platform. Video visits include psychoeducation, interoceptive exposure, and interoceptive counseling. For homework, participants are asked to document their weekly physical activity and exercise sensations in a journal.\n\nPsychoeducation: Participants are educated about the benefits and safety of exercise and cardiac rehabilitation, the role of fear and anxiety in exercise avoidance, and the concept of interoceptive exposure.\n\nInteroceptive Exposure: A gradual six-minute walk (G6MW) serves as a low-risk form of interoceptive exposure. Exercise sensations and ratings of perceived intensity and distress are collected before and after the G6MW.\n\nInteroceptive Counseling: Participants review and reflect upon their pre-walking and post-walking physical sensations and ratings (intensity and distress) with a research team member. Homework is also reviewed.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 4,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 4
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Andrea T. Duran",
+        "organization": "Columbia University Irving Medical Center",
+        "email": "atd2127@cumc.columbia.edu",
+        "phone": "212-342-4491"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2024-01-26",
+          "uploadDate": "2024-01-26T18:29",
+          "filename": "Prot_000.pdf",
+          "size": 263943
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2024-01-26",
+          "uploadDate": "2024-01-26T16:46",
+          "filename": "SAP_001.pdf",
+          "size": 116819
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D057185",
+          "term": "Sedentary Behavior"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

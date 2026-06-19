@@ -1,0 +1,72 @@
+{
+  "studies": [
+    {
+      "study_id": "25755233",
+      "pmid": "25755233",
+      "title": "Parent-reported outcomes of a shared decision-making portal in asthma: a practice-based RCT.",
+      "authors": "Fiks Alexander G et al.",
+      "authors_list": [
+        "Fiks Alexander G",
+        "Mayne Stephanie L",
+        "Karavite Dean J",
+        "Suh Andrew",
+        "O'Hara Ryan"
+      ],
+      "publication_year": "2015",
+      "publication_date": "2015-Apr",
+      "journal": "Pediatrics",
+      "journal_abbrev": "Pediatrics",
+      "doi": "10.1542/peds.2014-3167",
+      "abstract": "BACKGROUND: Electronic health record (EHR)-linked patient portals are a promising approach to facilitate shared decision-making between families of children with chronic conditions and pediatricians. This study evaluated the feasibility, acceptability, and impact of MyAsthma, an EHR-linked patient portal supporting shared decision-making for pediatric asthma. METHODS: We conducted a 6-month randomized controlled trial of MyAsthma at 3 primary care practices. Families were randomized to MyAsthma, which tracks families' asthma treatment concerns and goals, children's asthma symptoms, medication side effects and adherence, and provides decision support, or to standard care. Outcomes included the feasibility and acceptability of MyAsthma for families, child health care utilization and asthma control, and the number of days of missed school (child) and work (parent). Descriptive statistics and longitudinal regression models assessed differences in outcomes between study arms. RESULTS: We enrolled 60 families, 30 in each study arm (mean age 8.3 years); 57% of parents in the intervention group used MyAsthma during at least 5 of the 6 study months. Parents of children with moderate to severe persistent asthma used the portal more than others; 92% were satisfied with MyAsthma. Parents reported that use improved their communication with the office, ability to manage asthma, and awareness of the importance of ongoing attention to treatment. Parents in the intervention group reported that children had a lower frequency of asthma flares and intervention parents missed fewer days of work due to asthma. CONCLUSIONS: Use of an EHR-linked asthma portal was feasible and acceptable to families and improved clinically meaningful outcomes.",
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "mesh_terms": [
+        "Absenteeism",
+        "Adolescent",
+        "Anti-Asthmatic Agents",
+        "Asthma",
+        "Decision Making",
+        "Decision Support Techniques",
+        "Electronic Health Records",
+        "Feasibility Studies",
+        "Female",
+        "Hospitalization"
+      ],
+      "keywords": [
+        "asthma",
+        "patient portal",
+        "shared decision-making"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25755233/",
+      "pdf_available": false,
+      "_matched_query": "\"myAsthma\"",
+      "_raw_xml_path": "evidence/USA/myasthma/candidates/pubmed/raw/25755233.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically evaluates 'MyAsthma', an EHR-linked patient portal for pediatric asthma, which matches the product name 'myAsthma'. The study details its use and outcomes, indicating it is about this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 6 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T07:24:51.072071Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

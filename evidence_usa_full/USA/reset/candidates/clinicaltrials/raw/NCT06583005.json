@@ -1,0 +1,202 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06583005",
+      "orgStudyIdInfo": {
+        "id": "75389"
+      },
+      "organization": {
+        "fullName": "Stanford University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Vibrotactile Coordinated Reset for Parkinsons Patients Who Are on Dopaminergic Medication",
+      "officialTitle": "Vibrotactile Coordinated Reset for Parkinsons Patients Who Are on Dopaminergic Medication"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-15",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-08-31",
+      "studyFirstSubmitQcDate": "2024-08-31",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Vivek P. Buch",
+        "investigatorTitle": "Assistant Professor of Neurosurgery",
+        "investigatorAffiliation": "Stanford University"
+      },
+      "leadSponsor": {
+        "name": "Stanford University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this clinical trial is to test the efficacy of vibrotactile coordinated reset stimulation to improve movement ability and other symptoms of human subject participants with Parkinsons Disease who take dopaminergic medication and are unable to withhold this medication. Participants will be followed for five years and make a total of five study visits."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Parkinson Disease, Idiopathic"
+      ],
+      "keywords": [
+        "vibrotactile",
+        "vibrotactile coordinated reset",
+        "parkinsons disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stimulation",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will stimulate with the device, called the Stanford CR glove, on a daily or weekly basis depending on their progress through the study procedures. The device itself is a glove that is designed to deliver vibrations to the fingertips of each hand.",
+          "interventionNames": [
+            "Device: Vibrotactile Coordinated Reset"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Vibrotactile Coordinated Reset",
+          "description": "The Stanford CR glove is designed to administer vibrotactile coordinated reset stimulation, which consists of vibratory stimulation of the fingertips delivered in a specific pattern which is design to disrupt and normalize abnormal brain synchrony.",
+          "armGroupLabels": [
+            "Stimulation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MDS-UPDRS Part 3",
+          "description": "The Movement Disorder Society Unified Parkinsons Disease Rating Scale Part 3 assessment, obtained while the participant is off medication, is a scale that measures motor ability within Parkinsons patients. For part 3, the scales minimum values are 0 and max value is 132. Higher scores indicate more impaired motor ability, while lower scores indicate less impaired motor ability. A score of 0 indicates no motor impairment.",
+          "timeFrame": "Baseline, 6 months, 12 months, 18 months, 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age at the time of enrollment: Adults 18 and older\n* Idiopathic Parkinson's Symptoms between Hoehn and Yahr stages 2 to 4\n* Fluent in English\n* Comfortable with technology; can use a computer, check email, and access the internet; can initiate and engage in a virtual meeting for training and monitoring purposes.\n* Lives in the United States\n\nExclusion Criteria:\n\n* Any significant neuro-psychiatric problems, including acute confusional state, ongoing psychosis, or suicidal tendencies.\n* Any current drug or alcohol abuse.\n* Participation in another drug, device, or biologics trial concurrently or within the preceding 30 days. Any other trial participation should be approved by the Principal Investigators.\n* Pregnancy, breast-feeding or wanting to become pregnant.\n* Patient is unable to communicate properly with staff (i.e., severe speech problems).\n* Excessive drooling",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jessica Yankulova",
+          "role": "CONTACT",
+          "phone": "‭(650) 474-9547‬",
+          "email": "jessky@stanford.edu"
+        },
+        {
+          "name": "Ellyn Daly",
+          "role": "CONTACT",
+          "phone": "(650) 313-8775",
+          "email": "ellynd@stanford.edu"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010300",
+          "term": "Parkinson Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020734",
+          "term": "Parkinsonian Disorders"
+        },
+        {
+          "id": "D001480",
+          "term": "Basal Ganglia Diseases"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D009069",
+          "term": "Movement Disorders"
+        },
+        {
+          "id": "D000080874",
+          "term": "Synucleinopathies"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

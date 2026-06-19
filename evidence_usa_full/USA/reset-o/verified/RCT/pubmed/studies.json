@@ -1,0 +1,125 @@
+{
+  "studies": [
+    {
+      "study_id": "41833956",
+      "pmid": "41833956",
+      "title": "A Digital Therapeutic Mobile App, ReSET-O, as Adjunct to Medication Treatment for Opioid Use Disorder: A Randomized Clinical Trial at an Opioid Treatment Program.",
+      "authors": "Kawasaki Sarah et al.",
+      "authors_list": [
+        "Kawasaki Sarah",
+        "Lehman Erik",
+        "Kong Lan",
+        "Spangler Angela",
+        "Aydingolo Nicole"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Mar-16",
+      "journal": "Journal of addiction medicine",
+      "journal_abbrev": "J Addict Med",
+      "doi": "10.1097/ADM.0000000000001682",
+      "abstract": "OBJECTIVES: This study evaluated ReSET-O, a mobile app derived from the previously studied, computer-based therapeutic education system (TES), delivering cognitive behavioral therapy (CBT) lessons plus contingency management, rewarding CBT lesson completion and drug-negative urines, as an intervention to improve medication retention for opioid use disorder (MOUD). METHODS: A 24-week randomized controlled trial was conducted in an outpatient opioid treatment program where patients starting methadone or buprenorphine treatment were randomized to treatment as usual (TAU) or TAU plus the app. The primary outcome, medication retention, was defined as at most a 28-day gap in the first 24 weeks of medication dispensation or prescription. Secondary outcomes examined urine drug tests, mood assessments, app engagement, and app feedback. Fifty-two participants were randomized to TAU (29 on buprenorphine, 23 on methadone) and 48 (28 on buprenorphine, 20 on methadone) to TAU+ the app. RESULTS: 51.9% (n=27) on TAU met 24-week MOUD medication retention, compared with 70.8% (n=34) on TAU + the app (OR: 2.28; 95% CI: [0.99, 5.24]); P=0.053; Rate difference: 18.9% (95% CI: [0.2, 37.6]). No significant differences resulted between groups in urine toxicology or mood outcomes. Adherence to the app varied, with over half of participants (53%, 25/48) completing <10 out of 48 CBT therapy lessons. CONCLUSIONS: ReSET-O had no significant impact on MOUD retention. The study did not meet its recruitment target, was underpowered, and adherence to the app was poor. Further research is indicated on apps delivering CBT plus contingency management for improving MOUD outcomes, including improving adherence to app use.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "addiction",
+        "buprenorphine",
+        "methadone",
+        "mobile digital therapeutic",
+        "opioids"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41833956/",
+      "pdf_available": false,
+      "_matched_query": "\"reSET-O\"",
+      "_raw_xml_path": "evidence/USA/reset-o/candidates/pubmed/raw/41833956.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product reSET-O, as evidenced by the product name appearing in the title and abstract. The study evaluates reSET-O as an adjunct to medication treatment for Opioid Use Disorder.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "33140994",
+      "pmid": "33140994",
+      "title": "Safety and efficacy of a prescription digital therapeutic as an adjunct to buprenorphine for treatment of opioid use disorder.",
+      "authors": "Maricich Yuri A et al.",
+      "authors_list": [
+        "Maricich Yuri A",
+        "Bickel Warren K",
+        "Marsch Lisa A",
+        "Gatchalian Kirstin",
+        "Botbyl Jeffrey"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Feb",
+      "journal": "Current medical research and opinion",
+      "journal_abbrev": "Curr Med Res Opin",
+      "doi": "10.1080/03007995.2020.1846022",
+      "abstract": "OBJECTIVES: To evaluate the safety and efficacy of a digital therapeutic in treatment-seeking individuals with opioid use disorder (OUD) in an analysis of randomized clinical trial (RCT) data (ClinicalTrials.gov identifier: NCT00929253). METHODS: Secondary analysis of an RCT including 170 adults meeting DSM-IV criteria for OUD. Participants were randomized to 12-weeks of treatment-as-usual (TAU) or TAU plus a digital therapeutic providing 67 digital, interactive educational modules based on the Community Reinforcement Approach. TAU consisted of buprenorphine maintenance therapy, 30 min biweekly clinician interaction, and abstinence-based contingency management. Primary endpoints were treatment retention and abstinence (negative urine drug screen) during weeks 9-12 of treatment. Safety was assessed by evaluating adverse events. RESULTS: Participants randomized to TAU plus a digital therapeutic had significantly greater odds of opioid abstinence during weeks 9-12 compared to TAU: 77.3 versus 62.1%, respectively (p=.02), OR 2.08, 95% CI 1.10-3.95. The risk of patients leaving treatment was significantly lower in the digital therapeutic group (HR 0.49, 95% CI 0.26-0.92). No significant difference was observed in the rate of adverse events between groups (p=.42). CONCLUSIONS: A prescription digital therapeutic (PDT) in combination with buprenorphine therapy improves clinically significant patient outcomes including abstinence from illicit opioids and retention in treatment compared with treatment as usual.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Buprenorphine",
+        "Drug Administration Schedule",
+        "Humans",
+        "Male",
+        "Opioid-Related Disorders",
+        "Prescriptions",
+        "Safety"
+      ],
+      "keywords": [
+        "Community reinforcement approach",
+        "PDT",
+        "SUD",
+        "TES",
+        "digital therapeutic",
+        "prescription digital therapeutic",
+        "reSET-O",
+        "retention",
+        "substance use disorder",
+        "therapeutic education system"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33140994/",
+      "pdf_available": false,
+      "_matched_query": "\"reSET-O\"",
+      "_raw_xml_path": "evidence/USA/reset-o/candidates/pubmed/raw/33140994.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'reSET-O' in the keyword list and involves Pear Therapeutics, the manufacturer of reSET-O. The study evaluates a prescription digital therapeutic used in conjunction with buprenorphine for opioid use disorder, matching the description of reSET-O.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 7 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-15T06:55:49.726375Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

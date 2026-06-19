@@ -1,0 +1,2340 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03759041",
+      "orgStudyIdInfo": {
+        "id": "SERES-201"
+      },
+      "organization": {
+        "fullName": "Seres Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Assess Efficacy and Safety of SER-287 in Adults With Active Mild-to-Moderate Ulcerative Colitis",
+      "officialTitle": "ECO-RESET: A Phase 2B, Randomized, Double-Blind, Placebo-Controlled, Multiple Dose, Multicenter Study to Assess Efficacy and Safety of SER-287 in Adults With Active Mild-to-Moderate Ulcerative Colitis",
+      "acronym": "ECO-RESET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to the lack of a clinical efficacy signal in the induction treatment phase, Seres closed the dosing phases of open label and maintenance portions of the study. Patients who had received prior doses were followed for safety data.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-12-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-05-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-10-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-11-27",
+      "studyFirstSubmitQcDate": "2018-11-28",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-29",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-05-24",
+      "resultsFirstSubmitQcDate": "2022-05-24",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-06-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-07-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Seres Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A Randomized, Double-Blind, Placebo-Controlled, Multiple Dose, Multicenter Study to Assess Efficacy and Safety of SER-287 in Adults with Active Mild-to-Moderate Ulcerative Colitis",
+      "detailedDescription": "This is a Phase 2B randomized, double-blind, placebo-controlled, multiple dose, multicenter study designed to evaluate the efficacy, safety and microbiome alterations associated with two dose levels of SER-287, after pre-treatment with vancomycin, in adult subjects, age 18-80, with active mild-to-moderate ulcerative colitis (UC)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ulcerative Colitis"
+      ],
+      "keywords": [
+        "microbiome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 203,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo (after placebo pre-treatment)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Once-daily dosing of Placebo (after placebo pre-treatment)",
+          "interventionNames": [
+            "Drug: Placebo for Vancomycin Pre-Treatment",
+            "Drug: Placebo for SER-287"
+          ]
+        },
+        {
+          "label": "SER-287 Induction Dosing (after vancomycin pre-treatment)",
+          "type": "EXPERIMENTAL",
+          "description": "Once-daily dosing of SER-287 (Induction Dose, after vancomycin pre-treatment)",
+          "interventionNames": [
+            "Drug: Vancomycin Pre-Treatment",
+            "Drug: SER-287"
+          ]
+        },
+        {
+          "label": "SER-287 Step-Down Induction Dosing (after vancomycin pre-treatment)",
+          "type": "EXPERIMENTAL",
+          "description": "Once-daily dosing of SER-287 (Step-Down Induction Dose, after vancomycin pre-treatment)",
+          "interventionNames": [
+            "Drug: Vancomycin Pre-Treatment",
+            "Drug: SER-287"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vancomycin Pre-Treatment",
+          "description": "Four times per day dosing of vancomycin pre-treatment",
+          "armGroupLabels": [
+            "SER-287 Induction Dosing (after vancomycin pre-treatment)",
+            "SER-287 Step-Down Induction Dosing (after vancomycin pre-treatment)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo for Vancomycin Pre-Treatment",
+          "description": "Four times per day dosing of placebo pre-treatment",
+          "armGroupLabels": [
+            "Placebo (after placebo pre-treatment)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SER-287",
+          "description": "Once-daily dosing of SER-287",
+          "armGroupLabels": [
+            "SER-287 Induction Dosing (after vancomycin pre-treatment)",
+            "SER-287 Step-Down Induction Dosing (after vancomycin pre-treatment)"
+          ],
+          "otherNames": [
+            "Eubacterial Spores, Purified Suspension, Encapsulated"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo for SER-287",
+          "description": "Once-daily dosing of Placebo for SER-287",
+          "armGroupLabels": [
+            "Placebo (after placebo pre-treatment)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clinical Remission (Count of Participants)",
+          "description": "Clinical remission for the induction treatment period:\n\n* Stool Frequency subscore = 0 or 1, with at least 1-point decrease from baseline\n* Rectal Bleeding subscore = 0\n* Endoscopic subscore = 0 or 1 on modified Mayo Score, with at least 1-point decrease from baseline\n* No occurrence of UC Flare during the treatment period\n\nClinical remission was measured using 3 components of the modified Mayo Score (stool frequency, rectal bleeding and endoscopic subscore), a measure of UC disease activity. These 3 components are each graded from 0 to 3, and are summed together for a composite score, with a higher overall score indicating more severe disease (0 = no disease; 9 = worst disease). The modified Mayo endoscopic subscore excludes friability from an endoscopic subscore of 1.",
+          "timeFrame": "After 10 weeks of induction dosing"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Endoscopic Improvement (Count of Participants)",
+          "description": "Endoscopic subscore decrease from baseline of at least 1 point, as assessed by flexible sigmoidoscopy or colonoscopy.\n\nEndoscopic improvement was measured using the modified Mayo Score endoscopic subscore, graded from 0 to 3, with higher scores indicating more severe disease. The modified Mayo endoscopic subscore excludes friability from an endoscopic subscore of 1.",
+          "timeFrame": "After 10 weeks of induction dosing"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Documented diagnosis of UC at least three months prior to screening, and with a minimum disease extent of 15 cm from the anal verge\n* Active mild-to-moderate UC\n* Inadequate response to, loss of response to, or intolerance of, at least one of the following conventional therapies: 5-ASA compounds, corticosteroids, 6-mercaptopurine (6-MP) or azathioprine (AZA), anti-TNFα, anti-integrin or tofacitinib\n\nExclusion Criteria:\n\n* Known history of Crohn's disease\n* No previous history of treatment for UC (treatment-naïve)\n* Subjects on steroid medication who are unable to have steroids tapered and be completely off steroids at least two weeks prior to screening\n* Unable to stop steroid enemas or suppositories, or 5-ASA enemas or suppositories, at least two weeks prior to screening\n* Subjects who have received any investigational or approved biologic therapy within eight weeks or five half-lives prior to screening (whichever is longer)\n* Subjects who have received any investigational or approved non-biologic therapy, except for those specifically listed in the Permitted Concomitant Medications, for the treatment of underlying disease, within 30 days or five half-lives prior to screening (whichever is longer)\n* Major gastrointestinal surgery (not including appendectomy or cholecystectomy) within two months before screening, or any history of total colectomy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lisa von Moltke, MD",
+          "affiliation": "Seres Therapeutics, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "(Investigator site)",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85018",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "North Little Rock",
+          "state": "Arkansas",
+          "zip": "72117",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.76954,
+            "lon": -92.26709
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Lancaster",
+          "state": "California",
+          "zip": "93534",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.69804,
+            "lon": -118.13674
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90067",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Mountain View",
+          "state": "California",
+          "zip": "94040",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.38605,
+            "lon": -122.08385
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Wheat Ridge",
+          "state": "Colorado",
+          "zip": "80033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.7661,
+            "lon": -105.07721
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Danbury",
+          "state": "Connecticut",
+          "zip": "06810",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.39482,
+            "lon": -73.45401
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Hamden",
+          "state": "Connecticut",
+          "zip": "06518",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.39593,
+            "lon": -72.89677
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Boca Raton",
+          "state": "Florida",
+          "zip": "33487",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33762",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Crystal River",
+          "state": "Florida",
+          "zip": "34429",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.90248,
+            "lon": -82.5926
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33012",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32256",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33176",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Naples",
+          "state": "Florida",
+          "zip": "34102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34474",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Pompano Beach",
+          "state": "Florida",
+          "zip": "33060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.23786,
+            "lon": -80.12477
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Port Orange",
+          "state": "Florida",
+          "zip": "32127",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.13832,
+            "lon": -80.99561
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33609",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Athens",
+          "state": "Georgia",
+          "zip": "30607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.96095,
+            "lon": -83.37794
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Marietta",
+          "state": "Georgia",
+          "zip": "30060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.9526,
+            "lon": -84.54993
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40536",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Lake Charles",
+          "state": "Louisiana",
+          "zip": "70601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.21309,
+            "lon": -93.2044
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Metairie",
+          "state": "Louisiana",
+          "zip": "70006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.98409,
+            "lon": -90.15285
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Monroe",
+          "state": "Louisiana",
+          "zip": "71201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.50931,
+            "lon": -92.1193
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70121",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Glen Burnie",
+          "state": "Maryland",
+          "zip": "21208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.16261,
+            "lon": -76.62469
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Farmington Hills",
+          "state": "Michigan",
+          "zip": "48334",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.48531,
+            "lon": -83.37716
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Bridgeton",
+          "state": "Missouri",
+          "zip": "63044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.767,
+            "lon": -90.41151
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Creve Coeur",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.66089,
+            "lon": -90.42262
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Reno",
+          "state": "Nevada",
+          "zip": "89511",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.52963,
+            "lon": -119.8138
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Lebanon",
+          "state": "New Hampshire",
+          "zip": "03756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.64229,
+            "lon": -72.25176
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Great Neck",
+          "state": "New York",
+          "zip": "11021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.80066,
+            "lon": -73.72846
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Hartsdale",
+          "state": "New York",
+          "zip": "10530",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.01899,
+            "lon": -73.79819
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Asheville",
+          "state": "North Carolina",
+          "zip": "28801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.60095,
+            "lon": -82.55402
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29615",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38119",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Bedford",
+          "state": "Texas",
+          "zip": "76022",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84402,
+            "lon": -97.14307
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Fort Sam Houston",
+          "state": "Texas",
+          "zip": "78219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.45303,
+            "lon": -98.4417
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77043",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77090",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "McAllen",
+          "state": "Texas",
+          "zip": "78504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.20341,
+            "lon": -98.23001
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Temple",
+          "state": "Texas",
+          "zip": "76508",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.09823,
+            "lon": -97.34278
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Ogden",
+          "state": "Utah",
+          "zip": "84405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.223,
+            "lon": -111.97383
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84124",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Leesburg",
+          "state": "Virginia",
+          "zip": "20176",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11566,
+            "lon": -77.5636
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Lynchburg",
+          "state": "Virginia",
+          "zip": "24502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.41375,
+            "lon": -79.14225
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Reston",
+          "state": "Virginia",
+          "zip": "20191",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.96872,
+            "lon": -77.3411
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23249",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 2L7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6L 6K3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "New Westminster",
+          "state": "British Columbia",
+          "zip": "V3L 3W4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.20678,
+            "lon": -122.91092
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Bridgewater",
+          "state": "Ontario",
+          "zip": "B4V 3K9",
+          "country": "Canada"
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Greater Sudbury",
+          "state": "Ontario",
+          "zip": "P3C 5K6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.49,
+            "lon": -80.99001
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Lindsay",
+          "state": "Ontario",
+          "zip": "K9V 5G6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.35012,
+            "lon": -78.73286
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5A5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5W9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5T 3A9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Vaughan",
+          "state": "Ontario",
+          "zip": "L4L 4Y7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.8361,
+            "lon": -79.49827
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Greenfield Park",
+          "state": "Quebec",
+          "zip": "J4V 2H1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.48649,
+            "lon": -73.46223
+          }
+        },
+        {
+          "facility": "(Investigator site)",
+          "city": "Saskatoon",
+          "state": "Saskatchewan",
+          "zip": "S7N 0W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 52.13238,
+            "lon": -106.66892
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Placebo (After Placebo Pre-treatment)",
+          "description": "Once-daily dosing of Placebo (after placebo pre-treatment)\n\nPlacebo for Vancomycin Pre-Treatment: Four times per day dosing of placebo pre-treatment\n\nPlacebo for SER-287: Once-daily dosing of Placebo for SER-287"
+        },
+        {
+          "id": "FG001",
+          "title": "SER-287 Induction Dosing (After Vancomycin Pre-treatment)",
+          "description": "Once-daily dosing of SER-287 (Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+        },
+        {
+          "id": "FG002",
+          "title": "SER-287 Step-Down Induction Dosing (After Vancomycin Pre-treatment)",
+          "description": "Once-daily dosing of SER-287 (Step-Down Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "69"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "68"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "66"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "42"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "34"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "38"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "34"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "28"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Lack of Efficacy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Study Terminated by Sponsor",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "Other reason for discontinuation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Subjects did not have a discontinuation page completed",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Intent-to-treat",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo (After Placebo Pre-treatment)",
+          "description": "Once-daily dosing of Placebo (after placebo pre-treatment)\n\nPlacebo for Vancomycin Pre-Treatment: Four times per day dosing of placebo pre-treatment\n\nPlacebo for SER-287: Once-daily dosing of Placebo for SER-287"
+        },
+        {
+          "id": "BG001",
+          "title": "SER-287 Induction Dosing (After Vancomycin Pre-treatment)",
+          "description": "Once-daily dosing of SER-287 (Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+        },
+        {
+          "id": "BG002",
+          "title": "SER-287 Step-Down Induction Dosing (After Vancomycin Pre-treatment)",
+          "description": "Once-daily dosing of SER-287 (Step-Down Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "69"
+            },
+            {
+              "groupId": "BG001",
+              "value": "68"
+            },
+            {
+              "groupId": "BG002",
+              "value": "66"
+            },
+            {
+              "groupId": "BG003",
+              "value": "203"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46.6",
+                      "spread": "13.24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "45.7",
+                      "spread": "14.37"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "44.4",
+                      "spread": "14.70"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "45.6",
+                      "spread": "14.07"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "98"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "105"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "23"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "177"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "18"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "170"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "NA",
+                      "comment": "Data not collected"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "NA",
+                      "comment": "Data not collected"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "NA",
+                      "comment": "Data not collected"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "NA",
+                      "comment": "Total not calculated because data are not available (NA) in one or more arms."
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Canada",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "56"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "176"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Clinical Remission (Count of Participants)",
+          "description": "Clinical remission for the induction treatment period:\n\n* Stool Frequency subscore = 0 or 1, with at least 1-point decrease from baseline\n* Rectal Bleeding subscore = 0\n* Endoscopic subscore = 0 or 1 on modified Mayo Score, with at least 1-point decrease from baseline\n* No occurrence of UC Flare during the treatment period\n\nClinical remission was measured using 3 components of the modified Mayo Score (stool frequency, rectal bleeding and endoscopic subscore), a measure of UC disease activity. These 3 components are each graded from 0 to 3, and are summed together for a composite score, with a higher overall score indicating more severe disease (0 = no disease; 9 = worst disease). The modified Mayo endoscopic subscore excludes friability from an endoscopic subscore of 1.",
+          "populationDescription": "Intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "After 10 weeks of induction dosing",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo (After Placebo Pre-treatment)",
+              "description": "Once-daily dosing of Placebo (after placebo pre-treatment)\n\nPlacebo for Vancomycin Pre-Treatment: Four times per day dosing of placebo pre-treatment\n\nPlacebo for SER-287: Once-daily dosing of Placebo for SER-287"
+            },
+            {
+              "id": "OG001",
+              "title": "SER-287 Induction Dosing (After Vancomycin Pre-treatment)",
+              "description": "Once-daily dosing of SER-287 (Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+            },
+            {
+              "id": "OG002",
+              "title": "SER-287 Step-Down Induction Dosing (After Vancomycin Pre-treatment)",
+              "description": "Once-daily dosing of SER-287 (Step-Down Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "69"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "68"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "66"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Endoscopic Improvement (Count of Participants)",
+          "description": "Endoscopic subscore decrease from baseline of at least 1 point, as assessed by flexible sigmoidoscopy or colonoscopy.\n\nEndoscopic improvement was measured using the modified Mayo Score endoscopic subscore, graded from 0 to 3, with higher scores indicating more severe disease. The modified Mayo endoscopic subscore excludes friability from an endoscopic subscore of 1.",
+          "populationDescription": "Intent-to-treat",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "After 10 weeks of induction dosing",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo (After Placebo Pre-treatment)",
+              "description": "Once-daily dosing of Placebo (after placebo pre-treatment)\n\nPlacebo for Vancomycin Pre-Treatment: Four times per day dosing of placebo pre-treatment\n\nPlacebo for SER-287: Once-daily dosing of Placebo for SER-287"
+            },
+            {
+              "id": "OG001",
+              "title": "SER-287 Induction Dosing (After Vancomycin Pre-treatment)",
+              "description": "Once-daily dosing of SER-287 (Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+            },
+            {
+              "id": "OG002",
+              "title": "SER-287 Step-Down Induction Dosing (After Vancomycin Pre-treatment)",
+              "description": "Once-daily dosing of SER-287 (Step-Down Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "69"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "68"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "66"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Adverse events presented here are for the 10-week Induction Treatment Period of the study, as well as the 1-week Pre-Treatment Period.",
+      "description": "Adverse events are reported for subjects who received any amount of study drug.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Placebo (After Placebo Pre-treatment)",
+          "description": "Once-daily dosing of Placebo (after placebo pre-treatment)\n\nPlacebo for Vancomycin Pre-Treatment: Four times per day dosing of placebo pre-treatment\n\nPlacebo for SER-287: Once-daily dosing of Placebo for SER-287",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 69,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 69,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 69
+        },
+        {
+          "id": "EG001",
+          "title": "SER-287 Induction Dosing (After Vancomycin Pre-treatment)",
+          "description": "Once-daily dosing of SER-287 (Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 68,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 68,
+          "otherNumAffected": 23,
+          "otherNumAtRisk": 68
+        },
+        {
+          "id": "EG002",
+          "title": "SER-287 Step-Down Induction Dosing (After Vancomycin Pre-treatment)",
+          "description": "Once-daily dosing of SER-287 (Step-Down Induction Dose, after vancomycin pre-treatment)\n\nVancomycin Pre-Treatment: Four times per day dosing of vancomycin pre-treatment\n\nSER-287: Once-daily dosing of SER-287",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 65,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 65,
+          "otherNumAffected": 12,
+          "otherNumAtRisk": 65
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Colitis ulcerative",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Colon dysplasia",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure congestive",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Appendicitis",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Haemoglobin decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 65
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Colitis ulcerative",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 65
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 69
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 68
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 65
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Lisa von Moltke, MD, Chief Medical Officer",
+        "organization": "Seres Therapeutics",
+        "email": "clinicalstudies@serestherapeutics.com",
+        "phone": "617-945-9626"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2019-10-08",
+          "uploadDate": "2022-05-23T09:59",
+          "filename": "Prot_000.pdf",
+          "size": 5001997
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan: Clinical SAP",
+          "date": "2021-04-21",
+          "uploadDate": "2022-05-23T10:01",
+          "filename": "SAP_001.pdf",
+          "size": 471040
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan: Microbiome SAP",
+          "date": "2021-04-27",
+          "uploadDate": "2022-05-23T10:06",
+          "filename": "SAP_002.pdf",
+          "size": 637585
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003093",
+          "term": "Colitis, Ulcerative"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003092",
+          "term": "Colitis"
+        },
+        {
+          "id": "D005759",
+          "term": "Gastroenteritis"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D015212",
+          "term": "Inflammatory Bowel Diseases"
+        },
+        {
+          "id": "D003108",
+          "term": "Colonic Diseases"
+        },
+        {
+          "id": "D007410",
+          "term": "Intestinal Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

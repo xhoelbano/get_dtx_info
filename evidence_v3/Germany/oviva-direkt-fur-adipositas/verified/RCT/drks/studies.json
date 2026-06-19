@@ -1,0 +1,60 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00033045",
+      "drks_id": "DRKS00033045",
+      "title": "Randomised controlled trial to evaluate the App-based Multimodal Obesity-management programme “Oviva Direkt für Adipositas” - AMODA",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00033045/details",
+      "_matched_query": "\"Oviva Direkt\"",
+      "_raw_json_path": "evidence/Germany/oviva-direkt-fur-adipositas/candidates/drks/raw/DRKS00033045.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the digital therapeutic product 'Oviva Direkt für Adipositas', as evidenced by the product name appearing in the title and throughout the full text. The study evaluates the effectiveness of this specific app-based intervention for obesity management.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 100,
+        "reason": "The study is explicitly described as a 'randomized controlled trial' with participants randomly allocated to an intervention group and a control group, which is the defining feature of an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00025291",
+      "drks_id": "DRKS00025291",
+      "title": "Weight management with a digital lifestyle intervention in persons with obesity",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00025291/details",
+      "_matched_query": "\"Oviva Direkt\"",
+      "_raw_json_path": "evidence/Germany/oviva-direkt-fur-adipositas/candidates/drks/raw/DRKS00025291.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions 'Oviva Direkt' in both the German and English titles and summaries, which is a known name variation of 'Oviva Direkt für Adipositas'. The trial registration also lists Oviva AG as the sponsor, confirming the intervention is the specific digital therapeutic product in question.",
+        "matched_elements": [
+          "product_name_variation",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 90,
+        "reason": "The study involves an app-based lifestyle intervention with two groups: one receiving the intervention immediately and the other after a delay, indicating random allocation to intervention and control conditions, characteristic of an RCT."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T08:02:55.617496Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

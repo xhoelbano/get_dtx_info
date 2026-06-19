@@ -1,0 +1,243 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07589933",
+      "orgStudyIdInfo": {
+        "id": "GIU/REC/26-28"
+      },
+      "organization": {
+        "fullName": "Green International University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Strain Counterstrain Versus Graston Technique for Patellofemoral Pain Syndrome",
+      "officialTitle": "Immediate Effects of Strain CountetStrain Versus Graston Technique on Pain and Range of Motion in Patients With Patellofemoral Pain Syndrome: A Randomized Clinical Trail.",
+      "acronym": "SCS-GRAS-PFPS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-05-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-05-10",
+      "studyFirstSubmitQcDate": "2026-05-10",
+      "studyFirstPostDateStruct": {
+        "date": "2026-05-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Saman Bukish Cheema",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Green International University"
+      },
+      "leadSponsor": {
+        "name": "Green International University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sir Ganga Ram Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial compares the effects of Strain Counterstrain technique versus Graston Technique on pain and range of motion in patients with patellofemoral pain syndrome.\n\nAdults with patellofemoral pain syndrome were included in this study. A total of 60 participants were divided into two groups with 30 patients in each group.\n\nOne group received Strain Counterstrain technique and the other group received Graston Technique. Pain was assessed using the Kujala Scoring System and functional status was measured using a substructural questionnaire. Range of motion was also evaluated before and after treatment.\n\nThe main goal of this study is to determine which technique is more effective in reducing pain and improving knee function in patients with patellofemoral pain syndrome.",
+      "detailedDescription": "Patellofemoral Pain Syndrome (PFPS) is a common musculoskeletal condition characterized by anterior knee pain, especially during activities like squatting, climbing stairs, or prolonged sitting. Conservative management through manual therapy is widely used, but comparative effectiveness of different techniques remains unclear.\n\nThis randomized clinical trial was designed to compare the effects of Strain Counterstrain (SCS) technique versus Graston Technique on pain intensity, knee range of motion, and functional status in patients diagnosed with patellofemoral pain syndrome.\n\nA total of 60 participants diagnosed with PFPS were recruited and randomly allocated into two equal groups, with 30 patients in each group. Group A received Strain Counterstrain technique, which involves passive positioning of the affected tissue to achieve a position of comfort and reduce tender point sensitivity. Group B received Graston Technique, an instrument-assisted soft tissue mobilization (IASTM) therapy that uses specialized stainless steel instruments to detect and treat soft tissue restrictions, scar tissue, and fascial adhesions around the knee.\n\nThe intervention period lasted for 12 weeks with 3 sessions per week. Outcome measures were assessed at baseline and post-intervention. Pain was evaluated using the Kujala Anterior Knee Pain Scale, also known as the Kujala Scoring System, which is a validated tool for PFPS. Functional status was assessed using a substructural questionnaire evaluating daily activities. Knee range of motion was measured using a standard goniometer.\n\nThe primary objective of this study is to determine whether Strain Counterstrain or Graston Technique provides superior outcomes in terms of pain reduction, improved range of motion, and enhanced functional capacity in patients with patellofemoral pain syndrome. The findings will help clinicians select the most effective manual therapy approach for managing PFPS."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Patellofemoral Pain Syndrome"
+      ],
+      "keywords": [
+        "Strain Counterstrain",
+        "Graston Technique",
+        "Manual Therapy",
+        "Patellofemoral Pain Syndrome",
+        "Knee Pain",
+        "Range of Motion",
+        "Kujala Scale",
+        "Physical Therapy",
+        "Anterior Knee Pain",
+        "Randomized Clinical Trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a randomized, parallel-group interventional study. Participants with patellofemoral pain syndrome were randomly assigned in a 1:1 ratio to one of two treatment arms. Group A received Strain Counterstrain technique and Group B received Graston Technique. Both interventions were administered for the specified treatment period to compare their effectiveness on pain reduction and improvement in knee range of motion.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Strain Counterstrain Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in this arm received Strain Counterstrain technique for patellofemoral pain syndrome. This technique involves identifying tender points and passively positioning the affected tissue to a position of comfort to reduce pain and muscle spasm. Treatment sessions were administered 3 times per week for 12 weeks. 30 participants were assigned to this group.",
+          "interventionNames": [
+            "Procedure: Strain Counterstrain"
+          ]
+        },
+        {
+          "label": "Graston Technique Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in this arm received Graston Technique, an instrument-assisted soft tissue mobilization (IASTM) therapy. This technique uses specialized stainless steel instruments to detect and treat soft tissue restrictions, scar tissue, and fascial adhesions around the knee. Treatment sessions were administered 3 times per week for 12 weeks. 30 participants were assigned to this group.",
+          "interventionNames": [
+            "Procedure: Graston Technique"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Strain Counterstrain",
+          "description": "Strain Counterstrain is a manual therapy technique that involves identifying tender points in muscles and fascia. The therapist passively positions the patient's body to a position of comfort that reduces or eliminates the tenderness. This position is held for 90 seconds to allow neuromuscular reset, followed by slow return to neutral. The technique aims to reduce muscle spasm, normalize proprioceptive activity, and decrease pain in patients with patellofemoral pain syndrome. Sessions were administered 3 times per week for 12 weeks.",
+          "armGroupLabels": [
+            "Strain Counterstrain Group"
+          ],
+          "otherNames": [
+            "Positional Release Therapy",
+            "SCS"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Graston Technique",
+          "description": "Graston Technique is an evidence-based form of instrument-assisted soft tissue mobilization (IASTM). It uses six specialized stainless steel instruments to scan, detect, and treat soft tissue lesions, scar tissue, and fascial restrictions. The instruments are used by trained clinicians to apply controlled microtrauma to affected areas around the knee, promoting tissue healing and remodeling. The goal is to break down adhesions, reduce pain, and improve range of motion and function in patients with patellofemoral pain syndrome. Sessions were administered 3 times per week for 12 weeks.",
+          "armGroupLabels": [
+            "Graston Technique Group"
+          ],
+          "otherNames": [
+            "Instrument-Assisted Soft Tissue Mobilization",
+            "IASTM"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Pain and Function using Kujala Anterior Knee Pain Scale",
+          "description": "The Kujala Anterior Knee Pain Scale, also known as Kujala Scoring System, was used to assess pain and functional limitations related to patellofemoral pain syndrome. This is a 13-item self-administered questionnaire evaluating symptoms such as pain during walking, stair climbing, squatting, running, and prolonged sitting. The total score ranges from 0 to 100 points, where 0 represents complete disability and 100 represents no disability. A higher score indicates less pain and better knee function. Change from baseline was calculated to determine treatment effectiveness.",
+          "timeFrame": "Baseline and 12 weeks post-intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Knee Range of Motion",
+          "description": "Knee flexion and extension range of motion was measured using a standard universal goniometer. Active range of motion was recorded in degrees. Increased range of motion indicates improvement in knee function.",
+          "timeFrame": "Baseline and 12 weeks post-intervention"
+        },
+        {
+          "measure": "Change in Functional Status",
+          "description": "Functional status was assessed using a substructural questionnaire evaluating the impact of patellofemoral pain syndrome on daily activities such as walking, stair climbing, squatting, and prolonged sitting. Higher scores indicate better functional capacity.",
+          "timeFrame": "Baseline and 12 weeks post-intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-45 years.\n* Anterior or peripatellar knee discomfort reproduced by a minimum of two aggravating exercises (e.g., squatting, stairs, running, prolonged sitting).\n* No history of trauma.\n* On the Numerical Pain Rating Scale (NPRS), pain severity is ≥3/10 at baseline.\n* Symptom duration ≥2 months.\n* Ability to understand instructions and provide informed consent (or parental consent for minors).\n\nExclusion Criteria:\n\n* Individuals who have had lower limb surgery within the previous 12 months\n* Existence of other knee pathologies (e.g., meniscal tear with locking, tibiofemoral osteoarthritis, inflammatory arthritis).\n* Skin infection, open wound, or dermatological condition at the treatment site.\n* Use of anticoagulants/bleeding disorders or recent corticosteroid injection within 3 months.\n* Receipt of manual therapy (SCS, IASTM/Graston) to the affected knee within the past 4 weeks.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Sir Ganga Ram Hospital, Department of Physical Therapy",
+          "city": "Lahore",
+          "state": "Punjab Province",
+          "zip": "54000",
+          "country": "Pakistan",
+          "geoPoint": {
+            "lat": 31.558,
+            "lon": 74.35071
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Only IPD used in the results publication will be shared.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "It will be available after the completion of the study.",
+      "accessCriteria": "Data requests should be sent to the corresponding author. Access will be granted to qualified researchers for approved research proposals. Data will be de-identified before sharing."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D046788",
+          "term": "Patellofemoral Pain Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

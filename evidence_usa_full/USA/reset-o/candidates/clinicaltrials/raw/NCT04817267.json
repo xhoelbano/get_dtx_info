@@ -1,0 +1,220 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04817267",
+      "orgStudyIdInfo": {
+        "id": "IRB00282938"
+      },
+      "organization": {
+        "fullName": "Johns Hopkins University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pilot Study of reSET-O to Treatment-as-usual in Acute Care Settings",
+      "officialTitle": "Pilot Study of reSET-O to Treatment-as-usual in Acute Care Settings"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "ReSET-O product no longer available, Pear Therapeutics, Inc. filed for bankruptsy",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-05-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-03-23",
+      "studyFirstSubmitQcDate": "2021-03-23",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Johns Hopkins University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Pear Therapeutics, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized controlled pilot study will evaluate feasibility, acceptability, and potential efficacy of an app, reSET-O, for patients being started on buprenorphine in acute care settings.",
+      "detailedDescription": "This randomized controlled pilot study will enroll 60 participants, who will be randomly assigned to a treatment as usual (TAU) group or a reSET-O+TAU group after being started on buprenorphine in acute care settings (e.g., emergency department) and referred to community treatment. Study enrollment will last for 3 months after discharge from the acute care setting. Participants in the reSET-O+TAU group will be provided with the reSET-O app and will be encouraged to engage with the app for the 3 months following discharge from the acute care unit. The app works as an extension of cognitive behavioral therapy, providing psychoeducation related to opioid use disorder. All participants will be assessed at study intake and every month during the 3-month intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid-use Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "reSET-O + Treatment-As-Usual (TAU)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants randomly assigned to this group will receive the TAU plus the reSET-O app.",
+          "interventionNames": [
+            "Device: reSET-O app"
+          ]
+        },
+        {
+          "label": "Treatment-As-Usual (TAU)",
+          "type": "NO_INTERVENTION",
+          "description": "Participants randomly assigned to this group will receive the TAU only (no use of the reSET-O app)."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "reSET-O app",
+          "description": "The reSET-O app, a prescription digital therapeutic, provides cognitive behavioral therapy for opioid use disorder. The app provides psychoeducation related to opioid use, coping skills, and skills to avoid relapse.",
+          "armGroupLabels": [
+            "reSET-O + Treatment-As-Usual (TAU)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of approached patients who are eligible for and interested in participation",
+          "description": "Percentage of approached patients who are eligible for and interested in participation will be used to assess feasibility.",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Acceptability as assessed by the Treatment Acceptability Questionnaire",
+          "description": "Participant responses to the Treatment Acceptability Questionnaire.",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Acceptability as assessed by the System Usability Scale",
+          "description": "Participant responses to the System Usability Scale.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Attendance at follow-up appointment for on-going buprenorphine treatment within 30 days of discharge",
+          "description": "Attendance at follow-up appointment for on-going buprenorphine treatment within 30 days of discharge will be used to assess Treatment Engagement.",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Percentage of drug-negative urine samples during the 3-month intervention",
+          "description": "Percentage of drug-negative urine samples during the 3-month intervention will be used to assess Illicit opioid/other drug use.",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18-65 years old\n* Opioid use disorder\n* Eligible for buprenorphine treatment\n* Has reSET-O compatible mobile device\n\nExclusion Criteria:\n\n* Pregnancy\n* Significant psychiatric comorbidity",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "August Holtyn",
+          "affiliation": "Johns Hopkins University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Johns Hopkins Bayivew Emergency Department",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009293",
+          "term": "Opioid-Related Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000079524",
+          "term": "Narcotic-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

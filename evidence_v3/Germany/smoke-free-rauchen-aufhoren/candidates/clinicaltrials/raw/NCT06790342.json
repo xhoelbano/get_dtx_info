@@ -1,0 +1,421 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06790342",
+      "orgStudyIdInfo": {
+        "id": "IRB24-1626"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01CA288235-01A1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1R01CA288235-01A1"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Chicago",
+        "class": "OTHER"
+      },
+      "briefTitle": "Optimizing Treatment of Co-occurring Smoking and Unhealthy Alcohol Use Among PWH in Nairobi, Kenya",
+      "officialTitle": "Optimizing Treatment of Co-occurring Smoking and Unhealthy Alcohol Use Among PWH in Nairobi, Kenya"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-08-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-02-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-17",
+      "studyFirstSubmitQcDate": "2025-01-22",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Chicago",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "University of Maryland",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "People with HIV (PWH) smoke tobacco cigarettes and drink alcohol at higher rates than the general population, both in the US and internationally, including low- and middle-income countries. Now that effective antiretroviral therapy is available throughout most of the world, PWH are surviving long enough to manifest the lethal consequences of both their smoking and drinking. In this project, the investigational team aims to advance the knowledge and understanding of treatment strategies (i.e. individual intensive counseling ± pharmacotherapy with cytisine) that target both tobacco and alcohol use among PWH in Kenya, a resource constrained environment, and to generate outcome data that may benefit co-users of tobacco and alcohol throughout the world.",
+      "detailedDescription": "This study was reviewed and approved for data analysis by the University of Chicago.\n\nThe research portion of this study was also submitted to and is pending approval from:\n\nBoard Name: AMREF ETHICAL AND SCIENTIFIC REVIEW COMMITTEE (ESRC) Board Affiliation: The AMREF ESRC is affiliated with AMREF Health Africa and accredited by National Commission for Science, Technology and Innovation (NACOSTI) since 200 Phone: +254 20 699 4000 Email: esrc.kenya@amref.org\n\nAddress:\n\nLangata Road PO Box 27691-00506 Nairobi, Kenya"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV",
+        "Tobacco Use",
+        "Alcohol Use Disorder"
+      ],
+      "keywords": [
+        "HIV",
+        "Tobacco Cessation",
+        "Alcohol Reduction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental: Cystine (CYT) + Positively Smoke Free",
+          "type": "EXPERIMENTAL",
+          "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation and alcohol reduction\n\nCystine--used for smoking cessation and alcohol reduction",
+          "interventionNames": [
+            "Drug: Cystine",
+            "Behavioral: Positively Smoke Free"
+          ]
+        },
+        {
+          "label": "Experimental: Cystine + Standard of Care",
+          "type": "EXPERIMENTAL",
+          "description": "Cystine--used for smoking cessation and alcohol reduction\n\nStandard of Care--brief advice to quit provided in a standardized format bupropion--used for smoking cessation",
+          "interventionNames": [
+            "Drug: Cystine",
+            "Other: Standard of Care"
+          ]
+        },
+        {
+          "label": "Experimental: Placebo + Positively Smoke Free",
+          "type": "EXPERIMENTAL",
+          "description": "Positively smoke free-- an 8 session tailored behavioral treatment for smoking cessation and alcohol reduction\n\nPlacebo--matched to bupropion",
+          "interventionNames": [
+            "Behavioral: Positively Smoke Free",
+            "Other: Placebo"
+          ]
+        },
+        {
+          "label": "Placebo Comparator: Placebo + Standard of Care.",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo--matched to bupropion\n\nStandard of Care--brief advice to quit provided in a standardized format",
+          "interventionNames": [
+            "Other: Placebo",
+            "Other: Standard of Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cystine",
+          "description": "Used for smoking cessation and alcohol reduction",
+          "armGroupLabels": [
+            "Experimental: Cystine (CYT) + Positively Smoke Free",
+            "Experimental: Cystine + Standard of Care"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Positively Smoke Free",
+          "description": "An 8 session tailored behavioral treatment for smoking cessation and alcohol reduction",
+          "armGroupLabels": [
+            "Experimental: Cystine (CYT) + Positively Smoke Free",
+            "Experimental: Placebo + Positively Smoke Free"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Matched to cystine",
+          "armGroupLabels": [
+            "Experimental: Placebo + Positively Smoke Free",
+            "Placebo Comparator: Placebo + Standard of Care."
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard of Care",
+          "description": "Standardized brief advice to quit smoking (standard of care)",
+          "armGroupLabels": [
+            "Experimental: Cystine + Standard of Care",
+            "Placebo Comparator: Placebo + Standard of Care."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "7-day point prevalence abstinence (PPA)",
+          "description": "Defined as self-reported no smoking in the past 7 days + Carbon Monoxide (CO)\\<7 ppm",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Dried blood spot phosphatidylethanol (PEth)",
+          "description": "PEth level of less than 50ng/dl for cessation from heavy drinking linked (P30D)",
+          "timeFrame": "36 months"
+        },
+        {
+          "measure": "Timeline Follow-Back (TLFB)",
+          "description": "denial of self-reported heavy drinking days (denying any prior 7-day period with \\>7 drinks or any single day with 4 drinks) for the past 30 days",
+          "timeFrame": "36 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Confirmed chart diagnosis of HIV\n2. At least 18 years or age\n3. Currently self-reports smoking (has smoked a cigarette within the past 7 days) and has expired air Carbon Monoxide (CO) 6ppm. Expired air CO provides an accurate indirect measure of carboxyhemoglobin (COHb) level and is a standard biochemical method for assessing a smoker's level of intake.\n4. Motivation to quit smoking within the next 6 months (score 6-8 on the Abrams and Biener Readiness to Quit Ladder)\n5. Meets criteria for heavy drinking: National Institute on Alcohol Abuse and Alcoholism (NIAAA) guidelines suggest gender-based criteria for heavy drinking but note that lower thresholds may be needed for people with a medical condition. PWH show increased physiologic injury and decreased survival at lower levels of alcohol consumption than those without HIV. Thus, we will use the lower limit for alcohol misuse/heavy drinking from the NIAAA guidelines for all study candidates, i.e. drinking 4+ drinks on a given day or \\>7 drinks/week over the past 30 days\n6. Able to speak English (in Nairobi spoken English is near universal as English is an official language of Kenya)\n7. Willingness to accept behavioral and/or pharmacologic tobacco and alcohol treatment\n8. Willingness and ability to provide informed consent to participate.\n\nExclusion Criteria:\n\n1. Current receipt of any tobacco or alcohol use behavioral or pharmacologic treatment\n2. Previous allergic reaction or hypersensitivity to cytosine (CYT) (unlikely since CYT is not available in Kenya)\n3. History of severe alcohol withdrawal symptoms in the past 12 months, including seizure or hallucinations\n4. Pregnant, nursing, or becoming pregnant during the study\n5. Current use of any medication that would interfere with the protocol in the opinion of the Medically Accountable Physician\n6. Meets criteria for possible dementia by scoring below 10 on the Hopkins HIV Dementia Scale\n7. Unstable psychiatric illness\n8. Known plans to re-locate or travel away from the study site for more than two consecutive months during the study period\n9. Expected survival of less than 6 months.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Walter Mchembere",
+          "role": "CONTACT",
+          "phone": "+254 20 3908219",
+          "email": "wmchembere@cihebkenya.org"
+        },
+        {
+          "name": "Emily Koech, MD",
+          "role": "CONTACT",
+          "phone": "+254 20 3908219",
+          "email": "ekoech@cihebkenya.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Seth Himelhoch",
+          "affiliation": "University of Chicago",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mathari National Teaching and Referral Hospital",
+          "city": "Nairobi",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -1.28333,
+            "lon": 36.81667
+          }
+        },
+        {
+          "facility": "Riruta Health Centre",
+          "city": "Nairobi",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -1.28333,
+            "lon": 36.81667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37432430",
+          "type": "BACKGROUND",
+          "citation": "Rigotti NA, Benowitz NL, Prochaska J, Leischow S, Nides M, Blumenstein B, Clarke A, Cain D, Jacobs C. Cytisinicline for Smoking Cessation: A Randomized Clinical Trial. JAMA. 2023 Jul 11;330(2):152-160. doi: 10.1001/jama.2023.10042."
+        },
+        {
+          "pmid": "39437141",
+          "type": "BACKGROUND",
+          "citation": "Himelhoch SS, Koech E, Omanya AA, Oduor P, Mchembere W, Masai TW, Bennett ME, Li L, Potts W, Ojoo S, Shuter J. Efficacy of Smoking Cessation Interventions among People with HIV in Kenya. NEJM Evid. 2024 Nov;3(11):EVIDoa2400090. doi: 10.1056/EVIDoa2400090. Epub 2024 Oct 22."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064424",
+          "term": "Tobacco Use"
+        },
+        {
+          "id": "D000437",
+          "term": "Alcoholism"
+        },
+        {
+          "id": "D020340",
+          "term": "Tobacco Use Cessation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D019973",
+          "term": "Alcohol-Related Disorders"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003553",
+          "term": "Cystine"
+        },
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004220",
+          "term": "Disulfides"
+        },
+        {
+          "id": "D013440",
+          "term": "Sulfides"
+        },
+        {
+          "id": "D000838",
+          "term": "Anions"
+        },
+        {
+          "id": "D007477",
+          "term": "Ions"
+        },
+        {
+          "id": "D004573",
+          "term": "Electrolytes"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D006862",
+          "term": "Hydrogen Sulfide"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D003545",
+          "term": "Cysteine"
+        },
+        {
+          "id": "D000603",
+          "term": "Amino Acids, Sulfur"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000599",
+          "term": "Amino Acids, Diamino"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D000600",
+          "term": "Amino Acids, Dicarboxylic"
+        },
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

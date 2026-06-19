@@ -1,0 +1,86 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00027459",
+      "drks_id": "DRKS00027459",
+      "title": "Evaluation of the effectiveness of an online-based support program for the treatment of depression (Novego®) - A randomized controlled trial",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027459/details",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/drks/raw/DRKS00027459.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study is specifically about the Novego program, not deprexis. Although deprexis is mentioned in the context of similar programs, the intervention being evaluated is Novego.",
+        "matched_elements": []
+      },
+      "_rejection_stage": "verification"
+    },
+    {
+      "study_id": "DRKS00038802",
+      "drks_id": "DRKS00038802",
+      "title": "Autism Spectrum Disorder in Adulthood: Pilot Study on the Applicability and Effectiveness of an Online Therapy and Accompanying Assessment of Comorbid Disorders and Psychosocial Parameters",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00038802/details",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/drks/raw/DRKS00038802.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 100,
+        "reason": "The study is about an online therapy program for adults with Autism Spectrum Disorder, not about deprexis. Although deprexis is mentioned as an example of an effective online therapy for depression, the study itself focuses on a different program developed for ASD.",
+        "matched_elements": []
+      },
+      "_rejection_stage": "verification"
+    },
+    {
+      "study_id": "DRKS00033535",
+      "drks_id": "DRKS00033535",
+      "title": "Implementation of a digital nurse to improve the use of digital health applications for older people with depressive disorders (DiGA4Aged) -\nA randomized proof of concept study.",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00033535/details",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/drks/raw/DRKS00033535.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 90,
+        "reason": "The study mentions 'deprexis' as one of the two DiGAs approved for treating depressive disorders, but it does not focus specifically on 'deprexis'. The study is about increasing the usage rate of digital health applications in general for older patients with depression, using a 'digital nurse' intervention.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_rejection_stage": "verification"
+    },
+    {
+      "study_id": "DRKS00033640",
+      "drks_id": "DRKS00033640",
+      "title": "Digital health applications for older people with depressive disorders – pilot study",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00033640/details",
+      "_matched_query": "\"deprexis\"",
+      "_raw_json_path": "evidence/Germany/deprexis/candidates/drks/raw/DRKS00033640.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the usability of the digital therapeutic product 'deprexis' for older adults with depression, as mentioned in the full text. The product name 'deprexis' is explicitly stated as one of the two DiGA being tested.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "usability study",
+        "confidence": 100,
+        "reason": "The study focuses on assessing the usability of digital health applications for older adults with depression through task testing and interviews, which is a qualitative usability study, not a primary RCT or RWE study."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The study focuses on assessing the usability of digital health applications for older adults with depression through task testing and interviews, which is a qualitative usability study, not a primary RCT or RWE study."
+    }
+  ],
+  "count": 4,
+  "_saved_at": "2026-06-14T16:57:32.343581Z",
+  "_source": "drks"
+}

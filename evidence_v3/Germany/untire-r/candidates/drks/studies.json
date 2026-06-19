@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00027477",
+      "drks_id": "DRKS00027477",
+      "title": "Prospective Randomized Group Controlled Study of Clinical Efficacy and Safety of the  CE-marked Untire App",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00027477/details",
+      "_matched_query": "\"Untire\"",
+      "_raw_json_path": "evidence/Germany/untire-r/candidates/drks/raw/DRKS00027477.json"
+    },
+    {
+      "study_id": "DRKS00031951",
+      "drks_id": "DRKS00031951",
+      "title": "A Prospective Multi-Center RCT Assessing Clinical Efficacy and Safety of the CE-marked Untire App®, Targeting Breast Cancer Patients (ICD-10 C50) with Cancer-Related Fatigue in the Post-Primary Treatment Phase of their Cancer, Powered to Detect Significant Fatigue Improvement (Untire-III-B)",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00031951/details",
+      "_matched_query": "\"Untire\"",
+      "_raw_json_path": "evidence/Germany/untire-r/candidates/drks/raw/DRKS00031951.json"
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"Untire\"",
+    "\"Untire\" AND \"Tired of Cancer\""
+  ],
+  "dtx_name": "Untire®",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T09:08:40.003172Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

@@ -1,0 +1,242 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02596061",
+      "orgStudyIdInfo": {
+        "id": "1071"
+      },
+      "organization": {
+        "fullName": "Community Health Center, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "In It To Quit: Commitment Contracts for Smoking Cessation",
+      "officialTitle": "In It To Quit: Commitment Contracts for Smoking Cessation",
+      "acronym": "I2Q"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-10-23",
+      "studyFirstSubmitQcDate": "2015-11-02",
+      "studyFirstPostDateStruct": {
+        "date": "2015-11-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-01-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-01-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Community Health Center, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Innovations for Poverty Action",
+          "class": "OTHER"
+        },
+        {
+          "name": "Yale University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to examine whether a combination of positive and negative commitment devices is effective at inducing long-term smoking cessation in smokers from a low-to-moderate income background. Investigators will randomly assign patients of a multi-site clinic in Connecticut to receive one or both of a succession of two commitment contracts. First, a two-month reward contract will pay participants for (a) engaging in clinic and web-based activities that support smoking cessation and (b) quitting smoking, as measured at period end. Second, a four-month deposit contract will invite participants to commit funds which they forfeit unless they abstain from smoking over the entire period. A random subset of participants will also have the option to pre-commit to the deposit contract at study enrollment. Reward payout and deposit recovery will be conditional on biochemical verification of self-reported abstinence. Investigators will conduct follow-up biochemical verification at 12 months to observe whether abstinence persists after removal of incentives. The primary outcome of interest will be continuous abstinence from smoking between months 2 and 12, i.e. biochemically verified abstinence at all three measurements. A short baseline and endline survey will also be administered to measure characteristics and outcomes related to smoking behavior.",
+      "detailedDescription": "When patients arrive at the enrollment meeting, research staff will walk them through the informed consent form to explain and answer questions about the study. Patients who sign the consent form enroll in the study. Those who choose not to enroll are thanked for their time and encouraged to use CHCI smoking cessation services, regardless.\n\nAfter providing written consent to participate in the study, patients will complete a short (15 minute) baseline survey assessing their smoking habits. Patients will complete the survey on their own or with the assistance of a research staff member. See Appendix B for the survey instrument.\n\nImmediately following the survey, randomization will occur, corresponding to the two phases of the intervention. Patients will be blinded to randomization. Randomization is done offsite using Stata. The research staff will enter basic, unidentifiable information about the patient into a web interface designed specifically for the purpose of this study and receive a treatment assignment for that participant. In this way, the enrollment staff does not deal directly with the randomization process. Patients are assigned to one of four study arms: Control, Treatment 1: Rewards Only, Treatment 2: Rewards w/ pre-commitment for deposit contract, Treatment 3: Rewards w/ commitment for deposit contract at 2 months.\n\nSoon after enrollment, patients will receive an automated call verifying participation.\n\nPhase I runs from study enrollment through the first biochemical verification of abstinence from smoking (\"biochemical test\"), at 2 months. Study participants assigned to the treatment group, but not the control, will receive rewards in the form of gift cards for engaging in the smoking cessation activities (\"process\") and for a negative result on the biochemical test (\"outcome\").\n\nProcess:\n\nFive process activities will be rewarded for treatment group members:\n\n1. One-time sign up reward for stickK.com\n2. submitting a weekly self-report of smoking abstinence on stickK\n3. writing a stickK journal entry\n4. enlisting family and friends to register as stickK \"Supporters\" to track progress and provide positive reinforcement,\n5. utilizing CHCI group or individual counseling services provided by a nurse or behavioral health provider\n\nWhen possible, initial appointments with counseling services will be offered on the same day as the enrollment visit using CHCI's \"warm handoff\" behavioral health appointments. Participants will be encouraged to log their completion of these visits on stickK, and research staff will verify on stickK that the patient attended and completed a valid smoking cessation clinic visit.\n\nFor each completed and verified process activity, treatment group participants accrue points on stickK that can be redeemed for a gift card to a retail store at Phase I end, conditional on biochemical verification of smoking cessation. If the participant fails to demonstrate abstinence, s/he forfeits all accrued process points.\n\nMembers of the control group will not receive information about stickK or a stickK account associated with the study, though they may sign up for the online service independently. The control group will receive information about and have access to CHCI's full menu of smoking cessation services.\n\nBiochemical verification:\n\nThe biochemical tests will be conducted two months after study enrollment. Research staff will contact patients via phone and/or email to schedule visits to complete these tests. Investigators will ask all control group members to take the test and compensate them for doing so, regardless of test result (\"measurement incentive\"). Only treatment group members who self-report not smoking during the last week, or from whom investigators were unable to procure a self-report, will be asked to take the test. This group will not receive a measurement incentive.\n\nAll patients will first complete a CO breathalyzer test. Those that test positive will have no further testing. Those testing negative will have a urine verification test at the in-house Quest Diagnostics. Test results will be sent to the EHR.\n\nProcess and outcome changes are rewarded according to the following schedule:\n\nPhase I end: redemption of rewards or adoption of deposit contract. The majority of participants will receive confirmation of their smoking status at the clinic within a few minutes of taking the test. Research staff will verify the confirmatory test result on stickK and assist participants as they adopt the deposit contract or redeem their rewards. The deposit contract is a commitment device that allows users to voluntarily \"deposit\" rewards that they can only recover if they succeed in achieving a predetermined goal, which, in this case, is maintaining smoking abstinence over the four-month Phase II period. In other words, participants who elect to use the deposit contract risk losing some or all of the rewards they accrued during the \"rewards phase\" if they fail to test negative for smoking at Phase II end.\n\nProtocol by biochemical test result, randomized assignment, and take-up decision:\n\n* Test positive for smoking -\\> lose accrued process rewards; not eligible for deposit contract\n* Test negative for smoking, and\n* No deposit contract -\\> redeem process and outcome rewards\n* Deposit contract-pre-commitment and pre-committed -\\> confirm, adjust, or opt-out of commitment\n* Deposit contract-pre-commitment and did not pre-commit -\\> receive deposit contract offer one final time\n* Deposit contract- No pre-commitment -\\> receive deposit contract offer for the first and final time\n\nThose who are eligible for but decline the deposit contract redeem 100% of their rewards. The intervention ends after Phase I for these individuals.\n\nThose who adopt the deposit contract redeem the percentage of their rewards that they did not invest in the deposit contract. The rest is automatically rolled into the deposit contract, and the contract period, i.e. Phase II of the intervention, begins immediately.\n\nPhase II: Deposit contract, months 3 through 6. Phase II lasts 4 months, from month 3 through 6. The majority of study participants won't hold a deposit contract and thus won't experience an active intervention during this time. Participants who do hold a deposit contract will be free to engage with stickK as they like (e.g. write journal entries, share progress on social media), but will not receive rewards for doing so.\n\nAt 6 months, investigators will ask all study participants to take the second confirmatory test. Participants without a deposit contract will receive a measurement incentive to take the test but no performance incentives contingent on the test result. For deposit contract holders, recovery of the deposit will be contingent on testing negative for smoking.\n\nMeasurement of long-term smoking abstinence:\n\nAt month 12, all study participants will be asked to visit the clinic for a final confirmatory test, and all will receive a measurement incentive. No incentives are contingent on smoking status.\n\nAn endline survey will be administered at this time. The endline survey will be self-administered by participants either via email, mailing, or in person depending on the availability of participants."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 311,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "These participants are made aware of all smoking cessation services offered by the clinic, for example group counseling or individual counseling, but are not offered any rewards for participating in these activities."
+        },
+        {
+          "label": "Intervention-Rewards Only",
+          "type": "EXPERIMENTAL",
+          "description": "Patients have access to a website where they can self-report smoking status, add virtual supporters, and submit journal entries. Patients receive incentives for completing these activities and for utilizing counseling services at the clinic. At the 2 mo. mark, these participants come to the clinic for a biochemical verification of their smoking status. Their rewards are contingent on successfully passing this verification test. They are also asked to return to the clinic 6 and 12 mos. after enrollment to complete the smoking tests and are compensated for these 2 visits.",
+          "interventionNames": [
+            "Other: Incentives"
+          ]
+        },
+        {
+          "label": "Intervention-Pre-Commitment",
+          "type": "EXPERIMENTAL",
+          "description": "Patients have access to a website where they can self-report smoking status, add supporters, and submit journal entries. Patients receive incentives for these activities and for using clinic counseling services. At enrollment, patients are offered the chance to set aside some of their future rewards for a deposit contract that lasts for 4 mos. and starts 2 mos. after the rewards contract. If, at the end of 6 mos., the patients pass the second verification test, their rewards are returned to them. At the 2 mo. mark, patients come to the clinic for a biochemical verification of their smoking status. Rewards are contingent on passing this test. They are also asked to return to the clinic 6 and 12 mos. after enrollment to complete the smoking tests and are compensated for these 2 visits.",
+          "interventionNames": [
+            "Behavioral: Deposit Contract",
+            "Other: Incentives"
+          ]
+        },
+        {
+          "label": "Intervention-Commitment",
+          "type": "EXPERIMENTAL",
+          "description": "Patients have access to a website where they can self-report smoking status, add virtual supporters, and submit journal entries. Patients receive incentives for these activities and for using clinic counseling services. After 2 mos., this group is offered the chance to set aside some of their rewards towards a deposit contract that lasts for 4 months. If, after the 4 mos., the patients pass the second cessation verification test, their rewards are returned to them. At the 2 mo. mark, these patients come to the clinic for a biochemical verification of their smoking status. Rewards are contingent on passing this test. They are also asked to return to the clinic 6 and 12 mos. after enrollment to complete the smoking tests and are compensated for these 2 visits.",
+          "interventionNames": [
+            "Behavioral: Deposit Contract",
+            "Other: Incentives"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Deposit Contract",
+          "description": "Contracts prompt patients to put money they have earned at stake on a commitment to remain smoke-free for a longer period of time.",
+          "armGroupLabels": [
+            "Intervention-Commitment",
+            "Intervention-Pre-Commitment"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Incentives",
+          "description": "Patients receive incentives for completing smoking cessation activities.",
+          "armGroupLabels": [
+            "Intervention-Commitment",
+            "Intervention-Pre-Commitment",
+            "Intervention-Rewards Only"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in smoking cessation rates",
+          "description": "The primary outcome of interest will be continuous abstinence from smoking between months 2 and 12, i.e. biochemically verified abstinence at all three measurements (2, 6 and 12 months)",
+          "timeFrame": "2, 6, and 12 months post-enrollment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Process Participation Rates",
+          "description": "One secondary outcome will be rates of participation in the various activities promoted for aiding in smoking cessation i.e. counseling, journaling, medication usage.",
+          "timeFrame": "2 months post-enrollment"
+        },
+        {
+          "measure": "Uptake rates of commitment contracts",
+          "description": "The final secondary outcome will be the rates of acceptance of commitment contracts by patients offered these devices.",
+          "timeFrame": "2 months post-enrollment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be Community Health Center, Inc. medical patients\n* Must have had a clinic visit within the previous 2 years\n* Daily smoker, with smoking status verified by self-reports in clinic medical records\n* Age 18 or over; 19 or over if pregnant\n* Has regular access to internet on computer or smartphone\n* Not currently enrolled in R2Q and, if formerly enrolled in R2Q, not assigned to the intervention group.\n* Speaks English and/or Spanish\n\nExclusion Criteria:\n\n* Illiterate patients that do not have someone who can assist them during the study",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Daren Anderson, MD",
+          "affiliation": "Vice President/Director of Weitzman Institute/Chief Quality Officer",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Community Health Center, Inc.",
+          "city": "Middletown",
+          "state": "Connecticut",
+          "zip": "06457",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.56232,
+            "lon": -72.65065
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D005298",
+          "term": "Fertility"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055703",
+          "term": "Reproductive Physiological Phenomena"
+        },
+        {
+          "id": "D012101",
+          "term": "Reproductive and Urinary Physiological Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

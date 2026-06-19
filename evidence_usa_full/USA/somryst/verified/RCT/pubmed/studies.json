@@ -1,0 +1,69 @@
+{
+  "studies": [
+    {
+      "study_id": "35940841",
+      "pmid": "35940841",
+      "title": "Pre",
+      "authors": "Dreyer Rachel P et al.",
+      "authors_list": [
+        "Dreyer Rachel P",
+        "Berkowitz Alyssa",
+        "Yaggi Henry Klar",
+        "Schneeberg Lynelle",
+        "Shah Nilay D"
+      ],
+      "publication_year": "2022",
+      "publication_date": "2022-Aug-08",
+      "journal": "BMJ open",
+      "journal_abbrev": "BMJ Open",
+      "doi": "10.1136/bmjopen-2022-062041",
+      "abstract": "INTRODUCTION: Cognitive behavioural therapy for insomnia (CBT-I) is effective at treating chronic insomnia, yet in-person CBT-I can often be challenging to access. Prior studies have used technology to bridge barriers but have been unable to extensively assess the impact of the digital therapeutic on real-world patient experience and multidimensional outcomes. Among patients with insomnia, our aim is to determine the impact of a prescription digital therapeutic (PDT) (PEAR-003b, FDA-authorised as Somryst; herein called PDT) that provides mobile-delivered CBT-I on patient-reported outcomes (PROs) and healthcare utilisation. METHODS AND ANALYSIS: We are conducting a pragmatically designed, prospective, multicentre randomised controlled trial that leverages Hugo, a unique patient-centred health data-aggregating platform for data collection and patient follow-up from Hugo Health. A total of 100 participants with insomnia from two health centres will be enrolled onto the Hugo Health platform, provided with a linked Fitbit (Inspire 2) to track activity and then randomised 1:1 to receive (or not) the PDT for mobile-delivered CBT-I (Somryst). The primary outcome is a change in the insomnia severity index score from baseline to 9-week postrandomisation. Secondary outcomes include healthcare utilisation, health utility scores and clinical outcomes; change in sleep outcomes as measured with sleep diaries and a change in individual PROs including depressive symptoms, daytime sleepiness, health status, stress and anxiety. For those allocated to the PDT, we will also assess engagement with the PDT. ETHICS AND DISSEMINATION: The Institutional Review Boards at Yale University and the Mayo Clinic have approved the trial protocol. This trial will provide important data to patients, clinicians and policymakers about the impact of the PDT device delivering CBT-I on PROs, clinical outcomes and healthcare utilisation. Findings will be disseminated to participants, presented at professional meetings and published in peer-reviewed journals. TRIAL REGISTRATION NUMBER: NCT04909229.",
+      "publication_types": [
+        "Clinical Trial Protocol",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Multicenter Studies as Topic",
+        "Prescriptions",
+        "Prospective Studies",
+        "Sleep",
+        "Sleep Initiation and Maintenance Disorders",
+        "Treatment Outcome",
+        "Pragmatic Clinical Trials as Topic"
+      ],
+      "keywords": [
+        "Clinical trials",
+        "MENTAL HEALTH",
+        "SLEEP MEDICINE"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35940841/",
+      "pdf_available": false,
+      "_matched_query": "\"Somryst\"",
+      "_raw_xml_path": "evidence/USA/somryst/candidates/pubmed/raw/35940841.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the digital therapeutic product Somryst by name, describing it as a prescription digital therapeutic (PDT) providing mobile-delivered CBT-I. The trial registration number NCT04909229 is also associated with this product.",
+        "matched_elements": [
+          "product_name",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 2 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T06:58:02.354173Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

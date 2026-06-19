@@ -1,0 +1,2046 @@
+{
+  "country": "USA",
+  "search_date": "2026-06-15T06:39:16.273450Z",
+  "mode": "full",
+  "dtx_searched": 31,
+  "total_candidates": 782,
+  "total_verified_rct": 31,
+  "total_verified_rwe": 31,
+  "total_rejected": 643,
+  "total_ineligible": 77,
+  "by_dtx": {
+    "Beats Medical Parkinson's App": {
+      "dtx_name": "Beats Medical Parkinson's App",
+      "country": "USA",
+      "search_date": "2026-06-15T06:39:16.273590Z",
+      "candidates": {
+        "dtx_name": "Beats Medical Parkinson's App",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:39:16.275894Z",
+        "queries": [
+          "\"Beats Medical Parkinson's\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Parkinson's\""
+            ]
+          }
+        },
+        "total_candidates": 50
+      },
+      "verification": {
+        "dtx_name": "Beats Medical Parkinson's App",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:40:17.788990Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 50,
+        "total_ineligible": 0
+      }
+    },
+    "Beats Medical Dyspraxia App": {
+      "dtx_name": "Beats Medical Dyspraxia App",
+      "country": "USA",
+      "search_date": "2026-06-15T06:41:34.741107Z",
+      "candidates": {
+        "dtx_name": "Beats Medical Dyspraxia App",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:41:34.741591Z",
+        "queries": [
+          "\"Beats Medical Dyspraxia\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Dyspraxia\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Dyspraxia\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Dyspraxia\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Beats Medical Dyspraxia\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "Beats Medical Dyspraxia App",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:41:53.437437Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "Embr Wave 2": {
+      "dtx_name": "Embr Wave 2",
+      "country": "USA",
+      "search_date": "2026-06-15T06:41:55.438976Z",
+      "candidates": {
+        "dtx_name": "Embr Wave 2",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:41:55.439149Z",
+        "queries": [
+          "\"Embr Wave 2\"",
+          "\"Embr Wave 2\" AND \"Embr Labs\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 7,
+            "queries": [
+              "\"Embr Wave 2\"",
+              "\"Embr Wave 2\" AND \"Embr Labs\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"Embr Wave 2\"",
+              "\"Embr Wave 2\" AND \"Embr Labs\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Embr Wave 2\"",
+              "\"Embr Wave 2\" AND \"Embr Labs\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Embr Wave 2\"",
+              "\"Embr Wave 2\" AND \"Embr Labs\""
+            ]
+          }
+        },
+        "total_candidates": 8
+      },
+      "verification": {
+        "dtx_name": "Embr Wave 2",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:42:43.907558Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 7,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 6,
+            "ineligible": 1
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 6,
+        "total_ineligible": 1
+      }
+    },
+    "RelieVRx": {
+      "dtx_name": "RelieVRx",
+      "country": "USA",
+      "search_date": "2026-06-15T06:43:04.989588Z",
+      "candidates": {
+        "dtx_name": "RelieVRx",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:43:04.989869Z",
+        "queries": [
+          "\"RelieVRx\"",
+          "\"RelieVRx\" AND \"AppliedVR\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 7,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 5,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"RelieVRx\"",
+              "\"RelieVRx\" AND \"AppliedVR\""
+            ]
+          }
+        },
+        "total_candidates": 12
+      },
+      "verification": {
+        "dtx_name": "RelieVRx",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:43:48.144659Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 7,
+            "verified_rct": 2,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 4
+          },
+          "clinicaltrials": {
+            "candidates": 5,
+            "verified_rct": 4,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 1
+          }
+        },
+        "total_verified_rct": 6,
+        "total_verified_rwe": 0,
+        "total_rejected": 1,
+        "total_ineligible": 5
+      }
+    },
+    "Caterna Sehschulung": {
+      "dtx_name": "Caterna Sehschulung",
+      "country": "USA",
+      "search_date": "2026-06-15T06:44:19.728328Z",
+      "candidates": {
+        "dtx_name": "Caterna Sehschulung",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:44:19.729697Z",
+        "queries": [
+          "\"Caterna Sehschulung\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Caterna Sehschulung\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Caterna Sehschulung\""
+            ]
+          },
+          "drks": {
+            "total": 2,
+            "queries": [
+              "\"Caterna Sehschulung\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Caterna Sehschulung\""
+            ]
+          }
+        },
+        "total_candidates": 2
+      },
+      "verification": {
+        "dtx_name": "Caterna Sehschulung",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:44:50.515985Z",
+        "sources": {
+          "drks": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0,
+            "ineligible": 1
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 0,
+        "total_ineligible": 1
+      }
+    },
+    "reSET": {
+      "dtx_name": "reSET",
+      "country": "USA",
+      "search_date": "2026-06-15T06:44:58.559561Z",
+      "candidates": {
+        "dtx_name": "reSET",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:44:58.559722Z",
+        "queries": [
+          "\"reSET\"",
+          "\"reSET\" AND \"Pear Therapeutics\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 84,
+            "queries": [
+              "\"reSET\"",
+              "\"reSET\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 52,
+            "queries": [
+              "\"reSET\"",
+              "\"reSET\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "drks": {
+            "total": 6,
+            "queries": [
+              "\"reSET\"",
+              "\"reSET\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "isrctn": {
+            "total": 10,
+            "queries": [
+              "\"reSET\"",
+              "\"reSET\" AND \"Pear Therapeutics\""
+            ]
+          }
+        },
+        "total_candidates": 152
+      },
+      "verification": {
+        "dtx_name": "reSET",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:48:29.729617Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 84,
+            "verified_rct": 2,
+            "verified_rwe": 3,
+            "rejected": 76,
+            "ineligible": 3
+          },
+          "clinicaltrials": {
+            "candidates": 52,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 1
+          },
+          "drks": {
+            "candidates": 6,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 6,
+            "ineligible": 0
+          },
+          "isrctn": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 3,
+        "total_verified_rwe": 3,
+        "total_rejected": 142,
+        "total_ineligible": 4
+      }
+    },
+    "reSET-O": {
+      "dtx_name": "reSET-O",
+      "country": "USA",
+      "search_date": "2026-06-15T06:52:17.815498Z",
+      "candidates": {
+        "dtx_name": "reSET-O",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:52:17.815846Z",
+        "queries": [
+          "\"reSET-O\"",
+          "\"reSET-O\" AND \"Pear Therapeutics\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 38,
+            "queries": [
+              "\"reSET-O\"",
+              "\"reSET-O\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 6,
+            "queries": [
+              "\"reSET-O\"",
+              "\"reSET-O\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"reSET-O\"",
+              "\"reSET-O\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"reSET-O\"",
+              "\"reSET-O\" AND \"Pear Therapeutics\""
+            ]
+          }
+        },
+        "total_candidates": 55
+      },
+      "verification": {
+        "dtx_name": "reSET-O",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:54:32.267629Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 38,
+            "verified_rct": 2,
+            "verified_rwe": 8,
+            "rejected": 14,
+            "ineligible": 14
+          },
+          "clinicaltrials": {
+            "candidates": 6,
+            "verified_rct": 4,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 2
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 11,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 6,
+        "total_verified_rwe": 8,
+        "total_rejected": 25,
+        "total_ineligible": 16
+      }
+    },
+    "Somryst": {
+      "dtx_name": "Somryst",
+      "country": "USA",
+      "search_date": "2026-06-15T06:56:21.731218Z",
+      "candidates": {
+        "dtx_name": "Somryst",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:56:21.731363Z",
+        "queries": [
+          "\"Somryst\"",
+          "\"Somryst\" AND \"Pear Therapeutics\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 23,
+            "queries": [
+              "\"Somryst\"",
+              "\"Somryst\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"Somryst\"",
+              "\"Somryst\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Somryst\"",
+              "\"Somryst\" AND \"Pear Therapeutics\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Somryst\"",
+              "\"Somryst\" AND \"Pear Therapeutics\""
+            ]
+          }
+        },
+        "total_candidates": 24
+      },
+      "verification": {
+        "dtx_name": "Somryst",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:57:27.174770Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 23,
+            "verified_rct": 1,
+            "verified_rwe": 3,
+            "rejected": 11,
+            "ineligible": 8
+          },
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 3,
+        "total_rejected": 11,
+        "total_ineligible": 8
+      }
+    },
+    "Sword Thrive": {
+      "dtx_name": "Sword Thrive",
+      "country": "USA",
+      "search_date": "2026-06-15T06:58:06.013803Z",
+      "candidates": {
+        "dtx_name": "Sword Thrive",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:58:06.038796Z",
+        "queries": [
+          "\"Sword Thrive\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 12,
+            "queries": [
+              "\"Sword Thrive\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Sword Thrive\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Sword Thrive\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Sword Thrive\""
+            ]
+          }
+        },
+        "total_candidates": 12
+      },
+      "verification": {
+        "dtx_name": "Sword Thrive",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:58:40.904019Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 12,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 12,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 12,
+        "total_ineligible": 0
+      }
+    },
+    "Sword Bloom": {
+      "dtx_name": "Sword Bloom",
+      "country": "USA",
+      "search_date": "2026-06-15T06:58:58.818588Z",
+      "candidates": {
+        "dtx_name": "Sword Bloom",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:58:58.819004Z",
+        "queries": [
+          "\"Sword Bloom\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 10,
+            "queries": [
+              "\"Sword Bloom\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Sword Bloom\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Sword Bloom\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Sword Bloom\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "Sword Bloom",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T06:59:33.038256Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 9,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 9,
+        "total_ineligible": 0
+      }
+    },
+    "Sword Mind": {
+      "dtx_name": "Sword Mind",
+      "country": "USA",
+      "search_date": "2026-06-15T06:59:48.253405Z",
+      "candidates": {
+        "dtx_name": "Sword Mind",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T06:59:48.253511Z",
+        "queries": [
+          "\"Sword Mind\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Sword Mind\""
+            ]
+          }
+        },
+        "total_candidates": 50
+      },
+      "verification": {
+        "dtx_name": "Sword Mind",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:00:44.664080Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 50,
+        "total_ineligible": 0
+      }
+    },
+    "SpellBound AR": {
+      "dtx_name": "SpellBound AR",
+      "country": "USA",
+      "search_date": "2026-06-15T07:02:01.660974Z",
+      "candidates": {
+        "dtx_name": "SpellBound AR",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:02:01.661227Z",
+        "queries": [
+          "\"SpellBound AR\"",
+          "\"SpellBound AR\" AND \"SpellBound (Healthcare Technology Systems)\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"SpellBound AR\"",
+              "\"SpellBound AR\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"SpellBound AR\"",
+              "\"SpellBound AR\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"SpellBound AR\"",
+              "\"SpellBound AR\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"SpellBound AR\"",
+              "\"SpellBound AR\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "SpellBound AR",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:02:34.559693Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "ARISE by SpellBound": {
+      "dtx_name": "ARISE by SpellBound",
+      "country": "USA",
+      "search_date": "2026-06-15T07:02:36.561898Z",
+      "candidates": {
+        "dtx_name": "ARISE by SpellBound",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:02:36.562229Z",
+        "queries": [
+          "\"ARISE by SpellBound\"",
+          "\"ARISE by SpellBound\" AND \"SpellBound (Healthcare Technology Systems)\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 1,
+            "queries": [
+              "\"ARISE by SpellBound\"",
+              "\"ARISE by SpellBound\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"ARISE by SpellBound\"",
+              "\"ARISE by SpellBound\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"ARISE by SpellBound\"",
+              "\"ARISE by SpellBound\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"ARISE by SpellBound\"",
+              "\"ARISE by SpellBound\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          }
+        },
+        "total_candidates": 1
+      },
+      "verification": {
+        "dtx_name": "ARISE by SpellBound",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:03:17.440581Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 1,
+        "total_ineligible": 0
+      }
+    },
+    "Vibe ARcade": {
+      "dtx_name": "Vibe ARcade",
+      "country": "USA",
+      "search_date": "2026-06-15T07:03:21.304300Z",
+      "candidates": {
+        "dtx_name": "Vibe ARcade",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:03:21.304434Z",
+        "queries": [
+          "\"Vibe ARcade\"",
+          "\"Vibe ARcade\" AND \"SpellBound (Healthcare Technology Systems)\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Vibe ARcade\"",
+              "\"Vibe ARcade\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Vibe ARcade\"",
+              "\"Vibe ARcade\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Vibe ARcade\"",
+              "\"Vibe ARcade\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Vibe ARcade\"",
+              "\"Vibe ARcade\" AND \"SpellBound (Healthcare Technology Systems)\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "Vibe ARcade",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:03:54.100911Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "InTandem": {
+      "dtx_name": "InTandem",
+      "country": "USA",
+      "search_date": "2026-06-15T07:03:56.103565Z",
+      "candidates": {
+        "dtx_name": "InTandem",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:03:56.104339Z",
+        "queries": [
+          "\"InTandem\"",
+          "\"InTandem\" AND \"Medrhythms Therapy\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"InTandem\"",
+              "\"InTandem\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"InTandem\"",
+              "\"InTandem\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"InTandem\"",
+              "\"InTandem\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"InTandem\"",
+              "\"InTandem\" AND \"Medrhythms Therapy\""
+            ]
+          }
+        },
+        "total_candidates": 50
+      },
+      "verification": {
+        "dtx_name": "InTandem",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:05:16.440220Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 46,
+            "ineligible": 3
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 46,
+        "total_ineligible": 3
+      }
+    },
+    "MOVIVE": {
+      "dtx_name": "MOVIVE",
+      "country": "USA",
+      "search_date": "2026-06-15T07:06:37.927741Z",
+      "candidates": {
+        "dtx_name": "MOVIVE",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:06:37.928000Z",
+        "queries": [
+          "\"MOVIVE\"",
+          "\"MOVIVE\" AND \"Medrhythms Therapy\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"MOVIVE\"",
+              "\"MOVIVE\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"MOVIVE\"",
+              "\"MOVIVE\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"MOVIVE\"",
+              "\"MOVIVE\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"MOVIVE\"",
+              "\"MOVIVE\" AND \"Medrhythms Therapy\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "MOVIVE",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:07:11.275670Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "MR-004": {
+      "dtx_name": "MR-004",
+      "country": "USA",
+      "search_date": "2026-06-15T07:07:13.277881Z",
+      "candidates": {
+        "dtx_name": "MR-004",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:07:13.278489Z",
+        "queries": [
+          "\"MR-004\"",
+          "\"MR-004\" AND \"Medrhythms Therapy\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"MR-004\"",
+              "\"MR-004\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"MR-004\"",
+              "\"MR-004\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"MR-004\"",
+              "\"MR-004\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "isrctn": {
+            "total": 2,
+            "queries": [
+              "\"MR-004\"",
+              "\"MR-004\" AND \"Medrhythms Therapy\""
+            ]
+          }
+        },
+        "total_candidates": 62
+      },
+      "verification": {
+        "dtx_name": "MR-004",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:09:39.505315Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 50,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          },
+          "isrctn": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 62,
+        "total_ineligible": 0
+      }
+    },
+    "MR-010": {
+      "dtx_name": "MR-010",
+      "country": "USA",
+      "search_date": "2026-06-15T07:11:11.149231Z",
+      "candidates": {
+        "dtx_name": "MR-010",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:11:11.149631Z",
+        "queries": [
+          "\"MR-010\"",
+          "\"MR-010\" AND \"Medrhythms Therapy\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"MR-010\"",
+              "\"MR-010\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 1,
+            "queries": [
+              "\"MR-010\"",
+              "\"MR-010\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"MR-010\"",
+              "\"MR-010\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"MR-010\"",
+              "\"MR-010\" AND \"Medrhythms Therapy\""
+            ]
+          }
+        },
+        "total_candidates": 11
+      },
+      "verification": {
+        "dtx_name": "MR-010",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:12:45.969392Z",
+        "sources": {
+          "clinicaltrials": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          },
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 10,
+        "total_ineligible": 0
+      }
+    },
+    "MR-012": {
+      "dtx_name": "MR-012",
+      "country": "USA",
+      "search_date": "2026-06-15T07:13:06.083133Z",
+      "candidates": {
+        "dtx_name": "MR-012",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:13:06.083634Z",
+        "queries": [
+          "\"MR-012\"",
+          "\"MR-012\" AND \"Medrhythms Therapy\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"MR-012\"",
+              "\"MR-012\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"MR-012\"",
+              "\"MR-012\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"MR-012\"",
+              "\"MR-012\" AND \"Medrhythms Therapy\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"MR-012\"",
+              "\"MR-012\" AND \"Medrhythms Therapy\""
+            ]
+          }
+        },
+        "total_candidates": 10
+      },
+      "verification": {
+        "dtx_name": "MR-012",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:14:42.234726Z",
+        "sources": {
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 10,
+        "total_ineligible": 0
+      }
+    },
+    "Relivion MG": {
+      "dtx_name": "Relivion MG",
+      "country": "USA",
+      "search_date": "2026-06-15T07:15:01.119995Z",
+      "candidates": {
+        "dtx_name": "Relivion MG",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:15:01.120221Z",
+        "queries": [
+          "\"Relivion MG\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 5,
+            "queries": [
+              "\"Relivion MG\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Relivion MG\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Relivion MG\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Relivion MG\""
+            ]
+          }
+        },
+        "total_candidates": 5
+      },
+      "verification": {
+        "dtx_name": "Relivion MG",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:15:27.943669Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 5,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 2,
+            "ineligible": 2
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 0,
+        "total_rejected": 2,
+        "total_ineligible": 2
+      }
+    },
+    "Relivion DP": {
+      "dtx_name": "Relivion DP",
+      "country": "USA",
+      "search_date": "2026-06-15T07:15:38.458965Z",
+      "candidates": {
+        "dtx_name": "Relivion DP",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:15:38.459259Z",
+        "queries": [
+          "\"Relivion DP\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Relivion DP\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Relivion DP\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Relivion DP\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Relivion DP\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "Relivion DP",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:15:57.310749Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "Transform": {
+      "dtx_name": "Transform",
+      "country": "USA",
+      "search_date": "2026-06-15T07:15:59.317033Z",
+      "candidates": {
+        "dtx_name": "Transform",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:15:59.318061Z",
+        "queries": [
+          "\"Transform\"",
+          "\"Transform\" AND \"Blue Mesa Health\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 51,
+            "queries": [
+              "\"Transform\"",
+              "\"Transform\" AND \"Blue Mesa Health\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 50,
+            "queries": [
+              "\"Transform\"",
+              "\"Transform\" AND \"Blue Mesa Health\""
+            ]
+          },
+          "drks": {
+            "total": 10,
+            "queries": [
+              "\"Transform\"",
+              "\"Transform\" AND \"Blue Mesa Health\""
+            ]
+          },
+          "isrctn": {
+            "total": 10,
+            "queries": [
+              "\"Transform\"",
+              "\"Transform\" AND \"Blue Mesa Health\""
+            ]
+          }
+        },
+        "total_candidates": 121
+      },
+      "verification": {
+        "dtx_name": "Transform",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:19:11.950140Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 51,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 50,
+            "ineligible": 0
+          },
+          "clinicaltrials": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 49,
+            "ineligible": 1
+          },
+          "drks": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          },
+          "isrctn": {
+            "candidates": 10,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 10,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 119,
+        "total_ineligible": 1
+      }
+    },
+    "myCOPD": {
+      "dtx_name": "myCOPD",
+      "country": "USA",
+      "search_date": "2026-06-15T07:22:07.173169Z",
+      "candidates": {
+        "dtx_name": "myCOPD",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:22:07.173433Z",
+        "queries": [
+          "\"myCOPD\"",
+          "\"myCOPD\" AND \"My Mhealth\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 10,
+            "queries": [
+              "\"myCOPD\"",
+              "\"myCOPD\" AND \"My Mhealth\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 3,
+            "queries": [
+              "\"myCOPD\"",
+              "\"myCOPD\" AND \"My Mhealth\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"myCOPD\"",
+              "\"myCOPD\" AND \"My Mhealth\""
+            ]
+          },
+          "isrctn": {
+            "total": 1,
+            "queries": [
+              "\"myCOPD\"",
+              "\"myCOPD\" AND \"My Mhealth\""
+            ]
+          }
+        },
+        "total_candidates": 14
+      },
+      "verification": {
+        "dtx_name": "myCOPD",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:23:10.499841Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 10,
+            "verified_rct": 2,
+            "verified_rwe": 4,
+            "rejected": 0,
+            "ineligible": 4
+          },
+          "clinicaltrials": {
+            "candidates": 3,
+            "verified_rct": 2,
+            "verified_rwe": 1,
+            "rejected": 0,
+            "ineligible": 0
+          },
+          "isrctn": {
+            "candidates": 1,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 5,
+        "total_verified_rwe": 5,
+        "total_rejected": 0,
+        "total_ineligible": 4
+      }
+    },
+    "myAsthma": {
+      "dtx_name": "myAsthma",
+      "country": "USA",
+      "search_date": "2026-06-15T07:23:48.362944Z",
+      "candidates": {
+        "dtx_name": "myAsthma",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:23:48.363089Z",
+        "queries": [
+          "\"myAsthma\"",
+          "\"myAsthma\" AND \"My Mhealth\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 8,
+            "queries": [
+              "\"myAsthma\"",
+              "\"myAsthma\" AND \"My Mhealth\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 4,
+            "queries": [
+              "\"myAsthma\"",
+              "\"myAsthma\" AND \"My Mhealth\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"myAsthma\"",
+              "\"myAsthma\" AND \"My Mhealth\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"myAsthma\"",
+              "\"myAsthma\" AND \"My Mhealth\""
+            ]
+          }
+        },
+        "total_candidates": 12
+      },
+      "verification": {
+        "dtx_name": "myAsthma",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:24:34.249828Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 8,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 6,
+            "ineligible": 1
+          },
+          "clinicaltrials": {
+            "candidates": 4,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 0,
+            "ineligible": 3
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 0,
+        "total_rejected": 6,
+        "total_ineligible": 4
+      }
+    },
+    "myDiabetes": {
+      "dtx_name": "myDiabetes",
+      "country": "USA",
+      "search_date": "2026-06-15T07:25:03.925615Z",
+      "candidates": {
+        "dtx_name": "myDiabetes",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:25:03.925896Z",
+        "queries": [
+          "\"myDiabetes\"",
+          "\"myDiabetes\" AND \"My Mhealth\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 2,
+            "queries": [
+              "\"myDiabetes\"",
+              "\"myDiabetes\" AND \"My Mhealth\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"myDiabetes\"",
+              "\"myDiabetes\" AND \"My Mhealth\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"myDiabetes\"",
+              "\"myDiabetes\" AND \"My Mhealth\""
+            ]
+          },
+          "isrctn": {
+            "total": 1,
+            "queries": [
+              "\"myDiabetes\"",
+              "\"myDiabetes\" AND \"My Mhealth\""
+            ]
+          }
+        },
+        "total_candidates": 3
+      },
+      "verification": {
+        "dtx_name": "myDiabetes",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:25:59.115960Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 2,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 0,
+            "ineligible": 1
+          },
+          "isrctn": {
+            "candidates": 1,
+            "verified_rct": 0,
+            "verified_rwe": 0,
+            "rejected": 1,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 0,
+        "total_verified_rwe": 1,
+        "total_rejected": 1,
+        "total_ineligible": 1
+      }
+    },
+    "myHeart": {
+      "dtx_name": "myHeart",
+      "country": "USA",
+      "search_date": "2026-06-15T07:26:09.754718Z",
+      "candidates": {
+        "dtx_name": "myHeart",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:26:09.755192Z",
+        "queries": [
+          "\"myHeart\"",
+          "\"myHeart\" AND \"My Mhealth\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 50,
+            "queries": [
+              "\"myHeart\"",
+              "\"myHeart\" AND \"My Mhealth\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 5,
+            "queries": [
+              "\"myHeart\"",
+              "\"myHeart\" AND \"My Mhealth\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"myHeart\"",
+              "\"myHeart\" AND \"My Mhealth\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"myHeart\"",
+              "\"myHeart\" AND \"My Mhealth\""
+            ]
+          }
+        },
+        "total_candidates": 55
+      },
+      "verification": {
+        "dtx_name": "myHeart",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:27:21.725696Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 50,
+            "verified_rct": 0,
+            "verified_rwe": 1,
+            "rejected": 48,
+            "ineligible": 1
+          },
+          "clinicaltrials": {
+            "candidates": 5,
+            "verified_rct": 1,
+            "verified_rwe": 0,
+            "rejected": 4,
+            "ineligible": 0
+          }
+        },
+        "total_verified_rct": 1,
+        "total_verified_rwe": 1,
+        "total_rejected": 52,
+        "total_ineligible": 1
+      }
+    },
+    "Feel Program": {
+      "dtx_name": "Feel Program",
+      "country": "USA",
+      "search_date": "2026-06-15T07:28:49.093106Z",
+      "candidates": {
+        "dtx_name": "Feel Program",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T07:28:49.093352Z",
+        "queries": [
+          "\"Feel Program\"",
+          "\"Feel Program\" AND \"Feel Therapeutics\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 52,
+            "queries": [
+              "\"Feel Program\"",
+              "\"Feel Program\" AND \"Feel Therapeutics\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Feel Program\"",
+              "\"Feel Program\" AND \"Feel Therapeutics\""
+            ]
+          },
+          "drks": {
+            "total": 11,
+            "queries": [
+              "\"Feel Program\"",
+              "\"Feel Program\" AND \"Feel Therapeutics\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Feel Program\"",
+              "\"Feel Program\" AND \"Feel Therapeutics\""
+            ]
+          }
+        },
+        "total_candidates": 63
+      },
+      "verification": {
+        "dtx_name": "Feel Program",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T07:31:21.282419Z",
+        "sources": {
+          "pubmed": {
+            "candidates": 52,
+            "verified_rct": 1,
+            "verified_rwe": 6,
+            "rejected": 27,
+            "ineligible": 18
+          },
+          "drks": {
+            "candidates": 11,
+            "verified_rct": 1,
+            "verified_rwe": 1,
+            "rejected": 1,
+            "ineligible": 8
+          }
+        },
+        "total_verified_rct": 2,
+        "total_verified_rwe": 7,
+        "total_rejected": 28,
+        "total_ineligible": 26
+      }
+    },
+    "Mightier": {
+      "dtx_name": "Mightier",
+      "country": "USA",
+      "search_date": "2026-06-15T09:43:27.431914Z",
+      "candidates": {
+        "dtx_name": "Mightier",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T09:43:27.432235Z",
+        "queries": [
+          "\"Mightier\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"Mightier\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"Mightier\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"Mightier\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"Mightier\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "Mightier",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T09:43:34.067975Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "A4i (App4Independence)": {
+      "dtx_name": "A4i (App4Independence)",
+      "country": "USA",
+      "search_date": "2026-06-15T09:43:36.073530Z",
+      "candidates": {
+        "dtx_name": "A4i (App4Independence)",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T09:43:36.074122Z",
+        "queries": [
+          "\"A4i (App4Independence)\"",
+          "\"A4i (App4Independence)\" AND \"MEMOTEXT\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"A4i (App4Independence)\"",
+              "\"A4i (App4Independence)\" AND \"MEMOTEXT\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"A4i (App4Independence)\"",
+              "\"A4i (App4Independence)\" AND \"MEMOTEXT\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"A4i (App4Independence)\"",
+              "\"A4i (App4Independence)\" AND \"MEMOTEXT\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"A4i (App4Independence)\"",
+              "\"A4i (App4Independence)\" AND \"MEMOTEXT\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "A4i (App4Independence)",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T09:43:44.486690Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "AspyreRx": {
+      "dtx_name": "AspyreRx",
+      "country": "USA",
+      "search_date": "2026-06-15T09:43:46.489892Z",
+      "candidates": {
+        "dtx_name": "AspyreRx",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T09:43:46.490061Z",
+        "queries": [
+          "\"AspyreRx\"",
+          "\"AspyreRx\" AND \"Better Therapeutics\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"AspyreRx\"",
+              "\"AspyreRx\" AND \"Better Therapeutics\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"AspyreRx\"",
+              "\"AspyreRx\" AND \"Better Therapeutics\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"AspyreRx\"",
+              "\"AspyreRx\" AND \"Better Therapeutics\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"AspyreRx\"",
+              "\"AspyreRx\" AND \"Better Therapeutics\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "AspyreRx",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T09:43:54.930726Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    },
+    "ViViRA": {
+      "dtx_name": "ViViRA",
+      "country": "USA",
+      "search_date": "2026-06-15T09:43:56.934110Z",
+      "candidates": {
+        "dtx_name": "ViViRA",
+        "country": "USA",
+        "layer": "candidates",
+        "search_date": "2026-06-15T09:43:56.934432Z",
+        "queries": [
+          "\"ViViRA\""
+        ],
+        "sources": {
+          "pubmed": {
+            "total": 0,
+            "queries": [
+              "\"ViViRA\""
+            ]
+          },
+          "clinicaltrials": {
+            "total": 0,
+            "queries": [
+              "\"ViViRA\""
+            ]
+          },
+          "drks": {
+            "total": 0,
+            "queries": [
+              "\"ViViRA\""
+            ]
+          },
+          "isrctn": {
+            "total": 0,
+            "queries": [
+              "\"ViViRA\""
+            ]
+          }
+        },
+        "total_candidates": 0
+      },
+      "verification": {
+        "dtx_name": "ViViRA",
+        "country": "USA",
+        "layer": "verification",
+        "verification_date": "2026-06-15T09:44:03.180772Z",
+        "sources": {},
+        "total_verified_rct": 0,
+        "total_verified_rwe": 0,
+        "total_rejected": 0,
+        "total_ineligible": 0
+      }
+    }
+  }
+}

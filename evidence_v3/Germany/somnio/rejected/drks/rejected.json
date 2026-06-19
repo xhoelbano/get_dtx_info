@@ -1,0 +1,24 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00038161",
+      "drks_id": "DRKS00038161",
+      "title": "PRO*SOMNIO: Effectiveness of CBT and MCT in the treatment of sleep disorders – a randomized controlled trial",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00038161/details",
+      "_matched_query": "\"somnio\"",
+      "_raw_json_path": "evidence/Germany/somnio/candidates/drks/raw/DRKS00038161.json",
+      "_verification": {
+        "is_relevant": false,
+        "confidence": 95,
+        "reason": "The study focuses on the effectiveness of Cognitive Behavioral Therapy (CBT-I) and Metacognitive Therapy (MCT) for sleep disorders, delivered as group therapy sessions. There is no mention of the digital therapeutic product 'somnio' or its manufacturer, mementor DE GmbH, in the study details.",
+        "matched_elements": []
+      },
+      "_rejection_stage": "verification"
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T09:07:13.874978Z",
+  "_source": "drks"
+}

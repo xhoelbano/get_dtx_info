@@ -1,0 +1,236 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03864081",
+      "orgStudyIdInfo": {
+        "id": "CADF-CIP-001"
+      },
+      "organization": {
+        "fullName": "Analytics For Life",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Non-invasive Point-of-care Diagnosis Using Machine Learning and Signal Analytics to Transform Early Detection of Heart Disease",
+      "officialTitle": "Non-Invasive Point-of-care Diagnosis Using Machine Learning and Signal Analytics to Transform Early Detection of Heart Disease",
+      "acronym": "IDENTIFY"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-12-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-01-01",
+      "studyFirstSubmitQcDate": "2019-03-04",
+      "studyFirstPostDateStruct": {
+        "date": "2019-03-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-01-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-01-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Analytics For Life",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is designed as a repository study to collect resting cardiac phase signals and subject meta data from eligible subjects using the Phase Signal Recorder (PSR) prior to coronary angiography. The repository data will be used for the purposes of research, development, optimization and testing of machine-learning algorithms developed by Analytics 4 Life.",
+      "detailedDescription": "Male and Female subjects will be uniquely and consecutively enrolled into one of two groups to support populating a repository of phase signals: Group 1: Subjects with known prior coronary artery disease or previous percutaneous coronary intervention (PCI), and Group 2: Subjects with new onset symptoms suggestive of obstructive coronary artery disease at current presentation with no known coronary artery disease.\n\nEnrollment into Group 1 and Group 2 will occur simultaneously until up to 500 male subjects and up to 1000 female subjects with paired data (phase signal and coronary angiography outcomes data) are enrolled. Once the desired number of subjects have been enrolled from both groups, then only Group 2 will continue to be enrolled.\n\nResting phase signals will be collected in all patients who meet inclusion/exclusion criteria and have signed an informed consent form. This study consists of a screening visit, resting phase signal collection (study procedure), and coronary angiography. In this study, resting phase signals will be acquired in subjects prior to coronary angiography."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "coronary angiography",
+        "coronary artery disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Enrolled Subjects (PSR)",
+          "type": "OTHER",
+          "description": "Patients who meet the study's inclusion and exclusion criteria, including signing the informed consent form, subjects will undergo signal acquisition prior to their scheduled cardiac catheterization on the day of the procedure.",
+          "interventionNames": [
+            "Device: Phase Signal Recorder"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Phase Signal Recorder",
+          "description": "The Phase Signal Acquisition (PSAQ) System is a medical device system that is being developed to collect phase signals from patients to support the development and testing of machine learned algorithms. The PSAQ System consists of two components that work together to acquire and transmit the phase signals and patient specific data to a secured, cloud-based repository. The PSAQ System is comprised of: 1) the Phase Signal Recorder (PSR) which is a portable instrument, and 2) the Phase Signal Data Repository (PSDR) which is a cloud based data repository. Data collected during this study will not be used to guide treatment.",
+          "armGroupLabels": [
+            "Enrolled Subjects (PSR)"
+          ],
+          "otherNames": [
+            "PSR"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Phase Signal Recorder Procedure",
+          "description": "Resting phase signals will be collected from eligible subjects prior to coronary angiography and paired with angiography results..",
+          "timeFrame": "7 day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients ≥ 18 years old;\n2. Symptoms suggestive of obstructive CAD;\n3. Scheduled to undergo cardiac catheterization with coronary angiography;\n4. Ability to understand the requirements of the study and to provide written informed consent.\n\nExclusion Criteria:\n\n1. Prior documented history of myocardial infarction (MI);\n2. Suspected acute myocardial infarction (AMI) at current presentation;\n3. Prior coronary artery bypass grafting (CABG);\n4. Prior heart valve replacement;\n5. Previous sustained or paroxysmal atrial or ventricular arrythmia;\n6. Infiltrative myocardial disease (amyloid, sarcoid, right ventricular dysplasia);\n7. Presence of cardiac implantable electronic device (CIED), including implantable cardioverter defibrillator (ICD), pacemaker (PM), implantable loop recorders and other monitors;\n8. Implantable Neuro-stimulators;\n9. Congenital Heart Disease;\n10. Pregnant or breast feeding;\n11. Currently taking any Type IA, IC or III antiarrhythmics;\n12. Any history of amiodarone use;\n13. Clinically significant chest deformity (e.g., pectus excavatum or pectus carinatum);\n14. Breast implants;\n15. Neuromuscular Disease if the condition results in tremor or muscle fasciculations.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Horace R Gillins",
+          "role": "CONTACT",
+          "phone": "(919) 444-2843",
+          "email": "horace.gillins@analytics4life.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "William E Sanders, Jr., MD JD LLM MBA FHRS",
+          "affiliation": "Analytics For Life",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Atlanta Heart Specialists",
+          "status": "RECRUITING",
+          "city": "Cumming",
+          "state": "Georgia",
+          "zip": "30041",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rhonda Hamer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Narendra Singh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.20732,
+            "lon": -84.14019
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39185859",
+          "type": "DERIVED",
+          "citation": "Burton T, Nemati N, Fathieh F, Gillins HR, Bridges CR, Ramchandani S, Shadforth I. Signal Acquisition, Score Interpretation, and Economics of a Non-Invasive Point-of-Care Test for Coronary Artery Disease. J Vis Exp. 2024 Aug 9;(210). doi: 10.3791/66933."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

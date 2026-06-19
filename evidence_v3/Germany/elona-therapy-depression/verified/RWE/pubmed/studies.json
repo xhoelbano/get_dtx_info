@@ -1,0 +1,61 @@
+{
+  "studies": [
+    {
+      "study_id": "37624631",
+      "pmid": "37624631",
+      "title": "Efficacy of a Brief Blended Cognitive Behavioral Therapy Program for the Treatment of Depression and Anxiety in University Students: Uncontrolled Intervention Study.",
+      "authors": "Atik Ece et al.",
+      "authors_list": [
+        "Atik Ece",
+        "Stricker Johannes",
+        "Schückes Magnus",
+        "Pittig Andre"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Aug-25",
+      "journal": "JMIR mental health",
+      "journal_abbrev": "JMIR Ment Health",
+      "doi": "10.2196/44742",
+      "abstract": "BACKGROUND: Blended cognitive behavioral therapy (bCBT)-the combination of cognitive behavioral therapy and digital mental health applications-has been increasingly used to treat depression and anxiety disorders. As a resource-efficient treatment approach, bCBT appears promising for addressing the growing need for mental health care services, for example, as an early intervention before the chronification of symptoms. However, further research on the efficacy and feasibility of integrated bCBT interventions is needed. OBJECTIVE: This study aimed to evaluate the efficacy of a novel bCBT program comprising short (25 min), weekly face-to-face therapy sessions combined with a smartphone-based digital health app for treating mild to moderate symptoms of depression or anxiety. METHODS: This prospective uncontrolled trial comprised 2 measurement points (before and after treatment) and 2 intervention groups. We recruited university students with mild to moderate symptoms of depression or anxiety. On the basis of the primary symptoms, participants were assigned to either a depression intervention group (n=67 completers) or an anxiety intervention group (n=33 completers). Participants in each group received 6 weekly individual psychotherapy sessions via videoconference and completed modules tailored to their respective symptoms in the smartphone-based digital health app. RESULTS: The depression group displayed medium to large improvements in the symptoms of depression (Cohen d=-0.70 to -0.90; P<.001). The anxiety group experienced significant improvements in the symptoms of generalized anxiety assessed with the Generalized Anxiety Disorder-7 scale with a large effect size (Cohen d=-0.80; P<.001) but not in symptoms of anxiety assessed with the Beck Anxiety Inventory (Cohen d=-0.35; P=.06). In addition, both groups experienced significant improvements in their perceived self-efficacy (Cohen d=0.50; P<.001 in the depression group and Cohen d=0.71; P<.001 in the anxiety group) and quality of life related to psychological health (Cohen d=0.87; P<.001 in the depression group and Cohen d=0.40; P=.03 in the anxiety group). Work and social adjustment of patients improved significantly in the depression group (Cohen d=-0.49; P<.001) but not in the anxiety group (Cohen d=-0.06; P=.72). Patients' mental health literacy improved in the anxiety group (Cohen d=0.45; P=.02) but not in the depression group (Cohen d=0.21; P=.10). Patient satisfaction with the bCBT program and ratings of the usability of the digital app were high in both treatment groups. CONCLUSIONS: This study provides preliminary evidence for the feasibility and efficacy of a novel brief bCBT intervention. The intervention effects were generalized across a broad spectrum of patient-reported outcomes. Hence, the newly developed bCBT intervention appears promising for treating mild to moderate depression and anxiety in young adults.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "anxiety disorder",
+        "bCBT",
+        "blended cognitive behavioral therapy",
+        "depression",
+        "digital mental health",
+        "e–mental health",
+        "mobile phone",
+        "video psychotherapy"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37624631/",
+      "pdf_available": false,
+      "_matched_query": "\"elona therapy Depression\"",
+      "_raw_xml_path": "evidence/Germany/elona-therapy-depression/candidates/pubmed/raw/37624631.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions the use of the elona therapy app, developed by Elona Health, in the conflict of interest statement. This directly links the study to the elona therapy Depression product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "prospective uncontrolled trial",
+        "confidence": 95,
+        "reason": "The study is a prospective uncontrolled trial, which is an observational design without randomization or a control group, fitting the criteria for real-world evidence (RWE)."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T03:58:19.527494Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

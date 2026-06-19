@@ -1,0 +1,241 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06042361",
+      "orgStudyIdInfo": {
+        "id": "IRB23-0415"
+      },
+      "organization": {
+        "fullName": "Harvard School of Public Health (HSPH)",
+        "class": "OTHER"
+      },
+      "briefTitle": "Enhancing Equity in Smoke-free Housing",
+      "officialTitle": "Enhancing Equity in Smoke-free Housing: Evidence-based Strategies to Support Implementation in Permanent Supportive Housing (PSH) Communities"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "ENROLLING_BY_INVITATION",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-07-27",
+      "studyFirstSubmitQcDate": "2023-09-13",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Vaughan Rees",
+        "investigatorTitle": "Director, Center for Global Tobacco Control",
+        "investigatorAffiliation": "Harvard School of Public Health (HSPH)"
+      },
+      "leadSponsor": {
+        "name": "Harvard School of Public Health (HSPH)",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn about the acceptability, feasibility, and effectiveness of smoke-free housing policy implementation in Permanent Supportive Housing communities. The main objective of this study is to identify and refine adaptations for a smoke-free housing implementation framework that incorporates behavioral health support and meets the needs of residents living in Permanent Supportive Housing.",
+      "detailedDescription": "The study aims are:\n\nAim 1): Identify adaptations for a smokefree housing implementation framework and identify opportunities to integrate these adaptations with ongoing behavioral health support, to meet the needs of residents living in Permanent Supportive Housing (PSH) (Phase 1).\n\nAim 2): The research team will pilot test the adapted implementation framework, including an implementation toolkit, to assess the acceptability, feasibility and effectiveness of the primary intervention provided to Property Managers (Phase 2).\n\nAim 3): Based on a synthesis of qualitative and quantitative evidence, the research team will further refine the smokefree implementation framework and toolkit, comprising modified versions of the \"Implementation Guide\", \"Action Plan\" and \"Implementation Checklist\", to support future needs of Permanent Supportive Housing communities (Phase 3).\n\nThe research team seeks to use the opportunity provided by smokefree housing implementation to minimize indoor smoking and encourage smoking cessation, and thus help move communities with a history of profound health disparities towards a more equitable, tobacco-free future. The impact of this project will be evident not only among smokers, but also non-smokers, children and the elderly who share residential communities with people supported by PSH programs.\n\nIf successful, the results of this work will be used to promote broader and more effective use of the smokefree PSH implementation framework in federally-assisted public and affordable housing communities nationally."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tobacco Use",
+        "Tobacco Smoking",
+        "Tobacco Use Cessation",
+        "Tobacco Use Disorder",
+        "Second Hand Tobacco Smoke"
+      ],
+      "keywords": [
+        "tobacco",
+        "second hand tobacco smoke",
+        "tobacco cessation",
+        "smokefree housing"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Two-phased approach: formative first phase, testing second phase. Enrollment based on residential property clusters.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 480,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention",
+          "type": "OTHER",
+          "description": "All participants will receive the intervention of the Smokefree Implementation Framework and Toolkit",
+          "interventionNames": [
+            "Behavioral: Smokefree Implementation Framework and Toolkit"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Smokefree Implementation Framework and Toolkit",
+          "description": "Framework and toolkit that includes \"Implementation Guide\", \"Action Plan\", and \"Implementation Checklist\" that supports the needs of Permanent Supportive Housing communities.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Acceptability of Intervention Measure (AIM)",
+          "description": "The Smokefree Implementation Framework and Toolkit is acceptable to implement in Permanent Supportive Housing communities. Measured using 4-items from the AIM.",
+          "timeFrame": "Pre-intervention through 6 months post intervention"
+        },
+        {
+          "measure": "Feasibility of Intervention Measure (FIM)",
+          "description": "The Smokefree Implementation Framework and Toolkit is feasible to implement in Permanent Supportive Housing communities. Measured using 4-items from the FIM.",
+          "timeFrame": "Pre-intervention through 6 months post intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ambient second-hand smoke in common indoor areas",
+          "description": "Monitored using passive nicotine dosimetry monitors placed in common areas",
+          "timeFrame": "Pre-intervention through 6 months post intervention"
+        },
+        {
+          "measure": "Residents' self-reported exposure to secondhand smoke",
+          "description": "Self-reported exposure to secondhand smoke (smell or sight) in the home or around the property, will be assessed with two questions in survey form.",
+          "timeFrame": "Pre-intervention through 6 months post intervention"
+        },
+        {
+          "measure": "Behavior of residents who smoke",
+          "description": "Self-reported behavior of smoking (cigarettes/day in the past 30 days) of residents who smoke",
+          "timeFrame": "Pre-intervention through 6 months post intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "The study setting is 6 affordable housing communities that include Permanent Supportive Housing (PSH) in Massachusetts, Maryland and New York (USA).\n\nInclusion Criteria:\n\n* Adult residents of the six affordable housing communities who smoke or do not smoke tobacco, who receive or do not receive Permanent Supportive Housing services, and can complete a survey in English or Spanish.\n* Adult residents of the six affordable housing communities who smoke or do not smoke tobacco, who receive or do not receive Permanent Supportive Housing services, and can participate in a focus group discussion in English.\n* Property Managers (or their designated appointees) of the six affordable housing communities where the research will be conducted and able to receive the intervention and participate in the qualitative interviews in English.\n* Caseworkers who are dedicated health workers who provide behavioral health support (mental health and substance use support interventions) to residents at each of the six properties and who can receive the intervention and participate in the qualitative interviews in English.\n\nExclusion Criteria:\n\n* Those unable to speak English or Spanish.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Vaughan Rees, PhD",
+          "affiliation": "Harvard University School of Public Health",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Harvard TH Chan School of Public Health",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064424",
+          "term": "Tobacco Use"
+        },
+        {
+          "id": "D000073869",
+          "term": "Tobacco Smoking"
+        },
+        {
+          "id": "D020340",
+          "term": "Tobacco Use Cessation"
+        },
+        {
+          "id": "D014029",
+          "term": "Tobacco Use Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D012907",
+          "term": "Smoking"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

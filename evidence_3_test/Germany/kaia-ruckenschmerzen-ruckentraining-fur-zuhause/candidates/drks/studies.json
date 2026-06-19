@@ -1,0 +1,54 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00036889",
+      "drks_id": "DRKS00036889",
+      "title": "Randomized controlled trial to evaluate the effectiveness of a digital health application (Kaia) to prevent back pain and improve quality of life in hospital staff",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036889/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00036889.json"
+    },
+    {
+      "study_id": "DRKS00029408",
+      "drks_id": "DRKS00029408",
+      "title": "Kaia back pain for the treatment of non-specific low back pain in adult patients - a randomised controlled trial",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00029408/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00029408.json"
+    },
+    {
+      "study_id": "DRKS00016329",
+      "drks_id": "DRKS00016329",
+      "title": "e-Health and mobile health application for the self-management support of patients with low back pain - a confirmatory trial",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00016329/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00016329.json"
+    },
+    {
+      "study_id": "DRKS00015048",
+      "drks_id": "DRKS00015048",
+      "title": "Innovative Back Pain Therapy with eHealth for our Patients",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00015048/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00015048.json"
+    }
+  ],
+  "count": 4,
+  "queries_used": [
+    "\"Kaia Rückenschmerzen\"",
+    "\"Kaia Rückenschmerzen\" AND \"kaia health software\""
+  ],
+  "dtx_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T16:58:24.102751Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

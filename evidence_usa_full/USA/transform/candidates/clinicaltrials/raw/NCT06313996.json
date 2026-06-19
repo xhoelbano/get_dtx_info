@@ -1,0 +1,682 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06313996",
+      "orgStudyIdInfo": {
+        "id": "CA082-011"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-507477-18",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Efficacy and Safety of Liso-cel Compared to Standard of Care in Adults With Relapsed or Refractory Follicular Lymphoma",
+      "officialTitle": "A Global Randomized Multicenter Phase 3 Trial to Compare the Efficacy and Safety of Lisocabtagene Maraleucel (JCAR017/BMS-986387) to Standard of Care in Adults With Relapsed or Refractory Follicular Lymphoma (TRANSFORM FL)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Replaced with another clinical trial.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-29",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-10-16",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-10-16",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-02-26",
+      "studyFirstSubmitQcDate": "2024-03-13",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Celgene Corporation",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the efficacy and safety of Liso-cel compared to standard of care in adults with Relapsed or Refractory Follicular Lymphoma.",
+      "detailedDescription": "The purpose of this phase III study is to evaluate the clinical benefit of liso-cel for the treatment of r/r FL by comparing it to standard of care therapy in patients with r/r FL, with progression-free survival (PFS) as the primary endpoint.\n\nThe primary objective is to demonstrate superiority of the Liso-cel treatment strategy over standard of care (SOC) therapy with respect to progression-free survival (PFS) determined by independent review committee (IRC) based on the Lugano response criteria.\n\nParticipants randomized to Arm A (Standard of Care) will receive RCHOP, BR, or R2 based on investigator choice and this has to be determined prior to randomization.\n\nParticipants randomized to Arm B (Liso-cel treatment) will receive a single infusion CAR-positive viable T-cells."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Relapsed or Refractory Follicular Lymphoma"
+      ],
+      "keywords": [
+        "Lisocabtagene Maraleucel",
+        "Liso-cel",
+        "Follicular Lymphoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Active Comparators:\n\nR-CHOP (rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone)\n\nB-R (bendamustine and rituximab)\n\nR2 (rituximab and lenalidomide)",
+          "interventionNames": [
+            "Drug: Cyclophosphamide",
+            "Drug: Doxorubicin",
+            "Drug: Vincristine",
+            "Drug: Rituximab",
+            "Drug: Prednisone",
+            "Drug: Bendamustine",
+            "Drug: Lenalidomide"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "EXPERIMENTAL",
+          "description": "Lisocabtagene Maraleucel",
+          "interventionNames": [
+            "Drug: Fludarabine",
+            "Drug: Liso-cel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Doxorubicin",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Vincristine",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rituximab",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prednisone",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bendamustine",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Lenalidomide",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fludarabine",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Liso-cel",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm B"
+          ],
+          "otherNames": [
+            "Lisocabtagene Maraleucel",
+            "BREYANZI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-free survival (PFS)",
+          "description": "Defined as the time from randomization to death due to any cause or progressive disease (PD) per independent review committee (IRC) assessment using the Lugano 2014 Criteria, whichever occurs first",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Complete response (CR)",
+          "description": "Defined as participants achieving a complete response per IRC assessment using the Lugano 2014 Criteria",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "Defined as the time from randomization to death due to any cause",
+          "timeFrame": "Up to approximately 7 years"
+        },
+        {
+          "measure": "Overall response (OR)",
+          "description": "Defined as participants achieving a response (CR or partial response (PR)) per IRC assessment using the Lugano 2014 Criteria",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Duration of response (DOR)",
+          "description": "Defined as the time from first response (CR or PR) per IRC assessment using the Lugano 2014 Criteria to PD or death due to any cause, whichever occurs first",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Event-free survival (EFS)",
+          "description": "Defined as the time from randomization to the first documentation of progressive disease (PD) per IRC assessed using the Lugano 2014 Criteria start of new anti-cancer therapy, or death due to any cause, whichever occurs first",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Time to next anti-cancer therapy (TTNLT)",
+          "description": "Defined as time from randomization to start of new anti-cancer therapy or death due to any cause, whichever occurs first",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "PFS rate",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "EFS rate",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "OS rate",
+          "timeFrame": "Up to approximately 7 years"
+        },
+        {
+          "measure": "Progression-free survival on the next line of treatment (PFS-2)",
+          "description": "Defined as the time from randomization to death from any cause or tumor progression on next line treatment per Investigator assessment, whichever occurs first",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Number of participants with adverse events (AEs)",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Number of participants with adverse event of special interest (AESIs)",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Number of participants with serious adverse events (SAEs)",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Number of participants with laboratory abnormalities",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Frequency and length of hospitalizations",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Number of participants with intensive care unit (ICU) inpatient days",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Number of participants with non-ICU inpatient days",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Mean change from baseline in key health-related quality of life (HRQoL) domains.",
+          "description": "Key HRQoL Domains:\n\nGlobal health status/quality of life (GHS/QoL), fatigue, pain, physical functioning, role functioning, cognitive functioning from The European Organization for Research and Treatment of Cancer - Quality of Life C30 Questionnaire (EORTC QLQ C30), and Symptom Burden and Physical Condition/Fatigue from the European Quality of Life Module Non-Hodgkin's Lymphoma Low-Grade 20 items (EORTC QLQ-NHL-LG20)",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        },
+        {
+          "measure": "Time to meaningful improvement/deterioration in key HRQoL domains.",
+          "description": "Key HRQoL Domains:\n\nGlobal health status/quality of life (GHS/QoL), fatigue, pain, physical functioning, role functioning, cognitive functioning from The European Organization for Research and Treatment of Cancer - Quality of Life C30 Questionnaire (EORTC QLQ C30), and Symptom Burden and Physical Condition/Fatigue from the European Quality of Life Module Non-Hodgkin's Lymphoma Low-Grade 20 items (EORTC QLQ-NHL-LG20)",
+          "timeFrame": "Up to 5 years from the last participant randomized"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Participants must have measurable disease.\n* Participants must have previously been treated with certain defined anti-cancer therapies and their disease must have come back or must have not responded to the previous or last treatment.\n* Participants must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Participants that have histologically confirmed Follicular Lymphoma (FL) (Grade 1, 2, or 3a) corresponding to the most recent relapse prior to screening.\n* Participants that have Relapsed or refractory FL, as assessed by the Investigator.\n* Participants that have received at least one prior line and no more than three prior lines of systemic therapy including a combination of an anti-CD20 antibody and an alkylating agent.\n* Participants that received one prior line of systemic therapy are eligible if they present with high risk features.\n\nExclusion Criteria\n\n* Participants must not have any history of heart problems.\n* Participants must not have any bleeding disorders.\n* Participants must not have any Central Nervous System involvement by Follicular Lymphoma or other brain conditions.\n* Other protocol-defined Inclusion/Exclusion criteria apply.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bristol-Myers Squibb",
+          "affiliation": "Bristol-Myers Squibb",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "BMS Clinical Trial Information",
+          "url": "https://www.bms.com/researchers-and-partners/clinical-trials-and-research.html"
+        },
+        {
+          "label": "BMS Clinical Trial Patient Recruiting",
+          "url": "https://www.bmsstudyconnect.com/s/US/English/USenHome"
+        },
+        {
+          "label": "Investigator Inquiry Form",
+          "url": "https://www.bms.com/researchers-and-partners/investigator-inquiry-form.html"
+        },
+        {
+          "label": "FDA Safety Alerts and Recalls",
+          "url": "https://www.fda.gov/Safety/MedWatch/SafetyInformation/default.htm"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "BMS will provide access to individual anonymized participant data upon request from qualified researchers, and subject to certain criteria. Additional information regarding Bristol Myer Squibb's data sharing policy and process can be found at: https://www.bms.com/researchers-and-partners/clinical-trials-and-research/disclosure-commitment.html",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR"
+      ],
+      "timeFrame": "See plan description",
+      "accessCriteria": "See plan description",
+      "url": "https://www.bms.com/researchers-and-partners/clinical-trials-and-research/disclosure-commitment.html"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012008",
+          "term": "Recurrence"
+        },
+        {
+          "id": "D008224",
+          "term": "Lymphoma, Follicular"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D008228",
+          "term": "Lymphoma, Non-Hodgkin"
+        },
+        {
+          "id": "D008223",
+          "term": "Lymphoma"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008232",
+          "term": "Lymphoproliferative Disorders"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D007160",
+          "term": "Immunoproliferative Disorders"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D014750",
+          "term": "Vincristine"
+        },
+        {
+          "id": "D000069283",
+          "term": "Rituximab"
+        },
+        {
+          "id": "D011241",
+          "term": "Prednisone"
+        },
+        {
+          "id": "D000069461",
+          "term": "Bendamustine Hydrochloride"
+        },
+        {
+          "id": "D000077269",
+          "term": "Lenalidomide"
+        },
+        {
+          "id": "C024352",
+          "term": "fludarabine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D014748",
+          "term": "Vinca Alkaloids"
+        },
+        {
+          "id": "D046948",
+          "term": "Secologanin Tryptamine Alkaloids"
+        },
+        {
+          "id": "D026121",
+          "term": "Indole Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D054836",
+          "term": "Indolizidines"
+        },
+        {
+          "id": "D007212",
+          "term": "Indolizines"
+        },
+        {
+          "id": "D058846",
+          "term": "Antibodies, Monoclonal, Murine-Derived"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D011244",
+          "term": "Pregnadienediols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D002087",
+          "term": "Butyrates"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D001562",
+          "term": "Benzimidazoles"
+        },
+        {
+          "id": "D010797",
+          "term": "Phthalimides"
+        },
+        {
+          "id": "D010795",
+          "term": "Phthalic Acids"
+        },
+        {
+          "id": "D000146",
+          "term": "Acids, Carbocyclic"
+        },
+        {
+          "id": "D010881",
+          "term": "Piperidones"
+        },
+        {
+          "id": "D010880",
+          "term": "Piperidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D054833",
+          "term": "Isoindoles"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

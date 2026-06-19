@@ -1,0 +1,65 @@
+{
+  "studies": [
+    {
+      "study_id": "30940341",
+      "pmid": "30940341",
+      "title": "The Effectiveness of an Internet Intervention Aimed at Reducing Alcohol Consumption in Adults.",
+      "authors": "Zill Jördis M et al.",
+      "authors_list": [
+        "Zill Jördis M",
+        "Christalle Eva",
+        "Meyer Björn",
+        "Härter Martin",
+        "Dirmaier Jörg"
+      ],
+      "publication_year": "2019",
+      "publication_date": "2019-Feb-22",
+      "journal": "Deutsches Arzteblatt international",
+      "journal_abbrev": "Dtsch Arztebl Int",
+      "doi": "10.3238/arztebl.2019.0127",
+      "abstract": "BACKGROUND: In 2012, approximately 3.38 million people in Germany had an alcoholrelated disorder. Internet interventions can help lower alcohol consumption, albeit with mostly small effect sizes. It is still unclear whether the effectiveness of programs aimed at lowering alcohol consumption can be improved by individually adjusting program content for each participant. We studied the effectiveness of Vorvida, a new cognitive-behavioral internet intervention with individual adjustment of content. METHODS: A randomized controlled trial was conducted on 608 adults with problematic alcohol consumption. The primary outcome was self-reported alcohol con - sumption in the past 30 days (as determined by the Quantity-Frequency-Index, QFI) and in the past 7 days (using the Timeline Follow-Back method, TFB). The secondary outcomes were drinking behavior (binge drinking/drunkenness) and satisfaction with Vorvida. Data were collected at three time points: at baseline (t0) and three and six months later (t1, t2). Trial registration: DRKS00006104. RESULTS: The intention-to-treat (ITT) analysis revealed significant differences between groups at time t1 with respect to alcohol consumption (QFI: d = 0.28; TFB: d = 0.42), binge drinking (d = 0.87), and drunkenness (d = 0.39). Satisfaction with the intervention was high (27.4 [standard deviation, SD: 5.3] out of 32 points). All effects persisted, or were stronger, at time t2. Alcohol consumption, as measured by the QFI, declined over the interval from t0 to t2 in both groups: from 63.69 g/day (SD: 61.4) to 32.67 g/day (SD: 39.78) in the intervention group, and from 61.64 g/day (SD: 58.84) to 43.75 g/day (SD: 43.68) in the control group. CONCLUSION: Vorvida was found to be effective in persons with risky, problematic alcohol consumption. Further studies should determine which elements of the program contribute most to effectiveness in routine clinical practice, and what long-term effects can be achieved.",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Alcohol Drinking",
+        "Cognitive Behavioral Therapy",
+        "Female",
+        "Germany",
+        "Humans",
+        "Internet",
+        "Male",
+        "Middle Aged",
+        "Treatment Outcome"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30940341/",
+      "pdf_available": false,
+      "_matched_query": "\"vorvida\"",
+      "_raw_xml_path": "evidence/Germany/vorvida/candidates/pubmed/raw/30940341.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of Vorvida, a cognitive-behavioral internet intervention for reducing alcohol consumption. The product name 'Vorvida' is mentioned multiple times in the abstract and full text, confirming the study's focus on this digital therapeutic product.",
+        "matched_elements": [
+          "product_name"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T09:16:49.672468Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

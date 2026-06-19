@@ -1,0 +1,37 @@
+{
+  "studies": [
+    {
+      "study_id": "web_f50d42ef99cb6111",
+      "title": "Digital Treatment of Back Pain versus Standard of Care: The Cluster-Randomized Controlled Trial, Rise-uP",
+      "url": "https://doi.org/10.2147/JPR.S260761",
+      "source": "Website",
+      "abstract": "Authors Priebe JA, Haas KK, Moreno Sanchez LF, Schoeffmann K, Utpadel-Fischler DA, Stockert P, Thoma R, Schiessl C.",
+      "brief_summary": "Authors Priebe JA, Haas KK, Moreno Sanchez LF, Schoeffmann K, Utpadel-Fischler DA, Stockert P, Thoma R, Schiessl C.",
+      "_source_url_on_website": "https://www.dovepress.com/digital-treatment-of-back-pain-versus-standard-of-care-the-cluster-ran-peer-reviewed-fulltext-article-JPR",
+      "_company_website": "https://www.kaiahealth.de/",
+      "_matched_query": "website:https://www.kaiahealth.de/",
+      "_browser_use_model": "gpt-4o",
+      "_collected_at": "2026-06-14T17:07:22.717033Z",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions the use of the 'Kaia App' as part of the Rise-uP trial intervention for back pain, which matches the digital therapeutic product 'Kaia Rückenschmerzen - Rückentraining für Zuhause'.",
+        "matched_elements": [
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T17:07:25.977572Z",
+  "_source": "website",
+  "_layer": "verified",
+  "_evidence_type": "RCT",
+  "_browser_use_openai_model": "gpt-4o"
+}

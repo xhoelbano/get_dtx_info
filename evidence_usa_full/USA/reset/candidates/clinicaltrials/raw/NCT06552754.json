@@ -1,0 +1,237 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06552754",
+      "orgStudyIdInfo": {
+        "id": "10001975"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "001975-HG"
+        }
+      ],
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "Cybersickness Prevention and Mitigation in Virtual Reality for Healthy Volunteers",
+      "officialTitle": "Cybersickness Prevention and Mitigation in Virtual Reality for Healthy Volunteers"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05-13",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-02-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-08-09",
+      "studyFirstSubmitQcDate": "2024-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Human Genome Research Institute (NHGRI)",
+        "class": "NIH"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Background:\n\nPeople use virtual reality (VR) technology to play games, socialize, work, or receive medical care. Some people have \"cybersickness\" after using VR. Cybersickness is similar to motion sickness. Symptoms include eye strain, nausea, dizziness, or headache. The symptoms are usually mild and go away after the person stops using VR. New software called Motion Reset is being designed to reduce symptoms of cybersickness during VR use.\n\nObjective:\n\nTo see if Motion Reset software can reduce cybersickness in people using VR.\n\nEligibility:\n\nHealthy adults aged 18 to 60 years.\n\nDesign:\n\nParticipants will have 1 clinic visit that will last about 1 hour. They will answer questions about how they are feeling. They will learn how to use the VR headset and the handheld game controllers.\n\nThe study will be broken into 2 parts. For the first part, participants will be assigned to 1 of 3 groups:\n\nGroup 1 will participate in a VR experience designed to prevent cybersickness. They will view screens and move around while they press buttons on a controller.\n\nGroup 2 will participate in a VR experience that is not designed to prevent cybersickness. They will view screens and move around while they press buttons on a controller.\n\nGroup 3 will have no VR experience.\n\nParticipants will complete 2 questionnaires about their experiences in the first part of the study.\n\nFor the second part, all participants will spend up to 20 minutes playing a commercial VR game called Jurassic World Aftermath. Every few minutes, they will be asked if they are experiencing discomfort.\n\nAfter playing the game, participants will complete 12 questionnaires about their experience....",
+      "detailedDescription": "Study Description:\n\nThis study involves investigation of a virtual reality (VR) experience intended to prevent cybersickness (similar to motion sickness and eye strain) from use of virtual reality equipment. Participants will be randomly assigned to one of three arms: active intervention, placebo (a similar VR experience that does not engage sensory systems purported to underlie efficacy), or a notreatment control. Following the intervention, participants will play a VRbased game used in previous research to slowly induce moderate levels of cybersickness in some individuals. During play, we will assess self-reported feelings of discomfort. Participants will be allowed to stop playing at any time or will be asked to stop playing if discomfort reaches a certain threshold. Self-report data will be collected prior to and following the intervention.\n\nObjectives:\n\nPrimary Objective: Evaluate efficacy of an approach for prevention of cybersickness symptoms when using virtual reality.\n\nSecondary Objectives: Investigate individual difference factors associated with efficacy; assess mechanisms involved in treatment efficacy\n\nEndpoints:\n\nPrimary Endpoint: Self-reported cybersickness symptoms on the Simulator Sickness Questionnaire\n\nSecondary Endpoints: Self-reported cybersickness and duration of stimulus game play. Investigate individual difference factors associated with efficacy; assess mechanisms involved in treatment efficacy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Healthy Volunteers",
+        "Virtual Reality"
+      ],
+      "keywords": [
+        "Healthy Volunteers",
+        "Virtual Reality",
+        "cybersickness"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention: Motion Reset",
+          "type": "EXPERIMENTAL",
+          "description": "Participate in virtual reality activities",
+          "interventionNames": [
+            "Behavioral: Motion Reset"
+          ]
+        },
+        {
+          "label": "No intervention",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "label": "Placebo experience",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participate in virtual reality activities",
+          "interventionNames": [
+            "Behavioral: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Motion Reset",
+          "description": "virtual reality-based experiential, sensory intervention",
+          "armGroupLabels": [
+            "Intervention: Motion Reset"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Placebo",
+          "description": "virtual reality-based experiential, sensory experience without intervention",
+          "armGroupLabels": [
+            "Placebo experience"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "self-reported cybersickness",
+          "description": "Assessed on numerical scale",
+          "timeFrame": "during and after VR use"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "discontinuation of VR use",
+          "description": "decision to discontinue VR during active session",
+          "timeFrame": "during VR use"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "* INCLUSION CRITERIA:\n\nIn order to be eligible to participate in this study, an individual must meet all of the following criteria:\n\n* Provision of signed and dated informed consent form\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n* Aged 18-60\n* Ability to read, speak, and write in English\n* Normal or corrected-to-normal hearing\n* Normal vision or corrected-to-normal without use of glasses. Contact lenses for corrective purposes are acceptable.\n\nAbility to read, speak and write in English is a requirement because the VR-based study materials and assessment are only available in English and several of the key questionnaires for the study are not validated in other languages.\n\nEXCLUSION CRITERIA:\n\nAn individual who meets any of the following criteria will be excluded from participation in this study:\n\n* Reporting motion sickness propensity of 0, 9 or 10 on a 0-10 scale where 0 =never experience motion sickness and 10 = experience motion sickness very frequently (self-assessed by participants).\n* Reporting a history of photo-sensitive seizure disorders, vestibular disorders and/or other conditions that may make participants prone to nausea, dizziness, vertigo, ataxia, or incoordination.\n* Known pregnancy\n* Reporting current use of medication or supplements that inhibit nausea, e.g., Zofran/ondansetron, Phenergan/promethazine",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Susan J Persky, Ph.D.",
+          "role": "CONTACT",
+          "phone": "(301) 451-1268",
+          "email": "NihVRStudy@nih.gov"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Susan J Persky, Ph.D.",
+          "affiliation": "National Human Genome Research Institute (NHGRI)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Iowa State University",
+          "status": "RECRUITING",
+          "city": "Ames",
+          "state": "Iowa",
+          "zip": "50011",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.03471,
+            "lon": -93.61994
+          }
+        },
+        {
+          "facility": "National Institutes of Health Clinical Center",
+          "status": "RECRUITING",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "NIH Clinical Center Office of Patient Recruitment (OPR)",
+              "role": "CONTACT",
+              "phone": "800-411-1222",
+              "phoneExt": "TTY dial 711",
+              "email": "ccopr@nih.gov"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "NIH Clinical Center Detailed Web Page",
+          "url": "https://clinicalstudies.info.nih.gov/cgi/detail.cgi?A_001975-HG.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    }
+  },
+  "hasResults": false
+}

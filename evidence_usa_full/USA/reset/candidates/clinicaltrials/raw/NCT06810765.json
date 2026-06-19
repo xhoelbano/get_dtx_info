@@ -1,0 +1,410 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06810765",
+      "orgStudyIdInfo": {
+        "id": "IRB00473770"
+      },
+      "organization": {
+        "fullName": "Johns Hopkins University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trifecta Research Study",
+      "officialTitle": "Trifecta Research Study: Examining Hormone Replacement Therapy, Magnetic e-Resonance Therapy, Ibogaine, and 5-MeO-DMT in the Treatment of Posttraumatic Stress Disorder and Traumatic Brain Injury-related Cognitive Symptoms"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Study is being conducted externally.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-24",
+      "studyFirstSubmitQcDate": "2025-02-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Johns Hopkins University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Special Operators Care Fund",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Special Operations Care-Fund (SOC-F) will sponsor the application of four treatments - hormone replacement, magnetic resonance brain stimulation, ibogaine, and 5-Meo-DMT - to Special Operations Forces veterans with a history of combat deployments, traumatic brain injury, and problems with mental health and cognitive functioning. An observational study will be conducted in parallel by the Johns Hopkins Center for Psychedelic and Consciousness Research to determine the effectiveness and safety of each treatment, primarily through measuring post-treatment changes in PTSD symptoms and cognitive functioning.",
+      "detailedDescription": "This study uses an interventional design to evaluate the safety and effectiveness of Hormone Replacement Therapy (HRT), Magnetic e-resonance therapy (MeRT), Ibogaine, and 5-methoxy-N,N-dimethyltryptamine (5-Meo-DMT) in the treatment of PTSD and cognitive symptoms associated with combat deployment and traumatic brain injury (TBI) among Special Operations Forces (SOF) veterans. Forty participants will be recruited for this program, which combines state-of-the-art therapies tailored to each individual's needs, aiming to improve psychological and cognitive health outcomes in a population with severe, treatment-resistant conditions.\n\nParticipants will be assigned by The Special Operations Care Fund (SOC-F) to one of two sequences of interventions through SOC-F's contracted providers. One group will receive HRT, then MeRT, then Ibogaine and 5-MeO-DMT. The other group will receive HRT, then Ibogaine and 5-Meo-DMT, then MeRT. The study design includes self-reported surveys, informant reports, and cognitive task assessments, all of which will monitor the interventions' impact on participants.\n\nThe general purpose is to explore these treatments' potential to promote meaningful symptom improvement and enhanced cognitive function. A combination of subjective and objective data will allow a comprehensive assessment of treatment effectiveness and safety, with the ultimate goal of informing future clinical trials and veteran treatment services.\n\nSpecific aims and hypotheses include the following:\n\nAim 1: Investigate the therapeutic effect of all treatments on PTSD symptoms and cognitive function in SOF veterans with PTSD and cognitive difficulties.\n\nH1. Treatment will be associated with reduced self-reported PTSD symptoms at 3-month follow-up (FU).\n\nH2. Treatment will be associated with improved self-reported cognitive functioning at 3-month follow-up.\n\nH3. Treatment will be associated with improved emotional memory, indexed by the externalizing free recall task, at post-treatment.\n\nAim 2: Investigate the incremental therapeutic effect of Ibogaine and 5-Meo-DMT on PTSD symptoms and cognitive function relative to HRT and Repetitive Transcranial Magnetic Stimulation (rTMS) therapy in SOF veterans with PTSD and cognitive difficulties.\n\nH4. Ibogaine/5-Meo-DMT will be associated with an incremental reduction in self-reported PTSD symptoms following HRT and rTMS therapy.\n\nH5. Ibogaine/5-Meo-DMT will be associated with an incremental improvement in self-reported cognitive functioning following HRT and rTMS therapy.\n\nH6. Ibogaine/5-Meo-DMT will be associated with an incremental improvement in emotional memory, indexed by the externalizing free recall task, following HRT and rTMS therapy.\n\nAim 3: Investigate whether the order of interventions differentially impacts PTSD and cognitive symptoms in SOF veterans with PTSD and cognitive difficulties.\n\nNo formal hypotheses\n\nAim 4: Investigate adverse events related to each of the interventions. No formal hypotheses"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PTSD - Post Traumatic Stress Disorder",
+        "Cognitive Dysfunction",
+        "Brain Trauma",
+        "Brain Injuries"
+      ],
+      "keywords": [
+        "PTSD",
+        "military veteran",
+        "cognitive functioning",
+        "Traumatic Brain Injury (TBI)",
+        "psychedelics",
+        "Transcranial Magnetic Stimulation (TMS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Individuals in this arm will undergo HRT, then Ibogaine and 5-MeO treatment, and then MeRT therapy.",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Other: Hormone Replacement Therapy (HRT)",
+            "Other: Magnetic Resonance Therapy (MeRT)",
+            "Drug: ibogaine with magnesium treatment",
+            "Drug: 5-MeO-DMT"
+          ]
+        },
+        {
+          "label": "Individuals in this arm will undergo HRT, then MeRT therapy, and then Ibogaine and 5-MeO-DMT.",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Other: Hormone Replacement Therapy (HRT)",
+            "Other: Magnetic Resonance Therapy (MeRT)",
+            "Drug: ibogaine with magnesium treatment",
+            "Drug: 5-MeO-DMT"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Hormone Replacement Therapy (HRT)",
+          "description": "Hormone Replacement Therapy (HRT) is a medical treatment that involves restoring healthy endocrine functioning through supplementing or balancing hormones, such as testosterone or estrogen, to address deficiencies caused by injury, aging, or stress.",
+          "armGroupLabels": [
+            "Individuals in this arm will undergo HRT, then Ibogaine and 5-MeO treatment, and then MeRT therapy.",
+            "Individuals in this arm will undergo HRT, then MeRT therapy, and then Ibogaine and 5-MeO-DMT."
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Magnetic Resonance Therapy (MeRT)",
+          "description": "MeRT, an EEG (electroencephalography)-guided Repetitive Transcranial Magnetic Stimulation therapy, is a non-invasive treatment that uses magnetic pulses to stimulate specific areas of the brain, guided by an individual's brain patterns. MeRT is a neuromodulatory tool that has shown therapeutic efficacy in relation to a number of psychopathological targets including PTSD, depression, and TBI-related cognitive impairment through promoting cortical excitability, modulating neurotransmission, and restoring neuroplasticity.",
+          "armGroupLabels": [
+            "Individuals in this arm will undergo HRT, then Ibogaine and 5-MeO treatment, and then MeRT therapy.",
+            "Individuals in this arm will undergo HRT, then MeRT therapy, and then Ibogaine and 5-MeO-DMT."
+          ],
+          "otherNames": [
+            "Transcranial Magnetic Stimulation"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ibogaine with magnesium treatment",
+          "description": "Ibogaine, an indole alkaloid that interacts with mu opioid, kappa opioid, N-methyl-D-aspartate receptor (NMDA), and nicotinic acetylcholine receptors, shows early signs of effectiveness as a rapid-acting treatment for a number of mental health disorders including addiction. It is believed to work by promoting neuroplasticity and modulating brain chemistry, which may help reset dysfunctional neural circuits. The treatment is unique in its psychoactive properties, offering a deeply introspective experience that may help individuals process emotional material from the individual's lives.",
+          "armGroupLabels": [
+            "Individuals in this arm will undergo HRT, then Ibogaine and 5-MeO treatment, and then MeRT therapy.",
+            "Individuals in this arm will undergo HRT, then MeRT therapy, and then Ibogaine and 5-MeO-DMT."
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "5-MeO-DMT",
+          "description": "5-MeO-DMT, as described in the study, is a 5-HT 2A agonist compound used in previous clinical research to address depression. Unlike other treatments, 5-MeO-DMT acts rapidly and has a short duration of action, offering an intense but time-limited psychoactive state. Its potential to enhance neuroplasticity and recalibrate dysfunctional brain networks makes it a unique approach for addressing the complex interplay of psychological and neurological symptoms.",
+          "armGroupLabels": [
+            "Individuals in this arm will undergo HRT, then Ibogaine and 5-MeO treatment, and then MeRT therapy.",
+            "Individuals in this arm will undergo HRT, then MeRT therapy, and then Ibogaine and 5-MeO-DMT."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PTSD Checklist for Diagnostic and Statistical Manual (DSM)-5 (PCL - 5)",
+          "description": "The PTSD Checklist for DSM-5 (PCL-5) is a self-report questionnaire designed to assess the severity of PTSD symptoms in alignment with the DSM-5 diagnostic criteria. A total symptom severity score (range - 0-80) can be obtained by summing the scores for each of the 20 items with higher scores indicating greater symptom severity. Collected - Group 1: Baseline, pre-HRT, pre-MeRT, mid-MeRT (week 3 MeRT), pre-Ibo/5Meo, post-Ibo/5Meo, 3 month follow up (MFU), 6 MFU, 12 MFU; Group 2: Baseline, pre-HRT, pre-Ibo/5Meo, pre-MeRT, mid-MeRT, Post-MeRT, 3 MFU, 6 MFU, 12 MFU",
+          "timeFrame": "Up to 12 months follow up"
+        },
+        {
+          "measure": "Medical Outcomes Study Cognitive Functioning Scale (MOS-CF)",
+          "description": "The Medical Outcomes Study - Cognitive Functioning (MOS-CF) self-report scale consists of 6 items that are designed to measure perceived cognitive functioning. Each item is scored on a 6-point scale (1-6), with 1 being 'all of the time' and 6 being 'none of the time.' Higher scores indicate higher cognitive functioning and lower cognitive symptoms. Collected - Group 1: Baseline, pre-HRT, pre-MeRT, mid-MeRT (week 3 MeRT), pre-Ibo/5Meo, post-Ibo/5Meo, 3 month follow up (MFU), 6 MFU, 12 MFU; Group 2: Baseline, pre-HRT, pre-Ibo/5Meo, pre-MeRT, mid-MeRT, Post-MeRT, 3 MFU, 6 MFU, 12 MFU",
+          "timeFrame": "UP to 12 months follow up"
+        },
+        {
+          "measure": "Externalized Free Recall with Emotional Words",
+          "description": "In the Externalized Free Recall with Emotional Words task, participants will be presented with a series of emotionally positive, negative, and neutral stimuli (e.g., words or images) and asked to recall the stimuli. The task captures how well individuals retain and recall emotional versus neutral content. Dependent variables include the total number of words recalled, total number of words recalled as a function of emotion, total number of recall intrusions, total number of prior-list intrusions as a function of emotion, overall monitoring accuracy percentage, and monitoring accuracy percentage, as a function of emotion. Collected - Group 1: Baseline, pre-HRT, pre-MeRT, mid-MeRT (week 3 MeRT), pre-Ibo/5Meo, post-Ibo/5Meo, 3 month follow up (MFU), 6 MFU, 12 MFU; Group 2: Baseline, pre-HRT, pre-Ibo/5Meo, pre-MeRT, mid-MeRT, Post-MeRT, 3 MFU, 6 MFU, 12 MFU",
+          "timeFrame": "Up to 12 months follow up"
+        },
+        {
+          "measure": "Incidence of Adverse Events",
+          "description": "Adverse event monitoring at post-treatment and follow-up",
+          "timeFrame": "Up to 3-months follow-up"
+        },
+        {
+          "measure": "Depressive Symptom Index-Suicidality Subscale (DSI-SS)",
+          "description": "Used to assess severity of suicide ideation. The measure consists of 4 items, each with a Likert-type scale (0-4) indicating the frequency and severity of different aspects of suicidal ideation (e.g., planfulness, control, impulse). Higher scores indicate greater levels of suicidal ideation. Collected - Group 1: Baseline, pre-HRT, pre-MeRT, mid-MeRT (week 3 MeRT), pre-Ibo/5Meo, post-Ibo/5Meo, 3 month follow up (MFU), 6 MFU, 12 MFU; Group 2: Baseline, pre-HRT, pre-Ibo/5Meo, pre-MeRT, mid-MeRT, Post-MeRT, 3 MFU, 6 MFU, 12 MFU",
+          "timeFrame": "Up to 12 months follow up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 18 years of age\n* Sponsored by SOC-F Program\n\nExclusion Criteria:\n\n* Diagnosis of Schizophrenia, Bipolar I or II disorder for which patient has been hospitalized or medicated, Depersonalization and/or Derealization Disorder\n* Cerebellar dysfunction, Epilepsy, Psychosis or acute confusional state, Dementia\n* Prolonged corrected QT interval (QTc) Interval (450ms in males; 470ms in females)\n* History of heart failure or hypertrophic heart\n* Active blood clots (e.g., Pulmonary embolism, Deep vein thrombosis)\n* Major respiratory conditions (e.g., Emphysema, Cystic fibrosis)\n* Severe chronic gastrointestinal issues (e.g., bleeding ulcer, leaky gut syndrome)\n* Within 6 months of surgeries\n* Abnormal blood test results (e.g., potassium or magnesium outside normal range)\n* Impaired kidney or liver function\n* Refusal to taper off of selective serotonin reuptake inhibitor (SSRI) medication",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sandeep Nayak, MD",
+          "affiliation": "Johns Hopkins University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Johns Hopkins Center for Psychedelic and Consciousness Research",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003130",
+          "term": "Combat Disorders"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D000070642",
+          "term": "Brain Injuries, Traumatic"
+        },
+        {
+          "id": "D001930",
+          "term": "Brain Injuries"
+        },
+        {
+          "id": "D013313",
+          "term": "Stress Disorders, Post-Traumatic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D040921",
+          "term": "Stress Disorders, Traumatic"
+        },
+        {
+          "id": "D000068099",
+          "term": "Trauma and Stressor Related Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D006259",
+          "term": "Craniocerebral Trauma"
+        },
+        {
+          "id": "D020196",
+          "term": "Trauma, Nervous System"
+        },
+        {
+          "id": "D014947",
+          "term": "Wounds and Injuries"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020249",
+          "term": "Hormone Replacement Therapy"
+        },
+        {
+          "id": "D050781",
+          "term": "Transcranial Magnetic Stimulation"
+        },
+        {
+          "id": "D007050",
+          "term": "Ibogaine"
+        },
+        {
+          "id": "D008732",
+          "term": "Methoxydimethyltryptamines"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D055909",
+          "term": "Magnetic Field Therapy"
+        },
+        {
+          "id": "D046948",
+          "term": "Secologanin Tryptamine Alkaloids"
+        },
+        {
+          "id": "D026121",
+          "term": "Indole Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D054836",
+          "term": "Indolizidines"
+        },
+        {
+          "id": "D007212",
+          "term": "Indolizines"
+        },
+        {
+          "id": "D004130",
+          "term": "N,N-Dimethyltryptamine"
+        },
+        {
+          "id": "D014363",
+          "term": "Tryptamines"
+        },
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D002027",
+          "term": "Bufotenin"
+        },
+        {
+          "id": "D012701",
+          "term": "Serotonin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

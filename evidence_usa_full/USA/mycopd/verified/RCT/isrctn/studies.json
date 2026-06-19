@@ -1,0 +1,73 @@
+{
+  "studies": [
+    {
+      "study_id": "ISRCTN29184878",
+      "isrctn_id": "ISRCTN29184878",
+      "doi": "https://doi.org/10.1186/ISRCTN29184878",
+      "title": "A study to see if a digital app designed to support patients in self-managing their COPD and highlight when they need to have a medication review with their healthcare provider is safe and effective",
+      "scientific_title": "A randomised controlled trial to explore the safety and clinical efficacy of a treatment re-alignment algorithm using data from a digital self-management application for patients with COPD",
+      "sponsor": "University of Southampton",
+      "funder": "National Institute for Health and Care Research",
+      "recruitment_status": "Recruiting",
+      "overall_status": "Ongoing",
+      "condition_category": "Respiratory",
+      "primary_study_design": "Interventional",
+      "study_design": "Interventional",
+      "secondary_study_design": "Randomised controlled trial",
+      "study_hypothesis": "Whether the mySmartCOPD treatment re-alignment algorithm as part of a digital self management application (app) in patients with COPD is safe and effective.",
+      "ethics_approval": "Approved 26/06/2025, South Birmingham Research Ethics Committee (2 Redman Place, Stratford, London, E20 1JQ, United Kingdom; +44 (0)207 1048211; Southbirmingham.rec@hra.nhs.uk), ref: 25/WM/0050",
+      "health_conditions": "The safety and efficacy of a digital treatment guidance algorithm in patients with chronic obstructive pulmonary disease (COPD)",
+      "intervention": "DesignAn open-labelled randomised controlled trial with a qualitative sub-study, designed to test a new approach to managing COPD inhaled treatment medication.Phase 1 (Pilot): An interim futility analysis to determine if the trial should continue based on whether participants follow the advice provided by the app. The focus is on adherence to the intervention guidelines.Phase 2 (Efficacy): We will evaluate the safety, acceptability, and effectiveness of the intervention.Qualitative Sub-study: Semi-structured interviews to understand how acceptable and practical the treatment approach is for participants and their healthcare providers.ConsentConsent to participate in the trial will be captured through a dedicated trial website using an electronic consent (eConsent) system. Potential participants will be invited to visit the website, where they will read a brief description of the trial. If interested, they can then read the ethically approved Patient Information Sheet with a full explan",
+      "intervention_type": "Device",
+      "primary_outcome": "Patients (frequency and %) receiving guideline adherent treatment measured using data that will be collected via the intervention (MMH-LAB_Test_1) and control (MMH-LAB_Control_1) apps at baseline and trial completion (month 6)",
+      "secondary_outcomes": "The following secondary outcome measures are assessed using data collected via the intervention (MMH-LAB_Test_1) and control (MMH-LAB_Control_1) and the methods stated: 1. The effect of the intervention on patients’ adherence to guideline-mandated treatment measured using the following methods by frequency and % of daily:1.1. Rate of algorithm indication to change treatment 1.2. Response to treatment change indication 1.3. Nature of treatment change 2. The effect of the intervention on exacerbation frequency and patient wellness scores measured using the following methods by mean, SD, median and range, frequency and % for exacerbations at baseline and 6 months:2.1. Change in COPD Assessment Test (CAT) score 2.2. Exacerbation frequency 2.3. Change in quality of life ratings measured using the EQ-5D questionnaire 3. The feasibility of the intervention pathway in the pilot phase and to identify additional patient support mechanisms for the efficacy phase to maximise healthcare equality, m",
+      "participant_info": {
+        "type": "Patient",
+        "age_group": "Mixed",
+        "lower_age": "18 Years",
+        "upper_age": "110 Years",
+        "sex": "All"
+      },
+      "target_enrollment": "746",
+      "total_enrollment": "30/09/2026",
+      "inclusion_criteria": "Current key inclusion criteria as of 20/02/2026: 1.\tAdult patients over 18 years of age and able to give informed consent2.\tA clinical diagnosis of COPD (all patients registered on the app have a confirmed diagnosis of COPD confirmed by their clinician before being prescribed the app).3.\tA registered and activated user of the myCOPD app4.\tOne or more CAT questionnaires completed on the myCOPD app in the last 12 months5.\tOne or more exacerbation forms completed on the myCOPD app in the last 12 mo",
+      "exclusion_criteria": "1.\tCannot read or write in English as required to understand the trial materials and provide the trial data.2.\tHas not opted in to the research agreement via myCOPD",
+      "countries": [
+        "United Kingdom"
+      ],
+      "submission_date": "09/05/2025",
+      "registration_date": "10/06/2025",
+      "completion_date": "20/10/2026",
+      "first_enrollment": "22/07/2025",
+      "last_enrollment": "30/09/2026",
+      "brief_summary": "Background and study aims Chronic Obstructive Pulmonary Disease (COPD) is a common, globally important long-term lung condition that affects the lives of millions of people worldwide. Symptoms include breathlessness, cough and wheeze, often making it difficult to carry out everyday activities. In the UK, COPD is responsible for 130,000 annual hospital admissions, and approximately 30,000 people die each year, many prematurely due to fatal exacerbations (flare-ups). COPD cannot be cured, but it is treatable with inhaled medication. Optimal medication management provides symptom control, slows disease progression, and aims to improve quality of life. However, despite the availability of national and international evidence-based guidelines, research has shown that COPD treatment is not always prescribed according to recommendations. Poor adherence to guidelines and underdiagnosis mean patients continue to experience symptoms regardless of the treatment they are taking. Furthermore, adherence to treatment or poor inhaler technique significantly impacts COPD health outcomes. To address this, my mhealth Ltd and the University of Southampton created a digital tool to observe whether people using a digital self-management application (app) ‘myCOPD’ were receiving guideline-based inhaler treatment. This tool uses a treatment realignment algorithm to compare app user-reported inhaler use against COPD Assessment Test (CAT) scores, symptoms, and exacerbation history. The algorithm has been designed to follow the GOLD 2023 guidelines for COPD management. The algorithm has been tested using retrospective data (Proportionate Review Approval – IRAS: 320723; REC reference: 22/PR/1722). The algorithm will now be tested in a prospective randomised controlled trial called ‘mySmartCOPD’. This study is using two versions of an app called ‘MMH-LAB1’. One version, called MMH-LAB_Control_1, is the control version and doesn’t have the algorithm. The other, called MMH-LAB_Test_1, is the test ",
+      "has_results": false,
+      "publication_links": [],
+      "contact_email": "mysmartcopd@soton.ac.uk",
+      "source": "ISRCTN",
+      "url": "https://www.isrctn.com/ISRCTN29184878",
+      "_matched_query": "\"myCOPD\"",
+      "_raw_json_path": "evidence/USA/mycopd/candidates/isrctn/raw/ISRCTN29184878.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically mentions the 'myCOPD' app developed by My Mhealth Ltd as the digital self-management application being tested. The study aims to evaluate a treatment realignment algorithm within the 'myCOPD' app, confirming it is about this specific digital therapeutic product.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "Keyword match: 5 RCT indicators vs 0 RWE indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T07:23:46.355713Z",
+  "_source": "isrctn",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}

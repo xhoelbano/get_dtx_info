@@ -1,0 +1,306 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07199166",
+      "orgStudyIdInfo": {
+        "id": "RECHMPL24_0016"
+      },
+      "organization": {
+        "fullName": "University Hospital, Montpellier",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effectiveness of Autobiographical Rewriting Workshops on the Socio-Professional Functioning of Patients With Borderline Personality Disorder Undergoing Third-Wave Cognitive and Behavioral Therapy: A Randomized Controlled Trial",
+      "officialTitle": "Effectiveness of Autobiographical Rewriting Workshops on the Socio-Professional Functioning of Patients With Borderline Personality Disorder Undergoing Third-Wave Cognitive and Behavioral Therapy: A Randomized Controlled Trial",
+      "acronym": "ICS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-10-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-22",
+      "studyFirstSubmitQcDate": "2025-09-22",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Montpellier",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the effectiveness of autobiographical rewriting workshops combined with third-wave Cognitive Behavioral Therapy (CBT) in improving social and professional functioning in individuals with Borderline Personality Disorder (BPD). BPD affects approximately 2 to 6% of the general population and is frequently associated with suicidal behaviors, unstable relationships, and low self-esteem. This disorder is often linked to early traumatic experiences that impact autobiographical memory and self-perception. While Dialectical Behavioral Therapy (DBT) is a standard treatment for BPD, it does not fully address all the needs of patients.\n\nThe aim of this study is to determine whether autobiographical rewriting, which allows individuals to restructure and reinterpret their memories in a more resilient way, can improve autobiographical memory, self-esteem, and reduce emotional symptoms. Participants will be randomized into two groups: one group will undergo autobiographical rewriting workshops in addition to third-wave CBT sessions, while the other group will participate in non-specific writing sessions also in addition to third-wave CBT sessions. The study will compare the two groups to evaluate the effectiveness of autobiographical rewriting workshops in enhancing social and professional well-being.\n\nExpected outcomes include improvements in interpersonal relationships, greater professional stability, and a reduction in emotional symptoms assessed immediately post-intervention, then 3 months and 6 months after. This study may offer a complementary therapeutic approach to existing treatments, helping patients manage their symptoms more effectively and improve their quality of life."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Borderline Personality Disorder",
+        "Borderline Personality Disorder (BPD)"
+      ],
+      "keywords": [
+        "borderline personality disorder",
+        "autobiographical rewriting",
+        "third wave CBT"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 140,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "INTERVENTION GROUP",
+          "type": "EXPERIMENTAL",
+          "description": "Sessions of maintenance in third-wave CBT as part of the usual treatment plan (10 weekly sessions of 45 minutes over 10 weeks) + Autobiographical Rewriting Workshops (10 autobiographical rewriting sessions over 10 weeks, one session per week)",
+          "interventionNames": [
+            "Behavioral: Autobiographical Rewriting Workshops"
+          ]
+        },
+        {
+          "label": "CONTROL GROUP",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Third-wave CBT maintenance sessions as part of the usual treatment plan (10 weekly sessions of 45 minutes over 10 weeks) + Non-specific Writing Workshops (10 autobiographical non-specific writing sessions over 10 weeks, one session per week)",
+          "interventionNames": [
+            "Behavioral: Non-specific writing workshops"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Autobiographical Rewriting Workshops",
+          "description": "10 two-hour autobiographical rewriting workshop sessions, held weekly. This program encourages participants to explore their own history in a way that fosters narrative resilience, highlighting their ability to overcome challenges, transform failures into learning opportunities, express themselves creatively, reexamine their memories, and rebuild a more positive sense of identity that better aligns with the needs of accurate self-recognition of their potential. This program is particularly inspired by the concepts of resilience (Boris Cyrulnik), identification (Karine Gros), the Hero's Journey (Joseph Campbell), narrative therapy (David Denborough), and works on various types of story structures (Blake Snyder).",
+          "armGroupLabels": [
+            "INTERVENTION GROUP"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Non-specific writing workshops",
+          "description": "10 sessions of 2 hours of non-specific writing, held weekly. To increase the active role of the participants, they will be encouraged to write on the theme of the session during the time between sessions. The writing themes are non-specific, unlike the intervention group, and include topics such as poetry, historical events, nature reports, imaginary interviews, children's stories, etc.",
+          "armGroupLabels": [
+            "CONTROL GROUP"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Improvement in Social Functioning",
+          "description": "The change in the score on the Social Functioning Questionnaire (SFQ) will be assessed between pre-intervention and post-intervention immediately, and compared between the two groups. The SFQ measures social functioning over the past two weeks, with 16 items divided into 8 domains: professional activities, daily life tasks, leisure, family and couple relationships, extrafamily relationships, financial and administrative management, general health, and community life and information. For each domain, participants assess the frequency and satisfaction of their activities",
+          "timeFrame": "immediate post-intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Autobiographical Memory",
+          "description": "The Thinking About Life Experiences (TALE) scale will be used to assess the frequency of autobiographical memory recall and its functions. Autobiographical memory is defined as a collection of information and memories unique to an individual, accumulated from early life, and enabling the construction of a sense of identity and continuity. The TALE consists of 15 items, divided into 3 dimensions (5 items per dimension), which measure different functions of autobiographical memories: Self-related function, social function, and directive function",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Autobiographical Memory",
+          "description": "The Thinking About Life Experiences (TALE) scale will be used to assess the frequency of autobiographical memory recall and its functions. Autobiographical memory is defined as a collection of information and memories unique to an individual, accumulated from early life, and enabling the construction of a sense of identity and continuity. The TALE consists of 15 items, divided into 3 dimensions (5 items per dimension), which measure different functions of autobiographical memories: Self-related function, social function, and directive function",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Improvement in Social Functioning",
+          "description": "The change in the score on the Social Functioning Questionnaire (SFQ) will be assessed between pre-intervention and post-intervention immediately, and compared between the two groups. The SFQ measures social functioning over the past two weeks, with 16 items divided into 8 domains: professional activities, daily life tasks, leisure, family and couple relationships, extrafamily relationships, financial and administrative management, general health, and community life and information. For each domain, participants assess the frequency and satisfaction of their activities",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Improvement in Social Functioning",
+          "description": "The change in the score on the Social Functioning Questionnaire (SFQ) will be assessed between pre-intervention and post-intervention immediately, and compared between the two groups. The SFQ measures social functioning over the past two weeks, with 16 items divided into 8 domains: professional activities, daily life tasks, leisure, family and couple relationships, extrafamily relationships, financial and administrative management, general health, and community life and information. For each domain, participants assess the frequency and satisfaction of their activities",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Autobiographical Memory",
+          "description": "The Thinking About Life Experiences (TALE) scale will be used to assess the frequency of autobiographical memory recall and its functions. Autobiographical memory is defined as a collection of information and memories unique to an individual, accumulated from early life, and enabling the construction of a sense of identity and continuity. The TALE consists of 15 items, divided into 3 dimensions (5 items per dimension), which measure different functions of autobiographical memories: Self-related function, social function, and directive function",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Borderline Symptom Severity",
+          "description": "The Borderline Symptom List (BSL23) will be used to evaluate the intensity of borderline symptoms. The scale includes 23 items designed to assess the severity of symptoms associated with borderline personality disorder. A higher score indicates more severe symptoms.",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Borderline Symptom Severity",
+          "description": "The Borderline Symptom List (BSL23) will be used to evaluate the intensity of borderline symptoms. The scale includes 23 items designed to assess the severity of symptoms associated with borderline personality disorder. A higher score indicates more severe symptoms.",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Borderline Symptom Severity",
+          "description": "The Borderline Symptom List (BSL23) will be used to evaluate the intensity of borderline symptoms. The scale includes 23 items designed to assess the severity of symptoms associated with borderline personality disorder. A higher score indicates more severe symptoms.",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Self-Concept Clarity",
+          "description": "The Self-Concept Clarity Scale (SCC) will be used to measure the degree to which beliefs about the self are perceived as clearly defined, consistent, and stable over time. The scale includes 12 items and is unidimensional. A higher score indicates greater clarity and stability of self-beliefs, while a lower score reflects more confusion and instability in self-concept",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Self-Concept Clarity",
+          "description": "The Self-Concept Clarity Scale (SCC) will be used to measure the degree to which beliefs about the self are perceived as clearly defined, consistent, and stable over time. The scale includes 12 items and is unidimensional. A higher score indicates greater clarity and stability of self-beliefs, while a lower score reflects more confusion and instability in self-concept",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Self-Concept Clarity",
+          "description": "The Self-Concept Clarity Scale (SCC) will be used to measure the degree to which beliefs about the self are perceived as clearly defined, consistent, and stable over time. The scale includes 12 items and is unidimensional. A higher score indicates greater clarity and stability of self-beliefs, while a lower score reflects more confusion and instability in self-concept",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Self-Defining Future Projections",
+          "description": "The Self-Defining Future Projections Scale (SDFP) will assess participants' future projections related to their self-concept. Participants are asked to write down three future projections defining the self and rate each projection on three dimensions: emotional valence (positive or negative), emotional intensity, and personal significance. The projections must meet six specific criteria (e.g., occurring within the next year, being plausible, and personally important).",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Self-Defining Future Projections",
+          "description": "The Self-Defining Future Projections Scale (SDFP) will assess participants' future projections related to their self-concept. Participants are asked to write down three future projections defining the self and rate each projection on three dimensions: emotional valence (positive or negative), emotional intensity, and personal significance. The projections must meet six specific criteria (e.g., occurring within the next year, being plausible, and personally important).",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Self-Defining Future Projections",
+          "description": "The Self-Defining Future Projections Scale (SDFP) will assess participants' future projections related to their self-concept. Participants are asked to write down three future projections defining the self and rate each projection on three dimensions: emotional valence (positive or negative), emotional intensity, and personal significance. The projections must meet six specific criteria (e.g., occurring within the next year, being plausible, and personally important).",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Self-Esteem",
+          "description": "The Rosenberg Self-Esteem Scale (RSES) will be used to measure self-esteem or self-confidence. This 10-item scale is unidimensional and assesses the overall positive or negative evaluation of the self. A higher score indicates higher self-esteem, while a lower score reflects lower self-esteem",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Self-Esteem",
+          "description": "The Rosenberg Self-Esteem Scale (RSES) will be used to measure self-esteem or self-confidence. This 10-item scale is unidimensional and assesses the overall positive or negative evaluation of the self. A higher score indicates higher self-esteem, while a lower score reflects lower self-esteem",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Self-Esteem",
+          "description": "The Rosenberg Self-Esteem Scale (RSES) will be used to measure self-esteem or self-confidence. This 10-item scale is unidimensional and assesses the overall positive or negative evaluation of the self. A higher score indicates higher self-esteem, while a lower score reflects lower self-esteem",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Reflective Emotions (Shame)",
+          "description": "The TOSCA-3 (Test of Self-Conscious Affect) will assess the propensity to experience shame. This self-report scale consists of 16 relational scenarios, each followed by different potential emotional reactions. Participants are asked to imagine themselves in the situation described in each scenario and rate how much each proposed reaction aligns with their own emotional response on a Visual Analogue Scale (VAS) from 1 (\"Not at all in agreement with my reaction\") to 5 (\"Completely in agreement with my reaction\").",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Reflective Emotions (Shame)",
+          "description": "The TOSCA-3 (Test of Self-Conscious Affect) will assess the propensity to experience shame. This self-report scale consists of 16 relational scenarios, each followed by different potential emotional reactions. Participants are asked to imagine themselves in the situation described in each scenario and rate how much each proposed reaction aligns with their own emotional response on a Visual Analogue Scale (VAS) from 1 (\"Not at all in agreement with my reaction\") to 5 (\"Completely in agreement with my reaction\").",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Reflective Emotions (Shame)",
+          "description": "The TOSCA-3 (Test of Self-Conscious Affect) will assess the propensity to experience shame. This self-report scale consists of 16 relational scenarios, each followed by different potential emotional reactions. Participants are asked to imagine themselves in the situation described in each scenario and rate how much each proposed reaction aligns with their own emotional response on a Visual Analogue Scale (VAS) from 1 (\"Not at all in agreement with my reaction\") to 5 (\"Completely in agreement with my reaction\").",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Sense of Coherence",
+          "description": "The Sense of Coherence Scale (SOC-8) is an 8-item scale used to evaluate identity disturbance. It measures how well individuals perceive their life experiences as comprehensible, manageable, and meaningful, reflecting their sense of coherence and overall well-being. Higher score indicates greater coherence.",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Sense of Coherence",
+          "description": "The Sense of Coherence Scale (SOC-8) is an 8-item scale used to evaluate identity disturbance. It measures how well individuals perceive their life experiences as comprehensible, manageable, and meaningful, reflecting their sense of coherence and overall well-being. Higher score indicates greater coherence.",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Sense of Coherence",
+          "description": "The Sense of Coherence Scale (SOC-8) is an 8-item scale used to evaluate identity disturbance. It measures how well individuals perceive their life experiences as comprehensible, manageable, and meaningful, reflecting their sense of coherence and overall well-being. Higher score indicates greater coherence.",
+          "timeFrame": "6 months post-intervention"
+        },
+        {
+          "measure": "Self-Representation (Ontological Addiction Scale)",
+          "description": "The Ontological Addiction Scale (OAS) is a 12-item scale designed to measure the excessive preoccupation with self (i.e., the concern to satisfy the incorrect idea we usually have of ourselves). A higher score indicates a greater preoccupation with one's self-representation, suggesting a stronger tendency to engage in self-referential thinking.",
+          "timeFrame": "immediate post-intervention"
+        },
+        {
+          "measure": "Self-Representation (Ontological Addiction Scale)",
+          "description": "The Ontological Addiction Scale (OAS) is a 12-item scale designed to measure the excessive preoccupation with self (i.e., the concern to satisfy the incorrect idea we usually have of ourselves). A higher score indicates a greater preoccupation with one's self-representation, suggesting a stronger tendency to engage in self-referential thinking.",
+          "timeFrame": "3 months post-intervention"
+        },
+        {
+          "measure": "Self-Representation (Ontological Addiction Scale)",
+          "description": "The Ontological Addiction Scale (OAS) is a 12-item scale designed to measure the excessive preoccupation with self (i.e., the concern to satisfy the incorrect idea we usually have of ourselves). A higher score indicates a greater preoccupation with one's self-representation, suggesting a stronger tendency to engage in self-referential thinking.",
+          "timeFrame": "6 months post-intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects with borderline personality disorder (assessed by SCID-2),\n* Subjects aged between 18 and 45 years (inclusive).\n\nExclusion Criteria:\n\n* Psychotic disorder (assessed by SCID),\n* Subjects deprived of their liberty (by judicial or administrative decision, or involuntary hospitalization),\n* Subjects under legal protection (guardianship, curatorship, or judicial protection),\n* Subjects not affiliated with a social security,\n* Pregnant or breastfeeding women,\n* Inability to understand the nature, purpose, and methodology of the study,\n* Inability to understand, speak, or write French,\n* Failure to provide informed oral consent to participate in the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001883",
+          "term": "Borderline Personality Disorder"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010554",
+          "term": "Personality Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

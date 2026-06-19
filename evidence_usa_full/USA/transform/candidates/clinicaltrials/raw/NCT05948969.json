@@ -1,0 +1,229 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05948969",
+      "orgStudyIdInfo": {
+        "id": "Pro00059648"
+      },
+      "organization": {
+        "fullName": "American College of Cardiology",
+        "class": "OTHER"
+      },
+      "briefTitle": "Transform CV Risk in Diabetes",
+      "officialTitle": "Transform CV Risk in Diabetes",
+      "acronym": "CVRiD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-07",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-07-06",
+      "studyFirstSubmitQcDate": "2023-07-13",
+      "studyFirstPostDateStruct": {
+        "date": "2023-07-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-07-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-07-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "American College of Cardiology",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Novo Nordisk A/S",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This initiative supports a real-world study of practice and physician prescribing patterns and a quality improvement initiative evaluating best practices (including clinical decision support, facilitated referral to cardiometabolic team-based care model, and general educational tools/resources) to im-prove use of guideline-directed therapeutics known to lower cardiovascular risk (CV) in patients with type 2 diabetes (T2D)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 750,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Education alone",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "label": "Education + decision support to provide suggestions for care optimization",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Other: Decision support"
+          ]
+        },
+        {
+          "label": "Education + facilitated referral to cardiometabolic team-based center for care optimization",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Other: Facilitated referral to a cardiometabolic team-based center"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Decision support",
+          "description": "This implementation strategy will include the clinician education of the previous arm and apply \"audit and feedback\" of prior care to inform recommendations for future care. These suggestions will encompass 5 different domains based on eligibility and potential opportunity for an SGLT2i, GLP-1RA, angiotensin converting enzyme inhibitors (ACEi)/angiotensin-receptor blockers (ARB), antiplatelet or antithrombotic therapy, and statin therapy. The incorporation of clinical decision support technology will be utilized to identify tailored opportunities for each CV risk reduction based on guideline recommendations for individual patients. Clinicians will be presented prompts with patient-specific recommendation(s) for further optimization of cardioprotective agents. These prompts will be conveyed by a Study Coordinator to responsible clinicians. The follow-up clinical prompts will be based on auditing of updated clinical parameters and medication use.",
+          "armGroupLabels": [
+            "Education + decision support to provide suggestions for care optimization"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Facilitated referral to a cardiometabolic team-based center",
+          "description": "Each site will have access to clinicians caring for patients in structured, multidisciplinary cardiometabolic centers. Clinicians caring for patients randomized to this intervention strategy will receive a facilitated referral via the EHR together). If the clinician approves the referral, the patient will be referred to this local team-based comprehensive risk factor management clinic. All patients randomized to this group will be considered in this group whether or not a visit to the cardiometabolic center is completed.",
+          "armGroupLabels": [
+            "Education + facilitated referral to cardiometabolic team-based center for care optimization"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "New prescription of a SGLT2i and/or GLP-1RA",
+          "description": "Proportion of treatment-naïve patients who are newly prescribed a SGLT2i and/or GLP-1RA over 9 months in the facilitated referral group (Arm C) versus usual care group (Arm A)",
+          "timeFrame": "9 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* T2D diagnosis in the medical record\n* ASCVD, defined as follows:\n\n  1. Known Coronary artery disease (CAD), prior Acute coronary syndrome (ACS), or coronary artery revascularization\n  2. Prior TIA/ischemic stroke or known carotid or intracerebral atherosclerosis, or prior carotid revascularization\n  3. Prior Peripheral artery disease (PAD) including symptomatic claudication or pe-ripheral revascularization\n\nExclusion Criteria:\n\n* Current participation in an interventional clinical assessment of an investigational drug/device (excluding assessments related to COVID-19)\n* Currently receiving any SGLT2i or GLP-1RA\n* Known allergy/hypersensitivity/intolerance/contraindication to SGLT2i or GLP-1RA\n* Currently receiving comfort care or enrolled in hospice\n* Life expectancy \\<1 year\n* History of or plan for heart transplantation or ventricular assist device\n* Current or planned hemodialysis\n* Decompensated end stage liver disease\n* History of Fournier's Gangrene\n* Type 1 diabetes\n* Prior history of diabetic ketoacidosis\n* Pregnancy or active breastfeeding\n* History of Pancreatitis or pancreatic cancer\n* History of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2 (MEN-2)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Shilpa Patel",
+          "role": "CONTACT",
+          "phone": "2023756354",
+          "email": "SPatel@acc.org"
+        },
+        {
+          "name": "Jack Reilly",
+          "role": "CONTACT",
+          "phone": "202",
+          "email": "JReilly@acc.org"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Multiple sites nationwide",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20004",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shilpa Patel",
+              "role": "CONTACT",
+              "email": "SPatel@acc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

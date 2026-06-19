@@ -1,0 +1,33 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00035302",
+      "drks_id": "DRKS00035302",
+      "title": "Fostering positive exercise experiences and affect-related competencies for a physically active lifestyle",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00035302/details",
+      "_matched_query": "\"Feel Program\"",
+      "_raw_json_path": "evidence/USA/feel-program/candidates/drks/raw/DRKS00035302.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 40,
+        "reason": "Fallback keyword check: matched ['product_name_partial']",
+        "matched_elements": [
+          "product_name_partial"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational / real-world study",
+        "confidence": 60,
+        "reason": "Keyword match: 1 RWE indicators vs 0 RCT indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T09:43:25.423655Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

@@ -1,0 +1,264 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07273786",
+      "orgStudyIdInfo": {
+        "id": "SU-SBT-MÖ-01"
+      },
+      "organization": {
+        "fullName": "Selcuk University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effects of Group Social Work Intervention on Children's Emotional Intelligence, Emotion Regulation Skills and Empathy Tendencies",
+      "officialTitle": "The Effect of Group Social Work Intervention Based on Emotion-Focused Therapy on Emotion Regulation Skills, Emotional Intelligence and Empathic Tendency Levels of Children in Need of Protection"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-02-25",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-22",
+      "studyFirstSubmitQcDate": "2025-12-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "merve özkul",
+        "investigatorTitle": "PhD student",
+        "investigatorAffiliation": "Selcuk University"
+      },
+      "leadSponsor": {
+        "name": "Selcuk University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "aile ve sosyal hizmetler bakanlığı",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The general objective of this study is to determine the effects of an emotion-focused therapy-based group social work intervention on the emotion regulation skills, emotional intelligence, and empathic tendency levels of children aged 9-11 years in need of protection and living in a children's home complex, and to explore the participants' experiences of the group intervention. The independent variable of the study is the emotion-focused therapy-based group social work intervention. The dependent variables are the children's emotion regulation skills, emotional intelligence, and empathic tendency levels.\n\nWithin the framework of the stated general objective, the quantitative questions addressed in the study are as follows:\n\n1. Is there a significant difference between the emotion regulation skills, emotional intelligence, and empathic tendency scores between the experimental and control groups before the intervention?\n2. Is there a significant difference between the pre-test and post-test scores of the emotion regulation skills, emotional intelligence, and empathic tendency of the participants in the experimental group after the intervention?\n3. After the intervention, is there a significant difference between the pre-test and post-test scores on emotion regulation skills, emotional intelligence, and empathic tendency of the participants in the control group?\n4. After the intervention, is there a significant difference between the post-test scores on emotion regulation skills, emotional intelligence, and empathic tendency of the participants in the experimental group and the post-test scores on emotion regulation skills, emotional intelligence, and empathic tendency of the participants in the control group?",
+      "detailedDescription": "-Participants in the study completed the Children's Emotion Regulation Scale (CRS), the BarOn Emotional Intelligence Test Child and Adolescent Form and the KA-Si Empathic Tendency Scale Child Form before the study began. Following the 12-session group process, the same scales were completed for both the experimental and control groups, and differences between the experimental and control groups were examined.\n\nSome participants had difficulty reading and understanding the scale items during the pretest and posttest evaluation processes. Both tests were administered one-on-one with the participants, and those who did not understand were read one by one. The quantitative data collected were then entered into SPSS."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Emotional Intelligence",
+        "Emotion Regulation",
+        "Empathy Skills"
+      ],
+      "keywords": [
+        "emotion-focused therapy",
+        "group social work",
+        "child in need of protection",
+        "emotional intelligence",
+        "emotion regulation",
+        "empathic tendency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This study employed a mixed method approach, combining qualitative and quantitative approaches, to investigate the effects of a group social work intervention based on emotion-focused therapy on the emotion regulation skills, emotional intelligence, and empathic tendencies of children under protection in a children's home.\n\nIn this context, an exploratory sequential design was used in this study. In this study, the qualitative data were analyzed in line with the quantitative data analysis, and the final conclusion was drawn in the discussion section based on the results of both analyses.",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 38,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "emotion-focused group social work",
+          "type": "EXPERIMENTAL",
+          "description": "The group where 12 sessions of emotion-focused group social work were conducted",
+          "interventionNames": [
+            "Behavioral: group social work practice based on emotion-focused therapy"
+          ]
+        },
+        {
+          "label": "no emotion-focused group social work",
+          "type": "NO_INTERVENTION",
+          "description": "no intervention group"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "group social work practice based on emotion-focused therapy",
+          "description": "Emotion-focused therapy, a therapy approach that prioritizes emotions over others, advocates for increasing emotional intelligence, which refers to using emotions as a developmental tool without being dominated by them (Greenberg, 2004b). Emotion-focused therapy, which places emotions at the center, is a practice that has recently become widespread in our country. It is stated that this approach helps individuals identify/be aware of their emotions, express them, make sense of them, appropriately modify/transform them, and use them in a healthy way; as a result, individuals are more successful in taking control of their lives (Greenberg 2010). From this perspective, it is believed that working with children in need of protection using this approach will be beneficial for the children themselves. The results of this study suggest that it may contribute to introducing an emotion-focused perspective into rehabilitative work with children under protection.",
+          "armGroupLabels": [
+            "emotion-focused group social work"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "BarOn Emotional Intelligence Scale Child and Adolescent Form",
+          "description": "This is a 60-item scale, with a minimum score of 60 and a maximum of 240. Higher scores indicate better outcomes, as they indicate improved emotional intelligence skills.",
+          "timeFrame": "up to 12 weeks after registration"
+        },
+        {
+          "measure": "Emotion Regulation Scale for Children",
+          "description": "The scale consists of 29 items and four subscales: anger (9 items), fear (8 items), sadness (7 items), and excitement (5 items). The lowest score is 29; the highest is 116. Higher scores indicate better outcomes.",
+          "timeFrame": "up to 12 weeks after registration"
+        },
+        {
+          "measure": "KA-SI Empathic Tendency Scale - Child Form",
+          "description": "The scale consists of 13 items. The minimum score is 13, and the maximum score is 52. As the scale scores increase, empathic tendency increases, and as they decrease, empathic tendency decreases.",
+          "timeFrame": "up to 12 weeks after registration"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* • Be between 9 and 11 years old\n\n  * Be able to read and write\n  * Have no known traumatic event/abuse history\n  * Have been accepted to the organization for at least 3 months (have adapted to the organization)\n  * Have no severe/advanced psychiatric disability/diagnosis\n  * Have been declared suitable by the group leader\n  * Be willing to participate in the study\n\nExclusion Criteria:\n\n* • Being outside the 9-11 age range\n\n  * Being admitted to the institution less than 3 months ago or not yet having adapted to the institution\n  * Being a foreign national\n  * Not knowing Turkish\n  * Having a history of abuse\n  * Being hospitalized\n  * Being a child who left the institution without permission\n  * Being in the final stages of transfer and return to family",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "9 Years",
+      "maximumAge": "11 Years",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Serap D DAŞBAŞ, Prof. Dr.",
+          "affiliation": "Selçuk Üniversity",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ankara Çocuk Evleri Sitesi Müdürlüğü",
+          "city": "Ankara",
+          "state": "Pursaklar",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20121862",
+          "type": "BACKGROUND",
+          "citation": "Tottenham N, Hare TA, Quinn BT, McCarry TW, Nurse M, Gilhooly T, Millner A, Galvan A, Davidson MC, Eigsti IM, Thomas KM, Freed PJ, Booma ES, Gunnar MR, Altemus M, Aronson J, Casey BJ. Prolonged institutional rearing is associated with atypically large amygdala volume and difficulties in emotion regulation. Dev Sci. 2010 Jan 1;13(1):46-61. doi: 10.1111/j.1467-7687.2009.00852.x."
+        },
+        {
+          "pmid": "18520738",
+          "type": "BACKGROUND",
+          "citation": "Tarren-Sweeney M. The mental health of children in out-of-home care. Curr Opin Psychiatry. 2008 Jul;21(4):345-9. doi: 10.1097/YCO.0b013e32830321fa."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "The children's home site where the study was conducted is affiliated with this ministry.",
+          "url": "https://www.aile.gov.tr/"
+        }
+      ],
+      "availIpds": [
+        {
+          "id": "merve özkul/author",
+          "type": "Clinical Study Report",
+          "url": "https://tez.yok.gov.tr/UlusalTezMerkezi/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "I haven't decided yet"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2025-12-05",
+          "uploadDate": "2025-12-05T14:06",
+          "filename": "ICF_000.pdf",
+          "size": 305526
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000080103",
+          "term": "Emotional Regulation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000068356",
+          "term": "Self-Control"
+        },
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

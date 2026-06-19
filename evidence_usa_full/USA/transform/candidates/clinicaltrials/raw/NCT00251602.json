@@ -1,0 +1,372 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00251602",
+      "orgStudyIdInfo": {
+        "id": "AG0059"
+      },
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "Analysis of Atropine and Propranolol Induced Changes",
+      "officialTitle": "Wavelet Transform and Pharmacodynamic Analysis of Atropine and Propranolol Induced Changes in Human Heart Rate Variability"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2003-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-11-08",
+      "studyFirstSubmitQcDate": "2005-11-08",
+      "studyFirstPostDateStruct": {
+        "date": "2005-11-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-08-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-08-06",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Institute on Aging (NIA)",
+        "class": "NIH"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to learn the effects of genetic make up on response to the drugs atropine and propranolol, to examine how changes in heart rate and blood pressure can be measured, and to test a new statistical analysis method.",
+      "detailedDescription": "Healthy volunteers will be recruited and screened for eligibility. Participants will be placed into three possible groups based on genetic information obtained during screening. Rolling admissions will continue until at least 10 participants have been recruited for each genetic group. Participants will be randomly assigned to receive either the control (propranolol and saline) or combined drug (propranolol and atropine) treatment in a non-blinded fashion. The participant will return over one week later to receive the alternate treatment. Continuous heart rate/blood pressure data will be recorded until the end of the study period. Respiratory rate will be maintained at a fixed rate. Participants will undergo an orthostasis task, receive the drug or control infusions, and blood samples will then be obtained to determine drug concentrations at specific time intervals. Several relatively new mathematical techniques will be applied to the data."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Healthy"
+      ],
+      "keywords": [
+        "heart rate variability",
+        "gene response"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 24,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "EXPERIMENTAL",
+          "description": "II ACE genotype",
+          "interventionNames": [
+            "Drug: Atropine",
+            "Drug: Propranolol"
+          ]
+        },
+        {
+          "label": "2",
+          "type": "EXPERIMENTAL",
+          "description": "ID ACE genotype",
+          "interventionNames": [
+            "Drug: Atropine",
+            "Drug: Propranolol"
+          ]
+        },
+        {
+          "label": "3",
+          "type": "EXPERIMENTAL",
+          "description": "DD ACE genotype",
+          "interventionNames": [
+            "Drug: Atropine",
+            "Drug: Propranolol"
+          ]
+        },
+        {
+          "label": "4",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "II ACE genotype",
+          "interventionNames": [
+            "Drug: Propranolol",
+            "Drug: Normal Saline"
+          ]
+        },
+        {
+          "label": "5",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "ID ACE genotype",
+          "interventionNames": [
+            "Drug: Propranolol",
+            "Drug: Normal Saline"
+          ]
+        },
+        {
+          "label": "6",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "DD ACE genotype",
+          "interventionNames": [
+            "Drug: Propranolol",
+            "Drug: Normal Saline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atropine",
+          "description": "One-time 10 mcg/kg infusion over 30 minutes, followed by a 10 mcg/kg bolus",
+          "armGroupLabels": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Propranolol",
+          "description": "One-time 0.8mg/kg/hr infusion (maximum dose not to exceed 20mg) over 20 minutes, followed by either atropine or normal saline",
+          "armGroupLabels": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Normal Saline",
+          "description": "One-time 0.25 ml/min infusion over 30 minutes",
+          "armGroupLabels": [
+            "4",
+            "5",
+            "6"
+          ],
+          "otherNames": [
+            "NS"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in heart rate and blood pressure",
+          "timeFrame": "every 2 minutes during drug infusions and every 10 minutes during the remainder of the study time"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male and female volunteers\n* Ages 21-40\n* Body Mass Index \\>18.0 and \\<27.0\n\nExclusion Criteria:\n\n* History of any chronic illnesses including cardiac diseases and bleeding problems\n* Drug use of any kind\n* Participation in any clinical trial within the last month\n* Tobacco use and/or alcohol abuse\n* Use of dietary supplements and unwillingness to refrain",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "40 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Shari M. Ling, MD",
+          "affiliation": "National Institute on Aging, Clinical Research Branch",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Institute on Aging, Harbor Hospital",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21225",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "6166045",
+          "type": "BACKGROUND",
+          "citation": "Akselrod S, Gordon D, Ubel FA, Shannon DC, Berger AC, Cohen RJ. Power spectrum analysis of heart rate fluctuation: a quantitative probe of beat-to-beat cardiovascular control. Science. 1981 Jul 10;213(4504):220-2. doi: 10.1126/science.6166045."
+        },
+        {
+          "pmid": "7733345",
+          "type": "BACKGROUND",
+          "citation": "Craft N, Schwartz JB. Effects of age on intrinsic heart rate, heart rate variability, and AV conduction in healthy humans. Am J Physiol. 1995 Apr;268(4 Pt 2):H1441-52. doi: 10.1152/ajpheart.1995.268.4.H1441."
+        },
+        {
+          "pmid": "2874900",
+          "type": "BACKGROUND",
+          "citation": "Pagani M, Lombardi F, Guzzetti S, Rimoldi O, Furlan R, Pizzinelli P, Sandrone G, Malfatto G, Dell'Orto S, Piccaluga E, et al. Power spectral analysis of heart rate and arterial pressure variabilities as a marker of sympatho-vagal interaction in man and conscious dog. Circ Res. 1986 Aug;59(2):178-93. doi: 10.1161/01.res.59.2.178."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001285",
+          "term": "Atropine"
+        },
+        {
+          "id": "D011433",
+          "term": "Propranolol"
+        },
+        {
+          "id": "D000077330",
+          "term": "Saline Solution"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001286",
+          "term": "Atropine Derivatives"
+        },
+        {
+          "id": "D014326",
+          "term": "Tropanes"
+        },
+        {
+          "id": "D053961",
+          "term": "Azabicyclo Compounds"
+        },
+        {
+          "id": "D001372",
+          "term": "Aza Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001533",
+          "term": "Belladonna Alkaloids"
+        },
+        {
+          "id": "D012991",
+          "term": "Solanaceous Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D019086",
+          "term": "Bridged Bicyclo Compounds, Heterocyclic"
+        },
+        {
+          "id": "D006572",
+          "term": "Heterocyclic Compounds, Bridged-Ring"
+        },
+        {
+          "id": "D050198",
+          "term": "Phenoxypropanolamines"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009281",
+          "term": "Naphthalenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000077324",
+          "term": "Crystalloid Solutions"
+        },
+        {
+          "id": "D007552",
+          "term": "Isotonic Solutions"
+        },
+        {
+          "id": "D012996",
+          "term": "Solutions"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

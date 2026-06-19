@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00034348",
+      "drks_id": "DRKS00034348",
+      "title": "Randomised, controlled trial to evaluate the effectiveness of Oviva Direkt in reducing blood pressure in patients with hypertension",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00034348/details",
+      "_matched_query": "\"Oviva Direkt Bluthochdruck\"",
+      "_raw_json_path": "evidence/Germany/oviva-direkt-bluthochdruck/candidates/drks/raw/DRKS00034348.json"
+    },
+    {
+      "study_id": "DRKS00039013",
+      "drks_id": "DRKS00039013",
+      "title": "A Randomised Controlled Trial of Oviva Direkt for Reducing Blood Pressure in People with Hypertension",
+      "status": "Recruiting",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00039013/details",
+      "_matched_query": "\"Oviva Direkt Bluthochdruck\"",
+      "_raw_json_path": "evidence/Germany/oviva-direkt-bluthochdruck/candidates/drks/raw/DRKS00039013.json"
+    }
+  ],
+  "count": 2,
+  "queries_used": [
+    "\"Oviva Direkt Bluthochdruck\"",
+    "\"Oviva Direkt Bluthochdruck\" AND \"übermittelten Angaben\""
+  ],
+  "dtx_name": "Oviva Direkt Bluthochdruck",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T08:00:33.778250Z",
+  "_source": "drks",
+  "_layer": "candidates"
+}

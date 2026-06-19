@@ -1,0 +1,62 @@
+{
+  "studies": [
+    {
+      "study_id": "39319356",
+      "pmid": "39319356",
+      "title": "Effect of a prescription digital therapeutic for chronic insomnia on post-treatment insomnia severity, depression, and anxiety symptoms: results from the real-world DREAM study.",
+      "authors": "Thorndike Frances P et al.",
+      "authors_list": [
+        "Thorndike Frances P",
+        "Morin Charles M",
+        "Ojile Joseph",
+        "Edington Samantha",
+        "Gerwien Robert"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024",
+      "journal": "Frontiers in psychiatry",
+      "journal_abbrev": "Front Psychiatry",
+      "doi": "10.3389/fpsyt.2024.1450615",
+      "abstract": "INTRODUCTION: Chronic insomnia is a substantial public health burden that often presents with co-occurring depression and anxiety. Randomized clinical trials and preliminary real-world evidence have shown that digitally delivered cognitive-behavioral therapy for insomnia (dCBT-I) is associated with improvements in insomnia, but real-world evidence is needed to determine the true impact of digital CBT-I. This pragmatic study aimed to evaluate the benefits of treating chronic insomnia with a tailored prescription digital therapeutic in a real-world population. METHODS: This prospective, single-arm clinical study involved adults aged 22-75 with chronic insomnia living in the US who had access to a mobile device. Participants accessed the FDA-cleared prescription digital therapeutic (PDT; Somryst®) over a 9-week intervention period. The PDT delivers cognitive-behavioral therapy for insomnia via six interactive treatment cores and daily sleep diaries used for tailoring treatment. Participants completed validated patient-reported instruments at baseline, before completing treatment cores, immediately post-intervention, and at 6-month and 1-year follow-ups. The Insomnia Severity Index [ISI], the 8-item Patient Health Questionnaire [PHQ-8], and the Generalized Anxiety Disorder-7 scale [GAD-7] were used to determine the effect of the PDT on insomnia, depression, and anxiety. RESULTS: After screening, 1565 adults accessed the PDT. 58% of those who began the program completed Core 4, established as exposure to all mechanisms of action in the digital therapeutic. For those who completed assessments for all 6 cores (48.4%), the ISI was lowered from 18.8 to a mean of 9.9 (P <.001). These scores continued to be lower than baseline at immediate post (11.0), 6-month (11.6), and 1-year follow-ups (12.2) (P <.001). The results of the PHQ-8 and GAD-7 also show significant decreases at all measured timepoints from baseline (P <.001). Of the patients that began the program, 908 (58.0%) were considered adherent and 733 (46.8%) completed all 6 cores. CONCLUSION: Data from the DREAM study contributes to the growing body of clinical evidence of how patients are utilizing a PDT in the real world, outside of controlled settings, offering insights for clinicians who use these therapeutics in practice. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov, identifier NCT04325464.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CBT-I",
+        "anxiety",
+        "depression",
+        "insomnia",
+        "prescription digital therapeutic",
+        "real-world data",
+        "sleep"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39319356/",
+      "pdf_available": false,
+      "_matched_query": "\"Somryst\"",
+      "_raw_xml_path": "evidence/USA/somryst/candidates/pubmed/raw/39319356.xml",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the digital therapeutic Somryst, as indicated by the mention of 'Somryst®' in the methods section of the abstract and full text. The study describes the use of Somryst for treating chronic insomnia, matching the product's description.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RWE",
+        "study_design": "observational / real-world study",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RWE indicators vs 2 RCT indicators."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T13:06:18.259510Z",
+  "_source": "pubmed",
+  "_layer": "verified",
+  "_evidence_type": "RWE"
+}

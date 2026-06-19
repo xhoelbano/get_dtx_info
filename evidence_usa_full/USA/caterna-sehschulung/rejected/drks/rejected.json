@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00030216",
+      "drks_id": "DRKS00030216",
+      "title": "Evaluation of FAVAS ( Focal ambient visual acuity stimulation) digital based health application",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00030216/details",
+      "_matched_query": "\"Caterna Sehschulung\"",
+      "_raw_json_path": "evidence/USA/caterna-sehschulung/candidates/drks/raw/DRKS00030216.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the Caterna Sehschulung digital therapeutic product, as evidenced by the mention of 'Caterna-Sehschule' and 'Caterna vision training' in the trial descriptions. The study aims to optimize amblyopia therapy using this product, which is developed by Caterna Vision GmbH.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The document describes a study protocol for evaluating a digital health application, but does not provide results or specify whether it is a randomized controlled trial or an observational study. Therefore, it is classified as INELIGIBLE as it is not a primary study with results."
+      },
+      "_rejection_stage": "classification",
+      "_rejection_reason": "The document describes a study protocol for evaluating a digital health application, but does not provide results or specify whether it is a randomized controlled trial or an observational study. Therefore, it is classified as INELIGIBLE as it is not a primary study with results."
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-15T06:44:56.557690Z",
+  "_source": "drks"
+}

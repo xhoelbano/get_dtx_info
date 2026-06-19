@@ -1,0 +1,228 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04333082",
+      "orgStudyIdInfo": {
+        "id": "2020-00538; me20Sutter"
+      },
+      "organization": {
+        "fullName": "University Hospital, Basel, Switzerland",
+        "class": "OTHER"
+      },
+      "briefTitle": "Refractory Status Epilepticus Treatment: Quality and Efficacy of Coma Induction",
+      "officialTitle": "Refractory Status Epilepticus Treatment (RESET): Quality and Efficacy of Coma Induction",
+      "acronym": "RESET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-04-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-08-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-08-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-03-31",
+      "studyFirstSubmitQcDate": "2020-03-31",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Basel, Switzerland",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is to investigate the effects of different treatment characteristics regarding the use of intravenous anesthetic drugs (IVADs) as a rescue treatment for refractory Status epilepticus (RSE) on course and outcome. A retrospective data extraction from the digital medical records, the electroencephalographic and microbiologic database of all consecutive adult patients with Status epilepticus (SE) admitted to the University Hospital Basel is undertaken."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Status Epilepticus",
+        "Refractory Status Epilepticus"
+      ],
+      "keywords": [
+        "artificial deep coma",
+        "intravenous anesthetic drugs (IVADs)",
+        "total seizure oppression"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 147,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Data collection",
+          "description": "collection of patient data\n\nData collection (demographics, prehospital management, duration of ICU and hospital stay, destination at discharge, date(s) of seizure(s), electroencephalographic (EEG) data, seizure history and etiology, number and duration of SE episodes, medication, types of SE according to the current guidelines from the International League of Epilepsy (ILAE), neuroimaging features, comorbidities, laboratory parameters, complications during and after SE , laboratory testing, vital signs, fluid balance) will be performed from the digital medical records, the electroencephalographic and microbiologic database of patients"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "number of in- hospital death",
+          "description": "number of in- hospital death",
+          "timeFrame": "at baseline (T0)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "neurofunctional alteration assessed by Glasgow Outcome Score (GOS)",
+          "description": "neurofunctional alteration assessed by Glasgow Outcome Score (GOS). The Glasgow Outcome Scale (GOS) is a global scale for functional outcome that rates patient status into one of five categories: Dead, Vegetative State, Severe Disability, Moderate Disability or Good Recovery",
+          "timeFrame": "at baseline (T0)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosed SE between 2005 and 2019 who have been treated at intensive care units (ICUs) of the University Hospital of Basel\n\nExclusion Criteria:\n\n* Patients with repetitive epileptic seizures not qualifying for SE or RSE\n* Patients with documented refusal of the general in-house consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Adult patients (i.e., patients ≥18 years of age) with diagnosed SE between 2005 and 2019 who have been treated at intensive care units (ICUs) of the University Hospital of Basel, a Swiss tertiary academic medical care center",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Raoul Sutter, PD Dr. med",
+          "affiliation": "Universitätsspital Basel / Intensivmedizin",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Clinic for Intensive Care Medicine, University Hospital Basel",
+          "city": "Basel",
+          "zip": "4031",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36889924",
+          "type": "RESULT",
+          "citation": "Fisch U, Junger AL, Baumann SM, Semmlack S, De Marchis GM, Hunziker S, Ruegg S, Marsch S, Sutter R. Association Between Induced Burst Suppression and Clinical Outcomes in Patients With Refractory Status Epilepticus: A 9-Year Cohort Study. Neurology. 2023 May 9;100(19):e1955-e1966. doi: 10.1212/WNL.0000000000207129. Epub 2023 Mar 8."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013226",
+          "term": "Status Epilepticus"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012640",
+          "term": "Seizures"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003625",
+          "term": "Data Collection"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D017531",
+          "term": "Health Care Evaluation Mechanisms"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D011634",
+          "term": "Public Health"
+        },
+        {
+          "id": "D004778",
+          "term": "Environment and Public Health"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

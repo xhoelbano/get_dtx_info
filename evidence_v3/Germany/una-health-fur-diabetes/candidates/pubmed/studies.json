@@ -1,0 +1,1616 @@
+{
+  "studies": [
+    {
+      "study_id": "40588674",
+      "pmid": "40588674",
+      "title": "International partnership for governing generative artificial intelligence models in medicine.",
+      "authors": "Ong Jasmine Chiat Ling et al.",
+      "authors_list": [
+        "Ong Jasmine Chiat Ling",
+        "Ning Yilin",
+        "Collins Gary S",
+        "Bitterman Danielle S",
+        "Beecy Ashley N"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Sep",
+      "journal": "Nature medicine",
+      "journal_abbrev": "Nat Med",
+      "doi": "10.1038/s41591-025-03787-4",
+      "abstract": "",
+      "publication_types": [
+        "Letter"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40588674/",
+      "pmc_id": "PMC13257963",
+      "pdf_available": true,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40588674.xml"
+    },
+    {
+      "study_id": "40206630",
+      "pmid": "40206630",
+      "title": "Continuous Improvement of Digital Health Applications Linked to Real-World Performance Monitoring: Safe Moving Targets?",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Pimenta Andreia",
+        "Stratton-Powell Ashley",
+        "Welzel Cindy",
+        "Melvin Tom"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Sep",
+      "journal": "Mayo Clinic proceedings. Digital health",
+      "journal_abbrev": "Mayo Clin Proc Digit Health",
+      "doi": "10.1016/j.mcpdig.2023.05.010",
+      "abstract": "Real-time high-quality data on the performance of digital health applications is needed for feedback-led optimization and to ensure safety and performance, particularly if they will have on-market updates. Developers must verify that applications accurately and consistently fulfill their intended purpose in real-world use. In particular, new thinking from regulators recognizes the importance of monitoring real-world performance. It is acknowledged that real-world data can deliver information from wider patient populations than are generally included in controlled studies, and in certain circumstances, this can enable extensions of the application's intended purpose. Proactive postmarket surveillance surveys are an important source of real-world data that are distinct from clinical investigations but may vary in quality and, if inappropriately designed, can be subject to uncontrolled bias. We aimed to describe the practice of real-world data gathering through patient-reported and clinician-reported outcomes and high-quality surveys and identify challenges, uncertainties, and health policy gaps.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40206630/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40206630.xml"
+    },
+    {
+      "study_id": "36721023",
+      "pmid": "36721023",
+      "title": "Can Apple and Google continue as health app gatekeepers as well as distributors and developers?",
+      "authors": "Sadare Olamide et al.",
+      "authors_list": [
+        "Sadare Olamide",
+        "Melvin Tom",
+        "Harvey Hugh",
+        "Vollebregt Erik",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Jan-31",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-023-00754-6",
+      "abstract": "Mobile apps are the primary means by which consumers access digital health and wellness software, with delivery dominated by the 'Apple App Store' and the 'Google Play Store'. Through these virtual storefronts Apple and Google act as the distributor (and sometimes, importer) of many thousands of health and wellness apps into the EU, some of which have a medical purpose. As a result of changes to EU law which came into effect in May 2021, they must now ensure that apps are compliant with medical devices regulation and to inform authorities of serious incidents arising from their use. The extent to which these new rules are being complied with in practice is uneven, and in some areas unclear. In light of EU legislation related to competition, which came into effect in November 2022, it is also unclear how conflicts of interest can be managed between Apple and Google's roles as gateway duopoly importers and distributors whilst also developers of their own competitive health products. Finally, with the proposed European health data space regulation, wellness apps will be voluntarily registered and labelled in a fashion more like medical devices than consumer software. We explore the implications of these new regulations and propose future models that could resolve the apparent conflicts. All stakeholders would benefit from improved app store models to sustainably evolve safer, better, and fairer provision of digital health applications in the EU. As EU legislation comes into force it could serve as a template for other regions globally.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36721023/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/36721023.xml"
+    },
+    {
+      "study_id": "39179311",
+      "pmid": "39179311",
+      "title": "A future role for health applications of large language models depends on regulators enforcing safety standards.",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Wiest Isabella Catharina",
+        "Kather Jakob Nikolas",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Sep",
+      "journal": "The Lancet. Digital health",
+      "journal_abbrev": "Lancet Digit Health",
+      "doi": "10.1016/S2589-7500(24)00124-9",
+      "abstract": "Among the rapid integration of artificial intelligence in clinical settings, large language models (LLMs), such as Generative Pre-trained Transformer-4, have emerged as multifaceted tools that have potential for health-care delivery, diagnosis, and patient care. However, deployment of LLMs raises substantial regulatory and safety concerns. Due to their high output variability, poor inherent explainability, and the risk of so-called AI hallucinations, LLM-based health-care applications that serve a medical purpose face regulatory challenges for approval as medical devices under US and EU laws, including the recently passed EU Artificial Intelligence Act. Despite unaddressed risks for patients, including misdiagnosis and unverified medical advice, such applications are available on the market. The regulatory ambiguity surrounding these tools creates an urgent need for frameworks that accommodate their unique capabilities and limitations. Alongside the development of these frameworks, existing regulations should be enforced. If regulators fear enforcing the regulations in a market dominated by supply or development by large technology companies, the consequences of layperson harm will force belated action, damaging the potentiality of LLM-based applications for layperson medical advice.",
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Artificial Intelligence",
+        "United States",
+        "Delivery of Health Care",
+        "European Union"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39179311/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39179311.xml"
+    },
+    {
+      "study_id": "38117545",
+      "pmid": "38117545",
+      "title": "Holistic Human-Serving Digitization of Health Care Needs Integrated Automated System-Level Assessment Tools.",
+      "authors": "Welzel Cindy et al.",
+      "authors_list": [
+        "Welzel Cindy",
+        "Cotte Fabienne",
+        "Wekenborg Magdalena",
+        "Vasey Baptiste",
+        "McCulloch Peter"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Dec-20",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/50158",
+      "abstract": "Digital health tools, platforms, and artificial intelligence- or machine learning-based clinical decision support systems are increasingly part of health delivery approaches, with an ever-greater degree of system interaction. Critical to the successful deployment of these tools is their functional integration into existing clinical routines and workflows. This depends on system interoperability and on intuitive and safe user interface design. The importance of minimizing emergent workflow stress through human factors research and purposeful design for integration cannot be overstated. Usability of tools in practice is as important as algorithm quality. Regulatory and health technology assessment frameworks recognize the importance of these factors to a certain extent, but their focus remains mainly on the individual product rather than on emergent system and workflow effects. The measurement of performance and user experience has so far been performed in ad hoc, nonstandardized ways by individual actors using their own evaluation approaches. We propose that a standard framework for system-level and holistic evaluation could be built into interacting digital systems to enable systematic and standardized system-wide, multiproduct, postmarket surveillance and technology assessment. Such a system could be made available to developers through regulatory or assessment bodies as an application programming interface and could be a requirement for digital tool certification, just as interoperability is. This would enable health systems and tool developers to collect system-level data directly from real device use cases, enabling the controlled and safe delivery of systematic quality assessment or improvement studies suitable for the complexity and interconnectedness of clinical workflows using developing digital health technologies.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Artificial Intelligence",
+        "Digital Health",
+        "Algorithms",
+        "Decision Support Systems, Clinical",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "digital health tools",
+        "health care",
+        "health technology assessment",
+        "human factors",
+        "postmarket surveillance",
+        "quality assessment",
+        "quality improvement",
+        "regulatory framework",
+        "software as a medical device",
+        "user experience"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38117545/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38117545.xml"
+    },
+    {
+      "study_id": "40206306",
+      "pmid": "40206306",
+      "title": "The Social Contract for Health and Wellness Data Sharing Needs a Trusted Standardized Consent.",
+      "authors": "Brückner Stefanie et al.",
+      "authors_list": [
+        "Brückner Stefanie",
+        "Kirsten Toralf",
+        "Schwarz Peter",
+        "Cotte Fabienne",
+        "Tsesis Michael"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Dec",
+      "journal": "Mayo Clinic proceedings. Digital health",
+      "journal_abbrev": "Mayo Clin Proc Digit Health",
+      "doi": "10.1016/j.mcpdig.2023.07.008",
+      "abstract": "The rise of health and wellness applications has led to a new category of citizen-generated health data, which are collected through sensors and user inputs. As more parameters are measured over longer time periods, these data will gradually become more important for disease prediction, care, and research than classical clinic-generated health data. Policymakers now recognize the potential of both data types in initiatives such as the European Health Data Space, which aims to enable data sharing for patient care and research at scale. Although it could be argued that clinic-generated data come from public-funded health systems and should therefore be sharable, after depersonalization, for public service, this argument extends poorly to data from wearables and applications. We propose a new approach for standardized health consent, both broad and dynamic, to overcome consent fatigue and engage citizens in data sharing.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40206306/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40206306.xml"
+    },
+    {
+      "study_id": "40251342",
+      "pmid": "40251342",
+      "title": "Genomic language models could transform medicine but not yet.",
+      "authors": "Consens Micaela Elisa et al.",
+      "authors_list": [
+        "Consens Micaela Elisa",
+        "Li Ben",
+        "Poetsch Anna R",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Apr-18",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01603-4",
+      "abstract": "Recently, a genomic language model (gLM) with 40 billion parameters known as Evo2 has reached the same scale as the most powerful text large language models (LLMs). gLMs have been emerging as powerful tools to decode DNA sequences over the last five years. This article examines the emergence of gLMs and highlights Evo2 as a milestone in genomic language modeling, assessing both the scientific promise of gLMs and the practical challenges facing their implementation in medicine.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40251342/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40251342.xml"
+    },
+    {
+      "study_id": "40108434",
+      "pmid": "40108434",
+      "title": "Examining human-AI interaction in real-world healthcare beyond the laboratory.",
+      "authors": "Wekenborg Magdalena Katharina et al.",
+      "authors_list": [
+        "Wekenborg Magdalena Katharina",
+        "Gilbert Stephen",
+        "Kather Jakob Nikolas"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Mar-19",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01559-5",
+      "abstract": "Artificial Intelligence (AI) is revolutionizing healthcare, but its true impact depends on seamless human interaction. While most research focuses on technical metrics, we lack frameworks to measure the compatibility or synergy of real-world human-AI interactions in healthcare settings. We propose a multimodal toolkit combining ecological momentary assessment, quantitative observations, and baseline measurements to optimize AI implementation.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40108434/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40108434.xml"
+    },
+    {
+      "study_id": "40681675",
+      "pmid": "40681675",
+      "title": "Overcoming regulatory barriers to the implementation of AI agents in healthcare.",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Jayabalan Sanddhya",
+        "Kather Jakob N",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Oct",
+      "journal": "Nature medicine",
+      "journal_abbrev": "Nat Med",
+      "doi": "10.1038/s41591-025-03841-1",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40681675/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40681675.xml"
+    },
+    {
+      "study_id": "38051574",
+      "pmid": "38051574",
+      "title": "Assessment of a Digital Symptom Checker Tool's Accuracy in Suggesting Reproductive Health Conditions: Clinical Vignettes Study.",
+      "authors": "Peven Kimberly et al.",
+      "authors_list": [
+        "Peven Kimberly",
+        "Wickham Aidan P",
+        "Wilks Octavia",
+        "Kaplan Yusuf C",
+        "Marhol Andrei"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Dec-05",
+      "journal": "JMIR mHealth and uHealth",
+      "journal_abbrev": "JMIR Mhealth Uhealth",
+      "doi": "10.2196/46718",
+      "abstract": "BACKGROUND: Reproductive health conditions such as endometriosis, uterine fibroids, and polycystic ovary syndrome (PCOS) affect a large proportion of women and people who menstruate worldwide. Prevalence estimates for these conditions range from 5% to 40% of women of reproductive age. Long diagnostic delays, up to 12 years, are common and contribute to health complications and increased health care costs. Symptom checker apps provide users with information and tools to better understand their symptoms and thus have the potential to reduce the time to diagnosis for reproductive health conditions. OBJECTIVE: This study aimed to evaluate the agreement between clinicians and 3 symptom checkers (developed by Flo Health UK Limited) in assessing symptoms of endometriosis, uterine fibroids, and PCOS using vignettes. We also aimed to present a robust example of vignette case creation, review, and classification in the context of predeployment testing and validation of digital health symptom checker tools. METHODS: Independent general practitioners were recruited to create clinical case vignettes of simulated users for the purpose of testing each condition symptom checker; vignettes created for each condition contained a mixture of condition-positive and condition-negative outcomes. A second panel of general practitioners then reviewed, approved, and modified (if necessary) each vignette. A third group of general practitioners reviewed each vignette case and designated a final classification. Vignettes were then entered into the symptom checkers by a fourth, different group of general practitioners. The outcomes of each symptom checker were then compared with the final classification of each vignette to produce accuracy metrics including percent agreement, sensitivity, specificity, positive predictive value, and negative predictive value. RESULTS: A total of 24 cases were created per condition. Overall, exact matches between the vignette general practitioner classification and the symptom checker outcome were 83% (n=20) for endometriosis, 83% (n=20) for uterine fibroids, and 88% (n=21) for PCOS. For each symptom checker, sensitivity was reported as 81.8% for endometriosis, 84.6% for uterine fibroids, and 100% for PCOS; specificity was reported as 84.6% for endometriosis, 81.8% for uterine fibroids, and 75% for PCOS; positive predictive value was reported as 81.8% for endometriosis, 84.6% for uterine fibroids, 80% for PCOS; and negative predictive value was reported as 84.6% for endometriosis, 81.8% for uterine fibroids, and 100% for PCOS. CONCLUSIONS: The single-condition symptom checkers have high levels of agreement with general practitioner classification for endometriosis, uterine fibroids, and PCOS. Given long delays in diagnosis for many reproductive health conditions, which lead to increased medical costs and potential health complications for individuals and health care providers, innovative health apps and symptom checkers hold the potential to improve care pathways.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Endometriosis",
+        "Reproductive Health",
+        "Leiomyoma",
+        "Prevalence"
+      ],
+      "keywords": [
+        "accuracy",
+        "chatbot",
+        "clinical vignettes",
+        "digital health",
+        "digital health tool",
+        "eHealth apps",
+        "endometriosis",
+        "gynecology",
+        "mHealth",
+        "mobile health"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38051574/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38051574.xml"
+    },
+    {
+      "study_id": "38890404",
+      "pmid": "38890404",
+      "title": "Digital health technologies need regulation and reimbursement that enable flexible interactions and groupings.",
+      "authors": "Mathias Rebecca et al.",
+      "authors_list": [
+        "Mathias Rebecca",
+        "McCulloch Peter",
+        "Chalkidou Anastasia",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Jun-18",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01147-z",
+      "abstract": "Digital Health Technologies (DHTs) are being applied in a widening range of scenarios in medicine. We describe the emerging phenomenon of the grouping of individual DHTs, with a clinical use case and regulatory approval in their own right, into packages to perform specific clinical tasks in defined settings. Example groupings include suites of devices for remote monitoring, or for smart clinics. In this first article of a two-article series, we describe challenges in implementation and limitations in frameworks for the regulation, health technology assessment, and reimbursement of these device suites and linked novel care pathways.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38890404/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38890404.xml"
+    },
+    {
+      "study_id": "39251786",
+      "pmid": "39251786",
+      "title": "The regulatory status of health apps that employ gamification.",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Wrona Kamil J",
+        "de Snoeck Quentin",
+        "Hofmann Moritz",
+        "Melvin Tom"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Sep-09",
+      "journal": "Scientific reports",
+      "journal_abbrev": "Sci Rep",
+      "doi": "10.1038/s41598-024-71808-2",
+      "abstract": "Smartphone applications are one of the main delivery modalities in digital health. Many of these mHealth apps use gamification to engage users, improve user experience, and achieve better health outcomes. Yet, it remains unclear whether gamified approaches help to deliver effective, safe, and clinically beneficial products to users. This study examines the compliance of 69 gamified mHealth apps with the EU Medical Device Regulation and assesses the specific risks arising from the gamified nature of these apps. Of the identified apps, 32 (46.4%) were considered non-medical devices; seven (10.1%) were already cleared/approved by the regulatory authorities, and 31 (44.9%) apps were assessed as likely non-compliant or potentially non-compliant with regulatory requirements. These applications and one approved application were assessed as on the market without the required regulatory approvals. According to our analysis, a higher proportion of these apps would be classified as medical devices in the US. The level of risk posed by gamification remains ambiguous. While most apps showed only a weak link between the degree of gamification and potential risks, this link was stronger for those apps with a high degree of gamification or an immersive game experience.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Mobile Applications",
+        "Humans",
+        "Telemedicine",
+        "Smartphone",
+        "Video Games"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39251786/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39251786.xml"
+    },
+    {
+      "study_id": "38346876",
+      "pmid": "38346876",
+      "title": "Common practices for sociodemographic data reporting in digital mental health intervention research: a scoping review.",
+      "authors": "Kirvin-Quamme Andrew et al.",
+      "authors_list": [
+        "Kirvin-Quamme Andrew",
+        "Kissinger Jennifer",
+        "Quinlan Laurel",
+        "Montgomery Robert",
+        "Chernenok Mariya"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Feb-12",
+      "journal": "BMJ open",
+      "journal_abbrev": "BMJ Open",
+      "doi": "10.1136/bmjopen-2023-078029",
+      "abstract": "BACKGROUND: The ability of digital mental health interventions (DMHIs) to reduce mental health disparities relies on the recruitment of research participants with diverse sociodemographic and self-identity characteristics. Despite its importance, sociodemographic reporting in research is often limited, and the state of reporting practices in DMHI research in particular has not been comprehensively reviewed. OBJECTIVES: To characterise the state of sociodemographic data reported in randomised controlled trials (RCTs) of app-based DMHIs published globally from 2007 to 2022. METHODS: A scoping review of RCTs of app-based DMHIs examined reporting frequency for 16 sociodemographic domains (eg, gender) and common category options within each domain (eg, woman). The search queried five electronic databases. 5079 records were screened and 299 articles were included. RESULTS: On average, studies reported 4.64 (SD=1.79; range 0-9) of 16 sociodemographic domains. The most common were age (97%) and education (67%). The least common were housing situation (6%), residency/location (5%), veteran status (4%), number of children (3%), sexual orientation (2%), disability status (2%) and food security (<1%). Gender or sex was reported in 98% of studies: gender only (51%), sex only (28%), both (<1%) and gender/sex reported but unspecified (18%). Race or ethnicity was reported in 48% of studies: race only (14%), ethnicity only (14%), both (10%) and race/ethnicity reported but unspecified (10%). CONCLUSIONS: This review describes the widespread underreporting of sociodemographic information in RCTs of app-based DMHIs published from 2007 to 2022. Reporting was often incomplete (eg, % female only), unclear (eg, the conflation of gender/sex) and limited (eg, only options representing majority groups were reported). Trends suggest reporting has somewhat improved in recent years. Diverse participant populations must be welcomed and described in DMHI research to broaden learning and the generalisability of results, a prerequisite of DMHI's potential to reduce disparities in mental healthcare.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Scoping Review"
+      ],
+      "mesh_terms": [
+        "Child",
+        "Female",
+        "Humans",
+        "Male",
+        "Gender Identity",
+        "Housing",
+        "Mental Health",
+        "Research Design"
+      ],
+      "keywords": [
+        "Health Equity",
+        "MENTAL HEALTH",
+        "Randomized Controlled Trial",
+        "Systematic Review"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38346876/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38346876.xml"
+    },
+    {
+      "study_id": "39169161",
+      "pmid": "39169161",
+      "title": "FDA launches health care at home initiative to drive equity in digital medical care.",
+      "authors": "Brückner Stefanie et al.",
+      "authors_list": [
+        "Brückner Stefanie",
+        "Brightwell Celia",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Aug-21",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01198-2",
+      "abstract": "A highly ambitious FDA initiative will explore, through a hub and ideas lab, how equitable healthcare at home can be delivered, recognizing that this is unlikely to come about without intervention. Market forces, as shaped by current regulations, are leading to digital health tools developed and operating in islands rather than enabling integrated digital care. Can the initiative, which adopts system-level regulatory thinking, solve this issue?",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39169161/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39169161.xml"
+    },
+    {
+      "study_id": "40885802",
+      "pmid": "40885802",
+      "title": "Enabling secure and self determined health data sharing and consent management.",
+      "authors": "Welzel Cindy et al.",
+      "authors_list": [
+        "Welzel Cindy",
+        "Ostermann Max",
+        "Smith Hannah Louise",
+        "Minssen Timo",
+        "Kirsten Toralf"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Aug-30",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01945-z",
+      "abstract": "Digital health tools generate vast sensitive data not only in clinic but also from apps and wearables. Effective consent management builds trust, increasing willingness for data sharing. We present a novel early-stage conceptual framework, reviewing technologies like blockchain, self-sovereign identity, and de-identified tokens for integration into a consent management system to enable tracking of consent and data utilization. This balances data access and privacy to encourage data sharing and improve healthcare.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40885802/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40885802.xml"
+    },
+    {
+      "study_id": "41350404",
+      "pmid": "41350404",
+      "title": "If a therapy bot walks like a duck and talks like a duck then it is a medically regulated duck.",
+      "authors": "Ostermann Max et al.",
+      "authors_list": [
+        "Ostermann Max",
+        "Freyer Oscar",
+        "Verhees F Gerrik",
+        "Kather Jakob Nikolas",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Dec-05",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-02175-z",
+      "abstract": "Large language models (LLMs) are increasingly used for mental health interactions, often mimicking therapeutic behaviour without regulatory oversight. Documented harms, including suicides, highlight the urgent need for stronger safeguards. This manuscript argues that LLMs providing therapy-like functions should be regulated as medical devices, with standards ensuring safety, transparency and accountability. Pragmatic regulation is essential to protect vulnerable users and maintain the credibility of digital health interventions.",
+      "publication_types": [
+        "Letter"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41350404/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/41350404.xml"
+    },
+    {
+      "study_id": "39546536",
+      "pmid": "39546536",
+      "title": "A transparent and standardized performance measurement platform is needed for on-prescription digital health apps to enable ongoing performance monitoring.",
+      "authors": "Welzel Cindy et al.",
+      "authors_list": [
+        "Welzel Cindy",
+        "Brückner Stefanie",
+        "Brightwell Celia",
+        "Fenech Matthew",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Nov",
+      "journal": "PLOS digital health",
+      "journal_abbrev": "PLOS Digit Health",
+      "doi": "10.1371/journal.pdig.0000656",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39546536/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39546536.xml"
+    },
+    {
+      "study_id": "40084159",
+      "pmid": "40084159",
+      "title": "Editorial: Digital twins in medicine-transition from theoretical concept to tool used in everyday care.",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Drummond David",
+        "Cotte Fabienne",
+        "Ziemssen Tjalf"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025",
+      "journal": "Frontiers in digital health",
+      "journal_abbrev": "Front Digit Health",
+      "doi": "10.3389/fdgth.2025.1573727",
+      "abstract": "",
+      "publication_types": [
+        "Editorial"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "artificial intelligence",
+        "clinical decision support",
+        "digital twin",
+        "personalised medicine",
+        "precision medicine",
+        "prediction model"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40084159/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40084159.xml"
+    },
+    {
+      "study_id": "37058329",
+      "pmid": "37058329",
+      "title": "Learning From Experience and Finding the Right Balance in the Governance of Artificial Intelligence and Digital Health Technologies.",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Anderson Stuart",
+        "Daumer Martin",
+        "Li Phoebe",
+        "Melvin Tom"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Apr-14",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/43682",
+      "abstract": "Artificial intelligence (AI) and machine learning medical tools have the potential to be transformative in care delivery; however, this change will only be realized if accompanied by effective governance that ensures patient safety and public trust. Recent digital health initiatives have called for tighter governance of digital health. A correct balance must be found between ensuring product safety and performance while also enabling the innovation needed to deliver better approaches for patients and affordable efficient health care for society. This requires innovative, fit-for-purpose approaches to regulation. Digital health technologies, particularly AI-based tools, pose specific challenges to the development and implementation of functional regulation. The approaches of regulatory science and \"better regulation\" have a critical role in developing and evaluating solutions to these problems and ensuring effective implementation. We describe the divergent approaches of the European Union and the United States in the implementation of new regulatory approaches in digital health, and we consider the United Kingdom as a third example, which is in a unique position of developing a new post-Brexit regulatory framework.",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Artificial Intelligence",
+        "European Union",
+        "United Kingdom",
+        "Delivery of Health Care",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "algorithm change protocol",
+        "artificial intelligence",
+        "health care",
+        "implementation",
+        "intervention",
+        "machine learning",
+        "medical tool",
+        "patient",
+        "performance",
+        "regulation"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37058329/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/37058329.xml"
+    },
+    {
+      "study_id": "41298895",
+      "pmid": "41298895",
+      "title": "A user-driven consent platform for health data sharing in digital health applications.",
+      "authors": "Brückner Stefanie et al.",
+      "authors_list": [
+        "Brückner Stefanie",
+        "Dridi Akrem",
+        "Deshmukh Aniruddha",
+        "Kirsten Toralf",
+        "Lauber-Rönsberg Anne"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Nov-26",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-02147-3",
+      "abstract": "Wearable and health app data hold significant potential for healthcare and research, yet fragmented consent mechanisms create challenges for ethical, transparent, and user-controlled data sharing. We describe a centralised consent management system with a structured approach to standardising health data sharing, ensuring regulatory compliance and improving user autonomy. We describe implementation requirements of the system, emphasising regulatory alignment, involvement of app developers, user empowerment, and governance by neutral public bodies.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41298895/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/41298895.xml"
+    },
+    {
+      "study_id": "40341720",
+      "pmid": "40341720",
+      "title": "Reconciling security and care in digital medicine.",
+      "authors": "Carboni Chiara et al.",
+      "authors_list": [
+        "Carboni Chiara",
+        "Brightwell Celia",
+        "Halpern Orit",
+        "Freyer Oscar",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-May-08",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01685-0",
+      "abstract": "Common approaches to cybersecurity frame end users as the weakest link in a system. In this Perspective, we argue that appraising end users as contributors to security can help reconcile both security and care practices. Through two case studies, including Swedish hospitals and a UK smart-home system, we demonstrate the gaps between established security protocols and the daily reality of care practices, and outline approaches to reconcile security and care.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40341720/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40341720.xml"
+    },
+    {
+      "study_id": "39905271",
+      "pmid": "39905271",
+      "title": "Safe AI-enabled digital health technologies need built-in open feedback.",
+      "authors": "Mathias Rebecca et al.",
+      "authors_list": [
+        "Mathias Rebecca",
+        "Vasey Baptiste",
+        "Chalkidou Anastasia",
+        "Riedemann Lars",
+        "Melvin Tom"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Feb",
+      "journal": "Nature medicine",
+      "journal_abbrev": "Nat Med",
+      "doi": "10.1038/s41591-024-03397-6",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39905271/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39905271.xml"
+    },
+    {
+      "study_id": "38956279",
+      "pmid": "38956279",
+      "title": "How can regulation and reimbursement better accommodate flexible suites of digital health technologies?",
+      "authors": "Mathias Rebecca et al.",
+      "authors_list": [
+        "Mathias Rebecca",
+        "McCulloch Peter",
+        "Chalkidou Anastasia",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Jul-02",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01156-y",
+      "abstract": "Individual digital health devices are increasingly being bundled together as interacting, multicomponent suites, to deliver clinical services (e.g., teleconsultation and ‘hospital-at-home services’). In the first article of this two-article series we described the challenges in implementation and the current limitations in frameworks for the regulation, health technology assessment, and reimbursement of these device suites and linked novel care pathways. A flexible and fit-for-purpose evaluation framework that can analyze the strengths and weaknesses of digital technology suites is needed. In this second article we describe adaptations that could enable this new technological paradigm while maintaining patient safety and fair value.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38956279/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38956279.xml"
+    },
+    {
+      "study_id": "39308156",
+      "pmid": "39308156",
+      "title": "Integrating large language models in care, research, and education in multiple sclerosis management.",
+      "authors": "Inojosa Hernan et al.",
+      "authors_list": [
+        "Inojosa Hernan",
+        "Voigt Isabel",
+        "Wenk Judith",
+        "Ferber Dyke",
+        "Wiest Isabella"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Oct",
+      "journal": "Multiple sclerosis (Houndmills, Basingstoke, England)",
+      "journal_abbrev": "Mult Scler",
+      "doi": "10.1177/13524585241277376",
+      "abstract": "Use of techniques derived from generative artificial intelligence (AI), specifically large language models (LLMs), offer a transformative potential on the management of multiple sclerosis (MS). Recent LLMs have exhibited remarkable skills in producing and understanding human-like texts. The integration of AI in imaging applications and the deployment of foundation models for the classification and prognosis of disease course, including disability progression and even therapy response, have received considerable attention. However, the use of LLMs within the context of MS remains relatively underexplored. LLMs have the potential to support several activities related to MS management. Clinical decision support systems could help selecting proper disease-modifying therapies; AI-based tools could leverage unstructured real-world data for research or virtual tutors may provide adaptive education materials for neurologists and people with MS in the foreseeable future. In this focused review, we explore practical applications of LLMs across the continuum of MS management as an initial scope for future analyses, reflecting on regulatory hurdles and the indispensable role of human supervision.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Multiple Sclerosis",
+        "Artificial Intelligence",
+        "Decision Support Systems, Clinical",
+        "Disease Management"
+      ],
+      "keywords": [
+        "Multiple sclerosis",
+        "applications",
+        "artificial intelligence",
+        "disease management",
+        "large language models (LLMs)"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39308156/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39308156.xml"
+    },
+    {
+      "study_id": "41519681",
+      "pmid": "41519681",
+      "title": "Are we heading towards a cybersecurity crisis in health care and are actions needed?",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Rajput Kunal",
+        "Ostermann Max",
+        "Gilbert Stephen",
+        "Ghafur Saira"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jan",
+      "journal": "The Lancet. Digital health",
+      "journal_abbrev": "Lancet Digit Health",
+      "doi": "10.1016/j.landig.2025.100946",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41519681/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/41519681.xml"
+    },
+    {
+      "study_id": "40437023",
+      "pmid": "40437023",
+      "title": "How secure are your health devices-stopping wearables becoming a personal and national security risk?",
+      "authors": "Ostermann Max et al.",
+      "authors_list": [
+        "Ostermann Max",
+        "Freyer Oscar",
+        "Weinhold Carsten",
+        "Martius Kai",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-May-28",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01710-2",
+      "abstract": "Wearable medical devices are becoming increasingly common in everyday life, and thus is the reliance on them, the data they generate, and the resulting treatment plans. However, recent events in the supply chains of other devices have shown the catastrophic outcomes manipulation of them can have. In this article we showcase the importance of supply chain cybersecurity for medical devices and describe measures that can mitigate these risks.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40437023/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40437023.xml"
+    },
+    {
+      "study_id": "38291217",
+      "pmid": "38291217",
+      "title": "New regulatory thinking is needed for AI-based personalised drug and cell therapies in precision oncology.",
+      "authors": "Derraz Bouchra et al.",
+      "authors_list": [
+        "Derraz Bouchra",
+        "Breda Gabriele",
+        "Kaempf Christoph",
+        "Baenke Franziska",
+        "Cotte Fabienne"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Jan-30",
+      "journal": "NPJ precision oncology",
+      "journal_abbrev": "NPJ Precis Oncol",
+      "doi": "10.1038/s41698-024-00517-w",
+      "abstract": "Until recently the application of artificial intelligence (AI) in precision oncology was confined to activities in drug development and had limited impact on the personalisation of therapy. Now, a number of approaches have been proposed for the personalisation of drug and cell therapies with AI applied to therapy design, planning and delivery at the patient's bedside. Some drug and cell-based therapies are already tuneable to the individual to optimise efficacy, to reduce toxicity, to adapt the dosing regime, to design combination therapy approaches and, preclinically, even to personalise the receptor design of cell therapies. Developments in AI-based healthcare are accelerating through the adoption of foundation models, and generalist medical AI models have been proposed. The application of these approaches in therapy design is already being explored and realistic short-term advances include the application to the personalised design and delivery of drugs and cell therapies. With this pace of development, the limiting step to adoption will likely be the capacity and appropriateness of regulatory frameworks. This article explores emerging concepts and new ideas for the regulation of AI-enabled personalised cancer therapies in the context of existing and in development governance frameworks.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38291217/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38291217.xml"
+    },
+    {
+      "study_id": "39718821",
+      "pmid": "39718821",
+      "title": "Consideration of Cybersecurity Risks in the Benefit-Risk Analysis of Medical Devices: Scoping Review.",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Jahed Fatemeh",
+        "Ostermann Max",
+        "Rosenzweig Christian",
+        "Werner Pascal"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Dec-24",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/65528",
+      "abstract": "BACKGROUND: The integration of connected medical devices (MDs) into health care brings benefits but also introduces new, often challenging-to-assess risks related to cybersecurity, which have the potential to harm patients. Current regulations in the European Union and the United States mandate the consideration of these risks in the benefit-risk analysis (BRA) required for MD approval. This important step in the approval process weighs all the defined benefits of a device with its anticipated risks to ensure that the product provides a positive argument for use. However, there is limited guidance on how cybersecurity risks should be systematically evaluated and incorporated into the BRA. OBJECTIVE: This scoping review aimed to identify current legal frameworks, guidelines, and standards in the United States, Canada, South Korea, Singapore, Australia, the United Kingdom, and the European Union on how cybersecurity risks should be considered in the BRA of MDs. METHODS: This scoping review followed the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) framework. A systematic literature search of 10 databases was conducted in two phases on July 3, 2024 and September 30, 2024, including the guidance databases of the Food and Drug Administration, the Medical Device Coordination Group, and other International Medical Device Regulators Forum members; the International Medical Device Regulators Forum database; PubMed; and Scopus. Search terms included \"cybersecurity,\" \"security,\" \"benefit/risk,\" \"benefit-risk,\" and \"risk-benefit.\" Additional references were identified via citation searching and expert interviews. Inclusion criteria were met if a document was a guideline or standard in force that provided guidance on the BRA or cybersecurity risks of MDs. Documents were excluded when they were not relevant to MDs, they were limited to a subclass of devices, they were about in vitro diagnostic MDs or investigational devices, and the content of the source was insufficient to undertake a scientific analysis. Data were extracted and analyzed using MAXQDA 2022, and the findings were narratively summarized and visualized in figures and tables. RESULTS: The search identified 150 documents, with 34 (22.7%) meeting the inclusion criteria. These 34 documents included 4 (12%) regulations, 5 (15%) standards, 6 (18%) technical reports, and 19 (56%) guidance documents. While cybersecurity risks were acknowledged in most documents, detailed methods for their integration into the BRA were lacking. Some standards and guidelines provided examples of how to consider cybersecurity risks in the BRA, but a comprehensive and standardized approach was lacking. CONCLUSIONS: This review highlights a substantial gap between the recognition of cybersecurity risks in MDs and the guidance on their incorporation into the BRA. Standardized frameworks are needed to provide clear methods for evaluating cybersecurity risks and their impact on the safety and security of MDs.",
+      "publication_types": [
+        "Journal Article",
+        "Scoping Review",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Computer Security",
+        "Humans",
+        "Equipment and Supplies",
+        "Risk Assessment",
+        "United States",
+        "European Union",
+        "Canada"
+      ],
+      "keywords": [
+        "benefit-risk analysis",
+        "connected medical devices",
+        "cybersecurity",
+        "patient safety",
+        "regulation",
+        "risk management",
+        "vulnerability assessment"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39718821/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39718821.xml"
+    },
+    {
+      "study_id": "41145602",
+      "pmid": "41145602",
+      "title": "Do we need AI guardians to protect us from health information overload?",
+      "authors": "Mahajan Arjun et al.",
+      "authors_list": [
+        "Mahajan Arjun",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Oct-27",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-02093-0",
+      "abstract": "The rise of digital health technologies has provided individuals with unprecedented access to biometric data and health insights. However, excess monitoring may contribute to fatigue, anxiety, and information overload, sometimes reducing engagement and worsening outcomes. This article explores how artificial intelligence-enabled assistants might help address this challenge by filtering, contextualizing, and personalizing health information, potentially supporting informed self-management while mitigating some unintended harms of digital health technologies.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41145602/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/41145602.xml"
+    },
+    {
+      "study_id": "40206992",
+      "pmid": "40206992",
+      "title": "Policing the Boundary Between Responsible and Irresponsible Placing on the Market of Large Language Model Health Applications.",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Wiest Isabella C",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Mar",
+      "journal": "Mayo Clinic proceedings. Digital health",
+      "journal_abbrev": "Mayo Clin Proc Digit Health",
+      "doi": "10.1016/j.mcpdig.2025.100196",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40206992/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40206992.xml"
+    },
+    {
+      "study_id": "38062115",
+      "pmid": "38062115",
+      "title": "Bridging between hype and implementation in medical extended reality.",
+      "authors": "Freyer Oscar et al.",
+      "authors_list": [
+        "Freyer Oscar",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Dec-07",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-023-00972-y",
+      "abstract": "The path to market and to a meaningful impact on care delivery for medical extended reality (MXR) is challenging, due to limitations with current display technologies and as the MXR approach is far away from the traditional practice of medicine and the daily experience of most patients or healthcare providers. Focused conferences, which bring together all stakeholders for free communication and the brainstorming of optimal approaches to design, validation, and regulatory approval are important and are being organized by the clinician-enthusiast and developer community. These conferences and the community spirit they inspire are models for other digital health subdomains.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38062115/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38062115.xml"
+    },
+    {
+      "study_id": "38654142",
+      "pmid": "38654142",
+      "title": "Augmented non-hallucinating large language models as medical information curators.",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Kather Jakob Nikolas",
+        "Hogan Aidan"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Apr-23",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01081-0",
+      "abstract": "Reliably processing and interlinking medical information has been recognized as a critical foundation to the digital transformation of medical workflows, and despite the development of medical ontologies, the optimization of these has been a major bottleneck to digital medicine. The advent of large language models has brought great excitement, and maybe a solution to the medicines’ ‘communication problem’ is in sight, but how can the known weaknesses of these models, such as hallucination and non-determinism, be tempered? Retrieval Augmented Generation, particularly through knowledge graphs, is an automated approach that can deliver structured reasoning and a model of truth alongside LLMs, relevant to information structuring and therefore also to decision support.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38654142/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38654142.xml"
+    },
+    {
+      "study_id": "39284871",
+      "pmid": "39284871",
+      "title": "How might Hospital at Home enable a greener and healthier future?",
+      "authors": "Powell Dylan et al.",
+      "authors_list": [
+        "Powell Dylan",
+        "Burrows Fanny",
+        "Lewis Geraint",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Sep-16",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01249-8",
+      "abstract": "Traditional healthcare delivery models face mounting pressure from rising costs, increasing demand, and a growing environmental footprint. Hospital at Home (HaH) has been proposed as a potential solution, offering care at home through in-person, virtual, or hybrid approaches. Despite focus on expanding HaH provision and capacity, research has primarily explored patient care outcomes, patient satisfaction economic costs with a key gap in its environmental impact. By reducing this evidence gap, HaH may be better placed as a positive enabler in delivering healthier planet and population. This article explores the environmental opportunities and challenges associated with HaH compared to traditional hospital care and reinforces the case for further research to comprehensively quantify the environmental impact including any co-benefits. Our aim for this article is to spark conversation, and begin to help prioritise future research and analysis.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39284871/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39284871.xml"
+    },
+    {
+      "study_id": "38509171",
+      "pmid": "38509171",
+      "title": "Can we learn from an imagined ransomware attack on a hospital at home platform?",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Ricciardi Francesco",
+        "Mehrali Tauseef",
+        "Patsakis Constantinos"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Mar-20",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01044-5",
+      "abstract": "The hospital at home concept integrates key digital medicine technologies and concepts in a single platform approach, with telemedicine, wearables, and sensors. It could bring benefits to patients, who face lower risks from hospital infections and who want to be at home with their loved ones. Moreover, it may lead to efficiency savings, through its seamless integration of data flows, and therefore is likely to be an increasingly implemented model. But what happens when the platform succumbs to exploited platform/infrastructure vulnerabilities or cyber attacks like ransomware that have been weaponized to bring networked systems crashing down? Exploring the attack modes and their consequences could help prioritize adequate safeguards.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38509171/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38509171.xml"
+    },
+    {
+      "study_id": "40874831",
+      "pmid": "40874831",
+      "title": "Medical Expert Knowledge Meets AI to Enhance Symptom Checker Performance for Rare Disease Identification in Fabry Disease: Mixed Methods Study.",
+      "authors": "Pankow Anne et al.",
+      "authors_list": [
+        "Pankow Anne",
+        "Meißner-Bendzko Nico",
+        "Kaufeld Jessica",
+        "Fouquette Laura",
+        "Cotte Fabienne"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Aug-28",
+      "journal": "JMIR AI",
+      "journal_abbrev": "JMIR AI",
+      "doi": "10.2196/55001",
+      "abstract": "BACKGROUND: Rare diseases, which affect millions of people worldwide, pose a major challenge, as it often takes years before an accurate diagnosis can be made. This delay results in substantial burdens for patients and health care systems, as misdiagnoses lead to inadequate treatment and increased costs. Artificial intelligence (AI)-powered symptom checkers (SCs) present an opportunity to flag rare diseases earlier in the diagnostic work-up. However, these tools are primarily based on published literature, which often contains incomplete data on rare diseases, resulting in compromised diagnostic accuracy. Integrating expert interview insights into SC models may enhance their performance, ensuring that rare diseases are considered sooner and diagnosed more accurately. OBJECTIVE: The objectives of our study were to incorporate expert interview vignettes into AI-powered SCs, in addition to a traditional literature review, and to evaluate whether this novel approach improves diagnostic accuracy and user satisfaction for rare diseases, focusing on Fabry disease. METHODS: This mixed methods prospective pilot study was conducted at Hannover Medical School, Germany. In the first phase, guided interviews were conducted with medical experts specialized in Fabry disease to create clinical vignettes that enriched the AI SC's Fabry disease model. In the second phase, adult patients with a confirmed diagnosis of Fabry disease used both the original and optimized SC versions in a randomized order. The versions, containing either the original or the optimized Fabry disease model, were evaluated based on diagnostic accuracy and user satisfaction, which were assessed through questionnaires. RESULTS: Three medical experts with extensive experience in lysosomal storage disorder Fabry disease contributed to the creation of 5 clinical vignettes, which were integrated into the AI-powered SC. The study compared the original and optimized SC versions in 6 patients with Fabry disease. The optimized version improved diagnostic accuracy, with Fabry disease identified as the top suggestion in 33% (2/6) of cases, compared to 17% (1/6) with the original model. Additionally, overall user satisfaction was higher for the optimized version, with participants rating it more favorably in terms of symptom coverage and completeness. CONCLUSIONS: This study demonstrates that integrating expert-derived clinical vignettes into AI-powered SCs can improve diagnostic accuracy and user satisfaction, particularly for rare diseases. The optimized SC version, which incorporated these vignettes, showed improved performance in identifying Fabry disease as a top diagnostic suggestion and received higher user satisfaction ratings compared to the original version. To fully realize the potential of this approach, it is crucial to include vignettes representing atypical presentations and to conduct larger-scale studies to validate these findings.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "AI",
+        "Fabry disease",
+        "Gaucher disease",
+        "Pompe disease",
+        "app",
+        "artificial intelligence",
+        "clinical database",
+        "clinical vignettes",
+        "interviews",
+        "lysosomal"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40874831/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40874831.xml"
+    },
+    {
+      "study_id": "39604549",
+      "pmid": "39604549",
+      "title": "The path forward for large language models in medicine is open.",
+      "authors": "Riedemann Lars et al.",
+      "authors_list": [
+        "Riedemann Lars",
+        "Labonne Maxime",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Nov-27",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01344-w",
+      "abstract": "Large language models (LLMs) are increasingly applied in medical documentation and have been proposed for clinical decision support. We argue that the future for LLMs in medicine must be based on transparent and controllable open-source models. Openness enables medical tool developers to control the safety and quality of underlying AI models, while also allowing healthcare professionals to hold these models accountable. For these reasons, the future is open.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39604549/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39604549.xml"
+    },
+    {
+      "study_id": "37649106",
+      "pmid": "37649106",
+      "title": "Can ChatGPT explain it? Use of artificial intelligence in multiple sclerosis communication.",
+      "authors": "Inojosa Hernan et al.",
+      "authors_list": [
+        "Inojosa Hernan",
+        "Gilbert Stephen",
+        "Kather Jakob Nikolas",
+        "Proschmann Undine",
+        "Akgün Katja"
+      ],
+      "publication_year": "2023",
+      "publication_date": "2023-Aug-31",
+      "journal": "Neurological research and practice",
+      "journal_abbrev": "Neurol Res Pract",
+      "doi": "10.1186/s42466-023-00270-8",
+      "abstract": "",
+      "publication_types": [
+        "Letter"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37649106/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/37649106.xml"
+    },
+    {
+      "study_id": "38778162",
+      "pmid": "38778162",
+      "title": "The EU passes the AI Act and its implications for digital medicine are unclear.",
+      "authors": "Gilbert Stephen",
+      "authors_list": [
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-May-22",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01116-6",
+      "abstract": "On 13 March 2024, the much-anticipated AI Act was passed by the EU parliament and will soon be adopted as EU law. It will apply new requirements for developers and deployers of AI-enabled digital health tools (DHTs), including for a defined class of high-risk AI systems and for general-purpose AI. Although the text of the law is available, complete in all but the final checks of legal wording much is still not known about how the AI Act will affect the digital health landscape in the EU and beyond. The wording of many aspects of the Act is ambiguous, and often high-level objectives are stated, with the detail to come later in associated guidance, standards, and member state law and policy. It is also uncertain how the Act will intersect with pre-existing sector-specific legislation for medical AI. There are future steps in the legislative process that can clarify ambiguity, including standards, guidelines, and implementing laws, and the author remains optimistic the EU will get the implementation right.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38778162/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38778162.xml"
+    },
+    {
+      "study_id": "40599675",
+      "pmid": "40599675",
+      "title": "Factors influencing patients' willingness to share their digital health data for primary and secondary use: A theory- and evidence-based overview of reviews.",
+      "authors": "Fesl Sabrina et al.",
+      "authors_list": [
+        "Fesl Sabrina",
+        "Lang Caroline",
+        "Schmitt Jochen",
+        "Brückner Stefanie",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025",
+      "journal": "Digital health",
+      "journal_abbrev": "Digit Health",
+      "doi": "10.1177/20552076251340254",
+      "abstract": "BACKGROUND: The sharing of health data (HD) remains intensely debated, such as in the context of the European Health Data Space. While HD sharing has great potential, the factors influencing patients' willingness to share their HD remain unclear. Understanding patients' perspectives is crucial to enhancing their motivation to share their HD, both with healthcare providers (primary use [PU]) and for purposes unrelated to patient care (secondary use [SU]). OBJECTIVE: This overview of systematic reviews (SRs) synthesizes and qualitatively appraises available research on factors affecting patients' willingness to share their digital HD for PU and SU. METHODS: The MEDLINE, Embase, and Scopus literature databases were searched in June 2023, complemented by additional searches, to identify SRs focusing on the determinants of patients' willingness to share HD published from 2013 to 2023. SRs underwent a multistage screening process using the inclusion and exclusion criteria based on the Population, Concept/Construct, and Context (PCC) framework, followed by data extraction and quality assessment using revised measurement tool to assess systematic reviews (R-AMSTAR2). Factors were categorized through a combined deductive-inductive thematic coding process, considering theories on HD sharing and technology acceptance. RESULTS: Eleven SRs published between 2014 and 2021 were included, encompassing 321 articles with diverse study designs. Forty-one influencing factors (labeled as facilitators, barriers and inconsistent for unclassifiable factors) were identified and grouped into 15 main categories: 22 facilitators, nine barriers, and four inconsistent factors for PU and 13 facilitators, six barriers, and six inconsistent factors for SU. The key facilitators for PU and SU included higher education, trust, confidentiality, and transparency. The major barriers for PU and SU were privacy and security concerns. The R-AMSTAR2 overall confidence rating of all SRs was critically low. CONCLUSION: Our findings highlight modifiable and nonmodifiable factors affecting patients' willingness to share their HD. Policymakers and healthcare providers should focus on modifiable factors such as individual usefulness, public benefit, and privacy and security concerns. High-quality SRs are urgently needed to provide reliable recommendations and to develop a holistic, practical framework. PROTOCOL REGISTRATION NUMBER: CRD42023429302.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "electronic health records",
+        "health data",
+        "health information exchange",
+        "informed consent",
+        "medical informatics",
+        "medical records",
+        "patient participation",
+        "patient portals",
+        "personal health records",
+        "technology acceptance model"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40599675/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40599675.xml"
+    },
+    {
+      "study_id": "38567094",
+      "pmid": "38567094",
+      "title": "From research to reality: The role of artificial intelligence applications in HCC care.",
+      "authors": "Wiest Isabella C et al.",
+      "authors_list": [
+        "Wiest Isabella C",
+        "Gilbert Stephen",
+        "Kather Jakob N"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024",
+      "journal": "Clinical liver disease",
+      "journal_abbrev": "Clin Liver Dis (Hoboken)",
+      "doi": "10.1097/CLD.0000000000000136",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38567094/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38567094.xml"
+    },
+    {
+      "study_id": "38879640",
+      "pmid": "38879640",
+      "title": "Learnings from the first AI-enabled skin cancer device for primary care authorized by FDA.",
+      "authors": "Venkatesh Kaushik P et al.",
+      "authors_list": [
+        "Venkatesh Kaushik P",
+        "Kadakia Kushal T",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Jun-15",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01161-1",
+      "abstract": "The U.S. Food and Drug Administration’s (FDA) recent authorization of DermaSensor, an AI-enabled device for skin cancer detection in primary care, marks a pivotal moment in digital health innovation. Clinically, the authorization of the first AI-enabled device for use by non-specialists for detecting skin cancer reinforces the feasibility of digital health technologies to bridge gaps in access and expertise in medical practice. The authorization also establishes a new regulatory precedent for FDA authorization of medical devices incorporating AI and machine learning (ML) technologies within dermatology. Together, this article uses the DermaSensor authorization to examine the clinical evidence and regulatory implications of emerging AI-enabled technologies in dermatology.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38879640/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38879640.xml"
+    },
+    {
+      "study_id": "39915308",
+      "pmid": "39915308",
+      "title": "CORE-MD clinical risk score for regulatory evaluation of artificial intelligence-based medical device software.",
+      "authors": "Rademakers Frank E et al.",
+      "authors_list": [
+        "Rademakers Frank E",
+        "Biasin Elisabetta",
+        "Bruining Nico",
+        "Caiani Enrico G",
+        "Davies Rhodri H"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Feb-06",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01459-8",
+      "abstract": "The European CORE-MD consortium (Coordinating Research and Evidence for Medical Devices) proposes a score for medical devices incorporating artificial intelligence or machine learning algorithms. Its domains are summarised as valid clinical association, technical performance, and clinical performance. High scores indicate that extensive clinical investigations should be undertaken before regulatory approval, whereas lower scores indicate devices for which less pre-market clinical evaluation may be balanced by more post-market evidence.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39915308/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39915308.xml"
+    },
+    {
+      "study_id": "40000736",
+      "pmid": "40000736",
+      "title": "Could transparent model cards with layered accessible information drive trust and safety in health AI?",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Adler Rasmus",
+        "Holoyad Taras",
+        "Weicken Eva"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Feb-25",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01482-9",
+      "abstract": "We place ‘Model Cards’ and graphical ‘nutrition labels’ for health AI in context with the information needs of patients, health care providers and deployers. We discuss the applicability of Model Cards for General Purpose AI (GPAI) models. If these approaches are to be useful and safe they need to be integrated with regulatory approaches and linked to deeper layers of open and detailed model information and optimized through user testing.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40000736/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40000736.xml"
+    },
+    {
+      "study_id": "39587223",
+      "pmid": "39587223",
+      "title": "Artificial Intelligence awarded two Nobel Prizes for innovations that will shape the future of medicine.",
+      "authors": "Li Ben et al.",
+      "authors_list": [
+        "Li Ben",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Nov-25",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01345-9",
+      "abstract": "John J. Hopfield and Geoffrey E. Hinton were awarded the 2024 Nobel Prize in Physics for developing machine learning technology using artificial neural networks. In Chemistry it was awarded to Demis Hassabis and John M. Jumper for developing an AI algorithm that solved the 50-year protein structure prediction challenge. This highlights AI’s impact on science, medicine and society; however, the winners acknowledge ethical aspects of AI that must be considered.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39587223/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/39587223.xml"
+    },
+    {
+      "study_id": "38347159",
+      "pmid": "38347159",
+      "title": "Citizen data sovereignty is key to wearables and wellness data reuse for the common good.",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Baca-Motes Katie",
+        "Quer Giorgio",
+        "Wiedermann Marc",
+        "Brockmann Dirk"
+      ],
+      "publication_year": "2024",
+      "publication_date": "2024-Feb-12",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-024-01004-z",
+      "abstract": "Smartphones, smartwatches, linked wearables, and associated wellness apps have had rapid uptake. These tools become ever ‘smarter’ in sensing intimate aspects of our surroundings and physiology over time, including activity, metabolites, electrical signals, blood pressure and oxygenation. Proposed EU law stipulates the ‘involuntary donation’ of depersonalized health and wellness data. There has been pushback against the ever-increasing gathering and sharing of wellness data in this context, increasing with every app purchased or updated. Is the potential of this data now lost to research? Consent-led COVID-19 data donation projects signpost a participative, standardized, and scalable approach to data sharing.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38347159/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/38347159.xml"
+    },
+    {
+      "study_id": "40159538",
+      "pmid": "40159538",
+      "title": "Attitudes of healthcare professionals and researchers toward wearable and app derived patient generated health data.",
+      "authors": "Brückner Stefanie et al.",
+      "authors_list": [
+        "Brückner Stefanie",
+        "Sadare Olamide",
+        "Fesl Sabrina",
+        "Scheibe Madlen",
+        "Lang Caroline"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025-Mar-30",
+      "journal": "NPJ digital medicine",
+      "journal_abbrev": "NPJ Digit Med",
+      "doi": "10.1038/s41746-025-01568-4",
+      "abstract": "Patient-generated health data (PGHD) from apps and wearables hold significant potential for enhancing personalised care and medical research. Healthcare professionals (HCPs) are key to its successful adoption, as their attitudes can either support or hinder its integration into clinical practice. This review systematically analysed studies on HCPs' and researchers' perspectives on PGHD for clinical and research use. Three databases were searched for articles published between January 2013 and April 2023. Of 246 articles screened, 33 met the inclusion criteria. While most participants viewed PGHD positively, concerns around data security, reliability, and workflow integration persist. Addressing these barriers is essential to maximising PGHD's benefits for participatory medicine and improved clinical outcomes. The included studies presented medium methodological quality, particularly among quantitative and mixed methods with risks of sampling and nonresponse bias, and often low sample sizes in qualitative studies. However, recurring themes across studies allow a valuable interpretation of the findings.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40159538/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40159538.xml"
+    },
+    {
+      "study_id": "41986753",
+      "pmid": "41986753",
+      "title": "Global position statement supporting a World Health Assembly resolution on steatotic liver disease.",
+      "authors": "Lazarus Jeffrey V et al.",
+      "authors_list": [
+        "Lazarus Jeffrey V",
+        "Halpern Bruno",
+        "Schwarz Peter E H",
+        "Boudou Delfina",
+        "Van Spall Harriette G C"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Jun",
+      "journal": "Nature reviews. Gastroenterology & hepatology",
+      "journal_abbrev": "Nat Rev Gastroenterol Hepatol",
+      "doi": "10.1038/s41575-026-01201-z",
+      "abstract": "",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986753/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/41986753.xml"
+    },
+    {
+      "study_id": "34697010",
+      "pmid": "34697010",
+      "title": "Algorithm Change Protocols in the Regulation of Adaptive Machine Learning-Based Medical Devices.",
+      "authors": "Gilbert Stephen et al.",
+      "authors_list": [
+        "Gilbert Stephen",
+        "Fenech Matthew",
+        "Hirsch Martin",
+        "Upadhyay Shubhanan",
+        "Biasiucci Andrea"
+      ],
+      "publication_year": "2021",
+      "publication_date": "2021-Oct-26",
+      "journal": "Journal of medical Internet research",
+      "journal_abbrev": "J Med Internet Res",
+      "doi": "10.2196/30545",
+      "abstract": "One of the greatest strengths of artificial intelligence (AI) and machine learning (ML) approaches in health care is that their performance can be continually improved based on updates from automated learning from data. However, health care ML models are currently essentially regulated under provisions that were developed for an earlier age of slowly updated medical devices-requiring major documentation reshape and revalidation with every major update of the model generated by the ML algorithm. This creates minor problems for models that will be retrained and updated only occasionally, but major problems for models that will learn from data in real time or near real time. Regulators have announced action plans for fundamental changes in regulatory approaches. In this Viewpoint, we examine the current regulatory frameworks and developments in this domain. The status quo and recent developments are reviewed, and we argue that these innovative approaches to health care need matching innovative approaches to regulation and that these approaches will bring benefits for patients. International perspectives from the World Health Organization, and the Food and Drug Administration's proposed approach, based around oversight of tool developers' quality management systems and defined algorithm change protocols, offer a much-needed paradigm shift, and strive for a balanced approach to enabling rapid improvements in health care through AI innovation while simultaneously ensuring patient safety. The draft European Union (EU) regulatory framework indicates similar approaches, but no detail has yet been provided on how algorithm change protocols will be implemented in the EU. We argue that detail must be provided, and we describe how this could be done in a manner that would allow the full benefits of AI/ML-based innovation for EU patients and health care systems to be realized.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [
+        "Algorithms",
+        "Artificial Intelligence",
+        "Delivery of Health Care",
+        "Humans",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "algorithm change protocol",
+        "artificial intelligence",
+        "health care",
+        "healthcare",
+        "machine learning",
+        "regulation",
+        "regulatory framework"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34697010/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/34697010.xml"
+    },
+    {
+      "study_id": "41821400",
+      "pmid": "41821400",
+      "title": "AI-enabled Living Labs: Accelerating innovation in multiple sclerosis care and research.",
+      "authors": "Inojosa Hernan et al.",
+      "authors_list": [
+        "Inojosa Hernan",
+        "Mathias Rebecca",
+        "Dillenseger Anja",
+        "Voigt Isabel",
+        "Trentzsch Katrin"
+      ],
+      "publication_year": "2026",
+      "publication_date": "2026-Apr",
+      "journal": "Multiple sclerosis (Houndmills, Basingstoke, England)",
+      "journal_abbrev": "Mult Scler",
+      "doi": "10.1177/13524585261424136",
+      "abstract": "The rapid rise of artificial intelligence (AI) and digital health technologies presents new opportunities for personalized care in multiple sclerosis (MS). However, implementation in routine practice is limited by regulatory hurdles, fragmented infrastructure and a lack of agile real-world evaluation methods. Living Labs (LLs) emerge as dynamic environments for advancing MS care and research, supporting early testing and iterative development of digital tools, while fostering structured collaboration among patients, clinicians, researchers and regulators. In this review, we conceptually frame LLs in MS and provide a concrete, clinic-ready implementation framework for AI-enabled application in real-world practice. Using a digital-based voice task as an exemplar with automated feature extraction, we detail integration patterns and define key performance indicators for feasibility, data quality, usability and clinical utility. We show how this co-designed model can generate decision-relevant evidence, may help shorten time-to-action and embed innovation seamlessly into clinical workflows. Finally, we align LL operations with ethical and regulatory standards and outline strategies to responsibly scale across centres.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Multiple Sclerosis",
+        "Artificial Intelligence"
+      ],
+      "keywords": [
+        "Learning Health System",
+        "Living Lab",
+        "artificial intelligence",
+        "digital health",
+        "multiple sclerosis"
+      ],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41821400/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/41821400.xml"
+    },
+    {
+      "study_id": "40657527",
+      "pmid": "40657527",
+      "title": "Letter to the Editor on \"From Concept to Clinic: Living Labs and Regulatory Sandboxes for Health System Digitalization and the Integration of Innovative Devices Into Clinical Workflows\".",
+      "authors": "Mathias Rebecca et al.",
+      "authors_list": [
+        "Mathias Rebecca",
+        "Schonfelder Anett",
+        "Welzel Cindy",
+        "Gilbert Stephen"
+      ],
+      "publication_year": "2025",
+      "publication_date": "2025",
+      "journal": "IEEE journal of translational engineering in health and medicine",
+      "journal_abbrev": "IEEE J Transl Eng Health Med",
+      "doi": "10.1109/JTEHM.2025.3557508",
+      "abstract": "Digital health and AI-enabled technologies hold the promise of addressing gaps in healthcare, but balancing rapid market access with the need for safe, functional, and user-centered solutions remains a challenge [1], [2]. Regulatory requirements for device development and market approval demand detailed documentation and predetermined protocols, which can limit the adaptability developers require for iterative improvement and real-world testing with patients and healthcare professionals [1], [3], [4]-an approach that would be highly beneficial for digital and AI-enabled technologies. As a result, key factors like clinical workflow integration, interoperability, and usability with the real range of in-use devices are often overlooked or addressed in a cursory fashion [5].",
+      "publication_types": [
+        "Letter"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Artificial Intelligence",
+        "Telemedicine",
+        "Workflow"
+      ],
+      "keywords": [],
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40657527/",
+      "pdf_available": false,
+      "_matched_query": "\"Una Health\"",
+      "_raw_xml_path": "evidence/Germany/una-health-fur-diabetes/candidates/pubmed/raw/40657527.xml"
+    }
+  ],
+  "count": 50,
+  "queries_used": [
+    "\"Una Health\"",
+    "\"Una Health\" AND \"wurde am 30.03.2026 aus dem Verzeichnis gestrichen.\""
+  ],
+  "dtx_name": "Una Health für Diabetes",
+  "country": "Germany",
+  "_saved_at": "2026-06-14T10:17:33.420463Z",
+  "_source": "pubmed",
+  "_layer": "candidates"
+}

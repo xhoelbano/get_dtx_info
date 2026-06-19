@@ -1,0 +1,38 @@
+{
+  "studies": [
+    {
+      "study_id": "web_17b1a4356032da9a",
+      "title": "Publications",
+      "url": "https://beatsmedical.com/articles/",
+      "source": "Website",
+      "abstract": "",
+      "brief_summary": "",
+      "_source_url_on_website": "https://beatsmedical.com/articles/",
+      "_company_website": "https://www.beatsmedical.com",
+      "_matched_query": "website:https://www.beatsmedical.com",
+      "_browser_use_model": "gpt-4o",
+      "_collected_at": "2026-06-14T17:24:02.752869Z",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 90,
+        "reason": "The study mentions 'Beats Medical' and discusses a Parkinson's app that improves walking and speech, which aligns with the description of the Beats Medical Parkinson's App. Additionally, it references the app being added to Parkinson’s UK’s app library, indicating a specific focus on this product.",
+        "matched_elements": [
+          "product_name_variation",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "Not a primary study",
+        "confidence": 100,
+        "reason": "The content provided does not describe a specific study design or results. It appears to be a collection of articles and news about various topics, not a primary RCT or RWE study."
+      }
+    }
+  ],
+  "count": 1,
+  "_saved_at": "2026-06-14T17:24:23.312259Z",
+  "_source": "website",
+  "_layer": "verified",
+  "_evidence_type": "RWE",
+  "_browser_use_openai_model": "gpt-4o"
+}

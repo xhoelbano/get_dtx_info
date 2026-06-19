@@ -1,0 +1,296 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02196896",
+      "orgStudyIdInfo": {
+        "id": "RK-97880"
+      },
+      "organization": {
+        "fullName": "Johannes Gutenberg University Mainz",
+        "class": "OTHER"
+      },
+      "briefTitle": "Enhancing Inpatient Psychotherapeutic Treatment With Online Self-help : Acceptance and Efficacy",
+      "officialTitle": "Enhancing Inpatient Psychotherapeutic Treatment With Online Self Help in a Randomised Controlled Trial: Acceptance and Efficacy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-07-16",
+      "studyFirstSubmitQcDate": "2014-07-21",
+      "studyFirstPostDateStruct": {
+        "date": "2014-07-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-03-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-03-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "M.E. Beutel",
+        "investigatorTitle": "Prof. Dr.",
+        "investigatorAffiliation": "Johannes Gutenberg University Mainz"
+      },
+      "leadSponsor": {
+        "name": "Johannes Gutenberg University Mainz",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Rhön-Klinikum AG",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the acceptance and efficacy of the online self-help program deprexis® for depressed patients in reducing the clinical symptoms of their depression. The patients of the experimental group use deprexis® for 90 days, the patients of the placebo group receive weekly online information about depression for 90 days as well. Both groups receive their treatment in addition to their regular inpatient psychosomatic treatment and as an aftercare intervention.The investigators hypothesize that the online self-help group achieves a greater reduction of depression compared to the control group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 229,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "deprexis®",
+          "type": "EXPERIMENTAL",
+          "description": "Patients in this arm use deprexis® as an additional treatment during their inpatient stay and as an aftercare intervention.",
+          "interventionNames": [
+            "Other: deprexis®"
+          ]
+        },
+        {
+          "label": "Information",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients in this arm receive online information about depression as a placebo comparator in addition to their treatment during their inpatient stay and as an aftercare intervention.",
+          "interventionNames": [
+            "Other: Information"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "deprexis®",
+          "description": "Online self-help program in addition to inpatient psychosomatic treatment for 90 days.",
+          "armGroupLabels": [
+            "deprexis®"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Information",
+          "description": "The patients receive online information about depression once a week for 90 days.",
+          "armGroupLabels": [
+            "Information"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reduction of depression measured with the \"Beck's Depression Inventory\" (BDI-II)",
+          "timeFrame": "Three months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Reduction of depression measured with the depression scale of the \"Patient Health Questionnaire\" (PHQ-9)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Reduction of depression measured with the \"Beck's Depression Inventory\" (BDI-II)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Reduction of anxiety measured with the \"Generalized Anxiety Disorder Scale\" (GAD-7)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Reduction of dysfunctional depression related cognitions measured with the \"Dysfunctional Attitude Scale\" (DAS)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Improved self-esteem measured with the \"Rosenberg Self-Esteem Scale\" (RSE)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Improved quality of life measured with the \"European Health Interview Survey Quality of Life-8\" (EUROHIS-QOL 8)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Improved working ability measured with the short form of the \"Work Ability Index\" (WAI)",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks), six months after randomization"
+        },
+        {
+          "measure": "Acceptance and utilization of deprexis® measured with a self devised questionnaire",
+          "timeFrame": "End of inpatient treatment (average 6 weeks), three months after randomization"
+        },
+        {
+          "measure": "Acceptance and utilization of the information used in the placebo condition measured with a self devised questionnaire",
+          "timeFrame": "End of inpatient treatment (average 6 weeks), three months after randomization"
+        },
+        {
+          "measure": "Degree of childhood traumas measured with the \"Childhood Trauma Questionnaire\" (CTQ)",
+          "description": "Assumption that childhood traumas, assessed at the beginning of treatment, have a moderating effect on the reduction in the primary outcome measure.",
+          "timeFrame": "Randomization"
+        },
+        {
+          "measure": "Degree of structural deficits measured with the short form of the OPD-Structure Questionnaire (OPD-SFK)",
+          "description": "Assumption that structural deficits, as assessed with the OPD-SFK questionnaire at the beginning of treatment have a moderating effect on the reduction in the primary outcome measure.",
+          "timeFrame": "Randomization"
+        },
+        {
+          "measure": "Therapeutic alliance between participant and inpatient psychotherapist measured with the \"Helping Alliance Questionnaire\" (HAQ).",
+          "timeFrame": "Randomization, end of inpatient treatment (average 6 weeks)"
+        },
+        {
+          "measure": "Course of mood, depressiveness and utilization of units",
+          "timeFrame": "During inpatient treatment (average 6 weeks)"
+        },
+        {
+          "measure": "Utilization of other treatments after the end of inpatient treatment",
+          "timeFrame": "Six months after randomization"
+        },
+        {
+          "measure": "Satisfaction with inpatient treatment",
+          "timeFrame": "End of inpatient treatment (average 6 weeks)"
+        },
+        {
+          "measure": "Willingness to pay",
+          "timeFrame": "Three months after randomization"
+        },
+        {
+          "measure": "Remission from depression",
+          "description": "BDI score below the cutoff of 13 and a reliable change regarding Reliable Change Index (RCI)",
+          "timeFrame": "End of inpatient treatment (average 6 weeks), three months after randomization, six months after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Inpatient treatment\n* Private internet access\n* Informed consent\n* Age between 18 and 65 years\n* Knowledge of the German language\n* Score in the BDI-II \\> 13 and clinical diagnosis of a depression (ICD-10: F32.x, F33.x, F34.1, F43.2) verified by the inpatient therapist\n\nExclusion Criteria:\n\n* Psychosis\n* Current alcohol or drug dependency\n* Borderline, antisocial, schizoid or schizotypal personality disorder\n* Anorexia nervosa\n* Life time diagnosis of a schizophrenia, schizoaffective , bipolar oder organic psychic disorder",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Manfred E Beutel, Prof. Dr.",
+          "affiliation": "University Medical Center, Department of Psychosomatic Medicine and Psychotherapy, Johannes Gutenberg University Mainz",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Psychosomatic Clinic Bad Neustadt",
+          "city": "Bad Neustadt an der Saale",
+          "state": "Bavaria",
+          "zip": "97616",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.32174,
+            "lon": 10.20673
+          }
+        },
+        {
+          "facility": "University Medical Center, Department of Psychosomatic Medicine and Psychotherapy, Johannes Gutenberg University",
+          "city": "Mainz",
+          "state": "Rhineland-Palatinate",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31651403",
+          "type": "DERIVED",
+          "citation": "Zwerenz R, Baumgarten C, Becker J, Tibubos A, Siepmann M, Knickenberg RJ, Beutel ME. Improving the Course of Depressive Symptoms After Inpatient Psychotherapy Using Adjunct Web-Based Self-Help: Follow-Up Results of a Randomized Controlled Trial. J Med Internet Res. 2019 Oct 24;21(10):e13655. doi: 10.2196/13655."
+        },
+        {
+          "pmid": "25872505",
+          "type": "DERIVED",
+          "citation": "Zwerenz R, Becker J, Knickenberg RJ, Hagen K, Dreier M, Wolfling K, Beutel ME. Enhancing inpatient psychotherapeutic treatment with online self-help: study protocol for a randomized controlled trial. Trials. 2015 Mar 17;16:98. doi: 10.1186/s13063-015-0620-6."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-06-12"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

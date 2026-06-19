@@ -1,0 +1,66 @@
+{
+  "studies": [
+    {
+      "study_id": "web_0e24cf006a0446dc",
+      "title": "PDF Official title: Napping, Sleep, Cognitive Decline and Risk of Alzheimer ...",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT03256539/ICF_002.pdf",
+      "source": "Website",
+      "abstract": "Somryst delivers digital therapeutic content, and can be used on a mobile device, such as a smartphone or tablet. During each session, you will engage with the Somryst app (for about 30 minutes) and make daily entries into a sleep diary.",
+      "brief_summary": "Somryst delivers digital therapeutic content, and can be used on a mobile device, such as a smartphone or tablet. During each session, you will engage with the Somryst app (for about 30 minutes) and make daily entries into a sleep diary.",
+      "_source_url_on_website": "https://duckduckgo.com/?q=Somryst+clinical+evidence+site:pubmed.ncbi.nlm.nih.gov+OR+site:clinicaltrials.gov+OR+site:doi.org",
+      "_company_website": "https://www.peartherapeutics.com",
+      "_matched_query": "website:https://www.peartherapeutics.com",
+      "_browser_use_model": "gpt-4o",
+      "_collected_at": "2026-06-14T17:27:15.447208Z",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions the Somryst app, describing its use and content, which aligns with the known description of the digital therapeutic product by Pear Therapeutics.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The provided information lacks details on study design, such as randomization or observational data collection, and mentions 'study type: N/A', suggesting it is a protocol or description without results. This makes it ineligible as a primary RCT or RWE study."
+      }
+    },
+    {
+      "study_id": "web_1f89b4966a755f1d",
+      "title": "PDF Official title: Napping, Sleep, Cognitive Decline and Risk of Alzheimer ...",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT03256539/Prot_000.pdf",
+      "source": "Website",
+      "abstract": "Somryst is a 9-week program that delivers digital CBT-I therapeutic content, and can be used on a mobile device, such as a smartphone or tablet. CBT-I is a neurobehavioral treatment which focuses on addressing the maladaptive behaviors, routines, and dysfunctional thoughts that perpetuate sleep problems, regardless of the cause of sleep problems.",
+      "brief_summary": "Somryst is a 9-week program that delivers digital CBT-I therapeutic content, and can be used on a mobile device, such as a smartphone or tablet. CBT-I is a neurobehavioral treatment which focuses on addressing the maladaptive behaviors, routines, and dysfunctional thoughts that perpetuate sleep problems, regardless of the cause of sleep problems.",
+      "_source_url_on_website": "https://duckduckgo.com/?q=Somryst+clinical+evidence+site:pubmed.ncbi.nlm.nih.gov+OR+site:clinicaltrials.gov+OR+site:doi.org",
+      "_company_website": "https://www.peartherapeutics.com",
+      "_matched_query": "website:https://www.peartherapeutics.com",
+      "_browser_use_model": "gpt-4o",
+      "_collected_at": "2026-06-14T17:27:15.447212Z",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 95,
+        "reason": "The study specifically mentions Somryst, a 9-week program delivering digital CBT-I therapeutic content, which matches the description of the digital therapeutic product by Pear Therapeutics.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "INELIGIBLE",
+        "study_design": "study protocol",
+        "confidence": 90,
+        "reason": "The provided information lacks details on study design, such as randomization or observational data collection, and mentions 'Study type: N/A', suggesting it is not a primary study with results. It appears to be a protocol or description without results."
+      }
+    }
+  ],
+  "count": 2,
+  "_saved_at": "2026-06-14T17:27:28.279079Z",
+  "_source": "website",
+  "_layer": "verified",
+  "_evidence_type": "RWE",
+  "_browser_use_openai_model": "gpt-4o"
+}

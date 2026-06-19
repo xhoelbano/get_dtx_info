@@ -1,0 +1,85 @@
+{
+  "studies": [
+    {
+      "study_id": "DRKS00036889",
+      "drks_id": "DRKS00036889",
+      "title": "Randomized controlled trial to evaluate the effectiveness of a digital health application (Kaia) to prevent back pain and improve quality of life in hospital staff",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00036889/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00036889.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically evaluates the effectiveness of the Kaia app, a digital health application for chronic back pain, which matches the product Kaia Rückenschmerzen - Rückentraining für Zuhause. The product name 'Kaia' and its use for back pain are mentioned multiple times in the trial description.",
+        "matched_elements": [
+          "product_name",
+          "product_name_variation"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study is explicitly described as a 'randomized controlled trial' which indicates that participants are randomly allocated to the intervention (Kaia app) or control group, fulfilling the criteria for an RCT."
+      }
+    },
+    {
+      "study_id": "DRKS00029408",
+      "drks_id": "DRKS00029408",
+      "title": "Kaia back pain for the treatment of non-specific low back pain in adult patients - a randomised controlled trial",
+      "status": "Unknown",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00029408/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00029408.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study is specifically about the Kaia Back Pain app, as indicated by the title and detailed description in the trial registration. The manufacturer, Kaia Health Software GmbH, is also mentioned as the developer.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer",
+          "trial_registration_id"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 80,
+        "reason": "Keyword match: 3 RCT indicators vs 0 RWE indicators."
+      }
+    },
+    {
+      "study_id": "DRKS00016329",
+      "drks_id": "DRKS00016329",
+      "title": "e-Health and mobile health application for the self-management support of patients with low back pain - a confirmatory trial",
+      "status": "Completed",
+      "source": "DRKS",
+      "url": "https://drks.de/search/en/trial/DRKS00016329/details",
+      "_matched_query": "\"Kaia Rückenschmerzen\"",
+      "_raw_json_path": "evidence/Germany/kaia-ruckenschmerzen-ruckentraining-fur-zuhause/candidates/drks/raw/DRKS00016329.json",
+      "_verification": {
+        "is_relevant": true,
+        "confidence": 100,
+        "reason": "The study specifically investigates the effectiveness of the 'Kaia' app for low back pain, developed by Kaia Health Software GmbH. The product name 'kaia' and the manufacturer are explicitly mentioned in the trial description.",
+        "matched_elements": [
+          "product_name",
+          "manufacturer_as_developer"
+        ]
+      },
+      "_classification": {
+        "classification": "RCT",
+        "study_design": "randomized controlled trial",
+        "confidence": 95,
+        "reason": "The study randomly allocates participants with low back pain to either an intervention group using a medical back app or a control group receiving standard physiotherapy and online information. This randomization to intervention and control groups under controlled conditions defines it as an RCT."
+      }
+    }
+  ],
+  "count": 3,
+  "_saved_at": "2026-06-14T16:58:47.674243Z",
+  "_source": "drks",
+  "_layer": "verified",
+  "_evidence_type": "RCT"
+}
