@@ -5,6 +5,9 @@ langchain-openai>=0.1.0
 # Optional: for LLM_PROVIDER=gemini
 langchain-google-genai>=2.0.0
 
+# Optional: for LLM_PROVIDER=vertex_ai (Gemini via Google Cloud Vertex AI)
+langchain-google-vertexai>=2.0.0
+
 # Optional: for LLM_PROVIDER=anthropic
 langchain-anthropic>=0.1.0
 
@@ -23,3 +26,9 @@ click>=8.0.0
 
 # Utilities
 python-slugify>=8.0.0
+
+# Benchmark 2 (field-level extraction quality) - scoring metrics
+# bert-score pulls in torch + transformers; first run downloads roberta-large.
+# run_benchmark_2.py also works with --no-bertscore (token-F1 fallback only).
+bert-score>=0.3.13
+rapidfuzz>=3.0.0

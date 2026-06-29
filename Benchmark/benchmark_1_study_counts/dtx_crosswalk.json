@@ -1,0 +1,33 @@
+{
+  "_comment": "Maps each ground-truth DTx name (Test_Datasets/test_dataset_benchmarking_numbers.json) to the pipeline DTx group(s) identified by (country, slug) in the Phase 3 combined outputs. Used only for per-DTx reporting and coverage; study matching itself is done on globally unique identifiers and does not depend on this file. 'covered' = the pipeline returned at least one VERIFIED study for this DTx (it has rows in the Phase 3 output). 'uncovered' = the pipeline DID process this DTx (an evidence folder with candidates/ and rejected/ exists under evidence/<country>/<slug>) but verified ZERO studies, so there are no Phase 3 rows and nothing to evaluate; every GT study for it is therefore a forced miss. These are not DTx that were skipped.",
+  "covered": {
+    "Attexis- digital therapy for ADHD in adulthood": [{ "country": "Germany", "slug": "attexis-die-digitale-therapie-bei-adhs-im-erwachse" }],
+    "Cara Care for IBS": [{ "country": "Germany", "slug": "cara-care-fur-reizdarm" }],
+    "Companion Patella powered by medi": [{ "country": "Germany", "slug": "companion-patella-powered-by-medi-proved-by-dt-kni" }],
+    "elevida": [{ "country": "Germany", "slug": "elevida" }],
+    "Hellobetter Chronic Pain": [{ "country": "Germany", "slug": "hellobetter-chronische-schmerzen" }],
+    "HelloBetter Diabetes": [{ "country": "Germany", "slug": "hellobetter-diabetes" }],
+    "Kaia back pain - back exercises for home": [{ "country": "Germany", "slug": "kaia-ruckenschmerzen-ruckentraining-fur-zuhause" }],
+    "deprexis DiGA": [{ "country": "Germany", "slug": "deprexis" }],
+    "somnio": [{ "country": "Germany", "slug": "somnio" }],
+    "Optimune": [{ "country": "Germany", "slug": "optimune" }],
+    "Orthopy for knee injuries": [{ "country": "Germany", "slug": "orthopy-bei-knieverletzungen" }],
+    "Re.flex": [{ "country": "Germany", "slug": "re-flex" }],
+    "Rehappy": [{ "country": "Germany", "slug": "rehappy" }],
+    "Companion® Shoulder": [{ "country": "Germany", "slug": "companion-r-shoulder" }],
+    "Vivira": [{ "country": "Germany", "slug": "vivira" }, { "country": "USA", "slug": "vivira" }],
+    "RelieveVRx": [{ "country": "USA", "slug": "relievrx" }],
+    "Caterna Vision Therapy": [{ "country": "USA", "slug": "caterna-vision-therapy" }],
+    "Somryst": [{ "country": "USA", "slug": "somryst" }],
+    "Sword Bloom": [{ "country": "USA", "slug": "sword-bloom" }]
+  },
+  "uncovered": [
+    "neolexon Aphasia",
+    "Selfapy's online course for chronic pain",
+    "Selfapy's online course for panic disorder",
+    "Beats Medical Parkinson\u2019s",
+    "Feel DTx",
+    "Embr Wave 2",
+    "Sword Thrive"
+  ]
+}

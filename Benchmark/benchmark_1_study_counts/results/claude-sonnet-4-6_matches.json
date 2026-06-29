@@ -1,0 +1,1544 @@
+{
+  "model": "claude-sonnet-4-6",
+  "full": {
+    "tp": 61,
+    "fn": 35,
+    "extras": 32,
+    "recall": 0.6354166666666666,
+    "precision": 0.6559139784946236,
+    "f1": 0.6455026455026455
+  },
+  "covered": {
+    "tp": 61,
+    "fn": 18,
+    "extras": 32,
+    "recall": 0.7721518987341772,
+    "precision": 0.6559139784946236,
+    "f1": 0.7093023255813953
+  },
+  "matched": [
+    {
+      "dtx": "Attexis- digital therapy for ADHD in adulthood",
+      "ids": [
+        "NCT06766214"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Attexis- digital therapy for ADHD in adulthood",
+      "ids": [
+        "NCT06221930",
+        "PMID:41810578"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Cara Care for IBS",
+      "ids": [
+        "DRKS00026631"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Companion Patella powered by medi",
+      "ids": [
+        "DRKS00027261"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "elevida",
+      "ids": [
+        "ISRCTN25692173",
+        "PMID:29549193"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Hellobetter Chronic Pain",
+      "ids": [
+        "DRKS00006183",
+        "PMID:29082858",
+        "PMID:30131313"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Hellobetter Chronic Pain",
+      "ids": [
+        "DRKS00027176",
+        "PMID:41607292"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "HelloBetter Diabetes",
+      "ids": [
+        "DOI:10.1111/dme.13173",
+        "DRKS00004748",
+        "PMID:24238346",
+        "PMID:25710923",
+        "PMID:31218230"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "DRKS00016329",
+        "PMID:31304380"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "DRKS00036889"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "DRKS00029408"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "ISRCTN20165665",
+        "PMC4195959",
+        "PMID:25298158"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT01818453",
+        "PMID:28230390"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT06217198",
+        "PMID:39446432"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "DOI:10.1055/a-1826-2888",
+        "PMID:35882364"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "ISRCTN64953693",
+        "PMID:19632969"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT02178631",
+        "PMID:24074299",
+        "PMID:33959044"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "DRKS00011628",
+        "PMID:32874927"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "DRKS00013888"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "DRKS00003564",
+        "PMID:32548724"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT01636752",
+        "PMC8117387",
+        "PMID:27230863"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "ISRCTN45945396",
+        "PMID:23273042"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "DRKS00039543"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT06480474",
+        "PMID:41382119"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT01731717",
+        "PMID:25182269",
+        "PMID:32859177"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT04428450"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT02740361",
+        "PMID:37775187"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT02898233",
+        "PMID:39990627"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT01663649",
+        "PMID:26359900"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [
+        "NCT01401296",
+        "PMID:22677231"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DOI:10.1111/jsr.14173",
+        "DRKS00024477",
+        "PMID:37428712"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DOI:10.1111/jsr.14255",
+        "DRKS00030897"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DOI:10.1155/da/2171041",
+        "DRKS00030919",
+        "PMID:40458292"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DOI:10.1159/000547436/930507/the-effects-of-digital-cognitive-behavioral",
+        "DRKS00030972",
+        "PMID:40664183"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DRKS00025713"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "PMID:40458292"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "PMID:38895830"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Optimune",
+      "ids": [
+        "NCT03643640",
+        "PMC8104369",
+        "PMID:33961667"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Optimune",
+      "ids": [
+        "DRKS00028778"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Orthopy for knee injuries",
+      "ids": [
+        "DRKS00028028"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Orthopy for knee injuries",
+      "ids": [
+        "DRKS00032793"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Orthopy for knee injuries",
+      "ids": [
+        "DRKS00039072"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Orthopy for knee injuries",
+      "ids": [
+        "DRKS00039319"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Orthopy for knee injuries",
+      "ids": [
+        "DRKS00038163"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Orthopy for knee injuries",
+      "ids": [
+        "PMID:39189134"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Re.flex",
+      "ids": [
+        "DRKS00030932",
+        "PMID:41066658"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Re.flex",
+      "ids": [
+        "DRKS00023269",
+        "PMID:39250181"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Rehappy",
+      "ids": [
+        "DRKS00025853"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Companion® Shoulder",
+      "ids": [
+        "DRKS00035985"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Vivira",
+      "ids": [
+        "DRKS00022781",
+        "PMID:36215327"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Vivira",
+      "ids": [
+        "DOI:10.2196/43775",
+        "DRKS00024051",
+        "PMID:36848211"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    },
+    {
+      "dtx": "RelieveVRx",
+      "ids": [
+        "NCT05585905"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "RelieveVRx",
+      "ids": [
+        "NCT04010266"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "RelieveVRx",
+      "ids": [
+        "NCT05263037",
+        "PMID:39239633",
+        "PMID:40206316"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Caterna Vision Therapy",
+      "ids": [
+        "DRKS00030216",
+        "PMID:41979232"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    },
+    {
+      "dtx": "Caterna Vision Therapy",
+      "ids": [
+        "DRKS00017633",
+        "PMID:36724007"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    },
+    {
+      "dtx": "Somryst",
+      "ids": [
+        "NCT04325464",
+        "PMID:39319356"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    },
+    {
+      "dtx": "Somryst",
+      "ids": [
+        "NCT05353296"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Somryst",
+      "ids": [
+        "NCT04909229",
+        "PMID:35940841"
+      ],
+      "gt_evidence_type": "RCT",
+      "pipeline_evidence_types": [
+        "RCT"
+      ]
+    },
+    {
+      "dtx": "Somryst",
+      "ids": [
+        "PMID:35983014"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    },
+    {
+      "dtx": "Sword Bloom",
+      "ids": [
+        "NCT05513417",
+        "PMID:38255031",
+        "PMID:40173388",
+        "PMID:41733548"
+      ],
+      "gt_evidence_type": "RWE",
+      "pipeline_evidence_types": [
+        "RWE"
+      ]
+    }
+  ],
+  "missed": [
+    {
+      "dtx": "Cara Care for IBS",
+      "ids": [],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "Companion Patella powered by medi",
+      "ids": [
+        "DOI:10.1007/s00402-025-05787-y"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Hellobetter Chronic Pain",
+      "ids": [
+        "DRKS00014619",
+        "PMID:32883721",
+        "PMID:36360738"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "HelloBetter Diabetes",
+      "ids": [
+        "PMID:24862240"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "DRKS00015048",
+        "PMID:32765057",
+        "PMID:38952994"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "PMID:29203460"
+      ],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "PMID:29875088"
+      ],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "PMID:32547175"
+      ],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "PMID:34751664"
+      ],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "NCT04290078"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Kaia back pain - back exercises for home",
+      "ids": [
+        "NCT04411108"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "deprexis DiGA",
+      "ids": [],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "neolexon Aphasia",
+      "ids": [
+        "DRKS00026233"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DOI:10.1007/s11818-023-00422-7?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20231017&utm_content=10.1007%2fs11818-023-00422-7"
+      ],
+      "evidence_type": "RWE",
+      "covered": true
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "NCT02629913",
+        "PMID:30135758"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "somnio",
+      "ids": [
+        "DRKS00033527",
+        "PMID:42146896"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Re.flex",
+      "ids": [
+        "PMID:40523788"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Selfapy's online course for chronic pain",
+      "ids": [
+        "DRKS00031521"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Selfapy's online course for panic disorder",
+      "ids": [
+        "DRKS00023800",
+        "PMID:40173444"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Beats Medical Parkinson’s",
+      "ids": [],
+      "evidence_type": "",
+      "covered": false
+    },
+    {
+      "dtx": "RelieveVRx",
+      "ids": [
+        "NCT04415177",
+        "PMID:33464215",
+        "PMID:35612905"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "RelieveVRx",
+      "ids": [
+        "NCT06248216"
+      ],
+      "evidence_type": "RCT",
+      "covered": true
+    },
+    {
+      "dtx": "Feel DTx",
+      "ids": [
+        "DOI:10.1038/s41746-025-01511-7",
+        "PMID:39972054"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Embr Wave 2",
+      "ids": [
+        "DOI:10.1200/jco.2022.40.16_suppl.5067",
+        "NCT04892914"
+      ],
+      "evidence_type": "RWE",
+      "covered": false
+    },
+    {
+      "dtx": "Embr Wave 2",
+      "ids": [
+        "PMID:31801384"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "DOI:10.1038/s41746-023-00870-3",
+        "NCT04808141",
+        "PMID:37420107"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT03047252",
+        "PMID:30816849"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "DOI:10.2196/14523",
+        "NCT03045549",
+        "PMID:31228176"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT05417685",
+        "PMID:39120221",
+        "PMID:39124635",
+        "PMID:39802416",
+        "PMID:41629208"
+      ],
+      "evidence_type": "RWE",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT04092946",
+        "PMID:34983488",
+        "PMID:35813029",
+        "PMID:35954555",
+        "PMID:36003064",
+        "PMID:36011251",
+        "PMID:36200858",
+        "PMID:36553873",
+        "PMID:36636267",
+        "PMID:39124635",
+        "PMID:40852400"
+      ],
+      "evidence_type": "RWE",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT04819022",
+        "PMID:34499038"
+      ],
+      "evidence_type": "RWE",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT04401683"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT03750500"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT03648060"
+      ],
+      "evidence_type": "RWE",
+      "covered": false
+    },
+    {
+      "dtx": "Sword Thrive",
+      "ids": [
+        "NCT03648047"
+      ],
+      "evidence_type": "RCT",
+      "covered": false
+    }
+  ],
+  "extras": [
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "NCT02196896"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT02196896"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:31710772"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31710772/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:37590052"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37590052/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:29154168"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29154168/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:29883479"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29883479/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:31175475"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31175475/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:29331706"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29331706/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:33500282"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33500282/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:31682137"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31682137/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:31240727"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31240727/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:38912859"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38912859/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:30721109"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30721109/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:29751239"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29751239/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:31542565"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31542565/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:29489038"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29489038/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:32663998"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32663998/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:28797829"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28797829/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "PMID:28710212"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28710212/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "deprexis"
+      ],
+      "gt_dtx": [
+        "deprexis DiGA"
+      ],
+      "ids": [
+        "DOI:10.1177/13591053251356885"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "['https://doi.org/10.1177/13591053251356885']"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "HelloBetter Chronische Schmerzen"
+      ],
+      "gt_dtx": [
+        "Hellobetter Chronic Pain"
+      ],
+      "ids": [
+        "DRKS00037509"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://drks.de/search/en/trial/DRKS00037509/details"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "optimune"
+      ],
+      "gt_dtx": [
+        "Optimune"
+      ],
+      "ids": [
+        "NCT03448250"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT03448250"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "optimune"
+      ],
+      "gt_dtx": [
+        "Optimune"
+      ],
+      "ids": [
+        "DOI:10.1371/journal.pone.0251276"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "['https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0251276']"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "DRKS00031254"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://drks.de/search/en/trial/DRKS00031254/details"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "PMID:39627851"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39627851/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "PMID:42342871"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42342871/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "DRKS00021785"
+      ],
+      "evidence_types": [
+        "RWE"
+      ],
+      "sources": [
+        "https://drks.de/search/en/trial/DRKS00021785/details"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "DRKS00028920"
+      ],
+      "evidence_types": [
+        "RWE"
+      ],
+      "sources": [
+        "https://drks.de/search/en/trial/DRKS00028920/details"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "PMID:36459399"
+      ],
+      "evidence_types": [
+        "RWE"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36459399/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA",
+        "Vivira"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "PMID:37830652"
+      ],
+      "evidence_types": [
+        "RWE"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37830652/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "Somryst"
+      ],
+      "gt_dtx": [
+        "Somryst"
+      ],
+      "ids": [
+        "PMID:38018031"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38018031/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "Somryst"
+      ],
+      "gt_dtx": [
+        "Somryst"
+      ],
+      "ids": [
+        "PMID:40469887"
+      ],
+      "evidence_types": [
+        "RWE"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40469887/"
+      ]
+    },
+    {
+      "pipeline_dtx": [
+        "ViViRA"
+      ],
+      "gt_dtx": [
+        "Vivira"
+      ],
+      "ids": [
+        "DRKS00037490"
+      ],
+      "evidence_types": [
+        "RCT"
+      ],
+      "sources": [
+        "https://drks.de/search/en/trial/DRKS00037490/details"
+      ]
+    }
+  ]
+}
