@@ -106,8 +106,15 @@ def cli():
 @click.option('--list-only', is_flag=True, help='Only scrape the list, not details')
 @click.option('--skip-details', is_flag=True, help='Scrape list but skip individual detail pages')
 @click.option('--no-translate', is_flag=True, help='Skip translation to English')
-def scrape_dtx(mode: str, config: str, list_only: bool, skip_details: bool, no_translate: bool):
-    """Scrape DTx data from the DiGA directory."""
+@click.option('--skip-reviews', is_flag=True,
+              help='Do not auto-scrape app store reviews after the DTx scrape')
+def scrape_dtx(mode: str, config: str, list_only: bool, skip_details: bool,
+               no_translate: bool, skip_reviews: bool):
+    """Scrape DTx data from the DiGA directory.
+
+    After the scrape completes, app store reviews are scraped automatically
+    (German DiGA only). Pass --skip-reviews to disable that step.
+    """
     click.echo(f"Starting DTx scrape (mode: {mode}, config: {config})")
     
     async def run():
@@ -158,8 +165,86 @@ def scrape_dtx(mode: str, config: str, list_only: bool, skip_details: bool, no_t
             
         finally:
             await scraper.close()
+        
+        # Auto-scrape app store reviews (German DiGA only) unless disabled.
+        if not skip_reviews and not list_only:
+            click.echo("\nScraping app store reviews...")
+            await _run_review_scraping(config)
     
     asyncio.run(run())
+
+
+async def _run_review_scraping(config: str) -> None:
+    """Scrape app store reviews/ratings for every DTx that has a store URL.
+
+    Shared by the standalone ``scrape-reviews`` command and the automatic
+    post-scrape step in ``scrape-dtx`` so both stay in sync.
+    """
+    # Import here to avoid circular imports
+    from scrapers.app_store_scraper import AppStoreScraper
+
+    data_manager = DataManager()
+    scraper = AppStoreScraper(config_path=config)
+
+    dtx_data = data_manager.load_dtx_data()
+    dtx_list = dtx_data.get("dtx_list", [])
+
+    with_play = sum(1 for d in dtx_list if d.get("play_store_url"))
+    with_app = sum(1 for d in dtx_list if d.get("app_store_url"))
+    click.echo(f"Found {with_play} DTx with Play Store URLs, {with_app} with App Store URLs")
+
+    play_success = 0
+    app_success = 0
+
+    try:
+        total = len(dtx_list)
+        for i, dtx in enumerate(dtx_list, 1):
+            dtx_name = dtx.get("dtx_name", "Unknown")
+            play_store_url = dtx.get("play_store_url")
+            app_store_url = dtx.get("app_store_url")
+
+            if not play_store_url and not app_store_url:
+                continue
+
+            click.echo(f"[{i}/{total}] {dtx_name[:50]}...")
+
+            if play_store_url:
+                reviews = await scraper.scrape_play_store(play_store_url)
+                if reviews and reviews.get("rating"):
+                    dtx["reviews_playstore"] = {
+                        "rating": reviews.get("rating"),
+                        "review_count": reviews.get("review_count"),
+                        "url": play_store_url
+                    }
+                    click.echo(f"    Play Store: {reviews.get('rating')} ★ ({reviews.get('review_count')} reviews)")
+                    play_success += 1
+                else:
+                    dtx["reviews_playstore"] = None
+
+            if app_store_url:
+                reviews = await scraper.scrape_app_store(app_store_url)
+                if reviews and reviews.get("rating"):
+                    dtx["reviews_appstore"] = {
+                        "rating": reviews.get("rating"),
+                        "review_count": reviews.get("review_count"),
+                        "url": app_store_url
+                    }
+                    click.echo(f"    App Store: {reviews.get('rating')} ★ ({reviews.get('review_count')} reviews)")
+                    app_success += 1
+                else:
+                    dtx["reviews_appstore"] = None
+
+            await asyncio.sleep(1)  # Rate limiting
+
+        data_manager.save_dtx_data(dtx_data)
+
+        click.echo(f"\nReview scraping complete!")
+        click.echo(f"Play Store ratings extracted: {play_success}/{with_play}")
+        click.echo(f"App Store ratings extracted: {app_success}/{with_app}")
+        click.echo(f"Data saved to: {data_manager.dtx_file}")
+
+    finally:
+        await scraper.close()
 
 
 @cli.command()
@@ -168,78 +253,61 @@ def scrape_dtx(mode: str, config: str, list_only: bool, skip_details: bool, no_t
 def scrape_reviews(config: str):
     """Scrape app store reviews and ratings for all DTx with store URLs."""
     click.echo("Starting app store review scraping...")
-    
+    asyncio.run(_run_review_scraping(config))
+
+
+@cli.command()
+@click.option('--config', type=click.Path(exists=True), default='config/germany.json',
+              help='Path to country configuration file')
+@click.option('--only-missing', is_flag=True,
+              help='Only fill entries whose risk_class is currently empty')
+@click.option('--limit', type=int, default=None,
+              help='Only process the first N matching entries (for testing)')
+def backfill_risk_class(config: str, only_missing: bool, limit: int):
+    """One-time backfill of the MDR risk class for existing German DTx.
+
+    Revisits each entry's source_url in dtx_data.json, extracts the risk class
+    from the "Weitere Informationen zur digitalen Gesundheitsanwendung" section,
+    and saves it back. New full scrapes pick this up automatically; this command
+    is only for filling data that was scraped before the fix.
+    """
+    click.echo("Backfilling risk class for German DTx...")
+
     async def run():
-        # Import here to avoid circular imports
-        from scrapers.app_store_scraper import AppStoreScraper
-        
+        scraper = DiGAScraper(config_path=config)
         data_manager = DataManager()
-        scraper = AppStoreScraper(config_path=config)
-        
-        # Load existing DTx data
+
         dtx_data = data_manager.load_dtx_data()
         dtx_list = dtx_data.get("dtx_list", [])
-        
-        # Count DTx with store URLs
-        with_play = sum(1 for d in dtx_list if d.get("play_store_url"))
-        with_app = sum(1 for d in dtx_list if d.get("app_store_url"))
-        click.echo(f"Found {with_play} DTx with Play Store URLs, {with_app} with App Store URLs")
-        
-        play_success = 0
-        app_success = 0
-        
+
+        targets = [
+            d for d in dtx_list
+            if d.get("source_url") and (not only_missing or not d.get("risk_class"))
+        ]
+        if limit:
+            targets = targets[:limit]
+
+        click.echo(f"Processing {len(targets)} entries...")
+        filled = 0
         try:
-            total = len(dtx_list)
-            for i, dtx in enumerate(dtx_list, 1):
-                dtx_name = dtx.get("dtx_name", "Unknown")
-                play_store_url = dtx.get("play_store_url")
-                app_store_url = dtx.get("app_store_url")
-                
-                # Skip if no store URLs
-                if not play_store_url and not app_store_url:
-                    continue
-                
-                click.echo(f"[{i}/{total}] {dtx_name[:50]}...")
-                
-                if play_store_url:
-                    reviews = await scraper.scrape_play_store(play_store_url)
-                    if reviews and reviews.get("rating"):
-                        dtx["reviews_playstore"] = {
-                            "rating": reviews.get("rating"),
-                            "review_count": reviews.get("review_count"),
-                            "url": play_store_url
-                        }
-                        click.echo(f"    Play Store: {reviews.get('rating')} ★ ({reviews.get('review_count')} reviews)")
-                        play_success += 1
-                    else:
-                        dtx["reviews_playstore"] = None
-                
-                if app_store_url:
-                    reviews = await scraper.scrape_app_store(app_store_url)
-                    if reviews and reviews.get("rating"):
-                        dtx["reviews_appstore"] = {
-                            "rating": reviews.get("rating"),
-                            "review_count": reviews.get("review_count"),
-                            "url": app_store_url
-                        }
-                        click.echo(f"    App Store: {reviews.get('rating')} ★ ({reviews.get('review_count')} reviews)")
-                        app_success += 1
-                    else:
-                        dtx["reviews_appstore"] = None
-                
-                await asyncio.sleep(1)  # Rate limiting
-            
-            # Save updated data
+            for i, dtx in enumerate(targets, 1):
+                name = dtx.get("dtx_name", "Unknown")
+                click.echo(f"[{i}/{len(targets)}] {name[:50]}...")
+                rc = await scraper.scrape_risk_class(dtx["source_url"])
+                if rc:
+                    dtx["risk_class"] = rc
+                    filled += 1
+                    click.echo(f"    risk_class = {rc}")
+                else:
+                    click.echo("    risk_class not found")
+                await asyncio.sleep(0.5)
+
             data_manager.save_dtx_data(dtx_data)
-            
-            click.echo(f"\nScraping complete!")
-            click.echo(f"Play Store ratings extracted: {play_success}/{with_play}")
-            click.echo(f"App Store ratings extracted: {app_success}/{with_app}")
+            click.echo(f"\nBackfill complete! Filled {filled}/{len(targets)} entries.")
             click.echo(f"Data saved to: {data_manager.dtx_file}")
-            
         finally:
             await scraper.close()
-    
+
     asyncio.run(run())
 
 
@@ -736,86 +804,127 @@ def translate(text: str):
 
 
 @cli.command()
-@click.option('--country', default='Germany', help='Country to analyze (default: Germany)')
+@click.option('--country', type=click.Choice(['germany', 'usa', 'all'], case_sensitive=False),
+              default='all', help='Which evidence to analyze (default: all countries)')
 @click.option('--limit', default=None, type=int,
               help='Limit number of DTx apps to process (default: all)')
+@click.option('--provider', default=None, type=str,
+              help='Phase 3 LLM provider override (azure_openai/openai/gemini/anthropic). '
+                   'Defaults to PHASE3_PROVIDER, then LLM_PROVIDER.')
 @click.option('--model', default=None, type=str,
-              help='Override LLM model name (uses LLM_PROVIDER default otherwise)')
-@click.option('--output', default='data/evidence_analysis_results.json',
-              help='Output JSON path')
-@click.option('--csv', 'csv_output', default=None, type=str,
-              help='Also export results as CSV to this path')
-def analyze_evidence(country: str, limit: int, model: str, output: str, csv_output: str):
-    """Analyze verified evidence files using LLM extraction.
+              help='Phase 3 LLM model override (defaults to PHASE3_MODEL / provider default)')
+@click.option('--output-dir', 'output_dir', default='Phase_3_Evidence_Analysis',
+              help='Base output directory (results are namespaced per model)')
+@click.option('--no-llm-fill', 'no_llm_fill', is_flag=True, default=False,
+              help='Build the table from scraped JSON only (skip LLM gap-filling from raw files)')
+def analyze_evidence(country: str, limit: int, provider: str, model: str,
+                     output_dir: str, no_llm_fill: bool):
+    """Phase 3: analyze verified evidence into the benchmarking table (JSON only).
 
-    Walks through every verified raw evidence file (JSON, XML, HTML),
-    sends the content to the configured LLM, and extracts structured
-    study information into the evidence_analysis.json schema.
+    For every verified RCT/RWE study, fills the 29-column table defined in
+    data-format/phase3_analysis.json (same columns as the ground-truth
+    Test_Datasets/test_dataset_benchmarking_numbers.csv). DTx-level columns come
+    from dtx_data*.json; study-level columns are taken from the scraped
+    studies.json first, and any gaps are filled by the configured LLM strictly
+    from the study's raw evidence file (no hallucination).
 
-    DiGA-level metadata (app name, company, ratings, etc.) is pre-filled
-    from dtx_data.json. The LLM extracts study-level fields only from
-    the raw evidence data — no hallucination or external research.
+    Output is JSON only (per-DTx files + combined + run metrics), written to a
+    single per-model folder via PHASE3_PROVIDER / PHASE3_MODEL (or --provider /
+    --model) so different models can be benchmarked side by side. All evidence
+    countries are combined into that one folder.
 
     Examples:
-        python main.py analyze-evidence --limit 10
-        python main.py analyze-evidence --model gpt-4o --csv data/evidence.csv
-        python main.py analyze-evidence --country Germany --limit 5
+        python main.py analyze-evidence
+        python main.py analyze-evidence --country usa --limit 2
+        python main.py analyze-evidence --provider openai --model gpt-4o
     """
-    click.echo("Starting LLM-based evidence analysis...")
+    if provider:
+        os.environ["PHASE3_PROVIDER"] = provider
+
+    # Map the CLI choice to the evidence/ country directory names.
+    country_map = {"germany": ["Germany"], "usa": ["USA"], "all": None}
+    countries = country_map[country.lower()]
+
+    click.echo("Starting Phase 3 evidence analysis...")
     click.echo(f"  Country: {country}")
     if limit:
         click.echo(f"  DTx limit: {limit}")
-    if model:
-        click.echo(f"  Model override: {model}")
-    click.echo(f"  Output: {output}")
-    if csv_output:
-        click.echo(f"  CSV export: {csv_output}")
 
     async def run():
-        from scrapers.evidence.evidence_analyzer import EvidenceAnalyzer
+        from scrapers.evidence.phase3_analyzer import Phase3Analyzer
+        from utils.llm_metrics import aggregate
 
         data_manager = DataManager()
-        analyzer = EvidenceAnalyzer(
+        analyzer = Phase3Analyzer(
             data_manager=data_manager,
             limit=limit,
             model_override=model,
+            llm_fill=not no_llm_fill,
+            output_dir=output_dir,
         )
 
-        click.echo(f"  LLM: {analyzer.llm_source_name}")
+        click.echo(f"  LLM: {analyzer.source_name}")
+        click.echo(f"  LLM gap-fill: {'on' if analyzer.llm_fill else 'off'}")
         click.echo("")
 
-        files = analyzer.discover_evidence_files(country=country)
-        if not files:
-            click.echo("No verified evidence files found. Run 'find-evidence' first.")
+        records = analyzer.discover_studies(countries=countries)
+        if not records:
+            click.echo("No verified evidence found. Run 'find-evidence' first.")
             return
 
-        dtx_count = len({f["dtx_slug"] for f in files})
-        click.echo(f"Found {len(files)} raw evidence files across {dtx_count} DTx apps")
+        dtx_count = len({(r["country"], r["dtx_slug"]) for r in records})
+        countries_found = sorted({r["country"] for r in records})
+        click.echo(
+            f"Found {len(records)} verified studies across {dtx_count} DTx apps "
+            f"({', '.join(countries_found)})"
+        )
         click.echo(f"{'='*60}")
 
-        results = await analyzer.analyze_all(country=country)
+        rows = await analyzer.analyze_all(countries=countries)
+        if not rows:
+            click.echo("\nNo rows produced.")
+            return
 
-        if results:
-            analyzer.save_results(
-                results,
-                output_path=output,
-                country=country,
-                llm_source_name=analyzer.llm_source_name,
-            )
-            click.echo(f"\n{'='*60}")
-            click.echo(f"Analysis complete!")
-            click.echo(f"  Studies analyzed: {len(results)}")
-            name_field = analyzer.schema_fields[0] if analyzer.schema_fields else "_source_file"
-            click.echo(f"  DTx apps covered: {len({r.get(name_field) for r in results})}")
-            click.echo(f"  Results saved to: {output}")
+        run_dir = analyzer.save_outputs(rows)
 
-            if csv_output:
-                analyzer.export_csv(results, csv_path=csv_output)
-                click.echo(f"  CSV exported to: {csv_output}")
-        else:
-            click.echo("\nNo results produced.")
+        totals = aggregate(analyzer.metrics) if analyzer.metrics else None
+        click.echo(f"\n{'='*60}")
+        click.echo("Phase 3 analysis complete!")
+        click.echo(f"  Rows (studies): {len(rows)}")
+        click.echo(f"  DTx apps covered: {len({a.get('dtx_slug') for a in analyzer.audits})}")
+        click.echo(f"  LLM calls: {len(analyzer.metrics)}")
+        if totals and totals.get("total_estimated_cost_usd") is not None:
+            click.echo(f"  Estimated cost: ${totals['total_estimated_cost_usd']}")
+        click.echo(f"  Output: {run_dir}")
 
     asyncio.run(run())
+
+
+@cli.command()
+@click.option('--file', 'files', multiple=True, type=str,
+              help='CSV path(s) to convert (default: both Test_Datasets ground-truth CSVs)')
+def convert_testset(files):
+    """Convert the ground-truth benchmarking CSVs into Phase 3-shaped JSON.
+
+    Reads the ';'-delimited Test_Datasets CSVs, maps each column to its
+    phase3_analysis.json key, groups rows per DTx, and writes a sibling .json
+    next to each CSV so Phase 3 output can be compared JSON-to-JSON.
+
+    Examples:
+        python main.py convert-testset
+        python main.py convert-testset --file Test_Datasets/test_dataset_benchmarking_numbers.csv
+    """
+    from utils.testset_converter import convert_all
+
+    paths = [Path(f) for f in files] if files else None
+    click.echo("Converting ground-truth test datasets to JSON...")
+    results = convert_all(paths)
+    for out_path, payload in results:
+        meta = payload["metadata"]
+        click.echo(
+            f"  {out_path}  ({meta['total_rows']} rows, {meta['dtx_count']} DTx)"
+        )
+    click.echo("Done.")
 
 
 if __name__ == "__main__":

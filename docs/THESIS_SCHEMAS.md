@@ -1,6 +1,8 @@
 # Digital Therapeutics Data Collection System
 ## Thesis Documentation - Phase 1 & Phase 2
 
+> **Historical document.** Superseded by the documentation hub in `thesis_docs/` (see `thesis_docs/README.md`). Kept for reference; some details below are out of date.
+
 ---
 
 ## 1. System Overview

@@ -556,6 +556,14 @@ class EvidenceClassifierV2:
         "narrative review", "study protocol", "protocol for", "a protocol",
         "rationale and design", "case report",
     ]
+    # Non-outcome study purposes. These are INELIGIBLE only when there is no RCT
+    # signal, so genuine "feasibility/pilot RCTs" with clinical outcomes are kept.
+    USABILITY_MARKERS = [
+        "usability", "feasibility", "acceptability", "proof of concept",
+        "proof-of-concept", "user-centered", "user centred", "user-centred",
+        "cognitive load", "heuristic evaluation", "human factors",
+        "human-factors", "user experience",
+    ]
 
     SYSTEM_PROMPT_TEMPLATE = """\
 You are a clinical research methodologist. You classify a single study by its design \
@@ -566,17 +574,25 @@ Definitions:
 allocates participants to an intervention group and a control/comparator group under \
 controlled trial conditions. Randomization to isolate the treatment effect is the defining \
 feature.
-- RWE (Real-World Evidence): clinical evidence about a product's use, benefits, or risks \
-derived from observational designs or real-world data collected in routine clinical practice - \
-for example prospective or retrospective cohort, case-control, registry-based, pragmatic \
-non-randomized studies, claims data, electronic health records, or app/device usage analyses.
-- INELIGIBLE: anything that is not a primary RCT or primary RWE study - for example narrative \
-or systematic reviews, meta-analyses, study protocols without results, editorials, \
-commentaries, letters, case reports, or usability/qualitative-only studies.
+- RWE (Real-World Evidence): clinical evidence that measures the effectiveness, safety, or \
+health outcomes of the intervention using observational designs or real-world data collected \
+in routine clinical practice - for example prospective or retrospective cohort, case-control, \
+registry-based, pragmatic non-randomized studies, claims data, electronic health records, or \
+app/device usage analyses. IMPORTANT: a study being conducted in a real-world setting (e.g. a \
+hospital department) does NOT by itself make it RWE - it must analyze real-world/observational \
+data to evaluate clinical outcomes.
+- INELIGIBLE: anything that is not a primary RCT or primary RWE study. This explicitly includes \
+usability, feasibility, acceptability, pilot, or proof-of-concept studies and technical or \
+human-factors evaluations (interface design, cognitive load, technical proficiency, user \
+experience) whose purpose is to inform or select a future trial rather than measure clinical \
+effectiveness or real-world health impact - these are INELIGIBLE even when run in a real-world \
+setting. Also INELIGIBLE: narrative or systematic reviews, meta-analyses, study protocols \
+without results, editorials, commentaries, letters, case reports, and qualitative-only studies.
 
 Decision axis: experimental-and-randomized (RCT) versus observational/real-world primary \
-study (RWE) versus not a primary effectiveness study (INELIGIBLE). A protocol with no results \
-yet is INELIGIBLE.
+study that measures clinical outcomes (RWE) versus not a primary effectiveness study \
+(INELIGIBLE). A protocol with no results yet, or a study whose main goal is usability/ \
+feasibility rather than clinical outcomes, is INELIGIBLE.
 
 Return ONLY a valid JSON object (no markdown, no code fences, no commentary) with exactly \
 these keys:
@@ -697,6 +713,52 @@ Return the JSON object only."""
                 rct_score += 3
             elif "observational" in pt or "cohort" in pt:
                 rwe_score += 3
+
+        # Usability/feasibility/technical-evaluation studies are not RWE just
+        # because they carry observational-sounding keywords. Guard against them,
+        # but never override a genuine randomization signal (a feasibility/pilot
+        # RCT stays an RCT).
+        has_rct_pub_type = any(
+            "randomized controlled trial" in pt or "randomised controlled trial" in pt
+            for pt in pub_types_lower
+        )
+        # The title is the most reliable signal of study *purpose*. A randomized
+        # term in the title means a real (feasibility/pilot) RCT; the same term in
+        # the abstract is often the *future* trial a usability study informs.
+        title_marker = next((m for m in self.USABILITY_MARKERS if m in title_lower), None)
+        title_has_rand = any(
+            k in title_lower for k in ("randomi", "rct", "controlled trial")
+        )
+        if title_marker and not title_has_rand:
+            # e.g. "Usability Evaluation ...", "Feasibility/Acceptability ...":
+            # let the strict-prompt LLM decide RWE vs INELIGIBLE.
+            return {
+                "classification": "UNKNOWN",
+                "study_design": "unknown",
+                "confidence": 0,
+                "reason": (
+                    f"Title indicates a non-outcome purpose ('{title_marker}') with no "
+                    "randomization; deferring to LLM for RWE-vs-ineligible judgment."
+                ),
+            }
+
+        has_randomization = ("randomi" in text) or has_rct_pub_type
+        text_marker = next((m for m in self.USABILITY_MARKERS if m in text), None)
+        if (
+            text_marker and not has_randomization
+            and rct_score == 0 and rwe_score == 0
+        ):
+            # Non-outcome purpose with no design signal at all -> ineligible.
+            return {
+                "classification": "INELIGIBLE",
+                "study_design": f"{text_marker} study",
+                "confidence": 80,
+                "reason": (
+                    f"Study purpose is '{text_marker}' (non-outcome) with no "
+                    "randomization or real-world outcome signal; not a primary "
+                    "RCT or RWE study."
+                ),
+            }
 
         if rct_score > rwe_score:
             return {

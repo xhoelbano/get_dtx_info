@@ -1,0 +1,5 @@
+call_label,total_calls,successful_calls,failed_calls,total_input_tokens,total_output_tokens,total_tokens,total_estimated_cost_usd,total_latency_ms,avg_latency_ms
+phase2_classify,92,92,0,152072,7451,159523,0.45469,134918.89,1466.51
+phase2_verify,510,510,0,1575650,43506,1619156,4.37418,849040.58,1664.79
+phase2_website_agent,27,27,0,4927870,87770,5015640,13.197376,2889026.0,107000.96
+TOTAL,629,629,0,6655592,138727,6794319,18.026246,3872985.47,6157.37

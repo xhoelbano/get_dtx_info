@@ -52,6 +52,222 @@ class LLMProvider:
         return ""
 
     @staticmethod
+    def get_browser_use_provider() -> str:
+        """Return the provider for the browser-use website agent.
+
+        Reads BROWSER_USE_PROVIDER and falls back to LLM_PROVIDER, so by default
+        the website agent uses the same provider as the rest of the pipeline.
+        """
+        return (
+            os.getenv("BROWSER_USE_PROVIDER") or LLMProvider.get_active_provider()
+        ).strip().lower()
+
+    @staticmethod
+    def get_browser_use_model() -> str:
+        """Return the model name the browser-use agent will use.
+
+        Reads BROWSER_USE_MODEL, else the chosen provider's standard model var.
+        """
+        explicit = os.getenv("BROWSER_USE_MODEL")
+        if explicit:
+            return explicit
+        provider = LLMProvider.get_browser_use_provider()
+        if provider == LLMProvider.PROVIDER_AZURE:
+            return os.getenv("AZURE_OPENAI_DEPLOYMENT") or ""
+        if provider == LLMProvider.PROVIDER_OPENAI:
+            return os.getenv("OPENAI_MODEL") or ""
+        if provider == LLMProvider.PROVIDER_GEMINI:
+            return os.getenv("GEMINI_MODEL") or ""
+        if provider == LLMProvider.PROVIDER_ANTHROPIC:
+            return os.getenv("ANTHROPIC_MODEL") or ""
+        return ""
+
+    @staticmethod
+    def get_browser_use_source_name() -> str:
+        """Human-readable provider/model string for the browser-use agent."""
+        provider = LLMProvider.get_browser_use_provider()
+        provider_display = {
+            LLMProvider.PROVIDER_AZURE: "Azure OpenAI",
+            LLMProvider.PROVIDER_OPENAI: "OpenAI",
+            LLMProvider.PROVIDER_GEMINI: "Google Gemini",
+            LLMProvider.PROVIDER_ANTHROPIC: "Anthropic Claude",
+        }.get(provider, provider)
+        model = LLMProvider.get_browser_use_model() or "(not set)"
+        return f"browser-use ({provider_display} - {model})"
+
+    @staticmethod
+    def get_browser_use_llm(temperature: float = 0.1):
+        """Build the browser-use chat model for the website evidence agent.
+
+        The provider defaults to LLM_PROVIDER (override with BROWSER_USE_PROVIDER)
+        and the model to that provider's standard model var (override with
+        BROWSER_USE_MODEL). This reuses the existing per-provider API keys, so the
+        website agent no longer depends on a separate hardcoded OpenAI account.
+
+        Returns:
+            Tuple of (llm, provider, model) where llm is a ``browser_use`` chat
+            model instance.
+
+        Raises:
+            ValueError: If the provider is unknown or a required env var is missing.
+            ImportError: If browser-use is not installed.
+        """
+        provider = LLMProvider.get_browser_use_provider()
+        model = LLMProvider.get_browser_use_model()
+
+        try:
+            from browser_use import (
+                ChatAnthropic,
+                ChatAzureOpenAI,
+                ChatGoogle,
+                ChatOpenAI,
+            )
+        except ImportError as exc:
+            raise ImportError(
+                "browser-use is required for the website evidence agent. "
+                "Install with: pip install browser-use"
+            ) from exc
+
+        if not model:
+            raise ValueError(
+                f"No model configured for the browser-use agent. Set BROWSER_USE_MODEL "
+                f"or the model var for provider '{provider}'."
+            )
+
+        if provider == LLMProvider.PROVIDER_OPENAI:
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                raise ValueError("OPENAI_API_KEY must be set for browser-use provider 'openai'")
+            llm = ChatOpenAI(model=model, api_key=api_key, temperature=temperature)
+        elif provider == LLMProvider.PROVIDER_GEMINI:
+            api_key = os.getenv("GOOGLE_API_KEY")
+            if not api_key:
+                raise ValueError("GOOGLE_API_KEY must be set for browser-use provider 'gemini'")
+            llm = ChatGoogle(model=model, api_key=api_key, temperature=temperature)
+        elif provider == LLMProvider.PROVIDER_ANTHROPIC:
+            api_key = os.getenv("ANTHROPIC_API_KEY")
+            if not api_key:
+                raise ValueError("ANTHROPIC_API_KEY must be set for browser-use provider 'anthropic'")
+            llm = ChatAnthropic(model=model, api_key=api_key, temperature=temperature)
+        elif provider == LLMProvider.PROVIDER_AZURE:
+            api_key = os.getenv("AZURE_OPENAI_API_KEY")
+            endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+            if not api_key or not endpoint:
+                raise ValueError(
+                    "AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT must be set for "
+                    "browser-use provider 'azure_openai'"
+                )
+            llm = ChatAzureOpenAI(
+                model=model,
+                api_key=api_key,
+                azure_endpoint=endpoint.rstrip("/"),
+                api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-08-01-preview"),
+                temperature=temperature,
+            )
+        else:
+            raise ValueError(
+                f"Unknown browser-use provider: {provider}. Use one of: "
+                f"{LLMProvider.PROVIDER_AZURE}, {LLMProvider.PROVIDER_OPENAI}, "
+                f"{LLMProvider.PROVIDER_GEMINI}, {LLMProvider.PROVIDER_ANTHROPIC}"
+            )
+
+        return llm, provider, model
+
+    @staticmethod
+    def _default_model_for_provider(provider: str) -> str:
+        """Return the standard model env var value for a given provider."""
+        if provider == LLMProvider.PROVIDER_AZURE:
+            return os.getenv("AZURE_OPENAI_DEPLOYMENT") or ""
+        if provider == LLMProvider.PROVIDER_OPENAI:
+            return os.getenv("OPENAI_MODEL") or ""
+        if provider == LLMProvider.PROVIDER_GEMINI:
+            return os.getenv("GEMINI_MODEL") or ""
+        if provider == LLMProvider.PROVIDER_ANTHROPIC:
+            return os.getenv("ANTHROPIC_MODEL") or ""
+        return ""
+
+    @staticmethod
+    def get_phase3_provider() -> str:
+        """Return the provider for the Phase 3 evidence analysis step.
+
+        Reads PHASE3_PROVIDER and falls back to LLM_PROVIDER, so by default the
+        analyzer uses the same provider as the rest of the pipeline. Set
+        PHASE3_PROVIDER to benchmark a different model family for analysis.
+        """
+        return (
+            os.getenv("PHASE3_PROVIDER") or LLMProvider.get_active_provider()
+        ).strip().lower()
+
+    @staticmethod
+    def get_phase3_model() -> str:
+        """Return the model name the Phase 3 analyzer will use.
+
+        Reads PHASE3_MODEL, else the chosen provider's standard model var.
+        """
+        explicit = os.getenv("PHASE3_MODEL")
+        if explicit:
+            return explicit
+        return LLMProvider._default_model_for_provider(LLMProvider.get_phase3_provider())
+
+    @staticmethod
+    def get_phase3_source_name(model_override: Optional[str] = None) -> str:
+        """Human-readable provider/model string for the Phase 3 analyzer."""
+        provider = LLMProvider.get_phase3_provider()
+        provider_display = {
+            LLMProvider.PROVIDER_AZURE: "Azure OpenAI",
+            LLMProvider.PROVIDER_OPENAI: "OpenAI",
+            LLMProvider.PROVIDER_GEMINI: "Google Gemini",
+            LLMProvider.PROVIDER_ANTHROPIC: "Anthropic Claude",
+        }.get(provider, provider)
+        model = model_override or LLMProvider.get_phase3_model() or "(not set)"
+        return f"Phase 3 Analysis ({provider_display} - {model})"
+
+    @staticmethod
+    def get_phase3_llm(
+        temperature: float = 0.0,
+        max_tokens: int = 4000,
+        model_override: Optional[str] = None,
+    ):
+        """Build the LangChain chat model used for Phase 3 evidence analysis.
+
+        The provider defaults to LLM_PROVIDER (override with PHASE3_PROVIDER) and
+        the model to that provider's standard model var (override with
+        PHASE3_MODEL, or the ``model_override`` argument). This reuses the
+        existing per-provider builders/keys. No web-search tool is bound: Phase 3
+        is a grounded extraction step over local raw files only.
+
+        Returns:
+            Tuple of (llm, provider, model).
+
+        Raises:
+            ValueError: If the provider is unknown or a required env var is missing.
+        """
+        provider = LLMProvider.get_phase3_provider()
+        model = model_override or LLMProvider.get_phase3_model()
+        if not model:
+            raise ValueError(
+                f"No model configured for the Phase 3 analyzer. Set PHASE3_MODEL "
+                f"or the model var for provider '{provider}'."
+            )
+
+        if provider == LLMProvider.PROVIDER_AZURE:
+            llm = LLMProvider._get_azure_llm(temperature, max_tokens, model_override=model)
+        elif provider == LLMProvider.PROVIDER_OPENAI:
+            llm = LLMProvider._get_openai_llm(temperature, max_tokens, model_override=model)
+        elif provider == LLMProvider.PROVIDER_GEMINI:
+            llm = LLMProvider._get_gemini_llm(temperature, max_tokens, model_override=model)
+        elif provider == LLMProvider.PROVIDER_ANTHROPIC:
+            llm = LLMProvider._get_anthropic_llm(temperature, max_tokens, model_override=model)
+        else:
+            raise ValueError(
+                f"Unknown Phase 3 provider: {provider}. Use one of: "
+                f"{LLMProvider.PROVIDER_AZURE}, {LLMProvider.PROVIDER_OPENAI}, "
+                f"{LLMProvider.PROVIDER_GEMINI}, {LLMProvider.PROVIDER_ANTHROPIC}"
+            )
+
+        return llm, provider, model
+
+    @staticmethod
     def _env_web_search_enabled() -> bool:
         """Read the ENABLE_WEB_SEARCH env toggle (default: True)."""
         raw = (os.getenv("ENABLE_WEB_SEARCH") or "true").strip().lower()

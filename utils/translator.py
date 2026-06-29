@@ -18,8 +18,35 @@ class Translator:
         """
         self.source_lang = source_lang
         self.target_lang = target_lang
-        self.llm = LLMProvider.get_llm(temperature=0.0, max_tokens=2000)
+        # Translation never needs web search; binding the tool makes some
+        # providers (e.g. OpenAI with web_search) return list-shaped content
+        # blocks instead of a plain string, which broke `.strip()` below.
+        self.llm = LLMProvider.get_llm(
+            temperature=0.0, max_tokens=2000, enable_web_search=False
+        )
     
+    @staticmethod
+    def _content_to_text(content) -> str:
+        """Flatten a LangChain response content into plain text.
+
+        Some providers (notably OpenAI with a bound web_search tool, and
+        Anthropic/Gemini) return ``content`` as a list of blocks rather than a
+        string. Keep only genuine text, never stringify tool-use blocks.
+        """
+        if isinstance(content, str):
+            return content
+        if isinstance(content, list):
+            parts = []
+            for block in content:
+                if isinstance(block, str):
+                    parts.append(block)
+                elif isinstance(block, dict):
+                    text_val = block.get("text")
+                    if isinstance(text_val, str) and text_val:
+                        parts.append(text_val)
+            return "".join(parts)
+        return "" if content is None else str(content)
+
     async def translate(self, text: str, preserve_terms: List[str] = None) -> str:
         """Translate a single text string.
         
@@ -30,7 +57,10 @@ class Translator:
         Returns:
             Translated text.
         """
-        if not text or text.strip() == "":
+        # Be tolerant if a non-string (e.g. list) is passed in.
+        if isinstance(text, list):
+            text = self._content_to_text(text)
+        if not text or not str(text).strip():
             return text
         
         preserve_note = ""
@@ -48,7 +78,7 @@ Only return the translation, nothing else."""
         ]
         
         response = await self.llm.ainvoke(messages)
-        return response.content.strip()
+        return self._content_to_text(response.content).strip()
     
     async def translate_batch(self, texts: List[str], preserve_terms: List[str] = None) -> List[str]:
         """Translate multiple texts in a batch.

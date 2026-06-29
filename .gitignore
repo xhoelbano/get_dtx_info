@@ -85,6 +85,11 @@ presentation_diagrams/
 commands-run.txt
 
 
+# ignore .cursor folder
+.cursor/
 
+# ignore test dataset folder test_dataset/
+Test_Datasets/
 
-    
+# ignore thesis docs folder thesis_docs/
+thesis_docs/

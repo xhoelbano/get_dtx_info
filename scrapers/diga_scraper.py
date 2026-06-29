@@ -221,9 +221,11 @@ class DiGAScraper(BaseScraper):
         if not self.translator:
             return dtx
         
-        # Get ICD-10 codes to preserve during translation
-        preserve_terms = dtx.get("clinical_area_icd10", [])
-        preserve_terms.extend(dtx.get("trial_registration_ids", []))
+        # Get ICD-10 codes to preserve during translation. Copy into a new list
+        # so we never mutate dtx["clinical_area_icd10"] (previously this appended
+        # trial-registration IDs into the stored ICD-10 codes).
+        preserve_terms = list(dtx.get("clinical_area_icd10", []) or [])
+        preserve_terms.extend(dtx.get("trial_registration_ids", []) or [])
         
         # Translate specified fields
         for field in self.FIELDS_TO_TRANSLATE:
@@ -461,6 +463,11 @@ class DiGAScraper(BaseScraper):
             }
         }
         
+        // Risk class is NOT extracted here: it lives in the collapsed
+        // "Weitere Informationen zur digitalen Gesundheitsanwendung" section,
+        // which is not expanded yet at this point. It is extracted separately
+        // after that accordion is opened (see _extract_risk_class).
+        
         // Languages - look for Sprache(n) section
         const langMatch = bodyText.match(/(?:Sprache|Sprachen)[:\\s]*([^\\n]+)/i);
         if (langMatch) {
@@ -581,6 +588,145 @@ class DiGAScraper(BaseScraper):
     }
     """
     
+    # JavaScript to read the medical-device risk class once the
+    # "Weitere Informationen zur digitalen Gesundheitsanwendung" section is open.
+    # Values on the page look like "Risikoklasse I nach MDR" / "... IIa nach MDR".
+    RISK_CLASS_EXTRACTION_JS = """
+    () => {
+        const text = document.body.innerText || "";
+        // Primary: the value line "Risikoklasse <class> nach MDR".
+        let m = text.match(/Risikoklasse\\s+(IIb|IIa|III|II|I)\\s+nach\\s+MDR/i);
+        if (m) return m[1];
+        // Fallback: label "Risikoklasse Medizinprodukt" then the value.
+        m = text.match(/Risikoklasse\\s+Medizinprodukt[\\s:]*Risikoklasse\\s+(IIb|IIa|III|II|I)\\b/i);
+        if (m) return m[1];
+        return null;
+    }
+    """
+    
+    @staticmethod
+    def _format_mdr_risk_class(raw: Optional[str]) -> Optional[str]:
+        """Format a bare MDR class into the labeled regulatory form.
+
+        German DiGA are CE-marked under the EU MDR, so a bare "IIa" becomes
+        "Risk Class IIa according to MDR". Returns None if there is no class.
+        """
+        if not raw:
+            return None
+        return f"Risk Class {raw.strip()} according to MDR"
+
+    async def _extract_risk_class(self, page) -> Optional[str]:
+        """Expand the medical-device section and read the MDR risk class.
+        
+        The risk class lives under "Weitere Informationen zur digitalen
+        Gesundheitsanwendung", which is collapsed by default. We open that
+        accordion (and any nested expanders), then scan the text.
+        
+        Args:
+            page: A Playwright page already navigated to a DiGA detail page.
+        
+        Returns:
+            The labeled risk class ("Risk Class IIa according to MDR", ...) or
+            None if not found.
+        """
+        async def try_extract():
+            try:
+                val = await page.evaluate(self.RISK_CLASS_EXTRACTION_JS)
+                return val.strip() if isinstance(val, str) and val.strip() else None
+            except Exception:
+                return None
+        
+        async def expand_collapsed():
+            """Open every collapsed accordion (skip nav/menu toggles).
+            
+            Only clicks elements with aria-expanded="false", so it never closes
+            a section that is already open - safe to call repeatedly and works
+            whether or not the parent section was pre-expanded by the caller.
+            """
+            opened = False
+            try:
+                expanders = await page.locator('[aria-expanded="false"]').all()
+            except Exception:
+                expanders = []
+            for exp in expanders:
+                try:
+                    label = (await exp.inner_text()) or ""
+                except Exception:
+                    label = ""
+                if any(skip in label for skip in ("Menü", "Sprache", "Navigation")):
+                    continue
+                try:
+                    await exp.click(timeout=1500)
+                    opened = True
+                    await asyncio.sleep(0.2)
+                except Exception:
+                    continue
+            return opened
+        
+        async def click_named_section():
+            """Click the medical-device section header once (a toggle)."""
+            for selector in (
+                'button:has-text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+                'a:has-text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+                'summary:has-text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+                ':text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+            ):
+                try:
+                    loc = page.locator(selector).first
+                    if await loc.count() > 0:
+                        await loc.click(timeout=2500)
+                        await asyncio.sleep(1.2)
+                        return True
+                except Exception:
+                    continue
+            return False
+        
+        # Maybe it is already visible.
+        risk = await try_extract()
+        if risk:
+            return self._format_mdr_risk_class(risk)
+        
+        # The "Weitere Informationen..." section may already be open (the detail
+        # scrape pre-expands accordions) or still collapsed (standalone backfill).
+        # First expand any collapsed accordions - this surfaces the nested
+        # "Angaben zum Medizinprodukt" panel WITHOUT toggling an open section
+        # shut. Only if the risk text is still missing do we click the named
+        # header, retrying so an accidental toggle is re-opened next pass.
+        for _ in range(3):
+            await expand_collapsed()
+            risk = await try_extract()
+            if risk:
+                return self._format_mdr_risk_class(risk)
+            await click_named_section()
+            risk = await try_extract()
+            if risk:
+                return self._format_mdr_risk_class(risk)
+        
+        return self._format_mdr_risk_class(await try_extract())
+    
+    async def scrape_risk_class(self, source_url: str) -> Optional[str]:
+        """Open a DiGA detail page and return just its labeled MDR risk class.
+        
+        Used by the one-time backfill command; reuses the same extraction as the
+        full detail scrape so behavior stays consistent.
+        """
+        if not source_url:
+            return None
+        page = await self._create_page()
+        try:
+            await page.goto(source_url, wait_until="domcontentloaded", timeout=30000)
+            try:
+                await page.wait_for_load_state("networkidle", timeout=15000)
+            except Exception:
+                pass
+            await asyncio.sleep(1)
+            return await self._extract_risk_class(page)
+        except Exception as e:
+            print(f"      Error extracting risk class from {source_url}: {e}")
+            return None
+        finally:
+            await page.close()
+    
     async def scrape_dtx_details(self, dtx_basic: Dict) -> Dict:
         """Scrape detailed information for a single DTx using Playwright.
         
@@ -637,6 +783,19 @@ class DiGAScraper(BaseScraper):
             
             # Extract details using JavaScript
             details = await page.evaluate(self.DETAIL_EXTRACTION_JS)
+            
+            # Read the MDR risk class BEFORE switching to the Fachkreise tab.
+            # The risk class lives in the consumer view ("Weitere Informationen
+            # zur digitalen Gesundheitsanwendung"); clicking "Informationen für
+            # Fachkreise" swaps that view out, so the section disappears. Extract
+            # it here while the consumer section is still present.
+            risk_class_value = None
+            try:
+                risk_class_value = await self._extract_risk_class(page)
+                if risk_class_value:
+                    print(f"      Risk class: {risk_class_value}")
+            except Exception as e:
+                print(f"      Could not extract risk class: {e}")
             
             # Click "Informationen für Fachkreise" to access the Module table with ICD-10 codes
             icd10_codes = []
@@ -723,6 +882,31 @@ class DiGAScraper(BaseScraper):
             result.setdefault("trial_registration_ids", [])
             result.setdefault("reason_for_delisting", None)
             result.setdefault("description", None)
+            result.setdefault("risk_class", None)
+            if risk_class_value:
+                result["risk_class"] = risk_class_value
+            
+            # Unified Phase 1 fields (shared shape across Germany / USA).
+            status_de = result.get("listing_status_de", "") or ""
+            is_removed = "estrichen" in status_de.lower()  # (G/g)estrichen
+            # Stable id from the DiGA directory number in the source URL.
+            verzeichnis_id = None
+            src = result.get("source_url", "") or ""
+            id_match = re.search(r"/verzeichnis/(\w+)", src)
+            if id_match:
+                verzeichnis_id = id_match.group(1)
+            if not verzeichnis_id:
+                # Rare fallback: slug from the product name.
+                name_slug = re.sub(r"[^a-z0-9]+", "-", result.get("dtx_name", "").lower()).strip("-")
+                verzeichnis_id = name_slug[:50] or "unknown"
+            result["id"] = f"de-{verzeichnis_id}"
+            result["listing"] = "Removed" if is_removed else "Active"
+            result["diga_listing"] = "Removed" if is_removed else result.get("listing_status", "Unknown")
+            result["removed_from_diga_listing"] = (
+                (result.get("reason_for_delisting") or "Removed from DiGA directory")
+                if is_removed else "active"
+            )
+            result["category"] = result.get("dtx_category")
             
             return result
             

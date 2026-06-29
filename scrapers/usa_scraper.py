@@ -11,6 +11,7 @@ import asyncio
 import csv
 import json
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -54,6 +55,8 @@ a real source, do not invent the product.
 - For "clinical_area_icd10", give the single primary ICD-10 code unless the product is clearly \
 multi-indication. Examples: G20 (Parkinson's), F82 (Dyspraxia/DCD), F32 (Depression), \
 F41 (Anxiety), G47.0 (Insomnia).
+- For "risk_class", use the US FDA scale ONLY. Do not infer it from an EU CE / MDR marking. If the \
+product is not an FDA-cleared device (e.g. a wellness device or EU-only product), set it to null.
 - It is acceptable and correct to return an empty "dtx_products" list if the company has no genuine \
 DTx product. Do not pad the result.
 
@@ -360,20 +363,73 @@ Return an empty dtx_products list if the company has no real DTx product."""
             print(f"      Repair retry failed: {e}")
             return None
 
+    @staticmethod
+    def _format_risk_class_us(raw) -> Optional[str]:
+        """Normalize an LLM-provided US risk class into the FDA-labeled form.
+
+        Keeps the value LLM-sourced but guarantees the regulatory wording
+        ("Class II according to FDA"). An explicit class always wins; otherwise
+        the FDA pathway is mapped as a best-effort fallback (510(k)/De Novo ->
+        Class II, PMA -> Class III). Truly vague values such as "FDA listed" /
+        "cleared" return None (logged so nulls are explainable).
+        """
+        if not raw or not isinstance(raw, str):
+            return None
+
+        # 1) Explicit device class token (III, II, or I) takes precedence.
+        m = re.search(r"\bclass\s+(III|II|I)\b", raw, re.IGNORECASE)
+        if not m:
+            m = re.search(r"\b(III|II|I)\b", raw)
+        if m:
+            return f"Class {m.group(1).upper()} according to FDA"
+
+        # 2) Fallback: infer the class from the FDA regulatory pathway.
+        lowered = raw.lower()
+        if "pma" in lowered or "premarket approval" in lowered:
+            return "Class III according to FDA"
+        if "510" in lowered or "de novo" in lowered or "de-novo" in lowered:
+            return "Class II according to FDA"
+
+        # 3) Non-class noise -> null, but log so the null is explainable.
+        print(f"      risk_class: dropped unrecognized value {raw!r}")
+        return None
+
+    @staticmethod
+    def _normalize_reviews(raw, store_url) -> Optional[Dict]:
+        """Normalize an LLM-provided reviews object into {rating, review_count, url}.
+
+        Returns None when no usable rating was found, so the field stays null
+        rather than carrying an empty/placeholder object.
+        """
+        if not isinstance(raw, dict):
+            return None
+        rating = raw.get("rating")
+        review_count = raw.get("review_count")
+        if rating is None and review_count is None:
+            return None
+        return {
+            "rating": rating,
+            "review_count": review_count,
+            "url": store_url,
+        }
+
     def _format_dtx_entry(self, company: Dict, product: Dict, company_info: Dict) -> Dict:
         """Format a single DTx product into the unified schema.
-        
-        Schema matches German DTx structure with only price_usd instead of price_eur.
-        
+
+        Every field is taken from the LLM research output (product / company_info)
+        - nothing is hardcoded except the stable id and the factual DiGA columns
+        (US products are definitionally not DiGAs). Missing values stay null/empty
+        as returned by the model.
+
         Args:
             company: Original company data from CSV.
             product: DTx product data from LLM research.
             company_info: Company info from LLM research.
-            
+
         Returns:
             Formatted DTx entry matching the unified schema.
         """
-        # Parse founding year
+        # Founding year: prefer the CSV value, fall back to LLM company_info.
         founding_year = None
         if company.get("year_founded"):
             try:
@@ -382,32 +438,52 @@ Return an empty dtx_products list if the company has no real DTx product."""
                 pass
         if not founding_year and company_info.get("company_founding_year"):
             founding_year = company_info.get("company_founding_year")
-        
+
+        dtx_name = product.get("dtx_name", "Unknown")
+        listing_status = product.get("listing_status", "Unknown")
+        category = product.get("category")
+        app_store_url = product.get("app_store_url")
+        play_store_url = product.get("play_store_url")
+        # Stable id from the product name (USA products have no registry number).
+        name_slug = re.sub(r"[^a-z0-9]+", "-", dtx_name.lower()).strip("-")
+        dtx_id = f"us-{name_slug[:50] or 'unknown'}"
+
         return {
             # Core identification
-            "dtx_name": product.get("dtx_name", "Unknown"),
+            "id": dtx_id,
+            "dtx_name": dtx_name,
             "company_provider": company.get("company_name", "Unknown"),
             "company_website": company_info.get("company_website") or company.get("website"),
             "company_founding_year": founding_year,
             # Regulatory status
-            "listing_status": product.get("listing_status", "Unknown"),
-            "date_of_first_listing": None,
-            # Clinical information
+            "listing_status": listing_status,
+            "listing": listing_status,
+            # DiGA-specific fields do not apply to US products (factual, not assumed).
+            "diga_listing": "not a DiGA",
+            "removed_from_diga_listing": "not a DiGA",
+            "date_of_first_listing": product.get("date_of_first_listing"),
+            # Clinical information (all researched by the LLM).
             "clinical_area_icd10": product.get("clinical_area_icd10", []),
-            "dtx_category": None,
+            "dtx_category": category,
+            "category": category,
+            "risk_class": self._format_risk_class_us(product.get("risk_class")),
             "description": product.get("description"),
             # Platform availability
-            "app_store_url": product.get("app_store_url"),
-            "play_store_url": product.get("play_store_url"),
-            "web_app_url": None,
+            "app_store_url": app_store_url,
+            "play_store_url": play_store_url,
+            "web_app_url": product.get("web_app_url"),
             # Pricing (USD for USA, EUR for Germany)
             "price_usd": product.get("price_usd"),
-            # Languages & trials
-            "languages": ["English"],
-            "trial_registration_ids": [],
-            # App store metrics
-            "reviews_playstore": None,
-            "reviews_appstore": None,
+            # Languages & trials (researched by the LLM; empty when unknown).
+            "languages": product.get("languages") or [],
+            "trial_registration_ids": product.get("trial_registration_ids") or [],
+            # App store metrics (researched by the LLM; null when not found).
+            "reviews_playstore": self._normalize_reviews(
+                product.get("reviews_playstore"), play_store_url
+            ),
+            "reviews_appstore": self._normalize_reviews(
+                product.get("reviews_appstore"), app_store_url
+            ),
             # Metadata
             "source_url": product.get("source_url") or company_info.get("company_website") or company.get("website"),
             "last_scraped": datetime.utcnow().isoformat() + "Z",
