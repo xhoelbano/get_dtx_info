@@ -84,12 +84,18 @@ presentation_diagrams/
 # ignore commands-run.txt commands-run.txt
 commands-run.txt
 
-
 # ignore .cursor folder
 .cursor/
 
-# ignore test dataset folder test_dataset/
-Test_Datasets/
-
 # ignore thesis docs folder thesis_docs/
 thesis_docs/
+
+# ignore Benchmark folder Benchmark/
+Benchmark/  
+
+# ignore Phase 2 and Phase 3 evidence analysis foldes
+Phase_3_Evidence_Analysis/
+Phase_2_benchmarks
+
+# ignore results and benchmarks folder Results and Benchmarks/
+Results and Benchmarks/
