@@ -28,7 +28,8 @@ Thumbs.db
 # === Generated pipeline data & outputs (root-anchored so they never
 #     shadow source dirs such as scrapers/evidence/) ===
 data/
-evidence/
+# anchored to root so it does NOT also ignore scrapers/evidence/ source
+/evidence/
 evidence_old/
 evidence-docs/
 Output/
@@ -46,3 +47,5 @@ Results and Benchmarks/
 /archive/
 old_archive/
 /commands-run.txt
+/remaining_germany_dtx.txt
+/test_website_scraper.py
