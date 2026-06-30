@@ -27,22 +27,22 @@ Thumbs.db
 
 # === Generated pipeline data & outputs (root-anchored so they never
 #     shadow source dirs such as scrapers/evidence/) ===
-/data/
-/evidence/
-/evidence_old/
-/evidence-docs/
-/Output/
-/Phase_3_Evidence_Analysis/
-/Phase_2_benchmarks/
+data/
+evidence/
+evidence_old/
+evidence-docs/
+Output/
+Phase_3_Evidence_Analysis/
+Phase_2_benchmarks/
 
 # === Local-only docs, decks, archives, scratch ===
 /docs/
 /thesis_docs/
 /schema-designs/
-/presentatio_deck/
-/presentation_deck/
-/presentation_diagrams/
-/Results and Benchmarks/
+presentatio_deck/
+presentation_deck/
+presentation_diagrams/
+Results and Benchmarks/
 /archive/
-/old_archive/
+old_archive/
 /commands-run.txt
