@@ -1,0 +1,22 @@
+# Mode 3 - Run the pipeline for one or more companies by name.
+#
+# has_diga: true   -> German DiGA path. The DiGA directory is searched, every
+#                     DiGA whose manufacturer matches any `company` is scraped
+#                     (a provider can have several), then Phase 2 + 3 run.
+# has_diga: false  -> General path. Each company's DTx are discovered by LLM
+#                     web search (no CSV needed), then Phase 2 + 3 run.
+#                     Needs a web-search-capable provider (openai/gemini/anthropic).
+#
+# `company` accepts a single name OR a list of names.
+#
+# Usage:  python run.py --job Input/templates/3_company_name.yaml
+
+mode: company_name
+
+# company: "GAIA AG"
+company: ["Pohl-Boskamp", "Vision2B"]
+has_diga: true
+
+limit: null
+sources: all
+# config: config/usa.json   # only used when has_diga: false (general path)

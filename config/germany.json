@@ -4,7 +4,7 @@
   "output_language": "en",
   "dtx_directory_url": "https://diga.bfarm.de/de/verzeichnis",
   "status_filters": {
-    "all": "",
+    "all": "type=%5B%22active%22%2C%22draft%22%2C%22retired%22%5D",
     "permanent": "type=%5B%22active%22%5D",
     "provisional": "type=%5B%22draft%22%5D",
     "delisted": "type=%5B%22retired%22%5D"

@@ -1,0 +1,16 @@
+# Mode 1 - Run the whole pipeline for the German DiGA directory.
+#
+# Phase 1: scrape every DTx from https://diga.bfarm.de/
+# Phase 2: find + classify evidence for all of them (Germany)
+# Phase 3: analyse every verified study
+#
+# Usage:  python run.py --job Input/templates/1_diga_full.yaml
+# This is a FULL run (hundreds of DTx); use `limit` for a smaller test.
+
+mode: diga_full
+
+limit: null               # e.g. 5 to only process the first 5 DiGA
+sources: all
+# config: config/germany.json   # default for the German path
+#
+# Phase 2's Browser-Use website pass is controlled by ENABLE_WEBSITE_SEARCH in .env.

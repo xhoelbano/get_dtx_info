@@ -27,6 +27,9 @@ click>=8.0.0
 # Utilities
 python-slugify>=8.0.0
 
+# Input job files for the run.py orchestrator (Input/job.yaml)
+PyYAML>=6.0
+
 # Benchmark 2 (field-level extraction quality) - scoring metrics
 # bert-score pulls in torch + transformers; first run downloads roberta-large.
 # run_benchmark_2.py also works with --no-bertscore (token-F1 fallback only).

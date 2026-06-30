@@ -1,0 +1,22 @@
+# Mode 2 - Run the pipeline from a CSV of companies (the general / non-German path).
+#
+# Phase 1: LLM research (with web search) for every company in the CSV
+# Phase 2: find + classify evidence for the discovered DTx
+# Phase 3: analyse every verified study
+#
+# The CSV must follow the column layout of Input/companies/example_company.csv
+# (a copy of data-format/us_company.csv). Column names are mapped via the
+# config file's `csv_column_mappings` (config/usa.json by default).
+#
+# Requires a web-search-capable provider (LLM_PROVIDER=openai/gemini/anthropic);
+# Azure OpenAI cannot web-search here, so the research would find nothing.
+#
+# Usage:  python run.py --job Input/templates/2_company_csv.yaml
+
+mode: company_csv
+
+csv_path: Input/companies/example_company.csv
+config: config/usa.json   # general path uses the USA config; add config/<country>.json for others
+
+limit: null
+sources: all

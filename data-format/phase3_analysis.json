@@ -1,0 +1,123 @@
+{
+  "_comment": "Phase 3 analysis table schema. The analysis columns mirror the ground-truth dataset Test_Datasets/test_dataset_benchmarking_analysis.csv (';'-delimited, 28 columns). The simplified Test_Datasets/test_dataset_benchmarking_numbers.csv is a 6-column subset (DTx Name, Is it a DiGA?, Company \\ Provider, Evidence Type, Trial Registration ID, Sources / Publications) used to benchmark Phase 2 study counts; the converter fills those 6 keys and leaves the rest empty. 'key' is the JSON field used in Phase 3 output. 'label' is the EXACT CSV header (matched after stripping surrounding whitespace). 'fill' = where the value comes from: 'dtx' (from data/dtx_data*.json), 'study' (from the verified studies.json object), or 'study_or_llm' (prefer the scraped study value, otherwise let the LLM extract it from the raw evidence file). 'study_keys' lists the keys to try inside a study object. 'description' guides the LLM when it must fill a gap.",
+  "columns": [
+    { "key": "dtx_name", "label": "DTx Name", "fill": "dtx" },
+    { "key": "is_it_a_diga", "label": "Is it a DiGA?", "fill": "dtx" },
+    { "key": "company_provider", "label": "Company \\ Provider", "fill": "dtx" },
+    { "key": "company_founding_year", "label": "Company Founding Year ", "fill": "dtx" },
+    { "key": "diga_listing_status", "label": "DiGA listing status", "fill": "dtx" },
+    { "key": "diga_listing_date", "label": "DiGA listing date", "fill": "dtx" },
+    { "key": "category", "label": "Category", "fill": "dtx", "description": "Short (1-3 word) medical/therapeutic category of the DTx. When the dataset 'category'/'dtx_category' field is empty, it is LLM-derived from the DTx name, description and clinical area (ICD-10)." },
+    { "key": "risk_class", "label": "Risk class", "fill": "dtx" },
+    { "key": "clinical_area_icd10", "label": "Clinical Area (ICD-10)", "fill": "dtx" },
+    { "key": "rating_on_playstore", "label": "Rating on Playstore", "fill": "dtx" },
+    { "key": "reviews_on_playstore", "label": "Reviews on Playstore", "fill": "dtx" },
+    { "key": "rating_on_appstore", "label": "Rating on App store", "fill": "dtx" },
+    { "key": "reviews_on_appstore", "label": "Reviews on Appstore", "fill": "dtx" },
+    {
+      "key": "evidence_type",
+      "label": "Evidence Type",
+      "fill": "study",
+      "study_keys": ["evidence_type"],
+      "description": "Type of evidence / study design (e.g. RCT, RWE, Pilot RCT, cohort study)."
+    },
+    {
+      "key": "primary_end_point_duration_weeks",
+      "label": "Primary End Point Duration in weeks",
+      "fill": "study_or_llm",
+      "study_keys": ["primary_endpoint_duration_weeks", "primary_end_point_duration_weeks"],
+      "description": "Duration until the primary endpoint is assessed, expressed in weeks (number only when possible)."
+    },
+    {
+      "key": "follow_up_after_primary_end_point",
+      "label": "Follow-up after Primary End Point",
+      "fill": "study_or_llm",
+      "study_keys": ["follow_up_after_primary_endpoint", "follow_up_after_primary_end_point"],
+      "description": "Whether and when participants were followed up after the primary endpoint (e.g. '6 months', 'yes')."
+    },
+    {
+      "key": "duration_additional_info",
+      "label": "Duration Additional Info",
+      "fill": "study_or_llm",
+      "study_keys": ["duration_additional_info"],
+      "description": "Any additional notes about the study or endpoint duration/timing."
+    },
+    {
+      "key": "study_size_participants",
+      "label": "Study Size (participants)",
+      "fill": "study_or_llm",
+      "study_keys": ["study_size_participants", "study_size"],
+      "description": "Total number of participants enrolled or analyzed in the study."
+    },
+    {
+      "key": "intervention_and_control_group",
+      "label": "Intervention and Control group",
+      "fill": "study_or_llm",
+      "study_keys": ["intervention_and_control_group"],
+      "description": "Description and/or sizes of the intervention and control groups (e.g. 'I = 164 and C = 173')."
+    },
+    {
+      "key": "trial_arms",
+      "label": "Trial Arms",
+      "fill": "study_or_llm",
+      "study_keys": ["trial_arms"],
+      "description": "Number of trial arms (e.g. 2)."
+    },
+    {
+      "key": "additional_info_about_trial_arms",
+      "label": "Additional Info About the Trial Arms",
+      "fill": "study_or_llm",
+      "study_keys": ["trial_arms_additional_info", "additional_info_about_trial_arms"],
+      "description": "Details describing what each trial arm received (intervention vs control specifics)."
+    },
+    {
+      "key": "collected_data",
+      "label": "Collected data (e.g. PROMS, PHQ-9, pain level etc.)",
+      "fill": "study_or_llm",
+      "study_keys": ["collected_data"],
+      "description": "The instruments, measures, scales, questionnaires and variables COLLECTED/tracked during the study (NOT the results), e.g. PROMs, PHQ-9, IBS-SSS, NPRS pain level, adherence logs. Primary Outcome and Secondary Outcome MEASURE definitions (what is measured and when) belong here."
+    },
+    {
+      "key": "key_outcomes_findings",
+      "label": "Key Outcomes / Findings",
+      "fill": "study_or_llm",
+      "study_keys": ["key_outcomes_findings"],
+      "description": "ONLY the actual REPORTED results/findings of the study: effect sizes, percentage changes, p-values, statistical significance, responder rates and conclusions. Return \"\" when the source only DEFINES what will be measured (endpoints / outcome-measure definitions, e.g. registry or ClinicalTrials.gov protocols) and reports no results - those measures belong in collected_data, not here. Do not invent results."
+    },
+    {
+      "key": "trial_registration_id",
+      "label": "Trial Registration ID",
+      "fill": "study_or_llm",
+      "study_keys": ["trial_registration_id", "drks_id", "nct_id", "isrctn_id", "study_id", "pmid", "pmc_id"],
+      "description": "Trial registration / study identifier. Prefer the registry id (NCT########, DRKS########, ISRCTN########); for PubMed use the PMID. For website sources, look for any registration id (NCT/DRKS/ISRCTN/EUCTR) mentioned in the raw text."
+    },
+    {
+      "key": "trial_start_date",
+      "label": "Trial Start Date",
+      "fill": "study_or_llm",
+      "study_keys": ["trial_start_date"],
+      "description": "Date the trial started, formatted as 'DD Month YYYY' (e.g. '04 March 2018'); if the day is unknown use 'Month YYYY'; if only the year is known use 'YYYY'."
+    },
+    {
+      "key": "trial_end_date",
+      "label": "Trial End Date",
+      "fill": "study_or_llm",
+      "study_keys": ["trial_end_date"],
+      "description": "Date the trial ended or was completed, formatted as 'DD Month YYYY' (e.g. '04 March 2018'); if the day is unknown use 'Month YYYY'; if only the year is known use 'YYYY'."
+    },
+    {
+      "key": "publication_date",
+      "label": "publication date",
+      "fill": "study_or_llm",
+      "study_keys": ["publication_date"],
+      "description": "Publication date of the study/article, formatted as 'DD Month YYYY' (e.g. '04 March 2018'); if the day is unknown use 'Month YYYY'; if only the year is known use 'YYYY'."
+    },
+    {
+      "key": "sources_publications",
+      "label": "Sources / Publications",
+      "fill": "study",
+      "study_keys": ["sources_publications", "url"],
+      "description": "URL(s) or citation(s) for the study/publication."
+    }
+  ]
+}

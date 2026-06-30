@@ -1,0 +1,23 @@
+# Mode 4 - Run the pipeline for one or more DTx by name.
+#
+# is_diga: true    -> German DiGA path. The DiGA directory is searched for the
+#                     matching product(s), they are scraped, then Phase 2 + 3 run.
+# is_diga: false   -> General path. Each DTx is looked up by LLM web search; if
+#                     it exists its details are gathered, then Phase 2 + 3 run.
+#                     Needs a web-search-capable provider (openai/gemini/anthropic).
+#                     Names found for none of the inputs stop the run.
+#
+# `dtx` accepts a single name OR a list of names. For the German path, match the
+# product name as it appears in the DiGA directory (e.g. "deprexis", "Vivira").
+#
+# Usage:  python run.py --job Input/templates/4_dtx_name.yaml
+
+mode: dtx_name
+
+# dtx: "deprexis"
+dtx: ["elevida", "mebix"]
+is_diga: true
+
+limit: null
+sources: all
+# config: config/usa.json   # only used when is_diga: false (general path)

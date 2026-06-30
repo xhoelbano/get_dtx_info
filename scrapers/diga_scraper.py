@@ -47,21 +47,38 @@ class DiGAScraper(BaseScraper):
             const heading = card.querySelector('h1');
             const name = heading ? heading.textContent.trim() : 'Unknown';
             
-            // Find status and company
+            // Find status and company.
+            // Active/provisional cards put "<status> | <company>" inside the
+            // subheader. Delisted ("gestrichen") cards instead carry only the
+            // company span in the subheader plus a separate .entity-app__retired
+            // notice, so the status/company must be read differently.
             const infoDiv = heading?.parentElement;
+            const subheader = card.querySelector('.entity-app__subheader') || infoDiv;
+            const retired = card.querySelector('.entity-app__retired');
             let status = '';
             let company = '';
-            
-            if (infoDiv) {
-                const text = infoDiv.textContent;
-                if (text.includes('Dauerhaft aufgenommen')) status = 'Dauerhaft aufgenommen';
-                else if (text.includes('Vorläufig aufgenommen')) status = 'Vorläufig aufgenommen';
-                else if (text.includes('Gestrichen')) status = 'Gestrichen';
-                
-                const parts = text.split('|');
-                if (parts.length > 1) {
-                    company = parts[parts.length - 1].trim();
-                }
+
+            const subText = subheader ? subheader.textContent : '';
+            if (retired || /gestrichen/i.test(card.textContent)) {
+                status = 'Gestrichen';
+            } else if (subText.includes('Dauerhaft aufgenommen')) {
+                status = 'Dauerhaft aufgenommen';
+            } else if (subText.includes('Vorläufig aufgenommen')) {
+                status = 'Vorläufig aufgenommen';
+            }
+
+            if (subheader) {
+                // Company is the last subheader <span> that is not the "|"
+                // separator and not a status label (e.g. "GAIA AG, Deutschland").
+                const spans = Array.from(subheader.querySelectorAll('span'))
+                    .map(s => s.textContent.trim())
+                    .filter(t => t && t !== '|' &&
+                                 !t.includes('aufgenommen') && t !== 'Gestrichen');
+                if (spans.length) company = spans[spans.length - 1];
+            }
+            if (!company && subText.includes('|')) {
+                const parts = subText.split('|');
+                company = parts[parts.length - 1].trim();
             }
             
             entries.push({
@@ -275,9 +292,11 @@ class DiGAScraper(BaseScraper):
         page = await self._create_page()
         
         try:
-            # Navigate to the directory with filter to include ALL entries (including delisted)
-            # The type=[] parameter shows all status types
-            url_with_all_filter = f"{self.base_url}?type=%5B%5D"
+            # Navigate to the directory with filter to include ALL entries (including delisted).
+            # An empty type=[] only returns active + provisional, so we explicitly select
+            # all three status types (active, draft, retired) to include "Gestrichen" entries.
+            all_filter = self.status_filters.get("all") or "type=%5B%22active%22%2C%22draft%22%2C%22retired%22%5D"
+            url_with_all_filter = f"{self.base_url}?{all_filter}"
             print(f"  Navigating to {url_with_all_filter}")
             await page.goto(url_with_all_filter, wait_until="domcontentloaded", timeout=60000)
             

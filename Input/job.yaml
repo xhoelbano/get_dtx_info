@@ -1,0 +1,36 @@
+# =====================================================================
+# Active pipeline job. Edit this file, then run:  python run.py
+# (or point at another file:  python run.py --job Input/templates/2_company_csv.yaml)
+#
+# Pick ONE mode and fill in its params. Ready-to-copy examples for every
+# mode live in Input/templates/. See USAGE.md for the full guide.
+# =====================================================================
+
+# One of: diga_full | company_csv | company_name | dtx_name
+mode: dtx_name
+
+# --- Shared options (all modes) ---------------------------------------
+# Optional cap on how many DTx to process (handy for a quick test). null = all.
+limit: null
+# Evidence sources for Phase 2: all | pubmed | clinicaltrials | drks | isrctn
+sources: all
+#
+# Note: Phase 2's Browser-Use website pass is controlled by ENABLE_WEBSITE_SEARCH
+# in .env (not here). The general/US path also needs a web-search-capable
+# provider (LLM_PROVIDER=openai/gemini/anthropic); Azure OpenAI cannot web-search
+# here. See USAGE.md.
+
+# --- Mode params (only the active mode's block is read) ---------------
+# mode: dtx_name  (dtx accepts a single name OR a list of names)
+dtx: "deprexis"
+# dtx: ["deprexis", "Vivira", "Kalmeda"]
+is_diga: true            # true = German DiGA path; false = general (web-search) path
+
+# mode: company_name  (company accepts a single name OR a list of names)
+# company: "GAIA AG"
+# company: ["GAIA AG", "Newsenselab"]
+# has_diga: true         # true = German DiGA path; false = general (web-search) path
+
+# mode: company_csv
+# csv_path: Input/companies/example_company.csv
+# config: config/usa.json   # general/non-German config (override per country)

@@ -1,0 +1,17 @@
+{
+  "evidence_type": "One of \"RCT\", \"RWE\", or \"other\". RCT = randomized controlled trial; RWE = real-world / observational evidence; otherwise \"other\". This is usually finalized later during classification - give your best read from the publication, or null if unclear.",
+  "primary_endpoint_duration_weeks": "Time from intervention start to the primary endpoint assessment, in weeks (number or short string). Use null if not stated.",
+  "follow_up_after_primary_endpoint": "Any additional follow-up period after the primary endpoint (e.g. \"12 weeks\", \"6 months\"), or null.",
+  "duration_additional_info": "Any extra notes about study duration, timing, or assessment schedule, or null.",
+  "study_size_participants": "Number of participants enrolled or analyzed (number or short string like \"n=120\"), or null.",
+  "intervention_and_control_group": "Description of the intervention arm and the comparator/control arm (e.g. \"app + usual care vs usual care\"), or null.",
+  "trial_arms": "Number and/or names of the trial arms (e.g. \"2 arms: intervention, waitlist control\"), or null.",
+  "trial_arms_additional_info": "Any extra detail about the arms, randomization, or blinding, or null.",
+  "collected_data": "What outcome data / measures were collected (e.g. PROMs, PHQ-9, pain level, adherence), or null.",
+  "key_outcomes_findings": "The main results and conclusions of the study in one or two sentences, or null.",
+  "trial_registration_id": "Trial registration identifier if any (e.g. NCT........, DRKS........, ISRCTN........), or null.",
+  "trial_start_date": "Trial start date (YYYY-MM-DD or as stated), or null.",
+  "trial_end_date": "Trial end / completion date (YYYY-MM-DD or as stated), or null.",
+  "publication_date": "Publication date of the paper (YYYY-MM-DD or as stated), or null.",
+  "sources_publications": "The real link(s) where the full research/publication was found (journal page, PubMed, DOI, ClinicalTrials.gov/DRKS, or PDF). Keep the actual URL(s), never invent them."
+}

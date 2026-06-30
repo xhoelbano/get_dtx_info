@@ -1,0 +1,6 @@
+{
+  "is_relevant": "Boolean true or false. Set to true ONLY when the study is specifically about THIS digital therapeutic product (the exact product, app, or device named below), not merely about the same medical condition or the same company's other products.",
+  "confidence": "Integer from 0 to 100 expressing how certain you are about the is_relevant decision.",
+  "reason": "One or two sentences explaining the decision. When relevant, name the concrete evidence found (e.g. the product name in the title, abstract, full text, or trial registration). When not relevant, state precisely why (e.g. same indication but a different intervention).",
+  "matched_elements": ["Zero or more short labels for what concretely matched, e.g. product_name, product_name_variation, manufacturer_as_developer, device_description, trial_registration_id. Use an empty list when nothing specific matched."]
+}

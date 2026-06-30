@@ -1,0 +1,34 @@
+{
+  "dtx_products": [
+    {
+      "dtx_name": "Exact product/app name",
+      "description": "What the software does therapeutically and its mechanism of action (e.g. CBT, rhythmic auditory cueing). 1-3 sentences.",
+      "clinical_area_icd10": ["Primary ICD-10 code only, unless the product is clearly multi-indication"],
+      "category": "Therapeutic category / indication area (e.g. \"Mental health\", \"Neurology\", \"Chronic pain\"), or null",
+      "risk_class": "US FDA medical-device risk class only. Actively check FDA sources (the openFDA / 510(k) / De Novo / PMA databases and the manufacturer's own regulatory statements) by company and product name. If the product has an FDA clearance/authorization, report the class in the exact form \"Class I according to FDA\", \"Class II according to FDA\", or \"Class III according to FDA\", inferring the class from the regulatory pathway when needed (510(k) and De Novo are typically Class II; PMA is typically Class III). Use null when the product is NOT an FDA-cleared device (for example a consumer wellness device, or a device that is only CE-marked in the EU). Never copy a non-US (EU CE / MDR) class into this field, and do not output vague phrases like \"FDA listed\" or \"FDA cleared\".",
+      "listing_status": "Active | Inactive | Pilot | Unknown",
+      "date_of_first_listing": "First availability or FDA clearance/authorization date as \"YYYY-MM-DD\" (or year), else null",
+      "app_store_url": "Apple App Store URL or null",
+      "play_store_url": "Google Play Store URL or null",
+      "web_app_url": "Web/browser app URL or null",
+      "price_usd": "Price as a string like \"199.00\" or null",
+      "languages": ["Languages the product is offered in (e.g. English). Empty list if unknown."],
+      "trial_registration_ids": ["Clinical trial registration IDs (e.g. NCT........, ISRCTN........) if known, else empty list"],
+      "reviews_appstore": {
+        "rating": "Apple App Store average rating 0-5 as a number, or null",
+        "review_count": "Apple App Store number of ratings/reviews as an integer, or null"
+      },
+      "reviews_playstore": {
+        "rating": "Google Play Store average rating 0-5 as a number, or null",
+        "review_count": "Google Play Store number of ratings/reviews as an integer, or null"
+      },
+      "source_url": "URL of the page this product information was found on (required)"
+    }
+  ],
+  "company_info": {
+    "company_website": "Official company website URL or null",
+    "company_founding_year": "Four-digit year as a number, or null",
+    "headquarters": "City, Country or null"
+  },
+  "research_notes": "Any relevant notes about the research findings, or why no products were found"
+}
