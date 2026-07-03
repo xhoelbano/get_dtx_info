@@ -164,21 +164,42 @@ negation and exact numbers) is mitigated by a manual spot-check (Section 7).
 
 For every (study, column) the cell is classified:
 
-- **both empty** -> correct (score 1), but also tracked separately and reported as
-  a "non-trivial" score that excludes both-empty cells, so sparse columns do not
-  inflate the headline.
-- **GT has a value, model empty** -> **omission**.
-- **GT empty, model filled** -> **hallucination**.
+- **both empty** -> the model correctly agreed there was nothing to report. Tracked
+  as a count only; **not scored** (it is neither a success nor a failure of
+  extraction and would otherwise inflate sparse columns).
+- **GT has a value, model empty** -> **omission**. A genuine miss; scored as 0 and
+  included in the score population.
+- **GT empty, model filled** -> **unverified addition** (not "hallucination").
+  This is the key correction over the earlier version of this benchmark. The
+  analysis GT is a deliberately small, manually curated subset and is known to be
+  **incomplete** (Section 7); a value the model supplies where the annotator left
+  a blank is therefore a *candidate* that would need a source check, not an
+  automatic error. Calling it a "hallucination" and scoring it 0 would (a)
+  penalize the model for the GT's gaps and (b) contradict how Benchmark 1 treats
+  the symmetric case, where pipeline studies with no GT counterpart are reported
+  as **Extras needing adjudication, not false positives**. Additions are therefore
+  **counted, never scored**, and are reported per column as counts.
 
-Omission and hallucination rates are reported per column, because they are
-different failure modes with different implications.
+Only cells where the GT has a value ("GT-present" = omission + scored) enter the
+score. Additions and both-empty cells are excluded from every score.
+
+**Reporting omissions and additions.** Omission is a true failure mode, so an
+omission *rate* over GT-present cells is meaningful and is reported. An addition
+*rate* over GT-blank cells is only reported when there are enough GT-blank cells
+to make a percentage informative (at least ten in this study, matching the
+`MIN_RATE_DENOM` guard in `run_benchmark_2.py`); below that threshold a "100%"
+would be computed over one or two cells and is noise, so only the raw count is
+shown. Additions still require manual adjudication before they can be split into
+true hallucinations versus correct values the GT simply omitted.
 
 Aggregation:
 
 - Every column metric is normalized to `[0, 1]`.
-- **Macro-average across columns** is the headline per-model number (every field
-  counts equally, suiting a column-by-column discussion). **Micro-average**
-  (weighted by number of scored cells) is reported as a secondary figure.
+- **Macro-average across columns** (of the GT-present score) is the headline
+  per-model number (every field counts equally, suiting a column-by-column
+  discussion). **Micro-average** (weighted by the number of GT-present cells) is
+  reported as a secondary figure. Because additions and both-empty cells are
+  excluded, this headline is unaffected by the correction above.
 - The full per-column x per-model table is always kept alongside the aggregate.
 
 Formulas (sets, per column over studies):

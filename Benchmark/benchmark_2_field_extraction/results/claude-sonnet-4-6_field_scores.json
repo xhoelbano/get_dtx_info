@@ -60,25 +60,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -101,8 +101,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The primary endpoint is assessed at 12 weeks. A follow-up (clinical ratings and attention test) is carried out after 3 months post-treatment (i.e., 24 weeks from baseline). The study completion date was 24 February 2026, with primary completion on 21 November 2025.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "30",
@@ -138,7 +138,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "01 September 2024",
@@ -149,8 +149,8 @@
       "trial_end_date": {
         "gold": "",
         "pred": "24 February 2026",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "publication_date": {
         "gold": "24 February 2026",
@@ -221,25 +221,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -417,14 +417,14 @@
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "yes",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Participants were required to use the app for at least 12 weeks and answer questions at four time points over a minimum of 12 weeks. The study ran from December 2021 to February 2024.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "378",
@@ -543,25 +543,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -579,7 +579,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "primary endpoint at 12 weeks",
@@ -704,7 +704,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "´NA",
@@ -716,13 +716,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -739,8 +739,8 @@
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "Yes, at week 24 (12 weeks after primary endpoint)",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "duration_additional_info": {
         "gold": "Outcomes were assessed at baseline, at week 12 (postintervention) and at follow-up (week 24).",
@@ -775,8 +775,8 @@
       "collected_data": {
         "gold": "",
         "pred": "Primary outcome: Fatigue measured by the Chalder Fatigue Scale (Cella & Chalder et al., 2010) assessed pre- and post-training immediately after and 3 months later. Secondary outcomes: 1. FSMC (Fatigue Scale for Motor and Cognitive Functions, Penner et al., 2009); 2. Hospital Anxiety and Depression Scale (HADS, Zigmond & Snaith, 1983); 3. Hamburg Quality of Life Questionnaire in MS (HAQUAMS, Gold et al., 2001); 4. Multiple Sclerosis Neuropsychological Screening Questionnaire (MSNQ, Benedict et al., 2003). Exploratory: 5. Cognitive and Behavioural Responses to Symptoms Questionnaire (Skerett & Moss-Morris, 2006); 6. Brief Illness Perception Questionnaire (Broadbent et al., 2006); 7. Coping Self Efficacy Scale (CSES, Chesney et al., 2006); 8. Frenchay Activity Index (Turnbull et al., 2000); 9. Revised NEO Personality Inventory (Costa & McCrae, 1992). A subgroup also underwent clinical examination and MRI (DTI and resting state fMRI connectivity measures). Screening used HAQUAMS fatigue subscale (score ≥2) and FSMC total fatigue score ≥43 for inclusion.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "key_outcomes_findings": {
         "gold": "Significant fatigue reduction (Chalder Fatigue Scale: –2.74 points vs. control at week 12, d=0.53; sustained at 24 weeks, p<0.001). Improved quality of life, daily functioning, and fatigue coping",
@@ -906,8 +906,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "T0 = before randomisation, T1 = 9 weeks after randomisation (post-intervention), T2 = 6 months after randomisation (follow-up). The intervention consists of 7 lessons to be processed weekly.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "302",
@@ -1067,8 +1067,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "Primary endpoint assessed at 3 months (post-treatment) after randomisation. Uncontrolled follow-up assessments for both intervention and control groups at 6 and 12 months after randomisation. Control group participants receive free access to the online programme after the 3-month data collection period if they wish.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "360",
@@ -1228,8 +1228,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention consists of a 6-week online training (6 lessons, one per week), followed by a 7th lesson 4 weeks after the final lesson. Primary endpoint is assessed at 8 weeks (post-intervention), with follow-ups at 6 and 12 months after baseline.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "260",
@@ -1389,8 +1389,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The primary endpoint (pain index on NRS) is assessed at enrollment and at 6-, 12-, and 24-week follow-up. The total trial duration is 6 months. Control group patients receive standard physical therapy once a week for 6 weeks, then gain access to the kaia app from week 12 until trial end.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "101",
@@ -1509,25 +1509,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -1550,8 +1550,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "Primary outcome assessed at pretreatment, posttreatment (12 weeks), and follow-up (6 months after treatment). All secondary outcomes also assessed at the same three timepoints.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "800",
@@ -1587,7 +1587,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "03 June 2014",
@@ -1670,25 +1670,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -1706,13 +1706,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Participants were randomized to receive an 8-week course of treatment immediately or after an 8-week delay (waitlist control). No follow-up beyond the primary endpoint is mentioned.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "376",
@@ -1741,8 +1741,8 @@
       "collected_data": {
         "gold": "",
         "pred": "Primary: Quick Inventory of Depressive Symptomatology (Self-Report) (QIDS-SR-16), administered every 2 weeks during the 8-week treatment period to measure depression symptom severity. Secondary: Hamilton Depression Rating Scale (HAM-D) at pre- and post-treatment phone interviews; Inventory of Depression and Anxiety Symptoms (IDAS) at pre- and post-treatment; Psychiatric Diagnostic Screening Questionnaire (PDSQ) at pre- and post-treatment; Risky Families Questionnaire (RFQ) at pre-treatment; Massachusetts General Hospital Antidepressant Treatment History Questionnaire (ATRQ) at pre-treatment; Sheehan Disability Scale (SDS) at pre- and post-treatment. Saliva samples collected for DNA/genetic analysis.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "key_outcomes_findings": {
         "gold": "Intention-to-treat analyses indicated that treatment was associated with greater reduction in self-reported symptoms of depression (effect size d = .80) and 12 times greater likelihood of experiencing at least 50% symptom improvement compared with waitlist control. Similar effects were observed for several secondary outcomes, such as interviewer-rated depression symptoms, well-being, and depression-related disability. Treatment effects for symptoms of social anxiety, panic, and traumatic intrusions were relatively small.",
@@ -1831,25 +1831,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -1872,8 +1872,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The study involves an 8-week intervention period (baseline to post-treatment at week 8), followed by an 8-week follow-up assessment at week 16. Primary completion is estimated April 2029.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "152",
@@ -1884,8 +1884,8 @@
       "intervention_and_control_group": {
         "gold": "",
         "pred": "Deprexis (internet-delivered intervention) vs. Treatment-as-Usual (TAU) control; RCT with n=132 for Aim 2 (plus n=16-20 for qualitative Aim 1), total estimated enrollment 152",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_arms": {
         "gold": "2",
@@ -1909,7 +1909,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "01 May 2024",
@@ -1920,8 +1920,8 @@
       "trial_end_date": {
         "gold": "",
         "pred": "April 2029",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "publication_date": {
         "gold": "24 October 2024",
@@ -1992,25 +1992,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -2027,14 +2027,14 @@
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "Patients were followed by structured telephone interviews post-discharge up to the study endpoint at 12 weeks after deprexis-initiation; no follow-up beyond the 12-week primary endpoint is described.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "There was no fixed time frame for inpatient treatment duration; the study used a pragmatic approach with flexible discharge management. Assessments were carried out at study entry and every 2 weeks. The 12-week period began at deprexis-initiation (during inpatient stay), and post-discharge follow-up via telephone interviews continued until the 12-week endpoint.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "69",
@@ -2153,25 +2153,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -2194,8 +2194,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The program itself runs for 9 weeks. Data were collected at baseline, 9 weeks, and 18 weeks for both groups. The control group (delayed treatment) also completed questionnaires 9 weeks after finishing the program. Both groups completed questionnaires 6 months after their respective program usage termination.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "396",
@@ -2314,25 +2314,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -2355,8 +2355,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention period is 12 weeks (3 months). The primary endpoint is assessed at post (3 months). Secondary outcomes are assessed at baseline, post (3 months), and follow-up (6 months).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "163",
@@ -2475,25 +2475,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RWE",
@@ -2510,14 +2510,14 @@
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "No additional follow-up beyond the 12-week observation period is described; assessments occur at baseline (U1), ~3 weeks (U2), ~6 weeks (U3), and ~12 weeks (U4).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Data are collected under routine conditions over an observation period of 3 months (approximately 12 weeks), with four assessment time points: baseline (U1), ~3 weeks after U1 (U2), ~6 weeks after U1 (U3), and ~12 weeks after U1 (U4).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "104",
@@ -2528,8 +2528,8 @@
       "intervention_and_control_group": {
         "gold": "",
         "pred": "Single observational group of ambulatory patients using deprexis®24 (with or without antidepressive comedication); no separate control group. Total participants: 104 (planned: 1800).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_arms": {
         "gold": "1",
@@ -2540,20 +2540,20 @@
       "additional_info_about_trial_arms": {
         "gold": "",
         "pred": "Uncontrolled observational study with one arm: patients with depressive disorder received access to the internet-based self-management intervention deprexis for 12 weeks in addition to their usual care (76.0% also took concomitant antidepressant medication). Optional guidance by the treating physician was available but only a minority (n = 7, 8.0%) received the guided version.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "collected_data": {
         "gold": "",
         "pred": "PHQ-9 (Patient Health Questionnaire-9), short version Montgomery Asberg Depression Scale (svMADRS), Clinical Global Impression-Severity/Improvement (CGI-S/CGI-I), Sheehan Disability Scale (SDS) — all collected at all 4 visits (U1–U4); Client Satisfaction Questionnaire (CSQ-4) at U4; standardized questionnaires on compliance with the online psychotherapy program (U2–U4); questionnaire on internet usage behavior (U2–U4); standardized documentation of comedication (U1–U4); standardized questionnaire on safety-related incidents and adverse events under possible comedication (U2–U4).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "key_outcomes_findings": {
         "gold": "",
         "pred": "Most patients used the intervention at least once (n = 87, 83.6%); mean number of sessions among users was 18.05 (SD = 11.33). Only 7 patients (8.0%) received the guided version. svMADRS scores decreased significantly from 29.72 (SD = 10.03) at baseline to 15.73 (SD = 9.74) at week 12 (Cohen's d = 1.42, 95% CI 0.08–2.76). PHQ-9 scores decreased from 15.20 (SD = 5.03) to 8.77 (SD = 5.03) (Cohen's d = 1.29, 95% CI 0.60–1.97). The pre-post effect size was comparable to that reported in an RCT using the same intervention in patients with similar symptom severity.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_start_date": {
         "gold": "02 November 2016",
@@ -2636,25 +2636,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -2672,13 +2672,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Intervention period was 8 weeks; assessments conducted at baseline and post-intervention (8 weeks). Wait-list control group gains access to Deprexis after completion of the post survey.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "140",
@@ -2689,14 +2689,14 @@
       "intervention_and_control_group": {
         "gold": "",
         "pred": "Intervention group (Deprexis internet intervention) and wait-list control group; total planned 140 participants (108 planned originally)",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_arms": {
         "gold": "",
         "pred": "2",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "additional_info_about_trial_arms": {
         "gold": "deprexis treatment vs waitlist controll",
@@ -2714,7 +2714,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "25 April 2014",
@@ -2797,25 +2797,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -2832,14 +2832,14 @@
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "yes – secondary outcomes measured at 12 weeks (T1), 6 months (T2), and 12 months (T3) after baseline",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention group used Deprexis for 12 weeks. The primary endpoint (costs) was assessed over a period of one year after the end of treatment. Secondary outcomes (PHQ-9, SF-12, EQ-5D, WSAS) were collected at baseline (T0), 12 weeks (T1), 6 months (T2), and 12 months (T3).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "3832",
@@ -2850,8 +2850,8 @@
       "intervention_and_control_group": {
         "gold": "",
         "pred": "Intervention group: access to Deprexis internet-based self-help program for 12 weeks; Control group: no access to Deprexis. Total enrolled: 3832 (planned: 5400); individual group sizes not specified in the record.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_arms": {
         "gold": "2",
@@ -2862,20 +2862,20 @@
       "additional_info_about_trial_arms": {
         "gold": "",
         "pred": "Arm 1 (Intervention): Uses the Deprexis internet-based self-help program for 12 weeks, with questionnaires (PHQ-9, SF-12, EQ-5D, WSAS) and cost data from DAK. Arm 2 (Control): No access to Deprexis; same questionnaires administered; also asked to confirm they had no contact with Deprexis during the observation period.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "collected_data": {
         "gold": "",
         "pred": "Primary outcome: Healthcare costs over one year after end of treatment, determined from DAK (statutory health insurance) cost data. Secondary outcomes: Depression severity (PHQ-9) at T0, T1 (12 weeks), T2 (6 months), T3 (12 months); Health-related quality of life (SF-12 and EQ-5D) at T0, T1, T2, T3; Social and occupational functioning (WSAS) at T0, T1, T2, T3; Satisfaction with DAK advisory services and acceptance of the Deprexis program (intervention group); Confirmation of non-exposure to Deprexis (control group).",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "key_outcomes_findings": {
         "gold": "",
         "pred": "In both groups, total statutory health insurance costs decreased during the study period. The intervention group showed a 32% reduction in total costs (from 3139€/year at baseline to 2119€ in the study year), compared to a 13% mean reduction in the control group; changes from baseline differed significantly between groups. The intervention group also showed a significantly greater reduction in depression severity, significantly greater reduction in impairment in functioning, and a significantly greater increase in health-related quality of life compared to the control group.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_start_date": {
         "gold": "17 February 2012",
@@ -2958,25 +2958,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -2999,8 +2999,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "Participants were randomised to twelve weeks of online self-help or waiting-list control. Secondary outcomes were assessed at 12 weeks, 6 months, and 12 months. After the one-year period, controls also received online self-help. Primary completion date was February 2015; full study completion was February 2017.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "1013",
@@ -3160,8 +3160,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention consists of 11 modules completed over 6-8 weeks. The primary endpoint is assessed at 8 weeks post-randomization. Follow-ups at 6 and 12 months were conducted for the intervention group only.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "238",
@@ -3321,8 +3321,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention lasted 8 weeks. Outcomes were collected at baseline, 8 weeks, and 16 weeks post-randomization. Both groups wore an activity tracker and used a digital app for 8 weeks.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "56",
@@ -3476,14 +3476,14 @@
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "Yes, at 24 weeks post randomization",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Outcomes collected at baseline, 12, and 24 weeks post-randomization. Group 1 receives dCBT-I for 3 months (alongside CAU); Group 2 is a waitlist control receiving dCBT-I after 6 months. The primary endpoint is at 12 weeks; the 24-week assessment serves as a follow-up.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "140",
@@ -3643,8 +3643,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention (somnio dCBT-I) consists of 11 modules completed over 8 weeks. Primary outcome is assessed at baseline, 8 weeks (post), and 24 weeks (6-month follow-up). Secondary outcomes are also assessed at baseline, 8 and 24 weeks.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "207",
@@ -3763,25 +3763,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -3804,8 +3804,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "Primary endpoint assessed at 3 months post-baseline (T1); additional assessments at 6 months post-baseline (T2). Some secondary outcomes (e.g., IES-R) also assessed at 9 and 12 months post-baseline. The intervention (Optimune) is accessible for 365 days after registration. The control group receives access to Optimune after a delay of 6 months (wait list). Primary completion date: June 2020; study completion date: September 2020.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "363",
@@ -3924,25 +3924,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -3965,8 +3965,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The online program optimune is used for 3 months in addition to usual treatment. Intervention group has access to optimune for 365 days. The recruitment target (680 participants) was not achieved within the designated timeframe; follow-up surveys are still ongoing.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "405",
@@ -3983,8 +3983,8 @@
       "trial_arms": {
         "gold": "",
         "pred": "2",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "additional_info_about_trial_arms": {
         "gold": "Arm 1:\nIntervention group: access to the online program optimune for 365 days - in addition to routine treatment (care as usual).\nArm 2:\nControl group: routine treatment (care as usual), access to the online program optimune for 365 days after completion of the study.",
@@ -4002,7 +4002,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "01 August 2022",
@@ -4014,7 +4014,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "publication_date": {
         "gold": "02 April 2024",
@@ -4287,8 +4287,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention period is at least 16 weeks, consisting of a preoperative phase of at least 2 weeks and a postoperative phase of 14 weeks. Data is collected at T0 (baseline), T1 (preoperative, end of preoperative phase), T2 (2 weeks post-op), T3 (6 weeks post-op), T4 (10 weeks post-op), and T5 (end of intervention period, 14 weeks post-op). Inclusion occurs at least 2 weeks before surgery.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "419",
@@ -4324,7 +4324,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "02 October 2023",
@@ -4443,13 +4443,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "The primary endpoints are assessed directly after the 12-week intervention phase. The study is monocentric, conducted at the Department of Sports Medicine in Tübingen, Germany. Recruitment status is listed as complete with follow-up complete.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "61",
@@ -4568,25 +4568,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -4604,13 +4604,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Primary outcomes measured at individual starting point (T0) and after 3 months (T1). Recruitment status listed as COMPLETE_FOLLOW_UP_COMPLETE.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "164",
@@ -4646,7 +4646,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_start_date": {
         "gold": "14 April 2021",
@@ -4729,25 +4729,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RCT",
@@ -4765,13 +4765,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "The intervention period is 90 days for both arms. Primary and secondary outcomes are assessed at day 90.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "270",
@@ -4818,8 +4818,8 @@
       "trial_end_date": {
         "gold": "",
         "pred": "September 2026",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "publication_date": {
         "gold": "06 November 2025",
@@ -4877,8 +4877,8 @@
       "risk_class": {
         "gold": "",
         "pred": "Risk Class I according to MDR",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "clinical_area_icd10": {
         "gold": "M42.0 Juvenile osteochondrosis of the spine\nM42.1 Adult osteochondrosis of the spine\nM42.9 Osteochondrosis of the spine, unspecified\nM53.2 Spinal instability\nM53.8 Other specified disorders of the spine and back\nM53.9 Disorder of the spine and back, unspecified\nM54.4 Lumbosacral radiculopathy\nM54.5 Low back pain\nM54.6 Pain in the thoracic spine\nM54.8 Other back pain\nM54.9 Back pain, unspecified\nM99.02 Segmental and somatic disorders: Thoracic \nM99.03 Segmental and somatic disorders: Lumbar \nM99.04 Segmental and somatic disorders: Sacral\nM99.82 Other biomechanical disorders: Thoracic\nM99.83 Other Biomechanical dysfunction: Lumbar region \nM99.84 Other biomechanical dysfunction: Sacral region \nM99.92 Biomechanical dysfunction, unspecified: Thoracic region\nM99.93 Biomechanical dysfunction, unspecified: Lumbar region\nM99.94 Biomechanical dysfunction, unspecified: Sacral region",
@@ -4931,8 +4931,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The primary outcome was assessed at 12 weeks, corresponding to the full duration of the digital home exercise program. No follow-up beyond 12 weeks is mentioned.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "213",
@@ -4967,20 +4967,20 @@
       "key_outcomes_findings": {
         "gold": "",
         "pred": "Mean difference in pain scores between groups at 12 weeks: -2.44 (95% CI -2.92 to -1.95; P<.01) in favor of the intervention group. Intervention group achieved a clinically relevant pain reduction: mean change of -3.35 (SD 2.05) points or -53.1% (SD 29.5) from baseline. Control group did not reach clinical relevance: mean change of -0.91 (SD 1.5) or -14.6% (SD 25.3). Retention rates: 89.9% in the intervention group and 97.3% in the control group. The app-based home exercise program led to a significant and clinically relevant reduction in pain intensity superior to standard physiotherapy.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_start_date": {
         "gold": "",
         "pred": "16 November 2020",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_end_date": {
         "gold": "",
         "pred": "31 March 2021",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "publication_date": {
         "gold": "28 October 2022",
@@ -5038,8 +5038,8 @@
       "risk_class": {
         "gold": "",
         "pred": "Risk Class I according to MDR",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "clinical_area_icd10": {
         "gold": "M42.0 Juvenile osteochondrosis of the spine\nM42.1 Adult osteochondrosis of the spine\nM42.9 Osteochondrosis of the spine, unspecified\nM53.2 Spinal instability\nM53.8 Other specified disorders of the spine and back\nM53.9 Disorder of the spine and back, unspecified\nM54.4 Lumbosacral radiculopathy\nM54.5 Low back pain\nM54.6 Pain in the thoracic spine\nM54.8 Other back pain\nM54.9 Back pain, unspecified\nM99.02 Segmental and somatic disorders: Thoracic \nM99.03 Segmental and somatic disorders: Lumbar \nM99.04 Segmental and somatic disorders: Sacral\nM99.82 Other biomechanical disorders: Thoracic\nM99.83 Other Biomechanical dysfunction: Lumbar region \nM99.84 Other biomechanical dysfunction: Sacral region \nM99.92 Biomechanical dysfunction, unspecified: Thoracic region\nM99.93 Biomechanical dysfunction, unspecified: Lumbar region\nM99.94 Biomechanical dysfunction, unspecified: Sacral region",
@@ -5080,20 +5080,20 @@
       "primary_end_point_duration_weeks": {
         "gold": "",
         "pred": "12",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "follow_up_after_primary_end_point": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "",
         "pred": "Retrospective, intraindividual controlled study. The primary outcome (VNRS pain score) is assessed after 12 weeks. The study analyzed data from patients using the Vivira app from 01/01/2020 onwards. Data analysis was conducted between 2021-06-15 and 2021-06-22.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "157",
@@ -5104,8 +5104,8 @@
       "intervention_and_control_group": {
         "gold": "",
         "pred": "Single-arm study (N=157 analyzed, 150 planned). Intraindividual control: the control is the pre-treatment (historical/baseline) finding of the same patient. Intervention: use of the Vivira digital home exercise app.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_arms": {
         "gold": "1",
@@ -5128,20 +5128,20 @@
       "key_outcomes_findings": {
         "gold": "",
         "pred": "Significant reductions in self-reported pain intensity were observed after 2, 4, 8, and 12 weeks (Skillings-Mack test: T3628=5308; P<.001), with changes within the range of clinically relevant improvement. Function scores showed a generally positive yet more variable response across the pain areas (back, hip, and knee). The study noted relevant attrition at follow-up.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_start_date": {
         "gold": "",
         "pred": "15 June 2021",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "trial_end_date": {
         "gold": "",
         "pred": "22 June 2021",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "publication_date": {
         "gold": "27 February 2023",
@@ -5200,7 +5200,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "clinical_area_icd10": {
         "gold": "H53.0 (Amblyopia ex anopsia/ Functional visual impairment in children).",
@@ -5218,19 +5218,19 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RWE",
@@ -5248,7 +5248,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "duration_additional_info": {
         "gold": "c",
@@ -5379,7 +5379,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "3.8",
@@ -5391,7 +5391,7 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RWE",
@@ -5414,8 +5414,8 @@
       "duration_additional_info": {
         "gold": "",
         "pred": "The 9-week intervention period involved 6 interactive treatment cores. Assessments were completed at baseline, before completing treatment cores, immediately post-intervention, at 6 months, and at 1 year.",
-        "cls": "hallucination",
-        "score": 0.0
+        "cls": "addition",
+        "score": null
       },
       "study_size_participants": {
         "gold": "1565",
@@ -5457,13 +5457,13 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "trial_end_date": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "publication_date": {
         "gold": "10 September 2024",
@@ -5534,25 +5534,25 @@
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_playstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "rating_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "reviews_on_appstore": {
         "gold": "",
         "pred": "",
         "cls": "both_empty",
-        "score": 1.0
+        "score": null
       },
       "evidence_type": {
         "gold": "RWE",

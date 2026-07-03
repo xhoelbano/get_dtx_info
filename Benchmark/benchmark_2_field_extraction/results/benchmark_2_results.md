@@ -1,6 +1,6 @@
 # Benchmark 2 - Field-level extraction quality (results)
 
-_Generated: 2026-06-29T18:47:48+00:00_
+_Generated: 2026-07-03T10:13:17+00:00_
 
 Per-field accuracy of each model's Phase 3 analysis vs. the manual ground truth, scored with data-type-appropriate metrics (see [`../methodology.md`](../methodology.md)).
 
@@ -13,13 +13,13 @@ Per-field accuracy of each model's Phase 3 analysis vs. the manual ground truth,
 
 ## Headline (per model)
 
-Macro-average over columns of the per-column score on cells where the GT has a value (omissions count as 0; trivially-correct both-empty cells excluded). Micro-average weights by number of such cells.
+Macro-average over columns of the per-column score on cells where the GT has a value (omissions count as 0; both-empty cells and GT-blank/model-filled additions are excluded, not scored). Micro-average weights by number of GT-present cells.
 
-| Model | Macro (GT-present) | Micro (GT-present) | Macro (incl. both-empty) |
-|---|--:|--:|--:|
-| gpt-4o | 66.2% | 69.3% | 69.5% |
-| gemini-3.1-pro-preview | 66.6% | 69.0% | 68.0% |
-| claude-sonnet-4-6 | 66.2% | 68.6% | 67.3% |
+| Model | Macro (GT-present) | Micro (GT-present) |
+|---|--:|--:|
+| gpt-4o | 66.2% | 69.3% |
+| gemini-3.1-pro-preview | 66.6% | 69.0% |
+| claude-sonnet-4-6 | 66.2% | 68.6% |
 
 ## Per-column score (GT-present) by model
 
@@ -52,102 +52,102 @@ Macro-average over columns of the per-column score on cells where the GT has a v
 | trial_end_date | iso_date | 78.6% | 75.0% | 67.9% |
 | publication_date | iso_date | 31.4% | 31.4% | 28.6% |
 
-## Omission and hallucination rates by model
+## Omissions and unverified additions by model
 
-Omission = GT has a value, model left it blank. Hallucination = GT blank, model filled it. Rates are per column.
+**Omission** = GT has a value, model left it blank (a genuine miss; scored as 0 in the GT-present score). **Unverified addition** = GT blank, model filled it. Because the analysis GT is a deliberately small, incomplete manual subset, an addition is a *candidate* value that needs a source check, not an automatic error - so it is reported as a count and is never scored (mirrors Benchmark 1 'Extras'). The addition rate is shown only where at least 10 GT-blank cells exist (`-` otherwise), because a percentage over one or two cells is noise.
 
 ### gpt-4o
 
-| Column | Omission rate | Hallucination rate |
-|---|--:|--:|
-| dtx_name | 0.0% | - |
-| is_it_a_diga | 0.0% | - |
-| company_provider | 0.0% | - |
-| company_founding_year | 85.7% | - |
-| diga_listing_status | 0.0% | - |
-| diga_listing_date | 0.0% | - |
-| category | 0.0% | - |
-| risk_class | 0.0% | 66.7% |
-| clinical_area_icd10 | 0.0% | - |
-| rating_on_playstore | 12.5% | 0.0% |
-| reviews_on_playstore | 46.7% | 0.0% |
-| rating_on_appstore | 20.0% | 0.0% |
-| reviews_on_appstore | 14.3% | 0.0% |
-| evidence_type | 0.0% | - |
-| primary_end_point_duration_weeks | 5.9% | 100.0% |
-| follow_up_after_primary_end_point | 19.0% | 28.6% |
-| duration_additional_info | 16.7% | 62.1% |
-| study_size_participants | 0.0% | - |
-| intervention_and_control_group | 13.3% | 80.0% |
-| trial_arms | 3.0% | 100.0% |
-| additional_info_about_trial_arms | 3.0% | 100.0% |
-| collected_data | 0.0% | 100.0% |
-| key_outcomes_findings | 33.3% | 36.4% |
-| trial_start_date | 9.4% | 66.7% |
-| trial_end_date | 10.7% | 57.1% |
-| publication_date | 31.4% | - |
+| Column | Omissions (of GT-present) | Omission rate | Unverified additions (of GT-blank) | Addition rate |
+|---|--:|--:|--:|--:|
+| dtx_name | 0/35 | 0.0% | 0/0 | - |
+| is_it_a_diga | 0/35 | 0.0% | 0/0 | - |
+| company_provider | 0/35 | 0.0% | 0/0 | - |
+| company_founding_year | 30/35 | 85.7% | 0/0 | - |
+| diga_listing_status | 0/35 | 0.0% | 0/0 | - |
+| diga_listing_date | 0/35 | 0.0% | 0/0 | - |
+| category | 0/35 | 0.0% | 0/0 | - |
+| risk_class | 0/32 | 0.0% | 2/3 | - |
+| clinical_area_icd10 | 0/35 | 0.0% | 0/0 | - |
+| rating_on_playstore | 2/16 | 12.5% | 0/19 | 0.0% |
+| reviews_on_playstore | 7/15 | 46.7% | 0/20 | 0.0% |
+| rating_on_appstore | 3/15 | 20.0% | 0/20 | 0.0% |
+| reviews_on_appstore | 2/14 | 14.3% | 0/21 | 0.0% |
+| evidence_type | 0/35 | 0.0% | 0/0 | - |
+| primary_end_point_duration_weeks | 2/34 | 5.9% | 1/1 | - |
+| follow_up_after_primary_end_point | 4/21 | 19.0% | 4/14 | 28.6% |
+| duration_additional_info | 1/6 | 16.7% | 18/29 | 62.1% |
+| study_size_participants | 0/35 | 0.0% | 0/0 | - |
+| intervention_and_control_group | 4/30 | 13.3% | 4/5 | - |
+| trial_arms | 1/33 | 3.0% | 2/2 | - |
+| additional_info_about_trial_arms | 1/33 | 3.0% | 2/2 | - |
+| collected_data | 0/31 | 0.0% | 4/4 | - |
+| key_outcomes_findings | 8/24 | 33.3% | 4/11 | 36.4% |
+| trial_start_date | 3/32 | 9.4% | 2/3 | - |
+| trial_end_date | 3/28 | 10.7% | 4/7 | - |
+| publication_date | 11/35 | 31.4% | 0/0 | - |
 
 ### gemini-3.1-pro-preview
 
-| Column | Omission rate | Hallucination rate |
-|---|--:|--:|
-| dtx_name | 0.0% | - |
-| is_it_a_diga | 0.0% | - |
-| company_provider | 0.0% | - |
-| company_founding_year | 85.7% | - |
-| diga_listing_status | 0.0% | - |
-| diga_listing_date | 0.0% | - |
-| category | 0.0% | - |
-| risk_class | 0.0% | 66.7% |
-| clinical_area_icd10 | 0.0% | - |
-| rating_on_playstore | 12.5% | 0.0% |
-| reviews_on_playstore | 46.7% | 0.0% |
-| rating_on_appstore | 20.0% | 0.0% |
-| reviews_on_appstore | 14.3% | 0.0% |
-| evidence_type | 0.0% | - |
-| primary_end_point_duration_weeks | 2.9% | 100.0% |
-| follow_up_after_primary_end_point | 28.6% | 21.4% |
-| duration_additional_info | 0.0% | 100.0% |
-| study_size_participants | 0.0% | - |
-| intervention_and_control_group | 0.0% | 100.0% |
-| trial_arms | 0.0% | 100.0% |
-| additional_info_about_trial_arms | 0.0% | 100.0% |
-| collected_data | 0.0% | 100.0% |
-| key_outcomes_findings | 33.3% | 36.4% |
-| trial_start_date | 9.4% | 66.7% |
-| trial_end_date | 14.3% | 71.4% |
-| publication_date | 28.6% | - |
+| Column | Omissions (of GT-present) | Omission rate | Unverified additions (of GT-blank) | Addition rate |
+|---|--:|--:|--:|--:|
+| dtx_name | 0/35 | 0.0% | 0/0 | - |
+| is_it_a_diga | 0/35 | 0.0% | 0/0 | - |
+| company_provider | 0/35 | 0.0% | 0/0 | - |
+| company_founding_year | 30/35 | 85.7% | 0/0 | - |
+| diga_listing_status | 0/35 | 0.0% | 0/0 | - |
+| diga_listing_date | 0/35 | 0.0% | 0/0 | - |
+| category | 0/35 | 0.0% | 0/0 | - |
+| risk_class | 0/32 | 0.0% | 2/3 | - |
+| clinical_area_icd10 | 0/35 | 0.0% | 0/0 | - |
+| rating_on_playstore | 2/16 | 12.5% | 0/19 | 0.0% |
+| reviews_on_playstore | 7/15 | 46.7% | 0/20 | 0.0% |
+| rating_on_appstore | 3/15 | 20.0% | 0/20 | 0.0% |
+| reviews_on_appstore | 2/14 | 14.3% | 0/21 | 0.0% |
+| evidence_type | 0/35 | 0.0% | 0/0 | - |
+| primary_end_point_duration_weeks | 1/34 | 2.9% | 1/1 | - |
+| follow_up_after_primary_end_point | 6/21 | 28.6% | 3/14 | 21.4% |
+| duration_additional_info | 0/6 | 0.0% | 29/29 | 100.0% |
+| study_size_participants | 0/35 | 0.0% | 0/0 | - |
+| intervention_and_control_group | 0/30 | 0.0% | 5/5 | - |
+| trial_arms | 0/33 | 0.0% | 2/2 | - |
+| additional_info_about_trial_arms | 0/33 | 0.0% | 2/2 | - |
+| collected_data | 0/31 | 0.0% | 4/4 | - |
+| key_outcomes_findings | 8/24 | 33.3% | 4/11 | 36.4% |
+| trial_start_date | 3/32 | 9.4% | 2/3 | - |
+| trial_end_date | 4/28 | 14.3% | 5/7 | - |
+| publication_date | 10/35 | 28.6% | 0/0 | - |
 
 ### claude-sonnet-4-6
 
-| Column | Omission rate | Hallucination rate |
-|---|--:|--:|
-| dtx_name | 0.0% | - |
-| is_it_a_diga | 0.0% | - |
-| company_provider | 0.0% | - |
-| company_founding_year | 85.7% | - |
-| diga_listing_status | 0.0% | - |
-| diga_listing_date | 0.0% | - |
-| category | 0.0% | - |
-| risk_class | 0.0% | 66.7% |
-| clinical_area_icd10 | 0.0% | - |
-| rating_on_playstore | 12.5% | 0.0% |
-| reviews_on_playstore | 46.7% | 0.0% |
-| rating_on_appstore | 20.0% | 0.0% |
-| reviews_on_appstore | 14.3% | 0.0% |
-| evidence_type | 0.0% | - |
-| primary_end_point_duration_weeks | 2.9% | 100.0% |
-| follow_up_after_primary_end_point | 14.3% | 42.9% |
-| duration_additional_info | 0.0% | 100.0% |
-| study_size_participants | 0.0% | - |
-| intervention_and_control_group | 0.0% | 100.0% |
-| trial_arms | 0.0% | 100.0% |
-| additional_info_about_trial_arms | 0.0% | 100.0% |
-| collected_data | 0.0% | 100.0% |
-| key_outcomes_findings | 33.3% | 36.4% |
-| trial_start_date | 9.4% | 66.7% |
-| trial_end_date | 14.3% | 71.4% |
-| publication_date | 28.6% | - |
+| Column | Omissions (of GT-present) | Omission rate | Unverified additions (of GT-blank) | Addition rate |
+|---|--:|--:|--:|--:|
+| dtx_name | 0/35 | 0.0% | 0/0 | - |
+| is_it_a_diga | 0/35 | 0.0% | 0/0 | - |
+| company_provider | 0/35 | 0.0% | 0/0 | - |
+| company_founding_year | 30/35 | 85.7% | 0/0 | - |
+| diga_listing_status | 0/35 | 0.0% | 0/0 | - |
+| diga_listing_date | 0/35 | 0.0% | 0/0 | - |
+| category | 0/35 | 0.0% | 0/0 | - |
+| risk_class | 0/32 | 0.0% | 2/3 | - |
+| clinical_area_icd10 | 0/35 | 0.0% | 0/0 | - |
+| rating_on_playstore | 2/16 | 12.5% | 0/19 | 0.0% |
+| reviews_on_playstore | 7/15 | 46.7% | 0/20 | 0.0% |
+| rating_on_appstore | 3/15 | 20.0% | 0/20 | 0.0% |
+| reviews_on_appstore | 2/14 | 14.3% | 0/21 | 0.0% |
+| evidence_type | 0/35 | 0.0% | 0/0 | - |
+| primary_end_point_duration_weeks | 1/34 | 2.9% | 1/1 | - |
+| follow_up_after_primary_end_point | 3/21 | 14.3% | 6/14 | 42.9% |
+| duration_additional_info | 0/6 | 0.0% | 29/29 | 100.0% |
+| study_size_participants | 0/35 | 0.0% | 0/0 | - |
+| intervention_and_control_group | 0/30 | 0.0% | 5/5 | - |
+| trial_arms | 0/33 | 0.0% | 2/2 | - |
+| additional_info_about_trial_arms | 0/33 | 0.0% | 2/2 | - |
+| collected_data | 0/31 | 0.0% | 4/4 | - |
+| key_outcomes_findings | 8/24 | 33.3% | 4/11 | 36.4% |
+| trial_start_date | 3/32 | 9.4% | 2/3 | - |
+| trial_end_date | 4/28 | 14.3% | 5/7 | - |
+| publication_date | 10/35 | 28.6% | 0/0 | - |
 
 ## Categorical agreement (Cohen's kappa)
 

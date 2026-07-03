@@ -12,8 +12,10 @@ Pipeline:
   2. Build the evaluable set = GT studies that are (a) actually filled and
      (b) matched to a pipeline study. Dropped studies are logged with reasons.
   3. Score every scored column with its configured metric, classify blanks
-     (both-empty / omission / hallucination), and aggregate per column and per
-     model (macro-average headline).
+     (both-empty / omission / unverified-addition), and aggregate per column and
+     per model (macro-average headline). GT-blank cells the model filled are
+     "unverified additions": counted, never scored as errors, because the manual
+     GT is a small, incomplete subset (see methodology.md, blank handling).
 
 Run from the repository root:
     python Benchmark/benchmark_2_field_extraction/run_benchmark_2.py
@@ -49,6 +51,11 @@ MODELS: Dict[str, Path] = {
     "claude-sonnet-4-6": REPO_ROOT / "Phase_3_Evidence_Analysis/claude-sonnet-4-6/Website_Search_ON/phase3_combined.json",
 }
 REFERENCE_MODEL = "gpt-4o"  # used to decide study membership (identical across models)
+
+# Minimum number of GT-blank cells before an addition_rate percentage is reported.
+# Below this the rate is suppressed (reported as null) because a "100%" over 1-2
+# cells is noise, not a finding. Additions are always reported as raw counts.
+MIN_RATE_DENOM = 10
 
 # Optional fuzzy lib
 try:
@@ -345,10 +352,75 @@ def score_cell(col: str, cfg: dict, gold: str, pred: str,
 # --------------------------------------------------------------------------
 # Main evaluation
 # --------------------------------------------------------------------------
+def _load_from_cache(col_cfg: dict) -> None:
+    """Regenerate all aggregate reports from the per-cell scores already saved in
+    results/*_field_scores.json, WITHOUT re-running any model or BERTScore.
+
+    The per-cell scores in those files were computed once with BERTScore
+    (roberta-large); reloading them preserves those exact free-text scores while
+    letting us apply the corrected blank-cell framing. Only the empty-cell
+    labeling/counting changed, none of which depends on BERTScore.
+    """
+    model_names = [m for m in MODELS if (RESULTS_DIR / f"{m}_field_scores.json").exists()]
+    if not model_names:
+        raise SystemExit("--from-cache: no results/*_field_scores.json found; "
+                         "run once normally (with bert_score installed) first.")
+    fd_raw = {m: json.loads((RESULTS_DIR / f"{m}_field_scores.json").read_text(encoding="utf-8"))
+              for m in model_names}
+    ref = model_names[0]
+    n_studies = len(fd_raw[ref])
+    # column order as stored in the cached detail
+    scored_cols = list(fd_raw[ref][0]["fields"].keys()) if n_studies else []
+
+    def _cls(old: str) -> str:
+        # legacy artifacts labeled GT-blank/model-filled cells "hallucination"
+        return "addition" if old == "hallucination" else old
+
+    evaluable: List[dict] = []
+    results: Dict[str, Dict[str, List[dict]]] = {m: {c: [] for c in scored_cols}
+                                                 for m in model_names}
+    field_detail: Dict[str, List[dict]] = {m: [] for m in model_names}
+    for i in range(n_studies):
+        label = fd_raw[ref][i]["study"]
+        gt = {c: fd_raw[ref][i]["fields"][c]["gold"] for c in scored_cols}
+        models_merged = {m: {c: fd_raw[m][i]["fields"][c]["pred"] for c in scored_cols}
+                         for m in model_names}
+        evaluable.append({"gt": gt, "ids": set(), "label": label,
+                          "models": models_merged})
+        for m in model_names:
+            row = {"study": label, "fields": {}}
+            for c in scored_cols:
+                f = fd_raw[m][i]["fields"][c]
+                cls = _cls(f["cls"])
+                # score is only meaningful on gt_present cells; leave others None
+                score = f.get("score") if cls in ("scored", "omission") else None
+                if cls == "omission":
+                    score = 0.0
+                results[m][c].append({"cls": cls, "score": score})
+                row["fields"][c] = {"gold": f["gold"], "pred": f["pred"],
+                                    "cls": cls, "score": score}
+            field_detail[m].append(row)
+
+    dropped_path = RESULTS_DIR / "dropped_studies.json"
+    dropped = json.loads(dropped_path.read_text(encoding="utf-8")) if dropped_path.exists() else []
+    prev_path = RESULTS_DIR / "benchmark_2_results.json"
+    prev = json.loads(prev_path.read_text(encoding="utf-8")) if prev_path.exists() else {}
+    n_gt = prev.get("counts", {}).get("gt_studies", len(evaluable) + len(dropped))
+    bert_active = prev.get("bertscore_active", True)
+    gt_studies = [None] * n_gt  # only len() is used downstream
+
+    _finalize(model_names, scored_cols, col_cfg, evaluable, results, field_detail,
+              dropped, gt_studies, bert_active, use_bert=True)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-bertscore", action="store_true",
                     help="Skip BERTScore; use token-level F1 for free text.")
+    ap.add_argument("--from-cache", action="store_true",
+                    help="Rebuild all reports from results/*_field_scores.json "
+                         "without re-running models or BERTScore (preserves the "
+                         "original free-text scores; only re-aggregates).")
     args = ap.parse_args()
     use_bert = not args.no_bertscore
 
@@ -357,6 +429,10 @@ def main() -> None:
     col_cfg = cfg["columns"]
     synonyms = {k: v for k, v in cfg["category_synonyms"].items() if k != "_comment"}
     study_level = cfg["study_level_fields"]
+
+    if args.from_cache:
+        _load_from_cache(col_cfg)
+        return
 
     gt_studies, columns = load_gt()
     scored_cols = [c for c in columns if col_cfg.get(c, {}).get("metric") != "skip"
@@ -435,10 +511,18 @@ def main() -> None:
                 p = mrec.get(col, "")
                 ge, pe = is_empty(g), is_empty(p)
                 if ge and pe:
-                    cell = {"cls": "both_empty", "score": 1.0}
+                    # both blank: the model correctly agreed there was nothing
+                    cell = {"cls": "both_empty", "score": None}
                 elif ge and not pe:
-                    cell = {"cls": "hallucination", "score": 0.0}
+                    # GT blank, model filled it. The GT is a deliberately small
+                    # manual subset and is known to be incomplete, so this is an
+                    # *unverified addition* (a candidate value that needs a source
+                    # check), NOT a scored error. Consistent with how Benchmark 1
+                    # treats unmatched pipeline studies ("Extras", not false
+                    # positives). It is counted, never scored as 0.
+                    cell = {"cls": "addition", "score": None}
                 elif not ge and pe:
+                    # GT has a value, model left it blank: a genuine omission.
                     cell = {"cls": "omission", "score": 0.0}
                 else:
                     sc = score_cell(col, col_cfg[col], g, p, synonyms, bert)
@@ -446,65 +530,83 @@ def main() -> None:
                 results[m][col].append(cell)
                 row_detail["fields"][col] = {
                     "gold": g, "pred": p, "cls": cell["cls"],
-                    "score": round(cell["score"], 4)}
+                    "score": (None if cell["score"] is None
+                              else round(cell["score"], 4))}
             field_detail[m].append(row_detail)
 
-    # ---- aggregate ----
-    def agg_model(model: str) -> dict:
-        per_col = {}
-        for col in scored_cols:
-            cells = results[model][col]
-            n = len(cells)
-            gt_present = [c for c in cells if c["cls"] != "both_empty" and c["cls"] != "hallucination"]
-            scored = [c for c in cells if c["cls"] == "scored"]
-            n_gt_present = len(gt_present)  # omission + scored
-            n_gt_empty = sum(1 for c in cells if c["cls"] in ("both_empty", "hallucination"))
-            omissions = sum(1 for c in cells if c["cls"] == "omission")
-            halluc = sum(1 for c in cells if c["cls"] == "hallucination")
-            score_with_empty = sum(c["score"] for c in cells) / n if n else 0.0
-            score_gt_present = (sum(c["score"] for c in gt_present) / n_gt_present
-                                if n_gt_present else None)
-            score_scored = (sum(c["score"] for c in scored) / len(scored)
-                            if scored else None)
-            entry = {
-                "n_cells": n,
-                "n_scored": len(scored),
-                "n_gt_present": n_gt_present,
-                "omissions": omissions,
-                "hallucinations": halluc,
-                "omission_rate": omissions / n_gt_present if n_gt_present else None,
-                "hallucination_rate": halluc / n_gt_empty if n_gt_empty else None,
-                "score_with_empty": score_with_empty,
-                "score_gt_present": score_gt_present,
-                "score_scored_only": score_scored,
-                "metric": col_cfg[col]["metric"],
-            }
-            # chance-corrected agreement for single-label categorical columns
-            if col_cfg[col]["metric"] in ("exact_norm", "risk_class_norm"):
-                entry["cohen_kappa"] = _kappa_for_col(model, col, col_cfg[col],
-                                                      evaluable)
-            per_col[col] = entry
+    # ---- aggregate + write ----
+    _finalize(list(model_studies.keys()), scored_cols, col_cfg, evaluable,
+              results, field_detail, dropped, gt_studies, bert_active, use_bert)
 
-        present_scores = [v["score_gt_present"] for v in per_col.values()
-                          if v["score_gt_present"] is not None]
-        macro = sum(present_scores) / len(present_scores) if present_scores else 0.0
-        # micro: weight by n_gt_present
-        num = sum((v["score_gt_present"] or 0) * v["n_gt_present"]
-                  for v in per_col.values())
-        den = sum(v["n_gt_present"] for v in per_col.values())
-        micro = num / den if den else 0.0
-        macro_with_empty = (sum(v["score_with_empty"] for v in per_col.values())
-                            / len(per_col)) if per_col else 0.0
-        return {"macro_score_gt_present": macro, "micro_score_gt_present": micro,
-                "macro_score_with_empty": macro_with_empty, "per_column": per_col}
 
-    summary = {m: agg_model(m) for m in model_studies}
+def _agg_model(model: str, results: Dict[str, Dict[str, List[dict]]],
+               scored_cols: List[str], col_cfg: dict,
+               evaluable: List[dict]) -> dict:
+    per_col = {}
+    for col in scored_cols:
+        cells = results[model][col]
+        n = len(cells)
+        # cells where the GT actually has a value = the population we score
+        gt_present = [c for c in cells if c["cls"] in ("scored", "omission")]
+        scored = [c for c in cells if c["cls"] == "scored"]
+        n_gt_present = len(gt_present)  # omission + scored
+        n_gt_empty = sum(1 for c in cells if c["cls"] in ("both_empty", "addition"))
+        omissions = sum(1 for c in cells if c["cls"] == "omission")
+        additions = sum(1 for c in cells if c["cls"] == "addition")
+        both_empty = sum(1 for c in cells if c["cls"] == "both_empty")
+        # score is defined only on gt_present cells (omission = 0, scored = metric)
+        score_gt_present = (sum(c["score"] for c in gt_present) / n_gt_present
+                            if n_gt_present else None)
+        score_scored = (sum(c["score"] for c in scored) / len(scored)
+                        if scored else None)
+        model_filled = len(scored) + additions  # descriptive fill count
+        entry = {
+            "n_cells": n,
+            "n_scored": len(scored),
+            "n_gt_present": n_gt_present,
+            "n_gt_empty": n_gt_empty,
+            "both_empty": both_empty,
+            "omissions": omissions,
+            # GT blank + model filled: candidate additions, reported as counts,
+            # never scored as errors (see methodology.md, blank handling).
+            "unverified_additions": additions,
+            "omission_rate": omissions / n_gt_present if n_gt_present else None,
+            # rate over GT-blank cells only when there are enough of them,
+            # to avoid misleading percentages over n=1..few cells.
+            "addition_rate": (additions / n_gt_empty
+                              if n_gt_empty >= MIN_RATE_DENOM else None),
+            "model_fill_rate": model_filled / n if n else None,
+            "score_gt_present": score_gt_present,
+            "score_scored_only": score_scored,
+            "metric": col_cfg[col]["metric"],
+        }
+        # chance-corrected agreement for single-label categorical columns
+        if col_cfg[col]["metric"] in ("exact_norm", "risk_class_norm"):
+            entry["cohen_kappa"] = _kappa_for_col(model, col, col_cfg[col],
+                                                  evaluable)
+        per_col[col] = entry
 
-    # ---- write artifacts ----
+    present_scores = [v["score_gt_present"] for v in per_col.values()
+                      if v["score_gt_present"] is not None]
+    macro = sum(present_scores) / len(present_scores) if present_scores else 0.0
+    # micro: weight by n_gt_present
+    num = sum((v["score_gt_present"] or 0) * v["n_gt_present"]
+              for v in per_col.values())
+    den = sum(v["n_gt_present"] for v in per_col.values())
+    micro = num / den if den else 0.0
+    return {"macro_score_gt_present": macro, "micro_score_gt_present": micro,
+            "per_column": per_col}
+
+
+def _finalize(model_names: List[str], scored_cols: List[str], col_cfg: dict,
+              evaluable: List[dict], results: Dict[str, Dict[str, List[dict]]],
+              field_detail: Dict[str, List[dict]], dropped: List[dict],
+              gt_studies: List[dict], bert_active: bool, use_bert: bool) -> None:
+    summary = {m: _agg_model(m, results, scored_cols, col_cfg, evaluable)
+               for m in model_names}
+    model_studies = {m: None for m in model_names}  # only keys are used downstream
     _write_outputs(summary, results, field_detail, evaluable, dropped, gt_studies,
                    scored_cols, col_cfg, model_studies, bert_active, use_bert)
-
-    # console
     print(f"GT studies: {len(gt_studies)} | evaluable: {len(evaluable)} | "
           f"dropped: {len(dropped)} "
           f"(unfilled={sum(1 for d in dropped if d['reason']=='unfilled_gt')}, "
@@ -627,16 +729,16 @@ def _write_markdown(summary, evaluable, dropped, gt_studies, scored_cols,
     L.append("## Headline (per model)")
     L.append("")
     L.append("Macro-average over columns of the per-column score on cells where the "
-             "GT has a value (omissions count as 0; trivially-correct both-empty "
-             "cells excluded). Micro-average weights by number of such cells.")
+             "GT has a value (omissions count as 0; both-empty cells and "
+             "GT-blank/model-filled additions are excluded, not scored). "
+             "Micro-average weights by number of GT-present cells.")
     L.append("")
-    L.append("| Model | Macro (GT-present) | Micro (GT-present) | Macro (incl. both-empty) |")
-    L.append("|---|--:|--:|--:|")
+    L.append("| Model | Macro (GT-present) | Micro (GT-present) |")
+    L.append("|---|--:|--:|")
     for m in models:
         s = summary[m]
         L.append(f"| {m} | {pct(s['macro_score_gt_present'])} | "
-                 f"{pct(s['micro_score_gt_present'])} | "
-                 f"{pct(s['macro_score_with_empty'])} |")
+                 f"{pct(s['micro_score_gt_present'])} |")
     L.append("")
     # best per metric note
     L.append("## Per-column score (GT-present) by model")
@@ -649,20 +751,30 @@ def _write_markdown(summary, evaluable, dropped, gt_studies, scored_cols,
                            for m in models)
         L.append(f"| {col} | {metric} | {cells} |")
     L.append("")
-    L.append("## Omission and hallucination rates by model")
+    L.append("## Omissions and unverified additions by model")
     L.append("")
-    L.append("Omission = GT has a value, model left it blank. Hallucination = GT "
-             "blank, model filled it. Rates are per column.")
+    L.append("**Omission** = GT has a value, model left it blank (a genuine miss; "
+             "scored as 0 in the GT-present score). **Unverified addition** = GT "
+             "blank, model filled it. Because the analysis GT is a deliberately "
+             "small, incomplete manual subset, an addition is a *candidate* value "
+             "that needs a source check, not an automatic error - so it is reported "
+             "as a count and is never scored (mirrors Benchmark 1 'Extras'). The "
+             "addition rate is shown only where at least "
+             f"{MIN_RATE_DENOM} GT-blank cells exist (`-` otherwise), because a "
+             "percentage over one or two cells is noise.")
     L.append("")
     for m in models:
         L.append(f"### {m}")
         L.append("")
-        L.append("| Column | Omission rate | Hallucination rate |")
-        L.append("|---|--:|--:|")
+        L.append("| Column | Omissions (of GT-present) | Omission rate | "
+                 "Unverified additions (of GT-blank) | Addition rate |")
+        L.append("|---|--:|--:|--:|--:|")
         for col in scored_cols:
             e = summary[m]["per_column"][col]
-            L.append(f"| {col} | {pct(e['omission_rate'])} | "
-                     f"{pct(e['hallucination_rate'])} |")
+            L.append(f"| {col} | {e['omissions']}/{e['n_gt_present']} | "
+                     f"{pct(e['omission_rate'])} | "
+                     f"{e['unverified_additions']}/{e['n_gt_empty']} | "
+                     f"{pct(e['addition_rate'])} |")
         L.append("")
     # categorical kappa
     L.append("## Categorical agreement (Cohen's kappa)")
