@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T10:13:17+00:00",
+  "generated_at": "2026-07-04T08:13:09+00:00",
   "bertscore_active": true,
   "counts": {
     "gt_studies": 56,
@@ -9,8 +9,8 @@
   },
   "models": {
     "gpt-4o": {
-      "macro_score_gt_present": 0.6623760111646734,
-      "micro_score_gt_present": 0.6925907877169559,
+      "macro_score_gt_present": 0.7054772113938095,
+      "micro_score_gt_present": 0.7384295401092753,
       "per_column": {
         "dtx_name": {
           "n_cells": 35,
@@ -23,8 +23,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8402457142857143,
-          "score_scored_only": 0.8402457142857143,
+          "score_gt_present": 0.840248955487052,
+          "score_scored_only": 0.840248955487052,
           "metric": "name_norm_fuzzy"
         },
         "is_it_a_diga": {
@@ -54,8 +54,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8331942857142857,
-          "score_scored_only": 0.8331942857142857,
+          "score_gt_present": 0.8331943428225812,
+          "score_scored_only": 0.8331943428225812,
           "metric": "name_norm_fuzzy"
         },
         "company_founding_year": {
@@ -100,8 +100,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.0,
-          "score_scored_only": 0.0,
+          "score_gt_present": 0.8,
+          "score_scored_only": 0.8,
           "metric": "iso_date"
         },
         "category": {
@@ -115,8 +115,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.7161914285714286,
-          "score_scored_only": 0.7161914285714286,
+          "score_gt_present": 0.7161904761904762,
+          "score_scored_only": 0.7161904761904762,
           "metric": "concept_set"
         },
         "risk_class": {
@@ -146,8 +146,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8695571428571428,
-          "score_scored_only": 0.8695571428571428,
+          "score_gt_present": 0.8695526695526696,
+          "score_scored_only": 0.8695526695526696,
           "metric": "icd10_set"
         },
         "rating_on_playstore": {
@@ -252,9 +252,9 @@
           "omission_rate": 0.19047619047619047,
           "addition_rate": 0.2857142857142857,
           "model_fill_rate": 0.6,
-          "score_gt_present": 0.031747619047619045,
-          "score_scored_only": 0.039217647058823524,
-          "metric": "short_norm_tokenf1"
+          "score_gt_present": 0.38095238095238093,
+          "score_scored_only": 0.47058823529411764,
+          "metric": "duration_weeks_exact"
         },
         "duration_additional_info": {
           "n_cells": 35,
@@ -282,8 +282,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8,
-          "score_scored_only": 0.8,
+          "score_gt_present": 0.7714285714285715,
+          "score_scored_only": 0.7714285714285715,
           "metric": "int_exact"
         },
         "intervention_and_control_group": {
@@ -409,8 +409,8 @@
       }
     },
     "gemini-3.1-pro-preview": {
-      "macro_score_gt_present": 0.6662864088117764,
-      "micro_score_gt_present": 0.689907476635514,
+      "macro_score_gt_present": 0.7116523472438862,
+      "micro_score_gt_present": 0.7379076442481272,
       "per_column": {
         "dtx_name": {
           "n_cells": 35,
@@ -423,8 +423,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8402457142857143,
-          "score_scored_only": 0.8402457142857143,
+          "score_gt_present": 0.840248955487052,
+          "score_scored_only": 0.840248955487052,
           "metric": "name_norm_fuzzy"
         },
         "is_it_a_diga": {
@@ -454,8 +454,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8331942857142857,
-          "score_scored_only": 0.8331942857142857,
+          "score_gt_present": 0.8331943428225812,
+          "score_scored_only": 0.8331943428225812,
           "metric": "name_norm_fuzzy"
         },
         "company_founding_year": {
@@ -500,8 +500,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.0,
-          "score_scored_only": 0.0,
+          "score_gt_present": 0.8,
+          "score_scored_only": 0.8,
           "metric": "iso_date"
         },
         "category": {
@@ -515,8 +515,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.5047628571428571,
-          "score_scored_only": 0.5047628571428571,
+          "score_gt_present": 0.5047619047619047,
+          "score_scored_only": 0.5047619047619047,
           "metric": "concept_set"
         },
         "risk_class": {
@@ -546,8 +546,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8695571428571428,
-          "score_scored_only": 0.8695571428571428,
+          "score_gt_present": 0.8695526695526696,
+          "score_scored_only": 0.8695526695526696,
           "metric": "icd10_set"
         },
         "rating_on_playstore": {
@@ -637,8 +637,8 @@
           "omission_rate": 0.029411764705882353,
           "addition_rate": null,
           "model_fill_rate": 0.9714285714285714,
-          "score_gt_present": 0.7647058823529411,
-          "score_scored_only": 0.7878787878787878,
+          "score_gt_present": 0.7941176470588235,
+          "score_scored_only": 0.8181818181818182,
           "metric": "int_exact"
         },
         "follow_up_after_primary_end_point": {
@@ -652,9 +652,9 @@
           "omission_rate": 0.2857142857142857,
           "addition_rate": 0.21428571428571427,
           "model_fill_rate": 0.5142857142857142,
-          "score_gt_present": 0.09751428571428572,
-          "score_scored_only": 0.13652,
-          "metric": "short_norm_tokenf1"
+          "score_gt_present": 0.47619047619047616,
+          "score_scored_only": 0.6666666666666666,
+          "metric": "duration_weeks_exact"
         },
         "duration_additional_info": {
           "n_cells": 35,
@@ -682,8 +682,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8571428571428571,
-          "score_scored_only": 0.8571428571428571,
+          "score_gt_present": 0.8285714285714286,
+          "score_scored_only": 0.8285714285714286,
           "metric": "int_exact"
         },
         "intervention_and_control_group": {
@@ -809,8 +809,8 @@
       }
     },
     "claude-sonnet-4-6": {
-      "macro_score_gt_present": 0.6616572989968602,
-      "micro_score_gt_present": 0.6859467289719626,
+      "macro_score_gt_present": 0.6998602703960028,
+      "micro_score_gt_present": 0.7287253122499073,
       "per_column": {
         "dtx_name": {
           "n_cells": 35,
@@ -823,8 +823,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8402457142857143,
-          "score_scored_only": 0.8402457142857143,
+          "score_gt_present": 0.840248955487052,
+          "score_scored_only": 0.840248955487052,
           "metric": "name_norm_fuzzy"
         },
         "is_it_a_diga": {
@@ -854,8 +854,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8331942857142857,
-          "score_scored_only": 0.8331942857142857,
+          "score_gt_present": 0.8331943428225812,
+          "score_scored_only": 0.8331943428225812,
           "metric": "name_norm_fuzzy"
         },
         "company_founding_year": {
@@ -900,8 +900,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.0,
-          "score_scored_only": 0.0,
+          "score_gt_present": 0.8,
+          "score_scored_only": 0.8,
           "metric": "iso_date"
         },
         "category": {
@@ -946,8 +946,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8695571428571428,
-          "score_scored_only": 0.8695571428571428,
+          "score_gt_present": 0.8695526695526696,
+          "score_scored_only": 0.8695526695526696,
           "metric": "icd10_set"
         },
         "rating_on_playstore": {
@@ -1037,8 +1037,8 @@
           "omission_rate": 0.029411764705882353,
           "addition_rate": null,
           "model_fill_rate": 0.9714285714285714,
-          "score_gt_present": 0.7647058823529411,
-          "score_scored_only": 0.7878787878787878,
+          "score_gt_present": 0.7941176470588235,
+          "score_scored_only": 0.8181818181818182,
           "metric": "int_exact"
         },
         "follow_up_after_primary_end_point": {
@@ -1052,9 +1052,9 @@
           "omission_rate": 0.14285714285714285,
           "addition_rate": 0.42857142857142855,
           "model_fill_rate": 0.6857142857142857,
-          "score_gt_present": 0.09327619047619048,
-          "score_scored_only": 0.10882222222222222,
-          "metric": "short_norm_tokenf1"
+          "score_gt_present": 0.2857142857142857,
+          "score_scored_only": 0.3333333333333333,
+          "metric": "duration_weeks_exact"
         },
         "duration_additional_info": {
           "n_cells": 35,
@@ -1082,8 +1082,8 @@
           "omission_rate": 0.0,
           "addition_rate": null,
           "model_fill_rate": 1.0,
-          "score_gt_present": 0.8285714285714286,
-          "score_scored_only": 0.8285714285714286,
+          "score_gt_present": 0.8,
+          "score_scored_only": 0.8,
           "metric": "int_exact"
         },
         "intervention_and_control_group": {

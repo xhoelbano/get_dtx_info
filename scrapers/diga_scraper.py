@@ -499,24 +499,12 @@ class DiGAScraper(BaseScraper):
             data.languages = ['Deutsch'];
         }
         
-        // Date of first listing - look for "aufgenommen" or "Änderungshistorie"
-        const historySection = bodyText.match(/Änderungshistorie[^]*$/i);
-        const historyText = historySection ? historySection[0] : bodyText;
-        const datePattern = /(\\d{2}\\.\\d{2}\\.\\d{4})/g;
-        const dates = historyText.match(datePattern) || [];
-        
-        // Find the earliest date (likely first listing)
-        if (dates.length > 0) {
-            // Convert all dates and find earliest
-            const parsedDates = dates.map(d => {
-                const [day, month, year] = d.split('.');
-                return { original: d, date: new Date(year, month - 1, day) };
-            });
-            parsedDates.sort((a, b) => a.date - b.date);
-            const earliest = parsedDates[0];
-            const [day, month, year] = earliest.original.split('.');
-            data.date_of_first_listing = `${year}-${month}-${day}`;
-        }
+        // Date of first listing is NOT extracted here: it lives in the
+        // collapsed "Weitere Informationen zur digitalen Gesundheitsanwendung"
+        // section (field "Erstmalige Aufnahme in das DiGA-Verzeichnis").
+        // Reading the raw bodyText here grabbed the page "Stand"/retrieved
+        // date instead of the real listing date. It is now extracted
+        // separately after that section is opened (see _extract_listing_date).
         
         // Trial registration IDs (NCT and DRKS numbers)
         const nctPattern = /NCT\\d{8}/g;
@@ -623,6 +611,21 @@ class DiGAScraper(BaseScraper):
     }
     """
     
+    # JavaScript to read the real date of first listing from the
+    # "Weitere Informationen zur digitalen Gesundheitsanwendung" section, which
+    # exposes the labeled field "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    # followed by a dd.mm.yyyy date. This field is present for every currently
+    # listed DiGA (unlike the "Änderungshistorie", whose oldest entries are not
+    # always retained). Returned as ISO yyyy-mm-dd, or null if not present.
+    LISTING_DATE_EXTRACTION_JS = r"""
+    () => {
+        const text = document.body.innerText || "";
+        const m = text.match(/Erstmalige\s+Aufnahme\s+in\s+das\s+DiGA-Verzeichnis\s*[:\n]?\s*(\d{2})\.(\d{2})\.(\d{4})/i);
+        if (m) return `${m[3]}-${m[2]}-${m[1]}`;
+        return null;
+    }
+    """
+
     @staticmethod
     def _format_mdr_risk_class(raw: Optional[str]) -> Optional[str]:
         """Format a bare MDR class into the labeled regulatory form.
@@ -745,6 +748,107 @@ class DiGAScraper(BaseScraper):
             return None
         finally:
             await page.close()
+
+    async def _extract_listing_date(self, page) -> Optional[str]:
+        """Read the date of first listing from the medical-device section.
+
+        The value lives under "Weitere Informationen zur digitalen
+        Gesundheitsanwendung" as the labeled field "Erstmalige Aufnahme in das
+        DiGA-Verzeichnis" - the same section that holds the risk class. It is
+        collapsed by default, so we open it (mirroring ``_extract_risk_class``)
+        before reading. The earlier code read the page before this was open and
+        captured the retrieved/"Stand" date instead.
+
+        Args:
+            page: A Playwright page already navigated to a DiGA detail page.
+
+        Returns:
+            The date of first listing as ISO ``yyyy-mm-dd`` or None if not found.
+        """
+        async def try_extract():
+            try:
+                val = await page.evaluate(self.LISTING_DATE_EXTRACTION_JS)
+                return val.strip() if isinstance(val, str) and val.strip() else None
+            except Exception:
+                return None
+
+        async def expand_collapsed():
+            """Open every collapsed accordion (skip nav/menu toggles)."""
+            try:
+                expanders = await page.locator('[aria-expanded="false"]').all()
+            except Exception:
+                expanders = []
+            for exp in expanders:
+                try:
+                    label = (await exp.inner_text()) or ""
+                except Exception:
+                    label = ""
+                if any(skip in label for skip in ("Menü", "Sprache", "Navigation")):
+                    continue
+                try:
+                    await exp.click(timeout=1500)
+                    await asyncio.sleep(0.2)
+                except Exception:
+                    continue
+
+        async def click_named_section():
+            """Click the medical-device section header once (a toggle)."""
+            for selector in (
+                'button:has-text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+                'a:has-text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+                'summary:has-text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+                ':text("Weitere Informationen zur digitalen Gesundheitsanwendung")',
+            ):
+                try:
+                    loc = page.locator(selector).first
+                    if await loc.count() > 0:
+                        await loc.click(timeout=2500)
+                        await asyncio.sleep(1.2)
+                        return True
+                except Exception:
+                    continue
+            return False
+
+        # Maybe it is already visible (the detail scrape opens this section for
+        # the risk class before calling here).
+        date = await try_extract()
+        if date:
+            return date
+
+        for _ in range(3):
+            await expand_collapsed()
+            date = await try_extract()
+            if date:
+                return date
+            await click_named_section()
+            date = await try_extract()
+            if date:
+                return date
+
+        return await try_extract()
+
+    async def scrape_listing_date(self, source_url: str) -> Optional[str]:
+        """Open a DiGA detail page and return just its date of first listing.
+
+        Used by the one-time backfill command; reuses the same extraction as the
+        full detail scrape so behavior stays consistent.
+        """
+        if not source_url:
+            return None
+        page = await self._create_page()
+        try:
+            await page.goto(source_url, wait_until="domcontentloaded", timeout=30000)
+            try:
+                await page.wait_for_load_state("networkidle", timeout=15000)
+            except Exception:
+                pass
+            await asyncio.sleep(1)
+            return await self._extract_listing_date(page)
+        except Exception as e:
+            print(f"      Error extracting listing date from {source_url}: {e}")
+            return None
+        finally:
+            await page.close()
     
     async def scrape_dtx_details(self, dtx_basic: Dict) -> Dict:
         """Scrape detailed information for a single DTx using Playwright.
@@ -815,6 +919,17 @@ class DiGAScraper(BaseScraper):
                     print(f"      Risk class: {risk_class_value}")
             except Exception as e:
                 print(f"      Could not extract risk class: {e}")
+
+            # Date of first listing lives in the "Änderungshistorie" accordion.
+            # Extract it here (still in the consumer view) via the dedicated
+            # accordion-opening helper; the buggy in-page fallback was removed.
+            listing_date_value = None
+            try:
+                listing_date_value = await self._extract_listing_date(page)
+                if listing_date_value:
+                    print(f"      Date of first listing: {listing_date_value}")
+            except Exception as e:
+                print(f"      Could not extract listing date: {e}")
             
             # Click "Informationen für Fachkreise" to access the Module table with ICD-10 codes
             icd10_codes = []
@@ -904,6 +1019,9 @@ class DiGAScraper(BaseScraper):
             result.setdefault("risk_class", None)
             if risk_class_value:
                 result["risk_class"] = risk_class_value
+            # Real date of first listing from the Änderungshistorie accordion.
+            if listing_date_value:
+                result["date_of_first_listing"] = listing_date_value
             
             # Unified Phase 1 fields (shared shape across Germany / USA).
             status_de = result.get("listing_status_de", "") or ""

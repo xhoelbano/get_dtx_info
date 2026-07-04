@@ -121,8 +121,16 @@ def parse_float(s: str) -> Optional[float]:
 
 
 def parse_date(s: str) -> Optional[Tuple[int, Optional[int], Optional[int]]]:
-    """Return (year, month, day) with None for absent components, or None."""
+    """Return (year, month, day) with None for absent components, or None.
+
+    Accepts ISO (yyyy-mm-dd, yyyy-mm), German dd.mm.yyyy, bare year, and
+    English month-name formats in either order and with optional commas or
+    ordinal suffixes: "15 December 2020", "December 15, 2020", "March 2022",
+    "February, 2021". Ground truth mixes several of these, so a permissive
+    parser is required for the exact comparison to be meaningful.
+    """
     t = str(s).strip()
+    # Numeric formats (no letters).
     m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", t)
     if m:
         return int(m[1]), int(m[2]), int(m[3])
@@ -132,20 +140,65 @@ def parse_date(s: str) -> Optional[Tuple[int, Optional[int], Optional[int]]]:
     m = re.match(r"^(\d{1,2})\.(\d{1,2})\.(\d{4})$", t)
     if m:
         return int(m[3]), int(m[2]), int(m[1])
-    m = re.match(r"^(\d{1,2})\s+([A-Za-z]+)\.?\s+(\d{4})$", t)
-    if m and m[2].lower() in _MONTHS:
-        return int(m[3]), _MONTHS[m[2].lower()], int(m[1])
-    m = re.match(r"^([A-Za-z]+)\.?\s+(\d{4})$", t)
-    if m and m[1].lower() in _MONTHS:
-        return int(m[2]), _MONTHS[m[1].lower()], None
     m = re.match(r"^(\d{4})$", t)
     if m:
         return int(m[1]), None, None
+    # Month-name formats: drop commas/ordinal suffixes, collapse whitespace.
+    tc = re.sub(r"(\d)(?:st|nd|rd|th)\b", r"\1", t, flags=re.IGNORECASE)
+    tc = re.sub(r"\s+", " ", tc.replace(",", " ")).strip()
+    # Day Month Year, e.g. "15 December 2020".
+    m = re.match(r"^(\d{1,2})\s+([A-Za-z]+)\.?\s+(\d{4})$", tc)
+    if m and m[2].lower() in _MONTHS:
+        return int(m[3]), _MONTHS[m[2].lower()], int(m[1])
+    # Month Day Year, e.g. "December 15 2020".
+    m = re.match(r"^([A-Za-z]+)\.?\s+(\d{1,2})\s+(\d{4})$", tc)
+    if m and m[1].lower() in _MONTHS:
+        return int(m[3]), _MONTHS[m[1].lower()], int(m[2])
+    # Month Year, e.g. "March 2022" / "February 2021".
+    m = re.match(r"^([A-Za-z]+)\.?\s+(\d{4})$", tc)
+    if m and m[1].lower() in _MONTHS:
+        return int(m[2]), _MONTHS[m[1].lower()], None
     return None
 
 
 _ICD10 = re.compile(r"[A-TV-Z][0-9]{2}(?:\.[0-9A-Za-z]{1,4})?")
 _RISK = re.compile(r"\b(IV|III|II|I)(a|b)?\b")
+
+# Follow-up durations: a number optionally followed by a time unit. A fixed
+# 1 month = 4 weeks (and 1 year = 48 weeks) conversion normalizes every value to
+# whole weeks so that, e.g., "6 months" == 24 weeks. Values with no unit are
+# treated as weeks (the ground-truth convention, e.g. "24" or "24 & 48"); when a
+# string mixes explicit and bare numbers ("6 and 12 months"), the bare numbers
+# inherit the last explicit unit.
+_DUR_UNIT = re.compile(
+    r"(\d+(?:\.\d+)?)[\s\-]*"
+    r"(weeks?|wochen?|wks?|months?|monate?|monat|mo|years?|jahre?|jahr|yrs?)?",
+    re.IGNORECASE,
+)
+
+
+def _unit_to_weeks(num: float, unit: str) -> int:
+    u = unit.lower()
+    if u.startswith(("week", "woche", "wk")):
+        wk = num
+    elif u.startswith(("month", "monat", "mo")):
+        wk = num * 4
+    elif u.startswith(("year", "jahr", "yr")):
+        wk = num * 48
+    else:
+        wk = num  # fallback: treat as weeks
+    return int(round(wk))
+
+
+def duration_weeks_set(s: str) -> Set[int]:
+    """Normalize a follow-up string to a set of whole-week values (1 month = 4)."""
+    matches = [(float(m.group(1)), m.group(2)) for m in _DUR_UNIT.finditer(str(s))
+               if m.group(1)]
+    if not matches:
+        return set()
+    explicit_units = [u for _, u in matches if u]
+    default_unit = explicit_units[-1] if explicit_units else "week"
+    return {_unit_to_weeks(num, u if u else default_unit) for num, u in matches}
 
 
 def risk_token(s: str) -> str:
@@ -298,6 +351,18 @@ def score_cell(col: str, cfg: dict, gold: str, pred: str,
         gi, pi = parse_int(gold), parse_int(pred)
         return {"score": 1.0 if (gi is not None and gi == pi) else 0.0,
                 "gold": gi, "pred": pi}
+    if metric == "duration_weeks_exact":
+        # Non-numeric GT (e.g. "yes"): fall back to exact normalized text.
+        if not re.search(r"\d", str(gold)):
+            return {"score": 1.0 if norm_text(gold) == norm_text(pred) else 0.0,
+                    "note": "gold_nonnumeric"}
+        gw = duration_weeks_set(gold)
+        pw = duration_weeks_set(pred)
+        # Exact set match after unit normalization; no partial credit, no
+        # tolerance. A pure unit mismatch (24 weeks vs "6 months") now matches;
+        # a wrong or contradictory duration still scores 0.
+        return {"score": 1.0 if (gw and gw == pw) else 0.0,
+                "gold_weeks": sorted(gw), "pred_weeks": sorted(pw)}
     if metric == "float_tolerance":
         tol = cfg.get("tolerance", 0.05)
         gf, pf = parse_float(gold), parse_float(pred)
@@ -413,6 +478,31 @@ def _load_from_cache(col_cfg: dict) -> None:
               dropped, gt_studies, bert_active, use_bert=True)
 
 
+def _bertscore_cache_from_field_scores(col_cfg: dict) -> Dict[Tuple[str, str], float]:
+    """Build a (pred, gold) -> BERTScore-F1 map from cached per-cell scores.
+
+    Lets the full pipeline re-run over the corrected Phase 3 data (so every
+    deterministic column recomputes fresh) while free-text BERTScore columns
+    reproduce their exact previously-computed scores from
+    results/*_field_scores.json - no torch / bert_score needed. The free-text
+    (pred, gold) pairs are unchanged by this update (only date/duration fields
+    changed), so cache coverage is complete.
+    """
+    bert: Dict[Tuple[str, str], float] = {}
+    for m in MODELS:
+        path = RESULTS_DIR / f"{m}_field_scores.json"
+        if not path.exists():
+            continue
+        detail = json.loads(path.read_text(encoding="utf-8"))
+        for row in detail:
+            for col, f in row.get("fields", {}).items():
+                if col_cfg.get(col, {}).get("metric") != "bertscore_tokenf1":
+                    continue
+                if f.get("cls") == "scored" and f.get("score") is not None:
+                    bert[(f["pred"], f["gold"])] = float(f["score"])
+    return bert
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-bertscore", action="store_true",
@@ -421,6 +511,12 @@ def main() -> None:
                     help="Rebuild all reports from results/*_field_scores.json "
                          "without re-running models or BERTScore (preserves the "
                          "original free-text scores; only re-aggregates).")
+    ap.add_argument("--reuse-bertscore-cache", action="store_true",
+                    help="Hybrid re-score: re-run the full pipeline over the "
+                         "current Phase 3 data (recomputing all deterministic "
+                         "metrics) but take free-text BERTScore-F1 values from "
+                         "results/*_field_scores.json instead of recomputing "
+                         "them (no torch/bert_score needed).")
     args = ap.parse_args()
     use_bert = not args.no_bertscore
 
@@ -493,7 +589,15 @@ def main() -> None:
                 p = ev["models"][m].get(col, "")
                 if not is_empty(p):
                     pairs.add((p, g))
-    bert = compute_bertscore(sorted(pairs), use_bert)
+    if args.reuse_bertscore_cache:
+        bert = _bertscore_cache_from_field_scores(col_cfg)
+        missing = sum(1 for p in pairs if p not in bert)
+        if missing:
+            print(f"  WARN: {missing}/{len(pairs)} free-text pairs missing from "
+                  f"BERTScore cache; those fall back to token-F1.")
+        use_bert = True
+    else:
+        bert = compute_bertscore(sorted(pairs), use_bert)
     bert_active = bool(bert)
 
     # ---- score every cell ----

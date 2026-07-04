@@ -112,12 +112,18 @@ is not a miss. Normalized error is reported on the misses to describe *how* wron
 ### Group D - Dates
 `diga_listing_date`, `trial_start_date`, `trial_end_date`, `publication_date`.
 
-- **Metric:** parse both sides to `(year, month, day)` and compare at the
-  **granularity present in the GT** (if the GT gives only "March 2022", compare
-  year+month; if only a year, compare year). Many formats appear ("March 2022",
-  "01 September 2024", "2026-04-14", "3 months"); a value that does not parse as a
-  date counts as a mismatch. Date normalization avoids false misses caused purely
-  by format.
+- **Metric:** parse both sides to `(year, month, day)` and compare **exactly** at
+  the **granularity present in the GT** (if the GT gives only "March 2022", compare
+  year+month; if only a year, compare year). The parser accepts every format that
+  occurs in the data - ISO ("2026-04-14"), German "dd.mm.yyyy", bare year, and
+  English month names in either order and with optional commas or ordinal suffixes
+  ("15 December 2020", "December 15, 2020", "February, 2021", "March 2022") - so a
+  correct date written in a different style is never a false miss. There is **no
+  partial credit**: a prediction *coarser* than the GT (e.g. "2021" when the GT
+  records "20 April 2021") scores 0, and a value that does not parse as a date is a
+  mismatch. Rewarding coarser predictions was deliberately rejected as inflating
+  the score; the resulting behaviour is documented as a metric limitation rather
+  than smoothed over.
 
 ### Group E - Set / list
 `clinical_area_icd10`.
@@ -143,11 +149,24 @@ is not a miss. Normalized error is reported on the misses to describe *how* wron
   token-level F1. ROUGE (Lin 2004) and BLEU (Papineni et al. 2002) are cited only
   to explain why they were rejected here.
 
-### Group G - Short mixed
-`follow_up_after_primary_end_point` (values like "24" weeks, "yes", "3 months").
+### Group G - Follow-up duration
+`follow_up_after_primary_end_point` (values like "24" weeks, "24 & 48", "yes",
+"3 months", "6 months and 1 year").
 
-- **Metric:** normalized exact match with a token-level F1 fallback - the field is
-  short and inconsistently typed, so a graded lexical score is the fair choice.
+- **Metric:** **exact match after unit normalization to weeks**
+  (`duration_weeks_exact`). Both sides are converted to a set of whole-week
+  values using a fixed **1 month = 4 weeks** (and **1 year = 48 weeks**)
+  conversion: a bare number is weeks (the GT convention, e.g. "24" or "24 & 48"),
+  "n week(s)" is `n`, "n month(s)" is `4n`, "n year(s)" is `48n`; connectors
+  (`&`, `and`, `,`) produce multiple values, and when a string mixes bare and
+  explicit numbers ("6 and 12 months") the bare numbers inherit the last explicit
+  unit. The two sets must be **equal** - there is no tolerance band and no partial
+  credit. This removes only the pure unit mismatch (a model answering "6 months"
+  when the GT says 24 weeks is now correct, `6 x 4 = 24`); a genuinely different
+  duration ("3 months" vs 24 weeks) or a contradictory answer still scores 0. A
+  non-numeric GT (e.g. "yes") falls back to normalized exact match. Earlier this
+  field used a lexical token-F1 that scored correct-but-differently-phrased
+  durations near zero; the unit-aware exact metric is both fairer and stricter.
 
 ## 5. Why not an LLM judge (design divergence)
 
@@ -221,8 +240,18 @@ chance agreement `p_e`.
   "symptoms decreased" as similar. Mitigation: a ~10% manual spot-check of
   `key_outcomes_findings` is exported to
   [`results/outcomes_spotcheck.csv`](results/outcomes_spotcheck.csv).
-- **Date granularity rule.** Comparing at the GT's granularity rewards correct
-  coarse answers and will not penalize a model for omitting a day the GT also
-  lacks; this is intentional but should be stated.
+- **Date granularity rule.** Comparison is exact at the GT's granularity. A
+  prediction *coarser* than the GT (a year where the GT has a full day) scores 0
+  even though the year is right; partial credit was rejected to avoid inflating
+  the score, so this understates models that return correct-but-coarser dates.
+- **App-store review-count volatility.** `reviews_on_playstore` /
+  `reviews_on_appstore` are live counts that change continuously; the GT and the
+  pipeline captured them at different times, so exact-integer scoring understates
+  this field. A tolerance band was deliberately not added (it would be arbitrary),
+  so the reported score is a lower bound, not a true error rate.
+- **`diga_listing_date` is a deterministic pipeline field.** It is read from the
+  DiGA directory ("Erstmalige Aufnahme in das DiGA-Verzeichnis") and passed
+  through identically to all three models, so its per-model scores are equal by
+  construction; it measures the directory scrape, not model reasoning.
 - **Small evaluable set.** The analysis GT is a deliberately small random subset;
   per-column figures are indicative, not population estimates.

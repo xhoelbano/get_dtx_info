@@ -1,6 +1,6 @@
 # Benchmark 2 - Field-level extraction quality (results)
 
-_Generated: 2026-07-03T10:13:17+00:00_
+_Generated: 2026-07-04T08:13:09+00:00_
 
 Per-field accuracy of each model's Phase 3 analysis vs. the manual ground truth, scored with data-type-appropriate metrics (see [`../methodology.md`](../methodology.md)).
 
@@ -17,9 +17,9 @@ Macro-average over columns of the per-column score on cells where the GT has a v
 
 | Model | Macro (GT-present) | Micro (GT-present) |
 |---|--:|--:|
-| gpt-4o | 66.2% | 69.3% |
-| gemini-3.1-pro-preview | 66.6% | 69.0% |
-| claude-sonnet-4-6 | 66.2% | 68.6% |
+| gpt-4o | 70.5% | 73.8% |
+| gemini-3.1-pro-preview | 71.2% | 73.8% |
+| claude-sonnet-4-6 | 70.0% | 72.9% |
 
 ## Per-column score (GT-present) by model
 
@@ -30,7 +30,7 @@ Macro-average over columns of the per-column score on cells where the GT has a v
 | company_provider | name_norm_fuzzy | 83.3% | 83.3% | 83.3% |
 | company_founding_year | int_exact | 8.6% | 8.6% | 8.6% |
 | diga_listing_status | exact_norm | 100.0% | 100.0% | 100.0% |
-| diga_listing_date | iso_date | 0.0% | 0.0% | 0.0% |
+| diga_listing_date | iso_date | 80.0% | 80.0% | 80.0% |
 | category | concept_set | 71.6% | 50.5% | 69.7% |
 | risk_class | risk_class_norm | 100.0% | 100.0% | 100.0% |
 | clinical_area_icd10 | icd10_set | 87.0% | 87.0% | 87.0% |
@@ -39,10 +39,10 @@ Macro-average over columns of the per-column score on cells where the GT has a v
 | rating_on_appstore | float_tolerance | 80.0% | 80.0% | 80.0% |
 | reviews_on_appstore | int_exact | 7.1% | 7.1% | 7.1% |
 | evidence_type | exact_norm | 100.0% | 100.0% | 100.0% |
-| primary_end_point_duration_weeks | int_exact | 85.3% | 76.5% | 76.5% |
-| follow_up_after_primary_end_point | short_norm_tokenf1 | 3.2% | 9.8% | 9.3% |
+| primary_end_point_duration_weeks | int_exact | 85.3% | 79.4% | 79.4% |
+| follow_up_after_primary_end_point | duration_weeks_exact | 38.1% | 47.6% | 28.6% |
 | duration_additional_info | bertscore_tokenf1 | 70.3% | 85.4% | 85.0% |
-| study_size_participants | int_exact | 80.0% | 85.7% | 82.9% |
+| study_size_participants | int_exact | 77.1% | 82.9% | 80.0% |
 | intervention_and_control_group | bertscore_tokenf1 | 74.5% | 82.4% | 81.5% |
 | trial_arms | int_exact | 90.9% | 93.9% | 93.9% |
 | additional_info_about_trial_arms | bertscore_tokenf1 | 85.4% | 87.1% | 86.9% |

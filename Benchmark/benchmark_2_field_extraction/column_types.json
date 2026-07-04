@@ -30,7 +30,7 @@
     "reviews_on_appstore":               { "group": "numeric",     "metric": "int_exact" },
     "evidence_type":                     { "group": "categorical", "metric": "exact_norm" },
     "primary_end_point_duration_weeks":  { "group": "numeric",     "metric": "int_exact" },
-    "follow_up_after_primary_end_point": { "group": "short_mixed", "metric": "short_norm_tokenf1" },
+    "follow_up_after_primary_end_point": { "group": "duration",    "metric": "duration_weeks_exact" },
     "duration_additional_info":          { "group": "free_text",   "metric": "bertscore_tokenf1" },
     "study_size_participants":           { "group": "numeric",     "metric": "int_exact" },
     "intervention_and_control_group":    { "group": "free_text",   "metric": "bertscore_tokenf1" },
